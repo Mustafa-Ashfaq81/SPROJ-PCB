@@ -1,0 +1,48 @@
+# Cricket Data Science Analysis
+
+Welcome to the Cricket Data Science Analysis repository! This project delves into the world of cricket using data science techniques to analyze player performance, focusing on dismissals and runs scored against different categories of bowlers.
+
+## Introduction
+
+The current notebook, `Player_Dismissals.ipynb`, provides an in-depth analysis of player dismissals and runs scored against various types of bowlers. This dynamic notebook allows users to analyze data for players from Pakistan and India. By adjusting the `team` and `player_name` variables, users can easily switch between different teams and players to perform targeted analysis.
+
+## Features
+
+- **Dynamic Analysis**: The notebook allows for flexible analysis based on the team and player selected.
+- **Supported Teams**: Pakistan and India.
+- **Supported Players**:
+  - **Pakistan**:
+    - Azhar Ali
+    - Fakhar Zaman
+    - Babar Azam
+    - Shoaib Malik
+    - Mohammad Hafeez
+    - Imad Wasim
+    - Sarfaraz Ahmed
+    - Mohammad Amir
+    - Shadab Khan
+    - Ahmed Shahzad
+    - Faheem Ashraf
+    - Haris Sohail
+  - **India**:
+    - Rohit Sharma
+    - Shikhar Dhawan
+    - Virat Kohli
+    - Yuvraj Singh
+    - MS Dhoni
+    - Kedar Jadhav
+    - Hardik Pandya
+    - Ravindra Jadeja
+    - Dinesh Karthik
+    - Ajinkya Rahane
+
+## Authors
+
+- **Mustafa Ashfaq** - [GitHub Profile](https://github.com/Mustafa-Ashfaq81)
+- **Essa Shahid Arshad** - [GitHub Profile](https://github.com/essashahid)
+
+## Feedback and Ideas
+
+We welcome any feedback, suggestions, or ideas for improving this project. If you have any thoughts or would like to contribute to enhancing the analysis or adding new features, please reach out to us via our GitHub profiles linked above.
+
+Feel free to open an issue or submit a pull request with your contributions. Your input is invaluable in making this project better!
