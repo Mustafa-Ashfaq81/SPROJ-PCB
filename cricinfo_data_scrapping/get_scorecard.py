@@ -9,8 +9,8 @@ import logging
 import os
 import unicodedata
 import time
-import random  # Ensure 'random' is imported for User-Agent rotation
-from tqdm import tqdm  # For progress tracking
+import random
+from tqdm import tqdm
 
 # =========================
 # Configuration and Setup
@@ -21,7 +21,7 @@ logging.basicConfig(
     filename='scorecard_scraper.log',
     filemode='a',
     format='%(asctime)s - %(levelname)s - %(message)s',
-    level=logging.DEBUG  # Set to DEBUG for detailed logs
+    level=logging.DEBUG
 )
 
 # Create output directory if it doesn't exist
@@ -74,7 +74,7 @@ def parse_match_details(soup):
     Extract match details from the provided HTML snippet.
     """
     match_details = {}
-    
+
     # Locate the 'Match Details' section by finding the span with text 'Match Details'
     match_details_span = soup.find('span', string=re.compile('Match Details', re.I))
     if match_details_span:
@@ -86,18 +86,18 @@ def parse_match_details(soup):
                 cols = row.find_all('td')
                 if not cols:
                     continue  # Skip rows without <td>
-                
+
                 # Determine the type of row based on the first <td>
                 label = clean_text(cols[0].get_text(strip=True).replace(':', ''))
                 key_clean = label.lower().replace(' ', '_')
-                
+
                 # Handle different row structures based on label
                 if label == 'Extras' and len(cols) >= 3:
                     # Extract extras total from the third <td>
                     extras_total = clean_text(cols[2].get_text(strip=True))
                     match_details['extras'] = extras_total
                     logging.debug(f"Extracted Extras: {extras_total}")
-                
+
                 elif label == 'Total' and len(cols) >= 3:
                     # Extract overs from the second <td>
                     overs_div = cols[1].find('div')
@@ -105,28 +105,28 @@ def parse_match_details(soup):
                         overs_text = clean_text(overs_div.get_text(separator=' ', strip=True))
                         match_details['overs'] = overs_text
                         logging.debug(f"Extracted Overs: {overs_text}")
-                    
+
                     # Extract runs from the third <td>
                     runs_text = clean_text(cols[2].get_text(strip=True))
                     match_details['runs'] = runs_text
                     logging.debug(f"Extracted Runs: {runs_text}")
-                
+
                 elif label == 'Toss':
                     toss_text = clean_text(cols[1].get_text(separator=' ', strip=True))
                     match_details['toss'] = toss_text
                     logging.debug(f"Extracted Toss: {toss_text}")
-                
+
                 elif label == 'Series':
                     series_links = cols[1].find_all('a')
                     series = [clean_text(link.get_text(strip=True)) for link in series_links]
                     match_details['series'] = series
                     logging.debug(f"Extracted Series: {series}")
-                
+
                 elif label == 'Season':
                     season_text = clean_text(cols[1].get_text(strip=True))
                     match_details['season'] = season_text
                     logging.debug(f"Extracted Season: {season_text}")
-                
+
                 elif label == 'Player Of The Match':
                     potm_tag = cols[1].find('a')
                     if potm_tag:
@@ -137,29 +137,29 @@ def parse_match_details(soup):
                         potm_text = clean_text(cols[1].get_text(strip=True))
                         match_details['player_of_the_match'] = potm_text
                         logging.debug(f"Extracted Player Of The Match (No <a> tag): {potm_text}")
-                
+
                 elif label == 'Match number':
                     match_number_text = clean_text(cols[1].get_text(strip=True))
                     match_details['match_number'] = match_number_text
                     logging.debug(f"Extracted Match Number: {match_number_text}")
-                
+
                 elif label == 'Match days':
                     match_days_text = clean_text(cols[1].get_text(strip=True))
                     match_details['match_days'] = match_days_text
                     logging.debug(f"Extracted Match Days: {match_days_text}")
-                
+
                 elif label == 'ODI debut':
                     odi_debut_tags = cols[1].find_all('a')
                     odi_debut_players = [clean_text(tag.get_text(strip=True)) for tag in odi_debut_tags]
                     match_details['odi_debut'] = odi_debut_players
                     logging.debug(f"Extracted ODI Debut: {odi_debut_players}")
-                
+
                 elif label == 'Umpires':
                     umpire_tags = cols[1].find_all('a')
                     umpires = [clean_text(ump.get_text(strip=True)) for ump in umpire_tags]
                     match_details['umpires'] = umpires
                     logging.debug(f"Extracted Umpires: {umpires}")
-                
+
                 elif label == 'TV Umpire':
                     tv_umpire_tag = cols[1].find('a')
                     if tv_umpire_tag:
@@ -170,7 +170,7 @@ def parse_match_details(soup):
                         tv_umpire_text = clean_text(cols[1].get_text(strip=True))
                         match_details['tv_umpire'] = tv_umpire_text
                         logging.debug(f"Extracted TV Umpire (No <a> tag): {tv_umpire_text}")
-                
+
                 elif label == 'Match Referee':
                     referee_tag = cols[1].find('a')
                     if referee_tag:
@@ -181,17 +181,17 @@ def parse_match_details(soup):
                         referee_text = clean_text(cols[1].get_text(strip=True))
                         match_details['match_referee'] = referee_text
                         logging.debug(f"Extracted Match Referee (No <a> tag): {referee_text}")
-                
+
                 elif label == 'Points':
                     points_text = clean_text(cols[1].get_text(strip=True))
                     match_details['points'] = points_text
                     logging.debug(f"Extracted Points: {points_text}")
-                    
+
                 # Add more elif blocks here if there are additional fields to extract
-            
+
     else:
         logging.warning("Match Details section not found.")
-    
+
     return match_details
 
 def parse_scorecard_page(page_source, series_name, match_title, match_url):
@@ -296,10 +296,12 @@ def parse_scorecard_page(page_source, series_name, match_title, match_url):
             cols = row.find_all('td')
             if not cols:
                 continue  # Skip rows without <td>
-            
-            label = clean_text(cols[0].get_text(strip=True))
-            
-            if len(cols) == 8:
+
+            # Get the text in the first column
+            first_col_text = clean_text(cols[0].get_text(strip=True))
+            num_cols = len(cols)
+
+            if num_cols == 8:
                 # Batsman rows
                 batsman_name = clean_text(cols[0].get_text(strip=True))
                 dismissal = clean_text(cols[1].get_text(separator=' ', strip=True))
@@ -320,53 +322,50 @@ def parse_scorecard_page(page_source, series_name, match_title, match_url):
                     "strike_rate": strike_rate
                 })
                 logging.debug(f"Batting: {batsman_name}, Dismissal: {dismissal}, Runs: {runs}, Balls: {balls}, Strike Rate: {strike_rate}")
-            
-            elif label in ['Extras', 'Total']:
-                # Handle "Extras" and "Total" rows with multiple <td>s
-                try:
-                    if label == 'Extras' and len(cols) >= 3:
-                        extras_total = clean_text(cols[2].get_text(strip=True))
-                        innings_data['extras'] = extras_total
-                        logging.debug(f"Extras: {extras_total}")
-                    
-                    elif label == 'Total' and len(cols) >= 3:
-                        # Extract overs from the second <td>
-                        overs_div = cols[1].find('div')
-                        if overs_div:
-                            overs_text = clean_text(overs_div.get_text(separator=' ', strip=True))
-                            innings_data['overs'] = overs_text
-                            logging.debug(f"Overs: {overs_text}")
-                        else:
-                            # Fallback if <div> is not present
-                            overs_text = clean_text(cols[1].get_text(strip=True))
-                            innings_data['overs'] = overs_text
-                            logging.debug(f"Overs (no <div>): {overs_text}")
-                        
-                        # Extract runs from the third <td>
-                        runs_text = clean_text(cols[2].get_text(strip=True))
-                        innings_data['runs'] = runs_text
-                        logging.debug(f"Total Runs: {runs_text}")
-                except IndexError as e:
-                    logging.error(f"Error parsing {label} row: {e}")
-                    continue  # Skip to the next row
-            
-            elif label.startswith('Did not bat'):
+
+            elif first_col_text == 'Extras':
+                # Handle "Extras" row
+                if len(cols) >= 3:
+                    extras_total = clean_text(cols[2].get_text(strip=True))
+                    innings_data['extras'] = extras_total
+                    logging.debug(f"Extras: {extras_total}")
+
+            elif first_col_text == 'Total':
+                # Handle "Total" row
+                if len(cols) >= 3:
+                    # Extract overs from the second <td>
+                    overs_div = cols[1].find('div')
+                    if overs_div:
+                        overs_text = clean_text(overs_div.get_text(separator=' ', strip=True))
+                    else:
+                        overs_text = clean_text(cols[1].get_text(strip=True))
+                    innings_data['overs'] = overs_text
+                    logging.debug(f"Overs: {overs_text}")
+
+                    # Extract runs from the third <td>
+                    runs_text = clean_text(cols[2].get_text(strip=True))
+                    innings_data['runs'] = runs_text
+                    logging.debug(f"Total Runs: {runs_text}")
+
+            elif first_col_text.startswith('Did not bat'):
                 # Handle "Did not bat" row
-                try:
-                    did_not_bat_text = clean_text(cols[1].get_text(strip=True))
-                    innings_data['did_not_bat'] = did_not_bat_text
-                    logging.debug(f"Did Not Bat: {did_not_bat_text}")
-                except IndexError as e:
-                    logging.error(f"Error parsing Did not bat row: {e}")
-            
-            elif label.startswith('Fall of wickets'):
+                did_not_bat_text = clean_text(cols[0].get_text(separator=' ', strip=True))
+                # Remove the 'Did not bat' prefix
+                did_not_bat_text = did_not_bat_text.replace('Did not bat:', '').strip()
+                innings_data['did_not_bat'] = did_not_bat_text
+                logging.debug(f"Did Not Bat: {did_not_bat_text}")
+
+            elif first_col_text.startswith('Fall of wickets'):
                 # Handle "Fall of wickets" row
-                try:
-                    fall_of_wickets_text = clean_text(cols[1].get_text(strip=True))
-                    innings_data['fall_of_wickets'] = fall_of_wickets_text
-                    logging.debug(f"Fall of Wickets: {fall_of_wickets_text}")
-                except IndexError as e:
-                    logging.error(f"Error parsing Fall of wickets row: {e}")
+                fall_of_wickets_text = clean_text(cols[0].get_text(separator=' ', strip=True))
+                # Remove the 'Fall of wickets' prefix
+                fall_of_wickets_text = fall_of_wickets_text.replace('Fall of wickets:', '').strip()
+                innings_data['fall_of_wickets'] = fall_of_wickets_text
+                logging.debug(f"Fall of Wickets: {fall_of_wickets_text}")
+
+            else:
+                # Skip any other rows or handle additional cases if needed
+                continue
 
         # Find the corresponding bowling table
         # Assuming bowling table immediately follows the batting table
