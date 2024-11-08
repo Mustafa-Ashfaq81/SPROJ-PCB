@@ -29,7 +29,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Rohan Mustafa",
                     "runs": "88",
                     "balls": "60",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Richie Berrington",
-                    "dismissal": "c Patil b Mohammad Naveed",
+                    "dismissal": "c (wk)Patil b Mohammad Naveed",
                     "runs": "11",
                     "balls": "7",
                     "minutes": "6",
@@ -270,8 +270,8 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Swapnil Patil",
-                    "dismissal": "st Cross b Haq",
+                    "batsman": "Swapnil Patil (wk)",
+                    "dismissal": "st (wk)Cross b Haq",
                     "runs": "41",
                     "balls": "35",
                     "minutes": "62",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Shadeep Silva",
-                    "dismissal": "c Cross b Wardlaw",
+                    "dismissal": "c (wk)Cross b Wardlaw",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "12",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 53 runs"
+    "result": "Scotland won by 53 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Rob Taylor",
+            "Matt Machan",
+            "Richie Berrington",
+            "Matthew Cross (wk)",
+            "Freddie Coleman",
+            "Safyaan Sharif",
+            "Majid Haq",
+            "Iain Wardlaw",
+            "Preston Mommsen(c)",
+            "Calum MacLeod",
+            "Michael Leask"
+        ],
+        "United Arab Emirates": [
+            "Khurram Khan(c)",
+            "Manjula Guruge",
+            "Shadeep Silva",
+            "Rohan Mustafa",
+            "Mohammad Naveed",
+            "Amjad Ali",
+            "Swapnil Patil (wk)",
+            "Amjad Javed",
+            "Ahmed Raza",
+            "Shaiman Anwar",
+            "Salman Faris"
+        ]
+    }
 }

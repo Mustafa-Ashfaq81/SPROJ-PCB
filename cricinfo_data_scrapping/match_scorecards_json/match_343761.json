@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c Dhiman Ghosh b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Dhiman Ghosh b Mashrafe Mortaza",
                     "runs": "132",
                     "balls": "127",
                     "minutes": "225",
@@ -40,7 +40,7 @@
                     "strike_rate": "103.93"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Mahmudullah",
                     "runs": "100",
                     "balls": "81",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Bazid Khan",
-                    "dismissal": "run out (Mashrafe Mortaza/Dhiman Ghosh)",
+                    "dismissal": "run out (Mashrafe Mortaza/ (wk)Dhiman Ghosh)",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "9",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "st Dhiman Ghosh b Shakib Al Hasan",
+                    "dismissal": "st (wk)Dhiman Ghosh b Shakib Al Hasan",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "12",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "run out (Fawad Alam/Kamran Akmal)",
+                    "dismissal": "run out (Fawad Alam/ (wk)Kamran Akmal)",
                     "runs": "63",
                     "balls": "69",
                     "minutes": "103",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c Kamran Akmal b Shoaib Malik",
+                    "dismissal": "c (wk)Kamran Akmal b Shoaib Malik",
                     "runs": "42",
                     "balls": "49",
                     "minutes": "80",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful(c)",
-                    "dismissal": "run out (Fawad Alam/Kamran Akmal)",
+                    "dismissal": "run out (Fawad Alam/ (wk)Kamran Akmal)",
                     "runs": "16",
                     "balls": "28",
                     "minutes": "27",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Farhad Reza",
-                    "dismissal": "st Kamran Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "13",
                     "balls": "11",
                     "minutes": "17",
@@ -307,7 +307,7 @@
                     "strike_rate": "93.75"
                 },
                 {
-                    "batsman": "Dhiman Ghosh",
+                    "batsman": "Dhiman Ghosh (wk)",
                     "dismissal": "not out",
                     "runs": "18",
                     "balls": "11",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 23 runs"
+    "result": "Pakistan won by 23 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Sohail Khan",
+            "Misbah-ul-Haq",
+            "Bazid Khan",
+            "Mohammad Yousuf",
+            "Fawad Alam",
+            "Iftikhar Anjum",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Sohail Tanvir",
+            "Salman Butt",
+            "Shoaib Malik(c)"
+        ],
+        "Bangladesh": [
+            "Shakib Al Hasan",
+            "Shahriar Nafees",
+            "Farhad Reza",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Abdur Razzak",
+            "Aftab Ahmed",
+            "Shahadat Hossain",
+            "Dhiman Ghosh (wk)"
+        ]
+    }
 }

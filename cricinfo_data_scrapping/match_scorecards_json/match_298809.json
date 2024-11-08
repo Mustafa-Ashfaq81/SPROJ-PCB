@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "91",
                     "balls": "76",
                     "minutes": "111",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Runako Morton",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "13",
@@ -90,8 +90,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "batsman": "Denesh Ramdin (wk)",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "8",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Daren Sammy",
-                    "dismissal": "run out (Steyn/Boucher)",
+                    "dismissal": "run out (Steyn/ (wk)Boucher)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "3",
@@ -271,7 +271,7 @@
                     "strike_rate": "90.90"
                 }
             ],
-            "did_not_bat": "AB de Villiers , Jean-Paul Duminy , Mark Boucher , Albie Morkel , Andre Nel , Dale Steyn , Charl Langeveldt",
+            "did_not_bat": "AB de Villiers , Jean-Paul Duminy , Mark Boucher (wk) , Albie Morkel , Andre Nel , Dale Steyn , Charl Langeveldt",
             "fall_of_wickets": "Fall of wickets : 1 - 10 ( Graeme Smith , 2.3 ov ) , 2 - 185 ( Herschelle Gibbs , 25.2 ov )",
             "bowling": [
                 {
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 13 balls remaining) (D/L method)"
+    "result": "South Africa won by 8 wickets (with 13 balls remaining) (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Daren Powell",
+            "Daren Sammy",
+            "Devon Smith",
+            "Ravi Rampaul",
+            "Shivnarine Chanderpaul",
+            "Runako Morton",
+            "Rawl Lewis",
+            "Dwayne Bravo(c)",
+            "Brenton Parchment",
+            "Patrick Browne"
+        ],
+        "South Africa": [
+            "Dale Steyn",
+            "Charl Langeveldt",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Shaun Pollock"
+        ]
+    }
 }

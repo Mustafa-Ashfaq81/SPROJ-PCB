@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib",
-                    "dismissal": "c NJ O'Brien b McCarthy",
+                    "dismissal": "c (wk)NJ O'Brien b McCarthy",
                     "runs": "15",
                     "balls": "40",
                     "minutes": "-",
@@ -110,7 +110,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Shafiqullah",
+                    "batsman": "Shafiqullah (wk)",
                     "dismissal": "c Rankin b McCarthy",
                     "runs": "0",
                     "balls": "3",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "st Shafiqullah b Mohammad Nabi",
+                    "dismissal": "st (wk)Shafiqullah b Mohammad Nabi",
                     "runs": "35",
                     "balls": "47",
                     "minutes": "-",
@@ -267,7 +267,7 @@
                     "strike_rate": "74.46"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "lbw b Rashid Khan",
                     "runs": "5",
                     "balls": "13",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 5 wickets (with 72 balls remaining)"
+    "result": "Ireland won by 5 wickets (with 72 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Nasir Jamal",
+            "Noor Ali Zadran",
+            "Mujeeb Ur Rahman",
+            "Gulbadin Naib",
+            "Rashid Khan",
+            "Rahmat Shah",
+            "Javed Ahmadi",
+            "Shafiqullah (wk)",
+            "Asghar Afghan(c)",
+            "Shapoor Zadran"
+        ],
+        "Ireland": [
+            "William Porterfield(c)",
+            "Stuart Poynter",
+            "Gary Wilson",
+            "Niall O'Brien (wk)",
+            "Andy Balbirnie",
+            "Barry McCarthy",
+            "Kevin O'Brien",
+            "Tim Murtagh",
+            "Paul Stirling",
+            "George Dockrell",
+            "Boyd Rankin"
+        ]
+    }
 }

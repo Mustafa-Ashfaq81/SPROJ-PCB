@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Shafiq Sharif b Shahrulnizam Yusof",
+                    "dismissal": "c (wk)Shafiq Sharif b Shahrulnizam Yusof",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "-",
@@ -99,7 +99,7 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Shafiqullah",
+                    "batsman": "Shafiqullah (wk)",
                     "dismissal": "c Ahmed Faiz b Nasir Shafiq",
                     "runs": "20",
                     "balls": "18",
@@ -120,7 +120,7 @@
                 },
                 {
                     "batsman": "Aftab Alam",
-                    "dismissal": "c Shafiq Sharif b Navaratnam",
+                    "dismissal": "c (wk)Shafiq Sharif b Navaratnam",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Ahmad Faiz(c)",
-                    "dismissal": "c Shafiqullah b Shapoor Zadran",
+                    "dismissal": "c (wk)Shafiqullah b Shapoor Zadran",
                     "runs": "44",
                     "balls": "49",
                     "minutes": "-",
@@ -266,8 +266,8 @@
                     "strike_rate": "89.79"
                 },
                 {
-                    "batsman": "Shafiq Sharif",
-                    "dismissal": "c Shafiqullah b Amir Hamza",
+                    "batsman": "Shafiq Sharif (wk)",
+                    "dismissal": "c (wk)Shafiqullah b Amir Hamza",
                     "runs": "44",
                     "balls": "77",
                     "minutes": "-",
@@ -287,7 +287,7 @@
                 },
                 {
                     "batsman": "Suhan Alagaratnam",
-                    "dismissal": "c Shafiqullah b Noor Ali Zadran",
+                    "dismissal": "c (wk)Shafiqullah b Noor Ali Zadran",
                     "runs": "15",
                     "balls": "26",
                     "minutes": "-",
@@ -297,7 +297,7 @@
                 },
                 {
                     "batsman": "Khizar Hayat",
-                    "dismissal": "run out (Aftab Alam/Shafiqullah)",
+                    "dismissal": "run out (Aftab Alam/ (wk)Shafiqullah)",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "-",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "Malaysia won by 3 wickets (with 78 balls remaining)"
+    "result": "Malaysia won by 3 wickets (with 78 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Samiullah Shinwari",
+            "Aftab Alam",
+            "Usman Ghani",
+            "Noor Ali Zadran",
+            "Mohammad Nabi(c)",
+            "Nasir Jamal",
+            "Rahmat Shah",
+            "Shafiqullah (wk)",
+            "Mohammad Mujtaba",
+            "Shapoor Zadran",
+            "Amir Hamza"
+        ],
+        "Malaysia": [
+            "Anwar Arudin",
+            "Ahmad Faiz(c)",
+            "Suharril Fetri",
+            "Suresh Navaratnam",
+            "Hammadullah Khan",
+            "Shahrulnizam Yusof",
+            "Nasir Shafiq",
+            "Khizar Hayat",
+            "Shafiq Sharif (wk)",
+            "Suhan Alagaratnam",
+            "Hassan Ghulam"
+        ]
+    }
 }

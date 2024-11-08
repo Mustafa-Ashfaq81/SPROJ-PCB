@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Browne b Collins",
+                    "dismissal": "c (wk)Browne b Collins",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "-",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c Browne b Hinds",
+                    "dismissal": "c (wk)Browne b Hinds",
                     "runs": "31",
                     "balls": "49",
                     "minutes": "-",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Darren Lehmann",
-                    "dismissal": "c Browne b Collins",
+                    "dismissal": "c (wk)Browne b Collins",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "-",
@@ -92,7 +92,7 @@
                     "strike_rate": "88.37"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Bravo",
                     "runs": "32",
                     "balls": "49",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "c Browne b Bravo",
+                    "dismissal": "c (wk)Browne b Bravo",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "-",
@@ -230,7 +230,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "-",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Haddin b Hogg",
+                    "dismissal": "c (wk)Haddin b Hogg",
                     "runs": "39",
                     "balls": "62",
                     "minutes": "-",
@@ -299,7 +299,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Courtney Browne",
+                    "batsman": "Courtney Browne (wk)",
                     "dismissal": "lbw b Lee",
                     "runs": "0",
                     "balls": "1",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "Australia won by 73 runs"
+    "result": "Australia won by 73 runs",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Darren Lehmann",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Brad Haddin (wk)",
+            "Matthew Hayden",
+            "Simon Katich",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Clarke"
+        ],
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Marlon Samuels",
+            "Brian Lara(c)",
+            "Dwayne Bravo",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Pedro Collins",
+            "Shivnarine Chanderpaul",
+            "Ramnaresh Sarwan",
+            "Mervyn Dillon"
+        ]
+    }
 }

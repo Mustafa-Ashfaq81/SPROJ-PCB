@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Dravid b Ganguly",
+                    "dismissal": "c (wk)Dravid b Ganguly",
                     "runs": "16",
                     "balls": "18",
                     "minutes": "41",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "84",
                     "balls": "88",
                     "minutes": "121",
@@ -90,7 +90,7 @@
                     "strike_rate": "105.55"
                 },
                 {
-                    "batsman": "Ridley Jacobs(c)",
+                    "batsman": "Ridley Jacobs(c) (wk)",
                     "dismissal": "not out",
                     "runs": "9",
                     "balls": "7",
@@ -241,7 +241,7 @@
                     "strike_rate": "0.00"
                 }
             ],
-            "did_not_bat": "Rahul Dravid , Ajit Agarkar , Mohammad Kaif , Yuvraj Singh , Harbhajan Singh , Jai Prakash Yadav , Javagal Srinath , Ashish Nehra",
+            "did_not_bat": "Rahul Dravid (wk) , Ajit Agarkar , Mohammad Kaif , Yuvraj Singh , Harbhajan Singh , Jai Prakash Yadav , Javagal Srinath , Ashish Nehra",
             "fall_of_wickets": "Fall of wickets : 1 - 196 ( Sourav Ganguly , 26.4 ov )",
             "bowling": [
                 {
@@ -331,5 +331,33 @@
             ]
         }
     ],
-    "result": "India won by 81 runs (D/L method)"
+    "result": "India won by 81 runs (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Mervyn Dillon",
+            "Mahendra Nagamootoo",
+            "Cameron Cuffy",
+            "Shivnarine Chanderpaul",
+            "Ridley Jacobs(c) (wk)",
+            "Vasbert Drakes"
+        ],
+        "India": [
+            "Ajit Agarkar",
+            "Rahul Dravid (wk)",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Javagal Srinath",
+            "Yuvraj Singh",
+            "Jai Prakash Yadav",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag",
+            "Harbhajan Singh"
+        ]
+    }
 }

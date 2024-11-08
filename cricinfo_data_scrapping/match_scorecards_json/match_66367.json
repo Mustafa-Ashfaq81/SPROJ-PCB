@@ -31,7 +31,7 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Kaif b Harbhajan Singh",
                     "runs": "41",
                     "balls": "30",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "21",
                     "balls": "36",
                     "minutes": "41",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Gilchrist b Clarke",
+                    "dismissal": "c (wk)Gilchrist b Clarke",
                     "runs": "9",
                     "balls": "15",
                     "minutes": "13",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "20",
@@ -302,7 +302,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "c Clarke b Hogg",
                     "runs": "16",
                     "balls": "31",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "Australia won by 77 runs"
+    "result": "Australia won by 77 runs",
+    "playing_xi": {
+        "Australia": [
+            "Brad Williams",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Nathan Bracken",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Parthiv Patel (wk)",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Zaheer Khan",
+            "Rahul Dravid(c)",
+            "Virender Sehwag",
+            "Harbhajan Singh"
+        ]
+    }
 }

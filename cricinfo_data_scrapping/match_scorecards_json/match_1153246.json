@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Ambati Rayudu",
-                    "dismissal": "c McKechnie b Ehsan Nawaz",
+                    "dismissal": "c (wk)McKechnie b Ehsan Nawaz",
                     "runs": "60",
                     "balls": "70",
                     "minutes": "-",
@@ -74,8 +74,8 @@
                     "strike_rate": "86.84"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "c McKechnie b Ehsan Khan",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "c (wk)McKechnie b Ehsan Khan",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Babar Hayat",
-                    "dismissal": "c Dhoni b Chahal",
+                    "dismissal": "c (wk)Dhoni b Chahal",
                     "runs": "18",
                     "balls": "20",
                     "minutes": "-",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Christopher Carter",
-                    "dismissal": "c Dhoni b Ahmed",
+                    "dismissal": "c (wk)Dhoni b Ahmed",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "-",
@@ -305,8 +305,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Scott McKechnie",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "batsman": "Scott McKechnie (wk)",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "7",
                     "balls": "6",
                     "minutes": "-",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "India won by 26 runs"
+    "result": "India won by 26 runs",
+    "playing_xi": {
+        "India": [
+            "Dinesh Karthik",
+            "Shardul Thakur",
+            "Kuldeep Yadav",
+            "Rohit Sharma(c)",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Kedar Jadhav",
+            "Khaleel Ahmed",
+            "MS Dhoni (wk)",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ],
+        "Hong Kong": [
+            "Ehsan Nawaz",
+            "Aizaz Khan",
+            "Scott McKechnie (wk)",
+            "Tanwir Afzal",
+            "Kinchit Shah",
+            "Christopher Carter",
+            "Babar Hayat",
+            "Nadeem Ahmed",
+            "Nizakat Khan",
+            "Ehsan Khan",
+            "Anshy Rath(c)"
+        ]
+    }
 }

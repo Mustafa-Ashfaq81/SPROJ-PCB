@@ -93,7 +93,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Ebrahim b Chigumbura",
                     "runs": "80",
                     "balls": "75",
@@ -225,7 +225,7 @@
             "batting": [
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c GO Jones b Gough",
+                    "dismissal": "c (wk)GO Jones b Gough",
                     "runs": "10",
                     "balls": "26",
                     "minutes": "34",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "c GO Jones b Gough",
+                    "dismissal": "c (wk)GO Jones b Gough",
                     "runs": "4",
                     "balls": "13",
                     "minutes": "13",
@@ -274,7 +274,7 @@
                     "strike_rate": "79.51"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "c Prior b Collingwood",
                     "runs": "23",
                     "balls": "57",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "England won by 74 runs"
+    "result": "England won by 74 runs",
+    "playing_xi": {
+        "England": [
+            "Michael Vaughan(c)",
+            "Gareth Batty",
+            "Simon Jones",
+            "Ian Bell",
+            "Darren Gough",
+            "Alex Wharf",
+            "Kevin Pietersen",
+            "Matt Prior",
+            "Paul Collingwood",
+            "Geraint Jones (wk)",
+            "Andrew Strauss"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Dion Ebrahim",
+            "Mark Vermeulen",
+            "Prosper Utseya",
+            "Ed Rainsford",
+            "Tinashe Panyangara",
+            "Mluleki Nkala",
+            "Stuart Matsikenyeri",
+            "Tatenda Taibu(c) (wk)",
+            "Hamilton Masakadza"
+        ]
+    }
 }

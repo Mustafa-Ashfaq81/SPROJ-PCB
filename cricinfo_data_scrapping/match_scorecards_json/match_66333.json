@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Daren Ganga",
-                    "dismissal": "c Sangakkara b Arnold",
+                    "dismissal": "c (wk)Sangakkara b Arnold",
                     "runs": "52",
                     "balls": "84",
                     "minutes": "120",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "14",
@@ -102,7 +102,7 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "not out",
                     "runs": "25",
                     "balls": "29",
@@ -293,7 +293,7 @@
                     "strike_rate": "112.76"
                 }
             ],
-            "did_not_bat": "Russel Arnold , Kumar Sangakkara , Charitha Buddhika , Upul Chandana , Nuwan Zoysa , Prabath Nissanka , Muthiah Muralidaran",
+            "did_not_bat": "Russel Arnold , Kumar Sangakkara (wk) , Charitha Buddhika , Upul Chandana , Nuwan Zoysa , Prabath Nissanka , Muthiah Muralidaran",
             "fall_of_wickets": "Fall of wickets : 1 - 36 ( Avishka Gunawardene , 5.6 ov ) , 2 - 52 ( Sanath Jayasuriya , 11.4 ov )",
             "bowling": [
                 {
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 41 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 41 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Daren Ganga",
+            "Marlon Samuels",
+            "Carl Hooper(c)",
+            "Brian Lara",
+            "Neil McGarrell",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Ricardo Powell",
+            "Corey Collymore",
+            "Jermaine Lawson"
+        ],
+        "Sri Lanka": [
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Avishka Gunawardene",
+            "Kumar Sangakkara (wk)",
+            "Prabath Nissanka",
+            "Charitha Buddhika",
+            "Nuwan Zoysa",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)"
+        ]
+    }
 }

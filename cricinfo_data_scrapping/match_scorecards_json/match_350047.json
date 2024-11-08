@@ -60,8 +60,8 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Matt Prior",
-                    "dismissal": "st Paine b Hauritz",
+                    "batsman": "Matt Prior (wk)",
+                    "dismissal": "st (wk)Paine b Hauritz",
                     "runs": "37",
                     "balls": "44",
                     "minutes": "47",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Paine b Johnson",
+                    "dismissal": "c (wk)Paine b Johnson",
                     "runs": "31",
                     "balls": "41",
                     "minutes": "57",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "run out (Paine)",
+                    "dismissal": "run out ( (wk)Paine)",
                     "runs": "18",
                     "balls": "9",
                     "minutes": "14",
@@ -247,7 +247,7 @@
                     "strike_rate": "105.88"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "c Rashid b Bresnan",
                     "runs": "16",
                     "balls": "29",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 10 balls remaining)"
+    "result": "Australia won by 4 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Joe Denly",
+            "Eoin Morgan",
+            "Dimitri Mascarenhas",
+            "Adil Rashid",
+            "Tim Bresnan",
+            "Matt Prior (wk)",
+            "Ryan Sidebottom",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Andrew Strauss(c)",
+            "Owais Shah"
+        ],
+        "Australia": [
+            "Peter Siddle",
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Cameron White",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Nathan Hauritz",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Nathan Bracken"
+        ]
+    }
 }

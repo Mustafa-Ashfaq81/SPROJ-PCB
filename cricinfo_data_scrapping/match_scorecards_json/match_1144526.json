@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Dimuth Karunaratne(c)",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "10",
                     "balls": "17",
                     "minutes": "16",
@@ -42,8 +42,8 @@
                     "strike_rate": "58.82"
                 },
                 {
-                    "batsman": "Kusal Perera",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "batsman": "Kusal Perera (wk)",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "18",
                     "balls": "14",
                     "minutes": "36",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Avishka Fernando",
-                    "dismissal": "c Dhoni b Pandya",
+                    "dismissal": "c (wk)Dhoni b Pandya",
                     "runs": "20",
                     "balls": "21",
                     "minutes": "42",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "15",
@@ -206,7 +206,7 @@
             "batting": [
                 {
                     "batsman": "KL Rahul",
-                    "dismissal": "c MDKJ Perera b Malinga",
+                    "dismissal": "c (wk)MDKJ Perera b Malinga",
                     "runs": "111",
                     "balls": "118",
                     "minutes": "180",
@@ -255,7 +255,7 @@
                     "strike_rate": "175.00"
                 }
             ],
-            "did_not_bat": "MS Dhoni , Dinesh Karthik , Ravindra Jadeja , Bhuvneshwar Kumar , Jasprit Bumrah , Kuldeep Yadav",
+            "did_not_bat": "MS Dhoni (wk) , Dinesh Karthik , Ravindra Jadeja , Bhuvneshwar Kumar , Jasprit Bumrah , Kuldeep Yadav",
             "fall_of_wickets": "Fall of wickets : 1 - 189 ( Rohit Sharma , 30.1 ov ) , 2 - 244 ( KL Rahul , 40.6 ov ) , 3 - 253 ( Rishabh Pant , 41.6 ov )",
             "bowling": [
                 {
@@ -331,5 +331,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 39 balls remaining)"
+    "result": "India won by 7 wickets (with 39 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Angelo Mathews",
+            "Kasun Rajitha",
+            "Kusal Perera (wk)",
+            "Avishka Fernando",
+            "Isuru Udana",
+            "Dimuth Karunaratne(c)",
+            "Lasith Malinga",
+            "Kusal Mendis",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Dhananjaya de Silva"
+        ],
+        "India": [
+            "Rishabh Pant",
+            "Rohit Sharma",
+            "KL Rahul",
+            "Dinesh Karthik",
+            "Jasprit Bumrah",
+            "Kuldeep Yadav",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli(c)",
+            "Hardik Pandya",
+            "MS Dhoni (wk)",
+            "Ravindra Jadeja"
+        ]
+    }
 }

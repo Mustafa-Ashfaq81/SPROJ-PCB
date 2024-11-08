@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Dhoni b Pandya",
+                    "dismissal": "c (wk)Dhoni b Pandya",
                     "runs": "72",
                     "balls": "84",
                     "minutes": "103",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Dhoni b Mishra",
+                    "dismissal": "c (wk)Dhoni b Mishra",
                     "runs": "41",
                     "balls": "59",
                     "minutes": "81",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "run out (Kulkarni/Dhoni)",
+                    "dismissal": "run out (Kulkarni/ (wk)Dhoni)",
                     "runs": "35",
                     "balls": "58",
                     "minutes": "85",
@@ -80,7 +80,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "BJ Watling",
+                    "batsman": "BJ Watling (wk)",
                     "dismissal": "c Sharma b Kulkarni",
                     "runs": "14",
                     "balls": "21",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Watling b Southee",
+                    "dismissal": "c (wk)Watling b Southee",
                     "runs": "11",
                     "balls": "19",
                     "minutes": "15",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Watling b Sodhi",
+                    "dismissal": "c (wk)Watling b Sodhi",
                     "runs": "45",
                     "balls": "51",
                     "minutes": "64",
@@ -247,7 +247,7 @@
                     "strike_rate": "88.23"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Neesham",
                     "runs": "11",
                     "balls": "31",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Amit Mishra",
-                    "dismissal": "run out (Santner/Watling)",
+                    "dismissal": "run out (Santner/ (wk)Watling)",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "29",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 19 runs"
+    "result": "New Zealand won by 19 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Tom Latham",
+            "Trent Boult",
+            "Ish Sodhi",
+            "BJ Watling (wk)",
+            "Ross Taylor",
+            "Anton Devcich",
+            "Tim Southee",
+            "James Neesham"
+        ],
+        "India": [
+            "Dhawal Kulkarni",
+            "Amit Mishra",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Manish Pandey",
+            "Kedar Jadhav",
+            "Axar Patel",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Umesh Yadav"
+        ]
+    }
 }

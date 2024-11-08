@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Hannan Sarkar",
-                    "dismissal": "c Jacobs b Rampaul",
+                    "dismissal": "c (wk)Jacobs b Rampaul",
                     "runs": "4",
                     "balls": "13",
                     "minutes": "15",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "c Jacobs b DR Smith",
+                    "dismissal": "c (wk)Jacobs b DR Smith",
                     "runs": "17",
                     "balls": "31",
                     "minutes": "41",
@@ -113,7 +113,7 @@
                     "strike_rate": "75.00"
                 }
             ],
-            "did_not_bat": "Khaled Mashud , Mohammad Rafique , Tapash Baisya",
+            "did_not_bat": "Khaled Mashud (wk) , Mohammad Rafique , Tapash Baisya",
             "fall_of_wickets": "Fall of wickets : 1 - 11 ( Hannan Sarkar , 3.3 ov ) , 2 - 18 ( Mohammad Ashraful , 4.5 ov ) , 3 - 65 ( Rajin Saleh , 15.3 ov ) , 4 - 89 ( Faisal Hossain , 19.1 ov ) , 5 - 93 ( Habibul Bashar , 19.4 ov ) , 6 - 102 ( Khaled Mahmud , 21.4 ov ) , 7 - 118 ( Mushfiqur Rahman , 24.6 ov )",
             "bowling": [
                 {
@@ -260,7 +260,7 @@
                     "strike_rate": "70.00"
                 }
             ],
-            "did_not_bat": "Sylvester Joseph , Dwayne Bravo , Ridley Jacobs , Ian Bradshaw , Ravi Rampaul , Tino Best",
+            "did_not_bat": "Sylvester Joseph , Dwayne Bravo , Ridley Jacobs (wk) , Ian Bradshaw , Ravi Rampaul , Tino Best",
             "fall_of_wickets": "Fall of wickets : 1 - 21 ( Ricardo Powell , 3.1 ov ) , 2 - 52 ( Dwayne Smith , 11.1 ov ) , 3 - 107 ( Shivnarine Chanderpaul , 21.5 ov )",
             "bowling": [
                 {
@@ -336,5 +336,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 5 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Hannan Sarkar",
+            "Khaled Mahmud",
+            "Manzarul Islam",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Khaled Mashud (wk)",
+            "Habibul Bashar(c)",
+            "Faisal Hossain",
+            "Mohammad Rafique",
+            "Mushfiqur Rahman"
+        ],
+        "West Indies": [
+            "Ravi Rampaul",
+            "Ian Bradshaw",
+            "Shivnarine Chanderpaul",
+            "Dwayne Bravo",
+            "Tino Best",
+            "Devon Smith",
+            "Ridley Jacobs (wk)",
+            "Ricardo Powell",
+            "Ramnaresh Sarwan(c)",
+            "Sylvester Joseph",
+            "Dwayne Smith"
+        ]
+    }
 }

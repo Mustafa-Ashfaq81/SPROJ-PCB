@@ -51,7 +51,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "b NL McCullum",
                     "runs": "111",
                     "balls": "128",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Thilan Samaraweera",
-                    "dismissal": "c BB McCullum b Styris",
+                    "dismissal": "c (wk)BB McCullum b Styris",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "8",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Lasith Malinga",
-                    "dismissal": "c BB McCullum b Oram",
+                    "dismissal": "c (wk)BB McCullum b Oram",
                     "runs": "6",
                     "balls": "4",
                     "minutes": "4",
@@ -276,7 +276,7 @@
                     "strike_rate": "56.52"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Jayawardene b Mathews",
                     "runs": "14",
                     "balls": "16",
@@ -287,7 +287,7 @@
                 },
                 {
                     "batsman": "Jesse Ryder",
-                    "dismissal": "c Sangakkara b Mendis",
+                    "dismissal": "c (wk)Sangakkara b Mendis",
                     "runs": "19",
                     "balls": "23",
                     "minutes": "55",
@@ -307,7 +307,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "12",
@@ -466,5 +466,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 112 runs"
+    "result": "Sri Lanka won by 112 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Chamara Silva",
+            "Muthiah Muralidaran",
+            "Ajantha Mendis",
+            "Kumar Sangakkara(c) (wk)",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Thilan Samaraweera"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Kane Williamson",
+            "Martin Guptill",
+            "Jesse Ryder",
+            "James Franklin",
+            "Hamish Bennett",
+            "Nathan McCullum",
+            "Ross Taylor(c)",
+            "Tim Southee",
+            "Jacob Oram",
+            "Scott Styris"
+        ]
+    }
 }

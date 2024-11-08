@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "96",
                     "balls": "95",
                     "minutes": "130",
@@ -70,7 +70,7 @@
                     "strike_rate": "146.77"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Young b Phillips",
                     "runs": "38",
                     "balls": "24",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Will Young",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "12",
                     "balls": "13",
                     "minutes": "20",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Daryl Mitchell",
-                    "dismissal": "c Buttler b Curran",
+                    "dismissal": "c (wk)Buttler b Curran",
                     "runs": "17",
                     "balls": "31",
                     "minutes": "51",
@@ -291,7 +291,7 @@
                     "strike_rate": "54.83"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "b Woakes",
                     "runs": "3",
                     "balls": "12",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Kyle Jamieson",
-                    "dismissal": "c Buttler b Topley",
+                    "dismissal": "c (wk)Buttler b Topley",
                     "runs": "14",
                     "balls": "25",
                     "minutes": "32",
@@ -352,7 +352,7 @@
                 },
                 {
                     "batsman": "Ben Lister",
-                    "dismissal": "st Buttler b Livingstone",
+                    "dismissal": "st (wk)Buttler b Livingstone",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "7",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "England won by 181 runs"
+    "result": "England won by 181 runs",
+    "playing_xi": {
+        "England": [
+            "Moeen Ali",
+            "Chris Woakes",
+            "Gus Atkinson",
+            "Sam Curran",
+            "Jos Buttler(c) (wk)",
+            "Ben Stokes",
+            "Dawid Malan",
+            "Reece Topley",
+            "Jonny Bairstow",
+            "Liam Livingstone",
+            "Joe Root"
+        ],
+        "New Zealand": [
+            "Ben Lister",
+            "Tom Latham(c) (wk)",
+            "Will Young",
+            "Trent Boult",
+            "Glenn Phillips",
+            "Rachin Ravindra",
+            "Lockie Ferguson",
+            "Kyle Jamieson",
+            "Devon Conway",
+            "Daryl Mitchell",
+            "Henry Nicholls"
+        ]
+    }
 }

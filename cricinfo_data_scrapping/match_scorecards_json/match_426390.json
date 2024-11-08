@@ -40,7 +40,7 @@
                     "strike_rate": "75.92"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "c Morgan b Bresnan",
                     "runs": "8",
                     "balls": "22",
@@ -212,7 +212,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Paine b Tait",
+                    "dismissal": "c (wk)Paine b Tait",
                     "runs": "37",
                     "balls": "45",
                     "minutes": "61",
@@ -221,7 +221,7 @@
                     "strike_rate": "82.22"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "b Harris",
                     "runs": "12",
                     "balls": "23",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Paine b Harris",
+                    "dismissal": "c (wk)Paine b Harris",
                     "runs": "47",
                     "balls": "56",
                     "minutes": "56",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Graeme Swann",
-                    "dismissal": "c Paine b Bollinger",
+                    "dismissal": "c (wk)Paine b Bollinger",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "2",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 78 runs"
+    "result": "Australia won by 78 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Doug Bollinger",
+            "Steven Smith",
+            "Ryan Harris",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Michael Hussey",
+            "Shaun Tait",
+            "Michael Clarke"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Luke Wright",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

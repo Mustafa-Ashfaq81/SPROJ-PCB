@@ -50,7 +50,7 @@
                     "strike_rate": "97.65"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Anamul Haque b Abdur Razzak",
                     "runs": "48",
                     "balls": "49",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "11",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Jahurul Islam",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "26",
                     "balls": "18",
                     "minutes": "26",
@@ -253,7 +253,7 @@
                     "strike_rate": "144.44"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "run out (NLTC Perera)",
                     "runs": "9",
                     "balls": "8",
@@ -284,7 +284,7 @@
                 },
                 {
                     "batsman": "Mominul Haque",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "11",
                     "balls": "9",
                     "minutes": "15",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 3 wickets (with 6 balls remaining) (D/L method)"
+    "result": "Bangladesh won by 3 wickets (with 6 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Nuwan Kulasekara",
+            "Lasith Malinga",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Angelo Mathews(c)"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Mominul Haque",
+            "Shahadat Hossain",
+            "Mohammad Ashraful",
+            "Jahurul Islam",
+            "Mushfiqur Rahim(c) (wk)",
+            "Nasir Hossain",
+            "Anamul Haque",
+            "Abdur Razzak",
+            "Sohag Gazi",
+            "Ziaur Rahman"
+        ]
+    }
 }

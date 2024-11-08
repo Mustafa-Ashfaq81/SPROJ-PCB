@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "BJ Watling",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "55",
                     "balls": "68",
                     "minutes": "104",
@@ -85,7 +85,7 @@
                     "strike_rate": "72.72"
                 },
                 {
-                    "batsman": "Gareth Hopkins",
+                    "batsman": "Gareth Hopkins (wk)",
                     "dismissal": "c Kapugedera b Malinga",
                     "runs": "11",
                     "balls": "22",
@@ -248,7 +248,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Guptill b Styris",
                     "runs": "48",
                     "balls": "62",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c Hopkins b Southee",
+                    "dismissal": "c (wk)Hopkins b Southee",
                     "runs": "7",
                     "balls": "3",
                     "minutes": "7",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 3 wickets (with 55 balls remaining)"
+    "result": "Sri Lanka won by 3 wickets (with 55 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Andy McKay",
+            "Martin Guptill",
+            "BJ Watling",
+            "Gareth Hopkins (wk)",
+            "Daryl Tuffey",
+            "Ross Taylor(c)",
+            "Kyle Mills",
+            "Scott Styris",
+            "Kane Williamson",
+            "Tim Southee",
+            "Nathan McCullum"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Thilan Samaraweera",
+            "Kumar Sangakkara(c) (wk)",
+            "Ajantha Mendis",
+            "Rangana Herath",
+            "Upul Tharanga",
+            "Angelo Mathews",
+            "Chamara Kapugedera",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara"
+        ]
+    }
 }

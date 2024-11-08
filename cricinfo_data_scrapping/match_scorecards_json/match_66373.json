@@ -30,7 +30,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Agarkar",
                     "runs": "7",
                     "balls": "12",
@@ -241,7 +241,7 @@
                     "strike_rate": "84.61"
                 },
                 {
-                    "batsman": "Rahul Dravid(c)",
+                    "batsman": "Rahul Dravid(c) (wk)",
                     "dismissal": "b Clarke",
                     "runs": "49",
                     "balls": "69",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Australia won by 37 runs"
+    "result": "Australia won by 37 runs",
+    "playing_xi": {
+        "Australia": [
+            "Brad Williams",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Ian Harvey",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Nathan Bracken",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "VVS Laxman",
+            "Murali Kartik",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Rahul Dravid(c) (wk)",
+            "Hemang Badani",
+            "Virender Sehwag",
+            "Harbhajan Singh",
+            "Aavishkar Salvi"
+        ]
+    }
 }

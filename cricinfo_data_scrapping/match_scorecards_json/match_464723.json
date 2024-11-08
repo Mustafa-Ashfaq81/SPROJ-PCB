@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Andrew Poynter",
-                    "dismissal": "st Bagai b Baidwan",
+                    "dismissal": "st (wk)Bagai b Baidwan",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "20",
@@ -99,7 +99,7 @@
                     "strike_rate": "92.85"
                 },
                 {
-                    "batsman": "Rory McCann",
+                    "batsman": "Rory McCann (wk)",
                     "dismissal": "c Rizwan Cheema b Baidwan",
                     "runs": "17",
                     "balls": "21",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Rizwan Cheema",
-                    "dismissal": "c McCann b Johnston",
+                    "dismissal": "c (wk)McCann b Johnston",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -280,7 +280,7 @@
                     "strike_rate": "74.73"
                 },
                 {
-                    "batsman": "Ashish Bagai(c)",
+                    "batsman": "Ashish Bagai(c) (wk)",
                     "dismissal": "c Mooney b Johnston",
                     "runs": "64",
                     "balls": "85",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "Canada won by 4 runs (D/L method)"
+    "result": "Canada won by 4 runs (D/L method)",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Andrew White",
+            "Andre Botha",
+            "Trent Johnston(c)",
+            "Nigel Jones",
+            "Albert van der Merwe",
+            "Paul Stirling",
+            "Rory McCann (wk)",
+            "John Mooney",
+            "Andrew Poynter",
+            "Kevin O'Brien"
+        ],
+        "Canada": [
+            "Jimmy Hansra",
+            "Hiral Patel",
+            "Balaji Rao",
+            "Khurram Chohan",
+            "Ruvindu Gunasekera",
+            "Zubin Surkari",
+            "Henry Osinde",
+            "Ashish Bagai(c) (wk)",
+            "Rizwan Cheema",
+            "Parth Desai",
+            "Harvir Baidwan"
+        ]
+    }
 }

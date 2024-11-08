@@ -28,7 +28,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c O'Brien b McBrine",
                     "runs": "101",
                     "balls": "88",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Mohammad Shahzad b Gulbadin Naib",
+                    "dismissal": "c (wk)Mohammad Shahzad b Gulbadin Naib",
                     "runs": "20",
                     "balls": "28",
                     "minutes": "40",
@@ -269,7 +269,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "c Rashid Khan b Gulbadin Naib",
                     "runs": "34",
                     "balls": "53",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 126 runs"
+    "result": "Afghanistan won by 126 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Asghar Afghan",
+            "Aftab Alam",
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Mujeeb Ur Rahman",
+            "Najibullah Zadran",
+            "Hashmatullah Shahidi",
+            "Rahmat Shah",
+            "Rashid Khan",
+            "Gulbadin Naib(c)",
+            "Mohammad Shahzad (wk)"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "Boyd Rankin",
+            "Tim Murtagh",
+            "Andy McBrine",
+            "William Porterfield(c)",
+            "James McCollum",
+            "Barry McCarthy",
+            "Mark Adair",
+            "Gary Wilson (wk)",
+            "Paul Stirling",
+            "Kevin O'Brien"
+        ]
+    }
 }

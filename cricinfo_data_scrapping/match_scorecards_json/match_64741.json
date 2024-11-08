@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c Ratra b Agarkar",
+                    "dismissal": "c (wk)Ratra b Agarkar",
                     "runs": "36",
                     "balls": "34",
                     "minutes": "46",
@@ -113,7 +113,7 @@
                     "strike_rate": "63.33"
                 },
                 {
-                    "batsman": "James Foster",
+                    "batsman": "James Foster (wk)",
                     "dismissal": "not out",
                     "runs": "9",
                     "balls": "15",
@@ -134,7 +134,7 @@
                 },
                 {
                     "batsman": "Matthew Hoggard",
-                    "dismissal": "run out (Mongia/Ratra)",
+                    "dismissal": "run out (Mongia/ (wk)Ratra)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "2",
@@ -285,7 +285,7 @@
                 },
                 {
                     "batsman": "Dinesh Mongia",
-                    "dismissal": "c Foster b Hoggard",
+                    "dismissal": "c (wk)Foster b Hoggard",
                     "runs": "21",
                     "balls": "26",
                     "minutes": "41",
@@ -295,7 +295,7 @@
                 },
                 {
                     "batsman": "Hemang Badani",
-                    "dismissal": "c Foster b Gough",
+                    "dismissal": "c (wk)Foster b Gough",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "42",
@@ -314,7 +314,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Ajay Ratra",
+                    "batsman": "Ajay Ratra (wk)",
                     "dismissal": "not out",
                     "runs": "29",
                     "balls": "32",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 20 balls remaining)"
+    "result": "India won by 4 wickets (with 20 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Matthew Hoggard",
+            "Darren Gough",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Ben Hollioake",
+            "Nasser Hussain(c)",
+            "Michael Vaughan",
+            "Marcus Trescothick",
+            "Andrew Flintoff",
+            "Jeremy Snape",
+            "James Foster (wk)"
+        ],
+        "India": [
+            "Hemang Badani",
+            "Ajay Ratra (wk)",
+            "Harbhajan Singh",
+            "Sachin Tendulkar",
+            "Sanjay Bangar",
+            "VVS Laxman",
+            "Ajit Agarkar",
+            "Javagal Srinath",
+            "Anil Kumble (c)",
+            "Dinesh Mongia",
+            "Virender Sehwag"
+        ]
+    }
 }

@@ -100,7 +100,7 @@
                     "strike_rate": "175.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "7",
                     "balls": "7",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "1",
                     "balls": "13",
                     "minutes": "11",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Haddin b Starc",
+                    "dismissal": "c (wk)Haddin b Starc",
                     "runs": "44",
                     "balls": "68",
                     "minutes": "87",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Haddin b Faulkner",
+                    "dismissal": "c (wk)Haddin b Faulkner",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "20",
@@ -267,7 +267,7 @@
                     "strike_rate": "63.63"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "run out (Maxwell)",
                     "runs": "65",
                     "balls": "65",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Australia won by 95 runs"
+    "result": "Australia won by 95 runs",
+    "playing_xi": {
+        "Australia": [
+            "James Faulkner",
+            "Michael Clarke(c)",
+            "Aaron Finch",
+            "Brad Haddin (wk)",
+            "David Warner",
+            "Glenn Maxwell",
+            "Steven Smith",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Mitchell Johnson",
+            "Shane Watson"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "Mohammed Shami",
+            "Shikhar Dhawan",
+            "Umesh Yadav",
+            "Mohit Sharma",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina"
+        ]
+    }
 }

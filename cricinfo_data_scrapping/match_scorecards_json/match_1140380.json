@@ -80,7 +80,7 @@
                     "strike_rate": "68.18"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Pradeep",
                     "runs": "28",
                     "balls": "25",
@@ -237,8 +237,8 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
-                    "dismissal": "c Buttler b Stone",
+                    "batsman": "Niroshan Dickwella (wk)",
+                    "dismissal": "c (wk)Buttler b Stone",
                     "runs": "9",
                     "balls": "9",
                     "minutes": "15",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "6",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Dasun Shanaka",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "18",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "England won by 31 runs (D/L method)"
+    "result": "England won by 31 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Liam Dawson",
+            "Moeen Ali",
+            "Jason Roy",
+            "Joe Root",
+            "Jonny Bairstow",
+            "Chris Woakes",
+            "Olly Stone",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Eoin Morgan(c)",
+            "Ben Stokes"
+        ],
+        "Sri Lanka": [
+            "Dasun Shanaka",
+            "Akila Dananjaya",
+            "Upul Tharanga",
+            "Dhananjaya de Silva",
+            "Dinesh Chandimal(c)",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Lakshan Sandakan",
+            "Niroshan Dickwella (wk)",
+            "Nuwan Pradeep",
+            "Lasith Malinga"
+        ]
+    }
 }

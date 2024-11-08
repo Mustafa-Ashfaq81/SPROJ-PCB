@@ -51,7 +51,7 @@
                     "strike_rate": "91.42"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "run out (Rashid Khan)",
                     "runs": "92",
                     "balls": "84",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Sadeera Samarawickrama",
-                    "dismissal": "c Rahmanullah Gurbaz b Gulbadin Naib",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Gulbadin Naib",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "9",
@@ -218,8 +218,8 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
-                    "dismissal": "c Mendis b Rajitha",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
+                    "dismissal": "c (wk)Mendis b Rajitha",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "11",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 runs"
+    "result": "Sri Lanka won by 2 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Mendis (wk)",
+            "Maheesh Theekshana",
+            "Matheesha Pathirana",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Kasun Rajitha",
+            "Sadeera Samarawickrama",
+            "Dimuth Karunaratne"
+        ],
+        "Afghanistan": [
+            "Hashmatullah Shahidi(c)",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Karim Janat",
+            "Mujeeb Ur Rahman",
+            "Rahmanullah Gurbaz (wk)",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi",
+            "Najibullah Zadran",
+            "Gulbadin Naib"
+        ]
+    }
 }

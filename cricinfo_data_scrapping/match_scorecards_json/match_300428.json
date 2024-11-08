@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Tushar Imran",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "5",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Farhad Reza",
-                    "dismissal": "st McCullum b Vettori",
+                    "dismissal": "st (wk)McCullum b Vettori",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "18",
@@ -100,7 +100,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Vettori",
                     "runs": "0",
                     "balls": "2",
@@ -233,7 +233,7 @@
                     "strike_rate": "87.50"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "80",
                     "balls": "28",
@@ -305,5 +305,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 10 wickets (with 264 balls remaining)"
+    "result": "New Zealand won by 10 wickets (with 264 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Farhad Reza",
+            "Aftab Ahmed",
+            "Tamim Iqbal",
+            "Shakib Al Hasan",
+            "Tushar Imran",
+            "Mashrafe Mortaza",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Mohammad Ashraful(c)"
+        ],
+        "New Zealand": [
+            "Jamie How",
+            "Brendon McCullum (wk)",
+            "Mathew Sinclair",
+            "Chris Martin",
+            "Kyle Mills",
+            "Peter Fulton",
+            "Daniel Vettori (c)",
+            "Scott Styris",
+            "Ross Taylor",
+            "Michael Mason",
+            "Jacob Oram"
+        ]
+    }
 }

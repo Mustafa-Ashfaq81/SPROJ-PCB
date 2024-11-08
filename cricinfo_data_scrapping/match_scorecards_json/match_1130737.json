@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "15",
                     "balls": "24",
                     "minutes": "-",
@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Solomon Mire",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "-",
@@ -65,8 +65,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "batsman": "Brendan Taylor (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "24",
                     "balls": "45",
                     "minutes": "-",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "run out (Shakib Al Hasan/Mushfiqur Rahim)",
+                    "dismissal": "run out (Shakib Al Hasan/ (wk)Mushfiqur Rahim)",
                     "runs": "52",
                     "balls": "99",
                     "minutes": "-",
@@ -272,7 +272,7 @@
                     "strike_rate": "80.43"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "23",
@@ -358,5 +358,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 8 wickets (with 129 balls remaining)"
+    "result": "Bangladesh won by 8 wickets (with 129 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sikandar Raza",
+            "Brendan Taylor (wk)",
+            "Kyle Jarvis",
+            "Graeme Cremer(c)",
+            "Craig Ervine",
+            "Blessing Muzarabani",
+            "Malcolm Waller",
+            "Tendai Chatara",
+            "Peter Moor",
+            "Solomon Mire",
+            "Hamilton Masakadza"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mashrafe Mortaza (c)",
+            "Mushfiqur Rahim (wk)",
+            "Sabbir Rahman",
+            "Rubel Hossain",
+            "Mustafizur Rahman",
+            "Anamul Haque",
+            "Nasir Hossain",
+            "Shakib Al Hasan",
+            "Mahmudullah",
+            "Sunzamul Islam"
+        ]
+    }
 }

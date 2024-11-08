@@ -52,7 +52,7 @@
                     "strike_rate": "61.90"
                 },
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "c de Grandhomme b Henry",
                     "runs": "29",
                     "balls": "24",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Latham b de Grandhomme",
+                    "dismissal": "c (wk)Latham b de Grandhomme",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "14",
@@ -259,7 +259,7 @@
                     "strike_rate": "123.40"
                 }
             ],
-            "did_not_bat": "Kane Williamson (c) , Ross Taylor , Tom Latham , James Neesham , Colin de Grandhomme , Mitchell Santner , Matt Henry , Lockie Ferguson , Trent Boult",
+            "did_not_bat": "Kane Williamson (c) , Ross Taylor , Tom Latham (wk) , James Neesham , Colin de Grandhomme , Mitchell Santner , Matt Henry , Lockie Ferguson , Trent Boult",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -335,5 +335,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 10 wickets (with 203 balls remaining)"
+    "result": "New Zealand won by 10 wickets (with 203 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Isuru Udana",
+            "Dhananjaya de Silva",
+            "Jeevan Mendis",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kusal Perera (wk)",
+            "Dimuth Karunaratne(c)",
+            "Kusal Mendis",
+            "Suranga Lakmal",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ],
+        "New Zealand": [
+            "Colin de Grandhomme",
+            "Kane Williamson (c)",
+            "Martin Guptill",
+            "Mitchell Santner",
+            "Matt Henry",
+            "Trent Boult",
+            "Tom Latham (wk)",
+            "Lockie Ferguson",
+            "Colin Munro",
+            "James Neesham",
+            "Ross Taylor"
+        ]
+    }
 }

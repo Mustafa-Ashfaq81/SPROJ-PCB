@@ -31,7 +31,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Jimmy Maher",
+                    "batsman": "Jimmy Maher (wk)",
                     "dismissal": "c van Bunge b de Leede",
                     "runs": "26",
                     "balls": "41",
@@ -189,7 +189,7 @@
                 },
                 {
                     "batsman": "Bas Zuiderent",
-                    "dismissal": "c Maher b Gillespie",
+                    "dismissal": "c (wk)Maher b Gillespie",
                     "runs": "5",
                     "balls": "17",
                     "minutes": "16",
@@ -209,7 +209,7 @@
                 },
                 {
                     "batsman": "Tim de Leede",
-                    "dismissal": "c Maher b Bichel",
+                    "dismissal": "c (wk)Maher b Bichel",
                     "runs": "24",
                     "balls": "38",
                     "minutes": "29",
@@ -258,8 +258,8 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Jeroen Smits",
-                    "dismissal": "c Maher b Harvey",
+                    "batsman": "Jeroen Smits (wk)",
+                    "dismissal": "c (wk)Maher b Harvey",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -368,5 +368,33 @@
             ]
         }
     ],
-    "result": "Australia won by 75 runs (D/L method)"
+    "result": "Australia won by 75 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Darren Lehmann",
+            "Andrew Symonds",
+            "Ricky Ponting (c)",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Ian Harvey",
+            "Jimmy Maher (wk)",
+            "Michael Bevan",
+            "Damien Martyn"
+        ],
+        "Netherlands": [
+            "Reinout Scholte",
+            "Jeroen Smits (wk)",
+            "Bas Zuiderent",
+            "Edgar Schiferli",
+            "Klaas-Jan van Noortwijk",
+            "Feiko Kloppenburg",
+            "Jacob-Jan Esmeijer",
+            "Roland Lefebvre(c)",
+            "Daan van Bunge",
+            "Luuk van Troost",
+            "Tim de Leede"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "c Charles b DJ Bravo",
+                    "dismissal": "c (wk)Charles b DJ Bravo",
                     "runs": "52",
                     "balls": "121",
                     "minutes": "170",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "c Charles b Holder",
+                    "dismissal": "c (wk)Charles b Holder",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c DJ Bravo b Roach",
                     "runs": "19",
                     "balls": "34",
@@ -261,7 +261,7 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Johnson Charles",
+                    "batsman": "Johnson Charles (wk)",
                     "dismissal": "b Mohammad Irfan",
                     "runs": "0",
                     "balls": "1",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Umar Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Umar Akmal b Mohammad Irfan",
                     "runs": "5",
                     "balls": "18",
                     "minutes": "17",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "st Umar Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Umar Akmal b Shahid Afridi",
                     "runs": "10",
                     "balls": "46",
                     "minutes": "69",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 126 runs"
+    "result": "Pakistan won by 126 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Wahab Riaz",
+            "Asad Ali",
+            "Umar Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Nasir Jamshed",
+            "Asad Shafiq",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Misbah-ul-Haq(c)"
+        ],
+        "West Indies": [
+            "Lendl Simmons",
+            "Kieron Pollard",
+            "Chris Gayle",
+            "Darren Bravo",
+            "Kemar Roach",
+            "Sunil Narine",
+            "Jason Holder",
+            "Johnson Charles (wk)",
+            "Marlon Samuels",
+            "Dwayne Bravo(c)",
+            "Daren Sammy"
+        ]
+    }
 }

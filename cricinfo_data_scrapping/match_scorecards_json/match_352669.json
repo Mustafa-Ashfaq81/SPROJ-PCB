@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "c Ramdin b Pollard",
+                    "dismissal": "c (wk)Ramdin b Pollard",
                     "runs": "44",
                     "balls": "49",
                     "minutes": "81",
@@ -90,7 +90,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "not out",
                     "runs": "25",
                     "balls": "25",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Prior b Flintoff",
+                    "dismissal": "c (wk)Prior b Flintoff",
                     "runs": "23",
                     "balls": "28",
                     "minutes": "34",
@@ -271,7 +271,7 @@
                     "strike_rate": "96.77"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Flintoff",
                     "runs": "12",
                     "balls": "10",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Daren Sammy",
-                    "dismissal": "run out (Pietersen/Prior)",
+                    "dismissal": "run out (Pietersen/ (wk)Prior)",
                     "runs": "7",
                     "balls": "8",
                     "minutes": "19",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "England won by 26 runs"
+    "result": "England won by 26 runs",
+    "playing_xi": {
+        "England": [
+            "Kevin Pietersen",
+            "Dimitri Mascarenhas",
+            "James Anderson",
+            "Matt Prior (wk)",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Andrew Strauss(c)",
+            "Owais Shah",
+            "Andrew Flintoff",
+            "Steve Harmison"
+        ],
+        "West Indies": [
+            "Sulieman Benn",
+            "Dwayne Bravo",
+            "Kieron Pollard",
+            "Ramnaresh Sarwan",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Ravi Rampaul",
+            "Chris Gayle(c)",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Daren Sammy"
+        ]
+    }
 }

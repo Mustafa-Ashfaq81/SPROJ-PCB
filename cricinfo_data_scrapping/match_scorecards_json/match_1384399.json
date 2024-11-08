@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "7",
@@ -51,7 +51,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c Imam-ul-Haq b Hasan Ali",
                     "runs": "122",
                     "balls": "77",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Sadeera Samarawickrama",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "108",
                     "balls": "89",
                     "minutes": "139",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Babar Azam(c)",
-                    "dismissal": "c Samarawickrama b Madushanka",
+                    "dismissal": "c (wk)Samarawickrama b Madushanka",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "17",
@@ -258,7 +258,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "not out",
                     "runs": "131",
                     "balls": "121",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 10 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Mendis (wk)",
+            "Maheesh Theekshana",
+            "Matheesha Pathirana",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Dilshan Madushanka",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Kusal Perera",
+            "Sadeera Samarawickrama"
+        ],
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Saud Shakeel",
+            "Abdullah Shafique",
+            "Imam-ul-Haq",
+            "Haris Rauf",
+            "Mohammad Nawaz",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Hasan Ali"
+        ]
+    }
 }

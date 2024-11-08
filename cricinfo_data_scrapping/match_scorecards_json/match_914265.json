@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Ronchi b Boult",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "32",
                     "balls": "27",
                     "minutes": "36",
@@ -80,8 +80,8 @@
                     "strike_rate": "118.51"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
-                    "dismissal": "c Ronchi b Milne",
+                    "batsman": "Sarfaraz Ahmed (wk)",
+                    "dismissal": "c (wk)Ronchi b Milne",
                     "runs": "41",
                     "balls": "50",
                     "minutes": "74",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Mohammad Amir",
-                    "dismissal": "c Ronchi b Milne",
+                    "dismissal": "c (wk)Ronchi b Milne",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Rahat Ali",
-                    "dismissal": "c Ronchi b Milne",
+                    "dismissal": "c (wk)Ronchi b Milne",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "st Sarfaraz Ahmed b Azhar Ali",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Azhar Ali",
                     "runs": "84",
                     "balls": "86",
                     "minutes": "128",
@@ -297,7 +297,7 @@
                     "strike_rate": "120.68"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "b Wahab Riaz",
                     "runs": "20",
                     "balls": "21",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 3 wickets (with 2 balls remaining) (D/L method)"
+    "result": "New Zealand won by 3 wickets (with 2 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Wahab Riaz",
+            "Mohammad Rizwan",
+            "Sarfaraz Ahmed (wk)",
+            "Rahat Ali",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Shoaib Malik",
+            "Babar Azam",
+            "Mohammad Amir",
+            "Azhar Ali(c)"
+        ],
+        "New Zealand": [
+            "Brendon McCullum(c)",
+            "Grant Elliott",
+            "Martin Guptill",
+            "Kane Williamson",
+            "Trent Boult",
+            "Corey Anderson",
+            "Mitchell Santner",
+            "Luke Ronchi (wk)",
+            "Adam Milne",
+            "Matt Henry",
+            "Henry Nicholls"
+        ]
+    }
 }

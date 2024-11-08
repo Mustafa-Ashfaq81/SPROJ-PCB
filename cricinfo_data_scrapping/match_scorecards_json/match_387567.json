@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Prior b Broad",
+                    "dismissal": "c (wk)Prior b Broad",
                     "runs": "86",
                     "balls": "92",
                     "minutes": "131",
@@ -80,7 +80,7 @@
                     "strike_rate": "127.50"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Wright b Broad",
                     "runs": "22",
                     "balls": "11",
@@ -212,7 +212,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Boucher b Morkel",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "24",
                     "balls": "24",
                     "minutes": "39",
@@ -271,7 +271,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c Smith b Morkel",
                     "runs": "16",
                     "balls": "22",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 112 runs"
+    "result": "South Africa won by 112 runs",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Hashim Amla",
+            "Roelof van der Merwe",
+            "Graeme Smith(c)",
+            "Ryan McLaren",
+            "Alviro Petersen",
+            "Wayne Parnell",
+            "Jean-Paul Duminy",
+            "Morne Morkel",
+            "Dale Steyn",
+            "Mark Boucher (wk)"
+        ],
+        "England": [
+            "Tim Bresnan",
+            "Matt Prior (wk)",
+            "Jonathan Trott",
+            "James Anderson",
+            "Eoin Morgan",
+            "Andrew Strauss(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Stuart Broad",
+            "Graeme Swann",
+            "Luke Wright"
+        ]
+    }
 }

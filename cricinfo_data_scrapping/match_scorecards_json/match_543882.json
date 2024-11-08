@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "c DO Obuya b JO Ngoche",
+                    "dismissal": "c (wk)DO Obuya b JO Ngoche",
                     "runs": "14",
                     "balls": "19",
                     "minutes": "17",
@@ -71,7 +71,7 @@
                     "strike_rate": "70.40"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "b Varaiya",
                     "runs": "17",
                     "balls": "30",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "c DO Obuya b SO Ngoche",
+                    "dismissal": "c (wk)DO Obuya b SO Ngoche",
                     "runs": "28",
                     "balls": "34",
                     "minutes": "56",
@@ -252,7 +252,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "David Obuya",
+                    "batsman": "David Obuya (wk)",
                     "dismissal": "c Joyce b Johnston",
                     "runs": "10",
                     "balls": "14",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Rakep Patel",
-                    "dismissal": "c Wilson b Cusack",
+                    "dismissal": "c (wk)Wilson b Cusack",
                     "runs": "9",
                     "balls": "19",
                     "minutes": "36",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Nehemiah Odhiambo",
-                    "dismissal": "st Wilson b Stirling",
+                    "dismissal": "st (wk)Wilson b Stirling",
                     "runs": "17",
                     "balls": "35",
                     "minutes": "36",
@@ -466,5 +466,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 117 runs"
+    "result": "Ireland won by 117 runs",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Boyd Rankin",
+            "Andrew White",
+            "Paul Stirling",
+            "Alex Cusack",
+            "Gary Wilson (wk)",
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Kevin O'Brien",
+            "John Mooney",
+            "Trent Johnston"
+        ],
+        "Kenya": [
+            "Rakep Patel",
+            "Nehemiah Odhiambo",
+            "James Ngoche",
+            "Hiren Varaiya",
+            "Ragheb Aga",
+            "David Obuya (wk)",
+            "Shem Ngoche",
+            "Duncan Allan",
+            "Alex Obanda",
+            "Tanmay Mishra",
+            "Collins Obuya(c)"
+        ]
+    }
 }

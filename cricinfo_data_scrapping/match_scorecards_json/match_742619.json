@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Anton Devcich",
-                    "dismissal": "c Sarfaraz Ahmed b Wahab Riaz",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Wahab Riaz",
                     "runs": "26",
                     "balls": "38",
                     "minutes": "66",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Irfan",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Irfan",
                     "runs": "10",
                     "balls": "19",
                     "minutes": "21",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Tom Latham",
-                    "dismissal": "run out (Younis Khan/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Younis Khan/ (wk)Sarfaraz Ahmed)",
                     "runs": "13",
                     "balls": "20",
                     "minutes": "32",
@@ -90,7 +90,7 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Younis Khan b Mohammad Irfan",
                     "runs": "23",
                     "balls": "27",
@@ -277,7 +277,7 @@
                     "strike_rate": "56.52"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Milne b McCullum",
                     "runs": "26",
                     "balls": "19",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 3 balls remaining)"
+    "result": "Pakistan won by 3 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Anton Devcich",
+            "Nathan McCullum",
+            "James Neesham",
+            "Kane Williamson(c)",
+            "Adam Milne",
+            "Tom Latham",
+            "Dean Brownlie",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)"
+        ],
+        "Pakistan": [
+            "Wahab Riaz",
+            "Shahid Afridi",
+            "Haris Sohail",
+            "Umar Gul",
+            "Asad Shafiq",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Sarfaraz Ahmed (wk)",
+            "Younis Khan",
+            "Misbah-ul-Haq(c)"
+        ]
+    }
 }

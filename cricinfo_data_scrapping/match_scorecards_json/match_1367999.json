@@ -38,7 +38,7 @@
                     "strike_rate": "110.25"
                 },
                 {
-                    "batsman": "Aasif Sheikh",
+                    "batsman": "Aasif Sheikh (wk)",
                     "dismissal": "c Patel b Adnan Idrees",
                     "runs": "31",
                     "balls": "28",
@@ -79,7 +79,7 @@
                 },
                 {
                     "batsman": "Aarif Sheikh",
-                    "dismissal": "run out (Meet Bhavsar/Usman Patel)",
+                    "dismissal": "run out (Meet Bhavsar/ (wk)Usman Patel)",
                     "runs": "19",
                     "balls": "19",
                     "minutes": "-",
@@ -89,7 +89,7 @@
                 },
                 {
                     "batsman": "Dipendra Singh Airee",
-                    "dismissal": "c Usman Patel b Patel",
+                    "dismissal": "c (wk)Usman Patel b Patel",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -99,7 +99,7 @@
                 },
                 {
                     "batsman": "Sandeep Lamichhane",
-                    "dismissal": "st Usman Patel b Aslam",
+                    "dismissal": "st (wk)Usman Patel b Aslam",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "-",
@@ -119,7 +119,7 @@
                 },
                 {
                     "batsman": "Karan KC",
-                    "dismissal": "st Usman Patel b Adnan Idrees",
+                    "dismissal": "st (wk)Usman Patel b Adnan Idrees",
                     "runs": "7",
                     "balls": "6",
                     "minutes": "-",
@@ -236,7 +236,7 @@
             "batting": [
                 {
                     "batsman": "Adnan Idrees",
-                    "dismissal": "c Aasif Sheikh b Karan KC",
+                    "dismissal": "c (wk)Aasif Sheikh b Karan KC",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "-",
@@ -305,7 +305,7 @@
                     "strike_rate": "66.66"
                 }
             ],
-            "did_not_bat": "Bilal Tahir , Sayed Monib , Usman Patel , Shahrukh Quddus",
+            "did_not_bat": "Bilal Tahir , Sayed Monib , Usman Patel (wk) , Shahrukh Quddus",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Adnan Idrees , 0.5 ov ) , 2 - 2 ( Parvindar Kumar , 1.3 ov ) , 3 - 11 ( Meet Bhavsar , 2.3 ov ) , 4 - 18 ( Ravija Sandaruwan , 4.5 ov ) , 5 - 22 ( Shiraz Khan , 6.3 ov ) , 6 - 37 ( Mohammed Aslam , 8.3 ov )",
             "bowling": [
                 {
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Nepal": [
+            "Kushal Bhurtel",
+            "Kushal Malla",
+            "Bhim Sharki",
+            "Rohit Paudel(c)",
+            "Lalit Rajbanshi",
+            "Sandeep Lamichhane",
+            "Aasif Sheikh (wk)",
+            "Karan KC",
+            "Aarif Sheikh",
+            "Sompal Kami",
+            "Dipendra Singh Airee"
+        ],
+        "Kuwait": [
+            "Usman Patel (wk)",
+            "Adnan Idrees",
+            "Shiraz Khan",
+            "Yasin Patel",
+            "Shahrukh Quddus",
+            "Meet Bhavsar",
+            "Parvindar Kumar",
+            "Ravija Sandaruwan",
+            "Sayed Monib",
+            "Mohammed Aslam(c)",
+            "Bilal Tahir"
+        ]
+    }
 }

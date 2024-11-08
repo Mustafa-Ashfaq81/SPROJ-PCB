@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "c Karthik b MM Sharma",
+                    "dismissal": "c (wk)Karthik b MM Sharma",
                     "runs": "7",
                     "balls": "17",
                     "minutes": "30",
@@ -64,7 +64,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
+                    "batsman": "Brendan Taylor(c) (wk)",
                     "dismissal": "lbw b Jadeja",
                     "runs": "0",
                     "balls": "9",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Malcolm Waller",
-                    "dismissal": "c Karthik b MM Sharma",
+                    "dismissal": "c (wk)Karthik b MM Sharma",
                     "runs": "35",
                     "balls": "77",
                     "minutes": "87",
@@ -257,7 +257,7 @@
                     "strike_rate": "91.54"
                 }
             ],
-            "did_not_bat": "Virat Kohli (c) , Dinesh Karthik , Ambati Rayudu , Ravindra Jadeja , Amit Mishra , Mohammed Shami , Mohit Sharma , Jaydev Unadkat",
+            "did_not_bat": "Virat Kohli (c) , Dinesh Karthik (wk) , Ambati Rayudu , Ravindra Jadeja , Amit Mishra , Mohammed Shami , Mohit Sharma , Jaydev Unadkat",
             "fall_of_wickets": "Fall of wickets : 1 - 23 ( Cheteshwar Pujara , 9.3 ov )",
             "bowling": [
                 {
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 115 balls remaining)"
+    "result": "India won by 9 wickets (with 115 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tendai Chatara",
+            "Brian Vitori",
+            "Michael Chinouya",
+            "Brendan Taylor(c) (wk)",
+            "Prosper Utseya",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Sikandar Raza",
+            "Elton Chigumbura",
+            "Malcolm Waller"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Virat Kohli (c)",
+            "Cheteshwar Pujara",
+            "Jaydev Unadkat",
+            "Mohammed Shami",
+            "Amit Mishra",
+            "Suresh Raina",
+            "Ambati Rayudu",
+            "Mohit Sharma",
+            "Dinesh Karthik (wk)"
+        ]
+    }
 }

@@ -38,7 +38,7 @@
             "batting": [
                 {
                     "batsman": "Steven Outerbridge",
-                    "dismissal": "c Seeraj b A Codrington",
+                    "dismissal": "c (wk)Seeraj b A Codrington",
                     "runs": "23",
                     "balls": "33",
                     "minutes": "51",
@@ -48,7 +48,7 @@
                 },
                 {
                     "batsman": "George O'Brien",
-                    "dismissal": "c Seeraj b A Codrington",
+                    "dismissal": "c (wk)Seeraj b A Codrington",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "3",
@@ -57,7 +57,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kwame Tucker",
+                    "batsman": "Kwame Tucker (wk)",
                     "dismissal": "c Samad b A Codrington",
                     "runs": "14",
                     "balls": "20",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Steven Welsh",
-                    "dismissal": "run out (KL Tucker)",
+                    "dismissal": "run out ( (wk)KL Tucker)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "10",
@@ -314,7 +314,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Surendra Seeraj",
+                    "batsman": "Surendra Seeraj (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "12",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Bermuda won by 11 runs"
+    "result": "Bermuda won by 11 runs",
+    "playing_xi": {
+        "Bermuda": [
+            "Kwame Tucker (wk)",
+            "Irving Romaine(c)",
+            "Steven Outerbridge",
+            "Saleem Mukuddem",
+            "Clay Smith",
+            "Janeiro Tucker",
+            "Dwayne Leverock",
+            "Hasan Durham",
+            "Lionel Cann",
+            "George O'Brien",
+            "Kevin Hurdle"
+        ],
+        "Canada": [
+            "Durand Soraine",
+            "Steven Welsh",
+            "Abdool Samad",
+            "Ashish Bagai",
+            "George Codrington",
+            "Austin Codrington",
+            "Ian Billcliff",
+            "Sandeep Jyoti",
+            "John Davison(c)",
+            "Kevin Sandher",
+            "Surendra Seeraj (wk)"
+        ]
+    }
 }

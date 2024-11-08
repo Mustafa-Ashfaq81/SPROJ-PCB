@@ -40,8 +40,8 @@
                     "strike_rate": "95.83"
                 },
                 {
-                    "batsman": "Shahbaz Badar",
-                    "dismissal": "run out (Kalimuthu/Modi)",
+                    "batsman": "Shahbaz Badar (wk)",
+                    "dismissal": "run out (Kalimuthu/ (wk)Modi)",
                     "runs": "76",
                     "balls": "98",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Sohail Ahmed",
-                    "dismissal": "c Modi b Kalimuthu",
+                    "dismissal": "c (wk)Modi b Kalimuthu",
                     "runs": "46",
                     "balls": "80",
                     "minutes": "-",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Rizwan Butt",
-                    "dismissal": "run out (Modi/Omaidurai)",
+                    "dismissal": "run out ( (wk)Modi/Omaidurai)",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "-",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Sidhant Srikanth",
-                    "dismissal": "c Shahbaz Badar b Imran Anwar",
+                    "dismissal": "c (wk)Shahbaz Badar b Imran Anwar",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "-",
@@ -277,7 +277,7 @@
                     "strike_rate": "9.09"
                 },
                 {
-                    "batsman": "Aaryan Modi",
+                    "batsman": "Aaryan Modi (wk)",
                     "dismissal": "b Imran Anwar",
                     "runs": "5",
                     "balls": "15",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Thilipan Omaidurai",
-                    "dismissal": "c Shahbaz Badar b Rizwan Butt",
+                    "dismissal": "c (wk)Shahbaz Badar b Rizwan Butt",
                     "runs": "20",
                     "balls": "26",
                     "minutes": "-",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Bahrain won by 132 runs"
+    "result": "Bahrain won by 132 runs",
+    "playing_xi": {
+        "Bahrain": [
+            "David Mathias",
+            "Rizwan Butt",
+            "Haider Ali(c)",
+            "Ali Dawood",
+            "Abdul Majid",
+            "Shahbaz Badar (wk)",
+            "Junaid Aziz",
+            "Fiaz Ahmed",
+            "Muhammad Younis",
+            "Imran Anwar",
+            "Sohail Ahmed"
+        ],
+        "Singapore": [
+            "Aaryan Modi (wk)",
+            "Sidhant Srikanth",
+            "Vinoth Baskaran",
+            "Ramesh Kalimuthu",
+            "Akshay Puri",
+            "Rohan Rangarajan",
+            "Manpreet Singh",
+            "Surendran Chandramohan",
+            "Thilipan Omaidurai",
+            "Abdul Rahman Bhadelia",
+            "Aritra Dutta(c)"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "44",
                     "balls": "23",
                     "minutes": "50",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "68",
                     "balls": "69",
                     "minutes": "105",
@@ -100,7 +100,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Agarkar",
                     "runs": "5",
                     "balls": "6",
@@ -237,7 +237,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Shahid Afridi b Arshad Khan",
                     "runs": "24",
                     "balls": "38",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 159 runs"
+    "result": "Pakistan won by 159 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Naved-ul-Hasan",
+            "Arshad Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Iftikhar Anjum",
+            "Salman Butt",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Younis Khan"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Virender Sehwag",
+            "Dinesh Mongia",
+            "Yuvraj Singh",
+            "Rahul Dravid(c)",
+            "Sachin Tendulkar",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Ashish Nehra",
+            "Harbhajan Singh"
+        ]
+    }
 }

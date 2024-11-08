@@ -50,8 +50,8 @@
                     "strike_rate": "130.00"
                 },
                 {
-                    "batsman": "Imal Liyanage",
-                    "dismissal": "c Syed Aziz b Rizwan Haider",
+                    "batsman": "Imal Liyanage (wk)",
+                    "dismissal": "c (wk)Syed Aziz b Rizwan Haider",
                     "runs": "56",
                     "balls": "68",
                     "minutes": "-",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Amir Farooq",
-                    "dismissal": "run out (Syed Aziz)",
+                    "dismissal": "run out ( (wk)Syed Aziz)",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "-",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Ahmad Faiz(c)",
-                    "dismissal": "c Liyanage b Muhammad Tanveer",
+                    "dismissal": "c (wk)Liyanage b Muhammad Tanveer",
                     "runs": "33",
                     "balls": "26",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Syed Aziz",
+                    "batsman": "Syed Aziz (wk)",
                     "dismissal": "b Ikramullah Khan",
                     "runs": "80",
                     "balls": "66",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Fitri Sham",
-                    "dismissal": "run out (Amir Farooq/Liyanage)",
+                    "dismissal": "run out (Amir Farooq/ (wk)Liyanage)",
                     "runs": "12",
                     "balls": "10",
                     "minutes": "-",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Malaysia won by 3 wickets (with 5 balls remaining)"
+    "result": "Malaysia won by 3 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "Qatar": [
+            "Imal Liyanage (wk)",
+            "Mohammed Nadeem",
+            "Mohammed Rizlan(c)",
+            "Zaheer Ibrahim",
+            "Khurram Shahzad",
+            "Ikramullah Khan",
+            "Sandun Withanage",
+            "Kamran Khan",
+            "Muhammad Tanveer",
+            "Muhammad Murad",
+            "Amir Farooq"
+        ],
+        "Malaysia": [
+            "Khizar Hayat",
+            "Virandeep Singh",
+            "Vijay Unni",
+            "Muhamad Syahadat",
+            "Syed Aziz (wk)",
+            "Muhammad Amir",
+            "Sharvin Muniandy",
+            "Rizwan Haider",
+            "Ahmad Faiz(c)",
+            "Muhammad Wafiq",
+            "Fitri Sham"
+        ]
+    }
 }

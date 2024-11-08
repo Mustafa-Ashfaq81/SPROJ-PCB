@@ -63,7 +63,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "c Khan b Pathan",
                     "runs": "16",
                     "balls": "20",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Wayne Parnell",
-                    "dismissal": "run out (Patel/Dhoni)",
+                    "dismissal": "run out (Patel/ (wk)Dhoni)",
                     "runs": "5",
                     "balls": "3",
                     "minutes": "2",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c de Villiers b Morkel",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "28",
                     "balls": "41",
                     "minutes": "51",
@@ -308,8 +308,8 @@
                     "strike_rate": "59.25"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c de Villiers b Botha",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)de Villiers b Botha",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "15",
@@ -319,7 +319,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c de Villiers b Morkel",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "37",
                     "balls": "47",
                     "minutes": "74",
@@ -472,5 +472,33 @@
             ]
         }
     ],
-    "result": "India won by 2 wickets (with 10 balls remaining)"
+    "result": "India won by 2 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Colin Ingram",
+            "Dale Steyn",
+            "Wayne Parnell",
+            "Morne Morkel",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "AB de Villiers (wk)",
+            "Lonwabo Tsotsobe",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Graeme Smith(c)"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "Zaheer Khan",
+            "MS Dhoni(c) (wk)",
+            "Murali Vijay",
+            "Suresh Raina",
+            "Harbhajan Singh",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Yusuf Pathan",
+            "Munaf Patel"
+        ]
+    }
 }

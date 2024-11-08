@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Ashfaq Ahmed",
-                    "dismissal": "c Bhandari b Sompal Kami",
+                    "dismissal": "c (wk)Bhandari b Sompal Kami",
                     "runs": "0",
                     "balls": "11",
                     "minutes": "-",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Chirag Suri",
-                    "dismissal": "c Bhandari b Karan KC",
+                    "dismissal": "c (wk)Bhandari b Karan KC",
                     "runs": "0",
                     "balls": "17",
                     "minutes": "-",
@@ -52,7 +52,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Ghulam Shabber",
+                    "batsman": "Ghulam Shabber (wk)",
                     "dismissal": "lbw b Lamichhane",
                     "runs": "18",
                     "balls": "50",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "CP Rizwan",
-                    "dismissal": "c Bhandari b Karan KC",
+                    "dismissal": "c (wk)Bhandari b Karan KC",
                     "runs": "45",
                     "balls": "76",
                     "minutes": "-",
@@ -233,8 +233,8 @@
                     "strike_rate": "88.57"
                 },
                 {
-                    "batsman": "Binod Bhandari",
-                    "dismissal": "c Ghulam Shabber b Mohammad Naveed",
+                    "batsman": "Binod Bhandari (wk)",
+                    "dismissal": "c (wk)Ghulam Shabber b Mohammad Naveed",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "-",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Rohit Paudel",
-                    "dismissal": "c Ghulam Shabber b Ashfaq Ahmed",
+                    "dismissal": "c (wk)Ghulam Shabber b Ashfaq Ahmed",
                     "runs": "16",
                     "balls": "24",
                     "minutes": "-",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Nepal won by 4 wickets (with 32 balls remaining)"
+    "result": "Nepal won by 4 wickets (with 32 balls remaining)",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Mohammad Naveed(c)",
+            "Imran Haider",
+            "CP Rizwan",
+            "Mohammad Boota",
+            "Ghulam Shabber (wk)",
+            "Chirag Suri",
+            "Amir Hayat",
+            "Muhammad Usman",
+            "Qadeer Ahmed",
+            "Shaiman Anwar",
+            "Ashfaq Ahmed"
+        ],
+        "Nepal": [
+            "Sundeep Jora",
+            "Paras Khadka(c)",
+            "Lalit Rajbanshi",
+            "Sandeep Lamichhane",
+            "Karan KC",
+            "Sompal Kami",
+            "Binod Bhandari (wk)",
+            "Rohit Paudel",
+            "Aarif Sheikh",
+            "Gyanendra Malla",
+            "Dipendra Singh Airee"
+        ]
+    }
 }

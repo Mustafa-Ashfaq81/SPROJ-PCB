@@ -34,7 +34,7 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "lbw b Patel",
                     "runs": "61",
                     "balls": "58",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c McCullum b Gillespie",
+                    "dismissal": "c (wk)McCullum b Gillespie",
                     "runs": "27",
                     "balls": "39",
                     "minutes": "58",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "69",
                     "balls": "70",
                     "minutes": "109",
@@ -245,7 +245,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Hilfenhaus",
                     "runs": "5",
                     "balls": "16",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "8",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "84",
                     "balls": "82",
                     "minutes": "114",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "Australia won by 105 runs"
+    "result": "Australia won by 105 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ben Hilfenhaus",
+            "Mitchell Johnson",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Stuart Clark",
+            "Nathan Bracken",
+            "Cameron White",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Ross Taylor",
+            "Stephen Fleming(c)",
+            "Craig McMillan",
+            "Mark Gillespie",
+            "Jeetan Patel",
+            "James Franklin",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Peter Fulton"
+        ]
+    }
 }

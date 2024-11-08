@@ -53,7 +53,7 @@
                     "strike_rate": "74.28"
                 },
                 {
-                    "batsman": "Afsar Zazai",
+                    "batsman": "Afsar Zazai (wk)",
                     "dismissal": "c Amjad Javed b Krishna Chandran",
                     "runs": "60",
                     "balls": "109",
@@ -211,7 +211,7 @@
             "batting": [
                 {
                     "batsman": "Amjad Ali",
-                    "dismissal": "c Afsar Zazai b Mirwais Ashraf",
+                    "dismissal": "c (wk)Afsar Zazai b Mirwais Ashraf",
                     "runs": "67",
                     "balls": "79",
                     "minutes": "-",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Khurram Khan(c)",
-                    "dismissal": "st Afsar Zazai b Mohammad Nabi",
+                    "dismissal": "st (wk)Afsar Zazai b Mohammad Nabi",
                     "runs": "53",
                     "balls": "70",
                     "minutes": "-",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Saqib Ali",
-                    "dismissal": "run out (Shapoor Zadran/Afsar Zazai)",
+                    "dismissal": "run out (Shapoor Zadran/ (wk)Afsar Zazai)",
                     "runs": "24",
                     "balls": "29",
                     "minutes": "-",
@@ -250,7 +250,7 @@
                     "strike_rate": "82.75"
                 },
                 {
-                    "batsman": "Swapnil Patil",
+                    "batsman": "Swapnil Patil (wk)",
                     "dismissal": "c Usman Ghani b Mohammad Nabi",
                     "runs": "3",
                     "balls": "7",
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 5 wickets (with 8 balls remaining)"
+    "result": "U.A.E. won by 5 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Shapoor Zadran",
+            "Nawroz Mangal",
+            "Asghar Afghan",
+            "Gulbadin Naib",
+            "Usman Ghani",
+            "Afsar Zazai (wk)",
+            "Dawlat Zadran",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Mohammad Nabi(c)",
+            "Javed Ahmadi"
+        ],
+        "United Arab Emirates": [
+            "Swapnil Patil (wk)",
+            "Mohammad Naveed",
+            "Mohammad Tauqir",
+            "Andri Berenger",
+            "Shaiman Anwar",
+            "Manjula Guruge",
+            "Krishna Chandran",
+            "Amjad Ali",
+            "Khurram Khan(c)",
+            "Saqib Ali",
+            "Amjad Javed"
+        ]
+    }
 }

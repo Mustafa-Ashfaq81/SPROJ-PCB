@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "run out (Silva/Sangakkara)",
+                    "dismissal": "run out (Silva/ (wk)Sangakkara)",
                     "runs": "9",
                     "balls": "19",
                     "minutes": "37",
@@ -72,7 +72,7 @@
                     "strike_rate": "110.78"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "lbw b Chandana",
                     "runs": "13",
                     "balls": "16",
@@ -273,8 +273,8 @@
                     "strike_rate": "71.62"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "st Dravid b Harbhajan Singh",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "st (wk)Dravid b Harbhajan Singh",
                     "runs": "66",
                     "balls": "47",
                     "minutes": "58",
@@ -314,7 +314,7 @@
                 },
                 {
                     "batsman": "Chamara Silva",
-                    "dismissal": "st Dravid b Harbhajan Singh",
+                    "dismissal": "st (wk)Dravid b Harbhajan Singh",
                     "runs": "30",
                     "balls": "37",
                     "minutes": "55",
@@ -354,7 +354,7 @@
                 },
                 {
                     "batsman": "Dilhara Fernando",
-                    "dismissal": "run out (Mongia/Dravid)",
+                    "dismissal": "run out (Mongia/ (wk)Dravid)",
                     "runs": "3",
                     "balls": "16",
                     "minutes": "13",
@@ -481,5 +481,33 @@
             ]
         }
     ],
-    "result": "India won by 63 runs"
+    "result": "India won by 63 runs",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "Tinu Yohannan",
+            "Dinesh Mongia",
+            "Ashish Nehra",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virender Sehwag",
+            "Rahul Dravid (wk)",
+            "Harbhajan Singh",
+            "Sourav Ganguly(c)"
+        ],
+        "Sri Lanka": [
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Nuwan Zoysa",
+            "Dilhara Fernando",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)",
+            "Thilan Samaraweera",
+            "Chamara Silva"
+        ]
+    }
 }

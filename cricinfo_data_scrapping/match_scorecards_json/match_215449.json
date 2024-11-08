@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "run out (Harbhajan Singh/Dhoni)",
+                    "dismissal": "run out (Harbhajan Singh/ (wk)Dhoni)",
                     "runs": "67",
                     "balls": "77",
                     "minutes": "116",
@@ -60,7 +60,7 @@
                     "strike_rate": "128.57"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Sehwag b Nehra",
                     "runs": "8",
                     "balls": "12",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid(c)",
-                    "dismissal": "run out (Dilshan/Sangakkara)",
+                    "dismissal": "run out (Dilshan/ (wk)Sangakkara)",
                     "runs": "69",
                     "balls": "99",
                     "minutes": "137",
@@ -277,7 +277,7 @@
                     "strike_rate": "86.11"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "lbw b Chandana",
                     "runs": "7",
                     "balls": "11",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "run out (Maharoof/Sangakkara)",
+                    "dismissal": "run out (Maharoof/ (wk)Sangakkara)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 18 runs"
+    "result": "Sri Lanka won by 18 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Marvan Atapattu(c)",
+            "Muthiah Muralidaran",
+            "Upul Chandana",
+            "Farveez Maharoof",
+            "Kumar Sangakkara (wk)",
+            "Dilhara Lokuhettige",
+            "Mahela Jayawardene"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Ashish Nehra",
+            "Irfan Pathan",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Rahul Dravid(c)",
+            "Harbhajan Singh",
+            "Sourav Ganguly",
+            "MS Dhoni (wk)",
+            "Zaheer Khan"
+        ]
+    }
 }

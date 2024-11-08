@@ -33,7 +33,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Warner b Head",
                     "runs": "82",
                     "balls": "77",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Marnus Labuschagne",
-                    "dismissal": "st de Kock b Shamsi",
+                    "dismissal": "st (wk)de Kock b Shamsi",
                     "runs": "15",
                     "balls": "16",
                     "minutes": "21",
@@ -250,7 +250,7 @@
                     "strike_rate": "93.75"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "b Coetzee",
                     "runs": "12",
                     "balls": "23",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "st de Kock b Maharaj",
+                    "dismissal": "st (wk)de Kock b Maharaj",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "15",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 111 runs"
+    "result": "South Africa won by 111 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Marco Jansen",
+            "Tabraiz Shamsi",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Reeza Hendricks",
+            "Keshav Maharaj",
+            "Sisanda Magala",
+            "Gerald Coetzee",
+            "Quinton de Kock (wk)",
+            "Aiden Markram",
+            "Temba Bavuma(c)"
+        ],
+        "Australia": [
+            "Marcus Stoinis",
+            "Mitchell Marsh(c)",
+            "David Warner",
+            "Sean Abbott",
+            "Tanveer Sangha",
+            "Tim David",
+            "Alex Carey (wk)",
+            "Nathan Ellis",
+            "Marnus Labuschagne",
+            "Travis Head",
+            "Josh Hazlewood"
+        ]
+    }
 }

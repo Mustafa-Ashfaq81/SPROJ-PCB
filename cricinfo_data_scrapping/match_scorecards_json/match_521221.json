@@ -44,7 +44,7 @@
                     "strike_rate": "52.63"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "lbw b Kumar",
                     "runs": "29",
                     "balls": "18",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Kieswetter b Meaker",
+                    "dismissal": "c (wk)Kieswetter b Meaker",
                     "runs": "20",
                     "balls": "37",
                     "minutes": "-",
@@ -305,7 +305,7 @@
                     "strike_rate": "129.03"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "15",
                     "balls": "18",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 59 balls remaining)"
+    "result": "India won by 6 wickets (with 59 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Steven Finn",
+            "Scott Borthwick",
+            "Jonathan Trott",
+            "Kevin Pietersen",
+            "Samit Patel",
+            "Jonny Bairstow",
+            "Craig Kieswetter (wk)",
+            "Stuart Meaker",
+            "Ravi Bopara"
+        ],
+        "India": [
+            "Gautam Gambhir",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Praveen Kumar",
+            "Parthiv Patel",
+            "Vinay Kumar",
+            "MS Dhoni(c) (wk)",
+            "Varun Aaron",
+            "Suresh Raina"
+        ]
+    }
 }

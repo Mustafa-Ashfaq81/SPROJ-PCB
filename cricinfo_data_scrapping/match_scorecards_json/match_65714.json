@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "9",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar(c)",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "17",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Manzarul Islam",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "43",
                     "balls": "84",
                     "minutes": "101",
@@ -91,7 +91,7 @@
                     "strike_rate": "51.19"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c & b Vaas",
                     "runs": "19",
                     "balls": "16",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Mohammad Rafique",
-                    "dismissal": "run out (Sangakkara)",
+                    "dismissal": "run out ( (wk)Sangakkara)",
                     "runs": "5",
                     "balls": "5",
                     "minutes": "6",
@@ -258,7 +258,7 @@
                     "strike_rate": "105.94"
                 }
             ],
-            "did_not_bat": "Marvan Atapattu (c) , Kumar Sangakkara , Mahela Jayawardene , Tillakaratne Dilshan , Upul Chandana , Farveez Maharoof , Chaminda Vaas , Muthiah Muralidaran , Lasith Malinga",
+            "did_not_bat": "Marvan Atapattu (c) , Kumar Sangakkara (wk) , Mahela Jayawardene , Tillakaratne Dilshan , Upul Chandana , Farveez Maharoof , Chaminda Vaas , Muthiah Muralidaran , Lasith Malinga",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -348,5 +348,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 10 wickets (with 99 balls remaining)"
+    "result": "Sri Lanka won by 10 wickets (with 99 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mohammad Ashraful",
+            "Khaled Mahmud",
+            "Mohammad Rafique",
+            "Alok Kapali",
+            "Faisal Hossain",
+            "Habibul Bashar(c)",
+            "Khaled Mashud (wk)",
+            "Rajin Saleh",
+            "Abdur Razzak",
+            "Tapash Baisya",
+            "Manzarul Islam"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Sanath Jayasuriya",
+            "Marvan Atapattu (c)",
+            "Avishka Gunawardene",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Upul Chandana"
+        ]
+    }
 }

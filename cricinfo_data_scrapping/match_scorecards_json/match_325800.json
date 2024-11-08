@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "run out (Taibu)",
+                    "dismissal": "run out ( (wk)Taibu)",
                     "runs": "4",
                     "balls": "16",
                     "minutes": "30",
@@ -104,7 +104,7 @@
                     "strike_rate": "66.66"
                 }
             ],
-            "did_not_bat": "Kamran Akmal , Sohail Tanvir , Samiullah Khan , Iftikhar Anjum",
+            "did_not_bat": "Kamran Akmal (wk) , Sohail Tanvir , Samiullah Khan , Iftikhar Anjum",
             "fall_of_wickets": "Fall of wickets : 1 - 45 ( Salman Butt , 7.6 ov ) , 2 - 85 ( Nasir Jamshed , 14.4 ov ) , 3 - 198 ( Younis Khan , 31.1 ov ) , 4 - 239 ( Mohammad Yousuf , 37.4 ov ) , 5 - 338 ( Shoaib Malik , 48.6 ov )",
             "bowling": [
                 {
@@ -226,7 +226,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Kamran Akmal b Sohail Tanvir",
+                    "dismissal": "c (wk)Kamran Akmal b Sohail Tanvir",
                     "runs": "14",
                     "balls": "27",
                     "minutes": "36",
@@ -245,7 +245,7 @@
                     "strike_rate": "71.23"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "lbw b Shahid Afridi",
                     "runs": "13",
                     "balls": "22",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "st Kamran Akmal b Shoaib Malik",
+                    "dismissal": "st (wk)Kamran Akmal b Shoaib Malik",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "9",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 104 runs"
+    "result": "Pakistan won by 104 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Salman Butt",
+            "Shahid Afridi",
+            "Iftikhar Anjum",
+            "Kamran Akmal (wk)",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Misbah-ul-Haq",
+            "Nasir Jamshed",
+            "Samiullah Khan",
+            "Sohail Tanvir",
+            "Younis Khan"
+        ],
+        "Zimbabwe": [
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Prosper Utseya(c)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Brendan Taylor",
+            "Chamu Chibhabha",
+            "Stuart Matsikenyeri",
+            "Ray Price",
+            "Chris Mpofu",
+            "Tatenda Taibu (wk)"
+        ]
+    }
 }

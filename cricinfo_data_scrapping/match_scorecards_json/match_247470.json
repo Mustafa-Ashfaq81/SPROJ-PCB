@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Majid Haq",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "13",
                     "balls": "33",
                     "minutes": "46",
@@ -91,7 +91,7 @@
                     "strike_rate": "70.31"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "b Pollock",
                     "runs": "15",
                     "balls": "30",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Paul Hoffmann",
-                    "dismissal": "run out (Boucher/Hall)",
+                    "dismissal": "run out ( (wk)Boucher/Hall)",
                     "runs": "18",
                     "balls": "11",
                     "minutes": "11",
@@ -268,7 +268,7 @@
                     "strike_rate": "-"
                 }
             ],
-            "did_not_bat": "Jacques Kallis , Herschelle Gibbs , Mark Boucher , Andrew Hall , Charl Langeveldt , Makhaya Ntini",
+            "did_not_bat": "Jacques Kallis , Herschelle Gibbs , Mark Boucher (wk) , Andrew Hall , Charl Langeveldt , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 134 ( AB de Villiers , 15.5 ov ) , 2 - 162 ( Ashwell Prince , 20.6 ov ) , 3 - 178 ( Graeme Smith , 22.6 ov )",
             "bowling": [
                 {
@@ -358,5 +358,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 160 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 160 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Fraser Watts",
+            "Dougie Brown",
+            "Glenn Rogers",
+            "Neil McCallum",
+            "John Blain",
+            "Colin Smith (wk)",
+            "Paul Hoffmann",
+            "Ryan Watson(c)",
+            "Dewald Nel",
+            "Gavin Hamilton",
+            "Majid Haq"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Andrew Hall"
+        ]
+    }
 }

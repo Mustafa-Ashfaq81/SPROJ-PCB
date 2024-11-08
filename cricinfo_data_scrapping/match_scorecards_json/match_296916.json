@@ -40,7 +40,7 @@
                     "strike_rate": "94.80"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c Gibbs b JA Morkel",
                     "runs": "33",
                     "balls": "37",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Boucher b Botha",
+                    "dismissal": "c (wk)Boucher b Botha",
                     "runs": "14",
                     "balls": "22",
                     "minutes": "26",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Prior b Harmison",
+                    "dismissal": "c (wk)Prior b Harmison",
                     "runs": "46",
                     "balls": "59",
                     "minutes": "66",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "run out (Harmison/Prior)",
+                    "dismissal": "run out (Harmison/ (wk)Prior)",
                     "runs": "12",
                     "balls": "23",
                     "minutes": "23",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Prior b Flintoff",
+                    "dismissal": "c (wk)Prior b Flintoff",
                     "runs": "18",
                     "balls": "33",
                     "minutes": "61",
@@ -267,7 +267,7 @@
                     "strike_rate": "54.54"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Patel",
                     "runs": "19",
                     "balls": "27",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Makhaya Ntini",
-                    "dismissal": "c Prior b Patel",
+                    "dismissal": "c (wk)Prior b Patel",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "England won by 126 runs"
+    "result": "England won by 126 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Matt Prior (wk)",
+            "Luke Wright",
+            "Ian Bell",
+            "Steve Harmison",
+            "Samit Patel",
+            "Kevin Pietersen(c)",
+            "Paul Collingwood",
+            "Owais Shah",
+            "Andrew Flintoff"
+        ],
+        "South Africa": [
+            "AB de Villiers",
+            "Makhaya Ntini",
+            "Johan Botha",
+            "Jacques Kallis(c)",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Dale Steyn",
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Morne Morkel",
+            "Hashim Amla"
+        ]
+    }
 }

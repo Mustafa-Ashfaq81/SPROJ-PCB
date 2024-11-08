@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "0",
                     "balls": "13",
                     "minutes": "12",
@@ -85,7 +85,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Smith b Boje",
                     "runs": "24",
                     "balls": "65",
@@ -126,7 +126,7 @@
                 },
                 {
                     "batsman": "Tapash Baisya",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "10",
@@ -258,7 +258,7 @@
                     "strike_rate": "90.90"
                 }
             ],
-            "did_not_bat": "Jacques Rudolph , Martin van Jaarsveld , Mark Boucher , Shaun Pollock , Lance Klusener , Nicky Boje , Charl Langeveldt , Makhaya Ntini",
+            "did_not_bat": "Jacques Rudolph , Martin van Jaarsveld , Mark Boucher (wk) , Shaun Pollock , Lance Klusener , Nicky Boje , Charl Langeveldt , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 15 ( Herschelle Gibbs , 2.6 ov )",
             "bowling": [
                 {
@@ -320,5 +320,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 9 wickets (with 193 balls remaining)"
+    "result": "South Africa won by 9 wickets (with 193 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mohammad Ashraful",
+            "Mushfiqur Rahman",
+            "Mohammad Rafique",
+            "Javed Omer",
+            "Khaled Mashud (wk)",
+            "Nafees Iqbal",
+            "Aftab Ahmed",
+            "Tapash Baisya",
+            "Manzarul Islam",
+            "Nazmul Hossain",
+            "Rajin Saleh(c)"
+        ],
+        "South Africa": [
+            "Lance Klusener",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Nicky Boje",
+            "Charl Langeveldt",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Martin van Jaarsveld",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Herschelle Gibbs"
+        ]
+    }
 }

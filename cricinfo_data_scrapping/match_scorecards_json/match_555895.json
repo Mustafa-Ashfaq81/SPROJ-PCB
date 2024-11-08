@@ -29,7 +29,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Amjad Ali",
+                    "batsman": "Amjad Ali (wk)",
                     "dismissal": "c Seelaar b van der Gugten",
                     "runs": "17",
                     "balls": "22",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Saqib Ali",
-                    "dismissal": "c Barresi b van der Gugten",
+                    "dismissal": "c (wk)Barresi b van der Gugten",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -110,7 +110,7 @@
                 },
                 {
                     "batsman": "Ahmed Raza",
-                    "dismissal": "c Barresi b Ahsan Malik",
+                    "dismissal": "c (wk)Barresi b Ahsan Malik",
                     "runs": "1",
                     "balls": "10",
                     "minutes": "-",
@@ -260,7 +260,7 @@
                     "strike_rate": "49.09"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "lbw b Guruge",
                     "runs": "15",
                     "balls": "27",
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 7 wickets (with 170 balls remaining)"
+    "result": "Netherlands won by 7 wickets (with 170 balls remaining)",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Ahmed Raza",
+            "Manjula Guruge",
+            "Saqib Ali",
+            "Vikrant Shetty",
+            "Rohan Mustafa",
+            "Amjad Ali (wk)",
+            "Khurram Khan(c)",
+            "Haroon Iftikhar",
+            "Mohammad Naveed",
+            "Shaiman Anwar",
+            "Amjad Javed"
+        ],
+        "Netherlands": [
+            "Tom Cooper",
+            "Peter Borren(c)",
+            "Eric Szwarczynski",
+            "Ahsan Malik",
+            "Wesley Barresi (wk)",
+            "Michael Swart",
+            "Mudassar Bukhari",
+            "Tom de Grooth",
+            "Pieter Seelaar",
+            "Timm van der Gugten",
+            "Shahbaz Bashir"
+        ]
+    }
 }

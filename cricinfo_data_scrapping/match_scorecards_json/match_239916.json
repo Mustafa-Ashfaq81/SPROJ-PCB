@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "7",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Dhoni b Yuvraj Singh",
+                    "dismissal": "c (wk)Dhoni b Yuvraj Singh",
                     "runs": "19",
                     "balls": "53",
                     "minutes": "58",
@@ -100,7 +100,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "c Pathan b Powar",
                     "runs": "21",
                     "balls": "17",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Jerome Taylor",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "9",
                     "balls": "9",
                     "minutes": "16",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Rahul Dravid(c)",
-                    "dismissal": "c Baugh b Bradshaw",
+                    "dismissal": "c (wk)Baugh b Bradshaw",
                     "runs": "11",
                     "balls": "22",
                     "minutes": "46",
@@ -297,7 +297,7 @@
                     "strike_rate": "49.09"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b Taylor",
                     "runs": "2",
                     "balls": "7",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 1 run"
+    "result": "West Indies won by 1 run",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Marlon Samuels",
+            "Carlton Baugh (wk)",
+            "Jerome Taylor",
+            "Dwayne Bravo",
+            "Runako Morton",
+            "Brian Lara(c)",
+            "Ramnaresh Sarwan",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards"
+        ],
+        "India": [
+            "Ramesh Powar",
+            "Irfan Pathan",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Munaf Patel",
+            "Yuvraj Singh",
+            "MS Dhoni (wk)",
+            "Rahul Dravid(c)",
+            "Virender Sehwag",
+            "Suresh Raina",
+            "Harbhajan Singh"
+        ]
+    }
 }

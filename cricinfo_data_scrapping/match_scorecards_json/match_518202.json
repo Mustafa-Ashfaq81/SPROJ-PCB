@@ -47,7 +47,7 @@
                 },
                 {
                     "batsman": "Hiral Patel",
-                    "dismissal": "c Mohammad Shahzad b Dawlat Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Dawlat Zadran",
                     "runs": "62",
                     "balls": "85",
                     "minutes": "133",
@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Zubin Surkari",
-                    "dismissal": "c Mohammad Shahzad b Dawlat Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Dawlat Zadran",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "21",
@@ -96,8 +96,8 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "Hamza Tariq",
-                    "dismissal": "st Mohammad Shahzad b Mohammad Nabi",
+                    "batsman": "Hamza Tariq (wk)",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "14",
                     "balls": "19",
                     "minutes": "26",
@@ -107,7 +107,7 @@
                 },
                 {
                     "batsman": "Junaid Siddiqui",
-                    "dismissal": "c Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "c (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -127,7 +127,7 @@
                 },
                 {
                     "batsman": "Henry Osinde",
-                    "dismissal": "c Mohammad Shahzad b Hamid Hassan",
+                    "dismissal": "c (wk)Mohammad Shahzad b Hamid Hassan",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "5",
@@ -277,7 +277,7 @@
                     "strike_rate": "86.23"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Hansra b Rizwan Cheema",
                     "runs": "1",
                     "balls": "9",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Nawroz Mangal(c)",
-                    "dismissal": "c Hamza Tariq b Rizwan Cheema",
+                    "dismissal": "c (wk)Hamza Tariq b Rizwan Cheema",
                     "runs": "34",
                     "balls": "33",
                     "minutes": "42",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c Hamza Tariq b Rizwan Cheema",
+                    "dismissal": "c (wk)Hamza Tariq b Rizwan Cheema",
                     "runs": "58",
                     "balls": "59",
                     "minutes": "70",
@@ -461,5 +461,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 2 wickets (with 11 balls remaining) (D/L method)"
+    "result": "Afghanistan won by 2 wickets (with 11 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Canada": [
+            "Rizwan Cheema",
+            "Ruvindu Gunasekera",
+            "Henry Osinde",
+            "Junaid Siddiqui",
+            "Jimmy Hansra(c)",
+            "Hamza Tariq (wk)",
+            "Usman Limbada",
+            "Khurram Chohan",
+            "Hiral Patel",
+            "Parth Desai",
+            "Zubin Surkari"
+        ],
+        "Afghanistan": [
+            "Karim Sadiq",
+            "Nawroz Mangal(c)",
+            "Dawlat Zadran",
+            "Hamid Hassan",
+            "Shabir Noori",
+            "Noor Ali Zadran",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Mohammad Nabi",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)"
+        ]
+    }
 }

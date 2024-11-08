@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Wian van Vuuren",
-                    "dismissal": "c Karim b NN Odhiambo",
+                    "dismissal": "c (wk)Karim b NN Odhiambo",
                     "runs": "1",
                     "balls": "23",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Ian Opperman",
-                    "dismissal": "c Karim b NM Odhiambo",
+                    "dismissal": "c (wk)Karim b NM Odhiambo",
                     "runs": "17",
                     "balls": "45",
                     "minutes": "-",
@@ -109,7 +109,7 @@
                     "strike_rate": "35.29"
                 },
                 {
-                    "batsman": "Gerhard Erasmus",
+                    "batsman": "Gerhard Erasmus (wk)",
                     "dismissal": "c Patel b Ngoche",
                     "runs": "9",
                     "balls": "18",
@@ -296,7 +296,7 @@
                     "strike_rate": "65.00"
                 }
             ],
-            "did_not_bat": "Irfan Karim , Nehemiah Odhiambo , Nelson Odhiambo , Lucas Oluoch , James Ngoche",
+            "did_not_bat": "Irfan Karim (wk) , Nehemiah Odhiambo , Nelson Odhiambo , Lucas Oluoch , James Ngoche",
             "fall_of_wickets": "Fall of wickets : 1 - 35 ( Duncan Allan , 6.5 ov ) , 2 - 37 ( Alex Obanda , 7.5 ov ) , 3 - 64 ( Collins Obuya , 16.1 ov ) , 4 - 100 ( Morris Ouma , 23.5 ov )",
             "bowling": [
                 {
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 6 wickets (with 115 balls remaining)"
+    "result": "Kenya won by 6 wickets (with 115 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Craig Williams",
+            "Louis Klazinga",
+            "Raymond van Schoor",
+            "Louis van der Westhuizen",
+            "Sarel Burger(c)",
+            "Gerrie Snyman",
+            "Christi Viljoen",
+            "Ian Opperman",
+            "Wian van Vuuren",
+            "Gerhard Erasmus (wk)",
+            "Nicolaas Scholtz"
+        ],
+        "Kenya": [
+            "Duncan Allan",
+            "Rakep Patel",
+            "Tanmay Mishra",
+            "Lucas Oluoch",
+            "Alex Obanda",
+            "Irfan Karim (wk)",
+            "Nehemiah Odhiambo",
+            "Nelson Odhiambo",
+            "James Ngoche",
+            "Morris Ouma",
+            "Collins Obuya(c)"
+        ]
+    }
 }

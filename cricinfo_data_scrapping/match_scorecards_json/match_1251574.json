@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "c Klaasen b Maharaj",
+                    "dismissal": "c (wk)Klaasen b Maharaj",
                     "runs": "101",
                     "balls": "104",
                     "minutes": "155",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Mohammad Rizwan",
-                    "dismissal": "st Klaasen b Maharaj",
+                    "dismissal": "st (wk)Klaasen b Maharaj",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "10",
@@ -75,7 +75,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c & b Smuts",
                     "runs": "13",
                     "balls": "13",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "c Sarfaraz Ahmed b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shaheen Shah Afridi",
                     "runs": "18",
                     "balls": "21",
                     "minutes": "41",
@@ -276,7 +276,7 @@
                     "strike_rate": "116.98"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
+                    "batsman": "Heinrich Klaasen (wk)",
                     "dismissal": "lbw b Mohammad Nawaz",
                     "runs": "4",
                     "balls": "12",
@@ -287,7 +287,7 @@
                 },
                 {
                     "batsman": "Andile Phehlukwayo",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "54",
                     "balls": "61",
                     "minutes": "85",
@@ -307,7 +307,7 @@
                 },
                 {
                     "batsman": "Beuran Hendricks",
-                    "dismissal": "c Sarfaraz Ahmed b Haris Rauf",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Haris Rauf",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "7",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 28 runs"
+    "result": "Pakistan won by 28 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Sarfaraz Ahmed (wk)",
+            "Usman Qadir",
+            "Babar Azam(c)",
+            "Haris Rauf",
+            "Mohammad Rizwan",
+            "Faheem Ashraf",
+            "Shaheen Shah Afridi",
+            "Mohammad Nawaz",
+            "Hasan Ali",
+            "Imam-ul-Haq"
+        ],
+        "South Africa": [
+            "Keshav Maharaj",
+            "JJ Smuts",
+            "Janneman Malan",
+            "Lutho Sipamla",
+            "Heinrich Klaasen (wk)",
+            "Temba Bavuma(c)",
+            "Beuran Hendricks",
+            "Aiden Markram",
+            "Andile Phehlukwayo",
+            "Kyle Verreynne",
+            "Daryn Dupavillon"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Pant b Patel",
+                    "dismissal": "c (wk)Pant b Patel",
                     "runs": "45",
                     "balls": "65",
                     "minutes": "70",
@@ -53,7 +53,7 @@
                     "strike_rate": "94.11"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c Shubman Gill b Kuldeep Yadav",
                     "runs": "59",
                     "balls": "82",
@@ -221,7 +221,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma(c)",
-                    "dismissal": "c BKG Mendis b Wellalage",
+                    "dismissal": "c (wk)BKG Mendis b Wellalage",
                     "runs": "35",
                     "balls": "20",
                     "minutes": "32",
@@ -250,8 +250,8 @@
                     "strike_rate": "111.11"
                 },
                 {
-                    "batsman": "Rishabh Pant",
-                    "dismissal": "st BKG Mendis b Theekshana",
+                    "batsman": "Rishabh Pant (wk)",
+                    "dismissal": "st (wk)BKG Mendis b Theekshana",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "10",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 110 runs"
+    "result": "Sri Lanka won by 110 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Sadeera Samarawickrama",
+            "Avishka Fernando",
+            "Maheesh Theekshana",
+            "Janith Liyanage",
+            "Asitha Fernando",
+            "Kusal Mendis (wk)",
+            "Kamindu Mendis",
+            "Charith Asalanka(c)",
+            "Pathum Nissanka",
+            "Jeffrey Vandersay",
+            "Dunith Wellalage"
+        ],
+        "India": [
+            "Shivam Dube",
+            "Shreyas Iyer",
+            "Washington Sundar",
+            "Kuldeep Yadav",
+            "Rishabh Pant (wk)",
+            "Axar Patel",
+            "Mohammed Siraj",
+            "Riyan Parag",
+            "Virat Kohli",
+            "Shubman Gill",
+            "Rohit Sharma(c)"
+        ]
+    }
 }

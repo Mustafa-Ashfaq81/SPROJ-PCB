@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Hope b Roach",
+                    "dismissal": "c (wk)Hope b Roach",
                     "runs": "18",
                     "balls": "23",
                     "minutes": "28",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Vijay Shankar",
-                    "dismissal": "c Hope b Roach",
+                    "dismissal": "c (wk)Hope b Roach",
                     "runs": "14",
                     "balls": "19",
                     "minutes": "26",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Kedar Jadhav",
-                    "dismissal": "c Hope b Roach",
+                    "dismissal": "c (wk)Hope b Roach",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "13",
@@ -81,7 +81,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "56",
                     "balls": "61",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Mohammed Shami",
-                    "dismissal": "c Hope b Cottrell",
+                    "dismissal": "c (wk)Hope b Cottrell",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -238,7 +238,7 @@
                     "strike_rate": "77.50"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "b Mohammed Shami",
                     "runs": "5",
                     "balls": "10",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Carlos Brathwaite",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "13",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "India won by 125 runs"
+    "result": "India won by 125 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "KL Rahul",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Yuzvendra Chahal",
+            "Vijay Shankar",
+            "Kedar Jadhav",
+            "Virat Kohli(c)",
+            "Hardik Pandya",
+            "MS Dhoni (wk)",
+            "Mohammed Shami"
+        ],
+        "West Indies": [
+            "Fabian Allen",
+            "Oshane Thomas",
+            "Carlos Brathwaite",
+            "Chris Gayle",
+            "Sheldon Cottrell",
+            "Kemar Roach",
+            "Shai Hope (wk)",
+            "Jason Holder(c)",
+            "Nicholas Pooran",
+            "Sunil Ambris",
+            "Shimron Hetmyer"
+        ]
+    }
 }

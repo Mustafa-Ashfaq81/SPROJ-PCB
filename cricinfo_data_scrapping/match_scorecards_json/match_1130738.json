@@ -62,7 +62,7 @@
                     "strike_rate": "22.22"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b NLTC Perera",
                     "runs": "38",
                     "balls": "51",
@@ -249,7 +249,7 @@
                     "strike_rate": "65.62"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "b Jarvis",
                     "runs": "34",
                     "balls": "33",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Asela Gunaratne",
-                    "dismissal": "st Taylor b Cremer",
+                    "dismissal": "st (wk)Taylor b Cremer",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "-",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 12 runs"
+    "result": "Zimbabwe won by 12 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sikandar Raza",
+            "Brendan Taylor (wk)",
+            "Kyle Jarvis",
+            "Graeme Cremer(c)",
+            "Craig Ervine",
+            "Blessing Muzarabani",
+            "Malcolm Waller",
+            "Tendai Chatara",
+            "Peter Moor",
+            "Solomon Mire",
+            "Hamilton Masakadza"
+        ],
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Upul Tharanga",
+            "Dinesh Chandimal (wk)",
+            "Dushmantha Chameera",
+            "Wanindu Hasaranga",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Kusal Mendis",
+            "Suranga Lakmal",
+            "Asela Gunaratne"
+        ]
+    }
 }

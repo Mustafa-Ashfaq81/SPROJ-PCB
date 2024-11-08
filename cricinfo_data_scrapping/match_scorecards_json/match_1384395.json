@@ -31,7 +31,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c de Silva b Pathirana",
                     "runs": "100",
                     "balls": "84",
@@ -218,8 +218,8 @@
                     "strike_rate": "46.66"
                 },
                 {
-                    "batsman": "Kusal Mendis",
-                    "dismissal": "c Klaasen b Rabada",
+                    "batsman": "Kusal Mendis (wk)",
+                    "dismissal": "c (wk)Klaasen b Rabada",
                     "runs": "76",
                     "balls": "42",
                     "minutes": "55",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Dunith Wellalage",
-                    "dismissal": "c Klaasen b Coetzee",
+                    "dismissal": "c (wk)Klaasen b Coetzee",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 102 runs"
+    "result": "South Africa won by 102 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Marco Jansen",
+            "Keshav Maharaj",
+            "Quinton de Kock (wk)",
+            "Kagiso Rabada",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Temba Bavuma(c)",
+            "Lungi Ngidi",
+            "Rassie van der Dussen",
+            "Gerald Coetzee",
+            "Aiden Markram"
+        ],
+        "Sri Lanka": [
+            "Kusal Mendis (wk)",
+            "Kasun Rajitha",
+            "Matheesha Pathirana",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Dilshan Madushanka",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Kusal Perera",
+            "Sadeera Samarawickrama"
+        ]
+    }
 }

@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Malcolm Waller",
-                    "dismissal": "run out (Rahul/Dhoni)",
+                    "dismissal": "run out (Rahul/ (wk)Dhoni)",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "20",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -93,7 +93,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "c Rahul b Bumrah",
                     "runs": "4",
                     "balls": "3",
@@ -246,7 +246,7 @@
                     "strike_rate": "90.16"
                 }
             ],
-            "did_not_bat": "Manish Pandey , Ambati Rayudu , Kedar Jadhav , MS Dhoni (c) , Axar Patel , Dhawal Kulkarni , Jasprit Bumrah , Barinder Sran , Yuzvendra Chahal",
+            "did_not_bat": "Manish Pandey , Ambati Rayudu , Kedar Jadhav , MS Dhoni (c) (wk) , Axar Patel , Dhawal Kulkarni , Jasprit Bumrah , Barinder Sran , Yuzvendra Chahal",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -322,5 +322,33 @@
             ]
         }
     ],
-    "result": "India won by 10 wickets (with 169 balls remaining)"
+    "result": "India won by 10 wickets (with 169 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Chamu Chibhabha",
+            "Malcolm Waller",
+            "Graeme Cremer(c)",
+            "Tawanda Mupariwa",
+            "Richmond Mutumbami (wk)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Timycen Maruma",
+            "Donald Tiripano",
+            "Vusi Sibanda",
+            "Neville Madziva"
+        ],
+        "India": [
+            "Dhawal Kulkarni",
+            "Kedar Jadhav",
+            "Manish Pandey",
+            "Faiz Fazal",
+            "Ambati Rayudu",
+            "Axar Patel",
+            "Barinder Sran",
+            "KL Rahul",
+            "Jasprit Bumrah",
+            "MS Dhoni (c) (wk)",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

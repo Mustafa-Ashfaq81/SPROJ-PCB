@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi(c)",
-                    "dismissal": "run out (Stubbs/Verreynne)",
+                    "dismissal": "run out (Stubbs/ (wk)Verreynne)",
                     "runs": "10",
                     "balls": "17",
                     "minutes": "28",
@@ -83,7 +83,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "run out (Bavuma)",
                     "runs": "4",
                     "balls": "9",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c Verreynne b Fortuin",
+                    "dismissal": "c (wk)Verreynne b Fortuin",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "18",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Reeza Hendricks",
-                    "dismissal": "c Ikram Alikhil b Fareed Ahmad",
+                    "dismissal": "c (wk)Ikram Alikhil b Fareed Ahmad",
                     "runs": "18",
                     "balls": "31",
                     "minutes": "42",
@@ -290,7 +290,7 @@
                     "strike_rate": "61.90"
                 }
             ],
-            "did_not_bat": "Kyle Verreynne , Wiaan Mulder , Andile Phehlukwayo , Bjorn Fortuin , Nqabayomzi Peter , Lungi Ngidi",
+            "did_not_bat": "Kyle Verreynne (wk) , Wiaan Mulder , Andile Phehlukwayo , Bjorn Fortuin , Nqabayomzi Peter , Lungi Ngidi",
             "fall_of_wickets": "Fall of wickets : 1 - 40 ( Temba Bavuma , 8.1 ov ) , 2 - 62 ( Tony de Zorzi , 11.6 ov ) , 3 - 80 ( Reeza Hendricks , 18.1 ov ) DRS",
             "bowling": [
                 {
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 102 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 102 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Nangeyalia Kharote",
+            "Naveed Zadran",
+            "Azmatullah Omarzai",
+            "AM Ghazanfar",
+            "Hashmatullah Shahidi(c)",
+            "Abdul Malik",
+            "Rahmanullah Gurbaz",
+            "Ikram Alikhil (wk)",
+            "Mohammad Nabi",
+            "Fareed Ahmad",
+            "Rahmat Shah"
+        ],
+        "South Africa": [
+            "Tony de Zorzi",
+            "Lungi Ngidi",
+            "Bjorn Fortuin",
+            "Temba Bavuma(c)",
+            "Aiden Markram",
+            "Reeza Hendricks",
+            "Wiaan Mulder",
+            "Nqabayomzi Peter",
+            "Andile Phehlukwayo",
+            "Kyle Verreynne (wk)",
+            "Tristan Stubbs"
+        ]
+    }
 }

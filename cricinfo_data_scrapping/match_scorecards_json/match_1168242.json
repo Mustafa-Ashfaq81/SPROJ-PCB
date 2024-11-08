@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Aaron Finch(c)",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Peter Handscomb",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "19",
                     "balls": "30",
                     "minutes": "-",
@@ -93,7 +93,7 @@
                     "strike_rate": "91.30"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "36",
                     "balls": "37",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Ambati Rayudu",
-                    "dismissal": "c Carey b Zampa",
+                    "dismissal": "c (wk)Carey b Zampa",
                     "runs": "13",
                     "balls": "19",
                     "minutes": "-",
@@ -260,7 +260,7 @@
                     "strike_rate": "68.42"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "59",
                     "balls": "72",
@@ -356,5 +356,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 10 balls remaining)"
+    "result": "India won by 6 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Alex Carey (wk)",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Peter Handscomb",
+            "Ashton Turner",
+            "Nathan Coulter-Nile",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Jason Behrendorff",
+            "Adam Zampa",
+            "Marcus Stoinis"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kedar Jadhav",
+            "Mohammed Shami",
+            "Vijay Shankar",
+            "Ambati Rayudu",
+            "Virat Kohli(c)",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

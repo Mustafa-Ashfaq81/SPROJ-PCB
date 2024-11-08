@@ -41,7 +41,7 @@
                     "strike_rate": "111.11"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Taylor",
                     "runs": "71",
                     "balls": "103",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c de Kock b Imran Tahir",
+                    "dismissal": "c (wk)de Kock b Imran Tahir",
                     "runs": "24",
                     "balls": "30",
                     "minutes": "43",
@@ -228,7 +228,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Morris b Shamsi",
                     "runs": "11",
                     "balls": "18",
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 139 runs"
+    "result": "South Africa won by 139 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Chris Morris",
+            "Tabraiz Shamsi",
+            "Wayne Parnell",
+            "Hashim Amla",
+            "Jean-Paul Duminy",
+            "Farhaan Behardien",
+            "Faf du Plessis",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "AB de Villiers(c)",
+            "Kagiso Rabada"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Carlos Brathwaite",
+            "Sulieman Benn",
+            "Kieron Pollard",
+            "Jason Holder(c)",
+            "Johnson Charles",
+            "Denesh Ramdin (wk)",
+            "Sunil Narine",
+            "Andre Fletcher",
+            "Darren Bravo",
+            "Jerome Taylor"
+        ]
+    }
 }

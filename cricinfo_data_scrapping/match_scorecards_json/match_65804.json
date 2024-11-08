@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Jehan Mubarak",
-                    "dismissal": "st Rashid Latif b Shoaib Malik",
+                    "dismissal": "st (wk)Rashid Latif b Shoaib Malik",
                     "runs": "20",
                     "balls": "40",
                     "minutes": "36",
@@ -95,7 +95,7 @@
                     "strike_rate": "52.38"
                 },
                 {
-                    "batsman": "Prasanna Jayawardene",
+                    "batsman": "Prasanna Jayawardene (wk)",
                     "dismissal": "b Naved-ul-Hasan",
                     "runs": "0",
                     "balls": "1",
@@ -213,7 +213,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "run out (Mubarak/Jayawardene)",
+                    "dismissal": "run out (Mubarak/ (wk)Jayawardene)",
                     "runs": "50",
                     "balls": "103",
                     "minutes": "116",
@@ -262,7 +262,7 @@
                     "strike_rate": "116.32"
                 }
             ],
-            "did_not_bat": "Shoaib Malik , Rashid Latif (c) , Mohammad Sami , Naved-ul-Hasan , Umar Gul , Abdul Razzaq",
+            "did_not_bat": "Shoaib Malik , Rashid Latif (c) (wk) , Mohammad Sami , Naved-ul-Hasan , Umar Gul , Abdul Razzaq",
             "fall_of_wickets": "Fall of wickets : 1 - 21 ( Taufeeq Umar , 7.3 ov ) , 2 - 97 ( Mohammad Hafeez , 28.3 ov ) , 3 - 101 ( Faisal Iqbal , 28.6 ov )",
             "bowling": [
                 {
@@ -338,5 +338,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 16 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Charitha Buddhika",
+            "Jehan Mubarak",
+            "Avishka Gunawardene",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Hashan Tillakaratne",
+            "Kumar Dharmasena",
+            "Prasanna Jayawardene (wk)",
+            "Sanath Jayasuriya(c)",
+            "Kumar Sangakkara",
+            "Marvan Atapattu"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Mohammad Hafeez",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Naved-ul-Hasan",
+            "Umar Gul",
+            "Rashid Latif (c) (wk)",
+            "Mohammad Yousuf",
+            "Taufeeq Umar",
+            "Faisal Iqbal"
+        ]
+    }
 }

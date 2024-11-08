@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Rahmanullah Gurbaz",
-                    "dismissal": "run out (sub [DJ Willey]/Buttler)",
+                    "dismissal": "run out (sub [DJ Willey]/ (wk)Buttler)",
                     "runs": "80",
                     "balls": "57",
                     "minutes": "87",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "10",
@@ -81,7 +81,7 @@
                     "strike_rate": "79.16"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "c Curran b Topley",
                     "runs": "58",
                     "balls": "66",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Naveen-ul-Haq",
-                    "dismissal": "run out (Buttler)",
+                    "dismissal": "run out ( (wk)Buttler)",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "9",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Harry Brook",
-                    "dismissal": "c Ikram Alikhil b Mujeeb Ur Rahman",
+                    "dismissal": "c (wk)Ikram Alikhil b Mujeeb Ur Rahman",
                     "runs": "66",
                     "balls": "61",
                     "minutes": "123",
@@ -292,7 +292,7 @@
                     "strike_rate": "108.19"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "b Naveen-ul-Haq",
                     "runs": "9",
                     "balls": "18",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 69 runs"
+    "result": "Afghanistan won by 69 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Naveen-ul-Haq",
+            "Azmatullah Omarzai",
+            "Hashmatullah Shahidi(c)",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman",
+            "Rahmanullah Gurbaz",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi",
+            "Ikram Alikhil (wk)"
+        ],
+        "England": [
+            "Liam Livingstone",
+            "Jos Buttler(c) (wk)",
+            "Sam Curran",
+            "Chris Woakes",
+            "Reece Topley",
+            "Jonny Bairstow",
+            "Harry Brook",
+            "Dawid Malan",
+            "Mark Wood",
+            "Joe Root",
+            "Adil Rashid"
+        ]
+    }
 }

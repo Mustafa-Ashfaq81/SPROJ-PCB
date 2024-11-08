@@ -93,7 +93,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "lbw b Shahid Afridi",
                     "runs": "15",
                     "balls": "22",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "st Baugh b Bishoo",
+                    "dismissal": "st (wk)Baugh b Bishoo",
                     "runs": "102",
                     "balls": "148",
                     "minutes": "188",
@@ -290,7 +290,7 @@
                     "strike_rate": "154.54"
                 }
             ],
-            "did_not_bat": "Shahid Afridi (c) , Mohammad Salman , Hammad Azam , Junaid Khan , Wahab Riaz , Saeed Ajmal",
+            "did_not_bat": "Shahid Afridi (c) , Mohammad Salman (wk) , Hammad Azam , Junaid Khan , Wahab Riaz , Saeed Ajmal",
             "fall_of_wickets": "Fall of wickets : 1 - 66 ( Mohammad Hafeez , 18.2 ov ) , 2 - 132 ( Asad Shafiq , 33.2 ov ) , 3 - 193 ( Ahmed Shehzad , 45.2 ov )",
             "bowling": [
                 {
@@ -366,5 +366,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 12 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Carlton Baugh (wk)",
+            "Anthony Martin",
+            "Daren Sammy(c)",
+            "Devon Smith",
+            "Kemar Roach",
+            "Devendra Bishoo",
+            "Dwayne Bravo",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Lendl Simmons",
+            "Kirk Edwards"
+        ],
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Wahab Riaz",
+            "Mohammad Salman (wk)",
+            "Ahmed Shehzad",
+            "Hammad Azam",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Asad Shafiq",
+            "Shahid Afridi (c)",
+            "Misbah-ul-Haq",
+            "Umar Akmal"
+        ]
+    }
 }

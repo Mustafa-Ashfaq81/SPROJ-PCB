@@ -30,7 +30,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Bresnan",
                     "runs": "5",
                     "balls": "13",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Davies b Anderson",
+                    "dismissal": "c (wk)Davies b Anderson",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "6",
@@ -247,7 +247,7 @@
                     "strike_rate": "105.55"
                 },
                 {
-                    "batsman": "Steven Davies",
+                    "batsman": "Steven Davies (wk)",
                     "dismissal": "b Abdul Razzaq",
                     "runs": "18",
                     "balls": "18",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "c Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "c (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "23",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 23 runs"
+    "result": "Pakistan won by 23 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Mohammad Hafeez",
+            "Shahid Afridi(c)",
+            "Umar Akmal",
+            "Fawad Alam",
+            "Asad Shafiq",
+            "Abdul Razzaq"
+        ],
+        "England": [
+            "Jonathan Trott",
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Eoin Morgan",
+            "Ravi Bopara",
+            "Luke Wright",
+            "Graeme Swann",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Steven Davies (wk)"
+        ]
+    }
 }

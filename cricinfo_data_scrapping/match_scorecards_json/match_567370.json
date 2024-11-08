@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Colin Ingram",
-                    "dismissal": "c Kamran Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Irfan",
                     "runs": "17",
                     "balls": "43",
                     "minutes": "50",
@@ -60,7 +60,7 @@
                     "strike_rate": "39.53"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "c Shoaib Malik b Saeed Ajmal",
                     "runs": "128",
                     "balls": "108",
@@ -217,8 +217,8 @@
                     "strike_rate": "116.32"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c de Villiers b McLaren",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)de Villiers b McLaren",
                     "runs": "30",
                     "balls": "42",
                     "minutes": "52",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "c de Villiers b McLaren",
+                    "dismissal": "c (wk)de Villiers b McLaren",
                     "runs": "28",
                     "balls": "25",
                     "minutes": "65",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 34 runs"
+    "result": "South Africa won by 34 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Farhaan Behardien",
+            "Colin Ingram",
+            "Graeme Smith",
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Rory Kleinveldt",
+            "Dale Steyn",
+            "Faf du Plessis",
+            "Robin Peterson",
+            "Hashim Amla"
+        ],
+        "Pakistan": [
+            "Wahab Riaz",
+            "Mohammad Irfan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Younis Khan"
+        ]
+    }
 }

@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Barney Rogers",
-                    "dismissal": "c Jacobs b Dillon",
+                    "dismissal": "c (wk)Jacobs b Dillon",
                     "runs": "34",
                     "balls": "40",
                     "minutes": "61",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Craig Wishart",
-                    "dismissal": "c Jacobs b Gayle",
+                    "dismissal": "c (wk)Jacobs b Gayle",
                     "runs": "16",
                     "balls": "24",
                     "minutes": "48",
@@ -93,7 +93,7 @@
                     "strike_rate": "48.38"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Sarwan b Powell",
                     "runs": "14",
                     "balls": "33",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Andy Blignaut",
-                    "dismissal": "st Jacobs b Powell",
+                    "dismissal": "st (wk)Jacobs b Powell",
                     "runs": "10",
                     "balls": "10",
                     "minutes": "18",
@@ -280,7 +280,7 @@
                     "strike_rate": "109.09"
                 }
             ],
-            "did_not_bat": "Shivnarine Chanderpaul , Ramnaresh Sarwan , Ridley Jacobs , Mervyn Dillon , Corey Collymore , Fidel Edwards , Ravi Rampaul",
+            "did_not_bat": "Shivnarine Chanderpaul , Ramnaresh Sarwan , Ridley Jacobs (wk) , Mervyn Dillon , Corey Collymore , Fidel Edwards , Ravi Rampaul",
             "fall_of_wickets": "Fall of wickets : 1 - 43 ( Wavell Hinds , 7.3 ov ) , 2 - 180 ( Brian Lara , 23.2 ov )",
             "bowling": [
                 {
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 8 wickets (with 146 balls remaining)"
+    "result": "West Indies won by 8 wickets (with 146 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Andy Blignaut",
+            "Vusi Sibanda",
+            "Craig Wishart",
+            "Ray Price",
+            "Mark Vermeulen",
+            "Heath Streak(c)",
+            "Tatenda Taibu (wk)",
+            "Gary Brent",
+            "Alester Maregwede",
+            "Barney Rogers"
+        ],
+        "West Indies": [
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Ravi Rampaul",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards"
+        ]
+    }
 }

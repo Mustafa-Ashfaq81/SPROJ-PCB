@@ -46,7 +46,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "c Vinay Kumar b Nehra",
                     "runs": "9",
                     "balls": "24",
@@ -194,7 +194,7 @@
                 },
                 {
                     "batsman": "Murali Vijay",
-                    "dismissal": "c Paine b McKay",
+                    "dismissal": "c (wk)Paine b McKay",
                     "runs": "15",
                     "balls": "18",
                     "minutes": "36",
@@ -233,7 +233,7 @@
                     "strike_rate": "151.06"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Hastings",
                     "runs": "0",
                     "balls": "1",
@@ -343,5 +343,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 7 balls remaining)"
+    "result": "India won by 5 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith",
+            "John Hastings",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Tim Paine (wk)",
+            "Michael Clarke(c)",
+            "Mitchell Starc",
+            "Cameron White",
+            "James Hopes",
+            "Nathan Hauritz",
+            "Clint McKay"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Murali Vijay",
+            "Vinay Kumar",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Saurabh Tiwary",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ]
+    }
 }

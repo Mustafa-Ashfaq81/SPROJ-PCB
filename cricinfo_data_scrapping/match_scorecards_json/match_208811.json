@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "st Boucher b Pollock",
+                    "dismissal": "st (wk)Boucher b Pollock",
                     "runs": "72",
                     "balls": "111",
                     "minutes": "156",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul(c)",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "49",
                     "balls": "56",
                     "minutes": "82",
@@ -100,7 +100,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Courtney Browne",
+                    "batsman": "Courtney Browne (wk)",
                     "dismissal": "not out",
                     "runs": "9",
                     "balls": "8",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Pedro Collins",
-                    "dismissal": "run out (Boucher)",
+                    "dismissal": "run out ( (wk)Boucher)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "5",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Browne b Smith",
+                    "dismissal": "c (wk)Browne b Smith",
                     "runs": "103",
                     "balls": "102",
                     "minutes": "152",
@@ -277,7 +277,7 @@
                     "strike_rate": "111.11"
                 }
             ],
-            "did_not_bat": "Shaun Pollock , Ashwell Prince , Justin Kemp , Mark Boucher , Charl Langeveldt , Andre Nel , Makhaya Ntini",
+            "did_not_bat": "Shaun Pollock , Ashwell Prince , Justin Kemp , Mark Boucher (wk) , Charl Langeveldt , Andre Nel , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 131 ( Boeta Dippenaar , 22.2 ov ) , 2 - 190 ( Graeme Smith , 34.4 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 30 balls remaining)"
+    "result": "South Africa won by 8 wickets (with 30 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Brian Lara",
+            "Corey Collymore",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Shivnarine Chanderpaul(c)",
+            "Pedro Collins",
+            "Ramnaresh Sarwan"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Andre Nel",
+            "Shaun Pollock",
+            "Charl Langeveldt",
+            "Mark Boucher (wk)",
+            "Boeta Dippenaar",
+            "Ashwell Prince",
+            "Makhaya Ntini",
+            "Justin Kemp"
+        ]
+    }
 }

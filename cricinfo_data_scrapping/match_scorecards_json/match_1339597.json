@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c Klaasen b Magala",
+                    "dismissal": "c (wk)Klaasen b Magala",
                     "runs": "118",
                     "balls": "114",
                     "minutes": "189",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Ben Duckett",
-                    "dismissal": "c Klaasen b Ngidi",
+                    "dismissal": "c (wk)Klaasen b Ngidi",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "8",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Harry Brook",
-                    "dismissal": "c Klaasen b Ngidi",
+                    "dismissal": "c (wk)Klaasen b Ngidi",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "14",
@@ -72,7 +72,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Markram b Jansen",
                     "runs": "131",
                     "balls": "127",
@@ -259,7 +259,7 @@
                     "strike_rate": "111.42"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
+                    "batsman": "Heinrich Klaasen (wk)",
                     "dismissal": "c Duckett b Archer",
                     "runs": "80",
                     "balls": "62",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Buttler b Archer",
+                    "dismissal": "c (wk)Buttler b Archer",
                     "runs": "13",
                     "balls": "7",
                     "minutes": "8",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Marco Jansen",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "12",
                     "balls": "12",
                     "minutes": "19",
@@ -300,7 +300,7 @@
                 },
                 {
                     "batsman": "Sisanda Magala",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "7",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "England won by 59 runs"
+    "result": "England won by 59 runs",
+    "playing_xi": {
+        "England": [
+            "Moeen Ali",
+            "Chris Woakes",
+            "Harry Brook",
+            "Adil Rashid",
+            "Sam Curran",
+            "Jos Buttler(c) (wk)",
+            "Jofra Archer",
+            "Jason Roy",
+            "Dawid Malan",
+            "Reece Topley",
+            "Ben Duckett"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Wayne Parnell",
+            "David Miller",
+            "Aiden Markram",
+            "Marco Jansen",
+            "Lungi Ngidi",
+            "Temba Bavuma(c)",
+            "Heinrich Klaasen (wk)",
+            "Tabraiz Shamsi",
+            "Rassie van der Dussen",
+            "Sisanda Magala"
+        ]
+    }
 }

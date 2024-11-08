@@ -70,7 +70,7 @@
                     "strike_rate": "91.30"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "b Mohammed Shami",
                     "runs": "4",
                     "balls": "5",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Buttler b Topley",
+                    "dismissal": "c (wk)Buttler b Topley",
                     "runs": "9",
                     "balls": "26",
                     "minutes": "36",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Buttler b Willey",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "16",
                     "balls": "25",
                     "minutes": "39",
@@ -267,7 +267,7 @@
                     "strike_rate": "64.00"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "c sub (PD Salt) b Carse",
                     "runs": "0",
                     "balls": "5",
@@ -338,7 +338,7 @@
                 },
                 {
                     "batsman": "Prasidh Krishna",
-                    "dismissal": "c Buttler b Topley",
+                    "dismissal": "c (wk)Buttler b Topley",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "England won by 100 runs"
+    "result": "England won by 100 runs",
+    "playing_xi": {
+        "England": [
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Brydon Carse",
+            "Jason Roy",
+            "Ben Stokes",
+            "Liam Livingstone",
+            "Craig Overton",
+            "Jos Buttler(c) (wk)",
+            "Reece Topley",
+            "David Willey",
+            "Joe Root"
+        ],
+        "India": [
+            "Yuzvendra Chahal",
+            "Jasprit Bumrah",
+            "Prasidh Krishna",
+            "Rohit Sharma(c)",
+            "Rishabh Pant (wk)",
+            "Suryakumar Yadav",
+            "Ravindra Jadeja",
+            "Hardik Pandya",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ]
+    }
 }

@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "run out (Shakib Al Hasan/Mushfiqur Rahim)",
+                    "dismissal": "run out (Shakib Al Hasan/ (wk)Mushfiqur Rahim)",
                     "runs": "28",
                     "balls": "29",
                     "minutes": "46",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Yusuf Pathan",
-                    "dismissal": "c Mushfiqur Rahim b Shafiul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shafiul Islam",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "10",
@@ -81,7 +81,7 @@
                     "strike_rate": "80.00"
                 }
             ],
-            "did_not_bat": "Yuvraj Singh , MS Dhoni (c) , Harbhajan Singh , Zaheer Khan , Sreesanth , Munaf Patel",
+            "did_not_bat": "Yuvraj Singh , MS Dhoni (c) (wk) , Harbhajan Singh , Zaheer Khan , Sreesanth , Munaf Patel",
             "fall_of_wickets": "Fall of wickets : 1 - 69 ( Sachin Tendulkar , 10.5 ov ) , 2 - 152 ( Gautam Gambhir , 23.2 ov ) , 3 - 355 ( Virender Sehwag , 47.3 ov ) , 4 - 370 ( Yusuf Pathan , 49.6 ov )",
             "bowling": [
                 {
@@ -199,7 +199,7 @@
                 },
                 {
                     "batsman": "Zunaed Siddique",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "37",
                     "balls": "52",
                     "minutes": "66",
@@ -218,7 +218,7 @@
                     "strike_rate": "110.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c sub (SK Raina) b Khan",
                     "runs": "25",
                     "balls": "30",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "India won by 87 runs"
+    "result": "India won by 87 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Munaf Patel",
+            "MS Dhoni (c) (wk)",
+            "Virat Kohli",
+            "Sreesanth",
+            "Yusuf Pathan",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ],
+        "Bangladesh": [
+            "Rubel Hossain",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Shakib Al Hasan(c)",
+            "Imrul Kayes",
+            "Raqibul Hasan",
+            "Abdur Razzak",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ]
+    }
 }

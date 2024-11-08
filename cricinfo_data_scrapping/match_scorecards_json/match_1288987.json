@@ -48,7 +48,7 @@
                 },
                 {
                     "batsman": "Max O'Dowd",
-                    "dismissal": "c Latham b Jamieson",
+                    "dismissal": "c (wk)Latham b Jamieson",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "10",
@@ -77,7 +77,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "c & b de Grandhomme",
                     "runs": "1",
                     "balls": "7",
@@ -98,7 +98,7 @@
                 },
                 {
                     "batsman": "Pieter Seelaar(c)",
-                    "dismissal": "c Latham b Tickner",
+                    "dismissal": "c (wk)Latham b Tickner",
                     "runs": "43",
                     "balls": "75",
                     "minutes": "81",
@@ -245,7 +245,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Edwards b van Beek",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "12",
@@ -284,7 +284,7 @@
                     "strike_rate": "64.70"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "not out",
                     "runs": "8",
                     "balls": "11",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 69 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 69 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Brandon Glover",
+            "Vikramjit Singh",
+            "Scott Edwards (wk)",
+            "Fred Klaassen",
+            "Stephan Myburgh",
+            "Max O'Dowd",
+            "Logan van Beek",
+            "Pieter Seelaar(c)",
+            "Michael Rippon",
+            "Bas de Leede",
+            "Philippe Boissevain"
+        ],
+        "New Zealand": [
+            "Michael Bracewell",
+            "Ross Taylor",
+            "Tom Latham(c) (wk)",
+            "Martin Guptill",
+            "Will Young",
+            "Ish Sodhi",
+            "Blair Tickner",
+            "Kyle Jamieson",
+            "Matt Henry",
+            "Colin de Grandhomme",
+            "Henry Nicholls"
+        ]
+    }
 }

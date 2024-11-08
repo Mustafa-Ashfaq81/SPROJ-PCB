@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "12",
@@ -63,8 +63,8 @@
                     "strike_rate": "44.82"
                 },
                 {
-                    "batsman": "Brendan Taylor",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "batsman": "Brendan Taylor (wk)",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "4",
                     "balls": "29",
                     "minutes": "44",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Mehrab Hossain jnr",
-                    "dismissal": "c Taylor b Brent",
+                    "dismissal": "c (wk)Taylor b Brent",
                     "runs": "13",
                     "balls": "22",
                     "minutes": "34",
@@ -280,7 +280,7 @@
                     "strike_rate": "47.69"
                 }
             ],
-            "did_not_bat": "Habibul Bashar (c) , Mohammad Ashraful , Mushfiqur Rahim , Mohammad Rafique , Mashrafe Mortaza , Abdur Razzak , Shahadat Hossain",
+            "did_not_bat": "Habibul Bashar (c) , Mohammad Ashraful , Mushfiqur Rahim (wk) , Mohammad Rafique , Mashrafe Mortaza , Abdur Razzak , Shahadat Hossain",
             "fall_of_wickets": "Fall of wickets : 1 - 43 ( Mehrab Hossain jnr , 7.6 ov ) , 2 - 62 ( Shahriar Nafees , 11.3 ov )",
             "bowling": [
                 {
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 8 wickets (with 106 balls remaining)"
+    "result": "Bangladesh won by 8 wickets (with 106 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Mluleki Nkala",
+            "Chris Mpofu",
+            "Brendan Taylor (wk)",
+            "Gary Brent",
+            "Sean Williams",
+            "Tino Mawoyo",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Prosper Utseya(c)",
+            "Keith Dabengwa"
+        ],
+        "Bangladesh": [
+            "Mohammad Rafique",
+            "Shakib Al Hasan",
+            "Mehrab Hossain jnr",
+            "Shahriar Nafees",
+            "Habibul Bashar (c)",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Aftab Ahmed",
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

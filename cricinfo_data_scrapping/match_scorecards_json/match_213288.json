@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "36",
                     "balls": "50",
                     "minutes": "81",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Andrew Flintoff",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "10",
@@ -90,7 +90,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Kasprowicz b Gillespie",
                     "runs": "1",
                     "balls": "11",
@@ -217,7 +217,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "not out",
                     "runs": "121",
                     "balls": "101",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c GO Jones b Gough",
+                    "dismissal": "c (wk)GO Jones b Gough",
                     "runs": "31",
                     "balls": "47",
                     "minutes": "68",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "st GO Jones b Giles",
+                    "dismissal": "st (wk)GO Jones b Giles",
                     "runs": "43",
                     "balls": "44",
                     "minutes": "59",
@@ -333,5 +333,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 91 balls remaining)"
+    "result": "Australia won by 8 wickets (with 91 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Vikram Solanki",
+            "Andrew Flintoff",
+            "Darren Gough",
+            "Steve Harmison",
+            "Michael Vaughan(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Ashley Giles",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Marcus Trescothick"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Simon Katich",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Michael Hussey"
+        ]
+    }
 }

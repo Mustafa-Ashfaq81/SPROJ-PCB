@@ -76,7 +76,7 @@
                     "strike_rate": "65.45"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Fakhar Zaman b Usama Mir",
                     "runs": "42",
                     "balls": "52",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Babar Azam(c)",
-                    "dismissal": "st Latham b Phillips",
+                    "dismissal": "st (wk)Latham b Phillips",
                     "runs": "66",
                     "balls": "82",
                     "minutes": "129",
@@ -273,7 +273,7 @@
                     "strike_rate": "80.48"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "not out",
                     "runs": "77",
                     "balls": "86",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 11 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Tom Latham (wk)",
+            "Michael Bracewell",
+            "Kane Williamson(c)",
+            "Finn Allen",
+            "Lockie Ferguson",
+            "Tim Southee",
+            "Devon Conway",
+            "Henry Shipley",
+            "Daryl Mitchell",
+            "Glenn Phillips"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Haris Rauf",
+            "Usama Mir",
+            "Haris Sohail",
+            "Salman Agha",
+            "Babar Azam(c)",
+            "Mohammad Wasim",
+            "Imam-ul-Haq",
+            "Mohammad Rizwan (wk)",
+            "Mohammad Nawaz",
+            "Naseem Shah"
+        ]
+    }
 }

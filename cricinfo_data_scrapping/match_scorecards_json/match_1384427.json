@@ -72,7 +72,7 @@
                     "strike_rate": "85.54"
                 },
                 {
-                    "batsman": "Josh Inglis",
+                    "batsman": "Josh Inglis (wk)",
                     "dismissal": "c Ali b Rashid",
                     "runs": "3",
                     "balls": "6",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Adam Zampa",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "29",
                     "balls": "19",
                     "minutes": "23",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Inglis b Starc",
+                    "dismissal": "c (wk)Inglis b Starc",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Inglis b Starc",
+                    "dismissal": "c (wk)Inglis b Starc",
                     "runs": "13",
                     "balls": "17",
                     "minutes": "23",
@@ -279,7 +279,7 @@
                     "strike_rate": "71.11"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Green b Zampa",
                     "runs": "1",
                     "balls": "7",
@@ -330,7 +330,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "c Inglis b Hazlewood",
+                    "dismissal": "c (wk)Inglis b Hazlewood",
                     "runs": "20",
                     "balls": "15",
                     "minutes": "23",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Australia won by 33 runs"
+    "result": "Australia won by 33 runs",
+    "playing_xi": {
+        "Australia": [
+            "Travis Head",
+            "Adam Zampa",
+            "Cameron Green",
+            "Josh Inglis (wk)",
+            "Pat Cummins(c)",
+            "Marcus Stoinis",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Marnus Labuschagne",
+            "David Warner"
+        ],
+        "England": [
+            "Liam Livingstone",
+            "Jos Buttler(c) (wk)",
+            "Ben Stokes",
+            "Moeen Ali",
+            "Chris Woakes",
+            "Jonny Bairstow",
+            "David Willey",
+            "Dawid Malan",
+            "Mark Wood",
+            "Joe Root",
+            "Adil Rashid"
+        ]
+    }
 }

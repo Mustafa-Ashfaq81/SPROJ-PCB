@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "21",
                     "balls": "25",
                     "minutes": "29",
@@ -91,7 +91,7 @@
                     "strike_rate": "64.51"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c & b Rashid",
                     "runs": "2",
                     "balls": "3",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Wade b Hazlewood",
+                    "dismissal": "c (wk)Wade b Hazlewood",
                     "runs": "15",
                     "balls": "14",
                     "minutes": "25",
@@ -288,7 +288,7 @@
                     "strike_rate": "93.57"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "29",
                     "balls": "32",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "England won by 40 runs (D/L method)"
+    "result": "England won by 40 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "Matthew Wade (wk)",
+            "Pat Cummins",
+            "Adam Zampa",
+            "Aaron Finch",
+            "David Warner",
+            "Glenn Maxwell",
+            "Josh Hazlewood",
+            "Travis Head",
+            "Mitchell Starc",
+            "Moises Henriques"
+        ],
+        "England": [
+            "Mark Wood",
+            "Liam Plunkett",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Jake Ball",
+            "Alex Hales",
+            "Moeen Ali",
+            "Ben Stokes"
+        ]
+    }
 }

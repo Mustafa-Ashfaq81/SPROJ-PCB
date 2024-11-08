@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "9",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Buttler b Tredwell",
+                    "dismissal": "c (wk)Buttler b Tredwell",
                     "runs": "26",
                     "balls": "39",
                     "minutes": "79",
@@ -70,8 +70,8 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Buttler b Broad",
+                    "batsman": "AB de Villiers(c) (wk)",
+                    "dismissal": "c (wk)Buttler b Broad",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "12",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Chris Morris",
-                    "dismissal": "c Buttler b Tredwell",
+                    "dismissal": "c (wk)Buttler b Tredwell",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "9",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Rory Kleinveldt",
-                    "dismissal": "c Buttler b Broad",
+                    "dismissal": "c (wk)Buttler b Broad",
                     "runs": "43",
                     "balls": "61",
                     "minutes": "69",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Lonwabo Tsotsobe",
-                    "dismissal": "c Buttler b Broad",
+                    "dismissal": "c (wk)Buttler b Broad",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c de Villiers b Morris",
+                    "dismissal": "c (wk)de Villiers b Morris",
                     "runs": "6",
                     "balls": "21",
                     "minutes": "25",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c de Villiers b Kleinveldt",
+                    "dismissal": "c (wk)de Villiers b Kleinveldt",
                     "runs": "20",
                     "balls": "30",
                     "minutes": "44",
@@ -287,7 +287,7 @@
                     "strike_rate": "78.94"
                 }
             ],
-            "did_not_bat": "Ravi Bopara , Jos Buttler , Stuart Broad , James Anderson , James Tredwell , Steven Finn",
+            "did_not_bat": "Ravi Bopara , Jos Buttler (wk) , Stuart Broad , James Anderson , James Tredwell , Steven Finn",
             "fall_of_wickets": "Fall of wickets : 1 - 22 ( Alastair Cook , 6.2 ov ) , 2 - 41 ( Ian Bell , 10.6 ov ) , 3 - 146 ( Joe Root , 31.6 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 75 balls remaining)"
+    "result": "England won by 7 wickets (with 75 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Colin Ingram",
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Jean-Paul Duminy",
+            "Rory Kleinveldt",
+            "Faf du Plessis",
+            "David Miller",
+            "Robin Peterson",
+            "Hashim Amla",
+            "Chris Morris"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Jos Buttler (wk)",
+            "Ravi Bopara",
+            "James Tredwell"
+        ]
+    }
 }

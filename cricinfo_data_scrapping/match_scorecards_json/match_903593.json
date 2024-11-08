@@ -30,7 +30,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Raina b Ashwin",
                     "runs": "29",
                     "balls": "33",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "st Dhoni b Mishra",
+                    "dismissal": "st (wk)Dhoni b Mishra",
                     "runs": "13",
                     "balls": "22",
                     "minutes": "37",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "15",
                     "balls": "17",
                     "minutes": "21",
@@ -251,7 +251,7 @@
                     "strike_rate": "61.11"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c & b Rabada",
                     "runs": "31",
                     "balls": "30",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 runs"
+    "result": "South Africa won by 5 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Farhaan Behardien",
+            "AB de Villiers(c)",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Morne Morkel",
+            "David Miller"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Amit Mishra",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Umesh Yadav",
+            "Stuart Binny",
+            "Shikhar Dhawan"
+        ]
+    }
 }

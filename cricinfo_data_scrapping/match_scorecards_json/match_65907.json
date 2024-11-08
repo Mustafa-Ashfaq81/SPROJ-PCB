@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya(c)",
-                    "dismissal": "c Rashid Latif b Shahid Afridi",
+                    "dismissal": "c (wk)Rashid Latif b Shahid Afridi",
                     "runs": "34",
                     "balls": "58",
                     "minutes": "91",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "18",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "43",
                     "balls": "61",
                     "minutes": "75",
@@ -81,8 +81,8 @@
                     "strike_rate": "92.15"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Rashid Latif b Shahid Afridi",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Rashid Latif b Shahid Afridi",
                     "runs": "3",
                     "balls": "18",
                     "minutes": "19",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Naved Latif",
-                    "dismissal": "c Sangakkara b Nissanka",
+                    "dismissal": "c (wk)Sangakkara b Nissanka",
                     "runs": "23",
                     "balls": "22",
                     "minutes": "34",
@@ -298,7 +298,7 @@
                     "strike_rate": "45.16"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "23",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 5 wickets (with 38 balls remaining)"
+    "result": "Pakistan won by 5 wickets (with 38 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Charitha Buddhika",
+            "Prabath Nissanka",
+            "Avishka Gunawardene",
+            "Mahela Jayawardene",
+            "Chamara Silva",
+            "Muthiah Muralidaran",
+            "Russel Arnold",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya(c)",
+            "Marvan Atapattu"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Naved Latif",
+            "Abdul Razzaq",
+            "Azhar Mahmood",
+            "Shoaib Akhtar",
+            "Waqar Younis (c)",
+            "Inzamam-ul-Haq",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Shahid Afridi"
+        ]
+    }
 }

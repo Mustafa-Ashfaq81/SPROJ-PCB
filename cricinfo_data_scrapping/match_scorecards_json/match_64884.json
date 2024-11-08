@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "st Dravid b Kartik",
+                    "dismissal": "st (wk)Dravid b Kartik",
                     "runs": "45",
                     "balls": "68",
                     "minutes": "93",
@@ -90,7 +90,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "b Balaji",
                     "runs": "0",
                     "balls": "2",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Moin Khan b Shoaib Akhtar",
+                    "dismissal": "c (wk)Moin Khan b Shoaib Akhtar",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "22",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Moin Khan b Abdul Razzaq",
+                    "dismissal": "c (wk)Moin Khan b Abdul Razzaq",
                     "runs": "21",
                     "balls": "15",
                     "minutes": "23",
@@ -277,7 +277,7 @@
                     "strike_rate": "140.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "not out",
                     "runs": "76",
                     "balls": "92",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 30 balls remaining)"
+    "result": "India won by 5 wickets (with 30 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Moin Khan (wk)",
+            "Shahid Afridi",
+            "Yasir Hameed",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Yousuf",
+            "Shoaib Akhtar",
+            "Shabbir Ahmed",
+            "Younis Khan",
+            "Mohammad Sami"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "VVS Laxman",
+            "Irfan Pathan",
+            "Lakshmipathy Balaji",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Rahul Dravid (wk)",
+            "Mohammad Kaif",
+            "Sourav Ganguly(c)",
+            "Murali Kartik"
+        ]
+    }
 }

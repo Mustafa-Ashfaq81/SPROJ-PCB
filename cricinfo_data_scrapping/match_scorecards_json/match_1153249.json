@@ -61,7 +61,7 @@
                     "strike_rate": "141.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Chahal b Jadeja",
                     "runs": "21",
                     "balls": "45",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Mosaddek Hossain",
-                    "dismissal": "c Dhoni b Jadeja",
+                    "dismissal": "c (wk)Dhoni b Jadeja",
                     "runs": "12",
                     "balls": "43",
                     "minutes": "-",
@@ -245,7 +245,7 @@
                 },
                 {
                     "batsman": "Ambati Rayudu",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "13",
                     "balls": "28",
                     "minutes": "-",
@@ -254,7 +254,7 @@
                     "strike_rate": "46.42"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Mohammad Mithun b Mashrafe Mortaza",
                     "runs": "33",
                     "balls": "37",
@@ -350,5 +350,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 82 balls remaining)"
+    "result": "India won by 7 wickets (with 82 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mohammad Mithun",
+            "Mahmudullah",
+            "Najmul Hossain Shanto",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain"
+        ],
+        "India": [
+            "Dinesh Karthik",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Rohit Sharma(c)",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ravindra Jadeja",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ]
+    }
 }

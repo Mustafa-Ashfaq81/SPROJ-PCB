@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "-",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Iyer b Kuldeep Yadav",
                     "runs": "35",
                     "balls": "36",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Ashton Turner",
-                    "dismissal": "c Rahul b Saini",
+                    "dismissal": "c (wk)Rahul b Saini",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "-",
@@ -233,7 +233,7 @@
                     "strike_rate": "92.96"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "lbw b Agar",
                     "runs": "19",
                     "balls": "27",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 15 balls remaining)"
+    "result": "India won by 7 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Steven Smith",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Ashton Turner",
+            "Marnus Labuschagne",
+            "Ashton Agar",
+            "David Warner",
+            "Adam Zampa",
+            "Josh Hazlewood"
+        ],
+        "India": [
+            "Shreyas Iyer",
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Navdeep Saini",
+            "Mohammed Shami",
+            "KL Rahul (wk)",
+            "Manish Pandey",
+            "Virat Kohli(c)"
+        ]
+    }
 }

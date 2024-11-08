@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Saha b Khan",
+                    "dismissal": "c (wk)Saha b Khan",
                     "runs": "4",
                     "balls": "16",
                     "minutes": "25",
@@ -100,7 +100,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Gareth Hopkins",
+                    "batsman": "Gareth Hopkins (wk)",
                     "dismissal": "c Yuvraj Singh b Pathan",
                     "runs": "6",
                     "balls": "6",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Kyle Mills",
-                    "dismissal": "run out (Kohli/Saha)",
+                    "dismissal": "run out (Kohli/ (wk)Saha)",
                     "runs": "15",
                     "balls": "9",
                     "minutes": "13",
@@ -257,7 +257,7 @@
                     "strike_rate": "90.00"
                 }
             ],
-            "did_not_bat": "Yuvraj Singh , Yusuf Pathan , Ravindra Jadeja , Wriddhiman Saha , Ravichandran Ashwin , Ashish Nehra , Munaf Patel , Zaheer Khan",
+            "did_not_bat": "Yuvraj Singh , Yusuf Pathan , Ravindra Jadeja , Wriddhiman Saha (wk) , Ravichandran Ashwin , Ashish Nehra , Munaf Patel , Zaheer Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 115 ( Murali Vijay , 18.4 ov )",
             "bowling": [
                 {
@@ -347,5 +347,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 63 balls remaining)"
+    "result": "India won by 9 wickets (with 63 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum",
+            "Andy McKay",
+            "Martin Guptill",
+            "Gareth Hopkins (wk)",
+            "Kyle Mills",
+            "Scott Styris",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Nathan McCullum",
+            "James Franklin",
+            "Daniel Vettori(c)"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "Zaheer Khan",
+            "Wriddhiman Saha (wk)",
+            "Murali Vijay",
+            "Ravichandran Ashwin",
+            "Ravindra Jadeja",
+            "Gautam Gambhir(c)",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Yusuf Pathan",
+            "Munaf Patel"
+        ]
+    }
 }

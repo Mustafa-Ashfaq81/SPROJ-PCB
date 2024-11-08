@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Kashyap Prajapati",
-                    "dismissal": "c Movva b Kaleem Sana",
+                    "dismissal": "c (wk)Movva b Kaleem Sana",
                     "runs": "52",
                     "balls": "100",
                     "minutes": "-",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Jatinder Singh",
-                    "dismissal": "run out (Kirton/Movva)",
+                    "dismissal": "run out (Kirton/ (wk)Movva)",
                     "runs": "7",
                     "balls": "16",
                     "minutes": "-",
@@ -83,7 +83,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Pratik Athavale",
+                    "batsman": "Pratik Athavale (wk)",
                     "dismissal": "c Kirton b Thaker",
                     "runs": "7",
                     "balls": "18",
@@ -294,7 +294,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Shreyas Movva",
+                    "batsman": "Shreyas Movva (wk)",
                     "dismissal": "not out",
                     "runs": "36",
                     "balls": "60",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Canada won by 5 wickets (with 27 balls remaining)"
+    "result": "Canada won by 5 wickets (with 27 balls remaining)",
+    "playing_xi": {
+        "Oman": [
+            "Shoaib Khan",
+            "Kashyap Prajapati",
+            "Mehran Khan",
+            "Jatinder Singh",
+            "Fayyaz Butt",
+            "Aqib Ilyas(c)",
+            "Pratik Athavale (wk)",
+            "Ayaan Khan",
+            "Kaleemullah",
+            "Zeeshan Maqsood",
+            "Shakeel Ahmed"
+        ],
+        "Canada": [
+            "Pargat Singh",
+            "Gurbaz Bajwa",
+            "Nicholas Kirton(c)",
+            "Kaleem Sana",
+            "Parveen Kumar",
+            "Harsh Thaker",
+            "Aaron Johnson",
+            "Navneet Dhaliwal",
+            "Shreyas Movva (wk)",
+            "Dilon Heyliger",
+            "Saad Bin Zafar"
+        ]
+    }
 }

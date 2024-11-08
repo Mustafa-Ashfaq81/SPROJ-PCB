@@ -74,7 +74,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Tamim Iqbal b Mustafizur Rahman",
                     "runs": "30",
                     "balls": "42",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Gary Wilson",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "-",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "George Dockrell",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "25",
                     "balls": "50",
                     "minutes": "-",
@@ -135,7 +135,7 @@
                 },
                 {
                     "batsman": "Peter Chase",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -256,7 +256,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c NJ O'Brien b KJ O'Brien",
+                    "dismissal": "c (wk)NJ O'Brien b KJ O'Brien",
                     "runs": "47",
                     "balls": "54",
                     "minutes": "-",
@@ -285,7 +285,7 @@
                     "strike_rate": "102.94"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "7",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 8 wickets (with 137 balls remaining)"
+    "result": "Bangladesh won by 8 wickets (with 137 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Peter Chase",
+            "Gary Wilson",
+            "Paul Stirling",
+            "Tim Murtagh",
+            "Barry McCarthy",
+            "Niall O'Brien (wk)",
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Kevin O'Brien",
+            "Andy Balbirnie"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Mustafizur Rahman",
+            "Mashrafe Mortaza (c)",
+            "Soumya Sarkar",
+            "Sunzamul Islam",
+            "Sabbir Rahman",
+            "Rubel Hossain",
+            "Shakib Al Hasan"
+        ]
+    }
 }

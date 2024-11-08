@@ -41,7 +41,7 @@
                     "strike_rate": "147.72"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Abdur Razzak",
                     "runs": "121",
                     "balls": "128",
@@ -229,7 +229,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Dilshan b Vaas",
+                    "dismissal": "c (wk)Dilshan b Vaas",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "17",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful(c)",
-                    "dismissal": "c Dilshan b Thushara",
+                    "dismissal": "c (wk)Dilshan b Thushara",
                     "runs": "14",
                     "balls": "15",
                     "minutes": "32",
@@ -268,7 +268,7 @@
                     "strike_rate": "82.53"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Jayawardene b Muralidaran",
                     "runs": "8",
                     "balls": "12",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 158 runs"
+    "result": "Sri Lanka won by 158 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Chamara Silva",
+            "Ajantha Mendis",
+            "Thilan Thushara",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Nuwan Kulasekara"
+        ],
+        "Bangladesh": [
+            "Nazimuddin",
+            "Raqibul Hasan",
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Farhad Reza",
+            "Tamim Iqbal",
+            "Mahmudullah",
+            "Alok Kapali",
+            "Mashrafe Mortaza",
+            "Mushfiqur Rahim (wk)",
+            "Mohammad Ashraful(c)"
+        ]
+    }
 }

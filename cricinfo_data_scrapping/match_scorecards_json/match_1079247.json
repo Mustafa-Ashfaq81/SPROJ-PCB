@@ -30,7 +30,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Cremer",
                     "runs": "64",
                     "balls": "87",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Noor Ali Zadran",
-                    "dismissal": "c Moor b Ngarava",
+                    "dismissal": "c (wk)Moor b Ngarava",
                     "runs": "14",
                     "balls": "28",
                     "minutes": "40",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c Moor b Ngarava",
+                    "dismissal": "c (wk)Moor b Ngarava",
                     "runs": "33",
                     "balls": "33",
                     "minutes": "52",
@@ -247,8 +247,8 @@
                     "strike_rate": "98.18"
                 },
                 {
-                    "batsman": "Peter Moor",
-                    "dismissal": "c Mohammad Shahzad b Gulbadin Naib",
+                    "batsman": "Peter Moor (wk)",
+                    "dismissal": "c (wk)Mohammad Shahzad b Gulbadin Naib",
                     "runs": "17",
                     "balls": "35",
                     "minutes": "61",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Tarisai Musakanda",
-                    "dismissal": "st Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "7",
                     "balls": "8",
                     "minutes": "25",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 54 runs"
+    "result": "Afghanistan won by 54 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Hashmatullah Shahidi",
+            "Mohammad Shahzad (wk)",
+            "Dawlat Zadran",
+            "Noor Ali Zadran",
+            "Asghar Afghan(c)",
+            "Amir Hamza",
+            "Rashid Khan",
+            "Najibullah Zadran",
+            "Gulbadin Naib"
+        ],
+        "Zimbabwe": [
+            "Peter Moor (wk)",
+            "Malcolm Waller",
+            "Ryan Burl",
+            "Chris Mpofu",
+            "Craig Ervine",
+            "Hamilton Masakadza",
+            "Solomon Mire",
+            "Richard Ngarava",
+            "Graeme Cremer(c)",
+            "Tendai Chatara",
+            "Tarisai Musakanda"
+        ]
+    }
 }

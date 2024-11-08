@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Buurman b Mudassar Bukhari",
+                    "dismissal": "c (wk)Buurman b Mudassar Bukhari",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "4",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Zunaed Siddique",
-                    "dismissal": "c Buurman b Mudassar Bukhari",
+                    "dismissal": "c (wk)Buurman b Mudassar Bukhari",
                     "runs": "31",
                     "balls": "19",
                     "minutes": "24",
@@ -79,7 +79,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "lbw b Borren",
                     "runs": "0",
                     "balls": "1",
@@ -266,7 +266,7 @@
                     "strike_rate": "148.83"
                 }
             ],
-            "did_not_bat": "Mark Jonkman , Adeel Raja , Bradley Kruger , Mudassar Bukhari , Atse Buurman",
+            "did_not_bat": "Mark Jonkman , Adeel Raja , Bradley Kruger , Mudassar Bukhari , Atse Buurman (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 61 ( Alexei Kervezee , 8.1 ov ) , 2 - 87 ( Tom Cooper , 11.6 ov ) , 3 - 96 ( Peter Borren , 13.5 ov ) , 4 - 104 ( Eric Szwarczynski , 14.6 ov )",
             "bowling": [
                 {
@@ -342,5 +342,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 6 wickets (with 7 balls remaining)"
+    "result": "Netherlands won by 6 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mashrafe Mortaza(c)",
+            "Shakib Al Hasan",
+            "Nazmul Hossain",
+            "Shafiul Islam",
+            "Imrul Kayes",
+            "Zunaed Siddique",
+            "Abdur Razzak",
+            "Mahmudullah",
+            "Jahurul Islam"
+        ],
+        "Netherlands": [
+            "Wesley Barresi",
+            "Bradley Kruger",
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Tom Cooper",
+            "Peter Borren(c)",
+            "Adeel Raja",
+            "Atse Buurman (wk)",
+            "Mark Jonkman",
+            "Mudassar Bukhari",
+            "Alexei Kervezee"
+        ]
+    }
 }

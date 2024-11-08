@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c de Villiers b M Morkel",
+                    "dismissal": "c (wk)de Villiers b M Morkel",
                     "runs": "29",
                     "balls": "49",
                     "minutes": "69",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c de Villiers b Ntini",
+                    "dismissal": "c (wk)de Villiers b Ntini",
                     "runs": "5",
                     "balls": "18",
                     "minutes": "25",
@@ -60,7 +60,7 @@
                     "strike_rate": "52.38"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Philander b JA Morkel",
                     "runs": "43",
                     "balls": "40",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "c de Villiers b Steyn",
+                    "dismissal": "c (wk)de Villiers b Steyn",
                     "runs": "54",
                     "balls": "50",
                     "minutes": "93",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Taibu b Utseya",
+                    "dismissal": "c (wk)Taibu b Utseya",
                     "runs": "96",
                     "balls": "99",
                     "minutes": "113",
@@ -261,7 +261,7 @@
                     "strike_rate": "77.41"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "not out",
                     "runs": "0",
                     "balls": "5",
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 65 balls remaining)"
+    "result": "South Africa won by 8 wickets (with 65 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Prosper Utseya (c)",
+            "Brendan Taylor",
+            "Keith Dabengwa",
+            "Gary Brent",
+            "Stuart Matsikenyeri",
+            "Chris Mpofu",
+            "Tatenda Taibu (wk)"
+        ],
+        "South Africa": [
+            "Dale Steyn",
+            "Loots Bosman",
+            "Morne Morkel",
+            "Herschelle Gibbs",
+            "Vernon Philander",
+            "AB de Villiers (wk)",
+            "Shaun Pollock",
+            "Jean-Paul Duminy",
+            "Makhaya Ntini",
+            "Albie Morkel",
+            "Graeme Smith(c)"
+        ]
+    }
 }

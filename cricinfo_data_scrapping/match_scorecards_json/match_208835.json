@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "st Boucher b Kemp",
+                    "dismissal": "st (wk)Boucher b Kemp",
                     "runs": "14",
                     "balls": "42",
                     "minutes": "57",
@@ -100,7 +100,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Courtney Browne",
+                    "batsman": "Courtney Browne (wk)",
                     "dismissal": "not out",
                     "runs": "46",
                     "balls": "59",
@@ -271,7 +271,7 @@
                     "strike_rate": "77.19"
                 }
             ],
-            "did_not_bat": "Shaun Pollock , Justin Ontong , Justin Kemp , Mark Boucher , Charl Langeveldt , Andre Nel , Makhaya Ntini",
+            "did_not_bat": "Shaun Pollock , Justin Ontong , Justin Kemp , Mark Boucher (wk) , Charl Langeveldt , Andre Nel , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 7 ( Graeme Smith , 1.3 ov ) , 2 - 18 ( Jacques Kallis , 5.3 ov )",
             "bowling": [
                 {
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 38 balls remaining) (D/L method)"
+    "result": "South Africa won by 8 wickets (with 38 balls remaining) (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Brian Lara",
+            "Corey Collymore",
+            "Dwayne Smith",
+            "Daren Powell",
+            "Dwayne Bravo",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Shivnarine Chanderpaul(c)",
+            "Ramnaresh Sarwan"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Andre Nel",
+            "Justin Ontong",
+            "Shaun Pollock",
+            "Charl Langeveldt",
+            "Mark Boucher (wk)",
+            "Boeta Dippenaar",
+            "Makhaya Ntini",
+            "Justin Kemp"
+        ]
+    }
 }

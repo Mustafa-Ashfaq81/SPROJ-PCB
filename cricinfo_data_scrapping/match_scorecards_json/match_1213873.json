@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Avishka Fernando",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "29",
                     "balls": "34",
                     "minutes": "-",
@@ -50,8 +50,8 @@
                     "strike_rate": "81.48"
                 },
                 {
-                    "batsman": "Kusal Perera",
-                    "dismissal": "c Hope b Pollard",
+                    "batsman": "Kusal Perera (wk)",
+                    "dismissal": "c (wk)Hope b Pollard",
                     "runs": "44",
                     "balls": "55",
                     "minutes": "-",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Lakshan Sandakan",
-                    "dismissal": "run out (Hope/Holder)",
+                    "dismissal": "run out ( (wk)Hope/Holder)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -237,7 +237,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Mendis b Udana",
                     "runs": "72",
                     "balls": "88",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "run out (MDKJ Perera/Karunaratne)",
+                    "dismissal": "run out ( (wk)MDKJ Perera/Karunaratne)",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "-",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 runs"
+    "result": "Sri Lanka won by 6 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Dhananjaya de Silva",
+            "Nuwan Pradeep",
+            "Lakshan Sandakan",
+            "Dimuth Karunaratne(c)",
+            "Avishka Fernando",
+            "Kusal Perera (wk)",
+            "Angelo Mathews",
+            "Thisara Perera",
+            "Isuru Udana",
+            "Kusal Mendis"
+        ],
+        "West Indies": [
+            "Kieron Pollard(c)",
+            "Jason Holder",
+            "Alzarri Joseph",
+            "Shai Hope (wk)",
+            "Sunil Ambris",
+            "Nicholas Pooran",
+            "Hayden Walsh",
+            "Roston Chase",
+            "Darren Bravo",
+            "Fabian Allen",
+            "Sheldon Cottrell"
+        ]
+    }
 }

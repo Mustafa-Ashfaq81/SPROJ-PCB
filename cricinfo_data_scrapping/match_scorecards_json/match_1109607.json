@@ -30,7 +30,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "lbw b Bumrah",
                     "runs": "13",
                     "balls": "15",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Dushmantha Chameera",
-                    "dismissal": "run out (Dhoni/Kumar)",
+                    "dismissal": "run out ( (wk)Dhoni/Kumar)",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "-",
@@ -287,7 +287,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "67",
                     "balls": "86",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 29 balls remaining)"
+    "result": "India won by 6 wickets (with 29 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Milinda Siriwardana",
+            "Lahiru Thirimanne",
+            "Vishwa Fernando",
+            "Kusal Mendis",
+            "Dinesh Chandimal",
+            "Chamara Kapugedera(c)",
+            "Lasith Malinga",
+            "Dushmantha Chameera",
+            "Angelo Mathews",
+            "Niroshan Dickwella (wk)"
+        ],
+        "India": [
+            "Kedar Jadhav",
+            "KL Rahul",
+            "MS Dhoni (wk)",
+            "Axar Patel",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

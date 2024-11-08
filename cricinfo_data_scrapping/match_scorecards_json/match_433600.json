@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Kieron Pollard",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "9",
@@ -90,7 +90,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "lbw b Shahid Afridi",
                     "runs": "0",
                     "balls": "1",
@@ -237,7 +237,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "47",
                     "balls": "61",
@@ -319,5 +319,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 10 wickets (with 175 balls remaining)"
+    "result": "Pakistan won by 10 wickets (with 175 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Kieron Pollard",
+            "Devon Smith",
+            "Ravi Rampaul",
+            "Darren Bravo",
+            "Ramnaresh Sarwan",
+            "Devendra Bishoo",
+            "Shivnarine Chanderpaul",
+            "Daren Sammy(c)",
+            "Devon Thomas (wk)",
+            "Kemar Roach"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Asad Shafiq",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq",
+            "Kamran Akmal (wk)",
+            "Abdul Razzaq",
+            "Umar Gul",
+            "Wahab Riaz",
+            "Younis Khan",
+            "Shahid Afridi (c)",
+            "Umar Akmal"
+        ]
+    }
 }

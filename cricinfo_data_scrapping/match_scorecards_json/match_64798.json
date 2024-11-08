@@ -90,8 +90,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Kamran Akmal b Mohammad Sami",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Sami",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "7",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Brian Murphy",
-                    "dismissal": "c Kamran Akmal b Mohammad Zahid",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Zahid",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "19",
@@ -223,8 +223,8 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Taibu b Hondo",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "44",
                     "balls": "37",
                     "minutes": "36",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "run out (Murphy/Taibu)",
+                    "dismissal": "run out (Murphy/ (wk)Taibu)",
                     "runs": "56",
                     "balls": "77",
                     "minutes": "104",
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 86 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 86 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Grant Flower",
+            "Mark Vermeulen",
+            "Alistair Campbell(c)",
+            "Brian Murphy",
+            "Travis Friend",
+            "Tatenda Taibu (wk)",
+            "Gary Brent",
+            "Douglas Hondo",
+            "Dion Ebrahim",
+            "Andy Flower"
+        ],
+        "Pakistan": [
+            "Faisal Iqbal",
+            "Misbah-ul-Haq",
+            "Saqlain Mushtaq",
+            "Inzamam-ul-Haq (c)",
+            "Mohammad Yousuf",
+            "Mohammad Zahid",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Mohammad Sami",
+            "Shoaib Akhtar"
+        ]
+    }
 }

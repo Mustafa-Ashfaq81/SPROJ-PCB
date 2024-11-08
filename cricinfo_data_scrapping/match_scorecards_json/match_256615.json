@@ -100,7 +100,7 @@
                     "strike_rate": "125.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "17",
                     "balls": "12",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Haddin b Bracken",
+                    "dismissal": "c (wk)Haddin b Bracken",
                     "runs": "5",
                     "balls": "18",
                     "minutes": "13",
@@ -287,8 +287,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
-                    "dismissal": "c Haddin b Lee",
+                    "batsman": "Carlton Baugh (wk)",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "15",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Ian Bradshaw",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "1",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 127 runs"
+    "result": "Australia won by 127 runs",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Andrew Symonds",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Simon Katich",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Bracken",
+            "Glenn McGrath",
+            "Michael Clarke"
+        ],
+        "West Indies": [
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Dwayne Bravo",
+            "Wavell Hinds",
+            "Dwayne Smith",
+            "Runako Morton",
+            "Jerome Taylor"
+        ]
+    }
 }

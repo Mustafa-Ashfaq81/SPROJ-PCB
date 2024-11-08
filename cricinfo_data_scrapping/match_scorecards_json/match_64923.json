@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Barney Rogers",
-                    "dismissal": "st Khaled Mashud b Enamul Haque jnr",
+                    "dismissal": "st (wk)Khaled Mashud b Enamul Haque jnr",
                     "runs": "84",
                     "balls": "120",
                     "minutes": "161",
@@ -70,7 +70,7 @@
                     "strike_rate": "47.36"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "b Mashrafe Mortaza",
                     "runs": "31",
                     "balls": "48",
@@ -277,7 +277,7 @@
                     "strike_rate": "91.89"
                 }
             ],
-            "did_not_bat": "Mohammad Ashraful , Khaled Mashud , Mashrafe Mortaza , Alok Kapali , Enamul Haque jnr , Manzarul Islam , Nazmul Hossain",
+            "did_not_bat": "Mohammad Ashraful , Khaled Mashud (wk) , Mashrafe Mortaza , Alok Kapali , Enamul Haque jnr , Manzarul Islam , Nazmul Hossain",
             "fall_of_wickets": "Fall of wickets : 1 - 11 ( Nafees Iqbal , 2.5 ov ) , 2 - 161 ( Mohammad Rafique , 24.3 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 8 wickets (with 102 balls remaining)"
+    "result": "Bangladesh won by 8 wickets (with 102 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Vusi Sibanda",
+            "Prosper Utseya",
+            "Tinashe Panyangara",
+            "Chris Mpofu",
+            "Mluleki Nkala",
+            "Stuart Matsikenyeri",
+            "Barney Rogers",
+            "Tatenda Taibu(c) (wk)",
+            "Hamilton Masakadza"
+        ],
+        "Bangladesh": [
+            "Mashrafe Mortaza",
+            "Nafees Iqbal",
+            "Manzarul Islam",
+            "Mohammad Ashraful",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Enamul Haque jnr",
+            "Alok Kapali",
+            "Habibul Bashar(c)",
+            "Nazmul Hossain",
+            "Mohammad Rafique"
+        ]
+    }
 }

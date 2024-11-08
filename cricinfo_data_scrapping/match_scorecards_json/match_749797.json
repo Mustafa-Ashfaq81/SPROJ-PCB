@@ -80,8 +80,8 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Luke Ronchi",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Irfan",
+                    "batsman": "Luke Ronchi (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Irfan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "7",
@@ -281,7 +281,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c BB McCullum b Elliott",
                     "runs": "13",
                     "balls": "12",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Ehsan Adil",
-                    "dismissal": "c Ronchi b Boult",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "6",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 119 runs"
+    "result": "New Zealand won by 119 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Grant Elliott",
+            "Brendon McCullum(c)",
+            "Nathan McCullum",
+            "Adam Milne",
+            "Trent Boult",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Tim Southee",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Haris Sohail",
+            "Ehsan Adil",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Sarfaraz Ahmed (wk)",
+            "Bilawal Bhatti",
+            "Younis Khan",
+            "Misbah-ul-Haq(c)",
+            "Umar Akmal"
+        ]
+    }
 }

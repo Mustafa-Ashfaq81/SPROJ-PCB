@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Travis Dowlin",
-                    "dismissal": "run out (Mohammad Ashraful/Mushfiqur Rahim)",
+                    "dismissal": "run out (Mohammad Ashraful/ (wk)Mushfiqur Rahim)",
                     "runs": "38",
                     "balls": "58",
                     "minutes": "80",
@@ -103,7 +103,7 @@
                     "strike_rate": "121.21"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "not out",
                     "runs": "29",
                     "balls": "32",
@@ -134,7 +134,7 @@
                 },
                 {
                     "batsman": "Gavin Tonge",
-                    "dismissal": "run out (Nazmul Hossain/Mushfiqur Rahim)",
+                    "dismissal": "run out (Nazmul Hossain/ (wk)Mushfiqur Rahim)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "3",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Thomas b Bernard",
+                    "dismissal": "c (wk)Thomas b Bernard",
                     "runs": "19",
                     "balls": "27",
                     "minutes": "26",
@@ -290,8 +290,8 @@
                     "strike_rate": "94.11"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Thomas b Sammy",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Thomas b Sammy",
                     "runs": "31",
                     "balls": "42",
                     "minutes": "60",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Naeem Islam",
-                    "dismissal": "c Thomas b Roach",
+                    "dismissal": "c (wk)Thomas b Roach",
                     "runs": "26",
                     "balls": "22",
                     "minutes": "31",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 3 wickets (with 7 balls remaining)"
+    "result": "Bangladesh won by 3 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Andre Fletcher",
+            "Kemar Roach",
+            "Kieran Powell",
+            "Nikita Miller",
+            "Daren Sammy",
+            "Devon Smith",
+            "Floyd Reifer(c)",
+            "Gavin Tonge",
+            "Travis Dowlin",
+            "Devon Thomas (wk)",
+            "David Bernard"
+        ],
+        "Bangladesh": [
+            "Mohammad Ashraful",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mahmudullah",
+            "Mahbubul Alam",
+            "Abdur Razzak",
+            "Raqibul Hasan",
+            "Shakib Al Hasan(c)",
+            "Nazmul Hossain",
+            "Naeem Islam"
+        ]
+    }
 }

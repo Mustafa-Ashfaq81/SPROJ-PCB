@@ -70,7 +70,7 @@
                     "strike_rate": "85.22"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Ali b Ball",
                     "runs": "21",
                     "balls": "23",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "3",
                     "balls": "14",
                     "minutes": "25",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "run out (Buttler)",
+                    "dismissal": "run out ( (wk)Buttler)",
                     "runs": "44",
                     "balls": "29",
                     "minutes": "37",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "35",
                     "balls": "53",
                     "minutes": "87",
@@ -277,7 +277,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "lbw b Taskin Ahmed",
                     "runs": "57",
                     "balls": "57",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "7",
                     "balls": "9",
                     "minutes": "15",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 34 runs"
+    "result": "Bangladesh won by 34 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nasir Hossain",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Taskin Ahmed",
+            "Mashrafe Mortaza(c)",
+            "Sabbir Rahman",
+            "Imrul Kayes",
+            "Shakib Al Hasan",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "England": [
+            "Ben Duckett",
+            "Chris Woakes",
+            "Jos Buttler(c) (wk)",
+            "Jason Roy",
+            "Adil Rashid",
+            "Jake Ball",
+            "David Willey",
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Ben Stokes",
+            "James Vince"
+        ]
+    }
 }

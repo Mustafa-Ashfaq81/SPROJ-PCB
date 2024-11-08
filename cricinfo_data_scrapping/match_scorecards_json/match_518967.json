@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Wade b Pattinson",
+                    "dismissal": "c (wk)Wade b Pattinson",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "22",
@@ -52,7 +52,7 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Forrest b Pattinson",
                     "runs": "64",
                     "balls": "93",
@@ -253,7 +253,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "lbw b Kulasekara",
                     "runs": "9",
                     "balls": "12",
@@ -284,7 +284,7 @@
                 },
                 {
                     "batsman": "Peter Forrest",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "8",
@@ -294,7 +294,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c Sangakkara b Thirimanne",
+                    "dismissal": "c (wk)Sangakkara b Thirimanne",
                     "runs": "29",
                     "balls": "56",
                     "minutes": "79",
@@ -334,7 +334,7 @@
                 },
                 {
                     "batsman": "Clint McKay",
-                    "dismissal": "run out (Dilshan/Sangakkara)",
+                    "dismissal": "run out (Dilshan/ (wk)Sangakkara)",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "9",
@@ -481,5 +481,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 runs"
+    "result": "Sri Lanka won by 9 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Sachithra Senanayake",
+            "Dinesh Chandimal",
+            "Angelo Mathews",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara",
+            "Thisara Perera",
+            "Rangana Herath",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Lahiru Thirimanne"
+        ],
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Peter Forrest",
+            "Shane Watson(c)",
+            "James Pattinson",
+            "Ben Hilfenhaus",
+            "David Warner",
+            "Dan Christian",
+            "Michael Hussey"
+        ]
+    }
 }

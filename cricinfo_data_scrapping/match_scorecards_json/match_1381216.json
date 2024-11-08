@@ -30,8 +30,8 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Ishan Kishan",
-                    "dismissal": "st Hope b Cariah",
+                    "batsman": "Ishan Kishan (wk)",
+                    "dismissal": "st (wk)Hope b Cariah",
                     "runs": "77",
                     "balls": "64",
                     "minutes": "85",
@@ -198,7 +198,7 @@
             "batting": [
                 {
                     "batsman": "Brandon King",
-                    "dismissal": "c Ishan Kishan b Mukesh Kumar",
+                    "dismissal": "c (wk)Ishan Kishan b Mukesh Kumar",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "5",
@@ -227,7 +227,7 @@
                     "strike_rate": "64.00"
                 },
                 {
-                    "batsman": "Shai Hope(c)",
+                    "batsman": "Shai Hope(c) (wk)",
                     "dismissal": "c Shubman Gill b Mukesh Kumar",
                     "runs": "5",
                     "balls": "9",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Alzarri Joseph",
-                    "dismissal": "c Ishan Kishan b Thakur",
+                    "dismissal": "c (wk)Ishan Kishan b Thakur",
                     "runs": "26",
                     "balls": "39",
                     "minutes": "48",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "India won by 200 runs"
+    "result": "India won by 200 runs",
+    "playing_xi": {
+        "India": [
+            "Ruturaj Gaikwad",
+            "Hardik Pandya(c)",
+            "Ishan Kishan (wk)",
+            "Suryakumar Yadav",
+            "Sanju Samson",
+            "Shubman Gill",
+            "Mukesh Kumar",
+            "Jaydev Unadkat",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Shardul Thakur"
+        ],
+        "West Indies": [
+            "Brandon King",
+            "Shai Hope(c) (wk)",
+            "Gudakesh Motie",
+            "Yannic Cariah",
+            "Kyle Mayers",
+            "Alick Athanaze",
+            "Keacy Carty",
+            "Jayden Seales",
+            "Romario Shepherd",
+            "Alzarri Joseph",
+            "Shimron Hetmyer"
+        ]
+    }
 }

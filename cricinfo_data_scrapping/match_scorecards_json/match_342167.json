@@ -39,7 +39,7 @@
                 },
                 {
                     "batsman": "Thushara Kurukulasuriya",
-                    "dismissal": "c Smits b Mudassar Bukhari",
+                    "dismissal": "c (wk)Smits b Mudassar Bukhari",
                     "runs": "9",
                     "balls": "4",
                     "minutes": "7",
@@ -79,7 +79,7 @@
                 },
                 {
                     "batsman": "Hemantha Jayasena",
-                    "dismissal": "st Smits b Seelaar",
+                    "dismissal": "st (wk)Smits b Seelaar",
                     "runs": "10",
                     "balls": "44",
                     "minutes": "55",
@@ -88,7 +88,7 @@
                     "strike_rate": "22.72"
                 },
                 {
-                    "batsman": "Nic Northcote",
+                    "batsman": "Nic Northcote (wk)",
                     "dismissal": "c Borren b Seelaar",
                     "runs": "7",
                     "balls": "31",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Daan van Bunge",
-                    "dismissal": "c NM Northcote b de Silva",
+                    "dismissal": "c (wk)NM Northcote b de Silva",
                     "runs": "7",
                     "balls": "26",
                     "minutes": "44",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Peter Borren",
-                    "dismissal": "c NM Northcote b Alauddin",
+                    "dismissal": "c (wk)NM Northcote b Alauddin",
                     "runs": "34",
                     "balls": "23",
                     "minutes": "34",
@@ -305,8 +305,8 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
-                    "dismissal": "c NM Northcote b Alauddin",
+                    "batsman": "Jeroen Smits(c) (wk)",
+                    "dismissal": "c (wk)NM Northcote b Alauddin",
                     "runs": "7",
                     "balls": "19",
                     "minutes": "17",
@@ -316,7 +316,7 @@
                 },
                 {
                     "batsman": "Maurits Jonkman",
-                    "dismissal": "c NM Northcote b Bonora",
+                    "dismissal": "c (wk)NM Northcote b Bonora",
                     "runs": "16",
                     "balls": "24",
                     "minutes": "46",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Italy won by 8 runs"
+    "result": "Italy won by 8 runs",
+    "playing_xi": {
+        "Italy": [
+            "Vince Pennazza",
+            "Alauddin",
+            "Hemantha Jayasena",
+            "Alessandro Bonora",
+            "Thushara Kurukulasuriya",
+            "Kelum Perera",
+            "Nic Northcote (wk)",
+            "Peter Petricola",
+            "Gayashan de Silva",
+            "Joe Scuderi(c)",
+            "Andy Northcote"
+        ],
+        "Netherlands": [
+            "Henk-Jan Mol",
+            "Jeroen Smits(c) (wk)",
+            "Pieter Seelaar",
+            "Edgar Schiferli",
+            "Darron Reekers",
+            "Mudassar Bukhari",
+            "Tom de Grooth",
+            "Daan van Bunge",
+            "Maurits Jonkman",
+            "Eric Szwarczynski",
+            "Peter Borren"
+        ]
+    }
 }

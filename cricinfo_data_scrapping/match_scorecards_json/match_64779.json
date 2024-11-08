@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Al Sahariar",
-                    "dismissal": "c Sangakkara b CRD Fernando",
+                    "dismissal": "c (wk)Sangakkara b CRD Fernando",
                     "runs": "25",
                     "balls": "37",
                     "minutes": "37",
@@ -86,7 +86,7 @@
                     "strike_rate": "71.76"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "c Jayasuriya b Lakshitha",
                     "runs": "54",
                     "balls": "72",
@@ -267,7 +267,7 @@
                     "strike_rate": "82.17"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Naimur Rahman b Khaled Mahmud",
                     "runs": "29",
                     "balls": "23",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Aravinda de Silva",
-                    "dismissal": "c Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "3",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 32 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 32 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mohammad Rafique",
+            "Mohammad Ashraful",
+            "Alok Kapali",
+            "Khaled Mashud(c) (wk)",
+            "Al Sahariar",
+            "Naimur Rahman",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Khaled Mahmud",
+            "Tushar Imran",
+            "Manjurul Islam"
+        ],
+        "Sri Lanka": [
+            "Sanath Jayasuriya(c)",
+            "Kumar Sangakkara (wk)",
+            "Chamila Gamage",
+            "Muthiah Muralidaran",
+            "Aravinda de Silva",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Dilhara Fernando",
+            "Marvan Atapattu",
+            "Russel Arnold",
+            "Hasantha Fernando"
+        ]
+    }
 }

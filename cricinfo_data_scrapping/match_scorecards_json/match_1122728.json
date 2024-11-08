@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "95",
                     "balls": "82",
                     "minutes": "114",
@@ -70,7 +70,7 @@
                     "strike_rate": "60.71"
                 },
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c Iyer b Kuldeep Yadav",
                     "runs": "8",
                     "balls": "4",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Asela Gunaratne",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "17",
                     "balls": "51",
                     "minutes": "81",
@@ -263,7 +263,7 @@
                     "strike_rate": "83.87"
                 }
             ],
-            "did_not_bat": "MS Dhoni , Hardik Pandya , Manish Pandey , Bhuvneshwar Kumar , Kuldeep Yadav , Jasprit Bumrah , Yuzvendra Chahal",
+            "did_not_bat": "MS Dhoni (wk) , Hardik Pandya , Manish Pandey , Bhuvneshwar Kumar , Kuldeep Yadav , Jasprit Bumrah , Yuzvendra Chahal",
             "fall_of_wickets": "Fall of wickets : 1 - 14 ( Rohit Sharma , 3.4 ov ) , 2 - 149 ( Shreyas Iyer , 22.4 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 107 balls remaining)"
+    "result": "India won by 8 wickets (with 107 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Upul Tharanga",
+            "Thisara Perera(c)",
+            "Suranga Lakmal",
+            "Danushka Gunathilaka",
+            "Asela Gunaratne",
+            "Nuwan Pradeep",
+            "Niroshan Dickwella (wk)",
+            "Sadeera Samarawickrama",
+            "Sachith Pathirana",
+            "Angelo Mathews"
+        ],
+        "India": [
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Rohit Sharma(c)",
+            "Shreyas Iyer",
+            "MS Dhoni (wk)",
+            "Manish Pandey",
+            "Yuzvendra Chahal",
+            "Dinesh Karthik",
+            "Hardik Pandya",
+            "Shikhar Dhawan",
+            "Bhuvneshwar Kumar"
+        ]
+    }
 }

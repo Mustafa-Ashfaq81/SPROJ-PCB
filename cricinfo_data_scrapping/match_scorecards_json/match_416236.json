@@ -40,8 +40,8 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Tim Paine",
-                    "dismissal": "c Dhoni b Sharma",
+                    "batsman": "Tim Paine (wk)",
+                    "dismissal": "c (wk)Dhoni b Sharma",
                     "runs": "50",
                     "balls": "62",
                     "minutes": "84",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Paine b Lee",
+                    "dismissal": "c (wk)Paine b Lee",
                     "runs": "13",
                     "balls": "11",
                     "minutes": "20",
@@ -257,7 +257,7 @@
                     "strike_rate": "73.17"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Lee b Watson",
                     "runs": "34",
                     "balls": "46",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 runs"
+    "result": "Australia won by 4 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Adam Voges",
+            "James Hopes",
+            "Cameron White",
+            "Peter Siddle",
+            "Brett Lee",
+            "Tim Paine (wk)",
+            "Michael Hussey",
+            "Shane Watson",
+            "Nathan Hauritz",
+            "Mitchell Johnson"
+        ],
+        "India": [
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Praveen Kumar",
+            "Ashish Nehra",
+            "Suresh Raina",
+            "Ishant Sharma",
+            "Ravindra Jadeja",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ]
+    }
 }

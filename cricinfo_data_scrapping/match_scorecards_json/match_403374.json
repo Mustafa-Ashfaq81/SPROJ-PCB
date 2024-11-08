@@ -30,7 +30,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Kulasekara",
                     "runs": "0",
                     "balls": "1",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Sangakkara b Jayasuriya",
+                    "dismissal": "c (wk)Sangakkara b Jayasuriya",
                     "runs": "43",
                     "balls": "55",
                     "minutes": "60",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "5",
                     "balls": "3",
                     "minutes": "5",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Kamran Akmal b Mohammad Amir",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Amir",
                     "runs": "31",
                     "balls": "33",
                     "minutes": "56",
@@ -247,7 +247,7 @@
                     "strike_rate": "93.93"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Shahid Afridi b Naved-ul-Hasan",
                     "runs": "16",
                     "balls": "23",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Kamran Akmal b Mohammad Amir",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Amir",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "10",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Malinga Bandara",
-                    "dismissal": "st Kamran Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "31",
                     "balls": "43",
                     "minutes": "63",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 132 runs"
+    "result": "Pakistan won by 132 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Iftikhar Anjum",
+            "Younis Khan(c)",
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Umar Akmal",
+            "Mohammad Yousuf",
+            "Mohammad Amir",
+            "Misbah-ul-Haq",
+            "Shahid Afridi",
+            "Imran Nazir"
+        ],
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Malinga Bandara",
+            "Ajantha Mendis",
+            "Mahela Jayawardene",
+            "Chamara Kapugedera",
+            "Upul Tharanga",
+            "Kumar Sangakkara(c) (wk)",
+            "Nuwan Kulasekara",
+            "Angelo Mathews",
+            "Dhammika Prasad"
+        ]
+    }
 }

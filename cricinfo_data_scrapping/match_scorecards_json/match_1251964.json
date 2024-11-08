@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Edwards b Klaassen",
+                    "dismissal": "c (wk)Edwards b Klaassen",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "10",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Harry Tector",
-                    "dismissal": "c Edwards b van Beek",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "58",
                     "balls": "100",
                     "minutes": "141",
@@ -85,7 +85,7 @@
                     "strike_rate": "57.97"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "c Klaassen b van der Gugten",
                     "runs": "6",
                     "balls": "17",
@@ -262,7 +262,7 @@
                     "strike_rate": "73.46"
                 },
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "c Stirling b McCarthy",
                     "runs": "0",
                     "balls": "7",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Musa Ahmad",
-                    "dismissal": "c Tucker b Little",
+                    "dismissal": "c (wk)Tucker b Little",
                     "runs": "19",
                     "balls": "29",
                     "minutes": "27",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 4 wickets (with 25 balls remaining)"
+    "result": "Netherlands won by 4 wickets (with 25 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Harry Tector",
+            "Craig Young",
+            "Andy Balbirnie(c)",
+            "Barry McCarthy",
+            "Lorcan Tucker (wk)",
+            "Paul Stirling",
+            "Andy McBrine",
+            "Josh Little",
+            "Simi Singh",
+            "Kevin O'Brien"
+        ],
+        "Netherlands": [
+            "Max O'Dowd",
+            "Scott Edwards (wk)",
+            "Vivian Kingma",
+            "Musa Ahmad",
+            "Pieter Seelaar(c)",
+            "Timm van der Gugten",
+            "Stephan Myburgh",
+            "Ben Cooper",
+            "Bas de Leede",
+            "Fred Klaassen",
+            "Logan van Beek"
+        ]
+    }
 }

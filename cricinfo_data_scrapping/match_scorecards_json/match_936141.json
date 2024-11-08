@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "c de Kock b Abbott",
+                    "dismissal": "c (wk)de Kock b Abbott",
                     "runs": "50",
                     "balls": "72",
                     "minutes": "101",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "lbw b Phangiso",
                     "runs": "52",
                     "balls": "58",
@@ -247,7 +247,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Zampa b Tremain",
                     "runs": "18",
                     "balls": "14",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 87 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 87 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Chris Tremain",
+            "Steven Smith(c)",
+            "George Bailey",
+            "Scott Boland",
+            "Aaron Finch",
+            "Matthew Wade (wk)",
+            "David Warner",
+            "Mitchell Marsh",
+            "Adam Zampa",
+            "Travis Head",
+            "John Hastings"
+        ],
+        "South Africa": [
+            "Dwaine Pretorius",
+            "Tabraiz Shamsi",
+            "Rilee Rossouw",
+            "Hashim Amla",
+            "Jean-Paul Duminy",
+            "Andile Phehlukwayo",
+            "Farhaan Behardien",
+            "Quinton de Kock (wk)",
+            "Aaron Phangiso",
+            "Faf du Plessis(c)",
+            "Kyle Abbott"
+        ]
+    }
 }

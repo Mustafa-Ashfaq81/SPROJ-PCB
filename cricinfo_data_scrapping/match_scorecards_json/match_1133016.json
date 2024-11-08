@@ -29,7 +29,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Christopher Carter",
+                    "batsman": "Christopher Carter (wk)",
                     "dismissal": "b Regmi",
                     "runs": "9",
                     "balls": "21",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Anshy Rath",
-                    "dismissal": "st Sah b Lamichhane",
+                    "dismissal": "st (wk)Sah b Lamichhane",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "8",
@@ -246,8 +246,8 @@
                     "strike_rate": "38.70"
                 },
                 {
-                    "batsman": "Anil Sah",
-                    "dismissal": "c Carter b Aizaz Khan",
+                    "batsman": "Anil Sah (wk)",
+                    "dismissal": "c (wk)Carter b Aizaz Khan",
                     "runs": "26",
                     "balls": "36",
                     "minutes": "35",
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "Nepal won by 5 wickets (with 56 balls remaining)"
+    "result": "Nepal won by 5 wickets (with 56 balls remaining)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Ehsan Khan",
+            "Shahid Wasif",
+            "Nadeem Ahmed",
+            "Anshy Rath",
+            "Babar Hayat(c)",
+            "Simandeep Singh",
+            "Aizaz Khan",
+            "Nizakat Khan",
+            "Christopher Carter (wk)",
+            "Tanwir Afzal",
+            "Ehsan Nawaz"
+        ],
+        "Nepal": [
+            "Gyanendra Malla",
+            "Anil Sah (wk)",
+            "Aarif Sheikh",
+            "Dipendra Singh Airee",
+            "Paras Khadka(c)",
+            "Rohit Paudel",
+            "Karan KC",
+            "Basant Regmi",
+            "Sompal Kami",
+            "Sandeep Lamichhane",
+            "Lalit Rajbanshi"
+        ]
+    }
 }

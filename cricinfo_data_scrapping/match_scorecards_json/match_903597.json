@@ -30,8 +30,8 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "run out (Dhawan/Dhoni)",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "run out (Dhawan/ (wk)Dhoni)",
                     "runs": "103",
                     "balls": "118",
                     "minutes": "174",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "st Dhoni b Mishra",
+                    "dismissal": "st (wk)Dhoni b Mishra",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "21",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c de Villiers b Morkel",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "13",
                     "balls": "29",
                     "minutes": "45",
@@ -247,7 +247,7 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Steyn b Morkel",
                     "runs": "47",
                     "balls": "61",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 18 runs"
+    "result": "South Africa won by 18 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Farhaan Behardien",
+            "AB de Villiers(c)",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Morne Morkel",
+            "David Miller"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "Mohit Sharma",
+            "Ajinkya Rahane",
+            "Harbhajan Singh",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Bhuvneshwar Kumar",
+            "Amit Mishra",
+            "Suresh Raina",
+            "Axar Patel",
+            "Shikhar Dhawan"
+        ]
+    }
 }

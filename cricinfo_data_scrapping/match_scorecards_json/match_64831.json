@@ -30,8 +30,8 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Hannan Sarkar",
-                    "dismissal": "c Gilchrist b Harvey",
+                    "batsman": "Hannan Sarkar (wk)",
+                    "dismissal": "c (wk)Gilchrist b Harvey",
                     "runs": "19",
                     "balls": "44",
                     "minutes": "64",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Javed Omer",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "11",
                     "balls": "52",
                     "minutes": "77",
@@ -267,7 +267,7 @@
                     "strike_rate": "180.39"
                 }
             ],
-            "did_not_bat": "Ricky Ponting (c) , Darren Lehmann , Matthew Hayden , Adam Gilchrist , Brad Hogg , Ian Harvey , Brett Lee , Andy Bichel",
+            "did_not_bat": "Ricky Ponting (c) , Darren Lehmann , Matthew Hayden , Adam Gilchrist (wk) , Brad Hogg , Ian Harvey , Brett Lee , Andy Bichel",
             "fall_of_wickets": "Fall of wickets : 1 - 17 ( Andrew Symonds , 5.1 ov )",
             "bowling": [
                 {
@@ -343,5 +343,33 @@
             ]
         }
     ],
-    "result": "Australia won by 9 wickets (with 178 balls remaining)"
+    "result": "Australia won by 9 wickets (with 178 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mohammad Rafique",
+            "Alok Kapali",
+            "Al Sahariar",
+            "Sanuar Hossain",
+            "Hasibul Hossain",
+            "Khaled Mahmud(c)",
+            "Hannan Sarkar (wk)",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Tushar Imran",
+            "Javed Omer"
+        ],
+        "Australia": [
+            "Brad Hogg",
+            "Damien Martyn",
+            "Andy Bichel",
+            "Darren Lehmann",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Andrew Symonds",
+            "Ian Harvey",
+            "Matthew Hayden",
+            "Ricky Ponting (c)",
+            "Brett Lee"
+        ]
+    }
 }

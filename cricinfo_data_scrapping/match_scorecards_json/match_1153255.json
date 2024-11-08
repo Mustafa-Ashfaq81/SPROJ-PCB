@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Litton Das",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "121",
                     "balls": "117",
                     "minutes": "-",
@@ -60,7 +60,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Bumrah b Jadhav",
                     "runs": "5",
                     "balls": "9",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Soumya Sarkar",
-                    "dismissal": "run out (Rayudu/Dhoni)",
+                    "dismissal": "run out (Rayudu/ (wk)Dhoni)",
                     "runs": "33",
                     "balls": "45",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "7",
                     "balls": "9",
                     "minutes": "-",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Ambati Rayudu",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "-",
@@ -277,8 +277,8 @@
                     "strike_rate": "60.65"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "36",
                     "balls": "67",
                     "minutes": "-",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "23",
                     "balls": "33",
                     "minutes": "-",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Bhuvneshwar Kumar",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "21",
                     "balls": "31",
                     "minutes": "-",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "India won by 3 wickets (with 0 balls remaining)"
+    "result": "India won by 3 wickets (with 0 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Rubel Hossain",
+            "Mashrafe Mortaza(c)",
+            "Mohammad Mithun",
+            "Mahmudullah",
+            "Soumya Sarkar",
+            "Nazmul Islam",
+            "Imrul Kayes",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "India": [
+            "Dinesh Karthik",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Rohit Sharma(c)",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ravindra Jadeja",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ]
+    }
 }

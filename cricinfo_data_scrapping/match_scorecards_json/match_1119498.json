@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "st Dhoni b Chahal",
+                    "dismissal": "st (wk)Dhoni b Chahal",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "18",
@@ -90,7 +90,7 @@
                     "strike_rate": "96.42"
                 },
                 {
-                    "batsman": "Peter Handscomb",
+                    "batsman": "Peter Handscomb (wk)",
                     "dismissal": "c Pandey b Bumrah",
                     "runs": "3",
                     "balls": "7",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Kedar Jadhav",
-                    "dismissal": "c Handscomb b Richardson",
+                    "dismissal": "c (wk)Handscomb b Richardson",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "3",
@@ -253,7 +253,7 @@
                     "strike_rate": "112.50"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "6",
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 13 balls remaining)"
+    "result": "India won by 5 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Pat Cummins",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Nathan Coulter-Nile",
+            "Peter Handscomb (wk)",
+            "Marcus Stoinis",
+            "Steven Smith(c)",
+            "Ashton Agar",
+            "Kane Richardson",
+            "David Warner",
+            "Aaron Finch"
+        ],
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Manish Pandey",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

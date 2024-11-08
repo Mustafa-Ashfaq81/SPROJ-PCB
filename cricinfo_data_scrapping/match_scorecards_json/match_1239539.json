@@ -62,8 +62,8 @@
                     "strike_rate": "113.66"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
-                    "dismissal": "c Simpson b Carse",
+                    "batsman": "Mohammad Rizwan (wk)",
+                    "dismissal": "c (wk)Simpson b Carse",
                     "runs": "74",
                     "balls": "58",
                     "minutes": "87",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Shadab Khan",
-                    "dismissal": "c Simpson b Mahmood",
+                    "dismissal": "c (wk)Simpson b Mahmood",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "8",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Ben Stokes(c)",
-                    "dismissal": "c Mohammad Rizwan b Shadab Khan",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shadab Khan",
                     "runs": "32",
                     "balls": "28",
                     "minutes": "32",
@@ -289,7 +289,7 @@
                     "strike_rate": "114.28"
                 },
                 {
-                    "batsman": "John Simpson",
+                    "batsman": "John Simpson (wk)",
                     "dismissal": "lbw b Shadab Khan",
                     "runs": "3",
                     "balls": "12",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 12 balls remaining)"
+    "result": "England won by 3 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Shadab Khan",
+            "Babar Azam(c)",
+            "Haris Rauf",
+            "Mohammad Rizwan (wk)",
+            "Saud Shakeel",
+            "Faheem Ashraf",
+            "Shaheen Shah Afridi",
+            "Sohaib Maqsood",
+            "Hasan Ali",
+            "Imam-ul-Haq"
+        ],
+        "England": [
+            "Phil Salt",
+            "James Vince",
+            "Dawid Malan",
+            "John Simpson (wk)",
+            "Lewis Gregory",
+            "Brydon Carse",
+            "Craig Overton",
+            "Saqib Mahmood",
+            "Zak Crawley",
+            "Matt Parkinson",
+            "Ben Stokes(c)"
+        ]
+    }
 }

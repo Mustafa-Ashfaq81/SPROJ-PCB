@@ -41,7 +41,7 @@
                     "strike_rate": "65.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Shoaib Malik b Mohammad Sami",
                     "runs": "13",
                     "balls": "13",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Imran Farhat",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "11",
                     "balls": "16",
                     "minutes": "25",
@@ -278,7 +278,7 @@
                     "strike_rate": "187.50"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "c Martyn b Gillespie",
                     "runs": "0",
                     "balls": "1",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Australia won by 10 runs"
+    "result": "Australia won by 10 runs",
+    "playing_xi": {
+        "Australia": [
+            "Jason Gillespie",
+            "Shane Watson",
+            "Michael Kasprowicz",
+            "Ricky Ponting(c)",
+            "Brad Haddin (wk)",
+            "Darren Lehmann",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ],
+        "Pakistan": [
+            "Naved-ul-Hasan",
+            "Yasir Hameed",
+            "Shahid Afridi",
+            "Mohammad Yousuf",
+            "Moin Khan (wk)",
+            "Imran Farhat",
+            "Mohammad Sami",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Shoaib Akhtar"
+        ]
+    }
 }

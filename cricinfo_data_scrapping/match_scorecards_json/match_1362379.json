@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Craig Ervine(c)",
-                    "dismissal": "c Edwards b Klaassen",
+                    "dismissal": "c (wk)Edwards b Klaassen",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "10",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Ryan Burl",
-                    "dismissal": "c Edwards b Glover",
+                    "dismissal": "c (wk)Edwards b Glover",
                     "runs": "10",
                     "balls": "9",
                     "minutes": "15",
@@ -92,8 +92,8 @@
                     "strike_rate": "111.11"
                 },
                 {
-                    "batsman": "Clive Madande",
-                    "dismissal": "c Edwards b Klaassen",
+                    "batsman": "Clive Madande (wk)",
+                    "dismissal": "c (wk)Edwards b Klaassen",
                     "runs": "74",
                     "balls": "98",
                     "minutes": "138",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Vikramjit Singh",
-                    "dismissal": "c Madande b Ngarava",
+                    "dismissal": "c (wk)Madande b Ngarava",
                     "runs": "8",
                     "balls": "21",
                     "minutes": "21",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Tom Cooper",
-                    "dismissal": "c Madande b Ngarava",
+                    "dismissal": "c (wk)Madande b Ngarava",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -289,7 +289,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "lbw b Masakadza",
                     "runs": "7",
                     "balls": "11",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Shariz Ahmad",
-                    "dismissal": "run out (Madhevere/Madande)",
+                    "dismissal": "run out (Madhevere/ (wk)Madande)",
                     "runs": "30",
                     "balls": "37",
                     "minutes": "72",
@@ -433,5 +433,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 3 wickets (with 1 ball remaining)"
+    "result": "Netherlands won by 3 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brad Evans",
+            "Gary Ballance",
+            "Wellington Masakadza",
+            "Blessing Muzarabani",
+            "Craig Ervine(c)",
+            "Richard Ngarava",
+            "Innocent Kaia",
+            "Ryan Burl",
+            "Clive Madande (wk)",
+            "Sikandar Raza",
+            "Wessly Madhevere"
+        ],
+        "Netherlands": [
+            "Fred Klaassen",
+            "Scott Edwards(c) (wk)",
+            "Max O'Dowd",
+            "Teja Nidamanuru",
+            "Tom Cooper",
+            "Paul van Meekeren",
+            "Shariz Ahmad",
+            "Brandon Glover",
+            "Colin Ackermann",
+            "Musa Ahmad",
+            "Vikramjit Singh"
+        ]
+    }
 }

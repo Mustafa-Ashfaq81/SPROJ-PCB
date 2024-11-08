@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal(c)",
-                    "dismissal": "c Rahmanullah Gurbaz b Fazalhaq Farooqi",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Fazalhaq Farooqi",
                     "runs": "13",
                     "balls": "21",
                     "minutes": "36",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Towhid Hridoy",
-                    "dismissal": "c Rahmanullah Gurbaz b Fazalhaq Farooqi",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Fazalhaq Farooqi",
                     "runs": "51",
                     "balls": "69",
                     "minutes": "111",
@@ -83,7 +83,7 @@
                     "strike_rate": "73.91"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Rashid Khan",
                     "runs": "1",
                     "balls": "3",
@@ -240,7 +240,7 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "c Najmul Hossain Shanto b Shakib Al Hasan",
                     "runs": "22",
                     "balls": "45",
@@ -342,5 +342,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 17 runs (DLS method)"
+    "result": "Afghanistan won by 17 runs (DLS method)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Mustafizur Rahman",
+            "Najmul Hossain Shanto",
+            "Mehidy Hasan Miraz",
+            "Tamim Iqbal(c)",
+            "Afif Hossain",
+            "Hasan Mahmud",
+            "Taskin Ahmed",
+            "Litton Das",
+            "Towhid Hridoy"
+        ],
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Mohammad Saleem",
+            "Hashmatullah Shahidi(c)",
+            "Rashid Khan",
+            "Mujeeb Ur Rahman",
+            "Azmatullah Omarzai",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Fazalhaq Farooqi",
+            "Ibrahim Zadran",
+            "Rahmanullah Gurbaz (wk)"
+        ]
+    }
 }

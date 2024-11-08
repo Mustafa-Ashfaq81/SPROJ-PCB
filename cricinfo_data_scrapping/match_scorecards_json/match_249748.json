@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "24",
                     "balls": "26",
                     "minutes": "57",
@@ -92,7 +92,7 @@
                     "strike_rate": "75.53"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "c Ponting b Bracken",
                     "runs": "13",
                     "balls": "17",
@@ -223,7 +223,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "run out (Hinds/Gayle)",
                     "runs": "92",
                     "balls": "120",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 10 runs"
+    "result": "West Indies won by 10 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Brian Lara(c)",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Dwayne Bravo",
+            "Wavell Hinds",
+            "Marlon Samuels",
+            "Dwayne Smith",
+            "Runako Morton",
+            "Jerome Taylor"
+        ],
+        "Australia": [
+            "Brad Hogg",
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Andrew Symonds",
+            "Brett Lee",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Bracken",
+            "Glenn McGrath",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke"
+        ]
+    }
 }

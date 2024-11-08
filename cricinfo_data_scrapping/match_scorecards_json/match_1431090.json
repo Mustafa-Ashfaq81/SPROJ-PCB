@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Harry Tector",
-                    "dismissal": "run out (Verreynne/Rickelton)",
+                    "dismissal": "run out (Verreynne/ (wk)Rickelton)",
                     "runs": "60",
                     "balls": "48",
                     "minutes": "94",
@@ -74,8 +74,8 @@
                     "strike_rate": "125.00"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
-                    "dismissal": "c Rickelton b Phehlukwayo",
+                    "batsman": "Lorcan Tucker (wk)",
+                    "dismissal": "c (wk)Rickelton b Phehlukwayo",
                     "runs": "26",
                     "balls": "28",
                     "minutes": "40",
@@ -255,7 +255,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Ryan Rickelton",
+                    "batsman": "Ryan Rickelton (wk)",
                     "dismissal": "c Stirling b Adair",
                     "runs": "4",
                     "balls": "5",
@@ -296,7 +296,7 @@
                 },
                 {
                     "batsman": "Tristan Stubbs",
-                    "dismissal": "c Tucker b Young",
+                    "dismissal": "c (wk)Tucker b Young",
                     "runs": "20",
                     "balls": "45",
                     "minutes": "67",
@@ -336,7 +336,7 @@
                 },
                 {
                     "batsman": "Lizaad Williams",
-                    "dismissal": "c Tucker b Young",
+                    "dismissal": "c (wk)Tucker b Young",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "13",
@@ -346,7 +346,7 @@
                 },
                 {
                     "batsman": "Lungi Ngidi",
-                    "dismissal": "c Tucker b Hume",
+                    "dismissal": "c (wk)Tucker b Hume",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "37",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 69 runs"
+    "result": "Ireland won by 69 runs",
+    "playing_xi": {
+        "Ireland": [
+            "Lorcan Tucker (wk)",
+            "George Dockrell",
+            "Paul Stirling(c)",
+            "Harry Tector",
+            "Matthew Humphreys",
+            "Graham Hume",
+            "Curtis Campher",
+            "Mark Adair",
+            "Craig Young",
+            "Fionn Hand",
+            "Andy Balbirnie"
+        ],
+        "South Africa": [
+            "Jason Smith",
+            "Ryan Rickelton (wk)",
+            "Lungi Ngidi",
+            "Bjorn Fortuin",
+            "Rassie van der Dussen(c)",
+            "Reeza Hendricks",
+            "Ottneil Baartman",
+            "Andile Phehlukwayo",
+            "Lizaad Williams",
+            "Kyle Verreynne",
+            "Tristan Stubbs"
+        ]
+    }
 }

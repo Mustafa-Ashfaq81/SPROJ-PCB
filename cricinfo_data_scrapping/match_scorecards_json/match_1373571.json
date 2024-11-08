@@ -30,7 +30,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Green b Stoinis",
                     "runs": "11",
                     "balls": "31",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Rassie van der Dussen",
-                    "dismissal": "run out (Stoinis/Carey)",
+                    "dismissal": "run out (Stoinis/ (wk)Carey)",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "16",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "c Carey b Green",
+                    "dismissal": "c (wk)Carey b Green",
                     "runs": "19",
                     "balls": "14",
                     "minutes": "23",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Kagiso Rabada",
-                    "dismissal": "c Carey b Zampa",
+                    "dismissal": "c (wk)Carey b Zampa",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "5",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Lungi Ngidi",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "0",
                     "balls": "10",
                     "minutes": "28",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh(c)",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "17",
                     "balls": "15",
                     "minutes": "21",
@@ -287,7 +287,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "b Coetzee",
                     "runs": "3",
                     "balls": "9",
@@ -427,5 +427,34 @@
             ]
         }
     ],
-    "result": "Australia won by 3 wickets (with 58 balls remaining)"
+    "result": "Australia won by 3 wickets (with 58 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Marco Jansen",
+            "Heinrich Klaasen",
+            "Rassie van der Dussen",
+            "David Miller",
+            "Lungi Ngidi",
+            "Keshav Maharaj",
+            "Gerald Coetzee",
+            "Quinton de Kock (wk)",
+            "Aiden Markram",
+            "Temba Bavuma(c)",
+            "Kagiso Rabada"
+        ],
+        "Australia": [
+            "Marcus Stoinis",
+            "Mitchell Marsh(c)",
+            "David Warner",
+            "Sean Abbott",
+            "Alex Carey (wk)",
+            "Ashton Agar",
+            "Josh Inglis",
+            "Marnus Labuschagne",
+            "Adam Zampa",
+            "Travis Head",
+            "Josh Hazlewood",
+            "Cameron Green"
+        ]
+    }
 }

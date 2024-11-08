@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c Latham b Henry",
+                    "dismissal": "c (wk)Latham b Henry",
                     "runs": "14",
                     "balls": "24",
                     "minutes": "36",
@@ -81,8 +81,8 @@
                     "strike_rate": "64.70"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
-                    "dismissal": "c Latham b Henry",
+                    "batsman": "Jos Buttler(c) (wk)",
+                    "dismissal": "c (wk)Latham b Henry",
                     "runs": "43",
                     "balls": "42",
                     "minutes": "48",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Sam Curran",
-                    "dismissal": "c Latham b Henry",
+                    "dismissal": "c (wk)Latham b Henry",
                     "runs": "14",
                     "balls": "19",
                     "minutes": "30",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Will Young",
-                    "dismissal": "c Buttler b Curran",
+                    "dismissal": "c (wk)Buttler b Curran",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -268,7 +268,7 @@
                     "strike_rate": "128.12"
                 }
             ],
-            "did_not_bat": "Daryl Mitchell , Tom Latham (c) , Glenn Phillips , Mark Chapman , James Neesham , Mitchell Santner , Matt Henry , Trent Boult",
+            "did_not_bat": "Daryl Mitchell , Tom Latham (c) (wk) , Glenn Phillips , Mark Chapman , James Neesham , Mitchell Santner , Matt Henry , Trent Boult",
             "fall_of_wickets": "Fall of wickets : 1 - 10 ( Will Young , 1.1 ov ) DRS",
             "bowling": [
                 {
@@ -358,5 +358,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 9 wickets (with 82 balls remaining)"
+    "result": "New Zealand won by 9 wickets (with 82 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Liam Livingstone",
+            "Jos Buttler(c) (wk)",
+            "Sam Curran",
+            "Moeen Ali",
+            "Chris Woakes",
+            "Jonny Bairstow",
+            "Harry Brook",
+            "Dawid Malan",
+            "Mark Wood",
+            "Joe Root",
+            "Adil Rashid"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Devon Conway",
+            "Daryl Mitchell",
+            "Matt Henry",
+            "Trent Boult",
+            "Mark Chapman",
+            "Will Young",
+            "James Neesham",
+            "Rachin Ravindra",
+            "Glenn Phillips",
+            "Tom Latham (c) (wk)"
+        ]
+    }
 }

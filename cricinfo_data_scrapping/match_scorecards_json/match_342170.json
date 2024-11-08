@@ -38,7 +38,7 @@
                 },
                 {
                     "batsman": "Tom de Grooth",
-                    "dismissal": "c Munawar Ahmed b Shahbaz Butt",
+                    "dismissal": "c (wk)Munawar Ahmed b Shahbaz Butt",
                     "runs": "96",
                     "balls": "94",
                     "minutes": "141",
@@ -88,7 +88,7 @@
                 },
                 {
                     "batsman": "Geert-Maarten Mol",
-                    "dismissal": "c Munawar Ahmed b Zeeshan Siddiqui",
+                    "dismissal": "c (wk)Munawar Ahmed b Zeeshan Siddiqui",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "19",
@@ -117,7 +117,7 @@
                     "strike_rate": "191.66"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
+                    "batsman": "Jeroen Smits(c) (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "2",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Khalid Khurram",
-                    "dismissal": "c Smits b Schiferli",
+                    "dismissal": "c (wk)Smits b Schiferli",
                     "runs": "21",
                     "balls": "28",
                     "minutes": "40",
@@ -333,7 +333,7 @@
                 },
                 {
                     "batsman": "Zeeshan Siddiqui",
-                    "dismissal": "c Smits b Schiferli",
+                    "dismissal": "c (wk)Smits b Schiferli",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -342,7 +342,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Munawar Ahmed",
+                    "batsman": "Munawar Ahmed (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "9",
@@ -353,7 +353,7 @@
                 },
                 {
                     "batsman": "Saqib Qayyum",
-                    "dismissal": "st Smits b Seelaar",
+                    "dismissal": "st (wk)Smits b Seelaar",
                     "runs": "1",
                     "balls": "12",
                     "minutes": "8",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 370 runs"
+    "result": "Netherlands won by 370 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Jeroen Smits(c) (wk)",
+            "Pieter Seelaar",
+            "Edgar Schiferli",
+            "Darron Reekers",
+            "Jeroen Brand",
+            "Geert-Maarten Mol",
+            "Mudassar Bukhari",
+            "Adeel Raja",
+            "Tom de Grooth",
+            "Daan van Bunge",
+            "Peter Borren"
+        ],
+        "Norway": [
+            "Shahid Ahmed(c)",
+            "Ehtsham Ul Haq",
+            "Zeeshan Siddiqui",
+            "Saqib Qayyum",
+            "Muhammad Butt",
+            "Shakeel Ahmad",
+            "Munawar Ahmed (wk)",
+            "Zeeshan Ali",
+            "Khalid Khurram",
+            "Sameer Sachdev",
+            "Zaheer Ashiq"
+        ]
+    }
 }

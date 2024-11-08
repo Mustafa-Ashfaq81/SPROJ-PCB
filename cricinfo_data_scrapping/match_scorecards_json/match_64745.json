@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Nasser Hussain(c)",
-                    "dismissal": "c Nevin b Adams",
+                    "dismissal": "c (wk)Nevin b Adams",
                     "runs": "35",
                     "balls": "38",
                     "minutes": "52",
@@ -103,7 +103,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "James Foster",
+                    "batsman": "James Foster (wk)",
                     "dismissal": "c Vincent b Vettori",
                     "runs": "3",
                     "balls": "10",
@@ -254,7 +254,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Chris Nevin",
+                    "batsman": "Chris Nevin (wk)",
                     "dismissal": "c Collingwood b Flintoff",
                     "runs": "55",
                     "balls": "63",
@@ -285,7 +285,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Foster b Gough",
+                    "dismissal": "c (wk)Foster b Gough",
                     "runs": "15",
                     "balls": "15",
                     "minutes": "20",
@@ -315,7 +315,7 @@
                 },
                 {
                     "batsman": "Chris Harris",
-                    "dismissal": "c Foster b Gough",
+                    "dismissal": "c (wk)Foster b Gough",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "6",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 21 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 21 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ashley Giles",
+            "Darren Gough",
+            "Graham Thorpe",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Andy Caddick",
+            "Craig White",
+            "Nasser Hussain(c)",
+            "Andrew Flintoff",
+            "Marcus Trescothick",
+            "James Foster (wk)"
+        ],
+        "New Zealand": [
+            "Lou Vincent",
+            "Andre Adams",
+            "Chris Cairns",
+            "Chris Harris",
+            "Chris Nevin (wk)",
+            "Nathan Astle",
+            "Daryl Tuffey",
+            "Ian Butler",
+            "Stephen Fleming(c)",
+            "Craig McMillan",
+            "Daniel Vettori"
+        ]
+    }
 }

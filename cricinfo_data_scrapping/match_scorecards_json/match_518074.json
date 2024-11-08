@@ -29,7 +29,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Ewald Steenkamp",
+                    "batsman": "Ewald Steenkamp (wk)",
                     "dismissal": "c Cusack b Mooney",
                     "runs": "3",
                     "balls": "6",
@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Pikky Ya France",
-                    "dismissal": "st Wilson b Dockrell",
+                    "dismissal": "st (wk)Wilson b Dockrell",
                     "runs": "14",
                     "balls": "55",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Craig Williams(c)",
-                    "dismissal": "st Wilson b Dockrell",
+                    "dismissal": "st (wk)Wilson b Dockrell",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "-",
@@ -130,7 +130,7 @@
                 },
                 {
                     "batsman": "Christi Viljoen",
-                    "dismissal": "c Wilson b Mooney",
+                    "dismissal": "c (wk)Wilson b Mooney",
                     "runs": "10",
                     "balls": "21",
                     "minutes": "-",
@@ -276,7 +276,7 @@
                     "strike_rate": "71.69"
                 }
             ],
-            "did_not_bat": "Andrew White , Gary Wilson , Nigel Jones , John Mooney , George Dockrell , Boyd Rankin , Kevin O'Brien",
+            "did_not_bat": "Andrew White , Gary Wilson (wk) , Nigel Jones , John Mooney , George Dockrell , Boyd Rankin , Kevin O'Brien",
             "fall_of_wickets": "Fall of wickets : 1 - 65 ( Paul Stirling , 9.4 ov ) , 2 - 92 ( William Porterfield , 17.2 ov )",
             "bowling": [
                 {
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 8 wickets (with 46 balls remaining)"
+    "result": "Ireland won by 8 wickets (with 46 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Gerhard Rudolph",
+            "Stephan Baard",
+            "Louis van der Westhuizen",
+            "Christi Viljoen",
+            "Raymond van Schoor",
+            "Pikky Ya France",
+            "Gerrie Snyman",
+            "Craig Williams(c)",
+            "Nicolaas Scholtz",
+            "Ewald Steenkamp (wk)",
+            "Louis Klazinga"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Boyd Rankin",
+            "Andrew White",
+            "Niall O'Brien",
+            "Paul Stirling",
+            "Alex Cusack",
+            "Nigel Jones",
+            "Gary Wilson (wk)",
+            "William Porterfield(c)",
+            "John Mooney",
+            "Kevin O'Brien"
+        ]
+    }
 }

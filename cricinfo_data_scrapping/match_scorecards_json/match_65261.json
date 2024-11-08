@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Hannan Sarkar",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "9",
                     "balls": "24",
                     "minutes": "28",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -92,7 +92,7 @@
                     "strike_rate": "34.21"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "not out",
                     "runs": "35",
                     "balls": "54",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "12",
                     "balls": "29",
                     "minutes": "31",
@@ -283,7 +283,7 @@
                     "strike_rate": "157.14"
                 }
             ],
-            "did_not_bat": "Mathew Sinclair , Brendon McCullum , Jacob Oram , Kyle Mills , Daniel Vettori , Shane Bond",
+            "did_not_bat": "Mathew Sinclair , Brendon McCullum (wk) , Jacob Oram , Kyle Mills , Daniel Vettori , Shane Bond",
             "fall_of_wickets": "Fall of wickets : 1 - 71 ( Stephen Fleming , 14.1 ov ) , 2 - 99 ( Andre Adams , 20.1 ov ) , 3 - 138 ( Craig McMillan , 26.4 ov )",
             "bowling": [
                 {
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 99 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 99 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Akram Khan",
+            "Khaled Mashud(c) (wk)",
+            "Hannan Sarkar",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Sanuar Hossain",
+            "Mohammad Rafique",
+            "Manjurul Islam",
+            "Khaled Mahmud",
+            "Alok Kapali",
+            "Habibul Bashar"
+        ],
+        "New Zealand": [
+            "Shane Bond",
+            "Kyle Mills",
+            "Mathew Sinclair",
+            "Stephen Fleming(c)",
+            "Craig McMillan",
+            "Brendon McCullum (wk)",
+            "Daniel Vettori",
+            "Jacob Oram",
+            "Scott Styris",
+            "Chris Cairns",
+            "Andre Adams"
+        ]
+    }
 }

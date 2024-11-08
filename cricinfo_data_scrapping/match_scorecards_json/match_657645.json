@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "51",
                     "balls": "74",
                     "minutes": "85",
@@ -80,7 +80,7 @@
                     "strike_rate": "68.91"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c Dilshan b Mendis",
                     "runs": "20",
                     "balls": "37",
@@ -257,7 +257,7 @@
                     "strike_rate": "65.21"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Junaid Khan",
                     "runs": "22",
                     "balls": "48",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Ashan Priyanjan",
-                    "dismissal": "c Umar Akmal b Umar Gul",
+                    "dismissal": "c (wk)Umar Akmal b Umar Gul",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "8",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "c Umar Akmal b Anwar Ali",
+                    "dismissal": "c (wk)Umar Akmal b Anwar Ali",
                     "runs": "8",
                     "balls": "31",
                     "minutes": "43",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 wickets (with 2 balls remaining)"
+    "result": "Sri Lanka won by 2 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Umar Akmal (wk)",
+            "Abdur Rehman",
+            "Sohaib Maqsood",
+            "Sharjeel Khan",
+            "Umar Gul",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Anwar Ali"
+        ],
+        "Sri Lanka": [
+            "Suranga Lakmal",
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Ashan Priyanjan",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Kithuruwan Vithanage",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Ajantha Mendis"
+        ]
+    }
 }

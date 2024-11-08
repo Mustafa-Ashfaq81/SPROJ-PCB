@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "st Khaled Mashud b Abdur Razzak",
+                    "dismissal": "st (wk)Khaled Mashud b Abdur Razzak",
                     "runs": "58",
                     "balls": "66",
                     "minutes": "76",
@@ -101,7 +101,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "3",
@@ -195,7 +195,7 @@
             "batting": [
                 {
                     "batsman": "Javed Omer",
-                    "dismissal": "run out (Moin Khan)",
+                    "dismissal": "run out ( (wk)Moin Khan)",
                     "runs": "62",
                     "balls": "87",
                     "minutes": "122",
@@ -205,7 +205,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Moin Khan b Mohammad Sami",
+                    "dismissal": "c (wk)Moin Khan b Mohammad Sami",
                     "runs": "12",
                     "balls": "30",
                     "minutes": "44",
@@ -254,7 +254,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "b Shoaib Akhtar",
                     "runs": "8",
                     "balls": "13",
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 76 runs"
+    "result": "Pakistan won by 76 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Inzamam-ul-Haq(c)",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Imran Farhat",
+            "Danish Kaneria",
+            "Moin Khan (wk)",
+            "Mohammad Yousuf",
+            "Yasir Hameed"
+        ],
+        "Bangladesh": [
+            "Mohammad Ashraful",
+            "Khaled Mahmud",
+            "Mushfiqur Rahman",
+            "Mohammad Rafique",
+            "Alok Kapali",
+            "Javed Omer",
+            "Habibul Bashar(c)",
+            "Khaled Mashud (wk)",
+            "Rajin Saleh",
+            "Abdur Razzak",
+            "Tapash Baisya"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "st Ronchi b NL McCullum",
+                    "dismissal": "st (wk)Ronchi b NL McCullum",
                     "runs": "19",
                     "balls": "42",
                     "minutes": "67",
@@ -50,7 +50,7 @@
                     "strike_rate": "45.23"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Williamson b Milne",
                     "runs": "4",
                     "balls": "15",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "run out (BB McCullum/Ronchi)",
+                    "dismissal": "run out (BB McCullum/ (wk)Ronchi)",
                     "runs": "15",
                     "balls": "33",
                     "minutes": "29",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Sachithra Senanayake",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "11",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Brendon McCullum(c)",
-                    "dismissal": "st Sangakkara b Senanayake",
+                    "dismissal": "st (wk)Sangakkara b Senanayake",
                     "runs": "51",
                     "balls": "22",
                     "minutes": "29",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Tom Latham",
-                    "dismissal": "st Sangakkara b Dilshan",
+                    "dismissal": "st (wk)Sangakkara b Dilshan",
                     "runs": "15",
                     "balls": "30",
                     "minutes": "53",
@@ -283,7 +283,7 @@
                     "strike_rate": "84.37"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Mathews b Eranga",
                     "runs": "17",
                     "balls": "21",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 3 wickets (with 42 balls remaining)"
+    "result": "New Zealand won by 3 wickets (with 42 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dimuth Karunaratne",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Angelo Mathews(c)",
+            "Shaminda Eranga"
+        ],
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Grant Elliott",
+            "Brendon McCullum(c)",
+            "Nathan McCullum",
+            "Adam Milne",
+            "Trent Boult",
+            "Tom Latham",
+            "Kane Williamson",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Burl b Ngarava",
                     "runs": "9",
                     "balls": "27",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan(c)",
-                    "dismissal": "c Moor b Mpofu",
+                    "dismissal": "c (wk)Moor b Mpofu",
                     "runs": "19",
                     "balls": "17",
                     "minutes": "28",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi",
-                    "dismissal": "c Moor b Mpofu",
+                    "dismissal": "c (wk)Moor b Mpofu",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "34",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Karim Janat",
-                    "dismissal": "c Moor b Cremer",
+                    "dismissal": "c (wk)Moor b Cremer",
                     "runs": "9",
                     "balls": "33",
                     "minutes": "53",
@@ -251,7 +251,7 @@
                     "strike_rate": "92.00"
                 },
                 {
-                    "batsman": "Peter Moor",
+                    "batsman": "Peter Moor (wk)",
                     "dismissal": "not out",
                     "runs": "36",
                     "balls": "59",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "c Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "c (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "3",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 7 wickets (with 118 balls remaining) (D/L method)"
+    "result": "Zimbabwe won by 7 wickets (with 118 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Karim Janat",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Hashmatullah Shahidi",
+            "Mohammad Shahzad (wk)",
+            "Asghar Afghan(c)",
+            "Samiullah Shinwari",
+            "Rashid Khan",
+            "Fareed Ahmad",
+            "Ihsanullah",
+            "Gulbadin Naib"
+        ],
+        "Zimbabwe": [
+            "Peter Moor (wk)",
+            "Malcolm Waller",
+            "Ryan Burl",
+            "Chris Mpofu",
+            "Craig Ervine",
+            "Solomon Mire",
+            "Richard Ngarava",
+            "Tendai Chatara",
+            "Graeme Cremer (c)",
+            "Sean Williams",
+            "Tarisai Musakanda"
+        ]
+    }
 }

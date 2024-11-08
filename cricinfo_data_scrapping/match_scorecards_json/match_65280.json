@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Craig Wishart",
-                    "dismissal": "c Otieno b MA Suji",
+                    "dismissal": "c (wk)Otieno b MA Suji",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "11",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Grant Flower",
-                    "dismissal": "c Otieno b MA Suji",
+                    "dismissal": "c (wk)Otieno b MA Suji",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "29",
@@ -71,8 +71,8 @@
                     "strike_rate": "46.66"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Otieno b Obuya",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Otieno b Obuya",
                     "runs": "3",
                     "balls": "18",
                     "minutes": "27",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Dion Ebrahim",
-                    "dismissal": "st Otieno b Obuya",
+                    "dismissal": "st (wk)Otieno b Obuya",
                     "runs": "13",
                     "balls": "24",
                     "minutes": "22",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Andy Blignaut",
-                    "dismissal": "run out (Odumbe/Otieno)",
+                    "dismissal": "run out (Odumbe/ (wk)Otieno)",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "13",
@@ -238,7 +238,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
+                    "batsman": "Kennedy Otieno (wk)",
                     "dismissal": "lbw b Olonga",
                     "runs": "19",
                     "balls": "50",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 7 wickets (with 144 balls remaining)"
+    "result": "Kenya won by 7 wickets (with 144 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Alistair Campbell",
+            "Craig Wishart",
+            "Henry Olonga",
+            "Andy Flower",
+            "Grant Flower",
+            "Andy Blignaut",
+            "Dougie Marillier",
+            "Dion Ebrahim",
+            "Heath Streak(c)",
+            "Douglas Hondo"
+        ],
+        "Kenya": [
+            "Kennedy Otieno (wk)",
+            "Hitesh Modi",
+            "Martin Suji",
+            "Ravi Shah",
+            "Aasif Karim",
+            "Peter Ongondo",
+            "Collins Obuya",
+            "Maurice Odumbe",
+            "Steve Tikolo(c)",
+            "Tony Suji",
+            "Thomas Odoyo"
+        ]
+    }
 }

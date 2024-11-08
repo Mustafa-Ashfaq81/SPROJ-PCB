@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Taufeeq Umar",
-                    "dismissal": "c Baugh b Rampaul",
+                    "dismissal": "c (wk)Baugh b Rampaul",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "15",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi(c)",
-                    "dismissal": "c Baugh b Rampaul",
+                    "dismissal": "c (wk)Baugh b Rampaul",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "18",
@@ -100,7 +100,7 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "Mohammad Salman",
+                    "batsman": "Mohammad Salman (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "30",
@@ -243,7 +243,7 @@
                     "strike_rate": "56.33"
                 }
             ],
-            "did_not_bat": "Darren Bravo , Ramnaresh Sarwan , Dwayne Bravo , Ravi Rampaul , Daren Sammy (c) , Carlton Baugh , Marlon Samuels , Devendra Bishoo , Anthony Martin",
+            "did_not_bat": "Darren Bravo , Ramnaresh Sarwan , Dwayne Bravo , Ravi Rampaul , Daren Sammy (c) , Carlton Baugh (wk) , Marlon Samuels , Devendra Bishoo , Anthony Martin",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -333,5 +333,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 10 wickets (with 159 balls remaining)"
+    "result": "West Indies won by 10 wickets (with 159 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Usman Salahuddin",
+            "Shahid Afridi(c)",
+            "Saeed Ajmal",
+            "Wahab Riaz",
+            "Taufeeq Umar",
+            "Mohammad Salman (wk)",
+            "Ahmed Shehzad",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Misbah-ul-Haq",
+            "Umar Akmal"
+        ],
+        "West Indies": [
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Anthony Martin",
+            "Ravi Rampaul",
+            "Devendra Bishoo",
+            "Dwayne Bravo",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Lendl Simmons",
+            "Kirk Edwards",
+            "Daren Sammy (c)"
+        ]
+    }
 }

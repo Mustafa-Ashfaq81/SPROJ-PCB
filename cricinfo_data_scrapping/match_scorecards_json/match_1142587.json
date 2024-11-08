@@ -33,8 +33,8 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
-                    "dismissal": "c de Kock b Duminy",
+                    "batsman": "Niroshan Dickwella (wk)",
+                    "dismissal": "c (wk)de Kock b Duminy",
                     "runs": "34",
                     "balls": "35",
                     "minutes": "-",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "c de Kock b Ngidi",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "22",
                     "balls": "23",
                     "minutes": "-",
@@ -220,7 +220,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock(c)",
+                    "batsman": "Quinton de Kock(c) (wk)",
                     "dismissal": "b Lakmal",
                     "runs": "23",
                     "balls": "13",
@@ -420,5 +420,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 3 runs (D/L method)"
+    "result": "Sri Lanka won by 3 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dasun Shanaka",
+            "Akila Dananjaya",
+            "Upul Tharanga",
+            "Dhananjaya de Silva",
+            "Kusal Mendis",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Lahiru Kumara",
+            "Niroshan Dickwella (wk)",
+            "Suranga Lakmal"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Lungi Ngidi",
+            "Keshav Maharaj",
+            "Heinrich Klaasen",
+            "Jean-Paul Duminy",
+            "David Miller",
+            "Wiaan Mulder",
+            "Junior Dala",
+            "Andile Phehlukwayo",
+            "Hashim Amla",
+            "Quinton de Kock(c) (wk)"
+        ]
+    }
 }

@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Daryl Mitchell",
-                    "dismissal": "c Mohammad Rizwan b Mohammad Nawaz",
+                    "dismissal": "c (wk)Mohammad Rizwan b Mohammad Nawaz",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "16",
@@ -72,7 +72,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "lbw b Mohammad Nawaz",
                     "runs": "2",
                     "balls": "3",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Mitchell Santner",
-                    "dismissal": "run out (Mohammad Wasim/Mohammad Rizwan)",
+                    "dismissal": "run out (Mohammad Wasim/ (wk)Mohammad Rizwan)",
                     "runs": "37",
                     "balls": "40",
                     "minutes": "62",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "c Latham b Southee",
+                    "dismissal": "c (wk)Latham b Southee",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "12",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Babar Azam(c)",
-                    "dismissal": "st Latham b Sodhi",
+                    "dismissal": "st (wk)Latham b Sodhi",
                     "runs": "79",
                     "balls": "114",
                     "minutes": "170",
@@ -269,7 +269,7 @@
                     "strike_rate": "69.29"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "b Santner",
                     "runs": "28",
                     "balls": "50",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Usama Mir",
-                    "dismissal": "c Latham b Southee",
+                    "dismissal": "c (wk)Latham b Southee",
                     "runs": "12",
                     "balls": "9",
                     "minutes": "12",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 79 runs"
+    "result": "New Zealand won by 79 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Tom Latham (wk)",
+            "Michael Bracewell",
+            "Kane Williamson(c)",
+            "Finn Allen",
+            "Ish Sodhi",
+            "Lockie Ferguson",
+            "Devon Conway",
+            "Tim Southee",
+            "Daryl Mitchell",
+            "Glenn Phillips"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Haris Rauf",
+            "Usama Mir",
+            "Haris Sohail",
+            "Salman Agha",
+            "Babar Azam(c)",
+            "Mohammad Wasim",
+            "Imam-ul-Haq",
+            "Mohammad Rizwan (wk)",
+            "Mohammad Nawaz",
+            "Naseem Shah"
+        ]
+    }
 }

@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Peter Ingram",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "23",
@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "11",
                     "balls": "6",
                     "minutes": "9",
@@ -96,7 +96,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "st Dhoni b Yuvraj Singh",
+                    "dismissal": "st (wk)Dhoni b Yuvraj Singh",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "20",
@@ -105,7 +105,7 @@
                     "strike_rate": "53.84"
                 },
                 {
-                    "batsman": "Gareth Hopkins",
+                    "batsman": "Gareth Hopkins (wk)",
                     "dismissal": "c Karthik b Kumar",
                     "runs": "10",
                     "balls": "11",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Hopkins b Mills",
+                    "dismissal": "c (wk)Hopkins b Mills",
                     "runs": "19",
                     "balls": "23",
                     "minutes": "31",
@@ -306,7 +306,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "run out (Tuffey)",
                     "runs": "2",
                     "balls": "9",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 200 runs"
+    "result": "New Zealand won by 200 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Peter Ingram",
+            "Andy McKay",
+            "Martin Guptill",
+            "Gareth Hopkins (wk)",
+            "Kyle Mills",
+            "Ross Taylor(c)",
+            "Grant Elliott",
+            "Scott Styris",
+            "Kane Williamson",
+            "Daryl Tuffey",
+            "Jacob Oram"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "Pragyan Ojha",
+            "Dinesh Karthik",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Abhimanyu Mithun",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Yuvraj Singh"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Kohli b Raina",
                     "runs": "109",
                     "balls": "87",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Dhoni b MM Sharma",
+                    "dismissal": "c (wk)Dhoni b MM Sharma",
                     "runs": "23",
                     "balls": "13",
                     "minutes": "18",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "119",
                     "balls": "61",
                     "minutes": "98",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "7",
                     "balls": "6",
                     "minutes": "11",
@@ -261,7 +261,7 @@
                     "strike_rate": "92.30"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Imran Tahir",
                     "runs": "27",
                     "balls": "29",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 214 runs"
+    "result": "South Africa won by 214 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Farhaan Behardien",
+            "Kyle Abbott",
+            "AB de Villiers(c)",
+            "Dean Elgar",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "David Miller"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "Mohit Sharma",
+            "Ajinkya Rahane",
+            "Harbhajan Singh",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Bhuvneshwar Kumar",
+            "Amit Mishra",
+            "Suresh Raina",
+            "Axar Patel",
+            "Shikhar Dhawan"
+        ]
+    }
 }

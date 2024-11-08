@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alok Kapali",
-                    "dismissal": "c Taibu b Hondo",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "25",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mohammad Rafique",
-                    "dismissal": "run out (Flower/Taibu)",
+                    "dismissal": "run out (Flower/ (wk)Taibu)",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "14",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Mushfiqur Rahman",
-                    "dismissal": "run out (Taibu)",
+                    "dismissal": "run out ( (wk)Taibu)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -110,7 +110,7 @@
                     "strike_rate": "137.50"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "9",
@@ -247,7 +247,7 @@
                     "strike_rate": "73.95"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Khaled Mahmud b Mushfiqur Rahman",
                     "runs": "2",
                     "balls": "11",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Heath Streak(c)",
-                    "dismissal": "c Khaled Mashud b Tapash Baisya",
+                    "dismissal": "c (wk)Khaled Mashud b Tapash Baisya",
                     "runs": "30",
                     "balls": "40",
                     "minutes": "62",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 8 runs"
+    "result": "Bangladesh won by 8 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Tareq Aziz",
+            "Khaled Mahmud",
+            "Shahriar Hossain",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Khaled Mashud (wk)",
+            "Alok Kapali",
+            "Habibul Bashar(c)",
+            "Mohammad Rafique",
+            "Mushfiqur Rahman"
+        ],
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Dion Ebrahim",
+            "Tatenda Taibu (wk)",
+            "Heath Streak(c)",
+            "Blessing Mahwire",
+            "Stuart Matsikenyeri",
+            "Ray Price",
+            "Douglas Hondo",
+            "Stuart Carlisle",
+            "Grant Flower",
+            "Barney Rogers"
+        ]
+    }
 }

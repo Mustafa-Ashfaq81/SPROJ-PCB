@@ -44,7 +44,7 @@
                     "strike_rate": "56.09"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Maregwede b Nkala",
                     "runs": "63",
                     "balls": "100",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Taibu b Nkala",
+                    "dismissal": "c (wk)Taibu b Nkala",
                     "runs": "18",
                     "balls": "31",
                     "minutes": "51",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Thilina Kandamby",
-                    "dismissal": "c Taibu b Nkala",
+                    "dismissal": "c (wk)Taibu b Nkala",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Upul Chandana",
-                    "dismissal": "run out (Taibu)",
+                    "dismissal": "run out ( (wk)Taibu)",
                     "runs": "51",
                     "balls": "55",
                     "minutes": "68",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Farveez Maharoof",
-                    "dismissal": "run out (Taibu)",
+                    "dismissal": "run out ( (wk)Taibu)",
                     "runs": "19",
                     "balls": "20",
                     "minutes": "29",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "7",
                     "balls": "18",
                     "minutes": "21",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "st Sangakkara b Chandana",
+                    "dismissal": "st (wk)Sangakkara b Chandana",
                     "runs": "38",
                     "balls": "61",
                     "minutes": "80",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Mluleki Nkala",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "10",
@@ -267,8 +267,8 @@
                     "strike_rate": "54.34"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
-                    "dismissal": "c Sangakkara b Chandana",
+                    "batsman": "Tatenda Taibu(c) (wk)",
+                    "dismissal": "c (wk)Sangakkara b Chandana",
                     "runs": "12",
                     "balls": "30",
                     "minutes": "28",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya",
-                    "dismissal": "run out (Sangakkara/Herath)",
+                    "dismissal": "run out ( (wk)Sangakkara/Herath)",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "9",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 72 runs"
+    "result": "Sri Lanka won by 72 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Saman Jayantha",
+            "Russel Arnold",
+            "Thilina Kandamby",
+            "Mahela Jayawardene(c)",
+            "Nuwan Kulasekara",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Rangana Herath"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Dion Ebrahim",
+            "Prosper Utseya",
+            "Alester Maregwede",
+            "Tinashe Panyangara",
+            "Mluleki Nkala",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Tawanda Mupariwa",
+            "Tatenda Taibu(c) (wk)"
+        ]
+    }
 }

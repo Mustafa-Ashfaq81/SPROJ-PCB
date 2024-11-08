@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "18",
                     "balls": "30",
                     "minutes": "38",
@@ -96,7 +96,7 @@
                     "strike_rate": "144.73"
                 }
             ],
-            "did_not_bat": "Parthiv Patel , Ajit Agarkar , Harbhajan Singh , Zaheer Khan , Amit Mishra",
+            "did_not_bat": "Parthiv Patel (wk) , Ajit Agarkar , Harbhajan Singh , Zaheer Khan , Amit Mishra",
             "fall_of_wickets": "Fall of wickets : 1 - 45 ( Gautam Gambhir , 7.6 ov ) , 2 - 89 ( Virender Sehwag , 16.1 ov ) , 3 - 175 ( Sourav Ganguly , 34.3 ov ) , 4 - 197 ( Yuvraj Singh , 38.2 ov )",
             "bowling": [
                 {
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Neil McKenzie",
-                    "dismissal": "c Patel b Mishra",
+                    "dismissal": "c (wk)Patel b Mishra",
                     "runs": "12",
                     "balls": "33",
                     "minutes": "36",
@@ -243,7 +243,7 @@
                     "strike_rate": "36.36"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Kaif b Sehwag",
                     "runs": "48",
                     "balls": "59",
@@ -294,7 +294,7 @@
                 },
                 {
                     "batsman": "Charl Willoughby",
-                    "dismissal": "st Patel b Sehwag",
+                    "dismissal": "st (wk)Patel b Sehwag",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "India won by 153 runs"
+    "result": "India won by 153 runs",
+    "playing_xi": {
+        "India": [
+            "Dinesh Mongia",
+            "Parthiv Patel (wk)",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virender Sehwag",
+            "Harbhajan Singh",
+            "Gautam Gambhir",
+            "Amit Mishra",
+            "Sourav Ganguly(c)"
+        ],
+        "South Africa": [
+            "Boeta Dippenaar",
+            "Makhaya Ntini",
+            "Charl Willoughby",
+            "Mark Boucher (wk)",
+            "Alan Dawson",
+            "Graeme Smith(c)",
+            "Neil McKenzie",
+            "Herschelle Gibbs",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Robin Peterson"
+        ]
+    }
 }

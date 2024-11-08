@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo(c)",
-                    "dismissal": "st Buttler b Tredwell",
+                    "dismissal": "st (wk)Buttler b Tredwell",
                     "runs": "20",
                     "balls": "38",
                     "minutes": "52",
@@ -103,7 +103,7 @@
                     "strike_rate": "23.07"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Bresnan",
                     "runs": "5",
                     "balls": "10",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Sunil Narine",
-                    "dismissal": "st Buttler b Parry",
+                    "dismissal": "st (wk)Buttler b Parry",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "3",
@@ -309,7 +309,7 @@
                 },
                 {
                     "batsman": "Ben Stokes",
-                    "dismissal": "c Ramdin b Miller",
+                    "dismissal": "c (wk)Ramdin b Miller",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "20",
@@ -318,8 +318,8 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "c Ramdin b DJ Bravo",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "c (wk)Ramdin b DJ Bravo",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -339,7 +339,7 @@
                 },
                 {
                     "batsman": "Tim Bresnan",
-                    "dismissal": "run out (DJ Bravo/Ramdin)",
+                    "dismissal": "run out (DJ Bravo/ (wk)Ramdin)",
                     "runs": "10",
                     "balls": "31",
                     "minutes": "27",
@@ -448,5 +448,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 31 balls remaining)"
+    "result": "England won by 3 wickets (with 31 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Lendl Simmons",
+            "Kieran Powell",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Dwayne Smith",
+            "Ravi Rampaul",
+            "Dwayne Bravo(c)",
+            "Denesh Ramdin (wk)",
+            "Kirk Edwards",
+            "Daren Sammy",
+            "Nikita Miller"
+        ],
+        "England": [
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "Stuart Broad(c)",
+            "Ben Stokes",
+            "Michael Lumb",
+            "James Tredwell",
+            "Stephen Parry",
+            "Moeen Ali",
+            "Tim Bresnan",
+            "Luke Wright",
+            "Ravi Bopara"
+        ]
+    }
 }

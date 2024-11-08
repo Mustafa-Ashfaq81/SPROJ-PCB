@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Kieswetter b Bresnan",
+                    "dismissal": "c (wk)Kieswetter b Bresnan",
                     "runs": "42",
                     "balls": "61",
                     "minutes": "80",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Manoj Tiwary",
-                    "dismissal": "c Kieswetter b Meaker",
+                    "dismissal": "c (wk)Kieswetter b Meaker",
                     "runs": "24",
                     "balls": "30",
                     "minutes": "41",
@@ -80,7 +80,7 @@
                     "strike_rate": "82.60"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "75",
                     "balls": "69",
@@ -227,7 +227,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "lbw b Jadeja",
                     "runs": "63",
                     "balls": "64",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Dhoni b Ashwin",
+                    "dismissal": "c (wk)Dhoni b Ashwin",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "6",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Samit Patel",
-                    "dismissal": "c Dhoni b Jadeja",
+                    "dismissal": "c (wk)Dhoni b Jadeja",
                     "runs": "18",
                     "balls": "33",
                     "minutes": "31",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Steven Finn",
-                    "dismissal": "c Dhoni b Ashwin",
+                    "dismissal": "c (wk)Dhoni b Ashwin",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "2",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "India won by 95 runs"
+    "result": "India won by 95 runs",
+    "playing_xi": {
+        "India": [
+            "Gautam Gambhir",
+            "Vinay Kumar",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Praveen Kumar",
+            "Varun Aaron",
+            "Manoj Tiwary",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina"
+        ],
+        "England": [
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Graeme Swann",
+            "Samit Patel",
+            "Jonny Bairstow",
+            "Craig Kieswetter (wk)",
+            "Stuart Meaker",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                     "strike_rate": "65.71"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Tamim Iqbal b Syed Rasel",
                     "runs": "56",
                     "balls": "55",
@@ -175,7 +175,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "16",
@@ -194,7 +194,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Dilshan b Maharoof",
                     "runs": "6",
                     "balls": "33",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Abdur Razzak",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "6",
@@ -388,5 +388,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 198 runs (D/L method)"
+    "result": "Sri Lanka won by 198 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene(c)",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Upul Tharanga",
+            "Chamara Silva"
+        ],
+        "Bangladesh": [
+            "Habibul Bashar(c)",
+            "Aftab Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique"
+        ]
+    }
 }

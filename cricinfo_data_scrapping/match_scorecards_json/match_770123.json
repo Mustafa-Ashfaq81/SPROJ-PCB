@@ -80,7 +80,7 @@
                     "strike_rate": "103.33"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "51",
                     "balls": "40",
@@ -285,7 +285,7 @@
                     "strike_rate": "42.10"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Raina b Mishra",
                     "runs": "3",
                     "balls": "7",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "8",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "India won by 48 runs"
+    "result": "India won by 48 runs",
+    "playing_xi": {
+        "India": [
+            "Ajinkya Rahane",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Amit Mishra",
+            "Suresh Raina",
+            "Mohammed Shami",
+            "Ravindra Jadeja",
+            "Umesh Yadav",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ],
+        "West Indies": [
+            "Ravi Rampaul",
+            "Daren Sammy",
+            "Sulieman Benn",
+            "Andre Russell",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Dwayne Smith",
+            "Kieron Pollard",
+            "Jerome Taylor",
+            "Denesh Ramdin (wk)",
+            "Dwayne Bravo(c)"
+        ]
+    }
 }

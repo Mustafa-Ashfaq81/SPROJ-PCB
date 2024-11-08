@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "c Ronchi b Henry",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "3",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "c Ronchi b Henry",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "47",
                     "balls": "65",
                     "minutes": "72",
@@ -90,7 +90,7 @@
                     "strike_rate": "72.30"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Latham b McClenaghan",
                     "runs": "23",
                     "balls": "31",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Sarfaraz Ahmed b Haris Sohail",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Haris Sohail",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "9",
@@ -297,7 +297,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Sohail Tanvir b Shahid Afridi",
                     "runs": "36",
                     "balls": "32",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 24 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Wahab Riaz",
+            "Sohail Tanvir",
+            "Shahid Afridi",
+            "Haris Sohail",
+            "Asad Shafiq",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Sarfaraz Ahmed (wk)",
+            "Younis Khan",
+            "Misbah-ul-Haq(c)"
+        ],
+        "New Zealand": [
+            "Anton Devcich",
+            "Corey Anderson",
+            "Mitchell McClenaghan",
+            "Adam Milne",
+            "Kane Williamson(c)",
+            "Tom Latham",
+            "Matt Henry",
+            "Dean Brownlie",
+            "Ross Taylor",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)"
+        ]
+    }
 }

@@ -28,7 +28,7 @@
             "batting": [
                 {
                     "batsman": "Andy Northcote",
-                    "dismissal": "c Klokker b MH Andersen",
+                    "dismissal": "c (wk)Klokker b MH Andersen",
                     "runs": "20",
                     "balls": "29",
                     "minutes": "52",
@@ -87,7 +87,7 @@
                     "strike_rate": "170.58"
                 },
                 {
-                    "batsman": "Nic Northcote",
+                    "batsman": "Nic Northcote (wk)",
                     "dismissal": "lbw b Chawla",
                     "runs": "12",
                     "balls": "41",
@@ -108,7 +108,7 @@
                 },
                 {
                     "batsman": "Vince Pennazza",
-                    "dismissal": "st Klokker b MH Andersen",
+                    "dismissal": "st (wk)Klokker b MH Andersen",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "6",
@@ -248,7 +248,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Freddie Klokker(c)",
+                    "batsman": "Freddie Klokker(c) (wk)",
                     "dismissal": "lbw b Pennazza",
                     "runs": "10",
                     "balls": "24",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Soren Vestergaard",
-                    "dismissal": "c NM Northcote b Jayasena",
+                    "dismissal": "c (wk)NM Northcote b Jayasena",
                     "runs": "13",
                     "balls": "28",
                     "minutes": "33",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Morten Hedegaard",
-                    "dismissal": "c NM Northcote b de Silva",
+                    "dismissal": "c (wk)NM Northcote b de Silva",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "22",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "Denmark won by 1 wicket (with 1 ball remaining)"
+    "result": "Denmark won by 1 wicket (with 1 ball remaining)",
+    "playing_xi": {
+        "Italy": [
+            "Vince Pennazza",
+            "Alauddin",
+            "Hemantha Jayasena",
+            "Alessandro Bonora",
+            "Thushara Kurukulasuriya",
+            "Kelum Perera",
+            "Nic Northcote (wk)",
+            "Peter Petricola",
+            "Gayashan de Silva",
+            "Joe Scuderi(c)",
+            "Andy Northcote"
+        ],
+        "Denmark": [
+            "Henrik Hansen",
+            "Bashir Shah",
+            "Max Overgaard",
+            "Michael Pedersen",
+            "Soren Vestergaard",
+            "Bobby Chawla",
+            "Thomas Hansen",
+            "Carsten Pedersen",
+            "Freddie Klokker(c) (wk)",
+            "Morten Hedegaard",
+            "Lars Hedegaard"
+        ]
+    }
 }

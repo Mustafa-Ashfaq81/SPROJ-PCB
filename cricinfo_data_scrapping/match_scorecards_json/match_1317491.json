@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "c Buttler b Stone",
+                    "dismissal": "c (wk)Buttler b Stone",
                     "runs": "21",
                     "balls": "16",
                     "minutes": "37",
@@ -80,7 +80,7 @@
                     "strike_rate": "187.50"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "12",
                     "balls": "6",
@@ -194,7 +194,7 @@
                 },
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "14",
@@ -233,7 +233,7 @@
                     "strike_rate": "58.06"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Stoinis b Zampa",
                     "runs": "1",
                     "balls": "4",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Liam Dawson",
-                    "dismissal": "c Carey b Marsh",
+                    "dismissal": "c (wk)Carey b Marsh",
                     "runs": "18",
                     "balls": "19",
                     "minutes": "26",
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Australia won by 221 runs (D/L method)"
+    "result": "Australia won by 221 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Pat Cummins (c)",
+            "Marnus Labuschagne",
+            "Adam Zampa",
+            "Travis Head",
+            "Sean Abbott",
+            "Steven Smith",
+            "Josh Hazlewood",
+            "Alex Carey (wk)",
+            "Mitchell Marsh",
+            "David Warner",
+            "Marcus Stoinis"
+        ],
+        "England": [
+            "Moeen Ali",
+            "Chris Woakes",
+            "David Willey",
+            "Liam Dawson",
+            "James Vince",
+            "Sam Curran",
+            "Jos Buttler(c) (wk)",
+            "Jason Roy",
+            "Sam Billings",
+            "Dawid Malan",
+            "Olly Stone"
+        ]
+    }
 }

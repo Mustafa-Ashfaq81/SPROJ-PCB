@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Manzarul Islam",
-                    "dismissal": "c Moin Khan b Shabbir Ahmed",
+                    "dismissal": "c (wk)Moin Khan b Shabbir Ahmed",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -91,7 +91,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "b Mohammad Sami",
                     "runs": "54",
                     "balls": "94",
@@ -284,7 +284,7 @@
                     "strike_rate": "64.00"
                 }
             ],
-            "did_not_bat": "Moin Khan , Inzamam-ul-Haq (c) , Mohammad Sami , Shoaib Akhtar , Shabbir Ahmed",
+            "did_not_bat": "Moin Khan (wk) , Inzamam-ul-Haq (c) , Mohammad Sami , Shoaib Akhtar , Shabbir Ahmed",
             "fall_of_wickets": "Fall of wickets : 1 - 35 ( Yasir Hameed , 8.6 ov ) , 2 - 52 ( Imran Nazir , 11.3 ov ) , 3 - 118 ( Shoaib Malik , 27.6 ov ) , 4 - 137 ( Mohammad Yousuf , 34.4 ov )",
             "bowling": [
                 {
@@ -360,5 +360,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 54 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 54 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mohammad Ashraful",
+            "Tareq Aziz",
+            "Mushfiqur Rahman",
+            "Alok Kapali",
+            "Faisal Hossain",
+            "Habibul Bashar(c)",
+            "Khaled Mashud (wk)",
+            "Rajin Saleh",
+            "Abdur Razzak",
+            "Tapash Baisya",
+            "Manzarul Islam"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Inzamam-ul-Haq (c)",
+            "Shabbir Ahmed",
+            "Moin Khan (wk)",
+            "Mohammad Yousuf",
+            "Imran Nazir",
+            "Yasir Hameed"
+        ]
+    }
 }

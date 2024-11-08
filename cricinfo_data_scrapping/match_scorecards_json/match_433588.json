@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Ouma b Odhiambo",
+                    "dismissal": "c (wk)Ouma b Odhiambo",
                     "runs": "21",
                     "balls": "17",
                     "minutes": "32",
@@ -41,7 +41,7 @@
                     "strike_rate": "123.52"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Patel b Kamande",
                     "runs": "65",
                     "balls": "79",
@@ -208,8 +208,8 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Morris Ouma",
-                    "dismissal": "c Haddin b Lee",
+                    "batsman": "Morris Ouma (wk)",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "4",
                     "balls": "13",
                     "minutes": "14",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "David Obuya",
-                    "dismissal": "run out (Hussey/Haddin)",
+                    "dismissal": "run out (Hussey/ (wk)Haddin)",
                     "runs": "12",
                     "balls": "16",
                     "minutes": "27",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "Australia won by 60 runs"
+    "result": "Australia won by 60 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shane Watson",
+            "Mitchell Johnson",
+            "Shaun Tait",
+            "Ricky Ponting(c)",
+            "Steven Smith",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Cameron White",
+            "Jason Krejza",
+            "Michael Clarke",
+            "Michael Hussey"
+        ],
+        "Kenya": [
+            "Alex Obanda",
+            "Nehemiah Odhiambo",
+            "Tanmay Mishra",
+            "David Obuya",
+            "Elijah Otieno",
+            "Rakep Patel",
+            "Collins Obuya",
+            "James Ngoche",
+            "Morris Ouma (wk)",
+            "Jimmy Kamande(c)",
+            "Thomas Odoyo"
+        ]
+    }
 }

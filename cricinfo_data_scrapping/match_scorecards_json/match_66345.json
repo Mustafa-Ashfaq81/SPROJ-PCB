@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo(c)",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "5",
@@ -81,7 +81,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "David Obuya",
+                    "batsman": "David Obuya (wk)",
                     "dismissal": "c Azhar Mahmood b Abdul Razzaq",
                     "runs": "12",
                     "balls": "21",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Tony Suji",
-                    "dismissal": "st Rashid Latif b Shahid Afridi",
+                    "dismissal": "st (wk)Rashid Latif b Shahid Afridi",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "10",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Saeed Anwar",
-                    "dismissal": "c DO Obuya b MA Suji",
+                    "dismissal": "c (wk)DO Obuya b MA Suji",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "17",
@@ -288,7 +288,7 @@
                     "strike_rate": "54.34"
                 }
             ],
-            "did_not_bat": "Abdul Razzaq , Azhar Mahmood , Rashid Latif , Waqar Younis (c) , Wasim Akram , Shoaib Akhtar",
+            "did_not_bat": "Abdul Razzaq , Azhar Mahmood , Rashid Latif (wk) , Waqar Younis (c) , Wasim Akram , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 11 ( Saeed Anwar , 2.6 ov ) , 2 - 13 ( Shoaib Malik , 3.5 ov ) , 3 - 54 ( Shahid Afridi , 11.4 ov )",
             "bowling": [
                 {
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 68 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 68 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Jimmy Kamande",
+            "Martin Suji",
+            "Collins Obuya",
+            "Steve Tikolo(c)",
+            "Tony Suji",
+            "Ravi Shah",
+            "David Obuya (wk)",
+            "Kennedy Otieno",
+            "Maurice Odumbe",
+            "Joseph Angara",
+            "Thomas Odoyo"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Azhar Mahmood",
+            "Saeed Anwar",
+            "Rashid Latif (wk)",
+            "Wasim Akram",
+            "Misbah-ul-Haq",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Younis Khan",
+            "Waqar Younis (c)",
+            "Shoaib Akhtar"
+        ]
+    }
 }

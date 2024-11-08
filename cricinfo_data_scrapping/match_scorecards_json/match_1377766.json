@@ -31,8 +31,8 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Joylord Gumbie",
-                    "dismissal": "c Naseem Khushi b Fayyaz Butt",
+                    "batsman": "Joylord Gumbie (wk)",
+                    "dismissal": "c (wk)Naseem Khushi b Fayyaz Butt",
                     "runs": "21",
                     "balls": "34",
                     "minutes": "62",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Wessly Madhevere",
-                    "dismissal": "st Naseem Khushi b Zeeshan Maqsood",
+                    "dismissal": "st (wk)Naseem Khushi b Zeeshan Maqsood",
                     "runs": "23",
                     "balls": "26",
                     "minutes": "42",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Aqib Ilyas",
-                    "dismissal": "c Gumbie b Sikandar Raza",
+                    "dismissal": "c (wk)Gumbie b Sikandar Raza",
                     "runs": "45",
                     "balls": "61",
                     "minutes": "57",
@@ -292,7 +292,7 @@
                     "strike_rate": "84.61"
                 },
                 {
-                    "batsman": "Naseem Khushi",
+                    "batsman": "Naseem Khushi (wk)",
                     "dismissal": "c Madhevere b Chatara",
                     "runs": "12",
                     "balls": "12",
@@ -436,5 +436,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 14 runs"
+    "result": "Zimbabwe won by 14 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sikandar Raza",
+            "Ryan Burl",
+            "Blessing Muzarabani",
+            "Joylord Gumbie (wk)",
+            "Richard Ngarava",
+            "Craig Ervine(c)",
+            "Wellington Masakadza",
+            "Tendai Chatara",
+            "Luke Jongwe",
+            "Sean Williams",
+            "Wessly Madhevere"
+        ],
+        "Oman": [
+            "Fayyaz Butt",
+            "Shoaib Khan",
+            "Ayaan Khan",
+            "Zeeshan Maqsood(c)",
+            "Kashyap Prajapati",
+            "Jatinder Singh",
+            "Aqib Ilyas",
+            "Mohammad Nadeem",
+            "Naseem Khushi (wk)",
+            "Bilal Khan",
+            "Kaleemullah"
+        ]
+    }
 }

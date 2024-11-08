@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c Mushfiqur Rahim b Shafiul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shafiul Islam",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "7",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Regis Chakabva",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "21",
                     "balls": "34",
                     "minutes": "38",
@@ -70,7 +70,7 @@
                     "strike_rate": "43.47"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "lbw b Abdur Razzak",
                     "runs": "21",
                     "balls": "48",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Taibu b Mpofu",
+                    "dismissal": "c (wk)Taibu b Mpofu",
                     "runs": "10",
                     "balls": "13",
                     "minutes": "17",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Zunaed Siddique",
-                    "dismissal": "st Taibu b Price",
+                    "dismissal": "st (wk)Taibu b Price",
                     "runs": "53",
                     "balls": "83",
                     "minutes": "115",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Raqibul Hasan",
-                    "dismissal": "st Taibu b Dabengwa",
+                    "dismissal": "st (wk)Taibu b Dabengwa",
                     "runs": "65",
                     "balls": "79",
                     "minutes": "101",
@@ -287,7 +287,7 @@
                     "strike_rate": "128.57"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "7",
                     "balls": "9",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 62 balls remaining)"
+    "result": "Bangladesh won by 6 wickets (with 62 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura(c)",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Chamu Chibhabha",
+            "Keith Dabengwa",
+            "Brendan Taylor",
+            "Regis Chakabva",
+            "Keegan Meth",
+            "Ray Price",
+            "Chris Mpofu",
+            "Tatenda Taibu (wk)"
+        ],
+        "Bangladesh": [
+            "Raqibul Hasan",
+            "Imrul Kayes",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Sohrawordi Shuvo",
+            "Tamim Iqbal",
+            "Shakib Al Hasan(c)",
+            "Mashrafe Mortaza",
+            "Zunaed Siddique",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                     "strike_rate": "80.43"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "c Mujeeb Ur Rahman b Noor Ahmad",
                     "runs": "8",
                     "balls": "10",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Ibrahim Zadran",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "87",
                     "balls": "113",
                     "minutes": "146",
@@ -248,7 +248,7 @@
                     "strike_rate": "106.66"
                 }
             ],
-            "did_not_bat": "Azmatullah Omarzai , Ikram Alikhil , Mohammad Nabi , Rashid Khan , Mujeeb Ur Rahman , Naveen-ul-Haq , Noor Ahmad",
+            "did_not_bat": "Azmatullah Omarzai , Ikram Alikhil (wk) , Mohammad Nabi , Rashid Khan , Mujeeb Ur Rahman , Naveen-ul-Haq , Noor Ahmad",
             "fall_of_wickets": "Fall of wickets : 1 - 130 ( Rahmanullah Gurbaz , 21.1 ov ) , 2 - 190 ( Ibrahim Zadran , 33.3 ov ) DRS",
             "bowling": [
                 {
@@ -338,5 +338,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 8 wickets (with 6 balls remaining)"
+    "result": "Afghanistan won by 8 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Hasan Ali",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Saud Shakeel",
+            "Abdullah Shafique",
+            "Imam-ul-Haq",
+            "Haris Rauf",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Usama Mir"
+        ],
+        "Afghanistan": [
+            "Naveen-ul-Haq",
+            "Azmatullah Omarzai",
+            "Hashmatullah Shahidi(c)",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman",
+            "Noor Ahmad",
+            "Rahmanullah Gurbaz",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Ikram Alikhil (wk)"
+        ]
+    }
 }

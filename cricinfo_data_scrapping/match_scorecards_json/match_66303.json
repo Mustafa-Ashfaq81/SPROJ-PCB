@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "30",
                     "balls": "49",
                     "minutes": "64",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c McCullum b Styris",
+                    "dismissal": "c (wk)McCullum b Styris",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "2",
@@ -91,7 +91,7 @@
                     "strike_rate": "50.00"
                 }
             ],
-            "did_not_bat": "Dwayne Bravo , Ridley Jacobs , Ravi Rampaul , Ian Bradshaw , Jermaine Lawson",
+            "did_not_bat": "Dwayne Bravo , Ridley Jacobs (wk) , Ravi Rampaul , Ian Bradshaw , Jermaine Lawson",
             "fall_of_wickets": "Fall of wickets : 1 - 56 ( Shivnarine Chanderpaul , 14.1 ov ) , 2 - 59 ( Dwayne Smith , 14.6 ov ) , 3 - 59 ( Chris Gayle , 15.4 ov ) , 4 - 115 ( Brian Lara , 20.2 ov )",
             "bowling": [
                 {
@@ -228,7 +228,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Craig McMillan , Jacob Oram , Chris Cairns , Daniel Vettori , Brendon McCullum , Daryl Tuffey , James Franklin",
+            "did_not_bat": "Craig McMillan , Jacob Oram , Chris Cairns , Daniel Vettori , Brendon McCullum (wk) , Daryl Tuffey , James Franklin",
             "fall_of_wickets": "Fall of wickets : 1 - 20 ( Stephen Fleming , 2.1 ov ) , 2 - 50 ( Nathan Astle , 6.5 ov )",
             "bowling": [
                 {
@@ -318,5 +318,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ricardo Powell",
+            "Jermaine Lawson",
+            "Ravi Rampaul"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Chris Cairns",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Nathan Astle",
+            "James Franklin",
+            "Daniel Vettori",
+            "Hamish Marshall",
+            "Daryl Tuffey",
+            "Jacob Oram",
+            "Scott Styris"
+        ]
+    }
 }

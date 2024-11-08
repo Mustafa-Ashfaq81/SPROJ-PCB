@@ -33,8 +33,8 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Morne van Wyk",
-                    "dismissal": "c Ramdin b Cottrell",
+                    "batsman": "Morne van Wyk (wk)",
+                    "dismissal": "c (wk)Ramdin b Cottrell",
                     "runs": "18",
                     "balls": "24",
                     "minutes": "31",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Ramdin b Holder",
+                    "dismissal": "c (wk)Ramdin b Holder",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "17",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Ramdin b Russell",
+                    "dismissal": "c (wk)Ramdin b Russell",
                     "runs": "19",
                     "balls": "25",
                     "minutes": "38",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Leon Johnson",
-                    "dismissal": "run out (de Villiers/van Wyk)",
+                    "dismissal": "run out (de Villiers/ (wk)van Wyk)",
                     "runs": "18",
                     "balls": "40",
                     "minutes": "55",
@@ -284,7 +284,7 @@
                     "strike_rate": "73.11"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "lbw b Behardien",
                     "runs": "3",
                     "balls": "5",
@@ -335,7 +335,7 @@
                 },
                 {
                     "batsman": "Carlos Brathwaite",
-                    "dismissal": "run out (de Villiers/van Wyk)",
+                    "dismissal": "run out (de Villiers/ (wk)van Wyk)",
                     "runs": "11",
                     "balls": "14",
                     "minutes": "23",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 1 wicket (with 9 balls remaining)"
+    "result": "West Indies won by 1 wicket (with 9 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Aaron Phangiso",
+            "Morne Morkel",
+            "Morne van Wyk (wk)",
+            "Wayne Parnell",
+            "Kyle Abbott",
+            "Farhaan Behardien",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Faf du Plessis",
+            "AB de Villiers(c)"
+        ],
+        "West Indies": [
+            "Leon Johnson",
+            "Chris Gayle",
+            "Jonathan Carter",
+            "Dwayne Smith",
+            "Andre Russell",
+            "Marlon Samuels",
+            "Denesh Ramdin (wk)",
+            "Carlos Brathwaite",
+            "Sheldon Cottrell",
+            "Jason Holder(c)",
+            "Daren Sammy"
+        ]
+    }
 }

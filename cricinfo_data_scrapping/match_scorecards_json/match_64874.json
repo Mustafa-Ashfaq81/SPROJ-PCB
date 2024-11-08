@@ -33,8 +33,8 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Sangakkara b Zoysa",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Sangakkara b Zoysa",
                     "runs": "14",
                     "balls": "18",
                     "minutes": "23",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Michael Kasprowicz",
-                    "dismissal": "c Sangakkara b Chandana",
+                    "dismissal": "c (wk)Sangakkara b Chandana",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "3",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "6",
@@ -260,8 +260,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "101",
                     "balls": "110",
                     "minutes": "139",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "25",
                     "balls": "44",
                     "minutes": "60",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Saman Jayantha",
-                    "dismissal": "c Gilchrist b Harvey",
+                    "dismissal": "c (wk)Gilchrist b Harvey",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "15",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Upul Chandana",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "13",
                     "balls": "22",
                     "minutes": "30",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Australia won by 40 runs"
+    "result": "Australia won by 40 runs",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Michael Kasprowicz",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ],
+        "Sri Lanka": [
+            "Saman Jayantha",
+            "Nuwan Zoysa",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Kaushal Lokuarachchi",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)"
+        ]
+    }
 }

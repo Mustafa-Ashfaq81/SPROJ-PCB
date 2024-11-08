@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle(c)",
-                    "dismissal": "c Prior b Broad",
+                    "dismissal": "c (wk)Prior b Broad",
                     "runs": "46",
                     "balls": "39",
                     "minutes": "54",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "run out (Mascarenhas/Prior)",
+                    "dismissal": "run out (Mascarenhas/ (wk)Prior)",
                     "runs": "29",
                     "balls": "39",
                     "minutes": "63",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Prior b Mascarenhas",
+                    "dismissal": "c (wk)Prior b Mascarenhas",
                     "runs": "27",
                     "balls": "53",
                     "minutes": "121",
@@ -70,7 +70,7 @@
                     "strike_rate": "50.94"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Flintoff b Mascarenhas",
                     "runs": "26",
                     "balls": "29",
@@ -285,7 +285,7 @@
                     "strike_rate": "89.74"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "11",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "England won by 9 wickets (with 9 balls remaining) (D/L method)"
+    "result": "England won by 9 wickets (with 9 balls remaining) (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Dwayne Bravo",
+            "Nikita Miller",
+            "Kieron Pollard",
+            "Ramnaresh Sarwan",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Lionel Baker",
+            "Chris Gayle(c)",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Daren Sammy"
+        ],
+        "England": [
+            "Kevin Pietersen",
+            "Dimitri Mascarenhas",
+            "James Anderson",
+            "Matt Prior (wk)",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Andrew Strauss(c)",
+            "Paul Collingwood",
+            "Owais Shah",
+            "Andrew Flintoff",
+            "Steve Harmison"
+        ]
+    }
 }

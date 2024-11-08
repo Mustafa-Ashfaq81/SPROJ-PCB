@@ -50,7 +50,7 @@
                     "strike_rate": "105.55"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Pathan b Singh",
                     "runs": "34",
                     "balls": "47",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "9",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c Dhoni b Tendulkar",
+                    "dismissal": "c (wk)Dhoni b Tendulkar",
                     "runs": "16",
                     "balls": "28",
                     "minutes": "46",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "16",
                     "balls": "23",
                     "minutes": "23",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Irfan Pathan",
-                    "dismissal": "c Kamran Akmal b Mohammad Asif",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Asif",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -287,7 +287,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "72",
                     "balls": "46",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 14 balls remaining)"
+    "result": "India won by 5 wickets (with 14 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Younis Khan",
+            "Yasir Arafat",
+            "Abdul Razzaq",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Salman Butt",
+            "Shoaib Malik"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "RP Singh",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "Gautam Gambhir",
+            "Zaheer Khan",
+            "Sreesanth",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

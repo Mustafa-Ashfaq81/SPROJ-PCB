@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Colin Ingram",
-                    "dismissal": "c Umar Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Umar Akmal b Mohammad Irfan",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "st Umar Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Umar Akmal b Saeed Ajmal",
                     "runs": "20",
                     "balls": "25",
                     "minutes": "62",
@@ -70,7 +70,7 @@
                     "strike_rate": "46.15"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "c & b Saeed Ajmal",
                     "runs": "4",
                     "balls": "12",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c de Villiers b Parnell",
+                    "dismissal": "c (wk)de Villiers b Parnell",
                     "runs": "28",
                     "balls": "39",
                     "minutes": "70",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Umar Amin",
-                    "dismissal": "c de Villiers b Tsotsobe",
+                    "dismissal": "c (wk)de Villiers b Tsotsobe",
                     "runs": "20",
                     "balls": "38",
                     "minutes": "64",
@@ -287,7 +287,7 @@
                     "strike_rate": "52.63"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "lbw b Imran Tahir",
                     "runs": "18",
                     "balls": "17",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Sohail Tanvir",
-                    "dismissal": "c de Villiers b Tsotsobe",
+                    "dismissal": "c (wk)de Villiers b Tsotsobe",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "4",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 1 run"
+    "result": "South Africa won by 1 run",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Colin Ingram",
+            "Graeme Smith",
+            "Ryan McLaren",
+            "Wayne Parnell",
+            "AB de Villiers(c) (wk)",
+            "Jean-Paul Duminy",
+            "Faf du Plessis",
+            "David Miller",
+            "Morne Morkel",
+            "Imran Tahir"
+        ],
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Wahab Riaz",
+            "Mohammad Irfan",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Misbah-ul-Haq(c)",
+            "Umar Akmal (wk)",
+            "Sohail Tanvir",
+            "Umar Amin",
+            "Nasir Jamshed",
+            "Mohammad Hafeez"
+        ]
+    }
 }

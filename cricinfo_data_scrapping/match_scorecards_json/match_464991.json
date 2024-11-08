@@ -90,7 +90,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "not out",
                     "runs": "28",
                     "balls": "38",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Daren Sammy(c)",
-                    "dismissal": "run out (Jayawardene/Sangakkara)",
+                    "dismissal": "run out (Jayawardene/ (wk)Sangakkara)",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "9",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Baugh b Rampaul",
+                    "dismissal": "c (wk)Baugh b Rampaul",
                     "runs": "11",
                     "balls": "23",
                     "minutes": "35",
@@ -257,7 +257,7 @@
                     "strike_rate": "47.82"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Gayle b DJ Bravo",
                     "runs": "20",
                     "balls": "43",
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 27 balls remaining) (D/L method)"
+    "result": "Sri Lanka won by 8 wickets (with 27 balls remaining) (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Kieron Pollard",
+            "Nikita Miller",
+            "Adrian Barath",
+            "Ravi Rampaul",
+            "Kemar Roach",
+            "Dwayne Bravo",
+            "Darren Bravo",
+            "Daren Sammy(c)"
+        ],
+        "Sri Lanka": [
+            "Thilan Samaraweera",
+            "Kumar Sangakkara(c) (wk)",
+            "Nuwan Kulasekara",
+            "Rangana Herath",
+            "Upul Tharanga",
+            "Chamara Kapugedera",
+            "Angelo Mathews",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Lasith Malinga"
+        ]
+    }
 }

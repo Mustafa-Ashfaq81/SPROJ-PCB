@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "st DO Obuya b Odumbe",
+                    "dismissal": "st (wk)DO Obuya b Odumbe",
                     "runs": "69",
                     "balls": "77",
                     "minutes": "128",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c DO Obuya b Kamande",
+                    "dismissal": "c (wk)DO Obuya b Kamande",
                     "runs": "116",
                     "balls": "126",
                     "minutes": "160",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "st DO Obuya b Tikolo",
+                    "dismissal": "st (wk)DO Obuya b Tikolo",
                     "runs": "60",
                     "balls": "53",
                     "minutes": "69",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "st DO Obuya b CO Obuya",
+                    "dismissal": "st (wk)DO Obuya b CO Obuya",
                     "runs": "31",
                     "balls": "28",
                     "minutes": "32",
@@ -101,7 +101,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Shaun Pollock (c) , Mark Boucher , Alan Dawson , Makhaya Ntini",
+            "did_not_bat": "Shaun Pollock (c) , Mark Boucher (wk) , Alan Dawson , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 159 ( Graeme Smith , 28.1 ov ) , 2 - 214 ( Herschelle Gibbs , 36.5 ov ) , 3 - 287 ( Boeta Dippenaar , 46.1 ov ) , 4 - 291 ( Jacques Kallis , 47.1 ov ) , 5 - 299 ( Dale Benkenstein , 48.4 ov )",
             "bowling": [
                 {
@@ -282,8 +282,8 @@
                     "strike_rate": "24.56"
                 },
                 {
-                    "batsman": "David Obuya",
-                    "dismissal": "st Boucher b Ontong",
+                    "batsman": "David Obuya (wk)",
+                    "dismissal": "st (wk)Boucher b Ontong",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "16",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 176 runs"
+    "result": "South Africa won by 176 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Lance Klusener",
+            "Boeta Dippenaar",
+            "Justin Ontong",
+            "Alan Dawson",
+            "Shaun Pollock (c)",
+            "Jacques Kallis",
+            "Dale Benkenstein",
+            "Graeme Smith",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Herschelle Gibbs"
+        ],
+        "Kenya": [
+            "Ravi Shah",
+            "Maurice Odumbe",
+            "Steve Tikolo(c)",
+            "Thomas Odoyo",
+            "Jimmy Kamande",
+            "Collins Obuya",
+            "Brijal Patel",
+            "David Obuya (wk)",
+            "Martin Suji",
+            "Kennedy Otieno",
+            "Tony Suji"
+        ]
+    }
 }

@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Mudassar Bukhari",
-                    "dismissal": "c Bagai b Osinde",
+                    "dismissal": "c (wk)Bagai b Osinde",
                     "runs": "12",
                     "balls": "23",
                     "minutes": "-",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Daan van Bunge",
-                    "dismissal": "c Bagai b Zahir",
+                    "dismissal": "c (wk)Bagai b Zahir",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -121,7 +121,7 @@
                     "strike_rate": "75.00"
                 }
             ],
-            "did_not_bat": "Jeroen Smits (c) , Pieter Seelaar",
+            "did_not_bat": "Jeroen Smits (c) (wk) , Pieter Seelaar",
             "fall_of_wickets": "Fall of wickets : 1 - 30 ( Mudassar Bukhari , 8.3 ov ) , 2 - 31 ( Nick Statham , 9.4 ov ) , 3 - 105 ( Ryan ten Doeschate , 29.2 ov ) , 4 - 170 ( Alexei Kervezee , 38.4 ov ) , 5 - 186 ( Peter Borren , 41.2 ov ) , 6 - 194 ( Daan van Bunge , 42.5 ov ) , 7 - 217 ( Bas Zuiderent , 47.1 ov )",
             "bowling": [
                 {
@@ -219,7 +219,7 @@
             "batting": [
                 {
                     "batsman": "Geoff Barnett",
-                    "dismissal": "c Smits b Mudassar Bukhari",
+                    "dismissal": "c (wk)Smits b Mudassar Bukhari",
                     "runs": "16",
                     "balls": "21",
                     "minutes": "-",
@@ -258,7 +258,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Ashish Bagai(c)",
+                    "batsman": "Ashish Bagai(c) (wk)",
                     "dismissal": "lbw b Schiferli",
                     "runs": "12",
                     "balls": "19",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Sunil Dhaniram",
-                    "dismissal": "c Smits b Borren",
+                    "dismissal": "c (wk)Smits b Borren",
                     "runs": "17",
                     "balls": "23",
                     "minutes": "-",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 50 runs"
+    "result": "Netherlands won by 50 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Nick Statham",
+            "Jeroen Smits (c) (wk)",
+            "Tom de Grooth",
+            "Pieter Seelaar",
+            "Ryan ten Doeschate",
+            "Daan van Bunge",
+            "Peter Borren",
+            "Mudassar Bukhari",
+            "Edgar Schiferli",
+            "Bas Zuiderent",
+            "Alexei Kervezee"
+        ],
+        "Canada": [
+            "Harvir Baidwan",
+            "Sunil Dhaniram",
+            "Shaheed Keshvani",
+            "Sandeep Jyoti",
+            "Zameer Zahir",
+            "Rizwan Cheema",
+            "Ashish Bagai(c) (wk)",
+            "Geoff Barnett",
+            "Henry Osinde",
+            "Khurram Chohan",
+            "Zubin Surkari"
+        ]
+    }
 }

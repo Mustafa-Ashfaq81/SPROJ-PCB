@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Jones b Gough",
+                    "dismissal": "c (wk)Jones b Gough",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "11",
@@ -90,7 +90,7 @@
                     "strike_rate": "160.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Gough",
                     "runs": "0",
                     "balls": "1",
@@ -227,7 +227,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Gibbs b Nel",
                     "runs": "37",
                     "balls": "47",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "run out (Boucher)",
+                    "dismissal": "run out ( (wk)Boucher)",
                     "runs": "20",
                     "balls": "29",
                     "minutes": "43",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 runs"
+    "result": "South Africa won by 7 runs",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Makhaya Ntini",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Mark Boucher (wk)",
+            "Shaun Pollock",
+            "Justin Kemp",
+            "Jacques Kallis"
+        ],
+        "England": [
+            "Matthew Hoggard",
+            "Michael Vaughan(c)",
+            "Kabir Ali",
+            "Darren Gough",
+            "Kevin Pietersen",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Ashley Giles",
+            "Vikram Solanki"
+        ]
+    }
 }

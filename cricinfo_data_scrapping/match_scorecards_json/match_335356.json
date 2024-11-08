@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "43",
                     "balls": "37",
                     "minutes": "54",
@@ -41,8 +41,8 @@
                     "strike_rate": "116.21"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "15",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Chamara Silva",
-                    "dismissal": "run out (Singh/Dhoni)",
+                    "dismissal": "run out (Singh/ (wk)Dhoni)",
                     "runs": "50",
                     "balls": "56",
                     "minutes": "73",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Thilan Thushara",
-                    "dismissal": "run out (Gambhir/Dhoni)",
+                    "dismissal": "run out (Gambhir/ (wk)Dhoni)",
                     "runs": "23",
                     "balls": "14",
                     "minutes": "22",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "run out (Jayasuriya/Sangakkara)",
+                    "dismissal": "run out (Jayasuriya/ (wk)Sangakkara)",
                     "runs": "54",
                     "balls": "66",
                     "minutes": "109",
@@ -272,7 +272,7 @@
                     "strike_rate": "81.81"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Muralidaran",
                     "runs": "67",
                     "balls": "62",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 19 balls remaining)"
+    "result": "India won by 6 wickets (with 19 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kumar Sangakkara (wk)",
+            "Chamara Silva",
+            "Thilan Thushara",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene(c)",
+            "Dilhara Fernando",
+            "Chamara Kapugedera",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Nuwan Kulasekara",
+            "Kaushalya Weeraratne"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Pragyan Ojha",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "RP Singh",
+            "Gautam Gambhir",
+            "Ishant Sharma"
+        ]
+    }
 }

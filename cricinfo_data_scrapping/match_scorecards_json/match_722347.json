@@ -30,7 +30,7 @@
             "extras": "30",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Carter b Holder",
                     "runs": "4",
                     "balls": "7",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Ramdin b Holder",
+                    "dismissal": "c (wk)Ramdin b Holder",
                     "runs": "23",
                     "balls": "9",
                     "minutes": "16",
@@ -198,7 +198,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c de Kock b Abbott",
+                    "dismissal": "c (wk)de Kock b Abbott",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -237,7 +237,7 @@
                     "strike_rate": "106.38"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Amla b Parnell",
                     "runs": "40",
                     "balls": "40",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "c de Kock b Parnell",
+                    "dismissal": "c (wk)de Kock b Parnell",
                     "runs": "24",
                     "balls": "12",
                     "minutes": "18",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Carlos Brathwaite",
-                    "dismissal": "c de Kock b de Lange",
+                    "dismissal": "c (wk)de Kock b de Lange",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "13",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 131 runs"
+    "result": "South Africa won by 131 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Hashim Amla(c)",
+            "Aaron Phangiso",
+            "Wayne Parnell",
+            "Kyle Abbott",
+            "Farhaan Behardien",
+            "David Miller",
+            "Marchant de Lange",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis"
+        ],
+        "West Indies": [
+            "Jonathan Carter",
+            "Chris Gayle",
+            "Dwayne Smith",
+            "Andre Russell",
+            "Marlon Samuels",
+            "Denesh Ramdin (wk)",
+            "Carlos Brathwaite",
+            "Sheldon Cottrell",
+            "Jason Holder(c)",
+            "Daren Sammy",
+            "Narsingh Deonarine"
+        ]
+    }
 }

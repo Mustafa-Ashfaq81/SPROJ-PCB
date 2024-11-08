@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c McCullum b Vettori",
+                    "dismissal": "c (wk)McCullum b Vettori",
                     "runs": "74",
                     "balls": "72",
                     "minutes": "87",
@@ -95,7 +95,7 @@
                     "strike_rate": "102.77"
                 },
                 {
-                    "batsman": "Rashid Latif(c)",
+                    "batsman": "Rashid Latif(c) (wk)",
                     "dismissal": "c Cairns b Wiseman",
                     "runs": "2",
                     "balls": "15",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Rashid Latif b Mohammad Sami",
+                    "dismissal": "c (wk)Rashid Latif b Mohammad Sami",
                     "runs": "17",
                     "balls": "30",
                     "minutes": "45",
@@ -302,7 +302,7 @@
                     "strike_rate": "92.30"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Younis Khan b Shoaib Akhtar",
                     "runs": "0",
                     "balls": "3",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "6",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 22 runs"
+    "result": "Pakistan won by 22 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Mohammad Sami",
+            "Rashid Latif(c) (wk)",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Younis Khan",
+            "Danish Kaneria",
+            "Taufeeq Umar",
+            "Shoaib Akhtar"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Chris Cairns",
+            "Chris Nevin",
+            "Stephen Fleming(c)",
+            "Kyle Mills",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Paul Wiseman",
+            "Lou Vincent",
+            "Chris Harris",
+            "Scott Styris"
+        ]
+    }
 }

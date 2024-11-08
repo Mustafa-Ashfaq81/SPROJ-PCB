@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Haris Sohail",
-                    "dismissal": "c de Kock b Ngidi",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "89",
                     "balls": "59",
                     "minutes": "95",
@@ -102,7 +102,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "2",
@@ -229,7 +229,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Imam-ul-Haq b Shadab Khan",
                     "runs": "47",
                     "balls": "60",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Amir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Amir",
                     "runs": "63",
                     "balls": "79",
                     "minutes": "112",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 49 runs"
+    "result": "Pakistan won by 49 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Haris Sohail",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Wahab Riaz",
+            "Mohammad Amir",
+            "Imad Wasim",
+            "Mohammad Hafeez",
+            "Imam-ul-Haq",
+            "Babar Azam",
+            "Shadab Khan",
+            "Fakhar Zaman",
+            "Shaheen Shah Afridi"
+        ],
+        "South Africa": [
+            "Hashim Amla",
+            "Chris Morris",
+            "Andile Phehlukwayo",
+            "Kagiso Rabada",
+            "Lungi Ngidi",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis(c)",
+            "Rassie van der Dussen",
+            "Imran Tahir",
+            "Aiden Markram",
+            "David Miller"
+        ]
+    }
 }

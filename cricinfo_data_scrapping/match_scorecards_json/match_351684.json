@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Boucher b M Morkel",
+                    "dismissal": "c (wk)Boucher b M Morkel",
                     "runs": "79",
                     "balls": "97",
                     "minutes": "148",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c Boucher b Steyn",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "9",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Boucher b Botha",
+                    "dismissal": "c (wk)Boucher b Botha",
                     "runs": "46",
                     "balls": "54",
                     "minutes": "71",
@@ -93,7 +93,7 @@
                     "strike_rate": "87.50"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "run out (JA Morkel)",
                     "runs": "19",
                     "balls": "12",
@@ -280,7 +280,7 @@
                     "strike_rate": "78.75"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Tait",
                     "runs": "0",
                     "balls": "1",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 3 wickets (with 3 balls remaining)"
+    "result": "South Africa won by 3 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Brad Haddin (wk)",
+            "Shaun Tait",
+            "Cameron White",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Ben Hilfenhaus",
+            "Shaun Marsh",
+            "David Hussey",
+            "Nathan Bracken"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Neil McKenzie",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "Vaughn van Jaarsveld",
+            "Jean-Paul Duminy",
+            "Johan Botha(c)",
+            "Herschelle Gibbs",
+            "Morne Morkel"
+        ]
+    }
 }

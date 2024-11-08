@@ -64,8 +64,8 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
-                    "dismissal": "run out (Berrington/Lockhart)",
+                    "batsman": "Mohammad Shahzad (wk)",
+                    "dismissal": "run out (Berrington/ (wk)Lockhart)",
                     "runs": "34",
                     "balls": "44",
                     "minutes": "51",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Omer Hussain",
-                    "dismissal": "st Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "17",
                     "balls": "22",
                     "minutes": "50",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Neil McCallum",
-                    "dismissal": "st Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "19",
                     "balls": "50",
                     "minutes": "38",
@@ -301,7 +301,7 @@
                     "strike_rate": "44.11"
                 },
                 {
-                    "batsman": "Dougie Lockhart",
+                    "batsman": "Dougie Lockhart (wk)",
                     "dismissal": "lbw b Nawroz Mangal",
                     "runs": "5",
                     "balls": "19",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Gordon Drummond(c)",
-                    "dismissal": "c Mohammad Shahzad b Shapoor Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Shapoor Zadran",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "7",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 2 wickets (with 37 balls remaining)"
+    "result": "Scotland won by 2 wickets (with 37 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Nawroz Mangal(c)",
+            "Mohammad Nabi",
+            "Noor Ali Zadran",
+            "Javed Ahmadi",
+            "Karim Sadiq",
+            "Shapoor Zadran",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)",
+            "Samiullah Shinwari",
+            "Khaliq Dad",
+            "Hamid Hassan"
+        ],
+        "Scotland": [
+            "Fraser Watts",
+            "Neil McCallum",
+            "Moneeb Iqbal",
+            "Dougie Lockhart (wk)",
+            "Gordon Drummond(c)",
+            "Omer Hussain",
+            "Gordon Goudie",
+            "Ollie Hairs",
+            "Matthew Parker",
+            "Richie Berrington",
+            "Ross Lyons"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c BB McCullum b Bond",
+                    "dismissal": "c (wk)BB McCullum b Bond",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "1",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Younis Khan(c)",
-                    "dismissal": "c BB McCullum b Bond",
+                    "dismissal": "c (wk)BB McCullum b Bond",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -90,7 +90,7 @@
                     "strike_rate": "140.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "67",
                     "balls": "43",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Mohammad Amir",
-                    "dismissal": "c BB McCullum b Southee",
+                    "dismissal": "c (wk)BB McCullum b Southee",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -237,7 +237,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Umar Gul",
                     "runs": "21",
                     "balls": "27",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Kamran Akmal b Mohammad Amir",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Amir",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "1",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 138 runs"
+    "result": "Pakistan won by 138 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Salman Butt",
+            "Umar Gul",
+            "Mohammad Amir",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Younis Khan(c)",
+            "Umar Akmal",
+            "Khalid Latif",
+            "Abdul Razzaq",
+            "Shahid Afridi"
+        ],
+        "New Zealand": [
+            "Daniel Vettori(c)",
+            "Scott Styris",
+            "Martin Guptill",
+            "Nathan McCullum",
+            "Shane Bond",
+            "Ian Butler",
+            "Tim Southee",
+            "Ross Taylor",
+            "Jacob Oram",
+            "Brendon McCullum (wk)",
+            "Aaron Redmond"
+        ]
+    }
 }

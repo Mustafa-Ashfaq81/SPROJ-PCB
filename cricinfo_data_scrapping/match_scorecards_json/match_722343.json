@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c de Villiers b Philander",
+                    "dismissal": "c (wk)de Villiers b Philander",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "6",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c de Villiers b Philander",
+                    "dismissal": "c (wk)de Villiers b Philander",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "18",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Narsingh Deonarine",
-                    "dismissal": "c de Villiers b Steyn",
+                    "dismissal": "c (wk)de Villiers b Steyn",
                     "runs": "10",
                     "balls": "27",
                     "minutes": "37",
@@ -70,7 +70,7 @@
                     "strike_rate": "68.42"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Steyn",
                     "runs": "2",
                     "balls": "10",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Sulieman Benn",
-                    "dismissal": "st de Villiers b Imran Tahir",
+                    "dismissal": "st (wk)de Villiers b Imran Tahir",
                     "runs": "18",
                     "balls": "19",
                     "minutes": "20",
@@ -267,7 +267,7 @@
                     "strike_rate": "71.83"
                 }
             ],
-            "did_not_bat": "AB de Villiers (c) , Jean-Paul Duminy , David Miller , Farhaan Behardien , Vernon Philander , Dale Steyn , Morne Morkel , Imran Tahir",
+            "did_not_bat": "AB de Villiers (c) (wk) , Jean-Paul Duminy , David Miller , Farhaan Behardien , Vernon Philander , Dale Steyn , Morne Morkel , Imran Tahir",
             "fall_of_wickets": "Fall of wickets : 1 - 27 ( Rilee Rossouw , 5.4 ov )",
             "bowling": [
                 {
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 9 wickets (with 152 balls remaining)"
+    "result": "South Africa won by 9 wickets (with 152 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Jonathan Carter",
+            "Chris Gayle",
+            "Sulieman Benn",
+            "Dwayne Smith",
+            "Andre Russell",
+            "Jerome Taylor",
+            "Marlon Samuels",
+            "Denesh Ramdin (wk)",
+            "Carlos Brathwaite",
+            "Jason Holder(c)",
+            "Narsingh Deonarine"
+        ],
+        "South Africa": [
+            "Rilee Rossouw",
+            "Dale Steyn",
+            "Vernon Philander",
+            "Imran Tahir",
+            "Farhaan Behardien",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Faf du Plessis",
+            "AB de Villiers (c) (wk)",
+            "Morne Morkel",
+            "Hashim Amla"
+        ]
+    }
 }

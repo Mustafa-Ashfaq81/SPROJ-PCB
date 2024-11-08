@@ -43,7 +43,7 @@
                     "strike_rate": "78.40"
                 },
                 {
-                    "batsman": "Phil Mustard",
+                    "batsman": "Phil Mustard (wk)",
                     "dismissal": "c Oram b Ryder",
                     "runs": "83",
                     "balls": "74",
@@ -224,8 +224,8 @@
                     "strike_rate": "121.87"
                 },
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "st Mustard b Shah",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "st (wk)Mustard b Shah",
                     "runs": "58",
                     "balls": "65",
                     "minutes": "114",
@@ -245,7 +245,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Mustard b Anderson",
+                    "dismissal": "c (wk)Mustard b Anderson",
                     "runs": "48",
                     "balls": "47",
                     "minutes": "54",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "England": [
+            "Ryan Sidebottom",
+            "Dimitri Mascarenhas",
+            "Stuart Broad",
+            "Kevin Pietersen",
+            "Phil Mustard (wk)",
+            "Alastair Cook",
+            "Ian Bell",
+            "Owais Shah",
+            "James Anderson",
+            "Luke Wright",
+            "Paul Collingwood(c)"
+        ],
+        "New Zealand": [
+            "Jamie How",
+            "Brendon McCullum (wk)",
+            "Iain O'Brien",
+            "Chris Martin",
+            "Kyle Mills",
+            "Peter Fulton",
+            "Scott Styris",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Jacob Oram",
+            "Daniel Vettori(c)"
+        ]
+    }
 }

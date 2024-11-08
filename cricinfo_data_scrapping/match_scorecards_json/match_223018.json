@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "20",
                     "balls": "25",
                     "minutes": "32",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "93",
                     "balls": "96",
                     "minutes": "149",
@@ -83,7 +83,7 @@
                     "strike_rate": "134.92"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Jayawardene b Fernando",
                     "runs": "38",
                     "balls": "28",
@@ -230,7 +230,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c & b Sehwag",
                     "runs": "43",
                     "balls": "37",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Upul Chandana",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "16",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Farveez Maharoof",
-                    "dismissal": "st Dhoni b Kartik",
+                    "dismissal": "st (wk)Dhoni b Kartik",
                     "runs": "2",
                     "balls": "14",
                     "minutes": "14",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "India won by 152 runs"
+    "result": "India won by 152 runs",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Rahul Dravid(c)",
+            "Ajit Agarkar",
+            "MS Dhoni (wk)",
+            "Jai Prakash Yadav",
+            "Venugopal Rao",
+            "Sreesanth",
+            "Virender Sehwag",
+            "Yuvraj Singh"
+        ],
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dilhara Lokuhettige",
+            "Muthiah Muralidaran",
+            "Mahela Jayawardene",
+            "Farveez Maharoof",
+            "Chaminda Vaas",
+            "Upul Chandana"
+        ]
+    }
 }

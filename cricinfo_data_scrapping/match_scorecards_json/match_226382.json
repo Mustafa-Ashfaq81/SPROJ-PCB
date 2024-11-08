@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "11",
@@ -54,7 +54,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Symonds)",
                     "runs": "6",
                     "balls": "11",
@@ -217,7 +217,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist(c)",
+                    "batsman": "Adam Gilchrist(c) (wk)",
                     "dismissal": "c & b Muralidaran",
                     "runs": "116",
                     "balls": "105",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Brad Hodge",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "6",
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 54 balls remaining)"
+    "result": "Australia won by 6 wickets (with 54 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Russel Arnold",
+            "Kumar Sangakkara (wk)",
+            "Muthiah Muralidaran",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene",
+            "Dilhara Fernando",
+            "Jehan Mubarak",
+            "Chaminda Vaas(c)",
+            "Chamara Kapugedera"
+        ],
+        "Australia": [
+            "Michael Hussey",
+            "Michael Clarke",
+            "Brad Hodge",
+            "Andrew Symonds",
+            "Damien Martyn",
+            "Adam Gilchrist(c) (wk)",
+            "Brett Lee",
+            "Stuart Clark",
+            "Simon Katich",
+            "Glenn McGrath",
+            "Brad Hogg"
+        ]
+    }
 }

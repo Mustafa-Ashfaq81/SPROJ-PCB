@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Jones b Wharf",
+                    "dismissal": "c (wk)Jones b Wharf",
                     "runs": "24",
                     "balls": "31",
                     "minutes": "53",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c Jones b Wharf",
+                    "dismissal": "c (wk)Jones b Wharf",
                     "runs": "29",
                     "balls": "35",
                     "minutes": "49",
@@ -63,7 +63,7 @@
                     "strike_rate": "82.85"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c Gough b Wharf",
                     "runs": "13",
                     "balls": "16",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "run out (Giles/Jones)",
+                    "dismissal": "run out (Giles/ (wk)Jones)",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "25",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "50",
                     "balls": "79",
                     "minutes": "107",
@@ -290,7 +290,7 @@
                     "strike_rate": "147.82"
                 }
             ],
-            "did_not_bat": "Paul Collingwood , Geraint Jones , Ashley Giles , Alex Wharf , Darren Gough , Steve Harmison",
+            "did_not_bat": "Paul Collingwood , Geraint Jones (wk) , Ashley Giles , Alex Wharf , Darren Gough , Steve Harmison",
             "fall_of_wickets": "Fall of wickets : 1 - 63 ( Marcus Trescothick , 12.5 ov ) , 2 - 65 ( Michael Vaughan , 14.6 ov ) , 3 - 128 ( Vikram Solanki , 27.4 ov )",
             "bowling": [
                 {
@@ -352,5 +352,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 106 balls remaining)"
+    "result": "England won by 7 wickets (with 106 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Anil Kumble",
+            "VVS Laxman",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Rohan Gavaskar",
+            "Rahul Dravid (wk)",
+            "Mohammad Kaif",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Lakshmipathy Balaji"
+        ],
+        "England": [
+            "Michael Vaughan(c)",
+            "Darren Gough",
+            "Steve Harmison",
+            "Alex Wharf",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Andrew Flintoff",
+            "Ashley Giles",
+            "Vikram Solanki"
+        ]
+    }
 }

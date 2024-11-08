@@ -58,7 +58,7 @@
                 },
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "5",
@@ -87,7 +87,7 @@
                     "strike_rate": "78.57"
                 },
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "run out (Shoriful Islam)",
                     "runs": "7",
                     "balls": "9",
@@ -215,7 +215,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal(c)",
-                    "dismissal": "c Dickwella b Chameera",
+                    "dismissal": "c (wk)Dickwella b Chameera",
                     "runs": "17",
                     "balls": "29",
                     "minutes": "46",
@@ -244,7 +244,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c de Silva b RTM Mendis",
                     "runs": "28",
                     "balls": "54",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Dickwella b Fernando",
+                    "dismissal": "c (wk)Dickwella b Fernando",
                     "runs": "53",
                     "balls": "63",
                     "minutes": "88",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Shoriful Islam",
-                    "dismissal": "c Dickwella b Hasaranga",
+                    "dismissal": "c (wk)Dickwella b Hasaranga",
                     "runs": "8",
                     "balls": "5",
                     "minutes": "17",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 97 runs"
+    "result": "Sri Lanka won by 97 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Dhananjaya de Silva",
+            "Binura Fernando",
+            "Kusal Perera(c)",
+            "Ramesh Mendis",
+            "Pathum Nissanka",
+            "Danushka Gunathilaka",
+            "Chamika Karunaratne",
+            "Dushmantha Chameera",
+            "Niroshan Dickwella (wk)",
+            "Kusal Mendis"
+        ],
+        "Bangladesh": [
+            "Mohammad Naim",
+            "Taskin Ahmed",
+            "Afif Hossain",
+            "Tamim Iqbal(c)",
+            "Shakib Al Hasan",
+            "Mehidy Hasan Miraz",
+            "Mahmudullah",
+            "Shoriful Islam",
+            "Mosaddek Hossain",
+            "Mustafizur Rahman",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

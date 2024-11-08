@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Vikram Solanki",
-                    "dismissal": "c Dravid b Sehwag",
+                    "dismissal": "c (wk)Dravid b Sehwag",
                     "runs": "48",
                     "balls": "56",
                     "minutes": "92",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "c Dravid b Harbhajan Singh",
+                    "dismissal": "c (wk)Dravid b Harbhajan Singh",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "18",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Andrew Flintoff",
-                    "dismissal": "c Dravid b Agarkar",
+                    "dismissal": "c (wk)Dravid b Agarkar",
                     "runs": "99",
                     "balls": "93",
                     "minutes": "113",
@@ -90,7 +90,7 @@
                     "strike_rate": "92.94"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "not out",
                     "runs": "12",
                     "balls": "6",
@@ -251,8 +251,8 @@
                     "strike_rate": "69.86"
                 },
                 {
-                    "batsman": "Rahul Dravid",
-                    "dismissal": "c Jones b Wharf",
+                    "batsman": "Rahul Dravid (wk)",
+                    "dismissal": "c (wk)Jones b Wharf",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "11",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "England won by 70 runs"
+    "result": "England won by 70 runs",
+    "playing_xi": {
+        "England": [
+            "Michael Vaughan(c)",
+            "Darren Gough",
+            "Steve Harmison",
+            "Alex Wharf",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Andrew Flintoff",
+            "Ashley Giles",
+            "Vikram Solanki"
+        ],
+        "India": [
+            "VVS Laxman",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Ajit Agarkar",
+            "Rohan Gavaskar",
+            "Rahul Dravid (wk)",
+            "Mohammad Kaif",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh",
+            "Lakshmipathy Balaji"
+        ]
+    }
 }

@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Shreyas Iyer",
-                    "dismissal": "c Mushfiqur Rahim b Ebadot Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Ebadot Hossain",
                     "runs": "24",
                     "balls": "39",
                     "minutes": "47",
@@ -73,7 +73,7 @@
                     "strike_rate": "61.53"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c Anamul Haque b Ebadot Hossain",
                     "runs": "73",
                     "balls": "70",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Litton Das(c)",
-                    "dismissal": "c Rahul b Washington Sundar",
+                    "dismissal": "c (wk)Rahul b Washington Sundar",
                     "runs": "41",
                     "balls": "63",
                     "minutes": "98",
@@ -266,7 +266,7 @@
                     "strike_rate": "76.31"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Mohammed Siraj",
                     "runs": "18",
                     "balls": "45",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 1 wicket (with 24 balls remaining)"
+    "result": "Bangladesh won by 1 wicket (with 24 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "KL Rahul (wk)",
+            "Deepak Chahar",
+            "Kuldeep Sen",
+            "Washington Sundar",
+            "Rohit Sharma(c)",
+            "Virat Kohli",
+            "Shikhar Dhawan",
+            "Shreyas Iyer",
+            "Shahbaz Ahmed",
+            "Shardul Thakur",
+            "Mohammed Siraj"
+        ],
+        "Bangladesh": [
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)",
+            "Ebadot Hossain",
+            "Mustafizur Rahman",
+            "Afif Hossain",
+            "Litton Das(c)",
+            "Anamul Haque",
+            "Shakib Al Hasan",
+            "Hasan Mahmud",
+            "Mahmudullah",
+            "Najmul Hossain Shanto"
+        ]
+    }
 }

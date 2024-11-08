@@ -40,7 +40,7 @@
                     "strike_rate": "80.26"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "lbw b Yardy",
                     "runs": "44",
                     "balls": "48",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "st Kieswetter b Swann",
+                    "dismissal": "st (wk)Kieswetter b Swann",
                     "runs": "3",
                     "balls": "16",
                     "minutes": "17",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Paine b Harris",
+                    "dismissal": "c (wk)Paine b Harris",
                     "runs": "87",
                     "balls": "121",
                     "minutes": "182",
@@ -261,7 +261,7 @@
                     "strike_rate": "71.90"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "b Tait",
                     "runs": "0",
                     "balls": "1",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Michael Yardy",
-                    "dismissal": "c Paine b Tait",
+                    "dismissal": "c (wk)Paine b Tait",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "14",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "England won by 1 wicket (with 5 balls remaining)"
+    "result": "England won by 1 wicket (with 5 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Doug Bollinger",
+            "Steven Smith",
+            "Ryan Harris",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Michael Hussey",
+            "Shaun Tait",
+            "Michael Clarke"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Luke Wright",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

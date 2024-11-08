@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Preston Mommsen",
-                    "dismissal": "run out (Ouma/Kamande)",
+                    "dismissal": "run out ( (wk)Ouma/Kamande)",
                     "runs": "11",
                     "balls": "59",
                     "minutes": "79",
@@ -94,7 +94,7 @@
                     "strike_rate": "50.70"
                 },
                 {
-                    "batsman": "Dougie Lockhart",
+                    "batsman": "Dougie Lockhart (wk)",
                     "dismissal": "c Kamande b Odoyo",
                     "runs": "14",
                     "balls": "13",
@@ -231,7 +231,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Morris Ouma(c)",
+                    "batsman": "Morris Ouma(c) (wk)",
                     "dismissal": "lbw b Parker",
                     "runs": "1",
                     "balls": "6",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Rakep Patel",
-                    "dismissal": "c Lockhart b Berrington",
+                    "dismissal": "c (wk)Lockhart b Berrington",
                     "runs": "3",
                     "balls": "33",
                     "minutes": "53",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 6 runs"
+    "result": "Scotland won by 6 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Fraser Watts",
+            "Neil McCallum",
+            "Moneeb Iqbal",
+            "Dougie Lockhart (wk)",
+            "Gordon Drummond(c)",
+            "Preston Mommsen",
+            "Gordon Goudie",
+            "Ollie Hairs",
+            "Matthew Parker",
+            "Richie Berrington",
+            "Ross Lyons"
+        ],
+        "Kenya": [
+            "Alex Obanda",
+            "Nehemiah Odhiambo",
+            "Rakep Patel",
+            "Jimmy Kamande",
+            "Morris Ouma(c) (wk)",
+            "Dominic Wesonga",
+            "Shem Ngoche",
+            "Collins Obuya",
+            "James Ngoche",
+            "Nelson Odhiambo",
+            "Thomas Odoyo"
+        ]
+    }
 }

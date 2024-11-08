@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Dhoni b Raina",
+                    "dismissal": "c (wk)Dhoni b Raina",
                     "runs": "46",
                     "balls": "64",
                     "minutes": "77",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "14",
                     "balls": "34",
                     "minutes": "20",
@@ -80,8 +80,8 @@
                     "strike_rate": "41.17"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "run out (Dhoni)",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "run out ( (wk)Dhoni)",
                     "runs": "49",
                     "balls": "40",
                     "minutes": "45",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Buttler b Ali",
+                    "dismissal": "c (wk)Buttler b Ali",
                     "runs": "18",
                     "balls": "23",
                     "minutes": "27",
@@ -267,7 +267,7 @@
                     "strike_rate": "78.26"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Stokes b Finn",
                     "runs": "29",
                     "balls": "42",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "England won by 41 runs"
+    "result": "England won by 41 runs",
+    "playing_xi": {
+        "England": [
+            "Jos Buttler (wk)",
+            "Moeen Ali",
+            "Alex Hales",
+            "Ben Stokes",
+            "Chris Woakes",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "James Anderson",
+            "Eoin Morgan",
+            "Joe Root",
+            "James Tredwell"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Ambati Rayudu",
+            "MS Dhoni(c) (wk)",
+            "Umesh Yadav",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Ravindra Jadeja",
+            "Mohammed Shami",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ]
+    }
 }

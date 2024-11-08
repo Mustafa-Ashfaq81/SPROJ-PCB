@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "19",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -95,7 +95,7 @@
                     "strike_rate": "71.05"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "c Hayden b Lee",
                     "runs": "9",
                     "balls": "23",
@@ -116,7 +116,7 @@
                 },
                 {
                     "batsman": "Chris Tremlett",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "8",
                     "balls": "19",
                     "minutes": "20",
@@ -242,7 +242,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist(c)",
+                    "batsman": "Adam Gilchrist(c) (wk)",
                     "dismissal": "c Anderson b Lewis",
                     "runs": "8",
                     "balls": "16",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Nixon b Lewis",
+                    "dismissal": "c (wk)Nixon b Lewis",
                     "runs": "36",
                     "balls": "62",
                     "minutes": "91",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c Nixon b Lewis",
+                    "dismissal": "c (wk)Nixon b Lewis",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "11",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 68 balls remaining)"
+    "result": "Australia won by 4 wickets (with 68 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Ed Joyce",
+            "Chris Tremlett",
+            "James Anderson",
+            "Andrew Strauss",
+            "Jamie Dalrymple",
+            "Jon Lewis",
+            "Mal Loye",
+            "Andrew Flintoff(c)"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Glenn McGrath",
+            "Brad Hodge",
+            "Brett Lee",
+            "Nathan Bracken",
+            "Cameron White",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Adam Gilchrist(c) (wk)"
+        ]
+    }
 }

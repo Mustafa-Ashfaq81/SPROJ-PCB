@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Ruturaj Gaikwad",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "16",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Shubman Gill",
-                    "dismissal": "c Carey b Green",
+                    "dismissal": "c (wk)Carey b Green",
                     "runs": "104",
                     "balls": "97",
                     "minutes": "155",
@@ -73,8 +73,8 @@
                     "strike_rate": "136.84"
                 },
                 {
-                    "batsman": "Ishan Kishan",
-                    "dismissal": "c Carey b Zampa",
+                    "batsman": "Ishan Kishan (wk)",
+                    "dismissal": "c (wk)Carey b Zampa",
                     "runs": "31",
                     "balls": "18",
                     "minutes": "30",
@@ -250,7 +250,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "b Jadeja",
                     "runs": "14",
                     "balls": "12",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Cameron Green",
-                    "dismissal": "run out (Ishan Kishan)",
+                    "dismissal": "run out ( (wk)Ishan Kishan)",
                     "runs": "19",
                     "balls": "13",
                     "minutes": "23",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "India won by 99 runs (DLS method)"
+    "result": "India won by 99 runs (DLS method)",
+    "playing_xi": {
+        "India": [
+            "Ruturaj Gaikwad",
+            "Ishan Kishan (wk)",
+            "Prasidh Krishna",
+            "KL Rahul(c)",
+            "Suryakumar Yadav",
+            "Shubman Gill",
+            "Ravichandran Ashwin",
+            "Mohammed Shami",
+            "Ravindra Jadeja",
+            "Shardul Thakur",
+            "Shreyas Iyer"
+        ],
+        "Australia": [
+            "Spencer Johnson",
+            "Matthew Short",
+            "Adam Zampa",
+            "Cameron Green",
+            "Josh Inglis",
+            "Steven Smith(c)",
+            "Josh Hazlewood",
+            "Alex Carey (wk)",
+            "Marnus Labuschagne",
+            "Sean Abbott",
+            "David Warner"
+        ]
+    }
 }

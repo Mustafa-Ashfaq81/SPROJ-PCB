@@ -41,7 +41,7 @@
                     "strike_rate": "117.64"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Nehra",
                     "runs": "19",
                     "balls": "22",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Younis Khan(c)",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "20",
                     "balls": "33",
                     "minutes": "50",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "3",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Kamran Akmal b Mohammad Amir",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Amir",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "19",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid",
-                    "dismissal": "run out (Umar Gul/Kamran Akmal)",
+                    "dismissal": "run out (Umar Gul/ (wk)Kamran Akmal)",
                     "runs": "76",
                     "balls": "103",
                     "minutes": "160",
@@ -278,7 +278,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "lbw b Shahid Afridi",
                     "runs": "3",
                     "balls": "9",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 54 runs"
+    "result": "Pakistan won by 54 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Naved-ul-Hasan",
+            "Umar Gul",
+            "Mohammad Amir",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Younis Khan(c)",
+            "Imran Nazir",
+            "Shoaib Malik",
+            "Umar Akmal",
+            "Shahid Afridi"
+        ],
+        "India": [
+            "Rahul Dravid",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Yusuf Pathan",
+            "Ashish Nehra",
+            "Ishant Sharma",
+            "Suresh Raina",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "RP Singh",
+            "Harbhajan Singh"
+        ]
+    }
 }

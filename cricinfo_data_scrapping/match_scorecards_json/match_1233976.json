@@ -68,7 +68,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Guptill b Neesham",
                     "runs": "23",
                     "balls": "49",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "38",
                     "balls": "19",
                     "minutes": "28",
@@ -271,7 +271,7 @@
                     "strike_rate": "183.33"
                 }
             ],
-            "did_not_bat": "Tom Latham (c) , James Neesham , Daryl Mitchell , Mitchell Santner , Kyle Jamieson , Matt Henry , Trent Boult",
+            "did_not_bat": "Tom Latham (c) (wk) , James Neesham , Daryl Mitchell , Mitchell Santner , Kyle Jamieson , Matt Henry , Trent Boult",
             "fall_of_wickets": "Fall of wickets : 1 - 54 ( Martin Guptill , 5.3 ov ) , 2 - 119 ( Devon Conway , 19.6 ov )",
             "bowling": [
                 {
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 8 wickets (with 172 balls remaining)"
+    "result": "New Zealand won by 8 wickets (with 172 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Soumya Sarkar",
+            "Taskin Ahmed",
+            "Tamim Iqbal(c)",
+            "Mehidy Hasan Miraz",
+            "Mahmudullah",
+            "Mushfiqur Rahim (wk)",
+            "Mustafizur Rahman",
+            "Mohammad Mithun",
+            "Mahedi Hasan",
+            "Hasan Mahmud",
+            "Litton Das"
+        ],
+        "New Zealand": [
+            "James Neesham",
+            "Will Young",
+            "Henry Nicholls",
+            "Trent Boult",
+            "Kyle Jamieson",
+            "Daryl Mitchell",
+            "Tom Latham (c) (wk)",
+            "Martin Guptill",
+            "Matt Henry",
+            "Mitchell Santner",
+            "Devon Conway"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "st Dhoni b Mongia",
+                    "dismissal": "st (wk)Dhoni b Mongia",
                     "runs": "50",
                     "balls": "68",
                     "minutes": "90",
@@ -100,7 +100,7 @@
                     "strike_rate": "157.14"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "1",
                     "balls": "1",
@@ -227,7 +227,7 @@
                     "strike_rate": "142.85"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "91",
                     "balls": "106",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 6 balls remaining)"
+    "result": "India won by 5 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Javed Omer",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim (wk)",
+            "Abdur Razzak",
+            "Syed Rasel",
+            "Habibul Bashar(c)",
+            "Mohammad Ashraful",
+            "Aftab Ahmed",
+            "Shakib Al Hasan",
+            "Mohammad Rafique"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Munaf Patel",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Dinesh Mongia",
+            "Dinesh Karthik",
+            "Yuvraj Singh",
+            "Rahul Dravid(c)",
+            "Sreesanth",
+            "Ramesh Powar"
+        ]
+    }
 }

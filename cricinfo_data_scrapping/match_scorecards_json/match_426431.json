@@ -30,7 +30,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Strauss b Broad",
                     "runs": "28",
                     "balls": "32",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Davies b Swann",
+                    "dismissal": "c (wk)Davies b Swann",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "4",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Davies b Broad",
+                    "dismissal": "c (wk)Davies b Broad",
                     "runs": "21",
                     "balls": "40",
                     "minutes": "62",
@@ -227,7 +227,7 @@
                     "strike_rate": "94.44"
                 },
                 {
-                    "batsman": "Steven Davies",
+                    "batsman": "Steven Davies (wk)",
                     "dismissal": "b Saeed Ajmal",
                     "runs": "49",
                     "balls": "61",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 38 runs"
+    "result": "Pakistan won by 38 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Mohammad Hafeez",
+            "Shahid Afridi(c)",
+            "Umar Akmal",
+            "Fawad Alam",
+            "Asad Shafiq",
+            "Abdul Razzaq"
+        ],
+        "England": [
+            "Jonathan Trott",
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Steven Davies (wk)",
+            "Ian Bell"
+        ]
+    }
 }

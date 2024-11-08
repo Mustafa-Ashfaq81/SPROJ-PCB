@@ -79,7 +79,7 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "lbw b Umar Gul",
                     "runs": "0",
                     "balls": "3",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Neil McCallum",
-                    "dismissal": "st Kamran Akmal b Shoaib Malik",
+                    "dismissal": "st (wk)Kamran Akmal b Shoaib Malik",
                     "runs": "68",
                     "balls": "129",
                     "minutes": "129",
@@ -277,7 +277,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c Smith b Nel",
+                    "dismissal": "c (wk)Smith b Nel",
                     "runs": "7",
                     "balls": "20",
                     "minutes": "21",
@@ -306,7 +306,7 @@
                     "strike_rate": "102.08"
                 }
             ],
-            "did_not_bat": "Kamran Akmal , Danish Kaneria , Mohammad Asif , Umar Gul",
+            "did_not_bat": "Kamran Akmal (wk) , Danish Kaneria , Mohammad Asif , Umar Gul",
             "fall_of_wickets": "Fall of wickets : 1 - 17 ( Salman Butt , 3.1 ov ) , 2 - 32 ( Shoaib Malik , 7.4 ov ) , 3 - 66 ( Younis Khan , 17.1 ov ) , 4 - 79 ( Inzamam-ul-Haq , 22.5 ov ) , 5 - 93 ( Shahid Afridi , 25.2 ov )",
             "bowling": [
                 {
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 5 wickets (with 37 balls remaining)"
+    "result": "Pakistan won by 5 wickets (with 37 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Neil McCallum",
+            "Neil MacRae",
+            "John Blain",
+            "Ian Stanger",
+            "Colin Smith (wk)",
+            "Paul Hoffmann",
+            "Ryan Watson(c)",
+            "Dewald Nel",
+            "Dougie Lockhart",
+            "Gavin Hamilton",
+            "Ross Lyons"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Salman Butt",
+            "Kamran Akmal (wk)",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Umar Gul",
+            "Younis Khan",
+            "Danish Kaneria"
+        ]
+    }
 }

@@ -82,8 +82,8 @@
                     "strike_rate": "87.50"
                 },
                 {
-                    "batsman": "Josh Inglis",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "batsman": "Josh Inglis (wk)",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "13",
                     "balls": "9",
                     "minutes": "10",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Josh Hazlewood",
-                    "dismissal": "c Mohammad Rizwan b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shaheen Shah Afridi",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -269,7 +269,7 @@
                     "strike_rate": "128.57"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "lbw b Zampa",
                     "runs": "46",
                     "balls": "40",
@@ -300,7 +300,7 @@
                 },
                 {
                     "batsman": "Mohammad Nawaz",
-                    "dismissal": "st Inglis b Zampa",
+                    "dismissal": "st (wk)Inglis b Zampa",
                     "runs": "14",
                     "balls": "16",
                     "minutes": "19",
@@ -330,7 +330,7 @@
                 },
                 {
                     "batsman": "Hasan Ali",
-                    "dismissal": "c Inglis b Starc",
+                    "dismissal": "c (wk)Inglis b Starc",
                     "runs": "8",
                     "balls": "8",
                     "minutes": "7",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Australia won by 62 runs"
+    "result": "Australia won by 62 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Marsh",
+            "Glenn Maxwell",
+            "Adam Zampa",
+            "Josh Inglis (wk)",
+            "Pat Cummins(c)",
+            "Marcus Stoinis",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Marnus Labuschagne",
+            "David Warner"
+        ],
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Hasan Ali",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Saud Shakeel",
+            "Abdullah Shafique",
+            "Imam-ul-Haq",
+            "Haris Rauf",
+            "Mohammad Nawaz",
+            "Mohammad Rizwan (wk)",
+            "Usama Mir"
+        ]
+    }
 }

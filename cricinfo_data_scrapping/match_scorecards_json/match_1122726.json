@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma(c)",
-                    "dismissal": "c Dickwella b Lakmal",
+                    "dismissal": "c (wk)Dickwella b Lakmal",
                     "runs": "2",
                     "balls": "13",
                     "minutes": "19",
@@ -83,7 +83,7 @@
                     "strike_rate": "13.33"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Gunathilaka b Perera",
                     "runs": "65",
                     "balls": "87",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Bhuvneshwar Kumar",
-                    "dismissal": "c Dickwella b Lakmal",
+                    "dismissal": "c (wk)Dickwella b Lakmal",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "8",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Kuldeep Yadav",
-                    "dismissal": "st Dickwella b Dananjaya",
+                    "dismissal": "st (wk)Dickwella b Dananjaya",
                     "runs": "19",
                     "balls": "25",
                     "minutes": "44",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Danushka Gunathilaka",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "14",
@@ -280,7 +280,7 @@
                     "strike_rate": "59.52"
                 },
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "not out",
                     "runs": "26",
                     "balls": "24",
@@ -338,5 +338,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 176 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 176 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "MS Dhoni (wk)",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Manish Pandey",
+            "Kuldeep Yadav",
+            "Dinesh Karthik",
+            "Hardik Pandya",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ],
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Sachith Pathirana",
+            "Suranga Lakmal",
+            "Nuwan Pradeep",
+            "Asela Gunaratne",
+            "Lahiru Thirimanne",
+            "Danushka Gunathilaka",
+            "Upul Tharanga",
+            "Angelo Mathews",
+            "Thisara Perera (c)",
+            "Niroshan Dickwella (wk)"
+        ]
+    }
 }

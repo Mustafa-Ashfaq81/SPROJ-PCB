@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Haris Sohail",
-                    "dismissal": "c Carey b Finch",
+                    "dismissal": "c (wk)Carey b Finch",
                     "runs": "34",
                     "balls": "46",
                     "minutes": "-",
@@ -63,7 +63,7 @@
                     "strike_rate": "73.91"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "c Maxwell b Coulter-Nile",
                     "runs": "115",
                     "balls": "126",
@@ -274,7 +274,7 @@
                     "strike_rate": "55.00"
                 }
             ],
-            "did_not_bat": "Marcus Stoinis , Peter Handscomb , Alex Carey , Nathan Coulter-Nile , Jhye Richardson , Nathan Lyon , Adam Zampa",
+            "did_not_bat": "Marcus Stoinis , Peter Handscomb , Alex Carey (wk) , Nathan Coulter-Nile , Jhye Richardson , Nathan Lyon , Adam Zampa",
             "fall_of_wickets": "Fall of wickets : 1 - 209 ( Usman Khawaja , 36.4 ov ) , 2 - 241 ( Glenn Maxwell , 41.2 ov )",
             "bowling": [
                 {
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 13 balls remaining)"
+    "result": "Australia won by 8 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shoaib Malik(c)",
+            "Faheem Ashraf",
+            "Imam-ul-Haq",
+            "Haris Sohail",
+            "Mohammad Abbas",
+            "Mohammad Hasnain",
+            "Imad Wasim",
+            "Shan Masood",
+            "Yasir Shah",
+            "Umar Akmal",
+            "Mohammad Rizwan (wk)"
+        ],
+        "Australia": [
+            "Shaun Marsh",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "Peter Handscomb",
+            "Nathan Coulter-Nile",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Adam Zampa",
+            "Jhye Richardson",
+            "Marcus Stoinis",
+            "Nathan Lyon"
+        ]
+    }
 }

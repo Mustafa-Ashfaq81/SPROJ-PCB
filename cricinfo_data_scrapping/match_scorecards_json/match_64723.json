@@ -30,7 +30,7 @@
             "extras": "24",
             "batting": [
                 {
-                    "batsman": "David Obuya",
+                    "batsman": "David Obuya (wk)",
                     "dismissal": "c Hooper b King",
                     "runs": "11",
                     "balls": "20",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo",
-                    "dismissal": "c Browne b Stuart",
+                    "dismissal": "c (wk)Browne b Stuart",
                     "runs": "14",
                     "balls": "30",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Hitesh Modi",
-                    "dismissal": "c Browne b King",
+                    "dismissal": "c (wk)Browne b King",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Maurice Odumbe(c)",
-                    "dismissal": "c Browne b King",
+                    "dismissal": "c (wk)Browne b King",
                     "runs": "28",
                     "balls": "48",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Tony Suji",
-                    "dismissal": "c Browne b King",
+                    "dismissal": "c (wk)Browne b King",
                     "runs": "9",
                     "balls": "24",
                     "minutes": "-",
@@ -297,7 +297,7 @@
                     "strike_rate": "52.38"
                 }
             ],
-            "did_not_bat": "Courtney Browne , Neil McGarrell , Colin Stuart , Corey Collymore , Reon King",
+            "did_not_bat": "Courtney Browne (wk) , Neil McGarrell , Colin Stuart , Corey Collymore , Reon King",
             "fall_of_wickets": "Fall of wickets : 1 - 14 ( Chris Gayle , 6.4 ov ) , 2 - 14 ( Wavell Hinds , 6.6 ov ) , 3 - 17 ( Daren Ganga , 8.6 ov ) , 4 - 108 ( Marlon Samuels , 27.6 ov )",
             "bowling": [
                 {
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 6 wickets (with 25 balls remaining)"
+    "result": "West Indies won by 6 wickets (with 25 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Collins Obuya",
+            "Tony Suji",
+            "Martin Suji",
+            "Thomas Odoyo",
+            "Ravi Shah",
+            "Maurice Odumbe(c)",
+            "Peter Ongondo",
+            "Steve Tikolo",
+            "Jimmy Kamande",
+            "Hitesh Modi",
+            "David Obuya (wk)"
+        ],
+        "West Indies": [
+            "Carl Hooper(c)",
+            "Chris Gayle",
+            "Corey Collymore",
+            "Daren Ganga",
+            "Shivnarine Chanderpaul",
+            "Marlon Samuels",
+            "Courtney Browne (wk)",
+            "Colin Stuart",
+            "Reon King",
+            "Wavell Hinds",
+            "Neil McGarrell"
+        ]
+    }
 }

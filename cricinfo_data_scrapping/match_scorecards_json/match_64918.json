@@ -80,8 +80,8 @@
                     "strike_rate": "78.37"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
-                    "dismissal": "run out (Rajin Saleh/Khaled Mashud)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
+                    "dismissal": "run out (Rajin Saleh/ (wk)Khaled Mashud)",
                     "runs": "28",
                     "balls": "44",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Khaled Mashud b Abdur Razzak",
+                    "dismissal": "c (wk)Khaled Mashud b Abdur Razzak",
                     "runs": "41",
                     "balls": "32",
                     "minutes": "-",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Alok Kapali",
-                    "dismissal": "c Taibu b Hondo",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "4",
                     "balls": "14",
                     "minutes": "-",
@@ -301,7 +301,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Masakadza b Hondo",
                     "runs": "3",
                     "balls": "8",
@@ -342,7 +342,7 @@
                 },
                 {
                     "batsman": "Nazmul Hossain",
-                    "dismissal": "run out (Panyangara/Taibu)",
+                    "dismissal": "run out (Panyangara/ (wk)Taibu)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "-",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 22 runs"
+    "result": "Zimbabwe won by 22 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Dion Ebrahim",
+            "Prosper Utseya",
+            "Tinashe Panyangara",
+            "Chris Mpofu",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Barney Rogers",
+            "Tatenda Taibu(c) (wk)",
+            "Hamilton Masakadza"
+        ],
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Khaled Mahmud",
+            "Nafees Iqbal",
+            "Abdur Razzak",
+            "Mohammad Ashraful",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Alok Kapali",
+            "Habibul Bashar(c)",
+            "Nazmul Hossain",
+            "Tapash Baisya"
+        ]
+    }
 }

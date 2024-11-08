@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly",
-                    "dismissal": "st Ramdin b Gayle",
+                    "dismissal": "st (wk)Ramdin b Gayle",
                     "runs": "68",
                     "balls": "82",
                     "minutes": "111",
@@ -70,7 +70,7 @@
                     "strike_rate": "131.57"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "40",
                     "balls": "20",
@@ -237,7 +237,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Kumble b Harbhajan Singh",
                     "runs": "40",
                     "balls": "52",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "India won by 160 runs"
+    "result": "India won by 160 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Anil Kumble",
+            "Sourav Ganguly",
+            "Irfan Pathan",
+            "Yuvraj Singh",
+            "Rahul Dravid(c)",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Ajit Agarkar",
+            "Harbhajan Singh"
+        ],
+        "West Indies": [
+            "Dwayne Smith",
+            "Ian Bradshaw",
+            "Denesh Ramdin (wk)",
+            "Rayad Emrit",
+            "Devon Smith",
+            "Daren Powell",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Lendl Simmons"
+        ]
+    }
 }

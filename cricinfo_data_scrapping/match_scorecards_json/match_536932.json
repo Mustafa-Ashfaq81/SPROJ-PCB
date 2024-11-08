@@ -93,7 +93,7 @@
                     "strike_rate": "209.09"
                 },
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "3",
@@ -215,7 +215,7 @@
             "batting": [
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Patel b Jadeja",
+                    "dismissal": "c (wk)Patel b Jadeja",
                     "runs": "36",
                     "balls": "35",
                     "minutes": "36",
@@ -254,7 +254,7 @@
                     "strike_rate": "64.70"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c RG Sharma b Raina",
                     "runs": "96",
                     "balls": "96",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "st Patel b Raina",
+                    "dismissal": "st (wk)Patel b Raina",
                     "runs": "29",
                     "balls": "24",
                     "minutes": "30",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "India won by 153 runs"
+    "result": "India won by 153 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag(c)",
+            "Rahul Sharma",
+            "Rohit Sharma",
+            "Gautam Gambhir",
+            "Abhimanyu Mithun",
+            "Virat Kohli",
+            "Parthiv Patel (wk)",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Vinay Kumar",
+            "Suresh Raina"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Daren Sammy(c)",
+            "Kieron Pollard",
+            "Ravi Rampaul",
+            "Andre Russell",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Kieran Powell",
+            "Sunil Narine",
+            "Danza Hyatt",
+            "Kemar Roach"
+        ]
+    }
 }

@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Litton Das",
-                    "dismissal": "c Buttler b Curran",
+                    "dismissal": "c (wk)Buttler b Curran",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Najmul Hossain Shanto",
-                    "dismissal": "run out (Buttler/Rehan Ahmed)",
+                    "dismissal": "run out ( (wk)Buttler/Rehan Ahmed)",
                     "runs": "53",
                     "balls": "71",
                     "minutes": "101",
@@ -65,7 +65,7 @@
                     "strike_rate": "74.64"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Rashid",
                     "runs": "70",
                     "balls": "93",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "James Vince",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "38",
                     "balls": "44",
                     "minutes": "76",
@@ -292,7 +292,7 @@
                     "strike_rate": "46.93"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "lbw b Taijul Islam",
                     "runs": "26",
                     "balls": "24",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 50 runs"
+    "result": "Bangladesh won by 50 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Mustafizur Rahman",
+            "Najmul Hossain Shanto",
+            "Mehidy Hasan Miraz",
+            "Tamim Iqbal(c)",
+            "Afif Hossain",
+            "Mahmudullah",
+            "Taijul Islam",
+            "Ebadot Hossain",
+            "Litton Das"
+        ],
+        "England": [
+            "Dawid Malan",
+            "Chris Woakes",
+            "Jason Roy",
+            "Jos Buttler(c) (wk)",
+            "Adil Rashid",
+            "Phil Salt",
+            "James Vince",
+            "Rehan Ahmed",
+            "Sam Curran",
+            "Jofra Archer",
+            "Moeen Ali"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "KL Rahul",
-                    "dismissal": "c Carey b Zampa",
+                    "dismissal": "c (wk)Carey b Zampa",
                     "runs": "26",
                     "balls": "31",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Carey b Richardson",
+                    "dismissal": "c (wk)Carey b Richardson",
                     "runs": "7",
                     "balls": "6",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                     "strike_rate": "116.66"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "c Finch b Cummins",
                     "runs": "36",
                     "balls": "24",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Bhuvneshwar Kumar",
-                    "dismissal": "c Carey b Richardson",
+                    "dismissal": "c (wk)Carey b Richardson",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "-",
@@ -297,7 +297,7 @@
                     "strike_rate": "195.34"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Dhawan b Bumrah",
                     "runs": "21",
                     "balls": "15",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 13 balls remaining)"
+    "result": "Australia won by 4 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "KL Rahul",
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Kedar Jadhav",
+            "Yuzvendra Chahal",
+            "Rishabh Pant (wk)",
+            "Vijay Shankar",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli(c)"
+        ],
+        "Australia": [
+            "Shaun Marsh",
+            "Alex Carey (wk)",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Peter Handscomb",
+            "Ashton Turner",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Jason Behrendorff",
+            "Adam Zampa",
+            "Jhye Richardson"
+        ]
+    }
 }

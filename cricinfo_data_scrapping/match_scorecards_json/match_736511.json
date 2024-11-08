@@ -50,8 +50,8 @@
                     "strike_rate": "31.25"
                 },
                 {
-                    "batsman": "Jamie Atkinson(c)",
-                    "dismissal": "c Patil b Mohammad Shahzad",
+                    "batsman": "Jamie Atkinson(c) (wk)",
+                    "dismissal": "c (wk)Patil b Mohammad Shahzad",
                     "runs": "20",
                     "balls": "40",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Nizakat Khan",
-                    "dismissal": "c Patil b Mohammad Shahzad",
+                    "dismissal": "c (wk)Patil b Mohammad Shahzad",
                     "runs": "14",
                     "balls": "29",
                     "minutes": "-",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Waqas Barkat",
-                    "dismissal": "c Patil b Ahmed Raza",
+                    "dismissal": "c (wk)Patil b Ahmed Raza",
                     "runs": "14",
                     "balls": "32",
                     "minutes": "-",
@@ -267,7 +267,7 @@
                     "strike_rate": "18.18"
                 },
                 {
-                    "batsman": "Swapnil Patil",
+                    "batsman": "Swapnil Patil (wk)",
                     "dismissal": "lbw b Tanwir Afzal",
                     "runs": "5",
                     "balls": "20",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Atkinson b Irfan Ahmed",
+                    "dismissal": "c (wk)Atkinson b Irfan Ahmed",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Krishna Chandran",
-                    "dismissal": "c Atkinson b Haseeb Amjad",
+                    "dismissal": "c (wk)Atkinson b Haseeb Amjad",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "-",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 2 wickets (with 9 balls remaining)"
+    "result": "U.A.E. won by 2 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Haseeb Amjad",
+            "Nizakat Khan",
+            "Ehsan Nawaz",
+            "Waqas Barkat",
+            "Jamie Atkinson(c) (wk)",
+            "Babar Hayat",
+            "Ankur Vasishta",
+            "Tanwir Afzal",
+            "Nadeem Ahmed",
+            "Irfan Ahmed",
+            "Skhawat Ali"
+        ],
+        "United Arab Emirates": [
+            "Khurram Khan(c)",
+            "Fayyaz Ahmed",
+            "Amjad Ali",
+            "Kamran Shazad",
+            "Mohammad Naveed",
+            "Mohammad Shahzad",
+            "Krishna Chandran",
+            "Swapnil Patil (wk)",
+            "Salman Faris",
+            "Shaiman Anwar",
+            "Ahmed Raza"
+        ]
+    }
 }

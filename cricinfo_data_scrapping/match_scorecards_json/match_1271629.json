@@ -45,7 +45,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "lbw b Linde",
                     "runs": "9",
                     "balls": "12",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "c Klaasen b Markram",
+                    "dismissal": "c (wk)Klaasen b Markram",
                     "runs": "31",
                     "balls": "44",
                     "minutes": "56",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "c Klaasen b Shamsi",
+                    "dismissal": "c (wk)Klaasen b Shamsi",
                     "runs": "47",
                     "balls": "71",
                     "minutes": "114",
@@ -296,7 +296,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
+                    "batsman": "Heinrich Klaasen (wk)",
                     "dismissal": "lbw b Theekshana",
                     "runs": "22",
                     "balls": "30",
@@ -317,7 +317,7 @@
                 },
                 {
                     "batsman": "Andile Phehlukwayo",
-                    "dismissal": "c Chandimal b Asalanka",
+                    "dismissal": "c (wk)Chandimal b Asalanka",
                     "runs": "17",
                     "balls": "36",
                     "minutes": "51",
@@ -347,7 +347,7 @@
                 },
                 {
                     "batsman": "Keshav Maharaj(c)",
-                    "dismissal": "c Chandimal b Theekshana",
+                    "dismissal": "c (wk)Chandimal b Theekshana",
                     "runs": "15",
                     "balls": "17",
                     "minutes": "32",
@@ -456,5 +456,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 78 runs"
+    "result": "Sri Lanka won by 78 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Dhananjaya de Silva",
+            "Dasun Shanaka(c)",
+            "Praveen Jayawickrama",
+            "Charith Asalanka",
+            "Avishka Fernando",
+            "Chamika Karunaratne",
+            "Maheesh Theekshana",
+            "Dushmantha Chameera",
+            "Dinesh Chandimal (wk)",
+            "Kamindu Mendis"
+        ],
+        "South Africa": [
+            "George Linde",
+            "Rassie van der Dussen",
+            "Keshav Maharaj(c)",
+            "Reeza Hendricks",
+            "Kagiso Rabada",
+            "Janneman Malan",
+            "Heinrich Klaasen (wk)",
+            "Aiden Markram",
+            "Tabraiz Shamsi",
+            "Wiaan Mulder",
+            "Andile Phehlukwayo"
+        ]
+    }
 }

@@ -105,7 +105,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "not out",
                     "runs": "20",
                     "balls": "13",
@@ -242,7 +242,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Jeremy Bray",
+                    "batsman": "Jeremy Bray (wk)",
                     "dismissal": "c Collingwood b Mahmood",
                     "runs": "22",
                     "balls": "29",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Kyle McCallan",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "24",
                     "balls": "46",
                     "minutes": "60",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "c Jones b Bell",
+                    "dismissal": "c (wk)Jones b Bell",
                     "runs": "40",
                     "balls": "43",
                     "minutes": "61",
@@ -313,7 +313,7 @@
                 },
                 {
                     "batsman": "Dave Langford-Smith",
-                    "dismissal": "st Jones b Dalrymple",
+                    "dismissal": "st (wk)Jones b Dalrymple",
                     "runs": "12",
                     "balls": "11",
                     "minutes": "11",
@@ -446,5 +446,33 @@
             ]
         }
     ],
-    "result": "England won by 38 runs"
+    "result": "England won by 38 runs",
+    "playing_xi": {
+        "England": [
+            "Jamie Dalrymple",
+            "Liam Plunkett",
+            "Paul Collingwood",
+            "Andrew Strauss(c)",
+            "Steve Harmison",
+            "Sajid Mahmood",
+            "Ed Joyce",
+            "Marcus Trescothick",
+            "Geraint Jones (wk)",
+            "Ian Bell",
+            "Glen Chapple"
+        ],
+        "Ireland": [
+            "Kyle McCallan",
+            "Paul Mooney",
+            "Andrew White",
+            "Peter Gillespie",
+            "John Mooney",
+            "Jeremy Bray (wk)",
+            "Dom Joyce",
+            "Andre Botha",
+            "Dave Langford-Smith",
+            "Kevin O'Brien",
+            "Trent Johnston(c)"
+        ]
+    }
 }

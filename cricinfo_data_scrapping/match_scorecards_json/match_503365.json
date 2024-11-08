@@ -103,7 +103,7 @@
                     "strike_rate": "170.83"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "lbw b Abdur Razzak",
                     "runs": "7",
                     "balls": "8",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Paine b Pattinson",
+                    "dismissal": "c (wk)Paine b Pattinson",
                     "runs": "93",
                     "balls": "95",
                     "minutes": "121",
@@ -294,7 +294,7 @@
                     "strike_rate": "81.81"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Smith b Watson",
                     "runs": "1",
                     "balls": "4",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Australia won by 66 runs"
+    "result": "Australia won by 66 runs",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "Steven Smith",
+            "John Hastings",
+            "Michael Hussey",
+            "Shane Watson",
+            "Tim Paine (wk)",
+            "Michael Clarke(c)",
+            "Callum Ferguson",
+            "James Pattinson",
+            "Mitchell Johnson",
+            "Ricky Ponting"
+        ],
+        "Bangladesh": [
+            "Abdur Razzak",
+            "Imrul Kayes",
+            "Alok Kapali",
+            "Shahriar Nafees",
+            "Tamim Iqbal",
+            "Mahmudullah",
+            "Shakib Al Hasan(c)",
+            "Mashrafe Mortaza",
+            "Sohrawordi Shuvo",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

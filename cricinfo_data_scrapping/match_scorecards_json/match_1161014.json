@@ -39,7 +39,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "c Foakes b Plunkett",
+                    "dismissal": "c (wk)Foakes b Plunkett",
                     "runs": "17",
                     "balls": "28",
                     "minutes": "58",
@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "st Foakes b Denly",
+                    "dismissal": "st (wk)Foakes b Denly",
                     "runs": "29",
                     "balls": "44",
                     "minutes": "57",
@@ -88,7 +88,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "c Root b Rashid",
                     "runs": "8",
                     "balls": "20",
@@ -119,7 +119,7 @@
                 },
                 {
                     "batsman": "Tim Murtagh",
-                    "dismissal": "c Foakes b Plunkett",
+                    "dismissal": "c (wk)Foakes b Plunkett",
                     "runs": "12",
                     "balls": "27",
                     "minutes": "29",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c Wilson b Little",
+                    "dismissal": "c (wk)Wilson b Little",
                     "runs": "24",
                     "balls": "30",
                     "minutes": "62",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Wilson b Little",
+                    "dismissal": "c (wk)Wilson b Little",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "6",
@@ -295,7 +295,7 @@
                     "strike_rate": "47.05"
                 },
                 {
-                    "batsman": "Ben Foakes",
+                    "batsman": "Ben Foakes (wk)",
                     "dismissal": "not out",
                     "runs": "61",
                     "balls": "76",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 18 balls remaining)"
+    "result": "England won by 4 wickets (with 18 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Andy Balbirnie",
+            "Boyd Rankin",
+            "Lorcan Tucker",
+            "Tim Murtagh",
+            "William Porterfield(c)",
+            "Josh Little",
+            "Mark Adair",
+            "Gary Wilson (wk)",
+            "Paul Stirling",
+            "George Dockrell",
+            "Kevin O'Brien"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Jofra Archer",
+            "Dawid Malan",
+            "Eoin Morgan(c)",
+            "Joe Denly",
+            "Tom Curran",
+            "David Willey",
+            "Ben Foakes (wk)",
+            "James Vince",
+            "Adil Rashid",
+            "Joe Root"
+        ]
+    }
 }

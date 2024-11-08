@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Prior b Flintoff",
+                    "dismissal": "c (wk)Prior b Flintoff",
                     "runs": "30",
                     "balls": "46",
                     "minutes": "80",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid(c)",
-                    "dismissal": "c Prior b Flintoff",
+                    "dismissal": "c (wk)Prior b Flintoff",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "5",
@@ -90,7 +90,7 @@
                     "strike_rate": "73.33"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Anderson b Flintoff",
                     "runs": "50",
                     "balls": "72",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ramesh Powar",
-                    "dismissal": "run out (Shah/Prior)",
+                    "dismissal": "run out (Shah/ (wk)Prior)",
                     "runs": "10",
                     "balls": "20",
                     "minutes": "27",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Piyush Chawla",
-                    "dismissal": "st Prior b Mascarenhas",
+                    "dismissal": "st (wk)Prior b Mascarenhas",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "5",
@@ -237,8 +237,8 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Matt Prior",
-                    "dismissal": "c Dhoni b Singh",
+                    "batsman": "Matt Prior (wk)",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "9",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 82 balls remaining)"
+    "result": "England won by 7 wickets (with 82 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Ramesh Powar",
+            "Robin Uthappa",
+            "Piyush Chawla",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "RP Singh",
+            "Rahul Dravid(c)"
+        ],
+        "England": [
+            "Monty Panesar",
+            "Stuart Broad",
+            "James Anderson",
+            "Andrew Flintoff",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Dimitri Mascarenhas",
+            "Owais Shah",
+            "Matt Prior (wk)",
+            "Luke Wright",
+            "Ian Bell"
+        ]
+    }
 }

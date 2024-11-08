@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Stephen Doheny",
-                    "dismissal": "c Mushfiqur Rahim b Hasan Mahmud",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Hasan Mahmud",
                     "runs": "8",
                     "balls": "21",
                     "minutes": "19",
@@ -70,7 +70,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "lbw b Ebadot Hossain",
                     "runs": "28",
                     "balls": "31",
@@ -243,7 +243,7 @@
                     "strike_rate": "131.57"
                 }
             ],
-            "did_not_bat": "Najmul Hossain Shanto , Mushfiqur Rahim , Shakib Al Hasan , Towhid Hridoy , Mehidy Hasan Miraz , Taskin Ahmed , Ebadot Hossain , Nasum Ahmed , Hasan Mahmud",
+            "did_not_bat": "Najmul Hossain Shanto , Mushfiqur Rahim (wk) , Shakib Al Hasan , Towhid Hridoy , Mehidy Hasan Miraz , Taskin Ahmed , Ebadot Hossain , Nasum Ahmed , Hasan Mahmud",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -305,5 +305,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 10 wickets (with 221 balls remaining)"
+    "result": "Bangladesh won by 10 wickets (with 221 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Matthew Humphreys",
+            "George Dockrell",
+            "Lorcan Tucker (wk)",
+            "Curtis Campher",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Graham Hume",
+            "Andy Balbirnie(c)",
+            "Harry Tector",
+            "Mark Adair",
+            "Stephen Doheny"
+        ],
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Nasum Ahmed",
+            "Najmul Hossain Shanto",
+            "Mehidy Hasan Miraz",
+            "Tamim Iqbal(c)",
+            "Ebadot Hossain",
+            "Hasan Mahmud",
+            "Taskin Ahmed",
+            "Litton Das",
+            "Towhid Hridoy"
+        ]
+    }
 }

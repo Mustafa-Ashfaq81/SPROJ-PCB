@@ -31,7 +31,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Gibbs b Langeveldt",
                     "runs": "42",
                     "balls": "42",
@@ -199,7 +199,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Gilchrist b Hogg",
+                    "dismissal": "c (wk)Gilchrist b Hogg",
                     "runs": "74",
                     "balls": "69",
                     "minutes": "128",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "st Gilchrist b Hogg",
+                    "dismissal": "st (wk)Gilchrist b Hogg",
                     "runs": "17",
                     "balls": "19",
                     "minutes": "30",
@@ -248,7 +248,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Tait",
                     "runs": "22",
                     "balls": "26",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Australia won by 83 runs"
+    "result": "Australia won by 83 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shane Watson",
+            "Glenn McGrath",
+            "Shaun Tait",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Nathan Bracken",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Andrew Hall"
+        ]
+    }
 }

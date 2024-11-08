@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "run out (Short/Paine)",
+                    "dismissal": "run out (Short/ (wk)Paine)",
                     "runs": "82",
                     "balls": "61",
                     "minutes": "-",
@@ -60,7 +60,7 @@
                     "strike_rate": "159.78"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Finch b Richardson",
                     "runs": "11",
                     "balls": "12",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Paine b Richardson",
+                    "dismissal": "c (wk)Paine b Richardson",
                     "runs": "67",
                     "balls": "30",
                     "minutes": "-",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Moeen Ali",
-                    "dismissal": "run out (Paine)",
+                    "dismissal": "run out ( (wk)Paine)",
                     "runs": "11",
                     "balls": "9",
                     "minutes": "-",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "run out (Bairstow/Buttler)",
+                    "dismissal": "run out (Bairstow/ (wk)Buttler)",
                     "runs": "44",
                     "balls": "37",
                     "minutes": "-",
@@ -295,7 +295,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Tim Paine(c)",
+                    "batsman": "Tim Paine(c) (wk)",
                     "dismissal": "c Hales b Rashid",
                     "runs": "5",
                     "balls": "9",
@@ -316,7 +316,7 @@
                 },
                 {
                     "batsman": "Jhye Richardson",
-                    "dismissal": "st Buttler b Ali",
+                    "dismissal": "st (wk)Buttler b Ali",
                     "runs": "14",
                     "balls": "25",
                     "minutes": "-",
@@ -336,7 +336,7 @@
                 },
                 {
                     "batsman": "Billy Stanlake",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "-",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "England won by 242 runs"
+    "result": "England won by 242 runs",
+    "playing_xi": {
+        "England": [
+            "Moeen Ali",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "David Willey",
+            "Liam Plunkett",
+            "Mark Wood",
+            "Alex Hales",
+            "Adil Rashid"
+        ],
+        "Australia": [
+            "D'Arcy Short",
+            "Shaun Marsh",
+            "Travis Head",
+            "Glenn Maxwell",
+            "Andrew Tye",
+            "Tim Paine(c) (wk)",
+            "Jhye Richardson",
+            "Marcus Stoinis",
+            "Ashton Agar",
+            "Billy Stanlake",
+            "Aaron Finch"
+        ]
+    }
 }

@@ -64,7 +64,7 @@
                     "strike_rate": "61.53"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c RG Sharma b Ashwin",
                     "runs": "14",
                     "balls": "19",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "30",
                     "balls": "38",
                     "minutes": "74",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -305,8 +305,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "13",
@@ -326,7 +326,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -346,7 +346,7 @@
                 },
                 {
                     "batsman": "Mohit Sharma",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "11",
                     "balls": "19",
                     "minutes": "17",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 79 runs"
+    "result": "Bangladesh won by 79 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Taskin Ahmed",
+            "Litton Das",
+            "Sabbir Rahman",
+            "Nasir Hossain",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "Mohit Sharma",
+            "Ajinkya Rahane",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Umesh Yadav",
+            "Ravichandran Ashwin",
+            "Shikhar Dhawan"
+        ]
+    }
 }

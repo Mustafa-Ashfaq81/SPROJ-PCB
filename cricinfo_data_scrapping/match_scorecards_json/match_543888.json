@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Karim Sadiq",
-                    "dismissal": "c Barresi b Borren",
+                    "dismissal": "c (wk)Barresi b Borren",
                     "runs": "10",
                     "balls": "18",
                     "minutes": "-",
@@ -54,7 +54,7 @@
                     "strike_rate": "89.28"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Swart",
                     "runs": "12",
                     "balls": "10",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan",
-                    "dismissal": "c Barresi b Seelaar",
+                    "dismissal": "c (wk)Barresi b Seelaar",
                     "runs": "25",
                     "balls": "41",
                     "minutes": "-",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib",
-                    "dismissal": "run out (Seelaar/Barresi)",
+                    "dismissal": "run out (Seelaar/ (wk)Barresi)",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "-",
@@ -135,7 +135,7 @@
                 },
                 {
                     "batsman": "Izatullah Dawlatzai",
-                    "dismissal": "st Barresi b Cooper",
+                    "dismissal": "st (wk)Barresi b Cooper",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "-",
@@ -285,7 +285,7 @@
                     "strike_rate": "131.74"
                 }
             ],
-            "did_not_bat": "Tom Cooper , Tom de Grooth , Wesley Barresi , Timm van der Gugten , Ahsan Malik , Mudassar Bukhari , Peter Borren (c) , Pieter Seelaar",
+            "did_not_bat": "Tom Cooper , Tom de Grooth , Wesley Barresi (wk) , Timm van der Gugten , Ahsan Malik , Mudassar Bukhari , Peter Borren (c) , Pieter Seelaar",
             "fall_of_wickets": "Fall of wickets : 1 - 49 ( Stephan Myburgh , 8.4 ov )",
             "bowling": [
                 {
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 9 wickets (with 142 balls remaining)"
+    "result": "Netherlands won by 9 wickets (with 142 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Zakiullah Zaki",
+            "Mohammad Nabi",
+            "Dawlat Zadran",
+            "Nawroz Mangal(c)",
+            "Gulbadin Naib",
+            "Asghar Afghan",
+            "Karim Sadiq",
+            "Mohammad Shahzad (wk)",
+            "Izatullah Dawlatzai",
+            "Javed Ahmadi",
+            "Samiullah Shinwari"
+        ],
+        "Netherlands": [
+            "Tom Cooper",
+            "Ahsan Malik",
+            "Wesley Barresi (wk)",
+            "Stephan Myburgh",
+            "Michael Swart",
+            "Tom de Grooth",
+            "Mudassar Bukhari",
+            "Pieter Seelaar",
+            "Timm van der Gugten",
+            "Alexei Kervezee",
+            "Peter Borren (c)"
+        ]
+    }
 }

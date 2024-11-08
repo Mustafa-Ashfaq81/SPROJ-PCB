@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Brendon McCullum",
-                    "dismissal": "c Mushfiqur Rahim b Shafiul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shafiul Islam",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -50,7 +50,7 @@
                     "strike_rate": "78.57"
                 },
                 {
-                    "batsman": "BJ Watling",
+                    "batsman": "BJ Watling (wk)",
                     "dismissal": "c Junaid Siddique b Abdur Razzak",
                     "runs": "20",
                     "balls": "41",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Andy McKay",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -287,7 +287,7 @@
                     "strike_rate": "185.71"
                 }
             ],
-            "did_not_bat": "Mushfiqur Rahim , Mahmudullah , Abdur Razzak , Rubel Hossain , Shafiul Islam , Sohrawordi Shuvo",
+            "did_not_bat": "Mushfiqur Rahim (wk) , Mahmudullah , Abdur Razzak , Rubel Hossain , Shafiul Islam , Sohrawordi Shuvo",
             "fall_of_wickets": "Fall of wickets : 1 - 127 ( Shahriar Nafees , 24.2 ov ) , 2 - 134 ( Imrul Kayes , 26.5 ov ) , 3 - 159 ( Zunaed Siddique , 37.1 ov )",
             "bowling": [
                 {
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 7 wickets (with 60 balls remaining)"
+    "result": "Bangladesh won by 7 wickets (with 60 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum",
+            "Andy McKay",
+            "BJ Watling (wk)",
+            "Kyle Mills",
+            "Grant Elliott",
+            "Shanan Stewart",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Tim Southee",
+            "Nathan McCullum",
+            "Daniel Vettori(c)"
+        ],
+        "Bangladesh": [
+            "Raqibul Hasan",
+            "Imrul Kayes",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Sohrawordi Shuvo",
+            "Shahriar Nafees",
+            "Mahmudullah",
+            "Shakib Al Hasan(c)",
+            "Zunaed Siddique",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

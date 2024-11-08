@@ -39,7 +39,7 @@
                 },
                 {
                     "batsman": "Shaiman Anwar",
-                    "dismissal": "c Kotze b Baard",
+                    "dismissal": "c (wk)Kotze b Baard",
                     "runs": "57",
                     "balls": "75",
                     "minutes": "-",
@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Saqib Ali",
-                    "dismissal": "run out (du Preez/Kotze)",
+                    "dismissal": "run out (du Preez/ (wk)Kotze)",
                     "runs": "29",
                     "balls": "77",
                     "minutes": "-",
@@ -88,7 +88,7 @@
                     "strike_rate": "76.47"
                 },
                 {
-                    "batsman": "Mohammad Shafiq",
+                    "batsman": "Mohammad Shafiq (wk)",
                     "dismissal": "c van der Westhuizen b Baard",
                     "runs": "19",
                     "balls": "26",
@@ -265,7 +265,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "JP Kotze",
+                    "batsman": "JP Kotze (wk)",
                     "dismissal": "c Ahmed Raza b Rohan Mustafa",
                     "runs": "12",
                     "balls": "45",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Raymond van Schoor(c)",
-                    "dismissal": "c Mohammad Shafiq b Rohan Mustafa",
+                    "dismissal": "c (wk)Mohammad Shafiq b Rohan Mustafa",
                     "runs": "10",
                     "balls": "10",
                     "minutes": "-",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 135 runs"
+    "result": "U.A.E. won by 135 runs",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Rohan Mustafa",
+            "Saqib Ali",
+            "Mohammad Naveed",
+            "Khurram Khan(c)",
+            "Shadeep Silva",
+            "Shaiman Anwar",
+            "Nasir Aziz",
+            "Mohammad Shafiq (wk)",
+            "Ahmed Raza",
+            "Mohammad Azam",
+            "Swapnil Patil"
+        ],
+        "Namibia": [
+            "Raymond van Schoor(c)",
+            "Christopher Coombe",
+            "Christiaan Snyman",
+            "Christi Viljoen",
+            "JP Kotze (wk)",
+            "Zane Green",
+            "Louis van der Westhuizen",
+            "Xander Pitchers",
+            "Nicolaas Scholtz",
+            "Michau du Preez",
+            "Stephan Baard"
+        ]
+    }
 }

@@ -103,7 +103,7 @@
                     "strike_rate": "275.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "run out",
                     "runs": "1",
                     "balls": "1",
@@ -220,7 +220,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
+                    "batsman": "Kennedy Otieno (wk)",
                     "dismissal": "b Syed Rasel",
                     "runs": "6",
                     "balls": "12",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Thomas Odoyo",
-                    "dismissal": "c Khaled Mashud b Abdur Razzak",
+                    "dismissal": "c (wk)Khaled Mashud b Abdur Razzak",
                     "runs": "16",
                     "balls": "20",
                     "minutes": "32",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Tanmay Mishra",
-                    "dismissal": "st Khaled Mashud b Mohammad Ashraful",
+                    "dismissal": "st (wk)Khaled Mashud b Mohammad Ashraful",
                     "runs": "43",
                     "balls": "82",
                     "minutes": "99",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 131 runs"
+    "result": "Bangladesh won by 131 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Shahriar Nafees",
+            "Mohammad Ashraful",
+            "Alok Kapali",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Syed Rasel",
+            "Javed Omer",
+            "Mashrafe Mortaza",
+            "Abdur Razzak",
+            "Mohammad Rafique",
+            "Habibul Bashar (c)"
+        ],
+        "Kenya": [
+            "Kennedy Otieno (wk)",
+            "Tony Suji",
+            "Alfred Luseno",
+            "Martin Suji",
+            "Thomas Odoyo",
+            "Tanmay Mishra",
+            "Peter Ongondo",
+            "Jimmy Kamande",
+            "David Obuya",
+            "Hitesh Modi",
+            "Steve Tikolo(c)"
+        ]
+    }
 }

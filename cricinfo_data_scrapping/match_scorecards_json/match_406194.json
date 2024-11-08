@@ -29,7 +29,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "b Rampaul",
                     "runs": "16",
                     "balls": "31",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Ramdin b Sammy",
+                    "dismissal": "c (wk)Ramdin b Sammy",
                     "runs": "46",
                     "balls": "74",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "c Ramdin b Pollard",
+                    "dismissal": "c (wk)Ramdin b Pollard",
                     "runs": "17",
                     "balls": "41",
                     "minutes": "-",
@@ -256,7 +256,7 @@
                     "strike_rate": "-"
                 }
             ],
-            "did_not_bat": "Lendl Simmons , Narsingh Deonarine , Wavell Hinds , Kieron Pollard , Denesh Ramdin , Dwayne Smith , Daren Sammy , Nikita Miller , Ravi Rampaul",
+            "did_not_bat": "Lendl Simmons , Narsingh Deonarine , Wavell Hinds , Kieron Pollard , Denesh Ramdin (wk) , Dwayne Smith , Daren Sammy , Nikita Miller , Ravi Rampaul",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -276,5 +276,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Australia": [
+            "Michael Clarke",
+            "Cameron White",
+            "Adam Voges",
+            "Ricky Ponting(c)",
+            "Ryan Harris",
+            "Mitchell Johnson",
+            "Nathan Hauritz",
+            "James Hopes",
+            "Tim Paine (wk)",
+            "Michael Hussey",
+            "Doug Bollinger"
+        ],
+        "West Indies": [
+            "Nikita Miller",
+            "Ravi Rampaul",
+            "Daren Sammy",
+            "Denesh Ramdin (wk)",
+            "Chris Gayle(c)",
+            "Wavell Hinds",
+            "Narsingh Deonarine",
+            "Dwayne Smith",
+            "Lendl Simmons",
+            "Travis Dowlin",
+            "Kieron Pollard"
+        ]
+    }
 }

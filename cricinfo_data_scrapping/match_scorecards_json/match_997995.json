@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Rohan Mustafa",
-                    "dismissal": "c Cross b Sole",
+                    "dismissal": "c (wk)Cross b Sole",
                     "runs": "19",
                     "balls": "18",
                     "minutes": "-",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Cross b Sharif",
+                    "dismissal": "c (wk)Cross b Sharif",
                     "runs": "21",
                     "balls": "31",
                     "minutes": "-",
@@ -103,7 +103,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Saqlain Haider",
+                    "batsman": "Saqlain Haider (wk)",
                     "dismissal": "lbw b de Lange",
                     "runs": "12",
                     "balls": "20",
@@ -304,7 +304,7 @@
                     "strike_rate": "115.38"
                 }
             ],
-            "did_not_bat": "Con de Lange , Matthew Cross , Michael Leask , Safyaan Sharif , Alasdair Evans , Chris Sole",
+            "did_not_bat": "Con de Lange , Matthew Cross (wk) , Michael Leask , Safyaan Sharif , Alasdair Evans , Chris Sole",
             "fall_of_wickets": "Fall of wickets : 1 - 15 ( Craig Wallace , 2.1 ov ) , 2 - 43 ( Kyle Coetzer , 8.5 ov ) , 3 - 208 ( Calum MacLeod , 44.3 ov )",
             "bowling": [
                 {
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 7 wickets (with 14 balls remaining)"
+    "result": "Scotland won by 7 wickets (with 14 balls remaining)",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Amjad Javed(c)",
+            "Laxman Sreekumar",
+            "Mohammad Shahzad",
+            "Saqlain Haider (wk)",
+            "Ahmed Raza",
+            "Rohan Mustafa",
+            "Rameez Shahzad",
+            "Muhammad Usman",
+            "Mohammad Naveed",
+            "Shaiman Anwar",
+            "Fayyaz Ahmed"
+        ],
+        "Scotland": [
+            "Preston Mommsen(c)",
+            "Alasdair Evans",
+            "Michael Leask",
+            "Chris Sole",
+            "Matthew Cross (wk)",
+            "Craig Wallace",
+            "Safyaan Sharif",
+            "Kyle Coetzer",
+            "Richie Berrington",
+            "Con de Lange",
+            "Calum MacLeod"
+        ]
+    }
 }

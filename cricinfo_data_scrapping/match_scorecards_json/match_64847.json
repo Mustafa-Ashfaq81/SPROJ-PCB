@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "c Taibu b Blignaut",
+                    "dismissal": "c (wk)Taibu b Blignaut",
                     "runs": "28",
                     "balls": "42",
                     "minutes": "77",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "st Taibu b Matsikenyeri",
+                    "dismissal": "st (wk)Taibu b Matsikenyeri",
                     "runs": "6",
                     "balls": "2",
                     "minutes": "3",
@@ -104,7 +104,7 @@
                     "strike_rate": "212.50"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "4",
@@ -275,7 +275,7 @@
                     "strike_rate": "111.11"
                 }
             ],
-            "did_not_bat": "Sean Ervine , Tatenda Taibu , Heath Streak (c) , Stuart Matsikenyeri , Gary Brent , Ray Price",
+            "did_not_bat": "Sean Ervine , Tatenda Taibu (wk) , Heath Streak (c) , Stuart Matsikenyeri , Gary Brent , Ray Price",
             "fall_of_wickets": "Fall of wickets : 1 - 40 ( Trevor Gripper , 10.1 ov ) , 2 - 40 ( Mark Vermeulen , 10.2 ov ) , 3 - 150 ( Vusi Sibanda , 31.5 ov )",
             "bowling": [
                 {
@@ -365,5 +365,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 51 runs (D/L method)"
+    "result": "West Indies won by 51 runs (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Mervyn Dillon",
+            "Ravi Rampaul",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Vasbert Drakes",
+            "Carlton Baugh (wk)"
+        ],
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Andy Blignaut",
+            "Heath Streak (c)",
+            "Vusi Sibanda",
+            "Craig Wishart",
+            "Ray Price",
+            "Mark Vermeulen",
+            "Tatenda Taibu (wk)",
+            "Gary Brent",
+            "Trevor Gripper",
+            "Stuart Matsikenyeri"
+        ]
+    }
 }

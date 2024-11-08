@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Anamul Haque",
-                    "dismissal": "c Madande b Jongwe",
+                    "dismissal": "c (wk)Madande b Jongwe",
                     "runs": "76",
                     "balls": "71",
                     "minutes": "-",
@@ -64,7 +64,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Ngarava b Evans",
                     "runs": "0",
                     "balls": "3",
@@ -115,7 +115,7 @@
                 },
                 {
                     "batsman": "Hasan Mahmud",
-                    "dismissal": "c Madande b Jongwe",
+                    "dismissal": "c (wk)Madande b Jongwe",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "-",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Mustafizur Rahman",
-                    "dismissal": "run out (Madande/Ngarava)",
+                    "dismissal": "run out ( (wk)Madande/Ngarava)",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "-",
@@ -305,8 +305,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Clive Madande",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "batsman": "Clive Madande (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "24",
                     "balls": "45",
                     "minutes": "-",
@@ -316,7 +316,7 @@
                 },
                 {
                     "batsman": "Tony Munyonga",
-                    "dismissal": "st Mushfiqur Rahim b Taijul Islam",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Taijul Islam",
                     "runs": "13",
                     "balls": "18",
                     "minutes": "-",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 105 runs"
+    "result": "Bangladesh won by 105 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)",
+            "Mustafizur Rahman",
+            "Ebadot Hossain",
+            "Afif Hossain",
+            "Anamul Haque",
+            "Hasan Mahmud",
+            "Mahmudullah",
+            "Taijul Islam",
+            "Tamim Iqbal(c)",
+            "Najmul Hossain Shanto"
+        ],
+        "Zimbabwe": [
+            "Wessly Madhevere",
+            "Richard Ngarava",
+            "Luke Jongwe",
+            "Tony Munyonga",
+            "Brad Evans",
+            "Sikandar Raza(c)",
+            "Clive Madande (wk)",
+            "Innocent Kaia",
+            "Takudzwanashe Kaitano",
+            "Tadiwanashe Marumani",
+            "Victor Nyauchi"
+        ]
+    }
 }

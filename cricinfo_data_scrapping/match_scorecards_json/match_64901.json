@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "2",
                     "balls": "17",
                     "minutes": "26",
@@ -63,7 +63,7 @@
                     "strike_rate": "11.76"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "lbw b Kasprowicz",
                     "runs": "27",
                     "balls": "56",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Tawanda Mupariwa",
-                    "dismissal": "run out (Harvey/Gilchrist)",
+                    "dismissal": "run out (Harvey/ (wk)Gilchrist)",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "10",
@@ -240,7 +240,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Mupariwa",
                     "runs": "44",
                     "balls": "27",
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 116 balls remaining)"
+    "result": "Australia won by 8 wickets (with 116 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Vusi Sibanda",
+            "Mark Vermeulen",
+            "Ed Rainsford",
+            "Alester Maregwede",
+            "Mluleki Nkala",
+            "Waddington Mwayenga",
+            "Stuart Matsikenyeri",
+            "Tawanda Mupariwa",
+            "Tatenda Taibu(c) (wk)"
+        ],
+        "Australia": [
+            "Ricky Ponting (c)",
+            "Damien Martyn",
+            "Ian Harvey",
+            "Glenn McGrath",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Shane Watson",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
+                    "batsman": "Kennedy Otieno (wk)",
                     "dismissal": "run out (Gibbs)",
                     "runs": "1",
                     "balls": "7",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Brijal Patel",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "4",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Thomas Odoyo",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "22",
                     "balls": "41",
                     "minutes": "55",
@@ -258,7 +258,7 @@
                     "strike_rate": "82.53"
                 }
             ],
-            "did_not_bat": "Nicky Boje , Boeta Dippenaar , Mark Boucher , Jacques Kallis , Shaun Pollock (c) , Lance Klusener , Charl Langeveldt , Makhaya Ntini , Jonty Rhodes",
+            "did_not_bat": "Nicky Boje , Boeta Dippenaar , Mark Boucher (wk) , Jacques Kallis , Shaun Pollock (c) , Lance Klusener , Charl Langeveldt , Makhaya Ntini , Jonty Rhodes",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -348,5 +348,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 10 wickets (with 172 balls remaining)"
+    "result": "South Africa won by 10 wickets (with 172 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Maurice Odumbe",
+            "Collins Obuya",
+            "Kennedy Otieno (wk)",
+            "Steve Tikolo(c)",
+            "Thomas Odoyo",
+            "Peter Ongondo",
+            "Martin Suji",
+            "Ravi Shah",
+            "Aasif Karim",
+            "Brijal Patel",
+            "Hitesh Modi"
+        ],
+        "South Africa": [
+            "Gary Kirsten",
+            "Makhaya Ntini",
+            "Nicky Boje",
+            "Herschelle Gibbs",
+            "Boeta Dippenaar",
+            "Charl Langeveldt",
+            "Mark Boucher (wk)",
+            "Lance Klusener",
+            "Jonty Rhodes",
+            "Shaun Pollock (c)",
+            "Jacques Kallis"
+        ]
+    }
 }

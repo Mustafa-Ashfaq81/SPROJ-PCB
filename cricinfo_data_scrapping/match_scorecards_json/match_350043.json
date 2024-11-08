@@ -40,7 +40,7 @@
                     "strike_rate": "92.00"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "run out (Collingwood)",
                     "runs": "0",
                     "balls": "6",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "run out (Swann/Prior)",
+                    "dismissal": "run out (Swann/ (wk)Prior)",
                     "runs": "53",
                     "balls": "71",
                     "minutes": "86",
@@ -222,7 +222,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "st Paine b Hauritz",
+                    "dismissal": "st (wk)Paine b Hauritz",
                     "runs": "49",
                     "balls": "88",
                     "minutes": "110",
@@ -231,7 +231,7 @@
                     "strike_rate": "55.68"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c Johnson b Hauritz",
                     "runs": "28",
                     "balls": "47",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Luke Wright",
-                    "dismissal": "run out (Paine)",
+                    "dismissal": "run out ( (wk)Paine)",
                     "runs": "38",
                     "balls": "27",
                     "minutes": "45",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Graeme Swann",
-                    "dismissal": "c Paine b Watson",
+                    "dismissal": "c (wk)Paine b Watson",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "4",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 runs"
+    "result": "Australia won by 4 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Cameron White",
+            "James Hopes",
+            "Michael Clarke(c)",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Brett Lee",
+            "Nathan Bracken"
+        ],
+        "England": [
+            "Graeme Swann",
+            "Luke Wright",
+            "Adil Rashid",
+            "James Anderson",
+            "Matt Prior (wk)",
+            "Ryan Sidebottom",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Andrew Strauss(c)",
+            "Owais Shah"
+        ]
+    }
 }

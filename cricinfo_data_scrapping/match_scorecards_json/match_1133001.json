@@ -30,7 +30,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Leask b Berrington",
                     "runs": "30",
                     "balls": "54",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Cross b Berrington",
+                    "dismissal": "c (wk)Cross b Berrington",
                     "runs": "7",
                     "balls": "14",
                     "minutes": "21",
@@ -237,7 +237,7 @@
             "extras": "2",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Mujeeb Ur Rahman",
                     "runs": "18",
                     "balls": "22",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Kyle Coetzer(c)",
-                    "dismissal": "st Mohammad Shahzad b Mujeeb Ur Rahman",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mujeeb Ur Rahman",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "16",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 7 wickets (with 16 balls remaining)"
+    "result": "Scotland won by 7 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Nasir Jamal",
+            "Sharafuddin Ashraf",
+            "Dawlat Zadran",
+            "Mujeeb Ur Rahman",
+            "Gulbadin Naib",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Rahmat Shah",
+            "Ihsanullah",
+            "Rashid Khan(c)"
+        ],
+        "Scotland": [
+            "Richie Berrington",
+            "Mark Watt",
+            "Craig Wallace",
+            "Michael Leask",
+            "Safyaan Sharif",
+            "Matthew Cross (wk)",
+            "George Munsey",
+            "Calum MacLeod",
+            "Kyle Coetzer(c)",
+            "Tom Sole",
+            "Brad Wheal"
+        ]
+    }
 }

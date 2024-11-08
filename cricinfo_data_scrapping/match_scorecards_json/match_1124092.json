@@ -50,8 +50,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Zane Green",
-                    "dismissal": "c Edwards b van der Gugten",
+                    "batsman": "Zane Green (wk)",
+                    "dismissal": "c (wk)Edwards b van der Gugten",
                     "runs": "25",
                     "balls": "31",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Craig Williams",
-                    "dismissal": "c Edwards b Kingma",
+                    "dismissal": "c (wk)Edwards b Kingma",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Gerhard Erasmus",
-                    "dismissal": "c Edwards b Kingma",
+                    "dismissal": "c (wk)Edwards b Kingma",
                     "runs": "81",
                     "balls": "75",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Jan Frylinck",
-                    "dismissal": "c Edwards b ten Doeschate",
+                    "dismissal": "c (wk)Edwards b ten Doeschate",
                     "runs": "19",
                     "balls": "28",
                     "minutes": "-",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Ben Cooper",
-                    "dismissal": "c Green b Williams",
+                    "dismissal": "c (wk)Green b Williams",
                     "runs": "26",
                     "balls": "41",
                     "minutes": "-",
@@ -307,7 +307,7 @@
                     "strike_rate": "65.38"
                 }
             ],
-            "did_not_bat": "Scott Edwards , Pieter Seelaar , Vivian Kingma , Timm van der Gugten",
+            "did_not_bat": "Scott Edwards (wk) , Pieter Seelaar , Vivian Kingma , Timm van der Gugten",
             "fall_of_wickets": "Fall of wickets : 1 - 7 ( Max O'Dowd , 1.5 ov ) , 2 - 60 ( Ben Cooper , 14.3 ov ) , 3 - 69 ( Wesley Barresi , 19.4 ov ) , 4 - 84 ( Peter Borren , 24.5 ov ) , 5 - 105 ( Sikander Zulfiqar , 29.2 ov )",
             "bowling": [
                 {
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 5 wickets (with 53 balls remaining)"
+    "result": "Netherlands won by 5 wickets (with 53 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Zane Green (wk)",
+            "Craig Williams",
+            "Karl Birkenstock",
+            "Sarel Burger(c)",
+            "Bernard Scholtz",
+            "Stephan Baard",
+            "Gerhard Erasmus",
+            "JP Kotze",
+            "Jan Frylinck",
+            "JJ Smit",
+            "Tangeni Lungameni"
+        ],
+        "Netherlands": [
+            "Peter Borren(c)",
+            "Wesley Barresi",
+            "Sikander Zulfiqar",
+            "Vivian Kingma",
+            "Ben Cooper",
+            "Pieter Seelaar",
+            "Max O'Dowd",
+            "Roelof van der Merwe",
+            "Timm van der Gugten",
+            "Ryan ten Doeschate",
+            "Scott Edwards (wk)"
+        ]
+    }
 }

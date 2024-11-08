@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful(c)",
-                    "dismissal": "c NJ O'Brien b KJ O'Brien",
+                    "dismissal": "c (wk)NJ O'Brien b KJ O'Brien",
                     "runs": "22",
                     "balls": "36",
                     "minutes": "48",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Raqibul Hasan",
-                    "dismissal": "c NJ O'Brien b KJ O'Brien",
+                    "dismissal": "c (wk)NJ O'Brien b KJ O'Brien",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "12",
@@ -119,7 +119,7 @@
                     "strike_rate": "-"
                 }
             ],
-            "did_not_bat": "Dhiman Ghosh , Abdur Razzak",
+            "did_not_bat": "Dhiman Ghosh (wk) , Abdur Razzak",
             "fall_of_wickets": "Fall of wickets : 1 - 109 ( Shahriar Nafees , 19.1 ov ) , 2 - 109 ( Aftab Ahmed , 19.3 ov ) , 3 - 160 ( Mohammad Ashraful , 32.2 ov ) , 4 - 167 ( Shakib Al Hasan , 33.5 ov ) , 5 - 178 ( Raqibul Hasan , 36.4 ov ) , 6 - 260 ( Tamim Iqbal , 47.3 ov ) , 7 - 287 ( Mashrafe Mortaza , 49.4 ov )",
             "bowling": [
                 {
@@ -231,7 +231,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield",
-                    "dismissal": "run out (Abdur Razzak/Dhiman Ghosh)",
+                    "dismissal": "run out (Abdur Razzak/ (wk)Dhiman Ghosh)",
                     "runs": "18",
                     "balls": "27",
                     "minutes": "32",
@@ -260,7 +260,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Aftab Ahmed b Abdur Razzak",
                     "runs": "70",
                     "balls": "74",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Alex Cusack",
-                    "dismissal": "run out (Raqibul Hasan/Dhiman Ghosh)",
+                    "dismissal": "run out (Raqibul Hasan/ (wk)Dhiman Ghosh)",
                     "runs": "11",
                     "balls": "8",
                     "minutes": "11",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Trent Johnston(c)",
-                    "dismissal": "run out (Dhiman Ghosh)",
+                    "dismissal": "run out ( (wk)Dhiman Ghosh)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Greg Thompson",
-                    "dismissal": "st Dhiman Ghosh b Abdur Razzak",
+                    "dismissal": "st (wk)Dhiman Ghosh b Abdur Razzak",
                     "runs": "2",
                     "balls": "19",
                     "minutes": "27",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 79 runs"
+    "result": "Bangladesh won by 79 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Raqibul Hasan",
+            "Dhiman Ghosh (wk)",
+            "Abdur Razzak",
+            "Farhad Reza",
+            "Shahriar Nafees",
+            "Aftab Ahmed",
+            "Tamim Iqbal",
+            "Shakib Al Hasan",
+            "Mahmudullah",
+            "Mashrafe Mortaza",
+            "Mohammad Ashraful(c)"
+        ],
+        "Ireland": [
+            "Reinhardt Strydom",
+            "Dave Langford-Smith",
+            "William Porterfield",
+            "Andre Botha",
+            "Trent Johnston(c)",
+            "Greg Thompson",
+            "Kyle McCallan",
+            "Alex Cusack",
+            "Eoin Morgan",
+            "Niall O'Brien (wk)",
+            "Kevin O'Brien"
+        ]
+    }
 }

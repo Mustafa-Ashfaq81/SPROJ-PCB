@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Carey b Starc",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "20",
@@ -72,7 +72,7 @@
                     "strike_rate": "80.76"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "lbw b Cummins",
                     "runs": "3",
                     "balls": "7",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "26",
                     "balls": "39",
                     "minutes": "50",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Sam Curran",
-                    "dismissal": "c Carey b Starc",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "9",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Buttler b Archer",
+                    "dismissal": "c (wk)Buttler b Archer",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "17",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "c Buttler b Archer",
+                    "dismissal": "c (wk)Buttler b Archer",
                     "runs": "9",
                     "balls": "14",
                     "minutes": "22",
@@ -289,8 +289,8 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "st Buttler b Rashid",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "36",
                     "balls": "41",
                     "minutes": "80",
@@ -320,7 +320,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "c Buttler b SM Curran",
+                    "dismissal": "c (wk)Buttler b SM Curran",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "England won by 24 runs"
+    "result": "England won by 24 runs",
+    "playing_xi": {
+        "England": [
+            "Jofra Archer",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Sam Curran",
+            "Jason Roy",
+            "Adil Rashid",
+            "Tom Curran",
+            "Sam Billings",
+            "Joe Root"
+        ],
+        "Australia": [
+            "Adam Zampa",
+            "Aaron Finch(c)",
+            "Marcus Stoinis",
+            "Josh Hazlewood",
+            "Pat Cummins",
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Glenn Maxwell",
+            "Marnus Labuschagne",
+            "David Warner",
+            "Mitchell Marsh"
+        ]
+    }
 }

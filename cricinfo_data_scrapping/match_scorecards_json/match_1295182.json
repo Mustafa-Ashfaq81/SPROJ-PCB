@@ -35,7 +35,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "c Klein b Boissevain",
                     "runs": "103",
                     "balls": "127",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "st Edwards b Boissevain",
+                    "dismissal": "st (wk)Edwards b Boissevain",
                     "runs": "35",
                     "balls": "54",
                     "minutes": "-",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib",
-                    "dismissal": "st Edwards b Ackermann",
+                    "dismissal": "st (wk)Edwards b Ackermann",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "-",
@@ -202,7 +202,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "lbw b Yamin Ahmadzai",
                     "runs": "86",
                     "balls": "120",
@@ -213,7 +213,7 @@
                 },
                 {
                     "batsman": "Musa Ahmad",
-                    "dismissal": "c Rahmanullah Gurbaz b Mujeeb Ur Rahman",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Mujeeb Ur Rahman",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "-",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Saqib Zulfiqar",
-                    "dismissal": "run out (Rahmat Shah/Rahmanullah Gurbaz)",
+                    "dismissal": "run out (Rahmat Shah/ (wk)Rahmanullah Gurbaz)",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "-",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Philippe Boissevain",
-                    "dismissal": "c Rahmanullah Gurbaz b Mujeeb Ur Rahman",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Mujeeb Ur Rahman",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "-",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 48 runs"
+    "result": "Afghanistan won by 48 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Rashid Khan",
+            "Sharafuddin Ashraf",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz (wk)",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Yamin Ahmadzai",
+            "Rahmat Shah",
+            "Fareed Ahmad",
+            "Usman Ghani"
+        ],
+        "Netherlands": [
+            "Scott Edwards (wk)",
+            "Fred Klaassen",
+            "Musa Ahmad",
+            "Ryan Klein",
+            "Colin Ackermann",
+            "Saqib Zulfiqar",
+            "Pieter Seelaar(c)",
+            "Bas de Leede",
+            "Vivian Kingma",
+            "Philippe Boissevain",
+            "Boris Gorlee"
+        ]
+    }
 }

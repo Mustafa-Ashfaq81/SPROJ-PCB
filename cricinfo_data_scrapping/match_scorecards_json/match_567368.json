@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "c Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "c (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "30",
                     "balls": "47",
                     "minutes": "64",
@@ -53,7 +53,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "c Younis Khan b Saeed Ajmal",
                     "runs": "65",
                     "balls": "63",
@@ -211,7 +211,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c de Villiers b Abbott",
+                    "dismissal": "c (wk)de Villiers b Abbott",
                     "runs": "30",
                     "balls": "51",
                     "minutes": "85",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "c de Villiers b McLaren",
+                    "dismissal": "c (wk)de Villiers b McLaren",
                     "runs": "38",
                     "balls": "44",
                     "minutes": "55",
@@ -250,7 +250,7 @@
                     "strike_rate": "90.47"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Smith b McLaren",
                     "runs": "2",
                     "balls": "10",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 125 runs"
+    "result": "South Africa won by 125 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Kyle Abbott",
+            "Lonwabo Tsotsobe",
+            "Farhaan Behardien",
+            "Colin Ingram",
+            "Graeme Smith",
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Rory Kleinveldt",
+            "Faf du Plessis",
+            "Robin Peterson",
+            "Hashim Amla"
+        ],
+        "Pakistan": [
+            "Umar Gul",
+            "Asad Shafiq",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Younis Khan"
+        ]
+    }
 }

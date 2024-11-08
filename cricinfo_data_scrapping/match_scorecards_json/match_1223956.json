@@ -92,7 +92,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Alex Carey , Pat Cummins , Mitchell Starc , Adam Zampa , Josh Hazlewood",
+            "did_not_bat": "Alex Carey (wk) , Pat Cummins , Mitchell Starc , Adam Zampa , Josh Hazlewood",
             "fall_of_wickets": "Fall of wickets : 1 - 142 ( Aaron Finch , 22.5 ov ) , 2 - 156 ( David Warner , 25.3 ov ) , 3 - 292 ( Steven Smith , 41.2 ov ) , 4 - 372 ( Marnus Labuschagne , 48.5 ov )",
             "bowling": [
                 {
@@ -204,7 +204,7 @@
             "batting": [
                 {
                     "batsman": "Mayank Agarwal",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "28",
                     "balls": "26",
                     "minutes": "-",
@@ -243,7 +243,7 @@
                     "strike_rate": "105.55"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c Hazlewood b Zampa",
                     "runs": "76",
                     "balls": "66",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "Australia won by 51 runs"
+    "result": "Australia won by 51 runs",
+    "playing_xi": {
+        "Australia": [
+            "Adam Zampa",
+            "Steven Smith",
+            "Aaron Finch(c)",
+            "Josh Hazlewood",
+            "Pat Cummins",
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Glenn Maxwell",
+            "Marnus Labuschagne",
+            "Moises Henriques",
+            "David Warner"
+        ],
+        "India": [
+            "Yuzvendra Chahal",
+            "Jasprit Bumrah",
+            "Virat Kohli(c)",
+            "Shreyas Iyer",
+            "KL Rahul (wk)",
+            "Ravindra Jadeja",
+            "Hardik Pandya",
+            "Navdeep Saini",
+            "Mohammed Shami",
+            "Mayank Agarwal",
+            "Shikhar Dhawan"
+        ]
+    }
 }

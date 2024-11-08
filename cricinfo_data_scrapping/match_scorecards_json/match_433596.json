@@ -41,8 +41,8 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "Brad Haddin",
-                    "dismissal": "c Kamran Akmal b Wahab Riaz",
+                    "batsman": "Brad Haddin (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Wahab Riaz",
                     "runs": "42",
                     "balls": "80",
                     "minutes": "102",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Kamran Akmal b Mohammad Hafeez",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Hafeez",
                     "runs": "19",
                     "balls": "33",
                     "minutes": "57",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "run out (Misbah-ul-Haq/Kamran Akmal)",
+                    "dismissal": "run out (Misbah-ul-Haq/ (wk)Kamran Akmal)",
                     "runs": "8",
                     "balls": "18",
                     "minutes": "22",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Mitchell Johnson",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -238,7 +238,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Lee",
                     "runs": "23",
                     "balls": "27",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "31",
                     "balls": "42",
                     "minutes": "66",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 54 balls remaining)"
+    "result": "Pakistan won by 4 wickets (with 54 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Shane Watson",
+            "Mitchell Johnson",
+            "Shaun Tait",
+            "Ricky Ponting(c)",
+            "Steven Smith",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Cameron White",
+            "Jason Krejza",
+            "Michael Clarke",
+            "Michael Hussey"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Abdur Rehman",
+            "Shahid Afridi(c)",
+            "Asad Shafiq",
+            "Misbah-ul-Haq",
+            "Kamran Akmal (wk)",
+            "Abdul Razzaq",
+            "Umar Gul",
+            "Wahab Riaz",
+            "Younis Khan",
+            "Umar Akmal"
+        ]
+    }
 }

@@ -81,8 +81,8 @@
                     "strike_rate": "61.22"
                 },
                 {
-                    "batsman": "Matt Prior",
-                    "dismissal": "c van Wyk b Morkel",
+                    "batsman": "Matt Prior (wk)",
+                    "dismissal": "c (wk)van Wyk b Morkel",
                     "runs": "10",
                     "balls": "19",
                     "minutes": "24",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Prior b Swann",
+                    "dismissal": "c (wk)Prior b Swann",
                     "runs": "22",
                     "balls": "41",
                     "minutes": "63",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Prior b Broad",
+                    "dismissal": "c (wk)Prior b Broad",
                     "runs": "15",
                     "balls": "20",
                     "minutes": "26",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "run out (Bell/Prior)",
+                    "dismissal": "run out (Bell/ (wk)Prior)",
                     "runs": "17",
                     "balls": "38",
                     "minutes": "52",
@@ -312,7 +312,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Morne van Wyk",
+                    "batsman": "Morne van Wyk (wk)",
                     "dismissal": "b Bresnan",
                     "runs": "13",
                     "balls": "37",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Robin Peterson",
-                    "dismissal": "c Prior b Yardy",
+                    "dismissal": "c (wk)Prior b Yardy",
                     "runs": "3",
                     "balls": "16",
                     "minutes": "15",
@@ -343,7 +343,7 @@
                 },
                 {
                     "batsman": "Morne Morkel",
-                    "dismissal": "c Prior b Broad",
+                    "dismissal": "c (wk)Prior b Broad",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "10",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "England won by 6 runs"
+    "result": "England won by 6 runs",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Andrew Strauss(c)",
+            "Graeme Swann",
+            "Jonathan Trott",
+            "Stuart Broad",
+            "Matt Prior (wk)",
+            "Michael Yardy",
+            "Tim Bresnan",
+            "Ravi Bopara",
+            "James Anderson",
+            "Kevin Pietersen"
+        ],
+        "South Africa": [
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Morne van Wyk (wk)",
+            "Hashim Amla",
+            "Morne Morkel",
+            "Imran Tahir",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Robin Peterson",
+            "Dale Steyn",
+            "Faf du Plessis"
+        ]
+    }
 }

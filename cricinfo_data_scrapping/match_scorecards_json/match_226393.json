@@ -50,7 +50,7 @@
                     "strike_rate": "81.25"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Fulton b Astle",
                     "runs": "58",
                     "balls": "79",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c McCullum b Martin",
+                    "dismissal": "c (wk)McCullum b Martin",
                     "runs": "43",
                     "balls": "54",
                     "minutes": "71",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Peter Fulton",
-                    "dismissal": "run out (Bandara/Sangakkara)",
+                    "dismissal": "run out (Bandara/ (wk)Sangakkara)",
                     "runs": "112",
                     "balls": "131",
                     "minutes": "180",
@@ -267,7 +267,7 @@
                     "strike_rate": "103.70"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Atapattu b Perera",
                     "runs": "2",
                     "balls": "4",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 20 runs"
+    "result": "Sri Lanka won by 20 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dilhara Fernando",
+            "Muthiah Muralidaran",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Ruchira Perera",
+            "Jehan Mubarak",
+            "Chaminda Vaas"
+        ],
+        "New Zealand": [
+            "Chris Martin",
+            "Lou Vincent",
+            "Chris Cairns",
+            "Nathan Astle",
+            "James Franklin",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Shane Bond",
+            "Peter Fulton",
+            "Daniel Vettori",
+            "Hamish Marshall"
+        ]
+    }
 }

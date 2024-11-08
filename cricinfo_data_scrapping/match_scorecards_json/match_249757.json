@@ -30,7 +30,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Oram b Mills",
                     "runs": "3",
                     "balls": "11",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Hamish Marshall",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "13",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "st Gilchrist b Symonds",
+                    "dismissal": "st (wk)Gilchrist b Symonds",
                     "runs": "43",
                     "balls": "59",
                     "minutes": "111",
@@ -297,7 +297,7 @@
                     "strike_rate": "72.88"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Martyn b Bracken",
                     "runs": "1",
                     "balls": "4",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "14",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Kyle Mills",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "21",
                     "balls": "17",
                     "minutes": "28",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Australia won by 34 runs"
+    "result": "Australia won by 34 runs",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Andrew Symonds",
+            "Mitchell Johnson",
+            "Brett Lee",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Bracken",
+            "Glenn McGrath",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke"
+        ],
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "James Franklin",
+            "Jacob Oram",
+            "Hamish Marshall",
+            "Kyle Mills",
+            "Shane Bond",
+            "Peter Fulton",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Lou Vincent",
+            "Brendon McCullum (wk)"
+        ]
+    }
 }

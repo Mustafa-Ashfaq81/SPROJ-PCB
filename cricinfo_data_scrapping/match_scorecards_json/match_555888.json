@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Duncan Allan",
-                    "dismissal": "c Erasmus b Klazinga",
+                    "dismissal": "c (wk)Erasmus b Klazinga",
                     "runs": "4",
                     "balls": "13",
                     "minutes": "-",
@@ -49,7 +49,7 @@
                     "strike_rate": "105.97"
                 },
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "c & b Viljoen",
                     "runs": "23",
                     "balls": "32",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Louis van der Westhuizen",
-                    "dismissal": "c Karim b NM Odhiambo",
+                    "dismissal": "c (wk)Karim b NM Odhiambo",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "-",
@@ -286,7 +286,7 @@
                     "strike_rate": "98.33"
                 }
             ],
-            "did_not_bat": "Gerrie Snyman , Nicolaas Scholtz , Gerhard Erasmus , Christi Viljoen , Louis Klazinga , Bernard Scholtz",
+            "did_not_bat": "Gerrie Snyman , Nicolaas Scholtz , Gerhard Erasmus (wk) , Christi Viljoen , Louis Klazinga , Bernard Scholtz",
             "fall_of_wickets": "Fall of wickets : 1 - 59 ( Raymond van Schoor , 10.3 ov ) , 2 - 60 ( Louis van der Westhuizen , 11.5 ov ) , 3 - 110 ( Ian Opperman , 26.1 ov )",
             "bowling": [
                 {
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "Namibia won by 7 wickets (with 48 balls remaining)"
+    "result": "Namibia won by 7 wickets (with 48 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Duncan Allan",
+            "Rakep Patel",
+            "Tanmay Mishra",
+            "Lucas Oluoch",
+            "Alex Obanda",
+            "Irfan Karim (wk)",
+            "Nehemiah Odhiambo",
+            "Nelson Odhiambo",
+            "James Ngoche",
+            "Morris Ouma",
+            "Collins Obuya(c)"
+        ],
+        "Namibia": [
+            "Craig Williams",
+            "Louis Klazinga",
+            "Raymond van Schoor",
+            "Louis van der Westhuizen",
+            "Sarel Burger(c)",
+            "Gerrie Snyman",
+            "Bernard Scholtz",
+            "Christi Viljoen",
+            "Ian Opperman",
+            "Gerhard Erasmus (wk)",
+            "Nicolaas Scholtz"
+        ]
+    }
 }

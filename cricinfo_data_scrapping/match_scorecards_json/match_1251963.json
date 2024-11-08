@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Ben Cooper",
-                    "dismissal": "c Tucker b Little",
+                    "dismissal": "c (wk)Tucker b Little",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Pieter Seelaar(c)",
-                    "dismissal": "c Tucker b Young",
+                    "dismissal": "c (wk)Tucker b Young",
                     "runs": "11",
                     "balls": "34",
                     "minutes": "39",
@@ -82,8 +82,8 @@
                     "strike_rate": "32.35"
                 },
                 {
-                    "batsman": "Scott Edwards",
-                    "dismissal": "c Tucker b Young",
+                    "batsman": "Scott Edwards (wk)",
+                    "dismissal": "c (wk)Tucker b Young",
                     "runs": "23",
                     "balls": "24",
                     "minutes": "36",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Timm van der Gugten",
-                    "dismissal": "c Tucker b Young",
+                    "dismissal": "c (wk)Tucker b Young",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "9",
@@ -265,7 +265,7 @@
                     "strike_rate": "50.84"
                 }
             ],
-            "did_not_bat": "George Dockrell , Lorcan Tucker , Simi Singh , Andy McBrine , Barry McCarthy , Craig Young , Josh Little",
+            "did_not_bat": "George Dockrell , Lorcan Tucker (wk) , Simi Singh , Andy McBrine , Barry McCarthy , Craig Young , Josh Little",
             "fall_of_wickets": "Fall of wickets : 1 - 9 ( William Porterfield , 1.5 ov ) , 2 - 91 ( Paul Stirling , 23.1 ov )",
             "bowling": [
                 {
@@ -355,5 +355,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 8 wickets (with 42 balls remaining)"
+    "result": "Ireland won by 8 wickets (with 42 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Max O'Dowd",
+            "Saqib Zulfiqar",
+            "Scott Edwards (wk)",
+            "Brandon Glover",
+            "Pieter Seelaar(c)",
+            "Timm van der Gugten",
+            "Ben Cooper",
+            "Stephan Myburgh",
+            "Bas de Leede",
+            "Fred Klaassen",
+            "Logan van Beek"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Harry Tector",
+            "Craig Young",
+            "Andy Balbirnie(c)",
+            "Barry McCarthy",
+            "William Porterfield",
+            "Lorcan Tucker (wk)",
+            "Paul Stirling",
+            "Andy McBrine",
+            "Josh Little",
+            "Simi Singh"
+        ]
+    }
 }

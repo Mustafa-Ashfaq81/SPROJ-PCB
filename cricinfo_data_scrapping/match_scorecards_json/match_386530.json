@@ -50,7 +50,7 @@
                     "strike_rate": "93.85"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Raina b Ojha",
                     "runs": "44",
                     "balls": "86",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "run out (Muralidaran/Sangakkara/Mendis)",
+                    "dismissal": "run out (Muralidaran/ (wk)Sangakkara/Mendis)",
                     "runs": "54",
                     "balls": "71",
                     "minutes": "100",
@@ -271,7 +271,7 @@
                     "strike_rate": "57.50"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "61",
                     "balls": "65",
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 11 balls remaining)"
+    "result": "India won by 6 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Nuwan Kulasekara",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ],
+        "India": [
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Yusuf Pathan",
+            "Pragyan Ojha",
+            "Rohit Sharma",
+            "Munaf Patel",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "Zaheer Khan"
+        ]
+    }
 }

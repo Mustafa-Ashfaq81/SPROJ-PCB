@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "28",
                     "balls": "34",
                     "minutes": "57",
@@ -61,7 +61,7 @@
                     "strike_rate": "82.35"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Kulasekara b Kandamby",
                     "runs": "38",
                     "balls": "50",
@@ -242,7 +242,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Khan b Nehra",
                     "runs": "17",
                     "balls": "38",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "11",
                     "balls": "19",
                     "minutes": "25",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Farveez Maharoof",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "20",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "20",
                     "balls": "16",
                     "minutes": "24",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Muthiah Muralidaran",
-                    "dismissal": "c Dhoni b Jadeja",
+                    "dismissal": "c (wk)Dhoni b Jadeja",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "5",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "India won by 81 runs"
+    "result": "India won by 81 runs",
+    "playing_xi": {
+        "India": [
+            "Ashish Nehra",
+            "Dinesh Karthik",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Harbhajan Singh",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Gautam Gambhir"
+        ],
+        "Sri Lanka": [
+            "Farveez Maharoof",
+            "Lasith Malinga",
+            "Kumar Sangakkara(c) (wk)",
+            "Thilina Kandamby",
+            "Upul Tharanga",
+            "Angelo Mathews",
+            "Chamara Kapugedera",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Nuwan Kulasekara"
+        ]
+    }
 }

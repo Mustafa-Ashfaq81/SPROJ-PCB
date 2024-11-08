@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "run out (Najibullah Zadran/Mohammad Shahzad)",
+                    "dismissal": "run out (Najibullah Zadran/ (wk)Mohammad Shahzad)",
                     "runs": "48",
                     "balls": "54",
                     "minutes": "-",
@@ -51,7 +51,7 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b Rashid Khan",
                     "runs": "125",
                     "balls": "121",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "c Mohammad Shahzad b Rashid Khan",
+                    "dismissal": "c (wk)Mohammad Shahzad b Rashid Khan",
                     "runs": "14",
                     "balls": "30",
                     "minutes": "-",
@@ -198,7 +198,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Muzarabani b Vitori",
                     "runs": "15",
                     "balls": "20",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c sub (PJ Moor) b Muzarabani",
+                    "dismissal": "c sub ( (wk)PJ Moor) b Muzarabani",
                     "runs": "43",
                     "balls": "61",
                     "minutes": "-",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan(c)",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "-",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 154 runs"
+    "result": "Zimbabwe won by 154 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Ryan Burl",
+            "Graeme Cremer (c)",
+            "Sikandar Raza",
+            "Brendan Taylor (wk)",
+            "Craig Ervine",
+            "Blessing Muzarabani",
+            "Malcolm Waller",
+            "Brian Vitori",
+            "Tendai Chatara",
+            "Solomon Mire",
+            "Hamilton Masakadza"
+        ],
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Nasir Jamal",
+            "Dawlat Zadran",
+            "Mujeeb Ur Rahman",
+            "Ihsanullah",
+            "Gulbadin Naib",
+            "Rashid Khan",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Rahmat Shah",
+            "Asghar Afghan(c)"
+        ]
+    }
 }

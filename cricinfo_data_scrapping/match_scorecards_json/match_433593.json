@@ -44,7 +44,7 @@
                     "strike_rate": "79.48"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "b Russell",
                     "runs": "21",
                     "balls": "21",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Thomas b Bishoo",
+                    "dismissal": "c (wk)Thomas b Bishoo",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "22",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "James Tredwell",
-                    "dismissal": "run out (Thomas/Pollard)",
+                    "dismissal": "run out ( (wk)Thomas/Pollard)",
                     "runs": "9",
                     "balls": "20",
                     "minutes": "32",
@@ -135,7 +135,7 @@
                 },
                 {
                     "batsman": "Chris Tremlett",
-                    "dismissal": "c Thomas b Roach",
+                    "dismissal": "c (wk)Thomas b Roach",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "6",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "st Prior b Tredwell",
+                    "dismissal": "st (wk)Prior b Tredwell",
                     "runs": "10",
                     "balls": "27",
                     "minutes": "37",
@@ -281,7 +281,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "b Bopara",
                     "runs": "9",
                     "balls": "20",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Sulieman Benn",
-                    "dismissal": "run out (Trott/Prior)",
+                    "dismissal": "run out (Trott/ (wk)Prior)",
                     "runs": "2",
                     "balls": "12",
                     "minutes": "19",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "England won by 18 runs"
+    "result": "England won by 18 runs",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Andrew Strauss(c)",
+            "Graeme Swann",
+            "Jonathan Trott",
+            "Matt Prior (wk)",
+            "Eoin Morgan",
+            "Luke Wright",
+            "Tim Bresnan",
+            "Ravi Bopara",
+            "James Tredwell",
+            "Chris Tremlett"
+        ],
+        "West Indies": [
+            "Andre Russell",
+            "Chris Gayle",
+            "Kieron Pollard",
+            "Devon Smith",
+            "Sulieman Benn",
+            "Darren Bravo",
+            "Ramnaresh Sarwan",
+            "Devendra Bishoo",
+            "Daren Sammy(c)",
+            "Devon Thomas (wk)",
+            "Kemar Roach"
+        ]
+    }
 }

@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Dinesh Karthik",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "-",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "-",
@@ -82,8 +82,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Sangakkara b Perera",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "10",
                     "balls": "16",
                     "minutes": "-",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Ashish Nehra",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "-",
@@ -241,7 +241,7 @@
                     "strike_rate": "63.15"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "15",
@@ -299,5 +299,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 209 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 209 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ashish Nehra",
+            "Pragyan Ojha",
+            "Dinesh Karthik",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "Ishant Sharma"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara(c) (wk)",
+            "Chamara Silva",
+            "Suraj Randiv",
+            "Thisara Perera",
+            "Upul Tharanga",
+            "Chamara Kapugedera",
+            "Angelo Mathews",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara"
+        ]
+    }
 }

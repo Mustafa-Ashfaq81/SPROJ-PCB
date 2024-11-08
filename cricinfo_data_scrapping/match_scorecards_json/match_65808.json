@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Otieno b Ongondo",
+                    "dismissal": "c (wk)Otieno b Ongondo",
                     "runs": "36",
                     "balls": "58",
                     "minutes": "71",
@@ -91,7 +91,7 @@
                     "strike_rate": "131.03"
                 },
                 {
-                    "batsman": "Rashid Latif(c)",
+                    "batsman": "Rashid Latif(c) (wk)",
                     "dismissal": "b Tikolo",
                     "runs": "38",
                     "balls": "31",
@@ -228,8 +228,8 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
-                    "dismissal": "c Rashid Latif b Naved-ul-Hasan",
+                    "batsman": "Kennedy Otieno (wk)",
+                    "dismissal": "c (wk)Rashid Latif b Naved-ul-Hasan",
                     "runs": "9",
                     "balls": "26",
                     "minutes": "32",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo(c)",
-                    "dismissal": "c Rashid Latif b Mohammad Sami",
+                    "dismissal": "c (wk)Rashid Latif b Mohammad Sami",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "10",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Maurice Odumbe",
-                    "dismissal": "c Rashid Latif b Shoaib Malik",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Malik",
                     "runs": "54",
                     "balls": "65",
                     "minutes": "70",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Hitesh Modi",
-                    "dismissal": "c Rashid Latif b Mohammad Sami",
+                    "dismissal": "c (wk)Rashid Latif b Mohammad Sami",
                     "runs": "27",
                     "balls": "49",
                     "minutes": "54",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 143 runs"
+    "result": "Pakistan won by 143 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Rashid Latif(c) (wk)",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Misbah-ul-Haq",
+            "Naved-ul-Hasan",
+            "Danish Kaneria",
+            "Umar Gul",
+            "Mohammad Yousuf",
+            "Taufeeq Umar",
+            "Faisal Iqbal"
+        ],
+        "Kenya": [
+            "Maurice Odumbe",
+            "Peter Ongondo",
+            "Steve Tikolo(c)",
+            "Joseph Angara",
+            "Thomas Odoyo",
+            "Jimmy Kamande",
+            "Collins Obuya",
+            "Brijal Patel",
+            "David Obuya",
+            "Kennedy Otieno (wk)",
+            "Hitesh Modi"
+        ]
+    }
 }

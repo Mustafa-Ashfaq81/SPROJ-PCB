@@ -43,7 +43,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Dilshan b Perera",
                     "runs": "49",
                     "balls": "55",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "27",
                     "balls": "31",
                     "minutes": "41",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Sangakkara b Randiv",
+                    "dismissal": "c (wk)Sangakkara b Randiv",
                     "runs": "31",
                     "balls": "53",
                     "minutes": "57",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "19",
@@ -250,7 +250,7 @@
                     "strike_rate": "116.66"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "b Doherty",
                     "runs": "49",
                     "balls": "46",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 1 wicket (with 34 balls remaining)"
+    "result": "Sri Lanka won by 1 wicket (with 34 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Shaun Marsh",
+            "Xavier Doherty",
+            "Shane Watson",
+            "Mitchell Johnson",
+            "Peter Siddle",
+            "John Hastings",
+            "Steven Smith",
+            "Brad Haddin (wk)",
+            "Cameron White",
+            "Michael Clarke(c)",
+            "Michael Hussey"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Suraj Randiv",
+            "Lasith Malinga",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Muthiah Muralidaran",
+            "Thisara Perera",
+            "Kumar Sangakkara(c) (wk)",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Chamara Silva"
+        ]
+    }
 }

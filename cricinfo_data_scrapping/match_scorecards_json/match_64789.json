@@ -63,7 +63,7 @@
                     "strike_rate": "70.29"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c Gayle b Samuels",
                     "runs": "33",
                     "balls": "36",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Murali Kartik",
-                    "dismissal": "c Jacobs b Collins",
+                    "dismissal": "c (wk)Jacobs b Collins",
                     "runs": "11",
                     "balls": "12",
                     "minutes": "16",
@@ -245,7 +245,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Dravid b Harbhajan Singh",
+                    "dismissal": "c (wk)Dravid b Harbhajan Singh",
                     "runs": "101",
                     "balls": "107",
                     "minutes": "173",
@@ -314,7 +314,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Pedro Collins , Corey Collymore , Ridley Jacobs , Vasbert Drakes",
+            "did_not_bat": "Pedro Collins , Corey Collymore , Ridley Jacobs (wk) , Vasbert Drakes",
             "fall_of_wickets": "Fall of wickets : 1 - 132 ( Wavell Hinds , 16.2 ov ) , 2 - 135 ( Marlon Samuels , 17.4 ov ) , 3 - 218 ( Ramnaresh Sarwan , 35.2 ov ) , 4 - 239 ( Shivnarine Chanderpaul , 38.5 ov ) , 5 - 239 ( Chris Gayle , 38.6 ov )",
             "bowling": [
                 {
@@ -446,5 +446,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 5 wickets (with 7 balls remaining)"
+    "result": "West Indies won by 5 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Lakshmipathy Balaji",
+            "Rahul Dravid (wk)",
+            "Sanjay Bangar",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Murali Kartik",
+            "Yuvraj Singh",
+            "Javagal Srinath",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag",
+            "Harbhajan Singh"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Corey Collymore",
+            "Carl Hooper(c)",
+            "Pedro Collins",
+            "Shivnarine Chanderpaul",
+            "Vasbert Drakes"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                     "strike_rate": "79.31"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b Naved-ul-Hasan",
                     "runs": "59",
                     "balls": "72",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "run out (Kamran Akmal/Abdul Razzaq)",
+                    "dismissal": "run out ( (wk)Kamran Akmal/Abdul Razzaq)",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "22",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "5",
                     "balls": "18",
                     "minutes": "28",
@@ -248,7 +248,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Dravid b Harbhajan Singh",
                     "runs": "18",
                     "balls": "25",
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "India won by 51 runs"
+    "result": "India won by 51 runs",
+    "playing_xi": {
+        "India": [
+            "Ramesh Powar",
+            "Irfan Pathan",
+            "Venugopal Rao",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "MS Dhoni (wk)",
+            "Rahul Dravid(c)",
+            "Virender Sehwag",
+            "Sreesanth",
+            "Suresh Raina",
+            "Harbhajan Singh"
+        ],
+        "Pakistan": [
+            "Naved-ul-Hasan",
+            "Shahid Afridi",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Imran Farhat",
+            "Kamran Akmal (wk)",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Younis Khan",
+            "Iftikhar Anjum"
+        ]
+    }
 }

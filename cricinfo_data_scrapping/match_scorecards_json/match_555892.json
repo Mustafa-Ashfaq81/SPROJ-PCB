@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Mohammad Shahzad b Shapoor Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Shapoor Zadran",
                     "runs": "6",
                     "balls": "5",
                     "minutes": "-",
@@ -73,8 +73,8 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Gary Wilson",
-                    "dismissal": "c Mohammad Shahzad b Shapoor Zadran",
+                    "batsman": "Gary Wilson (wk)",
+                    "dismissal": "c (wk)Mohammad Shahzad b Shapoor Zadran",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "-",
@@ -274,7 +274,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Porterfield b Johnston",
                     "runs": "11",
                     "balls": "17",
@@ -454,5 +454,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 59 runs"
+    "result": "Ireland won by 59 runs",
+    "playing_xi": {
+        "Ireland": [
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Gary Wilson (wk)",
+            "Niall O'Brien",
+            "John Mooney",
+            "Kevin O'Brien",
+            "Trent Johnston",
+            "Tim Murtagh",
+            "Paul Stirling",
+            "George Dockrell",
+            "Alex Cusack"
+        ],
+        "Afghanistan": [
+            "Karim Sadiq(c)",
+            "Mohammad Nabi",
+            "Shapoor Zadran",
+            "Dawlat Zadran",
+            "Amir Hamza",
+            "Gulbadin Naib",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Javed Ahmadi",
+            "Samiullah Shinwari"
+        ]
+    }
 }

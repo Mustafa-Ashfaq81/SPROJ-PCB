@@ -32,7 +32,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Hall",
                     "runs": "33",
                     "balls": "43",
@@ -220,7 +220,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "c Gilchrist b Clark",
+                    "dismissal": "c (wk)Gilchrist b Clark",
                     "runs": "9",
                     "balls": "23",
                     "minutes": "31",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Johan Botha",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "46",
                     "balls": "61",
                     "minutes": "107",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Ashwell Prince",
-                    "dismissal": "run out (Dorey/Gilchrist)",
+                    "dismissal": "run out (Dorey/ (wk)Gilchrist)",
                     "runs": "24",
                     "balls": "39",
                     "minutes": "46",
@@ -279,7 +279,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Ponting b Lee",
                     "runs": "0",
                     "balls": "1",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "Australia won by 80 runs"
+    "result": "Australia won by 80 runs",
+    "playing_xi": {
+        "Australia": [
+            "Adam Gilchrist (wk)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Andrew Symonds",
+            "Brett Lee",
+            "Damien Martyn",
+            "Stuart Clark",
+            "Simon Katich",
+            "Brett Dorey",
+            "Ricky Ponting(c)",
+            "Brad Hogg"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Justin Kemp",
+            "Boeta Dippenaar",
+            "Johan Botha",
+            "Herschelle Gibbs",
+            "Jacques Rudolph",
+            "Ashwell Prince",
+            "Andrew Hall",
+            "Johan van der Wath",
+            "Mark Boucher (wk)"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "51",
                     "balls": "73",
                     "minutes": "97",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Dhoni b Dinda",
+                    "dismissal": "c (wk)Dhoni b Dinda",
                     "runs": "42",
                     "balls": "48",
                     "minutes": "84",
@@ -63,7 +63,7 @@
                     "strike_rate": "68.11"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "c Pathan b Tiwary",
                     "runs": "28",
                     "balls": "32",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Dhoni b Sehwag",
+                    "dismissal": "c (wk)Dhoni b Sehwag",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "4",
@@ -318,7 +318,7 @@
                     "strike_rate": "113.72"
                 }
             ],
-            "did_not_bat": "MS Dhoni (c) , Irfan Pathan , Ravichandran Ashwin , Zaheer Khan , Ashok Dinda",
+            "did_not_bat": "MS Dhoni (c) (wk) , Irfan Pathan , Ravichandran Ashwin , Zaheer Khan , Ashok Dinda",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Gautam Gambhir , 0.5 ov ) , 2 - 52 ( Virender Sehwag , 9.2 ov ) , 3 - 60 ( Rohit Sharma , 12.4 ov ) , 4 - 109 ( Manoj Tiwary , 23.4 ov )",
             "bowling": [
                 {
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 46 balls remaining)"
+    "result": "India won by 6 wickets (with 46 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Mahela Jayawardene(c)",
+            "Upul Tharanga",
+            "Dinesh Chandimal (wk)",
+            "Tillakaratne Dilshan",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Jeevan Mendis",
+            "Nuwan Pradeep",
+            "Rangana Herath",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "Ashok Dinda",
+            "Manoj Tiwary",
+            "Irfan Pathan",
+            "Suresh Raina",
+            "MS Dhoni (c) (wk)",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Ravichandran Ashwin",
+            "Virat Kohli",
+            "Rohit Sharma"
+        ]
+    }
 }

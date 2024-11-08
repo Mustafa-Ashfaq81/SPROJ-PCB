@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "c de Kock b Kleinveldt",
+                    "dismissal": "c (wk)de Kock b Kleinveldt",
                     "runs": "48",
                     "balls": "63",
                     "minutes": "84",
@@ -74,7 +74,7 @@
                     "strike_rate": "76.19"
                 },
                 {
-                    "batsman": "Brendon McCullum(c)",
+                    "batsman": "Brendon McCullum(c) (wk)",
                     "dismissal": "b Morkel",
                     "runs": "17",
                     "balls": "10",
@@ -231,7 +231,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Mills",
                     "runs": "25",
                     "balls": "28",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "run out (Franklin/BB McCullum)",
+                    "dismissal": "run out (Franklin/ (wk)BB McCullum)",
                     "runs": "66",
                     "balls": "75",
                     "minutes": "127",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Farhaan Behardien",
-                    "dismissal": "run out (Guptill/BB McCullum)",
+                    "dismissal": "run out (Guptill/ (wk)BB McCullum)",
                     "runs": "31",
                     "balls": "40",
                     "minutes": "63",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 27 runs"
+    "result": "New Zealand won by 27 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Grant Elliott",
+            "Martin Guptill",
+            "Mitchell McClenaghan",
+            "Nathan McCullum",
+            "Kane Williamson",
+            "Brendon McCullum(c) (wk)",
+            "Kyle Mills",
+            "BJ Watling",
+            "Colin Munro",
+            "James Franklin",
+            "James Neesham"
+        ],
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Farhaan Behardien",
+            "Colin Ingram",
+            "Graeme Smith",
+            "Ryan McLaren",
+            "Rory Kleinveldt",
+            "David Miller",
+            "Quinton de Kock (wk)",
+            "Robin Peterson",
+            "Morne Morkel",
+            "Faf du Plessis(c)"
+        ]
+    }
 }

@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "13",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Hamish Marshall",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "7",
@@ -91,7 +91,7 @@
                     "strike_rate": "102.29"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b McGrath",
                     "runs": "15",
                     "balls": "24",
@@ -238,8 +238,8 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c McCullum b Franklin",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)McCullum b Franklin",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "7",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 wickets (with 8 balls remaining)"
+    "result": "Australia won by 2 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Michael Mason",
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Stephen Fleming(c)",
+            "Craig McMillan",
+            "Nathan Astle",
+            "Mark Gillespie",
+            "James Franklin",
+            "Daniel Vettori",
+            "Hamish Marshall",
+            "Peter Fulton"
+        ],
+        "Australia": [
+            "Glenn McGrath",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Nathan Bracken",
+            "Cameron White",
+            "Stuart Clark",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ]
+    }
 }

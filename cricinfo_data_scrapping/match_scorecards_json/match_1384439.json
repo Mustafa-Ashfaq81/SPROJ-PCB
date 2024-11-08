@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Shreyas Iyer",
-                    "dismissal": "c Inglis b Cummins",
+                    "dismissal": "c (wk)Inglis b Cummins",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "3",
@@ -71,8 +71,8 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "KL Rahul",
-                    "dismissal": "c Inglis b Starc",
+                    "batsman": "KL Rahul (wk)",
+                    "dismissal": "c (wk)Inglis b Starc",
                     "runs": "66",
                     "balls": "107",
                     "minutes": "133",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "c Inglis b Hazlewood",
+                    "dismissal": "c (wk)Inglis b Hazlewood",
                     "runs": "9",
                     "balls": "22",
                     "minutes": "33",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Suryakumar Yadav",
-                    "dismissal": "c Inglis b Hazlewood",
+                    "dismissal": "c (wk)Inglis b Hazlewood",
                     "runs": "18",
                     "balls": "28",
                     "minutes": "57",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Mohammed Shami",
-                    "dismissal": "c Inglis b Starc",
+                    "dismissal": "c (wk)Inglis b Starc",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "9",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "c Rahul b Bumrah",
+                    "dismissal": "c (wk)Rahul b Bumrah",
                     "runs": "15",
                     "balls": "15",
                     "minutes": "15",
@@ -312,7 +312,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Josh Inglis , Mitchell Starc , Pat Cummins (c) , Adam Zampa , Josh Hazlewood",
+            "did_not_bat": "Josh Inglis (wk) , Mitchell Starc , Pat Cummins (c) , Adam Zampa , Josh Hazlewood",
             "fall_of_wickets": "Fall of wickets : 1 - 16 ( David Warner , 1.1 ov ) , 2 - 41 ( Mitchell Marsh , 4.3 ov ) , 3 - 47 ( Steven Smith , 6.6 ov ) , 4 - 239 ( Travis Head , 42.5 ov ) DRS",
             "bowling": [
                 {
@@ -388,5 +388,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 42 balls remaining)"
+    "result": "Australia won by 6 wickets (with 42 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "KL Rahul (wk)",
+            "Virat Kohli",
+            "Suryakumar Yadav",
+            "Mohammed Shami",
+            "Shubman Gill",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ],
+        "Australia": [
+            "Mitchell Marsh",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Adam Zampa",
+            "Josh Inglis (wk)",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Marnus Labuschagne",
+            "Pat Cummins (c)",
+            "David Warner"
+        ]
+    }
 }

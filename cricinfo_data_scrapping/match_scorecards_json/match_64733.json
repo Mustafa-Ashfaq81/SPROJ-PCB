@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Al Sahariar",
-                    "dismissal": "c A Flower b Friend",
+                    "dismissal": "c (wk)A Flower b Friend",
                     "runs": "13",
                     "balls": "33",
                     "minutes": "45",
@@ -95,7 +95,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "run out (Friend)",
                     "runs": "40",
                     "balls": "78",
@@ -272,7 +272,7 @@
                     "strike_rate": "46.46"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "c Fahim Muntasir b Mashrafe Mortaza",
                     "runs": "6",
                     "balls": "10",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 5 wickets (with 46 balls remaining)"
+    "result": "Zimbabwe won by 5 wickets (with 46 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Al Sahariar",
+            "Mohammad Sharif",
+            "Mohammad Ashraful",
+            "Khaled Mahmud",
+            "Khaled Mashud(c) (wk)",
+            "Mashrafe Mortaza",
+            "Mohammad Rafique",
+            "Fahim Muntasir",
+            "Habibul Bashar",
+            "Tushar Imran",
+            "Sanuar Hossain"
+        ],
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Dougie Marillier",
+            "Travis Friend",
+            "Trevor Gripper",
+            "Dion Ebrahim",
+            "Gary Brent",
+            "Grant Flower",
+            "Andy Flower (wk)",
+            "Heath Streak",
+            "Stuart Carlisle(c)",
+            "Craig Wishart"
+        ]
+    }
 }

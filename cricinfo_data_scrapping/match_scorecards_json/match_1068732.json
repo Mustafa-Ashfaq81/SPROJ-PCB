@@ -59,7 +59,7 @@
                     "strike_rate": "108.33"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "b Ehsan Nawaz",
                     "runs": "12",
                     "balls": "9",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Max O'Dowd",
-                    "dismissal": "st Carter b Ehsan Khan",
+                    "dismissal": "st (wk)Carter b Ehsan Khan",
                     "runs": "9",
                     "balls": "8",
                     "minutes": "15",
@@ -250,8 +250,8 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Christopher Carter",
-                    "dismissal": "st Barresi b van der Merwe",
+                    "batsman": "Christopher Carter (wk)",
+                    "dismissal": "st (wk)Barresi b van der Merwe",
                     "runs": "24",
                     "balls": "64",
                     "minutes": "64",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Anshy Rath",
-                    "dismissal": "st Barresi b Rippon",
+                    "dismissal": "st (wk)Barresi b Rippon",
                     "runs": "85",
                     "balls": "84",
                     "minutes": "105",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Babar Hayat(c)",
-                    "dismissal": "run out (sub [Sikander Zulfiqar]/Barresi)",
+                    "dismissal": "run out (sub [Sikander Zulfiqar]/ (wk)Barresi)",
                     "runs": "86",
                     "balls": "80",
                     "minutes": "121",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 13 runs"
+    "result": "Netherlands won by 13 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Ben Cooper",
+            "Michael Rippon",
+            "Peter Borren(c)",
+            "Pieter Seelaar",
+            "Shane Snater",
+            "Paul van Meekeren",
+            "Roelof van der Merwe",
+            "Ahsan Malik",
+            "Max O'Dowd",
+            "Wesley Barresi (wk)",
+            "Stephan Myburgh"
+        ],
+        "Hong Kong": [
+            "Shahid Wasif",
+            "Christopher Carter (wk)",
+            "Aizaz Khan",
+            "Tanveer Ahmed",
+            "Waqas Khan",
+            "Babar Hayat(c)",
+            "Ehsan Khan",
+            "Ehsan Nawaz",
+            "Nadeem Ahmed",
+            "Anshy Rath",
+            "Nizakat Khan"
+        ]
+    }
 }

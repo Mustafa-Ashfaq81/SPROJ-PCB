@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c Taibu b Hondo",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "20",
                     "balls": "24",
                     "minutes": "30",
@@ -90,7 +90,7 @@
                     "strike_rate": "53.73"
                 },
                 {
-                    "batsman": "Ajay Ratra",
+                    "batsman": "Ajay Ratra (wk)",
                     "dismissal": "c Marillier b Flower",
                     "runs": "3",
                     "balls": "12",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Alistair Campbell",
-                    "dismissal": "st Ratra b Sarandeep Singh",
+                    "dismissal": "st (wk)Ratra b Sarandeep Singh",
                     "runs": "71",
                     "balls": "119",
                     "minutes": "167",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Grant Flower",
-                    "dismissal": "c Ratra b Agarkar",
+                    "dismissal": "c (wk)Ratra b Agarkar",
                     "runs": "49",
                     "balls": "88",
                     "minutes": "146",
@@ -297,7 +297,7 @@
                     "strike_rate": "141.66"
                 }
             ],
-            "did_not_bat": "Heath Streak , Dougie Marillier , Tatenda Taibu , Pommie Mbangwa , Douglas Hondo",
+            "did_not_bat": "Heath Streak , Dougie Marillier , Tatenda Taibu (wk) , Pommie Mbangwa , Douglas Hondo",
             "fall_of_wickets": "Fall of wickets : 1 - 13 ( Dion Ebrahim , 5.4 ov ) , 2 - 39 ( Travis Friend , 8.5 ov ) , 3 - 144 ( Alistair Campbell , 33.3 ov ) , 4 - 173 ( Grant Flower , 39.4 ov )",
             "bowling": [
                 {
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 6 wickets (with 34 balls remaining)"
+    "result": "Zimbabwe won by 6 wickets (with 34 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ajay Ratra (wk)",
+            "Rahul Dravid",
+            "Harbhajan Singh",
+            "Sanjay Bangar",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Sarandeep Singh",
+            "Dinesh Mongia",
+            "Sourav Ganguly(c)"
+        ],
+        "Zimbabwe": [
+            "Dougie Marillier",
+            "Travis Friend",
+            "Tatenda Taibu (wk)",
+            "Pommie Mbangwa",
+            "Dion Ebrahim",
+            "Douglas Hondo",
+            "Grant Flower",
+            "Alistair Campbell",
+            "Heath Streak",
+            "Stuart Carlisle(c)",
+            "Craig Wishart"
+        ]
+    }
 }

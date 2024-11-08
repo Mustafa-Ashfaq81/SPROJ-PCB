@@ -50,8 +50,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Taibu b Matsikenyeri",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Taibu b Matsikenyeri",
                     "runs": "28",
                     "balls": "58",
                     "minutes": "84",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Thilina Kandamby",
-                    "dismissal": "run out (Taibu)",
+                    "dismissal": "run out ( (wk)Taibu)",
                     "runs": "40",
                     "balls": "99",
                     "minutes": "114",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Muthiah Muralidaran",
-                    "dismissal": "run out (Taibu)",
+                    "dismissal": "run out ( (wk)Taibu)",
                     "runs": "5",
                     "balls": "3",
                     "minutes": "7",
@@ -271,7 +271,7 @@
                     "strike_rate": "27.77"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "lbw b Fernando",
                     "runs": "14",
                     "balls": "20",
@@ -465,5 +465,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 19 runs"
+    "result": "Sri Lanka won by 19 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chamara Kapugedera",
+            "Nuwan Kulasekara",
+            "Ajantha Mendis",
+            "Upul Tharanga",
+            "Kumar Sangakkara (wk)",
+            "Thilina Kandamby",
+            "Muthiah Muralidaran",
+            "Mahela Jayawardene(c)",
+            "Dilhara Fernando",
+            "Angelo Mathews",
+            "Jehan Mubarak"
+        ],
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Prosper Utseya(c)",
+            "Vusi Sibanda",
+            "Chamu Chibhabha",
+            "Ray Price",
+            "Tawanda Mupariwa",
+            "Tatenda Taibu (wk)",
+            "Keith Dabengwa",
+            "Ed Rainsford",
+            "Hamilton Masakadza",
+            "Stuart Matsikenyeri"
+        ]
+    }
 }

@@ -62,7 +62,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Mendis b Chameera",
                     "runs": "26",
                     "balls": "56",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Abul Hasan",
-                    "dismissal": "c Dickwella b Perera",
+                    "dismissal": "c (wk)Dickwella b Perera",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "-",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Nasir Hossain",
-                    "dismissal": "c Dickwella b Chameera",
+                    "dismissal": "c (wk)Dickwella b Chameera",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "-",
@@ -231,7 +231,7 @@
                     "strike_rate": "105.40"
                 }
             ],
-            "did_not_bat": "Kusal Mendis , Dinesh Chandimal (c) , Asela Gunaratne , Niroshan Dickwella , Thisara Perera , Suranga Lakmal , Lakshan Sandakan , Akila Dananjaya , Dushmantha Chameera",
+            "did_not_bat": "Kusal Mendis , Dinesh Chandimal (c) , Asela Gunaratne , Niroshan Dickwella (wk) , Thisara Perera , Suranga Lakmal , Lakshan Sandakan , Akila Dananjaya , Dushmantha Chameera",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -307,5 +307,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 10 wickets (with 229 balls remaining)"
+    "result": "Sri Lanka won by 10 wickets (with 229 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)",
+            "Sabbir Rahman",
+            "Rubel Hossain",
+            "Abul Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mustafizur Rahman",
+            "Anamul Haque",
+            "Nasir Hossain",
+            "Shakib Al Hasan",
+            "Mahmudullah"
+        ],
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Upul Tharanga",
+            "Dinesh Chandimal (c)",
+            "Dushmantha Chameera",
+            "Thisara Perera",
+            "Niroshan Dickwella (wk)",
+            "Lakshan Sandakan",
+            "Danushka Gunathilaka",
+            "Kusal Mendis",
+            "Suranga Lakmal",
+            "Asela Gunaratne"
+        ]
+    }
 }

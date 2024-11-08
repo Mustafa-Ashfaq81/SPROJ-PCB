@@ -40,7 +40,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Southee b Boult",
                     "runs": "14",
                     "balls": "17",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "82",
                     "balls": "107",
                     "minutes": "155",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "49",
                     "balls": "18",
                     "minutes": "23",
@@ -212,7 +212,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "run out (Amla/de Kock)",
+                    "dismissal": "run out (Amla/ (wk)de Kock)",
                     "runs": "34",
                     "balls": "38",
                     "minutes": "80",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c de Kock b Duminy",
+                    "dismissal": "c (wk)de Kock b Duminy",
                     "runs": "30",
                     "balls": "39",
                     "minutes": "57",
@@ -271,7 +271,7 @@
                     "strike_rate": "101.75"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Rossouw b Steyn",
                     "runs": "8",
                     "balls": "7",
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 1 ball remaining) (D/L method)"
+    "result": "New Zealand won by 4 wickets (with 1 ball remaining) (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Rilee Rossouw",
+            "Vernon Philander",
+            "Dale Steyn",
+            "Hashim Amla",
+            "AB de Villiers(c)",
+            "Faf du Plessis",
+            "Imran Tahir",
+            "David Miller",
+            "Morne Morkel",
+            "Jean-Paul Duminy"
+        ],
+        "New Zealand": [
+            "Brendon McCullum(c)",
+            "Martin Guptill",
+            "Tim Southee",
+            "Kane Williamson",
+            "Corey Anderson",
+            "Trent Boult",
+            "Luke Ronchi (wk)",
+            "Daniel Vettori",
+            "Ross Taylor",
+            "Grant Elliott",
+            "Matt Henry"
+        ]
+    }
 }

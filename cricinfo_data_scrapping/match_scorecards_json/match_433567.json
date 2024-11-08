@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "13",
                     "balls": "23",
                     "minutes": "24",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "run out (Jayawardene/Sangakkara/Herath)",
+                    "dismissal": "run out (Jayawardene/ (wk)Sangakkara/Herath)",
                     "runs": "32",
                     "balls": "31",
                     "minutes": "63",
@@ -51,8 +51,8 @@
                     "strike_rate": "103.22"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "st Sangakkara b Herath",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "st (wk)Sangakkara b Herath",
                     "runs": "39",
                     "balls": "48",
                     "minutes": "68",
@@ -228,7 +228,7 @@
                     "strike_rate": "74.54"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Ahmed Shehzad b Shahid Afridi",
                     "runs": "49",
                     "balls": "61",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Thilan Samaraweera",
-                    "dismissal": "st Kamran Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "6",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Chamara Silva",
-                    "dismissal": "st Kamran Akmal b Abdur Rehman",
+                    "dismissal": "st (wk)Kamran Akmal b Abdur Rehman",
                     "runs": "57",
                     "balls": "78",
                     "minutes": "115",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 11 runs"
+    "result": "Pakistan won by 11 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Mohammad Hafeez",
+            "Shahid Afridi(c)",
+            "Ahmed Shehzad",
+            "Misbah-ul-Haq",
+            "Abdur Rehman",
+            "Umar Akmal",
+            "Younis Khan",
+            "Abdul Razzaq"
+        ],
+        "Sri Lanka": [
+            "Angelo Mathews",
+            "Rangana Herath",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara(c) (wk)",
+            "Thisara Perera",
+            "Chamara Silva",
+            "Nuwan Kulasekara",
+            "Muthiah Muralidaran",
+            "Thilan Samaraweera",
+            "Upul Tharanga"
+        ]
+    }
 }

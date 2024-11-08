@@ -69,7 +69,7 @@
                 },
                 {
                     "batsman": "Bas de Leede",
-                    "dismissal": "c Sah b Sompal Kami",
+                    "dismissal": "c (wk)Sah b Sompal Kami",
                     "runs": "39",
                     "balls": "91",
                     "minutes": "122",
@@ -88,7 +88,7 @@
                     "strike_rate": "54.34"
                 },
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "lbw b Rajbanshi",
                     "runs": "25",
                     "balls": "27",
@@ -245,7 +245,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Anil Sah",
+                    "batsman": "Anil Sah (wk)",
                     "dismissal": "c Cooper b van der Merwe",
                     "runs": "8",
                     "balls": "30",
@@ -316,7 +316,7 @@
                 },
                 {
                     "batsman": "Karan KC",
-                    "dismissal": "c Edwards b van der Merwe",
+                    "dismissal": "c (wk)Edwards b van der Merwe",
                     "runs": "13",
                     "balls": "24",
                     "minutes": "22",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 45 runs"
+    "result": "Netherlands won by 45 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Peter Borren(c)",
+            "Wesley Barresi",
+            "Ben Cooper",
+            "Pieter Seelaar",
+            "Max O'Dowd",
+            "Roelof van der Merwe",
+            "Timm van der Gugten",
+            "Shane Snater",
+            "Bas de Leede",
+            "Fred Klaassen",
+            "Scott Edwards (wk)"
+        ],
+        "Nepal": [
+            "Gyanendra Malla",
+            "Anil Sah (wk)",
+            "Aarif Sheikh",
+            "Dipendra Singh Airee",
+            "Shakti Gauchan",
+            "Paras Khadka(c)",
+            "Rohit Paudel",
+            "Karan KC",
+            "Sompal Kami",
+            "Sandeep Lamichhane",
+            "Lalit Rajbanshi"
+        ]
+    }
 }

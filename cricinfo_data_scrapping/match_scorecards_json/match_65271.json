@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Feiko Kloppenburg",
-                    "dismissal": "c van Schoor b Snyman",
+                    "dismissal": "c (wk)van Schoor b Snyman",
                     "runs": "121",
                     "balls": "142",
                     "minutes": "182",
@@ -91,7 +91,7 @@
                     "strike_rate": "160.00"
                 }
             ],
-            "did_not_bat": "Daan van Bunge , Henk-Jan Mol , Jacob-Jan Esmeijer , Jeroen Smits , Adeel Raja",
+            "did_not_bat": "Daan van Bunge , Henk-Jan Mol , Jacob-Jan Esmeijer , Jeroen Smits (wk) , Adeel Raja",
             "fall_of_wickets": "Fall of wickets : 1 - 25 ( Edgar Schiferli , 5.4 ov ) , 2 - 253 ( Feiko Kloppenburg , 43.6 ov ) , 3 - 270 ( Bas Zuiderent , 46.2 ov ) , 4 - 270 ( Tim de Leede , 46.3 ov )",
             "bowling": [
                 {
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Sarel Burger",
-                    "dismissal": "st Smits b Adeel Raja",
+                    "dismissal": "st (wk)Smits b Adeel Raja",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "10",
@@ -282,7 +282,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Melt van Schoor",
+                    "batsman": "Melt van Schoor (wk)",
                     "dismissal": "b Adeel Raja",
                     "runs": "15",
                     "balls": "13",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 64 runs"
+    "result": "Netherlands won by 64 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Jeroen Smits (wk)",
+            "Bas Zuiderent",
+            "Edgar Schiferli",
+            "Klaas-Jan van Noortwijk",
+            "Luuk van Troost(c)",
+            "Henk-Jan Mol",
+            "Jacob-Jan Esmeijer",
+            "Adeel Raja",
+            "Daan van Bunge",
+            "Feiko Kloppenburg",
+            "Tim de Leede"
+        ],
+        "Namibia": [
+            "Louis Burger",
+            "Sarel Burger",
+            "Burton van Rooi",
+            "Rudi van Vuuren",
+            "Gerrie Snyman",
+            "Gavin Murgatroyd",
+            "Morne Karg",
+            "Jan-Berrie Burger",
+            "Deon Kotze(c)",
+            "Danie Keulder",
+            "Melt van Schoor (wk)"
+        ]
+    }
 }

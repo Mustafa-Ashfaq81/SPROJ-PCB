@@ -80,7 +80,7 @@
                     "strike_rate": "203.84"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "run out (Vaas)",
                     "runs": "1",
                     "balls": "2",
@@ -241,7 +241,7 @@
                     "strike_rate": "143.75"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Gibbs b Donald",
                     "runs": "10",
                     "balls": "10",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "12",
                     "balls": "24",
                     "minutes": "46",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "3",
                     "balls": "15",
                     "minutes": "13",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Upul Chandana",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "15",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Hasantha Fernando",
-                    "dismissal": "st Boucher b Boje",
+                    "dismissal": "st (wk)Boucher b Boje",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "23",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 177 runs"
+    "result": "South Africa won by 177 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Shaun Pollock(c)",
+            "Makhaya Ntini",
+            "Allan Donald",
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Graeme Smith",
+            "Andrew Hall",
+            "Boeta Dippenaar",
+            "Jonty Rhodes",
+            "Herschelle Gibbs"
+        ],
+        "Sri Lanka": [
+            "Upul Chandana",
+            "Pulasthi Gunaratne",
+            "Sanath Jayasuriya(c)",
+            "Kumar Sangakkara (wk)",
+            "Aravinda de Silva",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Dilhara Fernando",
+            "Marvan Atapattu",
+            "Russel Arnold",
+            "Hasantha Fernando"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "18",
                     "balls": "42",
                     "minutes": "64",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Zunaed Siddique",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "11",
@@ -51,7 +51,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Kulasekara",
                     "runs": "4",
                     "balls": "8",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful(c)",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "13",
                     "balls": "25",
                     "minutes": "30",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Sangakkara b Thushara",
+                    "dismissal": "c (wk)Sangakkara b Thushara",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "37",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Mushfiqur Rahim b Nazmul Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Nazmul Hossain",
                     "runs": "2",
                     "balls": "16",
                     "minutes": "25",
@@ -258,7 +258,7 @@
                     "strike_rate": "-"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c & b Shakib Al Hasan",
                     "runs": "59",
                     "balls": "133",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Mushfiqur Rahim b Nazmul Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Nazmul Hossain",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 wickets (with 11 balls remaining)"
+    "result": "Sri Lanka won by 2 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Zunaed Siddique",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Rubel Hossain",
+            "Nazmul Hossain",
+            "Naeem Islam",
+            "Raqibul Hasan"
+        ],
+        "Sri Lanka": [
+            "Farveez Maharoof",
+            "Chamara Kapugedera",
+            "Nuwan Kulasekara",
+            "Ajantha Mendis",
+            "Upul Tharanga",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Muthiah Muralidaran",
+            "Mahela Jayawardene(c)",
+            "Thilan Thushara",
+            "Jehan Mubarak"
+        ]
+    }
 }

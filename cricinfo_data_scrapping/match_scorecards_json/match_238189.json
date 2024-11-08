@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Dhoni b Powar",
+                    "dismissal": "c (wk)Dhoni b Powar",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "5",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Andrew Flintoff(c)",
-                    "dismissal": "st Dhoni b Powar",
+                    "dismissal": "st (wk)Dhoni b Powar",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "13",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "run out (Dhoni)",
+                    "dismissal": "run out ( (wk)Dhoni)",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "23",
@@ -90,7 +90,7 @@
                     "strike_rate": "38.46"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Gambhir b Sreesanth",
                     "runs": "22",
                     "balls": "29",
@@ -311,7 +311,7 @@
                     "strike_rate": "91.01"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b Flintoff",
                     "runs": "38",
                     "balls": "55",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 6 balls remaining)"
+    "result": "India won by 4 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Liam Plunkett",
+            "Owais Shah",
+            "Andrew Flintoff(c)",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "James Anderson",
+            "Andrew Strauss",
+            "Geraint Jones (wk)",
+            "Kabir Ali",
+            "Ian Blackwell",
+            "Matt Prior"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Harbhajan Singh",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "MS Dhoni (wk)",
+            "Gautam Gambhir",
+            "Sreesanth",
+            "Ramesh Powar",
+            "Virender Sehwag",
+            "Suresh Raina",
+            "Yuvraj Singh"
+        ]
+    }
 }

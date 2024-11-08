@@ -84,7 +84,7 @@
                     "strike_rate": "102.02"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Mire b Panyangara",
                     "runs": "65",
                     "balls": "72",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "15",
                     "balls": "22",
                     "minutes": "33",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "54",
                     "balls": "72",
                     "minutes": "90",
@@ -289,7 +289,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Regis Chakabva",
+                    "batsman": "Regis Chakabva (wk)",
                     "dismissal": "b Mahmudullah",
                     "runs": "9",
                     "balls": "17",
@@ -477,5 +477,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 87 runs"
+    "result": "Bangladesh won by 87 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Arafat Sunny",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Al-Amin Hossain",
+            "Anamul Haque",
+            "Sabbir Rahman",
+            "Mushfiqur Rahim (wk)",
+            "Mominul Haque"
+        ],
+        "Zimbabwe": [
+            "Elton Chigumbura(c)",
+            "Tendai Chatara",
+            "Regis Chakabva (wk)",
+            "Brendan Taylor",
+            "Vusi Sibanda",
+            "Tafadzwa Kamungozi",
+            "Tinashe Panyangara",
+            "Hamilton Masakadza",
+            "Solomon Mire",
+            "Sikandar Raza",
+            "John Nyumbu"
+        ]
+    }
 }

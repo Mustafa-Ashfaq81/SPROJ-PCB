@@ -41,8 +41,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tim Paine",
-                    "dismissal": "c Walton b Bernard",
+                    "batsman": "Tim Paine (wk)",
+                    "dismissal": "c (wk)Walton b Bernard",
                     "runs": "33",
                     "balls": "59",
                     "minutes": "85",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "st Walton b Miller",
+                    "dismissal": "st (wk)Walton b Miller",
                     "runs": "79",
                     "balls": "95",
                     "minutes": "129",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "James Hopes",
-                    "dismissal": "c Walton b Sammy",
+                    "dismissal": "c (wk)Walton b Sammy",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "18",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Brett Lee",
-                    "dismissal": "run out (Walton/Sammy)",
+                    "dismissal": "run out ( (wk)Walton/Sammy)",
                     "runs": "25",
                     "balls": "28",
                     "minutes": "42",
@@ -215,7 +215,7 @@
             "batting": [
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "c Paine b Siddle",
+                    "dismissal": "c (wk)Paine b Siddle",
                     "runs": "17",
                     "balls": "16",
                     "minutes": "25",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Travis Dowlin",
-                    "dismissal": "c Paine b Lee",
+                    "dismissal": "c (wk)Paine b Lee",
                     "runs": "55",
                     "balls": "87",
                     "minutes": "134",
@@ -244,7 +244,7 @@
                     "strike_rate": "63.21"
                 },
                 {
-                    "batsman": "Chadwick Walton",
+                    "batsman": "Chadwick Walton (wk)",
                     "dismissal": "b Hopes",
                     "runs": "0",
                     "balls": "2",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "Australia won by 50 runs"
+    "result": "Australia won by 50 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Peter Siddle",
+            "Brett Lee",
+            "Callum Ferguson",
+            "Michael Hussey",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Nathan Hauritz",
+            "Mitchell Johnson"
+        ],
+        "West Indies": [
+            "Travis Dowlin",
+            "Andre Fletcher",
+            "Chadwick Walton (wk)",
+            "Devon Smith",
+            "Gavin Tonge",
+            "Kemar Roach",
+            "David Bernard",
+            "Dale Richards",
+            "Floyd Reifer(c)",
+            "Nikita Miller",
+            "Daren Sammy"
+        ]
+    }
 }

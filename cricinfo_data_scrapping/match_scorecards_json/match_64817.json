@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "19",
                     "balls": "41",
                     "minutes": "74",
@@ -90,7 +90,7 @@
                     "strike_rate": "39.39"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Kumble",
                     "runs": "35",
                     "balls": "73",
@@ -224,7 +224,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -263,8 +263,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
-                    "dismissal": "c McCullum b Styris",
+                    "batsman": "Rahul Dravid (wk)",
+                    "dismissal": "c (wk)McCullum b Styris",
                     "runs": "7",
                     "balls": "41",
                     "minutes": "72",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "India won by 2 wickets (with 40 balls remaining)"
+    "result": "India won by 2 wickets (with 40 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Mathew Sinclair",
+            "Scott Styris",
+            "Brendon McCullum (wk)",
+            "Chris Harris",
+            "Andre Adams",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Chris Cairns",
+            "Daryl Tuffey",
+            "Nathan Astle"
+        ],
+        "India": [
+            "Anil Kumble",
+            "Dinesh Mongia",
+            "Rahul Dravid (wk)",
+            "Zaheer Khan",
+            "Sachin Tendulkar",
+            "Mohammad Kaif",
+            "Javagal Srinath",
+            "Yuvraj Singh",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag"
+        ]
+    }
 }

@@ -47,7 +47,7 @@
                 },
                 {
                     "batsman": "Kenny Carroll",
-                    "dismissal": "c Karthik b Sreesanth",
+                    "dismissal": "c (wk)Karthik b Sreesanth",
                     "runs": "7",
                     "balls": "14",
                     "minutes": "20",
@@ -66,7 +66,7 @@
                     "strike_rate": "52.94"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Sharma b Singh",
                     "runs": "52",
                     "balls": "79",
@@ -97,7 +97,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "c Karthik b Chawla",
+                    "dismissal": "c (wk)Karthik b Chawla",
                     "runs": "8",
                     "balls": "28",
                     "minutes": "29",
@@ -137,7 +137,7 @@
                 },
                 {
                     "batsman": "Roger Whelan",
-                    "dismissal": "st Karthik b Tendulkar",
+                    "dismissal": "st (wk)Karthik b Tendulkar",
                     "runs": "5",
                     "balls": "5",
                     "minutes": "3",
@@ -273,7 +273,7 @@
                     "strike_rate": "74.76"
                 }
             ],
-            "did_not_bat": "Rahul Dravid (c) , Yuvraj Singh , Dinesh Karthik , Rohit Sharma , Ajit Agarkar , RP Singh , Piyush Chawla , Sreesanth",
+            "did_not_bat": "Rahul Dravid (c) , Yuvraj Singh , Dinesh Karthik (wk) , Rohit Sharma , Ajit Agarkar , RP Singh , Piyush Chawla , Sreesanth",
             "fall_of_wickets": "Fall of wickets : 1 - 9 ( Sachin Tendulkar , 0.6 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 25 balls remaining) (D/L method)"
+    "result": "India won by 9 wickets (with 25 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Ireland": [
+            "Andrew White",
+            "Kyle McCallan",
+            "Gary Wilson",
+            "Kenny Carroll",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Kevin O'Brien",
+            "William Porterfield",
+            "Dom Joyce",
+            "Thinus Fourie",
+            "Roger Whelan"
+        ],
+        "India": [
+            "Dinesh Karthik (wk)",
+            "Rahul Dravid (c)",
+            "Sourav Ganguly",
+            "Piyush Chawla",
+            "RP Singh",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Ajit Agarkar",
+            "Sachin Tendulkar",
+            "Sreesanth",
+            "Rohit Sharma"
+        ]
+    }
 }

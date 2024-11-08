@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c de Kock b Pretorius",
+                    "dismissal": "c (wk)de Kock b Pretorius",
                     "runs": "31",
                     "balls": "43",
                     "minutes": "62",
@@ -44,7 +44,7 @@
                     "strike_rate": "72.09"
                 },
                 {
-                    "batsman": "Litton Das",
+                    "batsman": "Litton Das (wk)",
                     "dismissal": "c du Plessis b Rabada",
                     "runs": "21",
                     "balls": "29",
@@ -211,7 +211,7 @@
             "extras": "4",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "not out",
                     "runs": "168",
                     "balls": "145",
@@ -335,5 +335,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 10 wickets (with 43 balls remaining)"
+    "result": "South Africa won by 10 wickets (with 43 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mashrafe Mortaza (c)",
+            "Mahmudullah",
+            "Mohammad Saifuddin",
+            "Shakib Al Hasan",
+            "Litton Das (wk)",
+            "Sabbir Rahman",
+            "Rubel Hossain",
+            "Nasir Hossain",
+            "Taskin Ahmed",
+            "Mushfiqur Rahim",
+            "Imrul Kayes"
+        ],
+        "South Africa": [
+            "AB de Villiers",
+            "Dwaine Pretorius",
+            "Andile Phehlukwayo",
+            "Dane Paterson",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Hashim Amla",
+            "Faf du Plessis (c)",
+            "David Miller",
+            "Imran Tahir",
+            "Jean-Paul Duminy"
+        ]
+    }
 }

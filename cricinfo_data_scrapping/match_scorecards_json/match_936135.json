@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "31",
                     "balls": "25",
                     "minutes": "28",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Travis Head",
-                    "dismissal": "st de Kock b Imran Tahir",
+                    "dismissal": "st (wk)de Kock b Imran Tahir",
                     "runs": "18",
                     "balls": "18",
                     "minutes": "25",
@@ -90,7 +90,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "run out (Miller)",
                     "runs": "5",
                     "balls": "10",
@@ -237,7 +237,7 @@
             "extras": "4",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Head b Boland",
                     "runs": "178",
                     "balls": "113",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 82 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 82 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "George Bailey",
+            "Scott Boland",
+            "Aaron Finch",
+            "Matthew Wade (wk)",
+            "David Warner",
+            "Mitchell Marsh",
+            "Adam Zampa",
+            "Daniel Worrall",
+            "Travis Head",
+            "John Hastings"
+        ],
+        "South Africa": [
+            "David Miller",
+            "Rilee Rossouw",
+            "Wayne Parnell",
+            "Dale Steyn",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Andile Phehlukwayo",
+            "Farhaan Behardien",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis(c)",
+            "Kagiso Rabada"
+        ]
+    }
 }

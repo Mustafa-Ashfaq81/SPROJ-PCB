@@ -30,7 +30,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Mosaddek Hossain b Nasum Ahmed",
                     "runs": "18",
                     "balls": "45",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Akeal Hosein",
-                    "dismissal": "run out (Mustafizur Rahman/Nurul Hasan)",
+                    "dismissal": "run out (Mustafizur Rahman/ (wk)Nurul Hasan)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "12",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Alzarri Joseph",
-                    "dismissal": "c Nurul Hasan b Mehidy Hasan Miraz",
+                    "dismissal": "c (wk)Nurul Hasan b Mehidy Hasan Miraz",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -253,7 +253,7 @@
                     "strike_rate": "118.51"
                 }
             ],
-            "did_not_bat": "Mahmudullah , Afif Hossain , Nurul Hasan , Mehidy Hasan Miraz , Mosaddek Hossain , Nasum Ahmed , Shoriful Islam , Mustafizur Rahman",
+            "did_not_bat": "Mahmudullah , Afif Hossain , Nurul Hasan (wk) , Mehidy Hasan Miraz , Mosaddek Hossain , Nasum Ahmed , Shoriful Islam , Mustafizur Rahman",
             "fall_of_wickets": "Fall of wickets : 1 - 48 ( Najmul Hossain Shanto , 12.1 ov )",
             "bowling": [
                 {
@@ -329,5 +329,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 9 wickets (with 176 balls remaining)"
+    "result": "Bangladesh won by 9 wickets (with 176 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Gudakesh Motie",
+            "Nicholas Pooran(c)",
+            "Rovman Powell",
+            "Romario Shepherd",
+            "Shai Hope (wk)",
+            "Brandon King",
+            "Shamarh Brooks",
+            "Keemo Paul",
+            "Kyle Mayers",
+            "Akeal Hosein",
+            "Alzarri Joseph"
+        ],
+        "Bangladesh": [
+            "Mehidy Hasan Miraz",
+            "Mustafizur Rahman",
+            "Afif Hossain",
+            "Litton Das",
+            "Mosaddek Hossain",
+            "Nurul Hasan (wk)",
+            "Mahmudullah",
+            "Shoriful Islam",
+            "Nasum Ahmed",
+            "Tamim Iqbal(c)",
+            "Najmul Hossain Shanto"
+        ]
+    }
 }

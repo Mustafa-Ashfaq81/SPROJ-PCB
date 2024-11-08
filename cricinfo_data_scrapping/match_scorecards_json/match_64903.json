@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Avishka Gunawardene",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "21",
                     "balls": "27",
                     "minutes": "41",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu(c)",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "26",
                     "balls": "36",
                     "minutes": "58",
@@ -60,7 +60,7 @@
                     "strike_rate": "72.22"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Dawson/Pollock)",
                     "runs": "63",
                     "balls": "83",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "0",
                     "balls": "12",
                     "minutes": "17",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Jacques Rudolph",
-                    "dismissal": "c Sangakkara b Zoysa",
+                    "dismissal": "c (wk)Sangakkara b Zoysa",
                     "runs": "4",
                     "balls": "16",
                     "minutes": "23",
@@ -287,7 +287,7 @@
                     "strike_rate": "69.23"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Jayawardene b Lokuarachchi",
                     "runs": "4",
                     "balls": "14",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 37 runs"
+    "result": "Sri Lanka won by 37 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Nuwan Zoysa",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Kaushal Lokuarachchi",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Avishka Gunawardene"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Alan Dawson",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Lance Klusener",
+            "Jacques Kallis"
+        ]
+    }
 }

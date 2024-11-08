@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "run out (Thakur/Rahul)",
+                    "dismissal": "run out (Thakur/ (wk)Rahul)",
                     "runs": "79",
                     "balls": "79",
                     "minutes": "123",
@@ -73,7 +73,7 @@
                     "strike_rate": "98.64"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "lbw b Jadeja",
                     "runs": "7",
                     "balls": "14",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Shreyas Iyer",
-                    "dismissal": "c Latham b Bennett",
+                    "dismissal": "c (wk)Latham b Bennett",
                     "runs": "52",
                     "balls": "57",
                     "minutes": "101",
@@ -256,7 +256,7 @@
                     "strike_rate": "91.22"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "b de Grandhomme",
                     "runs": "4",
                     "balls": "8",
@@ -307,7 +307,7 @@
                 },
                 {
                     "batsman": "Yuzvendra Chahal",
-                    "dismissal": "run out (Neesham/Latham)",
+                    "dismissal": "run out (Neesham/ (wk)Latham)",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "19",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 22 runs"
+    "result": "New Zealand won by 22 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Kyle Jamieson",
+            "Henry Nicholls",
+            "Colin de Grandhomme",
+            "James Neesham",
+            "Hamish Bennett",
+            "Mark Chapman",
+            "Ross Taylor",
+            "Tim Southee",
+            "Tom Blundell",
+            "Tom Latham(c) (wk)",
+            "Martin Guptill"
+        ],
+        "India": [
+            "Shreyas Iyer",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kedar Jadhav",
+            "Navdeep Saini",
+            "Mayank Agarwal",
+            "Yuzvendra Chahal",
+            "Prithvi Shaw",
+            "KL Rahul (wk)",
+            "Shardul Thakur",
+            "Virat Kohli(c)"
+        ]
+    }
 }

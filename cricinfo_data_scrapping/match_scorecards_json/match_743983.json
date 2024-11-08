@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Aaron Finch",
-                    "dismissal": "c Bairstow b Willey",
+                    "dismissal": "c (wk)Bairstow b Willey",
                     "runs": "15",
                     "balls": "27",
                     "minutes": "37",
@@ -93,7 +93,7 @@
                     "strike_rate": "70.83"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "not out",
                     "runs": "50",
                     "balls": "26",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "James Taylor",
-                    "dismissal": "c Wade b Marsh",
+                    "dismissal": "c (wk)Wade b Marsh",
                     "runs": "41",
                     "balls": "42",
                     "minutes": "60",
@@ -270,8 +270,8 @@
                     "strike_rate": "75.92"
                 },
                 {
-                    "batsman": "Jonny Bairstow",
-                    "dismissal": "c Wade b Maxwell",
+                    "batsman": "Jonny Bairstow (wk)",
+                    "dismissal": "c (wk)Wade b Maxwell",
                     "runs": "31",
                     "balls": "27",
                     "minutes": "43",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 10 balls remaining)"
+    "result": "England won by 3 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Matthew Wade (wk)",
+            "George Bailey",
+            "Pat Cummins",
+            "Joe Burns",
+            "John Hastings",
+            "Glenn Maxwell",
+            "Mitchell Marsh",
+            "Steven Smith(c)",
+            "Marcus Stoinis",
+            "James Pattinson",
+            "Aaron Finch"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Ben Stokes",
+            "James Taylor",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Mark Wood",
+            "David Willey",
+            "Adil Rashid",
+            "Alex Hales",
+            "Jonny Bairstow (wk)",
+            "Jason Roy"
+        ]
+    }
 }

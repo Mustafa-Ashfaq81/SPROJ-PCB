@@ -88,7 +88,7 @@
                     "strike_rate": "90.47"
                 },
                 {
-                    "batsman": "Jack Vare(c)",
+                    "batsman": "Jack Vare(c) (wk)",
                     "dismissal": "c & b Ahsan Malik",
                     "runs": "4",
                     "balls": "7",
@@ -250,7 +250,7 @@
             "batting": [
                 {
                     "batsman": "Stephan Myburgh",
-                    "dismissal": "c Vare b Soper",
+                    "dismissal": "c (wk)Vare b Soper",
                     "runs": "20",
                     "balls": "22",
                     "minutes": "-",
@@ -289,8 +289,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Wesley Barresi",
-                    "dismissal": "st Vare b Vala",
+                    "batsman": "Wesley Barresi (wk)",
+                    "dismissal": "st (wk)Vare b Vala",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "-",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 5 wickets (with 35 balls remaining) (D/L method)"
+    "result": "Netherlands won by 5 wickets (with 35 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Papua New Guinea": [
+            "Chad Soper",
+            "Willie Gavera",
+            "Charles Amini",
+            "John Reva",
+            "Tony Ura",
+            "Lega Siaka",
+            "Mahuru Dai",
+            "Assad Vala",
+            "Vani Morea",
+            "Loa Nou",
+            "Jack Vare(c) (wk)"
+        ],
+        "Netherlands": [
+            "Pieter Seelaar",
+            "Ben Cooper",
+            "Peter Borren(c)",
+            "Timm van der Gugten",
+            "Michael Rippon",
+            "Paul van Meekeren",
+            "Mudassar Bukhari",
+            "Wesley Barresi (wk)",
+            "Michael Swart",
+            "Stephan Myburgh",
+            "Ahsan Malik"
+        ]
+    }
 }

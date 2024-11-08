@@ -31,7 +31,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Nasum Ahmed b Hasan Mahmud",
                     "runs": "174",
                     "balls": "140",
@@ -213,7 +213,7 @@
             "batting": [
                 {
                     "batsman": "Tanzid Hasan",
-                    "dismissal": "c Klaasen b Jansen",
+                    "dismissal": "c (wk)Klaasen b Jansen",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "30",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Najmul Hossain Shanto",
-                    "dismissal": "c Klaasen b Jansen",
+                    "dismissal": "c (wk)Klaasen b Jansen",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "c Klaasen b Williams",
+                    "dismissal": "c (wk)Klaasen b Williams",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "4",
@@ -252,7 +252,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c sub (AL Phehlukwayo) b Coetzee",
                     "runs": "8",
                     "balls": "17",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 149 runs"
+    "result": "South Africa won by 149 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Aiden Markram(c)",
+            "Marco Jansen",
+            "Keshav Maharaj",
+            "Quinton de Kock (wk)",
+            "Kagiso Rabada",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Reeza Hendricks",
+            "Rassie van der Dussen",
+            "Gerald Coetzee",
+            "Lizaad Williams"
+        ],
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Mahmudullah",
+            "Tanzid Hasan",
+            "Hasan Mahmud",
+            "Mustafizur Rahman",
+            "Shoriful Islam",
+            "Najmul Hossain Shanto",
+            "Shakib Al Hasan(c)",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Nasum Ahmed"
+        ]
+    }
 }

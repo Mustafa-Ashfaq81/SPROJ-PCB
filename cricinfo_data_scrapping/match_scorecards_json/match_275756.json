@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Taylor b Chigumbura",
+                    "dismissal": "c (wk)Taylor b Chigumbura",
                     "runs": "11",
                     "balls": "17",
                     "minutes": "24",
@@ -73,7 +73,7 @@
                     "strike_rate": "64.70"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Williams b Brent",
                     "runs": "42",
                     "balls": "68",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar(c)",
-                    "dismissal": "run out (Mpofu/Taylor)",
+                    "dismissal": "run out (Mpofu/ (wk)Taylor)",
                     "runs": "31",
                     "balls": "53",
                     "minutes": "57",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Mohammad Sharif",
-                    "dismissal": "run out (Chigumbura/Ireland/Taylor)",
+                    "dismissal": "run out (Chigumbura/Ireland/ (wk)Taylor)",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "14",
@@ -255,7 +255,7 @@
             "batting": [
                 {
                     "batsman": "Terry Duffin",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "37",
                     "balls": "55",
                     "minutes": "79",
@@ -294,7 +294,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "run out (Shakib Al Hasan)",
                     "runs": "13",
                     "balls": "30",
@@ -325,7 +325,7 @@
                 },
                 {
                     "batsman": "Gary Brent",
-                    "dismissal": "run out (Shakib Al Hasan/Mushfiqur Rahim)",
+                    "dismissal": "run out (Shakib Al Hasan/ (wk)Mushfiqur Rahim)",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "20",
@@ -454,5 +454,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 14 runs"
+    "result": "Bangladesh won by 14 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mashrafe Mortaza",
+            "Mushfiqur Rahim (wk)",
+            "Abdur Razzak",
+            "Habibul Bashar(c)",
+            "Mohammad Ashraful",
+            "Aftab Ahmed",
+            "Shahriar Nafees",
+            "Mohammad Sharif",
+            "Shakib Al Hasan",
+            "Tapash Baisya"
+        ],
+        "Zimbabwe": [
+            "Terry Duffin",
+            "Elton Chigumbura",
+            "Vusi Sibanda",
+            "Prosper Utseya(c)",
+            "Brendan Taylor (wk)",
+            "Anthony Ireland",
+            "Gary Brent",
+            "Chris Mpofu",
+            "Keith Dabengwa",
+            "Hamilton Masakadza",
+            "Sean Williams"
+        ]
+    }
 }

@@ -64,7 +64,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Wright b Bresnan",
                     "runs": "76",
                     "balls": "88",
@@ -212,7 +212,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "60",
                     "balls": "61",
                     "minutes": "101",
@@ -261,7 +261,7 @@
                     "strike_rate": "105.76"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "lbw b Abdur Razzak",
                     "runs": "42",
                     "balls": "58",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "England won by 2 wickets (with 7 balls remaining)"
+    "result": "England won by 2 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Sohrawordi Shuvo",
+            "Rubel Hossain",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Shakib Al Hasan(c)",
+            "Imrul Kayes",
+            "Aftab Ahmed",
+            "Abdur Razzak",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ],
+        "England": [
+            "Stuart Broad",
+            "James Tredwell",
+            "Kevin Pietersen",
+            "Tim Bresnan",
+            "Paul Collingwood",
+            "Alastair Cook(c)",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Craig Kieswetter",
+            "Matt Prior (wk)",
+            "Luke Wright"
+        ]
+    }
 }

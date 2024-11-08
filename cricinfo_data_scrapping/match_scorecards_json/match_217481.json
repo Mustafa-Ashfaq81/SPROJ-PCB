@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Venugopal Rao",
-                    "dismissal": "c Taibu b Streak",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -82,7 +82,7 @@
                     "strike_rate": "74.64"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Mahwire b Ireland",
                     "runs": "56",
                     "balls": "46",
@@ -249,7 +249,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "c Ganguly b Pathan",
                     "runs": "4",
                     "balls": "12",
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "India won by 161 runs"
+    "result": "India won by 161 runs",
+    "playing_xi": {
+        "India": [
+            "Rahul Dravid",
+            "Ashish Nehra",
+            "Venugopal Rao",
+            "Irfan Pathan",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Ajit Agarkar",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh",
+            "MS Dhoni (wk)",
+            "Jai Prakash Yadav"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Blessing Mahwire",
+            "Gavin Ewing",
+            "Hamilton Masakadza",
+            "Stuart Carlisle",
+            "Charles Coventry",
+            "Tatenda Taibu(c) (wk)",
+            "Andy Blignaut",
+            "Prosper Utseya",
+            "Vusi Sibanda",
+            "Heath Streak"
+        ]
+    }
 }

@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Kieswetter b Dernbach",
+                    "dismissal": "c (wk)Kieswetter b Dernbach",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "7",
@@ -104,8 +104,8 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "Adnan Akmal",
-                    "dismissal": "run out (Patel/Kieswetter)",
+                    "batsman": "Adnan Akmal (wk)",
+                    "dismissal": "run out (Patel/ (wk)Kieswetter)",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "4",
@@ -291,8 +291,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
-                    "dismissal": "run out (Azhar Ali/Adnan Akmal)",
+                    "batsman": "Craig Kieswetter (wk)",
+                    "dismissal": "run out (Azhar Ali/ (wk)Adnan Akmal)",
                     "runs": "43",
                     "balls": "62",
                     "minutes": "83",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 4 balls remaining)"
+    "result": "England won by 4 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Adnan Akmal (wk)",
+            "Abdur Rehman",
+            "Junaid Khan",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Umar Akmal",
+            "Mohammad Hafeez",
+            "Azhar Ali"
+        ],
+        "England": [
+            "Alastair Cook(c)",
+            "Jos Buttler",
+            "Tim Bresnan",
+            "Danny Briggs",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Kevin Pietersen",
+            "Samit Patel",
+            "Craig Kieswetter (wk)",
+            "Eoin Morgan"
+        ]
+    }
 }

@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "51",
                     "balls": "60",
                     "minutes": "96",
@@ -87,7 +87,7 @@
                 },
                 {
                     "batsman": "Jamie Dalrymple",
-                    "dismissal": "run out (Clarke/Gilchrist)",
+                    "dismissal": "run out (Clarke/ (wk)Gilchrist)",
                     "runs": "30",
                     "balls": "18",
                     "minutes": "27",
@@ -96,7 +96,7 @@
                     "strike_rate": "166.66"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "c Hodge b Tait",
                     "runs": "4",
                     "balls": "2",
@@ -237,7 +237,7 @@
             "extras": "24",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist(c)",
+                    "batsman": "Adam Gilchrist(c) (wk)",
                     "dismissal": "b Plunkett",
                     "runs": "0",
                     "balls": "1",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Nixon b Plunkett",
+                    "dismissal": "c (wk)Nixon b Plunkett",
                     "runs": "18",
                     "balls": "29",
                     "minutes": "47",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "c Nixon b Flintoff",
+                    "dismissal": "c (wk)Nixon b Flintoff",
                     "runs": "13",
                     "balls": "20",
                     "minutes": "25",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "England won by 92 runs"
+    "result": "England won by 92 runs",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Nixon (wk)",
+            "Liam Plunkett",
+            "Sajid Mahmood",
+            "Ed Joyce",
+            "Ravi Bopara",
+            "Andrew Strauss",
+            "Jamie Dalrymple",
+            "Mal Loye",
+            "Andrew Flintoff(c)"
+        ],
+        "Australia": [
+            "Glenn McGrath",
+            "Shaun Tait",
+            "Brad Hodge",
+            "Stuart Clark",
+            "Nathan Bracken",
+            "Cameron White",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Adam Gilchrist(c) (wk)"
+        ]
+    }
 }

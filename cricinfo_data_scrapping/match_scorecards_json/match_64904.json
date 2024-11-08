@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "st Sangakkara b Herath",
+                    "dismissal": "st (wk)Sangakkara b Herath",
                     "runs": "49",
                     "balls": "82",
                     "minutes": "112",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Sangakkara b Herath",
+                    "dismissal": "c (wk)Sangakkara b Herath",
                     "runs": "52",
                     "balls": "108",
                     "minutes": "106",
@@ -80,7 +80,7 @@
                     "strike_rate": "72.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Dilshan b Herath",
                     "runs": "7",
                     "balls": "9",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "c Sangakkara b Lokuarachchi",
+                    "dismissal": "c (wk)Sangakkara b Lokuarachchi",
                     "runs": "14",
                     "balls": "20",
                     "minutes": "21",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Nicky Boje",
-                    "dismissal": "st Sangakkara b Dilshan",
+                    "dismissal": "st (wk)Sangakkara b Dilshan",
                     "runs": "10",
                     "balls": "13",
                     "minutes": "19",
@@ -281,8 +281,8 @@
                     "strike_rate": "69.28"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "st Boucher b Boje",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "st (wk)Boucher b Boje",
                     "runs": "14",
                     "balls": "24",
                     "minutes": "46",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 4 wickets (with 14 balls remaining)"
+    "result": "Sri Lanka won by 4 wickets (with 14 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Alan Dawson",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Lance Klusener",
+            "Jacques Kallis"
+        ],
+        "Sri Lanka": [
+            "Nuwan Zoysa",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Kaushal Lokuarachchi",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Avishka Gunawardene"
+        ]
+    }
 }

@@ -92,7 +92,7 @@
                     "strike_rate": "112.50"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "lbw b Mohammad Amir",
                     "runs": "20",
                     "balls": "21",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Nathan Coulter-Nile",
-                    "dismissal": "c Sarfaraz Ahmed b Wahab Riaz",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Wahab Riaz",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "9",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Pat Cummins",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "6",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "53",
                     "balls": "75",
                     "minutes": "107",
@@ -279,7 +279,7 @@
                     "strike_rate": "93.87"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "run out (Maxwell)",
                     "runs": "40",
                     "balls": "48",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -300,7 +300,7 @@
                 },
                 {
                     "batsman": "Asif Ali",
-                    "dismissal": "c Carey b Richardson",
+                    "dismissal": "c (wk)Carey b Richardson",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "9",
@@ -320,7 +320,7 @@
                 },
                 {
                     "batsman": "Wahab Riaz",
-                    "dismissal": "c Carey b Starc",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "45",
                     "balls": "39",
                     "minutes": "49",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Australia won by 41 runs"
+    "result": "Australia won by 41 runs",
+    "playing_xi": {
+        "Australia": [
+            "Kane Richardson",
+            "Usman Khawaja",
+            "Mitchell Starc",
+            "Aaron Finch(c)",
+            "Steven Smith",
+            "Nathan Coulter-Nile",
+            "Pat Cummins",
+            "Shaun Marsh",
+            "David Warner",
+            "Alex Carey (wk)",
+            "Glenn Maxwell"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed(c) (wk)",
+            "Asif Ali",
+            "Wahab Riaz",
+            "Mohammad Amir",
+            "Mohammad Hafeez",
+            "Imam-ul-Haq",
+            "Babar Azam",
+            "Shoaib Malik",
+            "Hasan Ali",
+            "Fakhar Zaman",
+            "Shaheen Shah Afridi"
+        ]
+    }
 }

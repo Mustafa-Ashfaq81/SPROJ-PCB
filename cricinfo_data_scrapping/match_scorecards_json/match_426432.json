@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Kamran Akmal b Shoaib Akhtar",
+                    "dismissal": "c (wk)Kamran Akmal b Shoaib Akhtar",
                     "runs": "25",
                     "balls": "35",
                     "minutes": "48",
@@ -40,8 +40,8 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Steven Davies",
-                    "dismissal": "st Kamran Akmal b Mohammad Hafeez",
+                    "batsman": "Steven Davies (wk)",
+                    "dismissal": "st (wk)Kamran Akmal b Mohammad Hafeez",
                     "runs": "17",
                     "balls": "19",
                     "minutes": "23",
@@ -207,7 +207,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Wright",
                     "runs": "41",
                     "balls": "53",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "c Davies b Broad",
+                    "dismissal": "c (wk)Davies b Broad",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Umar Gul",
-                    "dismissal": "run out (Davies/Swann)",
+                    "dismissal": "run out ( (wk)Davies/Swann)",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "8",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "England won by 121 runs"
+    "result": "England won by 121 runs",
+    "playing_xi": {
+        "England": [
+            "Jonathan Trott",
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Luke Wright",
+            "Tim Bresnan",
+            "Steven Davies (wk)",
+            "Ian Bell"
+        ],
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Mohammad Hafeez",
+            "Shahid Afridi(c)",
+            "Umar Akmal",
+            "Fawad Alam",
+            "Asad Shafiq",
+            "Abdul Razzaq"
+        ]
+    }
 }

@@ -43,7 +43,7 @@
                     "strike_rate": "15.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Mashrafe Mortaza",
                     "runs": "6",
                     "balls": "12",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "103",
                     "balls": "119",
                     "minutes": "174",
@@ -221,7 +221,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c McCullum b Patel",
+                    "dismissal": "c (wk)McCullum b Patel",
                     "runs": "35",
                     "balls": "39",
                     "minutes": "53",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "39",
@@ -280,7 +280,7 @@
                     "strike_rate": "43.39"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c How b Southee",
                     "runs": "15",
                     "balls": "35",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "27",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Abdur Razzak",
-                    "dismissal": "c McCullum b Ryder",
+                    "dismissal": "c (wk)McCullum b Ryder",
                     "runs": "27",
                     "balls": "31",
                     "minutes": "47",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 79 runs"
+    "result": "New Zealand won by 79 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Jacob Oram",
+            "Scott Styris",
+            "Brendon McCullum (wk)",
+            "Jeetan Patel",
+            "Daniel Vettori(c)",
+            "Jamie How",
+            "Daniel Flynn",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Tim Southee"
+        ],
+        "Bangladesh": [
+            "Syed Rasel",
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Zunaed Siddique",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Imrul Kayes",
+            "Abdur Razzak",
+            "Naeem Islam",
+            "Shahadat Hossain"
+        ]
+    }
 }

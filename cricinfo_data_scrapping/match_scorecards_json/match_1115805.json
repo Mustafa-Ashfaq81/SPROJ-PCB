@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Faheem Ashraf",
-                    "dismissal": "c Latham b Southee",
+                    "dismissal": "c (wk)Latham b Southee",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Babar Azam",
-                    "dismissal": "c Latham b Southee",
+                    "dismissal": "c (wk)Latham b Southee",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "8",
@@ -90,7 +90,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "c Guptill b Boult",
                     "runs": "51",
                     "balls": "46",
@@ -271,7 +271,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Babar Azam b Shadab Khan",
                     "runs": "8",
                     "balls": "16",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 25 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 25 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Fakhar Zaman",
+            "Shoaib Malik",
+            "Rumman Raees",
+            "Faheem Ashraf",
+            "Shadab Khan",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Haris Sohail",
+            "Mohammad Amir",
+            "Babar Azam",
+            "Hasan Ali"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Tim Southee",
+            "Colin de Grandhomme",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ross Taylor",
+            "Tom Latham (wk)",
+            "Lockie Ferguson"
+        ]
+    }
 }

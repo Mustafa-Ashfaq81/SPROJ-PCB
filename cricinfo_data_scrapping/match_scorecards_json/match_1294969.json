@@ -46,8 +46,8 @@
                     "strike_rate": "84.00"
                 },
                 {
-                    "batsman": "Regis Chakabva",
-                    "dismissal": "c BKG Mendis b Vandersay",
+                    "batsman": "Regis Chakabva (wk)",
+                    "dismissal": "c (wk)BKG Mendis b Vandersay",
                     "runs": "72",
                     "balls": "81",
                     "minutes": "130",
@@ -272,7 +272,7 @@
             "batting": [
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Chakabva b Sikandar Raza",
+                    "dismissal": "c (wk)Chakabva b Sikandar Raza",
                     "runs": "75",
                     "balls": "71",
                     "minutes": "105",
@@ -281,8 +281,8 @@
                     "strike_rate": "105.63"
                 },
                 {
-                    "batsman": "Kusal Mendis",
-                    "dismissal": "c Chakabva b Muzarabani",
+                    "batsman": "Kusal Mendis (wk)",
+                    "dismissal": "c (wk)Chakabva b Muzarabani",
                     "runs": "26",
                     "balls": "24",
                     "minutes": "29",
@@ -459,5 +459,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 9 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Wessly Madhevere",
+            "Richard Ngarava",
+            "Tendai Chatara",
+            "Wellington Masakadza",
+            "Sean Williams",
+            "Sikandar Raza",
+            "Ryan Burl",
+            "Regis Chakabva (wk)",
+            "Takudzwanashe Kaitano",
+            "Craig Ervine(c)",
+            "Blessing Muzarabani"
+        ],
+        "Sri Lanka": [
+            "Dasun Shanaka(c)",
+            "Pathum Nissanka",
+            "Nuwan Pradeep",
+            "Kamindu Mendis",
+            "Maheesh Theekshana",
+            "Kusal Mendis (wk)",
+            "Dinesh Chandimal",
+            "Chamika Karunaratne",
+            "Jeffrey Vandersay",
+            "Chamika Gunasekara",
+            "Charith Asalanka"
+        ]
+    }
 }

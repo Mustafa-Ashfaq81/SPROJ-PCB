@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "run out (Williams/Chakabva)",
+                    "dismissal": "run out (Williams/ (wk)Chakabva)",
                     "runs": "43",
                     "balls": "32",
                     "minutes": "43",
@@ -93,7 +93,7 @@
                     "strike_rate": "155.55"
                 }
             ],
-            "did_not_bat": "Luke Ronchi , Nathan McCullum , Matt Henry , Mitchell McClenaghan , Ish Sodhi",
+            "did_not_bat": "Luke Ronchi (wk) , Nathan McCullum , Matt Henry , Mitchell McClenaghan , Ish Sodhi",
             "fall_of_wickets": "Fall of wickets : 1 - 20 ( Martin Guptill , 3.5 ov ) , 2 - 39 ( Tom Latham , 8.5 ov ) , 3 - 176 ( Kane Williamson , 36.3 ov ) , 4 - 255 ( Grant Elliott , 45.6 ov )",
             "bowling": [
                 {
@@ -205,7 +205,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Ronchi b McCullum",
+                    "dismissal": "c (wk)Ronchi b McCullum",
                     "runs": "84",
                     "balls": "99",
                     "minutes": "135",
@@ -254,7 +254,7 @@
                     "strike_rate": "77.77"
                 }
             ],
-            "did_not_bat": "Regis Chakabva , Sikandar Raza , Graeme Cremer , Prosper Utseya , Tinashe Panyangara , Chris Mpofu",
+            "did_not_bat": "Regis Chakabva (wk) , Sikandar Raza , Graeme Cremer , Prosper Utseya , Tinashe Panyangara , Chris Mpofu",
             "fall_of_wickets": "Fall of wickets : 1 - 74 ( Chamu Chibhabha , 14.5 ov ) , 2 - 194 ( Hamilton Masakadza , 34.6 ov ) , 3 - 260 ( Elton Chigumbura , 44.6 ov )",
             "bowling": [
                 {
@@ -358,5 +358,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 7 wickets (with 6 balls remaining)"
+    "result": "Zimbabwe won by 7 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Tom Latham",
+            "James Neesham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Grant Elliott",
+            "Luke Ronchi (wk)",
+            "Nathan McCullum",
+            "Matt Henry",
+            "Mitchell McClenaghan",
+            "Ish Sodhi",
+            "Ross Taylor"
+        ],
+        "Zimbabwe": [
+            "Prosper Utseya",
+            "Elton Chigumbura(c)",
+            "Chris Mpofu",
+            "Regis Chakabva (wk)",
+            "Sean Williams",
+            "Tinashe Panyangara",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Graeme Cremer",
+            "Sikandar Raza",
+            "Craig Ervine"
+        ]
+    }
 }

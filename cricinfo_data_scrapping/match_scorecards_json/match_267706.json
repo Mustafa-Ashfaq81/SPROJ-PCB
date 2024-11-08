@@ -60,7 +60,7 @@
                     "strike_rate": "81.57"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "62",
                     "balls": "42",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "st Dhoni b Tendulkar",
+                    "dismissal": "st (wk)Dhoni b Tendulkar",
                     "runs": "31",
                     "balls": "23",
                     "minutes": "28",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "17",
                     "balls": "11",
                     "minutes": "11",
@@ -261,7 +261,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Gambhir b Sreesanth",
                     "runs": "7",
                     "balls": "6",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "India won by 14 runs"
+    "result": "India won by 14 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Dinesh Karthik",
+            "Ajit Agarkar",
+            "Rahul Dravid(c)",
+            "Sachin Tendulkar",
+            "Sreesanth",
+            "Harbhajan Singh"
+        ],
+        "West Indies": [
+            "Runako Morton",
+            "Dwayne Smith",
+            "Ian Bradshaw",
+            "Denesh Ramdin (wk)",
+            "Dwayne Bravo",
+            "Jerome Taylor",
+            "Daren Powell",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Marlon Samuels",
+            "Chris Gayle"
+        ]
+    }
 }

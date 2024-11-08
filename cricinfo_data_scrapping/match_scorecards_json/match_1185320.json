@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Aaron Finch(c)",
-                    "dismissal": "c de Kock b Nortje",
+                    "dismissal": "c (wk)de Kock b Nortje",
                     "runs": "69",
                     "balls": "87",
                     "minutes": "118",
@@ -90,8 +90,8 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c de Kock b Ngidi",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "21",
                     "balls": "21",
                     "minutes": "34",
@@ -233,7 +233,7 @@
                     "strike_rate": "92.80"
                 },
                 {
-                    "batsman": "Quinton de Kock(c)",
+                    "batsman": "Quinton de Kock(c) (wk)",
                     "dismissal": "b Starc",
                     "runs": "0",
                     "balls": "2",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 9 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Steven Smith",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Marnus Labuschagne",
+            "Ashton Agar",
+            "David Warner",
+            "Adam Zampa",
+            "Mitchell Marsh",
+            "D'Arcy Short"
+        ],
+        "South Africa": [
+            "Andile Phehlukwayo",
+            "Kyle Verreynne",
+            "Janneman Malan",
+            "Heinrich Klaasen",
+            "Anrich Nortje",
+            "Tabraiz Shamsi",
+            "Lungi Ngidi",
+            "Quinton de Kock(c) (wk)",
+            "JJ Smuts",
+            "David Miller",
+            "Keshav Maharaj"
+        ]
+    }
 }

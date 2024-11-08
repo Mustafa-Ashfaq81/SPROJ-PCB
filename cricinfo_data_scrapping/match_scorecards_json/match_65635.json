@@ -32,7 +32,7 @@
             "extras": "31",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "lbw b Anderson",
                     "runs": "2",
                     "balls": "6",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Stewart b Anderson",
+                    "dismissal": "c (wk)Stewart b Anderson",
                     "runs": "15",
                     "balls": "20",
                     "minutes": "15",
@@ -210,7 +210,7 @@
                 },
                 {
                     "batsman": "Ian Blackwell",
-                    "dismissal": "c Gilchrist b Hogg",
+                    "dismissal": "c (wk)Gilchrist b Hogg",
                     "runs": "12",
                     "balls": "29",
                     "minutes": "32",
@@ -249,7 +249,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "c Martyn b Watson",
                     "runs": "16",
                     "balls": "12",
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 runs"
+    "result": "Australia won by 7 runs",
+    "playing_xi": {
+        "Australia": [
+            "Jimmy Maher",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Brad Hogg",
+            "Damien Martyn",
+            "Shane Watson"
+        ],
+        "England": [
+            "James Anderson",
+            "Owais Shah",
+            "Andy Caddick",
+            "Nick Knight",
+            "Ian Blackwell",
+            "Ronnie Irani",
+            "Steve Harmison",
+            "Nasser Hussain(c)",
+            "Paul Collingwood",
+            "Alec Stewart (wk)",
+            "Marcus Trescothick"
+        ]
+    }
 }

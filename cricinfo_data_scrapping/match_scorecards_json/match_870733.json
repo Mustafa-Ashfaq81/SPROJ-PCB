@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Litton Das b Nasir Hossain",
+                    "dismissal": "c (wk)Litton Das b Nasir Hossain",
                     "runs": "53",
                     "balls": "60",
                     "minutes": "88",
@@ -60,7 +60,7 @@
                     "strike_rate": "85.18"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Soumya Sarkar b Mustafizur Rahman",
                     "runs": "47",
                     "balls": "75",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Litton Das b Mustafizur Rahman",
+                    "dismissal": "c (wk)Litton Das b Mustafizur Rahman",
                     "runs": "34",
                     "balls": "55",
                     "minutes": "57",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "c Litton Das b Mustafizur Rahman",
+                    "dismissal": "c (wk)Litton Das b Mustafizur Rahman",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "10",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Bhuvneshwar Kumar",
-                    "dismissal": "c Litton Das b Rubel Hossain",
+                    "dismissal": "c (wk)Litton Das b Rubel Hossain",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "13",
@@ -257,8 +257,8 @@
                     "strike_rate": "72.34"
                 },
                 {
-                    "batsman": "Litton Das",
-                    "dismissal": "c Dhoni b Patel",
+                    "batsman": "Litton Das (wk)",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "36",
                     "balls": "41",
                     "minutes": "52",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Mushfiqur Rahim",
-                    "dismissal": "run out (Sharma/Dhoni)",
+                    "dismissal": "run out (Sharma/ (wk)Dhoni)",
                     "runs": "31",
                     "balls": "34",
                     "minutes": "41",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 54 balls remaining) (D/L method)"
+    "result": "Bangladesh won by 6 wickets (with 54 balls remaining) (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Axar Patel",
+            "Ravichandran Ashwin",
+            "Ambati Rayudu",
+            "Shikhar Dhawan",
+            "Dhawal Kulkarni"
+        ],
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Litton Das (wk)",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza (c)",
+            "Rubel Hossain",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Taskin Ahmed",
+            "Mushfiqur Rahim",
+            "Sabbir Rahman",
+            "Nasir Hossain"
+        ]
+    }
 }

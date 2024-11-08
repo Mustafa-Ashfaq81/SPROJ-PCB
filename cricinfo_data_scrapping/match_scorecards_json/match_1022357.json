@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "13",
                     "balls": "12",
                     "minutes": "18",
@@ -81,7 +81,7 @@
                     "strike_rate": "90.56"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "61",
                     "balls": "48",
@@ -248,7 +248,7 @@
                     "strike_rate": "81.81"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "b Ball",
                     "runs": "0",
                     "balls": "1",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "87",
                     "balls": "98",
                     "minutes": "132",
@@ -309,7 +309,7 @@
                 },
                 {
                     "batsman": "Mitchell Santner",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "14",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "England won by 87 runs"
+    "result": "England won by 87 runs",
+    "playing_xi": {
+        "England": [
+            "Mark Wood",
+            "Liam Plunkett",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Jake Ball",
+            "Alex Hales",
+            "Moeen Ali",
+            "Ben Stokes"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Neil Broom",
+            "Adam Milne",
+            "Corey Anderson",
+            "Trent Boult",
+            "Luke Ronchi (wk)",
+            "Ross Taylor",
+            "Tim Southee",
+            "James Neesham"
+        ]
+    }
 }

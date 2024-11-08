@@ -70,8 +70,8 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
-                    "dismissal": "c SK Patel b Drysdale",
+                    "batsman": "Scott Edwards(c) (wk)",
+                    "dismissal": "c (wk)SK Patel b Drysdale",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Kyle Klein",
-                    "dismissal": "c SK Patel b Harmeet Singh",
+                    "dismissal": "c (wk)SK Patel b Harmeet Singh",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "-",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Steven Taylor",
-                    "dismissal": "c Edwards b Kingma",
+                    "dismissal": "c (wk)Edwards b Kingma",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "-",
@@ -261,7 +261,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Smit Patel",
+                    "batsman": "Smit Patel (wk)",
                     "dismissal": "lbw b Klein",
                     "runs": "3",
                     "balls": "10",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Shayan Jahangir",
-                    "dismissal": "run out (Edwards)",
+                    "dismissal": "run out ( (wk)Edwards)",
                     "runs": "20",
                     "balls": "37",
                     "minutes": "-",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Abhishek Paradkar",
-                    "dismissal": "c Edwards b van Meekeren",
+                    "dismissal": "c (wk)Edwards b van Meekeren",
                     "runs": "12",
                     "balls": "30",
                     "minutes": "-",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 27 runs"
+    "result": "Netherlands won by 27 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Paul van Meekeren",
+            "Michael Levitt",
+            "Musa Ahmad",
+            "Max O'Dowd",
+            "Kyle Klein",
+            "Vivian Kingma",
+            "Scott Edwards(c) (wk)",
+            "Aryan Dutt",
+            "Vikramjit Singh",
+            "Noah Croes",
+            "Clayton Floyd"
+        ],
+        "United States of America": [
+            "Aaron Jones",
+            "Monank Patel(c)",
+            "Smit Patel (wk)",
+            "Milind Kumar",
+            "Nosthush Kenjige",
+            "Harmeet Singh",
+            "Steven Taylor",
+            "Juanoy Drysdale",
+            "Abhishek Paradkar",
+            "Shadley van Schalkwyk",
+            "Shayan Jahangir"
+        ]
+    }
 }

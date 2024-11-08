@@ -33,7 +33,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Telemachus",
                     "runs": "34",
                     "balls": "59",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Boucher b Telemachus",
+                    "dismissal": "c (wk)Boucher b Telemachus",
                     "runs": "17",
                     "balls": "30",
                     "minutes": "45",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Gary Kirsten",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "12",
@@ -270,7 +270,7 @@
                     "strike_rate": "114.28"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Lee",
                     "runs": "0",
                     "balls": "1",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock(c)",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "6",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Nicky Boje",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "14",
                     "balls": "14",
                     "minutes": "16",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "Australia won by 37 runs"
+    "result": "Australia won by 37 runs",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Hauritz",
+            "Jimmy Maher",
+            "Adam Gilchrist (wk)",
+            "Matthew Hayden",
+            "Brett Lee",
+            "Damien Martyn",
+            "Ian Harvey",
+            "Glenn McGrath",
+            "Ricky Ponting(c)",
+            "Darren Lehmann",
+            "Jason Gillespie"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Gary Kirsten",
+            "Nicky Boje",
+            "Graeme Smith",
+            "Neil McKenzie",
+            "Roger Telemachus",
+            "Andrew Hall",
+            "Shaun Pollock(c)",
+            "Jonty Rhodes",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)"
+        ]
+    }
 }

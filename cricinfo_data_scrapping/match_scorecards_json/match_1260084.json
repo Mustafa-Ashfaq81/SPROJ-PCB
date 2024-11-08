@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ben Cooper",
-                    "dismissal": "c Cross b Watt",
+                    "dismissal": "c (wk)Cross b Watt",
                     "runs": "10",
                     "balls": "10",
                     "minutes": "-",
@@ -73,7 +73,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "c Munsey b Main",
                     "runs": "4",
                     "balls": "11",
@@ -240,7 +240,7 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "c Seelaar b Kingma",
                     "runs": "1",
                     "balls": "8",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "George Munsey",
-                    "dismissal": "c Edwards b van Beek",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "27",
                     "balls": "33",
                     "minutes": "-",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 14 runs"
+    "result": "Netherlands won by 14 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Max O'Dowd",
+            "Saqib Zulfiqar",
+            "Scott Edwards (wk)",
+            "Vivian Kingma",
+            "Pieter Seelaar(c)",
+            "Paul van Meekeren",
+            "Ben Cooper",
+            "Stephan Myburgh",
+            "Bas de Leede",
+            "Logan van Beek",
+            "Aryan Dutt"
+        ],
+        "Scotland": [
+            "Gavin Main",
+            "Calum MacLeod",
+            "Kyle Coetzer(c)",
+            "Matthew Cross (wk)",
+            "Hamza Tahir",
+            "Safyaan Sharif",
+            "Alasdair Evans",
+            "Mark Watt",
+            "George Munsey",
+            "Richie Berrington",
+            "Dylan Budge"
+        ]
+    }
 }

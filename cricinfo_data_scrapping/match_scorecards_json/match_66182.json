@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c A Flower b Ervine",
+                    "dismissal": "c (wk)A Flower b Ervine",
                     "runs": "48",
                     "balls": "36",
                     "minutes": "65",
@@ -74,7 +74,7 @@
                     "strike_rate": "43.75"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "run out (Carlisle)",
                     "runs": "71",
                     "balls": "81",
@@ -245,7 +245,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "c Ganguly b Tendulkar",
                     "runs": "145",
                     "balls": "164",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Grant Flower",
-                    "dismissal": "run out (Yuvraj Singh/Dravid)",
+                    "dismissal": "run out (Yuvraj Singh/ (wk)Dravid)",
                     "runs": "33",
                     "balls": "41",
                     "minutes": "68",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Guy Whittall",
-                    "dismissal": "c Dravid b Khan",
+                    "dismissal": "c (wk)Dravid b Khan",
                     "runs": "29",
                     "balls": "30",
                     "minutes": "49",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "India won by 14 runs"
+    "result": "India won by 14 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Ashish Nehra",
+            "Rahul Dravid (wk)",
+            "Dinesh Mongia",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)",
+            "Zaheer Khan",
+            "Harbhajan Singh",
+            "Mohammad Kaif"
+        ],
+        "Zimbabwe": [
+            "Ray Price",
+            "Stuart Carlisle",
+            "Andy Flower (wk)",
+            "Guy Whittall",
+            "Dougie Marillier",
+            "Sean Ervine",
+            "Alistair Campbell",
+            "Heath Streak(c)",
+            "Douglas Hondo",
+            "Dion Ebrahim",
+            "Grant Flower"
+        ]
+    }
 }

@@ -28,7 +28,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "c Sagar Pun b Vesawkar",
                     "runs": "38",
                     "balls": "77",
@@ -39,7 +39,7 @@
                 },
                 {
                     "batsman": "Alex Obanda",
-                    "dismissal": "c Bhandari b Alam",
+                    "dismissal": "c (wk)Bhandari b Alam",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "-",
@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Collins Obuya",
-                    "dismissal": "st Bhandari b Lamichhane",
+                    "dismissal": "st (wk)Bhandari b Lamichhane",
                     "runs": "48",
                     "balls": "78",
                     "minutes": "-",
@@ -299,7 +299,7 @@
                     "strike_rate": "218.18"
                 }
             ],
-            "did_not_bat": "Mahaboob Alam , Binod Bhandari , Sompal Kami , Basant Regmi , Sandeep Lamichhane , Shakti Gauchan",
+            "did_not_bat": "Mahaboob Alam , Binod Bhandari (wk) , Sompal Kami , Basant Regmi , Sandeep Lamichhane , Shakti Gauchan",
             "fall_of_wickets": "Fall of wickets : 1 - 4 ( Sunil Dhamala , 1.2 ov ) , 2 - 14 ( Sagar Pun , 3.4 ov ) , 3 - 125 ( Dipendra Singh Airee , 27.2 ov )",
             "bowling": [
                 {
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "Nepal won by 7 wickets (with 118 balls remaining)"
+    "result": "Nepal won by 7 wickets (with 118 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Rakep Patel(c)",
+            "Alex Obanda",
+            "Nelson Odhiambo",
+            "Karan Kaul",
+            "Gurdeep Singh",
+            "Collins Obuya",
+            "Dhiren Gondaria",
+            "Elijah Otieno",
+            "Nehemiah Odhiambo",
+            "Shem Ngoche",
+            "Irfan Karim (wk)"
+        ],
+        "Nepal": [
+            "Sompal Kami",
+            "Shakti Gauchan",
+            "Mahaboob Alam",
+            "Binod Bhandari (wk)",
+            "Sandeep Lamichhane",
+            "Sharad Vesawkar",
+            "Sagar Pun",
+            "Basant Regmi",
+            "Gyanendra Malla(c)",
+            "Dipendra Singh Airee",
+            "Sunil Dhamala"
+        ]
+    }
 }

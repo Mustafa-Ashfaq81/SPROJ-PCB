@@ -30,7 +30,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Johnson Charles",
+                    "batsman": "Johnson Charles (wk)",
                     "dismissal": "c Haris Sohail b Mohammad Irfan",
                     "runs": "43",
                     "balls": "71",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Umar Akmal b Junaid Khan",
+                    "dismissal": "c (wk)Umar Akmal b Junaid Khan",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "29",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Umar Akmal b Junaid Khan",
+                    "dismissal": "c (wk)Umar Akmal b Junaid Khan",
                     "runs": "21",
                     "balls": "34",
                     "minutes": "41",
@@ -267,7 +267,7 @@
                     "strike_rate": "77.27"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c sub (KAJ Roach) b Best",
                     "runs": "37",
                     "balls": "28",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 1 ball remaining)"
+    "result": "Pakistan won by 4 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Lendl Simmons",
+            "Chris Gayle",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Jason Holder",
+            "Johnson Charles (wk)",
+            "Daren Sammy",
+            "Marlon Samuels",
+            "Dwayne Bravo(c)",
+            "Tino Best",
+            "Devon Smith"
+        ],
+        "Pakistan": [
+            "Asad Ali",
+            "Umar Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Nasir Jamshed",
+            "Haris Sohail",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Misbah-ul-Haq(c)"
+        ]
+    }
 }

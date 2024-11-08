@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Aaron Finch(c)",
-                    "dismissal": "c Latham b Santner",
+                    "dismissal": "c (wk)Latham b Santner",
                     "runs": "60",
                     "balls": "75",
                     "minutes": "-",
@@ -90,7 +90,7 @@
                     "strike_rate": "79.41"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Boult b Sodhi",
                     "runs": "1",
                     "balls": "2",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "10",
                     "balls": "22",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Short b Hazlewood",
                     "runs": "38",
                     "balls": "40",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "James Neesham",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "-",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Australia won by 71 runs"
+    "result": "Australia won by 71 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Steven Smith",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Marnus Labuschagne",
+            "David Warner",
+            "Adam Zampa",
+            "Mitchell Marsh",
+            "Josh Hazlewood",
+            "D'Arcy Short"
+        ],
+        "New Zealand": [
+            "Henry Nicholls",
+            "Mitchell Santner",
+            "Colin de Grandhomme",
+            "Trent Boult",
+            "Tom Latham (wk)",
+            "Kane Williamson(c)",
+            "James Neesham",
+            "Ish Sodhi",
+            "Ross Taylor",
+            "Lockie Ferguson",
+            "Martin Guptill"
+        ]
+    }
 }

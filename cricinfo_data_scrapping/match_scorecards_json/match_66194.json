@@ -49,7 +49,7 @@
                     "strike_rate": "73.91"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Sehwag b Harbhajan Singh",
                     "runs": "54",
                     "balls": "89",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Aravinda de Silva",
-                    "dismissal": "c Dravid b Harbhajan Singh",
+                    "dismissal": "c (wk)Dravid b Harbhajan Singh",
                     "runs": "18",
                     "balls": "25",
                     "minutes": "29",
@@ -216,7 +216,7 @@
                     "strike_rate": "260.00"
                 }
             ],
-            "did_not_bat": "Sourav Ganguly (c) , Sachin Tendulkar , Rahul Dravid , Yuvraj Singh , Mohammad Kaif , Harbhajan Singh , Zaheer Khan , Ajit Agarkar , Javagal Srinath",
+            "did_not_bat": "Sourav Ganguly (c) , Sachin Tendulkar , Rahul Dravid (wk) , Yuvraj Singh , Mohammad Kaif , Harbhajan Singh , Zaheer Khan , Ajit Agarkar , Javagal Srinath",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -250,5 +250,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Pulasthi Gunaratne",
+            "Aravinda de Silva",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Russel Arnold",
+            "Kumar Dharmasena",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya(c)",
+            "Marvan Atapattu"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Rahul Dravid (wk)",
+            "Javagal Srinath",
+            "Ajit Agarkar",
+            "Dinesh Mongia",
+            "Sachin Tendulkar",
+            "Zaheer Khan",
+            "Sourav Ganguly (c)",
+            "Harbhajan Singh",
+            "Mohammad Kaif"
+        ]
+    }
 }

@@ -50,8 +50,8 @@
                     "strike_rate": "126.66"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "st Buttler b Tredwell",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "st (wk)Buttler b Tredwell",
                     "runs": "112",
                     "balls": "104",
                     "minutes": "156",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Gary Ballance",
-                    "dismissal": "c Sangakkara b Mendis",
+                    "dismissal": "c (wk)Sangakkara b Mendis",
                     "runs": "42",
                     "balls": "69",
                     "minutes": "87",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "st Sangakkara b Senanayake",
+                    "dismissal": "st (wk)Sangakkara b Senanayake",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "19",
@@ -297,7 +297,7 @@
                     "strike_rate": "108.51"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "run out (Malinga)",
                     "runs": "121",
                     "balls": "74",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 runs"
+    "result": "Sri Lanka won by 7 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Ajantha Mendis",
+            "Ashan Priyanjan",
+            "Sachithra Senanayake",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Mahela Jayawardene",
+            "Lahiru Thirimanne",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara"
+        ],
+        "England": [
+            "Jos Buttler (wk)",
+            "Ravi Bopara",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "James Anderson",
+            "Harry Gurney",
+            "Eoin Morgan",
+            "Gary Ballance",
+            "Joe Root",
+            "James Tredwell",
+            "Chris Jordan"
+        ]
+    }
 }

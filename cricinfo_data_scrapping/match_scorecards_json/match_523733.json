@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Adnan Akmal b Aizaz Cheema",
+                    "dismissal": "c (wk)Adnan Akmal b Aizaz Cheema",
                     "runs": "14",
                     "balls": "35",
                     "minutes": "67",
@@ -70,7 +70,7 @@
                     "strike_rate": "65.78"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Sohail Tanvir",
                     "runs": "26",
                     "balls": "32",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Malcolm Waller",
-                    "dismissal": "run out (Mohammad Hafeez/Adnan Akmal)",
+                    "dismissal": "run out (Mohammad Hafeez/ (wk)Adnan Akmal)",
                     "runs": "12",
                     "balls": "9",
                     "minutes": "13",
@@ -227,7 +227,7 @@
                     "strike_rate": "70.75"
                 }
             ],
-            "did_not_bat": "Younis Khan , Misbah-ul-Haq (c) , Shoaib Malik , Umar Akmal , Adnan Akmal , Sohail Tanvir , Saeed Ajmal , Junaid Khan , Aizaz Cheema",
+            "did_not_bat": "Younis Khan , Misbah-ul-Haq (c) , Shoaib Malik , Umar Akmal , Adnan Akmal (wk) , Sohail Tanvir , Saeed Ajmal , Junaid Khan , Aizaz Cheema",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -331,5 +331,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 10 wickets (with 47 balls remaining)"
+    "result": "Pakistan won by 10 wickets (with 47 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Chamu Chibhabha",
+            "Tatenda Taibu (wk)",
+            "Brian Vitori",
+            "Malcolm Waller",
+            "Ray Price",
+            "Brendan Taylor(c)",
+            "Hamilton Masakadza",
+            "Chris Mpofu",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Vusi Sibanda"
+        ],
+        "Pakistan": [
+            "Adnan Akmal (wk)",
+            "Younis Khan",
+            "Junaid Khan",
+            "Aizaz Cheema",
+            "Imran Farhat",
+            "Saeed Ajmal",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Sohail Tanvir",
+            "Umar Akmal",
+            "Misbah-ul-Haq (c)"
+        ]
+    }
 }

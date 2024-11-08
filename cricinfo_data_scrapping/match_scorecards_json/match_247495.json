@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "7",
@@ -91,7 +91,7 @@
                     "strike_rate": "68.88"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Muralidaran",
                     "runs": "1",
                     "balls": "2",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "64",
                     "balls": "80",
                     "minutes": "111",
@@ -238,7 +238,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "69",
                     "balls": "104",
@@ -368,5 +368,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 wickets (with 29 balls remaining)"
+    "result": "Sri Lanka won by 6 wickets (with 29 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "Mark Gillespie",
+            "James Franklin",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Peter Fulton",
+            "Scott Styris"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Farveez Maharoof",
+            "Upul Tharanga",
+            "Dilhara Fernando",
+            "Chamara Silva"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Bagai b Baidwan",
+                    "dismissal": "c (wk)Bagai b Baidwan",
                     "runs": "17",
                     "balls": "29",
                     "minutes": "45",
@@ -41,7 +41,7 @@
                     "strike_rate": "58.62"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Gunasekera b Baidwan",
                     "runs": "101",
                     "balls": "109",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Hiral Patel",
-                    "dismissal": "c BB McCullum b Oram",
+                    "dismissal": "c (wk)BB McCullum b Oram",
                     "runs": "31",
                     "balls": "35",
                     "minutes": "61",
@@ -252,8 +252,8 @@
                     "strike_rate": "9.09"
                 },
                 {
-                    "batsman": "Ashish Bagai(c)",
-                    "dismissal": "c BB McCullum b NL McCullum",
+                    "batsman": "Ashish Bagai(c) (wk)",
+                    "dismissal": "c (wk)BB McCullum b NL McCullum",
                     "runs": "84",
                     "balls": "87",
                     "minutes": "145",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Rizwan Cheema",
-                    "dismissal": "c BB McCullum b Oram",
+                    "dismissal": "c (wk)BB McCullum b Oram",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "5",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "John Davison",
-                    "dismissal": "run out (BB McCullum)",
+                    "dismissal": "run out ( (wk)BB McCullum)",
                     "runs": "15",
                     "balls": "21",
                     "minutes": "37",
@@ -450,5 +450,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 97 runs"
+    "result": "New Zealand won by 97 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Kane Williamson",
+            "Kyle Mills",
+            "Martin Guptill",
+            "Jesse Ryder",
+            "James Franklin",
+            "Nathan McCullum",
+            "Ross Taylor(c)",
+            "Tim Southee",
+            "Jacob Oram",
+            "Scott Styris"
+        ],
+        "Canada": [
+            "Rizwan Cheema",
+            "Ashish Bagai(c) (wk)",
+            "Harvir Baidwan",
+            "Henry Osinde",
+            "Balaji Rao",
+            "Khurram Chohan",
+            "Zubin Surkari",
+            "Hiral Patel",
+            "Jimmy Hansra",
+            "Ruvindu Gunasekera",
+            "John Davison"
+        ]
+    }
 }

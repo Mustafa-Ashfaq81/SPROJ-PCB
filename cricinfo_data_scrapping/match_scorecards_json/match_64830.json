@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "13",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Sanuar Hossain",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "7",
                     "balls": "14",
                     "minutes": "29",
@@ -90,7 +90,7 @@
                     "strike_rate": "84.84"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "lbw b Gillespie",
                     "runs": "18",
                     "balls": "42",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Hasibul Hossain",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "30",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -223,8 +223,8 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Hannan Sarkar b Mashrafe Mortaza",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Hannan Sarkar b Mashrafe Mortaza",
                     "runs": "18",
                     "balls": "19",
                     "minutes": "23",
@@ -325,5 +325,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 165 balls remaining)"
+    "result": "Australia won by 8 wickets (with 165 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Khaled Mashud (wk)",
+            "Mohammad Rafique",
+            "Alok Kapali",
+            "Al Sahariar",
+            "Sanuar Hossain",
+            "Hasibul Hossain",
+            "Khaled Mahmud(c)",
+            "Mashrafe Mortaza",
+            "Habibul Bashar",
+            "Tushar Imran",
+            "Hannan Sarkar"
+        ],
+        "Australia": [
+            "Brad Hogg",
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Andy Bichel",
+            "Darren Lehmann",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Matthew Hayden",
+            "Brett Lee"
+        ]
+    }
 }

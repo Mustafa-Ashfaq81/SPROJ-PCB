@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Kieswetter b Shahzad",
+                    "dismissal": "c (wk)Kieswetter b Shahzad",
                     "runs": "18",
                     "balls": "23",
                     "minutes": "17",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Zunaed Siddique",
-                    "dismissal": "c Kieswetter b Broad",
+                    "dismissal": "c (wk)Kieswetter b Broad",
                     "runs": "21",
                     "balls": "23",
                     "minutes": "35",
@@ -60,8 +60,8 @@
                     "strike_rate": "91.30"
                 },
                 {
-                    "batsman": "Jahurul Islam",
-                    "dismissal": "c Kieswetter b Shahzad",
+                    "batsman": "Jahurul Islam (wk)",
+                    "dismissal": "c (wk)Kieswetter b Shahzad",
                     "runs": "40",
                     "balls": "53",
                     "minutes": "70",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "run out (Kieswetter/Shahzad)",
+                    "dismissal": "run out ( (wk)Kieswetter/Shahzad)",
                     "runs": "14",
                     "balls": "29",
                     "minutes": "29",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "run out (Kieswetter/Morgan/Anderson)",
+                    "dismissal": "run out ( (wk)Kieswetter/Morgan/Anderson)",
                     "runs": "22",
                     "balls": "25",
                     "minutes": "26",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Jahurul Islam b Rubel Hossain",
+                    "dismissal": "c (wk)Jahurul Islam b Rubel Hossain",
                     "runs": "33",
                     "balls": "36",
                     "minutes": "32",
@@ -227,8 +227,8 @@
                     "strike_rate": "91.66"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
-                    "dismissal": "c Jahurul Islam b Rubel Hossain",
+                    "batsman": "Craig Kieswetter (wk)",
+                    "dismissal": "c (wk)Jahurul Islam b Rubel Hossain",
                     "runs": "20",
                     "balls": "17",
                     "minutes": "40",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Jonathan Trott",
-                    "dismissal": "c Jahurul Islam b Shafiul Islam",
+                    "dismissal": "c (wk)Jahurul Islam b Shafiul Islam",
                     "runs": "94",
                     "balls": "130",
                     "minutes": "170",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 5 runs"
+    "result": "Bangladesh won by 5 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Mohammad Ashraful",
+            "Imrul Kayes",
+            "Jahurul Islam (wk)",
+            "Abdur Razzak",
+            "Zunaed Siddique"
+        ],
+        "England": [
+            "Jonathan Trott",
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Ajmal Shahzad",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Luke Wright",
+            "Michael Yardy",
+            "Craig Kieswetter (wk)",
+            "Ian Bell"
+        ]
+    }
 }

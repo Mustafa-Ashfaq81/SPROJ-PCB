@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "13",
@@ -40,7 +40,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c Doherty b Smith",
                     "runs": "67",
                     "balls": "58",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Haddin b Smith",
+                    "dismissal": "c (wk)Haddin b Smith",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Prior b Shahzad",
+                    "dismissal": "c (wk)Prior b Shahzad",
                     "runs": "64",
                     "balls": "72",
                     "minutes": "99",
@@ -251,7 +251,7 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Strauss b Tremlett",
                     "runs": "20",
                     "balls": "16",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "England won by 21 runs"
+    "result": "England won by 21 runs",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Andrew Strauss(c)",
+            "Paul Collingwood",
+            "Jonathan Trott",
+            "Matt Prior (wk)",
+            "Michael Yardy",
+            "Eoin Morgan",
+            "Ajmal Shahzad",
+            "James Anderson",
+            "Kevin Pietersen",
+            "Chris Tremlett"
+        ],
+        "Australia": [
+            "Shaun Marsh",
+            "Xavier Doherty",
+            "Shane Watson",
+            "David Hussey",
+            "John Hastings",
+            "Steven Smith",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Cameron White",
+            "Doug Bollinger",
+            "Michael Clarke(c)"
+        ]
+    }
 }

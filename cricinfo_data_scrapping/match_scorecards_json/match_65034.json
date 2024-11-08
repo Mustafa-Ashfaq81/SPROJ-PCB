@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "run out (Collingwood/Jones)",
+                    "dismissal": "run out (Collingwood/ (wk)Jones)",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "26",
@@ -93,8 +93,8 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
-                    "dismissal": "c Jones b Harmison",
+                    "batsman": "Dinesh Karthik (wk)",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "1",
                     "balls": "12",
                     "minutes": "10",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "st Karthik b Harbhajan Singh",
+                    "dismissal": "st (wk)Karthik b Harbhajan Singh",
                     "runs": "74",
                     "balls": "141",
                     "minutes": "169",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "run out (Kaif/Karthik)",
+                    "dismissal": "run out (Kaif/ (wk)Karthik)",
                     "runs": "4",
                     "balls": "20",
                     "minutes": "31",
@@ -300,7 +300,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Sehwag b Harbhajan Singh",
                     "runs": "11",
                     "balls": "9",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Alex Wharf",
-                    "dismissal": "c Karthik b Yuvraj Singh",
+                    "dismissal": "c (wk)Karthik b Yuvraj Singh",
                     "runs": "9",
                     "balls": "15",
                     "minutes": "11",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "India won by 23 runs"
+    "result": "India won by 23 runs",
+    "playing_xi": {
+        "India": [
+            "Dinesh Karthik (wk)",
+            "Rahul Dravid",
+            "VVS Laxman",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Ashish Nehra",
+            "Mohammad Kaif",
+            "Anil Kumble",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh"
+        ],
+        "England": [
+            "Michael Vaughan(c)",
+            "Darren Gough",
+            "Steve Harmison",
+            "Alex Wharf",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Anthony McGrath",
+            "Ashley Giles",
+            "Vikram Solanki"
+        ]
+    }
 }

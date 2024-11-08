@@ -92,7 +92,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Carter",
                     "runs": "12",
                     "balls": "20",
@@ -206,7 +206,7 @@
             "batting": [
                 {
                     "batsman": "Kyle Coetzer(c)",
-                    "dismissal": "c Kamran Akmal b Mohammad Hafeez",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Hafeez",
                     "runs": "32",
                     "balls": "60",
                     "minutes": "-",
@@ -226,7 +226,7 @@
                 },
                 {
                     "batsman": "Josh Davey",
-                    "dismissal": "c Kamran Akmal b Ehsan Adil",
+                    "dismissal": "c (wk)Kamran Akmal b Ehsan Adil",
                     "runs": "20",
                     "balls": "23",
                     "minutes": "-",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Preston Mommsen",
-                    "dismissal": "st Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "15",
                     "balls": "34",
                     "minutes": "-",
@@ -275,7 +275,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "David Murphy",
+                    "batsman": "David Murphy (wk)",
                     "dismissal": "lbw b Junaid Khan",
                     "runs": "7",
                     "balls": "20",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 96 runs"
+    "result": "Pakistan won by 96 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Nasir Jamshed",
+            "Ehsan Adil",
+            "Asad Shafiq",
+            "Imran Farhat",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Kamran Akmal (wk)",
+            "Junaid Khan",
+            "Misbah-ul-Haq(c)",
+            "Umar Amin"
+        ],
+        "Scotland": [
+            "Richie Berrington",
+            "Neil Carter",
+            "Majid Haq",
+            "Moneeb Iqbal",
+            "David Murphy (wk)",
+            "Rob Taylor",
+            "Kyle Coetzer(c)",
+            "Iain Wardlaw",
+            "Josh Davey",
+            "Matt Machan",
+            "Preston Mommsen"
+        ]
+    }
 }

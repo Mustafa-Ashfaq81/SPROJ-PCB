@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Poynter b Rankin",
+                    "dismissal": "c (wk)Poynter b Rankin",
                     "runs": "15",
                     "balls": "20",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                     "strike_rate": "77.14"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "c Balbirnie b McBrine",
                     "runs": "1",
                     "balls": "3",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "st Ikram Alikhil b Mujeeb Ur Rahman",
+                    "dismissal": "st (wk)Ikram Alikhil b Mujeeb Ur Rahman",
                     "runs": "11",
                     "balls": "18",
                     "minutes": "-",
@@ -283,7 +283,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Stuart Poynter",
+                    "batsman": "Stuart Poynter (wk)",
                     "dismissal": "b Aftab Alam",
                     "runs": "4",
                     "balls": "13",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 109 runs"
+    "result": "Afghanistan won by 109 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Hazratullah Zazai",
+            "Aftab Alam",
+            "Noor Ali Zadran",
+            "Mujeeb Ur Rahman",
+            "Najibullah Zadran",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Rashid Khan",
+            "Gulbadin Naib",
+            "Asghar Afghan(c)",
+            "Ikram Alikhil (wk)"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "James Cameron-Dow",
+            "Boyd Rankin",
+            "Tim Murtagh",
+            "Andy McBrine",
+            "Stuart Poynter (wk)",
+            "William Porterfield(c)",
+            "Simi Singh",
+            "Paul Stirling",
+            "George Dockrell",
+            "Kevin O'Brien"
+        ]
+    }
 }

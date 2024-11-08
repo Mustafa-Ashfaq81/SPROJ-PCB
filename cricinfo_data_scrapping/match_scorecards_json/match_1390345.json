@@ -31,8 +31,8 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
-                    "dismissal": "c Mohammad Rizwan b Shaheen Shah Afridi",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shaheen Shah Afridi",
                     "runs": "151",
                     "balls": "151",
                     "minutes": "197",
@@ -228,7 +228,7 @@
                     "strike_rate": "80.30"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "run out (Hashmatullah Shahidi)",
                     "runs": "2",
                     "balls": "7",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Salman Agha",
-                    "dismissal": "c Rahmanullah Gurbaz b Mohammad Nabi",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Mohammad Nabi",
                     "runs": "14",
                     "balls": "15",
                     "minutes": "19",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 1 wicket (with 1 ball remaining)"
+    "result": "Pakistan won by 1 wicket (with 1 ball remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Hashmatullah Shahidi(c)",
+            "Shahidullah",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman",
+            "Rahmanullah Gurbaz (wk)",
+            "Riaz Hassan",
+            "Ikram Alikhil",
+            "Abdul Rahman",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi"
+        ],
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Naseem Shah",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Imam-ul-Haq",
+            "Haris Rauf",
+            "Fakhar Zaman",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Salman Agha",
+            "Usama Mir"
+        ]
+    }
 }

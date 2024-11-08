@@ -70,8 +70,8 @@
                     "strike_rate": "105.45"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "st Billings b Rashid",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "st (wk)Billings b Rashid",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "c Carey b Starc",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -267,7 +267,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Sam Billings",
+                    "batsman": "Sam Billings (wk)",
                     "dismissal": "b Zampa",
                     "runs": "71",
                     "balls": "80",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Australia won by 72 runs"
+    "result": "Australia won by 72 runs",
+    "playing_xi": {
+        "Australia": [
+            "Marnus Labuschagne",
+            "Mitchell Starc",
+            "Adam Zampa",
+            "Travis Head",
+            "Ashton Agar",
+            "Steven Smith",
+            "Alex Carey (wk)",
+            "Mitchell Marsh",
+            "Josh Hazlewood (c)",
+            "David Warner",
+            "Marcus Stoinis"
+        ],
+        "England": [
+            "Chris Woakes",
+            "David Willey",
+            "Moeen Ali(c)",
+            "Liam Dawson",
+            "James Vince",
+            "Adil Rashid",
+            "Sam Curran",
+            "Jason Roy",
+            "Dawid Malan",
+            "Sam Billings (wk)",
+            "Phil Salt"
+        ]
+    }
 }

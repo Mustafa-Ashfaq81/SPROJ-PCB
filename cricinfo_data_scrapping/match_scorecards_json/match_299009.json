@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "run out (Botha/Boucher)",
+                    "dismissal": "run out (Botha/ (wk)Boucher)",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "19",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq",
-                    "dismissal": "c Boucher b Nel",
+                    "dismissal": "c (wk)Boucher b Nel",
                     "runs": "7",
                     "balls": "19",
                     "minutes": "31",
@@ -90,7 +90,7 @@
                     "strike_rate": "36.84"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Pollock b Botha",
                     "runs": "28",
                     "balls": "32",
@@ -287,7 +287,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Mark Boucher , Jean-Paul Duminy , Albie Morkel , Johan Botha , Makhaya Ntini , Andre Nel",
+            "did_not_bat": "Mark Boucher (wk) , Jean-Paul Duminy , Albie Morkel , Johan Botha , Makhaya Ntini , Andre Nel",
             "fall_of_wickets": "Fall of wickets : 1 - 65 ( Herschelle Gibbs , 10.1 ov ) , 2 - 224 ( Shaun Pollock , 35.5 ov ) , 3 - 228 ( Graeme Smith , 37.2 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 74 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 74 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Yasir Hameed",
+            "Shahid Afridi",
+            "Abdur Rehman",
+            "Iftikhar Anjum",
+            "Kamran Akmal (wk)",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Misbah-ul-Haq",
+            "Umar Gul",
+            "Mohammad Asif",
+            "Younis Khan"
+        ],
+        "South Africa": [
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Jacques Kallis",
+            "AB de Villiers",
+            "Makhaya Ntini",
+            "Graeme Smith(c)",
+            "Mark Boucher (wk)",
+            "Johan Botha",
+            "Albie Morkel",
+            "Shaun Pollock"
+        ]
+    }
 }

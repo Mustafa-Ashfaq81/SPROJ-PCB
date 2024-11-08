@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Chad Bowes",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "46",
@@ -60,7 +60,7 @@
                     "strike_rate": "98.26"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "lbw b Shaheen Shah Afridi",
                     "runs": "20",
                     "balls": "36",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Babar Azam(c)",
-                    "dismissal": "c Latham b Milne",
+                    "dismissal": "c (wk)Latham b Milne",
                     "runs": "49",
                     "balls": "46",
                     "minutes": "66",
@@ -247,7 +247,7 @@
                     "strike_rate": "8.33"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "not out",
                     "runs": "42",
                     "balls": "34",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Salman Agha",
-                    "dismissal": "c Latham b Tickner",
+                    "dismissal": "c (wk)Latham b Tickner",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "12",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 5 wickets (with 9 balls remaining)"
+    "result": "Pakistan won by 5 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Matt Henry",
+            "Chad Bowes",
+            "Henry Nicholls",
+            "Tom Latham(c) (wk)",
+            "Will Young",
+            "Ish Sodhi",
+            "Rachin Ravindra",
+            "Blair Tickner",
+            "Daryl Mitchell",
+            "Adam Milne",
+            "Mark Chapman"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Shan Masood",
+            "Haris Rauf",
+            "Salman Agha",
+            "Babar Azam(c)",
+            "Naseem Shah",
+            "Imam-ul-Haq",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Mohammad Nawaz",
+            "Shaheen Shah Afridi"
+        ]
+    }
 }

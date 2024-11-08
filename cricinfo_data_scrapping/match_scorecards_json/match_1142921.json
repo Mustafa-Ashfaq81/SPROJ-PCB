@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Brian Chari",
-                    "dismissal": "c Sarfaraz Ahmed b Usman Shinwari",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Usman Shinwari",
                     "runs": "1",
                     "balls": "15",
                     "minutes": "16",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c Sarfaraz Ahmed b Usman Shinwari",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Usman Shinwari",
                     "runs": "7",
                     "balls": "17",
                     "minutes": "33",
@@ -80,7 +80,7 @@
                     "strike_rate": "58.13"
                 },
                 {
-                    "batsman": "Ryan Murray",
+                    "batsman": "Ryan Murray (wk)",
                     "dismissal": "b Hasan Ali",
                     "runs": "16",
                     "balls": "26",
@@ -281,7 +281,7 @@
                     "strike_rate": "80.55"
                 }
             ],
-            "did_not_bat": "Shoaib Malik , Sarfaraz Ahmed (c) , Asif Ali , Faheem Ashraf , Shadab Khan , Hasan Ali , Mohammad Amir , Usman Shinwari",
+            "did_not_bat": "Shoaib Malik , Sarfaraz Ahmed (c) (wk) , Asif Ali , Faheem Ashraf , Shadab Khan , Hasan Ali , Mohammad Amir , Usman Shinwari",
             "fall_of_wickets": "Fall of wickets : 1 - 119 ( Imam-ul-Haq , 20.4 ov )",
             "bowling": [
                 {
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 9 wickets (with 84 balls remaining)"
+    "result": "Pakistan won by 9 wickets (with 84 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brian Chari",
+            "Hamilton Masakadza(c)",
+            "Tarisai Musakanda",
+            "Chamu Chibhabha",
+            "Blessing Muzarabani",
+            "Liam Roche",
+            "Ryan Murray (wk)",
+            "Peter Moor",
+            "Donald Tiripano",
+            "Wellington Masakadza",
+            "Tendai Chatara"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Shadab Khan",
+            "Asif Ali",
+            "Mohammad Amir",
+            "Usman Shinwari",
+            "Babar Azam",
+            "Imam-ul-Haq",
+            "Shoaib Malik",
+            "Sarfaraz Ahmed (c) (wk)",
+            "Faheem Ashraf",
+            "Hasan Ali"
+        ]
+    }
 }

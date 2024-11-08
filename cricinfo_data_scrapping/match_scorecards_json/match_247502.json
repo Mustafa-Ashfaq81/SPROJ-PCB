@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "31",
                     "balls": "66",
                     "minutes": "74",
@@ -101,7 +101,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Denesh Ramdin , Daren Powell , Corey Collymore , Jerome Taylor",
+            "did_not_bat": "Denesh Ramdin (wk) , Daren Powell , Corey Collymore , Jerome Taylor",
             "fall_of_wickets": "Fall of wickets : 1 - 8 ( Devon Smith , 2.6 ov ) , 2 - 8 ( Chris Gayle , 3.5 ov ) , 3 - 55 ( Marlon Samuels , 21.3 ov ) , 4 - 136 ( Shivnarine Chanderpaul , 37.4 ov ) , 5 - 196 ( Brian Lara , 46.1 ov )",
             "bowling": [
                 {
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c Ramdin b Collymore",
+                    "dismissal": "c (wk)Ramdin b Collymore",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "10",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Ramdin b Collymore",
+                    "dismissal": "c (wk)Ramdin b Collymore",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "9",
@@ -258,7 +258,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "38",
                     "balls": "75",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 99 runs"
+    "result": "West Indies won by 99 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Marlon Samuels",
+            "Jerome Taylor",
+            "Devon Smith",
+            "Dwayne Bravo",
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Daren Powell",
+            "Corey Collymore"
+        ],
+        "Bangladesh": [
+            "Habibul Bashar(c)",
+            "Aftab Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Javed Omer",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Abdur Razzak",
+            "Mohammad Rafique"
+        ]
+    }
 }

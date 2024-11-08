@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "run out (Singh/Dhoni)",
+                    "dismissal": "run out (Singh/ (wk)Dhoni)",
                     "runs": "54",
                     "balls": "66",
                     "minutes": "100",
@@ -91,8 +91,8 @@
                     "strike_rate": "65.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
-                    "dismissal": "c Dhoni b Singh",
+                    "batsman": "Brad Haddin (wk)",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "46",
                     "balls": "63",
                     "minutes": "74",
@@ -298,7 +298,7 @@
                     "strike_rate": "72.22"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Martyn b Lee",
                     "runs": "23",
                     "balls": "34",
@@ -319,7 +319,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Haddin b Symonds",
+                    "dismissal": "c (wk)Haddin b Symonds",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Australia won by 18 runs"
+    "result": "Australia won by 18 runs",
+    "playing_xi": {
+        "Australia": [
+            "Brad Hogg",
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Andrew Symonds",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Simon Katich",
+            "Glenn McGrath",
+            "Michael Hussey",
+            "Stuart Clark",
+            "Matthew Hayden"
+        ],
+        "India": [
+            "Munaf Patel",
+            "Harbhajan Singh",
+            "Dinesh Mongia",
+            "Ajit Agarkar",
+            "Suresh Raina",
+            "MS Dhoni (wk)",
+            "Sachin Tendulkar",
+            "Mohammad Kaif",
+            "RP Singh",
+            "Rahul Dravid(c)",
+            "Virender Sehwag"
+        ]
+    }
 }

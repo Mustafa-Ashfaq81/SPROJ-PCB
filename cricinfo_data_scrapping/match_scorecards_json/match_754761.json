@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "st Buttler b Ali",
+                    "dismissal": "st (wk)Buttler b Ali",
                     "runs": "40",
                     "balls": "50",
                     "minutes": "73",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c Buttler b Broad",
+                    "dismissal": "c (wk)Buttler b Broad",
                     "runs": "95",
                     "balls": "98",
                     "minutes": "116",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "run out (Anderson/Buttler)",
+                    "dismissal": "run out (Anderson/ (wk)Buttler)",
                     "runs": "60",
                     "balls": "68",
                     "minutes": "99",
@@ -90,7 +90,7 @@
                     "strike_rate": "88.23"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Taylor b Broad",
                     "runs": "9",
                     "balls": "12",
@@ -224,7 +224,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Haddin b Hazlewood",
+                    "dismissal": "c (wk)Haddin b Hazlewood",
                     "runs": "8",
                     "balls": "9",
                     "minutes": "13",
@@ -273,7 +273,7 @@
                     "strike_rate": "55.93"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c sub (PJ Cummins) b Maxwell",
                     "runs": "17",
                     "balls": "22",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Australia won by 112 runs"
+    "result": "Australia won by 112 runs",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Josh Hazlewood",
+            "Steven Smith",
+            "Mitchell Johnson",
+            "David Warner",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Mitchell Marsh",
+            "Aaron Finch"
+        ],
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "James Anderson",
+            "Steven Finn",
+            "Eoin Morgan(c)",
+            "Stuart Broad",
+            "Moeen Ali",
+            "James Taylor",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

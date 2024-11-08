@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Will Young",
-                    "dismissal": "c Mohammad Rizwan b Shadab Khan",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shadab Khan",
                     "runs": "87",
                     "balls": "91",
                     "minutes": "124",
@@ -40,7 +40,7 @@
                     "strike_rate": "95.60"
                 },
                 {
-                    "batsman": "Tom Blundell",
+                    "batsman": "Tom Blundell (wk)",
                     "dismissal": "c Fakhar Zaman b Mohammad Wasim",
                     "runs": "15",
                     "balls": "22",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Mohammad Rizwan b Usama Mir",
+                    "dismissal": "c (wk)Mohammad Rizwan b Usama Mir",
                     "runs": "23",
                     "balls": "30",
                     "minutes": "45",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mark Chapman",
-                    "dismissal": "c Mohammad Rizwan b Shadab Khan",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shadab Khan",
                     "runs": "43",
                     "balls": "33",
                     "minutes": "33",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "c Blundell b Ravindra",
+                    "dismissal": "c (wk)Blundell b Ravindra",
                     "runs": "33",
                     "balls": "64",
                     "minutes": "90",
@@ -267,7 +267,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "lbw b Shipley",
                     "runs": "9",
                     "balls": "15",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 47 runs"
+    "result": "New Zealand won by 47 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Henry Nicholls",
+            "Tom Blundell (wk)",
+            "Will Young",
+            "Tom Latham(c)",
+            "Ish Sodhi",
+            "Rachin Ravindra",
+            "Cole McConchie",
+            "Henry Shipley",
+            "Matt Henry",
+            "Adam Milne",
+            "Mark Chapman"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Shan Masood",
+            "Haris Rauf",
+            "Usama Mir",
+            "Salman Agha",
+            "Babar Azam(c)",
+            "Mohammad Wasim",
+            "Mohammad Rizwan (wk)",
+            "Iftikhar Ahmed",
+            "Shadab Khan",
+            "Shaheen Shah Afridi"
+        ]
+    }
 }

@@ -33,7 +33,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Sehwag",
                     "runs": "103",
                     "balls": "79",
@@ -205,7 +205,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "54",
                     "balls": "48",
                     "minutes": "82",
@@ -224,8 +224,8 @@
                     "strike_rate": "140.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "run out (Martyn/Gilchrist)",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "run out (Martyn/ (wk)Gilchrist)",
                     "runs": "61",
                     "balls": "44",
                     "minutes": "84",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "Australia won by 55 runs"
+    "result": "Australia won by 55 runs",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Bracken",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Andrew Symonds",
+            "Brett Lee",
+            "Damien Martyn",
+            "Stuart Clark",
+            "Simon Katich",
+            "Ricky Ponting(c)",
+            "Shane Watson"
+        ],
+        "ICC World XI": [
+            "Chris Gayle",
+            "Jacques Kallis",
+            "Rahul Dravid",
+            "Kevin Pietersen",
+            "Kumar Sangakkara (wk)",
+            "Shoaib Akhtar",
+            "Shaun Pollock(c)",
+            "Andrew Flintoff",
+            "Brian Lara",
+            "Virender Sehwag",
+            "Daniel Vettori"
+        ]
+    }
 }

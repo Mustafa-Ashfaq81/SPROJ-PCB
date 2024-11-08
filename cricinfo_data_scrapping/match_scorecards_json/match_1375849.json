@@ -63,7 +63,7 @@
                     "strike_rate": "45.45"
                 },
                 {
-                    "batsman": "Shai Hope(c)",
+                    "batsman": "Shai Hope(c) (wk)",
                     "dismissal": "lbw b Abbott",
                     "runs": "4",
                     "balls": "5",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Romario Shepherd",
-                    "dismissal": "c Inglis b Bartlett",
+                    "dismissal": "c (wk)Inglis b Bartlett",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "2",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Matthew Forde",
-                    "dismissal": "run out (sub [MW Harvey]/Inglis)",
+                    "dismissal": "run out (sub [MW Harvey]/ (wk)Inglis)",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -250,7 +250,7 @@
                     "strike_rate": "227.77"
                 },
                 {
-                    "batsman": "Josh Inglis",
+                    "batsman": "Josh Inglis (wk)",
                     "dismissal": "not out",
                     "runs": "35",
                     "balls": "16",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Aaron Hardie",
-                    "dismissal": "c Hope b Thomas",
+                    "dismissal": "c (wk)Hope b Thomas",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "7",
@@ -342,5 +342,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 259 balls remaining)"
+    "result": "Australia won by 8 wickets (with 259 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Oshane Thomas",
+            "Matthew Forde",
+            "Teddy Bishop",
+            "Keacy Carty",
+            "Kjorn Ottley",
+            "Alzarri Joseph",
+            "Alick Athanaze",
+            "Roston Chase",
+            "Gudakesh Motie",
+            "Romario Shepherd",
+            "Shai Hope(c) (wk)"
+        ],
+        "Australia": [
+            "Steven Smith(c)",
+            "Josh Inglis (wk)",
+            "Lance Morris",
+            "Sean Abbott",
+            "Jake Fraser-McGurk",
+            "Adam Zampa",
+            "Marnus Labuschagne",
+            "Cameron Green",
+            "Will Sutherland",
+            "Xavier Bartlett",
+            "Aaron Hardie"
+        ]
+    }
 }

@@ -41,8 +41,8 @@
                     "strike_rate": "58.06"
                 },
                 {
-                    "batsman": "Matt Prior",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "batsman": "Matt Prior (wk)",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "15",
                     "balls": "20",
                     "minutes": "35",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "run out (Prior/Shahzad)",
+                    "dismissal": "run out ( (wk)Prior/Shahzad)",
                     "runs": "60",
                     "balls": "100",
                     "minutes": "151",
@@ -288,8 +288,8 @@
                     "strike_rate": "55.17"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Prior b Shahzad",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Prior b Shahzad",
                     "runs": "6",
                     "balls": "20",
                     "minutes": "24",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 2 wickets (with 6 balls remaining)"
+    "result": "Bangladesh won by 2 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Andrew Strauss(c)",
+            "Graeme Swann",
+            "Jonathan Trott",
+            "Paul Collingwood",
+            "Matt Prior (wk)",
+            "Eoin Morgan",
+            "Ajmal Shahzad",
+            "Tim Bresnan",
+            "Ravi Bopara",
+            "James Anderson"
+        ],
+        "Bangladesh": [
+            "Shakib Al Hasan(c)",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Naeem Islam",
+            "Shafiul Islam",
+            "Imrul Kayes",
+            "Zunaed Siddique",
+            "Abdur Razzak",
+            "Mahmudullah",
+            "Raqibul Hasan",
+            "Rubel Hossain"
+        ]
+    }
 }

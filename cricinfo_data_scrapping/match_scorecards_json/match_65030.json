@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Read b Gough",
+                    "dismissal": "c (wk)Read b Gough",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -90,7 +90,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Rashid Latif(c)",
+                    "batsman": "Rashid Latif(c) (wk)",
                     "dismissal": "c Solanki b McGrath",
                     "runs": "3",
                     "balls": "11",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "c Read b Anderson",
+                    "dismissal": "c (wk)Read b Anderson",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c Rashid Latif b Abdul Razzaq",
+                    "dismissal": "c (wk)Rashid Latif b Abdul Razzaq",
                     "runs": "86",
                     "balls": "55",
                     "minutes": "57",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Jim Troughton",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "7",
@@ -287,7 +287,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Anthony McGrath , Rikki Clarke , Chris Read , Ashley Giles , Darren Gough , James Anderson",
+            "did_not_bat": "Anthony McGrath , Rikki Clarke , Chris Read (wk) , Ashley Giles , Darren Gough , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 109 ( Marcus Trescothick , 11.4 ov ) , 2 - 143 ( Michael Vaughan , 16.6 ov ) , 3 - 147 ( Jim Troughton , 18.3 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 168 balls remaining)"
+    "result": "England won by 7 wickets (with 168 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Imran Nazir",
+            "Azhar Mahmood",
+            "Yasir Hameed",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Shoaib Akhtar",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Rashid Latif(c) (wk)",
+            "Mohammad Sami"
+        ],
+        "England": [
+            "James Anderson",
+            "Michael Vaughan(c)",
+            "Rikki Clarke",
+            "Darren Gough",
+            "Chris Read (wk)",
+            "Marcus Trescothick",
+            "Jim Troughton",
+            "Anthony McGrath",
+            "Andrew Flintoff",
+            "Ashley Giles",
+            "Vikram Solanki"
+        ]
+    }
 }

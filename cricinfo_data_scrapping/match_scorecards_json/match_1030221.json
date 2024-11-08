@@ -80,8 +80,8 @@
                     "strike_rate": "65.62"
                 },
                 {
-                    "batsman": "Luke Ronchi",
-                    "dismissal": "c Dhoni b Patel",
+                    "batsman": "Luke Ronchi (wk)",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "11",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Ronchi b Boult",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "15",
                     "balls": "27",
                     "minutes": "28",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Ronchi b Santner",
+                    "dismissal": "c (wk)Ronchi b Santner",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "18",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Manish Pandey",
-                    "dismissal": "run out (Santner/Ronchi)",
+                    "dismissal": "run out (Santner/ (wk)Ronchi)",
                     "runs": "19",
                     "balls": "25",
                     "minutes": "34",
@@ -277,7 +277,7 @@
                     "strike_rate": "76.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c & b Southee",
                     "runs": "39",
                     "balls": "65",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Kedar Jadhav",
-                    "dismissal": "c Ronchi b Henry",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "41",
                     "balls": "37",
                     "minutes": "47",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 6 runs"
+    "result": "New Zealand won by 6 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Tom Latham",
+            "Corey Anderson",
+            "Trent Boult",
+            "Luke Ronchi (wk)",
+            "Matt Henry",
+            "Ross Taylor",
+            "Anton Devcich",
+            "Tim Southee"
+        ],
+        "India": [
+            "Amit Mishra",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Manish Pandey",
+            "Kedar Jadhav",
+            "Axar Patel",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Jasprit Bumrah",
+            "Umesh Yadav"
+        ]
+    }
 }

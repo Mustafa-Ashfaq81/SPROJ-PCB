@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Minors b Hurdle",
+                    "dismissal": "c (wk)Minors b Hurdle",
                     "runs": "30",
                     "balls": "47",
                     "minutes": "67",
@@ -61,7 +61,7 @@
                     "strike_rate": "94.44"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Tucker b Leverock",
                     "runs": "76",
                     "balls": "83",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Saleem Mukuddem",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "10",
@@ -282,8 +282,8 @@
                     "strike_rate": "19.04"
                 },
                 {
-                    "batsman": "Dean Minors",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "batsman": "Dean Minors (wk)",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "2",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Lionel Cann",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "28",
                     "balls": "32",
                     "minutes": "49",
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 243 runs"
+    "result": "Sri Lanka won by 243 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene(c)",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Upul Tharanga",
+            "Chamara Silva"
+        ],
+        "Bermuda": [
+            "Dwayne Leverock",
+            "Dean Minors (wk)",
+            "Lionel Cann",
+            "Saleem Mukuddem",
+            "Clay Smith",
+            "David Hemp",
+            "Irving Romaine(c)",
+            "Janeiro Tucker",
+            "Kevin Hurdle",
+            "Oliver Pitcher",
+            "Delyone Borden"
+        ]
+    }
 }

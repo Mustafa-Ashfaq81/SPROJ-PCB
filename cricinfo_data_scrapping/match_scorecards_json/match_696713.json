@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Duncan Allan",
-                    "dismissal": "c Kotze b Klazinga",
+                    "dismissal": "c (wk)Kotze b Klazinga",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "6",
@@ -49,8 +49,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Morris Ouma",
-                    "dismissal": "st Kotze b BM Scholtz",
+                    "batsman": "Morris Ouma (wk)",
+                    "dismissal": "st (wk)Kotze b BM Scholtz",
                     "runs": "32",
                     "balls": "63",
                     "minutes": "85",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Collins Obuya",
-                    "dismissal": "c Kotze b Klazinga",
+                    "dismissal": "c (wk)Kotze b Klazinga",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "10",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo",
-                    "dismissal": "c Kotze b Smit",
+                    "dismissal": "c (wk)Kotze b Smit",
                     "runs": "47",
                     "balls": "82",
                     "minutes": "98",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Hiren Varaiya",
-                    "dismissal": "c Kotze b Viljoen",
+                    "dismissal": "c (wk)Kotze b Viljoen",
                     "runs": "33",
                     "balls": "39",
                     "minutes": "58",
@@ -227,7 +227,7 @@
             "batting": [
                 {
                     "batsman": "Xander Pitchers",
-                    "dismissal": "c Ouma b Onyango",
+                    "dismissal": "c (wk)Ouma b Onyango",
                     "runs": "10",
                     "balls": "35",
                     "minutes": "34",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Stephan Baard",
-                    "dismissal": "c Ouma b Onyango",
+                    "dismissal": "c (wk)Ouma b Onyango",
                     "runs": "15",
                     "balls": "17",
                     "minutes": "27",
@@ -277,7 +277,7 @@
                 },
                 {
                     "batsman": "Gerrie Snyman",
-                    "dismissal": "c Ouma b Varaiya",
+                    "dismissal": "c (wk)Ouma b Varaiya",
                     "runs": "13",
                     "balls": "20",
                     "minutes": "21",
@@ -296,7 +296,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "JP Kotze",
+                    "batsman": "JP Kotze (wk)",
                     "dismissal": "c Varaiya b Obuya",
                     "runs": "15",
                     "balls": "20",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "Namibia won by 2 wickets (with 7 balls remaining)"
+    "result": "Namibia won by 2 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Ragheb Aga",
+            "Duncan Allan",
+            "Nehemiah Odhiambo",
+            "Rakep Patel(c)",
+            "Steve Tikolo",
+            "Hiren Varaiya",
+            "Shem Ngoche",
+            "Collins Obuya",
+            "Irfan Karim",
+            "Lameck Onyango",
+            "Morris Ouma (wk)"
+        ],
+        "Namibia": [
+            "Nicolaas Scholtz",
+            "Louis Klazinga",
+            "JJ Smit",
+            "Xander Pitchers",
+            "Craig Williams",
+            "Stephan Baard",
+            "Bernard Scholtz",
+            "JP Kotze (wk)",
+            "Gerrie Snyman",
+            "Christi Viljoen",
+            "Sarel Burger(c)"
+        ]
+    }
 }

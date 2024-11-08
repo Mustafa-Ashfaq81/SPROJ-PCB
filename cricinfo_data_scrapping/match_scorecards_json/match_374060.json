@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik(c)",
-                    "dismissal": "run out (Powell/Baugh)",
+                    "dismissal": "run out (Powell/ (wk)Baugh)",
                     "runs": "10",
                     "balls": "24",
                     "minutes": "31",
@@ -80,7 +80,7 @@
                     "strike_rate": "41.66"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Baker",
                     "runs": "45",
                     "balls": "54",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Baugh b Taylor",
+                    "dismissal": "c (wk)Baugh b Taylor",
                     "runs": "28",
                     "balls": "24",
                     "minutes": "31",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Sohail Tanvir",
-                    "dismissal": "run out (Chattergoon/Baugh)",
+                    "dismissal": "run out (Chattergoon/ (wk)Baugh)",
                     "runs": "26",
                     "balls": "20",
                     "minutes": "32",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Iftikhar Anjum",
-                    "dismissal": "c Baugh b Taylor",
+                    "dismissal": "c (wk)Baugh b Taylor",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "16",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Sewnarine Chattergoon",
-                    "dismissal": "c Kamran Akmal b Sohail Tanvir",
+                    "dismissal": "c (wk)Kamran Akmal b Sohail Tanvir",
                     "runs": "0",
                     "balls": "11",
                     "minutes": "24",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Xavier Marshall",
-                    "dismissal": "run out (Younis Khan/Kamran Akmal)",
+                    "dismissal": "run out (Younis Khan/ (wk)Kamran Akmal)",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "8",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Shawn Findlay",
-                    "dismissal": "run out (Younis Khan/Kamran Akmal)",
+                    "dismissal": "run out (Younis Khan/ (wk)Kamran Akmal)",
                     "runs": "12",
                     "balls": "24",
                     "minutes": "24",
@@ -297,7 +297,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "b Umar Gul",
                     "runs": "3",
                     "balls": "8",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Nikita Miller",
-                    "dismissal": "c Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "c (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "12",
                     "balls": "14",
                     "minutes": "22",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 24 runs"
+    "result": "Pakistan won by 24 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Khurram Manzoor",
+            "Misbah-ul-Haq",
+            "Iftikhar Anjum",
+            "Umar Gul",
+            "Saeed Ajmal",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Sohail Tanvir",
+            "Salman Butt",
+            "Shoaib Malik(c)"
+        ],
+        "West Indies": [
+            "Xavier Marshall",
+            "Nikita Miller",
+            "Ramnaresh Sarwan",
+            "Shawn Findlay",
+            "Daren Powell",
+            "Lionel Baker",
+            "Chris Gayle(c)",
+            "Sewnarine Chattergoon",
+            "Shivnarine Chanderpaul",
+            "Jerome Taylor",
+            "Carlton Baugh (wk)"
+        ]
+    }
 }

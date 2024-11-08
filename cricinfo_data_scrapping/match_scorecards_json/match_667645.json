@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Rahane b Jadeja",
                     "runs": "38",
                     "balls": "20",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Tim Southee",
-                    "dismissal": "run out (Dhoni/Kohli)",
+                    "dismissal": "run out ( (wk)Dhoni/Kohli)",
                     "runs": "27",
                     "balls": "23",
                     "minutes": "28",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Ronchi b Bennett",
+                    "dismissal": "c (wk)Ronchi b Bennett",
                     "runs": "6",
                     "balls": "20",
                     "minutes": "27",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "3",
                     "balls": "14",
                     "minutes": "22",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Ronchi b Southee",
+                    "dismissal": "c (wk)Ronchi b Southee",
                     "runs": "31",
                     "balls": "39",
                     "minutes": "59",
@@ -287,7 +287,7 @@
                     "strike_rate": "79.48"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Southee b Anderson",
                     "runs": "50",
                     "balls": "60",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "New Zealand": [
+            "Luke Ronchi (wk)",
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Martin Guptill",
+            "Hamish Bennett",
+            "Brendon McCullum(c)",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Tim Southee",
+            "Nathan McCullum"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "Shikhar Dhawan",
+            "Varun Aaron"
+        ]
+    }
 }

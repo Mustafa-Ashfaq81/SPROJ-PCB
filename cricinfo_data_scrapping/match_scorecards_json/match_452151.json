@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan(c)",
-                    "dismissal": "st Taibu b Utseya",
+                    "dismissal": "st (wk)Taibu b Utseya",
                     "runs": "78",
                     "balls": "66",
                     "minutes": "84",
@@ -51,7 +51,7 @@
                     "strike_rate": "118.18"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "c Masakadza b Utseya",
                     "runs": "6",
                     "balls": "13",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Thilan Samaraweera",
-                    "dismissal": "run out (Chigumbura/Taibu)",
+                    "dismissal": "run out (Chigumbura/ (wk)Taibu)",
                     "runs": "16",
                     "balls": "31",
                     "minutes": "46",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Dilhara Fernando",
-                    "dismissal": "run out (Taibu)",
+                    "dismissal": "run out ( (wk)Taibu)",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -253,7 +253,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Chandimal b Thushara",
+                    "dismissal": "c (wk)Chandimal b Thushara",
                     "runs": "3",
                     "balls": "15",
                     "minutes": "19",
@@ -282,7 +282,7 @@
                     "strike_rate": "71.60"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "not out",
                     "runs": "42",
                     "balls": "55",
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 8 wickets (with 13 balls remaining)"
+    "result": "Zimbabwe won by 8 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Suraj Randiv",
+            "Dilhara Fernando",
+            "Jeevan Mendis",
+            "Lahiru Thirimanne",
+            "Tillakaratne Dilshan(c)",
+            "Thisara Perera",
+            "Thilan Thushara",
+            "Upul Tharanga",
+            "Dinesh Chandimal (wk)",
+            "Chamara Kapugedera",
+            "Thilan Samaraweera"
+        ],
+        "Zimbabwe": [
+            "Hamilton Masakadza",
+            "Brendan Taylor",
+            "Tatenda Taibu (wk)",
+            "Charles Coventry",
+            "Ray Price",
+            "Chamu Chibhabha",
+            "Graeme Cremer",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Chris Mpofu",
+            "Elton Chigumbura (c)"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "c Aasif Sheikh b Karan KC",
+                    "dismissal": "c (wk)Aasif Sheikh b Karan KC",
                     "runs": "14",
                     "balls": "20",
                     "minutes": "26",
@@ -61,7 +61,7 @@
                     "strike_rate": "115.26"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "run out (Airee)",
                     "runs": "44",
                     "balls": "50",
@@ -213,7 +213,7 @@
             "batting": [
                 {
                     "batsman": "Kushal Bhurtel",
-                    "dismissal": "c Mohammad Rizwan b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shaheen Shah Afridi",
                     "runs": "8",
                     "balls": "4",
                     "minutes": "4",
@@ -222,7 +222,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Aasif Sheikh",
+                    "batsman": "Aasif Sheikh (wk)",
                     "dismissal": "c Iftikhar Ahmed b Naseem Shah",
                     "runs": "5",
                     "balls": "5",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Sompal Kami",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "28",
                     "balls": "46",
                     "minutes": "72",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 238 runs"
+    "result": "Pakistan won by 238 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Naseem Shah",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Imam-ul-Haq",
+            "Haris Rauf",
+            "Fakhar Zaman",
+            "Mohammad Nawaz",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Salman Agha"
+        ],
+        "Nepal": [
+            "Kushal Malla",
+            "Lalit Rajbanshi",
+            "Kushal Bhurtel",
+            "Rohit Paudel(c)",
+            "Aasif Sheikh (wk)",
+            "Gulsan Jha",
+            "Sandeep Lamichhane",
+            "Karan KC",
+            "Dipendra Singh Airee",
+            "Sompal Kami",
+            "Aarif Sheikh"
+        ]
+    }
 }

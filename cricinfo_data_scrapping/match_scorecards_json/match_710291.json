@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c Umar Akmal b Umar Gul",
+                    "dismissal": "c (wk)Umar Akmal b Umar Gul",
                     "runs": "14",
                     "balls": "26",
                     "minutes": "29",
@@ -54,7 +54,7 @@
                     "strike_rate": "92.72"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Ahmed Shehzad b Umar Gul",
                     "runs": "67",
                     "balls": "65",
@@ -261,8 +261,8 @@
                     "strike_rate": "86.90"
                 },
                 {
-                    "batsman": "Umar Akmal",
-                    "dismissal": "c Sangakkara b Lakmal",
+                    "batsman": "Umar Akmal (wk)",
+                    "dismissal": "c (wk)Sangakkara b Lakmal",
                     "runs": "74",
                     "balls": "72",
                     "minutes": "76",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 12 runs"
+    "result": "Sri Lanka won by 12 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kumar Sangakkara (wk)",
+            "Suranga Lakmal",
+            "Chaturanga de Silva",
+            "Dinesh Chandimal",
+            "Kusal Perera",
+            "Sachithra Senanayake",
+            "Angelo Mathews(c)",
+            "Mahela Jayawardene",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Lasith Malinga"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Bilawal Bhatti",
+            "Ahmed Shehzad",
+            "Umar Gul",
+            "Umar Akmal (wk)",
+            "Misbah-ul-Haq(c)",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Sohaib Maqsood",
+            "Sharjeel Khan"
+        ]
+    }
 }

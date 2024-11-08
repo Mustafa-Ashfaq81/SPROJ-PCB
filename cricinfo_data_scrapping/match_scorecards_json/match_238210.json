@@ -29,8 +29,8 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
-                    "dismissal": "c Taylor b Rainsford",
+                    "batsman": "Kennedy Otieno (wk)",
+                    "dismissal": "c (wk)Taylor b Rainsford",
                     "runs": "13",
                     "balls": "38",
                     "minutes": "53",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Tanmay Mishra",
-                    "dismissal": "st Taylor b Higgins",
+                    "dismissal": "st (wk)Taylor b Higgins",
                     "runs": "17",
                     "balls": "36",
                     "minutes": "39",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Terry Duffin(c)",
-                    "dismissal": "c Otieno b Odoyo",
+                    "dismissal": "c (wk)Otieno b Odoyo",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "37",
@@ -280,8 +280,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
-                    "dismissal": "c Otieno b Suji",
+                    "batsman": "Brendan Taylor (wk)",
+                    "dismissal": "c (wk)Otieno b Suji",
                     "runs": "33",
                     "balls": "50",
                     "minutes": "62",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Otieno b Suji",
+                    "dismissal": "c (wk)Otieno b Suji",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "13",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 65 runs"
+    "result": "Kenya won by 65 runs",
+    "playing_xi": {
+        "Kenya": [
+            "Kennedy Otieno (wk)",
+            "Tony Suji",
+            "Alfred Luseno",
+            "Thomas Odoyo",
+            "Brijal Patel",
+            "Tanmay Mishra",
+            "Peter Ongondo",
+            "Jimmy Kamande",
+            "Morris Ouma",
+            "David Obuya",
+            "Steve Tikolo(c)"
+        ],
+        "Zimbabwe": [
+            "Gregory Strydom",
+            "Charles Coventry",
+            "Brendan Taylor (wk)",
+            "Anthony Ireland",
+            "Ryan Higgins",
+            "Prosper Utseya",
+            "Piet Rinke",
+            "Elton Chigumbura",
+            "Terry Duffin(c)",
+            "Hamilton Masakadza",
+            "Keegan Meth"
+        ]
+    }
 }

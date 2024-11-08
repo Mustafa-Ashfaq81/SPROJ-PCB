@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "st NJ O'Brien b Mooney",
+                    "dismissal": "st (wk)NJ O'Brien b Mooney",
                     "runs": "12",
                     "balls": "12",
                     "minutes": "29",
@@ -61,7 +61,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c White b Dockrell",
                     "runs": "36",
                     "balls": "66",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "18",
@@ -282,7 +282,7 @@
                     "strike_rate": "45.71"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Tamim Iqbal b Shakib Al Hasan",
                     "runs": "38",
                     "balls": "52",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 27 runs"
+    "result": "Bangladesh won by 27 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rubel Hossain",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Shakib Al Hasan(c)",
+            "Imrul Kayes",
+            "Raqibul Hasan",
+            "Mohammad Ashraful",
+            "Abdur Razzak",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Niall O'Brien (wk)",
+            "Ed Joyce",
+            "Trent Johnston",
+            "Paul Stirling",
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "John Mooney",
+            "Boyd Rankin",
+            "Andre Botha",
+            "Andrew White"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c van Troost b de Leede",
                     "runs": "57",
                     "balls": "64",
@@ -199,7 +199,7 @@
             "batting": [
                 {
                     "batsman": "Bas Zuiderent",
-                    "dismissal": "run out (Clarke/Gilchrist)",
+                    "dismissal": "run out (Clarke/ (wk)Gilchrist)",
                     "runs": "9",
                     "balls": "29",
                     "minutes": "53",
@@ -278,7 +278,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Jeroen Smits",
+                    "batsman": "Jeroen Smits (wk)",
                     "dismissal": "lbw b Hogg",
                     "runs": "3",
                     "balls": "12",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Mark Jonkman",
-                    "dismissal": "st Gilchrist b Hogg",
+                    "dismissal": "st (wk)Gilchrist b Hogg",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "Australia won by 229 runs"
+    "result": "Australia won by 229 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shane Watson",
+            "Glenn McGrath",
+            "Shaun Tait",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brad Hodge",
+            "Nathan Bracken",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Michael Hussey"
+        ],
+        "Netherlands": [
+            "Darron Reekers",
+            "Ryan ten Doeschate",
+            "Tim de Leede",
+            "Bas Zuiderent",
+            "Jeroen Smits (wk)",
+            "Adeel Raja",
+            "Mark Jonkman",
+            "Daan van Bunge",
+            "Peter Borren",
+            "Alexei Kervezee",
+            "Luuk van Troost(c)"
+        ]
+    }
 }

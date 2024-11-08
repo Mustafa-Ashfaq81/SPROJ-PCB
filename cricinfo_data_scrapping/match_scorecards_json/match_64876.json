@@ -30,7 +30,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist(c)",
+                    "batsman": "Adam Gilchrist(c) (wk)",
                     "dismissal": "lbw b Zoysa",
                     "runs": "18",
                     "balls": "26",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Simon Katich",
-                    "dismissal": "run out (Zoysa/Sangakkara)",
+                    "dismissal": "run out (Zoysa/ (wk)Sangakkara)",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "23",
@@ -237,7 +237,7 @@
                     "strike_rate": "68.42"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Hogg",
                     "runs": "37",
                     "balls": "41",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 3 wickets (with 13 balls remaining)"
+    "result": "Sri Lanka won by 3 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Simon Katich",
+            "Brad Williams",
+            "Brett Lee",
+            "Michael Bevan",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist(c) (wk)",
+            "Brad Haddin"
+        ],
+        "Sri Lanka": [
+            "Saman Jayantha",
+            "Russel Arnold",
+            "Nuwan Zoysa",
+            "Nuwan Kulasekara",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)"
+        ]
+    }
 }

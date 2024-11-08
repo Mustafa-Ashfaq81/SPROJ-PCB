@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Nafees Iqbal",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "9",
                     "balls": "22",
                     "minutes": "33",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Joginder Sharma b Sriram",
                     "runs": "20",
                     "balls": "24",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud",
-                    "dismissal": "run out (Kaif/Dhoni)",
+                    "dismissal": "run out (Kaif/ (wk)Dhoni)",
                     "runs": "17",
                     "balls": "38",
                     "minutes": "50",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Sridharan Sriram",
-                    "dismissal": "st Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "st (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "57",
                     "balls": "91",
                     "minutes": "114",
@@ -297,7 +297,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Habibul Bashar b Mashrafe Mortaza",
                     "runs": "12",
                     "balls": "11",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 15 runs"
+    "result": "Bangladesh won by 15 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Mashrafe Mortaza",
+            "Khaled Mahmud",
+            "Nafees Iqbal",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Habibul Bashar(c)",
+            "Nazmul Hossain",
+            "Mohammad Rafique"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Virender Sehwag",
+            "Dinesh Mongia",
+            "Sridharan Sriram",
+            "Joginder Sharma",
+            "Yuvraj Singh",
+            "Ajit Agarkar",
+            "Mohammad Kaif",
+            "Sourav Ganguly(c)",
+            "Murali Kartik"
+        ]
+    }
 }

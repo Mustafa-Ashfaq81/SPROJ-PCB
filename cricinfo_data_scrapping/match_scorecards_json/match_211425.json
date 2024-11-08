@@ -32,8 +32,8 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Jones b Harmison",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "26",
                     "balls": "32",
                     "minutes": "48",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Jason Gillespie",
-                    "dismissal": "c Jones b Flintoff",
+                    "dismissal": "c (wk)Jones b Flintoff",
                     "runs": "14",
                     "balls": "18",
                     "minutes": "19",
@@ -313,7 +313,7 @@
                     "strike_rate": "140.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Martyn b Hogg",
                     "runs": "2",
                     "balls": "5",
@@ -324,7 +324,7 @@
                 },
                 {
                     "batsman": "Vikram Solanki",
-                    "dismissal": "run out (Gilchrist)",
+                    "dismissal": "run out ( (wk)Gilchrist)",
                     "runs": "13",
                     "balls": "14",
                     "minutes": "24",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 15 balls remaining)"
+    "result": "England won by 3 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Michael Hussey",
+            "Shane Watson"
+        ],
+        "England": [
+            "Vikram Solanki",
+            "Andrew Flintoff",
+            "Darren Gough",
+            "Jon Lewis",
+            "Steve Harmison",
+            "Michael Vaughan(c)",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Marcus Trescothick"
+        ]
+    }
 }

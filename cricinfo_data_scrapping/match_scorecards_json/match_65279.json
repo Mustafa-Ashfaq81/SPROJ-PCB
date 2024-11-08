@@ -31,7 +31,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "lbw b Bond",
                     "runs": "18",
                     "balls": "20",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "11",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "31",
                     "balls": "53",
                     "minutes": "83",
@@ -253,7 +253,7 @@
             "batting": [
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "10",
                     "balls": "9",
                     "minutes": "10",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "48",
                     "balls": "70",
                     "minutes": "116",
@@ -322,7 +322,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Lee",
                     "runs": "1",
                     "balls": "7",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Australia won by 96 runs"
+    "result": "Australia won by 96 runs",
+    "playing_xi": {
+        "Australia": [
+            "Darren Lehmann",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Brad Hogg",
+            "Damien Martyn"
+        ],
+        "New Zealand": [
+            "Shane Bond",
+            "Lou Vincent",
+            "Jacob Oram",
+            "Nathan Astle",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Scott Styris",
+            "Chris Cairns",
+            "Andre Adams"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "27",
                     "balls": "35",
                     "minutes": "48",
@@ -70,7 +70,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Junaid Siddique b Sohrawordi Shuvo",
                     "runs": "14",
                     "balls": "30",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Keegan Meth",
-                    "dismissal": "st Mushfiqur Rahim b Sohrawordi Shuvo",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Sohrawordi Shuvo",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "10",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Chris Mpofu",
-                    "dismissal": "run out (Mashrafe Mortaza/Mushfiqur Rahim)",
+                    "dismissal": "run out (Mashrafe Mortaza/ (wk)Mushfiqur Rahim)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "2",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Zunaed Siddique",
-                    "dismissal": "run out (Taylor/Taibu)",
+                    "dismissal": "run out (Taylor/ (wk)Taibu)",
                     "runs": "11",
                     "balls": "21",
                     "minutes": "41",
@@ -287,7 +287,7 @@
                     "strike_rate": "96.92"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Price",
                     "runs": "1",
                     "balls": "9",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Sohrawordi Shuvo",
-                    "dismissal": "run out (Chigumbura/Taibu)",
+                    "dismissal": "run out (Chigumbura/ (wk)Taibu)",
                     "runs": "11",
                     "balls": "18",
                     "minutes": "18",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "run out (Chibhabha/Taibu)",
+                    "dismissal": "run out (Chibhabha/ (wk)Taibu)",
                     "runs": "12",
                     "balls": "16",
                     "minutes": "16",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 9 runs"
+    "result": "Zimbabwe won by 9 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura(c)",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Chamu Chibhabha",
+            "Brendan Taylor",
+            "Keith Dabengwa",
+            "Regis Chakabva",
+            "Keegan Meth",
+            "Ray Price",
+            "Chris Mpofu",
+            "Tatenda Taibu (wk)"
+        ],
+        "Bangladesh": [
+            "Abdur Razzak",
+            "Imrul Kayes",
+            "Sohrawordi Shuvo",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Mahmudullah",
+            "Shakib Al Hasan(c)",
+            "Mashrafe Mortaza",
+            "Zunaed Siddique",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

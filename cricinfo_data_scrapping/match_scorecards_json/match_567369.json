@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Kamran Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Irfan",
                     "runs": "17",
                     "balls": "16",
                     "minutes": "19",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "c Kamran Akmal b Junaid Khan",
+                    "dismissal": "c (wk)Kamran Akmal b Junaid Khan",
                     "runs": "10",
                     "balls": "17",
                     "minutes": "42",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Colin Ingram",
-                    "dismissal": "c Kamran Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Irfan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -60,7 +60,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "c Younis Khan b Mohammad Irfan",
                     "runs": "4",
                     "balls": "5",
@@ -257,7 +257,7 @@
                     "strike_rate": "63.26"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Peterson",
                     "runs": "18",
                     "balls": "14",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 28 balls remaining) (D/L method)"
+    "result": "Pakistan won by 6 wickets (with 28 balls remaining) (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Kyle Abbott",
+            "Lonwabo Tsotsobe",
+            "Farhaan Behardien",
+            "Colin Ingram",
+            "Graeme Smith",
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Dale Steyn",
+            "Faf du Plessis",
+            "Robin Peterson",
+            "Hashim Amla"
+        ],
+        "Pakistan": [
+            "Umar Gul",
+            "Mohammad Irfan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Younis Khan"
+        ]
+    }
 }

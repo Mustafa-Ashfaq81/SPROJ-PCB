@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "c de Kock b Imran Tahir",
+                    "dismissal": "c (wk)de Kock b Imran Tahir",
                     "runs": "36",
                     "balls": "62",
                     "minutes": "72",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "9",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "George Bailey(c)",
-                    "dismissal": "st de Kock b Phangiso",
+                    "dismissal": "st (wk)de Kock b Phangiso",
                     "runs": "32",
                     "balls": "35",
                     "minutes": "44",
@@ -92,7 +92,7 @@
                     "strike_rate": "168.62"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Phangiso b Morkel",
                     "runs": "11",
                     "balls": "17",
@@ -220,7 +220,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Haddin b Marsh",
+                    "dismissal": "c (wk)Haddin b Marsh",
                     "runs": "17",
                     "balls": "28",
                     "minutes": "42",
@@ -229,7 +229,7 @@
                     "strike_rate": "60.71"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Smith b Maxwell",
                     "runs": "1",
                     "balls": "5",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Australia won by 62 runs"
+    "result": "Australia won by 62 runs",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Kane Richardson",
+            "Steven Smith",
+            "Mitchell Johnson",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "Mitchell Marsh",
+            "Nathan Lyon",
+            "Phillip Hughes",
+            "Aaron Finch"
+        ],
+        "South Africa": [
+            "Ryan McLaren",
+            "Dale Steyn",
+            "Aaron Phangiso",
+            "Morne Morkel",
+            "Imran Tahir",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ]
+    }
 }

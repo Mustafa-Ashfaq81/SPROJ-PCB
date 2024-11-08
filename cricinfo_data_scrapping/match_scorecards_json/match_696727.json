@@ -89,8 +89,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Hamza Tariq",
-                    "dismissal": "run out (Regmi/Bhandari)",
+                    "batsman": "Hamza Tariq (wk)",
+                    "dismissal": "run out (Regmi/ (wk)Bhandari)",
                     "runs": "34",
                     "balls": "36",
                     "minutes": "45",
@@ -110,7 +110,7 @@
                 },
                 {
                     "batsman": "Khurram Chohan",
-                    "dismissal": "st Bhandari b Regmi",
+                    "dismissal": "st (wk)Bhandari b Regmi",
                     "runs": "10",
                     "balls": "6",
                     "minutes": "10",
@@ -237,7 +237,7 @@
             "batting": [
                 {
                     "batsman": "Sagar Pun",
-                    "dismissal": "c Hamza Tariq b Khurram Chohan",
+                    "dismissal": "c (wk)Hamza Tariq b Khurram Chohan",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "1",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Pradeep Airee",
-                    "dismissal": "run out (Junaid Siddiqui/Hamza Tariq)",
+                    "dismissal": "run out (Junaid Siddiqui/ (wk)Hamza Tariq)",
                     "runs": "26",
                     "balls": "34",
                     "minutes": "63",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Gyanendra Malla",
-                    "dismissal": "c Hamza Tariq b Khurram Chohan",
+                    "dismissal": "c (wk)Hamza Tariq b Khurram Chohan",
                     "runs": "86",
                     "balls": "97",
                     "minutes": "130",
@@ -277,7 +277,7 @@
                 },
                 {
                     "batsman": "Prithu Baskota",
-                    "dismissal": "c Hamza Tariq b Pervez",
+                    "dismissal": "c (wk)Hamza Tariq b Pervez",
                     "runs": "15",
                     "balls": "14",
                     "minutes": "18",
@@ -296,7 +296,7 @@
                     "strike_rate": "54.83"
                 },
                 {
-                    "batsman": "Binod Bhandari",
+                    "batsman": "Binod Bhandari (wk)",
                     "dismissal": "c sub (HS Baidwan) b Gordon",
                     "runs": "17",
                     "balls": "17",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "Canada won by 12 runs"
+    "result": "Canada won by 12 runs",
+    "playing_xi": {
+        "Canada": [
+            "Jeremy Gordon",
+            "Cecil Pervez",
+            "Raza-ur-Rehman",
+            "Khurram Chohan",
+            "Ruvindu Gunasekera",
+            "Nitish Kumar",
+            "Hamza Tariq (wk)",
+            "Junaid Siddiqui",
+            "Trevin Bastiampillai",
+            "Usman Limbada",
+            "Jimmy Hansra(c)"
+        ],
+        "Nepal": [
+            "Sharad Vesawkar",
+            "Shakti Gauchan",
+            "Paras Khadka(c)",
+            "Sagar Pun",
+            "Pradeep Airee",
+            "Prithu Baskota",
+            "Basant Regmi",
+            "Sompal Kami",
+            "Jitendra Mukhiya",
+            "Binod Bhandari (wk)",
+            "Gyanendra Malla"
+        ]
+    }
 }

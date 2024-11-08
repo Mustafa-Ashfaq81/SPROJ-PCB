@@ -40,7 +40,7 @@
                     "strike_rate": "109.64"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Raina)",
                     "runs": "4",
                     "balls": "3",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "56",
                     "balls": "74",
                     "minutes": "100",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Muthiah Muralidaran",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "4",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "st Sangakkara b Mendis",
+                    "dismissal": "st (wk)Sangakkara b Mendis",
                     "runs": "60",
                     "balls": "36",
                     "minutes": "46",
@@ -277,8 +277,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "49",
                     "balls": "74",
                     "minutes": "104",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 100 runs"
+    "result": "Sri Lanka won by 100 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Chamara Silva",
+            "Ajantha Mendis",
+            "Thilan Thushara",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Nuwan Kulasekara"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Pragyan Ojha",
+            "Virender Sehwag",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Robin Uthappa",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "RP Singh",
+            "Gautam Gambhir",
+            "Ishant Sharma"
+        ]
+    }
 }

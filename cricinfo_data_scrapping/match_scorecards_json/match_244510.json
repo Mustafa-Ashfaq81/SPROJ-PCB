@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "7",
                     "balls": "4",
                     "minutes": "15",
@@ -91,7 +91,7 @@
                     "strike_rate": "65.59"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b Shoaib Malik",
                     "runs": "3",
                     "balls": "10",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Sreesanth",
-                    "dismissal": "run out (Shoaib Malik/Kamran Akmal)",
+                    "dismissal": "run out (Shoaib Malik/ (wk)Kamran Akmal)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "1",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "1",
                     "balls": "14",
                     "minutes": "12",
@@ -288,7 +288,7 @@
                     "strike_rate": "7.14"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "24",
                     "balls": "34",
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 9 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ramesh Powar",
+            "Irfan Pathan",
+            "Venugopal Rao",
+            "Robin Uthappa",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "MS Dhoni (wk)",
+            "Rahul Dravid(c)",
+            "Sreesanth",
+            "Suresh Raina",
+            "Harbhajan Singh"
+        ],
+        "Pakistan": [
+            "Naved-ul-Hasan",
+            "Shahid Afridi",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Imran Farhat",
+            "Kamran Akmal (wk)",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Younis Khan",
+            "Iftikhar Anjum"
+        ]
+    }
 }

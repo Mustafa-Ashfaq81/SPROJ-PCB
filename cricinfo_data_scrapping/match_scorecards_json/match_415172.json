@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Bas Zuiderent",
-                    "dismissal": "c Mohammad Shahzad b Shapoor Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Shapoor Zadran",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "1",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Ryan ten Doeschate",
-                    "dismissal": "st Mohammad Shahzad b Samiullah Shinwari",
+                    "dismissal": "st (wk)Mohammad Shahzad b Samiullah Shinwari",
                     "runs": "58",
                     "balls": "89",
                     "minutes": "99",
@@ -125,7 +125,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
+                    "batsman": "Jeroen Smits(c) (wk)",
                     "dismissal": "run out",
                     "runs": "4",
                     "balls": "9",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Ahmed Shah",
-                    "dismissal": "c Smits b Mudassar Bukhari",
+                    "dismissal": "c (wk)Smits b Mudassar Bukhari",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "13",
@@ -276,7 +276,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c de Grooth b ten Doeschate",
                     "runs": "16",
                     "balls": "28",
@@ -297,7 +297,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan",
-                    "dismissal": "c Smits b Schiferli",
+                    "dismissal": "c (wk)Smits b Schiferli",
                     "runs": "23",
                     "balls": "70",
                     "minutes": "94",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 8 runs"
+    "result": "Netherlands won by 8 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Pieter Seelaar",
+            "Jeroen Smits(c) (wk)",
+            "Tom de Grooth",
+            "Ryan ten Doeschate",
+            "Daan van Bunge",
+            "Eric Szwarczynski",
+            "Peter Borren",
+            "Mudassar Bukhari",
+            "Edgar Schiferli",
+            "Bas Zuiderent",
+            "Alexei Kervezee"
+        ],
+        "Afghanistan": [
+            "Mohammad Shahzad (wk)",
+            "Asghar Afghan",
+            "Ahmed Shah",
+            "Hamid Hassan",
+            "Noor Ali Zadran",
+            "Mohammad Nabi",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Raees Ahmadzai",
+            "Shapoor Zadran",
+            "Nawroz Mangal(c)"
+        ]
+    }
 }

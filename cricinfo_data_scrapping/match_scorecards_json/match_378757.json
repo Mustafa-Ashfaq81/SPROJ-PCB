@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Taibu b Masakadza",
+                    "dismissal": "c (wk)Taibu b Masakadza",
                     "runs": "13",
                     "balls": "54",
                     "minutes": "84",
@@ -83,7 +83,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Dabengwa",
                     "runs": "22",
                     "balls": "38",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Nazmul Hossain",
-                    "dismissal": "st Taibu b Price",
+                    "dismissal": "st (wk)Taibu b Price",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "9",
@@ -264,7 +264,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Mashrafe Mortaza",
                     "runs": "14",
                     "balls": "16",
@@ -295,7 +295,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "0",
                     "balls": "27",
                     "minutes": "37",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 2 wickets (with 4 balls remaining)"
+    "result": "Zimbabwe won by 2 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Zunaed Siddique",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Rubel Hossain",
+            "Nazmul Hossain",
+            "Naeem Islam",
+            "Raqibul Hasan"
+        ],
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Prosper Utseya(c)",
+            "Ray Price",
+            "Tawanda Mupariwa",
+            "Tatenda Taibu (wk)",
+            "Malcolm Waller",
+            "Keith Dabengwa",
+            "Sean Williams",
+            "Ed Rainsford",
+            "Hamilton Masakadza",
+            "Stuart Matsikenyeri"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Taibu b Price",
+                    "dismissal": "c (wk)Taibu b Price",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "run out (Streak/Taibu)",
+                    "dismissal": "run out (Streak/ (wk)Taibu)",
                     "runs": "21",
                     "balls": "32",
                     "minutes": "41",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Alok Kapali",
-                    "dismissal": "c Taibu b Flower",
+                    "dismissal": "c (wk)Taibu b Flower",
                     "runs": "8",
                     "balls": "8",
                     "minutes": "11",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Mushfiqur Rahman",
-                    "dismissal": "c Taibu b Flower",
+                    "dismissal": "c (wk)Taibu b Flower",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "17",
@@ -100,7 +100,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Hondo b Streak",
                     "runs": "2",
                     "balls": "8",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Stuart Carlisle",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -277,8 +277,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 3 wickets (with 45 balls remaining)"
+    "result": "Zimbabwe won by 3 wickets (with 45 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Tareq Aziz",
+            "Hannan Sarkar",
+            "Khaled Mahmud",
+            "Manzarul Islam",
+            "Mohammad Ashraful",
+            "Khaled Mashud (wk)",
+            "Alok Kapali",
+            "Habibul Bashar(c)",
+            "Tapash Baisya",
+            "Mushfiqur Rahman"
+        ],
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Dion Ebrahim",
+            "Tatenda Taibu (wk)",
+            "Heath Streak(c)",
+            "Gary Brent",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Ray Price",
+            "Stuart Carlisle",
+            "Grant Flower",
+            "Barney Rogers"
+        ]
+    }
 }

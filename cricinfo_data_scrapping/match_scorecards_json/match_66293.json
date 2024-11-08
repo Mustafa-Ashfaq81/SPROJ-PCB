@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "c Taibu b Ervine",
+                    "dismissal": "c (wk)Taibu b Ervine",
                     "runs": "13",
                     "balls": "22",
                     "minutes": "35",
@@ -87,7 +87,7 @@
                 },
                 {
                     "batsman": "Anthony McGrath",
-                    "dismissal": "run out (Friend/Taibu)",
+                    "dismissal": "run out (Friend/ (wk)Taibu)",
                     "runs": "14",
                     "balls": "42",
                     "minutes": "35",
@@ -106,7 +106,7 @@
                     "strike_rate": "58.97"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "c Brent b Blignaut",
                     "runs": "23",
                     "balls": "32",
@@ -287,7 +287,7 @@
                     "strike_rate": "63.15"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Solanki b Johnson",
                     "runs": "4",
                     "balls": "9",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 4 wickets (with 12 balls remaining)"
+    "result": "Zimbabwe won by 4 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Rikki Clarke",
+            "Marcus Trescothick",
+            "Rob Key",
+            "Michael Vaughan(c)",
+            "Vikram Solanki",
+            "Andrew Flintoff",
+            "Anthony McGrath",
+            "Darren Gough",
+            "Richard Johnson",
+            "Chris Read (wk)",
+            "Ashley Giles"
+        ],
+        "Zimbabwe": [
+            "Grant Flower",
+            "Stuart Matsikenyeri",
+            "Heath Streak(c)",
+            "Tatenda Taibu (wk)",
+            "Dougie Marillier",
+            "Gary Brent",
+            "Andy Blignaut",
+            "Ray Price",
+            "Dion Ebrahim",
+            "Travis Friend",
+            "Sean Ervine"
+        ]
+    }
 }

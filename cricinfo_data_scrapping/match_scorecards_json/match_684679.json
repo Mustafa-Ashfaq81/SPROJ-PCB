@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Cross b Wardlaw",
+                    "dismissal": "c (wk)Cross b Wardlaw",
                     "runs": "31",
                     "balls": "23",
                     "minutes": "37",
@@ -63,7 +63,7 @@
                     "strike_rate": "134.78"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Taylor b Davey",
                     "runs": "9",
                     "balls": "5",
@@ -210,7 +210,7 @@
             "extras": "1",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Anderson",
                     "runs": "1",
                     "balls": "2",
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "England won by 39 runs (D/L method)"
+    "result": "England won by 39 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Jos Buttler (wk)",
+            "Ravi Bopara",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "James Anderson",
+            "Harry Gurney",
+            "Eoin Morgan",
+            "Gary Ballance",
+            "Joe Root",
+            "James Tredwell",
+            "Chris Jordan"
+        ],
+        "Scotland": [
+            "Preston Mommsen",
+            "Rob Taylor",
+            "Kyle Coetzer(c)",
+            "Matt Machan",
+            "Matthew Cross (wk)",
+            "Majid Haq",
+            "Alasdair Evans",
+            "Iain Wardlaw",
+            "Josh Davey",
+            "Calum MacLeod",
+            "Michael Leask"
+        ]
+    }
 }

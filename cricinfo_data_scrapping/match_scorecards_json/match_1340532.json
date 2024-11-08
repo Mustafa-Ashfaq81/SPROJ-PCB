@@ -32,7 +32,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "lbw b Hasaranga",
                     "runs": "53",
                     "balls": "55",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Mendis b Kumara",
+                    "dismissal": "c (wk)Mendis b Kumara",
                     "runs": "52",
                     "balls": "64",
                     "minutes": "92",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Najibullah Zadran",
-                    "dismissal": "c Mendis b Hasaranga",
+                    "dismissal": "c (wk)Mendis b Hasaranga",
                     "runs": "42",
                     "balls": "25",
                     "minutes": "39",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Rashid Khan",
-                    "dismissal": "run out (sub [KNA Bandara]/Mendis)",
+                    "dismissal": "run out (sub [KNA Bandara]/ (wk)Mendis)",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "11",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi(c)",
-                    "dismissal": "run out (sub [KNA Bandara]/Mendis)",
+                    "dismissal": "run out (sub [KNA Bandara]/ (wk)Mendis)",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "7",
@@ -253,7 +253,7 @@
                     "strike_rate": "102.40"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "lbw b Yamin Ahmadzai",
                     "runs": "1",
                     "balls": "5",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 60 runs"
+    "result": "Afghanistan won by 60 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Ibrahim Zadran",
+            "Najibullah Zadran",
+            "Rashid Khan",
+            "Rahmanullah Gurbaz (wk)",
+            "Hashmatullah Shahidi(c)",
+            "Fazalhaq Farooqi",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Yamin Ahmadzai",
+            "Rahmat Shah"
+        ],
+        "Sri Lanka": [
+            "Dasun Shanaka(c)",
+            "Dhananjaya Lakshan",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Wanindu Hasaranga",
+            "Lahiru Kumara",
+            "Maheesh Theekshana",
+            "Kasun Rajitha",
+            "Kusal Mendis (wk)",
+            "Dinesh Chandimal",
+            "Charith Asalanka"
+        ]
+    }
 }

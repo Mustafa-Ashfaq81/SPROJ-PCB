@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Ramdin b Sammy",
+                    "dismissal": "c (wk)Ramdin b Sammy",
                     "runs": "24",
                     "balls": "52",
                     "minutes": "67",
@@ -80,7 +80,7 @@
                     "strike_rate": "7.69"
                 },
                 {
-                    "batsman": "BJ Watling",
+                    "batsman": "BJ Watling (wk)",
                     "dismissal": "lbw b Rampaul",
                     "runs": "60",
                     "balls": "98",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Watling b Mills",
+                    "dismissal": "c (wk)Watling b Mills",
                     "runs": "0",
                     "balls": "12",
                     "minutes": "11",
@@ -267,7 +267,7 @@
                     "strike_rate": "84.41"
                 }
             ],
-            "did_not_bat": "Marlon Samuels , Kieron Pollard , Dwayne Bravo , Denesh Ramdin , Daren Sammy (c) , Sunil Narine , Ravi Rampaul , Andre Russell",
+            "did_not_bat": "Marlon Samuels , Kieron Pollard , Dwayne Bravo , Denesh Ramdin (wk) , Daren Sammy (c) , Sunil Narine , Ravi Rampaul , Andre Russell",
             "fall_of_wickets": "Fall of wickets : 1 - 6 ( Lendl Simmons , 2.6 ov )",
             "bowling": [
                 {
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 9 wickets (with 52 balls remaining) (D/L method)"
+    "result": "West Indies won by 9 wickets (with 52 balls remaining) (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Dean Brownlie",
+            "Jacob Oram",
+            "Andrew Ellis",
+            "Kane Williamson(c)",
+            "Martin Guptill",
+            "Tarun Nethula",
+            "BJ Watling (wk)",
+            "Tim Southee",
+            "Daniel Flynn",
+            "Kyle Mills",
+            "Rob Nicol"
+        ],
+        "West Indies": [
+            "Kieron Pollard",
+            "Daren Sammy (c)",
+            "Sunil Narine",
+            "Ravi Rampaul",
+            "Denesh Ramdin (wk)",
+            "Dwayne Bravo",
+            "Andre Russell",
+            "Dwayne Smith",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Lendl Simmons"
+        ]
+    }
 }

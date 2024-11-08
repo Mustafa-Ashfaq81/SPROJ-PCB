@@ -52,7 +52,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Masakadza",
                     "runs": "23",
                     "balls": "31",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Aftab Alam",
-                    "dismissal": "st Mutumbami b Masakadza",
+                    "dismissal": "st (wk)Mutumbami b Masakadza",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "25",
@@ -239,8 +239,8 @@
             "extras": "0",
             "batting": [
                 {
-                    "batsman": "Richmond Mutumbami",
-                    "dismissal": "c Mohammad Shahzad b Aftab Alam",
+                    "batsman": "Richmond Mutumbami (wk)",
+                    "dismissal": "c (wk)Mohammad Shahzad b Aftab Alam",
                     "runs": "30",
                     "balls": "35",
                     "minutes": "52",
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 8 wickets (with 160 balls remaining)"
+    "result": "Zimbabwe won by 8 wickets (with 160 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Aftab Alam",
+            "Amir Hamza",
+            "Samiullah Shinwari",
+            "Mohammad Nabi",
+            "Mohammad Shahzad (wk)",
+            "Asghar Afghan(c)",
+            "Shapoor Zadran",
+            "Nawroz Mangal"
+        ],
+        "Zimbabwe": [
+            "Tinotenda Mutombodzi",
+            "Chamu Chibhabha",
+            "Wellington Masakadza",
+            "Tendai Chisoro",
+            "Elton Chigumbura (c)",
+            "Tinashe Panyangara",
+            "Craig Ervine",
+            "Richmond Mutumbami (wk)",
+            "Sikandar Raza",
+            "John Nyumbu",
+            "Luke Jongwe"
+        ]
+    }
 }

@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "28",
                     "balls": "28",
                     "minutes": "37",
@@ -83,7 +83,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "lbw b Nehra",
                     "runs": "0",
                     "balls": "1",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "st Moin Khan b Shahid Afridi",
+                    "dismissal": "st (wk)Moin Khan b Shahid Afridi",
                     "runs": "15",
                     "balls": "38",
                     "minutes": "55",
@@ -264,7 +264,7 @@
                     "strike_rate": "39.47"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "b Mohammad Sami",
                     "runs": "36",
                     "balls": "45",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 12 runs"
+    "result": "Pakistan won by 12 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Moin Khan (wk)",
+            "Shahid Afridi",
+            "Yasir Hameed",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Shabbir Ahmed",
+            "Younis Khan",
+            "Shoaib Akhtar",
+            "Mohammad Sami"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "VVS Laxman",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Rahul Dravid (wk)",
+            "Mohammad Kaif",
+            "Ashish Nehra",
+            "Ramesh Powar",
+            "Sourav Ganguly(c)",
+            "Lakshmipathy Balaji"
+        ]
+    }
 }

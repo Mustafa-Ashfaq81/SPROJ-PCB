@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c de Villiers b Tsotsobe",
+                    "dismissal": "c (wk)de Villiers b Tsotsobe",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "6",
@@ -103,7 +103,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Zulqarnain Haider",
+                    "batsman": "Zulqarnain Haider (wk)",
                     "dismissal": "not out",
                     "runs": "12",
                     "balls": "29",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Umar Gul",
-                    "dismissal": "c de Villiers b Morkel",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "12",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Saeed Ajmal",
-                    "dismissal": "run out (Kallis/de Villiers)",
+                    "dismissal": "run out (Kallis/ (wk)de Villiers)",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "15",
@@ -270,7 +270,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "c & b Saeed Ajmal",
                     "runs": "51",
                     "balls": "53",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 63 balls remaining)"
+    "result": "South Africa won by 8 wickets (with 63 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Abdul Razzaq",
+            "Saeed Ajmal",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Fawad Alam",
+            "Misbah-ul-Haq",
+            "Asad Shafiq",
+            "Zulqarnain Haider (wk)"
+        ],
+        "South Africa": [
+            "Colin Ingram",
+            "Charl Langeveldt",
+            "Morne Morkel",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "Lonwabo Tsotsobe",
+            "AB de Villiers (wk)",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Graeme Smith(c)"
+        ]
+    }
 }

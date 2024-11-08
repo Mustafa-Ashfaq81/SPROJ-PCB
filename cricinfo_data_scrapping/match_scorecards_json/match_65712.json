@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "run out (Yuvraj Singh/Dravid)",
+                    "dismissal": "run out (Yuvraj Singh/ (wk)Dravid)",
                     "runs": "35",
                     "balls": "69",
                     "minutes": "110",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Alok Kapali",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "10",
                     "balls": "25",
                     "minutes": "41",
@@ -81,8 +81,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
-                    "dismissal": "c Dravid b Tendulkar",
+                    "batsman": "Khaled Mashud (wk)",
+                    "dismissal": "c (wk)Dravid b Tendulkar",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "34",
@@ -278,7 +278,7 @@
                     "strike_rate": "33.33"
                 }
             ],
-            "did_not_bat": "Rahul Dravid , Yuvraj Singh , Mohammad Kaif , Irfan Pathan , Lakshmipathy Balaji , Ashish Nehra , Harbhajan Singh",
+            "did_not_bat": "Rahul Dravid (wk) , Yuvraj Singh , Mohammad Kaif , Irfan Pathan , Lakshmipathy Balaji , Ashish Nehra , Harbhajan Singh",
             "fall_of_wickets": "Fall of wickets : 1 - 19 ( Virender Sehwag , 0.5 ov ) , 2 - 173 ( Sourav Ganguly , 37.2 ov )",
             "bowling": [
                 {
@@ -354,5 +354,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 69 balls remaining)"
+    "result": "India won by 8 wickets (with 69 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mohammad Ashraful",
+            "Khaled Mahmud",
+            "Mohammad Rafique",
+            "Tareq Aziz",
+            "Alok Kapali",
+            "Faisal Hossain",
+            "Habibul Bashar(c)",
+            "Khaled Mashud (wk)",
+            "Rajin Saleh",
+            "Abdur Razzak",
+            "Manzarul Islam"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Irfan Pathan",
+            "Ashish Nehra",
+            "VVS Laxman",
+            "Rahul Dravid (wk)",
+            "Lakshmipathy Balaji",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh",
+            "Mohammad Kaif"
+        ]
+    }
 }

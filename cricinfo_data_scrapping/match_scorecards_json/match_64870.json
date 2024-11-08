@@ -30,7 +30,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Atapattu b Chandana",
                     "runs": "66",
                     "balls": "64",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Michael Bevan",
-                    "dismissal": "st Kaluwitharana b Muralidaran",
+                    "dismissal": "st (wk)Kaluwitharana b Muralidaran",
                     "runs": "21",
                     "balls": "31",
                     "minutes": "41",
@@ -222,7 +222,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "run out (Lee/Gilchrist)",
+                    "dismissal": "run out (Lee/ (wk)Gilchrist)",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "12",
@@ -231,7 +231,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "run out (Ponting)",
                     "runs": "2",
                     "balls": "8",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "58",
                     "balls": "91",
                     "minutes": "129",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Kumar Dharmasena",
-                    "dismissal": "st Gilchrist b Hogg",
+                    "dismissal": "st (wk)Gilchrist b Hogg",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Australia won by 84 runs"
+    "result": "Australia won by 84 runs",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Brad Williams",
+            "Brett Lee",
+            "Michael Bevan",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ],
+        "Sri Lanka": [
+            "Kumar Dharmasena",
+            "Nuwan Kulasekara",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Romesh Kaluwitharana (wk)",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara"
+        ]
+    }
 }

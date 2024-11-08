@@ -33,7 +33,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "lbw b Jadhav",
                     "runs": "64",
                     "balls": "74",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Lasith Malinga",
-                    "dismissal": "st Dhoni b Chahal",
+                    "dismissal": "st (wk)Dhoni b Chahal",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                     "strike_rate": "117.14"
                 }
             ],
-            "did_not_bat": "KL Rahul , MS Dhoni , Kedar Jadhav , Hardik Pandya , Axar Patel , Bhuvneshwar Kumar , Jasprit Bumrah , Yuzvendra Chahal",
+            "did_not_bat": "KL Rahul , MS Dhoni (wk) , Kedar Jadhav , Hardik Pandya , Axar Patel , Bhuvneshwar Kumar , Jasprit Bumrah , Yuzvendra Chahal",
             "fall_of_wickets": "Fall of wickets : 1 - 23 ( Rohit Sharma , 4.6 ov )",
             "bowling": [
                 {
@@ -360,5 +360,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 127 balls remaining)"
+    "result": "India won by 9 wickets (with 127 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Thisara Perera",
+            "Danushka Gunathilaka",
+            "Vishwa Fernando",
+            "Lakshan Sandakan",
+            "Kusal Mendis",
+            "Chamara Kapugedera",
+            "Lasith Malinga",
+            "Upul Tharanga(c)",
+            "Angelo Mathews",
+            "Wanindu Hasaranga",
+            "Niroshan Dickwella (wk)"
+        ],
+        "India": [
+            "KL Rahul",
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Axar Patel",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

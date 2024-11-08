@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Taylor b Mahwire",
+                    "dismissal": "c (wk)Taylor b Mahwire",
                     "runs": "49",
                     "balls": "73",
                     "minutes": "-",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Runako Morton",
-                    "dismissal": "c Taylor b Mupariwa",
+                    "dismissal": "c (wk)Taylor b Mupariwa",
                     "runs": "16",
                     "balls": "45",
                     "minutes": "-",
@@ -60,7 +60,7 @@
                     "strike_rate": "90.16"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "lbw b Utseya",
                     "runs": "4",
                     "balls": "7",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Taylor b Chibhabha",
+                    "dismissal": "c (wk)Taylor b Chibhabha",
                     "runs": "46",
                     "balls": "74",
                     "minutes": "-",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c Ramdin b Bradshaw",
+                    "dismissal": "c (wk)Ramdin b Bradshaw",
                     "runs": "67",
                     "balls": "100",
                     "minutes": "-",
@@ -267,7 +267,7 @@
                     "strike_rate": "67.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b Taylor",
                     "runs": "0",
                     "balls": "1",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Blessing Mahwire",
-                    "dismissal": "c Ramdin b Gayle",
+                    "dismissal": "c (wk)Ramdin b Gayle",
                     "runs": "6",
                     "balls": "32",
                     "minutes": "-",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 98 runs"
+    "result": "West Indies won by 98 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Dwayne Bravo",
+            "Fidel Edwards",
+            "Runako Morton",
+            "Dwayne Smith",
+            "Brian Lara(c)",
+            "Jerome Taylor",
+            "Shivnarine Chanderpaul",
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Ian Bradshaw"
+        ],
+        "Zimbabwe": [
+            "Gregory Strydom",
+            "Charles Coventry",
+            "Brendan Taylor (wk)",
+            "Tawanda Mupariwa",
+            "Chamu Chibhabha",
+            "Prosper Utseya",
+            "Elton Chigumbura",
+            "Piet Rinke",
+            "Terry Duffin(c)",
+            "Ed Rainsford",
+            "Blessing Mahwire"
+        ]
+    }
 }

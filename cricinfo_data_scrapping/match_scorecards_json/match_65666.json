@@ -31,7 +31,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Abdul Razzaq b Mohammad Khalil",
                     "runs": "24",
                     "balls": "42",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "st Kamran Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "53",
                     "balls": "78",
                     "minutes": "-",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Darren Lehmann",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Glenn McGrath",
-                    "dismissal": "run out (Kamran Akmal/Iftikhar Anjum)",
+                    "dismissal": "run out ( (wk)Kamran Akmal/Iftikhar Anjum)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "-",
@@ -248,7 +248,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Gillespie b McGrath",
                     "runs": "4",
                     "balls": "4",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Australia won by 18 runs"
+    "result": "Australia won by 18 runs",
+    "playing_xi": {
+        "Australia": [
+            "Michael Clarke",
+            "Brett Lee",
+            "Andrew Symonds",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Shane Watson",
+            "Damien Martyn",
+            "Glenn McGrath",
+            "Jason Gillespie",
+            "Darren Lehmann",
+            "Simon Katich"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Inzamam-ul-Haq(c)",
+            "Iftikhar Anjum",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Khalil",
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Salman Butt",
+            "Mohammad Yousuf",
+            "Shahid Afridi"
+        ]
+    }
 }

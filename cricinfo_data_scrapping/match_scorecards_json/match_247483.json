@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "19",
                     "balls": "27",
                     "minutes": "35",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "9",
                     "balls": "18",
                     "minutes": "16",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c McCullum b Styris",
+                    "dismissal": "c (wk)McCullum b Styris",
                     "runs": "37",
                     "balls": "49",
                     "minutes": "65",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "18",
                     "balls": "30",
                     "minutes": "40",
@@ -91,7 +91,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Oram b Vettori",
                     "runs": "15",
                     "balls": "22",
@@ -288,7 +288,7 @@
                     "strike_rate": "57.89"
                 }
             ],
-            "did_not_bat": "Jacob Oram , Brendon McCullum , Daniel Vettori , James Franklin , Shane Bond , Michael Mason",
+            "did_not_bat": "Jacob Oram , Brendon McCullum (wk) , Daniel Vettori , James Franklin , Shane Bond , Michael Mason",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Peter Fulton , 0.2 ov ) , 2 - 36 ( Hamish Marshall , 8.3 ov ) , 3 - 77 ( Stephen Fleming , 20.6 ov )",
             "bowling": [
                 {
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 64 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 64 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Marlon Samuels",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Daren Powell",
+            "Corey Collymore"
+        ],
+        "New Zealand": [
+            "Michael Mason",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "James Franklin",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Hamish Marshall",
+            "Peter Fulton",
+            "Scott Styris"
+        ]
+    }
 }

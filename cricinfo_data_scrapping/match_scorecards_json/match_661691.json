@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Jesse Ryder",
-                    "dismissal": "c Ramdin b Bravo",
+                    "dismissal": "c (wk)Ramdin b Bravo",
                     "runs": "47",
                     "balls": "49",
                     "minutes": "62",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "c Ramdin b Best",
+                    "dismissal": "c (wk)Ramdin b Best",
                     "runs": "47",
                     "balls": "55",
                     "minutes": "61",
@@ -90,7 +90,7 @@
                     "strike_rate": "130.76"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "b Bravo",
                     "runs": "9",
                     "balls": "8",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Chadwick Walton",
-                    "dismissal": "run out (Williamson/Ronchi)",
+                    "dismissal": "run out (Williamson/ (wk)Ronchi)",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Kirk Edwards",
-                    "dismissal": "run out (BB McCullum/Ronchi)",
+                    "dismissal": "run out (BB McCullum/ (wk)Ronchi)",
                     "runs": "24",
                     "balls": "40",
                     "minutes": "63",
@@ -267,7 +267,7 @@
                     "strike_rate": "23.07"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "not out",
                     "runs": "17",
                     "balls": "28",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 58 runs (D/L method)"
+    "result": "New Zealand won by 58 runs (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Kyle Mills",
+            "Luke Ronchi (wk)",
+            "Nathan McCullum",
+            "Tim Southee",
+            "Jesse Ryder",
+            "Mitchell McClenaghan",
+            "Kane Williamson",
+            "Brendon McCullum(c)",
+            "Martin Guptill",
+            "Ross Taylor",
+            "Corey Anderson"
+        ],
+        "West Indies": [
+            "Kirk Edwards",
+            "Nikita Miller",
+            "Johnson Charles",
+            "Jason Holder",
+            "Denesh Ramdin (wk)",
+            "Tino Best",
+            "Dwayne Bravo(c)",
+            "Narsingh Deonarine",
+            "Sunil Narine",
+            "Lendl Simmons",
+            "Chadwick Walton"
+        ]
+    }
 }

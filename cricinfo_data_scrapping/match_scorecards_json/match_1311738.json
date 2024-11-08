@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Vikramjit Singh",
-                    "dismissal": "c Mohammad Rizwan b Naseem Shah",
+                    "dismissal": "c (wk)Mohammad Rizwan b Naseem Shah",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "-",
@@ -82,8 +82,8 @@
                     "strike_rate": "89.18"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
-                    "dismissal": "c Mohammad Rizwan b Mohammad Nawaz",
+                    "batsman": "Scott Edwards(c) (wk)",
+                    "dismissal": "c (wk)Mohammad Rizwan b Mohammad Nawaz",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "-",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Teja Nidamanuru",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -269,7 +269,7 @@
                     "strike_rate": "87.69"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "not out",
                     "runs": "69",
                     "balls": "82",
@@ -365,5 +365,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 98 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 98 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Wesley Barresi",
+            "Vikramjit Singh",
+            "Scott Edwards(c) (wk)",
+            "Tom Cooper",
+            "Aryan Dutt",
+            "Teja Nidamanuru",
+            "Max O'Dowd",
+            "Tim Pringle",
+            "Logan van Beek",
+            "Bas de Leede",
+            "Vivian Kingma"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Haris Rauf",
+            "Salman Agha",
+            "Babar Azam(c)",
+            "Mohammad Wasim",
+            "Khushdil Shah",
+            "Imam-ul-Haq",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Mohammad Nawaz",
+            "Naseem Shah"
+        ]
+    }
 }

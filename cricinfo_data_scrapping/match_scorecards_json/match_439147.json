@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Ramdin b Bravo",
+                    "dismissal": "c (wk)Ramdin b Bravo",
                     "runs": "18",
                     "balls": "17",
                     "minutes": "33",
@@ -63,7 +63,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "c Sarwan b Taylor",
                     "runs": "102",
                     "balls": "101",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "c de Villiers b McLaren",
+                    "dismissal": "c (wk)de Villiers b McLaren",
                     "runs": "15",
                     "balls": "10",
                     "minutes": "22",
@@ -298,7 +298,7 @@
                     "strike_rate": "54.16"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Steyn",
                     "runs": "17",
                     "balls": "29",
@@ -448,5 +448,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 66 runs (D/L method)"
+    "result": "South Africa won by 66 runs (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers (wk)",
+            "Graeme Smith(c)",
+            "David Miller",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Lonwabo Tsotsobe",
+            "Johan Botha",
+            "Dale Steyn",
+            "Ryan McLaren",
+            "Morne Morkel"
+        ],
+        "West Indies": [
+            "Kieron Pollard",
+            "Jerome Taylor",
+            "Andre Fletcher",
+            "Dwayne Bravo",
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Narsingh Deonarine",
+            "Chris Gayle(c)",
+            "Nikita Miller",
+            "Daren Sammy",
+            "Ravi Rampaul"
+        ]
+    }
 }

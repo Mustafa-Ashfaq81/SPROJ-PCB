@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c Dhiman Ghosh b Shakib Al Hasan",
+                    "dismissal": "c (wk)Dhiman Ghosh b Shakib Al Hasan",
                     "runs": "14",
                     "balls": "34",
                     "minutes": "33",
@@ -83,7 +83,7 @@
                     "strike_rate": "109.09"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Alok Kapali",
                     "runs": "3",
                     "balls": "13",
@@ -280,8 +280,8 @@
                     "strike_rate": "70.58"
                 },
                 {
-                    "batsman": "Dhiman Ghosh",
-                    "dismissal": "c Haddin b Geeves",
+                    "batsman": "Dhiman Ghosh (wk)",
+                    "dismissal": "c (wk)Haddin b Geeves",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "12",
@@ -420,5 +420,33 @@
             ]
         }
     ],
-    "result": "Australia won by 180 runs"
+    "result": "Australia won by 180 runs",
+    "playing_xi": {
+        "Australia": [
+            "Brett Geeves",
+            "Stuart Clark",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Nathan Bracken",
+            "Michael Clarke(c)",
+            "Cameron White",
+            "Mitchell Johnson",
+            "James Hopes",
+            "Brad Haddin (wk)",
+            "David Hussey"
+        ],
+        "Bangladesh": [
+            "Mehrab Hossain jnr",
+            "Raqibul Hasan",
+            "Dhiman Ghosh (wk)",
+            "Abdur Razzak",
+            "Nazmul Hossain",
+            "Shahadat Hossain",
+            "Tamim Iqbal",
+            "Shakib Al Hasan",
+            "Alok Kapali",
+            "Mashrafe Mortaza",
+            "Mohammad Ashraful(c)"
+        ]
+    }
 }

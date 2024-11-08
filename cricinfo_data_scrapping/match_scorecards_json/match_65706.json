@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "c Smart b Ilyas Gull",
+                    "dismissal": "c (wk)Smart b Ilyas Gull",
                     "runs": "10",
                     "balls": "23",
                     "minutes": "24",
@@ -96,7 +96,7 @@
                 },
                 {
                     "batsman": "Mushfiqur Rahman",
-                    "dismissal": "c Smart b Ilyas Gull",
+                    "dismissal": "c (wk)Smart b Ilyas Gull",
                     "runs": "18",
                     "balls": "20",
                     "minutes": "31",
@@ -105,7 +105,7 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Najeeb Amar b Khalid Khan",
                     "runs": "26",
                     "balls": "36",
@@ -126,7 +126,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud",
-                    "dismissal": "run out (Smart)",
+                    "dismissal": "run out ( (wk)Smart)",
                     "runs": "22",
                     "balls": "32",
                     "minutes": "38",
@@ -252,7 +252,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Tim Smart",
+                    "batsman": "Tim Smart (wk)",
                     "dismissal": "lbw b Abdur Razzak",
                     "runs": "9",
                     "balls": "37",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Roy Lamsam",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "8",
                     "balls": "17",
                     "minutes": "31",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Rahul Sharma(c)",
-                    "dismissal": "c Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "10",
                     "balls": "21",
                     "minutes": "17",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Najeeb Amar",
-                    "dismissal": "run out (Khaled Mashud)",
+                    "dismissal": "run out ( (wk)Khaled Mashud)",
                     "runs": "0",
                     "balls": "11",
                     "minutes": "13",
@@ -353,7 +353,7 @@
                 },
                 {
                     "batsman": "Khalid Khan",
-                    "dismissal": "c Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "2",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 116 runs"
+    "result": "Bangladesh won by 116 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mohammad Ashraful",
+            "Khaled Mahmud",
+            "Mushfiqur Rahman",
+            "Mohammad Rafique",
+            "Alok Kapali",
+            "Javed Omer",
+            "Habibul Bashar(c)",
+            "Khaled Mashud (wk)",
+            "Rajin Saleh",
+            "Abdur Razzak",
+            "Tapash Baisya"
+        ],
+        "Hong Kong": [
+            "Khalid Khan",
+            "Alexander French",
+            "Sher Lama",
+            "Rahul Sharma(c)",
+            "Tabarak Dar",
+            "Afzaal Haider",
+            "Manoj Cheruparambil",
+            "Najeeb Amar",
+            "Ilyas Gull",
+            "Tim Smart (wk)",
+            "Roy Lamsam"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c de Kock b Morkel",
+                    "dismissal": "c (wk)de Kock b Morkel",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "19",
@@ -60,7 +60,7 @@
                     "strike_rate": "73.11"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "75",
                     "balls": "45",
@@ -187,7 +187,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Senanayake",
                     "runs": "27",
                     "balls": "21",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Sangakkara b NLTC Perera",
+                    "dismissal": "c (wk)Sangakkara b NLTC Perera",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "12",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Sangakkara b Lakmal",
+                    "dismissal": "c (wk)Sangakkara b Lakmal",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 128 runs"
+    "result": "Sri Lanka won by 128 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Suranga Lakmal",
+            "Ajantha Mendis",
+            "Angelo Mathews(c)",
+            "Angelo Perera"
+        ],
+        "South Africa": [
+            "Ryan McLaren",
+            "Lonwabo Tsotsobe",
+            "Aaron Phangiso",
+            "Morne Morkel",
+            "Farhaan Behardien",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ]
+    }
 }

@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Preston Mommsen",
-                    "dismissal": "run out (Jones/McCann)",
+                    "dismissal": "run out (Jones/ (wk)McCann)",
                     "runs": "4",
                     "balls": "15",
                     "minutes": "12",
@@ -94,7 +94,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Dougie Lockhart",
+                    "batsman": "Dougie Lockhart (wk)",
                     "dismissal": "run out (White)",
                     "runs": "19",
                     "balls": "68",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Matthew Parker",
-                    "dismissal": "run out (Mooney/McCann)",
+                    "dismissal": "run out (Mooney/ (wk)McCann)",
                     "runs": "7",
                     "balls": "21",
                     "minutes": "40",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Lockhart b Parker",
+                    "dismissal": "c (wk)Lockhart b Parker",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "13",
@@ -311,7 +311,7 @@
                     "strike_rate": "45.45"
                 }
             ],
-            "did_not_bat": "Trent Johnston (c) , Nigel Jones , Rory McCann , George Dockrell",
+            "did_not_bat": "Trent Johnston (c) , Nigel Jones , Rory McCann (wk) , George Dockrell",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Andy Balbirnie , 3.1 ov ) , 2 - 12 ( Alex Cusack , 3.2 ov ) , 3 - 56 ( Paul Stirling , 12.4 ov ) , 4 - 58 ( Andrew Poynter , 13.6 ov ) , 5 - 65 ( Andrew White , 20.1 ov )",
             "bowling": [
                 {
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 5 wickets (with 94 balls remaining)"
+    "result": "Ireland won by 5 wickets (with 94 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Fraser Watts",
+            "Neil McCallum",
+            "Moneeb Iqbal",
+            "Dougie Lockhart (wk)",
+            "Gordon Drummond(c)",
+            "Preston Mommsen",
+            "Gordon Goudie",
+            "Ollie Hairs",
+            "Matthew Parker",
+            "Richie Berrington",
+            "Ross Lyons"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "John Mooney",
+            "Andrew Poynter",
+            "Kevin O'Brien",
+            "Nigel Jones",
+            "Rory McCann (wk)",
+            "Trent Johnston (c)",
+            "Alex Cusack",
+            "George Dockrell",
+            "Paul Stirling",
+            "Andrew White"
+        ]
+    }
 }

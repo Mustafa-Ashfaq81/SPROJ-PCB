@@ -92,7 +92,7 @@
                     "strike_rate": "165.38"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "3",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Mohammad Amir",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "16",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Sarfaraz Ahmed b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shaheen Shah Afridi",
                     "runs": "64",
                     "balls": "77",
                     "minutes": "109",
@@ -269,7 +269,7 @@
                     "strike_rate": "83.11"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Wahab Riaz",
                     "runs": "16",
                     "balls": "19",
@@ -330,7 +330,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "st Sarfaraz Ahmed b Shadab Khan",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Shadab Khan",
                     "runs": "15",
                     "balls": "14",
                     "minutes": "14",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 94 runs"
+    "result": "Pakistan won by 94 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Haris Sohail",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Wahab Riaz",
+            "Mohammad Amir",
+            "Imad Wasim",
+            "Mohammad Hafeez",
+            "Imam-ul-Haq",
+            "Babar Azam",
+            "Shadab Khan",
+            "Fakhar Zaman",
+            "Shaheen Shah Afridi"
+        ],
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Mohammad Saifuddin",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain"
+        ]
+    }
 }

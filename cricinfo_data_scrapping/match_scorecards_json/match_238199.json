@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "6",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "1",
                     "balls": "10",
                     "minutes": "18",
@@ -80,8 +80,8 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Gilchrist b Lewis",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Gilchrist b Lewis",
                     "runs": "19",
                     "balls": "27",
                     "minutes": "42",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Roger Telemachus",
-                    "dismissal": "run out (Gilchrist/Lee)",
+                    "dismissal": "run out ( (wk)Gilchrist/Lee)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Andrew Hall",
-                    "dismissal": "run out (Gilchrist)",
+                    "dismissal": "run out ( (wk)Gilchrist)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "1",
@@ -241,7 +241,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c de Villiers b Kallis",
                     "runs": "45",
                     "balls": "44",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Boucher b Telemachus",
+                    "dismissal": "c (wk)Boucher b Telemachus",
                     "runs": "7",
                     "balls": "17",
                     "minutes": "26",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c Boucher b Telemachus",
+                    "dismissal": "c (wk)Boucher b Telemachus",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "5",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "7",
                     "balls": "23",
                     "minutes": "42",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Brett Lee",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "18",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Australia won by 1 wicket (with 5 balls remaining)"
+    "result": "Australia won by 1 wicket (with 5 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Boeta Dippenaar",
+            "AB de Villiers",
+            "Herschelle Gibbs",
+            "Roger Telemachus",
+            "Andrew Hall",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)"
+        ],
+        "Australia": [
+            "Nathan Bracken",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Andrew Symonds",
+            "Brett Lee",
+            "Damien Martyn",
+            "Stuart Clark",
+            "Simon Katich",
+            "Mick Lewis",
+            "Ricky Ponting(c)"
+        ]
+    }
 }

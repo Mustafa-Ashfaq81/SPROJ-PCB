@@ -86,7 +86,7 @@
                     "strike_rate": "79.16"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c NL McCullum b Franklin",
                     "runs": "18",
                     "balls": "34",
@@ -97,7 +97,7 @@
                 },
                 {
                     "batsman": "Ryan McLaren",
-                    "dismissal": "c BB McCullum b Williamson",
+                    "dismissal": "c (wk)BB McCullum b Williamson",
                     "runs": "33",
                     "balls": "39",
                     "minutes": "53",
@@ -297,7 +297,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Brendon McCullum(c)",
+                    "batsman": "Brendon McCullum(c) (wk)",
                     "dismissal": "lbw b Kleinveldt",
                     "runs": "26",
                     "balls": "40",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 1 wicket (with 26 balls remaining)"
+    "result": "New Zealand won by 1 wicket (with 26 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "AB de Villiers(c)",
+            "Colin Ingram",
+            "Graeme Smith",
+            "Ryan McLaren",
+            "Rory Kleinveldt",
+            "Dale Steyn",
+            "Faf du Plessis",
+            "Quinton de Kock (wk)",
+            "Robin Peterson",
+            "Hashim Amla"
+        ],
+        "New Zealand": [
+            "Grant Elliott",
+            "Martin Guptill",
+            "Mitchell McClenaghan",
+            "Nathan McCullum",
+            "Kane Williamson",
+            "Brendon McCullum(c) (wk)",
+            "Kyle Mills",
+            "BJ Watling",
+            "Rob Nicol",
+            "James Franklin",
+            "James Neesham"
+        ]
+    }
 }

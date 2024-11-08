@@ -55,8 +55,8 @@
                     "strike_rate": "82.08"
                 },
                 {
-                    "batsman": "David Obuya",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "batsman": "David Obuya (wk)",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "13",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "29",
                     "balls": "44",
                     "minutes": "43",
@@ -252,7 +252,7 @@
                     "strike_rate": "101.35"
                 }
             ],
-            "did_not_bat": "Neil McKenzie , Jonty Rhodes , Nicky Boje , Shaun Pollock (c) , Mark Boucher , Justin Kemp , Makhaya Ntini , Charl Langeveldt",
+            "did_not_bat": "Neil McKenzie , Jonty Rhodes , Nicky Boje , Shaun Pollock (c) , Mark Boucher (wk) , Justin Kemp , Makhaya Ntini , Charl Langeveldt",
             "fall_of_wickets": "Fall of wickets : 1 - 115 ( Herschelle Gibbs , 18.4 ov )",
             "bowling": [
                 {
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 9 wickets (with 53 balls remaining)"
+    "result": "South Africa won by 9 wickets (with 53 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Ravi Shah",
+            "Thomas Odoyo",
+            "Jimmy Kamande",
+            "Collins Obuya",
+            "Brijal Patel",
+            "Maurice Odumbe(c)",
+            "David Obuya (wk)",
+            "Martin Suji",
+            "Steve Tikolo",
+            "Kennedy Otieno",
+            "Tony Suji"
+        ],
+        "South Africa": [
+            "Lance Klusener",
+            "Boeta Dippenaar",
+            "Jonty Rhodes",
+            "Shaun Pollock (c)",
+            "Nicky Boje",
+            "Charl Langeveldt",
+            "Justin Kemp",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Herschelle Gibbs",
+            "Neil McKenzie"
+        ]
+    }
 }

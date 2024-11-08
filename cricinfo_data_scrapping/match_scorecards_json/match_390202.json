@@ -30,7 +30,7 @@
             "extras": "25",
             "batting": [
                 {
-                    "batsman": "Jekon Edness",
+                    "batsman": "Jekon Edness (wk)",
                     "dismissal": "b Gopal",
                     "runs": "17",
                     "balls": "45",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Steven Outerbridge",
-                    "dismissal": "c Amjad Ali b Zahid Shah",
+                    "dismissal": "c (wk)Amjad Ali b Zahid Shah",
                     "runs": "16",
                     "balls": "35",
                     "minutes": "57",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Irving Romaine(c)",
-                    "dismissal": "st Amjad Ali b Khurram Khan",
+                    "dismissal": "st (wk)Amjad Ali b Khurram Khan",
                     "runs": "20",
                     "balls": "37",
                     "minutes": "55",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Nithin Gopal",
-                    "dismissal": "c Edness b Tucker",
+                    "dismissal": "c (wk)Edness b Tucker",
                     "runs": "16",
                     "balls": "20",
                     "minutes": "42",
@@ -301,8 +301,8 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Amjad Ali",
-                    "dismissal": "c Edness b Trott",
+                    "batsman": "Amjad Ali (wk)",
+                    "dismissal": "c (wk)Edness b Trott",
                     "runs": "7",
                     "balls": "23",
                     "minutes": "27",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 4 wickets (with 17 balls remaining)"
+    "result": "U.A.E. won by 4 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "Bermuda": [
+            "Glenn Blakeney",
+            "David Hemp",
+            "Lionel Cann",
+            "George O'Brien",
+            "Steven Outerbridge",
+            "Jekon Edness (wk)",
+            "Janeiro Tucker",
+            "Irving Romaine(c)",
+            "Rodney Trott",
+            "Stefan Kelly",
+            "Dwayne Leverock"
+        ],
+        "United Arab Emirates": [
+            "Naeemuddin Aslam",
+            "Saqib Ali",
+            "Arshad Ali",
+            "Amjad Ali (wk)",
+            "Zahid Shah",
+            "Khurram Khan(c)",
+            "Amjad Javed",
+            "Sameer Nayak",
+            "Qasim Zubair",
+            "Nithin Gopal",
+            "Owais Hameed"
+        ]
+    }
 }

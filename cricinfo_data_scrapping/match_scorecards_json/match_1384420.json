@@ -71,7 +71,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c Bairstow b Willey",
                     "runs": "39",
                     "balls": "58",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Mohammed Shami",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "4",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Jasprit Bumrah",
-                    "dismissal": "run out (Buttler)",
+                    "dismissal": "run out ( (wk)Buttler)",
                     "runs": "16",
                     "balls": "25",
                     "minutes": "44",
@@ -268,7 +268,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "b Kuldeep Yadav",
                     "runs": "10",
                     "balls": "23",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Moeen Ali",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "15",
                     "balls": "31",
                     "minutes": "55",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "st Rahul b Jadeja",
+                    "dismissal": "st (wk)Rahul b Jadeja",
                     "runs": "10",
                     "balls": "20",
                     "minutes": "21",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "India won by 100 runs"
+    "result": "India won by 100 runs",
+    "playing_xi": {
+        "India": [
+            "KL Rahul (wk)",
+            "Virat Kohli",
+            "Suryakumar Yadav",
+            "Mohammed Shami",
+            "Shubman Gill",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ],
+        "England": [
+            "Liam Livingstone",
+            "Jos Buttler(c) (wk)",
+            "Ben Stokes",
+            "Moeen Ali",
+            "Chris Woakes",
+            "Jonny Bairstow",
+            "David Willey",
+            "Dawid Malan",
+            "Mark Wood",
+            "Joe Root",
+            "Adil Rashid"
+        ]
+    }
 }

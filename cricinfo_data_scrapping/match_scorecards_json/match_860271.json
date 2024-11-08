@@ -93,7 +93,7 @@
                     "strike_rate": "136.84"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "lbw b Malinga",
                     "runs": "7",
                     "balls": "9",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "run out (Babar Azam/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Babar Azam/ (wk)Sarfaraz Ahmed)",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "23",
@@ -294,7 +294,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "not out",
                     "runs": "48",
                     "balls": "63",
@@ -315,7 +315,7 @@
                 },
                 {
                     "batsman": "Sachith Pathirana",
-                    "dismissal": "st Sarfaraz Ahmed b Mohammad Hafeez",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Mohammad Hafeez",
                     "runs": "33",
                     "balls": "28",
                     "minutes": "37",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 wickets (with 11 balls remaining)"
+    "result": "Sri Lanka won by 2 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Anwar Ali",
+            "Mohammad Hafeez",
+            "Mohammad Rizwan",
+            "Ahmed Shehzad",
+            "Babar Azam",
+            "Mohammad Irfan",
+            "Sarfaraz Ahmed (wk)",
+            "Rahat Ali",
+            "Shoaib Malik",
+            "Yasir Shah",
+            "Azhar Ali(c)"
+        ],
+        "Sri Lanka": [
+            "Dinesh Chandimal (wk)",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Nuwan Pradeep",
+            "Sachith Pathirana",
+            "Angelo Mathews(c)",
+            "Kusal Perera",
+            "Milinda Siriwardana",
+            "Upul Tharanga"
+        ]
+    }
 }

@@ -40,8 +40,8 @@
                     "strike_rate": "96.10"
                 },
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "run out (Mushfiqur Rahim/Tushar Imran)",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "run out ( (wk)Mushfiqur Rahim/Tushar Imran)",
                     "runs": "35",
                     "balls": "31",
                     "minutes": "63",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Peter Fulton",
-                    "dismissal": "c Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "83",
                     "balls": "93",
                     "minutes": "105",
@@ -188,7 +188,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "43",
                     "balls": "49",
                     "minutes": "55",
@@ -257,7 +257,7 @@
                     "strike_rate": "73.33"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "12",
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 102 runs (D/L method)"
+    "result": "New Zealand won by 102 runs (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Jamie How",
+            "Brendon McCullum (wk)",
+            "Mathew Sinclair",
+            "Mark Gillespie",
+            "Chris Martin",
+            "Kyle Mills",
+            "Peter Fulton",
+            "Daniel Vettori (c)",
+            "Scott Styris",
+            "Ross Taylor",
+            "Jacob Oram"
+        ],
+        "Bangladesh": [
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Farhad Reza",
+            "Aftab Ahmed",
+            "Tamim Iqbal",
+            "Shakib Al Hasan",
+            "Tushar Imran",
+            "Mashrafe Mortaza",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Mohammad Ashraful(c)"
+        ]
+    }
 }

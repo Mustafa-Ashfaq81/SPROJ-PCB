@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Azhar Ali(c)",
-                    "dismissal": "run out (Taylor/Buttler)",
+                    "dismissal": "run out (Taylor/ (wk)Buttler)",
                     "runs": "36",
                     "balls": "54",
                     "minutes": "78",
@@ -63,7 +63,7 @@
                     "strike_rate": "63.38"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c sub (CJ Jordan) b Ali",
                     "runs": "26",
                     "balls": "26",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Mohammad Rizwan",
-                    "dismissal": "run out (Roy/Buttler)",
+                    "dismissal": "run out (Roy/ (wk)Buttler)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "7",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Zafar Gohar",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "15",
                     "balls": "15",
                     "minutes": "22",
@@ -276,7 +276,7 @@
                     "strike_rate": "97.10"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "49",
                     "balls": "50",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 54 balls remaining)"
+    "result": "England won by 6 wickets (with 54 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Anwar Ali",
+            "Iftikhar Ahmed",
+            "Mohammad Hafeez",
+            "Mohammad Rizwan",
+            "Babar Azam",
+            "Mohammad Irfan",
+            "Sarfaraz Ahmed (wk)",
+            "Zafar Gohar",
+            "Shoaib Malik",
+            "Wahab Riaz",
+            "Azhar Ali(c)"
+        ],
+        "England": [
+            "Jason Roy",
+            "Moeen Ali",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "David Willey",
+            "Alex Hales",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Reece Topley",
+            "James Taylor"
+        ]
+    }
 }

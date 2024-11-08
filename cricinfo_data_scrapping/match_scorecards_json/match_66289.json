@@ -55,7 +55,7 @@
                     "strike_rate": "88.46"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "lbw b Vaughan",
                     "runs": "70",
                     "balls": "79",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "run out (Tudor/Stewart)",
+                    "dismissal": "run out (Tudor/ (wk)Stewart)",
                     "runs": "42",
                     "balls": "67",
                     "minutes": "72",
@@ -96,7 +96,7 @@
                 },
                 {
                     "batsman": "Thilan Samaraweera",
-                    "dismissal": "st Stewart b Vaughan",
+                    "dismissal": "st (wk)Stewart b Vaughan",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "8",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Nasser Hussain(c)",
-                    "dismissal": "run out (Atapattu/Sangakkara)",
+                    "dismissal": "run out (Atapattu/ (wk)Sangakkara)",
                     "runs": "28",
                     "balls": "43",
                     "minutes": "65",
@@ -282,7 +282,7 @@
                     "strike_rate": "93.33"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "c Chandana b Samaraweera",
                     "runs": "8",
                     "balls": "23",
@@ -456,5 +456,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 23 runs"
+    "result": "Sri Lanka won by 23 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Pramodya Wickramasinghe",
+            "Nuwan Zoysa",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)",
+            "Thilan Samaraweera",
+            "Chamara Silva"
+        ],
+        "England": [
+            "Alex Tudor",
+            "Marcus Trescothick",
+            "Alec Stewart (wk)",
+            "Paul Collingwood",
+            "Jeremy Snape",
+            "Nick Knight",
+            "Ronnie Irani",
+            "Andrew Flintoff",
+            "Michael Vaughan",
+            "Darren Gough",
+            "Nasser Hussain(c)"
+        ]
+    }
 }

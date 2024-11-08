@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Ramdin b Roach",
+                    "dismissal": "c (wk)Ramdin b Roach",
                     "runs": "44",
                     "balls": "55",
                     "minutes": "76",
@@ -81,7 +81,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Best",
                     "runs": "27",
                     "balls": "35",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Kieron Pollard(c)",
-                    "dismissal": "c Karthik b I Sharma",
+                    "dismissal": "c (wk)Karthik b I Sharma",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "10",
@@ -278,7 +278,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Ashwin",
                     "runs": "4",
                     "balls": "5",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 1 wicket (with 14 balls remaining)"
+    "result": "West Indies won by 1 wicket (with 14 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ishant Sharma",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Dinesh Karthik",
+            "Umesh Yadav",
+            "Bhuvneshwar Kumar",
+            "Suresh Raina",
+            "Ravichandran Ashwin"
+        ],
+        "West Indies": [
+            "Kemar Roach",
+            "Chris Gayle",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Daren Sammy",
+            "Marlon Samuels",
+            "Tino Best",
+            "Denesh Ramdin (wk)",
+            "Johnson Charles",
+            "Kieron Pollard(c)",
+            "Devon Smith"
+        ]
+    }
 }

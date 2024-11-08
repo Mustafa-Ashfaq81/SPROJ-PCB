@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Nick Knight",
-                    "dismissal": "c Ratra b Srinath",
+                    "dismissal": "c (wk)Ratra b Srinath",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan",
-                    "dismissal": "st Ratra b Ganguly",
+                    "dismissal": "st (wk)Ratra b Ganguly",
                     "runs": "16",
                     "balls": "27",
                     "minutes": "41",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Graham Thorpe",
-                    "dismissal": "st Ratra b Harbhajan Singh",
+                    "dismissal": "st (wk)Ratra b Harbhajan Singh",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "17",
@@ -110,7 +110,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "James Foster",
+                    "batsman": "James Foster (wk)",
                     "dismissal": "c & b Harbhajan Singh",
                     "runs": "13",
                     "balls": "28",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Foster b Gough",
+                    "dismissal": "c (wk)Foster b Gough",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "22",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Dinesh Mongia",
-                    "dismissal": "st Foster b Vaughan",
+                    "dismissal": "st (wk)Foster b Vaughan",
                     "runs": "35",
                     "balls": "56",
                     "minutes": "61",
@@ -311,7 +311,7 @@
                     "strike_rate": "84.37"
                 },
                 {
-                    "batsman": "Ajay Ratra",
+                    "batsman": "Ajay Ratra (wk)",
                     "dismissal": "c Giles b Vaughan",
                     "runs": "8",
                     "balls": "14",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Ajit Agarkar",
-                    "dismissal": "c Foster b Caddick",
+                    "dismissal": "c (wk)Foster b Caddick",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "England won by 5 runs"
+    "result": "England won by 5 runs",
+    "playing_xi": {
+        "England": [
+            "Ashley Giles",
+            "Darren Gough",
+            "Graham Thorpe",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Andy Caddick",
+            "Nasser Hussain(c)",
+            "Michael Vaughan",
+            "Marcus Trescothick",
+            "Andrew Flintoff",
+            "James Foster (wk)"
+        ],
+        "India": [
+            "Hemang Badani",
+            "Ajay Ratra (wk)",
+            "Harbhajan Singh",
+            "Sachin Tendulkar",
+            "Anil Kumble",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Javagal Srinath",
+            "Dinesh Mongia",
+            "Virender Sehwag",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

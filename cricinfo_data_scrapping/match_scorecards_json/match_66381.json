@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "c Sangakkara b Zoysa",
+                    "dismissal": "c (wk)Sangakkara b Zoysa",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "-",
@@ -82,7 +82,7 @@
                     "strike_rate": "63.63"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "lbw b Vaas",
                     "runs": "0",
                     "balls": "6",
@@ -226,7 +226,7 @@
             "batting": [
                 {
                     "batsman": "Saman Jayantha",
-                    "dismissal": "c Taibu b Chigumbura",
+                    "dismissal": "c (wk)Taibu b Chigumbura",
                     "runs": "21",
                     "balls": "29",
                     "minutes": "-",
@@ -275,7 +275,7 @@
                     "strike_rate": "70.00"
                 }
             ],
-            "did_not_bat": "Marvan Atapattu (c) , Kumar Sangakkara , Chaminda Vaas , Mahela Jayawardene , Dilhara Fernando , Nuwan Zoysa",
+            "did_not_bat": "Marvan Atapattu (c) , Kumar Sangakkara (wk) , Chaminda Vaas , Mahela Jayawardene , Dilhara Fernando , Nuwan Zoysa",
             "fall_of_wickets": "Fall of wickets : 1 - 49 ( Saman Jayantha , 8.4 ov ) , 2 - 70 ( Sanath Jayasuriya , 10.4 ov ) , 3 - 96 ( Upul Chandana , 15.3 ov )",
             "bowling": [
                 {
@@ -337,5 +337,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 191 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 191 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tinashe Panyangara",
+            "Vusi Sibanda",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Tatenda Taibu(c) (wk)",
+            "Mark Vermeulen",
+            "Brendan Taylor",
+            "Ed Rainsford",
+            "Stuart Matsikenyeri",
+            "Mluleki Nkala",
+            "Dion Ebrahim"
+        ],
+        "Sri Lanka": [
+            "Farveez Maharoof",
+            "Chaminda Vaas",
+            "Saman Jayantha",
+            "Kumar Sangakkara (wk)",
+            "Upul Chandana",
+            "Sanath Jayasuriya",
+            "Dilhara Fernando",
+            "Marvan Atapattu (c)",
+            "Mahela Jayawardene",
+            "Nuwan Zoysa",
+            "Tillakaratne Dilshan"
+        ]
+    }
 }

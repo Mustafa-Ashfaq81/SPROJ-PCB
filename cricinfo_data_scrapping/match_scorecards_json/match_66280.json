@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "st Gilchrist b Warne",
+                    "dismissal": "st (wk)Gilchrist b Warne",
                     "runs": "44",
                     "balls": "56",
                     "minutes": "69",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Faisal Iqbal",
-                    "dismissal": "run out (ME Waugh/Gilchrist)",
+                    "dismissal": "run out (ME Waugh/ (wk)Gilchrist)",
                     "runs": "12",
                     "balls": "21",
                     "minutes": "35",
@@ -92,7 +92,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "run out (SR Waugh)",
                     "runs": "26",
                     "balls": "25",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Azhar Mahmood",
-                    "dismissal": "st Gilchrist b Symonds",
+                    "dismissal": "st (wk)Gilchrist b Symonds",
                     "runs": "15",
                     "balls": "9",
                     "minutes": "15",
@@ -239,7 +239,7 @@
             "extras": "31",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Saqlain Mushtaq",
                     "runs": "70",
                     "balls": "44",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Mark Waugh",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "5",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 36 runs"
+    "result": "Pakistan won by 36 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Saqlain Mushtaq",
+            "Azhar Mahmood",
+            "Mohammad Yousuf",
+            "Saeed Anwar",
+            "Rashid Latif (wk)",
+            "Waqar Younis(c)",
+            "Wasim Akram",
+            "Abdul Razzaq",
+            "Younis Khan",
+            "Faisal Iqbal",
+            "Saleem Elahi"
+        ],
+        "Australia": [
+            "Steve Waugh(c)",
+            "Shane Warne",
+            "Damien Fleming",
+            "Jason Gillespie",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Brett Lee",
+            "Mark Waugh",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Andrew Symonds"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "run out (Alok Kapali/Khaled Mashud)",
+                    "dismissal": "run out (Alok Kapali/ (wk)Khaled Mashud)",
                     "runs": "27",
                     "balls": "60",
                     "minutes": "78",
@@ -110,7 +110,7 @@
                     "strike_rate": "180.00"
                 }
             ],
-            "did_not_bat": "James Franklin , Brendon McCullum , Kyle Mills",
+            "did_not_bat": "James Franklin , Brendon McCullum (wk) , Kyle Mills",
             "fall_of_wickets": "Fall of wickets : 1 - 72 ( Nathan Astle , 18.5 ov ) , 2 - 99 ( Chris Harris , 23.5 ov ) , 3 - 102 ( Hamish Marshall , 24.5 ov ) , 4 - 105 ( Mathew Sinclair , 26.1 ov ) , 5 - 191 ( Craig McMillan , 44.4 ov ) , 6 - 207 ( Scott Styris , 46.5 ov ) , 7 - 250 ( Chris Cairns , 49.6 ov )",
             "bowling": [
                 {
@@ -281,7 +281,7 @@
                     "strike_rate": "32.00"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "not out",
                     "runs": "40",
                     "balls": "44",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 83 runs"
+    "result": "New Zealand won by 83 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Scott Styris",
+            "Chris Cairns",
+            "Nathan Astle",
+            "Mathew Sinclair",
+            "Chris Harris",
+            "Daniel Vettori(c)",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Hamish Marshall",
+            "James Franklin"
+        ],
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Javed Omer",
+            "Nafees Iqbal",
+            "Manzarul Islam",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Aftab Ahmed",
+            "Alok Kapali",
+            "Khaled Mashud(c) (wk)",
+            "Mohammad Rafique",
+            "Mushfiqur Rahman"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla(c)",
-                    "dismissal": "c Wade b Maxwell",
+                    "dismissal": "c (wk)Wade b Maxwell",
                     "runs": "18",
                     "balls": "28",
                     "minutes": "45",
@@ -40,8 +40,8 @@
                     "strike_rate": "64.28"
                 },
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Wade b Cummins",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Wade b Cummins",
                     "runs": "107",
                     "balls": "123",
                     "minutes": "168",
@@ -281,7 +281,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "b Peterson",
                     "runs": "3",
                     "balls": "6",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 wickets (with 5 balls remaining) (D/L method)"
+    "result": "Australia won by 2 wickets (with 5 balls remaining) (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Hashim Amla(c)",
+            "Ryan McLaren",
+            "Morne Morkel",
+            "Wayne Parnell",
+            "Kyle Abbott",
+            "Farhaan Behardien",
+            "David Miller",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "Robin Peterson"
+        ],
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Josh Hazlewood",
+            "Steven Smith",
+            "Matthew Wade (wk)",
+            "Pat Cummins",
+            "David Warner",
+            "Glenn Maxwell",
+            "James Faulkner",
+            "Shane Watson",
+            "Aaron Finch"
+        ]
+    }
 }

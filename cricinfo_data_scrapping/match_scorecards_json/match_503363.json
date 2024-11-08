@@ -40,7 +40,7 @@
                     "strike_rate": "115.62"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Mashrafe Mortaza",
                     "runs": "10",
                     "balls": "11",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting",
-                    "dismissal": "run out (Mushfiqur Rahim/Sohrawordi Shuvo)",
+                    "dismissal": "run out ( (wk)Mushfiqur Rahim/Sohrawordi Shuvo)",
                     "runs": "34",
                     "balls": "31",
                     "minutes": "36",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "14",
@@ -267,7 +267,7 @@
                     "strike_rate": "56.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "44",
                     "balls": "58",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Australia won by 60 runs"
+    "result": "Australia won by 60 runs",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "Steven Smith",
+            "John Hastings",
+            "Michael Hussey",
+            "Shane Watson",
+            "Brett Lee",
+            "Michael Clarke(c)",
+            "Cameron White",
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Ricky Ponting"
+        ],
+        "Bangladesh": [
+            "Raqibul Hasan",
+            "Imrul Kayes",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Tamim Iqbal",
+            "Mahmudullah",
+            "Shakib Al Hasan(c)",
+            "Mashrafe Mortaza",
+            "Sohrawordi Shuvo",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

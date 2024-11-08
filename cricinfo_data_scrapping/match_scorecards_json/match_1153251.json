@@ -61,7 +61,7 @@
                     "strike_rate": "36.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "c Sharma b Kuldeep Yadav",
                     "runs": "44",
                     "balls": "66",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "78",
                     "balls": "90",
                     "minutes": "-",
@@ -248,7 +248,7 @@
                     "strike_rate": "66.66"
                 }
             ],
-            "did_not_bat": "Kedar Jadhav , MS Dhoni , Dinesh Karthik , Kuldeep Yadav , Ravindra Jadeja , Yuzvendra Chahal , Bhuvneshwar Kumar , Jasprit Bumrah",
+            "did_not_bat": "Kedar Jadhav , MS Dhoni (wk) , Dinesh Karthik , Kuldeep Yadav , Ravindra Jadeja , Yuzvendra Chahal , Bhuvneshwar Kumar , Jasprit Bumrah",
             "fall_of_wickets": "Fall of wickets : 1 - 210 ( Shikhar Dhawan , 33.3 ov )",
             "bowling": [
                 {
@@ -338,5 +338,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 63 balls remaining)"
+    "result": "India won by 9 wickets (with 63 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Hasan Ali",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Asif Ali",
+            "Mohammad Amir",
+            "Mohammad Nawaz",
+            "Imam-ul-Haq",
+            "Babar Azam",
+            "Shoaib Malik",
+            "Shadab Khan",
+            "Fakhar Zaman",
+            "Shaheen Shah Afridi"
+        ],
+        "India": [
+            "Dinesh Karthik",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Rohit Sharma(c)",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ravindra Jadeja",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Rahul Dravid(c)",
-                    "dismissal": "c Baugh b Smith",
+                    "dismissal": "c (wk)Baugh b Smith",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Baugh b Smith",
+                    "dismissal": "c (wk)Baugh b Smith",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "5",
@@ -81,7 +81,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b Collymore",
                     "runs": "18",
                     "balls": "13",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Baugh b Gayle",
+                    "dismissal": "c (wk)Baugh b Gayle",
                     "runs": "37",
                     "balls": "60",
                     "minutes": "56",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Sreesanth",
-                    "dismissal": "run out (Samuels/Baugh)",
+                    "dismissal": "run out (Samuels/ (wk)Baugh)",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "9",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Runako Morton",
-                    "dismissal": "c Dhoni b Sreesanth",
+                    "dismissal": "c (wk)Dhoni b Sreesanth",
                     "runs": "27",
                     "balls": "50",
                     "minutes": "74",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "2",
                     "balls": "12",
                     "minutes": "10",
@@ -309,7 +309,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "24",
@@ -328,7 +328,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "c Dravid b Harbhajan Singh",
                     "runs": "6",
                     "balls": "12",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "India won by 16 runs"
+    "result": "India won by 16 runs",
+    "playing_xi": {
+        "India": [
+            "Munaf Patel",
+            "Sreesanth",
+            "Ajit Agarkar",
+            "Suresh Raina",
+            "MS Dhoni (wk)",
+            "Sachin Tendulkar",
+            "Rahul Dravid(c)",
+            "Yuvraj Singh",
+            "RP Singh",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ],
+        "West Indies": [
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle",
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Corey Collymore",
+            "Dwayne Bravo",
+            "Wavell Hinds",
+            "Marlon Samuels",
+            "Dwayne Smith",
+            "Runako Morton"
+        ]
+    }
 }

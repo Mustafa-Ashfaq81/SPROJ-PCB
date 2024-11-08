@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Noor Ali Zadran",
-                    "dismissal": "c Smith b Stander",
+                    "dismissal": "c (wk)Smith b Stander",
                     "runs": "24",
                     "balls": "42",
                     "minutes": "59",
@@ -50,7 +50,7 @@
                     "strike_rate": "91.08"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Wright",
                     "runs": "22",
                     "balls": "26",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Khaliq Dad",
-                    "dismissal": "c Smith b Nel",
+                    "dismissal": "c (wk)Smith b Nel",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "13",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Shapoor Zadran",
-                    "dismissal": "st Smith b Haq",
+                    "dismissal": "st (wk)Smith b Haq",
                     "runs": "9",
                     "balls": "5",
                     "minutes": "7",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Majid Haq",
-                    "dismissal": "c Mohammad Shahzad b Shapoor Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Shapoor Zadran",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "10",
@@ -307,8 +307,8 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Colin Smith",
-                    "dismissal": "run out (Mohammad Shahzad)",
+                    "batsman": "Colin Smith (wk)",
+                    "dismissal": "run out ( (wk)Mohammad Shahzad)",
                     "runs": "11",
                     "balls": "9",
                     "minutes": "14",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 42 runs"
+    "result": "Afghanistan won by 42 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Karim Sadiq",
+            "Mohammad Nabi",
+            "Mohammad Shahzad (wk)",
+            "Hamid Hassan",
+            "Noor Ali Zadran",
+            "Shapoor Zadran",
+            "Khaliq Dad",
+            "Samiullah Shinwari",
+            "Raees Ahmadzai",
+            "Asghar Afghan",
+            "Nawroz Mangal(c)"
+        ],
+        "Scotland": [
+            "Majid Haq",
+            "Neil McCallum",
+            "Craig Wright",
+            "Kyle Coetzer",
+            "Jan Stander",
+            "Colin Smith (wk)",
+            "John Blain",
+            "Ryan Watson(c)",
+            "Gavin Hamilton",
+            "Dewald Nel",
+            "Navdeep Poonia"
+        ]
+    }
 }

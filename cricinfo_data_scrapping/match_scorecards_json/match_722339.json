@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "run out (Russell/Ramdin)",
+                    "dismissal": "run out (Russell/ (wk)Ramdin)",
                     "runs": "66",
                     "balls": "66",
                     "minutes": "87",
@@ -63,7 +63,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "c Russell b Benn",
                     "runs": "81",
                     "balls": "94",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Ramdin b Russell",
+                    "dismissal": "c (wk)Ramdin b Russell",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "31",
@@ -227,7 +227,7 @@
                 },
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c de Villiers b Steyn",
+                    "dismissal": "c (wk)de Villiers b Steyn",
                     "runs": "41",
                     "balls": "24",
                     "minutes": "26",
@@ -256,7 +256,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Imran Tahir",
                     "runs": "31",
                     "balls": "32",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Jonathan Carter",
-                    "dismissal": "st de Villiers b Imran Tahir",
+                    "dismissal": "st (wk)de Villiers b Imran Tahir",
                     "runs": "17",
                     "balls": "26",
                     "minutes": "23",
@@ -277,7 +277,7 @@
                 },
                 {
                     "batsman": "Daren Sammy",
-                    "dismissal": "c de Villiers b Philander",
+                    "dismissal": "c (wk)de Villiers b Philander",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "9",
@@ -287,7 +287,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "c de Villiers b Philander",
+                    "dismissal": "c (wk)de Villiers b Philander",
                     "runs": "19",
                     "balls": "8",
                     "minutes": "9",
@@ -307,7 +307,7 @@
                 },
                 {
                     "batsman": "Jerome Taylor",
-                    "dismissal": "c de Villiers b Steyn",
+                    "dismissal": "c (wk)de Villiers b Steyn",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "9",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 61 runs (D/L method)"
+    "result": "South Africa won by 61 runs (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "AB de Villiers(c) (wk)",
+            "Dale Steyn",
+            "Vernon Philander",
+            "Imran Tahir",
+            "Farhaan Behardien",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Faf du Plessis",
+            "Morne Morkel",
+            "Hashim Amla"
+        ],
+        "West Indies": [
+            "Leon Johnson",
+            "Chris Gayle",
+            "Jonathan Carter",
+            "Sulieman Benn",
+            "Dwayne Smith",
+            "Andre Russell",
+            "Jerome Taylor",
+            "Marlon Samuels",
+            "Denesh Ramdin (wk)",
+            "Jason Holder(c)",
+            "Daren Sammy"
+        ]
+    }
 }

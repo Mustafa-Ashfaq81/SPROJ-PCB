@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "c Mendis b Pathirana",
+                    "dismissal": "c (wk)Mendis b Pathirana",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "14",
@@ -84,7 +84,7 @@
                     "strike_rate": "48.78"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Karunaratne b Pathirana",
                     "runs": "13",
                     "balls": "22",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Mushfiqur Rahim b Shoriful Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shoriful Islam",
                     "runs": "14",
                     "balls": "13",
                     "minutes": "18",
@@ -261,7 +261,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "b Shakib Al Hasan",
                     "runs": "5",
                     "balls": "21",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Sadeera Samarawickrama",
-                    "dismissal": "st Mushfiqur Rahim b Mahedi Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Mahedi Hasan",
                     "runs": "54",
                     "balls": "77",
                     "minutes": "115",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 66 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 66 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shoriful Islam",
+            "Tanzid Hasan",
+            "Mustafizur Rahman",
+            "Najmul Hossain Shanto",
+            "Towhid Hridoy",
+            "Mohammad Naim",
+            "Mahedi Hasan",
+            "Shakib Al Hasan(c)",
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed"
+        ],
+        "Sri Lanka": [
+            "Kusal Mendis (wk)",
+            "Maheesh Theekshana",
+            "Matheesha Pathirana",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Kasun Rajitha",
+            "Sadeera Samarawickrama",
+            "Dimuth Karunaratne"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "st Dhoni b Rayudu",
+                    "dismissal": "st (wk)Dhoni b Rayudu",
                     "runs": "44",
                     "balls": "65",
                     "minutes": "82",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Alex Hales",
-                    "dismissal": "c Dhoni b Raina",
+                    "dismissal": "c (wk)Dhoni b Raina",
                     "runs": "42",
                     "balls": "55",
                     "minutes": "70",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "7",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Dhoni b Ashwin",
+                    "dismissal": "c (wk)Dhoni b Ashwin",
                     "runs": "10",
                     "balls": "18",
                     "minutes": "15",
@@ -80,7 +80,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Ashwin",
                     "runs": "42",
                     "balls": "58",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Steven Finn",
-                    "dismissal": "run out (Rayudu/Dhoni)",
+                    "dismissal": "run out (Rayudu/ (wk)Dhoni)",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "17",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "45",
                     "balls": "56",
                     "minutes": "71",
@@ -311,7 +311,7 @@
                     "strike_rate": "133.33"
                 }
             ],
-            "did_not_bat": "MS Dhoni (c) , Ravichandran Ashwin , Bhuvneshwar Kumar , Mohammed Shami , Mohit Sharma",
+            "did_not_bat": "MS Dhoni (c) (wk) , Ravichandran Ashwin , Bhuvneshwar Kumar , Mohammed Shami , Mohit Sharma",
             "fall_of_wickets": "Fall of wickets : 1 - 35 ( Shikhar Dhawan , 7.2 ov ) , 2 - 85 ( Ajinkya Rahane , 17.5 ov ) , 3 - 120 ( Virat Kohli , 25.3 ov ) , 4 - 207 ( Suresh Raina , 40.2 ov )",
             "bowling": [
                 {
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 42 balls remaining)"
+    "result": "India won by 6 wickets (with 42 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jos Buttler (wk)",
+            "Chris Woakes",
+            "Alex Hales",
+            "Ben Stokes",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "Steven Finn",
+            "James Anderson",
+            "Eoin Morgan",
+            "Joe Root",
+            "James Tredwell"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Ambati Rayudu",
+            "MS Dhoni (c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Mohit Sharma",
+            "Ravindra Jadeja",
+            "Mohammed Shami",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ]
+    }
 }

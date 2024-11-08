@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c de Villiers b Morkel",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "43",
                     "balls": "64",
                     "minutes": "124",
@@ -50,7 +50,7 @@
                     "strike_rate": "67.18"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Petersen b Phangiso",
                     "runs": "37",
                     "balls": "60",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Rangana Herath",
-                    "dismissal": "run out (Morkel/de Villiers)",
+                    "dismissal": "run out (Morkel/ (wk)de Villiers)",
                     "runs": "13",
                     "balls": "16",
                     "minutes": "27",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "15",
                     "balls": "17",
                     "minutes": "27",
@@ -267,7 +267,7 @@
                     "strike_rate": "88.23"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "lbw b Dilshan",
                     "runs": "12",
                     "balls": "18",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Sangakkara b Herath",
+                    "dismissal": "c (wk)Sangakkara b Herath",
                     "runs": "8",
                     "balls": "9",
                     "minutes": "16",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 17 runs (D/L method)"
+    "result": "Sri Lanka won by 17 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Lasith Malinga",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Jehan Mubarak",
+            "Shaminda Eranga",
+            "Rangana Herath",
+            "Dinesh Chandimal(c)"
+        ],
+        "South Africa": [
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Aaron Phangiso",
+            "Chris Morris",
+            "Morne Morkel",
+            "Alviro Petersen",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Faf du Plessis",
+            "Robin Peterson",
+            "Hashim Amla"
+        ]
+    }
 }

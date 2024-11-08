@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Karim Sadiq",
-                    "dismissal": "c Bagai b Khurram Chohan",
+                    "dismissal": "c (wk)Bagai b Khurram Chohan",
                     "runs": "13",
                     "balls": "23",
                     "minutes": "-",
@@ -50,8 +50,8 @@
                     "strike_rate": "56.52"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Bagai b Rizwan Cheema",
+                    "batsman": "Mohammad Shahzad (wk)",
+                    "dismissal": "c (wk)Bagai b Rizwan Cheema",
                     "runs": "10",
                     "balls": "18",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Nawroz Mangal(c)",
-                    "dismissal": "c Bagai b Rizwan Cheema",
+                    "dismissal": "c (wk)Bagai b Rizwan Cheema",
                     "runs": "49",
                     "balls": "69",
                     "minutes": "-",
@@ -281,7 +281,7 @@
                     "strike_rate": "71.64"
                 },
                 {
-                    "batsman": "Ashish Bagai(c)",
+                    "batsman": "Ashish Bagai(c) (wk)",
                     "dismissal": "b Hamid Hassan",
                     "runs": "68",
                     "balls": "82",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Canada won by 6 wickets (with 9 balls remaining)"
+    "result": "Canada won by 6 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Karim Sadiq",
+            "Mohammad Nabi",
+            "Mohammad Shahzad (wk)",
+            "Hamid Hassan",
+            "Noor Ali Zadran",
+            "Shapoor Zadran",
+            "Khaliq Dad",
+            "Samiullah Shinwari",
+            "Raees Ahmadzai",
+            "Asghar Afghan",
+            "Nawroz Mangal(c)"
+        ],
+        "Canada": [
+            "Henry Osinde",
+            "Geoff Barnett",
+            "Ashish Bagai(c) (wk)",
+            "Sandeep Jyoti",
+            "Ashif Mulla",
+            "Ian Billcliff",
+            "Sunil Dhaniram",
+            "Khurram Chohan",
+            "Rizwan Cheema",
+            "Umar Bhatti",
+            "Harvir Baidwan"
+        ]
+    }
 }

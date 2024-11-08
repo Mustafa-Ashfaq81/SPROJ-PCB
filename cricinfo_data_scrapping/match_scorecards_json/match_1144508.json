@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Usman Khawaja",
-                    "dismissal": "c Mushfiqur Rahim b Soumya Sarkar",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Soumya Sarkar",
                     "runs": "89",
                     "balls": "72",
                     "minutes": "110",
@@ -91,7 +91,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "8",
@@ -228,7 +228,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "102",
                     "balls": "97",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Australia won by 48 runs"
+    "result": "Australia won by 48 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Aaron Finch(c)",
+            "Steven Smith",
+            "Nathan Coulter-Nile",
+            "Pat Cummins",
+            "Marcus Stoinis",
+            "David Warner",
+            "Alex Carey (wk)",
+            "Adam Zampa",
+            "Usman Khawaja",
+            "Glenn Maxwell"
+        ],
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Mehidy Hasan Miraz",
+            "Litton Das",
+            "Sabbir Rahman",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

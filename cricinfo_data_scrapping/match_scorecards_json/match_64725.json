@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c A Flower b Friend",
+                    "dismissal": "c (wk)A Flower b Friend",
                     "runs": "83",
                     "balls": "86",
                     "minutes": "116",
@@ -84,7 +84,7 @@
                     "strike_rate": "111.11"
                 }
             ],
-            "did_not_bat": "Mark Boucher , Shaun Pollock (c) , Neil McKenzie , Claude Henderson , Andre Nel , Makhaya Ntini",
+            "did_not_bat": "Mark Boucher (wk) , Shaun Pollock (c) , Neil McKenzie , Claude Henderson , Andre Nel , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 153 ( Gary Kirsten , 18.2 ov ) , 2 - 244 ( Herschelle Gibbs , 35.3 ov ) , 3 - 346 ( Jacques Kallis , 47.4 ov )",
             "bowling": [
                 {
@@ -202,7 +202,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "run out (sub [HH Dippenaar]/Boucher)",
+                    "dismissal": "run out (sub [HH Dippenaar]/ (wk)Boucher)",
                     "runs": "11",
                     "balls": "31",
                     "minutes": "51",
@@ -211,7 +211,7 @@
                     "strike_rate": "35.48"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "run out (Rhodes)",
                     "runs": "34",
                     "balls": "32",
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 153 runs"
+    "result": "South Africa won by 153 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Jacques Kallis",
+            "Claude Henderson",
+            "Gary Kirsten",
+            "Herschelle Gibbs",
+            "Neil McKenzie",
+            "Andre Nel",
+            "Jonty Rhodes",
+            "Shaun Pollock (c)",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Lance Klusener"
+        ],
+        "Zimbabwe": [
+            "Travis Friend",
+            "Guy Whittall",
+            "Dion Ebrahim",
+            "Grant Flower",
+            "Alistair Campbell",
+            "Paul Strang",
+            "Hamilton Masakadza",
+            "Andy Flower (wk)",
+            "Mluleki Nkala",
+            "Heath Streak (c)",
+            "Craig Wishart"
+        ]
+    }
 }

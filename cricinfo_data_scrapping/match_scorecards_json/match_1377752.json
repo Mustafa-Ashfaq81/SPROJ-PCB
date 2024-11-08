@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Andy McBrine",
-                    "dismissal": "c Cross b McBride",
+                    "dismissal": "c (wk)Cross b McBride",
                     "runs": "32",
                     "balls": "54",
                     "minutes": "80",
@@ -71,7 +71,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "c Munsey b Watt",
                     "runs": "6",
                     "balls": "14",
@@ -252,7 +252,7 @@
                     "strike_rate": "93.33"
                 },
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "lbw b Adair",
                     "runs": "4",
                     "balls": "5",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Tomas Mackintosh",
-                    "dismissal": "c Tucker b Little",
+                    "dismissal": "c (wk)Tucker b Little",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "29",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Mark Watt",
-                    "dismissal": "st Tucker b Dockrell",
+                    "dismissal": "st (wk)Tucker b Dockrell",
                     "runs": "47",
                     "balls": "43",
                     "minutes": "50",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 1 wicket (with 0 balls remaining)"
+    "result": "Scotland won by 1 wicket (with 0 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Gareth Delany",
+            "George Dockrell",
+            "Josh Little",
+            "Lorcan Tucker (wk)",
+            "Curtis Campher",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Andy Balbirnie(c)",
+            "Ben White",
+            "Harry Tector",
+            "Mark Adair"
+        ],
+        "Scotland": [
+            "Chris Greaves",
+            "Michael Leask",
+            "Mark Watt",
+            "Tomas Mackintosh",
+            "Chris Sole",
+            "Matthew Cross (wk)",
+            "Safyaan Sharif",
+            "Richie Berrington(c)",
+            "Christopher McBride",
+            "George Munsey",
+            "Brandon McMullen"
+        ]
+    }
 }

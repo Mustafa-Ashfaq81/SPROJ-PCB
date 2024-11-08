@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Shoaib Malik",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shoaib Malik",
                     "runs": "76",
                     "balls": "96",
                     "minutes": "122",
@@ -80,8 +80,8 @@
                     "strike_rate": "73.17"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "run out (Azhar Ali/Sarfaraz Ahmed)",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "run out (Azhar Ali/ (wk)Sarfaraz Ahmed)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "4",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "run out (Sarfaraz Ahmed)",
+                    "dismissal": "run out ( (wk)Sarfaraz Ahmed)",
                     "runs": "33",
                     "balls": "49",
                     "minutes": "72",
@@ -297,7 +297,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Sarfaraz Ahmed , Anwar Ali , Wahab Riaz , Yasir Shah , Mohammad Irfan",
+            "did_not_bat": "Sarfaraz Ahmed (wk) , Anwar Ali , Wahab Riaz , Yasir Shah , Mohammad Irfan",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Azhar Ali , 1.5 ov ) , 2 - 15 ( Bilal Asif , 3.2 ov ) , 3 - 41 ( Younis Khan , 9.5 ov ) , 4 - 111 ( Shoaib Malik , 24.2 ov )",
             "bowling": [
                 {
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 38 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 38 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Moeen Ali",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "David Willey",
+            "Alex Hales",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Reece Topley",
+            "James Taylor"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Wahab Riaz",
+            "Anwar Ali",
+            "Mohammad Hafeez",
+            "Babar Azam",
+            "Mohammad Irfan",
+            "Sarfaraz Ahmed (wk)",
+            "Shoaib Malik",
+            "Bilal Asif",
+            "Yasir Shah",
+            "Azhar Ali(c)"
+        ]
+    }
 }

@@ -70,7 +70,7 @@
                     "strike_rate": "10.00"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "b Santner",
                     "runs": "30",
                     "balls": "25",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Devon Conway",
-                    "dismissal": "c Buttler b Atkinson",
+                    "dismissal": "c (wk)Buttler b Atkinson",
                     "runs": "14",
                     "balls": "24",
                     "minutes": "41",
@@ -257,8 +257,8 @@
                     "strike_rate": "109.61"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
-                    "dismissal": "c Buttler b Topley",
+                    "batsman": "Tom Latham(c) (wk)",
+                    "dismissal": "c (wk)Buttler b Topley",
                     "runs": "19",
                     "balls": "22",
                     "minutes": "35",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "England won by 79 runs"
+    "result": "England won by 79 runs",
+    "playing_xi": {
+        "England": [
+            "Moeen Ali",
+            "Gus Atkinson",
+            "David Willey",
+            "Harry Brook",
+            "Sam Curran",
+            "Jos Buttler(c) (wk)",
+            "Ben Stokes",
+            "Reece Topley",
+            "Jonny Bairstow",
+            "Liam Livingstone",
+            "Joe Root"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Matt Henry",
+            "Tom Latham(c) (wk)",
+            "Will Young",
+            "Finn Allen",
+            "Trent Boult",
+            "Rachin Ravindra",
+            "Devon Conway",
+            "Tim Southee",
+            "Daryl Mitchell",
+            "Glenn Phillips"
+        ]
+    }
 }

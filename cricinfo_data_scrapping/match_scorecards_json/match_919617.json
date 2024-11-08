@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c NJ O'Brien b Murtagh",
+                    "dismissal": "c (wk)NJ O'Brien b Murtagh",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "18",
@@ -42,7 +42,7 @@
                     "strike_rate": "36.36"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "c Porterfield b Young",
                     "runs": "0",
                     "balls": "2",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "c NJ O'Brien b Stirling",
+                    "dismissal": "c (wk)NJ O'Brien b Stirling",
                     "runs": "51",
                     "balls": "69",
                     "minutes": "95",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Luke Jongwe",
-                    "dismissal": "run out (Dockrell/NJ O'Brien)",
+                    "dismissal": "run out (Dockrell/ (wk)NJ O'Brien)",
                     "runs": "8",
                     "balls": "5",
                     "minutes": "10",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Mutumbami b Jongwe",
+                    "dismissal": "c (wk)Mutumbami b Jongwe",
                     "runs": "50",
                     "balls": "92",
                     "minutes": "130",
@@ -279,7 +279,7 @@
                     "strike_rate": "55.81"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Chibhabha b Mutombodzi",
                     "runs": "1",
                     "balls": "8",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 2 wickets (with 19 balls remaining)"
+    "result": "Ireland won by 2 wickets (with 19 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tinotenda Mutombodzi",
+            "Chamu Chibhabha",
+            "Taurai Muzarabani",
+            "Wellington Masakadza",
+            "Brian Chari",
+            "Richmond Mutumbami (wk)",
+            "Sean Williams",
+            "Elton Chigumbura(c)",
+            "Sikandar Raza",
+            "John Nyumbu",
+            "Luke Jongwe"
+        ],
+        "Ireland": [
+            "William Porterfield(c)",
+            "Gary Wilson",
+            "Tim Murtagh",
+            "George Dockrell",
+            "Kevin O'Brien",
+            "Craig Young",
+            "Andy McBrine",
+            "Andy Balbirnie",
+            "Paul Stirling",
+            "Ed Joyce",
+            "Niall O'Brien (wk)"
+        ]
+    }
 }

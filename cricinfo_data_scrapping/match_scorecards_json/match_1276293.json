@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Charles Amini",
-                    "dismissal": "c MD Patel b Kenjige",
+                    "dismissal": "c (wk)MD Patel b Kenjige",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "-",
@@ -83,7 +83,7 @@
                     "strike_rate": "58.49"
                 },
                 {
-                    "batsman": "Kiplin Doriga",
+                    "batsman": "Kiplin Doriga (wk)",
                     "dismissal": "c Malhotra b NK Patel",
                     "runs": "0",
                     "balls": "2",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Gaudi Toka",
-                    "dismissal": "c MD Patel b Netravalkar",
+                    "dismissal": "c (wk)MD Patel b Netravalkar",
                     "runs": "18",
                     "balls": "27",
                     "minutes": "-",
@@ -288,7 +288,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Monank Patel",
+                    "batsman": "Monank Patel (wk)",
                     "dismissal": "not out",
                     "runs": "34",
                     "balls": "38",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Gajanand Singh",
-                    "dismissal": "run out (Ravu/Doriga)",
+                    "dismissal": "run out (Ravu/ (wk)Doriga)",
                     "runs": "9",
                     "balls": "28",
                     "minutes": "-",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "U.S.A. won by 7 wickets (with 130 balls remaining)"
+    "result": "U.S.A. won by 7 wickets (with 130 balls remaining)",
+    "playing_xi": {
+        "Papua New Guinea": [
+            "Hiri Hiri",
+            "Jason Kila",
+            "Lega Siaka",
+            "Tony Ura",
+            "Kiplin Doriga (wk)",
+            "Nosaina Pokana",
+            "Charles Amini",
+            "Gaudi Toka",
+            "Damien Ravu",
+            "Sese Bau",
+            "Assad Vala(c)"
+        ],
+        "United States of America": [
+            "Sushant Modani",
+            "Jaskaran Malhotra",
+            "Jasdeep Singh",
+            "Nisarg Patel",
+            "Saurabh Netravalkar (c)",
+            "Steven Taylor",
+            "Nosthush Kenjige",
+            "Karima Gore",
+            "Monank Patel (wk)",
+            "Gajanand Singh",
+            "Elmore Hutchinson"
+        ]
+    }
 }

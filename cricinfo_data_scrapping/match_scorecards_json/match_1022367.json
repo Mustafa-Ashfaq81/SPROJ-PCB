@@ -32,7 +32,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Jadeja",
                     "runs": "53",
                     "balls": "72",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Dhoni b Ashwin",
+                    "dismissal": "c (wk)Dhoni b Ashwin",
                     "runs": "35",
                     "balls": "54",
                     "minutes": "69",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "run out (Pandya/Dhoni)",
+                    "dismissal": "run out (Pandya/ (wk)Dhoni)",
                     "runs": "16",
                     "balls": "12",
                     "minutes": "16",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Kagiso Rabada",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "11",
@@ -133,7 +133,7 @@
                 },
                 {
                     "batsman": "Imran Tahir",
-                    "dismissal": "run out (Kohli/Dhoni)",
+                    "dismissal": "run out (Kohli/ (wk)Dhoni)",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "10",
@@ -226,7 +226,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c de Kock b Morkel",
+                    "dismissal": "c (wk)de Kock b Morkel",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "23",
@@ -265,7 +265,7 @@
                     "strike_rate": "92.00"
                 }
             ],
-            "did_not_bat": "MS Dhoni , Hardik Pandya , Kedar Jadhav , Ravindra Jadeja , Bhuvneshwar Kumar , Ravichandran Ashwin , Jasprit Bumrah",
+            "did_not_bat": "MS Dhoni (wk) , Hardik Pandya , Kedar Jadhav , Ravindra Jadeja , Bhuvneshwar Kumar , Ravichandran Ashwin , Jasprit Bumrah",
             "fall_of_wickets": "Fall of wickets : 1 - 23 ( Rohit Sharma , 5.3 ov ) , 2 - 151 ( Shikhar Dhawan , 30.1 ov )",
             "bowling": [
                 {
@@ -355,5 +355,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 72 balls remaining)"
+    "result": "India won by 8 wickets (with 72 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Kagiso Rabada",
+            "Hashim Amla",
+            "AB de Villiers(c)",
+            "Faf du Plessis",
+            "Andile Phehlukwayo",
+            "Imran Tahir",
+            "David Miller",
+            "Chris Morris",
+            "Morne Morkel",
+            "Jean-Paul Duminy"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Kedar Jadhav",
+            "Yuvraj Singh",
+            "Shikhar Dhawan",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Virat Kohli(c)",
+            "Jasprit Bumrah",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

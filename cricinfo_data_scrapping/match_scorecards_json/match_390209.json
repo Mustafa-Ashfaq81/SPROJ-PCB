@@ -30,7 +30,7 @@
             "extras": "27",
             "batting": [
                 {
-                    "batsman": "Freddie Klokker(c)",
+                    "batsman": "Freddie Klokker(c) (wk)",
                     "dismissal": "lbw b Schiferli",
                     "runs": "0",
                     "balls": "7",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Carsten Pedersen",
-                    "dismissal": "c Smits b ten Doeschate",
+                    "dismissal": "c (wk)Smits b ten Doeschate",
                     "runs": "41",
                     "balls": "71",
                     "minutes": "91",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Ryan ten Doeschate",
-                    "dismissal": "st Klokker b Bashir Shah",
+                    "dismissal": "st (wk)Klokker b Bashir Shah",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -301,7 +301,7 @@
                     "strike_rate": "111.53"
                 }
             ],
-            "did_not_bat": "Jeroen Smits (c) , Mudassar Bukhari , Edgar Schiferli , Pieter Seelaar , Daan van Bunge , Peter Borren",
+            "did_not_bat": "Jeroen Smits (c) (wk) , Mudassar Bukhari , Edgar Schiferli , Pieter Seelaar , Daan van Bunge , Peter Borren",
             "fall_of_wickets": "Fall of wickets : 1 - 75 ( Tom de Grooth , 10.6 ov ) , 2 - 194 ( Eric Szwarczynski , 34.1 ov ) , 3 - 194 ( Ryan ten Doeschate , 34.3 ov )",
             "bowling": [
                 {
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 7 wickets (with 42 balls remaining)"
+    "result": "Netherlands won by 7 wickets (with 42 balls remaining)",
+    "playing_xi": {
+        "Denmark": [
+            "Rizwan Mahmood",
+            "Carsten Pedersen",
+            "Bobby Chawla",
+            "David Borchersen",
+            "Max Overgaard",
+            "Mickey Lund",
+            "Michael Pedersen",
+            "Bashir Shah",
+            "Freddie Klokker(c) (wk)",
+            "Rohit Kanaiya",
+            "Thomas Hansen"
+        ],
+        "Netherlands": [
+            "Bas Zuiderent",
+            "Eric Szwarczynski",
+            "Tom de Grooth",
+            "Pieter Seelaar",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Alexei Kervezee",
+            "Peter Borren",
+            "Jeroen Smits (c) (wk)",
+            "Daan van Bunge",
+            "Ryan ten Doeschate"
+        ]
+    }
 }

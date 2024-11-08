@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Ricardo Powell",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -92,7 +92,7 @@
                     "strike_rate": "113.63"
                 }
             ],
-            "did_not_bat": "Marlon Samuels , Courtney Browne , Ian Bradshaw , Mervyn Dillon , Pedro Collins",
+            "did_not_bat": "Marlon Samuels , Courtney Browne (wk) , Ian Bradshaw , Mervyn Dillon , Pedro Collins",
             "fall_of_wickets": "Fall of wickets : 1 - 86 ( Wavell Hinds , 18.4 ov ) , 2 - 149 ( Chris Gayle , 33.3 ov ) , 3 - 209 ( Brian Lara , 42.1 ov ) , 4 - 211 ( Ricardo Powell , 42.3 ov ) , 5 - 273 ( Ramnaresh Sarwan , 49.6 ov )",
             "bowling": [
                 {
@@ -213,7 +213,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Lara b Bradshaw",
                     "runs": "124",
                     "balls": "125",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Browne b Bradshaw",
+                    "dismissal": "c (wk)Browne b Bradshaw",
                     "runs": "60",
                     "balls": "60",
                     "minutes": "-",
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 18 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 18 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Marlon Samuels",
+            "Brian Lara(c)",
+            "Pedro Collins",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Ricardo Powell",
+            "Ramnaresh Sarwan",
+            "Mervyn Dillon"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Kamran Akmal (wk)",
+            "Shoaib Akhtar",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Azhar Mahmood",
+            "Naved-ul-Hasan",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Mohammad Hafeez"
+        ]
+    }
 }

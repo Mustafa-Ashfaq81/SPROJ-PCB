@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c de Villiers b Nel",
+                    "dismissal": "c (wk)de Villiers b Nel",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "32",
@@ -93,8 +93,8 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Dhiman Ghosh",
-                    "dismissal": "run out (Duminy/de Villiers)",
+                    "batsman": "Dhiman Ghosh (wk)",
+                    "dismissal": "run out (Duminy/ (wk)de Villiers)",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "8",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Abdur Razzak",
-                    "dismissal": "c de Villiers b Nel",
+                    "dismissal": "c (wk)de Villiers b Nel",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Mosharraf Hossain",
-                    "dismissal": "run out (Morkel/Nel/de Villiers)",
+                    "dismissal": "run out (Morkel/Nel/ (wk)de Villiers)",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "16",
@@ -284,7 +284,7 @@
                     "strike_rate": "59.25"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "not out",
                     "runs": "69",
                     "balls": "112",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 11 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Nazimuddin",
+            "Raqibul Hasan",
+            "Dhiman Ghosh (wk)",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Tamim Iqbal",
+            "Shakib Al Hasan",
+            "Mosharraf Hossain",
+            "Syed Rasel",
+            "Mashrafe Mortaza",
+            "Mohammad Ashraful(c)"
+        ],
+        "South Africa": [
+            "Charl Langeveldt",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Alviro Petersen",
+            "Hashim Amla",
+            "Paul Harris",
+            "AB de Villiers (wk)",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Albie Morkel",
+            "Graeme Smith(c)"
+        ]
+    }
 }

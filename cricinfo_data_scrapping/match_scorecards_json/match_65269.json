@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "7",
@@ -71,7 +71,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "b Bichel",
                     "runs": "46",
                     "balls": "92",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "10",
                     "balls": "16",
                     "minutes": "24",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Andrew Flintoff",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "45",
                     "balls": "80",
                     "minutes": "81",
@@ -228,7 +228,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Vaughan b Caddick",
                     "runs": "22",
                     "balls": "18",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Darren Lehmann",
-                    "dismissal": "c Stewart b White",
+                    "dismissal": "c (wk)Stewart b White",
                     "runs": "37",
                     "balls": "62",
                     "minutes": "98",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "c Stewart b Giles",
+                    "dismissal": "c (wk)Stewart b Giles",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "7",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 wickets (with 2 balls remaining)"
+    "result": "Australia won by 2 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Andy Caddick",
+            "Andrew Flintoff",
+            "Nick Knight",
+            "Michael Vaughan",
+            "Nasser Hussain(c)",
+            "Paul Collingwood",
+            "Ashley Giles",
+            "Alec Stewart (wk)",
+            "Craig White",
+            "Marcus Trescothick"
+        ],
+        "Australia": [
+            "Darren Lehmann",
+            "Andrew Symonds",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Brad Hogg",
+            "Damien Martyn"
+        ]
+    }
 }

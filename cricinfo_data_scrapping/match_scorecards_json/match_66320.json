@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "run out (Harbhajan Singh/Dighe)",
+                    "dismissal": "run out (Harbhajan Singh/ (wk)Dighe)",
                     "runs": "117",
                     "balls": "150",
                     "minutes": "205",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "st Dighe b Yuvraj Singh",
+                    "dismissal": "st (wk)Dighe b Yuvraj Singh",
                     "runs": "17",
                     "balls": "31",
                     "minutes": "29",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Chris Harris",
-                    "dismissal": "run out (Dighe/Harbhajan Singh)",
+                    "dismissal": "run out ( (wk)Dighe/Harbhajan Singh)",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "8",
@@ -92,8 +92,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Adam Parore",
-                    "dismissal": "st Dighe b Badani",
+                    "batsman": "Adam Parore (wk)",
+                    "dismissal": "st (wk)Dighe b Badani",
                     "runs": "9",
                     "balls": "22",
                     "minutes": "29",
@@ -284,7 +284,7 @@
                 },
                 {
                     "batsman": "Hemang Badani",
-                    "dismissal": "c Parore b Nash",
+                    "dismissal": "c (wk)Parore b Nash",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "17",
@@ -313,7 +313,7 @@
                     "strike_rate": "72.00"
                 },
                 {
-                    "batsman": "Sameer Dighe",
+                    "batsman": "Sameer Dighe (wk)",
                     "dismissal": "c Nash b Harris",
                     "runs": "9",
                     "balls": "32",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 84 runs"
+    "result": "New Zealand won by 84 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Adam Parore (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Kyle Mills",
+            "Mathew Sinclair",
+            "Daryl Tuffey",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Dion Nash",
+            "Lou Vincent",
+            "Chris Harris"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "VVS Laxman",
+            "Rahul Dravid",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Hemang Badani",
+            "Virender Sehwag",
+            "Reetinder Sodhi",
+            "Harbhajan Singh",
+            "Sameer Dighe (wk)",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

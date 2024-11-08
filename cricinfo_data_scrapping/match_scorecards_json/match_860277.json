@@ -60,8 +60,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
-                    "dismissal": "c Sarfaraz Ahmed b Rahat Ali",
+                    "batsman": "Dinesh Chandimal (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Rahat Ali",
                     "runs": "29",
                     "balls": "25",
                     "minutes": "34",
@@ -198,7 +198,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "st Chandimal b Senanayake",
+                    "dismissal": "st (wk)Chandimal b Senanayake",
                     "runs": "18",
                     "balls": "23",
                     "minutes": "43",
@@ -217,7 +217,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "run out (Lakmal)",
                     "runs": "27",
                     "balls": "24",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Mohammad Rizwan",
-                    "dismissal": "c Chandimal b NLTC Perera",
+                    "dismissal": "c (wk)Chandimal b NLTC Perera",
                     "runs": "29",
                     "balls": "34",
                     "minutes": "50",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 165 runs"
+    "result": "Sri Lanka won by 165 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Ashan Priyanjan",
+            "Dinesh Chandimal (wk)",
+            "Tillakaratne Dilshan",
+            "Suranga Lakmal",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Sachithra Senanayake",
+            "Lahiru Gamage",
+            "Angelo Mathews(c)",
+            "Kusal Perera",
+            "Milinda Siriwardana"
+        ],
+        "Pakistan": [
+            "Anwar Ali",
+            "Imad Wasim",
+            "Mohammad Hafeez",
+            "Mohammad Rizwan",
+            "Ahmed Shehzad",
+            "Mohammad Irfan",
+            "Sarfaraz Ahmed (wk)",
+            "Rahat Ali",
+            "Shoaib Malik",
+            "Yasir Shah",
+            "Azhar Ali(c)"
+        ]
+    }
 }

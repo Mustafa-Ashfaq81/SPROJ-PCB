@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "30",
                     "balls": "53",
                     "minutes": "77",
@@ -70,7 +70,7 @@
                     "strike_rate": "48.38"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c sub (JM Vince) b Woakes",
                     "runs": "47",
                     "balls": "56",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "c Latham b Henry",
+                    "dismissal": "c (wk)Latham b Henry",
                     "runs": "17",
                     "balls": "20",
                     "minutes": "24",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Latham b de Grandhomme",
+                    "dismissal": "c (wk)Latham b de Grandhomme",
                     "runs": "7",
                     "balls": "30",
                     "minutes": "40",
@@ -277,7 +277,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c sub (TG Southee) b Ferguson",
                     "runs": "59",
                     "balls": "60",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c Latham b Ferguson",
+                    "dismissal": "c (wk)Latham b Ferguson",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "8",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Match tied (England won on boundary count)"
+    "result": "Match tied (England won on boundary count)",
+    "playing_xi": {
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "Lockie Ferguson",
+            "James Neesham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Matt Henry",
+            "Colin de Grandhomme",
+            "Mitchell Santner",
+            "Ross Taylor",
+            "Henry Nicholls"
+        ],
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Ben Stokes",
+            "Mark Wood",
+            "Jofra Archer"
+        ]
+    }
 }

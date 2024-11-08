@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Khaled Mashud b Syed Rasel",
+                    "dismissal": "c (wk)Khaled Mashud b Syed Rasel",
                     "runs": "17",
                     "balls": "26",
                     "minutes": "35",
@@ -64,8 +64,8 @@
                     "strike_rate": "74.25"
                 },
                 {
-                    "batsman": "Brendan Taylor",
-                    "dismissal": "c Khaled Mashud b Abdur Razzak",
+                    "batsman": "Brendan Taylor (wk)",
+                    "dismissal": "c (wk)Khaled Mashud b Abdur Razzak",
                     "runs": "24",
                     "balls": "71",
                     "minutes": "60",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Tafadzwa Mufambisi",
-                    "dismissal": "run out (Rajin Saleh/Khaled Mashud)",
+                    "dismissal": "run out (Rajin Saleh/ (wk)Khaled Mashud)",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "6",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Anthony Ireland",
-                    "dismissal": "run out (Syed Rasel/Khaled Mashud)",
+                    "dismissal": "run out (Syed Rasel/ (wk)Khaled Mashud)",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "9",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "st Taylor b Utseya",
+                    "dismissal": "st (wk)Taylor b Utseya",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "25",
@@ -281,7 +281,7 @@
                     "strike_rate": "61.22"
                 }
             ],
-            "did_not_bat": "Mohammad Ashraful , Farhad Reza , Mohammad Rafique , Khaled Mashud (c) , Abdur Razzak , Mushfiqur Rahim , Syed Rasel",
+            "did_not_bat": "Mohammad Ashraful , Farhad Reza , Mohammad Rafique , Khaled Mashud (c) (wk) , Abdur Razzak , Mushfiqur Rahim , Syed Rasel",
             "fall_of_wickets": "Fall of wickets : 1 - 99 ( Rajin Saleh , 21.2 ov ) , 2 - 128 ( Aftab Ahmed , 27.3 ov )",
             "bowling": [
                 {
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 8 wickets (with 32 balls remaining)"
+    "result": "Bangladesh won by 8 wickets (with 32 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Hamilton Masakadza",
+            "Prosper Utseya(c)",
+            "Ed Rainsford",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Terry Duffin",
+            "Anthony Ireland",
+            "Blessing Mahwire",
+            "Tafadzwa Mufambisi",
+            "Vusi Sibanda"
+        ],
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Aftab Ahmed",
+            "Farhad Reza",
+            "Mohammad Ashraful",
+            "Mushfiqur Rahim",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Khaled Mashud (c) (wk)",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique"
+        ]
+    }
 }

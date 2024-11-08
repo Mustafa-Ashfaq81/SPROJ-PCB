@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "7",
@@ -42,8 +42,8 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Parthiv Patel",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "batsman": "Parthiv Patel (wk)",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "28",
                     "balls": "33",
                     "minutes": "64",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "12",
                     "balls": "7",
                     "minutes": "14",
@@ -189,7 +189,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c & b Kartik",
                     "runs": "95",
                     "balls": "72",
@@ -210,7 +210,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Patel b Pathan",
+                    "dismissal": "c (wk)Patel b Pathan",
                     "runs": "42",
                     "balls": "54",
                     "minutes": "87",
@@ -220,7 +220,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c Patel b Pathan",
+                    "dismissal": "c (wk)Patel b Pathan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -365,5 +365,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 wickets (with 1 ball remaining) (D/L method)"
+    "result": "Australia won by 2 wickets (with 1 ball remaining) (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Rahul Dravid",
+            "Murali Kartik",
+            "Lakshmipathy Balaji",
+            "Irfan Pathan",
+            "VVS Laxman",
+            "Yuvraj Singh",
+            "Ajit Agarkar",
+            "Sourav Ganguly(c)",
+            "Parthiv Patel (wk)",
+            "Hemang Badani",
+            "Rohan Gavaskar"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Brett Lee",
+            "Simon Katich",
+            "Adam Gilchrist (wk)",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Andy Bichel",
+            "Michael Bevan",
+            "Michael Clarke",
+            "Damien Martyn"
+        ]
+    }
 }

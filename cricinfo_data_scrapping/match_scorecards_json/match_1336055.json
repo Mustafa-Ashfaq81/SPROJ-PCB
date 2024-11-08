@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c Latham b Ravindra",
+                    "dismissal": "c (wk)Latham b Ravindra",
                     "runs": "127",
                     "balls": "114",
                     "minutes": "177",
@@ -70,7 +70,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c sub (TA Boult) b Mitchell",
                     "runs": "36",
                     "balls": "31",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Will Young",
-                    "dismissal": "c Buttler b Willey",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "24",
                     "balls": "31",
                     "minutes": "38",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Devon Conway",
-                    "dismissal": "run out (Buttler)",
+                    "dismissal": "run out ( (wk)Buttler)",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "23",
@@ -291,7 +291,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "b Ali",
                     "runs": "13",
                     "balls": "22",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "England won by 100 runs"
+    "result": "England won by 100 runs",
+    "playing_xi": {
+        "England": [
+            "Moeen Ali",
+            "Brydon Carse",
+            "David Willey",
+            "Harry Brook",
+            "Sam Curran",
+            "Jos Buttler(c) (wk)",
+            "Dawid Malan",
+            "Reece Topley",
+            "Jonny Bairstow",
+            "Liam Livingstone",
+            "Joe Root"
+        ],
+        "New Zealand": [
+            "Matt Henry",
+            "Ben Lister",
+            "Tom Latham(c) (wk)",
+            "Will Young",
+            "Glenn Phillips",
+            "Rachin Ravindra",
+            "Kyle Jamieson",
+            "Devon Conway",
+            "Tim Southee",
+            "Daryl Mitchell",
+            "Henry Nicholls"
+        ]
+    }
 }

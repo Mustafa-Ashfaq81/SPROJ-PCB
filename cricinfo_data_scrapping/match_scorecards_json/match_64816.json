@@ -93,7 +93,7 @@
                     "strike_rate": "40.98"
                 },
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "b Mills",
                     "runs": "13",
                     "balls": "31",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Ajit Agarkar",
-                    "dismissal": "run out (Sinclair/McCullum)",
+                    "dismissal": "run out (Sinclair/ (wk)McCullum)",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "7",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "12",
@@ -134,7 +134,7 @@
                 },
                 {
                     "batsman": "Ashish Nehra",
-                    "dismissal": "c McCullum b Adams",
+                    "dismissal": "c (wk)McCullum b Adams",
                     "runs": "0",
                     "balls": "10",
                     "minutes": "14",
@@ -290,7 +290,7 @@
                     "strike_rate": "47.05"
                 }
             ],
-            "did_not_bat": "Jacob Oram , Brendon McCullum , Andre Adams , Kyle Mills , Daniel Vettori , Daryl Tuffey",
+            "did_not_bat": "Jacob Oram , Brendon McCullum (wk) , Andre Adams , Kyle Mills , Daniel Vettori , Daryl Tuffey",
             "fall_of_wickets": "Fall of wickets : 1 - 28 ( Nathan Astle , 4.3 ov ) , 2 - 101 ( Stephen Fleming , 19.5 ov ) , 3 - 103 ( Craig McMillan , 21.1 ov )",
             "bowling": [
                 {
@@ -352,5 +352,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 146 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 146 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Dinesh Mongia",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Parthiv Patel (wk)",
+            "Mohammad Kaif",
+            "Javagal Srinath",
+            "Yuvraj Singh",
+            "Rahul Dravid",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag"
+        ],
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Mathew Sinclair",
+            "Scott Styris",
+            "Jacob Oram",
+            "Brendon McCullum (wk)",
+            "Andre Adams",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Nathan Astle"
+        ]
+    }
 }

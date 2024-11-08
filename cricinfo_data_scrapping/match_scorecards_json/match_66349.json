@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Saeed Anwar",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "28",
                     "balls": "33",
                     "minutes": "39",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "run out (Gilchrist)",
+                    "dismissal": "run out ( (wk)Gilchrist)",
                     "runs": "59",
                     "balls": "43",
                     "minutes": "-",
@@ -99,7 +99,7 @@
                     "strike_rate": "137.20"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "c Watson b Gillespie",
                     "runs": "12",
                     "balls": "15",
@@ -110,7 +110,7 @@
                 },
                 {
                     "batsman": "Wasim Akram",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "-",
@@ -222,7 +222,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Wasim Akram",
                     "runs": "0",
                     "balls": "3",
@@ -286,5 +286,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Inzamam-ul-Haq",
+            "Saeed Anwar",
+            "Rashid Latif (wk)",
+            "Mohammad Sami",
+            "Wasim Akram",
+            "Misbah-ul-Haq",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Younis Khan",
+            "Waqar Younis(c)"
+        ],
+        "Australia": [
+            "Shane Warne",
+            "Jason Gillespie",
+            "Shane Watson",
+            "Glenn McGrath",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Jimmy Maher",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Damien Martyn"
+        ]
+    }
 }

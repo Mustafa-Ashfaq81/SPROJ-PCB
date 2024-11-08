@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Colin Ackermann",
-                    "dismissal": "run out (Rashid Khan/Ikram Alikhil)",
+                    "dismissal": "run out (Rashid Khan/ (wk)Ikram Alikhil)",
                     "runs": "29",
                     "balls": "35",
                     "minutes": "71",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Sybrand Engelbrecht",
-                    "dismissal": "run out (Mohammad Nabi/Ikram Alikhil)",
+                    "dismissal": "run out (Mohammad Nabi/ (wk)Ikram Alikhil)",
                     "runs": "58",
                     "balls": "86",
                     "minutes": "85",
@@ -71,8 +71,8 @@
                     "strike_rate": "67.44"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
-                    "dismissal": "run out (Ikram Alikhil)",
+                    "batsman": "Scott Edwards(c) (wk)",
+                    "dismissal": "run out ( (wk)Ikram Alikhil)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Bas de Leede",
-                    "dismissal": "c Ikram Alikhil b Mohammad Nabi",
+                    "dismissal": "c (wk)Ikram Alikhil b Mohammad Nabi",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "5",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Saqib Zulfiqar",
-                    "dismissal": "c Ikram Alikhil b Noor Ahmad",
+                    "dismissal": "c (wk)Ikram Alikhil b Noor Ahmad",
                     "runs": "3",
                     "balls": "15",
                     "minutes": "19",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Logan van Beek",
-                    "dismissal": "st Ikram Alikhil b Mohammad Nabi",
+                    "dismissal": "st (wk)Ikram Alikhil b Mohammad Nabi",
                     "runs": "2",
                     "balls": "13",
                     "minutes": "16",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Rahmanullah Gurbaz",
-                    "dismissal": "c Edwards b van Beek",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "24",
@@ -288,7 +288,7 @@
                     "strike_rate": "110.71"
                 }
             ],
-            "did_not_bat": "Mohammad Nabi , Ikram Alikhil , Rashid Khan , Mujeeb Ur Rahman , Noor Ahmad , Fazalhaq Farooqi",
+            "did_not_bat": "Mohammad Nabi , Ikram Alikhil (wk) , Rashid Khan , Mujeeb Ur Rahman , Noor Ahmad , Fazalhaq Farooqi",
             "fall_of_wickets": "Fall of wickets : 1 - 27 ( Rahmanullah Gurbaz , 5.3 ov ) , 2 - 55 ( Ibrahim Zadran , 10.1 ov ) , 3 - 129 ( Rahmat Shah , 22.4 ov ) DRS",
             "bowling": [
                 {
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 7 wickets (with 111 balls remaining)"
+    "result": "Afghanistan won by 7 wickets (with 111 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Aryan Dutt",
+            "Wesley Barresi",
+            "Scott Edwards(c) (wk)",
+            "Roelof van der Merwe",
+            "Paul van Meekeren",
+            "Max O'Dowd",
+            "Sybrand Engelbrecht",
+            "Colin Ackermann",
+            "Saqib Zulfiqar",
+            "Bas de Leede",
+            "Logan van Beek"
+        ],
+        "Afghanistan": [
+            "Azmatullah Omarzai",
+            "Hashmatullah Shahidi(c)",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman",
+            "Noor Ahmad",
+            "Rahmanullah Gurbaz",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi",
+            "Ikram Alikhil (wk)"
+        ]
+    }
 }

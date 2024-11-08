@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c McCullum b Franklin",
+                    "dismissal": "c (wk)McCullum b Franklin",
                     "runs": "26",
                     "balls": "40",
                     "minutes": "68",
@@ -102,7 +102,7 @@
                     "strike_rate": "111.53"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "b Gillespie",
                     "runs": "0",
                     "balls": "2",
@@ -230,7 +230,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Nixon b Flintoff",
+                    "dismissal": "c (wk)Nixon b Flintoff",
                     "runs": "106",
                     "balls": "149",
                     "minutes": "141",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "c Nixon b Plunkett",
+                    "dismissal": "c (wk)Nixon b Plunkett",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "6",
@@ -279,7 +279,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Plunkett",
                     "runs": "2",
                     "balls": "6",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "England won by 14 runs"
+    "result": "England won by 14 runs",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Liam Plunkett",
+            "Michael Vaughan(c)",
+            "Sajid Mahmood",
+            "Ed Joyce",
+            "Andrew Flintoff",
+            "Andrew Strauss",
+            "Jamie Dalrymple"
+        ],
+        "New Zealand": [
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "Mark Gillespie",
+            "James Franklin",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Lou Vincent",
+            "Peter Fulton",
+            "Scott Styris"
+        ]
+    }
 }

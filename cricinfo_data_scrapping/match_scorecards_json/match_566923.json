@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Ronchi b Southee",
+                    "dismissal": "c (wk)Ronchi b Southee",
                     "runs": "30",
                     "balls": "45",
                     "minutes": "60",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Ronchi b Southee",
+                    "dismissal": "c (wk)Ronchi b Southee",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "46",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "15",
@@ -80,7 +80,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c McClenaghan b Williamson",
                     "runs": "14",
                     "balls": "25",
@@ -227,7 +227,7 @@
             "extras": "26",
             "batting": [
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Swann b Anderson",
                     "runs": "0",
                     "balls": "3",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "c Buttler b Anderson",
+                    "dismissal": "c (wk)Buttler b Anderson",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Buttler b Anderson",
+                    "dismissal": "c (wk)Buttler b Anderson",
                     "runs": "54",
                     "balls": "77",
                     "minutes": "99",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 19 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 19 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Graeme Swann",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Chris Woakes",
+            "Tim Bresnan",
+            "Jade Dernbach",
+            "Jonathan Trott",
+            "Jos Buttler (wk)"
+        ],
+        "New Zealand": [
+            "Grant Elliott",
+            "Martin Guptill",
+            "Mitchell McClenaghan",
+            "Nathan McCullum",
+            "Tim Southee",
+            "Kane Williamson",
+            "Luke Ronchi (wk)",
+            "Kyle Mills",
+            "Brendon McCullum(c)",
+            "James Franklin",
+            "Ross Taylor"
+        ]
+    }
 }

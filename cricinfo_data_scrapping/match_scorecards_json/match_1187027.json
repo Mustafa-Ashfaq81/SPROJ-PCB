@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Shreyas Iyer",
-                    "dismissal": "c Carey b Starc",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "-",
@@ -83,7 +83,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "c Turner b Cummins",
                     "runs": "28",
                     "balls": "33",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "c Carey b Richardson",
+                    "dismissal": "c (wk)Carey b Richardson",
                     "runs": "25",
                     "balls": "32",
                     "minutes": "-",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Mohammed Shami",
-                    "dismissal": "c Carey b Richardson",
+                    "dismissal": "c (wk)Carey b Richardson",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "-",
@@ -246,7 +246,7 @@
                     "strike_rate": "96.49"
                 }
             ],
-            "did_not_bat": "Marnus Labuschagne , Steven Smith , Alex Carey , Ashton Turner , Ashton Agar , Pat Cummins , Mitchell Starc , Kane Richardson , Adam Zampa",
+            "did_not_bat": "Marnus Labuschagne , Steven Smith , Alex Carey (wk) , Ashton Turner , Ashton Agar , Pat Cummins , Mitchell Starc , Kane Richardson , Adam Zampa",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -322,5 +322,33 @@
             ]
         }
     ],
-    "result": "Australia won by 10 wickets (with 74 balls remaining)"
+    "result": "Australia won by 10 wickets (with 74 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "KL Rahul",
+            "Shreyas Iyer",
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Mohammed Shami",
+            "Rishabh Pant (wk)",
+            "Shardul Thakur",
+            "Virat Kohli(c)"
+        ],
+        "Australia": [
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Kane Richardson",
+            "Steven Smith",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Ashton Turner",
+            "Marnus Labuschagne",
+            "Ashton Agar",
+            "David Warner",
+            "Adam Zampa"
+        ]
+    }
 }

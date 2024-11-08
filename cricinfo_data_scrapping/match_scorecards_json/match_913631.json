@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "James Vince",
-                    "dismissal": "st Chandimal b Gunathilaka",
+                    "dismissal": "st (wk)Chandimal b Gunathilaka",
                     "runs": "51",
                     "balls": "56",
                     "minutes": "77",
@@ -84,7 +84,7 @@
                     "strike_rate": "78.57"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Bandara",
                     "runs": "70",
                     "balls": "45",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "run out (Buttler/Bairstow)",
+                    "dismissal": "run out ( (wk)Buttler/Bairstow)",
                     "runs": "22",
                     "balls": "34",
                     "minutes": "40",
@@ -241,7 +241,7 @@
                     "strike_rate": "64.70"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "b Willey",
                     "runs": "53",
                     "balls": "66",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Dasun Shanaka",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "22",
                     "balls": "29",
                     "minutes": "24",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "England won by 122 runs"
+    "result": "England won by 122 runs",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "David Willey",
+            "Adil Rashid",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "James Vince",
+            "Liam Plunkett",
+            "Chris Jordan"
+        ],
+        "Sri Lanka": [
+            "Danushka Gunathilaka",
+            "Dinesh Chandimal (wk)",
+            "Suranga Lakmal",
+            "Kusal Mendis",
+            "Seekkuge Prasanna",
+            "Nuwan Pradeep",
+            "Angelo Mathews(c)",
+            "Dasun Shanaka",
+            "Kusal Perera",
+            "Chaminda Bandara",
+            "Upul Tharanga"
+        ]
+    }
 }

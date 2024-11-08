@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Skhawat Ali",
-                    "dismissal": "st Shafiqullah b Amir Hamza",
+                    "dismissal": "st (wk)Shafiqullah b Amir Hamza",
                     "runs": "28",
                     "balls": "54",
                     "minutes": "-",
@@ -60,7 +60,7 @@
                     "strike_rate": "51.85"
                 },
                 {
-                    "batsman": "Jamie Atkinson(c)",
+                    "batsman": "Jamie Atkinson(c) (wk)",
                     "dismissal": "lbw b Amir Hamza",
                     "runs": "28",
                     "balls": "38",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Waqas Barkat",
-                    "dismissal": "c Shafiqullah b Mohammad Nabi",
+                    "dismissal": "c (wk)Shafiqullah b Mohammad Nabi",
                     "runs": "8",
                     "balls": "9",
                     "minutes": "-",
@@ -296,7 +296,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Atkinson b Ehsan Nawaz",
+                    "dismissal": "c (wk)Atkinson b Ehsan Nawaz",
                     "runs": "23",
                     "balls": "41",
                     "minutes": "-",
@@ -335,7 +335,7 @@
                     "strike_rate": "82.35"
                 }
             ],
-            "did_not_bat": "Amir Hamza , Dawlat Zadran , Mirwais Ashraf , Shafiqullah , Shapoor Zadran",
+            "did_not_bat": "Amir Hamza , Dawlat Zadran , Mirwais Ashraf , Shafiqullah (wk) , Shapoor Zadran",
             "fall_of_wickets": "Fall of wickets : 1 - 32 ( Noor Ali Zadran , 5.2 ov ) , 2 - 78 ( Rahmat Shah , 15.6 ov ) , 3 - 128 ( Usman Ghani , 25.2 ov ) , 4 - 192 ( Samiullah Shinwari , 37.5 ov )",
             "bowling": [
                 {
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 6 wickets (with 41 balls remaining)"
+    "result": "Afghanistan won by 6 wickets (with 41 balls remaining)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Haseeb Amjad",
+            "Nizakat Khan",
+            "Ehsan Nawaz",
+            "Waqas Barkat",
+            "Jamie Atkinson(c) (wk)",
+            "Babar Hayat",
+            "Ankur Vasishta",
+            "Tanwir Afzal",
+            "Nadeem Ahmed",
+            "Irfan Ahmed",
+            "Skhawat Ali"
+        ],
+        "Afghanistan": [
+            "Samiullah Shinwari",
+            "Usman Ghani",
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Mohammad Nabi(c)",
+            "Hashmatullah Shahidi",
+            "Rahmat Shah",
+            "Shafiqullah (wk)",
+            "Mirwais Ashraf",
+            "Shapoor Zadran",
+            "Amir Hamza"
+        ]
+    }
 }

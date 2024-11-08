@@ -63,8 +63,8 @@
                     "strike_rate": "-"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
-                    "dismissal": "c BB McCullum b Neesham",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
+                    "dismissal": "c (wk)BB McCullum b Neesham",
                     "runs": "90",
                     "balls": "98",
                     "minutes": "144",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Naeem Islam",
-                    "dismissal": "c BB McCullum b Southee",
+                    "dismissal": "c (wk)BB McCullum b Southee",
                     "runs": "84",
                     "balls": "115",
                     "minutes": "166",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Sohag Gazi",
-                    "dismissal": "c BB McCullum b Anderson",
+                    "dismissal": "c (wk)BB McCullum b Anderson",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "14",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Abdur Razzak",
-                    "dismissal": "c BB McCullum b Anderson",
+                    "dismissal": "c (wk)BB McCullum b Anderson",
                     "runs": "12",
                     "balls": "8",
                     "minutes": "10",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "21",
@@ -318,7 +318,7 @@
                     "strike_rate": "148.38"
                 },
                 {
-                    "batsman": "Brendon McCullum(c)",
+                    "batsman": "Brendon McCullum(c) (wk)",
                     "dismissal": "c sub (Shamsur Rahman) b Rubel Hossain",
                     "runs": "0",
                     "balls": "1",
@@ -329,7 +329,7 @@
                 },
                 {
                     "batsman": "James Neesham",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -468,5 +468,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 43 runs (D/L method)"
+    "result": "Bangladesh won by 43 runs (D/L method)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Nasir Hossain",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Mushfiqur Rahim(c) (wk)",
+            "Sohag Gazi",
+            "Mominul Haque",
+            "Tamim Iqbal",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Anamul Haque"
+        ],
+        "New Zealand": [
+            "James Neesham",
+            "Mitchell McClenaghan",
+            "Brendon McCullum(c) (wk)",
+            "Corey Anderson",
+            "Anton Devcich",
+            "Grant Elliott",
+            "Hamish Rutherford",
+            "Ross Taylor",
+            "Kane Williamson",
+            "Tim Southee",
+            "Nathan McCullum"
+        ]
+    }
 }

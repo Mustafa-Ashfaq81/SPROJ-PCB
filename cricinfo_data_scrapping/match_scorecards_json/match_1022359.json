@@ -35,7 +35,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "lbw b Mohammad Hafeez",
                     "runs": "33",
                     "balls": "49",
@@ -282,7 +282,7 @@
                     "strike_rate": "114.28"
                 }
             ],
-            "did_not_bat": "Sarfaraz Ahmed (c) , Imad Wasim , Mohammad Amir , Shadab Khan , Hasan Ali , Junaid Khan",
+            "did_not_bat": "Sarfaraz Ahmed (c) (wk) , Imad Wasim , Mohammad Amir , Shadab Khan , Hasan Ali , Junaid Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 40 ( Fakhar Zaman , 7.2 ov ) , 2 - 41 ( Azhar Ali , 7.4 ov ) , 3 - 93 ( Mohammad Hafeez , 23.2 ov )",
             "bowling": [
                 {
@@ -358,5 +358,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 19 runs (D/L method)"
+    "result": "Pakistan won by 19 runs (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Wayne Parnell",
+            "Kagiso Rabada",
+            "Hashim Amla",
+            "AB de Villiers(c)",
+            "Faf du Plessis",
+            "Imran Tahir",
+            "David Miller",
+            "Chris Morris",
+            "Morne Morkel",
+            "Jean-Paul Duminy"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed (c) (wk)",
+            "Babar Azam",
+            "Mohammad Amir",
+            "Fakhar Zaman",
+            "Junaid Khan",
+            "Hasan Ali",
+            "Shadab Khan",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Imad Wasim",
+            "Azhar Ali"
+        ]
+    }
 }

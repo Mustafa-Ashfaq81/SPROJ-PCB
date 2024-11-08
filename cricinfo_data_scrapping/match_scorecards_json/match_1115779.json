@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Colin Munro",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -60,7 +60,7 @@
                     "strike_rate": "56.00"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Stokes b Rashid",
                     "runs": "10",
                     "balls": "19",
@@ -301,7 +301,7 @@
                     "strike_rate": "144.44"
                 }
             ],
-            "did_not_bat": "Jos Buttler , Moeen Ali , Chris Woakes , Adil Rashid , Tom Curran , Mark Wood",
+            "did_not_bat": "Jos Buttler (wk) , Moeen Ali , Chris Woakes , Adil Rashid , Tom Curran , Mark Wood",
             "fall_of_wickets": "Fall of wickets : 1 - 155 ( Jonny Bairstow , 20.2 ov ) , 2 - 177 ( Alex Hales , 23.6 ov ) , 3 - 192 ( Eoin Morgan , 26.4 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 104 balls remaining)"
+    "result": "England won by 7 wickets (with 104 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Mark Chapman",
+            "Tim Southee",
+            "Colin de Grandhomme",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ish Sodhi",
+            "Tom Latham (wk)"
+        ],
+        "England": [
+            "Ben Stokes",
+            "Moeen Ali",
+            "Chris Woakes",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "Tom Curran",
+            "Mark Wood",
+            "Alex Hales",
+            "Adil Rashid"
+        ]
+    }
 }

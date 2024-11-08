@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "23",
                     "balls": "19",
                     "minutes": "22",
@@ -50,7 +50,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Ali b Jordan",
                     "runs": "63",
                     "balls": "62",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "c Buttler b Jordan",
+                    "dismissal": "c (wk)Buttler b Jordan",
                     "runs": "37",
                     "balls": "45",
                     "minutes": "64",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Dhammika Prasad",
-                    "dismissal": "st Buttler b Bopara",
+                    "dismissal": "st (wk)Buttler b Bopara",
                     "runs": "22",
                     "balls": "8",
                     "minutes": "12",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Sangakkara b Prasad",
+                    "dismissal": "c (wk)Sangakkara b Prasad",
                     "runs": "34",
                     "balls": "42",
                     "minutes": "45",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Moeen Ali",
-                    "dismissal": "run out (Herath/Sangakkara)",
+                    "dismissal": "run out (Herath/ (wk)Sangakkara)",
                     "runs": "58",
                     "balls": "40",
                     "minutes": "65",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "c Sangakkara b Herath",
+                    "dismissal": "c (wk)Sangakkara b Herath",
                     "runs": "6",
                     "balls": "3",
                     "minutes": "4",
@@ -301,7 +301,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "55",
                     "balls": "37",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "England won by 5 wickets (with 8 balls remaining) (D/L method)"
+    "result": "England won by 5 wickets (with 8 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Thilina Kandamby",
+            "Jeevan Mendis",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Ajantha Mendis",
+            "Angelo Mathews(c)",
+            "Dhammika Prasad",
+            "Rangana Herath"
+        ],
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "Eoin Morgan",
+            "Chris Jordan",
+            "Steven Finn",
+            "Ben Stokes",
+            "Moeen Ali",
+            "Alastair Cook(c)",
+            "Alex Hales",
+            "Ravi Bopara"
+        ]
+    }
 }

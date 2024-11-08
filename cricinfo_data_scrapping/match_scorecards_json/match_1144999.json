@@ -33,7 +33,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Kohli b Kumar",
                     "runs": "5",
                     "balls": "11",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "st Dhoni b Chahal",
+                    "dismissal": "st (wk)Dhoni b Chahal",
                     "runs": "39",
                     "balls": "54",
                     "minutes": "-",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Carey b Richardson",
+                    "dismissal": "c (wk)Carey b Richardson",
                     "runs": "46",
                     "balls": "62",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                     "strike_rate": "74.19"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "87",
                     "balls": "114",
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 4 balls remaining)"
+    "result": "India won by 7 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Peter Siddle",
+            "Aaron Finch(c)",
+            "Jhye Richardson",
+            "Shaun Marsh",
+            "Marcus Stoinis",
+            "Alex Carey (wk)",
+            "Billy Stanlake",
+            "Adam Zampa",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Peter Handscomb"
+        ],
+        "India": [
+            "Dinesh Karthik",
+            "Rohit Sharma",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Vijay Shankar",
+            "Kedar Jadhav",
+            "Virat Kohli(c)",
+            "MS Dhoni (wk)",
+            "Mohammed Shami",
+            "Ravindra Jadeja",
+            "Shikhar Dhawan"
+        ]
+    }
 }

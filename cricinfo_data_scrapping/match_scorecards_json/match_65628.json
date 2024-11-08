@@ -9,7 +9,7 @@
         "toss": "New Zealand, elected to bat first",
         "series": [
             "VB Series",
-            "South Africa tour of Australia"
+            "New Zealand tour of Australia"
         ],
         "season": "2001/02",
         "player_of_the_match": "Jonty Rhodes",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Andre Adams",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "6",
@@ -101,7 +101,7 @@
                     "strike_rate": "49.20"
                 },
                 {
-                    "batsman": "Adam Parore",
+                    "batsman": "Adam Parore (wk)",
                     "dismissal": "c Gibbs b Klusener",
                     "runs": "0",
                     "balls": "1",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Gary Kirsten",
-                    "dismissal": "c Parore b Bond",
+                    "dismissal": "c (wk)Parore b Bond",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "37",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Parore b Adams",
+                    "dismissal": "c (wk)Parore b Adams",
                     "runs": "10",
                     "balls": "24",
                     "minutes": "19",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "c Parore b Cairns",
+                    "dismissal": "c (wk)Parore b Cairns",
                     "runs": "29",
                     "balls": "71",
                     "minutes": "85",
@@ -288,7 +288,7 @@
                     "strike_rate": "89.70"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "16",
                     "balls": "6",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 47 balls remaining) (D/L method)"
+    "result": "South Africa won by 6 wickets (with 47 balls remaining) (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Chris Cairns",
+            "Lou Vincent",
+            "James Franklin",
+            "Adam Parore (wk)",
+            "Nathan Astle",
+            "Stephen Fleming(c)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Craig McMillan",
+            "Andre Adams",
+            "Shane Bond"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Nicky Boje",
+            "Jonty Rhodes",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Boeta Dippenaar",
+            "Allan Donald",
+            "Lance Klusener",
+            "Makhaya Ntini",
+            "Shaun Pollock (c)"
+        ]
+    }
 }

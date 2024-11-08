@@ -90,8 +90,8 @@
                     "strike_rate": "70.52"
                 },
                 {
-                    "batsman": "Usman Patel",
-                    "dismissal": "c Zeeshan Ali b Ehsan Khan",
+                    "batsman": "Usman Patel (wk)",
+                    "dismissal": "c (wk)Zeeshan Ali b Ehsan Khan",
                     "runs": "50",
                     "balls": "48",
                     "minutes": "-",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Anshy Rath",
-                    "dismissal": "c Usman Patel b Shahrukh Quddus",
+                    "dismissal": "c (wk)Usman Patel b Shahrukh Quddus",
                     "runs": "13",
                     "balls": "27",
                     "minutes": "-",
@@ -301,8 +301,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Zeeshan Ali",
-                    "dismissal": "c Usman Patel b Shahrukh Quddus",
+                    "batsman": "Zeeshan Ali (wk)",
+                    "dismissal": "c (wk)Usman Patel b Shahrukh Quddus",
                     "runs": "24",
                     "balls": "32",
                     "minutes": "-",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Ehsan Khan",
-                    "dismissal": "run out (Adnan Idrees/Usman Patel)",
+                    "dismissal": "run out (Adnan Idrees/ (wk)Usman Patel)",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "-",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Kuwait won by 30 runs"
+    "result": "Kuwait won by 30 runs",
+    "playing_xi": {
+        "Kuwait": [
+            "Usman Patel (wk)",
+            "Adnan Idrees",
+            "Shiraz Khan",
+            "Yasin Patel",
+            "Shahrukh Quddus",
+            "Meet Bhavsar",
+            "Parvindar Kumar",
+            "Ravija Sandaruwan",
+            "Sayed Monib",
+            "Mohammed Aslam(c)",
+            "Bilal Tahir"
+        ],
+        "Hong Kong": [
+            "Ayush Shukla",
+            "Ehsan Khan",
+            "Kinchit Shah",
+            "Mohammad Ghazanfar",
+            "Babar Hayat",
+            "Zeeshan Ali (wk)",
+            "Yasim Murtaza",
+            "Anshy Rath",
+            "Haroon Arshad",
+            "Nizakat Khan(c)",
+            "Aizaz Khan"
+        ]
+    }
 }

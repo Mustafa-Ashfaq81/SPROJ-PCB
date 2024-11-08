@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Paine b Hazlewood",
+                    "dismissal": "c (wk)Paine b Hazlewood",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Paine b Cummins",
+                    "dismissal": "c (wk)Paine b Cummins",
                     "runs": "33",
                     "balls": "61",
                     "minutes": "-",
@@ -80,8 +80,8 @@
                     "strike_rate": "54.09"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "c Paine b Hazlewood",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "c (wk)Paine b Hazlewood",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "c Paine b Cummins",
+                    "dismissal": "c (wk)Paine b Cummins",
                     "runs": "7",
                     "balls": "8",
                     "minutes": "-",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "13",
                     "balls": "11",
                     "minutes": "-",
@@ -311,7 +311,7 @@
                     "strike_rate": "127.27"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "not out",
                     "runs": "25",
                     "balls": "31",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Australia won by 3 wickets (with 78 balls remaining)"
+    "result": "Australia won by 3 wickets (with 78 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Moeen Ali",
+            "Chris Woakes",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "Tom Curran",
+            "Mark Wood",
+            "Alex Hales",
+            "Adil Rashid"
+        ],
+        "Australia": [
+            "Cameron White",
+            "Pat Cummins",
+            "Mitchell Marsh",
+            "Travis Head",
+            "Adam Zampa",
+            "Andrew Tye",
+            "Marcus Stoinis",
+            "Steven Smith(c)",
+            "Josh Hazlewood",
+            "Tim Paine (wk)",
+            "David Warner"
+        ]
+    }
 }

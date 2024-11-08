@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "5",
@@ -60,7 +60,7 @@
                     "strike_rate": "136.36"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Boult",
                     "runs": "5",
                     "balls": "14",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Sabbir Rahman",
-                    "dismissal": "st Latham b Santner",
+                    "dismissal": "st (wk)Latham b Santner",
                     "runs": "13",
                     "balls": "20",
                     "minutes": "23",
@@ -277,7 +277,7 @@
                     "strike_rate": "91.83"
                 }
             ],
-            "did_not_bat": "Tom Latham , Colin de Grandhomme , James Neesham , Mitchell Santner , Matt Henry , Lockie Ferguson , Trent Boult",
+            "did_not_bat": "Tom Latham (wk) , Colin de Grandhomme , James Neesham , Mitchell Santner , Matt Henry , Lockie Ferguson , Trent Boult",
             "fall_of_wickets": "Fall of wickets : 1 - 103 ( Henry Nicholls , 22.3 ov ) , 2 - 137 ( Kane Williamson , 28.5 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 8 wickets (with 33 balls remaining)"
+    "result": "New Zealand won by 8 wickets (with 33 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Mashrafe Mortaza(c)",
+            "Mohammad Mithun",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Mohammad Saifuddin",
+            "Mehidy Hasan Miraz",
+            "Litton Das",
+            "Sabbir Rahman",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "Lockie Ferguson",
+            "James Neesham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Matt Henry",
+            "Colin de Grandhomme",
+            "Mitchell Santner",
+            "Ross Taylor",
+            "Henry Nicholls"
+        ]
+    }
 }

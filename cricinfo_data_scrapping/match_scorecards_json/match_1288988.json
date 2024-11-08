@@ -72,7 +72,7 @@
                     "strike_rate": "10.00"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "not out",
                     "runs": "140",
                     "balls": "123",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Colin de Grandhomme",
-                    "dismissal": "c Edwards b Seelaar",
+                    "dismissal": "c (wk)Edwards b Seelaar",
                     "runs": "16",
                     "balls": "40",
                     "minutes": "56",
@@ -279,7 +279,7 @@
                     "strike_rate": "63.79"
                 },
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "c Nicholls b Tickner",
                     "runs": "6",
                     "balls": "8",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Michael Rippon",
-                    "dismissal": "st Latham b MG Bracewell",
+                    "dismissal": "st (wk)Latham b MG Bracewell",
                     "runs": "18",
                     "balls": "22",
                     "minutes": "35",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 118 runs"
+    "result": "New Zealand won by 118 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Michael Bracewell",
+            "Ross Taylor",
+            "Tom Latham(c) (wk)",
+            "Martin Guptill",
+            "Will Young",
+            "Doug Bracewell",
+            "Ish Sodhi",
+            "Blair Tickner",
+            "Kyle Jamieson",
+            "Colin de Grandhomme",
+            "Henry Nicholls"
+        ],
+        "Netherlands": [
+            "Brandon Glover",
+            "Vikramjit Singh",
+            "Scott Edwards (wk)",
+            "Fred Klaassen",
+            "Aryan Dutt",
+            "Stephan Myburgh",
+            "Max O'Dowd",
+            "Logan van Beek",
+            "Pieter Seelaar(c)",
+            "Michael Rippon",
+            "Bas de Leede"
+        ]
+    }
 }

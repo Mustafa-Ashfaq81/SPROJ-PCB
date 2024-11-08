@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Geoff Barnett",
-                    "dismissal": "st Smith b Wright",
+                    "dismissal": "st (wk)Smith b Wright",
                     "runs": "21",
                     "balls": "37",
                     "minutes": "48",
@@ -70,7 +70,7 @@
                     "strike_rate": "17.64"
                 },
                 {
-                    "batsman": "Ashish Bagai(c)",
+                    "batsman": "Ashish Bagai(c) (wk)",
                     "dismissal": "c Stander b MacLeod",
                     "runs": "87",
                     "balls": "122",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Sandeep Jyoti",
-                    "dismissal": "c Smith b MacLeod",
+                    "dismissal": "c (wk)Smith b MacLeod",
                     "runs": "16",
                     "balls": "26",
                     "minutes": "32",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Gavin Hamilton",
-                    "dismissal": "c Bagai b Bhatti",
+                    "dismissal": "c (wk)Bagai b Bhatti",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "16",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Kyle Coetzer",
-                    "dismissal": "c Bagai b Bhatti",
+                    "dismissal": "c (wk)Bagai b Bhatti",
                     "runs": "8",
                     "balls": "4",
                     "minutes": "4",
@@ -257,7 +257,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "b Rizwan Cheema",
                     "runs": "43",
                     "balls": "57",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Jan Stander",
-                    "dismissal": "c Bagai b Khurram Chohan",
+                    "dismissal": "c (wk)Bagai b Khurram Chohan",
                     "runs": "12",
                     "balls": "29",
                     "minutes": "35",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "John Blain",
-                    "dismissal": "c Bagai b Dhaniram",
+                    "dismissal": "c (wk)Bagai b Dhaniram",
                     "runs": "2",
                     "balls": "28",
                     "minutes": "35",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Canada won by 148 runs"
+    "result": "Canada won by 148 runs",
+    "playing_xi": {
+        "Canada": [
+            "Henry Osinde",
+            "Geoff Barnett",
+            "John Davison",
+            "Ashish Bagai(c) (wk)",
+            "Sandeep Jyoti",
+            "Ian Billcliff",
+            "Sunil Dhaniram",
+            "Khurram Chohan",
+            "Rizwan Cheema",
+            "Umar Bhatti",
+            "Eion Katchay"
+        ],
+        "Scotland": [
+            "Neil McCallum",
+            "Craig Wright",
+            "Calum MacLeod",
+            "Kyle Coetzer",
+            "Colin Smith (wk)",
+            "Jan Stander",
+            "John Blain",
+            "Ryan Watson(c)",
+            "Gavin Hamilton",
+            "Dewald Nel",
+            "Navdeep Poonia"
+        ]
+    }
 }

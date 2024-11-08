@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Buttler b Anderson",
+                    "dismissal": "c (wk)Buttler b Anderson",
                     "runs": "100",
                     "balls": "117",
                     "minutes": "180",
@@ -82,7 +82,7 @@
                     "strike_rate": "76.66"
                 },
                 {
-                    "batsman": "Brendon McCullum(c)",
+                    "batsman": "Brendon McCullum(c) (wk)",
                     "dismissal": "c Woakes b Broad",
                     "runs": "74",
                     "balls": "36",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Nathan McCullum",
-                    "dismissal": "c Buttler b Anderson",
+                    "dismissal": "c (wk)Buttler b Anderson",
                     "runs": "7",
                     "balls": "3",
                     "minutes": "4",
@@ -265,7 +265,7 @@
                     "strike_rate": "141.07"
                 }
             ],
-            "did_not_bat": "Eoin Morgan , Jos Buttler , Chris Woakes , Stuart Broad , Graeme Swann , Steven Finn , James Anderson",
+            "did_not_bat": "Eoin Morgan , Jos Buttler (wk) , Chris Woakes , Stuart Broad , Graeme Swann , Steven Finn , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 89 ( Ian Bell , 19.5 ov ) , 2 - 149 ( Alastair Cook , 31.5 ov )",
             "bowling": [
                 {
@@ -355,5 +355,33 @@
             ]
         }
     ],
-    "result": "England won by 8 wickets (with 14 balls remaining)"
+    "result": "England won by 8 wickets (with 14 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Hamish Rutherford",
+            "Grant Elliott",
+            "Trent Boult",
+            "Nathan McCullum",
+            "Tim Southee",
+            "Kane Williamson",
+            "Brendon McCullum(c) (wk)",
+            "Kyle Mills",
+            "BJ Watling",
+            "James Franklin",
+            "Ross Taylor"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Graeme Swann",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Chris Woakes",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Jos Buttler (wk)"
+        ]
+    }
 }

@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "James Vince",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "16",
@@ -83,7 +83,7 @@
                     "strike_rate": "77.27"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Agar b Zampa",
                     "runs": "29",
                     "balls": "34",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Luke Wood",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "10",
                     "balls": "10",
                     "minutes": "16",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Marnus Labuschagne",
-                    "dismissal": "c Buttler b Willey",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "10",
@@ -280,7 +280,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Salt b Dawson",
                     "runs": "21",
                     "balls": "28",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 19 balls remaining)"
+    "result": "Australia won by 6 wickets (with 19 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "David Willey",
+            "Liam Dawson",
+            "James Vince",
+            "Chris Jordan",
+            "Jos Buttler(c) (wk)",
+            "Luke Wood",
+            "Jason Roy",
+            "Sam Billings",
+            "Dawid Malan",
+            "Phil Salt",
+            "Olly Stone"
+        ],
+        "Australia": [
+            "Pat Cummins (c)",
+            "Marnus Labuschagne",
+            "Mitchell Starc",
+            "Adam Zampa",
+            "Travis Head",
+            "Ashton Agar",
+            "Steven Smith",
+            "Cameron Green",
+            "Alex Carey (wk)",
+            "David Warner",
+            "Marcus Stoinis"
+        ]
+    }
 }

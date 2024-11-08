@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Ronchi b Boult",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "104",
                     "balls": "78",
                     "minutes": "108",
@@ -84,7 +84,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Henry b McClenaghan",
                     "runs": "129",
                     "balls": "77",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "22",
                     "balls": "18",
                     "minutes": "28",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "run out (Billings/Buttler)",
+                    "dismissal": "run out (Billings/ (wk)Buttler)",
                     "runs": "24",
                     "balls": "27",
                     "minutes": "40",
@@ -301,7 +301,7 @@
                     "strike_rate": "65.21"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "b Rashid",
                     "runs": "0",
                     "balls": "1",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "England won by 210 runs"
+    "result": "England won by 210 runs",
+    "playing_xi": {
+        "England": [
+            "Liam Plunkett",
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "Steven Finn",
+            "Ben Stokes",
+            "Eoin Morgan(c)",
+            "Sam Billings",
+            "Adil Rashid",
+            "Alex Hales",
+            "Jason Roy",
+            "Chris Jordan"
+        ],
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Grant Elliott",
+            "Mitchell Santner",
+            "Brendon McCullum(c)",
+            "Nathan McCullum",
+            "Trent Boult",
+            "Matt Henry",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ]
+    }
 }

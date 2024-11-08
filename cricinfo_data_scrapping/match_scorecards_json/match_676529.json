@@ -40,7 +40,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Johnson Charles",
+                    "batsman": "Johnson Charles (wk)",
                     "dismissal": "c & b Jadeja",
                     "runs": "42",
                     "balls": "34",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo(c)",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "24",
                     "balls": "28",
                     "minutes": "32",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Charles b Holder",
+                    "dismissal": "c (wk)Charles b Holder",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "16",
@@ -301,7 +301,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "7",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 88 balls remaining)"
+    "result": "India won by 6 wickets (with 88 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Jason Holder",
+            "Sunil Narine",
+            "Daren Sammy",
+            "Narsingh Deonarine",
+            "Ravi Rampaul",
+            "Johnson Charles (wk)",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Lendl Simmons",
+            "Dwayne Bravo(c)"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Jaydev Unadkat",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Mohammed Shami",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ]
+    }
 }

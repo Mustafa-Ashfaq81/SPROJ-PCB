@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "run out (Chandimal/Sangakkara)",
+                    "dismissal": "run out (Chandimal/ (wk)Sangakkara)",
                     "runs": "112",
                     "balls": "136",
                     "minutes": "194",
@@ -63,7 +63,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "lbw b Mathews",
                     "runs": "3",
                     "balls": "12",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "29",
                     "balls": "51",
                     "minutes": "66",
@@ -250,7 +250,7 @@
                     "strike_rate": "104.62"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Ziaur Rahman b Rubel Hossain",
                     "runs": "63",
                     "balls": "68",
@@ -360,5 +360,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 32 balls remaining) (D/L method)"
+    "result": "Sri Lanka won by 8 wickets (with 32 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mahmudullah",
+            "Mohammad Ashraful",
+            "Abul Hasan",
+            "Mushfiqur Rahim(c) (wk)",
+            "Nasir Hossain",
+            "Rubel Hossain",
+            "Anamul Haque",
+            "Abdur Razzak",
+            "Sohag Gazi",
+            "Ziaur Rahman",
+            "Tamim Iqbal"
+        ],
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Nuwan Kulasekara",
+            "Lasith Malinga",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Angelo Mathews (c)"
+        ]
+    }
 }

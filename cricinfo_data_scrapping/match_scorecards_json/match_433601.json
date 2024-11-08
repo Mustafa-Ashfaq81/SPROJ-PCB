@@ -40,7 +40,7 @@
                     "strike_rate": "65.78"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Raina b Yuvraj Singh",
                     "runs": "53",
                     "balls": "62",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Haddin b Tait",
+                    "dismissal": "c (wk)Haddin b Tait",
                     "runs": "53",
                     "balls": "68",
                     "minutes": "93",
@@ -271,7 +271,7 @@
                     "strike_rate": "87.69"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Clarke b Lee",
                     "runs": "7",
                     "balls": "8",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 14 balls remaining)"
+    "result": "India won by 5 wickets (with 14 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Shane Watson",
+            "Mitchell Johnson",
+            "Shaun Tait",
+            "David Hussey",
+            "Ricky Ponting(c)",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Cameron White",
+            "Jason Krejza",
+            "Michael Clarke",
+            "Michael Hussey"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Ravichandran Ashwin",
+            "Munaf Patel",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Virender Sehwag",
+            "Harbhajan Singh",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

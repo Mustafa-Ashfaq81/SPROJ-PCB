@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "7",
                     "balls": "20",
                     "minutes": "17",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "4",
                     "balls": "24",
                     "minutes": "36",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c McCullum b Hitchcock",
+                    "dismissal": "c (wk)McCullum b Hitchcock",
                     "runs": "10",
                     "balls": "36",
                     "minutes": "59",
@@ -60,7 +60,7 @@
                     "strike_rate": "27.77"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c Vettori b Hitchcock",
                     "runs": "20",
                     "balls": "59",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "17",
                     "balls": "26",
                     "minutes": "42",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Sanjay Bangar",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "10",
@@ -273,7 +273,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "16",
@@ -355,5 +355,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 139 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 139 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Rahul Dravid (wk)",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Sanjay Bangar",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Javagal Srinath",
+            "Yuvraj Singh",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag",
+            "Harbhajan Singh"
+        ],
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Mathew Sinclair",
+            "Brendon McCullum (wk)",
+            "Jacob Oram",
+            "Lou Vincent",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Paul Hitchcock",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Nathan Astle"
+        ]
+    }
 }

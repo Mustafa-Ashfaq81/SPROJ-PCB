@@ -60,7 +60,7 @@
                     "strike_rate": "45.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "run out (Cremer)",
                     "runs": "107",
                     "balls": "109",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "st Mutumbami b Sikandar Raza",
+                    "dismissal": "st (wk)Mutumbami b Sikandar Raza",
                     "runs": "16",
                     "balls": "21",
                     "minutes": "17",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Luke Jongwe",
-                    "dismissal": "c Mushfiqur Rahim b Al-Amin Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Al-Amin Hossain",
                     "runs": "39",
                     "balls": "51",
                     "minutes": "63",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "3",
                     "balls": "25",
                     "minutes": "26",
@@ -327,7 +327,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "absent hurt",
                     "runs": "-",
                     "balls": "-",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 145 runs"
+    "result": "Bangladesh won by 145 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Tamim Iqbal",
+            "Mustafizur Rahman",
+            "Sabbir Rahman",
+            "Arafat Sunny",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Nasir Hossain",
+            "Litton Das",
+            "Al-Amin Hossain"
+        ],
+        "Zimbabwe": [
+            "Graeme Cremer",
+            "Taurai Muzarabani",
+            "Chamu Chibhabha",
+            "Tinashe Panyangara",
+            "Craig Ervine",
+            "Richmond Mutumbami (wk)",
+            "Malcolm Waller",
+            "Sean Williams",
+            "Elton Chigumbura(c)",
+            "Sikandar Raza",
+            "Luke Jongwe"
+        ]
+    }
 }

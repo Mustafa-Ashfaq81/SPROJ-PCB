@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "c Hope b Gabriel",
+                    "dismissal": "c (wk)Hope b Gabriel",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "-",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Kamran Akmal",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "21",
                     "balls": "27",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "st Hope b Nurse",
+                    "dismissal": "st (wk)Hope b Nurse",
                     "runs": "32",
                     "balls": "50",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Hope b Bishoo",
+                    "dismissal": "c (wk)Hope b Bishoo",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "-",
@@ -80,7 +80,7 @@
                     "strike_rate": "52.94"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "c Walton b Gabriel",
                     "runs": "26",
                     "balls": "26",
@@ -217,7 +217,7 @@
                     "strike_rate": "111.11"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Shadab Khan b Hasan Ali",
                     "runs": "15",
                     "balls": "12",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Jason Mohammed",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Hafeez",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Hafeez",
                     "runs": "1",
                     "balls": "16",
                     "minutes": "-",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 74 runs"
+    "result": "Pakistan won by 74 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Imad Wasim",
+            "Shoaib Malik",
+            "Kamran Akmal",
+            "Shadab Khan",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Mohammad Amir",
+            "Babar Azam",
+            "Hasan Ali"
+        ],
+        "West Indies": [
+            "Shai Hope (wk)",
+            "Kieran Powell",
+            "Evin Lewis",
+            "Jonathan Carter",
+            "Jason Holder(c)",
+            "Shannon Gabriel",
+            "Ashley Nurse",
+            "Devendra Bishoo",
+            "Jason Mohammed",
+            "Alzarri Joseph",
+            "Chadwick Walton"
+        ]
+    }
 }

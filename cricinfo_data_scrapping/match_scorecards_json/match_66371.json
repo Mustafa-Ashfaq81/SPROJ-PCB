@@ -31,7 +31,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Khan b Kumble",
                     "runs": "111",
                     "balls": "104",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "run out (Ganguly/Dravid)",
+                    "dismissal": "run out (Ganguly/ (wk)Dravid)",
                     "runs": "44",
                     "balls": "45",
                     "minutes": "79",
@@ -222,7 +222,7 @@
                     "strike_rate": "119.35"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c & b Kasprowicz",
                     "runs": "34",
                     "balls": "34",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "run out (Bichel/Gilchrist)",
+                    "dismissal": "run out (Bichel/ (wk)Gilchrist)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "3",
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "Australia won by 61 runs"
+    "result": "Australia won by 61 runs",
+    "playing_xi": {
+        "Australia": [
+            "Brad Williams",
+            "Michael Kasprowicz",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Ian Harvey",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Ashish Nehra",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Murali Kartik",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Anil Kumble",
+            "Virender Sehwag",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

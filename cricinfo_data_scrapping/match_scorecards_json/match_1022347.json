@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "128",
                     "balls": "142",
                     "minutes": "184",
@@ -61,7 +61,7 @@
                     "strike_rate": "95.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Hales b Plunkett",
                     "runs": "79",
                     "balls": "72",
@@ -262,7 +262,7 @@
                     "strike_rate": "122.95"
                 }
             ],
-            "did_not_bat": "Ben Stokes , Jos Buttler , Moeen Ali , Chris Woakes , Liam Plunkett , Mark Wood , Jake Ball",
+            "did_not_bat": "Ben Stokes , Jos Buttler (wk) , Moeen Ali , Chris Woakes , Liam Plunkett , Mark Wood , Jake Ball",
             "fall_of_wickets": "Fall of wickets : 1 - 6 ( Jason Roy , 2.3 ov ) , 2 - 165 ( Alex Hales , 27.6 ov )",
             "bowling": [
                 {
@@ -366,5 +366,33 @@
             ]
         }
     ],
-    "result": "England won by 8 wickets (with 16 balls remaining)"
+    "result": "England won by 8 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Mustafizur Rahman",
+            "Mashrafe Mortaza (c)",
+            "Soumya Sarkar",
+            "Rubel Hossain",
+            "Sabbir Rahman",
+            "Imrul Kayes",
+            "Shakib Al Hasan"
+        ],
+        "England": [
+            "Mark Wood",
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jos Buttler (wk)",
+            "Jake Ball",
+            "Alex Hales",
+            "Moeen Ali",
+            "Ben Stokes"
+        ]
+    }
 }

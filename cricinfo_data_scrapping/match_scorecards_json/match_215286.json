@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c Ramdin b DBL Powell",
+                    "dismissal": "c (wk)Ramdin b DBL Powell",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "15",
@@ -92,7 +92,7 @@
                     "strike_rate": "80.58"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "28",
                     "balls": "13",
@@ -269,7 +269,7 @@
                     "strike_rate": "26.66"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "not out",
                     "runs": "74",
                     "balls": "83",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "India won by 7 runs"
+    "result": "India won by 7 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Ashish Nehra",
+            "Irfan Pathan",
+            "Mohammad Kaif",
+            "VVS Laxman",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Rahul Dravid(c)",
+            "Sourav Ganguly",
+            "MS Dhoni (wk)",
+            "Zaheer Khan"
+        ],
+        "West Indies": [
+            "Omari Banks",
+            "Runako Morton",
+            "Deighton Butler",
+            "Xavier Marshall",
+            "Daren Powell",
+            "Denesh Ramdin (wk)",
+            "Sylvester Joseph(c)",
+            "Ricardo Powell",
+            "Dwayne Smith",
+            "Narsingh Deonarine",
+            "Tino Best"
+        ]
+    }
 }

@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Rakep Patel",
-                    "dismissal": "st Barresi b Gruijters",
+                    "dismissal": "st (wk)Barresi b Gruijters",
                     "runs": "40",
                     "balls": "60",
                     "minutes": "85",
@@ -84,8 +84,8 @@
                     "strike_rate": "53.65"
                 },
                 {
-                    "batsman": "Irfan Karim",
-                    "dismissal": "c Barresi b Mudassar Bukhari",
+                    "batsman": "Irfan Karim (wk)",
+                    "dismissal": "c (wk)Barresi b Mudassar Bukhari",
                     "runs": "21",
                     "balls": "20",
                     "minutes": "28",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Runish Gudhka",
-                    "dismissal": "run out (Barresi/Ahsan Malik)",
+                    "dismissal": "run out ( (wk)Barresi/Ahsan Malik)",
                     "runs": "10",
                     "balls": "7",
                     "minutes": "10",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Eric Szwarczynski",
-                    "dismissal": "c Karim b Wesonga",
+                    "dismissal": "c (wk)Karim b Wesonga",
                     "runs": "17",
                     "balls": "34",
                     "minutes": "86",
@@ -271,8 +271,8 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Wesley Barresi",
-                    "dismissal": "c Karim b Oluoch",
+                    "batsman": "Wesley Barresi (wk)",
+                    "dismissal": "c (wk)Karim b Oluoch",
                     "runs": "67",
                     "balls": "86",
                     "minutes": "93",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 4 wickets (with 30 balls remaining)"
+    "result": "Netherlands won by 4 wickets (with 30 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Rakep Patel",
+            "Seren Waters",
+            "Hiren Varaiya",
+            "Emmanuel Bundi",
+            "Irfan Karim (wk)",
+            "Dominic Wesonga",
+            "Runish Gudhka",
+            "Lucas Oluoch",
+            "Duncan Allan",
+            "Tanmay Mishra",
+            "Collins Obuya(c)"
+        ],
+        "Netherlands": [
+            "Tim Gruijters",
+            "Stephan Myburgh",
+            "Ahsan Malik",
+            "Pieter Seelaar",
+            "Wesley Barresi (wk)",
+            "Eric Szwarczynski",
+            "Tom de Grooth",
+            "Mudassar Bukhari",
+            "Peter Borren(c)",
+            "Wilfred Diepeveen",
+            "Michael Swart"
+        ]
+    }
 }

@@ -40,7 +40,7 @@
                     "strike_rate": "11.11"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Tharanga b Pathirana",
                     "runs": "55",
                     "balls": "46",
@@ -211,7 +211,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c Behardien b Pretorius",
                     "runs": "58",
                     "balls": "47",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "c de Kock b Parnell",
+                    "dismissal": "c (wk)de Kock b Parnell",
                     "runs": "29",
                     "balls": "34",
                     "minutes": "45",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Sachith Pathirana",
-                    "dismissal": "c de Kock b Pretorius",
+                    "dismissal": "c (wk)de Kock b Pretorius",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "10",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 40 runs"
+    "result": "South Africa won by 40 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Dwaine Pretorius",
+            "Tabraiz Shamsi",
+            "Wayne Parnell",
+            "Hashim Amla",
+            "Jean-Paul Duminy",
+            "Farhaan Behardien",
+            "Faf du Plessis",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "AB de Villiers(c)",
+            "Kagiso Rabada"
+        ],
+        "Sri Lanka": [
+            "Nuwan Kulasekara",
+            "Lakshan Sandakan",
+            "Sachith Pathirana",
+            "Kusal Mendis",
+            "Lahiru Kumara",
+            "Dhananjaya de Silva",
+            "Asela Gunaratne",
+            "Niroshan Dickwella (wk)",
+            "Sandun Weerakkody",
+            "Lahiru Madushanka",
+            "Upul Tharanga(c)"
+        ]
+    }
 }

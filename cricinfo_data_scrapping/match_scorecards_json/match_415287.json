@@ -30,8 +30,8 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum(c)",
-                    "dismissal": "c Paine b Siddle",
+                    "batsman": "Brendon McCullum(c) (wk)",
+                    "dismissal": "c (wk)Paine b Siddle",
                     "runs": "0",
                     "balls": "14",
                     "minutes": "16",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Aaron Redmond",
-                    "dismissal": "st Paine b Hauritz",
+                    "dismissal": "st (wk)Paine b Hauritz",
                     "runs": "26",
                     "balls": "45",
                     "minutes": "84",
@@ -233,7 +233,7 @@
                     "strike_rate": "81.39"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "c Taylor b Bond",
                     "runs": "1",
                     "balls": "6",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 28 balls remaining)"
+    "result": "Australia won by 6 wickets (with 28 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Martin Guptill",
+            "Neil Broom",
+            "Grant Elliott",
+            "Kyle Mills",
+            "Jeetan Patel",
+            "Brendon McCullum(c) (wk)",
+            "Shane Bond",
+            "Ian Butler",
+            "Ross Taylor",
+            "James Franklin",
+            "Aaron Redmond"
+        ],
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Peter Siddle",
+            "Brett Lee",
+            "Tim Paine (wk)",
+            "Michael Hussey",
+            "Shane Watson",
+            "Callum Ferguson",
+            "Nathan Hauritz",
+            "Mitchell Johnson"
+        ]
+    }
 }

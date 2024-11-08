@@ -63,7 +63,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "not out",
                     "runs": "142",
                     "balls": "128",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Dion Ebrahim",
-                    "dismissal": "st Foster b Collingwood",
+                    "dismissal": "st (wk)Foster b Collingwood",
                     "runs": "22",
                     "balls": "35",
                     "minutes": "46",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Dougie Marillier",
-                    "dismissal": "run out (Trescothick/Foster)",
+                    "dismissal": "run out (Trescothick/ (wk)Foster)",
                     "runs": "12",
                     "balls": "19",
                     "minutes": "21",
@@ -231,7 +231,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c A Flower b Olonga",
+                    "dismissal": "c (wk)A Flower b Olonga",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "20",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Mark Ramprakash",
-                    "dismissal": "run out (Marillier/A Flower)",
+                    "dismissal": "run out (Marillier/ (wk)A Flower)",
                     "runs": "47",
                     "balls": "60",
                     "minutes": "80",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c A Flower b Brent",
+                    "dismissal": "c (wk)A Flower b Brent",
                     "runs": "36",
                     "balls": "53",
                     "minutes": "57",
@@ -310,7 +310,7 @@
                     "strike_rate": "92.30"
                 }
             ],
-            "did_not_bat": "Ryan Sidebottom , Matthew Hoggard , James Foster",
+            "did_not_bat": "Ryan Sidebottom , Matthew Hoggard , James Foster (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 28 ( Marcus Trescothick , 4.6 ov ) , 2 - 95 ( Nick Knight , 17.1 ov ) , 3 - 108 ( Graham Thorpe , 20.5 ov ) , 4 - 126 ( Mark Ramprakash , 25.3 ov ) , 5 - 198 ( Paul Collingwood , 38.1 ov ) , 6 - 214 ( Andrew Flintoff , 40.1 ov )",
             "bowling": [
                 {
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 15 balls remaining)"
+    "result": "England won by 4 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Stuart Carlisle",
+            "Dougie Marillier",
+            "Dion Ebrahim",
+            "Gary Brent",
+            "Henry Olonga",
+            "Grant Flower",
+            "Alistair Campbell",
+            "Dirk Viljoen",
+            "Andy Flower (wk)",
+            "Heath Streak(c)",
+            "Craig Wishart"
+        ],
+        "England": [
+            "Matthew Hoggard",
+            "Graham Thorpe",
+            "Paul Collingwood",
+            "Ryan Sidebottom",
+            "Nick Knight",
+            "Nasser Hussain(c)",
+            "Andrew Flintoff",
+            "Marcus Trescothick",
+            "James Foster (wk)",
+            "Jeremy Snape",
+            "Mark Ramprakash"
+        ]
+    }
 }

@@ -29,7 +29,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "BJ Watling",
+                    "batsman": "BJ Watling (wk)",
                     "dismissal": "c Swann b Finn",
                     "runs": "1",
                     "balls": "10",
@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Hamish Rutherford",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "2",
                     "balls": "19",
                     "minutes": "32",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "c Buttler b Anderson",
+                    "dismissal": "c (wk)Buttler b Anderson",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "12",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Buttler b Broad",
+                    "dismissal": "c (wk)Buttler b Broad",
                     "runs": "28",
                     "balls": "52",
                     "minutes": "82",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "run out (Finn/Buttler)",
+                    "dismissal": "run out (Finn/ (wk)Buttler)",
                     "runs": "24",
                     "balls": "48",
                     "minutes": "63",
@@ -223,7 +223,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Watling b Southee",
+                    "dismissal": "c (wk)Watling b Southee",
                     "runs": "46",
                     "balls": "67",
                     "minutes": "103",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Jonathan Trott",
-                    "dismissal": "c Watling b Southee",
+                    "dismissal": "c (wk)Watling b Southee",
                     "runs": "38",
                     "balls": "44",
                     "minutes": "63",
@@ -272,8 +272,8 @@
                     "strike_rate": "162.50"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "c Watling b Southee",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "c (wk)Watling b Southee",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "5",
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "England won by 5 wickets (with 75 balls remaining)"
+    "result": "England won by 5 wickets (with 75 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Hamish Rutherford",
+            "Grant Elliott",
+            "Nathan McCullum",
+            "BJ Watling (wk)",
+            "Tim Southee",
+            "Kane Williamson",
+            "Kyle Mills",
+            "Brendon McCullum(c)",
+            "Andrew Ellis",
+            "James Franklin",
+            "Ross Taylor"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Graeme Swann",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Chris Woakes",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Jos Buttler (wk)"
+        ]
+    }
 }

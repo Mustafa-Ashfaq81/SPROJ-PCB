@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Danushka Gunathilaka",
-                    "dismissal": "c Ronchi b Milne",
+                    "dismissal": "c (wk)Ronchi b Milne",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "13",
@@ -63,7 +63,7 @@
                     "strike_rate": "5.26"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "c Taylor b Henry",
                     "runs": "5",
                     "balls": "16",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "58",
                     "balls": "73",
                     "minutes": "93",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Ajantha Mendis",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "14",
@@ -276,7 +276,7 @@
                     "strike_rate": "109.52"
                 }
             ],
-            "did_not_bat": "Mitchell Santner , Luke Ronchi , Doug Bracewell , Adam Milne , Matt Henry , Mitchell McClenaghan",
+            "did_not_bat": "Mitchell Santner , Luke Ronchi (wk) , Doug Bracewell , Adam Milne , Matt Henry , Mitchell McClenaghan",
             "fall_of_wickets": "Fall of wickets : 1 - 108 ( Brendon McCullum , 10.1 ov ) , 2 - 162 ( Tom Latham , 15.5 ov ) , 3 - 164 ( Martin Guptill , 16.3 ov )",
             "bowling": [
                 {
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 174 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 174 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chamara Kapugedera",
+            "Nuwan Kulasekara",
+            "Ajantha Mendis",
+            "Suranga Lakmal",
+            "Dushmantha Chameera",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal (wk)",
+            "Danushka Gunathilaka",
+            "Angelo Mathews(c)",
+            "Milinda Siriwardana",
+            "Lahiru Thirimanne"
+        ],
+        "New Zealand": [
+            "Brendon McCullum(c)",
+            "Mitchell McClenaghan",
+            "Martin Guptill",
+            "Doug Bracewell",
+            "Mitchell Santner",
+            "Ross Taylor",
+            "Luke Ronchi (wk)",
+            "Adam Milne",
+            "Tom Latham",
+            "Matt Henry",
+            "Henry Nicholls"
+        ]
+    }
 }

@@ -71,7 +71,7 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b Taylor",
                     "runs": "2",
                     "balls": "10",
@@ -199,7 +199,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "45",
                     "balls": "35",
                     "minutes": "62",
@@ -238,7 +238,7 @@
                     "strike_rate": "90.00"
                 }
             ],
-            "did_not_bat": "Dwayne Bravo , Wavell Hinds , Dwayne Smith , Carlton Baugh , Ian Bradshaw , Jerome Taylor , Fidel Edwards",
+            "did_not_bat": "Dwayne Bravo , Wavell Hinds , Dwayne Smith , Carlton Baugh (wk) , Ian Bradshaw , Jerome Taylor , Fidel Edwards",
             "fall_of_wickets": "Fall of wickets : 1 - 32 ( Shivnarine Chanderpaul , 4.2 ov ) , 2 - 98 ( Chris Gayle , 13.1 ov )",
             "bowling": [
                 {
@@ -314,5 +314,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 29 runs (D/L method)"
+    "result": "West Indies won by 29 runs (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Munaf Patel",
+            "Ajit Agarkar",
+            "Suresh Raina",
+            "MS Dhoni (wk)",
+            "Sachin Tendulkar",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "RP Singh",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ],
+        "West Indies": [
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Carlton Baugh (wk)",
+            "Fidel Edwards",
+            "Ramnaresh Sarwan",
+            "Dwayne Bravo",
+            "Wavell Hinds",
+            "Dwayne Smith",
+            "Jerome Taylor"
+        ]
+    }
 }

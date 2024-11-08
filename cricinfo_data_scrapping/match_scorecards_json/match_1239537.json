@@ -70,8 +70,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
-                    "dismissal": "c Simpson b Gregory",
+                    "batsman": "Mohammad Rizwan (wk)",
+                    "dismissal": "c (wk)Simpson b Gregory",
                     "runs": "13",
                     "balls": "9",
                     "minutes": "15",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Faheem Ashraf",
-                    "dismissal": "c Simpson b Mahmood",
+                    "dismissal": "c (wk)Simpson b Mahmood",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "16",
@@ -277,7 +277,7 @@
                     "strike_rate": "116.00"
                 }
             ],
-            "did_not_bat": "James Vince , Ben Stokes (c) , John Simpson , Lewis Gregory , Craig Overton , Brydon Carse , Saqib Mahmood , Matt Parkinson",
+            "did_not_bat": "James Vince , Ben Stokes (c) , John Simpson (wk) , Lewis Gregory , Craig Overton , Brydon Carse , Saqib Mahmood , Matt Parkinson",
             "fall_of_wickets": "Fall of wickets : 1 - 22 ( Phil Salt , 4.1 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "England won by 9 wickets (with 169 balls remaining)"
+    "result": "England won by 9 wickets (with 169 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Hasan Ali",
+            "Babar Azam(c)",
+            "Haris Rauf",
+            "Mohammad Rizwan (wk)",
+            "Saud Shakeel",
+            "Faheem Ashraf",
+            "Shaheen Shah Afridi",
+            "Sohaib Maqsood",
+            "Shadab Khan",
+            "Imam-ul-Haq"
+        ],
+        "England": [
+            "Phil Salt",
+            "James Vince",
+            "Dawid Malan",
+            "John Simpson (wk)",
+            "Lewis Gregory",
+            "Brydon Carse",
+            "Craig Overton",
+            "Saqib Mahmood",
+            "Zak Crawley",
+            "Matt Parkinson",
+            "Ben Stokes (c)"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "6",
                     "balls": "5",
                     "minutes": "6",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "70",
                     "balls": "90",
                     "minutes": "119",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Jamie Dalrymple",
-                    "dismissal": "run out (Hodge/Gilchrist)",
+                    "dismissal": "run out (Hodge/ (wk)Gilchrist)",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "21",
@@ -100,7 +100,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "c Hodge b McGrath",
                     "runs": "6",
                     "balls": "7",
@@ -217,7 +217,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Plunkett",
                     "runs": "20",
                     "balls": "17",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Nixon b Plunkett",
+                    "dismissal": "c (wk)Nixon b Plunkett",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "17",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "England won by 34 runs (D/L method)"
+    "result": "England won by 34 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Liam Plunkett",
+            "Sajid Mahmood",
+            "Ed Joyce",
+            "Andrew Strauss",
+            "Jamie Dalrymple",
+            "Mal Loye",
+            "Andrew Flintoff(c)"
+        ],
+        "Australia": [
+            "Shane Watson",
+            "Glenn McGrath",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brad Hodge",
+            "Brett Lee",
+            "Nathan Bracken",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Michael Hussey"
+        ]
+    }
 }

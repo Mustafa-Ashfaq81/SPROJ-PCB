@@ -28,7 +28,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Ewald Steenkamp",
+                    "batsman": "Ewald Steenkamp (wk)",
                     "dismissal": "c Junaid Siddiqui b Osinde",
                     "runs": "0",
                     "balls": "1",
@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Craig Williams",
-                    "dismissal": "c Bhatti b Soraine",
+                    "dismissal": "c (wk)Bhatti b Soraine",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -69,7 +69,7 @@
                 },
                 {
                     "batsman": "Gerrie Snyman",
-                    "dismissal": "c Bhatti b Soraine",
+                    "dismissal": "c (wk)Bhatti b Soraine",
                     "runs": "15",
                     "balls": "37",
                     "minutes": "-",
@@ -236,7 +236,7 @@
             "batting": [
                 {
                     "batsman": "Hiral Patel",
-                    "dismissal": "c Steenkamp b Viljoen",
+                    "dismissal": "c (wk)Steenkamp b Viljoen",
                     "runs": "26",
                     "balls": "30",
                     "minutes": "-",
@@ -246,7 +246,7 @@
                 },
                 {
                     "batsman": "Ruvindu Gunasekera",
-                    "dismissal": "c Steenkamp b Klazinga",
+                    "dismissal": "c (wk)Steenkamp b Klazinga",
                     "runs": "12",
                     "balls": "33",
                     "minutes": "-",
@@ -315,7 +315,7 @@
                     "strike_rate": "55.00"
                 },
                 {
-                    "batsman": "Rustam Bhatti",
+                    "batsman": "Rustam Bhatti (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "35",
@@ -453,5 +453,33 @@
             ]
         }
     ],
-    "result": "Canada won by 2 wickets (with 7 balls remaining)"
+    "result": "Canada won by 2 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Craig Williams",
+            "Louis Klazinga",
+            "Raymond van Schoor",
+            "Louis van der Westhuizen",
+            "Sarel Burger(c)",
+            "Gerrie Snyman",
+            "Bernard Scholtz",
+            "Christi Viljoen",
+            "Ian Opperman",
+            "Ewald Steenkamp (wk)",
+            "Nicolaas Scholtz"
+        ],
+        "Canada": [
+            "Rustam Bhatti (wk)",
+            "Durand Soraine",
+            "Zeeshan Siddiqi",
+            "Junaid Siddiqui",
+            "Rizwan Cheema(c)",
+            "Jimmy Hansra",
+            "Hiral Patel",
+            "Ruvindu Gunasekera",
+            "Nitish Kumar",
+            "Usman Limbada",
+            "Henry Osinde"
+        ]
+    }
 }

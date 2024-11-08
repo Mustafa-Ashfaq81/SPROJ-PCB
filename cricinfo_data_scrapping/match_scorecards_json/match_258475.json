@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Prior b Lewis",
+                    "dismissal": "c (wk)Prior b Lewis",
                     "runs": "71",
                     "balls": "59",
                     "minutes": "87",
@@ -70,8 +70,8 @@
                     "strike_rate": "126.31"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "c Prior b Anderson",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "c (wk)Prior b Anderson",
                     "runs": "24",
                     "balls": "17",
                     "minutes": "60",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid(c)",
-                    "dismissal": "run out (Prior)",
+                    "dismissal": "run out ( (wk)Prior)",
                     "runs": "24",
                     "balls": "17",
                     "minutes": "41",
@@ -222,7 +222,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "12",
@@ -231,8 +231,8 @@
                     "strike_rate": "36.36"
                 },
                 {
-                    "batsman": "Matt Prior",
-                    "dismissal": "st Dhoni b Ganguly",
+                    "batsman": "Matt Prior (wk)",
+                    "dismissal": "st (wk)Dhoni b Ganguly",
                     "runs": "46",
                     "balls": "45",
                     "minutes": "62",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Dhoni b Ganguly",
+                    "dismissal": "c (wk)Dhoni b Ganguly",
                     "runs": "44",
                     "balls": "38",
                     "minutes": "58",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Dhoni b Powar",
+                    "dismissal": "c (wk)Dhoni b Powar",
                     "runs": "15",
                     "balls": "36",
                     "minutes": "78",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Jon Lewis",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "17",
                     "balls": "15",
                     "minutes": "23",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "India won by 38 runs (D/L method)"
+    "result": "India won by 38 runs (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Dinesh Karthik",
+            "Zaheer Khan",
+            "Ramesh Powar",
+            "Piyush Chawla",
+            "Ajit Agarkar",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Rahul Dravid(c)"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Ravi Bopara",
+            "Jon Lewis",
+            "Alastair Cook",
+            "Owais Shah",
+            "Matt Prior (wk)",
+            "Monty Panesar",
+            "Ian Bell"
+        ]
+    }
 }

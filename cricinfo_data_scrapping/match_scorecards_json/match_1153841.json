@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Dickwella b Malinga",
+                    "dismissal": "c (wk)Dickwella b Malinga",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "run out (MDKJ Perera/Dickwella)",
+                    "dismissal": "run out (MDKJ Perera/ (wk)Dickwella)",
                     "runs": "90",
                     "balls": "105",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Dickwella b Malinga",
+                    "dismissal": "c (wk)Dickwella b Malinga",
                     "runs": "32",
                     "balls": "38",
                     "minutes": "-",
@@ -90,7 +90,7 @@
                     "strike_rate": "172.97"
                 },
                 {
-                    "batsman": "Tim Seifert",
+                    "batsman": "Tim Seifert (wk)",
                     "dismissal": "run out (NLTC Perera)",
                     "runs": "22",
                     "balls": "17",
@@ -221,7 +221,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "b Southee",
                     "runs": "9",
                     "balls": "10",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Danushka Gunathilaka",
-                    "dismissal": "c Seifert b Neesham",
+                    "dismissal": "c (wk)Seifert b Neesham",
                     "runs": "71",
                     "balls": "73",
                     "minutes": "-",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "c Seifert b Sodhi",
+                    "dismissal": "c (wk)Seifert b Sodhi",
                     "runs": "20",
                     "balls": "30",
                     "minutes": "-",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Asela Gunaratne",
-                    "dismissal": "run out (Neesham/Seifert)",
+                    "dismissal": "run out (Neesham/ (wk)Seifert)",
                     "runs": "6",
                     "balls": "5",
                     "minutes": "-",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 21 runs"
+    "result": "New Zealand won by 21 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "James Neesham",
+            "Tim Seifert (wk)",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Ish Sodhi",
+            "Matt Henry",
+            "Tim Southee",
+            "Ross Taylor",
+            "Colin Munro",
+            "Henry Nicholls"
+        ],
+        "Sri Lanka": [
+            "Niroshan Dickwella (wk)",
+            "Danushka Gunathilaka",
+            "Kusal Mendis",
+            "Asela Gunaratne",
+            "Thisara Perera",
+            "Seekkuge Prasanna",
+            "Nuwan Pradeep",
+            "Dinesh Chandimal",
+            "Lakshan Sandakan",
+            "Kusal Perera",
+            "Lasith Malinga(c)"
+        ]
+    }
 }

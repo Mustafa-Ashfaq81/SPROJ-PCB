@@ -65,7 +65,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Bandara b Chameera",
                     "runs": "125",
                     "balls": "127",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Mosaddek Hossain",
-                    "dismissal": "c Perera b Sandakan",
+                    "dismissal": "c (wk)Perera b Sandakan",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "22",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Perera b Sandakan",
+                    "dismissal": "c (wk)Perera b Sandakan",
                     "runs": "41",
                     "balls": "58",
                     "minutes": "67",
@@ -126,7 +126,7 @@
                 },
                 {
                     "batsman": "Shoriful Islam",
-                    "dismissal": "c Perera b Udana",
+                    "dismissal": "c (wk)Perera b Udana",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "6",
@@ -252,7 +252,7 @@
                     "strike_rate": "52.17"
                 },
                 {
-                    "batsman": "Kusal Perera(c)",
+                    "batsman": "Kusal Perera(c) (wk)",
                     "dismissal": "c Tamim Iqbal b Shoriful Islam",
                     "runs": "14",
                     "balls": "15",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 103 runs (D/L method)"
+    "result": "Bangladesh won by 103 runs (D/L method)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Afif Hossain",
+            "Tamim Iqbal(c)",
+            "Shakib Al Hasan",
+            "Mehidy Hasan Miraz",
+            "Mahmudullah",
+            "Mohammad Saifuddin",
+            "Shoriful Islam",
+            "Mosaddek Hossain",
+            "Mustafizur Rahman",
+            "Mushfiqur Rahim (wk)",
+            "Litton Das"
+        ],
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Dhananjaya de Silva",
+            "Lakshan Sandakan",
+            "Pathum Nissanka",
+            "Danushka Gunathilaka",
+            "Ashen Bandara",
+            "Dushmantha Chameera",
+            "Dasun Shanaka",
+            "Isuru Udana",
+            "Kusal Perera(c) (wk)",
+            "Kusal Mendis"
+        ]
+    }
 }

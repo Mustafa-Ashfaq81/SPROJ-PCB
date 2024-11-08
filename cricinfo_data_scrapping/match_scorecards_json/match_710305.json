@@ -31,7 +31,7 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Anamul Haque",
+                    "batsman": "Anamul Haque (wk)",
                     "dismissal": "c Ahmed Shehzad b Saeed Ajmal",
                     "runs": "100",
                     "balls": "132",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Umar Akmal b Mohammad Talha",
+                    "dismissal": "c (wk)Umar Akmal b Mohammad Talha",
                     "runs": "59",
                     "balls": "75",
                     "minutes": "112",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Sohaib Maqsood",
-                    "dismissal": "c Anamul Haque b Mominul Haque",
+                    "dismissal": "c (wk)Anamul Haque b Mominul Haque",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "4",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Fawad Alam",
-                    "dismissal": "run out (Anamul Haque/Al-Amin Hossain)",
+                    "dismissal": "run out ( (wk)Anamul Haque/Al-Amin Hossain)",
                     "runs": "74",
                     "balls": "70",
                     "minutes": "130",
@@ -276,7 +276,7 @@
                     "strike_rate": "236.00"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "9",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 1 ball remaining)"
+    "result": "Pakistan won by 3 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mominul Haque",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Nasir Hossain",
+            "Imrul Kayes",
+            "Ziaur Rahman",
+            "Anamul Haque (wk)",
+            "Al-Amin Hossain",
+            "Abdur Razzak",
+            "Mushfiqur Rahim(c)",
+            "Shakib Al Hasan"
+        ],
+        "Pakistan": [
+            "Umar Akmal (wk)",
+            "Shahid Afridi",
+            "Mohammad Talha",
+            "Saeed Ajmal",
+            "Sohaib Maqsood",
+            "Umar Gul",
+            "Fawad Alam",
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Abdur Rehman",
+            "Misbah-ul-Haq(c)"
+        ]
+    }
 }

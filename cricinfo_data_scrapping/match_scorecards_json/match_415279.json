@@ -31,7 +31,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Dilshan b Mathews",
                     "runs": "46",
                     "balls": "72",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Jesse Ryder",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "74",
                     "balls": "58",
                     "minutes": "98",
@@ -252,7 +252,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Taylor b Franklin",
                     "runs": "11",
                     "balls": "13",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 38 runs"
+    "result": "New Zealand won by 38 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Jesse Ryder",
+            "Daniel Vettori(c)",
+            "James Franklin",
+            "Martin Guptill",
+            "Neil Broom",
+            "Grant Elliott",
+            "Kyle Mills",
+            "Daryl Tuffey",
+            "Shane Bond",
+            "Ross Taylor",
+            "Brendon McCullum (wk)"
+        ],
+        "Sri Lanka": [
+            "Angelo Mathews",
+            "Thilina Kandamby",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Kumar Sangakkara(c) (wk)",
+            "Ajantha Mendis",
+            "Nuwan Kulasekara",
+            "Thilan Thushara",
+            "Sanath Jayasuriya",
+            "Thilan Samaraweera"
+        ]
+    }
 }

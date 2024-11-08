@@ -100,7 +100,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "b Malinga",
                     "runs": "3",
                     "balls": "5",
@@ -247,7 +247,7 @@
                     "strike_rate": "82.05"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Shahid Afridi)",
                     "runs": "45",
                     "balls": "66",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "st Sarfaraz Ahmed b Saeed Ajmal",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Saeed Ajmal",
                     "runs": "17",
                     "balls": "26",
                     "minutes": "36",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 21 runs"
+    "result": "Pakistan won by 21 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Sarfaraz Ahmed (wk)",
+            "Younis Khan",
+            "Imran Farhat",
+            "Abdul Razzaq",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Mohammad Hafeez",
+            "Umar Gul",
+            "Sohail Tanvir",
+            "Umar Akmal"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Jeevan Mendis",
+            "Dinesh Chandimal",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Seekkuge Prasanna",
+            "Thisara Perera",
+            "Dilhara Fernando",
+            "Tillakaratne Dilshan(c)",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ]
+    }
 }

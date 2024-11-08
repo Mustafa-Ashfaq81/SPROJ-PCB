@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Salman Faris",
-                    "dismissal": "c Vare b Raho",
+                    "dismissal": "c (wk)Vare b Raho",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "6",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Shaiman Anwar",
-                    "dismissal": "c Vare b Vanua",
+                    "dismissal": "c (wk)Vare b Vanua",
                     "runs": "18",
                     "balls": "15",
                     "minutes": "24",
@@ -69,7 +69,7 @@
                     "strike_rate": "120.00"
                 },
                 {
-                    "batsman": "Swapnil Patil",
+                    "batsman": "Swapnil Patil (wk)",
                     "dismissal": "c & b Dai",
                     "runs": "29",
                     "balls": "37",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Rohan Mustafa",
-                    "dismissal": "run out (CJA Amini/Vare)",
+                    "dismissal": "run out (CJA Amini/ (wk)Vare)",
                     "runs": "17",
                     "balls": "24",
                     "minutes": "38",
@@ -130,7 +130,7 @@
                 },
                 {
                     "batsman": "Manjula Guruge",
-                    "dismissal": "c Vare b Gavera",
+                    "dismissal": "c (wk)Vare b Gavera",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -251,7 +251,7 @@
             "batting": [
                 {
                     "batsman": "Lega Siaka",
-                    "dismissal": "c Patil b Mohammad Naveed",
+                    "dismissal": "c (wk)Patil b Mohammad Naveed",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Jason Kila",
-                    "dismissal": "c Patil b Mohammad Naveed",
+                    "dismissal": "c (wk)Patil b Mohammad Naveed",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "24",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Assad Vala",
-                    "dismissal": "c Patil b Guruge",
+                    "dismissal": "c (wk)Patil b Guruge",
                     "runs": "13",
                     "balls": "16",
                     "minutes": "17",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Charles Amini",
-                    "dismissal": "c Patil b Kamran Shazad",
+                    "dismissal": "c (wk)Patil b Kamran Shazad",
                     "runs": "49",
                     "balls": "44",
                     "minutes": "67",
@@ -320,8 +320,8 @@
                     "strike_rate": "111.36"
                 },
                 {
-                    "batsman": "Jack Vare",
-                    "dismissal": "c Patil b Amjad Javed",
+                    "batsman": "Jack Vare (wk)",
+                    "dismissal": "c (wk)Patil b Amjad Javed",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "8",
@@ -341,7 +341,7 @@
                 },
                 {
                     "batsman": "Pipi Raho",
-                    "dismissal": "c Patil b Amjad Javed",
+                    "dismissal": "c (wk)Patil b Amjad Javed",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "15",
@@ -436,5 +436,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 150 runs"
+    "result": "U.A.E. won by 150 runs",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Khurram Khan(c)",
+            "Vikrant Shetty",
+            "Manjula Guruge",
+            "Rohan Mustafa",
+            "Kamran Shazad",
+            "Mohammad Naveed",
+            "Amjad Ali",
+            "Swapnil Patil (wk)",
+            "Amjad Javed",
+            "Shaiman Anwar",
+            "Salman Faris"
+        ],
+        "Papua New Guinea": [
+            "Jason Kila",
+            "Mahuru Dai",
+            "Geraint Jones",
+            "Charles Amini",
+            "Chris Amini(c)",
+            "Jack Vare (wk)",
+            "Norman Vanua",
+            "Pipi Raho",
+            "Willie Gavera",
+            "Lega Siaka",
+            "Assad Vala"
+        ]
+    }
 }

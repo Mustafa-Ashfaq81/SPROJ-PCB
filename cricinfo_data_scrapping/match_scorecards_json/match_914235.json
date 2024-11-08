@@ -90,7 +90,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Boland b Marsh",
                     "runs": "5",
                     "balls": "8",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Usman Khawaja",
-                    "dismissal": "c Ronchi b Bracewell",
+                    "dismissal": "c (wk)Ronchi b Bracewell",
                     "runs": "44",
                     "balls": "36",
                     "minutes": "46",
@@ -297,7 +297,7 @@
                     "strike_rate": "97.61"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Guptill b Milne",
                     "runs": "17",
                     "balls": "26",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 55 runs"
+    "result": "New Zealand won by 55 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum(c)",
+            "Grant Elliott",
+            "Martin Guptill",
+            "Kane Williamson",
+            "Doug Bracewell",
+            "Corey Anderson",
+            "Ish Sodhi",
+            "Luke Ronchi (wk)",
+            "Adam Milne",
+            "Matt Henry",
+            "Henry Nicholls"
+        ],
+        "Australia": [
+            "Steven Smith(c)",
+            "George Bailey",
+            "Glenn Maxwell",
+            "Scott Boland",
+            "Matthew Wade (wk)",
+            "David Warner",
+            "Usman Khawaja",
+            "Mitchell Marsh",
+            "Adam Zampa",
+            "John Hastings",
+            "Josh Hazlewood"
+        ]
+    }
 }

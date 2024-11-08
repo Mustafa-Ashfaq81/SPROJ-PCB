@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Nikolaas Davin",
-                    "dismissal": "c Edwards b Kingma",
+                    "dismissal": "c (wk)Edwards b Kingma",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Jan Frylinck",
-                    "dismissal": "c Edwards b Shariz Ahmad",
+                    "dismissal": "c (wk)Edwards b Shariz Ahmad",
                     "runs": "34",
                     "balls": "57",
                     "minutes": "-",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Jan Nicol Loftie-Eaton",
-                    "dismissal": "run out (Engelbrecht/Edwards)",
+                    "dismissal": "run out (Engelbrecht/ (wk)Edwards)",
                     "runs": "49",
                     "balls": "43",
                     "minutes": "-",
@@ -103,7 +103,7 @@
                     "strike_rate": "113.95"
                 },
                 {
-                    "batsman": "Zane Green",
+                    "batsman": "Zane Green (wk)",
                     "dismissal": "b de Leede",
                     "runs": "22",
                     "balls": "20",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Sybrand Engelbrecht",
-                    "dismissal": "st Green b Erasmus",
+                    "dismissal": "st (wk)Green b Erasmus",
                     "runs": "10",
                     "balls": "13",
                     "minutes": "-",
@@ -280,7 +280,7 @@
                     "strike_rate": "54.54"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "c Loftie-Eaton b Erasmus",
                     "runs": "4",
                     "balls": "14",
@@ -454,5 +454,33 @@
             ]
         }
     ],
-    "result": "Namibia won by 24 runs"
+    "result": "Namibia won by 24 runs",
+    "playing_xi": {
+        "Namibia": [
+            "Bernard Scholtz",
+            "Jack Brassell",
+            "Ruben Trumpelmann",
+            "JJ Smit",
+            "Michael van Lingen",
+            "Jan Nicol Loftie-Eaton",
+            "Zane Green (wk)",
+            "Malan Kruger",
+            "Jan Frylinck",
+            "Gerhard Erasmus(c)",
+            "Nikolaas Davin"
+        ],
+        "Netherlands": [
+            "Teja Nidamanuru",
+            "Michael Levitt",
+            "Max O'Dowd",
+            "Vivian Kingma",
+            "Scott Edwards(c) (wk)",
+            "Shariz Ahmad",
+            "Sybrand Engelbrecht",
+            "Bas de Leede",
+            "Aryan Dutt",
+            "Noah Croes",
+            "Roelof van der Merwe"
+        ]
+    }
 }

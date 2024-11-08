@@ -31,7 +31,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Gillespie b Franklin",
                     "runs": "1",
                     "balls": "2",
@@ -282,7 +282,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Hussey b Hogg",
                     "runs": "7",
                     "balls": "16",
@@ -313,7 +313,7 @@
                 },
                 {
                     "batsman": "Michael Mason",
-                    "dismissal": "c Gilchrist b Tait",
+                    "dismissal": "c (wk)Gilchrist b Tait",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "6",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Australia won by 215 runs"
+    "result": "Australia won by 215 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shane Watson",
+            "Glenn McGrath",
+            "Shaun Tait",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Andrew Symonds",
+            "Ricky Ponting(c)",
+            "Nathan Bracken",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Michael Hussey"
+        ],
+        "New Zealand": [
+            "Michael Mason",
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Mark Gillespie",
+            "Jeetan Patel",
+            "James Franklin",
+            "Daniel Vettori",
+            "Peter Fulton",
+            "Scott Styris"
+        ]
+    }
 }

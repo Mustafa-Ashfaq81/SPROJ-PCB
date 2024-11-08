@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Kaluwitharana b Muralidaran",
+                    "dismissal": "c (wk)Kaluwitharana b Muralidaran",
                     "runs": "29",
                     "balls": "53",
                     "minutes": "67",
@@ -92,7 +92,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "47",
                     "balls": "63",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Andre Adams",
-                    "dismissal": "run out (Kaluwitharana/Muralidaran)",
+                    "dismissal": "run out ( (wk)Kaluwitharana/Muralidaran)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "7",
@@ -220,7 +220,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "9",
                     "balls": "28",
                     "minutes": "45",
@@ -229,8 +229,8 @@
                     "strike_rate": "32.14"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
-                    "dismissal": "c McCullum b Adams",
+                    "batsman": "Romesh Kaluwitharana (wk)",
+                    "dismissal": "c (wk)McCullum b Adams",
                     "runs": "18",
                     "balls": "17",
                     "minutes": "25",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "15",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Kumar Dharmasena",
-                    "dismissal": "c McCullum b Harris",
+                    "dismissal": "c (wk)McCullum b Harris",
                     "runs": "11",
                     "balls": "8",
                     "minutes": "8",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 9 runs"
+    "result": "New Zealand won by 9 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Chris Cairns",
+            "Chris Nevin",
+            "Stephen Fleming(c)",
+            "Kyle Mills",
+            "Andre Adams",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Lou Vincent",
+            "Chris Harris",
+            "Scott Styris"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Romesh Kaluwitharana (wk)",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Kaushal Lokuarachchi",
+            "Prabath Nissanka",
+            "Kumar Dharmasena",
+            "Marvan Atapattu(c)",
+            "Kumar Sangakkara"
+        ]
+    }
 }

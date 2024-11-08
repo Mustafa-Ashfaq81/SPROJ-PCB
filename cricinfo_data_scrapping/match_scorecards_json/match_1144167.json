@@ -34,7 +34,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c & b Ngidi",
                     "runs": "8",
                     "balls": "7",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c de Kock b Imran Tahir",
+                    "dismissal": "c (wk)de Kock b Imran Tahir",
                     "runs": "33",
                     "balls": "36",
                     "minutes": "66",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Oshada Fernando",
-                    "dismissal": "run out (Miller/de Kock)",
+                    "dismissal": "run out (Miller/ (wk)de Kock)",
                     "runs": "49",
                     "balls": "49",
                     "minutes": "68",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "st de Kock b Imran Tahir",
+                    "dismissal": "st (wk)de Kock b Imran Tahir",
                     "runs": "39",
                     "balls": "52",
                     "minutes": "73",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Lakshan Sandakan",
-                    "dismissal": "c de Kock b Nortje",
+                    "dismissal": "c (wk)de Kock b Nortje",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "15",
@@ -241,7 +241,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "lbw b Dananjaya",
                     "runs": "81",
                     "balls": "72",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Reeza Hendricks",
-                    "dismissal": "c Dickwella b MVT Fernando",
+                    "dismissal": "c (wk)Dickwella b MVT Fernando",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 67 balls remaining)"
+    "result": "South Africa won by 8 wickets (with 67 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Upul Tharanga",
+            "Lasith Malinga(c)",
+            "Dhananjaya de Silva",
+            "Kusal Mendis",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Oshada Fernando",
+            "Lakshan Sandakan",
+            "Vishwa Fernando",
+            "Niroshan Dickwella (wk)"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Lungi Ngidi",
+            "Anrich Nortje",
+            "Dwaine Pretorius",
+            "Imran Tahir",
+            "David Miller",
+            "Wiaan Mulder",
+            "Kagiso Rabada",
+            "Rassie van der Dussen",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis(c)"
+        ]
+    }
 }

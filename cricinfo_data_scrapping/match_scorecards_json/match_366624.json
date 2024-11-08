@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "4",
@@ -83,7 +83,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Peter McGlashan",
+                    "batsman": "Peter McGlashan (wk)",
                     "dismissal": "not out",
                     "runs": "56",
                     "balls": "42",
@@ -220,7 +220,7 @@
                     "strike_rate": "168.91"
                 }
             ],
-            "did_not_bat": "Suresh Raina , Yuvraj Singh , MS Dhoni (c) , Rohit Sharma , Yusuf Pathan , Praveen Kumar , Harbhajan Singh , Zaheer Khan , Ishant Sharma",
+            "did_not_bat": "Suresh Raina , Yuvraj Singh , MS Dhoni (c) (wk) , Rohit Sharma , Yusuf Pathan , Praveen Kumar , Harbhajan Singh , Zaheer Khan , Ishant Sharma",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -310,5 +310,33 @@
             ]
         }
     ],
-    "result": "India won by 84 runs (D/L method)"
+    "result": "India won by 84 runs (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Jacob Oram",
+            "Grant Elliott",
+            "Martin Guptill",
+            "Daniel Vettori (c)",
+            "Brendon McCullum",
+            "Ewen Thompson",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Iain O'Brien",
+            "Peter McGlashan (wk)"
+        ],
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Ishant Sharma",
+            "Zaheer Khan",
+            "Praveen Kumar",
+            "MS Dhoni (c) (wk)",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Virender Sehwag",
+            "Rohit Sharma",
+            "Harbhajan Singh"
+        ]
+    }
 }

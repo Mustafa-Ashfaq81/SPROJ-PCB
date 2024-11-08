@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "st Kieswetter b Swann",
+                    "dismissal": "st (wk)Kieswetter b Swann",
                     "runs": "144",
                     "balls": "150",
                     "minutes": "196",
@@ -60,8 +60,8 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "st Kieswetter b Swann",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "st (wk)Kieswetter b Swann",
                     "runs": "69",
                     "balls": "85",
                     "minutes": "119",
@@ -207,7 +207,7 @@
                     "strike_rate": "92.30"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "c Kulasekara b Lakmal",
                     "runs": "25",
                     "balls": "30",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "st Sangakkara b Randiv",
+                    "dismissal": "st (wk)Sangakkara b Randiv",
                     "runs": "52",
                     "balls": "40",
                     "minutes": "54",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Stuart Broad",
-                    "dismissal": "st Sangakkara b Mendis",
+                    "dismissal": "st (wk)Sangakkara b Mendis",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "2",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 69 runs"
+    "result": "Sri Lanka won by 69 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Thilina Kandamby",
+            "Suranga Lakmal",
+            "Tillakaratne Dilshan(c)",
+            "Dinesh Chandimal",
+            "Suraj Randiv",
+            "Angelo Mathews",
+            "Jeevan Mendis",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara"
+        ],
+        "England": [
+            "Stuart Broad",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Kevin Pietersen",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "Graeme Swann",
+            "James Anderson",
+            "Tim Bresnan",
+            "Eoin Morgan",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

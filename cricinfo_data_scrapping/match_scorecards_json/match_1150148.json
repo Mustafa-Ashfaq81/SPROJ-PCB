@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Mohammad Shahzad b Aftab Alam",
+                    "dismissal": "c (wk)Mohammad Shahzad b Aftab Alam",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "8",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Mohammad Shahzad b Gulbadin Naib",
+                    "dismissal": "c (wk)Mohammad Shahzad b Gulbadin Naib",
                     "runs": "17",
                     "balls": "23",
                     "minutes": "40",
@@ -59,7 +59,7 @@
                     "strike_rate": "73.91"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "lbw b Gulbadin Naib",
                     "runs": "1",
                     "balls": "3",
@@ -236,7 +236,7 @@
             "extras": "2",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Murtagh b Rankin",
                     "runs": "1",
                     "balls": "2",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c NJ O'Brien b Murtagh",
+                    "dismissal": "c (wk)NJ O'Brien b Murtagh",
                     "runs": "33",
                     "balls": "35",
                     "minutes": "37",
@@ -338,5 +338,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 8 wickets (with 157 balls remaining)"
+    "result": "Afghanistan won by 8 wickets (with 157 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Andy Balbirnie",
+            "Gary Wilson",
+            "Peter Chase",
+            "Niall O'Brien (wk)",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "Boyd Rankin",
+            "Tim Murtagh",
+            "Simi Singh"
+        ],
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Asghar Afghan (c)",
+            "Aftab Alam",
+            "Ihsanullah",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Rashid Khan"
+        ]
+    }
 }

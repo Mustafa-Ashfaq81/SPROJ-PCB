@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "10",
@@ -90,7 +90,7 @@
                     "strike_rate": "79.16"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Ntini",
                     "runs": "19",
                     "balls": "20",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Andre Adams",
-                    "dismissal": "run out (de Villiers/Boucher)",
+                    "dismissal": "run out (de Villiers/ (wk)Boucher)",
                     "runs": "25",
                     "balls": "14",
                     "minutes": "21",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c McCullum b Adams",
+                    "dismissal": "c (wk)McCullum b Adams",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "32",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "29",
                     "balls": "29",
                     "minutes": "41",
@@ -277,7 +277,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "run out (Vincent)",
                     "runs": "24",
                     "balls": "33",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 4 wickets (with 4 balls remaining)"
+    "result": "South Africa won by 4 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Lou Vincent",
+            "Andre Adams",
+            "Nathan Astle",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Kyle Mills",
+            "Shane Bond",
+            "Craig McMillan",
+            "Scott Styris",
+            "Daniel Vettori",
+            "Hamish Marshall"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "AB de Villiers",
+            "Herschelle Gibbs",
+            "Jacques Rudolph",
+            "Ashwell Prince",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)"
+        ]
+    }
 }

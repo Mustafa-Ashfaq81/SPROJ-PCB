@@ -63,7 +63,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Vermeulen b Price",
                     "runs": "18",
                     "balls": "34",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Boucher b Steyn",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "11",
                     "balls": "38",
                     "minutes": "47",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "c Boucher b McLaren",
+                    "dismissal": "c (wk)Boucher b McLaren",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "10",
@@ -240,7 +240,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "not out",
                     "runs": "103",
                     "balls": "112",
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 45 runs"
+    "result": "South Africa won by 45 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Graeme Smith(c)",
+            "Lonwabo Tsotsobe",
+            "Charl Langeveldt",
+            "Albie Morkel",
+            "Alviro Petersen",
+            "Johan Botha",
+            "Ryan McLaren"
+        ],
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Stuart Matsikenyeri",
+            "Chris Mpofu",
+            "Mark Vermeulen",
+            "Brendan Taylor",
+            "Prosper Utseya (c)",
+            "Tatenda Taibu (wk)",
+            "Ray Price",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Graeme Cremer"
+        ]
+    }
 }

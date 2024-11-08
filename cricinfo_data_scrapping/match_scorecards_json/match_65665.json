@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c Browne b Bradshaw",
+                    "dismissal": "c (wk)Browne b Bradshaw",
                     "runs": "19",
                     "balls": "43",
                     "minutes": "-",
@@ -42,7 +42,7 @@
                     "strike_rate": "44.18"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Bravo b Bradshaw",
                     "runs": "17",
                     "balls": "36",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "run out (Bravo/Browne)",
+                    "dismissal": "run out (Bravo/ (wk)Browne)",
                     "runs": "105",
                     "balls": "100",
                     "minutes": "-",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "st Browne b Hinds",
+                    "dismissal": "st (wk)Browne b Hinds",
                     "runs": "7",
                     "balls": "9",
                     "minutes": "-",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Naved-ul-Hasan",
-                    "dismissal": "run out (Bravo/Browne)",
+                    "dismissal": "run out (Bravo/ (wk)Browne)",
                     "runs": "3",
                     "balls": "1",
                     "minutes": "-",
@@ -220,7 +220,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -230,7 +230,7 @@
                 },
                 {
                     "batsman": "Ricardo Powell",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "23",
                     "balls": "26",
                     "minutes": "-",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "st Kamran Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "87",
                     "balls": "91",
                     "minutes": "-",
@@ -289,7 +289,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Courtney Browne",
+                    "batsman": "Courtney Browne (wk)",
                     "dismissal": "b Naved-ul-Hasan",
                     "runs": "36",
                     "balls": "33",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 30 runs"
+    "result": "Pakistan won by 30 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Salman Butt",
+            "Kamran Akmal (wk)",
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Naved-ul-Hasan",
+            "Iftikhar Anjum",
+            "Mohammad Khalil",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Shoaib Malik"
+        ],
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Brian Lara(c)",
+            "Reon King",
+            "Dwayne Bravo",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Ricardo Powell",
+            "Pedro Collins",
+            "Ramnaresh Sarwan"
+        ]
+    }
 }

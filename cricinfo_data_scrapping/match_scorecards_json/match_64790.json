@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Dravid b Agarkar",
+                    "dismissal": "c (wk)Dravid b Agarkar",
                     "runs": "58",
                     "balls": "64",
                     "minutes": "95",
@@ -100,8 +100,8 @@
                     "strike_rate": "131.03"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
-                    "dismissal": "run out (Sehwag/Dravid)",
+                    "batsman": "Ridley Jacobs (wk)",
+                    "dismissal": "run out (Sehwag/ (wk)Dravid)",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "30",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Dinesh Mongia",
-                    "dismissal": "c Jacobs b Drakes",
+                    "dismissal": "c (wk)Jacobs b Drakes",
                     "runs": "5",
                     "balls": "17",
                     "minutes": "21",
@@ -267,7 +267,7 @@
                     "strike_rate": "36.84"
                 },
                 {
-                    "batsman": "Rahul Dravid(c)",
+                    "batsman": "Rahul Dravid(c) (wk)",
                     "dismissal": "c Powell b Drakes",
                     "runs": "58",
                     "balls": "82",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Reetinder Sodhi",
-                    "dismissal": "c Jacobs b Collymore",
+                    "dismissal": "c (wk)Jacobs b Collymore",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "India won by 3 wickets (with 22 balls remaining)"
+    "result": "India won by 3 wickets (with 22 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Corey Collymore",
+            "Carl Hooper(c)",
+            "Pedro Collins",
+            "Shivnarine Chanderpaul",
+            "Vasbert Drakes"
+        ],
+        "India": [
+            "Rahul Dravid(c) (wk)",
+            "Dinesh Mongia",
+            "Ajit Agarkar",
+            "Reetinder Sodhi",
+            "Sanjay Bangar",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Murali Kartik",
+            "Yuvraj Singh",
+            "Javagal Srinath",
+            "Virender Sehwag"
+        ]
+    }
 }

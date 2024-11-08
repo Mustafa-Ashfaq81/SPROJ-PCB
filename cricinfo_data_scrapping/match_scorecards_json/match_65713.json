@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "run out (Chandana/Sangakkara)",
+                    "dismissal": "run out (Chandana/ (wk)Sangakkara)",
                     "runs": "22",
                     "balls": "59",
                     "minutes": "105",
@@ -101,8 +101,8 @@
                     "strike_rate": "60.56"
                 },
                 {
-                    "batsman": "Moin Khan",
-                    "dismissal": "c Sangakkara b Zoysa",
+                    "batsman": "Moin Khan (wk)",
+                    "dismissal": "c (wk)Sangakkara b Zoysa",
                     "runs": "3",
                     "balls": "18",
                     "minutes": "21",
@@ -268,7 +268,7 @@
                     "strike_rate": "55.88"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "26",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 108 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 108 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Inzamam-ul-Haq(c)",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Shabbir Ahmed",
+            "Moin Khan (wk)",
+            "Mohammad Yousuf",
+            "Imran Nazir",
+            "Yasir Hameed"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Sanath Jayasuriya",
+            "Avishka Gunawardene",
+            "Marvan Atapattu(c)",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Upul Chandana"
+        ]
+    }
 }

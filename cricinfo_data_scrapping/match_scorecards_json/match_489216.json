@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Usman Salahuddin",
-                    "dismissal": "run out (Simmons/Roach/Baugh)",
+                    "dismissal": "run out (Simmons/Roach/ (wk)Baugh)",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "14",
@@ -104,7 +104,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Mohammad Salman",
+                    "batsman": "Mohammad Salman (wk)",
                     "dismissal": "run out (Edwards)",
                     "runs": "0",
                     "balls": "2",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Kirk Edwards",
-                    "dismissal": "c Mohammad Salman b Junaid Khan",
+                    "dismissal": "c (wk)Mohammad Salman b Junaid Khan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -287,7 +287,7 @@
                     "strike_rate": "73.33"
                 }
             ],
-            "did_not_bat": "Ravi Rampaul , Daren Sammy (c) , Carlton Baugh , Devendra Bishoo , Kemar Roach",
+            "did_not_bat": "Ravi Rampaul , Daren Sammy (c) , Carlton Baugh (wk) , Devendra Bishoo , Kemar Roach",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Kirk Edwards , 0.2 ov ) , 2 - 57 ( Darren Bravo , 8.4 ov ) , 3 - 132 ( Ramnaresh Sarwan , 24.3 ov ) , 4 - 135 ( Lendl Simmons , 25.4 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 1 run (D/L method)"
+    "result": "West Indies won by 1 run (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Usman Salahuddin",
+            "Saeed Ajmal",
+            "Mohammad Salman (wk)",
+            "Ahmed Shehzad",
+            "Tanvir Ahmed",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Asad Shafiq",
+            "Hammad Azam",
+            "Misbah-ul-Haq"
+        ],
+        "West Indies": [
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Ravi Rampaul",
+            "Kemar Roach",
+            "Devendra Bishoo",
+            "Dwayne Bravo",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Lendl Simmons",
+            "Kirk Edwards",
+            "Daren Sammy (c)"
+        ]
+    }
 }

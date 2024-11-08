@@ -31,7 +31,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Atapattu b Dharmasena",
                     "runs": "31",
                     "balls": "24",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Shane Warne",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "36",
                     "balls": "69",
                     "minutes": "78",
@@ -272,8 +272,8 @@
                     "strike_rate": "45.13"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "48",
                     "balls": "63",
                     "minutes": "85",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 60 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 60 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Brett Lee",
+            "Michael Bevan",
+            "Shane Watson",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Damien Martyn",
+            "Shane Warne",
+            "Glenn McGrath",
+            "Jason Gillespie",
+            "Darren Lehmann",
+            "Matthew Hayden"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Pulasthi Gunaratne",
+            "Aravinda de Silva",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Russel Arnold",
+            "Kumar Dharmasena",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya(c)",
+            "Upul Chandana",
+            "Marvan Atapattu"
+        ]
+    }
 }

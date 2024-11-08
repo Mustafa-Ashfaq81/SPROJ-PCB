@@ -50,7 +50,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Raina b I Sharma",
                     "runs": "17",
                     "balls": "44",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Jeevan Mendis",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "25",
                     "balls": "35",
                     "minutes": "51",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "st Sangakkara b Mendis",
+                    "dismissal": "st (wk)Sangakkara b Mendis",
                     "runs": "68",
                     "balls": "92",
                     "minutes": "140",
@@ -267,7 +267,7 @@
                     "strike_rate": "175.00"
                 }
             ],
-            "did_not_bat": "Dinesh Karthik , MS Dhoni (c) , Ravindra Jadeja , Ravichandran Ashwin , Ishant Sharma , Bhuvneshwar Kumar , Umesh Yadav",
+            "did_not_bat": "Dinesh Karthik , MS Dhoni (c) (wk) , Ravindra Jadeja , Ravichandran Ashwin , Ishant Sharma , Bhuvneshwar Kumar , Umesh Yadav",
             "fall_of_wickets": "Fall of wickets : 1 - 77 ( Rohit Sharma , 16.6 ov ) , 2 - 142 ( Shikhar Dhawan , 31.5 ov )",
             "bowling": [
                 {
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 90 balls remaining)"
+    "result": "India won by 8 wickets (with 90 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Jeevan Mendis",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Lasith Malinga",
+            "Lahiru Thirimanne"
+        ],
+        "India": [
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "MS Dhoni (c) (wk)",
+            "Dinesh Karthik",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "Umesh Yadav",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Bhuvneshwar Kumar"
+        ]
+    }
 }

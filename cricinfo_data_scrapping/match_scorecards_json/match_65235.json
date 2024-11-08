@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "0",
                     "balls": "16",
                     "minutes": "20",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "34",
                     "balls": "60",
                     "minutes": "98",
@@ -101,7 +101,7 @@
                     "strike_rate": "213.33"
                 }
             ],
-            "did_not_bat": "Ridley Jacobs , Vasbert Drakes , Mervyn Dillon , Pedro Collins",
+            "did_not_bat": "Ridley Jacobs (wk) , Vasbert Drakes , Mervyn Dillon , Pedro Collins",
             "fall_of_wickets": "Fall of wickets : 1 - 4 ( Wavell Hinds , 4.6 ov ) , 2 - 7 ( Chris Gayle , 6.4 ov ) , 3 - 109 ( Shivnarine Chanderpaul , 30.3 ov ) , 4 - 198 ( Carl Hooper , 43.2 ov ) , 5 - 215 ( Brian Lara , 45.2 ov )",
             "bowling": [
                 {
@@ -199,7 +199,7 @@
             "batting": [
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Jacobs b Dillon",
+                    "dismissal": "c (wk)Jacobs b Dillon",
                     "runs": "24",
                     "balls": "28",
                     "minutes": "36",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "st Jacobs b Hooper",
+                    "dismissal": "st (wk)Jacobs b Hooper",
                     "runs": "20",
                     "balls": "25",
                     "minutes": "31",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Jacobs b Collins",
+                    "dismissal": "c (wk)Jacobs b Collins",
                     "runs": "13",
                     "balls": "18",
                     "minutes": "22",
@@ -248,7 +248,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Gayle",
                     "runs": "49",
                     "balls": "49",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 3 runs"
+    "result": "West Indies won by 3 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Brian Lara",
+            "Vasbert Drakes",
+            "Carl Hooper(c)",
+            "Ramnaresh Sarwan",
+            "Mervyn Dillon",
+            "Ridley Jacobs (wk)",
+            "Wavell Hinds",
+            "Ricardo Powell",
+            "Pedro Collins",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle"
+        ],
+        "South Africa": [
+            "Gary Kirsten",
+            "Makhaya Ntini",
+            "Nicky Boje",
+            "Shaun Pollock(c)",
+            "Herschelle Gibbs",
+            "Boeta Dippenaar",
+            "Allan Donald",
+            "Mark Boucher (wk)",
+            "Lance Klusener",
+            "Jonty Rhodes",
+            "Jacques Kallis"
+        ]
+    }
 }

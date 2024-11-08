@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Bairstow b Stokes",
+                    "dismissal": "c (wk)Bairstow b Stokes",
                     "runs": "67",
                     "balls": "73",
                     "minutes": "126",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Bairstow b Willey",
+                    "dismissal": "c (wk)Bairstow b Willey",
                     "runs": "47",
                     "balls": "63",
                     "minutes": "93",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "st Bairstow b Rashid",
+                    "dismissal": "st (wk)Bairstow b Rashid",
                     "runs": "35",
                     "balls": "36",
                     "minutes": "37",
@@ -93,7 +93,7 @@
                     "strike_rate": "97.22"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Morgan b Willey",
                     "runs": "2",
                     "balls": "5",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "st Ronchi b Santner",
+                    "dismissal": "st (wk)Ronchi b Santner",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "8",
@@ -276,7 +276,7 @@
                     "strike_rate": "130.76"
                 },
                 {
-                    "batsman": "Jonny Bairstow",
+                    "batsman": "Jonny Bairstow (wk)",
                     "dismissal": "not out",
                     "runs": "83",
                     "balls": "60",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 6 balls remaining) (D/L method)"
+    "result": "England won by 3 wickets (with 6 balls remaining) (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Grant Elliott",
+            "Mitchell Santner",
+            "Brendon McCullum(c)",
+            "Ben Wheeler",
+            "Andrew Mathieson",
+            "Matt Henry",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Tim Southee",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "England": [
+            "Joe Root",
+            "Steven Finn",
+            "Ben Stokes",
+            "Eoin Morgan(c)",
+            "Sam Billings",
+            "Mark Wood",
+            "David Willey",
+            "Adil Rashid",
+            "Alex Hales",
+            "Jonny Bairstow (wk)",
+            "Jason Roy"
+        ]
+    }
 }

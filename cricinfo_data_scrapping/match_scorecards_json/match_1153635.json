@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Fazle Mahmud",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "-",
@@ -63,8 +63,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Taylor b Mavuta",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Taylor b Mavuta",
                     "runs": "15",
                     "balls": "20",
                     "minutes": "-",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Mohammad Mithun",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "37",
                     "balls": "40",
                     "minutes": "-",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "-",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Mehidy Hasan Miraz",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "-",
@@ -231,7 +231,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza(c)",
-                    "dismissal": "run out (Imrul Kayes/Mushfiqur Rahim)",
+                    "dismissal": "run out (Imrul Kayes/ (wk)Mushfiqur Rahim)",
                     "runs": "21",
                     "balls": "34",
                     "minutes": "-",
@@ -250,7 +250,7 @@
                     "strike_rate": "145.83"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b Nazmul Islam",
                     "runs": "5",
                     "balls": "13",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Kyle Jarvis",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "37",
                     "balls": "33",
                     "minutes": "-",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 28 runs"
+    "result": "Bangladesh won by 28 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Mashrafe Mortaza(c)",
+            "Mohammad Mithun",
+            "Mahmudullah",
+            "Fazle Mahmud",
+            "Mohammad Saifuddin",
+            "Nazmul Islam",
+            "Imrul Kayes",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Zimbabwe": [
+            "Kyle Jarvis",
+            "Brendan Taylor (wk)",
+            "Tendai Chatara",
+            "Donald Tiripano",
+            "Hamilton Masakadza(c)",
+            "Sean Williams",
+            "Brandon Mavuta",
+            "Peter Moor",
+            "Cephas Zhuwao",
+            "Sikandar Raza",
+            "Craig Ervine"
+        ]
+    }
 }

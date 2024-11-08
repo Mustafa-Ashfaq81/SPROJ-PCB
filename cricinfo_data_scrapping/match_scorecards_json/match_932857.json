@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "George Bailey",
-                    "dismissal": "c Ramdin b Pollard",
+                    "dismissal": "c (wk)Ramdin b Pollard",
                     "runs": "55",
                     "balls": "56",
                     "minutes": "77",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Travis Head",
-                    "dismissal": "c Ramdin b Pollard",
+                    "dismissal": "c (wk)Ramdin b Pollard",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "5",
@@ -94,7 +94,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "b Holder",
                     "runs": "5",
                     "balls": "3",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Wade b Zampa",
+                    "dismissal": "c (wk)Wade b Zampa",
                     "runs": "39",
                     "balls": "63",
                     "minutes": "86",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "run out (Wade)",
+                    "dismissal": "run out ( (wk)Wade)",
                     "runs": "92",
                     "balls": "87",
                     "minutes": "116",
@@ -261,7 +261,7 @@
                     "strike_rate": "105.74"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Coulter-Nile",
                     "runs": "29",
                     "balls": "38",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Jason Holder(c)",
-                    "dismissal": "c Wade b Coulter-Nile",
+                    "dismissal": "c (wk)Wade b Coulter-Nile",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 4 wickets (with 26 balls remaining)"
+    "result": "West Indies won by 4 wickets (with 26 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "George Bailey",
+            "Aaron Finch",
+            "Matthew Wade (wk)",
+            "Mitchell Marsh",
+            "Usman Khawaja",
+            "Adam Zampa",
+            "Travis Head",
+            "James Faulkner",
+            "Josh Hazlewood",
+            "Nathan Coulter-Nile"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Carlos Brathwaite",
+            "Sulieman Benn",
+            "Kieron Pollard",
+            "Jason Holder(c)",
+            "Johnson Charles",
+            "Denesh Ramdin (wk)",
+            "Sunil Narine",
+            "Andre Fletcher",
+            "Darren Bravo",
+            "Jerome Taylor"
+        ]
+    }
 }

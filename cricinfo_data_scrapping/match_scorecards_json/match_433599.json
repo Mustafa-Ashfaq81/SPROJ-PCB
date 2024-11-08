@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Thomas b Rampaul",
+                    "dismissal": "c (wk)Thomas b Rampaul",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "4",
@@ -74,8 +74,8 @@
                     "strike_rate": "91.86"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "st Thomas b Bishoo",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "st (wk)Thomas b Bishoo",
                     "runs": "22",
                     "balls": "30",
                     "minutes": "41",
@@ -291,8 +291,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Devon Thomas",
-                    "dismissal": "st Dhoni b Yuvraj Singh",
+                    "batsman": "Devon Thomas (wk)",
+                    "dismissal": "st (wk)Dhoni b Yuvraj Singh",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "12",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "India won by 80 runs"
+    "result": "India won by 80 runs",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "Ravichandran Ashwin",
+            "Munaf Patel",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Harbhajan Singh",
+            "Yusuf Pathan",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)"
+        ],
+        "West Indies": [
+            "Andre Russell",
+            "Kieron Pollard",
+            "Devon Smith",
+            "Sulieman Benn",
+            "Darren Bravo",
+            "Ramnaresh Sarwan",
+            "Devendra Bishoo",
+            "Daren Sammy(c)",
+            "Devon Thomas (wk)",
+            "Kirk Edwards",
+            "Ravi Rampaul"
+        ]
+    }
 }

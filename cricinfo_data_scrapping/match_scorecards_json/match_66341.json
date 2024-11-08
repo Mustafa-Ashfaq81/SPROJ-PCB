@@ -71,8 +71,8 @@
                     "strike_rate": "67.74"
                 },
                 {
-                    "batsman": "Boeta Dippenaar",
-                    "dismissal": "c Sangakkara b Chandana",
+                    "batsman": "Boeta Dippenaar (wk)",
+                    "dismissal": "c (wk)Sangakkara b Chandana",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "21",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Justin Ontong",
-                    "dismissal": "st Sangakkara b Chandana",
+                    "dismissal": "st (wk)Sangakkara b Chandana",
                     "runs": "7",
                     "balls": "9",
                     "minutes": "-",
@@ -209,7 +209,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya(c)",
-                    "dismissal": "c Dippenaar b Klusener",
+                    "dismissal": "c (wk)Dippenaar b Klusener",
                     "runs": "46",
                     "balls": "46",
                     "minutes": "-",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "c Dippenaar b Telemachus",
+                    "dismissal": "c (wk)Dippenaar b Telemachus",
                     "runs": "16",
                     "balls": "21",
                     "minutes": "-",
@@ -228,7 +228,7 @@
                     "strike_rate": "76.19"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Adams/Ontong)",
                     "runs": "57",
                     "balls": "89",
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 wickets (with 47 balls remaining)"
+    "result": "Sri Lanka won by 6 wickets (with 47 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Graeme Smith",
+            "Boeta Dippenaar (wk)",
+            "Shaun Pollock(c)",
+            "Roger Telemachus",
+            "Paul Adams",
+            "Justin Ontong",
+            "Makhaya Ntini",
+            "Lance Klusener",
+            "Gary Kirsten",
+            "Herschelle Gibbs",
+            "Jacques Kallis"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Aravinda de Silva",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Chamila Gamage",
+            "Marvan Atapattu",
+            "Kumar Sangakkara (wk)",
+            "Charitha Buddhika",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)",
+            "Hasantha Fernando"
+        ]
+    }
 }

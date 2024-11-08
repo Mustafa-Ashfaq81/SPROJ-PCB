@@ -93,7 +93,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Masakadza b Utseya",
                     "runs": "59",
                     "balls": "91",
@@ -134,7 +134,7 @@
                 },
                 {
                     "batsman": "Rubel Hossain",
-                    "dismissal": "run out (Utseya/Taibu)",
+                    "dismissal": "run out (Utseya/ (wk)Taibu)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "5",
@@ -270,7 +270,7 @@
                     "strike_rate": "70.68"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Rubel Hossain",
                     "runs": "0",
                     "balls": "2",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 4 wickets (with 52 balls remaining)"
+    "result": "Zimbabwe won by 4 wickets (with 52 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)",
+            "Abdur Razzak",
+            "Mohammad Ashraful",
+            "Mahmudullah",
+            "Shakib Al Hasan(c)",
+            "Shafiul Islam",
+            "Rubel Hossain",
+            "Imrul Kayes",
+            "Sohrawordi Shuvo",
+            "Shahriar Nafees"
+        ],
+        "Zimbabwe": [
+            "Brian Vitori",
+            "Tatenda Taibu (wk)",
+            "Ray Price",
+            "Craig Ervine",
+            "Brendan Taylor(c)",
+            "Hamilton Masakadza",
+            "Chris Mpofu",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Vusi Sibanda",
+            "Forster Mutizwa"
+        ]
+    }
 }

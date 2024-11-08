@@ -40,8 +40,8 @@
                     "strike_rate": "58.66"
                 },
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "c Kamran Akmal b Sohail Tanvir",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Sohail Tanvir",
                     "runs": "12",
                     "balls": "13",
                     "minutes": "17",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor(c)",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "16",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "c Kamran Akmal b Shoaib Akhtar",
+                    "dismissal": "c (wk)Kamran Akmal b Shoaib Akhtar",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "21",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Kyle Mills",
-                    "dismissal": "run out (Ahmed Shehzad/Kamran Akmal)",
+                    "dismissal": "run out (Ahmed Shehzad/ (wk)Kamran Akmal)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "1",
@@ -227,7 +227,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Taylor b Franklin",
                     "runs": "89",
                     "balls": "84",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c BB McCullum b Bennett",
+                    "dismissal": "c (wk)BB McCullum b Bennett",
                     "runs": "16",
                     "balls": "24",
                     "minutes": "30",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "run out (Guptill/BB McCullum)",
+                    "dismissal": "run out (Guptill/ (wk)BB McCullum)",
                     "runs": "26",
                     "balls": "35",
                     "minutes": "44",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c BB McCullum b Franklin",
+                    "dismissal": "c (wk)BB McCullum b Franklin",
                     "runs": "8",
                     "balls": "18",
                     "minutes": "19",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 57 runs"
+    "result": "New Zealand won by 57 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Martin Guptill",
+            "Hamish Bennett",
+            "Kyle Mills",
+            "Ross Taylor(c)",
+            "Tim Southee",
+            "Scott Styris",
+            "Jesse Ryder",
+            "Luke Woodcock",
+            "Nathan McCullum",
+            "James Franklin"
+        ],
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Abdul Razzaq",
+            "Kamran Akmal (wk)",
+            "Shoaib Akhtar",
+            "Ahmed Shehzad",
+            "Umar Gul",
+            "Mohammad Hafeez",
+            "Asad Shafiq",
+            "Sohail Tanvir",
+            "Younis Khan",
+            "Umar Akmal"
+        ]
+    }
 }

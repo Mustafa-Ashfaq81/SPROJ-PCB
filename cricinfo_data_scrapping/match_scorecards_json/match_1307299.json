@@ -30,8 +30,8 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
-                    "dismissal": "st Carey b Maxwell",
+                    "batsman": "Niroshan Dickwella (wk)",
+                    "dismissal": "st (wk)Carey b Maxwell",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "8",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Carey b Marsh",
+                    "dismissal": "c (wk)Carey b Marsh",
                     "runs": "13",
                     "balls": "25",
                     "minutes": "42",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Dasun Shanaka(c)",
-                    "dismissal": "run out (Marsh/Carey)",
+                    "dismissal": "run out (Marsh/ (wk)Carey)",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "20",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Jeffrey Vandersay",
-                    "dismissal": "run out (Cummins/Carey)",
+                    "dismissal": "run out (Cummins/ (wk)Carey)",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "st Dickwella b de Silva",
+                    "dismissal": "st (wk)Dickwella b de Silva",
                     "runs": "99",
                     "balls": "112",
                     "minutes": "169",
@@ -291,7 +291,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Vandersay b Hasaranga",
                     "runs": "19",
                     "balls": "20",
@@ -479,5 +479,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 4 runs"
+    "result": "Sri Lanka won by 4 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dasun Shanaka(c)",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Wanindu Hasaranga",
+            "Maheesh Theekshana",
+            "Chamika Karunaratne",
+            "Niroshan Dickwella (wk)",
+            "Kusal Mendis",
+            "Jeffrey Vandersay",
+            "Charith Asalanka"
+        ],
+        "Australia": [
+            "Matthew Kuhnemann",
+            "Marnus Labuschagne",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Pat Cummins",
+            "Josh Hazlewood",
+            "Cameron Green",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "David Warner",
+            "Mitchell Marsh"
+        ]
+    }
 }

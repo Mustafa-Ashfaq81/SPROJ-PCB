@@ -40,7 +40,7 @@
                     "strike_rate": "53.84"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "b Swann",
                     "runs": "54",
                     "balls": "90",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Kieswetter b Broad",
+                    "dismissal": "c (wk)Kieswetter b Broad",
                     "runs": "15",
                     "balls": "27",
                     "minutes": "30",
@@ -241,7 +241,7 @@
                     "strike_rate": "54.54"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "c Hussey b Harris",
                     "runs": "11",
                     "balls": "23",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Australia won by 42 runs"
+    "result": "Australia won by 42 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Doug Bollinger",
+            "Steven Smith",
+            "Ryan Harris",
+            "Shaun Marsh",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Michael Hussey",
+            "Shaun Tait"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Luke Wright",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

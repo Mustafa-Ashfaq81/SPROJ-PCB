@@ -28,7 +28,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Freddie Klokker(c)",
+                    "batsman": "Freddie Klokker(c) (wk)",
                     "dismissal": "c Stirling b White",
                     "runs": "85",
                     "balls": "126",
@@ -119,7 +119,7 @@
                 },
                 {
                     "batsman": "Thomas Hansen",
-                    "dismissal": "c Wilson b Botha",
+                    "dismissal": "c (wk)Wilson b Botha",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -259,7 +259,7 @@
                     "strike_rate": "52.25"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "lbw b LH Andersen",
                     "runs": "32",
                     "balls": "52",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "c Klokker b MH Andersen",
+                    "dismissal": "c (wk)Klokker b MH Andersen",
                     "runs": "30",
                     "balls": "53",
                     "minutes": "68",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 5 wickets (with 26 balls remaining)"
+    "result": "Ireland won by 5 wickets (with 26 balls remaining)",
+    "playing_xi": {
+        "Denmark": [
+            "Henrik Hansen",
+            "Rizwan Mahmood",
+            "Max Overgaard",
+            "Michael Pedersen",
+            "Soren Vestergaard",
+            "Bobby Chawla",
+            "Thomas Hansen",
+            "Carsten Pedersen",
+            "Freddie Klokker(c) (wk)",
+            "Morten Hedegaard",
+            "Lars Hedegaard"
+        ],
+        "Ireland": [
+            "Peter Connell",
+            "Reinhardt Strydom",
+            "Andrew White",
+            "Andre Botha",
+            "Gary Kidd",
+            "Kyle McCallan",
+            "Paul Stirling",
+            "William Porterfield(c)",
+            "Gavin McKenna",
+            "Gary Wilson (wk)",
+            "Kevin O'Brien"
+        ]
+    }
 }

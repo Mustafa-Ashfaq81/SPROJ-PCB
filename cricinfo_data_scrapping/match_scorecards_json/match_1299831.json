@@ -62,8 +62,8 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Rahmanullah Gurbaz b Rashid Khan",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Rashid Khan",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "21",
@@ -133,7 +133,7 @@
                 },
                 {
                     "batsman": "Mustafizur Rahman",
-                    "dismissal": "run out (Rahmanullah Gurbaz)",
+                    "dismissal": "run out ( (wk)Rahmanullah Gurbaz)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "5",
@@ -239,7 +239,7 @@
             "extras": "2",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "not out",
                     "runs": "106",
                     "balls": "110",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Riaz Hassan",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "35",
                     "balls": "49",
                     "minutes": "74",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "st Mushfiqur Rahim b Mehidy Hasan Miraz",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Mehidy Hasan Miraz",
                     "runs": "47",
                     "balls": "67",
                     "minutes": "82",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 7 wickets (with 59 balls remaining)"
+    "result": "Afghanistan won by 7 wickets (with 59 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Mustafizur Rahman",
+            "Afif Hossain",
+            "Yasir Ali",
+            "Litton Das",
+            "Shakib Al Hasan",
+            "Mahmudullah",
+            "Shoriful Islam",
+            "Tamim Iqbal(c)"
+        ],
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Najibullah Zadran",
+            "Rashid Khan",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz (wk)",
+            "Fazalhaq Farooqi",
+            "Gulbadin Naib",
+            "Riaz Hassan",
+            "Mujeeb Ur Rahman",
+            "Rahmat Shah",
+            "Azmatullah Omarzai"
+        ]
+    }
 }

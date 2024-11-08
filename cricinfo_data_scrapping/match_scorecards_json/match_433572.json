@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "c NJ O'Brien b Stirling",
+                    "dismissal": "c (wk)NJ O'Brien b Stirling",
                     "runs": "59",
                     "balls": "50",
                     "minutes": "77",
@@ -81,7 +81,7 @@
                     "strike_rate": "145.45"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "b Johnston",
                     "runs": "6",
                     "balls": "5",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "st Prior b Swann",
+                    "dismissal": "st (wk)Prior b Swann",
                     "runs": "32",
                     "balls": "61",
                     "minutes": "90",
@@ -248,7 +248,7 @@
                     "strike_rate": "52.45"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "b Swann",
                     "runs": "29",
                     "balls": "36",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien",
-                    "dismissal": "run out (Prior/Bresnan)",
+                    "dismissal": "run out ( (wk)Prior/Bresnan)",
                     "runs": "113",
                     "balls": "63",
                     "minutes": "123",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 3 wickets (with 5 balls remaining)"
+    "result": "Ireland won by 3 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jonathan Trott",
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Graeme Swann",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Matt Prior (wk)",
+            "Ian Bell"
+        ],
+        "Ireland": [
+            "Gary Wilson",
+            "George Dockrell",
+            "Niall O'Brien (wk)",
+            "Ed Joyce",
+            "Trent Johnston",
+            "Paul Stirling",
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "Alex Cusack",
+            "John Mooney",
+            "Boyd Rankin"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Najmul Hossain Shanto(c)",
-                    "dismissal": "c Mendis b Madushanka",
+                    "dismissal": "c (wk)Mendis b Madushanka",
                     "runs": "40",
                     "balls": "39",
                     "minutes": "54",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "st Mendis b Hasaranga",
+                    "dismissal": "st (wk)Mendis b Hasaranga",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "lbw b Hasaranga",
                     "runs": "25",
                     "balls": "28",
@@ -251,8 +251,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "batsman": "Kusal Mendis(c) (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "16",
                     "balls": "13",
                     "minutes": "23",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "91",
                     "balls": "93",
                     "minutes": "145",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 3 wickets (with 17 balls remaining)"
+    "result": "Sri Lanka won by 3 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tanzim Hasan Sakib",
+            "Towhid Hridoy",
+            "Taijul Islam",
+            "Mahmudullah",
+            "Najmul Hossain Shanto(c)",
+            "Shoriful Islam",
+            "Taskin Ahmed",
+            "Soumya Sarkar",
+            "Mehidy Hasan Miraz",
+            "Litton Das",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Sri Lanka": [
+            "Charith Asalanka",
+            "Sadeera Samarawickrama",
+            "Dilshan Madushanka",
+            "Avishka Fernando",
+            "Pramod Madushan",
+            "Kusal Mendis(c) (wk)",
+            "Janith Liyanage",
+            "Wanindu Hasaranga",
+            "Pathum Nissanka",
+            "Dunith Wellalage",
+            "Lahiru Kumara"
+        ]
+    }
 }

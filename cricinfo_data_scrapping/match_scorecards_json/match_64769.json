@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Jacobs b Collins",
+                    "dismissal": "c (wk)Jacobs b Collins",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "6",
@@ -80,7 +80,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "b Hooper",
                     "runs": "28",
                     "balls": "36",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ajit Agarkar",
-                    "dismissal": "c Jacobs b Collymore",
+                    "dismissal": "c (wk)Jacobs b Collymore",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Jacobs b Collins",
+                    "dismissal": "c (wk)Jacobs b Collins",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "13",
@@ -273,7 +273,7 @@
                     "strike_rate": "50.00"
                 }
             ],
-            "did_not_bat": "Shivnarine Chanderpaul , Pedro Collins , Ridley Jacobs , Mervyn Dillon , Corey Collymore , Cameron Cuffy",
+            "did_not_bat": "Shivnarine Chanderpaul , Pedro Collins , Ridley Jacobs (wk) , Mervyn Dillon , Corey Collymore , Cameron Cuffy",
             "fall_of_wickets": "Fall of wickets : 1 - 117 ( Wavell Hinds , 17.6 ov ) , 2 - 117 ( Chris Gayle , 18.1 ov ) , 3 - 118 ( Ramnaresh Sarwan , 19.1 ov )",
             "bowling": [
                 {
@@ -349,5 +349,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 17 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Tinu Yohannan",
+            "Dinesh Mongia",
+            "Rahul Dravid (wk)",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag",
+            "Harbhajan Singh"
+        ],
+        "West Indies": [
+            "Brian Lara",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Carl Hooper(c)",
+            "Pedro Collins",
+            "Cameron Cuffy",
+            "Shivnarine Chanderpaul"
+        ]
+    }
 }

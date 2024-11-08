@@ -51,7 +51,7 @@
                     "strike_rate": "85.18"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "c DM Bravo b Rampaul",
                     "runs": "37",
                     "balls": "26",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Charles b DJ Bravo",
+                    "dismissal": "c (wk)Charles b DJ Bravo",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "6",
@@ -232,8 +232,8 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Johnson Charles",
-                    "dismissal": "c de Villiers b Steyn",
+                    "batsman": "Johnson Charles (wk)",
+                    "dismissal": "c (wk)de Villiers b Steyn",
                     "runs": "16",
                     "balls": "26",
                     "minutes": "28",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "Match tied (D/L method)"
+    "result": "Match tied (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Colin Ingram",
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Jean-Paul Duminy",
+            "Dale Steyn",
+            "Faf du Plessis",
+            "David Miller",
+            "Robin Peterson",
+            "Hashim Amla",
+            "Chris Morris"
+        ],
+        "West Indies": [
+            "Kieron Pollard",
+            "Dwayne Bravo(c)",
+            "Sunil Narine",
+            "Darren Bravo",
+            "Ravi Rampaul",
+            "Daren Sammy",
+            "Devon Smith",
+            "Tino Best",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Johnson Charles (wk)"
+        ]
+    }
 }

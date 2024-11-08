@@ -60,7 +60,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Amjad Ali",
+                    "batsman": "Amjad Ali (wk)",
                     "dismissal": "b Onyango",
                     "runs": "2",
                     "balls": "9",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Saqib Ali",
-                    "dismissal": "run out (Kamande/Ouma)",
+                    "dismissal": "run out (Kamande/ (wk)Ouma)",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Sameer Nayak",
-                    "dismissal": "c Ouma b Onyango",
+                    "dismissal": "c (wk)Ouma b Onyango",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "-",
@@ -223,7 +223,7 @@
             "extras": "4",
             "batting": [
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "lbw b Zahid Shah",
                     "runs": "50",
                     "balls": "38",
@@ -315,5 +315,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 9 wickets (with 226 balls remaining)"
+    "result": "Kenya won by 9 wickets (with 226 balls remaining)",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Naeemuddin Aslam",
+            "Saqib Ali",
+            "Amjad Ali (wk)",
+            "Arshad Ali",
+            "Zahid Shah",
+            "Khurram Khan(c)",
+            "Amjad Javed",
+            "Sameer Nayak",
+            "Qasim Zubair",
+            "Nithin Gopal",
+            "Owais Hameed"
+        ],
+        "Kenya": [
+            "Peter Ongondo",
+            "Morris Ouma (wk)",
+            "Alex Obanda",
+            "Lameck Onyango",
+            "Thomas Odoyo",
+            "Jimmy Kamande",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Steve Tikolo (c)",
+            "Nehemiah Odhiambo",
+            "Kennedy Otieno"
+        ]
+    }
 }

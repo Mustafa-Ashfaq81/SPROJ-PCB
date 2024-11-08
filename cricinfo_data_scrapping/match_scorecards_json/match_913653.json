@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Sharjeel Khan",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "16",
                     "balls": "15",
                     "minutes": "24",
@@ -71,7 +71,7 @@
                     "strike_rate": "95.23"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Wood b Woakes",
                     "runs": "55",
                     "balls": "58",
@@ -258,7 +258,7 @@
                     "strike_rate": "75.00"
                 }
             ],
-            "did_not_bat": "Jos Buttler , Moeen Ali , Chris Woakes , Adil Rashid , Liam Plunkett , Mark Wood",
+            "did_not_bat": "Jos Buttler (wk) , Moeen Ali , Chris Woakes , Adil Rashid , Liam Plunkett , Mark Wood",
             "fall_of_wickets": "Fall of wickets : 1 - 27 ( Alex Hales , 4.3 ov ) , 2 - 116 ( Jason Roy , 18.4 ov ) , 3 - 158 ( Joe Root , 27.5 ov )",
             "bowling": [
                 {
@@ -348,5 +348,33 @@
             ]
         }
     ],
-    "result": "England won by 44 runs (D/L method)"
+    "result": "England won by 44 runs (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Umar Gul",
+            "Mohammad Amir",
+            "Sharjeel Khan",
+            "Mohammad Nawaz",
+            "Mohammad Hafeez",
+            "Imad Wasim",
+            "Babar Azam",
+            "Sarfaraz Ahmed (wk)",
+            "Shoaib Malik",
+            "Wahab Riaz",
+            "Azhar Ali(c)"
+        ],
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Alex Hales",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Liam Plunkett",
+            "Ben Stokes",
+            "Mark Wood",
+            "Moeen Ali"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "run out (Duffin/Taylor)",
+                    "dismissal": "run out (Duffin/ (wk)Taylor)",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "10",
@@ -90,7 +90,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "c Rainsford b Ireland",
                     "runs": "20",
                     "balls": "38",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Terry Duffin",
-                    "dismissal": "c Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "24",
                     "balls": "36",
                     "minutes": "51",
@@ -291,7 +291,7 @@
                     "strike_rate": "79.16"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "not out",
                     "runs": "27",
                     "balls": "31",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 7 wickets (with 50 balls remaining)"
+    "result": "Zimbabwe won by 7 wickets (with 50 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Khaled Mashud(c) (wk)",
+            "Rajin Saleh",
+            "Aftab Ahmed",
+            "Alok Kapali",
+            "Farhad Reza",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique",
+            "Shahadat Hossain"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Hamilton Masakadza",
+            "Gregory Strydom",
+            "Ed Rainsford",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Terry Duffin",
+            "Prosper Utseya (c)",
+            "Blessing Mahwire",
+            "Anthony Ireland",
+            "Vusi Sibanda"
+        ]
+    }
 }

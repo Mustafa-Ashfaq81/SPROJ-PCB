@@ -51,8 +51,8 @@
                     "strike_rate": "51.72"
                 },
                 {
-                    "batsman": "Ashish Bagai",
-                    "dismissal": "st Ouma b Varaiya",
+                    "batsman": "Ashish Bagai (wk)",
+                    "dismissal": "st (wk)Ouma b Varaiya",
                     "runs": "19",
                     "balls": "48",
                     "minutes": "60",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Umar Bhatti",
-                    "dismissal": "run out (Mishra/Ouma)",
+                    "dismissal": "run out (Mishra/ (wk)Ouma)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "4",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Anderson Cummins",
-                    "dismissal": "run out (Odoyo/Ouma)",
+                    "dismissal": "run out (Odoyo/ (wk)Ouma)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Henry Osinde",
-                    "dismissal": "run out (Varaiya/Ouma)",
+                    "dismissal": "run out (Varaiya/ (wk)Ouma)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "4",
@@ -238,7 +238,7 @@
             "extras": "28",
             "batting": [
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "c Mulla b Dhaniram",
                     "runs": "58",
                     "balls": "89",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "David Obuya",
-                    "dismissal": "c Bagai b Cummins",
+                    "dismissal": "c (wk)Bagai b Cummins",
                     "runs": "4",
                     "balls": "17",
                     "minutes": "26",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 7 wickets (with 40 balls remaining)"
+    "result": "Kenya won by 7 wickets (with 40 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Henry Osinde",
+            "Anderson Cummins",
+            "Abdool Samad",
+            "Ashish Bagai (wk)",
+            "Geoff Barnett",
+            "Qaiser Ali",
+            "John Davison(c)",
+            "Sunil Dhaniram",
+            "Ian Billcliff",
+            "Ashif Mulla",
+            "Umar Bhatti"
+        ],
+        "Kenya": [
+            "Nehemiah Odhiambo",
+            "Tanmay Mishra",
+            "David Obuya",
+            "Peter Ongondo",
+            "Jimmy Kamande",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Steve Tikolo(c)",
+            "Ravi Shah",
+            "Morris Ouma (wk)",
+            "Thomas Odoyo"
+        ]
+    }
 }

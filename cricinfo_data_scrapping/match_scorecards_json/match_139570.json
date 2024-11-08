@@ -78,7 +78,7 @@
                 },
                 {
                     "batsman": "Tony Cottey",
-                    "dismissal": "st Jones b Blackwell",
+                    "dismissal": "st (wk)Jones b Blackwell",
                     "runs": "14",
                     "balls": "21",
                     "minutes": "21",
@@ -87,7 +87,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Mark Wallace",
+                    "batsman": "Mark Wallace (wk)",
                     "dismissal": "not out",
                     "runs": "31",
                     "balls": "37",
@@ -225,7 +225,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick(c)",
-                    "dismissal": "c Wallace b Harrison",
+                    "dismissal": "c (wk)Wallace b Harrison",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "9",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Rob Key",
-                    "dismissal": "c Wallace b Jones",
+                    "dismissal": "c (wk)Wallace b Jones",
                     "runs": "83",
                     "balls": "95",
                     "minutes": "117",
@@ -244,7 +244,7 @@
                     "strike_rate": "87.36"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "b Harrison",
                     "runs": "21",
                     "balls": "20",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Wallace b Jones",
+                    "dismissal": "c (wk)Wallace b Jones",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "14",
@@ -360,5 +360,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 64 balls remaining)"
+    "result": "England won by 6 wickets (with 64 balls remaining)",
+    "playing_xi": {
+        "Wales": [
+            "David Hemp",
+            "Mark Wallace (wk)",
+            "Dean Cosker",
+            "Steffan Jones",
+            "Mike Powell",
+            "Tony Cottey",
+            "Matthew Maynard",
+            "Ian Thomas",
+            "Robert Croft(c)",
+            "David Harrison",
+            "Alex Wharf"
+        ],
+        "England": [
+            "Andrew Strauss",
+            "Rob Key",
+            "James Anderson",
+            "Sajid Mahmood",
+            "Marcus Trescothick(c)",
+            "Anthony McGrath",
+            "Ian Blackwell",
+            "Paul Collingwood",
+            "Ashley Giles",
+            "Darren Gough",
+            "Geraint Jones (wk)"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "st Chakabva b Cremer",
+                    "dismissal": "st (wk)Chakabva b Cremer",
                     "runs": "73",
                     "balls": "98",
                     "minutes": "138",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "st Chakabva b Sikandar Raza",
+                    "dismissal": "st (wk)Chakabva b Sikandar Raza",
                     "runs": "73",
                     "balls": "95",
                     "minutes": "116",
@@ -50,8 +50,8 @@
                     "strike_rate": "76.84"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "st Chakabva b Waller",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "st (wk)Chakabva b Waller",
                     "runs": "28",
                     "balls": "25",
                     "minutes": "38",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "run out (Chakabva)",
+                    "dismissal": "run out ( (wk)Chakabva)",
                     "runs": "52",
                     "balls": "40",
                     "minutes": "65",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Mustafizur Rahman",
-                    "dismissal": "run out (Sikandar Raza/Chakabva)",
+                    "dismissal": "run out (Sikandar Raza/ (wk)Chakabva)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "1",
@@ -251,7 +251,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Regis Chakabva",
+                    "batsman": "Regis Chakabva (wk)",
                     "dismissal": "c Nasir Hossain b Mustafizur Rahman",
                     "runs": "17",
                     "balls": "20",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 61 runs"
+    "result": "Bangladesh won by 61 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mustafizur Rahman",
+            "Sabbir Rahman",
+            "Arafat Sunny",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Imrul Kayes",
+            "Nasir Hossain",
+            "Litton Das",
+            "Al-Amin Hossain"
+        ],
+        "Zimbabwe": [
+            "Graeme Cremer",
+            "Taurai Muzarabani",
+            "Chamu Chibhabha",
+            "Tinashe Panyangara",
+            "Regis Chakabva (wk)",
+            "Craig Ervine",
+            "Malcolm Waller",
+            "Sean Williams",
+            "Elton Chigumbura(c)",
+            "Sikandar Raza",
+            "Luke Jongwe"
+        ]
+    }
 }

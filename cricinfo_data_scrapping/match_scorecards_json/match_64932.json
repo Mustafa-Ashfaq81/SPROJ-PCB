@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Justin Kemp",
-                    "dismissal": "st Taibu b Utseya",
+                    "dismissal": "st (wk)Taibu b Utseya",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "12",
@@ -83,7 +83,7 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Chigumbura",
                     "runs": "49",
                     "balls": "29",
@@ -284,7 +284,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "c Smith b Boje",
                     "runs": "28",
                     "balls": "48",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "run out (Boje/Boucher)",
+                    "dismissal": "run out (Boje/ (wk)Boucher)",
                     "runs": "12",
                     "balls": "26",
                     "minutes": "32",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 165 runs"
+    "result": "South Africa won by 165 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Mark Boucher (wk)",
+            "Andrew Hall",
+            "Adam Bacher",
+            "Jacques Rudolph",
+            "Albie Morkel",
+            "Justin Kemp"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Alester Maregwede",
+            "Tinashe Panyangara",
+            "Chris Mpofu",
+            "Stuart Matsikenyeri",
+            "Barney Rogers",
+            "Tatenda Taibu(c) (wk)",
+            "Hamilton Masakadza",
+            "Sean Williams"
+        ]
+    }
 }

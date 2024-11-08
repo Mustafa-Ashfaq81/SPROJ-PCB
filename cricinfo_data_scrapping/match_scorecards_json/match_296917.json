@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis(c)",
-                    "dismissal": "c Prior b Flintoff",
+                    "dismissal": "c (wk)Prior b Flintoff",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "12",
@@ -80,7 +80,7 @@
                     "strike_rate": "111.11"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "12",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Boucher b Morkel",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "13",
                     "balls": "16",
                     "minutes": "23",
@@ -217,8 +217,8 @@
                     "strike_rate": "81.25"
                 },
                 {
-                    "batsman": "Matt Prior",
-                    "dismissal": "c Boucher b Steyn",
+                    "batsman": "Matt Prior (wk)",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "10",
@@ -347,5 +347,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 14 balls remaining) (D/L method)"
+    "result": "England won by 7 wickets (with 14 balls remaining) (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Johan Botha",
+            "Jacques Kallis(c)",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Vernon Philander",
+            "Dale Steyn",
+            "Mark Boucher (wk)",
+            "Morne Morkel",
+            "Hashim Amla",
+            "Andre Nel"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Matt Prior (wk)",
+            "Luke Wright",
+            "Ian Bell",
+            "Steve Harmison",
+            "Samit Patel",
+            "Kevin Pietersen(c)",
+            "Paul Collingwood",
+            "Owais Shah",
+            "Andrew Flintoff"
+        ]
+    }
 }

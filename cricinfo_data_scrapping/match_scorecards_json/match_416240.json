@@ -83,7 +83,7 @@
                     "strike_rate": "140.90"
                 }
             ],
-            "did_not_bat": "Adam Voges , Graham Manou , Nathan Hauritz , Doug Bollinger , Ben Hilfenhaus , Clint McKay",
+            "did_not_bat": "Adam Voges , Graham Manou (wk) , Nathan Hauritz , Doug Bollinger , Ben Hilfenhaus , Clint McKay",
             "fall_of_wickets": "Fall of wickets : 1 - 145 ( Shane Watson , 25.2 ov ) , 2 - 236 ( Ricky Ponting , 38.5 ov ) , 3 - 270 ( Shaun Marsh , 42.5 ov ) , 4 - 350 ( Cameron White , 49.6 ov )",
             "bowling": [
                 {
@@ -220,7 +220,7 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Voges b McKay",
                     "runs": "6",
                     "balls": "15",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Manou b Watson",
+                    "dismissal": "c (wk)Manou b Watson",
                     "runs": "59",
                     "balls": "59",
                     "minutes": "76",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Manou b Watson",
+                    "dismissal": "c (wk)Manou b Watson",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Praveen Kumar",
-                    "dismissal": "run out (Hauritz/Manou)",
+                    "dismissal": "run out (Hauritz/ (wk)Manou)",
                     "runs": "9",
                     "balls": "9",
                     "minutes": "16",
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Australia won by 3 runs"
+    "result": "Australia won by 3 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Adam Voges",
+            "Graham Manou (wk)",
+            "Ben Hilfenhaus",
+            "Cameron White",
+            "Doug Bollinger",
+            "Clint McKay",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Hauritz"
+        ],
+        "India": [
+            "Munaf Patel",
+            "MS Dhoni(c) (wk)",
+            "Praveen Kumar",
+            "Ashish Nehra",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ]
+    }
 }

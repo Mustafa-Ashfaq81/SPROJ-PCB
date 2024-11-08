@@ -70,7 +70,7 @@
                     "strike_rate": "77.94"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Tsotsobe",
                     "runs": "38",
                     "balls": "61",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "8",
@@ -267,8 +267,8 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "AB de Villiers",
-                    "dismissal": "c Dhoni b Nehra",
+                    "batsman": "AB de Villiers (wk)",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "8",
                     "balls": "13",
                     "minutes": "14",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "India won by 1 run"
+    "result": "India won by 1 run",
+    "playing_xi": {
+        "India": [
+            "Ashish Nehra",
+            "Zaheer Khan",
+            "MS Dhoni(c) (wk)",
+            "Murali Vijay",
+            "Suresh Raina",
+            "Harbhajan Singh",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Virat Kohli",
+            "Munaf Patel"
+        ],
+        "South Africa": [
+            "Colin Ingram",
+            "Dale Steyn",
+            "Wayne Parnell",
+            "Morne Morkel",
+            "Hashim Amla",
+            "Lonwabo Tsotsobe",
+            "AB de Villiers (wk)",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Graeme Smith(c)"
+        ]
+    }
 }

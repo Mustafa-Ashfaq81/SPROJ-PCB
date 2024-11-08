@@ -39,7 +39,7 @@
                 },
                 {
                     "batsman": "Michael Swart",
-                    "dismissal": "c Patil b Guruge",
+                    "dismissal": "c (wk)Patil b Guruge",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "-",
@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Ben Cooper",
-                    "dismissal": "c Patil b Amjad Javed",
+                    "dismissal": "c (wk)Patil b Amjad Javed",
                     "runs": "14",
                     "balls": "18",
                     "minutes": "-",
@@ -68,7 +68,7 @@
                     "strike_rate": "8.33"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "lbw b Rohan Mustafa",
                     "runs": "42",
                     "balls": "66",
@@ -109,7 +109,7 @@
                 },
                 {
                     "batsman": "Mudassar Bukhari",
-                    "dismissal": "st Patil b Guruge",
+                    "dismissal": "st (wk)Patil b Guruge",
                     "runs": "14",
                     "balls": "13",
                     "minutes": "-",
@@ -246,7 +246,7 @@
                 },
                 {
                     "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Barresi b Mudassar Bukhari",
+                    "dismissal": "c (wk)Barresi b Mudassar Bukhari",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "-",
@@ -265,8 +265,8 @@
                     "strike_rate": "72.44"
                 },
                 {
-                    "batsman": "Swapnil Patil",
-                    "dismissal": "c Barresi b van der Gugten",
+                    "batsman": "Swapnil Patil (wk)",
+                    "dismissal": "c (wk)Barresi b van der Gugten",
                     "runs": "11",
                     "balls": "23",
                     "minutes": "-",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Amjad Javed",
-                    "dismissal": "c Barresi b Rippon",
+                    "dismissal": "c (wk)Barresi b Rippon",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "-",
@@ -326,7 +326,7 @@
                 },
                 {
                     "batsman": "Farhan Ahmed",
-                    "dismissal": "st Barresi b Rippon",
+                    "dismissal": "st (wk)Barresi b Rippon",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "-",
@@ -449,5 +449,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 6 runs"
+    "result": "Netherlands won by 6 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Stephan Myburgh",
+            "Ben Cooper",
+            "Mudassar Bukhari",
+            "Timm van der Gugten",
+            "Peter Borren(c)",
+            "Wesley Barresi (wk)",
+            "Michael Rippon",
+            "Michael Swart",
+            "Roelof van der Merwe",
+            "Ahsan Malik",
+            "Pieter Seelaar"
+        ],
+        "United Arab Emirates": [
+            "Saqlain Haider",
+            "Mohammad Shahzad",
+            "Manjula Guruge",
+            "Swapnil Patil (wk)",
+            "Ahmed Raza(c)",
+            "Rohan Mustafa",
+            "Muhammad Usman",
+            "Muhammad Kaleem",
+            "Shaiman Anwar",
+            "Amjad Javed",
+            "Farhan Ahmed"
+        ]
+    }
 }

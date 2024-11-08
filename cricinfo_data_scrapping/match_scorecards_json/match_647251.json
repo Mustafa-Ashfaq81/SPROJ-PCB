@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Phillip Hughes",
-                    "dismissal": "c Dhoni b Ashwin",
+                    "dismissal": "c (wk)Dhoni b Ashwin",
                     "runs": "83",
                     "balls": "103",
                     "minutes": "147",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "run out (Raina/Kumar/Dhoni)",
+                    "dismissal": "run out (Raina/Kumar/ (wk)Dhoni)",
                     "runs": "53",
                     "balls": "32",
                     "minutes": "36",
@@ -90,7 +90,7 @@
                     "strike_rate": "137.50"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "1",
                     "balls": "1",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Haddin b Faulkner",
+                    "dismissal": "c (wk)Haddin b Faulkner",
                     "runs": "95",
                     "balls": "86",
                     "minutes": "112",
@@ -227,7 +227,7 @@
                     "strike_rate": "192.30"
                 }
             ],
-            "did_not_bat": "Suresh Raina , Yuvraj Singh , MS Dhoni (c) , Ravindra Jadeja , Ravichandran Ashwin , Bhuvneshwar Kumar , Vinay Kumar , Ishant Sharma",
+            "did_not_bat": "Suresh Raina , Yuvraj Singh , MS Dhoni (c) (wk) , Ravindra Jadeja , Ravichandran Ashwin , Bhuvneshwar Kumar , Vinay Kumar , Ishant Sharma",
             "fall_of_wickets": "Fall of wickets : 1 - 176 ( Shikhar Dhawan , 26.1 ov )",
             "bowling": [
                 {
@@ -317,5 +317,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 39 balls remaining)"
+    "result": "India won by 9 wickets (with 39 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Adam Voges",
+            "Xavier Doherty",
+            "Mitchell Johnson",
+            "Clint McKay",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shane Watson",
+            "Phillip Hughes",
+            "Aaron Finch"
+        ],
+        "India": [
+            "Ishant Sharma",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Vinay Kumar",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "MS Dhoni (c) (wk)"
+        ]
+    }
 }

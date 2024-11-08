@@ -90,7 +90,7 @@
                     "strike_rate": "73.01"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Rahane b Bumrah",
                     "runs": "20",
                     "balls": "18",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "James Faulkner",
-                    "dismissal": "run out (Pandya/Dhoni)",
+                    "dismissal": "run out (Pandya/ (wk)Dhoni)",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "27",
@@ -277,7 +277,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Hardik Pandya , MS Dhoni , Bhuvneshwar Kumar , Axar Patel , Jasprit Bumrah , Kuldeep Yadav",
+            "did_not_bat": "Hardik Pandya , MS Dhoni (wk) , Bhuvneshwar Kumar , Axar Patel , Jasprit Bumrah , Kuldeep Yadav",
             "fall_of_wickets": "Fall of wickets : 1 - 124 ( Ajinkya Rahane , 22.3 ov ) , 2 - 223 ( Rohit Sharma , 39.1 ov ) , 3 - 227 ( Virat Kohli , 39.4 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 43 balls remaining)"
+    "result": "India won by 7 wickets (with 43 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "James Faulkner",
+            "Pat Cummins",
+            "Travis Head",
+            "Nathan Coulter-Nile",
+            "Adam Zampa",
+            "Aaron Finch",
+            "Matthew Wade (wk)",
+            "Marcus Stoinis",
+            "Steven Smith(c)",
+            "David Warner",
+            "Peter Handscomb"
+        ],
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Axar Patel",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Manish Pandey",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar"
+        ]
+    }
 }

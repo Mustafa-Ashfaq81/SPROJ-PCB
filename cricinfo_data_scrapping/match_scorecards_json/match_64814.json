@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mathew Sinclair",
-                    "dismissal": "c Dravid b Harbhajan Singh",
+                    "dismissal": "c (wk)Dravid b Harbhajan Singh",
                     "runs": "78",
                     "balls": "126",
                     "minutes": "174",
@@ -90,7 +90,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Yuvraj Singh b Khan",
                     "runs": "7",
                     "balls": "12",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "20",
                     "balls": "39",
                     "minutes": "60",
@@ -267,8 +267,8 @@
                     "strike_rate": "51.28"
                 },
                 {
-                    "batsman": "Rahul Dravid",
-                    "dismissal": "run out (Fleming/McCullum)",
+                    "batsman": "Rahul Dravid (wk)",
+                    "dismissal": "run out (Fleming/ (wk)McCullum)",
                     "runs": "18",
                     "balls": "27",
                     "minutes": "35",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "st McCullum b Vettori",
+                    "dismissal": "st (wk)McCullum b Vettori",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "24",
                     "balls": "38",
                     "minutes": "43",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Sanjay Bangar",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "3",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c McCullum b Hitchcock",
+                    "dismissal": "c (wk)McCullum b Hitchcock",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "12",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 35 runs"
+    "result": "New Zealand won by 35 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Mathew Sinclair",
+            "Jacob Oram",
+            "Brendon McCullum (wk)",
+            "Lou Vincent",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Paul Hitchcock",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Nathan Astle"
+        ],
+        "India": [
+            "Rahul Dravid (wk)",
+            "Zaheer Khan",
+            "Sanjay Bangar",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Javagal Srinath",
+            "Yuvraj Singh",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag",
+            "Harbhajan Singh"
+        ]
+    }
 }

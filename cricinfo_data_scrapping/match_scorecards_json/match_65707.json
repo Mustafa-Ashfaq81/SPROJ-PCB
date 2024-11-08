@@ -84,7 +84,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "b Rizwan Latif",
                     "runs": "104",
                     "balls": "93",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Arshad Ali",
-                    "dismissal": "c Dravid b Pathan",
+                    "dismissal": "c (wk)Dravid b Pathan",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Mohammad Tauqir",
-                    "dismissal": "st Dravid b Tendulkar",
+                    "dismissal": "st (wk)Dravid b Tendulkar",
                     "runs": "55",
                     "balls": "73",
                     "minutes": "100",
@@ -301,7 +301,7 @@
                     "strike_rate": "75.34"
                 },
                 {
-                    "batsman": "Abdul Rehman",
+                    "batsman": "Abdul Rehman (wk)",
                     "dismissal": "b Tendulkar",
                     "runs": "1",
                     "balls": "13",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "India won by 116 runs"
+    "result": "India won by 116 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Irfan Pathan",
+            "Anil Kumble",
+            "VVS Laxman",
+            "Rahul Dravid (wk)",
+            "Lakshmipathy Balaji",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)",
+            "Zaheer Khan",
+            "Mohammad Kaif"
+        ],
+        "United Arab Emirates": [
+            "Naeemuddin Aslam",
+            "Abdul Rehman (wk)",
+            "Arshad Ali",
+            "Mohammad Tauqir",
+            "Khurram Khan(c)",
+            "Ali Asad",
+            "Rizwan Latif",
+            "Asim Saeed",
+            "Fahad Usman",
+            "Asghar Ali",
+            "Syed Maqsood"
+        ]
+    }
 }

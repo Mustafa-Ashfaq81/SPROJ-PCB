@@ -90,8 +90,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Kamran Akmal b Saqlain Mushtaq",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Saqlain Mushtaq",
                     "runs": "34",
                     "balls": "16",
                     "minutes": "23",
@@ -213,7 +213,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Kirsten b Zondeki",
                     "runs": "15",
                     "balls": "32",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "run out (Pollock/Hall/Boucher)",
+                    "dismissal": "run out (Pollock/Hall/ (wk)Boucher)",
                     "runs": "72",
                     "balls": "81",
                     "minutes": "97",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "11",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 34 runs"
+    "result": "South Africa won by 34 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Shaun Pollock(c)",
+            "Makhaya Ntini",
+            "Jacques Kallis",
+            "Robin Peterson",
+            "Andrew Hall",
+            "Boeta Dippenaar",
+            "Jonty Rhodes",
+            "Herschelle Gibbs",
+            "Gary Kirsten",
+            "Monde Zondeki"
+        ],
+        "Pakistan": [
+            "Faisal Iqbal",
+            "Saqlain Mushtaq",
+            "Mohammad Yousuf",
+            "Waqar Younis(c)",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Inzamam-ul-Haq",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Saleem Elahi",
+            "Mohammad Sami"
+        ]
+    }
 }

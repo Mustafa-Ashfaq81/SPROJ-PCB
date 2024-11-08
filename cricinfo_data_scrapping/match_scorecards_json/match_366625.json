@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c McGlashan b Mills",
+                    "dismissal": "c (wk)McGlashan b Mills",
                     "runs": "5",
                     "balls": "16",
                     "minutes": "23",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c McGlashan b Ryder",
+                    "dismissal": "c (wk)McGlashan b Ryder",
                     "runs": "11",
                     "balls": "24",
                     "minutes": "26",
@@ -80,7 +80,7 @@
                     "strike_rate": "45.83"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Ryder",
                     "runs": "9",
                     "balls": "21",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Praveen Kumar",
-                    "dismissal": "c McGlashan b O'Brien",
+                    "dismissal": "c (wk)McGlashan b O'Brien",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "11",
@@ -263,7 +263,7 @@
                     "strike_rate": "84.84"
                 }
             ],
-            "did_not_bat": "Grant Elliott , Jacob Oram , Peter McGlashan , Daniel Vettori (c) , Kyle Mills , Scott Styris , Iain O'Brien",
+            "did_not_bat": "Grant Elliott , Jacob Oram , Peter McGlashan (wk) , Daniel Vettori (c) , Kyle Mills , Scott Styris , Iain O'Brien",
             "fall_of_wickets": "Fall of wickets : 1 - 9 ( Brendon McCullum , 2.2 ov ) , 2 - 93 ( Jesse Ryder , 14.6 ov )",
             "bowling": [
                 {
@@ -325,5 +325,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 8 wickets (with 118 balls remaining)"
+    "result": "New Zealand won by 8 wickets (with 118 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Ishant Sharma",
+            "MS Dhoni(c) (wk)",
+            "Zaheer Khan",
+            "Praveen Kumar",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Virender Sehwag",
+            "Rohit Sharma",
+            "Harbhajan Singh"
+        ],
+        "New Zealand": [
+            "Grant Elliott",
+            "Jacob Oram",
+            "Scott Styris",
+            "Martin Guptill",
+            "Daniel Vettori (c)",
+            "Brendon McCullum",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Iain O'Brien",
+            "Peter McGlashan (wk)"
+        ]
+    }
 }

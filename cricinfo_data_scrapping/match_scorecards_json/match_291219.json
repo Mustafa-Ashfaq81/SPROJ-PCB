@@ -50,8 +50,8 @@
                     "strike_rate": "45.83"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Mustard b Broad",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Mustard b Broad",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "41",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Chamara Silva",
-                    "dismissal": "c Mustard b Swann",
+                    "dismissal": "c (wk)Mustard b Swann",
                     "runs": "11",
                     "balls": "29",
                     "minutes": "53",
@@ -224,7 +224,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "9",
@@ -233,7 +233,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Phil Mustard",
+                    "batsman": "Phil Mustard (wk)",
                     "dismissal": "b Maharoof",
                     "runs": "14",
                     "balls": "15",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "England won by 2 wickets (with 7 balls remaining) (D/L method)"
+    "result": "England won by 2 wickets (with 7 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Tillakaratne Dilshan",
+            "Jehan Mubarak",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ],
+        "England": [
+            "James Anderson",
+            "Graeme Swann",
+            "Stuart Broad",
+            "Ian Bell",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Phil Mustard (wk)",
+            "Alastair Cook",
+            "Ravi Bopara",
+            "Owais Shah",
+            "Ryan Sidebottom"
+        ]
+    }
 }

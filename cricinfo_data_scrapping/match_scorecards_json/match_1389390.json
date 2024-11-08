@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Rahul b Prasidh Krishna",
+                    "dismissal": "c (wk)Rahul b Prasidh Krishna",
                     "runs": "56",
                     "balls": "34",
                     "minutes": "40",
@@ -70,7 +70,7 @@
                     "strike_rate": "124.13"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Kohli b Bumrah",
                     "runs": "11",
                     "balls": "19",
@@ -257,8 +257,8 @@
                     "strike_rate": "111.62"
                 },
                 {
-                    "batsman": "KL Rahul",
-                    "dismissal": "c Carey b Starc",
+                    "batsman": "KL Rahul (wk)",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "26",
                     "balls": "30",
                     "minutes": "37",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Australia won by 66 runs"
+    "result": "Australia won by 66 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Marsh",
+            "Glenn Maxwell",
+            "Cameron Green",
+            "Pat Cummins(c)",
+            "Tanveer Sangha",
+            "Josh Hazlewood",
+            "Alex Carey (wk)",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Marnus Labuschagne",
+            "David Warner"
+        ],
+        "India": [
+            "KL Rahul (wk)",
+            "Washington Sundar",
+            "Virat Kohli",
+            "Prasidh Krishna",
+            "Suryakumar Yadav",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ]
+    }
 }

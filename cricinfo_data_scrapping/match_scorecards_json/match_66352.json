@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "st Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "st (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "45",
                     "balls": "46",
                     "minutes": "71",
@@ -82,7 +82,7 @@
                     "strike_rate": "80.88"
                 }
             ],
-            "did_not_bat": "Charl Willoughby , Mark Boucher , Shaun Pollock , Paul Adams , Alan Dawson , Makhaya Ntini",
+            "did_not_bat": "Charl Willoughby , Mark Boucher (wk) , Shaun Pollock , Paul Adams , Alan Dawson , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 112 ( Graeme Smith , 15.6 ov ) , 2 - 133 ( Herschelle Gibbs , 20.1 ov ) , 3 - 189 ( Jacques Rudolph , 31.3 ov )",
             "bowling": [
                 {
@@ -194,7 +194,7 @@
             "batting": [
                 {
                     "batsman": "Javed Omer",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "9",
                     "balls": "19",
                     "minutes": "22",
@@ -204,7 +204,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Boucher b Adams",
+                    "dismissal": "c (wk)Boucher b Adams",
                     "runs": "52",
                     "balls": "93",
                     "minutes": "124",
@@ -253,7 +253,7 @@
                     "strike_rate": "53.57"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Smith b Dawson",
                     "runs": "11",
                     "balls": "16",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 83 runs"
+    "result": "South Africa won by 83 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Boeta Dippenaar",
+            "Makhaya Ntini",
+            "Charl Willoughby",
+            "Mark Boucher (wk)",
+            "Paul Adams",
+            "Graeme Smith(c)",
+            "Alan Dawson",
+            "Neil McKenzie",
+            "Herschelle Gibbs",
+            "Jacques Rudolph",
+            "Shaun Pollock"
+        ],
+        "Bangladesh": [
+            "Habibul Bashar",
+            "Khaled Mahmud(c)",
+            "Khaled Mashud (wk)",
+            "Tapash Baisya",
+            "Alok Kapali",
+            "Mohammad Ashraful",
+            "Javed Omer",
+            "Akram Khan",
+            "Tareq Aziz",
+            "Mohammad Rafique",
+            "Sanuar Hossain"
+        ]
+    }
 }

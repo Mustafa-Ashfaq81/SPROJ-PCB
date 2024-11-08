@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c de Kock b Imran Tahir",
+                    "dismissal": "c (wk)de Kock b Imran Tahir",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -81,7 +81,7 @@
                     "strike_rate": "112.65"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Ngidi",
                     "runs": "18",
                     "balls": "16",
@@ -242,7 +242,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Root b Plunkett",
                     "runs": "68",
                     "balls": "74",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "13",
                     "balls": "23",
                     "minutes": "46",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "England won by 104 runs"
+    "result": "England won by 104 runs",
+    "playing_xi": {
+        "England": [
+            "Moeen Ali",
+            "Jason Roy",
+            "Joe Root",
+            "Jofra Archer",
+            "Liam Plunkett",
+            "Jonny Bairstow",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Eoin Morgan(c)",
+            "Ben Stokes"
+        ],
+        "South Africa": [
+            "Lungi Ngidi",
+            "Dwaine Pretorius",
+            "Aiden Markram",
+            "Jean-Paul Duminy",
+            "Imran Tahir",
+            "Kagiso Rabada",
+            "Rassie van der Dussen",
+            "Quinton de Kock (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)",
+            "Hashim Amla"
+        ]
+    }
 }

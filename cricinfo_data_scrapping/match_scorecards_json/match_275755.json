@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Taylor b Williams",
+                    "dismissal": "c (wk)Taylor b Williams",
                     "runs": "16",
                     "balls": "43",
                     "minutes": "44",
@@ -90,7 +90,7 @@
                     "strike_rate": "37.20"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Dabengwa b Williams",
                     "runs": "27",
                     "balls": "70",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "st Taylor b Williams",
+                    "dismissal": "st (wk)Taylor b Williams",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "23",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "14",
@@ -277,7 +277,7 @@
                     "strike_rate": "14.28"
                 }
             ],
-            "did_not_bat": "Brendan Taylor , Keith Dabengwa , Elton Chigumbura , Gary Brent , Prosper Utseya (c) , Chris Mpofu , Anthony Ireland",
+            "did_not_bat": "Brendan Taylor (wk) , Keith Dabengwa , Elton Chigumbura , Gary Brent , Prosper Utseya (c) , Chris Mpofu , Anthony Ireland",
             "fall_of_wickets": "Fall of wickets : 1 - 125 ( Terry Duffin , 28.6 ov ) , 2 - 142 ( Hamilton Masakadza , 32.3 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 8 wickets (with 88 balls remaining)"
+    "result": "Zimbabwe won by 8 wickets (with 88 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mehrab Hossain jnr",
+            "Mashrafe Mortaza",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim (wk)",
+            "Abdur Razzak",
+            "Habibul Bashar(c)",
+            "Mohammad Ashraful",
+            "Aftab Ahmed",
+            "Shahriar Nafees",
+            "Shakib Al Hasan",
+            "Mohammad Rafique"
+        ],
+        "Zimbabwe": [
+            "Terry Duffin",
+            "Elton Chigumbura",
+            "Vusi Sibanda",
+            "Brendan Taylor (wk)",
+            "Anthony Ireland",
+            "Gary Brent",
+            "Prosper Utseya (c)",
+            "Chris Mpofu",
+            "Keith Dabengwa",
+            "Hamilton Masakadza",
+            "Sean Williams"
+        ]
+    }
 }

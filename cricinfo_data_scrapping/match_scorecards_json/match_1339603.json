@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Shamarh Brooks",
-                    "dismissal": "run out (Markram/Rickelton)",
+                    "dismissal": "run out (Markram/ (wk)Rickelton)",
                     "runs": "18",
                     "balls": "24",
                     "minutes": "51",
@@ -60,7 +60,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Shai Hope(c)",
+                    "batsman": "Shai Hope(c) (wk)",
                     "dismissal": "c Miller b Fortuin",
                     "runs": "16",
                     "balls": "27",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Rovman Powell",
-                    "dismissal": "st Rickelton b Fortuin",
+                    "dismissal": "st (wk)Rickelton b Fortuin",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "6",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Jason Holder",
-                    "dismissal": "st Rickelton b Markram",
+                    "dismissal": "st (wk)Rickelton b Markram",
                     "runs": "36",
                     "balls": "43",
                     "minutes": "61",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Yannic Cariah",
-                    "dismissal": "c Rickelton b Coetzee",
+                    "dismissal": "c (wk)Rickelton b Coetzee",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "18",
@@ -237,7 +237,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Ryan Rickelton",
+                    "batsman": "Ryan Rickelton (wk)",
                     "dismissal": "c Mayers b Joseph",
                     "runs": "3",
                     "balls": "10",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Aiden Markram(c)",
-                    "dismissal": "c Hope b Mayers",
+                    "dismissal": "c (wk)Hope b Mayers",
                     "runs": "25",
                     "balls": "26",
                     "minutes": "-",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 4 wickets (with 123 balls remaining)"
+    "result": "South Africa won by 4 wickets (with 123 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Shai Hope(c) (wk)",
+            "Yannic Cariah",
+            "Rovman Powell",
+            "Odean Smith",
+            "Brandon King",
+            "Shamarh Brooks",
+            "Jason Holder",
+            "Kyle Mayers",
+            "Nicholas Pooran",
+            "Akeal Hosein",
+            "Alzarri Joseph"
+        ],
+        "South Africa": [
+            "Wayne Parnell",
+            "David Miller",
+            "Heinrich Klaasen",
+            "Tony de Zorzi",
+            "Lungi Ngidi",
+            "Bjorn Fortuin",
+            "Ryan Rickelton (wk)",
+            "Aiden Markram(c)",
+            "Marco Jansen",
+            "Rassie van der Dussen",
+            "Gerald Coetzee"
+        ]
+    }
 }

@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Hemang Badani",
-                    "dismissal": "run out (Hoggard/Foster)",
+                    "dismissal": "run out (Hoggard/ (wk)Foster)",
                     "runs": "35",
                     "balls": "33",
                     "minutes": "58",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Ajit Agarkar",
-                    "dismissal": "st Foster b Giles",
+                    "dismissal": "st (wk)Foster b Giles",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "3",
@@ -103,8 +103,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Ajay Ratra",
-                    "dismissal": "run out (Flintoff/Foster)",
+                    "batsman": "Ajay Ratra (wk)",
+                    "dismissal": "run out (Flintoff/ (wk)Foster)",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "2",
@@ -295,7 +295,7 @@
                 },
                 {
                     "batsman": "Andrew Flintoff",
-                    "dismissal": "run out (Harbhajan Singh/Ratra)",
+                    "dismissal": "run out (Harbhajan Singh/ (wk)Ratra)",
                     "runs": "24",
                     "balls": "29",
                     "minutes": "49",
@@ -324,8 +324,8 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "James Foster",
-                    "dismissal": "c Ratra b Agarkar",
+                    "batsman": "James Foster (wk)",
+                    "dismissal": "c (wk)Ratra b Agarkar",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "13",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "India won by 22 runs"
+    "result": "India won by 22 runs",
+    "playing_xi": {
+        "India": [
+            "Hemang Badani",
+            "Ajay Ratra (wk)",
+            "Harbhajan Singh",
+            "Sachin Tendulkar",
+            "Anil Kumble",
+            "VVS Laxman",
+            "Ajit Agarkar",
+            "Javagal Srinath",
+            "Dinesh Mongia",
+            "Virender Sehwag",
+            "Sourav Ganguly(c)"
+        ],
+        "England": [
+            "Ashley Giles",
+            "Matthew Hoggard",
+            "Darren Gough",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Nasser Hussain(c)",
+            "Michael Vaughan",
+            "Marcus Trescothick",
+            "Andrew Flintoff",
+            "Jeremy Snape",
+            "James Foster (wk)"
+        ]
+    }
 }

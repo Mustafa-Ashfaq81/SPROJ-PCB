@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Gary Kirsten",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "15",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "23",
                     "balls": "31",
                     "minutes": "36",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Jonty Rhodes",
-                    "dismissal": "run out (Wasim Akram/Rashid Latif)",
+                    "dismissal": "run out (Wasim Akram/ (wk)Rashid Latif)",
                     "runs": "46",
                     "balls": "50",
                     "minutes": "76",
@@ -91,7 +91,7 @@
                     "strike_rate": "91.66"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Waqar Younis",
                     "runs": "3",
                     "balls": "6",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "run out (Waqar Younis/Rashid Latif)",
+                    "dismissal": "run out (Waqar Younis/ (wk)Rashid Latif)",
                     "runs": "12",
                     "balls": "16",
                     "minutes": "19",
@@ -284,7 +284,7 @@
                     "strike_rate": "78.26"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "lbw b Klusener",
                     "runs": "15",
                     "balls": "18",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 54 runs"
+    "result": "South Africa won by 54 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Boeta Dippenaar",
+            "Makhaya Ntini",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Lance Klusener",
+            "Gary Kirsten",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Jonty Rhodes",
+            "Allan Donald"
+        ],
+        "Pakistan": [
+            "Inzamam-ul-Haq",
+            "Shahid Afridi",
+            "Saqlain Mushtaq",
+            "Mohammad Yousuf",
+            "Saeed Anwar",
+            "Rashid Latif (wk)",
+            "Imran Nazir",
+            "Wasim Akram",
+            "Abdul Razzaq",
+            "Younis Khan",
+            "Waqar Younis(c)"
+        ]
+    }
 }

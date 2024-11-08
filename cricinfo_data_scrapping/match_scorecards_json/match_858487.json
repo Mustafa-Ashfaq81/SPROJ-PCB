@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Azhar Ali(c)",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "36",
                     "balls": "60",
                     "minutes": "69",
@@ -40,7 +40,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Soumya Sarkar b Rubel Hossain",
                     "runs": "7",
                     "balls": "11",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Soumya Sarkar",
-                    "dismissal": "c Sarfaraz Ahmed b Junaid Khan",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Junaid Khan",
                     "runs": "17",
                     "balls": "11",
                     "minutes": "12",
@@ -251,7 +251,7 @@
                     "strike_rate": "60.71"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Fawad Alam b Rahat Ali",
                     "runs": "65",
                     "balls": "70",
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 7 wickets (with 71 balls remaining)"
+    "result": "Bangladesh won by 7 wickets (with 71 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Haris Sohail",
+            "Saad Nasim",
+            "Mohammad Hafeez",
+            "Mohammad Rizwan",
+            "Sarfaraz Ahmed (wk)",
+            "Rahat Ali",
+            "Junaid Khan",
+            "Fawad Alam",
+            "Wahab Riaz",
+            "Azhar Ali(c)"
+        ],
+        "Bangladesh": [
+            "Arafat Sunny",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza (c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Taskin Ahmed",
+            "Sabbir Rahman",
+            "Nasir Hossain",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

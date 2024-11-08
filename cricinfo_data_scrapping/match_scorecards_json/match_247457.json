@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "10",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "19",
                     "balls": "63",
                     "minutes": "90",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Kamran Akmal b Mohammad Hafeez",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Hafeez",
                     "runs": "37",
                     "balls": "56",
                     "minutes": "56",
@@ -91,8 +91,8 @@
                     "strike_rate": "94.11"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
-                    "dismissal": "st Kamran Akmal b Danish Kaneria",
+                    "batsman": "Denesh Ramdin (wk)",
+                    "dismissal": "st (wk)Kamran Akmal b Danish Kaneria",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "1",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Imran Nazir",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "6",
                     "balls": "3",
                     "minutes": "1",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Ramdin b Taylor",
+                    "dismissal": "c (wk)Ramdin b Taylor",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "14",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Ramdin b Smith",
+                    "dismissal": "c (wk)Ramdin b Smith",
                     "runs": "37",
                     "balls": "72",
                     "minutes": "103",
@@ -298,7 +298,7 @@
                     "strike_rate": "114.81"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Bravo b Smith",
                     "runs": "0",
                     "balls": "1",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 54 runs"
+    "result": "West Indies won by 54 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Marlon Samuels",
+            "Jerome Taylor",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Daren Powell",
+            "Corey Collymore"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Naved-ul-Hasan",
+            "Mohammad Yousuf",
+            "Imran Nazir",
+            "Kamran Akmal (wk)",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Umar Gul",
+            "Younis Khan",
+            "Danish Kaneria",
+            "Iftikhar Anjum"
+        ]
+    }
 }

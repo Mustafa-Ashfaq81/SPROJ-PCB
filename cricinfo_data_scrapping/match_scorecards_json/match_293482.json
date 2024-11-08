@@ -60,8 +60,8 @@
                     "strike_rate": "13.33"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "7",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful(c)",
-                    "dismissal": "c Sangakkara b Jayasuriya",
+                    "dismissal": "c (wk)Sangakkara b Jayasuriya",
                     "runs": "29",
                     "balls": "59",
                     "minutes": "94",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Mushfiqur Rahim b Shahadat Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shahadat Hossain",
                     "runs": "28",
                     "balls": "25",
                     "minutes": "34",
@@ -257,8 +257,8 @@
                     "strike_rate": "61.53"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Mushfiqur Rahim b Syed Rasel",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Syed Rasel",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "15",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 113 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 113 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim (wk)",
+            "Abdur Razzak",
+            "Syed Rasel",
+            "Farhad Reza",
+            "Mohammad Ashraful(c)",
+            "Shahriar Nafees",
+            "Aftab Ahmed",
+            "Shakib Al Hasan",
+            "Tushar Imran"
+        ],
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Malinga Bandara",
+            "Tillakaratne Dilshan",
+            "Jehan Mubarak",
+            "Sanath Jayasuriya",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "c Haddin b Smith",
+                    "dismissal": "c (wk)Haddin b Smith",
                     "runs": "57",
                     "balls": "69",
                     "minutes": "117",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "st Haddin b Doherty",
+                    "dismissal": "st (wk)Haddin b Doherty",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "12",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Haddin b Cummins",
+                    "dismissal": "c (wk)Haddin b Cummins",
                     "runs": "59",
                     "balls": "51",
                     "minutes": "68",
@@ -90,7 +90,7 @@
                     "strike_rate": "115.68"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "11",
@@ -222,7 +222,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Boucher b Morkel",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "74",
                     "balls": "97",
                     "minutes": "136",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "run out (Botha/Boucher)",
+                    "dismissal": "run out (Botha/ (wk)Boucher)",
                     "runs": "37",
                     "balls": "62",
                     "minutes": "83",
@@ -281,7 +281,7 @@
                     "strike_rate": "150.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c du Plessis b Steyn",
                     "runs": "13",
                     "balls": "23",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 80 runs"
+    "result": "South Africa won by 80 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Dale Steyn",
+            "Morne Morkel",
+            "Jacques Kallis",
+            "Faf du Plessis",
+            "Lonwabo Tsotsobe",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Hashim Amla(c)",
+            "Johan Botha",
+            "Graeme Smith"
+        ],
+        "Australia": [
+            "Xavier Doherty",
+            "Steven Smith",
+            "Michael Hussey",
+            "Doug Bollinger",
+            "Shane Watson",
+            "Michael Clarke(c)",
+            "Pat Cummins",
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Ricky Ponting",
+            "David Warner"
+        ]
+    }
 }

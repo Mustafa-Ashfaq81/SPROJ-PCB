@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Najmul Hossain Shanto(c)",
-                    "dismissal": "run out (Labuschagne/Inglis)",
+                    "dismissal": "run out (Labuschagne/ (wk)Inglis)",
                     "runs": "45",
                     "balls": "57",
                     "minutes": "59",
@@ -82,7 +82,7 @@
                     "strike_rate": "114.28"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Cummins b Zampa",
                     "runs": "21",
                     "balls": "24",
@@ -283,7 +283,7 @@
                     "strike_rate": "98.43"
                 }
             ],
-            "did_not_bat": "Marnus Labuschagne , Josh Inglis , Marcus Stoinis , Pat Cummins (c) , Adam Zampa , Josh Hazlewood , Sean Abbott",
+            "did_not_bat": "Marnus Labuschagne , Josh Inglis (wk) , Marcus Stoinis , Pat Cummins (c) , Adam Zampa , Josh Hazlewood , Sean Abbott",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Travis Head , 2.5 ov ) , 2 - 132 ( David Warner , 22.1 ov ) DRS",
             "bowling": [
                 {
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 32 balls remaining)"
+    "result": "Australia won by 8 wickets (with 32 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Mahmudullah",
+            "Tanzid Hasan",
+            "Mustafizur Rahman",
+            "Mahedi Hasan",
+            "Towhid Hridoy",
+            "Najmul Hossain Shanto(c)",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed",
+            "Nasum Ahmed"
+        ],
+        "Australia": [
+            "Mitchell Marsh",
+            "Travis Head",
+            "Adam Zampa",
+            "Josh Inglis (wk)",
+            "Marcus Stoinis",
+            "Josh Hazlewood",
+            "Steven Smith",
+            "Sean Abbott",
+            "Marnus Labuschagne",
+            "Pat Cummins (c)",
+            "David Warner"
+        ]
+    }
 }

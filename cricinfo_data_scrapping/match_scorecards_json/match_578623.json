@@ -41,7 +41,7 @@
                     "strike_rate": "22.22"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Kohli b Ashwin",
                     "runs": "21",
                     "balls": "38",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "27",
                     "balls": "31",
                     "minutes": "44",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "41",
                     "balls": "57",
                     "minutes": "64",
@@ -278,7 +278,7 @@
                     "strike_rate": "73.33"
                 }
             ],
-            "did_not_bat": "Suresh Raina , MS Dhoni (c) , Ravindra Jadeja , Ravichandran Ashwin , Ishant Sharma , Bhuvneshwar Kumar , Umesh Yadav",
+            "did_not_bat": "Suresh Raina , MS Dhoni (c) (wk) , Ravindra Jadeja , Ravichandran Ashwin , Ishant Sharma , Bhuvneshwar Kumar , Umesh Yadav",
             "fall_of_wickets": "Fall of wickets : 1 - 58 ( Rohit Sharma , 10.4 ov ) , 2 - 78 ( Shikhar Dhawan , 14.3 ov )",
             "bowling": [
                 {
@@ -354,5 +354,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 17 balls remaining) (D/L method)"
+    "result": "India won by 8 wickets (with 17 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Wahab Riaz",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Mohammad Irfan",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Umar Amin",
+            "Nasir Jamshed",
+            "Mohammad Hafeez"
+        ],
+        "India": [
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "MS Dhoni (c) (wk)",
+            "Dinesh Karthik",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "Umesh Yadav",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Bhuvneshwar Kumar"
+        ]
+    }
 }

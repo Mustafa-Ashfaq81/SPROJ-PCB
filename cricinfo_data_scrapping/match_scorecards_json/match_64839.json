@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "16",
                     "balls": "32",
                     "minutes": "49",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "65",
                     "balls": "72",
                     "minutes": "106",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "41",
                     "balls": "52",
                     "minutes": "77",
@@ -90,7 +90,7 @@
                     "strike_rate": "84.90"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "run out (Smith/Dawson)",
                     "runs": "19",
                     "balls": "26",
@@ -257,7 +257,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "run out (Mohammad Sami)",
                     "runs": "5",
                     "balls": "5",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 42 runs"
+    "result": "Pakistan won by 42 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Rashid Latif (wk)",
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Umar Gul",
+            "Younis Khan",
+            "Mohammad Hafeez",
+            "Inzamam-ul-Haq(c)",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Shoaib Akhtar"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Makhaya Ntini",
+            "Neil McKenzie",
+            "Shaun Pollock",
+            "Jacques Kallis",
+            "Robin Peterson",
+            "Andrew Hall",
+            "Boeta Dippenaar",
+            "Alan Dawson",
+            "Jacques Rudolph",
+            "Graeme Smith(c)"
+        ]
+    }
 }

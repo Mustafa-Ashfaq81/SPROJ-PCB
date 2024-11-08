@@ -42,7 +42,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Lee",
                     "runs": "2",
                     "balls": "7",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "st Haddin b Lehmann",
+                    "dismissal": "st (wk)Haddin b Lehmann",
                     "runs": "48",
                     "balls": "37",
                     "minutes": "-",
@@ -255,7 +255,7 @@
                     "strike_rate": "33.33"
                 }
             ],
-            "did_not_bat": "Damien Martyn , Andrew Symonds , Darren Lehmann , Brad Haddin , Shane Watson , Brett Lee , Glenn McGrath , Michael Kasprowicz",
+            "did_not_bat": "Damien Martyn , Andrew Symonds , Darren Lehmann , Brad Haddin (wk) , Shane Watson , Brett Lee , Glenn McGrath , Michael Kasprowicz",
             "fall_of_wickets": "Fall of wickets : 1 - 79 ( Matthew Hayden , 17.3 ov )",
             "bowling": [
                 {
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "Australia won by 9 wickets (with 82 balls remaining)"
+    "result": "Australia won by 9 wickets (with 82 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Salman Butt",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Azhar Mahmood",
+            "Naved-ul-Hasan",
+            "Iftikhar Anjum",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Mohammad Hafeez"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Darren Lehmann",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Brad Haddin (wk)",
+            "Matthew Hayden",
+            "Ricky Ponting(c)",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Shane Watson"
+        ]
+    }
 }

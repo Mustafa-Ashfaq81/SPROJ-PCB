@@ -36,7 +36,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Wilson b McCarthy",
                     "runs": "37",
                     "balls": "26",
@@ -47,7 +47,7 @@
                 },
                 {
                     "batsman": "Tom Latham(c)",
-                    "dismissal": "c NJ O'Brien b McCarthy",
+                    "dismissal": "c (wk)NJ O'Brien b McCarthy",
                     "runs": "15",
                     "balls": "25",
                     "minutes": "-",
@@ -229,8 +229,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "st Ronchi b Santner",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "st (wk)Ronchi b Santner",
                     "runs": "109",
                     "balls": "131",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Simi Singh",
-                    "dismissal": "st Ronchi b Santner",
+                    "dismissal": "st (wk)Ronchi b Santner",
                     "runs": "9",
                     "balls": "14",
                     "minutes": "-",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 51 runs"
+    "result": "New Zealand won by 51 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Tom Latham(c)",
+            "Mitchell Santner",
+            "George Worker",
+            "Neil Broom",
+            "Scott Kuggeleijn",
+            "Colin Munro",
+            "Ish Sodhi",
+            "Seth Rance",
+            "Luke Ronchi (wk)",
+            "Ross Taylor",
+            "James Neesham"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Peter Chase",
+            "Gary Wilson",
+            "Paul Stirling",
+            "Simi Singh",
+            "Tim Murtagh",
+            "Barry McCarthy",
+            "Niall O'Brien (wk)",
+            "William Porterfield(c)",
+            "Kevin O'Brien",
+            "Andy Balbirnie"
+        ]
+    }
 }

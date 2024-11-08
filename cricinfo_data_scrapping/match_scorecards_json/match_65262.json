@@ -71,7 +71,7 @@
                     "strike_rate": "48.48"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c Collingwood b Caddick",
                     "runs": "62",
                     "balls": "72",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "run out (Stewart)",
+                    "dismissal": "run out ( (wk)Stewart)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "1",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "20",
                     "balls": "47",
                     "minutes": "89",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Nasser Hussain(c)",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "15",
                     "balls": "30",
                     "minutes": "48",
@@ -268,7 +268,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "lbw b Nehra",
                     "runs": "0",
                     "balls": "1",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Craig White",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "13",
                     "balls": "9",
                     "minutes": "19",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "India won by 82 runs"
+    "result": "India won by 82 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Javagal Srinath",
+            "Ashish Nehra",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)",
+            "Dinesh Mongia",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Zaheer Khan"
+        ],
+        "England": [
+            "James Anderson",
+            "Andy Caddick",
+            "Andrew Flintoff",
+            "Nick Knight",
+            "Michael Vaughan",
+            "Ronnie Irani",
+            "Nasser Hussain(c)",
+            "Paul Collingwood",
+            "Alec Stewart (wk)",
+            "Craig White",
+            "Marcus Trescothick"
+        ]
+    }
 }

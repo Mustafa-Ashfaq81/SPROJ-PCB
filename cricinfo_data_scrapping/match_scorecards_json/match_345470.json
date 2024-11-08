@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "2",
@@ -71,7 +71,7 @@
                     "strike_rate": "76.06"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Raina b Chawla",
                     "runs": "6",
                     "balls": "11",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Farhad Reza",
-                    "dismissal": "run out (Dhoni/Sharma)",
+                    "dismissal": "run out ( (wk)Dhoni/Sharma)",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "15",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "run out (Dhoni)",
+                    "dismissal": "run out ( (wk)Dhoni)",
                     "runs": "13",
                     "balls": "12",
                     "minutes": "17",
@@ -302,7 +302,7 @@
                     "strike_rate": "0.00"
                 }
             ],
-            "did_not_bat": "Yusuf Pathan , MS Dhoni (c) , Irfan Pathan , Piyush Chawla , Praveen Kumar , RP Singh",
+            "did_not_bat": "Yusuf Pathan , MS Dhoni (c) (wk) , Irfan Pathan , Piyush Chawla , Praveen Kumar , RP Singh",
             "fall_of_wickets": "Fall of wickets : 1 - 85 ( Virender Sehwag , 9.6 ov ) , 2 - 141 ( Rohit Sharma , 22.2 ov ) , 3 - 216 ( Yuvraj Singh , 33.5 ov )",
             "bowling": [
                 {
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 89 balls remaining)"
+    "result": "India won by 7 wickets (with 89 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Farhad Reza",
+            "Shahriar Nafees",
+            "Tamim Iqbal",
+            "Alok Kapali",
+            "Dolar Mahmud",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Abdur Razzak",
+            "Raqibul Hasan"
+        ],
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Piyush Chawla",
+            "RP Singh",
+            "Praveen Kumar",
+            "MS Dhoni (c) (wk)",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Rohit Sharma"
+        ]
+    }
 }

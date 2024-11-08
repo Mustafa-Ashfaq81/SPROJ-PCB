@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Travis Dowlin",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "2",
                     "balls": "16",
                     "minutes": "18",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Haddin b Bollinger",
+                    "dismissal": "c (wk)Haddin b Bollinger",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "11",
@@ -80,8 +80,8 @@
                     "strike_rate": "63.88"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
-                    "dismissal": "c Haddin b Watson",
+                    "batsman": "Denesh Ramdin (wk)",
+                    "dismissal": "c (wk)Haddin b Watson",
                     "runs": "30",
                     "balls": "42",
                     "minutes": "63",
@@ -224,7 +224,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Ramdin b Roach",
+                    "dismissal": "c (wk)Ramdin b Roach",
                     "runs": "53",
                     "balls": "50",
                     "minutes": "65",
@@ -263,7 +263,7 @@
                     "strike_rate": "96.42"
                 }
             ],
-            "did_not_bat": "Michael Hussey , Cameron White , Brad Haddin , Mitchell Johnson , Nathan Hauritz , Doug Bollinger , Clint McKay",
+            "did_not_bat": "Michael Hussey , Cameron White , Brad Haddin (wk) , Mitchell Johnson , Nathan Hauritz , Doug Bollinger , Clint McKay",
             "fall_of_wickets": "Fall of wickets : 1 - 51 ( Shaun Marsh , 8.6 ov ) , 2 - 99 ( Shane Watson , 15.1 ov )",
             "bowling": [
                 {
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 141 balls remaining)"
+    "result": "Australia won by 8 wickets (with 141 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kemar Roach",
+            "Nikita Miller",
+            "Ravi Rampaul",
+            "Runako Morton",
+            "Denesh Ramdin (wk)",
+            "Chris Gayle(c)",
+            "Dwayne Smith",
+            "Narsingh Deonarine",
+            "Lendl Simmons",
+            "Travis Dowlin",
+            "Kieron Pollard"
+        ],
+        "Australia": [
+            "Michael Clarke",
+            "Cameron White",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Ricky Ponting(c)",
+            "Brad Haddin (wk)",
+            "Clint McKay",
+            "Mitchell Johnson",
+            "Nathan Hauritz",
+            "Michael Hussey",
+            "Doug Bollinger"
+        ]
+    }
 }

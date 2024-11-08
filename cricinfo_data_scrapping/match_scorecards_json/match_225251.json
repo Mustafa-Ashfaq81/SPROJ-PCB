@@ -60,7 +60,7 @@
                     "strike_rate": "106.45"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Pietersen b Mahmood",
                     "runs": "51",
                     "balls": "41",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "c Jones b Mahmood",
+                    "dismissal": "c (wk)Jones b Mahmood",
                     "runs": "13",
                     "balls": "9",
                     "minutes": "11",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Jamie Dalrymple",
-                    "dismissal": "st Sangakkara b Jayasuriya",
+                    "dismissal": "st (wk)Sangakkara b Jayasuriya",
                     "runs": "37",
                     "balls": "34",
                     "minutes": "46",
@@ -301,8 +301,8 @@
                     "strike_rate": "108.82"
                 },
                 {
-                    "batsman": "Geraint Jones",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "batsman": "Geraint Jones (wk)",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "9",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Sajid Mahmood",
-                    "dismissal": "run out (Sangakkara/Muralidaran)",
+                    "dismissal": "run out ( (wk)Sangakkara/Muralidaran)",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "3",
@@ -342,7 +342,7 @@
                 },
                 {
                     "batsman": "Steve Harmison",
-                    "dismissal": "run out (Sangakkara/Muralidaran)",
+                    "dismissal": "run out ( (wk)Sangakkara/Muralidaran)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "3",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 46 runs"
+    "result": "Sri Lanka won by 46 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Upul Tharanga",
+            "Lasith Malinga",
+            "Ruchira Perera",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Farveez Maharoof"
+        ],
+        "England": [
+            "Jamie Dalrymple",
+            "Liam Plunkett",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Andrew Strauss(c)",
+            "Steve Harmison",
+            "Sajid Mahmood",
+            "Geraint Jones (wk)",
+            "Marcus Trescothick",
+            "Tim Bresnan",
+            "Ian Bell"
+        ]
+    }
 }

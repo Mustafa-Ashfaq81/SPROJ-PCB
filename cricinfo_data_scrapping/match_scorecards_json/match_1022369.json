@@ -34,8 +34,8 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Amir",
+                    "batsman": "Niroshan Dickwella (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Amir",
                     "runs": "73",
                     "balls": "86",
                     "minutes": "158",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "c Sarfaraz Ahmed b Junaid Khan",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Junaid Khan",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "6",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Dickwella b Malinga",
+                    "dismissal": "c (wk)Dickwella b Malinga",
                     "runs": "11",
                     "balls": "20",
                     "minutes": "40",
@@ -291,7 +291,7 @@
                     "strike_rate": "55.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "not out",
                     "runs": "61",
                     "balls": "79",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Imad Wasim",
-                    "dismissal": "c Dickwella b Pradeep",
+                    "dismissal": "c (wk)Dickwella b Pradeep",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "6",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 31 balls remaining)"
+    "result": "Pakistan won by 3 wickets (with 31 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Danushka Gunathilaka",
+            "Kusal Mendis",
+            "Dinesh Chandimal",
+            "Asela Gunaratne",
+            "Suranga Lakmal",
+            "Angelo Mathews(c)",
+            "Nuwan Pradeep",
+            "Thisara Perera",
+            "Niroshan Dickwella (wk)",
+            "Dhananjaya de Silva"
+        ],
+        "Pakistan": [
+            "Imad Wasim",
+            "Faheem Ashraf",
+            "Babar Azam",
+            "Mohammad Amir",
+            "Fakhar Zaman",
+            "Junaid Khan",
+            "Hasan Ali",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Azhar Ali"
+        ]
+    }
 }

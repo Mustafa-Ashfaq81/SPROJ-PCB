@@ -42,7 +42,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Alec Stewart(c)",
+                    "batsman": "Alec Stewart(c) (wk)",
                     "dismissal": "c Bevan b Lee",
                     "runs": "22",
                     "balls": "46",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Nick Knight",
-                    "dismissal": "c Gilchrist b Fleming",
+                    "dismissal": "c (wk)Gilchrist b Fleming",
                     "runs": "48",
                     "balls": "81",
                     "minutes": "127",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Gilchrist b Harvey",
+                    "dismissal": "c (wk)Gilchrist b Harvey",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "2",
@@ -239,7 +239,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c & b Croft",
                     "runs": "80",
                     "balls": "90",
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 119 balls remaining)"
+    "result": "Australia won by 8 wickets (with 119 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Marcus Trescothick",
+            "Robert Croft",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Alan Mullally",
+            "Ben Hollioake",
+            "Andy Caddick",
+            "Alec Stewart(c) (wk)",
+            "Darren Gough",
+            "Owais Shah",
+            "Ali Brown"
+        ],
+        "Australia": [
+            "Damien Fleming",
+            "Glenn McGrath",
+            "Ricky Ponting",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Ian Harvey",
+            "Brett Lee",
+            "Steve Waugh (c)",
+            "Mark Waugh",
+            "Matthew Hayden",
+            "Andrew Symonds"
+        ]
+    }
 }

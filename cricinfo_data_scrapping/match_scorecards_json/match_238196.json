@@ -30,7 +30,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist(c)",
+                    "batsman": "Adam Gilchrist(c) (wk)",
                     "dismissal": "c Nel b Ntini",
                     "runs": "14",
                     "balls": "19",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Nathan Bracken",
-                    "dismissal": "run out (Boucher/Ntini)",
+                    "dismissal": "run out ( (wk)Boucher/Ntini)",
                     "runs": "16",
                     "balls": "7",
                     "minutes": "8",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Gilchrist b Hogg",
+                    "dismissal": "c (wk)Gilchrist b Hogg",
                     "runs": "43",
                     "balls": "30",
                     "minutes": "51",
@@ -267,7 +267,7 @@
                     "strike_rate": "143.33"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "run out (Katich/Lee)",
                     "runs": "4",
                     "balls": "17",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 21 balls remaining) (D/L method)"
+    "result": "South Africa won by 6 wickets (with 21 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Bracken",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Brett Lee",
+            "Damien Martyn",
+            "Adam Gilchrist(c) (wk)",
+            "Mitchell Johnson",
+            "Simon Katich",
+            "Mick Lewis",
+            "Shane Watson",
+            "Brad Hogg"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Justin Kemp",
+            "Boeta Dippenaar",
+            "AB de Villiers",
+            "Herschelle Gibbs",
+            "Andre Nel",
+            "Andrew Hall",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Robin Peterson"
+        ]
+    }
 }

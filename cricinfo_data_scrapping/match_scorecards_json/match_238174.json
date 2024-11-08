@@ -30,7 +30,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "lbw b Mashrafe Mortaza",
                     "runs": "32",
                     "balls": "30",
@@ -212,7 +212,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "9",
@@ -251,7 +251,7 @@
                     "strike_rate": "61.40"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "b Clarke",
                     "runs": "36",
                     "balls": "62",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Australia won by 67 runs"
+    "result": "Australia won by 67 runs",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Bracken",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Andrew Symonds",
+            "Brett Lee",
+            "Mitchell Johnson",
+            "Dan Cullen",
+            "Simon Katich",
+            "Ricky Ponting(c)",
+            "Brad Hogg"
+        ],
+        "Bangladesh": [
+            "Shahadat Hossain",
+            "Shahriar Nafees",
+            "Habibul Bashar(c)",
+            "Alok Kapali",
+            "Khaled Mashud (wk)",
+            "Rajin Saleh",
+            "Javed Omer",
+            "Mashrafe Mortaza",
+            "Abdur Razzak",
+            "Mohammad Rafique",
+            "Tushar Imran"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "lbw b McCarthy",
                     "runs": "0",
                     "balls": "1",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Maheesh Theekshana",
-                    "dismissal": "c Tucker b Adair",
+                    "dismissal": "c (wk)Tucker b Adair",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Mendis b Kumara",
+                    "dismissal": "c (wk)Mendis b Kumara",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "17",
@@ -292,7 +292,7 @@
                     "strike_rate": "94.28"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "b Shanaka",
                     "runs": "0",
                     "balls": "5",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Curtis Campher",
-                    "dismissal": "c Mendis b Theekshana",
+                    "dismissal": "c (wk)Mendis b Theekshana",
                     "runs": "39",
                     "balls": "31",
                     "minutes": "31",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 133 runs"
+    "result": "Sri Lanka won by 133 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Maheesh Theekshana",
+            "Kusal Mendis (wk)",
+            "Kasun Rajitha",
+            "Dimuth Karunaratne",
+            "Sadeera Samarawickrama",
+            "Charith Asalanka",
+            "Lahiru Kumara",
+            "Dasun Shanaka(c)"
+        ],
+        "Ireland": [
+            "Gareth Delany",
+            "Barry McCarthy",
+            "George Dockrell",
+            "Josh Little",
+            "Lorcan Tucker (wk)",
+            "Curtis Campher",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Andy Balbirnie(c)",
+            "Harry Tector",
+            "Mark Adair"
+        ]
+    }
 }

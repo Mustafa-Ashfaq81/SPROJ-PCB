@@ -30,7 +30,7 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Singh b Sreesanth",
                     "runs": "25",
                     "balls": "34",
@@ -214,7 +214,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "38",
                     "balls": "50",
                     "minutes": "61",
@@ -243,7 +243,7 @@
                     "strike_rate": "115.05"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "77",
                     "balls": "56",
@@ -343,5 +343,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 19 balls remaining)"
+    "result": "India won by 8 wickets (with 19 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Yasir Arafat",
+            "Abdul Razzaq",
+            "Imran Farhat",
+            "Kamran Akmal (wk)",
+            "Iftikhar Anjum",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Mohammad Sami",
+            "Shoaib Malik"
+        ],
+        "India": [
+            "RP Singh",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Gautam Gambhir",
+            "Zaheer Khan",
+            "Sreesanth",
+            "Ramesh Powar",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

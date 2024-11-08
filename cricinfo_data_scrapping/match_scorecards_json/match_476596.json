@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c BB McCullum b Mills",
+                    "dismissal": "c (wk)BB McCullum b Mills",
                     "runs": "16",
                     "balls": "32",
                     "minutes": "36",
@@ -80,7 +80,7 @@
                     "strike_rate": "113.72"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Southee b Ryder",
                     "runs": "22",
                     "balls": "39",
@@ -237,7 +237,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Shakib Al Hasan",
                     "runs": "61",
                     "balls": "45",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 9 runs (D/L method)"
+    "result": "Bangladesh won by 9 runs (D/L method)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Raqibul Hasan",
+            "Imrul Kayes",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Nazmul Hossain",
+            "Shahriar Nafees",
+            "Shakib Al Hasan",
+            "Mahmudullah",
+            "Mashrafe Mortaza(c)",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Andy McKay",
+            "BJ Watling",
+            "Kyle Mills",
+            "Grant Elliott",
+            "Shanan Stewart",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Tim Southee",
+            "Nathan McCullum",
+            "Daniel Vettori(c)"
+        ]
+    }
 }

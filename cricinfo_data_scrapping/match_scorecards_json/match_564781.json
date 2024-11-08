@@ -80,7 +80,7 @@
                     "strike_rate": "111.11"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Thirimanne b Perera",
                     "runs": "35",
                     "balls": "29",
@@ -227,7 +227,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Yadav",
                     "runs": "133",
                     "balls": "151",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "13",
                     "balls": "19",
                     "minutes": "25",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "India won by 21 runs"
+    "result": "India won by 21 runs",
+    "playing_xi": {
+        "India": [
+            "Pragyan Ojha",
+            "Zaheer Khan",
+            "Irfan Pathan",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Umesh Yadav",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)"
+        ],
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "run out (Jadeja/Dhoni)",
+                    "dismissal": "run out (Jadeja/ (wk)Dhoni)",
                     "runs": "47",
                     "balls": "31",
                     "minutes": "-",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "21",
                     "balls": "17",
@@ -237,7 +237,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b Zampa",
                     "runs": "26",
                     "balls": "42",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 32 runs"
+    "result": "Australia won by 32 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shaun Marsh",
+            "Alex Carey (wk)",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Peter Handscomb",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Adam Zampa",
+            "Jhye Richardson",
+            "Marcus Stoinis",
+            "Nathan Lyon"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kedar Jadhav",
+            "Mohammed Shami",
+            "Vijay Shankar",
+            "Ambati Rayudu",
+            "Virat Kohli(c)",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

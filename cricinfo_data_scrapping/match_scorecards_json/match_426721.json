@@ -30,7 +30,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Umar Gul",
                     "runs": "131",
                     "balls": "129",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori(c)",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "30",
                     "balls": "33",
                     "minutes": "40",
@@ -253,7 +253,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Guptill b Styris",
                     "runs": "4",
                     "balls": "8",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 64 runs"
+    "result": "New Zealand won by 64 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Daniel Vettori(c)",
+            "Scott Styris",
+            "Martin Guptill",
+            "Neil Broom",
+            "Kyle Mills",
+            "Shane Bond",
+            "Tim Southee",
+            "Ross Taylor",
+            "Jacob Oram",
+            "Brendon McCullum (wk)",
+            "Aaron Redmond"
+        ],
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Salman Butt",
+            "Umar Gul",
+            "Mohammad Amir",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Khalid Latif",
+            "Abdul Razzaq",
+            "Shahid Afridi"
+        ]
+    }
 }

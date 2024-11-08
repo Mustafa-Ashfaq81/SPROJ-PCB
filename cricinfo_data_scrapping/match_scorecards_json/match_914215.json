@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tom Latham",
-                    "dismissal": "c Chandimal b Pradeep",
+                    "dismissal": "c (wk)Chandimal b Pradeep",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Chandimal b Dilshan",
+                    "dismissal": "c (wk)Chandimal b Dilshan",
                     "runs": "61",
                     "balls": "72",
                     "minutes": "91",
@@ -80,7 +80,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "not out",
                     "runs": "37",
                     "balls": "31",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Ronchi b Boult",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "9",
@@ -227,7 +227,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "c Williamson b Boult",
                     "runs": "50",
                     "balls": "65",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 36 runs"
+    "result": "New Zealand won by 36 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Martin Guptill",
+            "Trent Boult",
+            "Ish Sodhi",
+            "Kane Williamson(c)",
+            "Mitchell Santner",
+            "Ross Taylor",
+            "Luke Ronchi (wk)",
+            "Adam Milne",
+            "Tom Latham",
+            "Matt Henry",
+            "Henry Nicholls"
+        ],
+        "Sri Lanka": [
+            "Thisara Perera",
+            "Chamara Kapugedera",
+            "Nuwan Kulasekara",
+            "Dushmantha Chameera",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal (wk)",
+            "Danushka Gunathilaka",
+            "Angelo Mathews(c)",
+            "Nuwan Pradeep",
+            "Milinda Siriwardana",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

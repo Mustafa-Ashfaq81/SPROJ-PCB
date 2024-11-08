@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c Mohammad Salman b Tanvir Ahmed",
+                    "dismissal": "c (wk)Mohammad Salman b Tanvir Ahmed",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "5",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "c Mohammad Salman b Umar Gul",
+                    "dismissal": "c (wk)Mohammad Salman b Umar Gul",
                     "runs": "4",
                     "balls": "17",
                     "minutes": "34",
@@ -69,8 +69,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Gary Wilson",
-                    "dismissal": "c Mohammad Salman b Saeed Ajmal",
+                    "batsman": "Gary Wilson (wk)",
+                    "dismissal": "c (wk)Mohammad Salman b Saeed Ajmal",
                     "runs": "11",
                     "balls": "23",
                     "minutes": "58",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "c Mohammad Salman b Junaid Khan",
+                    "dismissal": "c (wk)Mohammad Salman b Junaid Khan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "c Wilson b Cusack",
+                    "dismissal": "c (wk)Wilson b Cusack",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "15",
@@ -272,7 +272,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Saeed Ajmal , Tanvir Ahmed , Junaid Khan , Umar Akmal , Umar Gul , Mohammad Salman",
+            "did_not_bat": "Saeed Ajmal , Tanvir Ahmed , Junaid Khan , Umar Akmal , Umar Gul , Mohammad Salman (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 73 ( Taufeeq Umar , 22.2 ov ) , 2 - 82 ( Mohammad Hafeez , 24.6 ov ) , 3 - 92 ( Asad Shafiq , 26.3 ov )",
             "bowling": [
                 {
@@ -362,5 +362,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 51 balls remaining) (D/L method)"
+    "result": "Pakistan won by 7 wickets (with 51 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Ireland": [
+            "Boyd Rankin",
+            "Andrew White",
+            "Nigel Jones",
+            "Paul Stirling",
+            "William Porterfield(c)",
+            "John Mooney",
+            "Trent Johnston",
+            "Ed Joyce",
+            "Alex Cusack",
+            "Gary Wilson (wk)",
+            "Kevin O'Brien"
+        ],
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Taufeeq Umar",
+            "Mohammad Salman (wk)",
+            "Tanvir Ahmed",
+            "Umar Gul",
+            "Misbah-ul-Haq(c)",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Asad Shafiq",
+            "Younis Khan",
+            "Umar Akmal"
+        ]
+    }
 }

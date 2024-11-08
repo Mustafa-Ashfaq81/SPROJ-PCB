@@ -69,7 +69,7 @@
                 },
                 {
                     "batsman": "Tim de Leede",
-                    "dismissal": "c Northcote b Jayasena",
+                    "dismissal": "c (wk)Northcote b Jayasena",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -118,7 +118,7 @@
                     "strike_rate": "-"
                 }
             ],
-            "did_not_bat": "Jeroen Smits , Mohammad Kashif",
+            "did_not_bat": "Jeroen Smits (wk) , Mohammad Kashif",
             "fall_of_wickets": "Fall of wickets : 1 - 45 ( Bas Zuiderent ) , 2 - 61 ( Darron Reekers ) , 3 - 223 ( Ryan ten Doeschate ) , 4 - 226 ( Tim de Leede ) , 5 - 265 ( Daan van Bunge ) , 6 - 277 ( Luuk van Troost ) , 7 - 317 ( Alexei Kervezee )",
             "bowling": [
                 {
@@ -212,7 +212,7 @@
                 },
                 {
                     "batsman": "Alessandro Bonora(c)",
-                    "dismissal": "c Smits b ten Doeschate",
+                    "dismissal": "c (wk)Smits b ten Doeschate",
                     "runs": "25",
                     "balls": "56",
                     "minutes": "70",
@@ -261,7 +261,7 @@
                     "strike_rate": "49.15"
                 },
                 {
-                    "batsman": "Nic Northcote",
+                    "batsman": "Nic Northcote (wk)",
                     "dismissal": "b Mohammad Kashif",
                     "runs": "17",
                     "balls": "49",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Kelum Perera",
-                    "dismissal": "st Smits b van Bunge",
+                    "dismissal": "st (wk)Smits b van Bunge",
                     "runs": "3",
                     "balls": "25",
                     "minutes": "22",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 140 runs"
+    "result": "Netherlands won by 140 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Ryan ten Doeschate",
+            "Billy Stelling",
+            "Luuk van Troost(c)",
+            "Tim de Leede",
+            "Daan van Bunge",
+            "Mohammad Kashif",
+            "Peter Borren",
+            "Darron Reekers",
+            "Bas Zuiderent",
+            "Alexei Kervezee",
+            "Jeroen Smits (wk)"
+        ],
+        "Italy": [
+            "Alauddin",
+            "Troy Crosland",
+            "Nicola Puccio",
+            "Edoardo Gallo",
+            "Hemantha Jayasena",
+            "Valerio Zuppiroli",
+            "Nic Northcote (wk)",
+            "Kelum Perera",
+            "Samantha Ketipe",
+            "Alessandro Bonora(c)",
+            "Andy Corbellari"
+        ]
+    }
 }

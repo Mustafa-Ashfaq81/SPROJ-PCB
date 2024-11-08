@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Thomas b Sammy",
+                    "dismissal": "c (wk)Thomas b Sammy",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "15",
@@ -61,7 +61,7 @@
                     "strike_rate": "92.59"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Sarwan b Sammy",
                     "runs": "0",
                     "balls": "4",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Thomas b Roach",
+                    "dismissal": "c (wk)Thomas b Roach",
                     "runs": "11",
                     "balls": "21",
                     "minutes": "33",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Naeem Islam",
-                    "dismissal": "c Thomas b Benn",
+                    "dismissal": "c (wk)Thomas b Benn",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "14",
@@ -226,7 +226,7 @@
                     "strike_rate": "34.61"
                 }
             ],
-            "did_not_bat": "Ramnaresh Sarwan , Shivnarine Chanderpaul , Kieron Pollard , Devon Thomas , Daren Sammy (c) , Nikita Miller , Sulieman Benn , Kemar Roach",
+            "did_not_bat": "Ramnaresh Sarwan , Shivnarine Chanderpaul , Kieron Pollard , Devon Thomas (wk) , Daren Sammy (c) , Nikita Miller , Sulieman Benn , Kemar Roach",
             "fall_of_wickets": "Fall of wickets : 1 - 29 ( Devon Smith , 5.1 ov )",
             "bowling": [
                 {
@@ -316,5 +316,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 9 wickets (with 226 balls remaining)"
+    "result": "West Indies won by 9 wickets (with 226 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Shakib Al Hasan(c)",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Naeem Islam",
+            "Shafiul Islam",
+            "Imrul Kayes",
+            "Zunaed Siddique",
+            "Abdur Razzak",
+            "Raqibul Hasan",
+            "Rubel Hossain"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Kieron Pollard",
+            "Daren Sammy (c)",
+            "Devon Smith",
+            "Sulieman Benn",
+            "Darren Bravo",
+            "Ramnaresh Sarwan",
+            "Shivnarine Chanderpaul",
+            "Devon Thomas (wk)",
+            "Nikita Miller",
+            "Kemar Roach"
+        ]
+    }
 }

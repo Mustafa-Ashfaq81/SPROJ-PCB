@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Taibu b Rainsford",
+                    "dismissal": "c (wk)Taibu b Rainsford",
                     "runs": "17",
                     "balls": "29",
                     "minutes": "44",
@@ -49,7 +49,7 @@
                     "strike_rate": "58.62"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Masakadza b Rainsford",
                     "runs": "0",
                     "balls": "1",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "John Mooney",
-                    "dismissal": "run out (Utseya/Taibu)",
+                    "dismissal": "run out (Utseya/ (wk)Taibu)",
                     "runs": "22",
                     "balls": "23",
                     "minutes": "28",
@@ -270,7 +270,7 @@
                     "strike_rate": "57.44"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Stirling b Johnston",
                     "runs": "62",
                     "balls": "106",
@@ -454,5 +454,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 2 wickets (with 0 balls remaining)"
+    "result": "Zimbabwe won by 2 wickets (with 0 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Andrew White",
+            "Nigel Jones",
+            "Albert van der Merwe",
+            "Gary Wilson",
+            "Paul Stirling",
+            "William Porterfield(c)",
+            "John Mooney",
+            "Trent Johnston",
+            "Niall O'Brien (wk)",
+            "Kevin O'Brien"
+        ],
+        "Zimbabwe": [
+            "Elton Chigumbura(c)",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Brendan Taylor",
+            "Ed Rainsford",
+            "Graeme Cremer",
+            "Chris Mpofu",
+            "Charles Coventry",
+            "Tatenda Taibu (wk)"
+        ]
+    }
 }

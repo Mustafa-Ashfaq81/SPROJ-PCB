@@ -53,7 +53,7 @@
                     "strike_rate": "109.52"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Mathews b Fernando",
                     "runs": "72",
                     "balls": "53",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "11",
                     "balls": "8",
                     "minutes": "11",
@@ -235,7 +235,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "st Dhoni b Raina",
+                    "dismissal": "st (wk)Dhoni b Raina",
                     "runs": "67",
                     "balls": "60",
                     "minutes": "108",
@@ -254,7 +254,7 @@
                     "strike_rate": "129.03"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Jadeja b Kumar",
                     "runs": "90",
                     "balls": "43",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "7",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "run out (Kohli/Dhoni)",
+                    "dismissal": "run out (Kohli/ (wk)Dhoni)",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "14",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "India won by 3 runs"
+    "result": "India won by 3 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Praveen Kumar",
+            "Ashish Nehra",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ],
+        "Sri Lanka": [
+            "Angelo Mathews",
+            "Thilina Kandamby",
+            "Chanaka Welegedara",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara(c) (wk)",
+            "Dilhara Fernando",
+            "Nuwan Kulasekara",
+            "Sanath Jayasuriya",
+            "Thilan Samaraweera",
+            "Upul Tharanga"
+        ]
+    }
 }

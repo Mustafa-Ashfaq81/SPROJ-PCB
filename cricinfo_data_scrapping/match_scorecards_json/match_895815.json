@@ -93,8 +93,8 @@
                     "strike_rate": "121.42"
                 },
                 {
-                    "batsman": "Matthew Wade",
-                    "dismissal": "c Dhoni b Yadav",
+                    "batsman": "Matthew Wade (wk)",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "36",
                     "balls": "27",
                     "minutes": "39",
@@ -221,7 +221,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Wade b Hastings",
+                    "dismissal": "c (wk)Wade b Hastings",
                     "runs": "99",
                     "balls": "108",
                     "minutes": "142",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Wade b Hastings",
+                    "dismissal": "c (wk)Wade b Hastings",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "11",
@@ -260,7 +260,7 @@
                     "strike_rate": "128.39"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Warner b MR Marsh",
                     "runs": "34",
                     "balls": "42",
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 2 balls remaining)"
+    "result": "India won by 6 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Marsh",
+            "Scott Boland",
+            "Steven Smith(c)",
+            "Matthew Wade (wk)",
+            "John Hastings",
+            "George Bailey",
+            "Shaun Marsh",
+            "David Warner",
+            "Aaron Finch",
+            "James Faulkner",
+            "Nathan Lyon"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "Gurkeerat Singh Mann",
+            "Jasprit Bumrah",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Rishi Dhawan",
+            "Ishant Sharma",
+            "Ravindra Jadeja",
+            "Umesh Yadav",
+            "Manish Pandey",
+            "Shikhar Dhawan"
+        ]
+    }
 }

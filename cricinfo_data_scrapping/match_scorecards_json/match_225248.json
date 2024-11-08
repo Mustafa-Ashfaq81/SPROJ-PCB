@@ -103,7 +103,7 @@
                     "strike_rate": "104.16"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Strauss b Yardy",
                     "runs": "10",
                     "balls": "22",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c Kamran Akmal b Mohammad Asif",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Asif",
                     "runs": "13",
                     "balls": "23",
                     "minutes": "43",
@@ -284,7 +284,7 @@
                     "strike_rate": "85.41"
                 }
             ],
-            "did_not_bat": "Paul Collingwood , Jamie Dalrymple , Michael Yardy , Chris Read , Jon Lewis , Sajid Mahmood , Stuart Broad",
+            "did_not_bat": "Paul Collingwood , Jamie Dalrymple , Michael Yardy , Chris Read (wk) , Jon Lewis , Sajid Mahmood , Stuart Broad",
             "fall_of_wickets": "Fall of wickets : 1 - 38 ( Ed Joyce , 9.5 ov ) , 2 - 148 ( Andrew Strauss , 29.5 ov )",
             "bowling": [
                 {
@@ -388,5 +388,33 @@
             ]
         }
     ],
-    "result": "England won by 8 wickets (with 22 balls remaining)"
+    "result": "England won by 8 wickets (with 22 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Younis Khan",
+            "Shoaib Akhtar",
+            "Abdul Razzaq",
+            "Mohammad Hafeez",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Shoaib Malik"
+        ],
+        "England": [
+            "Jamie Dalrymple",
+            "Michael Yardy",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Jon Lewis",
+            "Andrew Strauss(c)",
+            "Chris Read (wk)",
+            "Stuart Broad",
+            "Sajid Mahmood",
+            "Ed Joyce",
+            "Ian Bell"
+        ]
+    }
 }

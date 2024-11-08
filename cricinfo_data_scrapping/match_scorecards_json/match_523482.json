@@ -68,7 +68,7 @@
                 },
                 {
                     "batsman": "Collins Obuya(c)",
-                    "dismissal": "st Barresi b Seelaar",
+                    "dismissal": "st (wk)Barresi b Seelaar",
                     "runs": "7",
                     "balls": "17",
                     "minutes": "10",
@@ -87,8 +87,8 @@
                     "strike_rate": "64.70"
                 },
                 {
-                    "batsman": "Irfan Karim",
-                    "dismissal": "c Barresi b Mudassar Bukhari",
+                    "batsman": "Irfan Karim (wk)",
+                    "dismissal": "c (wk)Barresi b Mudassar Bukhari",
                     "runs": "32",
                     "balls": "38",
                     "minutes": "59",
@@ -278,7 +278,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "c CO Obuya b Onyango",
                     "runs": "13",
                     "balls": "42",
@@ -309,7 +309,7 @@
                 },
                 {
                     "batsman": "Peter Borren(c)",
-                    "dismissal": "c Karim b Oluoch",
+                    "dismissal": "c (wk)Karim b Oluoch",
                     "runs": "40",
                     "balls": "42",
                     "minutes": "62",
@@ -329,7 +329,7 @@
                 },
                 {
                     "batsman": "Tom Heggelman",
-                    "dismissal": "c Karim b Oluoch",
+                    "dismissal": "c (wk)Karim b Oluoch",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "4",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 2 wickets (with 6 balls remaining) (D/L method)"
+    "result": "Netherlands won by 2 wickets (with 6 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Kenya": [
+            "Rakep Patel",
+            "Seren Waters",
+            "Hiren Varaiya",
+            "David Obuya",
+            "Irfan Karim (wk)",
+            "Lameck Onyango",
+            "Runish Gudhka",
+            "Lucas Oluoch",
+            "Duncan Allan",
+            "Tanmay Mishra",
+            "Collins Obuya(c)"
+        ],
+        "Netherlands": [
+            "Tim Gruijters",
+            "Stephan Myburgh",
+            "Ahsan Malik",
+            "Pieter Seelaar",
+            "Wesley Barresi (wk)",
+            "Eric Szwarczynski",
+            "Tom de Grooth",
+            "Tom Heggelman",
+            "Mudassar Bukhari",
+            "Peter Borren(c)",
+            "Michael Swart"
+        ]
+    }
 }

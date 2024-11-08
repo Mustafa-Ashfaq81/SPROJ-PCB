@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Moeen Ali",
-                    "dismissal": "c Sangakkara b Dilshan",
+                    "dismissal": "c (wk)Sangakkara b Dilshan",
                     "runs": "19",
                     "balls": "20",
                     "minutes": "37",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Sangakkara b Dilshan",
+                    "dismissal": "c (wk)Sangakkara b Dilshan",
                     "runs": "62",
                     "balls": "47",
                     "minutes": "59",
@@ -90,7 +90,7 @@
                     "strike_rate": "131.91"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Jayawardene b Herath",
                     "runs": "15",
                     "balls": "22",
@@ -271,7 +271,7 @@
                     "strike_rate": "75.60"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Woakes b Jordan",
                     "runs": "86",
                     "balls": "105",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 wickets (with 2 balls remaining)"
+    "result": "Sri Lanka won by 6 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "Chris Jordan",
+            "Steven Finn",
+            "James Taylor",
+            "Ben Stokes",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Alex Hales",
+            "Ravi Bopara"
+        ],
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Mahela Jayawardene",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Ajantha Mendis",
+            "Angelo Mathews(c)",
+            "Dhammika Prasad",
+            "Rangana Herath"
+        ]
+    }
 }

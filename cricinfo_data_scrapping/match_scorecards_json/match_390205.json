@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Seren Waters",
-                    "dismissal": "c Smits b Schiferli",
+                    "dismissal": "c (wk)Smits b Schiferli",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "10",
@@ -50,7 +50,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "lbw b ten Doeschate",
                     "runs": "15",
                     "balls": "26",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Jimmy Kamande",
-                    "dismissal": "c Smits b Schiferli",
+                    "dismissal": "c (wk)Smits b Schiferli",
                     "runs": "58",
                     "balls": "50",
                     "minutes": "54",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Hiren Varaiya",
-                    "dismissal": "c Smits b Borren",
+                    "dismissal": "c (wk)Smits b Borren",
                     "runs": "19",
                     "balls": "19",
                     "minutes": "38",
@@ -263,7 +263,7 @@
                     "strike_rate": "68.08"
                 }
             ],
-            "did_not_bat": "Jeroen Smits (c) , Daan van Bunge , Peter Borren , Mudassar Bukhari , Edgar Schiferli , Pieter Seelaar",
+            "did_not_bat": "Jeroen Smits (c) (wk) , Daan van Bunge , Peter Borren , Mudassar Bukhari , Edgar Schiferli , Pieter Seelaar",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Darron Reekers , 1.6 ov ) , 2 - 62 ( Alexei Kervezee , 16.4 ov ) , 3 - 62 ( Eric Szwarczynski , 17.1 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 7 wickets (with 22 balls remaining)"
+    "result": "Netherlands won by 7 wickets (with 22 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Peter Ongondo",
+            "Morris Ouma (wk)",
+            "Steve Tikolo(c)",
+            "Lameck Onyango",
+            "Thomas Odoyo",
+            "Jimmy Kamande",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Nehemiah Odhiambo",
+            "Kennedy Otieno",
+            "Seren Waters"
+        ],
+        "Netherlands": [
+            "Bas Zuiderent",
+            "Darron Reekers",
+            "Eric Szwarczynski",
+            "Pieter Seelaar",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Alexei Kervezee",
+            "Peter Borren",
+            "Jeroen Smits (c) (wk)",
+            "Daan van Bunge",
+            "Ryan ten Doeschate"
+        ]
+    }
 }

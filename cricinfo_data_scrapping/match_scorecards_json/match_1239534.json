@@ -47,7 +47,7 @@
                     "strike_rate": "26.31"
                 },
                 {
-                    "batsman": "Kusal Perera(c)",
+                    "batsman": "Kusal Perera(c) (wk)",
                     "dismissal": "c Billings b Willey",
                     "runs": "73",
                     "balls": "81",
@@ -68,7 +68,7 @@
                 },
                 {
                     "batsman": "Dasun Shanaka",
-                    "dismissal": "c Bairstow b Woakes",
+                    "dismissal": "c (wk)Bairstow b Woakes",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "14",
@@ -244,7 +244,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Jonny Bairstow",
+                    "batsman": "Jonny Bairstow (wk)",
                     "dismissal": "b Fernando",
                     "runs": "43",
                     "balls": "21",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Perera b Chameera",
+                    "dismissal": "c (wk)Perera b Chameera",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "17",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "England won by 5 wickets (with 91 balls remaining)"
+    "result": "England won by 5 wickets (with 91 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Binura Fernando",
+            "Praveen Jayawickrama",
+            "Charith Asalanka",
+            "Dhananjaya Lakshan",
+            "Ramesh Mendis",
+            "Pathum Nissanka",
+            "Chamika Karunaratne",
+            "Dushmantha Chameera",
+            "Dasun Shanaka",
+            "Kusal Perera(c) (wk)"
+        ],
+        "England": [
+            "Mark Wood",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Sam Curran",
+            "Liam Livingstone",
+            "Chris Woakes",
+            "Jonny Bairstow (wk)",
+            "Adil Rashid",
+            "David Willey",
+            "Sam Billings",
+            "Joe Root"
+        ]
+    }
 }

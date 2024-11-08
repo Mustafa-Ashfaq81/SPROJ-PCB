@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Imran Farhat",
-                    "dismissal": "run out (Read)",
+                    "dismissal": "run out ( (wk)Read)",
                     "runs": "15",
                     "balls": "40",
                     "minutes": "58",
@@ -100,8 +100,8 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Read b Yardy",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Read b Yardy",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "8",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "35",
                     "balls": "41",
                     "minutes": "41",
@@ -307,7 +307,7 @@
                     "strike_rate": "38.70"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "c Naved-ul-Hasan b Abdul Razzaq",
                     "runs": "4",
                     "balls": "6",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 114 balls remaining)"
+    "result": "England won by 3 wickets (with 114 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Younis Khan",
+            "Imran Farhat",
+            "Mohammad Hafeez",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Iftikhar Anjum",
+            "Abdul Razzaq"
+        ],
+        "England": [
+            "Jamie Dalrymple",
+            "Michael Yardy",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Jon Lewis",
+            "Andrew Strauss(c)",
+            "Chris Read (wk)",
+            "Stuart Broad",
+            "Sajid Mahmood",
+            "Ed Joyce",
+            "Ian Bell"
+        ]
+    }
 }

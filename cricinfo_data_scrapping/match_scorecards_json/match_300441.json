@@ -43,7 +43,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Phil Mustard",
+                    "batsman": "Phil Mustard (wk)",
                     "dismissal": "c How b Mills",
                     "runs": "2",
                     "balls": "8",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood(c)",
-                    "dismissal": "st McCullum b Vettori",
+                    "dismissal": "st (wk)McCullum b Vettori",
                     "runs": "14",
                     "balls": "27",
                     "minutes": "31",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "29",
                     "balls": "48",
                     "minutes": "57",
@@ -244,7 +244,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Collingwood",
                     "runs": "77",
                     "balls": "43",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Jamie How",
-                    "dismissal": "c Mustard b Sidebottom",
+                    "dismissal": "c (wk)Mustard b Sidebottom",
                     "runs": "24",
                     "balls": "43",
                     "minutes": "46",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 34 runs (D/L method)"
+    "result": "New Zealand won by 34 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Ryan Sidebottom",
+            "Dimitri Mascarenhas",
+            "Stuart Broad",
+            "Kevin Pietersen",
+            "Phil Mustard (wk)",
+            "Alastair Cook",
+            "Ian Bell",
+            "Owais Shah",
+            "James Anderson",
+            "Luke Wright",
+            "Paul Collingwood(c)"
+        ],
+        "New Zealand": [
+            "Jamie How",
+            "Brendon McCullum (wk)",
+            "Jeetan Patel",
+            "Chris Martin",
+            "Kyle Mills",
+            "Scott Styris",
+            "Ross Taylor",
+            "Daniel Flynn",
+            "Jesse Ryder",
+            "Jacob Oram",
+            "Daniel Vettori(c)"
+        ]
+    }
 }

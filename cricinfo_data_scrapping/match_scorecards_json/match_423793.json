@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Peter Ingram",
-                    "dismissal": "c Haddin b Harris",
+                    "dismissal": "c (wk)Haddin b Harris",
                     "runs": "5",
                     "balls": "3",
                     "minutes": "4",
@@ -90,7 +90,7 @@
                     "strike_rate": "80.39"
                 },
                 {
-                    "batsman": "Gareth Hopkins",
+                    "batsman": "Gareth Hopkins (wk)",
                     "dismissal": "c Watson b Harris",
                     "runs": "45",
                     "balls": "51",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Shane Bond",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "11",
                     "balls": "11",
                     "minutes": "20",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "run out (Hopkins)",
+                    "dismissal": "run out ( (wk)Hopkins)",
                     "runs": "15",
                     "balls": "22",
                     "minutes": "32",
@@ -247,8 +247,8 @@
                     "strike_rate": "68.18"
                 },
                 {
-                    "batsman": "Brad Haddin",
-                    "dismissal": "st Hopkins b Vettori",
+                    "batsman": "Brad Haddin (wk)",
+                    "dismissal": "st (wk)Hopkins b Vettori",
                     "runs": "110",
                     "balls": "121",
                     "minutes": "176",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 16 balls remaining)"
+    "result": "Australia won by 6 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Gareth Hopkins (wk)",
+            "Scott Styris",
+            "Martin Guptill",
+            "Neil Broom",
+            "Daniel Vettori(c)",
+            "Michael Mason",
+            "Brendon McCullum",
+            "Shane Bond",
+            "Peter Ingram",
+            "Tim Southee",
+            "Ross Taylor"
+        ],
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Adam Voges",
+            "James Hopes",
+            "Cameron White",
+            "Doug Bollinger",
+            "Brad Haddin (wk)",
+            "Ryan Harris",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Mitchell Johnson"
+        ]
+    }
 }

@@ -54,7 +54,7 @@
                     "strike_rate": "107.14"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Rashid b Stokes",
                     "runs": "64",
                     "balls": "65",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Jason Holder(c)",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "16",
                     "balls": "12",
                     "minutes": "20",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Carlos Brathwaite",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "13",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Hope b Holder",
+                    "dismissal": "c (wk)Hope b Holder",
                     "runs": "34",
                     "balls": "33",
                     "minutes": "48",
@@ -281,7 +281,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "1",
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 8 balls remaining)"
+    "result": "England won by 6 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Shimron Hetmyer",
+            "Darren Bravo",
+            "Oshane Thomas",
+            "Devendra Bishoo",
+            "Carlos Brathwaite",
+            "Nicholas Pooran",
+            "John Campbell",
+            "Jason Holder(c)",
+            "Ashley Nurse",
+            "Shai Hope (wk)"
+        ],
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Liam Plunkett",
+            "Ben Stokes",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Mark Wood",
+            "Adil Rashid",
+            "Jonny Bairstow",
+            "Joe Root",
+            "Jason Roy"
+        ]
+    }
 }

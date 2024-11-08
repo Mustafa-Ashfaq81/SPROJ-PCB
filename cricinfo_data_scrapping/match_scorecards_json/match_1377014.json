@@ -34,8 +34,8 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "6",
                     "balls": "22",
                     "minutes": "35",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Ibrahim Zadran",
-                    "dismissal": "c Mushfiqur Rahim b Shoriful Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shoriful Islam",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "12",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Mushfiqur Rahim b Shoriful Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shoriful Islam",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -277,7 +277,7 @@
                     "strike_rate": "115.78"
                 }
             ],
-            "did_not_bat": "Mushfiqur Rahim , Afif Hossain , Mehidy Hasan Miraz , Taskin Ahmed , Shoriful Islam , Taijul Islam",
+            "did_not_bat": "Mushfiqur Rahim (wk) , Afif Hossain , Mehidy Hasan Miraz , Taskin Ahmed , Shoriful Islam , Taijul Islam",
             "fall_of_wickets": "Fall of wickets : 1 - 2 ( Mohammad Naim , 2.2 ov ) , 2 - 28 ( Najmul Hossain Shanto , 6.6 ov ) , 3 - 89 ( Shakib Al Hasan , 17.1 ov ) DRS",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 7 wickets (with 159 balls remaining)"
+    "result": "Bangladesh won by 7 wickets (with 159 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Zia-ur-Rehman",
+            "Hashmatullah Shahidi(c)",
+            "Azmatullah Omarzai",
+            "Mujeeb Ur Rahman",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Fazalhaq Farooqi",
+            "Ibrahim Zadran",
+            "Abdul Rahman",
+            "Rahmanullah Gurbaz (wk)"
+        ],
+        "Bangladesh": [
+            "Litton Das(c)",
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Mohammad Naim",
+            "Shoriful Islam",
+            "Najmul Hossain Shanto",
+            "Mehidy Hasan Miraz",
+            "Afif Hossain",
+            "Taijul Islam",
+            "Taskin Ahmed",
+            "Towhid Hridoy"
+        ]
+    }
 }

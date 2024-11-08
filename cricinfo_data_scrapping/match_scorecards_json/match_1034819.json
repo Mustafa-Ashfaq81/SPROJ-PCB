@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "73",
                     "balls": "61",
                     "minutes": "78",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Dhoni b Pandya",
+                    "dismissal": "c (wk)Dhoni b Pandya",
                     "runs": "28",
                     "balls": "26",
                     "minutes": "36",
@@ -70,7 +70,7 @@
                     "strike_rate": "107.69"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Dhawan b Pandya",
                     "runs": "31",
                     "balls": "36",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "15",
                     "balls": "12",
                     "minutes": "21",
@@ -271,7 +271,7 @@
                     "strike_rate": "125.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Willey b Ball",
                     "runs": "6",
                     "balls": "6",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "India won by 3 wickets (with 11 balls remaining)"
+    "result": "India won by 3 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Chris Woakes",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Jake Ball",
+            "Alex Hales",
+            "David Willey",
+            "Moeen Ali",
+            "Ben Stokes"
+        ],
+        "India": [
+            "Hardik Pandya",
+            "Kedar Jadhav",
+            "Yuvraj Singh",
+            "Shikhar Dhawan",
+            "KL Rahul",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Virat Kohli(c)",
+            "Jasprit Bumrah",
+            "MS Dhoni (wk)",
+            "Umesh Yadav"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "b Streak",
                     "runs": "19",
                     "balls": "29",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c Taibu b Ervine",
+                    "dismissal": "c (wk)Taibu b Ervine",
                     "runs": "12",
                     "balls": "21",
                     "minutes": "39",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Stuart Carlisle",
-                    "dismissal": "c Patel b Ganguly",
+                    "dismissal": "c (wk)Patel b Ganguly",
                     "runs": "34",
                     "balls": "61",
                     "minutes": "92",
@@ -269,7 +269,7 @@
                     "strike_rate": "23.07"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Laxman b Ganguly",
                     "runs": "15",
                     "balls": "36",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "India won by 24 runs"
+    "result": "India won by 24 runs",
+    "playing_xi": {
+        "India": [
+            "Rahul Dravid",
+            "Ashish Nehra",
+            "Lakshmipathy Balaji",
+            "Irfan Pathan",
+            "VVS Laxman",
+            "Yuvraj Singh",
+            "Sourav Ganguly(c)",
+            "Parthiv Patel (wk)",
+            "Hemang Badani",
+            "Anil Kumble",
+            "Rohan Gavaskar"
+        ],
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Mark Vermeulen",
+            "Ray Price",
+            "Stuart Carlisle",
+            "Grant Flower",
+            "Andy Blignaut",
+            "Dion Ebrahim",
+            "Travis Friend",
+            "Heath Streak(c)",
+            "Sean Ervine",
+            "Douglas Hondo"
+        ]
+    }
 }

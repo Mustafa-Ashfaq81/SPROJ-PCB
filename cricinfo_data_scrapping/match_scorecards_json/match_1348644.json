@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Nuwanidu Fernando",
-                    "dismissal": "run out (Shubman Gill/Rahul)",
+                    "dismissal": "run out (Shubman Gill/ (wk)Rahul)",
                     "runs": "50",
                     "balls": "63",
                     "minutes": "101",
@@ -53,7 +53,7 @@
                     "strike_rate": "79.36"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "lbw b Kuldeep Yadav",
                     "runs": "34",
                     "balls": "34",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma(c)",
-                    "dismissal": "c Mendis b Karunaratne",
+                    "dismissal": "c (wk)Mendis b Karunaratne",
                     "runs": "17",
                     "balls": "21",
                     "minutes": "23",
@@ -280,7 +280,7 @@
                     "strike_rate": "84.84"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "not out",
                     "runs": "64",
                     "balls": "103",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Hardik Pandya",
-                    "dismissal": "c Mendis b Karunaratne",
+                    "dismissal": "c (wk)Mendis b Karunaratne",
                     "runs": "36",
                     "balls": "53",
                     "minutes": "86",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 40 balls remaining)"
+    "result": "India won by 4 wickets (with 40 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Dunith Wellalage",
+            "Dhananjaya de Silva",
+            "Kusal Mendis (wk)",
+            "Kasun Rajitha",
+            "Charith Asalanka",
+            "Avishka Fernando",
+            "Nuwanidu Fernando",
+            "Lahiru Kumara",
+            "Chamika Karunaratne",
+            "Dasun Shanaka(c)"
+        ],
+        "India": [
+            "Rohit Sharma(c)",
+            "Shreyas Iyer",
+            "Hardik Pandya",
+            "Umran Malik",
+            "Mohammed Siraj",
+            "Shubman Gill",
+            "Kuldeep Yadav",
+            "Axar Patel",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "KL Rahul (wk)"
+        ]
+    }
 }

@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "32",
                     "balls": "55",
                     "minutes": "71",
@@ -101,7 +101,7 @@
                     "strike_rate": "263.63"
                 }
             ],
-            "did_not_bat": "Rashid Latif , Wasim Akram , Waqar Younis (c) , Mohammad Sami",
+            "did_not_bat": "Rashid Latif (wk) , Wasim Akram , Waqar Younis (c) , Mohammad Sami",
             "fall_of_wickets": "Fall of wickets : 1 - 15 ( Imran Nazir , 2.1 ov ) , 2 - 85 ( Mohammad Yousuf , 18.4 ov ) , 3 - 147 ( Saeed Anwar , 31.6 ov ) , 4 - 170 ( Shahid Afridi , 37.1 ov ) , 5 - 229 ( Inzamam-ul-Haq , 46.2 ov )",
             "bowling": [
                 {
@@ -218,7 +218,7 @@
                     "strike_rate": "57.53"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Wasim Akram b Abdul Razzaq",
                     "runs": "38",
                     "balls": "53",
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 28 runs"
+    "result": "Pakistan won by 28 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Inzamam-ul-Haq",
+            "Mohammad Yousuf",
+            "Saeed Anwar",
+            "Rashid Latif (wk)",
+            "Imran Nazir",
+            "Wasim Akram",
+            "Mohammad Sami",
+            "Abdul Razzaq",
+            "Younis Khan",
+            "Waqar Younis (c)"
+        ],
+        "Sri Lanka": [
+            "Aravinda de Silva",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Pulasthi Gunaratne",
+            "Marvan Atapattu",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)"
+        ]
+    }
 }

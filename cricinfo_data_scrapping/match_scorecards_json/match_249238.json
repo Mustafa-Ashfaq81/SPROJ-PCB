@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Peter Fulton",
-                    "dismissal": "c Nixon b Plunkett",
+                    "dismissal": "c (wk)Nixon b Plunkett",
                     "runs": "15",
                     "balls": "19",
                     "minutes": "19",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "st Nixon b Panesar",
+                    "dismissal": "st (wk)Nixon b Panesar",
                     "runs": "11",
                     "balls": "12",
                     "minutes": "25",
@@ -92,7 +92,7 @@
                     "strike_rate": "163.63"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Strauss b Panesar",
                     "runs": "19",
                     "balls": "18",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "st McCullum b Vettori",
+                    "dismissal": "st (wk)McCullum b Vettori",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "30",
@@ -289,7 +289,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "c Oram b Bond",
                     "runs": "49",
                     "balls": "47",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 58 runs"
+    "result": "New Zealand won by 58 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "Jeetan Patel",
+            "James Franklin",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Lou Vincent",
+            "Peter Fulton"
+        ],
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Liam Plunkett",
+            "Ed Joyce",
+            "Chris Tremlett",
+            "Andrew Strauss",
+            "Jamie Dalrymple",
+            "Mal Loye",
+            "Andrew Flintoff(c)"
+        ]
+    }
 }

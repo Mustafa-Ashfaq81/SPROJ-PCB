@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "99",
                     "balls": "91",
                     "minutes": "130",
@@ -80,8 +80,8 @@
                     "strike_rate": "77.27"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Kamran Akmal b Shoaib Akhtar",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Shoaib Akhtar",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "24",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "run out (Kamran Akmal)",
+                    "dismissal": "run out ( (wk)Kamran Akmal)",
                     "runs": "9",
                     "balls": "18",
                     "minutes": "15",
@@ -247,7 +247,7 @@
                     "strike_rate": "74.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Yuvraj Singh b Singh",
                     "runs": "13",
                     "balls": "19",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "12",
                     "balls": "25",
                     "minutes": "35",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 1 ball remaining)"
+    "result": "Pakistan won by 4 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Zaheer Khan",
+            "MS Dhoni(c) (wk)",
+            "Robin Uthappa",
+            "Sourav Ganguly",
+            "Harbhajan Singh",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "RP Singh",
+            "Gautam Gambhir"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Shahid Afridi",
+            "Iftikhar Anjum",
+            "Kamran Akmal (wk)",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Misbah-ul-Haq",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Sohail Tanvir",
+            "Younis Khan"
+        ]
+    }
 }

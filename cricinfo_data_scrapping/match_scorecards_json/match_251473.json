@@ -29,7 +29,7 @@
             "batting": [
                 {
                     "batsman": "John Davison(c)",
-                    "dismissal": "c Ryan Ebanks b Bovell",
+                    "dismissal": "c (wk)Ryan Ebanks b Bovell",
                     "runs": "26",
                     "balls": "24",
                     "minutes": "59",
@@ -48,7 +48,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Ashish Bagai",
+                    "batsman": "Ashish Bagai (wk)",
                     "dismissal": "b Taylor",
                     "runs": "0",
                     "balls": "1",
@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Ian Billcliff",
-                    "dismissal": "c Ryan Ebanks b Taylor",
+                    "dismissal": "c (wk)Ryan Ebanks b Taylor",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "4",
@@ -79,7 +79,7 @@
                 },
                 {
                     "batsman": "Durand Soraine",
-                    "dismissal": "c Ryan Ebanks b Ronald Ebanks",
+                    "dismissal": "c (wk)Ryan Ebanks b Ronald Ebanks",
                     "runs": "2",
                     "balls": "22",
                     "minutes": "45",
@@ -275,7 +275,7 @@
                     "strike_rate": "62.88"
                 }
             ],
-            "did_not_bat": "Philip Wight , Saheed Mohamed , Ryan Ebanks , Ronald Ebanks , Ryan Bovell , Troy Taylor , Jalon Linton",
+            "did_not_bat": "Philip Wight , Saheed Mohamed , Ryan Ebanks (wk) , Ronald Ebanks , Ryan Bovell , Troy Taylor , Jalon Linton",
             "fall_of_wickets": "Fall of wickets : 1 - 55 ( Keneil Irving ) , 2 - 57 ( Michael Wight )",
             "bowling": [
                 {
@@ -379,5 +379,33 @@
             ]
         }
     ],
-    "result": "Cayman won by 8 wickets"
+    "result": "Cayman won by 8 wickets",
+    "playing_xi": {
+        "Canada": [
+            "Durand Soraine",
+            "Steven Welsh",
+            "Abdool Samad",
+            "George Codrington",
+            "Austin Codrington",
+            "Ian Billcliff",
+            "Sandeep Jyoti",
+            "Ashish Bagai (wk)",
+            "John Davison(c)",
+            "Easan Sinnathamby",
+            "Kendon Ottley"
+        ],
+        "Cayman Islands": [
+            "Troy Taylor",
+            "Ronald Ebanks",
+            "Philip Wight",
+            "Steve Gordon(c)",
+            "Pearson Best",
+            "Ryan Bovell",
+            "Saheed Mohamed",
+            "Michael Wight",
+            "Keneil Irving",
+            "Ryan Ebanks (wk)",
+            "Jalon Linton"
+        ]
+    }
 }

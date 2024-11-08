@@ -38,7 +38,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "c Seelaar b Floyd",
                     "runs": "12",
                     "balls": "27",
@@ -79,7 +79,7 @@
                 },
                 {
                     "batsman": "Najibullah Zadran",
-                    "dismissal": "c Edwards b Kingma",
+                    "dismissal": "c (wk)Edwards b Kingma",
                     "runs": "71",
                     "balls": "59",
                     "minutes": "72",
@@ -233,7 +233,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "lbw b Qais Ahmad",
                     "runs": "54",
                     "balls": "74",
@@ -314,7 +314,7 @@
                 },
                 {
                     "batsman": "Philippe Boissevain",
-                    "dismissal": "st sub (Ikram Alikhil) b Rashid Khan",
+                    "dismissal": "st sub ( (wk)Ikram Alikhil) b Rashid Khan",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "11",
@@ -433,5 +433,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 75 runs"
+    "result": "Afghanistan won by 75 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Rashid Khan",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz (wk)",
+            "Fazalhaq Farooqi",
+            "Riaz Hassan",
+            "Mujeeb Ur Rahman",
+            "Qais Ahmad",
+            "Rahmat Shah",
+            "Fareed Ahmad",
+            "Azmatullah Omarzai"
+        ],
+        "Netherlands": [
+            "Brandon Glover",
+            "Clayton Floyd",
+            "Scott Edwards (wk)",
+            "Aryan Dutt",
+            "Colin Ackermann",
+            "Saqib Zulfiqar",
+            "Pieter Seelaar(c)",
+            "Bas de Leede",
+            "Vivian Kingma",
+            "Philippe Boissevain",
+            "Boris Gorlee"
+        ]
+    }
 }

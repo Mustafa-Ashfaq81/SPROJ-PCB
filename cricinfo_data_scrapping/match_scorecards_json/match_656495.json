@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Haddin b Faulkner",
+                    "dismissal": "c (wk)Haddin b Faulkner",
                     "runs": "40",
                     "balls": "72",
                     "minutes": "104",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "c Haddin b Faulkner",
+                    "dismissal": "c (wk)Haddin b Faulkner",
                     "runs": "83",
                     "balls": "82",
                     "minutes": "133",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Clarke b Starc",
                     "runs": "0",
                     "balls": "4",
@@ -287,7 +287,7 @@
                     "strike_rate": "40.00"
                 }
             ],
-            "did_not_bat": "Glenn Maxwell , James Faulkner , Brad Haddin , Mitchell Johnson , Mitchell Starc , Josh Hazlewood",
+            "did_not_bat": "Glenn Maxwell , James Faulkner , Brad Haddin (wk) , Mitchell Johnson , Mitchell Starc , Josh Hazlewood",
             "fall_of_wickets": "Fall of wickets : 1 - 2 ( Aaron Finch , 1.4 ov ) , 2 - 63 ( David Warner , 12.2 ov ) , 3 - 175 ( Michael Clarke , 31.1 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 101 balls remaining)"
+    "result": "Australia won by 7 wickets (with 101 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum(c)",
+            "Matt Henry",
+            "Martin Guptill",
+            "Kane Williamson",
+            "Corey Anderson",
+            "Trent Boult",
+            "Luke Ronchi (wk)",
+            "Daniel Vettori",
+            "Ross Taylor",
+            "Grant Elliott",
+            "Tim Southee"
+        ],
+        "Australia": [
+            "James Faulkner",
+            "Michael Clarke(c)",
+            "Aaron Finch",
+            "Brad Haddin (wk)",
+            "David Warner",
+            "Glenn Maxwell",
+            "Steven Smith",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Mitchell Johnson",
+            "Shane Watson"
+        ]
+    }
 }

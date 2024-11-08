@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Michael Papps",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "67",
                     "balls": "100",
                     "minutes": "-",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "run out (Boje/Boucher)",
+                    "dismissal": "run out (Boje/ (wk)Boucher)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "-",
@@ -93,7 +93,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "41",
                     "balls": "24",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c McCullum b Vettori",
+                    "dismissal": "c (wk)McCullum b Vettori",
                     "runs": "16",
                     "balls": "25",
                     "minutes": "-",
@@ -264,7 +264,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c & b Vettori",
                     "runs": "0",
                     "balls": "4",
@@ -285,7 +285,7 @@
                 },
                 {
                     "batsman": "Nicky Boje",
-                    "dismissal": "run out (Cairns/McCullum)",
+                    "dismissal": "run out (Cairns/ (wk)McCullum)",
                     "runs": "24",
                     "balls": "23",
                     "minutes": "-",
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 runs"
+    "result": "New Zealand won by 5 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Scott Styris",
+            "Chris Cairns",
+            "Jacob Oram",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Michael Papps",
+            "Hamish Marshall"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Andre Nel",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Herschelle Gibbs",
+            "Boeta Dippenaar",
+            "Ashwell Prince",
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Shaun Pollock",
+            "Jacques Kallis"
+        ]
+    }
 }

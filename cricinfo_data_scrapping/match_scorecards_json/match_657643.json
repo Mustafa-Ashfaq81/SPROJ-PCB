@@ -54,7 +54,7 @@
                     "strike_rate": "114.28"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (sub [Anwar Ali]/Mohammad Hafeez)",
                     "runs": "51",
                     "balls": "78",
@@ -135,7 +135,7 @@
                 },
                 {
                     "batsman": "Lasith Malinga",
-                    "dismissal": "c Umar Akmal b Saeed Ajmal",
+                    "dismissal": "c (wk)Umar Akmal b Saeed Ajmal",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "4",
@@ -281,7 +281,7 @@
                     "strike_rate": "82.14"
                 }
             ],
-            "did_not_bat": "Misbah-ul-Haq (c) , Umar Akmal , Shahid Afridi , Bilawal Bhatti , Saeed Ajmal , Junaid Khan , Umar Gul",
+            "did_not_bat": "Misbah-ul-Haq (c) , Umar Akmal (wk) , Shahid Afridi , Bilawal Bhatti , Saeed Ajmal , Junaid Khan , Umar Gul",
             "fall_of_wickets": "Fall of wickets : 1 - 31 ( Sharjeel Khan , 5.1 ov ) , 2 - 115 ( Ahmed Shehzad , 20.2 ov )",
             "bowling": [
                 {
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 53 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 53 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Suranga Lakmal",
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Ashan Priyanjan",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Nuwan Kulasekara",
+            "Kithuruwan Vithanage",
+            "Kusal Perera",
+            "Angelo Mathews(c)"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Umar Akmal (wk)",
+            "Misbah-ul-Haq (c)",
+            "Sohaib Maqsood",
+            "Sharjeel Khan",
+            "Umar Gul",
+            "Bilawal Bhatti",
+            "Saeed Ajmal",
+            "Shahid Afridi"
+        ]
+    }
 }

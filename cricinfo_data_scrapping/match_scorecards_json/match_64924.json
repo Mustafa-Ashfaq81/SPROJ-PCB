@@ -43,7 +43,7 @@
                     "strike_rate": "102.77"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Ntini b Nel",
                     "runs": "20",
                     "balls": "30",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "11",
@@ -215,7 +215,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Jones b Hoggard",
+                    "dismissal": "c (wk)Jones b Hoggard",
                     "runs": "25",
                     "balls": "37",
                     "minutes": "52",
@@ -264,7 +264,7 @@
                     "strike_rate": "123.07"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Giles b Ali",
                     "runs": "15",
                     "balls": "11",
@@ -295,7 +295,7 @@
                 },
                 {
                     "batsman": "Andrew Hall",
-                    "dismissal": "st Jones b Ali",
+                    "dismissal": "st (wk)Jones b Ali",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "England": [
+            "Matthew Hoggard",
+            "Michael Vaughan(c)",
+            "Ian Bell",
+            "Kabir Ali",
+            "Darren Gough",
+            "Kevin Pietersen",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Ashley Giles"
+        ],
+        "South Africa": [
+            "AB de Villiers",
+            "Makhaya Ntini",
+            "Graeme Smith(c)",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Mark Boucher (wk)",
+            "Andrew Hall",
+            "Shaun Pollock",
+            "Justin Kemp",
+            "Jacques Kallis"
+        ]
+    }
 }

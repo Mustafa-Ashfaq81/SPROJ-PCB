@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Sangakkara b de Silva",
+                    "dismissal": "c (wk)Sangakkara b de Silva",
                     "runs": "97",
                     "balls": "120",
                     "minutes": "160",
@@ -82,7 +82,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "not out",
                     "runs": "18",
                     "balls": "12",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Jehan Mubarak",
-                    "dismissal": "c Dravid b Srinath",
+                    "dismissal": "c (wk)Dravid b Srinath",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -273,7 +273,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Yuvraj Singh b Nehra",
                     "runs": "30",
                     "balls": "33",
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "India won by 183 runs"
+    "result": "India won by 183 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Ashish Nehra",
+            "Javagal Srinath",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)",
+            "Dinesh Mongia",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Zaheer Khan"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Aravinda de Silva",
+            "Sanath Jayasuriya(c)",
+            "Jehan Mubarak",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Prabath Nissanka",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ]
+    }
 }

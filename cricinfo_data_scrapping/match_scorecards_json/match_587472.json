@@ -60,7 +60,7 @@
                     "strike_rate": "54.54"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "c Simmons b Rampaul",
                     "runs": "79",
                     "balls": "87",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "15",
                     "balls": "22",
                     "minutes": "34",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "28",
                     "balls": "41",
                     "minutes": "69",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Mushfiqur Rahim b Sohag Gazi",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Sohag Gazi",
                     "runs": "16",
                     "balls": "21",
                     "minutes": "30",
@@ -267,7 +267,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "b Abdur Razzak",
                     "runs": "0",
                     "balls": "2",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "run out (Mominul Haque/Mushfiqur Rahim)",
+                    "dismissal": "run out (Mominul Haque/ (wk)Mushfiqur Rahim)",
                     "runs": "9",
                     "balls": "15",
                     "minutes": "26",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 160 runs"
+    "result": "Bangladesh won by 160 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mashrafe Mortaza",
+            "Mominul Haque",
+            "Sohag Gazi",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Mushfiqur Rahim(c) (wk)",
+            "Abul Hasan",
+            "Anamul Haque",
+            "Nasir Hossain",
+            "Mahmudullah"
+        ],
+        "West Indies": [
+            "Kieron Pollard",
+            "Sunil Narine",
+            "Darren Bravo",
+            "Ravi Rampaul",
+            "Andre Russell",
+            "Devon Thomas (wk)",
+            "Dwayne Smith",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Lendl Simmons",
+            "Daren Sammy(c)"
+        ]
+    }
 }

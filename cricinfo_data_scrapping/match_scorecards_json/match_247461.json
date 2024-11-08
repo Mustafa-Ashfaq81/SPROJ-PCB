@@ -61,8 +61,8 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "c Taylor b Chigumbura",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "c (wk)Taylor b Chigumbura",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "3",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien",
-                    "dismissal": "c Taylor b Rainsford",
+                    "dismissal": "c (wk)Taylor b Rainsford",
                     "runs": "10",
                     "balls": "28",
                     "minutes": "33",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Kyle McCallan",
-                    "dismissal": "st Taylor b Williams",
+                    "dismissal": "st (wk)Taylor b Williams",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Dave Langford-Smith",
-                    "dismissal": "c Taylor b Mpofu",
+                    "dismissal": "c (wk)Taylor b Mpofu",
                     "runs": "15",
                     "balls": "17",
                     "minutes": "21",
@@ -243,7 +243,7 @@
             "batting": [
                 {
                     "batsman": "Terry Duffin",
-                    "dismissal": "c NJ O'Brien b Rankin",
+                    "dismissal": "c (wk)NJ O'Brien b Rankin",
                     "runs": "12",
                     "balls": "22",
                     "minutes": "23",
@@ -302,7 +302,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "run out (McCallan)",
                     "runs": "24",
                     "balls": "40",
@@ -333,7 +333,7 @@
                 },
                 {
                     "batsman": "Chris Mpofu",
-                    "dismissal": "run out (Johnston/NJ O'Brien)",
+                    "dismissal": "run out (Johnston/ (wk)NJ O'Brien)",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "3",
@@ -343,7 +343,7 @@
                 },
                 {
                     "batsman": "Ed Rainsford",
-                    "dismissal": "run out (NJ O'Brien/White)",
+                    "dismissal": "run out ( (wk)NJ O'Brien/White)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "10",
@@ -456,5 +456,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "Ireland": [
+            "Kyle McCallan",
+            "William Porterfield",
+            "Kevin O'Brien",
+            "Jeremy Bray",
+            "Dave Langford-Smith",
+            "Boyd Rankin",
+            "Eoin Morgan",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Andre Botha",
+            "Andrew White"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Prosper Utseya(c)",
+            "Ed Rainsford",
+            "Gary Brent",
+            "Sean Williams",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Chamu Chibhabha",
+            "Terry Duffin",
+            "Chris Mpofu",
+            "Vusi Sibanda"
+        ]
+    }
 }

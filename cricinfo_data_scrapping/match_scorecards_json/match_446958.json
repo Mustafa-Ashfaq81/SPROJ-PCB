@@ -60,7 +60,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c McKay b Watson",
                     "runs": "45",
                     "balls": "52",
@@ -187,7 +187,7 @@
                     "strike_rate": "90.90"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Kulasekara",
                     "runs": "1",
                     "balls": "3",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "st Sangakkara b Randiv",
+                    "dismissal": "st (wk)Sangakkara b Randiv",
                     "runs": "33",
                     "balls": "37",
                     "minutes": "65",
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 29 runs (D/L method)"
+    "result": "Sri Lanka won by 29 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Suraj Randiv",
+            "Lasith Malinga",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Muthiah Muralidaran",
+            "Thisara Perera",
+            "Kumar Sangakkara(c) (wk)",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Chamara Silva"
+        ],
+        "Australia": [
+            "Shane Watson",
+            "Mitchell Johnson",
+            "Peter Siddle",
+            "Nathan Hauritz",
+            "Ricky Ponting(c)",
+            "Steven Smith",
+            "Brad Haddin (wk)",
+            "Clint McKay",
+            "Cameron White",
+            "Michael Clarke",
+            "Michael Hussey"
+        ]
+    }
 }

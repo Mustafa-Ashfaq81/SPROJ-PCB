@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Dighe b Harvinder Singh",
+                    "dismissal": "c (wk)Dighe b Harvinder Singh",
                     "runs": "10",
                     "balls": "30",
                     "minutes": "48",
@@ -92,7 +92,7 @@
                     "strike_rate": "59.45"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "not out",
                     "runs": "53",
                     "balls": "76",
@@ -220,7 +220,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Jacobs b Cuffy",
+                    "dismissal": "c (wk)Jacobs b Cuffy",
                     "runs": "20",
                     "balls": "51",
                     "minutes": "60",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Dinesh Mongia",
-                    "dismissal": "c Jacobs b Hinds",
+                    "dismissal": "c (wk)Jacobs b Hinds",
                     "runs": "8",
                     "balls": "23",
                     "minutes": "31",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid",
-                    "dismissal": "st Jacobs b Nagamootoo",
+                    "dismissal": "st (wk)Jacobs b Nagamootoo",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "5",
@@ -279,7 +279,7 @@
                     "strike_rate": "68.75"
                 }
             ],
-            "did_not_bat": "Reetinder Sodhi , Sameer Dighe , Harvinder Singh , Zaheer Khan , Debasis Mohanty",
+            "did_not_bat": "Reetinder Sodhi , Sameer Dighe (wk) , Harvinder Singh , Zaheer Khan , Debasis Mohanty",
             "fall_of_wickets": "Fall of wickets : 1 - 31 ( Sourav Ganguly , 12.6 ov ) , 2 - 58 ( Dinesh Mongia , 19.3 ov ) , 3 - 63 ( Rahul Dravid , 20.5 ov ) , 4 - 137 ( Hemang Badani , 39.2 ov )",
             "bowling": [
                 {
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 37 balls remaining)"
+    "result": "India won by 6 wickets (with 37 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Daren Ganga",
+            "Marlon Samuels",
+            "Carl Hooper(c)",
+            "Mahendra Nagamootoo",
+            "Mervyn Dillon",
+            "Ridley Jacobs (wk)",
+            "Shivnarine Chanderpaul",
+            "Wavell Hinds",
+            "Cameron Cuffy",
+            "Reon King"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Dinesh Mongia",
+            "Harvinder Singh",
+            "Rahul Dravid",
+            "Zaheer Khan",
+            "Hemang Badani",
+            "Virender Sehwag",
+            "Reetinder Sodhi",
+            "Debasis Mohanty",
+            "Sameer Dighe (wk)",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

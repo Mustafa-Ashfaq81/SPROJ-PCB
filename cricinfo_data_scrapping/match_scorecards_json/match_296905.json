@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "run out (Taylor/Hopkins)",
+                    "dismissal": "run out (Taylor/ (wk)Hopkins)",
                     "runs": "10",
                     "balls": "19",
                     "minutes": "31",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Dimitri Mascarenhas",
-                    "dismissal": "c Hopkins b Southee",
+                    "dismissal": "c (wk)Hopkins b Southee",
                     "runs": "23",
                     "balls": "13",
                     "minutes": "18",
@@ -102,7 +102,7 @@
                     "strike_rate": "176.92"
                 },
                 {
-                    "batsman": "Tim Ambrose",
+                    "batsman": "Tim Ambrose (wk)",
                     "dismissal": "c Taylor b Mills",
                     "runs": "1",
                     "balls": "6",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Graeme Swann",
-                    "dismissal": "c Hopkins b Southee",
+                    "dismissal": "c (wk)Hopkins b Southee",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "5",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Stuart Broad",
-                    "dismissal": "run out (Flynn/Hopkins)",
+                    "dismissal": "run out (Flynn/ (wk)Hopkins)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "2",
@@ -279,7 +279,7 @@
                     "strike_rate": "79.16"
                 }
             ],
-            "did_not_bat": "Grant Elliott , Daniel Flynn , Gareth Hopkins , Daniel Vettori (c) , Kyle Mills , Tim Southee , Michael Mason",
+            "did_not_bat": "Grant Elliott , Daniel Flynn , Gareth Hopkins (wk) , Daniel Vettori (c) , Kyle Mills , Tim Southee , Michael Mason",
             "fall_of_wickets": "Fall of wickets : 1 - 25 ( Jamie How , 3.6 ov ) , 2 - 79 ( Ross Taylor , 10.6 ov )",
             "bowling": [
                 {
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "England": [
+            "Tim Ambrose (wk)",
+            "James Anderson",
+            "Graeme Swann",
+            "Stuart Broad",
+            "Luke Wright",
+            "Ian Bell",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Ravi Bopara",
+            "Owais Shah",
+            "Dimitri Mascarenhas"
+        ],
+        "New Zealand": [
+            "Scott Styris",
+            "Gareth Hopkins (wk)",
+            "Grant Elliott",
+            "Tim Southee",
+            "Jamie How",
+            "Michael Mason",
+            "Daniel Flynn",
+            "Kyle Mills",
+            "Daniel Vettori (c)",
+            "Brendon McCullum",
+            "Ross Taylor"
+        ]
+    }
 }

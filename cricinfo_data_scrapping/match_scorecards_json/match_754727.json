@@ -90,7 +90,7 @@
                     "strike_rate": "169.23"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "not out",
                     "runs": "8",
                     "balls": "6",
@@ -207,7 +207,7 @@
                     "strike_rate": "88.69"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Marsh b Hazlewood",
                     "runs": "47",
                     "balls": "53",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Rilee Rossouw",
-                    "dismissal": "c Wade b Starc",
+                    "dismissal": "c (wk)Wade b Starc",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "6",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 73 runs"
+    "result": "Australia won by 73 runs",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Kane Richardson",
+            "Josh Hazlewood",
+            "Steven Smith",
+            "Matthew Wade (wk)",
+            "Xavier Doherty",
+            "David Warner",
+            "Shane Watson",
+            "Mitchell Marsh",
+            "Aaron Finch"
+        ],
+        "South Africa": [
+            "Rilee Rossouw",
+            "Dale Steyn",
+            "Morne Morkel",
+            "Vernon Philander",
+            "Imran Tahir",
+            "Farhaan Behardien",
+            "David Miller",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ]
+    }
 }

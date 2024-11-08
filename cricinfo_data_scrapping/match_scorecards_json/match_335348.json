@@ -41,7 +41,7 @@
                     "strike_rate": "153.19"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Raqibul Hasan b Mahmudullah",
                     "runs": "101",
                     "balls": "91",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Chamara Silva",
-                    "dismissal": "c Mushfiqur Rahim b Alok Kapali",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Alok Kapali",
                     "runs": "19",
                     "balls": "24",
                     "minutes": "29",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Nazimuddin",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "10",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful(c)",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "8",
                     "balls": "21",
                     "minutes": "30",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Raqibul Hasan",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "35",
                     "balls": "57",
                     "minutes": "79",
@@ -278,7 +278,7 @@
                     "strike_rate": "61.40"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c & b Muralidaran",
                     "runs": "44",
                     "balls": "53",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 131 runs"
+    "result": "Sri Lanka won by 131 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Chamara Silva",
+            "Ajantha Mendis",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene(c)",
+            "Dilhara Fernando",
+            "Chamara Kapugedera",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Nuwan Kulasekara"
+        ],
+        "Bangladesh": [
+            "Nazimuddin",
+            "Raqibul Hasan",
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Tamim Iqbal",
+            "Dolar Mahmud",
+            "Mahmudullah",
+            "Alok Kapali",
+            "Mashrafe Mortaza",
+            "Mushfiqur Rahim (wk)",
+            "Mohammad Ashraful(c)"
+        ]
+    }
 }

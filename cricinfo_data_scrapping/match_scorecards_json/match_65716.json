@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Sangakkara b Jayasuriya",
+                    "dismissal": "c (wk)Sangakkara b Jayasuriya",
                     "runs": "81",
                     "balls": "92",
                     "minutes": "144",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "5",
@@ -91,7 +91,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "10",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Saman Jayantha",
-                    "dismissal": "c Patel b Pathan",
+                    "dismissal": "c (wk)Patel b Pathan",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "15",
@@ -262,7 +262,7 @@
                     "strike_rate": "34.78"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Tendulkar b Sehwag",
                     "runs": "15",
                     "balls": "20",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "India won by 4 runs"
+    "result": "India won by 4 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Rahul Dravid",
+            "Yuvraj Singh",
+            "Parthiv Patel (wk)",
+            "Irfan Pathan",
+            "Anil Kumble",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)",
+            "Zaheer Khan",
+            "Harbhajan Singh",
+            "Mohammad Kaif"
+        ],
+        "Sri Lanka": [
+            "Nuwan Zoysa",
+            "Sanath Jayasuriya",
+            "Avishka Gunawardene",
+            "Marvan Atapattu(c)",
+            "Mahela Jayawardene",
+            "Saman Jayantha",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Upul Chandana"
+        ]
+    }
 }

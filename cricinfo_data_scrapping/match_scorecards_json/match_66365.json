@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "100",
                     "balls": "119",
                     "minutes": "158",
@@ -91,7 +91,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Parthiv Patel , Rahul Dravid (c) , Harbhajan Singh , Anil Kumble , Zaheer Khan",
+            "did_not_bat": "Parthiv Patel (wk) , Rahul Dravid (c) , Harbhajan Singh , Anil Kumble , Zaheer Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Virender Sehwag , 0.3 ov ) , 2 - 191 ( Sachin Tendulkar , 39.2 ov ) , 3 - 255 ( VVS Laxman , 47.5 ov ) , 4 - 263 ( Yuvraj Singh , 48.2 ov ) , 5 - 283 ( Ajit Agarkar , 49.6 ov )",
             "bowling": [
                 {
@@ -188,7 +188,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Khan",
                     "runs": "83",
                     "balls": "79",
@@ -199,7 +199,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "st Patel b Kumble",
+                    "dismissal": "st (wk)Patel b Kumble",
                     "runs": "47",
                     "balls": "76",
                     "minutes": "137",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "st Patel b Harbhajan Singh",
+                    "dismissal": "st (wk)Patel b Harbhajan Singh",
                     "runs": "29",
                     "balls": "30",
                     "minutes": "41",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "India won by 37 runs"
+    "result": "India won by 37 runs",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "Rahul Dravid (c)",
+            "Parthiv Patel (wk)",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Zaheer Khan",
+            "Virender Sehwag",
+            "Harbhajan Singh"
+        ],
+        "Australia": [
+            "Brad Williams",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Ian Harvey",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Nathan Bracken",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Andrew Symonds"
+        ]
+    }
 }

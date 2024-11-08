@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "run out (Ntini/Boucher)",
+                    "dismissal": "run out (Ntini/ (wk)Boucher)",
                     "runs": "39",
                     "balls": "46",
                     "minutes": "46",
@@ -50,7 +50,7 @@
                     "strike_rate": "81.81"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c McKenzie b Kallis",
                     "runs": "1",
                     "balls": "4",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Prabath Nissanka",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "16",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Dilhara Fernando",
-                    "dismissal": "c Boucher b Donald",
+                    "dismissal": "c (wk)Boucher b Donald",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "7",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Neil McKenzie",
-                    "dismissal": "c Sangakkara b Gunaratne",
+                    "dismissal": "c (wk)Sangakkara b Gunaratne",
                     "runs": "7",
                     "balls": "5",
                     "minutes": "7",
@@ -277,7 +277,7 @@
                     "strike_rate": "77.10"
                 }
             ],
-            "did_not_bat": "Allan Donald , Shaun Pollock (c) , Mark Boucher , Robin Peterson , Lance Klusener , Jonty Rhodes , Makhaya Ntini",
+            "did_not_bat": "Allan Donald , Shaun Pollock (c) , Mark Boucher (wk) , Robin Peterson , Lance Klusener , Jonty Rhodes , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 7 ( Andrew Hall , 2.1 ov ) , 2 - 18 ( Neil McKenzie , 3.4 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 115 balls remaining)"
+    "result": "South Africa won by 8 wickets (with 115 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Pulasthi Gunaratne",
+            "Hashan Tillakaratne",
+            "Sanath Jayasuriya(c)",
+            "Kumar Sangakkara (wk)",
+            "Aravinda de Silva",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Dilhara Fernando",
+            "Marvan Atapattu",
+            "Russel Arnold",
+            "Prabath Nissanka"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Makhaya Ntini",
+            "Allan Donald",
+            "Lance Klusener",
+            "Neil McKenzie",
+            "Jacques Kallis",
+            "Shaun Pollock (c)",
+            "Robin Peterson",
+            "Andrew Hall",
+            "Jonty Rhodes",
+            "Herschelle Gibbs"
+        ]
+    }
 }

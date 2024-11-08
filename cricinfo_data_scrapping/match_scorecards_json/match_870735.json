@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Litton Das b Mustafizur Rahman",
+                    "dismissal": "c (wk)Litton Das b Mustafizur Rahman",
                     "runs": "29",
                     "balls": "29",
                     "minutes": "34",
@@ -60,7 +60,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Mustafizur Rahman b Mashrafe Mortaza",
                     "runs": "69",
                     "balls": "77",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Ambati Rayudu",
-                    "dismissal": "c Litton Das b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Litton Das b Mashrafe Mortaza",
                     "runs": "44",
                     "balls": "49",
                     "minutes": "74",
@@ -227,7 +227,7 @@
                     "strike_rate": "117.64"
                 },
                 {
-                    "batsman": "Litton Das",
+                    "batsman": "Litton Das (wk)",
                     "dismissal": "b Patel",
                     "runs": "34",
                     "balls": "50",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Dhoni b Raina",
+                    "dismissal": "c (wk)Dhoni b Raina",
                     "runs": "24",
                     "balls": "30",
                     "minutes": "35",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "India won by 77 runs"
+    "result": "India won by 77 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Umesh Yadav",
+            "Axar Patel",
+            "Stuart Binny",
+            "Ambati Rayudu",
+            "Shikhar Dhawan",
+            "Dhawal Kulkarni"
+        ],
+        "Bangladesh": [
+            "Arafat Sunny",
+            "Mustafizur Rahman",
+            "Litton Das (wk)",
+            "Shakib Al Hasan",
+            "Rubel Hossain",
+            "Mashrafe Mortaza(c)",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Mushfiqur Rahim",
+            "Sabbir Rahman",
+            "Nasir Hossain"
+        ]
+    }
 }

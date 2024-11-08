@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "run out (Sangakkara)",
+                    "dismissal": "run out ( (wk)Sangakkara)",
                     "runs": "75",
                     "balls": "94",
                     "minutes": "148",
@@ -84,7 +84,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "lbw b Randiv",
                     "runs": "35",
                     "balls": "52",
@@ -236,7 +236,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "14",
                     "balls": "15",
                     "minutes": "17",
@@ -255,8 +255,8 @@
                     "strike_rate": "85.24"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
-                    "dismissal": "c Mushfiqur Rahim b Shafiul Islam",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shafiul Islam",
                     "runs": "74",
                     "balls": "73",
                     "minutes": "105",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 31 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 31 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Shakib Al Hasan(c)",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Naeem Islam",
+            "Shafiul Islam",
+            "Imrul Kayes",
+            "Mahmudullah",
+            "Abdur Razzak",
+            "Raqibul Hasan",
+            "Rubel Hossain"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Suraj Randiv",
+            "Chanaka Welegedara",
+            "Muthumudalige Pushpakumara",
+            "Suranga Lakmal",
+            "Nuwan Kulasekara",
+            "Kumar Sangakkara(c) (wk)",
+            "Upul Tharanga",
+            "Thilina Kandamby",
+            "Thilan Samaraweera",
+            "Chamara Silva"
+        ]
+    }
 }

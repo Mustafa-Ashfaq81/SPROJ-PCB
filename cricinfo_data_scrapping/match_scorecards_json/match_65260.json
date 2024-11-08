@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Smits b van Bunge",
+                    "dismissal": "c (wk)Smits b van Bunge",
                     "runs": "47",
                     "balls": "63",
                     "minutes": "71",
@@ -92,7 +92,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "c van Bunge b Schiferli",
                     "runs": "24",
                     "balls": "25",
@@ -284,7 +284,7 @@
                 },
                 {
                     "batsman": "Klaas-Jan van Noortwijk",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "14",
@@ -304,7 +304,7 @@
                 },
                 {
                     "batsman": "Daan van Bunge",
-                    "dismissal": "c Rashid Latif b Abdul Razzaq",
+                    "dismissal": "c (wk)Rashid Latif b Abdul Razzaq",
                     "runs": "31",
                     "balls": "60",
                     "minutes": "75",
@@ -314,7 +314,7 @@
                 },
                 {
                     "batsman": "Luuk van Troost",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "22",
                     "balls": "30",
                     "minutes": "60",
@@ -353,7 +353,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Jeroen Smits",
+                    "batsman": "Jeroen Smits (wk)",
                     "dismissal": "lbw b Wasim Akram",
                     "runs": "7",
                     "balls": "21",
@@ -453,5 +453,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 97 runs"
+    "result": "Pakistan won by 97 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shoaib Akhtar",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Waqar Younis(c)",
+            "Saeed Anwar",
+            "Abdul Razzaq",
+            "Saleem Elahi",
+            "Saqlain Mushtaq",
+            "Wasim Akram",
+            "Taufeeq Umar",
+            "Inzamam-ul-Haq"
+        ],
+        "Netherlands": [
+            "Jeroen Smits (wk)",
+            "Bas Zuiderent",
+            "Edgar Schiferli",
+            "Klaas-Jan van Noortwijk",
+            "Nick Statham",
+            "Henk-Jan Mol",
+            "Jacob-Jan Esmeijer",
+            "Roland Lefebvre(c)",
+            "Daan van Bunge",
+            "Luuk van Troost",
+            "Tim de Leede"
+        ]
+    }
 }

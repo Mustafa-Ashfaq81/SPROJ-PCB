@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "7",
@@ -83,7 +83,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Yadav b Pandya",
                     "runs": "0",
                     "balls": "3",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Mitchell Santner",
-                    "dismissal": "c Dhoni b Jadhav",
+                    "dismissal": "c (wk)Dhoni b Jadhav",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Ronchi b Neesham",
+                    "dismissal": "c (wk)Ronchi b Neesham",
                     "runs": "33",
                     "balls": "34",
                     "minutes": "59",
@@ -280,8 +280,8 @@
                     "strike_rate": "77.27"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "run out (Guptill/Ronchi)",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "run out (Guptill/ (wk)Ronchi)",
                     "runs": "21",
                     "balls": "24",
                     "minutes": "41",
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 101 balls remaining)"
+    "result": "India won by 6 wickets (with 101 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Doug Bracewell",
+            "Tom Latham",
+            "Corey Anderson",
+            "Ish Sodhi",
+            "Luke Ronchi (wk)",
+            "Ross Taylor",
+            "Tim Southee",
+            "James Neesham"
+        ],
+        "India": [
+            "Amit Mishra",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Manish Pandey",
+            "Kedar Jadhav",
+            "Axar Patel",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Jasprit Bumrah",
+            "Umesh Yadav"
+        ]
+    }
 }

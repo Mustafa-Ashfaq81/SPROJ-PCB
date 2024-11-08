@@ -40,7 +40,7 @@
                     "strike_rate": "77.27"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Phehlukwayo b Parnell",
                     "runs": "2",
                     "balls": "6",
@@ -197,7 +197,7 @@
                     "strike_rate": "76.92"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Neesham b Boult",
                     "runs": "57",
                     "balls": "65",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "st Latham b Santner",
+                    "dismissal": "st (wk)Latham b Santner",
                     "runs": "34",
                     "balls": "44",
                     "minutes": "44",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "45",
                     "balls": "49",
                     "minutes": "73",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Latham b Sodhi",
+                    "dismissal": "c (wk)Latham b Sodhi",
                     "runs": "28",
                     "balls": "39",
                     "minutes": "52",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 6 runs"
+    "result": "New Zealand won by 6 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Kane Williamson(c)",
+            "Neil Broom",
+            "Trent Boult",
+            "Ish Sodhi",
+            "Colin de Grandhomme",
+            "Dean Brownlie",
+            "Ross Taylor",
+            "Tom Latham (wk)",
+            "Tim Southee",
+            "James Neesham"
+        ],
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Wayne Parnell",
+            "Hashim Amla",
+            "Dwaine Pretorius",
+            "AB de Villiers(c)",
+            "Faf du Plessis",
+            "Andile Phehlukwayo",
+            "Imran Tahir",
+            "David Miller",
+            "Chris Morris",
+            "Jean-Paul Duminy"
+        ]
+    }
 }

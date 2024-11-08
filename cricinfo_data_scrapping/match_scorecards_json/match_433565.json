@@ -41,7 +41,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Krejza b Tait",
                     "runs": "16",
                     "balls": "12",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Jesse Ryder",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "25",
                     "balls": "31",
                     "minutes": "49",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Haddin b Tait",
+                    "dismissal": "c (wk)Haddin b Tait",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori(c)",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "44",
                     "balls": "43",
                     "minutes": "62",
@@ -248,7 +248,7 @@
                     "strike_rate": "101.63"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Franklin b Bennett",
                     "runs": "55",
                     "balls": "50",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "st BB McCullum b Southee",
+                    "dismissal": "st (wk)BB McCullum b Southee",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "39",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 96 balls remaining)"
+    "result": "Australia won by 7 wickets (with 96 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Jesse Ryder",
+            "Hamish Bennett",
+            "Daniel Vettori(c)",
+            "James Franklin",
+            "Martin Guptill",
+            "Scott Styris",
+            "Nathan McCullum",
+            "Tim Southee",
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Jamie How"
+        ],
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Cameron White",
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Steven Smith",
+            "David Hussey",
+            "Brett Lee",
+            "Shane Watson",
+            "Shaun Tait",
+            "Jason Krejza",
+            "Michael Clarke"
+        ]
+    }
 }

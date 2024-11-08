@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "st Mohammad Rizwan b Imad Wasim",
+                    "dismissal": "st (wk)Mohammad Rizwan b Imad Wasim",
                     "runs": "5",
                     "balls": "16",
                     "minutes": "-",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "run out (Shan Masood/Mohammad Rizwan)",
+                    "dismissal": "run out (Shan Masood/ (wk)Mohammad Rizwan)",
                     "runs": "98",
                     "balls": "82",
                     "minutes": "-",
@@ -94,7 +94,7 @@
                     "strike_rate": "119.51"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Haris Sohail b Mohammad Hasnain",
                     "runs": "55",
                     "balls": "67",
@@ -241,7 +241,7 @@
                     "strike_rate": "58.13"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "c Handscomb b Stoinis",
                     "runs": "104",
                     "balls": "102",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 runs"
+    "result": "Australia won by 6 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shaun Marsh",
+            "Alex Carey (wk)",
+            "Kane Richardson",
+            "Aaron Finch(c)",
+            "Peter Handscomb",
+            "Nathan Coulter-Nile",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Adam Zampa",
+            "Nathan Lyon",
+            "Marcus Stoinis"
+        ],
+        "Pakistan": [
+            "Haris Sohail",
+            "Usman Shinwari",
+            "Mohammad Hasnain",
+            "Shan Masood",
+            "Yasir Shah",
+            "Junaid Khan",
+            "Umar Akmal",
+            "Abid Ali",
+            "Syed Saad Ali",
+            "Mohammad Rizwan (wk)",
+            "Imad Wasim(c)"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                     "strike_rate": "72.41"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Soumya Sarkar b Mohammad Saifuddin",
                     "runs": "64",
                     "balls": "44",
@@ -238,7 +238,7 @@
                     "strike_rate": "101.68"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Roy b Plunkett",
                     "runs": "44",
                     "balls": "50",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Mohammad Mithun",
-                    "dismissal": "c Bairstow b Rashid",
+                    "dismissal": "c (wk)Bairstow b Rashid",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Bairstow b Wood",
+                    "dismissal": "c (wk)Bairstow b Wood",
                     "runs": "28",
                     "balls": "41",
                     "minutes": "66",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Mehidy Hasan Miraz",
-                    "dismissal": "c Bairstow b Archer",
+                    "dismissal": "c (wk)Bairstow b Archer",
                     "runs": "12",
                     "balls": "8",
                     "minutes": "16",
@@ -309,7 +309,7 @@
                 },
                 {
                     "batsman": "Mustafizur Rahman",
-                    "dismissal": "c Bairstow b Archer",
+                    "dismissal": "c (wk)Bairstow b Archer",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "England won by 106 runs"
+    "result": "England won by 106 runs",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Ben Stokes",
+            "Mark Wood",
+            "Jofra Archer"
+        ],
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mohammad Mithun",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Mohammad Saifuddin",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain"
+        ]
+    }
 }

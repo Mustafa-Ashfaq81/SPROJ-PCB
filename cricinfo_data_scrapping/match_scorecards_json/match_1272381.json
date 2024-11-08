@@ -42,7 +42,7 @@
                     "strike_rate": "58.33"
                 },
                 {
-                    "batsman": "Regis Chakabva",
+                    "batsman": "Regis Chakabva (wk)",
                     "dismissal": "b Little",
                     "runs": "5",
                     "balls": "14",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Craig Ervine(c)",
-                    "dismissal": "c Tucker b McBrine",
+                    "dismissal": "c (wk)Tucker b McBrine",
                     "runs": "57",
                     "balls": "65",
                     "minutes": "87",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "run out (Balbirnie/Tucker)",
+                    "dismissal": "run out (Balbirnie/ (wk)Tucker)",
                     "runs": "9",
                     "balls": "19",
                     "minutes": "29",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Blessing Muzarabani",
-                    "dismissal": "c Tucker b Little",
+                    "dismissal": "c (wk)Tucker b Little",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "6",
@@ -226,7 +226,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield",
-                    "dismissal": "c Chakabva b Muzarabani",
+                    "dismissal": "c (wk)Chakabva b Muzarabani",
                     "runs": "16",
                     "balls": "33",
                     "minutes": "46",
@@ -275,7 +275,7 @@
                     "strike_rate": "0.00"
                 }
             ],
-            "did_not_bat": "Lorcan Tucker , Mark Adair , Simi Singh , Andy McBrine , Shane Getkate , Josh Little",
+            "did_not_bat": "Lorcan Tucker (wk) , Mark Adair , Simi Singh , Andy McBrine , Shane Getkate , Josh Little",
             "fall_of_wickets": "Fall of wickets : 1 - 48 ( William Porterfield , 9.2 ov ) , 2 - 89 ( Paul Stirling , 17.2 ov ) , 3 - 113 ( Andy Balbirnie , 21.4 ov )",
             "bowling": [
                 {
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 7 wickets (with 58 balls remaining) (D/L method)"
+    "result": "Ireland won by 7 wickets (with 58 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sean Williams",
+            "Regis Chakabva (wk)",
+            "Richard Ngarava",
+            "Craig Ervine(c)",
+            "Wellington Masakadza",
+            "Brendan Taylor",
+            "Blessing Muzarabani",
+            "Wessly Madhevere",
+            "Luke Jongwe",
+            "Ryan Burl",
+            "Sikandar Raza"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Harry Tector",
+            "Mark Adair",
+            "Andy Balbirnie(c)",
+            "William Porterfield",
+            "Lorcan Tucker (wk)",
+            "Paul Stirling",
+            "Shane Getkate",
+            "Andy McBrine",
+            "Josh Little",
+            "Simi Singh"
+        ]
+    }
 }

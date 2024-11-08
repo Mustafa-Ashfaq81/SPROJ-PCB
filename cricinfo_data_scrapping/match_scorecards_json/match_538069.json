@@ -60,8 +60,8 @@
                     "strike_rate": "38.46"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Shoaib Malik",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shoaib Malik",
                     "runs": "11",
                     "balls": "27",
                     "minutes": "25",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Sarfaraz Ahmed b Shahid Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shahid Afridi",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "2",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Nasir Hossain",
-                    "dismissal": "c Sarfaraz Ahmed b Aizaz Cheema",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Aizaz Cheema",
                     "runs": "21",
                     "balls": "40",
                     "minutes": "42",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Shafiul Islam",
-                    "dismissal": "c Sarfaraz Ahmed b Shahid Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shahid Afridi",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "12",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "11",
@@ -267,7 +267,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Shakib Al Hasan b Rubel Hossain",
                     "runs": "2",
                     "balls": "3",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 5 wickets (with 146 balls remaining)"
+    "result": "Pakistan won by 5 wickets (with 146 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Naeem Islam",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Farhad Reza",
+            "Mushfiqur Rahim(c) (wk)",
+            "Shahriar Nafees",
+            "Rubel Hossain",
+            "Shakib Al Hasan"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed (wk)",
+            "Younis Khan",
+            "Aizaz Cheema",
+            "Imran Farhat",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Umar Gul",
+            "Umar Akmal"
+        ]
+    }
 }

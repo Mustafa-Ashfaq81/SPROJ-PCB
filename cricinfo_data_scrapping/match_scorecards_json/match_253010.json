@@ -39,7 +39,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield",
-                    "dismissal": "c Smith b Hoffmann",
+                    "dismissal": "c (wk)Smith b Hoffmann",
                     "runs": "11",
                     "balls": "21",
                     "minutes": "23",
@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "run out (McCallum/Smith)",
+                    "dismissal": "run out (McCallum/ (wk)Smith)",
                     "runs": "99",
                     "balls": "134",
                     "minutes": "182",
@@ -68,7 +68,7 @@
                     "strike_rate": "73.88"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Poonia b Wright",
                     "runs": "32",
                     "balls": "55",
@@ -79,7 +79,7 @@
                 },
                 {
                     "batsman": "Andre Botha",
-                    "dismissal": "st Smith b Wright",
+                    "dismissal": "st (wk)Smith b Wright",
                     "runs": "11",
                     "balls": "10",
                     "minutes": "12",
@@ -89,7 +89,7 @@
                 },
                 {
                     "batsman": "Peter Gillespie",
-                    "dismissal": "c Smith b Wright",
+                    "dismissal": "c (wk)Smith b Wright",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Dougie Brown",
-                    "dismissal": "c O'Brien b Mooney",
+                    "dismissal": "c (wk)O'Brien b Mooney",
                     "runs": "11",
                     "balls": "23",
                     "minutes": "30",
@@ -295,8 +295,8 @@
                     "strike_rate": "31.81"
                 },
                 {
-                    "batsman": "Colin Smith",
-                    "dismissal": "st O'Brien b McCallan",
+                    "batsman": "Colin Smith (wk)",
+                    "dismissal": "st (wk)O'Brien b McCallan",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "9",
@@ -316,7 +316,7 @@
                 },
                 {
                     "batsman": "John Blain",
-                    "dismissal": "run out (Mooney/O'Brien)",
+                    "dismissal": "run out (Mooney/ (wk)O'Brien)",
                     "runs": "16",
                     "balls": "36",
                     "minutes": "26",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 85 runs"
+    "result": "Ireland won by 85 runs",
+    "playing_xi": {
+        "Ireland": [
+            "Peter Gillespie",
+            "Dave Langford-Smith",
+            "Jeremy Bray",
+            "Niall O'Brien (wk)",
+            "Eoin Morgan",
+            "John Mooney",
+            "Kyle McCallan",
+            "William Porterfield",
+            "Andre Botha",
+            "Andrew White",
+            "Trent Johnston(c)"
+        ],
+        "Scotland": [
+            "Navdeep Poonia",
+            "Neil McCallum",
+            "Paul Hoffmann",
+            "Craig Wright(c)",
+            "Ross Lyons",
+            "John Blain",
+            "Neil MacRae",
+            "Dougie Brown",
+            "Omer Hussain",
+            "Ryan Watson",
+            "Colin Smith (wk)"
+        ]
+    }
 }

@@ -33,7 +33,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Hurley",
                     "runs": "84",
                     "balls": "103",
@@ -250,7 +250,7 @@
                     "strike_rate": "135.00"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "run out (Lee)",
                     "runs": "13",
                     "balls": "16",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Ryan Hurley",
-                    "dismissal": "run out (Symonds/Gilchrist)",
+                    "dismissal": "run out (Symonds/ (wk)Gilchrist)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "-",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "Australia won by 67 runs"
+    "result": "Australia won by 67 runs",
+    "playing_xi": {
+        "Australia": [
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Andrew Symonds",
+            "Ian Harvey",
+            "Jason Gillespie",
+            "Matthew Hayden",
+            "Brett Lee",
+            "Glenn McGrath"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Brian Lara(c)",
+            "Ryan Hurley",
+            "Vasbert Drakes"
+        ]
+    }
 }

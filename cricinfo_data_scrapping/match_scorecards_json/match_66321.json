@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya(c)",
-                    "dismissal": "st Dighe b Harbhajan Singh",
+                    "dismissal": "st (wk)Dighe b Harbhajan Singh",
                     "runs": "34",
                     "balls": "41",
                     "minutes": "55",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Dighe b Sodhi",
+                    "dismissal": "c (wk)Dighe b Sodhi",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "6",
@@ -72,8 +72,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
-                    "dismissal": "c Dighe b Yuvraj Singh",
+                    "batsman": "Romesh Kaluwitharana (wk)",
+                    "dismissal": "c (wk)Dighe b Yuvraj Singh",
                     "runs": "36",
                     "balls": "52",
                     "minutes": "83",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c Kaluwitharana b Fernando",
+                    "dismissal": "c (wk)Kaluwitharana b Fernando",
                     "runs": "17",
                     "balls": "29",
                     "minutes": "59",
@@ -319,7 +319,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Sameer Dighe",
+                    "batsman": "Sameer Dighe (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "11",
@@ -433,5 +433,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 runs"
+    "result": "Sri Lanka won by 6 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Romesh Kaluwitharana (wk)",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Avishka Gunawardene",
+            "Chaminda Vaas",
+            "Kumar Dharmasena",
+            "Suresh Perera",
+            "Dilhara Fernando",
+            "Sanath Jayasuriya(c)"
+        ],
+        "India": [
+            "Amay Khurasiya",
+            "VVS Laxman",
+            "Rahul Dravid",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virender Sehwag",
+            "Reetinder Sodhi",
+            "Harbhajan Singh",
+            "Debasis Mohanty",
+            "Sameer Dighe (wk)",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

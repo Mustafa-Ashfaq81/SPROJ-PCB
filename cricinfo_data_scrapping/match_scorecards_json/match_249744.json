@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "4",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "8",
                     "balls": "9",
                     "minutes": "20",
@@ -112,7 +112,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "lbw b Maharoof",
                     "runs": "1",
                     "balls": "14",
@@ -255,7 +255,7 @@
                     "strike_rate": "97.14"
                 }
             ],
-            "did_not_bat": "Kumar Sangakkara , Marvan Atapattu , Tillakaratne Dilshan , Farveez Maharoof , Chaminda Vaas , Muthiah Muralidaran , Lasith Malinga , Dilhara Fernando",
+            "did_not_bat": "Kumar Sangakkara (wk) , Marvan Atapattu , Tillakaratne Dilshan , Farveez Maharoof , Chaminda Vaas , Muthiah Muralidaran , Lasith Malinga , Dilhara Fernando",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Upul Tharanga , 0.1 ov )",
             "bowling": [
                 {
@@ -317,5 +317,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 220 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 220 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle",
+            "Carlton Baugh (wk)",
+            "Fidel Edwards",
+            "Ramnaresh Sarwan",
+            "Corey Collymore",
+            "Dwayne Bravo",
+            "Wavell Hinds",
+            "Marlon Samuels",
+            "Dwayne Smith"
+        ],
+        "Sri Lanka": [
+            "Marvan Atapattu",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Muthiah Muralidaran",
+            "Farveez Maharoof",
+            "Sanath Jayasuriya",
+            "Upul Tharanga"
+        ]
+    }
 }

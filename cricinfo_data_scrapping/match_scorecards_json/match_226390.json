@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "17",
                     "balls": "42",
                     "minutes": "62",
@@ -53,7 +53,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Fulton b Bond",
                     "runs": "0",
                     "balls": "6",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "1",
                     "balls": "10",
                     "minutes": "13",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "15",
                     "balls": "19",
                     "minutes": "24",
@@ -290,7 +290,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Scott Styris , Jacob Oram , Chris Cairns , Brendon McCullum , Kyle Mills , Daniel Vettori (c)",
+            "did_not_bat": "Scott Styris , Jacob Oram , Chris Cairns , Brendon McCullum (wk) , Kyle Mills , Daniel Vettori (c)",
             "fall_of_wickets": "Fall of wickets : 1 - 32 ( Lou Vincent , 6.3 ov ) , 2 - 41 ( Nathan Astle , 11.2 ov ) , 3 - 136 ( Jamie How , 31.4 ov )",
             "bowling": [
                 {
@@ -366,5 +366,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 76 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 76 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Lasith Malinga",
+            "Chaminda Vaas",
+            "Farveez Maharoof"
+        ],
+        "New Zealand": [
+            "Lou Vincent",
+            "Jacob Oram",
+            "Chris Cairns",
+            "Daniel Vettori (c)",
+            "Nathan Astle",
+            "Brendon McCullum (wk)",
+            "Kyle Mills",
+            "Jamie How",
+            "Scott Styris",
+            "Peter Fulton",
+            "Hamish Marshall"
+        ]
+    }
 }

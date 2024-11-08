@@ -32,7 +32,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Nehra",
                     "runs": "3",
                     "balls": "9",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "11",
                     "balls": "15",
                     "minutes": "15",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "c Dhoni b Yuvraj Singh",
+                    "dismissal": "c (wk)Dhoni b Yuvraj Singh",
                     "runs": "22",
                     "balls": "39",
                     "minutes": "66",
@@ -293,7 +293,7 @@
                     "strike_rate": "61.53"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "35",
                     "balls": "65",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 57 balls remaining)"
+    "result": "India won by 6 wickets (with 57 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Kyle Mills",
+            "Jacob Oram",
+            "Ian Butler",
+            "Jesse Ryder",
+            "Neil Broom",
+            "Shane Bond",
+            "Martin Guptill",
+            "Daniel Vettori(c)",
+            "Ross Taylor",
+            "Grant Elliott"
+        ],
+        "India": [
+            "Yusuf Pathan",
+            "Rahul Dravid",
+            "MS Dhoni(c) (wk)",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "Ashish Nehra",
+            "Dinesh Karthik",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "RP Singh",
+            "Harbhajan Singh"
+        ]
+    }
 }

@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Saha b Yadav",
+                    "dismissal": "c (wk)Saha b Yadav",
                     "runs": "0",
                     "balls": "11",
                     "minutes": "18",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Mominul Haque",
-                    "dismissal": "c Saha b Yadav",
+                    "dismissal": "c (wk)Saha b Yadav",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "27",
@@ -64,7 +64,7 @@
                     "strike_rate": "35.29"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "c Rahane b Parvez Rasool",
                     "runs": "59",
                     "balls": "63",
@@ -305,7 +305,7 @@
                     "strike_rate": "136.36"
                 }
             ],
-            "did_not_bat": "Wriddhiman Saha , Axar Patel , Parvez Rasool , Amit Mishra , Umesh Yadav , Mohit Sharma",
+            "did_not_bat": "Wriddhiman Saha (wk) , Axar Patel , Parvez Rasool , Amit Mishra , Umesh Yadav , Mohit Sharma",
             "fall_of_wickets": "Fall of wickets : 1 - 99 ( Robin Uthappa , 16.1 ov ) , 2 - 100 ( Cheteshwar Pujara , 16.6 ov ) , 3 - 135 ( Ajinkya Rahane , 22.1 ov )",
             "bowling": [
                 {
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 7 balls remaining) (D/L method)"
+    "result": "India won by 7 wickets (with 7 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mominul Haque",
+            "Mahmudullah",
+            "Mushfiqur Rahim(c) (wk)",
+            "Nasir Hossain",
+            "Al-Amin Hossain",
+            "Anamul Haque",
+            "Mashrafe Mortaza",
+            "Abdur Razzak",
+            "Ziaur Rahman",
+            "Shakib Al Hasan",
+            "Tamim Iqbal"
+        ],
+        "India": [
+            "Axar Patel",
+            "Parvez Rasool",
+            "Wriddhiman Saha (wk)",
+            "Suresh Raina(c)",
+            "Robin Uthappa",
+            "Amit Mishra",
+            "Ajinkya Rahane",
+            "Umesh Yadav",
+            "Ambati Rayudu",
+            "Mohit Sharma",
+            "Cheteshwar Pujara"
+        ]
+    }
 }

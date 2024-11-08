@@ -42,7 +42,7 @@
                     "strike_rate": "128.73"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "c Hussain b Gough",
                     "runs": "7",
                     "balls": "6",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "c Stewart b Flintoff",
+                    "dismissal": "c (wk)Stewart b Flintoff",
                     "runs": "18",
                     "balls": "36",
                     "minutes": "62",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Graham Thorpe",
-                    "dismissal": "run out (Sangakkara/Kaluwitharana)",
+                    "dismissal": "run out (Sangakkara/ (wk)Kaluwitharana)",
                     "runs": "15",
                     "balls": "13",
                     "minutes": "14",
@@ -289,7 +289,7 @@
                     "strike_rate": "105.55"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "not out",
                     "runs": "38",
                     "balls": "31",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 4 balls remaining)"
+    "result": "England won by 3 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Romesh Kaluwitharana (wk)",
+            "Kumar Sangakkara",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Avishka Gunawardene",
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Dilhara Fernando",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)"
+        ],
+        "England": [
+            "Marcus Trescothick",
+            "Graham Thorpe",
+            "Paul Collingwood",
+            "Alec Stewart (wk)",
+            "James Kirtley",
+            "Nick Knight",
+            "Ronnie Irani",
+            "Andrew Flintoff",
+            "Darren Gough",
+            "Nasser Hussain(c)",
+            "Matthew Hoggard"
+        ]
+    }
 }

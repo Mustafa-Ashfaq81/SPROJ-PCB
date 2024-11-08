@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Khaled Mashud b Mohammad Sharif",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Sharif",
                     "runs": "4",
                     "balls": "15",
                     "minutes": "28",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Azhar Mahmood",
-                    "dismissal": "st Khaled Mashud b Khaled Mahmud",
+                    "dismissal": "st (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "12",
                     "balls": "25",
                     "minutes": "27",
@@ -100,7 +100,7 @@
                     "strike_rate": "140.00"
                 }
             ],
-            "did_not_bat": "Rashid Latif , Waqar Younis (c) , Saqlain Mushtaq , Shoaib Akhtar",
+            "did_not_bat": "Rashid Latif (wk) , Waqar Younis (c) , Saqlain Mushtaq , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 21 ( Naved Latif , 3.5 ov ) , 2 - 23 ( Shahid Afridi , 5.1 ov ) , 3 - 29 ( Inzamam-ul-Haq , 10.6 ov ) , 4 - 48 ( Azhar Mahmood , 16.2 ov ) , 5 - 183 ( Younis Khan , 40.1 ov )",
             "bowling": [
                 {
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Mehrab Hossain",
-                    "dismissal": "c Rashid Latif b Abdul Razzaq",
+                    "dismissal": "c (wk)Rashid Latif b Abdul Razzaq",
                     "runs": "21",
                     "balls": "36",
                     "minutes": "90",
@@ -257,7 +257,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "lbw b Shahid Afridi",
                     "runs": "0",
                     "balls": "3",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 72 runs"
+    "result": "Pakistan won by 72 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Inzamam-ul-Haq",
+            "Waqar Younis (c)",
+            "Shoaib Akhtar",
+            "Naved Latif",
+            "Rashid Latif (wk)",
+            "Mohammad Yousuf",
+            "Azhar Mahmood",
+            "Younis Khan",
+            "Saqlain Mushtaq",
+            "Abdul Razzaq"
+        ],
+        "Bangladesh": [
+            "Al Sahariar",
+            "Mohammad Sharif",
+            "Enamul Haque",
+            "Tareq Aziz",
+            "Mehrab Hossain",
+            "Khaled Mahmud",
+            "Javed Omer",
+            "Khaled Mashud(c) (wk)",
+            "Manjurul Islam",
+            "Tushar Imran",
+            "Sanuar Hossain"
+        ]
+    }
 }

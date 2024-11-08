@@ -50,8 +50,8 @@
                     "strike_rate": "135.38"
                 },
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "c Buttler b Woakes",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "11",
                     "balls": "11",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Jason Mohammed",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "46",
                     "balls": "71",
                     "minutes": "-",
@@ -198,7 +198,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "84",
                     "balls": "66",
                     "minutes": "-",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "39",
                     "balls": "51",
                     "minutes": "-",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "14",
                     "balls": "15",
                     "minutes": "-",
@@ -237,7 +237,7 @@
                     "strike_rate": "111.76"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "43",
                     "balls": "35",
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "England won by 6 runs (D/L method)"
+    "result": "England won by 6 runs (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Ashley Nurse",
+            "Miguel Cummins",
+            "Rovman Powell",
+            "Jerome Taylor",
+            "Alzarri Joseph",
+            "Jason Mohammed",
+            "Chris Gayle",
+            "Shai Hope (wk)",
+            "Jason Holder(c)",
+            "Evin Lewis"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Jake Ball",
+            "Sam Billings",
+            "Jonny Bairstow",
+            "Moeen Ali"
+        ]
+    }
 }

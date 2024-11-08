@@ -43,7 +43,7 @@
                     "strike_rate": "74.02"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Curran",
                     "runs": "19",
                     "balls": "22",
@@ -254,7 +254,7 @@
                     "strike_rate": "45.45"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c & b Shamsi",
                     "runs": "12",
                     "balls": "12",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "c de Kock b Nortje",
+                    "dismissal": "c (wk)de Kock b Nortje",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 62 runs"
+    "result": "South Africa won by 62 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Keshav Maharaj (c)",
+            "Rassie van der Dussen",
+            "Janneman Malan",
+            "Aiden Markram",
+            "Lungi Ngidi",
+            "Quinton de Kock (wk)",
+            "Tabraiz Shamsi",
+            "David Miller",
+            "Heinrich Klaasen",
+            "Andile Phehlukwayo",
+            "Anrich Nortje"
+        ],
+        "England": [
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Sam Curran",
+            "Jason Roy",
+            "Ben Stokes",
+            "Liam Livingstone",
+            "Brydon Carse",
+            "Matthew Potts",
+            "Jos Buttler(c) (wk)",
+            "Adil Rashid",
+            "Joe Root"
+        ]
+    }
 }

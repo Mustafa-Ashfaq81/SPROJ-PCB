@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Ramdin b Sammy",
+                    "dismissal": "c (wk)Ramdin b Sammy",
                     "runs": "9",
                     "balls": "23",
                     "minutes": "24",
@@ -84,7 +84,7 @@
                     "strike_rate": "75.86"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Pollard b Benn",
                     "runs": "50",
                     "balls": "52",
@@ -246,7 +246,7 @@
             "batting": [
                 {
                     "batsman": "Xavier Marshall",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "13",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Andre Fletcher",
-                    "dismissal": "run out (Haddin)",
+                    "dismissal": "run out ( (wk)Haddin)",
                     "runs": "26",
                     "balls": "43",
                     "minutes": "70",
@@ -296,7 +296,7 @@
                 },
                 {
                     "batsman": "Kieron Pollard",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "11",
                     "balls": "20",
                     "minutes": "30",
@@ -305,7 +305,7 @@
                     "strike_rate": "55.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Watson",
                     "runs": "31",
                     "balls": "38",
@@ -326,7 +326,7 @@
                 },
                 {
                     "batsman": "Jerome Taylor",
-                    "dismissal": "c Haddin b Bracken",
+                    "dismissal": "c (wk)Haddin b Bracken",
                     "runs": "11",
                     "balls": "10",
                     "minutes": "11",
@@ -459,5 +459,33 @@
             ]
         }
     ],
-    "result": "Australia won by 84 runs"
+    "result": "Australia won by 84 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Nathan Bracken",
+            "Michael Clarke",
+            "Cameron White",
+            "Brett Lee",
+            "Mitchell Johnson",
+            "James Hopes",
+            "Brad Haddin (wk)"
+        ],
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Kieron Pollard",
+            "Daren Sammy",
+            "Xavier Marshall",
+            "Fidel Edwards",
+            "Andre Fletcher",
+            "Sulieman Benn",
+            "Dwayne Bravo",
+            "Chris Gayle(c)",
+            "Jerome Taylor"
+        ]
+    }
 }

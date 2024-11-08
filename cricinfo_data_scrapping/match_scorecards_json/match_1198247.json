@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie(c)",
-                    "dismissal": "c Bairstow b Willey",
+                    "dismissal": "c (wk)Bairstow b Willey",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "8",
@@ -86,7 +86,7 @@
                     "strike_rate": "61.11"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "lbw b Willey",
                     "runs": "0",
                     "balls": "1",
@@ -107,7 +107,7 @@
                 },
                 {
                     "batsman": "Simi Singh",
-                    "dismissal": "run out (Banton/Bairstow)",
+                    "dismissal": "run out (Banton/ (wk)Bairstow)",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -239,7 +239,7 @@
                     "strike_rate": "109.09"
                 },
                 {
-                    "batsman": "Jonny Bairstow",
+                    "batsman": "Jonny Bairstow (wk)",
                     "dismissal": "lbw b McBrine",
                     "runs": "2",
                     "balls": "7",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "James Vince",
-                    "dismissal": "c Tucker b Young",
+                    "dismissal": "c (wk)Tucker b Young",
                     "runs": "25",
                     "balls": "21",
                     "minutes": "27",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Tom Banton",
-                    "dismissal": "c Tucker b Campher",
+                    "dismissal": "c (wk)Tucker b Campher",
                     "runs": "11",
                     "balls": "24",
                     "minutes": "32",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 133 balls remaining)"
+    "result": "England won by 6 wickets (with 133 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Harry Tector",
+            "Craig Young",
+            "Curtis Campher",
+            "Andy Balbirnie(c)",
+            "Barry McCarthy",
+            "Gareth Delany",
+            "Lorcan Tucker (wk)",
+            "Paul Stirling",
+            "Andy McBrine",
+            "Simi Singh",
+            "Kevin O'Brien"
+        ],
+        "England": [
+            "James Vince",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Jason Roy",
+            "Saqib Mahmood",
+            "Jonny Bairstow (wk)",
+            "Tom Curran",
+            "Adil Rashid",
+            "David Willey",
+            "Sam Billings",
+            "Tom Banton"
+        ]
+    }
 }

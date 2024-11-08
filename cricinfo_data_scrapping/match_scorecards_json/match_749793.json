@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Ronchi b Southee",
+                    "dismissal": "c (wk)Ronchi b Southee",
                     "runs": "81",
                     "balls": "98",
                     "minutes": "137",
@@ -53,7 +53,7 @@
                     "strike_rate": "82.65"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "113",
                     "balls": "105",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Ronchi b Southee",
+                    "dismissal": "c (wk)Ronchi b Southee",
                     "runs": "14",
                     "balls": "14",
                     "minutes": "20",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "24",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Corey Anderson",
-                    "dismissal": "c Sangakkara b Eranga",
+                    "dismissal": "c (wk)Sangakkara b Eranga",
                     "runs": "29",
                     "balls": "20",
                     "minutes": "28",
@@ -284,7 +284,7 @@
                     "strike_rate": "145.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "b Kulasekara",
                     "runs": "47",
                     "balls": "42",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Kyle Mills",
-                    "dismissal": "run out (Kulasekara/Sangakkara)",
+                    "dismissal": "run out (Kulasekara/ (wk)Sangakkara)",
                     "runs": "30",
                     "balls": "17",
                     "minutes": "28",
@@ -315,7 +315,7 @@
                 },
                 {
                     "batsman": "Tim Southee",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "7",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 34 runs"
+    "result": "Sri Lanka won by 34 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Dimuth Karunaratne",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene",
+            "Lahiru Thirimanne(c)",
+            "Thisara Perera",
+            "Shaminda Eranga",
+            "Seekkuge Prasanna",
+            "Dushmantha Chameera"
+        ],
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Grant Elliott",
+            "Kane Williamson(c)",
+            "Tom Latham",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Tim Southee",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ]
+    }
 }

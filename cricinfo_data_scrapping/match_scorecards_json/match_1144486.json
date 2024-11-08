@@ -32,7 +32,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Starc",
                     "runs": "0",
                     "balls": "3",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Hazratullah Zazai",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "10",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi",
-                    "dismissal": "st Carey b Zampa",
+                    "dismissal": "st (wk)Carey b Zampa",
                     "runs": "18",
                     "balls": "34",
                     "minutes": "56",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "run out (Smith/Carey)",
+                    "dismissal": "run out (Smith/ (wk)Carey)",
                     "runs": "7",
                     "balls": "22",
                     "minutes": "28",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib(c)",
-                    "dismissal": "c Carey b Stoinis",
+                    "dismissal": "c (wk)Carey b Stoinis",
                     "runs": "31",
                     "balls": "33",
                     "minutes": "67",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Najibullah Zadran",
-                    "dismissal": "c Carey b Stoinis",
+                    "dismissal": "c (wk)Carey b Stoinis",
                     "runs": "51",
                     "balls": "49",
                     "minutes": "66",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Dawlat Zadran",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "5",
@@ -275,7 +275,7 @@
                     "strike_rate": "400.00"
                 }
             ],
-            "did_not_bat": "Marcus Stoinis , Alex Carey , Nathan Coulter-Nile , Pat Cummins , Mitchell Starc , Adam Zampa",
+            "did_not_bat": "Marcus Stoinis , Alex Carey (wk) , Nathan Coulter-Nile , Pat Cummins , Mitchell Starc , Adam Zampa",
             "fall_of_wickets": "Fall of wickets : 1 - 96 ( Aaron Finch , 16.2 ov ) , 2 - 156 ( Usman Khawaja , 24.6 ov ) , 3 - 205 ( Steven Smith , 34.4 ov )",
             "bowling": [
                 {
@@ -365,5 +365,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 91 balls remaining)"
+    "result": "Australia won by 7 wickets (with 91 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Dawlat Zadran",
+            "Gulbadin Naib(c)",
+            "Hashmatullah Shahidi",
+            "Hazratullah Zazai",
+            "Mujeeb Ur Rahman",
+            "Rashid Khan",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Rahmat Shah",
+            "Hamid Hassan"
+        ],
+        "Australia": [
+            "David Warner",
+            "Pat Cummins",
+            "Usman Khawaja",
+            "Adam Zampa",
+            "Steven Smith",
+            "Marcus Stoinis",
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "Glenn Maxwell",
+            "Nathan Coulter-Nile"
+        ]
+    }
 }

@@ -63,8 +63,8 @@
                     "strike_rate": "120.48"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Jones b Harmison",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "17",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Jones b Bell",
+                    "dismissal": "c (wk)Jones b Bell",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "10",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "c Jones b Plunkett",
+                    "dismissal": "c (wk)Jones b Plunkett",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "23",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "st Sangakkara b Bandara",
+                    "dismissal": "st (wk)Sangakkara b Bandara",
                     "runs": "30",
                     "balls": "48",
                     "minutes": "66",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Sangakkara b Dilshan",
+                    "dismissal": "c (wk)Sangakkara b Dilshan",
                     "runs": "45",
                     "balls": "44",
                     "minutes": "56",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Vikram Solanki",
-                    "dismissal": "st Sangakkara b Bandara",
+                    "dismissal": "st (wk)Sangakkara b Bandara",
                     "runs": "10",
                     "balls": "18",
                     "minutes": "21",
@@ -294,7 +294,7 @@
                     "strike_rate": "67.34"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Maharoof b Dilshan",
                     "runs": "23",
                     "balls": "20",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Tim Bresnan",
-                    "dismissal": "run out (Tharanga/Sangakkara)",
+                    "dismissal": "run out (Tharanga/ (wk)Sangakkara)",
                     "runs": "20",
                     "balls": "13",
                     "minutes": "17",
@@ -448,5 +448,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 33 runs"
+    "result": "Sri Lanka won by 33 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dilhara Fernando",
+            "Upul Tharanga",
+            "Lasith Malinga",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Farveez Maharoof",
+            "Malinga Bandara"
+        ],
+        "England": [
+            "Jamie Dalrymple",
+            "Liam Plunkett",
+            "Vikram Solanki",
+            "Alastair Cook",
+            "Andrew Strauss(c)",
+            "Steve Harmison",
+            "Geraint Jones (wk)",
+            "Marcus Trescothick",
+            "Tim Bresnan",
+            "Ian Bell",
+            "Kabir Ali"
+        ]
+    }
 }

@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Kirk Edwards",
-                    "dismissal": "c PA Patel b MM Patel",
+                    "dismissal": "c (wk)PA Patel b MM Patel",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "6",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "run out (Raina/PA Patel)",
+                    "dismissal": "run out (Raina/ (wk)PA Patel)",
                     "runs": "28",
                     "balls": "38",
                     "minutes": "53",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "st PA Patel b Mishra",
+                    "dismissal": "st (wk)PA Patel b Mishra",
                     "runs": "1",
                     "balls": "10",
                     "minutes": "9",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Kieron Pollard",
-                    "dismissal": "c PA Patel b Harbhajan Singh",
+                    "dismissal": "c (wk)PA Patel b Harbhajan Singh",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "20",
@@ -93,7 +93,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "c Dhawan b MM Patel",
                     "runs": "36",
                     "balls": "73",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Daren Sammy(c)",
-                    "dismissal": "c PA Patel b MM Patel",
+                    "dismissal": "c (wk)PA Patel b MM Patel",
                     "runs": "3",
                     "balls": "14",
                     "minutes": "14",
@@ -244,7 +244,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "c Russell b Bishoo",
                     "runs": "46",
                     "balls": "56",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "S Badrinath",
-                    "dismissal": "run out (Russell/Baugh)",
+                    "dismissal": "run out (Russell/ (wk)Baugh)",
                     "runs": "11",
                     "balls": "28",
                     "minutes": "33",
@@ -315,7 +315,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Baugh b Russell",
+                    "dismissal": "c (wk)Baugh b Russell",
                     "runs": "41",
                     "balls": "64",
                     "minutes": "79",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "India won by 3 wickets (with 22 balls remaining)"
+    "result": "India won by 3 wickets (with 22 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Kieron Pollard",
+            "Daren Sammy(c)",
+            "Andre Russell",
+            "Kemar Roach",
+            "Devendra Bishoo",
+            "Marlon Samuels",
+            "Lendl Simmons",
+            "Kirk Edwards",
+            "Danza Hyatt"
+        ],
+        "India": [
+            "Praveen Kumar",
+            "S Badrinath",
+            "Harbhajan Singh",
+            "Yusuf Pathan",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Amit Mishra",
+            "Virat Kohli",
+            "Parthiv Patel (wk)",
+            "Suresh Raina(c)",
+            "Munaf Patel"
+        ]
+    }
 }

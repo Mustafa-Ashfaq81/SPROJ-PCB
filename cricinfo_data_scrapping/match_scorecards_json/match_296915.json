@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Prior b Broad",
+                    "dismissal": "c (wk)Prior b Broad",
                     "runs": "9",
                     "balls": "14",
                     "minutes": "25",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Prior b Broad",
+                    "dismissal": "c (wk)Prior b Broad",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "14",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Prior b Broad",
+                    "dismissal": "c (wk)Prior b Broad",
                     "runs": "8",
                     "balls": "3",
                     "minutes": "6",
@@ -80,8 +80,8 @@
                     "strike_rate": "266.66"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Prior b Flintoff",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Prior b Flintoff",
                     "runs": "10",
                     "balls": "23",
                     "minutes": "33",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Johan Botha",
-                    "dismissal": "c Prior b Broad",
+                    "dismissal": "c (wk)Prior b Broad",
                     "runs": "1",
                     "balls": "16",
                     "minutes": "22",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Albie Morkel",
-                    "dismissal": "c Prior b Harmison",
+                    "dismissal": "c (wk)Prior b Harmison",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "30",
@@ -219,7 +219,7 @@
                     "strike_rate": "54.90"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "not out",
                     "runs": "45",
                     "balls": "36",
@@ -291,5 +291,33 @@
             ]
         }
     ],
-    "result": "England won by 10 wickets (with 215 balls remaining)"
+    "result": "England won by 10 wickets (with 215 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Andre Nel",
+            "Graeme Smith(c)",
+            "Makhaya Ntini",
+            "Johan Botha",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Dale Steyn",
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Jacques Kallis"
+        ],
+        "England": [
+            "James Anderson",
+            "Kevin Pietersen (c)",
+            "Stuart Broad",
+            "Matt Prior (wk)",
+            "Luke Wright",
+            "Ian Bell",
+            "Steve Harmison",
+            "Samit Patel",
+            "Paul Collingwood",
+            "Owais Shah",
+            "Andrew Flintoff"
+        ]
+    }
 }

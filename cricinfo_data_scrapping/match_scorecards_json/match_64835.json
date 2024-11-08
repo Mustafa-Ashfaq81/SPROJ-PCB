@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Khaled Mashud b Tapash Baisya",
+                    "dismissal": "c (wk)Khaled Mashud b Tapash Baisya",
                     "runs": "2",
                     "balls": "17",
                     "minutes": "25",
@@ -100,7 +100,7 @@
                     "strike_rate": "125.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Tapash Baisya",
                     "runs": "0",
                     "balls": "1",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Junaid Zia",
-                    "dismissal": "c Khaled Mashud b Tapash Baisya",
+                    "dismissal": "c (wk)Khaled Mashud b Tapash Baisya",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "19",
@@ -307,7 +307,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "9",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 42 runs (D/L method)"
+    "result": "Pakistan won by 42 runs (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Umar Gul",
+            "Junaid Zia",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Mohammad Hafeez",
+            "Inzamam-ul-Haq(c)",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Shabbir Ahmed"
+        ],
+        "Bangladesh": [
+            "Khaled Mashud (wk)",
+            "Mushfiqur Rahman",
+            "Mohammad Rafique",
+            "Mohammad Ashraful",
+            "Alok Kapali",
+            "Rajin Saleh",
+            "Mashrafe Mortaza",
+            "Khaled Mahmud(c)",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Hannan Sarkar"
+        ]
+    }
 }

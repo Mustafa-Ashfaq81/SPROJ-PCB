@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "29",
                     "balls": "30",
                     "minutes": "47",
@@ -80,7 +80,7 @@
                     "strike_rate": "96.66"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "run out (Pathan/Kumble)",
                     "runs": "4",
                     "balls": "16",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "run out (Dhoni/Kaif)",
+                    "dismissal": "run out ( (wk)Dhoni/Kaif)",
                     "runs": "33",
                     "balls": "50",
                     "minutes": "59",
@@ -267,7 +267,7 @@
                     "strike_rate": "60.86"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Bosman b Kallis",
                     "runs": "55",
                     "balls": "48",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 106 runs"
+    "result": "South Africa won by 106 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Andrew Hall",
+            "Loots Bosman"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Virender Sehwag",
+            "Mohammad Kaif",
+            "Irfan Pathan",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Anil Kumble",
+            "MS Dhoni (wk)",
+            "Dinesh Karthik",
+            "Rahul Dravid(c)",
+            "Harbhajan Singh"
+        ]
+    }
 }

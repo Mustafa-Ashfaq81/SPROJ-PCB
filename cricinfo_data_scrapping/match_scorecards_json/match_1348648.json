@@ -60,7 +60,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Ishan Kishan",
+                    "batsman": "Ishan Kishan (wk)",
                     "dismissal": "run out (Nicholls)",
                     "runs": "17",
                     "balls": "24",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Shardul Thakur",
-                    "dismissal": "c Latham b Tickner",
+                    "dismissal": "c (wk)Latham b Tickner",
                     "runs": "25",
                     "balls": "17",
                     "minutes": "26",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Kuldeep Yadav",
-                    "dismissal": "run out (Latham/Ferguson)",
+                    "dismissal": "run out ( (wk)Latham/Ferguson)",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "11",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Daryl Mitchell",
-                    "dismissal": "c Ishan Kishan b Thakur",
+                    "dismissal": "c (wk)Ishan Kishan b Thakur",
                     "runs": "24",
                     "balls": "31",
                     "minutes": "47",
@@ -267,7 +267,7 @@
                     "strike_rate": "77.41"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "c Pandya b Thakur",
                     "runs": "0",
                     "balls": "1",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Michael Bracewell",
-                    "dismissal": "st Ishan Kishan b Kuldeep Yadav",
+                    "dismissal": "st (wk)Ishan Kishan b Kuldeep Yadav",
                     "runs": "26",
                     "balls": "22",
                     "minutes": "45",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "India won by 90 runs"
+    "result": "India won by 90 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma(c)",
+            "Hardik Pandya",
+            "Ishan Kishan (wk)",
+            "Shardul Thakur",
+            "Suryakumar Yadav",
+            "Umran Malik",
+            "Yuzvendra Chahal",
+            "Washington Sundar",
+            "Shubman Gill",
+            "Kuldeep Yadav",
+            "Virat Kohli"
+        ],
+        "New Zealand": [
+            "Blair Tickner",
+            "Daryl Mitchell",
+            "Devon Conway",
+            "Tom Latham(c) (wk)",
+            "Finn Allen",
+            "Jacob Duffy",
+            "Lockie Ferguson",
+            "Mitchell Santner",
+            "Michael Bracewell",
+            "Glenn Phillips",
+            "Henry Nicholls"
+        ]
+    }
 }

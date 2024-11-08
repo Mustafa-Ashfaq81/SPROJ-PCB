@@ -32,8 +32,8 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Taylor b Chatara",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "4",
@@ -239,7 +239,7 @@
                     "strike_rate": "78.78"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b Duminy",
                     "runs": "79",
                     "balls": "96",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Malcolm Waller",
-                    "dismissal": "c de Kock b Phangiso",
+                    "dismissal": "c (wk)de Kock b Phangiso",
                     "runs": "17",
                     "balls": "22",
                     "minutes": "32",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Neville Madziva",
-                    "dismissal": "run out (Miller/de Kock)",
+                    "dismissal": "run out (Miller/ (wk)de Kock)",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "10",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 63 runs"
+    "result": "South Africa won by 63 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Dale Steyn",
+            "Aaron Phangiso",
+            "Morne Morkel",
+            "Wayne Parnell",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor (wk)",
+            "Tendai Chatara",
+            "Neville Madziva",
+            "Elton Chigumbura(c)",
+            "Prosper Utseya",
+            "John Nyumbu",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Sikandar Raza",
+            "Malcolm Waller"
+        ]
+    }
 }

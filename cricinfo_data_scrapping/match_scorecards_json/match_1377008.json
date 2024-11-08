@@ -54,7 +54,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c Rahmat Shah b Fazalhaq Farooqi",
                     "runs": "11",
                     "balls": "17",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Rahmanullah Gurbaz b Fareed Ahmad",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Fareed Ahmad",
                     "runs": "12",
                     "balls": "21",
                     "minutes": "32",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "run out (Rahmanullah Gurbaz)",
+                    "dismissal": "run out ( (wk)Rahmanullah Gurbaz)",
                     "runs": "91",
                     "balls": "95",
                     "minutes": "156",
@@ -241,7 +241,7 @@
             "extras": "30",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "b Kumara",
                     "runs": "14",
                     "balls": "23",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi(c)",
-                    "dismissal": "c Mendis b Rajitha",
+                    "dismissal": "c (wk)Mendis b Rajitha",
                     "runs": "38",
                     "balls": "47",
                     "minutes": "64",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 6 wickets (with 19 balls remaining)"
+    "result": "Afghanistan won by 6 wickets (with 19 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Pathum Nissanka",
+            "Dushan Hemantha",
+            "Dhananjaya de Silva",
+            "Kusal Mendis (wk)",
+            "Kasun Rajitha",
+            "Dimuth Karunaratne",
+            "Angelo Mathews",
+            "Charith Asalanka",
+            "Matheesha Pathirana",
+            "Lahiru Kumara",
+            "Dasun Shanaka(c)"
+        ],
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Hashmatullah Shahidi(c)",
+            "Azmatullah Omarzai",
+            "Mujeeb Ur Rahman",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Fazalhaq Farooqi",
+            "Ibrahim Zadran",
+            "Noor Ahmad",
+            "Fareed Ahmad",
+            "Rahmanullah Gurbaz (wk)"
+        ]
+    }
 }

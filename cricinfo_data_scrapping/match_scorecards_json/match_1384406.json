@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Max O'Dowd",
-                    "dismissal": "c de Kock b Jansen",
+                    "dismissal": "c (wk)de Kock b Jansen",
                     "runs": "18",
                     "balls": "25",
                     "minutes": "33",
@@ -91,7 +91,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "not out",
                     "runs": "78",
                     "balls": "69",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Logan van Beek",
-                    "dismissal": "st de Kock b Maharaj",
+                    "dismissal": "st (wk)de Kock b Maharaj",
                     "runs": "10",
                     "balls": "27",
                     "minutes": "22",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Roelof van der Merwe",
-                    "dismissal": "c de Kock b Ngidi",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "29",
                     "balls": "19",
                     "minutes": "30",
@@ -224,8 +224,8 @@
                     "strike_rate": "51.61"
                 },
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Edwards b Ackermann",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Edwards b Ackermann",
                     "runs": "20",
                     "balls": "22",
                     "minutes": "28",
@@ -285,7 +285,7 @@
                 },
                 {
                     "batsman": "Gerald Coetzee",
-                    "dismissal": "c Edwards b de Leede",
+                    "dismissal": "c (wk)Edwards b de Leede",
                     "runs": "22",
                     "balls": "23",
                     "minutes": "33",
@@ -295,7 +295,7 @@
                 },
                 {
                     "batsman": "Keshav Maharaj",
-                    "dismissal": "c Edwards b van Beek",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "40",
                     "balls": "37",
                     "minutes": "54",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 38 runs"
+    "result": "Netherlands won by 38 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Aryan Dutt",
+            "Teja Nidamanuru",
+            "Scott Edwards(c) (wk)",
+            "Roelof van der Merwe",
+            "Paul van Meekeren",
+            "Max O'Dowd",
+            "Vikramjit Singh",
+            "Sybrand Engelbrecht",
+            "Colin Ackermann",
+            "Bas de Leede",
+            "Logan van Beek"
+        ],
+        "South Africa": [
+            "Marco Jansen",
+            "Keshav Maharaj",
+            "Quinton de Kock (wk)",
+            "Kagiso Rabada",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Temba Bavuma(c)",
+            "Lungi Ngidi",
+            "Rassie van der Dussen",
+            "Gerald Coetzee",
+            "Aiden Markram"
+        ]
+    }
 }

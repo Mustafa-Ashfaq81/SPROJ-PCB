@@ -72,7 +72,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "c Allen b Mohammed",
                     "runs": "71",
                     "balls": "98",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "run out (Allen/Hope)",
+                    "dismissal": "run out (Allen/ (wk)Hope)",
                     "runs": "19",
                     "balls": "25",
                     "minutes": "56",
@@ -244,7 +244,7 @@
             "batting": [
                 {
                     "batsman": "Evin Lewis",
-                    "dismissal": "st Chandimal b Sandakan",
+                    "dismissal": "st (wk)Chandimal b Sandakan",
                     "runs": "103",
                     "balls": "121",
                     "minutes": "171",
@@ -253,7 +253,7 @@
                     "strike_rate": "85.12"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Pradeep b Perera",
                     "runs": "84",
                     "balls": "108",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 5 wickets (with 2 balls remaining)"
+    "result": "West Indies won by 5 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Nuwan Pradeep",
+            "Oshada Fernando",
+            "Lakshan Sandakan",
+            "Dushmantha Chameera",
+            "Dimuth Karunaratne(c)",
+            "Pathum Nissanka",
+            "Danushka Gunathilaka",
+            "Ashen Bandara",
+            "Thisara Perera",
+            "Dinesh Chandimal (wk)"
+        ],
+        "West Indies": [
+            "Akeal Hosein",
+            "Jason Mohammed",
+            "Kieron Pollard(c)",
+            "Jason Holder",
+            "Alzarri Joseph",
+            "Romario Shepherd",
+            "Shai Hope (wk)",
+            "Nicholas Pooran",
+            "Darren Bravo",
+            "Fabian Allen",
+            "Evin Lewis"
+        ]
+    }
 }

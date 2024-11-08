@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Carlos Gibson",
-                    "dismissal": "c Ottley b Welsh",
+                    "dismissal": "c (wk)Ottley b Welsh",
                     "runs": "4",
                     "balls": "20",
                     "minutes": "20",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Matias Paterlini",
-                    "dismissal": "c Ottley b Welsh",
+                    "dismissal": "c (wk)Ottley b Welsh",
                     "runs": "3",
                     "balls": "26",
                     "minutes": "31",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Pablo Ferguson",
-                    "dismissal": "c Ottley b Davison",
+                    "dismissal": "c (wk)Ottley b Davison",
                     "runs": "15",
                     "balls": "40",
                     "minutes": "35",
@@ -89,7 +89,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Alejandro Ferguson",
+                    "batsman": "Alejandro Ferguson (wk)",
                     "dismissal": "not out",
                     "runs": "49",
                     "balls": "55",
@@ -256,7 +256,7 @@
                     "strike_rate": "108.33"
                 }
             ],
-            "did_not_bat": "Steven Welsh , Austin Codrington , Abdool Samad , Durand Soraine , Ian Billcliff , Trevin Bastiampillai , Kendon Ottley , Kevin Sandher",
+            "did_not_bat": "Steven Welsh , Austin Codrington , Abdool Samad , Durand Soraine , Ian Billcliff , Trevin Bastiampillai , Kendon Ottley (wk) , Kevin Sandher",
             "fall_of_wickets": "Fall of wickets : 1 - 82 ( John Davison , 12.3 ov )",
             "bowling": [
                 {
@@ -318,5 +318,33 @@
             ]
         }
     ],
-    "result": "Canada won by 9 wickets (D/L method)"
+    "result": "Canada won by 9 wickets (D/L method)",
+    "playing_xi": {
+        "Argentina": [
+            "Esteban Nino",
+            "Matias Paterlini",
+            "Pablo Ferguson",
+            "Alejandro Ferguson (wk)",
+            "Bernardo Irigoyen",
+            "Esteban MacDermott(c)",
+            "Gary Savage",
+            "Diego Lord",
+            "Donald Forrester",
+            "Carlos Gibson",
+            "Gaston Arizaga"
+        ],
+        "Canada": [
+            "Steven Welsh",
+            "Durand Soraine",
+            "Austin Codrington",
+            "Ashish Bagai",
+            "Abdool Samad",
+            "Kendon Ottley (wk)",
+            "Ian Billcliff",
+            "Sandeep Jyoti",
+            "John Davison(c)",
+            "Kevin Sandher",
+            "Trevin Bastiampillai"
+        ]
+    }
 }

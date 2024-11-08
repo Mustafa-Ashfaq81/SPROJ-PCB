@@ -30,7 +30,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "lbw b Ali",
                     "runs": "52",
                     "balls": "70",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sadeera Samarawickrama",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "c Buttler b Curran",
+                    "dismissal": "c (wk)Buttler b Curran",
                     "runs": "17",
                     "balls": "28",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "run out (Stokes/Buttler)",
+                    "dismissal": "run out (Stokes/ (wk)Buttler)",
                     "runs": "44",
                     "balls": "41",
                     "minutes": "-",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Alex Hales",
-                    "dismissal": "st Dickwella b Dananjaya",
+                    "dismissal": "st (wk)Dickwella b Dananjaya",
                     "runs": "12",
                     "balls": "23",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "91.17"
                 }
             ],
-            "did_not_bat": "Ben Stokes , Jos Buttler , Moeen Ali , Chris Woakes , Tom Curran , Adil Rashid , Olly Stone",
+            "did_not_bat": "Ben Stokes , Jos Buttler (wk) , Moeen Ali , Chris Woakes , Tom Curran , Adil Rashid , Olly Stone",
             "fall_of_wickets": "Fall of wickets : 1 - 52 ( Alex Hales , 9.1 ov ) , 2 - 76 ( Jason Roy , 15.4 ov )",
             "bowling": [
                 {
@@ -333,5 +333,33 @@
             ]
         }
     ],
-    "result": "England won by 18 runs (D/L method)"
+    "result": "England won by 18 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dasun Shanaka",
+            "Akila Dananjaya",
+            "Dhananjaya de Silva",
+            "Amila Aponso",
+            "Dinesh Chandimal(c)",
+            "Thisara Perera",
+            "Niroshan Dickwella (wk)",
+            "Kasun Rajitha",
+            "Kusal Mendis",
+            "Sadeera Samarawickrama",
+            "Lasith Malinga"
+        ],
+        "England": [
+            "Moeen Ali",
+            "Jason Roy",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Chris Woakes",
+            "Tom Curran",
+            "Olly Stone",
+            "Adil Rashid",
+            "Alex Hales",
+            "Eoin Morgan(c)",
+            "Ben Stokes"
+        ]
+    }
 }

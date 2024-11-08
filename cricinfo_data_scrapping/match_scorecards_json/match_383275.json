@@ -64,7 +64,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c West b Botha",
                     "runs": "29",
                     "balls": "52",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood(c)",
-                    "dismissal": "c NJ O'Brien b West",
+                    "dismissal": "c (wk)NJ O'Brien b West",
                     "runs": "9",
                     "balls": "23",
                     "minutes": "29",
@@ -251,7 +251,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Collingwood b Bresnan",
                     "runs": "12",
                     "balls": "7",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "John Mooney",
-                    "dismissal": "st Prior b Shah",
+                    "dismissal": "st (wk)Prior b Shah",
                     "runs": "9",
                     "balls": "22",
                     "minutes": "20",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "run out (Prior)",
+                    "dismissal": "run out ( (wk)Prior)",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "6",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "England won by 3 runs (D/L method)"
+    "result": "England won by 3 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Joe Denly",
+            "Jonathan Trott",
+            "Paul Collingwood(c)",
+            "Graeme Swann",
+            "Luke Wright",
+            "Adil Rashid",
+            "Tim Bresnan",
+            "Matt Prior (wk)",
+            "Ryan Sidebottom",
+            "Ravi Bopara",
+            "Owais Shah"
+        ],
+        "Ireland": [
+            "William Porterfield(c)",
+            "John Mooney",
+            "Andrew White",
+            "Alex Cusack",
+            "Kevin O'Brien",
+            "Kyle McCallan",
+            "Paul Stirling",
+            "Trent Johnston",
+            "Regan West",
+            "Andre Botha",
+            "Niall O'Brien (wk)"
+        ]
+    }
 }

@@ -40,7 +40,7 @@
                     "strike_rate": "118.18"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "c Pollard b Sammy",
                     "runs": "24",
                     "balls": "36",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle(c)",
-                    "dismissal": "c Paine b Bollinger",
+                    "dismissal": "c (wk)Paine b Bollinger",
                     "runs": "34",
                     "balls": "21",
                     "minutes": "27",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Travis Dowlin",
-                    "dismissal": "c Paine b Harris",
+                    "dismissal": "c (wk)Paine b Harris",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "24",
@@ -281,7 +281,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Bollinger",
                     "runs": "15",
                     "balls": "22",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Australia won by 50 runs"
+    "result": "Australia won by 50 runs",
+    "playing_xi": {
+        "Australia": [
+            "Cameron White",
+            "Adam Voges",
+            "Shane Watson",
+            "Ricky Ponting(c)",
+            "Ryan Harris",
+            "Mitchell Johnson",
+            "Nathan Hauritz",
+            "James Hopes",
+            "Tim Paine (wk)",
+            "Michael Hussey",
+            "Doug Bollinger"
+        ],
+        "West Indies": [
+            "Nikita Miller",
+            "Ravi Rampaul",
+            "Daren Sammy",
+            "Denesh Ramdin (wk)",
+            "Chris Gayle(c)",
+            "Wavell Hinds",
+            "Narsingh Deonarine",
+            "Dwayne Smith",
+            "Lendl Simmons",
+            "Travis Dowlin",
+            "Kieron Pollard"
+        ]
+    }
 }

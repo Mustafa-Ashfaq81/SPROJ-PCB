@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Imran Nazir",
-                    "dismissal": "c Nevin b Styris",
+                    "dismissal": "c (wk)Nevin b Styris",
                     "runs": "47",
                     "balls": "46",
                     "minutes": "82",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Nevin b Styris",
+                    "dismissal": "c (wk)Nevin b Styris",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Nevin b Styris",
+                    "dismissal": "c (wk)Nevin b Styris",
                     "runs": "15",
                     "balls": "25",
                     "minutes": "32",
@@ -102,7 +102,7 @@
                     "strike_rate": "175.00"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "not out",
                     "runs": "7",
                     "balls": "8",
@@ -237,7 +237,7 @@
             "extras": "28",
             "batting": [
                 {
-                    "batsman": "Chris Nevin",
+                    "batsman": "Chris Nevin (wk)",
                     "dismissal": "c Waqar Younis b Shoaib Akhtar",
                     "runs": "40",
                     "balls": "57",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "12",
                     "balls": "9",
                     "minutes": "21",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 51 runs"
+    "result": "Pakistan won by 51 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Saqlain Mushtaq",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Waqar Younis (c)",
+            "Inzamam-ul-Haq",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Shahid Afridi",
+            "Imran Nazir"
+        ],
+        "New Zealand": [
+            "Craig McMillan(c)",
+            "Nathan Astle",
+            "Chris Nevin (wk)",
+            "Chris Harris",
+            "Jacob Oram",
+            "James Franklin",
+            "Ian Butler",
+            "Mathew Sinclair",
+            "Matt Horne",
+            "Scott Styris",
+            "Daryl Tuffey"
+        ]
+    }
 }

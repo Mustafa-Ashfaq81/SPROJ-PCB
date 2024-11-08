@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Adrian Barath",
-                    "dismissal": "c Wade b McKay",
+                    "dismissal": "c (wk)Wade b McKay",
                     "runs": "41",
                     "balls": "31",
                     "minutes": "44",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Wade b Lee",
+                    "dismissal": "c (wk)Wade b Lee",
                     "runs": "11",
                     "balls": "41",
                     "minutes": "42",
@@ -110,7 +110,7 @@
                     "strike_rate": "238.46"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "not out",
                     "runs": "0",
                     "balls": "0",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "George Bailey",
-                    "dismissal": "c Baugh b Russell",
+                    "dismissal": "c (wk)Baugh b Russell",
                     "runs": "25",
                     "balls": "36",
                     "minutes": "52",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c Baugh b Russell",
+                    "dismissal": "c (wk)Baugh b Russell",
                     "runs": "26",
                     "balls": "30",
                     "minutes": "45",
@@ -263,7 +263,7 @@
                     "strike_rate": "105.55"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Russell b Pollard",
                     "runs": "15",
                     "balls": "36",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 42 runs"
+    "result": "West Indies won by 42 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Johnson Charles",
+            "Marlon Samuels",
+            "Daren Sammy(c)",
+            "Adrian Barath",
+            "Kieron Pollard",
+            "Carlton Baugh (wk)",
+            "Andre Russell",
+            "Darren Bravo",
+            "Dwayne Bravo",
+            "Sunil Narine",
+            "Kemar Roach"
+        ],
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Peter Forrest",
+            "Brett Lee",
+            "Shane Watson(c)",
+            "Ben Hilfenhaus",
+            "David Warner",
+            "George Bailey",
+            "Michael Hussey"
+        ]
+    }
 }

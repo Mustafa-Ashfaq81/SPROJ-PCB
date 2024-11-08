@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Aaron Jones",
-                    "dismissal": "c Doriga b Vanua",
+                    "dismissal": "c (wk)Doriga b Vanua",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "-",
@@ -83,7 +83,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Jaskaran Malhotra",
+                    "batsman": "Jaskaran Malhotra (wk)",
                     "dismissal": "b Vanua",
                     "runs": "0",
                     "balls": "1",
@@ -251,7 +251,7 @@
             "batting": [
                 {
                     "batsman": "Tony Ura",
-                    "dismissal": "c Malhotra b Netravalkar",
+                    "dismissal": "c (wk)Malhotra b Netravalkar",
                     "runs": "15",
                     "balls": "23",
                     "minutes": "-",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Charles Amini",
-                    "dismissal": "c Malhotra b Jasdeep Singh",
+                    "dismissal": "c (wk)Malhotra b Jasdeep Singh",
                     "runs": "5",
                     "balls": "25",
                     "minutes": "-",
@@ -320,7 +320,7 @@
                     "strike_rate": "233.33"
                 }
             ],
-            "did_not_bat": "Simon Atai , Kiplin Doriga , Damien Ravu , Nosaina Pokana",
+            "did_not_bat": "Simon Atai , Kiplin Doriga (wk) , Damien Ravu , Nosaina Pokana",
             "fall_of_wickets": "Fall of wickets : 1 - 25 ( Tony Ura , 6.1 ov ) , 2 - 25 ( Assad Vala , 7.1 ov ) , 3 - 40 ( Charles Amini , 13.3 ov ) , 4 - 75 ( Chad Soper , 19.4 ov ) , 5 - 131 ( Lega Siaka , 29.5 ov )",
             "bowling": [
                 {
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "P.N.G. won by 5 wickets (with 102 balls remaining)"
+    "result": "P.N.G. won by 5 wickets (with 102 balls remaining)",
+    "playing_xi": {
+        "United States of America": [
+            "Hayden Walsh",
+            "Jaskaran Malhotra (wk)",
+            "Ali Khan",
+            "Jasdeep Singh",
+            "Monank Patel",
+            "Xavier Marshall",
+            "Steven Taylor",
+            "Aaron Jones",
+            "Timil Patel",
+            "Karima Gore",
+            "Saurabh Netravalkar(c)"
+        ],
+        "Papua New Guinea": [
+            "Nosaina Pokana",
+            "Kiplin Doriga (wk)",
+            "Simon Atai",
+            "Tony Ura",
+            "Damien Ravu",
+            "Norman Vanua",
+            "Chad Soper",
+            "Lega Siaka",
+            "Assad Vala(c)",
+            "Charles Amini",
+            "Sese Bau"
+        ]
+    }
 }

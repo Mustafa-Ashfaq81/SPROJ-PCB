@@ -61,8 +61,8 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "18",
@@ -254,7 +254,7 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "not out",
                     "runs": "26",
                     "balls": "21",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 105 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 105 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Mahmudullah",
+            "Tanzid Hasan",
+            "Mustafizur Rahman",
+            "Shoriful Islam",
+            "Najmul Hossain Shanto",
+            "Towhid Hridoy",
+            "Shakib Al Hasan(c)",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed"
+        ],
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Saud Shakeel",
+            "Abdullah Shafique",
+            "Mohammad Wasim",
+            "Haris Rauf",
+            "Fakhar Zaman",
+            "Mohammad Rizwan (wk)",
+            "Salman Agha",
+            "Usama Mir"
+        ]
+    }
 }

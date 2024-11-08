@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "3",
                     "balls": "19",
                     "minutes": "38",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "16",
                     "balls": "18",
                     "minutes": "15",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "st Sangakkara b Jayasuriya",
+                    "dismissal": "st (wk)Sangakkara b Jayasuriya",
                     "runs": "43",
                     "balls": "71",
                     "minutes": "93",
@@ -82,7 +82,7 @@
                     "strike_rate": "61.36"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Malinga",
                     "runs": "29",
                     "balls": "39",
@@ -254,7 +254,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "11",
                     "balls": "34",
                     "minutes": "41",
@@ -283,8 +283,8 @@
                     "strike_rate": "72.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Boucher b Pollock",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "9",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 78 runs"
+    "result": "South Africa won by 78 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Andre Nel",
+            "Jacques Kallis",
+            "Graeme Smith(c)",
+            "Makhaya Ntini",
+            "Justin Kemp",
+            "Shaun Pollock",
+            "Robin Peterson",
+            "Herschelle Gibbs",
+            "Boeta Dippenaar"
+        ],
+        "Sri Lanka": [
+            "Marvan Atapattu",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Muthiah Muralidaran",
+            "Farveez Maharoof",
+            "Sanath Jayasuriya",
+            "Upul Tharanga"
+        ]
+    }
 }

@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Hashan Tillakaratne",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "14",
                     "balls": "28",
                     "minutes": "40",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "19",
@@ -92,7 +92,7 @@
                     "strike_rate": "72.72"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Pollock b Kallis",
                     "runs": "6",
                     "balls": "8",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "run out (Boucher)",
+                    "dismissal": "run out ( (wk)Boucher)",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "11",
@@ -279,7 +279,7 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "45",
                     "balls": "50",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock(c)",
-                    "dismissal": "run out (Sangakkara/Muralidaran)",
+                    "dismissal": "run out ( (wk)Sangakkara/Muralidaran)",
                     "runs": "25",
                     "balls": "37",
                     "minutes": "52",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "Match tied (D/L method)"
+    "result": "Match tied (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Hashan Tillakaratne",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Aravinda de Silva",
+            "Sanath Jayasuriya(c)",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Pulasthi Gunaratne",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Monde Zondeki",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Boeta Dippenaar",
+            "Lance Klusener",
+            "Andrew Hall",
+            "Graeme Smith",
+            "Makhaya Ntini"
+        ]
+    }
 }

@@ -66,7 +66,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Shai Hope(c)",
+                    "batsman": "Shai Hope(c) (wk)",
                     "dismissal": "not out",
                     "runs": "128",
                     "balls": "115",
@@ -219,7 +219,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "lbw b Mayers",
                     "runs": "48",
                     "balls": "26",
@@ -230,7 +230,7 @@
                 },
                 {
                     "batsman": "Temba Bavuma(c)",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "144",
                     "balls": "118",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Tristan Stubbs",
-                    "dismissal": "c Hope b Smith",
+                    "dismissal": "c (wk)Hope b Smith",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "-",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Bjorn Fortuin",
-                    "dismissal": "st Hope b Hosein",
+                    "dismissal": "st (wk)Hope b Hosein",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "-",
@@ -320,7 +320,7 @@
                 },
                 {
                     "batsman": "Tabraiz Shamsi",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 48 runs"
+    "result": "West Indies won by 48 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Shai Hope(c) (wk)",
+            "Yannic Cariah",
+            "Rovman Powell",
+            "Odean Smith",
+            "Brandon King",
+            "Shamarh Brooks",
+            "Jason Holder",
+            "Kyle Mayers",
+            "Nicholas Pooran",
+            "Akeal Hosein",
+            "Alzarri Joseph"
+        ],
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Tony de Zorzi",
+            "Ryan Rickelton",
+            "Lungi Ngidi",
+            "Bjorn Fortuin",
+            "Temba Bavuma(c)",
+            "Marco Jansen",
+            "Tristan Stubbs",
+            "Tabraiz Shamsi",
+            "Rassie van der Dussen",
+            "Gerald Coetzee"
+        ]
+    }
 }

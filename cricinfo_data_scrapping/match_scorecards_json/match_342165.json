@@ -28,7 +28,7 @@
             "extras": "29",
             "batting": [
                 {
-                    "batsman": "Freddie Klokker(c)",
+                    "batsman": "Freddie Klokker(c) (wk)",
                     "dismissal": "c Drummond b Weeraratna",
                     "runs": "9",
                     "balls": "32",
@@ -255,7 +255,7 @@
                     "strike_rate": "65.57"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "b MR Pedersen",
                     "runs": "23",
                     "balls": "22",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Richie Berrington",
-                    "dismissal": "st Klokker b MR Pedersen",
+                    "dismissal": "st (wk)Klokker b MR Pedersen",
                     "runs": "11",
                     "balls": "18",
                     "minutes": "26",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 6 wickets (with 33 balls remaining) (D/L method)"
+    "result": "Scotland won by 6 wickets (with 33 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Denmark": [
+            "Henrik Hansen",
+            "Max Overgaard",
+            "Michael Pedersen",
+            "Soren Vestergaard",
+            "Bobby Chawla",
+            "Morten Hedegaard",
+            "Carsten Pedersen",
+            "David Borchersen",
+            "Freddie Klokker(c) (wk)",
+            "Thomas Hansen",
+            "Lars Hedegaard"
+        ],
+        "Scotland": [
+            "Sean Weeraratna",
+            "Glenn Rogers",
+            "Ryan Watson(c)",
+            "Omer Hussain",
+            "Richie Berrington",
+            "Colin Smith (wk)",
+            "Qasim Sheikh",
+            "Gordon Drummond",
+            "John Blain",
+            "Neil McCallum",
+            "Gregor Maiden"
+        ]
+    }
 }

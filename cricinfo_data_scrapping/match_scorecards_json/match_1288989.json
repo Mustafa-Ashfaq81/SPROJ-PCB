@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Edwards b Klaassen",
+                    "dismissal": "c (wk)Edwards b Klaassen",
                     "runs": "106",
                     "balls": "123",
                     "minutes": "159",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Edwards b Klaassen",
+                    "dismissal": "c (wk)Edwards b Klaassen",
                     "runs": "2",
                     "balls": "12",
                     "minutes": "21",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Michael Bracewell",
-                    "dismissal": "st Edwards b Floyd",
+                    "dismissal": "st (wk)Edwards b Floyd",
                     "runs": "3",
                     "balls": "2",
                     "minutes": "15",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Colin de Grandhomme",
-                    "dismissal": "c Edwards b Floyd",
+                    "dismissal": "c (wk)Edwards b Floyd",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "4",
@@ -102,8 +102,8 @@
                     "strike_rate": "244.44"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
-                    "dismissal": "c Edwards b van Beek",
+                    "batsman": "Tom Latham(c) (wk)",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "23",
                     "balls": "17",
                     "minutes": "25",
@@ -283,8 +283,8 @@
                     "strike_rate": "61.76"
                 },
                 {
-                    "batsman": "Scott Edwards",
-                    "dismissal": "c Latham b Jamieson",
+                    "batsman": "Scott Edwards (wk)",
+                    "dismissal": "c (wk)Latham b Jamieson",
                     "runs": "9",
                     "balls": "9",
                     "minutes": "10",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 115 runs"
+    "result": "New Zealand won by 115 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Michael Bracewell",
+            "Ross Taylor",
+            "Tom Latham(c) (wk)",
+            "Martin Guptill",
+            "Will Young",
+            "Doug Bracewell",
+            "Ish Sodhi",
+            "Kyle Jamieson",
+            "Matt Henry",
+            "Colin de Grandhomme",
+            "Henry Nicholls"
+        ],
+        "Netherlands": [
+            "Vikramjit Singh",
+            "Clayton Floyd",
+            "Scott Edwards (wk)",
+            "Fred Klaassen",
+            "Aryan Dutt",
+            "Stephan Myburgh",
+            "Max O'Dowd",
+            "Logan van Beek",
+            "Pieter Seelaar(c)",
+            "Michael Rippon",
+            "Bas de Leede"
+        ]
+    }
 }

@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Faisal Athar",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "9",
                     "balls": "38",
                     "minutes": "59",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "run out (Tuffey/McCullum)",
+                    "dismissal": "run out (Tuffey/ (wk)McCullum)",
                     "runs": "10",
                     "balls": "21",
                     "minutes": "26",
@@ -104,7 +104,7 @@
                     "strike_rate": "47.61"
                 },
                 {
-                    "batsman": "Rashid Latif(c)",
+                    "batsman": "Rashid Latif(c) (wk)",
                     "dismissal": "c Tuffey b Oram",
                     "runs": "20",
                     "balls": "31",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Shabbir Ahmed",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "4",
@@ -135,7 +135,7 @@
                 },
                 {
                     "batsman": "Danish Kaneria",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "2",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "run out (Younis Khan/Rashid Latif)",
+                    "dismissal": "run out (Younis Khan/ (wk)Rashid Latif)",
                     "runs": "13",
                     "balls": "43",
                     "minutes": "61",
@@ -311,7 +311,7 @@
                     "strike_rate": "31.25"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "6",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 28 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 28 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Shabbir Ahmed",
+            "Mohammad Sami",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Rashid Latif(c) (wk)",
+            "Faisal Athar",
+            "Younis Khan",
+            "Danish Kaneria"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Chris Cairns",
+            "Chris Nevin",
+            "Stephen Fleming(c)",
+            "Kyle Mills",
+            "Chris Harris",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Lou Vincent",
+            "Jacob Oram",
+            "Scott Styris"
+        ]
+    }
 }

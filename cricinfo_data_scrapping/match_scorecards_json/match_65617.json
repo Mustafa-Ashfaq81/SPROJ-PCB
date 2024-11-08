@@ -92,7 +92,7 @@
                     "strike_rate": "45.45"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "30",
                     "balls": "19",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "9",
                     "balls": "6",
                     "minutes": "11",
@@ -289,7 +289,7 @@
                     "strike_rate": "18.18"
                 },
                 {
-                    "batsman": "Adam Parore",
+                    "batsman": "Adam Parore (wk)",
                     "dismissal": "not out",
                     "runs": "21",
                     "balls": "32",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "c Boucher b Donald",
+                    "dismissal": "c (wk)Boucher b Donald",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "10",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 26 runs"
+    "result": "South Africa won by 26 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Herschelle Gibbs",
+            "Neil McKenzie",
+            "Jonty Rhodes",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Boeta Dippenaar",
+            "Allan Donald",
+            "Lance Klusener",
+            "Makhaya Ntini",
+            "Justin Kemp"
+        ],
+        "New Zealand": [
+            "Scott Styris",
+            "Lou Vincent",
+            "James Franklin",
+            "Mark Richardson",
+            "Adam Parore (wk)",
+            "Stephen Fleming(c)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Craig McMillan",
+            "Chris Cairns",
+            "Shane Bond"
+        ]
+    }
 }

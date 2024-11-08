@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Carsten Pedersen",
-                    "dismissal": "c Ouma b E Otieno",
+                    "dismissal": "c (wk)Ouma b E Otieno",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -60,8 +60,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Freddie Klokker(c)",
-                    "dismissal": "c Ouma b E Otieno",
+                    "batsman": "Freddie Klokker(c) (wk)",
+                    "dismissal": "c (wk)Ouma b E Otieno",
                     "runs": "14",
                     "balls": "23",
                     "minutes": "37",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Soren Vestergaard",
-                    "dismissal": "c Ouma b Ongondo",
+                    "dismissal": "c (wk)Ouma b Ongondo",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "15",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Rizwan Mahmood",
-                    "dismissal": "run out (Bhudia/Ouma)",
+                    "dismissal": "run out (Bhudia/ (wk)Ouma)",
                     "runs": "13",
                     "balls": "33",
                     "minutes": "34",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Henrik Hansen",
-                    "dismissal": "c Ouma b E Otieno",
+                    "dismissal": "c (wk)Ouma b E Otieno",
                     "runs": "18",
                     "balls": "40",
                     "minutes": "46",
@@ -241,8 +241,8 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Morris Ouma",
-                    "dismissal": "c Klokker b Andersen",
+                    "batsman": "Morris Ouma (wk)",
+                    "dismissal": "c (wk)Klokker b Andersen",
                     "runs": "24",
                     "balls": "22",
                     "minutes": "25",
@@ -375,5 +375,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 9 wickets (with 101 balls remaining)"
+    "result": "Kenya won by 9 wickets (with 101 balls remaining)",
+    "playing_xi": {
+        "Denmark": [
+            "Soren Vestergaard",
+            "Carsten Pedersen",
+            "Bobby Chawla",
+            "Rizwan Mahmood",
+            "Henrik Hansen",
+            "Morten Hedegaard",
+            "David Borchersen",
+            "Mickey Lund",
+            "Michael Pedersen",
+            "Bashir Shah",
+            "Freddie Klokker(c) (wk)"
+        ],
+        "Kenya": [
+            "Peter Ongondo",
+            "Morris Ouma (wk)",
+            "Alex Obanda",
+            "Rajesh Bhudia",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Rakep Patel",
+            "Steve Tikolo (c)",
+            "Elijah Otieno",
+            "Kennedy Otieno",
+            "Seren Waters"
+        ]
+    }
 }

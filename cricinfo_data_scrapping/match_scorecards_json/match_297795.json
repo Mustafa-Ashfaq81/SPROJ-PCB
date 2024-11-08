@@ -30,7 +30,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Pathan",
                     "runs": "29",
                     "balls": "31",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "60",
                     "balls": "70",
                     "minutes": "109",
@@ -257,8 +257,8 @@
                     "strike_rate": "105.21"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Gilchrist b Lee",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "33",
                     "balls": "37",
                     "minutes": "49",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 47 runs"
+    "result": "Australia won by 47 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "James Hopes",
+            "Stuart Clark",
+            "Ricky Ponting(c)",
+            "Brad Hodge",
+            "Brett Lee",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "Rahul Dravid",
+            "Irfan Pathan",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Sreesanth",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

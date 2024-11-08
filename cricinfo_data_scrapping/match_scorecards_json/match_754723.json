@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Aaron Finch",
-                    "dismissal": "c de Kock b Philander",
+                    "dismissal": "c (wk)de Kock b Philander",
                     "runs": "35",
                     "balls": "40",
                     "minutes": "72",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "11",
                     "balls": "20",
                     "minutes": "22",
@@ -90,7 +90,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c sub (RR Rossouw) b Philander",
                     "runs": "35",
                     "balls": "40",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Wade b Johnson",
+                    "dismissal": "c (wk)Wade b Johnson",
                     "runs": "8",
                     "balls": "13",
                     "minutes": "22",
@@ -237,8 +237,8 @@
                     "strike_rate": "61.53"
                 },
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Wade b Johnson",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Wade b Johnson",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "12",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Ryan McLaren",
-                    "dismissal": "c Wade b Coulter-Nile",
+                    "dismissal": "c (wk)Wade b Coulter-Nile",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Vernon Philander",
-                    "dismissal": "c Wade b Hazlewood",
+                    "dismissal": "c (wk)Wade b Hazlewood",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "8",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Dale Steyn",
-                    "dismissal": "c Wade b Coulter-Nile",
+                    "dismissal": "c (wk)Wade b Coulter-Nile",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "18",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Australia won by 32 runs"
+    "result": "Australia won by 32 runs",
+    "playing_xi": {
+        "Australia": [
+            "Josh Hazlewood",
+            "Matthew Wade (wk)",
+            "George Bailey",
+            "Nathan Coulter-Nile",
+            "Mitchell Johnson",
+            "David Warner",
+            "Glenn Maxwell",
+            "Michael Clarke(c)",
+            "Shane Watson",
+            "Mitchell Marsh",
+            "Aaron Finch"
+        ],
+        "South Africa": [
+            "Ryan McLaren",
+            "Dale Steyn",
+            "Morne Morkel",
+            "Vernon Philander",
+            "Imran Tahir",
+            "Farhaan Behardien",
+            "David Miller",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ]
+    }
 }

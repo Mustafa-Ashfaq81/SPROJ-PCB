@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "James Vince",
-                    "dismissal": "c Mushfiqur Rahim b Taijul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taijul Islam",
                     "runs": "5",
                     "balls": "16",
                     "minutes": "17",
@@ -72,7 +72,7 @@
                     "strike_rate": "31.25"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c & b Mehidy Hasan Miraz",
                     "runs": "76",
                     "balls": "64",
@@ -226,7 +226,7 @@
                 },
                 {
                     "batsman": "Najmul Hossain Shanto",
-                    "dismissal": "c Buttler b Curran",
+                    "dismissal": "c (wk)Buttler b Curran",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -235,8 +235,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Buttler b Curran",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Buttler b Curran",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "9",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Afif Hossain",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "23",
                     "balls": "33",
                     "minutes": "28",
@@ -296,7 +296,7 @@
                 },
                 {
                     "batsman": "Taijul Islam",
-                    "dismissal": "c Buttler b Curran",
+                    "dismissal": "c (wk)Buttler b Curran",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "14",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "England won by 132 runs"
+    "result": "England won by 132 runs",
+    "playing_xi": {
+        "England": [
+            "Dawid Malan",
+            "Saqib Mahmood",
+            "Jason Roy",
+            "Jos Buttler(c) (wk)",
+            "Will Jacks",
+            "Adil Rashid",
+            "Phil Salt",
+            "Mark Wood",
+            "James Vince",
+            "Sam Curran",
+            "Moeen Ali"
+        ],
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Mustafizur Rahman",
+            "Najmul Hossain Shanto",
+            "Mehidy Hasan Miraz",
+            "Tamim Iqbal(c)",
+            "Afif Hossain",
+            "Mahmudullah",
+            "Taijul Islam",
+            "Taskin Ahmed",
+            "Litton Das"
+        ]
+    }
 }

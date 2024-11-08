@@ -89,8 +89,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kiplin Doriga",
-                    "dismissal": "c Jacobs b Heyliger",
+                    "batsman": "Kiplin Doriga (wk)",
+                    "dismissal": "c (wk)Jacobs b Heyliger",
                     "runs": "3",
                     "balls": "14",
                     "minutes": "-",
@@ -110,7 +110,7 @@
                 },
                 {
                     "batsman": "Jason Kila",
-                    "dismissal": "c Jacobs b Gunasekera",
+                    "dismissal": "c (wk)Jacobs b Gunasekera",
                     "runs": "17",
                     "balls": "50",
                     "minutes": "-",
@@ -120,7 +120,7 @@
                 },
                 {
                     "batsman": "Nosaina Pokana",
-                    "dismissal": "c Jacobs b Eranga",
+                    "dismissal": "c (wk)Jacobs b Eranga",
                     "runs": "8",
                     "balls": "31",
                     "minutes": "-",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Navneet Dhaliwal",
-                    "dismissal": "c Doriga b Pokana",
+                    "dismissal": "c (wk)Doriga b Pokana",
                     "runs": "16",
                     "balls": "9",
                     "minutes": "-",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Nitish Kumar",
-                    "dismissal": "c Doriga b Vanua",
+                    "dismissal": "c (wk)Doriga b Vanua",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "-",
@@ -300,7 +300,7 @@
                     "strike_rate": "47.61"
                 },
                 {
-                    "batsman": "Davy Jacobs(c)",
+                    "batsman": "Davy Jacobs(c) (wk)",
                     "dismissal": "not out",
                     "runs": "52",
                     "balls": "69",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "Canada won by 3 wickets (with 94 balls remaining)"
+    "result": "Canada won by 3 wickets (with 94 balls remaining)",
+    "playing_xi": {
+        "Papua New Guinea": [
+            "Nosaina Pokana",
+            "Kiplin Doriga (wk)",
+            "Tony Ura",
+            "Damien Ravu",
+            "Norman Vanua",
+            "Chad Soper",
+            "Jason Kila",
+            "Lega Siaka",
+            "Assad Vala(c)",
+            "Charles Amini",
+            "Sese Bau"
+        ],
+        "Canada": [
+            "Dilon Heyliger",
+            "Ruvindu Gunasekera",
+            "Romesh Eranga",
+            "Ravinderpal Singh",
+            "Nitish Kumar",
+            "Bhavindu Adhihetty",
+            "Saad Bin Zafar",
+            "Rodrigo Thomas",
+            "Navneet Dhaliwal",
+            "Nikhil Dutta",
+            "Davy Jacobs(c) (wk)"
+        ]
+    }
 }

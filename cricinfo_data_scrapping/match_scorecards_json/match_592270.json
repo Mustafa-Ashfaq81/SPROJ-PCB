@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Matt Machan",
-                    "dismissal": "c Mohammad Shahzad b Dawlat Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Dawlat Zadran",
                     "runs": "44",
                     "balls": "82",
                     "minutes": "-",
@@ -69,7 +69,7 @@
                 },
                 {
                     "batsman": "Richie Berrington",
-                    "dismissal": "c Mohammad Shahzad b Hamid Hassan",
+                    "dismissal": "c (wk)Mohammad Shahzad b Hamid Hassan",
                     "runs": "51",
                     "balls": "88",
                     "minutes": "-",
@@ -98,7 +98,7 @@
                     "strike_rate": "63.41"
                 },
                 {
-                    "batsman": "David Murphy",
+                    "batsman": "David Murphy (wk)",
                     "dismissal": "c Mohibullah Oryakhel b Gulbadin Naib",
                     "runs": "4",
                     "balls": "14",
@@ -119,7 +119,7 @@
                 },
                 {
                     "batsman": "Gordon Drummond(c)",
-                    "dismissal": "c Mohammad Shahzad b Hamid Hassan",
+                    "dismissal": "c (wk)Mohammad Shahzad b Hamid Hassan",
                     "runs": "21",
                     "balls": "21",
                     "minutes": "-",
@@ -249,8 +249,8 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Murphy b Wardlaw",
+                    "batsman": "Mohammad Shahzad (wk)",
+                    "dismissal": "c (wk)Murphy b Wardlaw",
                     "runs": "19",
                     "balls": "11",
                     "minutes": "-",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 7 wickets (with 97 balls remaining)"
+    "result": "Afghanistan won by 7 wickets (with 97 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Richie Berrington",
+            "Moneeb Iqbal",
+            "Safyaan Sharif",
+            "Majid Haq",
+            "David Murphy (wk)",
+            "Calum MacLeod",
+            "Matt Machan",
+            "Gordon Drummond(c)",
+            "Kyle Coetzer",
+            "Preston Mommsen",
+            "Iain Wardlaw"
+        ],
+        "Afghanistan": [
+            "Dawlat Zadran",
+            "Amir Hamza",
+            "Gulbadin Naib",
+            "Asghar Afghan",
+            "Nawroz Mangal",
+            "Mohammad Nabi (c)",
+            "Mohammad Shahzad (wk)",
+            "Rahmat Shah",
+            "Samiullah Shinwari",
+            "Mohibullah Oryakhel",
+            "Hamid Hassan"
+        ]
+    }
 }

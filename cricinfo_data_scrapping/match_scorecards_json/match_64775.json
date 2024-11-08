@@ -50,7 +50,7 @@
                     "strike_rate": "77.11"
                 },
                 {
-                    "batsman": "Chris Nevin",
+                    "batsman": "Chris Nevin (wk)",
                     "dismissal": "b Dillon",
                     "runs": "13",
                     "balls": "27",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Jacobs b Cuffy",
+                    "dismissal": "c (wk)Jacobs b Cuffy",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "6",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Brian Lara",
-                    "dismissal": "c Nevin b Styris",
+                    "dismissal": "c (wk)Nevin b Styris",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "7",
@@ -247,7 +247,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "not out",
                     "runs": "60",
                     "balls": "45",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Corey Collymore",
-                    "dismissal": "run out (Harris/Nevin)",
+                    "dismissal": "run out (Harris/ (wk)Nevin)",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "35",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 9 runs (D/L method)"
+    "result": "New Zealand won by 9 runs (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Scott Styris",
+            "Chris Harris",
+            "Lou Vincent",
+            "Shane Bond",
+            "Craig McMillan",
+            "Chris Nevin (wk)",
+            "Paul Hitchcock",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Nathan Astle"
+        ],
+        "West Indies": [
+            "Brian Lara",
+            "Ramnaresh Sarwan",
+            "Wavell Hinds",
+            "Chris Gayle",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Carl Hooper(c)",
+            "Cameron Cuffy",
+            "Shivnarine Chanderpaul",
+            "Ryan Hinds"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Buttler b Bopara",
+                    "dismissal": "c (wk)Buttler b Bopara",
                     "runs": "38",
                     "balls": "51",
                     "minutes": "51",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c Buttler b Rankin",
+                    "dismissal": "c (wk)Buttler b Rankin",
                     "runs": "105",
                     "balls": "102",
                     "minutes": "141",
@@ -90,7 +90,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "b Rankin",
                     "runs": "0",
                     "balls": "1",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Jonathan Trott",
-                    "dismissal": "c Wade b Johnson",
+                    "dismissal": "c (wk)Wade b Johnson",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -277,7 +277,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Johnson b Fawad Ahmed",
                     "runs": "75",
                     "balls": "65",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Australia won by 88 runs"
+    "result": "Australia won by 88 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Michael Clarke(c)",
+            "George Bailey",
+            "James Faulkner",
+            "Shaun Marsh",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Shane Watson",
+            "Aaron Finch",
+            "Adam Voges",
+            "Fawad Ahmed"
+        ],
+        "England": [
+            "Boyd Rankin",
+            "Joe Root",
+            "Steven Finn",
+            "Kevin Pietersen",
+            "Jonathan Trott",
+            "James Tredwell",
+            "Jos Buttler (wk)",
+            "Eoin Morgan(c)",
+            "Ravi Bopara",
+            "Michael Carberry",
+            "Ben Stokes"
+        ]
+    }
 }

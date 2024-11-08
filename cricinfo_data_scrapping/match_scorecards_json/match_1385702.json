@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh(c)",
-                    "dismissal": "c Smith b Carse",
+                    "dismissal": "c (wk)Smith b Carse",
                     "runs": "24",
                     "balls": "38",
                     "minutes": "50",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Marnus Labuschagne",
-                    "dismissal": "c Smith b Jacks",
+                    "dismissal": "c (wk)Smith b Jacks",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "77",
                     "balls": "65",
@@ -271,7 +271,7 @@
                     "strike_rate": "117.02"
                 },
                 {
-                    "batsman": "Jamie Smith",
+                    "batsman": "Jamie Smith (wk)",
                     "dismissal": "c Maxwell b Green",
                     "runs": "7",
                     "balls": "16",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "England won by 46 runs (DLS method)"
+    "result": "England won by 46 runs (DLS method)",
+    "playing_xi": {
+        "Australia": [
+            "Matthew Short",
+            "Glenn Maxwell",
+            "Cameron Green",
+            "Mitchell Marsh(c)",
+            "Josh Hazlewood",
+            "Alex Carey (wk)",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Aaron Hardie",
+            "Marnus Labuschagne",
+            "Sean Abbott"
+        ],
+        "England": [
+            "Liam Livingstone",
+            "Matthew Potts",
+            "Harry Brook(c)",
+            "Phil Salt",
+            "Brydon Carse",
+            "Jamie Smith (wk)",
+            "Jofra Archer",
+            "Will Jacks",
+            "Jacob Bethell",
+            "Ben Duckett",
+            "Adil Rashid"
+        ]
+    }
 }

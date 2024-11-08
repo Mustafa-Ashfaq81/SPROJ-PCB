@@ -41,7 +41,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "lbw b Shakib Al Hasan",
                     "runs": "10",
                     "balls": "29",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Mudassar Bukhari",
-                    "dismissal": "c Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "13",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Tom Cooper",
-                    "dismissal": "run out (Mushfiqur Rahim/Shakib Al Hasan)",
+                    "dismissal": "run out ( (wk)Mushfiqur Rahim/Shakib Al Hasan)",
                     "runs": "29",
                     "balls": "41",
                     "minutes": "48",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Alexei Kervezee",
-                    "dismissal": "st Mushfiqur Rahim b Sohrawordi Shuvo",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Sohrawordi Shuvo",
                     "runs": "18",
                     "balls": "24",
                     "minutes": "29",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Peter Borren(c)",
-                    "dismissal": "run out (Mushfiqur Rahim/Sohrawordi Shuvo)",
+                    "dismissal": "run out ( (wk)Mushfiqur Rahim/Sohrawordi Shuvo)",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "11",
@@ -274,7 +274,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "12",
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 52 balls remaining)"
+    "result": "Bangladesh won by 6 wickets (with 52 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Ryan ten Doeschate",
+            "Eric Szwarczynski",
+            "Tom Cooper",
+            "Peter Borren(c)",
+            "Tom de Grooth",
+            "Wesley Barresi (wk)",
+            "Pieter Seelaar",
+            "Adeel Raja",
+            "Atse Buurman",
+            "Mudassar Bukhari",
+            "Alexei Kervezee"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Shakib Al Hasan(c)",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Abdur Razzak",
+            "Shafiul Islam",
+            "Imrul Kayes",
+            "Zunaed Siddique",
+            "Sohrawordi Shuvo",
+            "Shahriar Nafees",
+            "Rubel Hossain"
+        ]
+    }
 }

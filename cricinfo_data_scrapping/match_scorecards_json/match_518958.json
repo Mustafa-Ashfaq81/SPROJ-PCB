@@ -42,8 +42,8 @@
                     "strike_rate": "117.24"
                 },
                 {
-                    "batsman": "Matthew Wade",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "batsman": "Matthew Wade (wk)",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "15",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Dan Christian",
-                    "dismissal": "st Sangakkara b Senanayake",
+                    "dismissal": "st (wk)Sangakkara b Senanayake",
                     "runs": "33",
                     "balls": "44",
                     "minutes": "51",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Wade b Harris",
+                    "dismissal": "c (wk)Wade b Harris",
                     "runs": "40",
                     "balls": "57",
                     "minutes": "91",
@@ -259,7 +259,7 @@
                     "strike_rate": "70.17"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (McKay)",
                     "runs": "22",
                     "balls": "32",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Wade b Christian",
+                    "dismissal": "c (wk)Wade b Christian",
                     "runs": "13",
                     "balls": "13",
                     "minutes": "17",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c Wade b Christian",
+                    "dismissal": "c (wk)Wade b Christian",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "14",
@@ -320,7 +320,7 @@
                 },
                 {
                     "batsman": "Sachithra Senanayake",
-                    "dismissal": "st Wade b Doherty",
+                    "dismissal": "st (wk)Wade b Doherty",
                     "runs": "9",
                     "balls": "24",
                     "minutes": "32",
@@ -330,7 +330,7 @@
                 },
                 {
                     "batsman": "Lasith Malinga",
-                    "dismissal": "c Wade b McKay",
+                    "dismissal": "c (wk)Wade b McKay",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "9",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Australia won by 5 runs"
+    "result": "Australia won by 5 runs",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Michael Clarke(c)",
+            "Clint McKay",
+            "David Warner",
+            "Dan Christian",
+            "Ricky Ponting",
+            "Ryan Harris",
+            "Mitchell Starc",
+            "Michael Hussey"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Sachithra Senanayake",
+            "Dhammika Prasad",
+            "Dinesh Chandimal",
+            "Angelo Mathews",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Lahiru Thirimanne",
+            "Upul Tharanga"
+        ]
+    }
 }

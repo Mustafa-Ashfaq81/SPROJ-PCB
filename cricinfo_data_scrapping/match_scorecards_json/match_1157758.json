@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Kieran Powell",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -50,7 +50,7 @@
                     "strike_rate": "41.02"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "b Bumrah",
                     "runs": "0",
                     "balls": "5",
@@ -253,7 +253,7 @@
                     "strike_rate": "113.79"
                 }
             ],
-            "did_not_bat": "Ambati Rayudu , Kedar Jadhav , MS Dhoni , Ravindra Jadeja , Bhuvneshwar Kumar , Kuldeep Yadav , Khaleel Ahmed , Jasprit Bumrah",
+            "did_not_bat": "Ambati Rayudu , Kedar Jadhav , MS Dhoni (wk) , Ravindra Jadeja , Bhuvneshwar Kumar , Kuldeep Yadav , Khaleel Ahmed , Jasprit Bumrah",
             "fall_of_wickets": "Fall of wickets : 1 - 6 ( Shikhar Dhawan , 1.5 ov )",
             "bowling": [
                 {
@@ -343,5 +343,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 211 balls remaining)"
+    "result": "India won by 9 wickets (with 211 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kemar Roach",
+            "Kieran Powell",
+            "Shimron Hetmyer",
+            "Fabian Allen",
+            "Oshane Thomas",
+            "Rovman Powell",
+            "Marlon Samuels",
+            "Devendra Bishoo",
+            "Jason Holder(c)",
+            "Shai Hope (wk)",
+            "Keemo Paul"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kedar Jadhav",
+            "Bhuvneshwar Kumar",
+            "Ambati Rayudu",
+            "Khaleel Ahmed",
+            "Virat Kohli(c)",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

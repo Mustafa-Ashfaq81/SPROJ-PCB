@@ -29,7 +29,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Murtagh",
                     "runs": "0",
                     "balls": "2",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "st NJ O'Brien b Simi Singh",
+                    "dismissal": "st (wk)NJ O'Brien b Simi Singh",
                     "runs": "32",
                     "balls": "69",
                     "minutes": "106",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "st Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "39",
                     "balls": "50",
                     "minutes": "58",
@@ -266,7 +266,7 @@
                     "strike_rate": "65.21"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c sub (Shafiqullah) b Mohammad Nabi",
                     "runs": "10",
                     "balls": "20",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 3 wickets (with 37 balls remaining)"
+    "result": "Ireland won by 3 wickets (with 37 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Gulbadin Naib",
+            "Hazratullah Zazai",
+            "Mujeeb Ur Rahman",
+            "Aftab Alam",
+            "Asghar Afghan(c)",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Rashid Khan"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "Gary Wilson",
+            "Peter Chase",
+            "Niall O'Brien (wk)",
+            "Andy McBrine",
+            "Kevin O'Brien",
+            "Paul Stirling",
+            "William Porterfield(c)",
+            "Boyd Rankin",
+            "Tim Murtagh",
+            "Simi Singh"
+        ]
+    }
 }

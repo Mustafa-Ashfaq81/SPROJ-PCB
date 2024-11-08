@@ -40,7 +40,7 @@
                     "strike_rate": "50.72"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c de Villiers b Kallis",
                     "runs": "42",
                     "balls": "52",
@@ -198,7 +198,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Prior b Harmison",
+                    "dismissal": "c (wk)Prior b Harmison",
                     "runs": "21",
                     "balls": "21",
                     "minutes": "35",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Prior b Harmison",
+                    "dismissal": "c (wk)Prior b Harmison",
                     "runs": "18",
                     "balls": "33",
                     "minutes": "48",
@@ -237,8 +237,8 @@
                     "strike_rate": "54.54"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "st Prior b Pietersen",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "st (wk)Prior b Pietersen",
                     "runs": "16",
                     "balls": "15",
                     "minutes": "11",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "England won by 20 runs"
+    "result": "England won by 20 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Matt Prior (wk)",
+            "Luke Wright",
+            "Ian Bell",
+            "Steve Harmison",
+            "Samit Patel",
+            "Kevin Pietersen(c)",
+            "Ravi Bopara",
+            "Owais Shah",
+            "Andrew Flintoff"
+        ],
+        "South Africa": [
+            "AB de Villiers",
+            "Andre Nel",
+            "Graeme Smith(c)",
+            "Makhaya Ntini",
+            "Johan Botha",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Vernon Philander",
+            "Dale Steyn",
+            "Mark Boucher (wk)",
+            "Jacques Kallis"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Ervine",
                     "runs": "172",
                     "balls": "126",
@@ -234,7 +234,7 @@
             "batting": [
                 {
                     "batsman": "Dion Ebrahim",
-                    "dismissal": "c Gilchrist b Symonds",
+                    "dismissal": "c (wk)Gilchrist b Symonds",
                     "runs": "21",
                     "balls": "43",
                     "minutes": "62",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "1",
                     "balls": "10",
                     "minutes": "20",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Mark Vermeulen",
-                    "dismissal": "c Gilchrist b Williams",
+                    "dismissal": "c (wk)Gilchrist b Williams",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "10",
@@ -293,7 +293,7 @@
                     "strike_rate": "78.04"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Hayden b Bichel",
                     "runs": "44",
                     "balls": "72",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "Australia won by 148 runs"
+    "result": "Australia won by 148 runs",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Brad Williams",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Michael Clarke",
+            "Damien Martyn"
+        ],
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Mark Vermeulen",
+            "Ray Price",
+            "Grant Flower",
+            "Andy Blignaut",
+            "Dion Ebrahim",
+            "Sean Ervine",
+            "Vusi Sibanda",
+            "Heath Streak(c)",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo"
+        ]
+    }
 }

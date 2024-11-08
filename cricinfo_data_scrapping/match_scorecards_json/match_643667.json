@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "16",
@@ -80,8 +80,8 @@
                     "strike_rate": "36.36"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
-                    "dismissal": "run out (Taylor)",
+                    "batsman": "Dinesh Karthik (wk)",
+                    "dismissal": "run out ( (wk)Taylor)",
                     "runs": "69",
                     "balls": "74",
                     "minutes": "105",
@@ -271,7 +271,7 @@
                     "strike_rate": "72.34"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
+                    "batsman": "Brendan Taylor(c) (wk)",
                     "dismissal": "run out (Unadkat)",
                     "runs": "0",
                     "balls": "4",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Karthik b Mohammed Shami",
+                    "dismissal": "c (wk)Karthik b Mohammed Shami",
                     "runs": "46",
                     "balls": "58",
                     "minutes": "76",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "India won by 58 runs"
+    "result": "India won by 58 runs",
+    "playing_xi": {
+        "India": [
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Jaydev Unadkat",
+            "Mohammed Shami",
+            "Amit Mishra",
+            "Vinay Kumar",
+            "Suresh Raina",
+            "Ambati Rayudu",
+            "Virat Kohli(c)",
+            "Dinesh Karthik (wk)"
+        ],
+        "Zimbabwe": [
+            "Tendai Chatara",
+            "Kyle Jarvis",
+            "Brian Vitori",
+            "Brendan Taylor(c) (wk)",
+            "Prosper Utseya",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Sikandar Raza",
+            "Elton Chigumbura",
+            "Malcolm Waller"
+        ]
+    }
 }

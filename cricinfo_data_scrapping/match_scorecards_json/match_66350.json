@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Khaled Mashud b Tapash Baisya",
+                    "dismissal": "c (wk)Khaled Mashud b Tapash Baisya",
                     "runs": "11",
                     "balls": "22",
                     "minutes": "42",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "c Khaled Mashud b Sanuar Hossain",
+                    "dismissal": "c (wk)Khaled Mashud b Sanuar Hossain",
                     "runs": "23",
                     "balls": "47",
                     "minutes": "60",
@@ -95,7 +95,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "c & b Sanuar Hossain",
                     "runs": "4",
                     "balls": "11",
@@ -282,7 +282,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "lbw b Agarkar",
                     "runs": "12",
                     "balls": "21",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Akram Khan",
-                    "dismissal": "c Patel b Agarkar",
+                    "dismissal": "c (wk)Patel b Agarkar",
                     "runs": "9",
                     "balls": "24",
                     "minutes": "33",
@@ -313,7 +313,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud(c)",
-                    "dismissal": "c Patel b Agarkar",
+                    "dismissal": "c (wk)Patel b Agarkar",
                     "runs": "10",
                     "balls": "20",
                     "minutes": "21",
@@ -333,7 +333,7 @@
                 },
                 {
                     "batsman": "Tapash Baisya",
-                    "dismissal": "c Patel b Khan",
+                    "dismissal": "c (wk)Patel b Khan",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "9",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "India won by 200 runs"
+    "result": "India won by 200 runs",
+    "playing_xi": {
+        "India": [
+            "Dinesh Mongia",
+            "Parthiv Patel (wk)",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virender Sehwag",
+            "Harbhajan Singh",
+            "Gautam Gambhir",
+            "Sourav Ganguly(c)",
+            "Aavishkar Salvi"
+        ],
+        "Bangladesh": [
+            "Khaled Mahmud(c)",
+            "Khaled Mashud (wk)",
+            "Tushar Imran",
+            "Tapash Baisya",
+            "Alok Kapali",
+            "Manjurul Islam",
+            "Mohammad Ashraful",
+            "Akram Khan",
+            "Mehrab Hossain",
+            "Mohammad Rafique",
+            "Sanuar Hossain"
+        ]
+    }
 }

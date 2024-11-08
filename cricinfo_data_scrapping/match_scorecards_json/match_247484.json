@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "c NJ O'Brien b Rankin",
+                    "dismissal": "c (wk)NJ O'Brien b Rankin",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "27",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c NJ O'Brien b KJ O'Brien",
+                    "dismissal": "c (wk)NJ O'Brien b KJ O'Brien",
                     "runs": "31",
                     "balls": "74",
                     "minutes": "92",
@@ -91,7 +91,7 @@
                     "strike_rate": "69.35"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "c Morgan b Botha",
                     "runs": "19",
                     "balls": "15",
@@ -262,8 +262,8 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "st Nixon b Vaughan",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "st (wk)Nixon b Vaughan",
                     "runs": "63",
                     "balls": "88",
                     "minutes": "128",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "c Nixon b Collingwood",
+                    "dismissal": "c (wk)Nixon b Collingwood",
                     "runs": "38",
                     "balls": "35",
                     "minutes": "39",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "England won by 48 runs"
+    "result": "England won by 48 runs",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Sajid Mahmood",
+            "Michael Vaughan(c)",
+            "Ed Joyce",
+            "Andrew Flintoff",
+            "Ravi Bopara",
+            "James Anderson",
+            "Kevin Pietersen"
+        ],
+        "Ireland": [
+            "Kyle McCallan",
+            "William Porterfield",
+            "Kevin O'Brien",
+            "Jeremy Bray",
+            "Dave Langford-Smith",
+            "Boyd Rankin",
+            "Eoin Morgan",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Andre Botha",
+            "Andrew White"
+        ]
+    }
 }

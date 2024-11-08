@@ -40,7 +40,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c Chawla b Patel",
                     "runs": "34",
                     "balls": "40",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "st Dhoni b Chawla",
+                    "dismissal": "st (wk)Dhoni b Chawla",
                     "runs": "9",
                     "balls": "22",
                     "minutes": "22",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly",
-                    "dismissal": "c Prior b Tremlett",
+                    "dismissal": "c (wk)Prior b Tremlett",
                     "runs": "72",
                     "balls": "104",
                     "minutes": "131",
@@ -277,7 +277,7 @@
                     "strike_rate": "115.38"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Collingwood b Anderson",
                     "runs": "13",
                     "balls": "20",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "England won by 42 runs"
+    "result": "England won by 42 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Chris Tremlett",
+            "Ravi Bopara",
+            "Alastair Cook",
+            "Owais Shah",
+            "Matt Prior (wk)",
+            "Monty Panesar",
+            "Ian Bell"
+        ],
+        "India": [
+            "Dinesh Karthik",
+            "Zaheer Khan",
+            "Munaf Patel",
+            "Ramesh Powar",
+            "Piyush Chawla",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Sachin Tendulkar",
+            "Rahul Dravid(c)",
+            "Yuvraj Singh",
+            "RP Singh"
+        ]
+    }
 }

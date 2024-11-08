@@ -31,7 +31,7 @@
             "extras": "35",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Azhar Mahmood b Wasim Akram",
                     "runs": "21",
                     "balls": "32",
@@ -213,7 +213,7 @@
             "batting": [
                 {
                     "batsman": "Imran Nazir",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "6",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Gilchrist b Warne",
+                    "dismissal": "c (wk)Gilchrist b Warne",
                     "runs": "13",
                     "balls": "30",
                     "minutes": "46",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "25",
                     "balls": "41",
                     "minutes": "60",
@@ -282,7 +282,7 @@
                     "strike_rate": "62.74"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "not out",
                     "runs": "17",
                     "balls": "42",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Wasim Akram",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "10",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Australia won by 224 runs"
+    "result": "Australia won by 224 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shane Warne",
+            "Jason Gillespie",
+            "Shane Watson",
+            "Glenn McGrath",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Jimmy Maher",
+            "Ricky Ponting(c)",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Andy Bichel"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Azhar Mahmood",
+            "Saeed Anwar",
+            "Rashid Latif (wk)",
+            "Imran Nazir",
+            "Wasim Akram",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Younis Khan",
+            "Waqar Younis(c)",
+            "Shoaib Akhtar"
+        ]
+    }
 }

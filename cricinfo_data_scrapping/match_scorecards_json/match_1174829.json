@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Nitish Kumar",
-                    "dismissal": "c McKechnie b Subramanyan",
+                    "dismissal": "c (wk)McKechnie b Subramanyan",
                     "runs": "12",
                     "balls": "22",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Bhavindu Adhihetty",
-                    "dismissal": "c McKechnie b Aizaz Khan",
+                    "dismissal": "c (wk)McKechnie b Aizaz Khan",
                     "runs": "33",
                     "balls": "50",
                     "minutes": "-",
@@ -79,7 +79,7 @@
                     "strike_rate": "66.00"
                 },
                 {
-                    "batsman": "Davy Jacobs(c)",
+                    "batsman": "Davy Jacobs(c) (wk)",
                     "dismissal": "not out",
                     "runs": "52",
                     "balls": "53",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Ahsan Abbasi",
-                    "dismissal": "st Jacobs b Saad Bin Zafar",
+                    "dismissal": "st (wk)Jacobs b Saad Bin Zafar",
                     "runs": "27",
                     "balls": "46",
                     "minutes": "-",
@@ -266,7 +266,7 @@
                     "strike_rate": "300.00"
                 }
             ],
-            "did_not_bat": "Babar Hayat , Ehsan Khan , Scott McKechnie , Jhathavedh Subramanyan , Tanveer Ahmed , Aizaz Khan",
+            "did_not_bat": "Babar Hayat , Ehsan Khan , Scott McKechnie (wk) , Jhathavedh Subramanyan , Tanveer Ahmed , Aizaz Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 90 ( Jamie Atkinson , 19.6 ov ) , 2 - 140 ( Kinchit Shah , 31.2 ov ) , 3 - 203 ( Ahsan Abbasi , 45.6 ov )",
             "bowling": [
                 {
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 7 wickets (with 16 balls remaining)"
+    "result": "Hong Kong won by 7 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Dilon Heyliger",
+            "Srimantha Wijeyeratne",
+            "Ruvindu Gunasekera",
+            "Cecil Pervez",
+            "Bhavindu Adhihetty",
+            "Nitish Kumar",
+            "Saad Bin Zafar",
+            "Navneet Dhaliwal",
+            "Hiral Patel",
+            "Nikhil Dutta",
+            "Davy Jacobs(c) (wk)"
+        ],
+        "Hong Kong": [
+            "Kinchit Shah",
+            "Ehsan Khan",
+            "Jhathavedh Subramanyan",
+            "Aizaz Khan",
+            "Anshy Rath(c)",
+            "Tanveer Ahmed",
+            "Babar Hayat",
+            "Jamie Atkinson",
+            "Tanwir Afzal",
+            "Ahsan Abbasi",
+            "Scott McKechnie (wk)"
+        ]
+    }
 }

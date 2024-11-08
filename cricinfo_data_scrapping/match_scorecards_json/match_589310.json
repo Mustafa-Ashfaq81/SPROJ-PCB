@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Kamran Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Irfan",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "22",
@@ -83,7 +83,7 @@
                     "strike_rate": "51.66"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Umar Akmal b Umar Gul",
                     "runs": "36",
                     "balls": "55",
@@ -236,7 +236,7 @@
                     "strike_rate": "53.12"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Kumar",
                     "runs": "0",
                     "balls": "3",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "25",
                     "balls": "50",
                     "minutes": "68",
@@ -307,7 +307,7 @@
                 },
                 {
                     "batsman": "Saeed Ajmal",
-                    "dismissal": "c Dhoni b Mohammed Shami",
+                    "dismissal": "c (wk)Dhoni b Mohammed Shami",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "6",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "India won by 10 runs"
+    "result": "India won by 10 runs",
+    "playing_xi": {
+        "India": [
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Mohammed Shami",
+            "Gautam Gambhir",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ajinkya Rahane"
+        ],
+        "Pakistan": [
+            "Umar Gul",
+            "Mohammad Irfan",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Umar Akmal"
+        ]
+    }
 }

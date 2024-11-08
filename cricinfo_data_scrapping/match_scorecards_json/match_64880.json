@@ -60,7 +60,7 @@
                     "strike_rate": "95.74"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "b Shoaib Akhtar",
                     "runs": "99",
                     "balls": "104",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Imran Farhat",
-                    "dismissal": "c Dravid b Khan",
+                    "dismissal": "c (wk)Dravid b Khan",
                     "runs": "24",
                     "balls": "29",
                     "minutes": "34",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c Dravid b Kartik",
+                    "dismissal": "c (wk)Dravid b Kartik",
                     "runs": "122",
                     "balls": "102",
                     "minutes": "154",
@@ -277,7 +277,7 @@
                     "strike_rate": "168.75"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "c Khan b Nehra",
                     "runs": "16",
                     "balls": "17",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "India won by 5 runs"
+    "result": "India won by 5 runs",
+    "playing_xi": {
+        "India": [
+            "Hemang Badani",
+            "Zaheer Khan",
+            "Lakshmipathy Balaji",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Rahul Dravid (wk)",
+            "Mohammad Kaif",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Murali Kartik"
+        ],
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Naved-ul-Hasan",
+            "Moin Khan (wk)",
+            "Yasir Hameed",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Yousuf",
+            "Shoaib Akhtar",
+            "Younis Khan",
+            "Imran Farhat",
+            "Mohammad Sami"
+        ]
+    }
 }

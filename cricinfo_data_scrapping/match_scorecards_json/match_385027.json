@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo(c)",
-                    "dismissal": "st Mutizwa b Cremer",
+                    "dismissal": "st (wk)Mutizwa b Cremer",
                     "runs": "10",
                     "balls": "25",
                     "minutes": "-",
@@ -68,7 +68,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "lbw b Price",
                     "runs": "0",
                     "balls": "3",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Keith Dabengwa",
-                    "dismissal": "c Ouma b Ongondo",
+                    "dismissal": "c (wk)Ouma b Ongondo",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Ouma b Onyango",
+                    "dismissal": "c (wk)Ouma b Onyango",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "-",
@@ -299,7 +299,7 @@
                     "strike_rate": "98.43"
                 }
             ],
-            "did_not_bat": "Elton Chigumbura , Prosper Utseya (c) , Forster Mutizwa , Graeme Cremer , Ray Price , Ed Rainsford",
+            "did_not_bat": "Elton Chigumbura , Prosper Utseya (c) , Forster Mutizwa (wk) , Graeme Cremer , Ray Price , Ed Rainsford",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Keith Dabengwa , 0.2 ov ) , 2 - 2 ( Vusi Sibanda , 1.1 ov ) , 3 - 95 ( Stuart Matsikenyeri , 17.2 ov )",
             "bowling": [
                 {
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 7 wickets (with 90 balls remaining)"
+    "result": "Zimbabwe won by 7 wickets (with 90 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Peter Ongondo",
+            "Morris Ouma (wk)",
+            "Alex Obanda",
+            "Steve Tikolo(c)",
+            "Rajesh Bhudia",
+            "Lameck Onyango",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Rakep Patel",
+            "Kennedy Otieno",
+            "Seren Waters"
+        ],
+        "Zimbabwe": [
+            "Ray Price",
+            "Prosper Utseya (c)",
+            "Ed Rainsford",
+            "Keith Dabengwa",
+            "Forster Mutizwa (wk)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Sean Williams",
+            "Stuart Matsikenyeri",
+            "Graeme Cremer",
+            "Vusi Sibanda"
+        ]
+    }
 }

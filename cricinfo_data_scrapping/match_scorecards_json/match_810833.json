@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Javed Ahmadi",
-                    "dismissal": "c Wilson b Young",
+                    "dismissal": "c (wk)Wilson b Young",
                     "runs": "13",
                     "balls": "19",
                     "minutes": "-",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan",
-                    "dismissal": "c Wilson b Mooney",
+                    "dismissal": "c (wk)Wilson b Mooney",
                     "runs": "44",
                     "balls": "82",
                     "minutes": "-",
@@ -90,8 +90,8 @@
                     "strike_rate": "166.00"
                 },
                 {
-                    "batsman": "Afsar Zazai",
-                    "dismissal": "c Wilson b KJ O'Brien",
+                    "batsman": "Afsar Zazai (wk)",
+                    "dismissal": "c (wk)Wilson b KJ O'Brien",
                     "runs": "18",
                     "balls": "17",
                     "minutes": "-",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Dawlat Zadran",
-                    "dismissal": "c Wilson b KJ O'Brien",
+                    "dismissal": "c (wk)Wilson b KJ O'Brien",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "-",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "c Afsar Zazai b Hamid Hassan",
+                    "dismissal": "c (wk)Afsar Zazai b Hamid Hassan",
                     "runs": "8",
                     "balls": "18",
                     "minutes": "-",
@@ -281,8 +281,8 @@
                     "strike_rate": "54.09"
                 },
                 {
-                    "batsman": "Gary Wilson",
-                    "dismissal": "c Afsar Zazai b Mirwais Ashraf",
+                    "batsman": "Gary Wilson (wk)",
+                    "dismissal": "c (wk)Afsar Zazai b Mirwais Ashraf",
                     "runs": "20",
                     "balls": "35",
                     "minutes": "-",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 71 runs"
+    "result": "Afghanistan won by 71 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Asghar Afghan",
+            "Aftab Alam",
+            "Usman Ghani",
+            "Hamid Hassan",
+            "Afsar Zazai (wk)",
+            "Dawlat Zadran",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Mohammad Nabi(c)",
+            "Javed Ahmadi"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "Gary Wilson (wk)",
+            "Niall O'Brien",
+            "George Dockrell",
+            "Ed Joyce",
+            "Craig Young",
+            "Paul Stirling",
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "John Mooney",
+            "Alex Cusack"
+        ]
+    }
 }

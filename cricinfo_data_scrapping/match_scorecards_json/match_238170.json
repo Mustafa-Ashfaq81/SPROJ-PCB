@@ -53,7 +53,7 @@
                     "strike_rate": "18.18"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Mohammad Rafique",
                     "runs": "109",
                     "balls": "125",
@@ -235,7 +235,7 @@
             "batting": [
                 {
                     "batsman": "Javed Omer",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "24",
                     "balls": "42",
                     "minutes": "49",
@@ -314,7 +314,7 @@
                     "strike_rate": "71.87"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "23",
@@ -448,5 +448,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 78 runs"
+    "result": "Sri Lanka won by 78 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Dhammika Prasad",
+            "Upul Tharanga",
+            "Ruchira Perera",
+            "Mahela Jayawardene(c)",
+            "Kaushal Lokuarachchi",
+            "Farveez Maharoof",
+            "Chamara Kapugedera",
+            "Malinga Bandara"
+        ],
+        "Bangladesh": [
+            "Shahriar Nafees",
+            "Mohammad Ashraful",
+            "Habibul Bashar(c)",
+            "Alok Kapali",
+            "Aftab Ahmed",
+            "Manzarul Islam",
+            "Khaled Mashud (wk)",
+            "Javed Omer",
+            "Mashrafe Mortaza",
+            "Syed Rasel",
+            "Mohammad Rafique"
+        ]
+    }
 }

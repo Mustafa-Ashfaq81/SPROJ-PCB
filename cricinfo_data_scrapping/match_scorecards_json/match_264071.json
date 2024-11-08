@@ -30,7 +30,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Tino Mawoyo",
+                    "batsman": "Tino Mawoyo (wk)",
                     "dismissal": "b Syed Rasel",
                     "runs": "10",
                     "balls": "27",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "run out (Abdur Razzak/Mushfiqur Rahim)",
+                    "dismissal": "run out (Abdur Razzak/ (wk)Mushfiqur Rahim)",
                     "runs": "27",
                     "balls": "46",
                     "minutes": "72",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Mushfiqur Rahim b Mehrab Hossain jnr",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mehrab Hossain jnr",
                     "runs": "27",
                     "balls": "40",
                     "minutes": "40",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Mluleki Nkala",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "14",
                     "balls": "18",
                     "minutes": "13",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "run out (Mawoyo/Chibhabha)",
+                    "dismissal": "run out ( (wk)Mawoyo/Chibhabha)",
                     "runs": "13",
                     "balls": "18",
                     "minutes": "25",
@@ -297,7 +297,7 @@
                     "strike_rate": "41.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "18",
                     "balls": "19",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 3 wickets (with 6 balls remaining)"
+    "result": "Bangladesh won by 3 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Stuart Matsikenyeri",
+            "Mluleki Nkala",
+            "Chris Mpofu",
+            "Gary Brent",
+            "Anthony Ireland",
+            "Tino Mawoyo (wk)",
+            "Sean Williams",
+            "Chamu Chibhabha",
+            "Prosper Utseya(c)",
+            "Keith Dabengwa"
+        ],
+        "Bangladesh": [
+            "Shakib Al Hasan",
+            "Mehrab Hossain jnr",
+            "Habibul Bashar(c)",
+            "Shahriar Nafees",
+            "Syed Rasel",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Aftab Ahmed",
+            "Abdur Razzak",
+            "Mushfiqur Rahim (wk)",
+            "Farhad Reza"
+        ]
+    }
 }

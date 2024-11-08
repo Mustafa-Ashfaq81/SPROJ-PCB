@@ -90,7 +90,7 @@
                     "strike_rate": "35.71"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "run out (Anwar Ali)",
                     "runs": "2",
                     "balls": "6",
@@ -233,8 +233,8 @@
                     "strike_rate": "63.41"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
-                    "dismissal": "run out (Starc/Haddin)",
+                    "batsman": "Sarfaraz Ahmed (wk)",
+                    "dismissal": "run out (Starc/ (wk)Haddin)",
                     "runs": "32",
                     "balls": "39",
                     "minutes": "66",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Australia won by 1 run"
+    "result": "Australia won by 1 run",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Kane Richardson",
+            "Steven Smith",
+            "Xavier Doherty",
+            "David Warner",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Phillip Hughes",
+            "Aaron Finch"
+        ],
+        "Pakistan": [
+            "Sohail Tanvir",
+            "Anwar Ali",
+            "Sohaib Maqsood",
+            "Zulfiqar Babar",
+            "Asad Shafiq",
+            "Fawad Alam",
+            "Mohammad Irfan",
+            "Sarfaraz Ahmed (wk)",
+            "Ahmed Shehzad",
+            "Shahid Afridi(c)",
+            "Umar Amin"
+        ]
+    }
 }

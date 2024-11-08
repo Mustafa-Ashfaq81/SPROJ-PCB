@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Hopkins b Cairns",
+                    "dismissal": "c (wk)Hopkins b Cairns",
                     "runs": "27",
                     "balls": "58",
                     "minutes": "80",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Hopkins b Butler",
+                    "dismissal": "c (wk)Hopkins b Butler",
                     "runs": "21",
                     "balls": "25",
                     "minutes": "35",
@@ -102,8 +102,8 @@
                     "strike_rate": "43.47"
                 },
                 {
-                    "batsman": "Carlton Baugh",
-                    "dismissal": "c Hopkins b Franklin",
+                    "batsman": "Carlton Baugh (wk)",
+                    "dismissal": "c (wk)Hopkins b Franklin",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "15",
@@ -309,7 +309,7 @@
                     "strike_rate": "400.00"
                 }
             ],
-            "did_not_bat": "Gareth Hopkins , Daniel Vettori , James Franklin , Ian Butler",
+            "did_not_bat": "Gareth Hopkins (wk) , Daniel Vettori , James Franklin , Ian Butler",
             "fall_of_wickets": "Fall of wickets : 1 - 42 ( Nathan Astle , 8.6 ov ) , 2 - 114 ( Stephen Fleming , 25.1 ov ) , 3 - 121 ( Scott Styris , 27.2 ov ) , 4 - 176 ( Craig McMillan , 39.2 ov ) , 5 - 216 ( Jacob Oram , 45.5 ov )",
             "bowling": [
                 {
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 24 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Jermaine Lawson",
+            "Carlton Baugh (wk)",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ricardo Powell",
+            "Tino Best"
+        ],
+        "New Zealand": [
+            "Chris Cairns",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Ian Butler",
+            "Nathan Astle",
+            "Gareth Hopkins (wk)",
+            "James Franklin",
+            "Daniel Vettori",
+            "Hamish Marshall",
+            "Jacob Oram",
+            "Scott Styris"
+        ]
+    }
 }

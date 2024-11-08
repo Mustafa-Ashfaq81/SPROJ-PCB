@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "c Barresi b Loots",
+                    "dismissal": "c (wk)Barresi b Loots",
                     "runs": "53",
                     "balls": "51",
                     "minutes": "67",
@@ -101,7 +101,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "lbw b Mudassar Bukhari",
                     "runs": "13",
                     "balls": "13",
@@ -229,7 +229,7 @@
             "batting": [
                 {
                     "batsman": "Alexei Kervezee",
-                    "dismissal": "st Thomas b Benn",
+                    "dismissal": "st (wk)Thomas b Benn",
                     "runs": "14",
                     "balls": "20",
                     "minutes": "20",
@@ -238,7 +238,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "c Gayle b Roach",
                     "runs": "0",
                     "balls": "5",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 215 runs"
+    "result": "West Indies won by 215 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Shivnarine Chanderpaul",
+            "Devon Smith",
+            "Chris Gayle",
+            "Ramnaresh Sarwan",
+            "Sulieman Benn",
+            "Kemar Roach",
+            "Darren Bravo",
+            "Daren Sammy(c)",
+            "Devon Thomas (wk)",
+            "Kieron Pollard",
+            "Nikita Miller"
+        ],
+        "Netherlands": [
+            "Pieter Seelaar",
+            "Tom de Grooth",
+            "Ryan ten Doeschate",
+            "Peter Borren(c)",
+            "Tom Cooper",
+            "Bernard Loots",
+            "Mudassar Bukhari",
+            "Wesley Barresi (wk)",
+            "Berend Westdijk",
+            "Bas Zuiderent",
+            "Alexei Kervezee"
+        ]
+    }
 }

@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Hussain Talat",
-                    "dismissal": "st Klaasen b Shamsi",
+                    "dismissal": "st (wk)Klaasen b Shamsi",
                     "runs": "2",
                     "balls": "14",
                     "minutes": "16",
@@ -103,7 +103,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "b Phehlukwayo",
                     "runs": "41",
                     "balls": "59",
@@ -227,7 +227,7 @@
             "batting": [
                 {
                     "batsman": "Reeza Hendricks",
-                    "dismissal": "c Sarfaraz Ahmed b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shaheen Shah Afridi",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "15",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shaheen Shah Afridi",
                     "runs": "8",
                     "balls": "8",
                     "minutes": "8",
@@ -276,7 +276,7 @@
                     "strike_rate": "119.23"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
+                    "batsman": "Heinrich Klaasen (wk)",
                     "dismissal": "b Shadab Khan",
                     "runs": "0",
                     "balls": "1",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 48 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 48 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Sarfaraz Ahmed(c) (wk)",
+            "Fakhar Zaman",
+            "Shaheen Shah Afridi",
+            "Shadab Khan",
+            "Babar Azam",
+            "Imam-ul-Haq",
+            "Shoaib Malik",
+            "Faheem Ashraf",
+            "Mohammad Hafeez",
+            "Hussain Talat",
+            "Hasan Ali"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Duanne Olivier",
+            "David Miller",
+            "Kagiso Rabada",
+            "Rassie van der Dussen",
+            "Heinrich Klaasen (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)",
+            "Hashim Amla",
+            "Dane Paterson",
+            "Tabraiz Shamsi"
+        ]
+    }
 }

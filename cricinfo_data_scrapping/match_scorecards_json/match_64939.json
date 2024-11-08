@@ -50,7 +50,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Shoaib Malik b Mohammad Hafeez",
                     "runs": "148",
                     "balls": "123",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Dhoni b Yuvraj Singh",
+                    "dismissal": "c (wk)Dhoni b Yuvraj Singh",
                     "runs": "88",
                     "balls": "93",
                     "minutes": "126",
@@ -297,7 +297,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Khan",
                     "runs": "41",
                     "balls": "28",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Naved-ul-Hasan",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "10",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "India won by 58 runs"
+    "result": "India won by 58 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Rahul Dravid",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Mohammad Kaif",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh",
+            "Lakshmipathy Balaji"
+        ],
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Naved-ul-Hasan",
+            "Arshad Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Salman Butt",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Yousuf",
+            "Mohammad Hafeez",
+            "Mohammad Sami"
+        ]
+    }
 }

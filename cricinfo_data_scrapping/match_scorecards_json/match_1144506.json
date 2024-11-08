@@ -72,7 +72,7 @@
                     "strike_rate": "208.45"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Mohammad Nabi b Dawlat Zadran",
                     "runs": "2",
                     "balls": "2",
@@ -220,7 +220,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib(c)",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "37",
                     "balls": "28",
                     "minutes": "52",
@@ -289,7 +289,7 @@
                     "strike_rate": "61.53"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "10",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "England won by 150 runs"
+    "result": "England won by 150 runs",
+    "playing_xi": {
+        "England": [
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Jofra Archer",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "James Vince",
+            "Ben Stokes",
+            "Mark Wood",
+            "Moeen Ali"
+        ],
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Najibullah Zadran",
+            "Mujeeb Ur Rahman",
+            "Asghar Afghan",
+            "Gulbadin Naib(c)",
+            "Ikram Alikhil (wk)",
+            "Hashmatullah Shahidi",
+            "Dawlat Zadran",
+            "Noor Ali Zadran",
+            "Mohammad Nabi",
+            "Rashid Khan"
+        ]
+    }
 }

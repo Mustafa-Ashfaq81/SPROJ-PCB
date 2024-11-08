@@ -80,8 +80,8 @@
                     "strike_rate": "61.11"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
-                    "dismissal": "run out (Hayden/Gilchrist)",
+                    "batsman": "Romesh Kaluwitharana (wk)",
+                    "dismissal": "run out (Hayden/ (wk)Gilchrist)",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "6",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Upul Chandana",
-                    "dismissal": "c Gilchrist b Clarke",
+                    "dismissal": "c (wk)Gilchrist b Clarke",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "4",
@@ -287,7 +287,7 @@
                     "strike_rate": "69.23"
                 },
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c & b Vaas",
                     "runs": "0",
                     "balls": "2",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 1 run"
+    "result": "Sri Lanka won by 1 run",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kumar Dharmasena",
+            "Russel Arnold",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Romesh Kaluwitharana (wk)",
+            "Kumar Sangakkara"
+        ],
+        "Australia": [
+            "Damien Martyn",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Michael Bevan",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ]
+    }
 }

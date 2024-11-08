@@ -62,8 +62,8 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c Chakabva b Evans",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)Chakabva b Evans",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "16",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "c Chakabva b Evans",
+                    "dismissal": "c (wk)Chakabva b Evans",
                     "runs": "3",
                     "balls": "15",
                     "minutes": "24",
@@ -133,7 +133,7 @@
                 },
                 {
                     "batsman": "Josh Hazlewood",
-                    "dismissal": "c Chakabva b Burl",
+                    "dismissal": "c (wk)Chakabva b Burl",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "5",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Tadiwanashe Marumani",
-                    "dismissal": "c Carey b Green",
+                    "dismissal": "c (wk)Carey b Green",
                     "runs": "35",
                     "balls": "47",
                     "minutes": "94",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -289,7 +289,7 @@
                     "strike_rate": "42.10"
                 },
                 {
-                    "batsman": "Regis Chakabva(c)",
+                    "batsman": "Regis Chakabva(c) (wk)",
                     "dismissal": "not out",
                     "runs": "37",
                     "balls": "72",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 3 wickets (with 66 balls remaining)"
+    "result": "Zimbabwe won by 3 wickets (with 66 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Adam Zampa",
+            "Glenn Maxwell",
+            "Ashton Agar",
+            "Steven Smith",
+            "Josh Hazlewood",
+            "Cameron Green",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "David Warner",
+            "Marcus Stoinis"
+        ],
+        "Zimbabwe": [
+            "Wessly Madhevere",
+            "Richard Ngarava",
+            "Tony Munyonga",
+            "Brad Evans",
+            "Sean Williams",
+            "Sikandar Raza",
+            "Ryan Burl",
+            "Takudzwanashe Kaitano",
+            "Tadiwanashe Marumani",
+            "Victor Nyauchi",
+            "Regis Chakabva(c) (wk)"
+        ]
+    }
 }

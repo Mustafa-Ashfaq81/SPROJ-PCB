@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "run out (Broom/McCullum)",
+                    "dismissal": "run out (Broom/ (wk)McCullum)",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "18",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "run out (Guptill/McCullum)",
+                    "dismissal": "run out (Guptill/ (wk)McCullum)",
                     "runs": "12",
                     "balls": "27",
                     "minutes": "35",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "David Hussey",
-                    "dismissal": "c McCullum b Patel",
+                    "dismissal": "c (wk)McCullum b Patel",
                     "runs": "13",
                     "balls": "26",
                     "minutes": "34",
@@ -90,7 +90,7 @@
                     "strike_rate": "75.38"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Mills",
                     "runs": "31",
                     "balls": "54",
@@ -223,7 +223,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Tait",
                     "runs": "0",
                     "balls": "2",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 2 wickets (with 0 balls remaining)"
+    "result": "New Zealand won by 2 wickets (with 0 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Shaun Tait",
+            "David Warner",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "David Hussey",
+            "Nathan Bracken"
+        ],
+        "New Zealand": [
+            "Grant Elliott",
+            "Brendon McCullum (wk)",
+            "Jeetan Patel",
+            "Daniel Vettori(c)",
+            "Martin Guptill",
+            "Neil Broom",
+            "Peter Fulton",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Iain O'Brien",
+            "Tim Southee"
+        ]
+    }
 }

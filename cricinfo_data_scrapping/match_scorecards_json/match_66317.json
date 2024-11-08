@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Daren Ganga",
-                    "dismissal": "run out (Dighe)",
+                    "dismissal": "run out ( (wk)Dighe)",
                     "runs": "55",
                     "balls": "94",
                     "minutes": "126",
@@ -82,7 +82,7 @@
                     "strike_rate": "141.17"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "not out",
                     "runs": "27",
                     "balls": "21",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "st Jacobs b Hooper",
+                    "dismissal": "st (wk)Jacobs b Hooper",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "9",
@@ -273,7 +273,7 @@
                     "strike_rate": "76.19"
                 }
             ],
-            "did_not_bat": "Sameer Dighe , Debasis Mohanty , Harbhajan Singh , Harvinder Singh , Ashish Nehra",
+            "did_not_bat": "Sameer Dighe (wk) , Debasis Mohanty , Harbhajan Singh , Harvinder Singh , Ashish Nehra",
             "fall_of_wickets": "Fall of wickets : 1 - 133 ( Sourav Ganguly , 25.6 ov ) , 2 - 138 ( Virender Sehwag , 28.4 ov ) , 3 - 152 ( Hemang Badani , 34.4 ov ) , 4 - 207 ( Rahul Dravid , 43.1 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 11 balls remaining)"
+    "result": "India won by 6 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Daren Ganga",
+            "Carl Hooper(c)",
+            "Mervyn Dillon",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Neil McGarrell",
+            "Shivnarine Chanderpaul",
+            "Colin Stuart",
+            "Wavell Hinds",
+            "Reon King"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Ashish Nehra",
+            "Harvinder Singh",
+            "Rahul Dravid",
+            "Hemang Badani",
+            "Virender Sehwag",
+            "Reetinder Sodhi",
+            "Harbhajan Singh",
+            "Debasis Mohanty",
+            "Sameer Dighe (wk)",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Babar Azam(c)",
-                    "dismissal": "st Mendis b Wellalage",
+                    "dismissal": "st (wk)Mendis b Wellalage",
                     "runs": "29",
                     "balls": "35",
                     "minutes": "54",
@@ -64,7 +64,7 @@
                     "strike_rate": "82.85"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "not out",
                     "runs": "86",
                     "balls": "73",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Shadab Khan",
-                    "dismissal": "c Mendis b Pramod Madushan",
+                    "dismissal": "c (wk)Mendis b Pramod Madushan",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "3",
@@ -241,7 +241,7 @@
                     "strike_rate": "212.50"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c Mohammad Haris b Iftikhar Ahmed",
                     "runs": "91",
                     "balls": "87",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Sadeera Samarawickrama",
-                    "dismissal": "st Mohammad Rizwan b Iftikhar Ahmed",
+                    "dismissal": "st (wk)Mohammad Rizwan b Iftikhar Ahmed",
                     "runs": "48",
                     "balls": "51",
                     "minutes": "70",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Dunith Wellalage",
-                    "dismissal": "c Mohammad Rizwan b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shaheen Shah Afridi",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Pramod Madushan",
-                    "dismissal": "run out (Mohammad Rizwan/Zaman Khan)",
+                    "dismissal": "run out ( (wk)Mohammad Rizwan/Zaman Khan)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 wickets (with 0 balls remaining) (DLS method)"
+    "result": "Sri Lanka won by 2 wickets (with 0 balls remaining) (DLS method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Zaman Khan",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Abdullah Shafique",
+            "Mohammad Wasim",
+            "Fakhar Zaman",
+            "Mohammad Nawaz",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Mohammad Haris"
+        ],
+        "Sri Lanka": [
+            "Pramod Madushan",
+            "Kusal Mendis (wk)",
+            "Matheesha Pathirana",
+            "Maheesh Theekshana",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Kusal Perera",
+            "Sadeera Samarawickrama"
+        ]
+    }
 }

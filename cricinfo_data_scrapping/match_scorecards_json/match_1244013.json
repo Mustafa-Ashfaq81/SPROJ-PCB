@@ -36,7 +36,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "c Simi Singh b Delany",
                     "runs": "127",
                     "balls": "127",
@@ -117,7 +117,7 @@
                 },
                 {
                     "batsman": "Rashid Khan",
-                    "dismissal": "run out (Simi Singh/Tucker)",
+                    "dismissal": "run out (Simi Singh/ (wk)Tucker)",
                     "runs": "55",
                     "balls": "30",
                     "minutes": "40",
@@ -321,8 +321,8 @@
                     "strike_rate": "73.58"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
-                    "dismissal": "st Rahmanullah Gurbaz b Rashid Khan",
+                    "batsman": "Lorcan Tucker (wk)",
+                    "dismissal": "st (wk)Rahmanullah Gurbaz b Rashid Khan",
                     "runs": "83",
                     "balls": "96",
                     "minutes": "135",
@@ -342,7 +342,7 @@
                 },
                 {
                     "batsman": "Simi Singh",
-                    "dismissal": "st Rahmanullah Gurbaz b Mujeeb Ur Rahman",
+                    "dismissal": "st (wk)Rahmanullah Gurbaz b Mujeeb Ur Rahman",
                     "runs": "23",
                     "balls": "20",
                     "minutes": "26",
@@ -471,5 +471,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 16 runs"
+    "result": "Afghanistan won by 16 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Rahmanullah Gurbaz (wk)",
+            "Azmatullah Omarzai",
+            "Javed Ahmadi",
+            "Rahmat Shah",
+            "Naveen-ul-Haq",
+            "Najibullah Zadran",
+            "Gulbadin Naib",
+            "Rashid Khan",
+            "Asghar Afghan(c)",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman"
+        ],
+        "Ireland": [
+            "Harry Tector",
+            "Craig Young",
+            "Curtis Campher",
+            "Andy Balbirnie(c)",
+            "Barry McCarthy",
+            "Gareth Delany",
+            "Lorcan Tucker (wk)",
+            "Paul Stirling",
+            "Andy McBrine",
+            "Simi Singh",
+            "Kevin O'Brien"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Tendulkar b Pathan",
                     "runs": "27",
                     "balls": "31",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu(c)",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "10",
@@ -263,7 +263,7 @@
                     "strike_rate": "40.00"
                 }
             ],
-            "did_not_bat": "Yuvraj Singh , MS Dhoni , Ajit Agarkar , Irfan Pathan , Harbhajan Singh , Venugopal Rao , Murali Kartik",
+            "did_not_bat": "Yuvraj Singh , MS Dhoni (wk) , Ajit Agarkar , Irfan Pathan , Harbhajan Singh , Venugopal Rao , Murali Kartik",
             "fall_of_wickets": "Fall of wickets : 1 - 80 ( Virender Sehwag , 9.4 ov ) , 2 - 115 ( Jai Prakash Yadav , 16.5 ov )",
             "bowling": [
                 {
@@ -339,5 +339,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 178 balls remaining)"
+    "result": "India won by 8 wickets (with 178 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Sanath Jayasuriya",
+            "Muthiah Muralidaran",
+            "Mahela Jayawardene",
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Farveez Maharoof",
+            "Upul Chandana"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Murali Kartik",
+            "Rahul Dravid(c)",
+            "Ajit Agarkar",
+            "MS Dhoni (wk)",
+            "Jai Prakash Yadav",
+            "Venugopal Rao",
+            "Virender Sehwag",
+            "Yuvraj Singh"
+        ]
+    }
 }

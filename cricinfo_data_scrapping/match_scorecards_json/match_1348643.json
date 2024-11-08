@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Mendis b Rajitha",
+                    "dismissal": "c (wk)Mendis b Rajitha",
                     "runs": "113",
                     "balls": "87",
                     "minutes": "117",
@@ -73,7 +73,7 @@
                     "strike_rate": "116.66"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "b Rajitha",
                     "runs": "39",
                     "balls": "29",
@@ -254,7 +254,7 @@
                     "strike_rate": "41.66"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "b Mohammed Siraj",
                     "runs": "0",
                     "balls": "4",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "c Rahul b Umran Malik",
+                    "dismissal": "c (wk)Rahul b Umran Malik",
                     "runs": "23",
                     "balls": "28",
                     "minutes": "39",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "47",
                     "balls": "40",
                     "minutes": "40",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "India won by 67 runs"
+    "result": "India won by 67 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma(c)",
+            "Shreyas Iyer",
+            "Hardik Pandya",
+            "Umran Malik",
+            "Mohammed Siraj",
+            "Yuzvendra Chahal",
+            "Shubman Gill",
+            "Axar Patel",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "KL Rahul (wk)"
+        ],
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Dunith Wellalage",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Kusal Mendis (wk)",
+            "Kasun Rajitha",
+            "Charith Asalanka",
+            "Dilshan Madushanka",
+            "Avishka Fernando",
+            "Chamika Karunaratne",
+            "Dasun Shanaka(c)"
+        ]
+    }
 }

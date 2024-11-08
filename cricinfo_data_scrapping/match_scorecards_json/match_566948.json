@@ -80,7 +80,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Tredwell b Bopara",
                     "runs": "0",
                     "balls": "4",
@@ -214,7 +214,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "13",
                     "balls": "16",
                     "minutes": "38",
@@ -224,7 +224,7 @@
                 },
                 {
                     "batsman": "Jonathan Trott",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "20",
                     "balls": "17",
                     "minutes": "14",
@@ -263,7 +263,7 @@
                     "strike_rate": "120.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Jadeja",
                     "runs": "0",
                     "balls": "1",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Tim Bresnan",
-                    "dismissal": "run out (RG Sharma/Dhoni)",
+                    "dismissal": "run out (RG Sharma/ (wk)Dhoni)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "6",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "India won by 5 runs"
+    "result": "India won by 5 runs",
+    "playing_xi": {
+        "India": [
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Bhuvneshwar Kumar",
+            "Dinesh Karthik",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "Umesh Yadav",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "MS Dhoni(c) (wk)"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Jonathan Trott",
+            "Jos Buttler (wk)",
+            "Ravi Bopara",
+            "James Tredwell"
+        ]
+    }
 }

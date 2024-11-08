@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Dickwella b Gamage",
+                    "dismissal": "c (wk)Dickwella b Gamage",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "-",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Dickwella b Perera",
+                    "dismissal": "c (wk)Dickwella b Perera",
                     "runs": "11",
                     "balls": "15",
                     "minutes": "-",
@@ -81,7 +81,7 @@
                     "strike_rate": "73.33"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "b Perera",
                     "runs": "5",
                     "balls": "14",
@@ -238,7 +238,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "lbw b Junaid Khan",
                     "runs": "3",
                     "balls": "7",
@@ -329,7 +329,7 @@
                 },
                 {
                     "batsman": "Suranga Lakmal",
-                    "dismissal": "run out (Ahmed Shehzad/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Ahmed Shehzad/ (wk)Sarfaraz Ahmed)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "-",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 32 runs"
+    "result": "Pakistan won by 32 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Imad Wasim",
+            "Fakhar Zaman",
+            "Shoaib Malik",
+            "Rumman Raees",
+            "Shadab Khan",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Babar Azam",
+            "Hasan Ali"
+        ],
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Milinda Siriwardana",
+            "Suranga Lakmal",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Kusal Mendis",
+            "Dinesh Chandimal",
+            "Upul Tharanga(c)",
+            "Jeffrey Vandersay",
+            "Lahiru Gamage",
+            "Niroshan Dickwella (wk)"
+        ]
+    }
 }

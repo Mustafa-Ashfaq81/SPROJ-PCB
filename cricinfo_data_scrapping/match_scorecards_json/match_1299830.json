@@ -62,7 +62,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Fazalhaq Farooqi b Fareed Ahmad",
                     "runs": "86",
                     "balls": "93",
@@ -224,7 +224,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi(c)",
-                    "dismissal": "c Mushfiqur Rahim b Shoriful Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shoriful Islam",
                     "runs": "5",
                     "balls": "3",
                     "minutes": "14",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Azmatullah Omarzai",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "26",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Najibullah Zadran",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "54",
                     "balls": "61",
                     "minutes": "88",
@@ -263,7 +263,7 @@
                     "strike_rate": "84.21"
                 },
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "b Shakib Al Hasan",
                     "runs": "7",
                     "balls": "17",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 88 runs"
+    "result": "Bangladesh won by 88 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Mustafizur Rahman",
+            "Afif Hossain",
+            "Yasir Ali",
+            "Litton Das",
+            "Shakib Al Hasan",
+            "Mahmudullah",
+            "Shoriful Islam",
+            "Tamim Iqbal(c)"
+        ],
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Najibullah Zadran",
+            "Rashid Khan",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz (wk)",
+            "Fazalhaq Farooqi",
+            "Riaz Hassan",
+            "Mujeeb Ur Rahman",
+            "Rahmat Shah",
+            "Fareed Ahmad",
+            "Azmatullah Omarzai"
+        ]
+    }
 }

@@ -60,7 +60,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Adams)",
                     "runs": "89",
                     "balls": "122",
@@ -203,7 +203,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Maharoof",
                     "runs": "32",
                     "balls": "24",
@@ -224,7 +224,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "run out (Silva/Sangakkara)",
+                    "dismissal": "run out (Silva/ (wk)Sangakkara)",
                     "runs": "15",
                     "balls": "26",
                     "minutes": "28",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 1 wicket (with 0 balls remaining)"
+    "result": "New Zealand won by 1 wicket (with 0 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Chamara Silva",
+            "Muthiah Muralidaran",
+            "Farveez Maharoof",
+            "Sanath Jayasuriya",
+            "Upul Tharanga"
+        ],
+        "New Zealand": [
+            "Craig McMillan",
+            "Mark Gillespie",
+            "Daniel Vettori(c)",
+            "James Franklin",
+            "Michael Mason",
+            "James Marshall",
+            "Hamish Marshall",
+            "Andre Adams",
+            "Peter Fulton",
+            "Ross Taylor",
+            "Brendon McCullum (wk)"
+        ]
+    }
 }

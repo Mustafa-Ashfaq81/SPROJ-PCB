@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c PA Patel b Kumar",
+                    "dismissal": "c (wk)PA Patel b Kumar",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "2",
@@ -40,7 +40,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Nehra",
                     "runs": "14",
                     "balls": "10",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c PA Patel b Nehra",
+                    "dismissal": "c (wk)PA Patel b Nehra",
                     "runs": "9",
                     "balls": "9",
                     "minutes": "10",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir(c)",
-                    "dismissal": "c BB McCullum b NL McCullum",
+                    "dismissal": "c (wk)BB McCullum b NL McCullum",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "1",
@@ -247,7 +247,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "not out",
                     "runs": "56",
                     "balls": "70",
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 173 balls remaining)"
+    "result": "India won by 8 wickets (with 173 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Jamie How",
+            "Martin Guptill",
+            "Kyle Mills",
+            "Grant Elliott",
+            "Scott Styris",
+            "Ross Taylor",
+            "Tim Southee",
+            "Nathan McCullum",
+            "James Franklin",
+            "Daniel Vettori(c)"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "Praveen Kumar",
+            "Ravichandran Ashwin",
+            "Yusuf Pathan",
+            "Rohit Sharma",
+            "Saurabh Tiwary",
+            "Gautam Gambhir(c)",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Parthiv Patel (wk)",
+            "Munaf Patel"
+        ]
+    }
 }

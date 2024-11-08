@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "29",
                     "balls": "43",
                     "minutes": "68",
@@ -85,7 +85,7 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Ponting b Lee",
                     "runs": "37",
                     "balls": "61",
@@ -256,8 +256,8 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Dhoni b Sreesanth",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Dhoni b Sreesanth",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "21",
@@ -354,5 +354,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "India": [
+            "Manoj Tiwary",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Sreesanth",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "MS Dhoni(c) (wk)"
+        ],
+        "Australia": [
+            "Ashley Noffke",
+            "Mitchell Johnson",
+            "James Hopes",
+            "Nathan Bracken",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Adam Gilchrist (wk)",
+            "Brad Haddin"
+        ]
+    }
 }

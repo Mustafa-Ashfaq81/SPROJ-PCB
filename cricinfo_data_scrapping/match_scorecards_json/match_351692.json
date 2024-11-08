@@ -30,7 +30,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Clarke",
                     "runs": "33",
                     "balls": "55",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "76",
                     "balls": "71",
                     "minutes": "115",
@@ -227,8 +227,8 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Brad Haddin",
-                    "dismissal": "run out (Cumming/McCullum)",
+                    "batsman": "Brad Haddin (wk)",
+                    "dismissal": "run out (Cumming/ (wk)McCullum)",
                     "runs": "43",
                     "balls": "67",
                     "minutes": "101",
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 10 balls remaining)"
+    "result": "Australia won by 6 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Grant Elliott",
+            "Brendon McCullum (wk)",
+            "Daniel Vettori(c)",
+            "Craig Cumming",
+            "Martin Guptill",
+            "Neil Broom",
+            "Peter Fulton",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Iain O'Brien",
+            "Tim Southee"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Brad Haddin (wk)",
+            "Cameron White",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Ben Hilfenhaus",
+            "David Hussey",
+            "Nathan Bracken"
+        ]
+    }
 }

@@ -40,7 +40,7 @@
                     "strike_rate": "79.48"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "lbw b Morris",
                     "runs": "0",
                     "balls": "11",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "James Neesham",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "29",
                     "balls": "35",
                     "minutes": "66",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Mitchell Santner",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "17",
                     "balls": "27",
                     "minutes": "27",
@@ -217,7 +217,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Taylor b Boult",
                     "runs": "69",
                     "balls": "64",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 4 wickets (with 1 ball remaining)"
+    "result": "South Africa won by 4 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Kane Williamson(c)",
+            "Neil Broom",
+            "Trent Boult",
+            "Ish Sodhi",
+            "Colin de Grandhomme",
+            "Dean Brownlie",
+            "Ross Taylor",
+            "Tom Latham (wk)",
+            "Tim Southee",
+            "James Neesham"
+        ],
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Tabraiz Shamsi",
+            "Farhaan Behardien",
+            "Hashim Amla",
+            "AB de Villiers(c)",
+            "Faf du Plessis",
+            "Andile Phehlukwayo",
+            "Imran Tahir",
+            "Kagiso Rabada",
+            "Chris Morris",
+            "Jean-Paul Duminy"
+        ]
+    }
 }

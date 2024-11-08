@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Travis Head",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Chris Lynn",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "15",
                     "balls": "32",
                     "minutes": "-",
@@ -70,8 +70,8 @@
                     "strike_rate": "46.87"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c de Kock b Imran Tahir",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)de Kock b Imran Tahir",
                     "runs": "33",
                     "balls": "71",
                     "minutes": "-",
@@ -223,7 +223,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Hazlewood b Coulter-Nile",
                     "runs": "47",
                     "balls": "40",
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 124 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 124 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "D'Arcy Short",
+            "Mitchell Starc",
+            "Aaron Finch(c)",
+            "Pat Cummins",
+            "Nathan Coulter-Nile",
+            "Marcus Stoinis",
+            "Alex Carey (wk)",
+            "Josh Hazlewood",
+            "Chris Lynn",
+            "Travis Head",
+            "Glenn Maxwell"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Dale Steyn",
+            "Heinrich Klaasen",
+            "Andile Phehlukwayo",
+            "Kagiso Rabada",
+            "Lungi Ngidi",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis(c)",
+            "Imran Tahir",
+            "Aiden Markram",
+            "David Miller"
+        ]
+    }
 }

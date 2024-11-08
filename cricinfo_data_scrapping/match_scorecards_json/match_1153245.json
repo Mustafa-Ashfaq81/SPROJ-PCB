@@ -31,7 +31,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Dananjaya",
                     "runs": "34",
                     "balls": "47",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "run out (sub [Samiullah Shinwari]/Mohammad Shahzad)",
+                    "dismissal": "run out (sub [Samiullah Shinwari]/ (wk)Mohammad Shahzad)",
                     "runs": "23",
                     "balls": "38",
                     "minutes": "-",
@@ -268,7 +268,7 @@
                     "strike_rate": "60.52"
                 },
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "b Rashid Khan",
                     "runs": "17",
                     "balls": "17",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 91 runs"
+    "result": "Afghanistan won by 91 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Aftab Alam",
+            "Asghar Afghan(c)",
+            "Ihsanullah",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Rashid Khan"
+        ],
+        "Sri Lanka": [
+            "Kusal Perera (wk)",
+            "Shehan Jayasuriya",
+            "Kusal Mendis",
+            "Lasith Malinga",
+            "Thisara Perera",
+            "Dasun Shanaka",
+            "Dushmantha Chameera",
+            "Angelo Mathews(c)",
+            "Akila Dananjaya",
+            "Dhananjaya de Silva",
+            "Upul Tharanga"
+        ]
+    }
 }

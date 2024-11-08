@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Sabbir Rahman",
-                    "dismissal": "c Ronchi b Henry",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "19",
                     "balls": "14",
                     "minutes": "18",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "run out (Ronchi)",
+                    "dismissal": "run out ( (wk)Ronchi)",
                     "runs": "18",
                     "balls": "35",
                     "minutes": "38",
@@ -90,7 +90,7 @@
                     "strike_rate": "84.61"
                 },
                 {
-                    "batsman": "Nurul Hasan",
+                    "batsman": "Nurul Hasan (wk)",
                     "dismissal": "c & b Henry",
                     "runs": "44",
                     "balls": "39",
@@ -287,7 +287,7 @@
                     "strike_rate": "121.73"
                 }
             ],
-            "did_not_bat": "Colin Munro , Luke Ronchi , Mitchell Santner , Tim Southee , Matt Henry , Jeetan Patel",
+            "did_not_bat": "Colin Munro , Luke Ronchi (wk) , Mitchell Santner , Tim Southee , Matt Henry , Jeetan Patel",
             "fall_of_wickets": "Fall of wickets : 1 - 10 ( Tom Latham , 1.5 ov ) , 1 - 16 * ( Martin Guptill , retired not out ) , 2 - 195 ( Neil Broom , 34.1 ov )",
             "bowling": [
                 {
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 8 wickets (with 52 balls remaining)"
+    "result": "New Zealand won by 8 wickets (with 52 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nurul Hasan (wk)",
+            "Tanbir Hayder",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Taskin Ahmed",
+            "Mashrafe Mortaza(c)",
+            "Mustafizur Rahman",
+            "Sabbir Rahman",
+            "Imrul Kayes",
+            "Shakib Al Hasan"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Neil Broom",
+            "Tom Latham",
+            "Colin Munro",
+            "Jeetan Patel",
+            "Luke Ronchi (wk)",
+            "Matt Henry",
+            "Tim Southee",
+            "James Neesham"
+        ]
+    }
 }

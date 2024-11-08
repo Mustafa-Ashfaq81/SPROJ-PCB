@@ -53,8 +53,8 @@
                     "strike_rate": "73.68"
                 },
                 {
-                    "batsman": "Brad Haddin",
-                    "dismissal": "c McCullum b Southee",
+                    "batsman": "Brad Haddin (wk)",
+                    "dismissal": "c (wk)McCullum b Southee",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "29",
@@ -200,7 +200,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c MEK Hussey b Hopes",
                     "runs": "43",
                     "balls": "75",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Peter Fulton",
-                    "dismissal": "c Haddin b Hopes",
+                    "dismissal": "c (wk)Haddin b Hopes",
                     "runs": "21",
                     "balls": "34",
                     "minutes": "46",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "47",
                     "balls": "74",
                     "minutes": "112",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 6 wickets (with 7 balls remaining)"
+    "result": "New Zealand won by 6 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Brad Haddin (wk)",
+            "David Warner",
+            "Cameron White",
+            "Michael Clarke(c)",
+            "James Hopes",
+            "Michael Hussey",
+            "Ben Hilfenhaus",
+            "David Hussey",
+            "Nathan Bracken"
+        ],
+        "New Zealand": [
+            "Grant Elliott",
+            "Brendon McCullum (wk)",
+            "Jeetan Patel",
+            "Martin Guptill",
+            "Daniel Vettori (c)",
+            "Neil Broom",
+            "Peter Fulton",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Iain O'Brien",
+            "Tim Southee"
+        ]
+    }
 }

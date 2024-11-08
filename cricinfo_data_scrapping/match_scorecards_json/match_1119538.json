@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "c Paine b Tye",
+                    "dismissal": "c (wk)Paine b Tye",
                     "runs": "120",
                     "balls": "108",
                     "minutes": "156",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Paine b KW Richardson",
+                    "dismissal": "c (wk)Paine b KW Richardson",
                     "runs": "42",
                     "balls": "24",
                     "minutes": "36",
@@ -73,7 +73,7 @@
                     "strike_rate": "91.66"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "not out",
                     "runs": "91",
                     "balls": "70",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Ashton Agar",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "46",
                     "balls": "42",
                     "minutes": "50",
@@ -300,7 +300,7 @@
                     "strike_rate": "109.52"
                 },
                 {
-                    "batsman": "Tim Paine(c)",
+                    "batsman": "Tim Paine(c) (wk)",
                     "dismissal": "c Rashid b Plunkett",
                     "runs": "15",
                     "balls": "11",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "England won by 38 runs"
+    "result": "England won by 38 runs",
+    "playing_xi": {
+        "England": [
+            "Jos Buttler(c) (wk)",
+            "Moeen Ali",
+            "Jason Roy",
+            "Sam Billings",
+            "Joe Root",
+            "Liam Plunkett",
+            "Jonny Bairstow",
+            "David Willey",
+            "Mark Wood",
+            "Alex Hales",
+            "Adil Rashid"
+        ],
+        "Australia": [
+            "D'Arcy Short",
+            "Shaun Marsh",
+            "Travis Head",
+            "Glenn Maxwell",
+            "Andrew Tye",
+            "Tim Paine(c) (wk)",
+            "Jhye Richardson",
+            "Marcus Stoinis",
+            "Kane Richardson",
+            "Ashton Agar",
+            "Aaron Finch"
+        ]
+    }
 }

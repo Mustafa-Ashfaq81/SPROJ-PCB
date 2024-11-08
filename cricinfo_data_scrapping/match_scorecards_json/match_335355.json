@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Sarfaraz Ahmed b Abdur Rauf",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Abdur Rauf",
                     "runs": "49",
                     "balls": "33",
                     "minutes": "64",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Sarfaraz Ahmed b Iftikhar Anjum",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Iftikhar Anjum",
                     "runs": "37",
                     "balls": "32",
                     "minutes": "38",
@@ -74,8 +74,8 @@
                     "strike_rate": "115.62"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Sohail Tanvir",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Sohail Tanvir",
                     "runs": "76",
                     "balls": "96",
                     "minutes": "150",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "run out (Gambhir/Dhoni)",
+                    "dismissal": "run out (Gambhir/ (wk)Dhoni)",
                     "runs": "36",
                     "balls": "31",
                     "minutes": "40",
@@ -257,7 +257,7 @@
                     "strike_rate": "112.90"
                 }
             ],
-            "did_not_bat": "Shahid Afridi , Abdur Rauf , Sarfaraz Ahmed , Sohail Tanvir , Iftikhar Anjum , Saeed Ajmal",
+            "did_not_bat": "Shahid Afridi , Abdur Rauf , Sarfaraz Ahmed (wk) , Sohail Tanvir , Iftikhar Anjum , Saeed Ajmal",
             "fall_of_wickets": "Fall of wickets : 1 - 65 ( Salman Butt , 7.6 ov ) , 1 - 121 * ( Nasir Jamshed , retired not out ) , 2 - 165 ( Mohammad Yousuf , 25.1 ov )",
             "bowling": [
                 {
@@ -347,5 +347,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 27 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 27 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Piyush Chawla",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Gautam Gambhir",
+            "Ishant Sharma"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Shahid Afridi",
+            "Sarfaraz Ahmed (wk)",
+            "Iftikhar Anjum",
+            "Saeed Ajmal",
+            "Mohammad Yousuf",
+            "Nasir Jamshed",
+            "Misbah-ul-Haq(c)",
+            "Sohail Tanvir",
+            "Younis Khan",
+            "Abdur Rauf"
+        ]
+    }
 }

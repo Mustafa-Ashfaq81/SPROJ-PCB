@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Mark Wright",
-                    "dismissal": "run out (Sharif/Cross)",
+                    "dismissal": "run out (Sharif/ (wk)Cross)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "9",
@@ -119,7 +119,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Nadeem Ahmed , Mark Ferguson",
+            "did_not_bat": "Nadeem Ahmed , Mark Ferguson (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 5 ( Mark Wright , 2.3 ov ) , 2 - 66 ( Jamie Atkinson , 19.3 ov ) , 3 - 128 ( Mark Chapman , 31.6 ov ) , 4 - 135 ( Nizakat Khan , 32.3 ov ) , 5 - 159 ( Irfan Ahmed , 37.4 ov ) , 6 - 226 ( Babar Hayat , 47.2 ov ) , 7 - 253 ( Tanwir Afzal , 49.1 ov )",
             "bowling": [
                 {
@@ -286,8 +286,8 @@
                     "strike_rate": "52.63"
                 },
                 {
-                    "batsman": "Matthew Cross",
-                    "dismissal": "c Ferguson b Irfan Ahmed",
+                    "batsman": "Matthew Cross (wk)",
+                    "dismissal": "c (wk)Ferguson b Irfan Ahmed",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "6",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 17 runs"
+    "result": "Hong Kong won by 17 runs",
+    "playing_xi": {
+        "Hong Kong": [
+            "Jamie Atkinson(c)",
+            "Aizaz Khan",
+            "Mark Wright",
+            "Haseeb Amjad",
+            "Babar Hayat",
+            "Mark Chapman",
+            "Tanwir Afzal",
+            "Nizakat Khan",
+            "Nadeem Ahmed",
+            "Irfan Ahmed",
+            "Mark Ferguson (wk)"
+        ],
+        "Scotland": [
+            "Preston Mommsen",
+            "Rob Taylor",
+            "Kyle Coetzer(c)",
+            "Michael Leask",
+            "Matthew Cross (wk)",
+            "Freddie Coleman",
+            "Safyaan Sharif",
+            "Majid Haq",
+            "Iain Wardlaw",
+            "Calum MacLeod",
+            "Matt Machan"
+        ]
+    }
 }

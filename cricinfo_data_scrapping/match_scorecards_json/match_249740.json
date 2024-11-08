@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Tafadzwa Mufambisi",
-                    "dismissal": "c Baugh b Taylor",
+                    "dismissal": "c (wk)Baugh b Taylor",
                     "runs": "18",
                     "balls": "31",
                     "minutes": "41",
@@ -62,7 +62,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "run out (Chanderpaul)",
                     "runs": "7",
                     "balls": "15",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c Baugh b Smith",
+                    "dismissal": "c (wk)Baugh b Smith",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "19",
@@ -255,7 +255,7 @@
                     "strike_rate": "120.00"
                 }
             ],
-            "did_not_bat": "Marlon Samuels , Ramnaresh Sarwan , Dwayne Bravo , Dwayne Smith , Wavell Hinds , Carlton Baugh , Jerome Taylor , Ian Bradshaw",
+            "did_not_bat": "Marlon Samuels , Ramnaresh Sarwan , Dwayne Bravo , Dwayne Smith , Wavell Hinds , Carlton Baugh (wk) , Jerome Taylor , Ian Bradshaw",
             "fall_of_wickets": "Fall of wickets : 1 - 66 ( Chris Gayle , 9.5 ov )",
             "bowling": [
                 {
@@ -317,5 +317,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 9 wickets (with 214 balls remaining)"
+    "result": "West Indies won by 9 wickets (with 214 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Hamilton Masakadza",
+            "Prosper Utseya(c)",
+            "Ed Rainsford",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Chamu Chibhabha",
+            "Anthony Ireland",
+            "Tafadzwa Kamungozi",
+            "Piet Rinke",
+            "Tafadzwa Mufambisi"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Marlon Samuels",
+            "Carlton Baugh (wk)",
+            "Dwayne Smith",
+            "Jerome Taylor",
+            "Dwayne Bravo",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Wavell Hinds"
+        ]
+    }
 }

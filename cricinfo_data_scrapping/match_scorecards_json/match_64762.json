@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "c Gilchrist b Warne",
+                    "dismissal": "c (wk)Gilchrist b Warne",
                     "runs": "46",
                     "balls": "77",
                     "minutes": "116",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "25",
                     "balls": "27",
                     "minutes": "41",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Neil McKenzie",
-                    "dismissal": "c Gilchrist b Warne",
+                    "dismissal": "c (wk)Gilchrist b Warne",
                     "runs": "17",
                     "balls": "16",
                     "minutes": "21",
@@ -93,7 +93,7 @@
                     "strike_rate": "106.25"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "41",
                     "balls": "42",
@@ -196,7 +196,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Kent b Ntini",
                     "runs": "105",
                     "balls": "104",
@@ -326,5 +326,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 13 balls remaining)"
+    "result": "Australia won by 8 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Shaun Pollock(c)",
+            "Makhaya Ntini",
+            "Neil McKenzie",
+            "Nantie Hayward",
+            "Jacques Kallis",
+            "Jon Kent",
+            "Nicky Boje",
+            "Graeme Smith",
+            "Jonty Rhodes",
+            "Herschelle Gibbs"
+        ],
+        "Australia": [
+            "Damien Martyn",
+            "Shane Warne",
+            "Ricky Ponting(c)",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Jimmy Maher",
+            "Ian Harvey",
+            "Jason Gillespie",
+            "Matthew Hayden",
+            "Brett Lee",
+            "Glenn McGrath"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                     "strike_rate": "84.81"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Chigumbura",
                     "runs": "46",
                     "balls": "58",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "st Haddin b Smith",
+                    "dismissal": "st (wk)Haddin b Smith",
                     "runs": "70",
                     "balls": "91",
                     "minutes": "142",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura(c)",
-                    "dismissal": "c Haddin b Faulkner",
+                    "dismissal": "c (wk)Haddin b Faulkner",
                     "runs": "0",
                     "balls": "11",
                     "minutes": "13",
@@ -268,7 +268,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "lbw b Lyon",
                     "runs": "11",
                     "balls": "24",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Australia won by 198 runs"
+    "result": "Australia won by 198 runs",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Kane Richardson",
+            "Steven Smith",
+            "Mitchell Johnson",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Mitchell Marsh",
+            "Nathan Lyon",
+            "Aaron Finch"
+        ],
+        "Zimbabwe": [
+            "Tinashe Panyangara",
+            "Elton Chigumbura(c)",
+            "Prosper Utseya",
+            "John Nyumbu",
+            "Sean Williams",
+            "Hamilton Masakadza",
+            "Brendan Taylor",
+            "Tendai Chatara",
+            "Tino Mawoyo",
+            "Richmond Mutumbami (wk)",
+            "Sikandar Raza"
+        ]
+    }
 }

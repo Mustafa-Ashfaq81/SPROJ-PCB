@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Dion Ebrahim",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "14",
@@ -64,7 +64,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "lbw b Fernando",
                     "runs": "0",
                     "balls": "1",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Douglas Hondo",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "4",
                     "balls": "15",
                     "minutes": "12",
@@ -135,7 +135,7 @@
                 },
                 {
                     "batsman": "Tinashe Panyangara",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -210,7 +210,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Taibu b Hondo",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "6",
                     "balls": "20",
                     "minutes": "20",
@@ -229,7 +229,7 @@
                     "strike_rate": "30.00"
                 }
             ],
-            "did_not_bat": "Marvan Atapattu (c) , Dilhara Fernando , Tillakaratne Dilshan , Kumar Sangakkara , Rangana Herath , Chaminda Vaas , Sanath Jayasuriya , Farveez Maharoof",
+            "did_not_bat": "Marvan Atapattu (c) , Dilhara Fernando , Tillakaratne Dilshan , Kumar Sangakkara (wk) , Rangana Herath , Chaminda Vaas , Sanath Jayasuriya , Farveez Maharoof",
             "fall_of_wickets": "Fall of wickets : 1 - 23 ( Russel Arnold , 4.6 ov )",
             "bowling": [
                 {
@@ -263,5 +263,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 244 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 244 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Dion Ebrahim",
+            "Vusi Sibanda",
+            "Prosper Utseya",
+            "Alester Maregwede",
+            "Tinashe Panyangara",
+            "Mluleki Nkala",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Tatenda Taibu(c) (wk)"
+        ],
+        "Sri Lanka": [
+            "Saman Jayantha",
+            "Russel Arnold",
+            "Marvan Atapattu (c)",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Dilhara Fernando",
+            "Mahela Jayawardene",
+            "Farveez Maharoof",
+            "Rangana Herath"
+        ]
+    }
 }

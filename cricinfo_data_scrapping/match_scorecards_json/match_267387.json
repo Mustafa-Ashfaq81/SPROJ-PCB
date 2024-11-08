@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "David Hemp",
-                    "dismissal": "c Smits b Mohammad Kashif",
+                    "dismissal": "c (wk)Smits b Mohammad Kashif",
                     "runs": "58",
                     "balls": "98",
                     "minutes": "117",
@@ -84,7 +84,7 @@
                     "strike_rate": "78.04"
                 },
                 {
-                    "batsman": "Dean Minors",
+                    "batsman": "Dean Minors (wk)",
                     "dismissal": "lbw b ten Doeschate",
                     "runs": "8",
                     "balls": "18",
@@ -295,7 +295,7 @@
                     "strike_rate": "38.46"
                 }
             ],
-            "did_not_bat": "Alexei Kervezee , Tim de Leede , Luuk van Troost (c) , Peter Borren , Edgar Schiferli , Jeroen Smits , Mohammad Kashif",
+            "did_not_bat": "Alexei Kervezee , Tim de Leede , Luuk van Troost (c) , Peter Borren , Edgar Schiferli , Jeroen Smits (wk) , Mohammad Kashif",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Darron Reekers , 0.4 ov ) , 2 - 178 ( Bas Zuiderent , 38.5 ov )",
             "bowling": [
                 {
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 8 wickets (with 41 balls remaining)"
+    "result": "Netherlands won by 8 wickets (with 41 balls remaining)",
+    "playing_xi": {
+        "Bermuda": [
+            "Irving Romaine(c)",
+            "David Hemp",
+            "Dean Minors (wk)",
+            "Janeiro Tucker",
+            "Kevin Hurdle",
+            "Clay Smith",
+            "Malachi Jones",
+            "Josclyn Pitcher",
+            "Steven Outerbridge",
+            "Dwayne Leverock",
+            "Lionel Cann"
+        ],
+        "Netherlands": [
+            "Bas Zuiderent",
+            "Tim de Leede",
+            "Jeroen Smits (wk)",
+            "Mohammad Kashif",
+            "Luuk van Troost (c)",
+            "Peter Borren",
+            "Alexei Kervezee",
+            "Ryan ten Doeschate",
+            "Darron Reekers",
+            "Edgar Schiferli",
+            "Daan van Bunge"
+        ]
+    }
 }

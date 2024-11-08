@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Kieswetter b Swann",
+                    "dismissal": "c (wk)Kieswetter b Swann",
                     "runs": "16",
                     "balls": "36",
                     "minutes": "40",
@@ -80,7 +80,7 @@
                     "strike_rate": "112.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "78",
                     "balls": "71",
@@ -207,7 +207,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "c Jadeja b Singh",
                     "runs": "12",
                     "balls": "9",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Match tied (D/L method)"
+    "result": "Match tied (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Parthiv Patel",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Rahul Dravid",
+            "Ravindra Jadeja",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "RP Singh",
+            "Munaf Patel"
+        ],
+        "England": [
+            "Stuart Broad",
+            "Ben Stokes",
+            "Jonathan Trott",
+            "Ravi Bopara",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "Graeme Swann",
+            "Steven Finn",
+            "Tim Bresnan",
+            "James Anderson",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

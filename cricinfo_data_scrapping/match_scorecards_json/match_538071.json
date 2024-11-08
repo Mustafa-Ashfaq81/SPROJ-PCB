@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "26",
                     "balls": "38",
                     "minutes": "45",
@@ -70,8 +70,8 @@
                     "strike_rate": "52.80"
                 },
                 {
-                    "batsman": "Umar Akmal",
-                    "dismissal": "st Mushfiqur Rahim b Elias Sunny",
+                    "batsman": "Umar Akmal (wk)",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Elias Sunny",
                     "runs": "57",
                     "balls": "84",
                     "minutes": "110",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Sohail Tanvir",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "7",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Umar Gul",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -295,7 +295,7 @@
                     "strike_rate": "47.94"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "lbw b Abdur Rehman",
                     "runs": "0",
                     "balls": "3",
@@ -479,5 +479,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 58 runs"
+    "result": "Pakistan won by 58 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Umar Akmal (wk)",
+            "Younis Khan",
+            "Abdur Rehman",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Umar Gul",
+            "Sohail Tanvir"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Farhad Reza",
+            "Mushfiqur Rahim(c) (wk)",
+            "Alok Kapali",
+            "Shahriar Nafees",
+            "Elias Sunny",
+            "Shakib Al Hasan"
+        ]
+    }
 }

@@ -29,7 +29,7 @@
             "extras": "29",
             "batting": [
                 {
-                    "batsman": "Raymond van Schoor",
+                    "batsman": "Raymond van Schoor (wk)",
                     "dismissal": "run out (Saqib Ali)",
                     "runs": "19",
                     "balls": "51",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Sarel Burger",
-                    "dismissal": "c Naeemuddin Aslam b Fayyaz Ahmed",
+                    "dismissal": "c (wk)Naeemuddin Aslam b Fayyaz Ahmed",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "-",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Craig Williams",
-                    "dismissal": "c Naeemuddin Aslam b Fayyaz Ahmed",
+                    "dismissal": "c (wk)Naeemuddin Aslam b Fayyaz Ahmed",
                     "runs": "6",
                     "balls": "23",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Gerrie Snyman",
-                    "dismissal": "c Naeemuddin Aslam b Saqib Ali",
+                    "dismissal": "c (wk)Naeemuddin Aslam b Saqib Ali",
                     "runs": "33",
                     "balls": "33",
                     "minutes": "-",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Saqib Ali",
-                    "dismissal": "st van Schoor b AJ Burger",
+                    "dismissal": "st (wk)van Schoor b AJ Burger",
                     "runs": "41",
                     "balls": "43",
                     "minutes": "-",
@@ -286,8 +286,8 @@
                     "strike_rate": "112.50"
                 },
                 {
-                    "batsman": "Naeemuddin Aslam",
-                    "dismissal": "c van Schoor b AJ Burger",
+                    "batsman": "Naeemuddin Aslam (wk)",
+                    "dismissal": "c (wk)van Schoor b AJ Burger",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "-",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 4 wickets (with 51 balls remaining)"
+    "result": "U.A.E. won by 4 wickets (with 51 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Sarel Burger",
+            "Craig Williams",
+            "Louis van der Westhuizen",
+            "Raymond van Schoor (wk)",
+            "Gerrie Snyman",
+            "Louis Burger(c)",
+            "Nicolaas Scholtz",
+            "Ian van Zyl",
+            "Hendrik Marx",
+            "Louis Klazinga",
+            "Jan-Berrie Burger"
+        ],
+        "United Arab Emirates": [
+            "Saqib Ali",
+            "Arshad Ali",
+            "Naeemuddin Aslam (wk)",
+            "Khurram Khan(c)",
+            "Amjad Javed",
+            "Aman Ali",
+            "Fayyaz Ahmed",
+            "Sameer Nayak",
+            "Qasim Zubair",
+            "Nithin Gopal",
+            "Owais Hameed"
+        ]
+    }
 }

@@ -99,8 +99,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Scott McKechnie",
-                    "dismissal": "run out (sub [Jay Odedra]/Suraj Kumar)",
+                    "batsman": "Scott McKechnie (wk)",
+                    "dismissal": "run out (sub [Jay Odedra]/ (wk)Suraj Kumar)",
                     "runs": "26",
                     "balls": "34",
                     "minutes": "-",
@@ -120,7 +120,7 @@
                 },
                 {
                     "batsman": "Ehsan Nawaz",
-                    "dismissal": "c Suraj Kumar b Bilal Khan",
+                    "dismissal": "c (wk)Suraj Kumar b Bilal Khan",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -300,7 +300,7 @@
                     "strike_rate": "31.81"
                 }
             ],
-            "did_not_bat": "Suraj Kumar , Sandeep Goud , Khurram Nawaz , Fayyaz Butt , Kaleemullah , Bilal Khan",
+            "did_not_bat": "Suraj Kumar (wk) , Sandeep Goud , Khurram Nawaz , Fayyaz Butt , Kaleemullah , Bilal Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 79 ( Khawar Ali , 21.1 ov ) , 2 - 128 ( Aqib Ilyas , 29.1 ov ) , 3 - 134 ( Jatinder Singh , 30.5 ov )",
             "bowling": [
                 {
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "Oman won by 7 wickets (with 27 balls remaining)"
+    "result": "Oman won by 7 wickets (with 27 balls remaining)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Kinchit Shah",
+            "Ehsan Khan",
+            "Jhathavedh Subramanyan",
+            "Aizaz Khan",
+            "Anshy Rath(c)",
+            "Ehsan Nawaz",
+            "Babar Hayat",
+            "Jamie Atkinson",
+            "Tanwir Afzal",
+            "Ahsan Abbasi",
+            "Scott McKechnie (wk)"
+        ],
+        "Oman": [
+            "Suraj Kumar (wk)",
+            "Khurram Nawaz",
+            "Aqib Ilyas",
+            "Mohammad Nadeem",
+            "Khawar Ali",
+            "Fayyaz Butt",
+            "Bilal Khan",
+            "Sandeep Goud",
+            "Kaleemullah",
+            "Zeeshan Maqsood(c)",
+            "Jatinder Singh"
+        ]
+    }
 }

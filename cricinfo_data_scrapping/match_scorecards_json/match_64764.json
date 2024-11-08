@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Nicky Boje",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "49",
                     "balls": "51",
                     "minutes": "91",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Watson b McGrath",
                     "runs": "18",
                     "balls": "15",
@@ -217,7 +217,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Kallis b Pollock",
                     "runs": "7",
                     "balls": "8",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Glenn McGrath",
-                    "dismissal": "st Boucher b Boje",
+                    "dismissal": "st (wk)Boucher b Boje",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 65 runs (D/L method)"
+    "result": "South Africa won by 65 runs (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Shaun Pollock(c)",
+            "Neil McKenzie",
+            "Nantie Hayward",
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Graeme Smith",
+            "Boeta Dippenaar",
+            "Jonty Rhodes",
+            "Herschelle Gibbs",
+            "Roger Telemachus"
+        ],
+        "Australia": [
+            "Damien Martyn",
+            "Shane Warne",
+            "Ricky Ponting(c)",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Jimmy Maher",
+            "Michael Bevan",
+            "Ian Harvey",
+            "Shane Watson",
+            "Brett Lee",
+            "Glenn McGrath"
+        ]
+    }
 }

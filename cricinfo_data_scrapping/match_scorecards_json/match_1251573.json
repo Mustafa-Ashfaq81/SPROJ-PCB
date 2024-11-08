@@ -32,7 +32,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Haris Rauf",
                     "runs": "80",
                     "balls": "86",
@@ -239,7 +239,7 @@
                     "strike_rate": "93.93"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "c Klaasen b Nortje",
                     "runs": "0",
                     "balls": "2",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Danish Aziz",
-                    "dismissal": "c de Kock b Nortje",
+                    "dismissal": "c (wk)de Kock b Nortje",
                     "runs": "9",
                     "balls": "14",
                     "minutes": "21",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Faheem Ashraf",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "11",
                     "balls": "12",
                     "minutes": "15",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 17 runs"
+    "result": "South Africa won by 17 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Rassie van der Dussen",
+            "Kagiso Rabada",
+            "Temba Bavuma(c)",
+            "Aiden Markram",
+            "Lungi Ngidi",
+            "Quinton de Kock (wk)",
+            "Tabraiz Shamsi",
+            "David Miller",
+            "Heinrich Klaasen",
+            "Andile Phehlukwayo",
+            "Anrich Nortje"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Asif Ali",
+            "Mohammad Hasnain",
+            "Haris Rauf",
+            "Babar Azam(c)",
+            "Mohammad Rizwan (wk)",
+            "Faheem Ashraf",
+            "Shaheen Shah Afridi",
+            "Shadab Khan",
+            "Imam-ul-Haq",
+            "Danish Aziz"
+        ]
+    }
 }

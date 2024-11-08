@@ -92,8 +92,8 @@
                     "strike_rate": "122.22"
                 },
                 {
-                    "batsman": "Deep Dasgupta",
-                    "dismissal": "c Boucher b Klusener",
+                    "batsman": "Deep Dasgupta (wk)",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "20",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Ajit Agarkar",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "7",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "st Dasgupta b Harbhajan Singh",
+                    "dismissal": "st (wk)Dasgupta b Harbhajan Singh",
                     "runs": "29",
                     "balls": "35",
                     "minutes": "75",
@@ -319,7 +319,7 @@
                     "strike_rate": "62.85"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Agarkar b Sehwag",
                     "runs": "38",
                     "balls": "56",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "India won by 41 runs"
+    "result": "India won by 41 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Rahul Dravid",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Shiv Sunder Das",
+            "Deep Dasgupta (wk)",
+            "Javagal Srinath",
+            "Ajit Agarkar",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh"
+        ],
+        "South Africa": [
+            "Lance Klusener",
+            "Andre Nel",
+            "Jonty Rhodes",
+            "Shaun Pollock(c)",
+            "Gary Kirsten",
+            "Nicky Boje",
+            "Jacques Kallis",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Herschelle Gibbs",
+            "Neil McKenzie"
+        ]
+    }
 }

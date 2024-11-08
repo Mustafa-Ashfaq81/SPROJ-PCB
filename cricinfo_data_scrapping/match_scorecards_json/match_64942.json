@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "1",
                     "balls": "10",
                     "minutes": "13",
@@ -50,7 +50,7 @@
                     "strike_rate": "10.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Younis Khan b Naved-ul-Hasan",
                     "runs": "11",
                     "balls": "16",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid(c)",
-                    "dismissal": "run out (Iftikhar Anjum/Kamran Akmal)",
+                    "dismissal": "run out (Iftikhar Anjum/ (wk)Kamran Akmal)",
                     "runs": "86",
                     "balls": "115",
                     "minutes": "183",
@@ -277,7 +277,7 @@
                     "strike_rate": "0.00"
                 }
             ],
-            "did_not_bat": "Kamran Akmal , Iftikhar Anjum , Naved-ul-Hasan , Arshad Khan",
+            "did_not_bat": "Kamran Akmal (wk) , Iftikhar Anjum , Naved-ul-Hasan , Arshad Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 131 ( Shahid Afridi , 14.2 ov ) , 2 - 135 ( Salman Butt , 15.4 ov ) , 3 - 193 ( Mohammad Yousuf , 31.1 ov ) , 4 - 216 ( Shoaib Malik , 35.4 ov ) , 5 - 248 ( Younis Khan , 41.3 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 5 wickets (with 47 balls remaining)"
+    "result": "Pakistan won by 5 wickets (with 47 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Virender Sehwag",
+            "Dinesh Mongia",
+            "Yuvraj Singh",
+            "Rahul Dravid(c)",
+            "Sachin Tendulkar",
+            "Mohammad Kaif",
+            "Anil Kumble",
+            "Harbhajan Singh",
+            "Lakshmipathy Balaji"
+        ],
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Naved-ul-Hasan",
+            "Arshad Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Iftikhar Anjum",
+            "Salman Butt",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Younis Khan"
+        ]
+    }
 }

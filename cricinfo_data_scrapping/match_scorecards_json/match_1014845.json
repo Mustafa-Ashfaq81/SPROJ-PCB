@@ -38,7 +38,7 @@
                     "strike_rate": "26.92"
                 },
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "not out",
                     "runs": "73",
                     "balls": "115",
@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Collins Obuya",
-                    "dismissal": "c Vare b Reva",
+                    "dismissal": "c (wk)Vare b Reva",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "-",
@@ -309,7 +309,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Jack Vare (c) , John Reva , Norman Vanua , Chad Soper , Alei Nao",
+            "did_not_bat": "Jack Vare (c) (wk) , John Reva , Norman Vanua , Chad Soper , Alei Nao",
             "fall_of_wickets": "Fall of wickets : 1 - 42 ( Lega Siaka , 7.1 ov ) , 2 - 126 ( Vani Morea , 20.3 ov ) , 3 - 131 ( Sese Bau , 22.1 ov ) , 4 - 183 ( Mahuru Dai , 33.5 ov )",
             "bowling": [
                 {
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "P.N.G. won by 6 wickets (with 93 balls remaining)"
+    "result": "P.N.G. won by 6 wickets (with 93 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Collins Obuya",
+            "Nehemiah Odhiambo",
+            "Morris Ouma",
+            "Dhiren Gondaria",
+            "Elijah Otieno",
+            "Gurdeep Singh",
+            "Nelson Odhiambo",
+            "Lucas Oluoch",
+            "Shem Ngoche",
+            "Rakep Patel(c)",
+            "Irfan Karim (wk)"
+        ],
+        "Papua New Guinea": [
+            "Chad Soper",
+            "Charles Amini",
+            "Norman Vanua",
+            "John Reva",
+            "Sese Bau",
+            "Alei Nao",
+            "Vani Morea",
+            "Mahuru Dai",
+            "Jack Vare (c) (wk)",
+            "Assad Vala",
+            "Lega Siaka"
+        ]
+    }
 }

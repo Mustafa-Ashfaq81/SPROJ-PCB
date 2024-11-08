@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib",
-                    "dismissal": "c Mutumbami b Masakadza",
+                    "dismissal": "c (wk)Mutumbami b Masakadza",
                     "runs": "31",
                     "balls": "41",
                     "minutes": "46",
@@ -92,7 +92,7 @@
                     "strike_rate": "119.35"
                 },
                 {
-                    "batsman": "Shafiqullah",
+                    "batsman": "Shafiqullah (wk)",
                     "dismissal": "c Taylor b Tiripano",
                     "runs": "56",
                     "balls": "43",
@@ -323,8 +323,8 @@
                     "strike_rate": "59.18"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
-                    "dismissal": "c Shafiqullah b Sharafuddin Ashraf",
+                    "batsman": "Richmond Mutumbami (wk)",
+                    "dismissal": "c (wk)Shafiqullah b Sharafuddin Ashraf",
                     "runs": "64",
                     "balls": "75",
                     "minutes": "80",
@@ -453,5 +453,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 100 runs"
+    "result": "Afghanistan won by 100 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Gulbadin Naib",
+            "Nasir Jamal",
+            "Aftab Alam",
+            "Sharafuddin Ashraf",
+            "Usman Ghani",
+            "Dawlat Zadran",
+            "Shafiqullah (wk)",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Mohammad Nabi(c)",
+            "Javed Ahmadi"
+        ],
+        "Zimbabwe": [
+            "Richmond Mutumbami (wk)",
+            "Elton Chigumbura",
+            "Malcolm Waller",
+            "Donald Tiripano",
+            "Regis Chakabva",
+            "Sean Williams",
+            "Shingi Masakadza",
+            "Tinashe Panyangara",
+            "Timycen Maruma",
+            "Brendan Taylor(c)",
+            "Sikandar Raza"
+        ]
+    }
 }

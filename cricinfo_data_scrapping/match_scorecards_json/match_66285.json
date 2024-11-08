@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya(c)",
-                    "dismissal": "c Dravid b Agarkar",
+                    "dismissal": "c (wk)Dravid b Agarkar",
                     "runs": "36",
                     "balls": "38",
                     "minutes": "55",
@@ -42,8 +42,8 @@
                     "strike_rate": "94.73"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
-                    "dismissal": "c Dravid b Agarkar",
+                    "batsman": "Romesh Kaluwitharana (wk)",
+                    "dismissal": "c (wk)Dravid b Agarkar",
                     "runs": "15",
                     "balls": "19",
                     "minutes": "35",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Dravid b Agarkar",
+                    "dismissal": "c (wk)Dravid b Agarkar",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "16",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Kaluwitharana b Zoysa",
+                    "dismissal": "c (wk)Kaluwitharana b Zoysa",
                     "runs": "49",
                     "balls": "70",
                     "minutes": "123",
@@ -269,7 +269,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "b Chandana",
                     "runs": "8",
                     "balls": "26",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 28 balls remaining)"
+    "result": "India won by 4 wickets (with 28 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Romesh Kaluwitharana (wk)",
+            "Naveed Nawaz",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Chaminda Vaas",
+            "Charitha Buddhika",
+            "Nuwan Zoysa",
+            "Dilhara Fernando",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Dinesh Mongia",
+            "Ashish Nehra",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Zaheer Khan",
+            "Virender Sehwag",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

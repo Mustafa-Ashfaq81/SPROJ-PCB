@@ -40,7 +40,7 @@
                     "strike_rate": "42.30"
                 },
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "c Martin b Russell",
                     "runs": "6",
                     "balls": "11",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "run out (Baugh/Sarwan)",
+                    "dismissal": "run out ( (wk)Baugh/Sarwan)",
                     "runs": "94",
                     "balls": "104",
                     "minutes": "135",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Manoj Tiwary",
-                    "dismissal": "c Baugh b Pollard",
+                    "dismissal": "c (wk)Baugh b Pollard",
                     "runs": "22",
                     "balls": "22",
                     "minutes": "39",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Yusuf Pathan",
-                    "dismissal": "c Baugh b Russell",
+                    "dismissal": "c (wk)Baugh b Russell",
                     "runs": "30",
                     "balls": "29",
                     "minutes": "37",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Vinay Kumar",
-                    "dismissal": "c Baugh b Roach",
+                    "dismissal": "c (wk)Baugh b Roach",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "6",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "st Patel b Mishra",
+                    "dismissal": "st (wk)Patel b Mishra",
                     "runs": "86",
                     "balls": "99",
                     "minutes": "131",
@@ -297,7 +297,7 @@
                     "strike_rate": "184.61"
                 }
             ],
-            "did_not_bat": "Carlton Baugh , Daren Sammy (c) , Andre Russell , Kemar Roach , Anthony Martin",
+            "did_not_bat": "Carlton Baugh (wk) , Daren Sammy (c) , Andre Russell , Kemar Roach , Anthony Martin",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Lendl Simmons , 4.2 ov ) , 2 - 53 ( Adrian Barath , 15.2 ov ) , 2 - 156 * ( Ramnaresh Sarwan , retired not out ) , 3 - 213 ( Darren Bravo , 45.1 ov )",
             "bowling": [
                 {
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 8 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Manoj Tiwary",
+            "Ishant Sharma",
+            "Vinay Kumar",
+            "Ravichandran Ashwin",
+            "Yusuf Pathan",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Amit Mishra",
+            "Virat Kohli",
+            "Parthiv Patel (wk)",
+            "Suresh Raina(c)"
+        ],
+        "West Indies": [
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Kieron Pollard",
+            "Anthony Martin",
+            "Adrian Barath",
+            "Andre Russell",
+            "Kemar Roach",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Lendl Simmons",
+            "Daren Sammy (c)"
+        ]
+    }
 }

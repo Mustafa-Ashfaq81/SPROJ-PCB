@@ -35,7 +35,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Abu Hider b Shakib Al Hasan",
                     "runs": "37",
                     "balls": "47",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi",
-                    "dismissal": "c Liton Das b Rubel Hossain",
+                    "dismissal": "c (wk)Liton Das b Rubel Hossain",
                     "runs": "58",
                     "balls": "92",
                     "minutes": "-",
@@ -250,7 +250,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Litton Das",
+                    "batsman": "Litton Das (wk)",
                     "dismissal": "lbw b Aftab Alam",
                     "runs": "6",
                     "balls": "14",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Mominul Haque",
-                    "dismissal": "c Mohammad Shahzad b Gulbadin Naib",
+                    "dismissal": "c (wk)Mohammad Shahzad b Gulbadin Naib",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "-",
@@ -464,5 +464,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 136 runs"
+    "result": "Afghanistan won by 136 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)",
+            "Mujeeb Ur Rahman",
+            "Gulbadin Naib",
+            "Aftab Alam",
+            "Asghar Afghan(c)",
+            "Ihsanullah",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Samiullah Shinwari",
+            "Rashid Khan"
+        ],
+        "Bangladesh": [
+            "Litton Das (wk)",
+            "Shakib Al Hasan",
+            "Rubel Hossain",
+            "Mashrafe Mortaza(c)",
+            "Mohammad Mithun",
+            "Mahmudullah",
+            "Abu Hider",
+            "Najmul Hossain Shanto",
+            "Mominul Haque",
+            "Mehidy Hasan Miraz",
+            "Mosaddek Hossain"
+        ]
+    }
 }

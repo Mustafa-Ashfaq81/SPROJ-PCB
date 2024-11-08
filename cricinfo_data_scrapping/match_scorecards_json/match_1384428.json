@@ -71,7 +71,7 @@
                     "strike_rate": "88.50"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c van der Dussen b Jansen",
                     "runs": "8",
                     "balls": "17",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Suryakumar Yadav",
-                    "dismissal": "c de Kock b Shamsi",
+                    "dismissal": "c (wk)de Kock b Shamsi",
                     "runs": "22",
                     "balls": "14",
                     "minutes": "19",
@@ -198,7 +198,7 @@
             "extras": "2",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Mohammed Siraj",
                     "runs": "5",
                     "balls": "10",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "9",
                     "balls": "6",
                     "minutes": "6",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "India won by 243 runs"
+    "result": "India won by 243 runs",
+    "playing_xi": {
+        "India": [
+            "KL Rahul (wk)",
+            "Virat Kohli",
+            "Suryakumar Yadav",
+            "Mohammed Shami",
+            "Shubman Gill",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ],
+        "South Africa": [
+            "Marco Jansen",
+            "Keshav Maharaj",
+            "Quinton de Kock (wk)",
+            "Kagiso Rabada",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Tabraiz Shamsi",
+            "Temba Bavuma(c)",
+            "Lungi Ngidi",
+            "Rassie van der Dussen",
+            "Aiden Markram"
+        ]
+    }
 }

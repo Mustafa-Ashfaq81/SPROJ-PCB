@@ -50,7 +50,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Yuvraj Singh b Singh",
                     "runs": "32",
                     "balls": "58",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "4",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "35",
                     "balls": "24",
                     "minutes": "35",
@@ -257,7 +257,7 @@
                     "strike_rate": "152.17"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c sub (TT Samaraweera) b Chandana",
                     "runs": "80",
                     "balls": "73",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 63 balls remaining)"
+    "result": "India won by 5 wickets (with 63 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dilhara Fernando",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Chaminda Vaas",
+            "Thilan Samaraweera",
+            "Dilhara Lokuhettige",
+            "Upul Chandana"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Yuvraj Singh",
+            "Harbhajan Singh",
+            "Rahul Dravid(c)",
+            "Murali Kartik",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Virender Sehwag",
+            "Suresh Raina",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

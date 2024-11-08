@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Geoff Barnett",
-                    "dismissal": "st Buurman b Kruger",
+                    "dismissal": "st (wk)Buurman b Kruger",
                     "runs": "34",
                     "balls": "39",
                     "minutes": "49",
@@ -63,8 +63,8 @@
                     "strike_rate": "87.17"
                 },
                 {
-                    "batsman": "Ashish Bagai(c)",
-                    "dismissal": "c Buurman b Kruger",
+                    "batsman": "Ashish Bagai(c) (wk)",
+                    "dismissal": "c (wk)Buurman b Kruger",
                     "runs": "71",
                     "balls": "132",
                     "minutes": "167",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Zubin Surkari",
-                    "dismissal": "run out (Cooper/Buurman)",
+                    "dismissal": "run out (Cooper/ (wk)Buurman)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Calvert Hooper",
-                    "dismissal": "c Buurman b Jonkman",
+                    "dismissal": "c (wk)Buurman b Jonkman",
                     "runs": "27",
                     "balls": "42",
                     "minutes": "51",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Tom de Grooth",
-                    "dismissal": "c Bagai b Hooper",
+                    "dismissal": "c (wk)Bagai b Hooper",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "8",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Tom Cooper",
-                    "dismissal": "c Bagai b Baidwan",
+                    "dismissal": "c (wk)Bagai b Baidwan",
                     "runs": "39",
                     "balls": "58",
                     "minutes": "69",
@@ -290,7 +290,7 @@
                     "strike_rate": "53.03"
                 }
             ],
-            "did_not_bat": "Peter Borren (c) , Mudassar Bukhari , Bradley Kruger , Atse Buurman , Adeel Raja , Mark Jonkman",
+            "did_not_bat": "Peter Borren (c) , Mudassar Bukhari , Bradley Kruger , Atse Buurman (wk) , Adeel Raja , Mark Jonkman",
             "fall_of_wickets": "Fall of wickets : 1 - 5 ( Tom de Grooth , 1.6 ov ) , 2 - 96 ( Tom Cooper , 20.4 ov ) , 3 - 99 ( Wesley Barresi , 22.3 ov )",
             "bowling": [
                 {
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 7 wickets (with 44 balls remaining)"
+    "result": "Netherlands won by 7 wickets (with 44 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Calvert Hooper",
+            "Parth Desai",
+            "Rizwan Cheema",
+            "Ashish Bagai(c) (wk)",
+            "Trevin Bastiampillai",
+            "Harvir Baidwan",
+            "Geoff Barnett",
+            "Sunil Dhaniram",
+            "Zubin Surkari",
+            "Hiral Patel",
+            "Umar Bhatti"
+        ],
+        "Netherlands": [
+            "Wesley Barresi",
+            "Bradley Kruger",
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Tom Cooper",
+            "Tom de Grooth",
+            "Adeel Raja",
+            "Mark Jonkman",
+            "Peter Borren (c)",
+            "Mudassar Bukhari",
+            "Atse Buurman (wk)"
+        ]
+    }
 }

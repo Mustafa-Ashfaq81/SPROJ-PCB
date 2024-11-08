@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Lo-handre Louwrens",
-                    "dismissal": "c Athavale b Kaleemullah",
+                    "dismissal": "c (wk)Athavale b Kaleemullah",
                     "runs": "4",
                     "balls": "16",
                     "minutes": "34",
@@ -91,8 +91,8 @@
                     "strike_rate": "54.66"
                 },
                 {
-                    "batsman": "JP Kotze",
-                    "dismissal": "c Athavale b Bilal Khan",
+                    "batsman": "JP Kotze (wk)",
+                    "dismissal": "c (wk)Athavale b Bilal Khan",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "20",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Jack Brassell",
-                    "dismissal": "run out (Athavale)",
+                    "dismissal": "run out ( (wk)Athavale)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "14",
@@ -242,7 +242,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Pratik Athavale",
+                    "batsman": "Pratik Athavale (wk)",
                     "dismissal": "c Shikongo b Lungameni",
                     "runs": "18",
                     "balls": "27",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Khalid Kail",
-                    "dismissal": "run out (Erasmus/Kotze)",
+                    "dismissal": "run out (Erasmus/ (wk)Kotze)",
                     "runs": "43",
                     "balls": "55",
                     "minutes": "62",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Oman won by 4 wickets (with 5 balls remaining)"
+    "result": "Oman won by 4 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "JP Kotze (wk)",
+            "Bernard Scholtz",
+            "Jack Brassell",
+            "Lo-handre Louwrens",
+            "JJ Smit",
+            "Michael van Lingen",
+            "Ben Shikongo",
+            "Tangeni Lungameni",
+            "Jan Frylinck",
+            "Malan Kruger",
+            "Gerhard Erasmus(c)"
+        ],
+        "Oman": [
+            "Shoaib Khan",
+            "Kashyap Prajapati",
+            "Fayyaz Butt",
+            "Khalid Kail",
+            "Aqib Ilyas(c)",
+            "Bilal Khan",
+            "Pratik Athavale (wk)",
+            "Ayaan Khan",
+            "Kaleemullah",
+            "Zeeshan Maqsood",
+            "Jay Odedra"
+        ]
+    }
 }

@@ -40,7 +40,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Herath",
                     "runs": "13",
                     "balls": "21",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jesse Ryder",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "19",
                     "balls": "34",
                     "minutes": "48",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Nathan McCullum",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "9",
                     "balls": "9",
                     "minutes": "9",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Tim Southee",
-                    "dismissal": "c Sangakkara b Mendis",
+                    "dismissal": "c (wk)Sangakkara b Mendis",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -257,7 +257,7 @@
                     "strike_rate": "78.49"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Styris b McKay",
                     "runs": "54",
                     "balls": "79",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 13 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Andy McKay",
+            "Brendon McCullum (wk)",
+            "Ross Taylor",
+            "Kane Williamson",
+            "Martin Guptill",
+            "Jesse Ryder",
+            "Nathan McCullum",
+            "Tim Southee",
+            "Daniel Vettori(c)",
+            "Jacob Oram",
+            "Scott Styris"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Chamara Silva",
+            "Ajantha Mendis",
+            "Kumar Sangakkara(c) (wk)",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Rangana Herath",
+            "Thilan Samaraweera"
+        ]
+    }
 }

@@ -81,7 +81,7 @@
                     "strike_rate": "78.26"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
+                    "batsman": "Dinesh Karthik (wk)",
                     "dismissal": "c de Silva b Mendis",
                     "runs": "4",
                     "balls": "3",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Bhuvneshwar Kumar",
-                    "dismissal": "st Sangakkara b Mendis",
+                    "dismissal": "st (wk)Sangakkara b Mendis",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "5",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c Karthik b Ashwin",
+                    "dismissal": "c (wk)Karthik b Ashwin",
                     "runs": "64",
                     "balls": "81",
                     "minutes": "103",
@@ -258,7 +258,7 @@
                     "strike_rate": "69.09"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Ashwin b Mohammed Shami",
                     "runs": "103",
                     "balls": "84",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 wickets (with 4 balls remaining)"
+    "result": "Sri Lanka won by 2 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Ambati Rayudu",
+            "Virat Kohli(c)",
+            "Stuart Binny",
+            "Ravichandran Ashwin",
+            "Dinesh Karthik (wk)",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Mohammed Shami",
+            "Shikhar Dhawan"
+        ],
+        "Sri Lanka": [
+            "Kumar Sangakkara (wk)",
+            "Ajantha Mendis",
+            "Sachithra Senanayake",
+            "Dinesh Chandimal",
+            "Kusal Perera",
+            "Chaturanga de Silva",
+            "Angelo Mathews(c)",
+            "Mahela Jayawardene",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Lasith Malinga"
+        ]
+    }
 }

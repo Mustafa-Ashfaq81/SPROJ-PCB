@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Sarfaraz Ahmed b Sohail Tanvir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Sohail Tanvir",
                     "runs": "18",
                     "balls": "25",
                     "minutes": "33",
@@ -53,7 +53,7 @@
                     "strike_rate": "85.61"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c & b Mohammad Hafeez",
                     "runs": "18",
                     "balls": "27",
@@ -211,7 +211,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "4",
                     "balls": "13",
                     "minutes": "25",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "15",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "17",
                     "balls": "16",
                     "minutes": "21",
@@ -250,7 +250,7 @@
                     "strike_rate": "106.25"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "lbw b Kulasekara",
                     "runs": "20",
                     "balls": "27",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Saeed Ajmal",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "5",
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 76 runs"
+    "result": "Sri Lanka won by 76 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ],
+        "Pakistan": [
+            "Umar Gul",
+            "Sarfaraz Ahmed (wk)",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Misbah-ul-Haq(c)",
+            "Azhar Ali",
+            "Sohail Tanvir",
+            "Rahat Ali",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Umar Akmal"
+        ]
+    }
 }

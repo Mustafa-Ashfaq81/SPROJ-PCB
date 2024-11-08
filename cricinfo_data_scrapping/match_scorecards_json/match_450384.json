@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Andrew Poynter",
-                    "dismissal": "c Buurman b Jonkman",
+                    "dismissal": "c (wk)Buurman b Jonkman",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "6",
@@ -114,8 +114,8 @@
                     "strike_rate": "60.97"
                 },
                 {
-                    "batsman": "Rory McCann",
-                    "dismissal": "run out (Borren/Buurman)",
+                    "batsman": "Rory McCann (wk)",
+                    "dismissal": "run out (Borren/ (wk)Buurman)",
                     "runs": "18",
                     "balls": "17",
                     "minutes": "22",
@@ -301,7 +301,7 @@
                     "strike_rate": "88.67"
                 },
                 {
-                    "batsman": "Atse Buurman",
+                    "batsman": "Atse Buurman (wk)",
                     "dismissal": "c Balbirnie b Dockrell",
                     "runs": "0",
                     "balls": "5",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Adeel Raja",
-                    "dismissal": "c McCann b Stirling",
+                    "dismissal": "c (wk)McCann b Stirling",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "1",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 39 runs"
+    "result": "Ireland won by 39 runs",
+    "playing_xi": {
+        "Ireland": [
+            "Andy Balbirnie",
+            "John Mooney",
+            "Andrew Poynter",
+            "Nigel Jones",
+            "Albert van der Merwe",
+            "Kevin O'Brien(c)",
+            "Rory McCann (wk)",
+            "James Hall",
+            "George Dockrell",
+            "Paul Stirling",
+            "Andrew White"
+        ],
+        "Netherlands": [
+            "Wesley Barresi",
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Tom Cooper",
+            "Peter Borren(c)",
+            "Adeel Raja",
+            "Mark Jonkman",
+            "Mohammad Kashif",
+            "Bernard Loots",
+            "Mudassar Bukhari",
+            "Atse Buurman (wk)"
+        ]
+    }
 }

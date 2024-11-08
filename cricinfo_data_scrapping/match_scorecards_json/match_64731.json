@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Nick Knight",
-                    "dismissal": "c A Flower b Marillier",
+                    "dismissal": "c (wk)A Flower b Marillier",
                     "runs": "49",
                     "balls": "51",
                     "minutes": "73",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c A Flower b Marillier",
+                    "dismissal": "c (wk)A Flower b Marillier",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -113,7 +113,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "James Foster",
+                    "batsman": "James Foster (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "10",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Grant Flower",
-                    "dismissal": "st Foster b Grayson",
+                    "dismissal": "st (wk)Foster b Grayson",
                     "runs": "96",
                     "balls": "101",
                     "minutes": "141",
@@ -270,8 +270,8 @@
                     "strike_rate": "60.86"
                 },
                 {
-                    "batsman": "Andy Flower",
-                    "dismissal": "c Foster b Hollioake",
+                    "batsman": "Andy Flower (wk)",
+                    "dismissal": "c (wk)Foster b Hollioake",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "8",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Sean Ervine",
-                    "dismissal": "c Foster b Flintoff",
+                    "dismissal": "c (wk)Foster b Flintoff",
                     "runs": "19",
                     "balls": "25",
                     "minutes": "22",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Gary Brent",
-                    "dismissal": "run out (Grayson/Foster)",
+                    "dismissal": "run out (Grayson/ (wk)Foster)",
                     "runs": "5",
                     "balls": "5",
                     "minutes": "11",
@@ -454,5 +454,33 @@
             ]
         }
     ],
-    "result": "England won by 70 runs"
+    "result": "England won by 70 runs",
+    "playing_xi": {
+        "England": [
+            "Marcus Trescothick(c)",
+            "Owais Shah",
+            "James Kirtley",
+            "Paul Collingwood",
+            "Ryan Sidebottom",
+            "Nick Knight",
+            "Ben Hollioake",
+            "Paul Grayson",
+            "Andrew Flintoff",
+            "James Foster (wk)",
+            "Mark Ramprakash"
+        ],
+        "Zimbabwe": [
+            "Alistair Campbell(c)",
+            "Stuart Carlisle",
+            "Sean Ervine",
+            "Dougie Marillier",
+            "Travis Friend",
+            "Dion Ebrahim",
+            "Gary Brent",
+            "Henry Olonga",
+            "Grant Flower",
+            "Andy Flower (wk)",
+            "Craig Wishart"
+        ]
+    }
 }

@@ -60,7 +60,7 @@
                     "strike_rate": "78.18"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Gambhir b Singh",
                     "runs": "1",
                     "balls": "5",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "11",
                     "balls": "16",
                     "minutes": "37",
@@ -271,7 +271,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Fernando",
                     "runs": "1",
                     "balls": "7",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 112 runs (D/L method)"
+    "result": "Sri Lanka won by 112 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chamara Kapugedera",
+            "Nuwan Kulasekara",
+            "Thilan Thushara",
+            "Ajantha Mendis",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Malinda Warnapura",
+            "Dilhara Fernando",
+            "Mahela Udawatte",
+            "Jehan Mubarak"
+        ],
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Pragyan Ojha",
+            "MS Dhoni(c) (wk)",
+            "RP Singh",
+            "Zaheer Khan",
+            "Yuvraj Singh",
+            "Irfan Pathan",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "Munaf Patel"
+        ]
+    }
 }

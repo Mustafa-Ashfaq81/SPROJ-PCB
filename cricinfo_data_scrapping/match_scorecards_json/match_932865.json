@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Andre Fletcher",
-                    "dismissal": "c de Kock b Parnell",
+                    "dismissal": "c (wk)de Kock b Parnell",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Rabada",
                     "runs": "4",
                     "balls": "7",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Jason Holder(c)",
-                    "dismissal": "c de Kock b Morris",
+                    "dismissal": "c (wk)de Kock b Morris",
                     "runs": "40",
                     "balls": "46",
                     "minutes": "-",
@@ -248,8 +248,8 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Ramdin b Gabriel",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Ramdin b Gabriel",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "-",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Ramdin b Gabriel",
+                    "dismissal": "c (wk)Ramdin b Gabriel",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "-",
@@ -319,7 +319,7 @@
                 },
                 {
                     "batsman": "Kagiso Rabada",
-                    "dismissal": "run out (sub [AR Nurse]/Ramdin)",
+                    "dismissal": "run out (sub [AR Nurse]/ (wk)Ramdin)",
                     "runs": "9",
                     "balls": "15",
                     "minutes": "-",
@@ -339,7 +339,7 @@
                 },
                 {
                     "batsman": "Imran Tahir",
-                    "dismissal": "c Ramdin b Brathwaite",
+                    "dismissal": "c (wk)Ramdin b Brathwaite",
                     "runs": "29",
                     "balls": "24",
                     "minutes": "-",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 100 runs"
+    "result": "West Indies won by 100 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Carlos Brathwaite",
+            "Sulieman Benn",
+            "Kieron Pollard",
+            "Jason Holder(c)",
+            "Johnson Charles",
+            "Denesh Ramdin (wk)",
+            "Sunil Narine",
+            "Shannon Gabriel",
+            "Andre Fletcher",
+            "Darren Bravo"
+        ],
+        "South Africa": [
+            "Chris Morris",
+            "Wayne Parnell",
+            "Hashim Amla",
+            "Jean-Paul Duminy",
+            "Farhaan Behardien",
+            "Morne Morkel",
+            "Faf du Plessis",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "AB de Villiers(c)",
+            "Kagiso Rabada"
+        ]
+    }
 }

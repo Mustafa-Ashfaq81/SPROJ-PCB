@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Saman Jayantha",
-                    "dismissal": "c Moin Khan b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Moin Khan b Naved-ul-Hasan",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "23",
@@ -62,8 +62,8 @@
                     "strike_rate": "97.36"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "st Moin Khan b Shahid Afridi",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "st (wk)Moin Khan b Shahid Afridi",
                     "runs": "69",
                     "balls": "82",
                     "minutes": "105",
@@ -210,7 +210,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "57",
                     "balls": "73",
                     "minutes": "127",
@@ -269,7 +269,7 @@
                     "strike_rate": "400.00"
                 }
             ],
-            "did_not_bat": "Shahid Afridi , Moin Khan , Mohammad Sami , Naved-ul-Hasan , Shoaib Akhtar",
+            "did_not_bat": "Shahid Afridi , Moin Khan (wk) , Mohammad Sami , Naved-ul-Hasan , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 99 ( Yasir Hameed , 20.6 ov ) , 2 - 139 ( Salman Butt , 29.3 ov ) , 3 - 210 ( Shoaib Malik , 38.6 ov ) , 4 - 285 ( Mohammad Yousuf , 48.1 ov )",
             "bowling": [
                 {
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 7 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Marvan Atapattu(c)",
+            "Saman Jayantha",
+            "Thilina Kandamby",
+            "Upul Chandana",
+            "Sanath Jayasuriya",
+            "Dilhara Fernando",
+            "Mahela Jayawardene",
+            "Nuwan Zoysa",
+            "Tillakaratne Dilshan"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Yasir Hameed",
+            "Shahid Afridi",
+            "Abdul Razzaq",
+            "Naved-ul-Hasan",
+            "Mohammad Yousuf",
+            "Shoaib Akhtar",
+            "Mohammad Sami",
+            "Shoaib Malik",
+            "Moin Khan (wk)",
+            "Inzamam-ul-Haq(c)"
+        ]
+    }
 }

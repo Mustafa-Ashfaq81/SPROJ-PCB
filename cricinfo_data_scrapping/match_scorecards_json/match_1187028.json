@@ -70,8 +70,8 @@
                     "strike_rate": "41.17"
                 },
                 {
-                    "batsman": "KL Rahul",
-                    "dismissal": "run out (Carey)",
+                    "batsman": "KL Rahul (wk)",
+                    "dismissal": "run out ( (wk)Carey)",
                     "runs": "80",
                     "balls": "52",
                     "minutes": "-",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Aaron Finch(c)",
-                    "dismissal": "st Rahul b Jadeja",
+                    "dismissal": "st (wk)Rahul b Jadeja",
                     "runs": "33",
                     "balls": "48",
                     "minutes": "-",
@@ -247,7 +247,7 @@
                     "strike_rate": "97.87"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Kohli b Kuldeep Yadav",
                     "runs": "18",
                     "balls": "17",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "c Rahul b Saini",
+                    "dismissal": "c (wk)Rahul b Saini",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "-",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Adam Zampa",
-                    "dismissal": "c Rahul b Bumrah",
+                    "dismissal": "c (wk)Rahul b Bumrah",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "-",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "India won by 36 runs"
+    "result": "India won by 36 runs",
+    "playing_xi": {
+        "India": [
+            "Shreyas Iyer",
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Navdeep Saini",
+            "Mohammed Shami",
+            "KL Rahul (wk)",
+            "Manish Pandey",
+            "Virat Kohli(c)"
+        ],
+        "Australia": [
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Kane Richardson",
+            "Steven Smith",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Ashton Turner",
+            "Marnus Labuschagne",
+            "Ashton Agar",
+            "David Warner",
+            "Adam Zampa"
+        ]
+    }
 }

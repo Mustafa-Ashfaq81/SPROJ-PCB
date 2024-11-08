@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Ramdin b Bradshaw",
+                    "dismissal": "c (wk)Ramdin b Bradshaw",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "6",
@@ -90,8 +90,8 @@
                     "strike_rate": "79.62"
                 },
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "run out (Ramdin)",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "run out ( (wk)Ramdin)",
                     "runs": "13",
                     "balls": "10",
                     "minutes": "12",
@@ -237,7 +237,7 @@
                     "strike_rate": "93.54"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "lbw b Vettori",
                     "runs": "28",
                     "balls": "35",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "st McCullum b Patel",
+                    "dismissal": "st (wk)McCullum b Patel",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "13",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Rawl Lewis",
-                    "dismissal": "c McCullum b Patel",
+                    "dismissal": "c (wk)McCullum b Patel",
                     "runs": "10",
                     "balls": "25",
                     "minutes": "22",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 21 runs"
+    "result": "New Zealand won by 21 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Michael Mason",
+            "Lou Vincent",
+            "Nathan Astle",
+            "James Franklin",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Shane Bond",
+            "Scott Styris",
+            "Peter Fulton",
+            "Daniel Vettori",
+            "Hamish Marshall"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Runako Morton",
+            "Daren Ganga",
+            "Dwayne Smith",
+            "Deighton Butler",
+            "Denesh Ramdin (wk)",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Ian Bradshaw",
+            "Rawl Lewis",
+            "Shivnarine Chanderpaul(c)"
+        ]
+    }
 }

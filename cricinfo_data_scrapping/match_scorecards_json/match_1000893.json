@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Usman Khawaja",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "30",
                     "balls": "49",
                     "minutes": "76",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "130",
                     "balls": "119",
                     "minutes": "156",
@@ -80,7 +80,7 @@
                     "strike_rate": "177.27"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Imad Wasim b Hasan Ali",
                     "runs": "5",
                     "balls": "6",
@@ -257,7 +257,7 @@
                     "strike_rate": "47.82"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "lbw b Zampa",
                     "runs": "10",
                     "balls": "12",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Imad Wasim",
-                    "dismissal": "c Wade b Hazlewood",
+                    "dismissal": "c (wk)Wade b Hazlewood",
                     "runs": "25",
                     "balls": "17",
                     "minutes": "34",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Mohammad Amir",
-                    "dismissal": "c Wade b Cummins",
+                    "dismissal": "c (wk)Wade b Cummins",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "7",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Australia won by 86 runs"
+    "result": "Australia won by 86 runs",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "Matthew Wade (wk)",
+            "Pat Cummins",
+            "Adam Zampa",
+            "Usman Khawaja",
+            "David Warner",
+            "Glenn Maxwell",
+            "Josh Hazlewood",
+            "Travis Head",
+            "Mitchell Starc",
+            "Peter Handscomb"
+        ],
+        "Pakistan": [
+            "Mohammad Rizwan (wk)",
+            "Babar Azam",
+            "Azhar Ali(c)",
+            "Mohammad Amir",
+            "Junaid Khan",
+            "Hasan Ali",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Sharjeel Khan",
+            "Imad Wasim",
+            "Umar Akmal"
+        ]
+    }
 }

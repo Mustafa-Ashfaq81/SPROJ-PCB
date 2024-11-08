@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c de Villiers b Kallis",
+                    "dismissal": "c (wk)de Villiers b Kallis",
                     "runs": "58",
                     "balls": "73",
                     "minutes": "108",
@@ -50,7 +50,7 @@
                     "strike_rate": "79.45"
                 },
                 {
-                    "batsman": "Brendon McCullum(c)",
+                    "batsman": "Brendon McCullum(c) (wk)",
                     "dismissal": "c Ontong b Tsotsobe",
                     "runs": "85",
                     "balls": "96",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Jesse Ryder",
-                    "dismissal": "c de Villiers b Steyn",
+                    "dismissal": "c (wk)de Villiers b Steyn",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "16",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Tarun Nethula",
-                    "dismissal": "c de Villiers b M Morkel",
+                    "dismissal": "c (wk)de Villiers b M Morkel",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c McCullum b Nethula",
+                    "dismissal": "c (wk)McCullum b Nethula",
                     "runs": "92",
                     "balls": "107",
                     "minutes": "138",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "12",
@@ -291,7 +291,7 @@
                     "strike_rate": "110.25"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "not out",
                     "runs": "31",
                     "balls": "35",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 70 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 70 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Jesse Ryder",
+            "Martin Guptill",
+            "James Franklin",
+            "Kyle Mills",
+            "Tim Southee",
+            "Andy McKay",
+            "Brendon McCullum(c) (wk)",
+            "Kane Williamson",
+            "Tarun Nethula",
+            "Rob Nicol",
+            "Andrew Ellis"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Justin Ontong",
+            "Lonwabo Tsotsobe",
+            "Robin Peterson",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Albie Morkel",
+            "Faf du Plessis",
+            "AB de Villiers(c) (wk)",
+            "Morne Morkel",
+            "Jean-Paul Duminy"
+        ]
+    }
 }

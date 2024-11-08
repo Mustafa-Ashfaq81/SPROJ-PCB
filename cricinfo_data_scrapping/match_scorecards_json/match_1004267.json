@@ -29,7 +29,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Christopher Carter",
+                    "batsman": "Christopher Carter (wk)",
                     "dismissal": "c Obuya b NM Odhiambo",
                     "runs": "6",
                     "balls": "15",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Nizakat Khan",
-                    "dismissal": "c Karim b NM Odhiambo",
+                    "dismissal": "c (wk)Karim b NM Odhiambo",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "-",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Shahid Wasif",
-                    "dismissal": "st Karim b RR Patel",
+                    "dismissal": "st (wk)Karim b RR Patel",
                     "runs": "44",
                     "balls": "61",
                     "minutes": "-",
@@ -250,7 +250,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "c Tanwir Afzal b Anshuman Rath",
                     "runs": "67",
                     "balls": "92",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Alex Obanda",
-                    "dismissal": "c Carter b Aizaz Khan",
+                    "dismissal": "c (wk)Carter b Aizaz Khan",
                     "runs": "29",
                     "balls": "32",
                     "minutes": "-",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 3 wickets (with 13 balls remaining) (D/L method)"
+    "result": "Kenya won by 3 wickets (with 13 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Tanveer Ahmed",
+            "Anshy Rath",
+            "Aizaz Khan",
+            "Shahid Wasif",
+            "Tanwir Afzal",
+            "Babar Hayat(c)",
+            "Ehsan Khan",
+            "Nadeem Ahmed",
+            "Nizakat Khan",
+            "Kinchit Shah",
+            "Christopher Carter (wk)"
+        ],
+        "Kenya": [
+            "Collins Obuya",
+            "Nehemiah Odhiambo",
+            "Dhiren Gondaria",
+            "Nelson Odhiambo",
+            "Lucas Oluoch",
+            "Shem Ngoche",
+            "Rakep Patel(c)",
+            "Irfan Karim (wk)",
+            "Narendra Kalyan",
+            "Alex Obanda",
+            "Rushab Patel"
+        ]
+    }
 }

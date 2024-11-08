@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Jonty Rhodes",
-                    "dismissal": "c Sangakkara b Lakshitha",
+                    "dismissal": "c (wk)Sangakkara b Lakshitha",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "7",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Nissanka",
                     "runs": "14",
                     "balls": "18",
@@ -237,7 +237,7 @@
                     "strike_rate": "95.65"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Boje b Donald",
                     "runs": "10",
                     "balls": "20",
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 50 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 50 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Shaun Pollock(c)",
+            "Makhaya Ntini",
+            "Lance Klusener",
+            "Allan Donald",
+            "Jacques Kallis",
+            "Graeme Smith",
+            "Nicky Boje",
+            "Boeta Dippenaar",
+            "Jonty Rhodes",
+            "Herschelle Gibbs"
+        ],
+        "Sri Lanka": [
+            "Hashan Tillakaratne",
+            "Sanath Jayasuriya(c)",
+            "Kumar Sangakkara (wk)",
+            "Chamila Gamage",
+            "Aravinda de Silva",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Dilhara Fernando",
+            "Marvan Atapattu",
+            "Russel Arnold",
+            "Prabath Nissanka"
+        ]
+    }
 }

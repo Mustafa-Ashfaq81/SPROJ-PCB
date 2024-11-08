@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c de Kock b Abbott",
+                    "dismissal": "c (wk)de Kock b Abbott",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "6",
@@ -53,7 +53,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Miller b Morkel",
                     "runs": "45",
                     "balls": "96",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c de Kock b Duminy",
+                    "dismissal": "c (wk)de Kock b Duminy",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "4",
@@ -236,7 +236,7 @@
                     "strike_rate": "69.56"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "not out",
                     "runs": "78",
                     "balls": "57",
@@ -346,5 +346,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 9 wickets (with 192 balls remaining)"
+    "result": "South Africa won by 9 wickets (with 192 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Angelo Mathews(c)",
+            "Thisara Perera",
+            "Dushmantha Chameera",
+            "Kumar Sangakkara (wk)",
+            "Kusal Perera",
+            "Lahiru Thirimanne",
+            "Tharindu Kaushal",
+            "Mahela Jayawardene"
+        ],
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Rilee Rossouw",
+            "Dale Steyn",
+            "AB de Villiers (c)",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "Imran Tahir",
+            "David Miller",
+            "Morne Morkel",
+            "Jean-Paul Duminy",
+            "Kyle Abbott"
+        ]
+    }
 }

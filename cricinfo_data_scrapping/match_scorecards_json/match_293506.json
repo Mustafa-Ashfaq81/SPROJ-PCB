@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "40",
                     "balls": "37",
                     "minutes": "-",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Chamara Kapugedera",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "15",
                     "balls": "30",
                     "minutes": "-",
@@ -114,8 +114,8 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Prasanna Jayawardene",
-                    "dismissal": "run out (Iftikhar Anjum/Kamran Akmal)",
+                    "batsman": "Prasanna Jayawardene (wk)",
+                    "dismissal": "run out (Iftikhar Anjum/ (wk)Kamran Akmal)",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "-",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Lasith Malinga",
-                    "dismissal": "run out (Fawad Alam/Kamran Akmal)",
+                    "dismissal": "run out (Fawad Alam/ (wk)Kamran Akmal)",
                     "runs": "11",
                     "balls": "10",
                     "minutes": "-",
@@ -277,7 +277,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "run out (Malinga)",
                     "runs": "2",
                     "balls": "3",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Iftikhar Anjum",
-                    "dismissal": "c HAPW Jayawardene b Lokuarachchi",
+                    "dismissal": "c (wk)HAPW Jayawardene b Lokuarachchi",
                     "runs": "18",
                     "balls": "37",
                     "minutes": "-",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 115 runs"
+    "result": "Sri Lanka won by 115 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Tillakaratne Dilshan",
+            "Kaushal Lokuarachchi",
+            "Prasanna Jayawardene (wk)",
+            "Sanath Jayasuriya",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Chamara Kapugedera",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ],
+        "Pakistan": [
+            "Shoaib Malik(c)",
+            "Mohammad Asif",
+            "Kamran Akmal (wk)",
+            "Najaf Shah",
+            "Fawad Alam",
+            "Iftikhar Anjum",
+            "Salman Butt",
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Abdur Rehman",
+            "Mohammad Hafeez"
+        ]
+    }
 }

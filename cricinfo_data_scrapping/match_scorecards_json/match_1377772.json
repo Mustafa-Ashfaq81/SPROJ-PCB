@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Wesley Barresi",
-                    "dismissal": "c Suraj Kumar b Bilal Khan",
+                    "dismissal": "c (wk)Suraj Kumar b Bilal Khan",
                     "runs": "97",
                     "balls": "65",
                     "minutes": "103",
@@ -61,7 +61,7 @@
                     "strike_rate": "149.23"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "c Kaleemullah b Mohammad Nadeem",
                     "runs": "4",
                     "balls": "7",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Jatinder Singh",
-                    "dismissal": "run out (Saqib Zulfiqar/Edwards)",
+                    "dismissal": "run out (Saqib Zulfiqar/ (wk)Edwards)",
                     "runs": "17",
                     "balls": "24",
                     "minutes": "29",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Shoaib Khan",
-                    "dismissal": "st Edwards b Dutt",
+                    "dismissal": "st (wk)Edwards b Dutt",
                     "runs": "46",
                     "balls": "61",
                     "minutes": "67",
@@ -278,7 +278,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Suraj Kumar",
+                    "batsman": "Suraj Kumar (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "15",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 74 runs (DLS method)"
+    "result": "Netherlands won by 74 runs (DLS method)",
+    "playing_xi": {
+        "Netherlands": [
+            "Aryan Dutt",
+            "Wesley Barresi",
+            "Ryan Klein",
+            "Clayton Floyd",
+            "Teja Nidamanuru",
+            "Scott Edwards(c) (wk)",
+            "Max O'Dowd",
+            "Vikramjit Singh",
+            "Saqib Zulfiqar",
+            "Bas de Leede",
+            "Logan van Beek"
+        ],
+        "Oman": [
+            "Shoaib Khan",
+            "Ayaan Khan",
+            "Sandeep Goud",
+            "Kashyap Prajapati",
+            "Jatinder Singh",
+            "Suraj Kumar (wk)",
+            "Mohammad Nadeem",
+            "Aqib Ilyas(c)",
+            "Fayyaz Butt",
+            "Bilal Khan",
+            "Kaleemullah"
+        ]
+    }
 }

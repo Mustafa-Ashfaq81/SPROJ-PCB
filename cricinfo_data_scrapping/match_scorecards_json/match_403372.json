@@ -30,8 +30,8 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "45",
                     "balls": "46",
                     "minutes": "65",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "25",
@@ -233,7 +233,7 @@
                     "strike_rate": "113.88"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "not out",
                     "runs": "37",
                     "balls": "29",
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 wickets (with 21 balls remaining)"
+    "result": "Sri Lanka won by 6 wickets (with 21 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Nasir Jamshed",
+            "Fawad Alam",
+            "Abdul Razzaq",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Umar Akmal",
+            "Mohammad Amir",
+            "Shahid Afridi"
+        ],
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Mahela Jayawardene",
+            "Dilhara Fernando",
+            "Muthiah Muralidaran",
+            "Chamara Kapugedera",
+            "Upul Tharanga",
+            "Kumar Sangakkara(c) (wk)",
+            "Nuwan Kulasekara",
+            "Thilan Samaraweera",
+            "Angelo Mathews",
+            "Thilan Thushara"
+        ]
+    }
 }

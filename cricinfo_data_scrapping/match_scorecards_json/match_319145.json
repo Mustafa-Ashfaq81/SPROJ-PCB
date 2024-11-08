@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Xavier Marshall",
-                    "dismissal": "c Ronchi b Watson",
+                    "dismissal": "c (wk)Ronchi b Watson",
                     "runs": "35",
                     "balls": "65",
                     "minutes": "101",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Ronchi b Symonds",
+                    "dismissal": "c (wk)Ronchi b Symonds",
                     "runs": "32",
                     "balls": "49",
                     "minutes": "46",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Andre Fletcher",
-                    "dismissal": "st Ronchi b Bracken",
+                    "dismissal": "st (wk)Ronchi b Bracken",
                     "runs": "12",
                     "balls": "16",
                     "minutes": "26",
@@ -90,7 +90,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Bracken",
                     "runs": "21",
                     "balls": "30",
@@ -301,7 +301,7 @@
                     "strike_rate": "66.66"
                 }
             ],
-            "did_not_bat": "Michael Hussey , Luke Ronchi , James Hopes , Brett Lee , Mitchell Johnson , Nathan Bracken",
+            "did_not_bat": "Michael Hussey , Luke Ronchi (wk) , James Hopes , Brett Lee , Mitchell Johnson , Nathan Bracken",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Shaun Marsh , 0.5 ov ) , 2 - 191 ( Ricky Ponting , 33.2 ov ) , 3 - 207 ( Shane Watson , 36.3 ov )",
             "bowling": [
                 {
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 57 balls remaining)"
+    "result": "Australia won by 7 wickets (with 57 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Daren Powell",
+            "Ramnaresh Sarwan",
+            "Daren Sammy",
+            "Xavier Marshall",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Andre Fletcher",
+            "Sulieman Benn",
+            "Dwayne Bravo",
+            "Chris Gayle(c)"
+        ],
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Luke Ronchi (wk)",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Nathan Bracken",
+            "Michael Clarke",
+            "Mitchell Johnson",
+            "Brett Lee",
+            "James Hopes",
+            "Andrew Symonds"
+        ]
+    }
 }

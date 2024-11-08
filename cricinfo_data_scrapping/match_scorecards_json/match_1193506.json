@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Dimuth Karunaratne(c)",
-                    "dismissal": "c Mushfiqur Rahim b Taijul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taijul Islam",
                     "runs": "46",
                     "balls": "60",
                     "minutes": "-",
@@ -50,8 +50,8 @@
                     "strike_rate": "76.66"
                 },
                 {
-                    "batsman": "Kusal Perera",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "batsman": "Kusal Perera (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "42",
                     "balls": "51",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Mushfiqur Rahim b Soumya Sarkar",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Soumya Sarkar",
                     "runs": "87",
                     "balls": "90",
                     "minutes": "-",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Tamim Iqbal(c)",
-                    "dismissal": "c Perera b Rajitha",
+                    "dismissal": "c (wk)Perera b Rajitha",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "80.23"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Mendis b Shanaka",
                     "runs": "10",
                     "balls": "15",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Perera b Shanaka",
+                    "dismissal": "c (wk)Perera b Shanaka",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "-",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Shafiul Islam",
-                    "dismissal": "st Perera b Hasaranga",
+                    "dismissal": "st (wk)Perera b Hasaranga",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "-",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Rubel Hossain",
-                    "dismissal": "run out (Karunaratne/Perera)",
+                    "dismissal": "run out (Karunaratne/ (wk)Perera)",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "-",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 122 runs"
+    "result": "Sri Lanka won by 122 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Shehan Jayasuriya",
+            "Kasun Rajitha",
+            "Dimuth Karunaratne(c)",
+            "Avishka Fernando",
+            "Kusal Perera (wk)",
+            "Angelo Mathews",
+            "Akila Dananjaya",
+            "Lahiru Kumara",
+            "Dasun Shanaka",
+            "Kusal Mendis"
+        ],
+        "Bangladesh": [
+            "Soumya Sarkar",
+            "Rubel Hossain",
+            "Sabbir Rahman",
+            "Mohammad Mithun",
+            "Tamim Iqbal(c)",
+            "Mehidy Hasan Miraz",
+            "Taijul Islam",
+            "Mahmudullah",
+            "Anamul Haque",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

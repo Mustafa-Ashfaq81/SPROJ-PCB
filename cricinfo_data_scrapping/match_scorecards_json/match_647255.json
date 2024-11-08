@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Phillip Hughes",
-                    "dismissal": "c Dhoni b Mohammed Shami",
+                    "dismissal": "c (wk)Dhoni b Mohammed Shami",
                     "runs": "11",
                     "balls": "17",
                     "minutes": "25",
@@ -89,7 +89,7 @@
                     "strike_rate": "119.48"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Jadeja",
                     "runs": "3",
                     "balls": "4",
@@ -110,7 +110,7 @@
                 },
                 {
                     "batsman": "Mitchell Johnson",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "25",
                     "balls": "31",
                     "minutes": "25",
@@ -260,7 +260,7 @@
                     "strike_rate": "116.66"
                 }
             ],
-            "did_not_bat": "Suresh Raina , Virat Kohli , Yuvraj Singh , MS Dhoni (c) , Ravindra Jadeja , Ravichandran Ashwin , Vinay Kumar , Mohammed Shami , Jaydev Unadkat",
+            "did_not_bat": "Suresh Raina , Virat Kohli , Yuvraj Singh , MS Dhoni (c) (wk) , Ravindra Jadeja , Ravichandran Ashwin , Vinay Kumar , Mohammed Shami , Jaydev Unadkat",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -294,5 +294,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Adam Voges",
+            "Xavier Doherty",
+            "Mitchell Johnson",
+            "Clint McKay",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shane Watson",
+            "Phillip Hughes",
+            "Aaron Finch"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Jaydev Unadkat",
+            "Virat Kohli",
+            "Mohammed Shami",
+            "Vinay Kumar",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "MS Dhoni (c) (wk)"
+        ]
+    }
 }

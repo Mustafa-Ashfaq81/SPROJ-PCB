@@ -70,7 +70,7 @@
                     "strike_rate": "78.26"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "lbw b Hogg",
                     "runs": "42",
                     "balls": "59",
@@ -217,8 +217,8 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist(c)",
-                    "dismissal": "c Boucher b Ntini",
+                    "batsman": "Adam Gilchrist(c) (wk)",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "5",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "1",
                     "balls": "15",
                     "minutes": "17",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "27",
                     "balls": "39",
                     "minutes": "70",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Nathan Bracken",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "10",
                     "balls": "20",
                     "minutes": "18",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 196 runs"
+    "result": "South Africa won by 196 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Justin Kemp",
+            "Boeta Dippenaar",
+            "AB de Villiers",
+            "Herschelle Gibbs",
+            "Andre Nel",
+            "Andrew Hall",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Robin Peterson"
+        ],
+        "Australia": [
+            "Nathan Bracken",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Brett Lee",
+            "Damien Martyn",
+            "Adam Gilchrist(c) (wk)",
+            "Stuart Clark",
+            "Simon Katich",
+            "Phil Jaques",
+            "Shane Watson",
+            "Brad Hogg"
+        ]
+    }
 }

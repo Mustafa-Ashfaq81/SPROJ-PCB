@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Dhoni b Sharma",
+                    "dismissal": "c (wk)Dhoni b Sharma",
                     "runs": "23",
                     "balls": "27",
                     "minutes": "46",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "st Dhoni b Pathan",
+                    "dismissal": "st (wk)Dhoni b Pathan",
                     "runs": "17",
                     "balls": "24",
                     "minutes": "35",
@@ -61,7 +61,7 @@
                     "strike_rate": "70.83"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "lbw b Harbhajan Singh",
                     "runs": "5",
                     "balls": "14",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "st Dhoni b Raina",
+                    "dismissal": "st (wk)Dhoni b Raina",
                     "runs": "19",
                     "balls": "37",
                     "minutes": "57",
@@ -223,7 +223,7 @@
             "batting": [
                 {
                     "batsman": "Dinesh Karthik",
-                    "dismissal": "c Sangakkara b Thushara",
+                    "dismissal": "c (wk)Sangakkara b Thushara",
                     "runs": "16",
                     "balls": "23",
                     "minutes": "24",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "16",
                     "balls": "22",
                     "minutes": "29",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "6",
@@ -272,7 +272,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Mathews",
                     "runs": "8",
                     "balls": "18",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Yusuf Pathan",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "8",
@@ -436,5 +436,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 139 runs"
+    "result": "Sri Lanka won by 139 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Chamara Kapugedera",
+            "Lasith Malinga",
+            "Kumar Sangakkara(c) (wk)",
+            "Nuwan Kulasekara",
+            "Angelo Mathews",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ],
+        "India": [
+            "Yusuf Pathan",
+            "Rahul Dravid",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "MS Dhoni(c) (wk)",
+            "Ashish Nehra",
+            "Dinesh Karthik",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "RP Singh",
+            "Harbhajan Singh"
+        ]
+    }
 }

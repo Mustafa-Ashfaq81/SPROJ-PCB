@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "46",
                     "balls": "100",
                     "minutes": "116",
@@ -70,7 +70,7 @@
                     "strike_rate": "46.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Mashrafe Mortaza b Shakib Al Hasan",
                     "runs": "64",
                     "balls": "104",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Taibu b Mpofu",
+                    "dismissal": "c (wk)Taibu b Mpofu",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "2",
@@ -257,7 +257,7 @@
                     "strike_rate": "55.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "6",
                     "balls": "19",
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 42 balls remaining)"
+    "result": "Bangladesh won by 6 wickets (with 42 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura(c)",
+            "Hamilton Masakadza",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Brendan Taylor",
+            "Keith Dabengwa",
+            "Regis Chakabva",
+            "Graeme Cremer",
+            "Ray Price",
+            "Chris Mpofu",
+            "Tatenda Taibu (wk)"
+        ],
+        "Bangladesh": [
+            "Raqibul Hasan",
+            "Imrul Kayes",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Sohrawordi Shuvo",
+            "Tamim Iqbal",
+            "Shakib Al Hasan(c)",
+            "Mashrafe Mortaza",
+            "Zunaed Siddique",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

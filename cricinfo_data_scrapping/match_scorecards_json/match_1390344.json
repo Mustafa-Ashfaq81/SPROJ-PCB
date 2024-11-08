@@ -61,7 +61,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "lbw b Mujeeb Ur Rahman",
                     "runs": "21",
                     "balls": "22",
@@ -252,8 +252,8 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "18",
                     "balls": "47",
                     "minutes": "75",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Ikram Alikhil",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "22",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 142 runs"
+    "result": "Pakistan won by 142 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Naseem Shah",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Imam-ul-Haq",
+            "Haris Rauf",
+            "Fakhar Zaman",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Salman Agha",
+            "Usama Mir"
+        ],
+        "Afghanistan": [
+            "Hashmatullah Shahidi(c)",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Azmatullah Omarzai",
+            "Mujeeb Ur Rahman",
+            "Rahmanullah Gurbaz (wk)",
+            "Ikram Alikhil",
+            "Abdul Rahman",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi"
+        ]
+    }
 }

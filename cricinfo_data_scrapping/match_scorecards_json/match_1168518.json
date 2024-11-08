@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Taylor b Mire",
+                    "dismissal": "c (wk)Taylor b Mire",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "-",
@@ -78,7 +78,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "c Williams b Jarvis",
                     "runs": "56",
                     "balls": "51",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Solomon Mire",
-                    "dismissal": "c Tucker b Murtagh",
+                    "dismissal": "c (wk)Tucker b Murtagh",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "c Tucker b Getkate",
+                    "dismissal": "c (wk)Tucker b Getkate",
                     "runs": "43",
                     "balls": "51",
                     "minutes": "-",
@@ -279,7 +279,7 @@
                     "strike_rate": "84.31"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "lbw b Murtagh",
                     "runs": "0",
                     "balls": "1",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Ryan Burl",
-                    "dismissal": "run out (Getkate/Tucker)",
+                    "dismissal": "run out (Getkate/ (wk)Tucker)",
                     "runs": "53",
                     "balls": "79",
                     "minutes": "-",
@@ -320,7 +320,7 @@
                 },
                 {
                     "batsman": "Richmond Mutumbami",
-                    "dismissal": "c Tucker b Getkate",
+                    "dismissal": "c (wk)Tucker b Getkate",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "-",
@@ -449,5 +449,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 5 runs"
+    "result": "Ireland won by 5 runs",
+    "playing_xi": {
+        "Ireland": [
+            "Andy Balbirnie",
+            "Lorcan Tucker (wk)",
+            "Boyd Rankin",
+            "Tim Murtagh",
+            "Andy McBrine",
+            "William Porterfield(c)",
+            "James McCollum",
+            "Shane Getkate",
+            "Mark Adair",
+            "Paul Stirling",
+            "Kevin O'Brien"
+        ],
+        "Zimbabwe": [
+            "Hamilton Masakadza(c)",
+            "Brendan Taylor (wk)",
+            "Ryan Burl",
+            "Richmond Mutumbami",
+            "Kyle Jarvis",
+            "Donald Tiripano",
+            "Solomon Mire",
+            "Sean Williams",
+            "Sikandar Raza",
+            "Tendai Chatara",
+            "Craig Ervine"
+        ]
+    }
 }

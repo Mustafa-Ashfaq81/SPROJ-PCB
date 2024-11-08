@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "66",
                     "balls": "79",
                     "minutes": "110",
@@ -75,7 +75,7 @@
                     "strike_rate": "94.73"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "c Roy b TK Curran",
                     "runs": "77",
                     "balls": "40",
@@ -213,7 +213,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "run out (Sharma/Pant)",
+                    "dismissal": "run out (Sharma/ (wk)Pant)",
                     "runs": "55",
                     "balls": "52",
                     "minutes": "80",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Ben Stokes",
-                    "dismissal": "c Pant b Kumar",
+                    "dismissal": "c (wk)Pant b Kumar",
                     "runs": "99",
                     "balls": "52",
                     "minutes": "90",
@@ -252,7 +252,7 @@
                     "strike_rate": "69.56"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "b Prasidh Krishna",
                     "runs": "0",
                     "balls": "3",
@@ -348,5 +348,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 39 balls remaining)"
+    "result": "England won by 6 wickets (with 39 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Shardul Thakur",
+            "KL Rahul",
+            "Krunal Pandya",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli(c)",
+            "Prasidh Krishna",
+            "Kuldeep Yadav",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Rishabh Pant (wk)"
+        ],
+        "England": [
+            "Jonny Bairstow",
+            "Dawid Malan",
+            "Moeen Ali",
+            "Sam Curran",
+            "Jason Roy",
+            "Ben Stokes",
+            "Liam Livingstone",
+            "Jos Buttler(c) (wk)",
+            "Adil Rashid",
+            "Reece Topley",
+            "Tom Curran"
+        ]
+    }
 }

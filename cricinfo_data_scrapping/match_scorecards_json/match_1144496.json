@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Carey b Coulter-Nile",
+                    "dismissal": "c (wk)Carey b Coulter-Nile",
                     "runs": "57",
                     "balls": "70",
                     "minutes": "101",
@@ -71,7 +71,7 @@
                     "strike_rate": "177.77"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c & b Stoinis",
                     "runs": "27",
                     "balls": "14",
@@ -258,7 +258,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "55",
                     "balls": "35",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Pat Cummins",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "8",
                     "balls": "7",
                     "minutes": "11",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "India won by 36 runs"
+    "result": "India won by 36 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "KL Rahul",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Kedar Jadhav",
+            "Virat Kohli(c)",
+            "Hardik Pandya",
+            "MS Dhoni (wk)",
+            "Shikhar Dhawan"
+        ],
+        "Australia": [
+            "Usman Khawaja",
+            "Mitchell Starc",
+            "Aaron Finch(c)",
+            "Steven Smith",
+            "Nathan Coulter-Nile",
+            "Pat Cummins",
+            "Marcus Stoinis",
+            "David Warner",
+            "Alex Carey (wk)",
+            "Adam Zampa",
+            "Glenn Maxwell"
+        ]
+    }
 }

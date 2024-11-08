@@ -81,7 +81,7 @@
                     "strike_rate": "62.22"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "42",
                     "balls": "42",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Maher b Hogg",
+                    "dismissal": "c (wk)Maher b Hogg",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "9",
@@ -238,8 +238,8 @@
             "extras": "25",
             "batting": [
                 {
-                    "batsman": "Jimmy Maher",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "batsman": "Jimmy Maher (wk)",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "30",
                     "balls": "43",
                     "minutes": "59",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "st Sangakkara b de Silva",
+                    "dismissal": "st (wk)Sangakkara b de Silva",
                     "runs": "15",
                     "balls": "40",
                     "minutes": "47",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Darren Lehmann",
-                    "dismissal": "run out (Arnold/Sangakkara)",
+                    "dismissal": "run out (Arnold/ (wk)Sangakkara)",
                     "runs": "38",
                     "balls": "49",
                     "minutes": "82",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 7 balls remaining)"
+    "result": "Australia won by 4 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Hashan Tillakaratne",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Aravinda de Silva",
+            "Charitha Buddhika",
+            "Sanath Jayasuriya(c)",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ],
+        "Australia": [
+            "Darren Lehmann",
+            "Glenn McGrath",
+            "Brad Williams",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Ricky Ponting(c)",
+            "Jimmy Maher (wk)",
+            "Michael Bevan",
+            "Brad Hogg",
+            "Damien Martyn",
+            "Shane Watson"
+        ]
+    }
 }

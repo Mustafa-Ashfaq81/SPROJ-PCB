@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Wilson b Thompson",
+                    "dismissal": "c (wk)Wilson b Thompson",
                     "runs": "24",
                     "balls": "52",
                     "minutes": "-",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "c Wilson b Cusack",
+                    "dismissal": "c (wk)Wilson b Cusack",
                     "runs": "8",
                     "balls": "24",
                     "minutes": "-",
@@ -59,7 +59,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "c & b KJ O'Brien",
                     "runs": "39",
                     "balls": "61",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c Chandimal b Lakmal",
+                    "dismissal": "c (wk)Chandimal b Lakmal",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "-",
@@ -280,8 +280,8 @@
                     "strike_rate": "84.61"
                 },
                 {
-                    "batsman": "Gary Wilson",
-                    "dismissal": "run out (Senanayake/Chandimal)",
+                    "batsman": "Gary Wilson (wk)",
+                    "dismissal": "run out (Senanayake/ (wk)Chandimal)",
                     "runs": "3",
                     "balls": "2",
                     "minutes": "-",
@@ -454,5 +454,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 79 runs"
+    "result": "Sri Lanka won by 79 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Ajantha Mendis",
+            "Ashan Priyanjan",
+            "Suranga Lakmal",
+            "Sachithra Senanayake",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Upul Tharanga",
+            "Kithuruwan Vithanage",
+            "Lahiru Thirimanne",
+            "Dinesh Chandimal (wk)",
+            "Nuwan Kulasekara"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Stuart Thompson",
+            "Tim Murtagh",
+            "Niall O'Brien",
+            "Max Sorensen",
+            "Paul Stirling",
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Alex Cusack",
+            "Gary Wilson (wk)",
+            "Kevin O'Brien"
+        ]
+    }
 }

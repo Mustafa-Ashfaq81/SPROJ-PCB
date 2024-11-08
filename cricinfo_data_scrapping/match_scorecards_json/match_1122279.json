@@ -30,7 +30,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "lbw b Chahal",
                     "runs": "34",
                     "balls": "49",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Kagiso Rabada",
-                    "dismissal": "run out (Dhoni/Kumar)",
+                    "dismissal": "run out ( (wk)Dhoni/Kumar)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "5",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c de Kock b Morkel",
+                    "dismissal": "c (wk)de Kock b Morkel",
                     "runs": "20",
                     "balls": "30",
                     "minutes": "25",
@@ -277,7 +277,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "3",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 27 balls remaining)"
+    "result": "India won by 6 wickets (with 27 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Andile Phehlukwayo",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Hashim Amla",
+            "Chris Morris",
+            "David Miller",
+            "Imran Tahir",
+            "Faf du Plessis(c)",
+            "Morne Morkel",
+            "Jean-Paul Duminy",
+            "Aiden Markram"
+        ],
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

@@ -64,7 +64,7 @@
                     "strike_rate": "37.93"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "109",
                     "balls": "96",
@@ -206,7 +206,7 @@
             "batting": [
                 {
                     "batsman": "Tabarak Dar(c)",
-                    "dismissal": "st Dhoni b Chawla",
+                    "dismissal": "st (wk)Dhoni b Chawla",
                     "runs": "21",
                     "balls": "37",
                     "minutes": "57",
@@ -225,7 +225,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Jamie Atkinson",
+                    "batsman": "Jamie Atkinson (wk)",
                     "dismissal": "c & b Pathan",
                     "runs": "23",
                     "balls": "46",
@@ -236,7 +236,7 @@
                 },
                 {
                     "batsman": "Hussain Butt",
-                    "dismissal": "st Dhoni b Chawla",
+                    "dismissal": "st (wk)Dhoni b Chawla",
                     "runs": "4",
                     "balls": "15",
                     "minutes": "18",
@@ -246,7 +246,7 @@
                 },
                 {
                     "batsman": "Courtney Kruger",
-                    "dismissal": "st Dhoni b Chawla",
+                    "dismissal": "st (wk)Dhoni b Chawla",
                     "runs": "3",
                     "balls": "16",
                     "minutes": "18",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Roy Lamsam",
-                    "dismissal": "run out (Dhoni/Singh)",
+                    "dismissal": "run out ( (wk)Dhoni/Singh)",
                     "runs": "16",
                     "balls": "30",
                     "minutes": "34",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Nadeem Ahmed",
-                    "dismissal": "c Dhoni b Sehwag",
+                    "dismissal": "c (wk)Dhoni b Sehwag",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "India won by 256 runs"
+    "result": "India won by 256 runs",
+    "playing_xi": {
+        "India": [
+            "Piyush Chawla",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Robin Uthappa",
+            "RP Singh",
+            "Manpreet Gony",
+            "Rohit Sharma",
+            "Yusuf Pathan",
+            "Gautam Gambhir"
+        ],
+        "Hong Kong": [
+            "Munir Dar",
+            "Afzaal Haider",
+            "Skhawat Ali",
+            "Roy Lamsam",
+            "Najeeb Amar",
+            "Tabarak Dar(c)",
+            "Nadeem Ahmed",
+            "Jamie Atkinson (wk)",
+            "Courtney Kruger",
+            "Irfan Ahmed",
+            "Hussain Butt"
+        ]
+    }
 }

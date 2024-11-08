@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "run out (Behardien/Steyn/de Kock)",
+                    "dismissal": "run out (Behardien/Steyn/ (wk)de Kock)",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "24",
@@ -70,7 +70,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "92",
                     "balls": "86",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c de Kock b Morkel",
+                    "dismissal": "c (wk)de Kock b Morkel",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "6",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "22",
                     "balls": "22",
                     "minutes": "33",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Umesh Yadav",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "3",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "st Dhoni b Patel",
+                    "dismissal": "st (wk)Dhoni b Patel",
                     "runs": "17",
                     "balls": "17",
                     "minutes": "25",
@@ -247,7 +247,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c MM Sharma b Harbhajan Singh",
                     "runs": "34",
                     "balls": "36",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Farhaan Behardien",
-                    "dismissal": "c Dhoni b Harbhajan Singh",
+                    "dismissal": "c (wk)Dhoni b Harbhajan Singh",
                     "runs": "18",
                     "balls": "33",
                     "minutes": "57",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Imran Tahir",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "17",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "India won by 22 runs"
+    "result": "India won by 22 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "Mohit Sharma",
+            "Ajinkya Rahane",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Harbhajan Singh",
+            "Suresh Raina",
+            "Umesh Yadav",
+            "Axar Patel",
+            "Shikhar Dhawan"
+        ],
+        "South Africa": [
+            "Farhaan Behardien",
+            "AB de Villiers(c)",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Morne Morkel",
+            "David Miller"
+        ]
+    }
 }

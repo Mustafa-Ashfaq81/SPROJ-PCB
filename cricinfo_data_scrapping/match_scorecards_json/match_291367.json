@@ -32,7 +32,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Vaas",
                     "runs": "6",
                     "balls": "11",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "run out (Maharoof/Sangakkara)",
+                    "dismissal": "run out (Maharoof/ (wk)Sangakkara)",
                     "runs": "11",
                     "balls": "34",
                     "minutes": "58",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "15",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "James Hopes",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "11",
                     "balls": "16",
                     "minutes": "20",
@@ -225,7 +225,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Symonds b Hopes",
                     "runs": "22",
                     "balls": "59",
@@ -236,7 +236,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "27",
                     "balls": "45",
                     "minutes": "57",
@@ -341,5 +341,33 @@
             ]
         }
     ],
-    "result": "Australia won by 24 runs (D/L method)"
+    "result": "Australia won by 24 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "James Hopes",
+            "Nathan Bracken",
+            "Stuart Clark",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ],
+        "Sri Lanka": [
+            "Mahela Jayawardene(c)",
+            "Tillakaratne Dilshan",
+            "Ishara Amerasinghe",
+            "Dilruwan Perera",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ]
+    }
 }

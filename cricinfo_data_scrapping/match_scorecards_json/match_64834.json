@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Khaled Mashud b Mushfiqur Rahman",
+                    "dismissal": "c (wk)Khaled Mashud b Mushfiqur Rahman",
                     "runs": "26",
                     "balls": "36",
                     "minutes": "55",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "8",
@@ -100,7 +100,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Mohammad Ashraful b Rajin Saleh",
                     "runs": "26",
                     "balls": "28",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud(c)",
-                    "dismissal": "c Kamran Akmal b Shoaib Malik",
+                    "dismissal": "c (wk)Kamran Akmal b Shoaib Malik",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "14",
@@ -321,7 +321,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "b Junaid Zia",
                     "runs": "12",
                     "balls": "23",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 74 runs"
+    "result": "Pakistan won by 74 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Umar Gul",
+            "Junaid Zia",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Mohammad Hafeez",
+            "Inzamam-ul-Haq(c)",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Shabbir Ahmed"
+        ],
+        "Bangladesh": [
+            "Khaled Mashud (wk)",
+            "Mushfiqur Rahman",
+            "Mohammad Rafique",
+            "Mohammad Ashraful",
+            "Alok Kapali",
+            "Mashrafe Mortaza",
+            "Hasibul Hossain",
+            "Khaled Mahmud(c)",
+            "Habibul Bashar",
+            "Tushar Imran",
+            "Rajin Saleh"
+        ]
+    }
 }

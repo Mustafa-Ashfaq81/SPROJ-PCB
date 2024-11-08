@@ -50,7 +50,7 @@
                     "strike_rate": "51.06"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Azhar Ali b Saeed Ajmal",
                     "runs": "97",
                     "balls": "130",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "7",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "11",
@@ -297,7 +297,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Jayawardene b Perera",
                     "runs": "0",
                     "balls": "1",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Umar Gul",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 44 runs"
+    "result": "Sri Lanka won by 44 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Sajeewa Weerakoon",
+            "Dinesh Chandimal",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ],
+        "Pakistan": [
+            "Umar Gul",
+            "Sarfaraz Ahmed (wk)",
+            "Asad Shafiq",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Misbah-ul-Haq(c)",
+            "Azhar Ali",
+            "Sohail Tanvir",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Umar Akmal"
+        ]
+    }
 }

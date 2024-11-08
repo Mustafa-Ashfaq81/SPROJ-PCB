@@ -31,8 +31,8 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Sangakkara b de Silva",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Sangakkara b de Silva",
                     "runs": "22",
                     "balls": "20",
                     "minutes": "25",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Michael Bevan",
-                    "dismissal": "c Sangakkara b Jayasuriya",
+                    "dismissal": "c (wk)Sangakkara b Jayasuriya",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "8",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "st Sangakkara b de Silva",
+                    "dismissal": "st (wk)Sangakkara b de Silva",
                     "runs": "8",
                     "balls": "19",
                     "minutes": "19",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Ian Harvey",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "13",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Hashan Tillakaratne",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "3",
                     "balls": "15",
                     "minutes": "27",
@@ -268,7 +268,7 @@
                     "strike_rate": "68.75"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "39",
                     "balls": "70",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Gilchrist b Hogg",
+                    "dismissal": "c (wk)Gilchrist b Hogg",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "14",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Australia won by 48 runs (D/L method)"
+    "result": "Australia won by 48 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Darren Lehmann",
+            "Andrew Symonds",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Brad Hogg"
+        ],
+        "Sri Lanka": [
+            "Hashan Tillakaratne",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Aravinda de Silva",
+            "Avishka Gunawardene",
+            "Sanath Jayasuriya(c)",
+            "Muthiah Muralidaran",
+            "Pulasthi Gunaratne",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ]
+    }
 }

@@ -4,8 +4,9 @@ import re
 from multiprocessing import Pool, cpu_count
 
 def clean_name(name):
-    """ Removes annotations like (c), (wk), etc., from names and strips whitespace. """
-    return re.sub(r'\(.*?\)', '', name).strip()
+    """ Removes unwanted annotations from names but keeps (c) and (wk). """
+    # Define a pattern to match parentheses that are not (c) or (wk)
+    return re.sub(r'\((?!c\)|wk\)).*?\)', '', name).strip()
 
 def process_match_file(file_path):
     """ Processes a single match JSON file to extract and append the playing XI for each team. """

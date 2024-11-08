@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "st Sarfaraz Ahmed b Azhar Ali",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Azhar Ali",
                     "runs": "71",
                     "balls": "71",
                     "minutes": "105",
@@ -60,7 +60,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "116",
                     "balls": "52",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "st Sarfaraz Ahmed b Azhar Ali",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Azhar Ali",
                     "runs": "14",
                     "balls": "13",
                     "minutes": "15",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "run out (Willey/Buttler)",
+                    "dismissal": "run out (Willey/ (wk)Buttler)",
                     "runs": "37",
                     "balls": "36",
                     "minutes": "54",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Mohammad Rizwan",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "11",
                     "balls": "8",
                     "minutes": "9",
@@ -257,7 +257,7 @@
                     "strike_rate": "137.50"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Willey b Rashid",
                     "runs": "24",
                     "balls": "26",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "England won by 84 runs"
+    "result": "England won by 84 runs",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Moeen Ali",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "David Willey",
+            "Alex Hales",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Reece Topley",
+            "James Taylor"
+        ],
+        "Pakistan": [
+            "Anwar Ali",
+            "Mohammad Hafeez",
+            "Mohammad Rizwan",
+            "Ahmed Shehzad",
+            "Babar Azam",
+            "Mohammad Irfan",
+            "Sarfaraz Ahmed (wk)",
+            "Shoaib Malik",
+            "Wahab Riaz",
+            "Yasir Shah",
+            "Azhar Ali(c)"
+        ]
+    }
 }

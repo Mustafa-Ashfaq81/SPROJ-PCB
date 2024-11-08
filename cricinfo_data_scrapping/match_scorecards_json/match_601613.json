@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "c Kamran Akmal b Asad Ali",
+                    "dismissal": "c (wk)Kamran Akmal b Asad Ali",
                     "runs": "1",
                     "balls": "13",
                     "minutes": "-",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Niall O'Brien",
-                    "dismissal": "c Kamran Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Kamran Akmal b Wahab Riaz",
                     "runs": "29",
                     "balls": "64",
                     "minutes": "-",
@@ -73,7 +73,7 @@
                     "strike_rate": "45.31"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "c Mohammad Hafeez b Abdur Rehman",
                     "runs": "5",
                     "balls": "13",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Wilson b Murtagh",
+                    "dismissal": "c (wk)Wilson b Murtagh",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "-",
@@ -300,7 +300,7 @@
                     "strike_rate": "74.13"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Porterfield b KJ O'Brien",
                     "runs": "81",
                     "balls": "85",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 2 wickets (with 8 balls remaining)"
+    "result": "Pakistan won by 2 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Niall O'Brien",
+            "Trent Johnston",
+            "Tim Murtagh",
+            "William Porterfield(c)",
+            "Alex Cusack",
+            "James Shannon",
+            "Ed Joyce",
+            "Gary Wilson (wk)",
+            "Paul Stirling",
+            "George Dockrell",
+            "Kevin O'Brien"
+        ],
+        "Pakistan": [
+            "Wahab Riaz",
+            "Asad Ali",
+            "Nasir Jamshed",
+            "Asad Shafiq",
+            "Imran Farhat",
+            "Mohammad Hafeez",
+            "Abdur Rehman",
+            "Kamran Akmal (wk)",
+            "Junaid Khan",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik"
+        ]
+    }
 }

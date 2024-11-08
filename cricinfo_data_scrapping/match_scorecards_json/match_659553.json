@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Nasir Jamshed",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "38",
                     "balls": "51",
                     "minutes": "67",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "17",
@@ -90,8 +90,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
-                    "dismissal": "c Taylor b Chatara",
+                    "batsman": "Sarfaraz Ahmed (wk)",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "22",
                     "balls": "13",
                     "minutes": "23",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "st Sarfaraz Ahmed b Abdur Rehman",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Abdur Rehman",
                     "runs": "25",
                     "balls": "42",
                     "minutes": "47",
@@ -227,7 +227,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
+                    "batsman": "Brendan Taylor(c) (wk)",
                     "dismissal": "run out (Misbah-ul-Haq)",
                     "runs": "26",
                     "balls": "29",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya",
-                    "dismissal": "run out (Umar Amin/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Umar Amin/ (wk)Sarfaraz Ahmed)",
                     "runs": "23",
                     "balls": "50",
                     "minutes": "50",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 108 runs"
+    "result": "Pakistan won by 108 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Abdur Rehman",
+            "Sarfaraz Ahmed (wk)",
+            "Umar Amin",
+            "Saeed Ajmal",
+            "Mohammad Irfan",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi"
+        ],
+        "Zimbabwe": [
+            "Sikandar Raza",
+            "Malcolm Waller",
+            "Tinashe Panyangara",
+            "Brendan Taylor(c) (wk)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Tendai Chatara",
+            "Shingi Masakadza",
+            "Sean Williams",
+            "Vusi Sibanda"
+        ]
+    }
 }

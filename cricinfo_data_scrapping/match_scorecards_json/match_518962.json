@@ -32,7 +32,7 @@
             "extras": "26",
             "batting": [
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c & b Sharma",
                     "runs": "45",
                     "balls": "67",
@@ -200,7 +200,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Wade b Lee",
+                    "dismissal": "c (wk)Wade b Lee",
                     "runs": "5",
                     "balls": "5",
                     "minutes": "6",
@@ -230,7 +230,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Wade b Lee",
+                    "dismissal": "c (wk)Wade b Lee",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "6",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Wade b Christian",
+                    "dismissal": "c (wk)Wade b Christian",
                     "runs": "28",
                     "balls": "41",
                     "minutes": "76",
@@ -249,7 +249,7 @@
                     "strike_rate": "68.29"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Christian b Hilfenhaus",
                     "runs": "56",
                     "balls": "84",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Irfan Pathan",
-                    "dismissal": "c Wade b Hilfenhaus",
+                    "dismissal": "c (wk)Wade b Hilfenhaus",
                     "runs": "19",
                     "balls": "27",
                     "minutes": "52",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "c Wade b Hilfenhaus",
+                    "dismissal": "c (wk)Wade b Hilfenhaus",
                     "runs": "9",
                     "balls": "11",
                     "minutes": "14",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "Australia won by 110 runs"
+    "result": "Australia won by 110 runs",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Peter Forrest",
+            "Brett Lee",
+            "Ben Hilfenhaus",
+            "David Warner",
+            "Ricky Ponting(c)",
+            "Dan Christian",
+            "Mitchell Starc",
+            "Michael Hussey"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "Gautam Gambhir",
+            "Irfan Pathan",
+            "Zaheer Khan",
+            "Umesh Yadav",
+            "Virat Kohli",
+            "Ravindra Jadeja",
+            "Vinay Kumar",
+            "MS Dhoni(c) (wk)",
+            "Sachin Tendulkar",
+            "Suresh Raina"
+        ]
+    }
 }

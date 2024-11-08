@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "85",
                     "balls": "92",
                     "minutes": "152",
@@ -40,7 +40,7 @@
                     "strike_rate": "92.39"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "lbw b Shakib Al Hasan",
                     "runs": "46",
                     "balls": "61",
@@ -251,7 +251,7 @@
                     "strike_rate": "116.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Duminy b Pretorius",
                     "runs": "60",
                     "balls": "70",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c de Kock b Imran Tahir",
+                    "dismissal": "c (wk)de Kock b Imran Tahir",
                     "runs": "5",
                     "balls": "5",
                     "minutes": "7",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 104 runs"
+    "result": "South Africa won by 104 runs",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Dwaine Pretorius",
+            "Andile Phehlukwayo",
+            "Dane Paterson",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Hashim Amla",
+            "Imran Tahir",
+            "Faf du Plessis(c)",
+            "Farhaan Behardien",
+            "Jean-Paul Duminy"
+        ],
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mahmudullah",
+            "Shakib Al Hasan",
+            "Sabbir Rahman",
+            "Rubel Hossain",
+            "Mashrafe Mortaza(c)",
+            "Litton Das",
+            "Nasir Hossain",
+            "Taskin Ahmed",
+            "Imrul Kayes"
+        ]
+    }
 }

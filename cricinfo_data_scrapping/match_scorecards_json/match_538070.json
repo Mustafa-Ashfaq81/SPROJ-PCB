@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "17",
                     "balls": "20",
                     "minutes": "32",
@@ -103,7 +103,7 @@
                     "strike_rate": "155.55"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "not out",
                     "runs": "12",
                     "balls": "14",
@@ -250,7 +250,7 @@
                     "strike_rate": "87.50"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "c Mohammad Hafeez b Umar Gul",
                     "runs": "1",
                     "balls": "10",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 76 runs"
+    "result": "Pakistan won by 76 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Sarfaraz Ahmed (wk)",
+            "Younis Khan",
+            "Imran Farhat",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Umar Gul",
+            "Sohail Tanvir",
+            "Umar Akmal"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Mushfiqur Rahim(c) (wk)",
+            "Shahriar Nafees",
+            "Elias Sunny",
+            "Imrul Kayes",
+            "Shakib Al Hasan"
+        ]
+    }
 }

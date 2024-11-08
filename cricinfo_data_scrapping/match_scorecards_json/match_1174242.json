@@ -90,7 +90,7 @@
                     "strike_rate": "160.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "lbw b Junaid Khan",
                     "runs": "0",
                     "balls": "2",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Abid Ali",
-                    "dismissal": "c Carey b Behrendorff",
+                    "dismissal": "c (wk)Carey b Behrendorff",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -247,7 +247,7 @@
                     "strike_rate": "100.77"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "c Lyon b Maxwell",
                     "runs": "12",
                     "balls": "13",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 20 runs"
+    "result": "Australia won by 20 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shaun Marsh",
+            "Alex Carey (wk)",
+            "Kane Richardson",
+            "Aaron Finch(c)",
+            "Peter Handscomb",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Jason Behrendorff",
+            "Adam Zampa",
+            "Nathan Lyon",
+            "Marcus Stoinis"
+        ],
+        "Pakistan": [
+            "Mohammad Abbas",
+            "Haris Sohail",
+            "Usman Shinwari",
+            "Shan Masood",
+            "Yasir Shah",
+            "Junaid Khan",
+            "Umar Akmal",
+            "Abid Ali",
+            "Syed Saad Ali",
+            "Mohammad Rizwan (wk)",
+            "Imad Wasim(c)"
+        ]
+    }
 }

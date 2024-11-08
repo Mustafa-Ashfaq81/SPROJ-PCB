@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Sangakkara b Welegedara",
+                    "dismissal": "c (wk)Sangakkara b Welegedara",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "19",
@@ -75,8 +75,8 @@
                     "strike_rate": "88.09"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Sangakkara b Perera",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "37",
                     "balls": "70",
                     "minutes": "85",
@@ -276,7 +276,7 @@
                     "strike_rate": "91.66"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Raina b Harbhajan Singh",
                     "runs": "60",
                     "balls": "80",
@@ -307,7 +307,7 @@
                 },
                 {
                     "batsman": "Suraj Randiv",
-                    "dismissal": "run out (Dhoni/Nehra)",
+                    "dismissal": "run out ( (wk)Dhoni/Nehra)",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "12",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 12 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ashish Nehra",
+            "Yuvraj Singh",
+            "Ravindra Jadeja",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Sreesanth",
+            "Virender Sehwag",
+            "Harbhajan Singh",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)"
+        ],
+        "Sri Lanka": [
+            "Suraj Randiv",
+            "Chanaka Welegedara",
+            "Muthumudalige Pushpakumara",
+            "Suranga Lakmal",
+            "Thisara Perera",
+            "Thilan Thushara",
+            "Kumar Sangakkara(c) (wk)",
+            "Upul Tharanga",
+            "Thilina Kandamby",
+            "Lahiru Thirimanne",
+            "Thilan Samaraweera"
+        ]
+    }
 }

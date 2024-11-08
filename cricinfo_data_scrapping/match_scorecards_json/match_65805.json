@@ -31,8 +31,8 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
-                    "dismissal": "c Taibu b Streak",
+                    "batsman": "Kennedy Otieno (wk)",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "13",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Grant Flower",
-                    "dismissal": "c Otieno b AO Suji",
+                    "dismissal": "c (wk)Otieno b AO Suji",
                     "runs": "59",
                     "balls": "70",
                     "minutes": "89",
@@ -306,7 +306,7 @@
                     "strike_rate": "233.33"
                 }
             ],
-            "did_not_bat": "Dion Ebrahim , Tatenda Taibu , Ray Price , Douglas Hondo",
+            "did_not_bat": "Dion Ebrahim , Tatenda Taibu (wk) , Ray Price , Douglas Hondo",
             "fall_of_wickets": "Fall of wickets : 1 - 56 ( Craig Wishart , 15.3 ov ) , 2 - 68 ( Gavin Rennie , 19.4 ov ) , 3 - 198 ( Grant Flower , 44.6 ov ) , 4 - 199 ( Dougie Marillier , 46.1 ov ) , 5 - 208 ( Andy Blignaut , 47.3 ov )",
             "bowling": [
                 {
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 5 wickets (with 6 balls remaining)"
+    "result": "Zimbabwe won by 5 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Maurice Odumbe",
+            "Peter Ongondo",
+            "Steve Tikolo(c)",
+            "Thomas Odoyo",
+            "Collins Obuya",
+            "Brijal Patel",
+            "David Obuya",
+            "Kennedy Otieno (wk)",
+            "Martin Suji",
+            "Hitesh Modi",
+            "Tony Suji"
+        ],
+        "Zimbabwe": [
+            "Ray Price",
+            "Andy Blignaut",
+            "Craig Wishart",
+            "Gavin Rennie",
+            "Sean Ervine",
+            "Dougie Marillier",
+            "Heath Streak(c)",
+            "Tatenda Taibu (wk)",
+            "Douglas Hondo",
+            "Dion Ebrahim",
+            "Grant Flower"
+        ]
+    }
 }

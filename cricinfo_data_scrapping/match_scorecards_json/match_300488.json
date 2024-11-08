@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Gulam Bodi",
-                    "dismissal": "c Taibu b Mupariwa",
+                    "dismissal": "c (wk)Taibu b Mupariwa",
                     "runs": "32",
                     "balls": "33",
                     "minutes": "40",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Albie Morkel",
-                    "dismissal": "c Taibu b Masakadza",
+                    "dismissal": "c (wk)Taibu b Masakadza",
                     "runs": "97",
                     "balls": "104",
                     "minutes": "129",
@@ -60,7 +60,7 @@
                     "strike_rate": "93.26"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "c Mupariwa b Brent",
                     "runs": "107",
                     "balls": "89",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "c Taibu b Masakadza",
+                    "dismissal": "c (wk)Taibu b Masakadza",
                     "runs": "8",
                     "balls": "5",
                     "minutes": "5",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Vernon Philander",
-                    "dismissal": "run out (Maruma/Taibu)",
+                    "dismissal": "run out (Maruma/ (wk)Taibu)",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "9",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c de Villiers b M Morkel",
+                    "dismissal": "c (wk)de Villiers b M Morkel",
                     "runs": "41",
                     "balls": "41",
                     "minutes": "59",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c de Villiers b van der Wath",
+                    "dismissal": "c (wk)de Villiers b van der Wath",
                     "runs": "48",
                     "balls": "55",
                     "minutes": "89",
@@ -281,7 +281,7 @@
                     "strike_rate": "71.18"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "not out",
                     "runs": "107",
                     "balls": "103",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 28 runs"
+    "result": "South Africa won by 28 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Morne Morkel",
+            "Thandi Tshabalala",
+            "Vernon Philander",
+            "AB de Villiers (wk)",
+            "Gulam Bodi",
+            "Johan van der Wath",
+            "Graeme Smith(c)",
+            "Jean-Paul Duminy",
+            "Makhaya Ntini",
+            "Albie Morkel",
+            "Shaun Pollock"
+        ],
+        "Zimbabwe": [
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Prosper Utseya(c)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Tawanda Mupariwa",
+            "Brendan Taylor",
+            "Timycen Maruma",
+            "Gary Brent",
+            "Stuart Matsikenyeri",
+            "Tatenda Taibu (wk)"
+        ]
+    }
 }

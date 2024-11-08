@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Ramdin b Bradshaw",
+                    "dismissal": "c (wk)Ramdin b Bradshaw",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "16",
@@ -80,7 +80,7 @@
                     "strike_rate": "72.41"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c & b DR Smith",
                     "runs": "6",
                     "balls": "19",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "run out (sub [SK Raina]/Dhoni)",
+                    "dismissal": "run out (sub [SK Raina]/ (wk)Dhoni)",
                     "runs": "14",
                     "balls": "47",
                     "minutes": "50",
@@ -307,7 +307,7 @@
                     "strike_rate": "108.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Powar",
                     "runs": "6",
                     "balls": "16",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Daren Powell",
-                    "dismissal": "run out (Joginder Sharma/Dhoni)",
+                    "dismissal": "run out (Joginder Sharma/ (wk)Dhoni)",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "5",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "India won by 20 runs"
+    "result": "India won by 20 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Gautam Gambhir",
+            "Joginder Sharma",
+            "Dinesh Karthik",
+            "Ajit Agarkar",
+            "Rahul Dravid(c)",
+            "Sachin Tendulkar",
+            "Ramesh Powar",
+            "Harbhajan Singh"
+        ],
+        "West Indies": [
+            "Runako Morton",
+            "Dwayne Smith",
+            "Ian Bradshaw",
+            "Denesh Ramdin (wk)",
+            "Dwayne Bravo",
+            "Jerome Taylor",
+            "Devon Smith",
+            "Daren Powell",
+            "Shivnarine Chanderpaul",
+            "Marlon Samuels",
+            "Chris Gayle(c)"
+        ]
+    }
 }

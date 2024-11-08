@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Khaled Mashud b Nazmul Hossain",
+                    "dismissal": "c (wk)Khaled Mashud b Nazmul Hossain",
                     "runs": "19",
                     "balls": "32",
                     "minutes": "46",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "53",
                     "balls": "80",
                     "minutes": "121",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Sridharan Sriram",
-                    "dismissal": "st Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "st (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "8",
@@ -94,8 +94,8 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "run out (Tapash Baisya/Khaled Mashud)",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "run out (Tapash Baisya/ (wk)Khaled Mashud)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -291,7 +291,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "50",
                     "balls": "39",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "India won by 11 runs"
+    "result": "India won by 11 runs",
+    "playing_xi": {
+        "India": [
+            "MS Dhoni (wk)",
+            "Rahul Dravid",
+            "Irfan Pathan",
+            "Sridharan Sriram",
+            "Joginder Sharma",
+            "Yuvraj Singh",
+            "Ajit Agarkar",
+            "Sachin Tendulkar",
+            "Mohammad Kaif",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh"
+        ],
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Khaled Mahmud",
+            "Nafees Iqbal",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Habibul Bashar(c)",
+            "Nazmul Hossain",
+            "Mohammad Rafique",
+            "Mushfiqur Rahman"
+        ]
+    }
 }

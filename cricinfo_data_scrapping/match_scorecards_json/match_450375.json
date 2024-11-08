@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Bas Zuiderent",
-                    "dismissal": "c Ouma b Odoyo",
+                    "dismissal": "c (wk)Ouma b Odoyo",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "12",
@@ -100,7 +100,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Atse Buurman",
+                    "batsman": "Atse Buurman (wk)",
                     "dismissal": "c & b Kamande",
                     "runs": "5",
                     "balls": "12",
@@ -237,8 +237,8 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Morris Ouma(c)",
-                    "dismissal": "run out (Mudassar Bukhari/Buurman)",
+                    "batsman": "Morris Ouma(c) (wk)",
+                    "dismissal": "run out (Mudassar Bukhari/ (wk)Buurman)",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "17",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Alex Obanda",
-                    "dismissal": "c Buurman b Mudassar Bukhari",
+                    "dismissal": "c (wk)Buurman b Mudassar Bukhari",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "14",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Nelson Odhiambo",
-                    "dismissal": "st Buurman b Adeel Raja",
+                    "dismissal": "st (wk)Buurman b Adeel Raja",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "15",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 117 runs"
+    "result": "Netherlands won by 117 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Wesley Barresi",
+            "Eric Szwarczynski",
+            "Tom Cooper",
+            "Bas Zuiderent",
+            "Peter Borren(c)",
+            "Adeel Raja",
+            "Atse Buurman (wk)",
+            "Mark Jonkman",
+            "Pieter Seelaar",
+            "Mudassar Bukhari",
+            "Alexei Kervezee"
+        ],
+        "Kenya": [
+            "Alex Obanda",
+            "Elijah Otieno",
+            "Rakep Patel",
+            "Jimmy Kamande",
+            "Morris Ouma(c) (wk)",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "James Ngoche",
+            "Thomas Odoyo",
+            "Nelson Odhiambo",
+            "Francis Otieno"
+        ]
+    }
 }

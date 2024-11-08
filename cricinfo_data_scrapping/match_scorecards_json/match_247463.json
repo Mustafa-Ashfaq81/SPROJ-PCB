@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c McCullum b Franklin",
+                    "dismissal": "c (wk)McCullum b Franklin",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "5",
                     "balls": "19",
                     "minutes": "38",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c McCullum b Styris",
+                    "dismissal": "c (wk)McCullum b Styris",
                     "runs": "31",
                     "balls": "54",
                     "minutes": "72",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Jamie Dalrymple",
-                    "dismissal": "c McCullum b Styris",
+                    "dismissal": "c (wk)McCullum b Styris",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "14",
@@ -101,7 +101,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "not out",
                     "runs": "42",
                     "balls": "41",
@@ -219,7 +219,7 @@
             "batting": [
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Nixon b Anderson",
+                    "dismissal": "c (wk)Nixon b Anderson",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "4",
@@ -278,7 +278,7 @@
                     "strike_rate": "75.90"
                 }
             ],
-            "did_not_bat": "Brendon McCullum , Daniel Vettori , James Franklin , Shane Bond , Jeetan Patel",
+            "did_not_bat": "Brendon McCullum (wk) , Daniel Vettori , James Franklin , Shane Bond , Jeetan Patel",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Lou Vincent , 0.6 ov ) , 2 - 3 ( Ross Taylor , 1.2 ov ) , 3 - 19 ( Stephen Fleming , 4.6 ov ) , 4 - 72 ( Craig McMillan , 15.2 ov )",
             "bowling": [
                 {
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 6 wickets (with 54 balls remaining)"
+    "result": "New Zealand won by 6 wickets (with 54 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Liam Plunkett",
+            "Michael Vaughan(c)",
+            "Ed Joyce",
+            "Andrew Flintoff",
+            "James Anderson",
+            "Jamie Dalrymple",
+            "Kevin Pietersen"
+        ],
+        "New Zealand": [
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Jeetan Patel",
+            "James Franklin",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Lou Vincent",
+            "Jacob Oram",
+            "Scott Styris"
+        ]
+    }
 }

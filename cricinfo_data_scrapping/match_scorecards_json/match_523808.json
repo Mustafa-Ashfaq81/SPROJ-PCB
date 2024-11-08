@@ -80,8 +80,8 @@
                     "strike_rate": "55.26"
                 },
                 {
-                    "batsman": "Amjad Ali",
-                    "dismissal": "c Mohammad Shahzad b Javed Ahmadi",
+                    "batsman": "Amjad Ali (wk)",
+                    "dismissal": "c (wk)Mohammad Shahzad b Javed Ahmadi",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "-",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Nawroz Mangal(c)",
-                    "dismissal": "c Amjad Ali b Ahmed Raza",
+                    "dismissal": "c (wk)Amjad Ali b Ahmed Raza",
                     "runs": "22",
                     "balls": "35",
                     "minutes": "-",
@@ -281,7 +281,7 @@
                     "strike_rate": "62.85"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Khurram Khan",
                     "runs": "27",
                     "balls": "39",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 15 runs"
+    "result": "U.A.E. won by 15 runs",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Ahmed Raza",
+            "Faizan Asif",
+            "Shadeep Silva",
+            "Sharif Asadullah",
+            "Shaiman Anwar",
+            "Arshad Ali",
+            "Khurram Khan(c)",
+            "Amjad Ali (wk)",
+            "Bakthiyar Palekar",
+            "Amjad Javed",
+            "Vikrant Shetty"
+        ],
+        "Afghanistan": [
+            "Javed Ahmadi",
+            "Karim Sadiq",
+            "Nawroz Mangal(c)",
+            "Dawlat Zadran",
+            "Hamid Hassan",
+            "Gulbadin Naib",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Mohammad Nabi",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)"
+        ]
+    }
 }

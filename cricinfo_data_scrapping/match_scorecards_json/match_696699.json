@@ -29,7 +29,7 @@
             "extras": "4",
             "batting": [
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "c Siaka b Raho",
                     "runs": "18",
                     "balls": "35",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Ragheb Aga",
-                    "dismissal": "c Jones b Gavera",
+                    "dismissal": "c (wk)Jones b Gavera",
                     "runs": "7",
                     "balls": "16",
                     "minutes": "20",
@@ -276,7 +276,7 @@
                     "strike_rate": "44.44"
                 }
             ],
-            "did_not_bat": "Jack Vare , Mahuru Dai , Pipi Raho , Raymond Haoda , Geraint Jones , Willie Gavera , Charles Amini",
+            "did_not_bat": "Jack Vare , Mahuru Dai , Pipi Raho , Raymond Haoda , Geraint Jones (wk) , Willie Gavera , Charles Amini",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Tony Ura , 0.4 ov ) , 2 - 154 ( Lega Siaka , 23.2 ov )",
             "bowling": [
                 {
@@ -366,5 +366,33 @@
             ]
         }
     ],
-    "result": "P.N.G. won by 8 wickets (with 43 balls remaining)"
+    "result": "P.N.G. won by 8 wickets (with 43 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Ragheb Aga",
+            "Thomas Odoyo",
+            "Irfan Karim (wk)",
+            "Rakep Patel(c)",
+            "Nehemiah Odhiambo",
+            "Elijah Otieno",
+            "Steve Tikolo",
+            "Shem Ngoche",
+            "Alex Obanda",
+            "Collins Obuya",
+            "Morris Ouma"
+        ],
+        "Papua New Guinea": [
+            "Raymond Haoda",
+            "Tony Ura",
+            "Mahuru Dai",
+            "Jack Vare",
+            "Geraint Jones (wk)",
+            "Charles Amini",
+            "Chris Amini(c)",
+            "Pipi Raho",
+            "Willie Gavera",
+            "Lega Siaka",
+            "Assad Vala"
+        ]
+    }
 }

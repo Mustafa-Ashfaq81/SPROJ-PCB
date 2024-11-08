@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Eric Szwarczynski",
-                    "dismissal": "c Mohammad Shahzad b Mirwais Ashraf",
+                    "dismissal": "c (wk)Mohammad Shahzad b Mirwais Ashraf",
                     "runs": "7",
                     "balls": "21",
                     "minutes": "31",
@@ -99,7 +99,7 @@
                     "strike_rate": "137.50"
                 }
             ],
-            "did_not_bat": "Atse Buurman , Adeel Raja , Bernard Loots , Mohammad Kashif",
+            "did_not_bat": "Atse Buurman (wk) , Adeel Raja , Bernard Loots , Mohammad Kashif",
             "fall_of_wickets": "Fall of wickets : 1 - 8 ( Alexei Kervezee , 3.4 ov ) , 2 - 27 ( Eric Szwarczynski , 7.5 ov ) , 3 - 105 ( Peter Borren , 32.1 ov ) , 4 - 124 ( Bas Zuiderent , 37.3 ov ) , 5 - 193 ( Tom Cooper , 47.3 ov )",
             "bowling": [
                 {
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Shabir Noori",
-                    "dismissal": "c Buurman b Mudassar Bukhari",
+                    "dismissal": "c (wk)Buurman b Mudassar Bukhari",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -230,7 +230,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Loots b Borren",
                     "runs": "82",
                     "balls": "108",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 5 wickets (with 24 balls remaining)"
+    "result": "Afghanistan won by 5 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Wesley Barresi",
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Tom Cooper",
+            "Peter Borren(c)",
+            "Adeel Raja",
+            "Atse Buurman (wk)",
+            "Mohammad Kashif",
+            "Bernard Loots",
+            "Mudassar Bukhari",
+            "Alexei Kervezee"
+        ],
+        "Afghanistan": [
+            "Nawroz Mangal(c)",
+            "Mohammad Nabi",
+            "Aftab Alam",
+            "Javed Ahmadi",
+            "Karim Sadiq",
+            "Shabir Noori",
+            "Mirwais Ashraf",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)",
+            "Samiullah Shinwari",
+            "Hamid Hassan"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Chandimal b Kulasekara",
+                    "dismissal": "c (wk)Chandimal b Kulasekara",
                     "runs": "4",
                     "balls": "23",
                     "minutes": "21",
@@ -50,7 +50,7 @@
                     "strike_rate": "86.36"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Kapugedera b Fernando",
                     "runs": "71",
                     "balls": "93",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Chris Mpofu",
-                    "dismissal": "run out (Dilshan/Chandimal)",
+                    "dismissal": "run out (Dilshan/ (wk)Chandimal)",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "9",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "run out (Cremer/Taibu)",
+                    "dismissal": "run out (Cremer/ (wk)Taibu)",
                     "runs": "72",
                     "balls": "79",
                     "minutes": "110",
@@ -271,7 +271,7 @@
                     "strike_rate": "105.88"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "not out",
                     "runs": "16",
                     "balls": "27",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 92 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 92 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Hamilton Masakadza",
+            "Brendan Taylor",
+            "Tatenda Taibu (wk)",
+            "Elton Chigumbura(c)",
+            "Charles Coventry",
+            "Ray Price",
+            "Graeme Cremer",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Greg Lamb",
+            "Chris Mpofu"
+        ],
+        "Sri Lanka": [
+            "Suraj Randiv",
+            "Dilhara Fernando",
+            "Jeevan Mendis",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan(c)",
+            "Ajantha Mendis",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Dinesh Chandimal (wk)",
+            "Chamara Kapugedera",
+            "Thilan Samaraweera"
+        ]
+    }
 }

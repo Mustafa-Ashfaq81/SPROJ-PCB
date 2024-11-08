@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Alistair Campbell",
-                    "dismissal": "c Dighe b Nehra",
+                    "dismissal": "c (wk)Dighe b Nehra",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -125,7 +125,7 @@
                     "strike_rate": "55.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "26",
@@ -229,7 +229,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Taibu b Streak",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "2",
@@ -258,7 +258,7 @@
                     "strike_rate": "61.17"
                 }
             ],
-            "did_not_bat": "Rahul Dravid , Virender Sehwag , VVS Laxman , Sameer Dighe , Ajit Agarkar , Harbhajan Singh , Zaheer Khan , Ashish Nehra",
+            "did_not_bat": "Rahul Dravid , Virender Sehwag , VVS Laxman , Sameer Dighe (wk) , Ajit Agarkar , Harbhajan Singh , Zaheer Khan , Ashish Nehra",
             "fall_of_wickets": "Fall of wickets : 1 - 2 ( Sourav Ganguly , 0.5 ov )",
             "bowling": [
                 {
@@ -320,5 +320,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 142 balls remaining)"
+    "result": "India won by 9 wickets (with 142 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Grant Flower",
+            "Dirk Viljoen",
+            "Heath Streak(c)",
+            "Tatenda Taibu (wk)",
+            "Alistair Campbell",
+            "Andy Blignaut",
+            "Guy Whittall",
+            "Dion Ebrahim",
+            "Travis Friend",
+            "Bryan Strang",
+            "Stuart Carlisle"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Ashish Nehra",
+            "VVS Laxman",
+            "Rahul Dravid",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Hemang Badani",
+            "Virender Sehwag",
+            "Harbhajan Singh",
+            "Sameer Dighe (wk)",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

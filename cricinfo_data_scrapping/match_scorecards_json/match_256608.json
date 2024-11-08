@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "14",
@@ -90,7 +90,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "run out (Sehwag)",
                     "runs": "18",
                     "balls": "31",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "12",
                     "balls": "24",
                     "minutes": "57",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Mitchell Johnson",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "2",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "30",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "run out (Clarke/Haddin)",
+                    "dismissal": "run out (Clarke/ (wk)Haddin)",
                     "runs": "8",
                     "balls": "5",
                     "minutes": "6",
@@ -297,7 +297,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "MS Dhoni , Ajit Agarkar , Harbhajan Singh , Munaf Patel , RP Singh",
+            "did_not_bat": "MS Dhoni (wk) , Ajit Agarkar , Harbhajan Singh , Munaf Patel , RP Singh",
             "fall_of_wickets": "Fall of wickets : 1 - 20 ( Rahul Dravid , 5.5 ov ) , 2 - 20 ( Irfan Pathan , 5.6 ov ) , 3 - 34 ( Virender Sehwag , 6.6 ov ) , 4 - 34 ( Sachin Tendulkar , 7.2 ov ) , 5 - 35 ( Yuvraj Singh , 7.6 ov )",
             "bowling": [
                 {
@@ -345,5 +345,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Australia": [
+            "Brad Hogg",
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Stuart Clark",
+            "Mark Cosgrove",
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Shane Watson",
+            "Glenn McGrath",
+            "Phil Jaques",
+            "Michael Clarke"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Munaf Patel",
+            "Ajit Agarkar",
+            "Suresh Raina",
+            "MS Dhoni (wk)",
+            "Sachin Tendulkar",
+            "Rahul Dravid(c)",
+            "Yuvraj Singh",
+            "RP Singh",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ]
+    }
 }

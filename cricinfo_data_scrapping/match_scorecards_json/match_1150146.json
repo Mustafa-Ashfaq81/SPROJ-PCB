@@ -102,7 +102,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Shafiqullah",
+                    "batsman": "Shafiqullah (wk)",
                     "dismissal": "c Simi Singh b Rankin",
                     "runs": "11",
                     "balls": "10",
@@ -226,7 +226,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "c Shafiqullah b Gulbadin Naib",
+                    "dismissal": "c (wk)Shafiqullah b Gulbadin Naib",
                     "runs": "16",
                     "balls": "33",
                     "minutes": "39",
@@ -236,7 +236,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Shafiqullah b Aftab Alam",
+                    "dismissal": "c (wk)Shafiqullah b Aftab Alam",
                     "runs": "10",
                     "balls": "20",
                     "minutes": "26",
@@ -255,8 +255,8 @@
                     "strike_rate": "67.07"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "run out (Hashmatullah Shahidi/Shafiqullah)",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "run out (Hashmatullah Shahidi/ (wk)Shafiqullah)",
                     "runs": "11",
                     "balls": "18",
                     "minutes": "26",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien",
-                    "dismissal": "run out (Mujeeb Ur Rahman/Shafiqullah)",
+                    "dismissal": "run out (Mujeeb Ur Rahman/ (wk)Shafiqullah)",
                     "runs": "22",
                     "balls": "31",
                     "minutes": "49",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 29 runs"
+    "result": "Afghanistan won by 29 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Mujeeb Ur Rahman",
+            "Gulbadin Naib",
+            "Hazratullah Zazai",
+            "Aftab Alam",
+            "Asghar Afghan(c)",
+            "Ihsanullah",
+            "Hashmatullah Shahidi",
+            "Shafiqullah (wk)",
+            "Mohammad Nabi",
+            "Rashid Khan"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "Gary Wilson",
+            "Peter Chase",
+            "Niall O'Brien (wk)",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "Boyd Rankin",
+            "Tim Murtagh",
+            "Simi Singh"
+        ]
+    }
 }

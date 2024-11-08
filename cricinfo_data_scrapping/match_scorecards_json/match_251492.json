@@ -60,7 +60,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Taylor b Bond",
                     "runs": "79",
                     "balls": "103",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "c McCullum b Adams",
+                    "dismissal": "c (wk)McCullum b Adams",
                     "runs": "34",
                     "balls": "75",
                     "minutes": "99",
@@ -207,8 +207,8 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "17",
                     "balls": "13",
                     "minutes": "18",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Mark Gillespie",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "7",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 189 runs"
+    "result": "Sri Lanka won by 189 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Chamara Kapugedera",
+            "Muthiah Muralidaran",
+            "Farveez Maharoof",
+            "Sanath Jayasuriya",
+            "Upul Tharanga"
+        ],
+        "New Zealand": [
+            "Craig McMillan",
+            "Mark Gillespie",
+            "Stephen Fleming(c)",
+            "Michael Mason",
+            "Hamish Marshall",
+            "Jeetan Patel",
+            "Shane Bond",
+            "Andre Adams",
+            "Peter Fulton",
+            "Ross Taylor",
+            "Brendon McCullum (wk)"
+        ]
+    }
 }

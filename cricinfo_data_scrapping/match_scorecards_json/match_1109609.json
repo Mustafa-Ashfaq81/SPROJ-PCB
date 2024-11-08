@@ -30,7 +30,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c & b Kumar",
                     "runs": "2",
                     "balls": "6",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Upul Tharanga(c)",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "48",
                     "balls": "34",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Dhoni b Kuldeep Yadav",
+                    "dismissal": "c (wk)Dhoni b Kuldeep Yadav",
                     "runs": "55",
                     "balls": "98",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Wanindu Hasaranga",
-                    "dismissal": "run out (Dhoni/Chahal)",
+                    "dismissal": "run out ( (wk)Dhoni/Chahal)",
                     "runs": "9",
                     "balls": "9",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Akila Dananjaya",
-                    "dismissal": "st Dhoni b Chahal",
+                    "dismissal": "st (wk)Dhoni b Chahal",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "-",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Kedar Jadhav",
-                    "dismissal": "c Dickwella b Hasaranga",
+                    "dismissal": "c (wk)Dickwella b Hasaranga",
                     "runs": "63",
                     "balls": "73",
                     "minutes": "-",
@@ -287,7 +287,7 @@
                     "strike_rate": "86.30"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "1",
                     "balls": "1",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 21 balls remaining)"
+    "result": "India won by 6 wickets (with 21 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dilshan Munaweera",
+            "Akila Dananjaya",
+            "Milinda Siriwardana",
+            "Lahiru Thirimanne",
+            "Vishwa Fernando",
+            "Lasith Malinga",
+            "Upul Tharanga(c)",
+            "Malinda Pushpakumara",
+            "Angelo Mathews",
+            "Wanindu Hasaranga",
+            "Niroshan Dickwella (wk)"
+        ],
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Manish Pandey",
+            "Kuldeep Yadav",
+            "Shardul Thakur",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

@@ -42,7 +42,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "run out (Amjad Ali)",
+                    "dismissal": "run out ( (wk)Amjad Ali)",
                     "runs": "40",
                     "balls": "66",
                     "minutes": "108",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful(c)",
-                    "dismissal": "run out (Amjad Ali)",
+                    "dismissal": "run out ( (wk)Amjad Ali)",
                     "runs": "109",
                     "balls": "126",
                     "minutes": "181",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Raqibul Hasan",
-                    "dismissal": "c Amjad Ali b Zahid Shah",
+                    "dismissal": "c (wk)Amjad Ali b Zahid Shah",
                     "runs": "83",
                     "balls": "63",
                     "minutes": "86",
@@ -111,8 +111,8 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "st Amjad Ali b Khurram Khan",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "st (wk)Amjad Ali b Khurram Khan",
                     "runs": "16",
                     "balls": "11",
                     "minutes": "13",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Dolar Mahmud",
-                    "dismissal": "run out (Amjad Ali)",
+                    "dismissal": "run out ( (wk)Amjad Ali)",
                     "runs": "20",
                     "balls": "9",
                     "minutes": "7",
@@ -286,7 +286,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Amjad Ali",
+                    "batsman": "Amjad Ali (wk)",
                     "dismissal": "c Alok Kapali b Abdur Razzak",
                     "runs": "19",
                     "balls": "18",
@@ -327,7 +327,7 @@
                 },
                 {
                     "batsman": "Mohammad Tauqir",
-                    "dismissal": "c Mushfiqur Rahim b Dolar Mahmud",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Dolar Mahmud",
                     "runs": "17",
                     "balls": "21",
                     "minutes": "36",
@@ -456,5 +456,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 96 runs"
+    "result": "Bangladesh won by 96 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Nazimuddin",
+            "Raqibul Hasan",
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Tamim Iqbal",
+            "Dolar Mahmud",
+            "Mahmudullah",
+            "Alok Kapali",
+            "Mashrafe Mortaza",
+            "Mushfiqur Rahim (wk)",
+            "Mohammad Ashraful(c)"
+        ],
+        "United Arab Emirates": [
+            "Mohammad Tauqir",
+            "Indika Batuwitarachchi",
+            "Vikrant Shetty",
+            "Shadeep Silva",
+            "Saqib Ali(c)",
+            "Zahid Shah",
+            "Arshad Ali",
+            "Amjad Ali (wk)",
+            "Fahad Alhashmi",
+            "Amjad Javed",
+            "Khurram Khan"
+        ]
+    }
 }

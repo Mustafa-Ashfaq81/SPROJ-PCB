@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Andre Botha",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -71,8 +71,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "4",
                     "balls": "28",
                     "minutes": "46",
@@ -230,7 +230,7 @@
                     "strike_rate": "120.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Carroll b Langford-Smith",
                     "runs": "10",
                     "balls": "9",
@@ -326,5 +326,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 240 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 240 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Kyle McCallan",
+            "William Porterfield",
+            "Kevin O'Brien",
+            "Jeremy Bray",
+            "Kenny Carroll",
+            "Dave Langford-Smith",
+            "Boyd Rankin",
+            "Eoin Morgan",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Andre Botha"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Russel Arnold",
+            "Nuwan Kulasekara",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Muthiah Muralidaran",
+            "Farveez Maharoof",
+            "Upul Tharanga",
+            "Chamara Silva"
+        ]
+    }
 }

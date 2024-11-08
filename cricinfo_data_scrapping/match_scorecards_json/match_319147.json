@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Ramdin b Edwards",
+                    "dismissal": "c (wk)Ramdin b Edwards",
                     "runs": "49",
                     "balls": "57",
                     "minutes": "99",
@@ -50,8 +50,8 @@
                     "strike_rate": "72.50"
                 },
                 {
-                    "batsman": "Luke Ronchi",
-                    "dismissal": "c Ramdin b Miller",
+                    "batsman": "Luke Ronchi (wk)",
+                    "dismissal": "c (wk)Ramdin b Miller",
                     "runs": "64",
                     "balls": "28",
                     "minutes": "53",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c Ramdin b Sarwan",
+                    "dismissal": "c (wk)Ramdin b Sarwan",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "20",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c Ramdin b Edwards",
+                    "dismissal": "c (wk)Ramdin b Edwards",
                     "runs": "66",
                     "balls": "80",
                     "minutes": "86",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle(c)",
-                    "dismissal": "c Ronchi b Johnson",
+                    "dismissal": "c (wk)Ronchi b Johnson",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "6",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Andre Fletcher",
-                    "dismissal": "st Ronchi b Clarke",
+                    "dismissal": "st (wk)Ronchi b Clarke",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "2",
@@ -287,7 +287,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c MEK Hussey b Symonds",
                     "runs": "3",
                     "balls": "6",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Australia won by 169 runs"
+    "result": "Australia won by 169 runs",
+    "playing_xi": {
+        "Australia": [
+            "Luke Ronchi (wk)",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Nathan Bracken",
+            "Michael Clarke(c)",
+            "Mitchell Johnson",
+            "Brett Lee",
+            "James Hopes",
+            "Andrew Symonds",
+            "David Hussey"
+        ],
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Daren Powell",
+            "Ramnaresh Sarwan",
+            "Nikita Miller",
+            "Xavier Marshall",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Andre Fletcher",
+            "Dwayne Bravo",
+            "Chris Gayle(c)",
+            "Shawn Findlay"
+        ]
+    }
 }

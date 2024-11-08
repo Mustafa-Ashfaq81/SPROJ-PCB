@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Babar Azam(c)",
-                    "dismissal": "c Taylor b Muzarabani",
+                    "dismissal": "c (wk)Taylor b Muzarabani",
                     "runs": "19",
                     "balls": "18",
                     "minutes": "30",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Haris Sohail",
-                    "dismissal": "c Taylor b Sikandar Raza",
+                    "dismissal": "c (wk)Taylor b Sikandar Raza",
                     "runs": "71",
                     "balls": "82",
                     "minutes": "101",
@@ -75,7 +75,7 @@
                     "strike_rate": "86.58"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "b Chisoro",
                     "runs": "14",
                     "balls": "29",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Iftikhar Ahmed",
-                    "dismissal": "c Taylor b Chisoro",
+                    "dismissal": "c (wk)Taylor b Chisoro",
                     "runs": "12",
                     "balls": "14",
                     "minutes": "17",
@@ -116,7 +116,7 @@
                 },
                 {
                     "batsman": "Wahab Riaz",
-                    "dismissal": "run out (Chibhabha/Ngarava/Taylor)",
+                    "dismissal": "run out (Chibhabha/Ngarava/ (wk)Taylor)",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "9",
@@ -276,7 +276,7 @@
                     "strike_rate": "60.29"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "c Wahab Riaz b Shaheen Shah Afridi",
                     "runs": "112",
                     "balls": "117",
@@ -287,7 +287,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "c Mohammad Rizwan b Wahab Riaz",
+                    "dismissal": "c (wk)Mohammad Rizwan b Wahab Riaz",
                     "runs": "4",
                     "balls": "14",
                     "minutes": "17",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 26 runs"
+    "result": "Pakistan won by 26 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Imad Wasim",
+            "Wahab Riaz",
+            "Haris Sohail",
+            "Haris Rauf",
+            "Babar Azam(c)",
+            "Mohammad Rizwan (wk)",
+            "Abid Ali",
+            "Faheem Ashraf",
+            "Shaheen Shah Afridi",
+            "Iftikhar Ahmed",
+            "Imam-ul-Haq"
+        ],
+        "Zimbabwe": [
+            "Sean Williams",
+            "Brian Chari",
+            "Craig Ervine",
+            "Richard Ngarava",
+            "Tendai Chisoro",
+            "Blessing Muzarabani",
+            "Chamu Chibhabha(c)",
+            "Wessly Madhevere",
+            "Carl Mumba",
+            "Sikandar Raza",
+            "Brendan Taylor (wk)"
+        ]
+    }
 }

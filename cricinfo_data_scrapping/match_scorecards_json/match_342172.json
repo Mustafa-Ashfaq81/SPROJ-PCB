@@ -29,7 +29,7 @@
             "batting": [
                 {
                     "batsman": "Zaheer Ashiq",
-                    "dismissal": "c Smith b Weeraratna",
+                    "dismissal": "c (wk)Smith b Weeraratna",
                     "runs": "11",
                     "balls": "21",
                     "minutes": "35",
@@ -58,7 +58,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Munawar Ahmed",
+                    "batsman": "Munawar Ahmed (wk)",
                     "dismissal": "lbw b Weeraratna",
                     "runs": "4",
                     "balls": "33",
@@ -99,7 +99,7 @@
                 },
                 {
                     "batsman": "Zeeshan Siddiqui",
-                    "dismissal": "c Smith b Parker",
+                    "dismissal": "c (wk)Smith b Parker",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "14",
@@ -129,7 +129,7 @@
                 },
                 {
                     "batsman": "Abdul Hamid",
-                    "dismissal": "c Smith b Parker",
+                    "dismissal": "c (wk)Smith b Parker",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -223,7 +223,7 @@
                     "strike_rate": "50.00"
                 }
             ],
-            "did_not_bat": "Matthew Parker , Neil McCallum , Sean Weeraratna , Majid Haq , Glenn Rogers , Omer Hussain , Colin Smith , John Blain",
+            "did_not_bat": "Matthew Parker , Neil McCallum , Sean Weeraratna , Majid Haq , Glenn Rogers , Omer Hussain , Colin Smith (wk) , John Blain",
             "fall_of_wickets": "Fall of wickets : 1 - 33 ( Ryan Watson , 4.3 ov )",
             "bowling": [
                 {
@@ -271,5 +271,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 9 wickets (with 250 balls remaining)"
+    "result": "Scotland won by 9 wickets (with 250 balls remaining)",
+    "playing_xi": {
+        "Norway": [
+            "Shahid Ahmed(c)",
+            "Adeel Ibrar",
+            "Zeeshan Siddiqui",
+            "Saqib Qayyum",
+            "Munawar Ahmed (wk)",
+            "Muhammad Butt",
+            "Zeeshan Ali",
+            "Abdul Hamid",
+            "Khalid Khurram",
+            "Sameer Sachdev",
+            "Zaheer Ashiq"
+        ],
+        "Scotland": [
+            "Sean Weeraratna",
+            "Glenn Rogers",
+            "Ryan Watson(c)",
+            "Omer Hussain",
+            "Colin Smith (wk)",
+            "Matthew Parker",
+            "Qasim Sheikh",
+            "John Blain",
+            "Majid Haq",
+            "Neil McCallum",
+            "Richie Berrington"
+        ]
+    }
 }

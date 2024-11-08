@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "47",
                     "balls": "42",
                     "minutes": "60",
@@ -90,7 +90,7 @@
                     "strike_rate": "215.62"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "7",
                     "balls": "2",
@@ -212,7 +212,7 @@
             "batting": [
                 {
                     "batsman": "Nafees Iqbal",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "10",
                     "balls": "20",
                     "minutes": "33",
@@ -222,7 +222,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "st Dhoni b Tendulkar",
+                    "dismissal": "st (wk)Dhoni b Tendulkar",
                     "runs": "82",
                     "balls": "114",
                     "minutes": "149",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar(c)",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "13",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "run out (Khan/Dhoni/Dravid)",
+                    "dismissal": "run out (Khan/ (wk)Dhoni/Dravid)",
                     "runs": "32",
                     "balls": "34",
                     "minutes": "52",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c Dhoni b Harbhajan Singh",
+                    "dismissal": "c (wk)Dhoni b Harbhajan Singh",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "24",
@@ -271,7 +271,7 @@
                     "strike_rate": "69.23"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "lbw b Tendulkar",
                     "runs": "10",
                     "balls": "16",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "st Dhoni b Tendulkar",
+                    "dismissal": "st (wk)Dhoni b Tendulkar",
                     "runs": "39",
                     "balls": "20",
                     "minutes": "12",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "India won by 91 runs"
+    "result": "India won by 91 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Rahul Dravid",
+            "Virender Sehwag",
+            "Joginder Sharma",
+            "Yuvraj Singh",
+            "Ajit Agarkar",
+            "Sachin Tendulkar",
+            "Mohammad Kaif",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh"
+        ],
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Mashrafe Mortaza",
+            "Khaled Mahmud",
+            "Nafees Iqbal",
+            "Mohammad Ashraful",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Hasibul Hossain",
+            "Habibul Bashar(c)",
+            "Mohammad Rafique",
+            "Mushfiqur Rahman"
+        ]
+    }
 }

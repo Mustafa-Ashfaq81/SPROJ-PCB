@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook",
-                    "dismissal": "run out (Taylor/McCullum)",
+                    "dismissal": "run out (Taylor/ (wk)McCullum)",
                     "runs": "53",
                     "balls": "69",
                     "minutes": "114",
@@ -40,7 +40,7 @@
                     "strike_rate": "76.81"
                 },
                 {
-                    "batsman": "Phil Mustard",
+                    "batsman": "Phil Mustard (wk)",
                     "dismissal": "c Vettori b Martin",
                     "runs": "13",
                     "balls": "8",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c McCullum b Martin",
+                    "dismissal": "c (wk)McCullum b Martin",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood(c)",
-                    "dismissal": "run out (Oram/McCullum)",
+                    "dismissal": "run out (Oram/ (wk)McCullum)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "1",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Graeme Swann",
-                    "dismissal": "c McCullum b Vettori",
+                    "dismissal": "c (wk)McCullum b Vettori",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "7",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Ryan Sidebottom",
-                    "dismissal": "run out (Styris/McCullum)",
+                    "dismissal": "run out (Styris/ (wk)McCullum)",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "11",
@@ -247,7 +247,7 @@
                     "strike_rate": "127.41"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "80",
                     "balls": "47",
@@ -333,5 +333,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 10 wickets (with 107 balls remaining) (D/L method)"
+    "result": "New Zealand won by 10 wickets (with 107 balls remaining) (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Ryan Sidebottom",
+            "Stuart Broad",
+            "Graeme Swann",
+            "Kevin Pietersen",
+            "Ravi Bopara",
+            "Phil Mustard (wk)",
+            "Alastair Cook",
+            "Ian Bell",
+            "Owais Shah",
+            "James Anderson",
+            "Paul Collingwood(c)"
+        ],
+        "New Zealand": [
+            "Jamie How",
+            "Brendon McCullum (wk)",
+            "Chris Martin",
+            "Kyle Mills",
+            "Peter Fulton",
+            "Daniel Vettori (c)",
+            "Scott Styris",
+            "Ross Taylor",
+            "Michael Mason",
+            "Jesse Ryder",
+            "Jacob Oram"
+        ]
+    }
 }

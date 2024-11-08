@@ -96,7 +96,7 @@
                     "strike_rate": "123.68"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "lbw b Johnson",
                     "runs": "0",
                     "balls": "4",
@@ -107,7 +107,7 @@
                 },
                 {
                     "batsman": "Jamie Dalrymple",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "8",
@@ -233,8 +233,8 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Nixon b Dalrymple",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Nixon b Dalrymple",
                     "runs": "60",
                     "balls": "61",
                     "minutes": "69",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Nixon b Panesar",
+                    "dismissal": "c (wk)Nixon b Panesar",
                     "runs": "28",
                     "balls": "42",
                     "minutes": "82",
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 28 balls remaining)"
+    "result": "Australia won by 8 wickets (with 28 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Michael Vaughan(c)",
+            "Andrew Flintoff",
+            "James Anderson",
+            "Andrew Strauss",
+            "Jamie Dalrymple",
+            "Kevin Pietersen",
+            "Jon Lewis"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Glenn McGrath",
+            "Adam Gilchrist (wk)",
+            "Andrew Symonds",
+            "Ricky Ponting(c)",
+            "Stuart Clark",
+            "Nathan Bracken",
+            "Cameron White",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Michael Hussey"
+        ]
+    }
 }

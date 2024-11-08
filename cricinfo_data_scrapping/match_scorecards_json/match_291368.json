@@ -32,8 +32,8 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Dhoni b Sreesanth",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Dhoni b Sreesanth",
                     "runs": "16",
                     "balls": "7",
                     "minutes": "12",
@@ -210,7 +210,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Gilchrist b Clark",
+                    "dismissal": "c (wk)Gilchrist b Clark",
                     "runs": "17",
                     "balls": "19",
                     "minutes": "39",
@@ -230,7 +230,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "st Gilchrist b Hogg",
+                    "dismissal": "st (wk)Gilchrist b Hogg",
                     "runs": "113",
                     "balls": "119",
                     "minutes": "177",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "3",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Gilchrist b Clark",
+                    "dismissal": "c (wk)Gilchrist b Clark",
                     "runs": "5",
                     "balls": "3",
                     "minutes": "6",
@@ -259,8 +259,8 @@
                     "strike_rate": "166.66"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Gilchrist b Lee",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "36",
                     "balls": "66",
                     "minutes": "84",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "20",
                     "balls": "11",
                     "minutes": "16",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "Australia won by 18 runs"
+    "result": "Australia won by 18 runs",
+    "playing_xi": {
+        "Australia": [
+            "James Hopes",
+            "Nathan Bracken",
+            "Stuart Clark",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Sreesanth",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

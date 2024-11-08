@@ -53,7 +53,7 @@
                     "strike_rate": "105.71"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c RG Sharma b Yuvraj Singh",
                     "runs": "84",
                     "balls": "70",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Chamara Kapugedera",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Farveez Maharoof",
-                    "dismissal": "run out (Jadeja/Dhoni)",
+                    "dismissal": "run out (Jadeja/ (wk)Dhoni)",
                     "runs": "32",
                     "balls": "23",
                     "minutes": "38",
@@ -273,7 +273,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "37",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -322,7 +322,7 @@
                     "strike_rate": "68.18"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Kulasekara b Jayasuriya",
                     "runs": "53",
                     "balls": "58",
@@ -486,5 +486,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 68 runs"
+    "result": "Sri Lanka won by 68 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Nuwan Kulasekara",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ],
+        "India": [
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Virender Sehwag",
+            "Suresh Raina",
+            "MS Dhoni(c) (wk)",
+            "Yusuf Pathan",
+            "Rohit Sharma",
+            "Lakshmipathy Balaji",
+            "Ravindra Jadeja",
+            "Ishant Sharma",
+            "Irfan Pathan"
+        ]
+    }
 }

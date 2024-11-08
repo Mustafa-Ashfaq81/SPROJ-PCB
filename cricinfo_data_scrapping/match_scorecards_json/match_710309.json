@@ -31,7 +31,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Anamul Haque",
+                    "batsman": "Anamul Haque (wk)",
                     "dismissal": "c Thirimanne b Priyanjan",
                     "runs": "49",
                     "balls": "86",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c Anamul Haque b Al-Amin Hossain",
+                    "dismissal": "c (wk)Anamul Haque b Al-Amin Hossain",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -258,7 +258,7 @@
                     "strike_rate": "55.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Nasir Hossain b Al-Amin Hossain",
                     "runs": "2",
                     "balls": "5",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Ashan Priyanjan",
-                    "dismissal": "c Anamul Haque b Ziaur Rahman",
+                    "dismissal": "c (wk)Anamul Haque b Ziaur Rahman",
                     "runs": "24",
                     "balls": "38",
                     "minutes": "47",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Chaturanga de Silva",
-                    "dismissal": "c Anamul Haque b Mahmudullah",
+                    "dismissal": "c (wk)Anamul Haque b Mahmudullah",
                     "runs": "44",
                     "balls": "52",
                     "minutes": "72",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 3 wickets (with 6 balls remaining)"
+    "result": "Sri Lanka won by 3 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mominul Haque",
+            "Mahmudullah",
+            "Shamsur Rahman",
+            "Nasir Hossain",
+            "Rubel Hossain",
+            "Ziaur Rahman",
+            "Anamul Haque (wk)",
+            "Al-Amin Hossain",
+            "Arafat Sunny",
+            "Mushfiqur Rahim(c)",
+            "Shakib Al Hasan"
+        ],
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Sachithra Senanayake",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Ajantha Mendis",
+            "Suranga Lakmal",
+            "Angelo Mathews(c)",
+            "Chaturanga de Silva",
+            "Ashan Priyanjan"
+        ]
+    }
 }

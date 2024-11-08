@@ -62,7 +62,7 @@
                     "strike_rate": "61.33"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Mohammad Sami",
                     "runs": "38",
                     "balls": "52",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Younis Khan b Shoaib Malik",
+                    "dismissal": "c (wk)Younis Khan b Shoaib Malik",
                     "runs": "4",
                     "balls": "15",
                     "minutes": "-",
@@ -269,7 +269,7 @@
                     "strike_rate": "88.42"
                 }
             ],
-            "did_not_bat": "Shoaib Akhtar , Younis Khan , Inzamam-ul-Haq (c) , Shahid Afridi , Naved-ul-Hasan , Mohammad Sami , Abdul Razzaq",
+            "did_not_bat": "Shoaib Akhtar , Younis Khan (wk) , Inzamam-ul-Haq (c) , Shahid Afridi , Naved-ul-Hasan , Mohammad Sami , Abdul Razzaq",
             "fall_of_wickets": "Fall of wickets : 1 - 33 ( Yasir Hameed , 10.6 ov ) , 2 - 33 ( Salman Butt , 11.2 ov )",
             "bowling": [
                 {
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 8 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Farveez Maharoof",
+            "Kumar Sangakkara (wk)",
+            "Marvan Atapattu(c)",
+            "Avishka Gunawardene",
+            "Upul Chandana",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene",
+            "Nuwan Zoysa",
+            "Tillakaratne Dilshan",
+            "Kaushal Lokuarachchi"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Yasir Hameed",
+            "Shahid Afridi",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Shoaib Akhtar",
+            "Mohammad Sami",
+            "Shoaib Malik",
+            "Younis Khan (wk)",
+            "Inzamam-ul-Haq (c)",
+            "Naved-ul-Hasan"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c Woakes b Curran",
                     "runs": "36",
                     "balls": "20",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Akila Dananjaya",
-                    "dismissal": "run out (Bairstow/Buttler)",
+                    "dismissal": "run out (Bairstow/ (wk)Buttler)",
                     "runs": "7",
                     "balls": "4",
                     "minutes": "-",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Amila Aponso",
-                    "dismissal": "run out (Buttler/Curran)",
+                    "dismissal": "run out ( (wk)Buttler/Curran)",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -277,7 +277,7 @@
                     "strike_rate": "145.83"
                 }
             ],
-            "did_not_bat": "Jos Buttler , Moeen Ali , Chris Woakes , Tom Curran , Adil Rashid , Olly Stone",
+            "did_not_bat": "Jos Buttler (wk) , Moeen Ali , Chris Woakes , Tom Curran , Adil Rashid , Olly Stone",
             "fall_of_wickets": "Fall of wickets : 1 - 18 ( Jonny Bairstow , 1.2 ov ) , 2 - 34 ( Joe Root , 3.5 ov ) , 3 - 80 ( Jason Roy , 8.6 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 15 balls remaining)"
+    "result": "England won by 7 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dasun Shanaka",
+            "Akila Dananjaya",
+            "Dhananjaya de Silva",
+            "Kusal Mendis",
+            "Dinesh Chandimal(c)",
+            "Amila Aponso",
+            "Thisara Perera",
+            "Niroshan Dickwella (wk)",
+            "Sadeera Samarawickrama",
+            "Nuwan Pradeep",
+            "Lasith Malinga"
+        ],
+        "England": [
+            "Moeen Ali",
+            "Jason Roy",
+            "Joe Root",
+            "Jonny Bairstow",
+            "Chris Woakes",
+            "Tom Curran",
+            "Olly Stone",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Eoin Morgan(c)",
+            "Ben Stokes"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Steven Smith(c)",
-                    "dismissal": "c Rahul b Pandya",
+                    "dismissal": "c (wk)Rahul b Pandya",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "10",
@@ -80,7 +80,7 @@
                     "strike_rate": "62.22"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "b Kuldeep Yadav",
                     "runs": "38",
                     "balls": "46",
@@ -267,7 +267,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c Abbott b Zampa",
                     "runs": "32",
                     "balls": "50",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Axar Patel",
-                    "dismissal": "run out (Smith/Carey)",
+                    "dismissal": "run out (Smith/ (wk)Carey)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "8",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Kuldeep Yadav",
-                    "dismissal": "run out (Stoinis/Carey)",
+                    "dismissal": "run out (Stoinis/ (wk)Carey)",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "33",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Australia won by 21 runs"
+    "result": "Australia won by 21 runs",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "Marcus Stoinis",
+            "Mitchell Starc",
+            "David Warner",
+            "Sean Abbott",
+            "Mitchell Marsh",
+            "Alex Carey (wk)",
+            "Ashton Agar",
+            "Marnus Labuschagne",
+            "Adam Zampa",
+            "Travis Head"
+        ],
+        "India": [
+            "Rohit Sharma(c)",
+            "Hardik Pandya",
+            "Suryakumar Yadav",
+            "Mohammed Siraj",
+            "Ravindra Jadeja",
+            "Shubman Gill",
+            "Kuldeep Yadav",
+            "Axar Patel",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "KL Rahul (wk)"
+        ]
+    }
 }

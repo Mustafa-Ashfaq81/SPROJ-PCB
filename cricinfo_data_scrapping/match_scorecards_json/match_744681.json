@@ -84,7 +84,7 @@
                     "strike_rate": "117.39"
                 },
                 {
-                    "batsman": "Wriddhiman Saha",
+                    "batsman": "Wriddhiman Saha (wk)",
                     "dismissal": "lbw b Mashrafe Mortaza",
                     "runs": "5",
                     "balls": "12",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Stuart Binny",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "29",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Saha b Sharma",
+                    "dismissal": "c (wk)Saha b Sharma",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "1",
@@ -257,8 +257,8 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
-                    "dismissal": "c Saha b Binny",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
+                    "dismissal": "c (wk)Saha b Binny",
                     "runs": "11",
                     "balls": "24",
                     "minutes": "43",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Saha b Sharma",
+                    "dismissal": "c (wk)Saha b Sharma",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "16",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "c Saha b Binny",
+                    "dismissal": "c (wk)Saha b Binny",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "7",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "India won by 47 runs (D/L method)"
+    "result": "India won by 47 runs (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Axar Patel",
+            "Wriddhiman Saha (wk)",
+            "Suresh Raina(c)",
+            "Robin Uthappa",
+            "Amit Mishra",
+            "Ajinkya Rahane",
+            "Mohit Sharma",
+            "Umesh Yadav",
+            "Ambati Rayudu",
+            "Stuart Binny",
+            "Cheteshwar Pujara"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Mohammad Mithun",
+            "Taskin Ahmed",
+            "Mushfiqur Rahim(c) (wk)",
+            "Nasir Hossain",
+            "Al-Amin Hossain",
+            "Anamul Haque",
+            "Mashrafe Mortaza",
+            "Ziaur Rahman",
+            "Shakib Al Hasan",
+            "Tamim Iqbal"
+        ]
+    }
 }

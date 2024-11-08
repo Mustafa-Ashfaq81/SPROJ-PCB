@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Soumya Sarkar",
-                    "dismissal": "c Mohammad Shahzad b Mirwais Ashraf",
+                    "dismissal": "c (wk)Mohammad Shahzad b Mirwais Ashraf",
                     "runs": "11",
                     "balls": "11",
                     "minutes": "21",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Mohammad Shahzad b Dawlat Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Dawlat Zadran",
                     "runs": "17",
                     "balls": "35",
                     "minutes": "52",
@@ -70,7 +70,7 @@
                     "strike_rate": "48.57"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "lbw b Rashid Khan",
                     "runs": "12",
                     "balls": "13",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Mosaddek Hossain",
-                    "dismissal": "st Mohammad Shahzad b Rashid Khan",
+                    "dismissal": "st (wk)Mohammad Shahzad b Rashid Khan",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "3",
@@ -241,7 +241,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Mashrafe Mortaza",
                     "runs": "0",
                     "balls": "7",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Samiullah Shinwari",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "13",
                     "balls": "18",
                     "minutes": "28",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 141 runs"
+    "result": "Bangladesh won by 141 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mosharraf Hossain",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Taskin Ahmed",
+            "Mashrafe Mortaza(c)",
+            "Soumya Sarkar",
+            "Sabbir Rahman",
+            "Shakib Al Hasan",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Afghanistan": [
+            "Dawlat Zadran",
+            "Rashid Khan",
+            "Mohammad Shahzad (wk)",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Asghar Afghan(c)",
+            "Mohammad Nabi",
+            "Nawroz Mangal",
+            "Najibullah Zadran",
+            "Rahmat Shah",
+            "Hashmatullah Shahidi"
+        ]
+    }
 }

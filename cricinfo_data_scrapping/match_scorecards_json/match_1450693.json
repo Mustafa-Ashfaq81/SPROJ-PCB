@@ -54,7 +54,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Zane Green",
+                    "batsman": "Zane Green (wk)",
                     "dismissal": "b van Schalkwyk",
                     "runs": "17",
                     "balls": "30",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Jan Nicol Loftie-Eaton",
-                    "dismissal": "c SK Patel b van Schalkwyk",
+                    "dismissal": "c (wk)SK Patel b van Schalkwyk",
                     "runs": "49",
                     "balls": "47",
                     "minutes": "-",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Peter-Daniel Blignaut",
-                    "dismissal": "run out (Milind Kumar/SK Patel)",
+                    "dismissal": "run out (Milind Kumar/ (wk)SK Patel)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "-",
@@ -241,8 +241,8 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Smit Patel",
-                    "dismissal": "c Green b Leicher",
+                    "batsman": "Smit Patel (wk)",
+                    "dismissal": "c (wk)Green b Leicher",
                     "runs": "9",
                     "balls": "19",
                     "minutes": "-",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "U.S.A. won by 7 wickets (with 30 balls remaining)"
+    "result": "U.S.A. won by 7 wickets (with 30 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Bernard Scholtz",
+            "Peter-Daniel Blignaut",
+            "JJ Smit",
+            "Michael van Lingen",
+            "Jan Nicol Loftie-Eaton",
+            "Tangeni Lungameni",
+            "Dylan Leicher",
+            "Zane Green (wk)",
+            "Malan Kruger",
+            "JP Kotze",
+            "Gerhard Erasmus(c)"
+        ],
+        "United States of America": [
+            "Saiteja Mukkamalla",
+            "Jasdeep Singh",
+            "Smit Patel (wk)",
+            "Monank Patel(c)",
+            "Milind Kumar",
+            "Nosthush Kenjige",
+            "Andries Gous",
+            "Yasir Mohammad",
+            "Shadley van Schalkwyk",
+            "Saurabh Netravalkar",
+            "Shayan Jahangir"
+        ]
+    }
 }

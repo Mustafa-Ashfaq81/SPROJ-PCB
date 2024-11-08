@@ -51,7 +51,7 @@
                     "strike_rate": "38.88"
                 },
                 {
-                    "batsman": "Morne van Wyk",
+                    "batsman": "Morne van Wyk (wk)",
                     "dismissal": "b Dockrell",
                     "runs": "42",
                     "balls": "41",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "run out (NJ O'Brien/Porterfield)",
+                    "dismissal": "run out ( (wk)NJ O'Brien/Porterfield)",
                     "runs": "19",
                     "balls": "31",
                     "minutes": "43",
@@ -248,8 +248,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "c van Wyk b Kallis",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "c (wk)van Wyk b Kallis",
                     "runs": "10",
                     "balls": "16",
                     "minutes": "23",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "John Mooney",
-                    "dismissal": "c van Wyk b Kallis",
+                    "dismissal": "c (wk)van Wyk b Kallis",
                     "runs": "14",
                     "balls": "28",
                     "minutes": "49",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Trent Johnston",
-                    "dismissal": "c van Wyk b Duminy",
+                    "dismissal": "c (wk)van Wyk b Duminy",
                     "runs": "12",
                     "balls": "16",
                     "minutes": "14",
@@ -309,7 +309,7 @@
                 },
                 {
                     "batsman": "George Dockrell",
-                    "dismissal": "c van Wyk b Morkel",
+                    "dismissal": "c (wk)van Wyk b Morkel",
                     "runs": "16",
                     "balls": "12",
                     "minutes": "19",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 131 runs"
+    "result": "South Africa won by 131 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Morne van Wyk (wk)",
+            "Graeme Smith(c)",
+            "Hashim Amla",
+            "Morne Morkel",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Colin Ingram",
+            "Robin Peterson",
+            "Dale Steyn",
+            "Faf du Plessis"
+        ],
+        "Ireland": [
+            "John Mooney",
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "Boyd Rankin",
+            "Ed Joyce",
+            "Gary Wilson",
+            "Trent Johnston",
+            "Niall O'Brien (wk)",
+            "Alex Cusack",
+            "George Dockrell",
+            "Paul Stirling"
+        ]
+    }
 }

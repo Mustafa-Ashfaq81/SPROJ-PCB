@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Murray b Tiripano",
+                    "dismissal": "c (wk)Murray b Tiripano",
                     "runs": "22",
                     "balls": "22",
                     "minutes": "42",
@@ -95,7 +95,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "9",
@@ -272,7 +272,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Ryan Murray",
+                    "batsman": "Ryan Murray (wk)",
                     "dismissal": "not out",
                     "runs": "32",
                     "balls": "48",
@@ -313,7 +313,7 @@
                 },
                 {
                     "batsman": "Tendai Chatara",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Amir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Amir",
                     "runs": "5",
                     "balls": "21",
                     "minutes": "17",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 201 runs"
+    "result": "Pakistan won by 201 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Sarfaraz Ahmed(c) (wk)",
+            "Fakhar Zaman",
+            "Shadab Khan",
+            "Asif Ali",
+            "Mohammad Amir",
+            "Usman Shinwari",
+            "Babar Azam",
+            "Imam-ul-Haq",
+            "Shoaib Malik",
+            "Faheem Ashraf",
+            "Hasan Ali"
+        ],
+        "Zimbabwe": [
+            "Brian Chari",
+            "Hamilton Masakadza(c)",
+            "Tarisai Musakanda",
+            "Chamu Chibhabha",
+            "Blessing Muzarabani",
+            "Liam Roche",
+            "Ryan Murray (wk)",
+            "Peter Moor",
+            "Donald Tiripano",
+            "Wellington Masakadza",
+            "Tendai Chatara"
+        ]
+    }
 }

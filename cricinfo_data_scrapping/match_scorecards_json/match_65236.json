@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Andy Flower",
-                    "dismissal": "c Karg b AJ Burger",
+                    "dismissal": "c (wk)Karg b AJ Burger",
                     "runs": "39",
                     "balls": "29",
                     "minutes": "37",
@@ -84,7 +84,7 @@
                     "strike_rate": "141.81"
                 }
             ],
-            "did_not_bat": "Dion Ebrahim , Guy Whittall , Tatenda Taibu , Heath Streak (c) , Brian Murphy , Douglas Hondo , Henry Olonga",
+            "did_not_bat": "Dion Ebrahim , Guy Whittall , Tatenda Taibu (wk) , Heath Streak (c) , Brian Murphy , Douglas Hondo , Henry Olonga",
             "fall_of_wickets": "Fall of wickets : 1 - 107 ( Mark Vermeulen , 21.4 ov ) , 2 - 174 ( Andy Flower , 30.3 ov )",
             "bowling": [
                 {
@@ -182,7 +182,7 @@
             "batting": [
                 {
                     "batsman": "Riaan Walters",
-                    "dismissal": "c Taibu b Streak",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -251,7 +251,7 @@
                     "strike_rate": "166.66"
                 }
             ],
-            "did_not_bat": "Morne Karg , Gerrie Snyman , Lennie Louw , Bjorn Kotze",
+            "did_not_bat": "Morne Karg (wk) , Gerrie Snyman , Lennie Louw , Bjorn Kotze",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Riaan Walters , 0.1 ov ) , 2 - 40 ( Jan-Berrie Burger , 6.6 ov ) , 3 - 80 ( Stefan Swanepoel , 16.4 ov ) , 4 - 94 ( Danie Keulder , 22.4 ov ) , 5 - 98 ( Gavin Murgatroyd , 23.6 ov )",
             "bowling": [
                 {
@@ -341,5 +341,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 86 runs (D/L method)"
+    "result": "Zimbabwe won by 86 runs (D/L method)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Mark Vermeulen",
+            "Dion Ebrahim",
+            "Andy Flower",
+            "Guy Whittall",
+            "Heath Streak (c)",
+            "Tatenda Taibu (wk)",
+            "Craig Wishart",
+            "Brian Murphy",
+            "Douglas Hondo",
+            "Henry Olonga",
+            "Grant Flower"
+        ],
+        "Namibia": [
+            "Riaan Walters",
+            "Deon Kotze(c)",
+            "Louis Burger",
+            "Lennie Louw",
+            "Jan-Berrie Burger",
+            "Gerrie Snyman",
+            "Bjorn Kotze",
+            "Stefan Swanepoel",
+            "Danie Keulder",
+            "Morne Karg (wk)",
+            "Gavin Murgatroyd"
+        ]
+    }
 }

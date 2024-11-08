@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Richard Jones",
-                    "dismissal": "run out (Shoaib Akhtar/Moin Khan)",
+                    "dismissal": "run out (Shoaib Akhtar/ (wk)Moin Khan)",
                     "runs": "17",
                     "balls": "34",
                     "minutes": "55",
@@ -90,7 +90,7 @@
                     "strike_rate": "78.68"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "run out (Shoaib Malik/Yasir Hameed)",
                     "runs": "10",
                     "balls": "18",
@@ -273,7 +273,7 @@
                     "strike_rate": "88.88"
                 }
             ],
-            "did_not_bat": "Abdul Razzaq , Moin Khan , Mohammad Yousuf , Inzamam-ul-Haq (c) , Umar Gul , Shoaib Akhtar",
+            "did_not_bat": "Abdul Razzaq , Moin Khan (wk) , Mohammad Yousuf , Inzamam-ul-Haq (c) , Umar Gul , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 134 ( Yasir Hameed , 26.5 ov ) , 2 - 153 ( Azhar Mahmood , 30.6 ov ) , 3 - 162 ( Imran Farhat , 35.4 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 52 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 52 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mathew Sinclair",
+            "Brendon McCullum (wk)",
+            "Hamish Marshall",
+            "Chris Harris",
+            "Richard Jones",
+            "Craig Cumming",
+            "Chris Cairns(c)",
+            "Daryl Tuffey",
+            "Tama Canning",
+            "Michael Mason",
+            "Paul Hitchcock"
+        ],
+        "Pakistan": [
+            "Inzamam-ul-Haq (c)",
+            "Yasir Hameed",
+            "Imran Farhat",
+            "Mohammad Yousuf",
+            "Umar Gul",
+            "Azhar Mahmood",
+            "Moin Khan (wk)",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Saleem Elahi",
+            "Shoaib Akhtar"
+        ]
+    }
 }

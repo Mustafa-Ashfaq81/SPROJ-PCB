@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Sarfaraz Ahmed b Sohail Tanvir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Sohail Tanvir",
                     "runs": "58",
                     "balls": "78",
                     "minutes": "100",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Irfan",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Irfan",
                     "runs": "26",
                     "balls": "37",
                     "minutes": "50",
@@ -90,7 +90,7 @@
                     "strike_rate": "116.66"
                 }
             ],
-            "did_not_bat": "Luke Ronchi , Daniel Vettori , Adam Milne , Matt Henry , Mitchell McClenaghan",
+            "did_not_bat": "Luke Ronchi (wk) , Daniel Vettori , Adam Milne , Matt Henry , Mitchell McClenaghan",
             "fall_of_wickets": "Fall of wickets : 1 - 81 ( Dean Brownlie , 16.4 ov ) , 2 - 125 ( Martin Guptill , 23.6 ov ) , 3 - 188 ( Ross Taylor , 36.3 ov ) , 4 - 227 ( Corey Anderson , 42.1 ov ) , 5 - 299 ( Kane Williamson , 49.6 ov )",
             "bowling": [
                 {
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Ronchi b Vettori",
+                    "dismissal": "c (wk)Ronchi b Vettori",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "12",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi(c)",
-                    "dismissal": "c Ronchi b Milne",
+                    "dismissal": "c (wk)Ronchi b Milne",
                     "runs": "49",
                     "balls": "25",
                     "minutes": "36",
@@ -257,8 +257,8 @@
                     "strike_rate": "196.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "batsman": "Sarfaraz Ahmed (wk)",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "18",
                     "balls": "13",
                     "minutes": "21",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 runs"
+    "result": "New Zealand won by 7 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Adam Milne",
+            "Kane Williamson(c)",
+            "Tom Latham",
+            "Matt Henry",
+            "Dean Brownlie",
+            "Ross Taylor",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "Pakistan": [
+            "Sohail Tanvir",
+            "Nasir Jamshed",
+            "Haris Sohail",
+            "Anwar Ali",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Shahid Afridi(c)",
+            "Sarfaraz Ahmed (wk)",
+            "Younis Khan",
+            "Umar Akmal"
+        ]
+    }
 }

@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "c Latham b Ferguson",
+                    "dismissal": "c (wk)Latham b Ferguson",
                     "runs": "40",
                     "balls": "51",
                     "minutes": "75",
@@ -81,7 +81,7 @@
                     "strike_rate": "78.43"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Henry",
                     "runs": "66",
                     "balls": "75",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Mustafizur Rahman",
-                    "dismissal": "c Latham b Henry",
+                    "dismissal": "c (wk)Latham b Henry",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "14",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Rachin Ravindra",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "12",
@@ -302,7 +302,7 @@
                     "strike_rate": "145.45"
                 }
             ],
-            "did_not_bat": "Tom Latham , Mark Chapman , Mitchell Santner , Matt Henry , Lockie Ferguson , Trent Boult",
+            "did_not_bat": "Tom Latham (wk) , Mark Chapman , Mitchell Santner , Matt Henry , Lockie Ferguson , Trent Boult",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Rachin Ravindra , 2.4 ov ) , 2 - 92 ( Devon Conway , 20.1 ov ) , 2 - 200 * ( Kane Williamson , retired not out ) DRS",
             "bowling": [
                 {
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 8 wickets (with 43 balls remaining)"
+    "result": "New Zealand won by 8 wickets (with 43 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Mahmudullah",
+            "Tanzid Hasan",
+            "Mustafizur Rahman",
+            "Shoriful Islam",
+            "Najmul Hossain Shanto",
+            "Towhid Hridoy",
+            "Shakib Al Hasan(c)",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Devon Conway",
+            "Daryl Mitchell",
+            "Kane Williamson(c)",
+            "Matt Henry",
+            "Mark Chapman",
+            "Trent Boult",
+            "Rachin Ravindra",
+            "Glenn Phillips",
+            "Tom Latham (wk)",
+            "Lockie Ferguson"
+        ]
+    }
 }

@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "st Smith b Haq",
+                    "dismissal": "st (wk)Smith b Haq",
                     "runs": "52",
                     "balls": "46",
                     "minutes": "70",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Smith b Haq",
+                    "dismissal": "c (wk)Smith b Haq",
                     "runs": "44",
                     "balls": "52",
                     "minutes": "77",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar(c)",
-                    "dismissal": "c Smith b Brown",
+                    "dismissal": "c (wk)Smith b Brown",
                     "runs": "22",
                     "balls": "31",
                     "minutes": "39",
@@ -92,7 +92,7 @@
                     "strike_rate": "82.60"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Brown b Rogers",
                     "runs": "6",
                     "balls": "16",
@@ -259,7 +259,7 @@
                     "strike_rate": "31.94"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "b Abdur Razzak",
                     "runs": "2",
                     "balls": "6",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 146 runs"
+    "result": "Bangladesh won by 146 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mohammad Rafique",
+            "Shakib Al Hasan",
+            "Mehrab Hossain jnr",
+            "Habibul Bashar(c)",
+            "Shahriar Nafees",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Aftab Ahmed",
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Scotland": [
+            "Navdeep Poonia",
+            "Neil McCallum",
+            "Gavin Hamilton",
+            "Craig Wright(c)",
+            "Paul Hoffmann",
+            "John Blain",
+            "Dougie Brown",
+            "Fraser Watts",
+            "Majid Haq",
+            "Glenn Rogers",
+            "Colin Smith (wk)"
+        ]
+    }
 }

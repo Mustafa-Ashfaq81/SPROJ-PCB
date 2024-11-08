@@ -61,7 +61,7 @@
                     "strike_rate": "78.57"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b JA Morkel",
                     "runs": "33",
                     "balls": "38",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Boucher b M Morkel",
+                    "dismissal": "c (wk)Boucher b M Morkel",
                     "runs": "51",
                     "balls": "44",
                     "minutes": "52",
@@ -219,7 +219,7 @@
             "batting": [
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Dhoni b Mohammad Asif",
+                    "dismissal": "c (wk)Dhoni b Mohammad Asif",
                     "runs": "13",
                     "balls": "10",
                     "minutes": "12",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Dhoni b Fernando",
+                    "dismissal": "c (wk)Dhoni b Fernando",
                     "runs": "35",
                     "balls": "39",
                     "minutes": "63",
@@ -258,7 +258,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Mohammad Asif b Fernando",
                     "runs": "73",
                     "balls": "71",
@@ -446,5 +446,33 @@
             ]
         }
     ],
-    "result": "Asia XI won by 31 runs"
+    "result": "Asia XI won by 31 runs",
+    "playing_xi": {
+        "Asia XI": [
+            "Zaheer Khan",
+            "Mahela Jayawardene(c)",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Mohammad Asif",
+            "Sanath Jayasuriya",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Mohammad Yousuf",
+            "Dilhara Fernando",
+            "Mohammad Rafique"
+        ],
+        "Africa XI": [
+            "AB de Villiers",
+            "Elton Chigumbura",
+            "Vusi Sibanda",
+            "Johan Botha",
+            "Boeta Dippenaar",
+            "Justin Kemp(c)",
+            "Mark Boucher (wk)",
+            "Thomas Odoyo",
+            "Albie Morkel",
+            "Morne Morkel",
+            "Shaun Pollock"
+        ]
+    }
 }

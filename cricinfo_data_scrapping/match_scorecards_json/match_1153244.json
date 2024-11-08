@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Anshy Rath(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Faheem Ashraf",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Faheem Ashraf",
                     "runs": "19",
                     "balls": "34",
                     "minutes": "-",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Babar Hayat",
-                    "dismissal": "st Sarfaraz Ahmed b Shadab Khan",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Shadab Khan",
                     "runs": "7",
                     "balls": "29",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                     "strike_rate": "57.44"
                 },
                 {
-                    "batsman": "Scott McKechnie",
+                    "batsman": "Scott McKechnie (wk)",
                     "dismissal": "lbw b Usman Shinwari",
                     "runs": "0",
                     "balls": "3",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Ehsan Nawaz",
-                    "dismissal": "run out (sub [Mohammad Nawaz]/Hasan Ali/Sarfaraz Ahmed)",
+                    "dismissal": "run out (sub [Mohammad Nawaz]/Hasan Ali/ (wk)Sarfaraz Ahmed)",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "-",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "c McKechnie b Ehsan Khan",
+                    "dismissal": "c (wk)McKechnie b Ehsan Khan",
                     "runs": "24",
                     "balls": "27",
                     "minutes": "-",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Babar Azam",
-                    "dismissal": "c McKechnie b Ehsan Khan",
+                    "dismissal": "c (wk)McKechnie b Ehsan Khan",
                     "runs": "33",
                     "balls": "36",
                     "minutes": "-",
@@ -292,7 +292,7 @@
                     "strike_rate": "81.81"
                 }
             ],
-            "did_not_bat": "Sarfaraz Ahmed (c) , Asif Ali , Shadab Khan , Faheem Ashraf , Mohammad Amir , Hasan Ali , Usman Shinwari",
+            "did_not_bat": "Sarfaraz Ahmed (c) (wk) , Asif Ali , Shadab Khan , Faheem Ashraf , Mohammad Amir , Hasan Ali , Usman Shinwari",
             "fall_of_wickets": "Fall of wickets : 1 - 41 ( Fakhar Zaman , 8.1 ov ) , 2 - 93 ( Babar Azam , 20.2 ov )",
             "bowling": [
                 {
@@ -368,5 +368,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 158 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 158 balls remaining)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Ehsan Nawaz",
+            "Aizaz Khan",
+            "Scott McKechnie (wk)",
+            "Tanwir Afzal",
+            "Kinchit Shah",
+            "Christopher Carter",
+            "Babar Hayat",
+            "Nadeem Ahmed",
+            "Nizakat Khan",
+            "Ehsan Khan",
+            "Anshy Rath(c)"
+        ],
+        "Pakistan": [
+            "Hasan Ali",
+            "Asif Ali",
+            "Mohammad Amir",
+            "Faheem Ashraf",
+            "Imam-ul-Haq",
+            "Babar Azam",
+            "Shoaib Malik",
+            "Shadab Khan",
+            "Sarfaraz Ahmed (c) (wk)",
+            "Fakhar Zaman",
+            "Usman Shinwari"
+        ]
+    }
 }

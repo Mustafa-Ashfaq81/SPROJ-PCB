@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "32",
                     "balls": "70",
                     "minutes": "94",
@@ -60,7 +60,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "c Chatara b Utseya",
                     "runs": "32",
                     "balls": "41",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Nasir Hossain",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "63",
                     "balls": "74",
                     "minutes": "76",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Abdur Razzak",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "13",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Shafiul Islam",
-                    "dismissal": "run out (Sibanda/Taylor)",
+                    "dismissal": "run out (Sibanda/ (wk)Taylor)",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "17",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Mushfiqur Rahim b Robiul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Robiul Islam",
                     "runs": "41",
                     "balls": "46",
                     "minutes": "64",
@@ -271,8 +271,8 @@
                     "strike_rate": "71.15"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "batsman": "Brendan Taylor(c) (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "6",
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 7 wickets (with 17 balls remaining)"
+    "result": "Zimbabwe won by 7 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mahmudullah",
+            "Mohammad Ashraful",
+            "Jahurul Islam",
+            "Shafiul Islam",
+            "Robiul Islam",
+            "Mushfiqur Rahim(c) (wk)",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Ziaur Rahman",
+            "Shakib Al Hasan",
+            "Tamim Iqbal"
+        ],
+        "Zimbabwe": [
+            "Tendai Chatara",
+            "Kyle Jarvis",
+            "Brian Vitori",
+            "Brendan Taylor(c) (wk)",
+            "Prosper Utseya",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Sikandar Raza",
+            "Elton Chigumbura",
+            "Malcolm Waller"
+        ]
+    }
 }

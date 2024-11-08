@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Rahmanullah Gurbaz b Azmatullah Omarzai",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Azmatullah Omarzai",
                     "runs": "46",
                     "balls": "60",
                     "minutes": "82",
@@ -51,7 +51,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
+                    "batsman": "Kusal Mendis(c) (wk)",
                     "dismissal": "c sub (Najibullah Zadran) b Mujeeb Ur Rahman",
                     "runs": "39",
                     "balls": "50",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Kasun Rajitha",
-                    "dismissal": "run out (Rahmanullah Gurbaz)",
+                    "dismissal": "run out ( (wk)Rahmanullah Gurbaz)",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "14",
@@ -288,7 +288,7 @@
                     "strike_rate": "115.87"
                 }
             ],
-            "did_not_bat": "Ikram Alikhil , Mohammad Nabi , Rashid Khan , Mujeeb Ur Rahman , Naveen-ul-Haq , Fazalhaq Farooqi",
+            "did_not_bat": "Ikram Alikhil (wk) , Mohammad Nabi , Rashid Khan , Mujeeb Ur Rahman , Naveen-ul-Haq , Fazalhaq Farooqi",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Rahmanullah Gurbaz , 0.4 ov ) , 2 - 73 ( Ibrahim Zadran , 16.5 ov ) , 3 - 131 ( Rahmat Shah , 27.6 ov ) DRS",
             "bowling": [
                 {
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 7 wickets (with 28 balls remaining)"
+    "result": "Afghanistan won by 7 wickets (with 28 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Maheesh Theekshana",
+            "Pathum Nissanka",
+            "Kusal Mendis(c) (wk)",
+            "Dhananjaya de Silva",
+            "Dilshan Madushanka",
+            "Dushmantha Chameera",
+            "Angelo Mathews",
+            "Charith Asalanka",
+            "Kasun Rajitha",
+            "Sadeera Samarawickrama",
+            "Dimuth Karunaratne"
+        ],
+        "Afghanistan": [
+            "Naveen-ul-Haq",
+            "Azmatullah Omarzai",
+            "Hashmatullah Shahidi(c)",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman",
+            "Rahmanullah Gurbaz",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi",
+            "Ikram Alikhil (wk)"
+        ]
+    }
 }

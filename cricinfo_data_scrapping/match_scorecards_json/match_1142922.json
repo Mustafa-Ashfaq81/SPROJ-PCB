@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Prince Masvaure",
-                    "dismissal": "c Sarfaraz Ahmed b Usman Shinwari",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Usman Shinwari",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "5",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Tarisai Musakanda",
-                    "dismissal": "c Sarfaraz Ahmed b Junaid Khan",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Junaid Khan",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "9",
@@ -83,7 +83,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Ryan Murray",
+                    "batsman": "Ryan Murray (wk)",
                     "dismissal": "b Faheem Ashraf",
                     "runs": "8",
                     "balls": "16",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Sarfaraz Ahmed b Faheem Ashraf",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Faheem Ashraf",
                     "runs": "9",
                     "balls": "11",
                     "minutes": "9",
@@ -227,7 +227,7 @@
             "batting": [
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "c Murray b Muzarabani",
+                    "dismissal": "c (wk)Murray b Muzarabani",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -256,7 +256,7 @@
                     "strike_rate": "55.88"
                 }
             ],
-            "did_not_bat": "Shoaib Malik , Asif Ali , Sarfaraz Ahmed (c) , Faheem Ashraf , Shadab Khan , Yasir Shah , Junaid Khan , Usman Shinwari",
+            "did_not_bat": "Shoaib Malik , Asif Ali , Sarfaraz Ahmed (c) (wk) , Faheem Ashraf , Shadab Khan , Yasir Shah , Junaid Khan , Usman Shinwari",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Imam-ul-Haq , 0.1 ov )",
             "bowling": [
                 {
@@ -290,5 +290,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 9 wickets (with 241 balls remaining)"
+    "result": "Pakistan won by 9 wickets (with 241 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Hamilton Masakadza(c)",
+            "Tendai Chisoro",
+            "Tarisai Musakanda",
+            "Chamu Chibhabha",
+            "Blessing Muzarabani",
+            "Ryan Murray (wk)",
+            "Peter Moor",
+            "Wellington Masakadza",
+            "Richard Ngarava",
+            "Prince Masvaure"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Shadab Khan",
+            "Asif Ali",
+            "Yasir Shah",
+            "Usman Shinwari",
+            "Babar Azam",
+            "Imam-ul-Haq",
+            "Shoaib Malik",
+            "Sarfaraz Ahmed (c) (wk)",
+            "Faheem Ashraf",
+            "Junaid Khan"
+        ]
+    }
 }

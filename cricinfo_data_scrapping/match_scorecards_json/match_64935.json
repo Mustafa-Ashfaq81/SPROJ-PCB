@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "37",
                     "balls": "60",
                     "minutes": "83",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "James Marshall",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "29",
@@ -104,7 +104,7 @@
                     "strike_rate": "102.85"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Katich b Lee",
                     "runs": "17",
                     "balls": "21",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Kyle Mills",
-                    "dismissal": "run out (Kasprowicz/Hussey/Gilchrist)",
+                    "dismissal": "run out (Kasprowicz/Hussey/ (wk)Gilchrist)",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "13",
@@ -241,7 +241,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist(c)",
+                    "batsman": "Adam Gilchrist(c) (wk)",
                     "dismissal": "c McMillan b Wilson",
                     "runs": "54",
                     "balls": "37",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Simon Katich",
-                    "dismissal": "c McCullum b Cairns",
+                    "dismissal": "c (wk)McCullum b Cairns",
                     "runs": "43",
                     "balls": "41",
                     "minutes": "43",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 94 balls remaining)"
+    "result": "Australia won by 7 wickets (with 94 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Chris Cairns",
+            "Nathan Astle",
+            "Stephen Fleming(c)",
+            "James Marshall",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Jeff Wilson",
+            "Lance Hamilton",
+            "Kyle Mills",
+            "Craig Cumming",
+            "Hamish Marshall"
+        ],
+        "Australia": [
+            "James Hopes",
+            "Jason Gillespie",
+            "Damien Martyn",
+            "Simon Katich",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Michael Hussey",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Adam Gilchrist(c) (wk)"
+        ]
+    }
 }

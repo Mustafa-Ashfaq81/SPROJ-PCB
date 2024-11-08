@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c Haddin b Bollinger",
+                    "dismissal": "c (wk)Haddin b Bollinger",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "-",
@@ -93,7 +93,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Clark",
                     "runs": "1",
                     "balls": "5",
@@ -278,8 +278,8 @@
                     "strike_rate": "60.71"
                 },
                 {
-                    "batsman": "Brad Haddin",
-                    "dismissal": "c Kamran Akmal b Shoaib Akhtar",
+                    "batsman": "Brad Haddin (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Shoaib Akhtar",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 34 balls remaining)"
+    "result": "Australia won by 8 wickets (with 34 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Yasir Arafat",
+            "Sohail Tanvir",
+            "Shoaib Akhtar",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Salman Butt",
+            "Misbah-ul-Haq",
+            "Shahid Afridi"
+        ],
+        "Australia": [
+            "Callum Ferguson",
+            "Nathan Bracken",
+            "Shane Watson",
+            "Andrew Symonds",
+            "Michael Clarke(c)",
+            "Brad Haddin (wk)",
+            "Stuart Clark",
+            "Nathan Hauritz",
+            "James Hopes",
+            "Marcus North",
+            "Doug Bollinger"
+        ]
+    }
 }

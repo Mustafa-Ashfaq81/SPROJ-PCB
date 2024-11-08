@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Dimuth Karunaratne(c)",
-                    "dismissal": "c Buttler b Archer",
+                    "dismissal": "c (wk)Buttler b Archer",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "9",
@@ -42,7 +42,7 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "c Ali b Woakes",
                     "runs": "2",
                     "balls": "6",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c MDKJ Perera b Malinga",
+                    "dismissal": "c (wk)MDKJ Perera b Malinga",
                     "runs": "57",
                     "balls": "89",
                     "minutes": "126",
@@ -303,7 +303,7 @@
                     "strike_rate": "92.13"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "lbw b Malinga",
                     "runs": "10",
                     "balls": "9",
@@ -324,7 +324,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c MDKJ Perera b de Silva",
+                    "dismissal": "c (wk)MDKJ Perera b de Silva",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "8",
@@ -334,7 +334,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "c MDKJ Perera b de Silva",
+                    "dismissal": "c (wk)MDKJ Perera b de Silva",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "3",
@@ -354,7 +354,7 @@
                 },
                 {
                     "batsman": "Mark Wood",
-                    "dismissal": "c MDKJ Perera b Pradeep",
+                    "dismissal": "c (wk)MDKJ Perera b Pradeep",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "19",
@@ -453,5 +453,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 20 runs"
+    "result": "Sri Lanka won by 20 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Angelo Mathews",
+            "Jeevan Mendis",
+            "Kusal Perera (wk)",
+            "Avishka Fernando",
+            "Isuru Udana",
+            "Dimuth Karunaratne(c)",
+            "Lasith Malinga",
+            "Kusal Mendis",
+            "Nuwan Pradeep",
+            "Thisara Perera",
+            "Dhananjaya de Silva"
+        ],
+        "England": [
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Jofra Archer",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "James Vince",
+            "Ben Stokes",
+            "Mark Wood",
+            "Moeen Ali"
+        ]
+    }
 }

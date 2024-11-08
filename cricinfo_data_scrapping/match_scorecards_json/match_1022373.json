@@ -60,7 +60,7 @@
                     "strike_rate": "90.47"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Kohli b Jadhav",
                     "runs": "61",
                     "balls": "85",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Dhoni b Jadeja",
+                    "dismissal": "c (wk)Dhoni b Jadeja",
                     "runs": "15",
                     "balls": "23",
                     "minutes": "18",
@@ -247,7 +247,7 @@
                     "strike_rate": "123.07"
                 }
             ],
-            "did_not_bat": "Yuvraj Singh , MS Dhoni , Kedar Jadhav , Hardik Pandya , Ravindra Jadeja , Ravichandran Ashwin , Bhuvneshwar Kumar , Jasprit Bumrah",
+            "did_not_bat": "Yuvraj Singh , MS Dhoni (wk) , Kedar Jadhav , Hardik Pandya , Ravindra Jadeja , Ravichandran Ashwin , Bhuvneshwar Kumar , Jasprit Bumrah",
             "fall_of_wickets": "Fall of wickets : 1 - 87 ( Shikhar Dhawan , 14.4 ov )",
             "bowling": [
                 {
@@ -365,5 +365,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 59 balls remaining)"
+    "result": "India won by 9 wickets (with 59 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Taskin Ahmed",
+            "Mashrafe Mortaza(c)",
+            "Mustafizur Rahman",
+            "Soumya Sarkar",
+            "Sabbir Rahman",
+            "Rubel Hossain",
+            "Shakib Al Hasan"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Kedar Jadhav",
+            "Yuvraj Singh",
+            "Shikhar Dhawan",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Virat Kohli(c)",
+            "Jasprit Bumrah",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

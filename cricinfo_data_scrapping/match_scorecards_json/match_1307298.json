@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Marnus Labuschagne",
-                    "dismissal": "st Dickwella b Vandersay",
+                    "dismissal": "st (wk)Dickwella b Vandersay",
                     "runs": "29",
                     "balls": "36",
                     "minutes": "57",
@@ -70,7 +70,7 @@
                     "strike_rate": "80.55"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "lbw b de Silva",
                     "runs": "49",
                     "balls": "52",
@@ -221,7 +221,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "b Maxwell",
                     "runs": "25",
                     "balls": "26",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 wickets (with 9 balls remaining)"
+    "result": "Sri Lanka won by 6 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Matthew Kuhnemann",
+            "Marnus Labuschagne",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Josh Hazlewood",
+            "Cameron Green",
+            "Jhye Richardson",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "David Warner",
+            "Mitchell Marsh"
+        ],
+        "Sri Lanka": [
+            "Dasun Shanaka(c)",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Maheesh Theekshana",
+            "Chamika Karunaratne",
+            "Niroshan Dickwella (wk)",
+            "Kusal Mendis",
+            "Jeffrey Vandersay",
+            "Dushmantha Chameera",
+            "Charith Asalanka"
+        ]
+    }
 }

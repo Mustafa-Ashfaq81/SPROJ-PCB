@@ -31,7 +31,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Dockrell",
                     "runs": "63",
                     "balls": "43",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib",
-                    "dismissal": "st O'Brien b Stirling",
+                    "dismissal": "st (wk)O'Brien b Stirling",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Rashid Khan",
-                    "dismissal": "st O'Brien b Stirling",
+                    "dismissal": "st (wk)O'Brien b Stirling",
                     "runs": "6",
                     "balls": "4",
                     "minutes": "9",
@@ -268,7 +268,7 @@
                     "strike_rate": "97.82"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "lbw b Rashid Khan",
                     "runs": "5",
                     "balls": "7",
@@ -309,7 +309,7 @@
                 },
                 {
                     "batsman": "Andy McBrine",
-                    "dismissal": "st Mohammad Shahzad b Rashid Khan",
+                    "dismissal": "st (wk)Mohammad Shahzad b Rashid Khan",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "14",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 34 runs"
+    "result": "Afghanistan won by 34 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Shafiqullah",
+            "Dawlat Zadran",
+            "Gulbadin Naib",
+            "Rashid Khan",
+            "Noor Ali Zadran",
+            "Samiullah Shinwari",
+            "Asghar Afghan(c)",
+            "Amir Hamza",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Peter Chase",
+            "Gary Wilson",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Tim Murtagh",
+            "Niall O'Brien (wk)",
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Stuart Thompson",
+            "Andy Balbirnie"
+        ]
+    }
 }

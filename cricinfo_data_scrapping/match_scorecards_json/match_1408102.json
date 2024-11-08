@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Will Young",
-                    "dismissal": "run out (Anamul Haque/Mushfiqur Rahim)",
+                    "dismissal": "run out (Anamul Haque/ (wk)Mushfiqur Rahim)",
                     "runs": "105",
                     "balls": "84",
                     "minutes": "145",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Rachin Ravindra",
-                    "dismissal": "c Mushfiqur Rahim b Shoriful Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shoriful Islam",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Josh Clarkson",
-                    "dismissal": "run out (Najmul Hossain Shanto/Mushfiqur Rahim)",
+                    "dismissal": "run out (Najmul Hossain Shanto/ (wk)Mushfiqur Rahim)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "7",
@@ -94,8 +94,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Tom Blundell",
-                    "dismissal": "run out (Anamul Haque/Mushfiqur Rahim)",
+                    "batsman": "Tom Blundell (wk)",
+                    "dismissal": "run out (Anamul Haque/ (wk)Mushfiqur Rahim)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "2",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Litton Das",
-                    "dismissal": "c Blundell b Clarkson",
+                    "dismissal": "c (wk)Blundell b Clarkson",
                     "runs": "22",
                     "balls": "19",
                     "minutes": "27",
@@ -261,8 +261,8 @@
                     "strike_rate": "122.22"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Blundell b Ravindra",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Blundell b Ravindra",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "10",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 44 runs (DLS method)"
+    "result": "New Zealand won by 44 runs (DLS method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Tom Latham(c)",
+            "Josh Clarkson",
+            "Adam Milne",
+            "Mark Chapman",
+            "Ish Sodhi",
+            "Rachin Ravindra",
+            "Jacob Duffy",
+            "William ORourke",
+            "Henry Nicholls",
+            "Will Young",
+            "Tom Blundell (wk)"
+        ],
+        "Bangladesh": [
+            "Afif Hossain",
+            "Towhid Hridoy",
+            "Hasan Mahmud",
+            "Najmul Hossain Shanto(c)",
+            "Shoriful Islam",
+            "Mustafizur Rahman",
+            "Soumya Sarkar",
+            "Anamul Haque",
+            "Mehidy Hasan Miraz",
+            "Litton Das",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

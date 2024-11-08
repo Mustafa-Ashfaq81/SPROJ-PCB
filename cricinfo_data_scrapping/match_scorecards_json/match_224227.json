@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Hamish Marshall",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "19",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "19",
                     "balls": "31",
                     "minutes": "36",
@@ -90,8 +90,8 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "c Boucher b Hall",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "27",
                     "balls": "49",
                     "minutes": "66",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "run out (Boucher)",
+                    "dismissal": "run out ( (wk)Boucher)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "c Boucher b Nel",
+                    "dismissal": "c (wk)Boucher b Nel",
                     "runs": "12",
                     "balls": "29",
                     "minutes": "42",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Ashwell Prince",
-                    "dismissal": "st McCullum b Vettori",
+                    "dismissal": "st (wk)McCullum b Vettori",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "36",
@@ -287,7 +287,7 @@
                     "strike_rate": "41.66"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "22",
                     "balls": "22",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 11 balls remaining) (D/L method)"
+    "result": "South Africa won by 5 wickets (with 11 balls remaining) (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Lou Vincent",
+            "Nathan Astle",
+            "James Franklin",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Kyle Mills",
+            "Shane Bond",
+            "Craig McMillan",
+            "Scott Styris",
+            "Daniel Vettori",
+            "Hamish Marshall"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Albie Morkel",
+            "AB de Villiers",
+            "Ashwell Prince",
+            "Andrew Hall",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)"
+        ]
+    }
 }

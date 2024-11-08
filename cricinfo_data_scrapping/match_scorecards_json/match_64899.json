@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "20",
@@ -70,7 +70,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "c Ponting b Kasprowicz",
                     "runs": "57",
                     "balls": "76",
@@ -237,7 +237,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Sibanda b Hondo",
                     "runs": "26",
                     "balls": "29",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 62 balls remaining)"
+    "result": "Australia won by 7 wickets (with 62 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Vusi Sibanda",
+            "Dion Ebrahim",
+            "Mark Vermeulen",
+            "Alester Maregwede",
+            "Tinashe Panyangara",
+            "Mluleki Nkala",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Tawanda Mupariwa",
+            "Tatenda Taibu(c) (wk)"
+        ],
+        "Australia": [
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Brad Williams",
+            "Glenn McGrath",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Darren Lehmann",
+            "Andrew Symonds",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ]
+    }
 }

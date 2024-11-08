@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Dickwella b Dananjaya",
+                    "dismissal": "c (wk)Dickwella b Dananjaya",
                     "runs": "84",
                     "balls": "102",
                     "minutes": "-",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Anamul Haque",
-                    "dismissal": "c Dickwella b NLTC Perera",
+                    "dismissal": "c (wk)Dickwella b NLTC Perera",
                     "runs": "35",
                     "balls": "37",
                     "minutes": "-",
@@ -62,7 +62,7 @@
                     "strike_rate": "106.34"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b NLTC Perera",
                     "runs": "62",
                     "balls": "52",
@@ -249,7 +249,7 @@
                     "strike_rate": "55.88"
                 },
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "b Mustafizur Rahman",
                     "runs": "16",
                     "balls": "22",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Wanindu Hasaranga",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 163 runs"
+    "result": "Bangladesh won by 163 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)",
+            "Sabbir Rahman",
+            "Mohammad Saifuddin",
+            "Rubel Hossain",
+            "Mashrafe Mortaza(c)",
+            "Mustafizur Rahman",
+            "Anamul Haque",
+            "Nasir Hossain",
+            "Shakib Al Hasan",
+            "Mahmudullah"
+        ],
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Upul Tharanga",
+            "Wanindu Hasaranga",
+            "Dinesh Chandimal(c)",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Niroshan Dickwella (wk)",
+            "Nuwan Pradeep",
+            "Kusal Mendis",
+            "Suranga Lakmal",
+            "Asela Gunaratne"
+        ]
+    }
 }

@@ -39,7 +39,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Subash Khakurel",
+                    "batsman": "Subash Khakurel (wk)",
                     "dismissal": "run out (Suraj Kumar)",
                     "runs": "4",
                     "balls": "15",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Dipendra Singh Airee",
-                    "dismissal": "c Naseem Khushi b Mohammad Nadeem",
+                    "dismissal": "c (wk)Naseem Khushi b Mohammad Nadeem",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "-",
@@ -286,7 +286,7 @@
                     "strike_rate": "125.00"
                 }
             ],
-            "did_not_bat": "Mohammad Nadeem , Naseem Khushi , Bilal Khan , Kaleemullah , Ajay Lalcheta , Suraj Kumar",
+            "did_not_bat": "Mohammad Nadeem , Naseem Khushi (wk) , Bilal Khan , Kaleemullah , Ajay Lalcheta , Suraj Kumar",
             "fall_of_wickets": "Fall of wickets : 1 - 33 ( Aqib Ilyas , 7.2 ov ) , 2 - 71 ( Jatinder Singh , 20.6 ov ) , 3 - 147 ( Vaibhav Wategaonkar , 36.4 ov )",
             "bowling": [
                 {
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "Oman won by 7 wickets (with 12 balls remaining)"
+    "result": "Oman won by 7 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "Nepal": [
+            "Sompal Kami",
+            "Gyanendra Malla",
+            "Basant Regmi",
+            "Sandeep Lamichhane",
+            "Aarif Sheikh",
+            "Karan KC",
+            "Dipendra Singh Airee",
+            "Sagar Pun",
+            "Rohit Paudel",
+            "Paras Khadka(c)",
+            "Subash Khakurel (wk)"
+        ],
+        "Oman": [
+            "Suraj Kumar",
+            "Jatinder Singh",
+            "Mohammad Nadeem",
+            "Naseem Khushi (wk)",
+            "Aqib Ilyas",
+            "Khawar Ali",
+            "Kaleemullah",
+            "Ajay Lalcheta",
+            "Vaibhav Wategaonkar",
+            "Zeeshan Maqsood(c)",
+            "Bilal Khan"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Ishan Kishan",
+                    "batsman": "Ishan Kishan (wk)",
                     "dismissal": "c Athanaze b Shepherd",
                     "runs": "55",
                     "balls": "55",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Axar Patel",
-                    "dismissal": "c Hope b Shepherd",
+                    "dismissal": "c (wk)Hope b Shepherd",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "9",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Alick Athanaze",
-                    "dismissal": "c Ishan Kishan b Thakur",
+                    "dismissal": "c (wk)Ishan Kishan b Thakur",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "21",
@@ -267,7 +267,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Shai Hope(c)",
+                    "batsman": "Shai Hope(c) (wk)",
                     "dismissal": "not out",
                     "runs": "63",
                     "balls": "80",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 6 wickets (with 80 balls remaining)"
+    "result": "West Indies won by 6 wickets (with 80 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Hardik Pandya(c)",
+            "Umran Malik",
+            "Ishan Kishan (wk)",
+            "Axar Patel",
+            "Suryakumar Yadav",
+            "Sanju Samson",
+            "Shubman Gill",
+            "Mukesh Kumar",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Shardul Thakur"
+        ],
+        "West Indies": [
+            "Brandon King",
+            "Shai Hope(c) (wk)",
+            "Gudakesh Motie",
+            "Yannic Cariah",
+            "Kyle Mayers",
+            "Alick Athanaze",
+            "Keacy Carty",
+            "Jayden Seales",
+            "Romario Shepherd",
+            "Alzarri Joseph",
+            "Shimron Hetmyer"
+        ]
+    }
 }

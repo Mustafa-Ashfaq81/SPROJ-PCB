@@ -40,7 +40,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "lbw b Stokes",
                     "runs": "22",
                     "balls": "33",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Rilee Rossouw",
-                    "dismissal": "c Buttler b Topley",
+                    "dismissal": "c (wk)Buttler b Topley",
                     "runs": "11",
                     "balls": "11",
                     "minutes": "23",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Alex Hales",
-                    "dismissal": "c de Kock b Abbott",
+                    "dismissal": "c (wk)de Kock b Abbott",
                     "runs": "99",
                     "balls": "124",
                     "minutes": "179",
@@ -267,7 +267,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "48",
                     "balls": "28",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "England won by 5 wickets (with 22 balls remaining)"
+    "result": "England won by 5 wickets (with 22 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Farhaan Behardien",
+            "Kyle Abbott",
+            "AB de Villiers(c)",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Morne Morkel"
+        ],
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "David Willey",
+            "Alex Hales",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Reece Topley",
+            "Ben Stokes",
+            "Chris Jordan",
+            "Moeen Ali"
+        ]
+    }
 }

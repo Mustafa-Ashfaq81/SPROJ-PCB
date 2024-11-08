@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Prithvi Shaw",
-                    "dismissal": "run out (de Grandhomme/Latham)",
+                    "dismissal": "run out (de Grandhomme/ (wk)Latham)",
                     "runs": "40",
                     "balls": "42",
                     "minutes": "53",
@@ -70,7 +70,7 @@
                     "strike_rate": "98.41"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c Jamieson b Bennett",
                     "runs": "112",
                     "balls": "113",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Rahul b Thakur",
+                    "dismissal": "c (wk)Rahul b Thakur",
                     "runs": "80",
                     "balls": "103",
                     "minutes": "137",
@@ -257,7 +257,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "not out",
                     "runs": "32",
                     "balls": "34",
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 17 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Shreyas Iyer",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Navdeep Saini",
+            "Mayank Agarwal",
+            "Yuzvendra Chahal",
+            "Prithvi Shaw",
+            "KL Rahul (wk)",
+            "Manish Pandey",
+            "Shardul Thakur",
+            "Virat Kohli(c)"
+        ],
+        "New Zealand": [
+            "Henry Nicholls",
+            "Mitchell Santner",
+            "Colin de Grandhomme",
+            "Tom Latham (wk)",
+            "Kane Williamson(c)",
+            "James Neesham",
+            "Hamish Bennett",
+            "Ross Taylor",
+            "Tim Southee",
+            "Kyle Jamieson",
+            "Martin Guptill"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Kohli b Bumrah",
                     "runs": "10",
                     "balls": "17",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Andile Phehlukwayo",
-                    "dismissal": "st Dhoni b Chahal",
+                    "dismissal": "st (wk)Dhoni b Chahal",
                     "runs": "34",
                     "balls": "61",
                     "minutes": "68",
@@ -229,7 +229,7 @@
             "batting": [
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "23",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "18",
                     "balls": "34",
                     "minutes": "44",
@@ -268,7 +268,7 @@
                     "strike_rate": "61.90"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c & b Morris",
                     "runs": "34",
                     "balls": "46",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 15 balls remaining)"
+    "result": "India won by 6 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Hashim Amla",
+            "Chris Morris",
+            "Andile Phehlukwayo",
+            "Kagiso Rabada",
+            "Tabraiz Shamsi",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis(c)",
+            "Rassie van der Dussen",
+            "Jean-Paul Duminy",
+            "Imran Tahir",
+            "David Miller"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "KL Rahul",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Kedar Jadhav",
+            "Virat Kohli(c)",
+            "Hardik Pandya",
+            "MS Dhoni (wk)",
+            "Shikhar Dhawan"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Leon Johnson",
-                    "dismissal": "c Bagai b Rizwan Cheema",
+                    "dismissal": "c (wk)Bagai b Rizwan Cheema",
                     "runs": "51",
                     "balls": "77",
                     "minutes": "88",
@@ -90,7 +90,7 @@
                     "strike_rate": "139.28"
                 }
             ],
-            "did_not_bat": "Jerome Taylor , Daren Powell , Kemar Roach , Dave Mohammed , Carlton Baugh",
+            "did_not_bat": "Jerome Taylor , Daren Powell , Kemar Roach , Dave Mohammed , Carlton Baugh (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 38 ( Chris Gayle , 10.4 ov ) , 2 - 50 ( Sewnarine Chattergoon , 13.4 ov ) , 3 - 178 ( Leon Johnson , 36.1 ov ) , 4 - 192 ( Shawn Findlay , 38.3 ov )",
             "bowling": [
                 {
@@ -216,7 +216,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Iqbal",
-                    "dismissal": "c Baugh b Taylor",
+                    "dismissal": "c (wk)Baugh b Taylor",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "23",
@@ -235,7 +235,7 @@
                     "strike_rate": "128.98"
                 },
                 {
-                    "batsman": "Ashish Bagai",
+                    "batsman": "Ashish Bagai (wk)",
                     "dismissal": "lbw b Roach",
                     "runs": "22",
                     "balls": "47",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Ashif Mulla",
-                    "dismissal": "run out (Baugh)",
+                    "dismissal": "run out ( (wk)Baugh)",
                     "runs": "15",
                     "balls": "17",
                     "minutes": "15",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Karun Jethi",
-                    "dismissal": "st Baugh b Mohammed",
+                    "dismissal": "st (wk)Baugh b Mohammed",
                     "runs": "23",
                     "balls": "21",
                     "minutes": "25",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Eion Katchay",
-                    "dismissal": "st Baugh b Mohammed",
+                    "dismissal": "st (wk)Baugh b Mohammed",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "9",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 49 runs"
+    "result": "West Indies won by 49 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Xavier Marshall",
+            "Shawn Findlay",
+            "Daren Powell",
+            "Chris Gayle(c)",
+            "Sewnarine Chattergoon",
+            "Dave Mohammed",
+            "Brendan Nash",
+            "Leon Johnson",
+            "Kemar Roach",
+            "Jerome Taylor",
+            "Carlton Baugh (wk)"
+        ],
+        "Canada": [
+            "Sami Faridi",
+            "Abdool Samad",
+            "Karun Jethi",
+            "Ramesh David",
+            "Rizwan Cheema",
+            "Ashif Mulla",
+            "Ashish Bagai (wk)",
+            "Eion Katchay",
+            "Sunil Dhaniram(c)",
+            "Harvir Baidwan",
+            "Mohammad Iqbal"
+        ]
+    }
 }

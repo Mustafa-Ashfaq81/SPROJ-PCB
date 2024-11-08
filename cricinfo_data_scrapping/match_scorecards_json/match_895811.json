@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Wade b Richardson",
+                    "dismissal": "c (wk)Wade b Richardson",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "17",
@@ -74,7 +74,7 @@
                     "strike_rate": "90.90"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Maxwell b Hastings",
                     "runs": "23",
                     "balls": "9",
@@ -212,7 +212,7 @@
             "batting": [
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "62",
                     "balls": "73",
                     "minutes": "116",
@@ -222,7 +222,7 @@
                 },
                 {
                     "batsman": "Aaron Finch",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "21",
                     "balls": "23",
                     "minutes": "30",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "George Bailey",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "23",
                     "balls": "21",
                     "minutes": "23",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "run out (Yadav/Dhoni)",
+                    "dismissal": "run out (Yadav/ (wk)Dhoni)",
                     "runs": "17",
                     "balls": "14",
                     "minutes": "24",
@@ -271,7 +271,7 @@
                     "strike_rate": "121.42"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c S Dhawan b I Sharma",
                     "runs": "6",
                     "balls": "10",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Australia won by 3 wickets (with 7 balls remaining)"
+    "result": "Australia won by 3 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "Gurkeerat Singh Mann",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Rishi Dhawan",
+            "Ishant Sharma",
+            "Ravindra Jadeja",
+            "Umesh Yadav",
+            "Barinder Sran",
+            "Shikhar Dhawan"
+        ],
+        "Australia": [
+            "Mitchell Marsh",
+            "Kane Richardson",
+            "Scott Boland",
+            "Steven Smith(c)",
+            "Matthew Wade (wk)",
+            "John Hastings",
+            "George Bailey",
+            "Shaun Marsh",
+            "Aaron Finch",
+            "James Faulkner",
+            "Glenn Maxwell"
+        ]
+    }
 }

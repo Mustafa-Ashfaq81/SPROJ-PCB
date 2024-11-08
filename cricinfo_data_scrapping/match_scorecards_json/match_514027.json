@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla(c)",
-                    "dismissal": "run out (Cummins/Haddin)",
+                    "dismissal": "run out (Cummins/ (wk)Haddin)",
                     "runs": "52",
                     "balls": "72",
                     "minutes": "112",
@@ -90,7 +90,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Warner b Johnson",
                     "runs": "8",
                     "balls": "8",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Boucher b Morkel",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "10",
                     "balls": "18",
                     "minutes": "29",
@@ -267,7 +267,7 @@
                     "strike_rate": "70.31"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Kallis b Steyn",
                     "runs": "23",
                     "balls": "25",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Mitchell Johnson",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "14",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Australia won by 3 wickets (with 15 balls remaining)"
+    "result": "Australia won by 3 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Dale Steyn",
+            "Morne Morkel",
+            "Jacques Kallis",
+            "Faf du Plessis",
+            "Lonwabo Tsotsobe",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Hashim Amla(c)",
+            "Johan Botha",
+            "Graeme Smith"
+        ],
+        "Australia": [
+            "Xavier Doherty",
+            "Michael Hussey",
+            "Doug Bollinger",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Michael Clarke(c)",
+            "Pat Cummins",
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Ricky Ponting",
+            "David Warner"
+        ]
+    }
 }

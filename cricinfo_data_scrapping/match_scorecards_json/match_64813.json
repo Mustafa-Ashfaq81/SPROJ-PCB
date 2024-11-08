@@ -70,7 +70,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c Vettori b Tuffey",
                     "runs": "20",
                     "balls": "51",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Dravid b Srinath",
+                    "dismissal": "c (wk)Dravid b Srinath",
                     "runs": "4",
                     "balls": "19",
                     "minutes": "33",
@@ -273,8 +273,8 @@
                     "strike_rate": "72.22"
                 },
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "c Dravid b Srinath",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "c (wk)Dravid b Srinath",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "5",
@@ -294,7 +294,7 @@
                 },
                 {
                     "batsman": "Kyle Mills",
-                    "dismissal": "c Dravid b Srinath",
+                    "dismissal": "c (wk)Dravid b Srinath",
                     "runs": "21",
                     "balls": "42",
                     "minutes": "58",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 3 wickets (with 74 balls remaining)"
+    "result": "New Zealand won by 3 wickets (with 74 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Anil Kumble",
+            "Shiv Sunder Das",
+            "Rahul Dravid (wk)",
+            "Zaheer Khan",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Javagal Srinath",
+            "Yuvraj Singh",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag"
+        ],
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Mathew Sinclair",
+            "Brendon McCullum (wk)",
+            "Jacob Oram",
+            "Lou Vincent",
+            "Shane Bond",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Nathan Astle"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "c Taibu b Ervine",
+                    "dismissal": "c (wk)Taibu b Ervine",
                     "runs": "17",
                     "balls": "44",
                     "minutes": "71",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Taibu b Blignaut",
+                    "dismissal": "c (wk)Taibu b Blignaut",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "25",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "run out (Blignaut/Taibu)",
+                    "dismissal": "run out (Blignaut/ (wk)Taibu)",
                     "runs": "13",
                     "balls": "56",
                     "minutes": "75",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Ricardo Powell",
-                    "dismissal": "c Taibu b Price",
+                    "dismissal": "c (wk)Taibu b Price",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "20",
@@ -100,7 +100,7 @@
                     "strike_rate": "35.29"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "b Gripper",
                     "runs": "2",
                     "balls": "6",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Baugh b Drakes",
+                    "dismissal": "c (wk)Baugh b Drakes",
                     "runs": "0",
                     "balls": "14",
                     "minutes": "18",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Trevor Gripper",
-                    "dismissal": "run out (Sarwan/Samuels/Baugh)",
+                    "dismissal": "run out (Sarwan/Samuels/ (wk)Baugh)",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "15",
@@ -297,7 +297,7 @@
                     "strike_rate": "102.70"
                 }
             ],
-            "did_not_bat": "Tatenda Taibu , Sean Ervine , Andy Blignaut , Gary Brent , Ray Price",
+            "did_not_bat": "Tatenda Taibu (wk) , Sean Ervine , Andy Blignaut , Gary Brent , Ray Price",
             "fall_of_wickets": "Fall of wickets : 1 - 8 ( Trevor Gripper , 2.6 ov ) , 2 - 8 ( Vusi Sibanda , 3.3 ov ) , 3 - 31 ( Craig Wishart , 12.4 ov ) , 4 - 54 ( Stuart Matsikenyeri , 18.3 ov )",
             "bowling": [
                 {
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 6 wickets (with 122 balls remaining)"
+    "result": "Zimbabwe won by 6 wickets (with 122 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ravi Rampaul",
+            "Corey Collymore",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Vasbert Drakes",
+            "Carlton Baugh (wk)"
+        ],
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Andy Blignaut",
+            "Vusi Sibanda",
+            "Craig Wishart",
+            "Ray Price",
+            "Mark Vermeulen",
+            "Heath Streak(c)",
+            "Tatenda Taibu (wk)",
+            "Gary Brent",
+            "Trevor Gripper",
+            "Stuart Matsikenyeri"
+        ]
+    }
 }

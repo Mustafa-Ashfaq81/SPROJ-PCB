@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Stuart Carlisle(c)",
-                    "dismissal": "c Jacobs b Collins",
+                    "dismissal": "c (wk)Jacobs b Collins",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -66,7 +66,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "lbw b Brown",
                     "runs": "21",
                     "balls": "47",
@@ -87,7 +87,7 @@
                 },
                 {
                     "batsman": "Trevor Gripper",
-                    "dismissal": "c Jacobs b Brown",
+                    "dismissal": "c (wk)Jacobs b Brown",
                     "runs": "4",
                     "balls": "20",
                     "minutes": "29",
@@ -117,7 +117,7 @@
                 },
                 {
                     "batsman": "Travis Friend",
-                    "dismissal": "st Jacobs b Gayle",
+                    "dismissal": "st (wk)Jacobs b Gayle",
                     "runs": "22",
                     "balls": "53",
                     "minutes": "59",
@@ -244,7 +244,7 @@
             "batting": [
                 {
                     "batsman": "Daren Ganga",
-                    "dismissal": "c A Flower b Streak",
+                    "dismissal": "c (wk)A Flower b Streak",
                     "runs": "12",
                     "balls": "19",
                     "minutes": "18",
@@ -283,7 +283,7 @@
                     "strike_rate": "37.20"
                 }
             ],
-            "did_not_bat": "Carl Hooper (c) , Marlon Samuels , Ridley Jacobs , Darrel Brown , Pedro Collins , Corey Collymore , Ricardo Powell",
+            "did_not_bat": "Carl Hooper (c) , Marlon Samuels , Ridley Jacobs (wk) , Darrel Brown , Pedro Collins , Corey Collymore , Ricardo Powell",
             "fall_of_wickets": "Fall of wickets : 1 - 15 ( Daren Ganga , 4.5 ov ) , 2 - 121 ( Chris Gayle , 22.1 ov )",
             "bowling": [
                 {
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 8 wickets (with 96 balls remaining)"
+    "result": "West Indies won by 8 wickets (with 96 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Grant Flower",
+            "Trevor Gripper",
+            "Craig Wishart",
+            "Dougie Marillier",
+            "Gary Brent",
+            "Henry Olonga",
+            "Andy Flower (wk)",
+            "Heath Streak",
+            "Stuart Carlisle(c)",
+            "Dion Ebrahim",
+            "Travis Friend"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Daren Ganga",
+            "Pedro Collins",
+            "Marlon Samuels",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Ryan Hinds",
+            "Carl Hooper (c)",
+            "Darrel Brown",
+            "Corey Collymore"
+        ]
+    }
 }

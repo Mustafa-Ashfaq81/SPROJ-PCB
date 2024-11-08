@@ -31,7 +31,7 @@
             "extras": "25",
             "batting": [
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "c Kruger b Seelaar",
                     "runs": "113",
                     "balls": "147",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Tom Cooper",
-                    "dismissal": "st Wilson b van der Merwe",
+                    "dismissal": "st (wk)Wilson b van der Merwe",
                     "runs": "68",
                     "balls": "58",
                     "minutes": "82",
@@ -238,7 +238,7 @@
                     "strike_rate": "117.24"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "c Cusack b O'Brien",
                     "runs": "9",
                     "balls": "22",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 70 runs"
+    "result": "Ireland won by 70 runs",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Andrew White",
+            "Nigel Jones",
+            "Trent Johnston(c)",
+            "Albert van der Merwe",
+            "Paul Stirling",
+            "John Mooney",
+            "Alex Cusack",
+            "Andrew Poynter",
+            "Gary Wilson (wk)",
+            "Kevin O'Brien"
+        ],
+        "Netherlands": [
+            "Pieter Seelaar",
+            "Tom Cooper",
+            "Tom Heggelman",
+            "Wesley Barresi (wk)",
+            "Mudassar Bukhari",
+            "Bas Zuiderent",
+            "Adeel Raja",
+            "Bradley Kruger",
+            "Maurits Jonkman",
+            "Eric Szwarczynski",
+            "Peter Borren(c)"
+        ]
+    }
 }

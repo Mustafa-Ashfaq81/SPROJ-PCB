@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "37",
                     "balls": "57",
                     "minutes": "86",
@@ -90,7 +90,7 @@
                     "strike_rate": "98.59"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c McMillan b Oram",
                     "runs": "35",
                     "balls": "28",
@@ -277,7 +277,7 @@
                     "strike_rate": "131.81"
                 }
             ],
-            "did_not_bat": "Jacob Oram , Brendon McCullum , Daniel Vettori , Kyle Mills , Michael Mason",
+            "did_not_bat": "Jacob Oram , Brendon McCullum (wk) , Daniel Vettori , Kyle Mills , Michael Mason",
             "fall_of_wickets": "Fall of wickets : 1 - 71 ( Michael Papps , 15.6 ov ) , 2 - 102 ( Stephen Fleming , 22.4 ov ) , 3 - 228 ( Scott Styris , 43.1 ov ) , 4 - 230 ( Hamish Marshall , 44.1 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 6 wickets (with 6 balls remaining)"
+    "result": "New Zealand won by 6 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Andre Nel",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Herschelle Gibbs",
+            "Boeta Dippenaar",
+            "Mark Boucher (wk)",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Lance Klusener",
+            "Jacques Kallis"
+        ],
+        "New Zealand": [
+            "Scott Styris",
+            "Chris Cairns",
+            "Jacob Oram",
+            "Daniel Vettori",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Michael Mason",
+            "Kyle Mills",
+            "Michael Papps",
+            "Hamish Marshall"
+        ]
+    }
 }

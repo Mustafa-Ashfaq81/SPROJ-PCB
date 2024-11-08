@@ -30,7 +30,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Chris Nevin",
+                    "batsman": "Chris Nevin (wk)",
                     "dismissal": "c & b Gough",
                     "runs": "21",
                     "balls": "20",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Brendon McCullum",
-                    "dismissal": "c Trescothick b Flintoff",
+                    "dismissal": "c (wk)Trescothick b Flintoff",
                     "runs": "9",
                     "balls": "15",
                     "minutes": "31",
@@ -227,8 +227,8 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Marcus Trescothick",
-                    "dismissal": "c Nevin b Adams",
+                    "batsman": "Marcus Trescothick (wk)",
+                    "dismissal": "c (wk)Nevin b Adams",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "6",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 155 runs"
+    "result": "New Zealand won by 155 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Lou Vincent",
+            "Andre Adams",
+            "Chris Cairns",
+            "Chris Harris",
+            "Chris Nevin (wk)",
+            "Nathan Astle",
+            "Daryl Tuffey",
+            "Stephen Fleming(c)",
+            "Brendon McCullum",
+            "Craig McMillan",
+            "Daniel Vettori"
+        ],
+        "England": [
+            "Ashley Giles",
+            "Matthew Hoggard",
+            "Darren Gough",
+            "Owais Shah",
+            "Graham Thorpe",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Craig White",
+            "Marcus Trescothick (wk)",
+            "Nasser Hussain(c)",
+            "Andrew Flintoff"
+        ]
+    }
 }

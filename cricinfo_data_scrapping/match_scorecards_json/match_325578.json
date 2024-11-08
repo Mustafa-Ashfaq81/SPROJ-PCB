@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Peter Borren",
-                    "dismissal": "c NJ O'Brien b Connell",
+                    "dismissal": "c (wk)NJ O'Brien b Connell",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "5",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Henk-Jan Mol",
-                    "dismissal": "c NJ O'Brien b Botha",
+                    "dismissal": "c (wk)NJ O'Brien b Botha",
                     "runs": "18",
                     "balls": "50",
                     "minutes": "63",
@@ -110,7 +110,7 @@
                     "strike_rate": "42.42"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
+                    "batsman": "Jeroen Smits(c) (wk)",
                     "dismissal": "run out (Wilson)",
                     "runs": "18",
                     "balls": "50",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Edgar Schiferli",
-                    "dismissal": "run out (McCallan/NJ O'Brien)",
+                    "dismissal": "run out (McCallan/ (wk)NJ O'Brien)",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "8",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Gary Wilson",
-                    "dismissal": "c Smits b Mudassar Bukhari",
+                    "dismissal": "c (wk)Smits b Mudassar Bukhari",
                     "runs": "3",
                     "balls": "2",
                     "minutes": "12",
@@ -257,7 +257,7 @@
                     "strike_rate": "150.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "not out",
                     "runs": "58",
                     "balls": "80",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 7 wickets (with 126 balls remaining)"
+    "result": "Ireland won by 7 wickets (with 126 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Henk-Jan Mol",
+            "Jeroen Smits(c) (wk)",
+            "Pieter Seelaar",
+            "Edgar Schiferli",
+            "Darron Reekers",
+            "Geert-Maarten Mol",
+            "Mudassar Bukhari",
+            "Tom de Grooth",
+            "Daan van Bunge",
+            "Eric Szwarczynski",
+            "Peter Borren"
+        ],
+        "Ireland": [
+            "Peter Connell",
+            "Reinhardt Strydom",
+            "Andrew White",
+            "Andre Botha",
+            "Gary Kidd",
+            "Gary Wilson",
+            "Kyle McCallan",
+            "William Porterfield(c)",
+            "Alex Cusack",
+            "Niall O'Brien (wk)",
+            "Kevin O'Brien"
+        ]
+    }
 }

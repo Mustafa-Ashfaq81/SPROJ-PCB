@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "63",
                     "balls": "78",
                     "minutes": "-",
@@ -76,7 +76,7 @@
                     "strike_rate": "90.47"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "lbw b Agar",
                     "runs": "5",
                     "balls": "11",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "c Rahul b Thakur",
+                    "dismissal": "c (wk)Rahul b Thakur",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "-",
@@ -267,8 +267,8 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "run out (Kohli/Rahul)",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "run out (Kohli/ (wk)Rahul)",
                     "runs": "38",
                     "balls": "42",
                     "minutes": "-",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Sean Abbott",
-                    "dismissal": "c Rahul b Thakur",
+                    "dismissal": "c (wk)Rahul b Thakur",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "-",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "India won by 13 runs"
+    "result": "India won by 13 runs",
+    "playing_xi": {
+        "India": [
+            "Shardul Thakur",
+            "Jasprit Bumrah",
+            "Virat Kohli(c)",
+            "Kuldeep Yadav",
+            "Shreyas Iyer",
+            "Shubman Gill",
+            "KL Rahul (wk)",
+            "Ravindra Jadeja",
+            "Hardik Pandya",
+            "T Natarajan",
+            "Shikhar Dhawan"
+        ],
+        "Australia": [
+            "Adam Zampa",
+            "Steven Smith",
+            "Aaron Finch(c)",
+            "Josh Hazlewood",
+            "Alex Carey (wk)",
+            "Glenn Maxwell",
+            "Marnus Labuschagne",
+            "Ashton Agar",
+            "Sean Abbott",
+            "Moises Henriques",
+            "Cameron Green"
+        ]
+    }
 }

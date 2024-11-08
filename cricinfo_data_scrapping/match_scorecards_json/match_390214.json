@@ -30,8 +30,8 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Morris Ouma",
-                    "dismissal": "c Mohammad Shahzad b Samiullah Shinwari",
+                    "batsman": "Morris Ouma (wk)",
+                    "dismissal": "c (wk)Mohammad Shahzad b Samiullah Shinwari",
                     "runs": "35",
                     "balls": "59",
                     "minutes": "82",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Collins Obuya",
-                    "dismissal": "run out (Raees Ahmadzai/Mohammad Shahzad)",
+                    "dismissal": "run out (Raees Ahmadzai/ (wk)Mohammad Shahzad)",
                     "runs": "18",
                     "balls": "16",
                     "minutes": "24",
@@ -245,7 +245,7 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Odoyo",
                     "runs": "4",
                     "balls": "8",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Nawroz Mangal(c)",
-                    "dismissal": "c Ouma b Odoyo",
+                    "dismissal": "c (wk)Ouma b Odoyo",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "15",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan",
-                    "dismissal": "c Ouma b Odhiambo",
+                    "dismissal": "c (wk)Ouma b Odhiambo",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "23",
@@ -453,5 +453,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 107 runs"
+    "result": "Kenya won by 107 runs",
+    "playing_xi": {
+        "Kenya": [
+            "Peter Ongondo",
+            "Morris Ouma (wk)",
+            "Alex Obanda",
+            "Steve Tikolo(c)",
+            "Lameck Onyango",
+            "Thomas Odoyo",
+            "Jimmy Kamande",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Nehemiah Odhiambo",
+            "Kennedy Otieno"
+        ],
+        "Afghanistan": [
+            "Karim Sadiq",
+            "Mohammad Nabi",
+            "Mohammad Shahzad (wk)",
+            "Hamid Hassan",
+            "Khaliq Dad",
+            "Shafiqullah",
+            "Samiullah Shinwari",
+            "Raees Ahmadzai",
+            "Asghar Afghan",
+            "Dawlat Ahmadzai",
+            "Nawroz Mangal(c)"
+        ]
+    }
 }

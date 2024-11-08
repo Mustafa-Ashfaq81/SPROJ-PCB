@@ -50,7 +50,7 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Shahid Afridi)",
                     "runs": "50",
                     "balls": "58",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "18",
                     "balls": "12",
                     "minutes": "23",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Chamara Kapugedera",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -227,7 +227,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Thushara",
                     "runs": "9",
                     "balls": "12",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq",
-                    "dismissal": "c Sangakkara b Thushara",
+                    "dismissal": "c (wk)Sangakkara b Thushara",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "7",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 234 runs"
+    "result": "Sri Lanka won by 234 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Nuwan Kulasekara",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Iftikhar Anjum",
+            "Khurram Manzoor",
+            "Sohail Khan",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Salman Butt",
+            "Misbah-ul-Haq",
+            "Shoaib Malik(c)",
+            "Shahid Afridi"
+        ]
+    }
 }

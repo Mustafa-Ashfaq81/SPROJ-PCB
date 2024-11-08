@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c Rahul b Bumrah",
+                    "dismissal": "c (wk)Rahul b Bumrah",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -50,7 +50,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "b Mohammed Siraj",
                     "runs": "17",
                     "balls": "34",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "c Rahul b Mohammed Siraj",
+                    "dismissal": "c (wk)Rahul b Mohammed Siraj",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "2",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Dunith Wellalage",
-                    "dismissal": "c Rahul b Pandya",
+                    "dismissal": "c (wk)Rahul b Pandya",
                     "runs": "8",
                     "balls": "21",
                     "minutes": "35",
@@ -229,7 +229,7 @@
                     "strike_rate": "142.10"
                 }
             ],
-            "did_not_bat": "Rohit Sharma (c) , Virat Kohli , KL Rahul , Hardik Pandya , Ravindra Jadeja , Washington Sundar , Jasprit Bumrah , Kuldeep Yadav , Mohammed Siraj",
+            "did_not_bat": "Rohit Sharma (c) , Virat Kohli , KL Rahul (wk) , Hardik Pandya , Ravindra Jadeja , Washington Sundar , Jasprit Bumrah , Kuldeep Yadav , Mohammed Siraj",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -291,5 +291,33 @@
             ]
         }
     ],
-    "result": "India won by 10 wickets (with 263 balls remaining)"
+    "result": "India won by 10 wickets (with 263 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Pramod Madushan",
+            "Kusal Mendis (wk)",
+            "Matheesha Pathirana",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Dushan Hemantha",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Kusal Perera",
+            "Sadeera Samarawickrama"
+        ],
+        "India": [
+            "KL Rahul (wk)",
+            "Washington Sundar",
+            "Ishan Kishan",
+            "Virat Kohli",
+            "Shubman Gill",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Hardik Pandya",
+            "Rohit Sharma (c)"
+        ]
+    }
 }

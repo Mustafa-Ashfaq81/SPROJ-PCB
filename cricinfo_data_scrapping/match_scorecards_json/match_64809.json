@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "44",
                     "balls": "55",
                     "minutes": "69",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "lbw b Shoaib Akhtar",
                     "runs": "15",
                     "balls": "38",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "16",
                     "balls": "16",
                     "minutes": "28",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Boucher b Donald",
+                    "dismissal": "c (wk)Boucher b Donald",
                     "runs": "5",
                     "balls": "30",
                     "minutes": "41",
@@ -283,7 +283,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "c Smith b Donald",
                     "runs": "6",
                     "balls": "24",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 62 runs"
+    "result": "South Africa won by 62 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Shaun Pollock(c)",
+            "Makhaya Ntini",
+            "Lance Klusener",
+            "Allan Donald",
+            "Jacques Kallis",
+            "Graeme Smith",
+            "Andrew Hall",
+            "Boeta Dippenaar",
+            "Jonty Rhodes",
+            "Herschelle Gibbs"
+        ],
+        "Pakistan": [
+            "Rashid Latif (wk)",
+            "Saqlain Mushtaq",
+            "Mohammad Yousuf",
+            "Wasim Akram",
+            "Waqar Younis(c)",
+            "Younis Khan",
+            "Inzamam-ul-Haq",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Saleem Elahi",
+            "Shoaib Akhtar"
+        ]
+    }
 }

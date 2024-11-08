@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Saman Jayantha",
-                    "dismissal": "run out (Moin Khan)",
+                    "dismissal": "run out ( (wk)Moin Khan)",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "5",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu(c)",
-                    "dismissal": "st Moin Khan b Shoaib Malik",
+                    "dismissal": "st (wk)Moin Khan b Shoaib Malik",
                     "runs": "66",
                     "balls": "94",
                     "minutes": "121",
@@ -61,7 +61,7 @@
                     "strike_rate": "70.21"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Abdul Razzaq",
                     "runs": "68",
                     "balls": "69",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "st Sangakkara b Chandana",
+                    "dismissal": "st (wk)Sangakkara b Chandana",
                     "runs": "37",
                     "balls": "55",
                     "minutes": "81",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "st Sangakkara b Jayasuriya",
+                    "dismissal": "st (wk)Sangakkara b Jayasuriya",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "13",
@@ -268,8 +268,8 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Moin Khan",
-                    "dismissal": "c Sangakkara b Chandana",
+                    "batsman": "Moin Khan (wk)",
+                    "dismissal": "c (wk)Sangakkara b Chandana",
                     "runs": "14",
                     "balls": "18",
                     "minutes": "36",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 119 runs"
+    "result": "Sri Lanka won by 119 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Farveez Maharoof",
+            "Kumar Sangakkara (wk)",
+            "Marvan Atapattu(c)",
+            "Saman Jayantha",
+            "Upul Chandana",
+            "Sanath Jayasuriya",
+            "Dilhara Fernando",
+            "Mahela Jayawardene",
+            "Nuwan Zoysa",
+            "Tillakaratne Dilshan"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Yasir Hameed",
+            "Shahid Afridi",
+            "Abdul Razzaq",
+            "Naved-ul-Hasan",
+            "Mohammad Yousuf",
+            "Shoaib Akhtar",
+            "Mohammad Sami",
+            "Shoaib Malik",
+            "Moin Khan (wk)",
+            "Inzamam-ul-Haq(c)"
+        ]
+    }
 }

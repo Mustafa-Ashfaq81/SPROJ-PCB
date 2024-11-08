@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Wasim Akram",
-                    "dismissal": "c Hart b Oram",
+                    "dismissal": "c (wk)Hart b Oram",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "9",
@@ -103,7 +103,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "not out",
                     "runs": "0",
                     "balls": "0",
@@ -298,8 +298,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Robbie Hart",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "batsman": "Robbie Hart (wk)",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "10",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 153 runs"
+    "result": "Pakistan won by 153 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Rashid Latif (wk)",
+            "Saqlain Mushtaq",
+            "Mohammad Yousuf",
+            "Wasim Akram",
+            "Imran Nazir",
+            "Younis Khan",
+            "Inzamam-ul-Haq",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Waqar Younis (c)",
+            "Shoaib Akhtar"
+        ],
+        "New Zealand": [
+            "Jacob Oram",
+            "Robbie Hart (wk)",
+            "Chris Harris",
+            "Matt Horne",
+            "Andre Adams",
+            "Lou Vincent",
+            "Ian Butler",
+            "Craig McMillan(c)",
+            "Brooke Walker",
+            "Daryl Tuffey",
+            "Nathan Astle"
+        ]
+    }
 }

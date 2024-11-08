@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Ahmad Faiz(c)",
-                    "dismissal": "c Patil b Mohammad Naveed",
+                    "dismissal": "c (wk)Patil b Mohammad Naveed",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -59,7 +59,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Shafiq Sharif",
+                    "batsman": "Shafiq Sharif (wk)",
                     "dismissal": "lbw b Mohammad Shahzad",
                     "runs": "1",
                     "balls": "7",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Suhan Alagaratnam",
-                    "dismissal": "c Patil b Mohammad Shahzad",
+                    "dismissal": "c (wk)Patil b Mohammad Shahzad",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "-",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Suharril Fetri",
-                    "dismissal": "c Patil b Fayyaz Ahmed",
+                    "dismissal": "c (wk)Patil b Fayyaz Ahmed",
                     "runs": "37",
                     "balls": "92",
                     "minutes": "-",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Khizar Hayat",
-                    "dismissal": "run out (Ahmed Raza/Patil)",
+                    "dismissal": "run out (Ahmed Raza/ (wk)Patil)",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "-",
@@ -120,7 +120,7 @@
                 },
                 {
                     "batsman": "Shahrulnizam Yusof",
-                    "dismissal": "st Patil b Fayyaz Ahmed",
+                    "dismissal": "st (wk)Patil b Fayyaz Ahmed",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "-",
@@ -251,7 +251,7 @@
             "batting": [
                 {
                     "batsman": "Amjad Ali",
-                    "dismissal": "c Shafiq Sharif b Hassan Ghulam",
+                    "dismissal": "c (wk)Shafiq Sharif b Hassan Ghulam",
                     "runs": "43",
                     "balls": "49",
                     "minutes": "-",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Khurram Khan(c)",
-                    "dismissal": "c Shafiq Sharif b Navaratnam",
+                    "dismissal": "c (wk)Shafiq Sharif b Navaratnam",
                     "runs": "37",
                     "balls": "37",
                     "minutes": "-",
@@ -280,7 +280,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Swapnil Patil",
+                    "batsman": "Swapnil Patil (wk)",
                     "dismissal": "run out (Suhan Alagaratnam)",
                     "runs": "13",
                     "balls": "21",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 6 wickets (with 146 balls remaining)"
+    "result": "U.A.E. won by 6 wickets (with 146 balls remaining)",
+    "playing_xi": {
+        "Malaysia": [
+            "Anwar Arudin",
+            "Ahmad Faiz(c)",
+            "Suharril Fetri",
+            "Suresh Navaratnam",
+            "Hammadullah Khan",
+            "Shahrulnizam Yusof",
+            "Nasir Shafiq",
+            "Khizar Hayat",
+            "Shafiq Sharif (wk)",
+            "Suhan Alagaratnam",
+            "Hassan Ghulam"
+        ],
+        "United Arab Emirates": [
+            "Khurram Khan(c)",
+            "Fayyaz Ahmed",
+            "Kamran Shazad",
+            "Mohammad Naveed",
+            "Mohammad Shahzad",
+            "Swapnil Patil (wk)",
+            "Salman Faris",
+            "Shaiman Anwar",
+            "Amjad Ali",
+            "Ahmed Raza",
+            "Irfan Sajid"
+        ]
+    }
 }

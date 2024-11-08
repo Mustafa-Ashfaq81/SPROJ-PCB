@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Petrie b Nel",
+                    "dismissal": "c (wk)Petrie b Nel",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "3",
@@ -93,7 +93,7 @@
                     "strike_rate": "112.50"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "not out",
                     "runs": "29",
                     "balls": "38",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Neil McCallum",
-                    "dismissal": "c Paine b Johnson",
+                    "dismissal": "c (wk)Paine b Johnson",
                     "runs": "24",
                     "balls": "41",
                     "minutes": "41",
@@ -320,7 +320,7 @@
                     "strike_rate": "34.28"
                 },
                 {
-                    "batsman": "Marc Petrie",
+                    "batsman": "Marc Petrie (wk)",
                     "dismissal": "c Lee b Watson",
                     "runs": "0",
                     "balls": "6",
@@ -468,5 +468,33 @@
             ]
         }
     ],
-    "result": "Australia won by 189 runs"
+    "result": "Australia won by 189 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Adam Voges",
+            "Cameron White",
+            "David Warner",
+            "Michael Clarke(c)",
+            "Brett Lee",
+            "Dirk Nannes",
+            "Nathan Hauritz",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "David Hussey"
+        ],
+        "Scotland": [
+            "Gavin Hamilton(c)",
+            "Dewald Nel",
+            "Marc Petrie (wk)",
+            "Qasim Sheikh",
+            "Gordon Drummond",
+            "Ryan Watson",
+            "Richie Berrington",
+            "Majid Haq",
+            "Fraser Watts",
+            "Gordon Goudie",
+            "Neil McCallum"
+        ]
+    }
 }

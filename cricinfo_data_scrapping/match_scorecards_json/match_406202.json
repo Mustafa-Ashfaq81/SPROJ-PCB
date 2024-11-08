@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c Haddin b Bollinger",
+                    "dismissal": "c (wk)Haddin b Bollinger",
                     "runs": "72",
                     "balls": "81",
                     "minutes": "97",
@@ -40,7 +40,7 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Clarke b Watson",
                     "runs": "34",
                     "balls": "34",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "23",
                     "balls": "22",
                     "minutes": "23",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Haddin b Watson",
+                    "dismissal": "c (wk)Haddin b Watson",
                     "runs": "28",
                     "balls": "33",
                     "minutes": "38",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Mohammad Amir",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -311,7 +311,7 @@
                     "strike_rate": "94.59"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "7",
                     "balls": "7",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 5 wickets (with 9 balls remaining)"
+    "result": "Australia won by 5 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Mohammad Yousuf(c)",
+            "Shoaib Malik",
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Umar Akmal",
+            "Salman Butt",
+            "Mohammad Amir",
+            "Shahid Afridi",
+            "Mohammad Asif"
+        ],
+        "Australia": [
+            "Michael Clarke",
+            "Cameron White",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Ricky Ponting(c)",
+            "Peter Siddle",
+            "Brad Haddin (wk)",
+            "Clint McKay",
+            "Nathan Hauritz",
+            "Michael Hussey",
+            "Doug Bollinger"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "50",
                     "balls": "46",
                     "minutes": "67",
@@ -100,7 +100,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "not out",
                     "runs": "21",
                     "balls": "20",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Read b Mahmood",
+                    "dismissal": "c (wk)Read b Mahmood",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "5",
@@ -321,7 +321,7 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Collingwood b Broad",
                     "runs": "0",
                     "balls": "1",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 2 wickets (with 7 balls remaining)"
+    "result": "Pakistan won by 2 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jamie Dalrymple",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Jon Lewis",
+            "Andrew Strauss(c)",
+            "Chris Read (wk)",
+            "Stuart Broad",
+            "Sajid Mahmood",
+            "Marcus Trescothick",
+            "Rikki Clarke",
+            "Ian Bell"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Shahid Afridi",
+            "Shoaib Akhtar",
+            "Abdul Razzaq",
+            "Mohammad Hafeez",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Shoaib Malik"
+        ]
+    }
 }

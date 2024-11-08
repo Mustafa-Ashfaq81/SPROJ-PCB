@@ -86,7 +86,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "c Muralidaran b Nissanka",
                     "runs": "1",
                     "balls": "9",
@@ -97,7 +97,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Kaluwitharana b Muralidaran",
+                    "dismissal": "c (wk)Kaluwitharana b Muralidaran",
                     "runs": "27",
                     "balls": "52",
                     "minutes": "56",
@@ -137,7 +137,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "run out (Muralidaran/Kaluwitharana)",
+                    "dismissal": "run out (Muralidaran/ (wk)Kaluwitharana)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "10",
@@ -293,7 +293,7 @@
                     "strike_rate": "142.85"
                 }
             ],
-            "did_not_bat": "Romesh Kaluwitharana , Chaminda Vaas , Muthiah Muralidaran , Prabath Nissanka , Dilhara Fernando , Kumar Sangakkara",
+            "did_not_bat": "Romesh Kaluwitharana (wk) , Chaminda Vaas , Muthiah Muralidaran , Prabath Nissanka , Dilhara Fernando , Kumar Sangakkara",
             "fall_of_wickets": "Fall of wickets : 1 - 43 ( Sanath Jayasuriya , 13.2 ov ) , 2 - 121 ( Marvan Atapattu , 27.6 ov ) , 3 - 161 ( Avishka Gunawardene , 36.2 ov )",
             "bowling": [
                 {
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 71 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 71 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Saeed Anwar",
+            "Waqar Younis(c)",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Taufeeq Umar",
+            "Rashid Latif (wk)",
+            "Shahid Afridi"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Prabath Nissanka",
+            "Avishka Gunawardene",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Romesh Kaluwitharana (wk)",
+            "Russel Arnold",
+            "Sanath Jayasuriya(c)",
+            "Kumar Sangakkara",
+            "Marvan Atapattu"
+        ]
+    }
 }

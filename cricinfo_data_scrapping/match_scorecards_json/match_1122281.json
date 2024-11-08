@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Klaasen b Rabada",
+                    "dismissal": "c (wk)Klaasen b Rabada",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "4",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Hardik Pandya",
-                    "dismissal": "c Klaasen b Morris",
+                    "dismissal": "c (wk)Klaasen b Morris",
                     "runs": "14",
                     "balls": "15",
                     "minutes": "21",
@@ -84,7 +84,7 @@
                     "strike_rate": "93.33"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Ngidi b Imran Tahir",
                     "runs": "10",
                     "balls": "22",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Kedar Jadhav",
-                    "dismissal": "c Klaasen b Phehlukwayo",
+                    "dismissal": "c (wk)Klaasen b Phehlukwayo",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "6",
@@ -222,7 +222,7 @@
                 },
                 {
                     "batsman": "Aiden Markram(c)",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "32",
                     "balls": "42",
                     "minutes": "64",
@@ -241,7 +241,7 @@
                     "strike_rate": "76.11"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
+                    "batsman": "Heinrich Klaasen (wk)",
                     "dismissal": "lbw b Chahal",
                     "runs": "6",
                     "balls": "12",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "25",
                     "balls": "42",
                     "minutes": "53",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "India won by 124 runs"
+    "result": "India won by 124 runs",
+    "playing_xi": {
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ],
+        "South Africa": [
+            "Andile Phehlukwayo",
+            "Aiden Markram(c)",
+            "Kagiso Rabada",
+            "Hashim Amla",
+            "Chris Morris",
+            "David Miller",
+            "Khaya Zondo",
+            "Imran Tahir",
+            "Heinrich Klaasen (wk)",
+            "Jean-Paul Duminy",
+            "Lungi Ngidi"
+        ]
+    }
 }

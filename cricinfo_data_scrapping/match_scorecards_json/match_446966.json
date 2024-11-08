@@ -43,7 +43,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Finn",
                     "runs": "37",
                     "balls": "52",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "c Prior b Woakes",
+                    "dismissal": "c (wk)Prior b Woakes",
                     "runs": "16",
                     "balls": "16",
                     "minutes": "11",
@@ -250,7 +250,7 @@
                     "strike_rate": "18.75"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "b Lee",
                     "runs": "14",
                     "balls": "15",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c Haddin b Watson",
+                    "dismissal": "c (wk)Haddin b Watson",
                     "runs": "8",
                     "balls": "25",
                     "minutes": "27",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Ajmal Shahzad",
-                    "dismissal": "c Haddin b Bollinger",
+                    "dismissal": "c (wk)Haddin b Bollinger",
                     "runs": "9",
                     "balls": "23",
                     "minutes": "26",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Australia won by 51 runs"
+    "result": "Australia won by 51 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shaun Marsh",
+            "Shane Watson",
+            "Mitchell Johnson",
+            "David Hussey",
+            "John Hastings",
+            "Steven Smith",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Cameron White",
+            "Doug Bollinger",
+            "Michael Clarke(c)"
+        ],
+        "England": [
+            "Ian Bell",
+            "Andrew Strauss(c)",
+            "Chris Woakes",
+            "Paul Collingwood",
+            "Jonathan Trott",
+            "Matt Prior (wk)",
+            "Eoin Morgan",
+            "Ajmal Shahzad",
+            "James Anderson",
+            "Steven Finn",
+            "Kevin Pietersen"
+        ]
+    }
 }

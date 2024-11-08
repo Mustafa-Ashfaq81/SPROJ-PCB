@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Alex Obanda",
-                    "dismissal": "c Smits b Seelaar",
+                    "dismissal": "c (wk)Smits b Seelaar",
                     "runs": "20",
                     "balls": "30",
                     "minutes": "39",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo(c)",
-                    "dismissal": "st Smits b Seelaar",
+                    "dismissal": "st (wk)Smits b Seelaar",
                     "runs": "34",
                     "balls": "32",
                     "minutes": "34",
@@ -62,8 +62,8 @@
                     "strike_rate": "106.25"
                 },
                 {
-                    "batsman": "Morris Ouma",
-                    "dismissal": "st Smits b Seelaar",
+                    "batsman": "Morris Ouma (wk)",
+                    "dismissal": "st (wk)Smits b Seelaar",
                     "runs": "8",
                     "balls": "19",
                     "minutes": "24",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Peter Borren",
-                    "dismissal": "c Ouma b Kamande",
+                    "dismissal": "c (wk)Ouma b Kamande",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "5",
@@ -259,7 +259,7 @@
                     "strike_rate": "125.00"
                 }
             ],
-            "did_not_bat": "Mudassar Bukhari , Geert-Maarten Mol , Jeroen Smits (c) , Edgar Schiferli , Pieter Seelaar",
+            "did_not_bat": "Mudassar Bukhari , Geert-Maarten Mol , Jeroen Smits (c) (wk) , Edgar Schiferli , Pieter Seelaar",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Darron Reekers , 0.4 ov ) , 2 - 40 ( Tom de Grooth , 8.1 ov ) , 3 - 106 ( Eric Szwarczynski , 21.1 ov ) , 4 - 112 ( Peter Borren , 22.1 ov )",
             "bowling": [
                 {
@@ -349,5 +349,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 6 wickets (with 6 balls remaining)"
+    "result": "Netherlands won by 6 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Kennedy Otieno",
+            "Jimmy Kamande",
+            "Thomas Odoyo",
+            "Nehemiah Odhiambo",
+            "Steve Tikolo(c)",
+            "Tony Suji",
+            "Hiren Varaiya",
+            "Rakep Patel",
+            "Alex Obanda",
+            "Peter Ongondo",
+            "Morris Ouma (wk)"
+        ],
+        "Netherlands": [
+            "Henk-Jan Mol",
+            "Pieter Seelaar",
+            "Edgar Schiferli",
+            "Darron Reekers",
+            "Geert-Maarten Mol",
+            "Jeroen Smits (c) (wk)",
+            "Mudassar Bukhari",
+            "Bas Zuiderent",
+            "Tom de Grooth",
+            "Eric Szwarczynski",
+            "Peter Borren"
+        ]
+    }
 }

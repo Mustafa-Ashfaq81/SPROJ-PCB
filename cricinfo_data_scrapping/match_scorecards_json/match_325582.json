@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "c Ouma b Tikolo",
+                    "dismissal": "c (wk)Ouma b Tikolo",
                     "runs": "41",
                     "balls": "55",
                     "minutes": "-",
@@ -44,8 +44,8 @@
                     "strike_rate": "74.54"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "st Ouma b Kamande",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "st (wk)Ouma b Kamande",
                     "runs": "22",
                     "balls": "35",
                     "minutes": "-",
@@ -251,7 +251,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "b Botha",
                     "runs": "34",
                     "balls": "49",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Jimmy Kamande",
-                    "dismissal": "c NJ O'Brien b Cusack",
+                    "dismissal": "c (wk)NJ O'Brien b Cusack",
                     "runs": "42",
                     "balls": "48",
                     "minutes": "-",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 86 runs"
+    "result": "Ireland won by 86 runs",
+    "playing_xi": {
+        "Ireland": [
+            "Peter Connell",
+            "Regan West",
+            "Andrew White",
+            "Andre Botha",
+            "Gary Wilson",
+            "Kyle McCallan",
+            "William Porterfield(c)",
+            "Boyd Rankin",
+            "Alex Cusack",
+            "Niall O'Brien (wk)",
+            "Kevin O'Brien"
+        ],
+        "Kenya": [
+            "Kennedy Otieno",
+            "Jimmy Kamande",
+            "Thomas Odoyo",
+            "Steve Tikolo(c)",
+            "Rajesh Bhudia",
+            "Rakep Patel",
+            "Seren Waters",
+            "Hiren Varaiya",
+            "Lameck Onyango",
+            "Peter Ongondo",
+            "Morris Ouma (wk)"
+        ]
+    }
 }

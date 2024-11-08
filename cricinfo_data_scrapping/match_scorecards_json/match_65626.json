@@ -32,7 +32,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Ntini",
                     "runs": "31",
                     "balls": "40",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c Boucher b Boje",
+                    "dismissal": "c (wk)Boucher b Boje",
                     "runs": "29",
                     "balls": "54",
                     "minutes": "66",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "33",
                     "balls": "48",
                     "minutes": "48",
@@ -269,7 +269,7 @@
                     "strike_rate": "68.96"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Bichel b Lehmann",
                     "runs": "12",
                     "balls": "10",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Australia won by 33 runs"
+    "result": "Australia won by 33 runs",
+    "playing_xi": {
+        "Australia": [
+            "Darren Lehmann",
+            "Glenn McGrath",
+            "Steve Waugh(c)",
+            "Shane Warne",
+            "Brett Lee",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting",
+            "Michael Bevan",
+            "Damien Martyn",
+            "Mark Waugh"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Nicky Boje",
+            "Jonty Rhodes",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Boeta Dippenaar",
+            "Allan Donald",
+            "Lance Klusener",
+            "Makhaya Ntini",
+            "Shaun Pollock (c)"
+        ]
+    }
 }

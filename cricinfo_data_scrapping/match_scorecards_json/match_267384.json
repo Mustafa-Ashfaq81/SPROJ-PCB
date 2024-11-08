@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Kenny Carroll",
-                    "dismissal": "c Ouma b Ongondo",
+                    "dismissal": "c (wk)Ouma b Ongondo",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "5",
@@ -60,7 +60,7 @@
                     "strike_rate": "40.74"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "run out (Tikolo)",
                     "runs": "9",
                     "balls": "20",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien",
-                    "dismissal": "run out (Ouma)",
+                    "dismissal": "run out ( (wk)Ouma)",
                     "runs": "142",
                     "balls": "125",
                     "minutes": "128",
@@ -177,7 +177,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "lbw b Langford-Smith",
                     "runs": "6",
                     "balls": "9",
@@ -198,7 +198,7 @@
                 },
                 {
                     "batsman": "Nehemiah Odhiambo",
-                    "dismissal": "c NJ O'Brien b McCallan",
+                    "dismissal": "c (wk)NJ O'Brien b McCallan",
                     "runs": "66",
                     "balls": "83",
                     "minutes": "108",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Tanmay Mishra",
-                    "dismissal": "c NJ O'Brien b Botha",
+                    "dismissal": "c (wk)NJ O'Brien b Botha",
                     "runs": "49",
                     "balls": "66",
                     "minutes": "90",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 1 wicket (with 6 balls remaining)"
+    "result": "Kenya won by 1 wicket (with 6 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Kyle McCallan",
+            "Andrew White",
+            "Kenny Carroll",
+            "Niall O'Brien (wk)",
+            "Eoin Morgan",
+            "Kevin O'Brien",
+            "William Porterfield",
+            "Trent Johnston (c)",
+            "Peter Gillespie",
+            "Dave Langford-Smith",
+            "Andre Botha"
+        ],
+        "Kenya": [
+            "Tanmay Mishra",
+            "Collins Obuya",
+            "Nehemiah Odhiambo",
+            "Hiren Varaiya",
+            "Jimmy Kamande",
+            "Steve Tikolo(c)",
+            "Thomas Odoyo",
+            "Peter Ongondo",
+            "Ravi Shah",
+            "David Obuya",
+            "Morris Ouma (wk)"
+        ]
+    }
 }

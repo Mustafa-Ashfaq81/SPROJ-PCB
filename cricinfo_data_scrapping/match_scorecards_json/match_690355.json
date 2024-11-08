@@ -54,7 +54,7 @@
                     "strike_rate": "27.27"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Arafat Sunny b Al-Amin Hossain",
                     "runs": "8",
                     "balls": "14",
@@ -135,7 +135,7 @@
                 },
                 {
                     "batsman": "Lasith Malinga",
-                    "dismissal": "c Anamul Haque b Sohag Gazi",
+                    "dismissal": "c (wk)Anamul Haque b Sohag Gazi",
                     "runs": "0",
                     "balls": "10",
                     "minutes": "19",
@@ -241,7 +241,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Anamul Haque",
+                    "batsman": "Anamul Haque (wk)",
                     "dismissal": "c Mathews b Malinga",
                     "runs": "0",
                     "balls": "2",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Shamsur Rahman",
-                    "dismissal": "run out (Malinga/Sangakkara)",
+                    "dismissal": "run out (Malinga/ (wk)Sangakkara)",
                     "runs": "62",
                     "balls": "49",
                     "minutes": "99",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Mushfiqur Rahim(c)",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "27",
                     "balls": "50",
                     "minutes": "110",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "run out (Malinga/Sangakkara)",
+                    "dismissal": "run out (Malinga/ (wk)Sangakkara)",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "10",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Arafat Sunny",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "20",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 13 runs"
+    "result": "Sri Lanka won by 13 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Ashan Priyanjan",
+            "Sachithra Senanayake",
+            "Dinesh Chandimal",
+            "Kusal Perera",
+            "Thisara Perera",
+            "Angelo Mathews(c)",
+            "Kithuruwan Vithanage",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara"
+        ],
+        "Bangladesh": [
+            "Nasir Hossain",
+            "Rubel Hossain",
+            "Anamul Haque (wk)",
+            "Sohag Gazi",
+            "Mominul Haque",
+            "Shamsur Rahman",
+            "Shakib Al Hasan",
+            "Al-Amin Hossain",
+            "Mahmudullah",
+            "Mushfiqur Rahim(c)",
+            "Arafat Sunny"
+        ]
+    }
 }

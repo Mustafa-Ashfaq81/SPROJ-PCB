@@ -52,7 +52,7 @@
                     "strike_rate": "96.15"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Dippenaar b van der Wath",
                     "runs": "62",
                     "balls": "77",
@@ -283,7 +283,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Fernando",
                     "runs": "24",
                     "balls": "36",
@@ -314,7 +314,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "c Sangakkara b Bandara",
+                    "dismissal": "c (wk)Sangakkara b Bandara",
                     "runs": "15",
                     "balls": "26",
                     "minutes": "30",
@@ -467,5 +467,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 76 runs"
+    "result": "Sri Lanka won by 76 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Dilhara Fernando",
+            "Muthiah Muralidaran",
+            "Mahela Jayawardene",
+            "Ruchira Perera",
+            "Jehan Mubarak",
+            "Chaminda Vaas",
+            "Chamara Kapugedera"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Boeta Dippenaar",
+            "Johan Botha",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Andrew Hall",
+            "Johan van der Wath",
+            "Mark Boucher (wk)"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Taibu b Chigumbura",
+                    "dismissal": "c (wk)Taibu b Chigumbura",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "17",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Taibu b Chigumbura",
+                    "dismissal": "c (wk)Taibu b Chigumbura",
                     "runs": "20",
                     "balls": "41",
                     "minutes": "59",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Raqibul Hasan",
-                    "dismissal": "run out (Chigumbura/Taibu)",
+                    "dismissal": "run out (Chigumbura/ (wk)Taibu)",
                     "runs": "16",
                     "balls": "44",
                     "minutes": "68",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "c Taibu b Chibhabha",
+                    "dismissal": "c (wk)Taibu b Chibhabha",
                     "runs": "13",
                     "balls": "16",
                     "minutes": "21",
@@ -80,8 +80,8 @@
                     "strike_rate": "81.25"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Taibu b Jarvis",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Taibu b Jarvis",
                     "runs": "56",
                     "balls": "77",
                     "minutes": "111",
@@ -267,7 +267,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Abdur Razzak",
                     "runs": "0",
                     "balls": "3",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 5 wickets (with 92 balls remaining)"
+    "result": "Zimbabwe won by 5 wickets (with 92 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rubel Hossain",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Shakib Al Hasan(c)",
+            "Raqibul Hasan",
+            "Abdur Razzak",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam",
+            "Dolar Mahmud"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Elton Chigumbura",
+            "Kyle Jarvis",
+            "Brendan Taylor",
+            "Prosper Utseya (c)",
+            "Tatenda Taibu (wk)",
+            "Ray Price",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Graeme Cremer",
+            "Charles Coventry"
+        ]
+    }
 }

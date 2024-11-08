@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Buttler b Anderson",
+                    "dismissal": "c (wk)Buttler b Anderson",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "9",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ambati Rayudu",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "23",
                     "balls": "53",
                     "minutes": "76",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "13",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "st Buttler b Ali",
+                    "dismissal": "st (wk)Buttler b Ali",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "4",
@@ -81,8 +81,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Buttler b Finn",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "34",
                     "balls": "61",
                     "minutes": "70",
@@ -254,7 +254,7 @@
                     "strike_rate": "88.88"
                 }
             ],
-            "did_not_bat": "Joe Root , Eoin Morgan (c) , Ravi Bopara , Jos Buttler , Chris Woakes , Stuart Broad , James Anderson , Steven Finn",
+            "did_not_bat": "Joe Root , Eoin Morgan (c) , Ravi Bopara , Jos Buttler (wk) , Chris Woakes , Stuart Broad , James Anderson , Steven Finn",
             "fall_of_wickets": "Fall of wickets : 1 - 25 ( Moeen Ali , 2.6 ov )",
             "bowling": [
                 {
@@ -344,5 +344,33 @@
             ]
         }
     ],
-    "result": "England won by 9 wickets (with 135 balls remaining)"
+    "result": "England won by 9 wickets (with 135 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Axar Patel",
+            "Shikhar Dhawan",
+            "MS Dhoni(c) (wk)",
+            "Virat Kohli",
+            "Mohammed Shami",
+            "Ajinkya Rahane",
+            "Umesh Yadav",
+            "Bhuvneshwar Kumar",
+            "Suresh Raina",
+            "Ambati Rayudu",
+            "Stuart Binny"
+        ],
+        "England": [
+            "Eoin Morgan (c)",
+            "Jos Buttler (wk)",
+            "Chris Woakes",
+            "Joe Root",
+            "James Anderson",
+            "Steven Finn",
+            "Stuart Broad",
+            "Moeen Ali",
+            "James Taylor",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

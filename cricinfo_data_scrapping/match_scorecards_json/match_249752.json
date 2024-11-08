@@ -91,7 +91,7 @@
                     "strike_rate": "119.23"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Shoaib Malik b Abdul Razzaq",
                     "runs": "27",
                     "balls": "13",
@@ -219,7 +219,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "43",
                     "balls": "46",
                     "minutes": "61",
@@ -288,7 +288,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Fleming b Mills",
                     "runs": "16",
                     "balls": "14",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Naved-ul-Hasan",
-                    "dismissal": "c McCullum b Franklin",
+                    "dismissal": "c (wk)McCullum b Franklin",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "5",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 51 runs"
+    "result": "New Zealand won by 51 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Scott Styris",
+            "James Franklin",
+            "Jacob Oram",
+            "Kyle Mills",
+            "Shane Bond",
+            "Peter Fulton",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Lou Vincent",
+            "Brendon McCullum (wk)"
+        ],
+        "Pakistan": [
+            "Naved-ul-Hasan",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Imran Farhat",
+            "Mohammad Yousuf",
+            "Mohammad Hafeez",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Iftikhar Anjum"
+        ]
+    }
 }

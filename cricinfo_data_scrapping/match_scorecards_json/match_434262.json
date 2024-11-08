@@ -52,7 +52,7 @@
                     "strike_rate": "194.11"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Raina b Yuvraj Singh",
                     "runs": "68",
                     "balls": "78",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Chanaka Welegedara",
-                    "dismissal": "st Dhoni b Mishra",
+                    "dismissal": "st (wk)Dhoni b Mishra",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -254,7 +254,7 @@
             "batting": [
                 {
                     "batsman": "Dinesh Karthik",
-                    "dismissal": "c Sangakkara b Thushara",
+                    "dismissal": "c (wk)Sangakkara b Thushara",
                     "runs": "48",
                     "balls": "40",
                     "minutes": "55",
@@ -293,7 +293,7 @@
                     "strike_rate": "114.28"
                 }
             ],
-            "did_not_bat": "MS Dhoni (c) , Suresh Raina , Amit Mishra , Ravindra Jadeja , Zaheer Khan , Sreesanth , Sudeep Tyagi",
+            "did_not_bat": "MS Dhoni (c) (wk) , Suresh Raina , Amit Mishra , Ravindra Jadeja , Zaheer Khan , Sreesanth , Sudeep Tyagi",
             "fall_of_wickets": "Fall of wickets : 1 - 89 ( Dinesh Karthik , 11.3 ov ) , 2 - 161 ( Gautam Gambhir , 28.3 ov )",
             "bowling": [
                 {
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 104 balls remaining)"
+    "result": "India won by 8 wickets (with 104 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Suraj Randiv",
+            "Chanaka Welegedara",
+            "Suranga Lakmal",
+            "Mahela Jayawardene",
+            "Thisara Perera",
+            "Thilan Thushara",
+            "Kumar Sangakkara(c) (wk)",
+            "Upul Tharanga",
+            "Thilina Kandamby",
+            "Thilan Samaraweera"
+        ],
+        "India": [
+            "Sudeep Tyagi",
+            "Yuvraj Singh",
+            "Ravindra Jadeja",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "MS Dhoni (c) (wk)",
+            "Dinesh Karthik",
+            "Sreesanth",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Amit Mishra"
+        ]
+    }
 }

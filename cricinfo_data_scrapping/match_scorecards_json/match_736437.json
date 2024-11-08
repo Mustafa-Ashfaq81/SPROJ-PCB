@@ -35,7 +35,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Taylor b Nyumbu",
                     "runs": "63",
                     "balls": "68",
@@ -183,7 +183,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c de Kock b Parnell",
+                    "dismissal": "c (wk)de Kock b Parnell",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "15",
@@ -192,8 +192,8 @@
                     "strike_rate": "58.33"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
-                    "dismissal": "c de Kock b McLaren",
+                    "batsman": "Richmond Mutumbami (wk)",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "13",
                     "balls": "32",
                     "minutes": "41",
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 93 runs"
+    "result": "South Africa won by 93 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Ryan McLaren",
+            "Aaron Phangiso",
+            "Imran Tahir",
+            "Wayne Parnell",
+            "Kyle Abbott",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ],
+        "Zimbabwe": [
+            "Shingi Masakadza",
+            "Neville Madziva",
+            "Elton Chigumbura(c)",
+            "Prosper Utseya",
+            "John Nyumbu",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Brendan Taylor",
+            "Luke Jongwe",
+            "Richmond Mutumbami (wk)"
+        ]
+    }
 }

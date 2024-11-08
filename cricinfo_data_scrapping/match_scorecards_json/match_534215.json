@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Wade b Cummins",
+                    "dismissal": "c (wk)Wade b Cummins",
                     "runs": "40",
                     "balls": "59",
                     "minutes": "112",
@@ -80,7 +80,7 @@
                     "strike_rate": "141.26"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "c Warner b Watson",
                     "runs": "25",
                     "balls": "29",
@@ -174,7 +174,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Kieswetter b Finn",
+                    "dismissal": "c (wk)Kieswetter b Finn",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "24",
@@ -184,7 +184,7 @@
                 },
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Kieswetter b Anderson",
+                    "dismissal": "c (wk)Kieswetter b Anderson",
                     "runs": "56",
                     "balls": "61",
                     "minutes": "94",
@@ -224,7 +224,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "c Kieswetter b Bresnan",
+                    "dismissal": "c (wk)Kieswetter b Bresnan",
                     "runs": "8",
                     "balls": "13",
                     "minutes": "16",
@@ -233,7 +233,7 @@
                     "strike_rate": "61.53"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "run out (sub [JJ Roy]/Swann)",
                     "runs": "27",
                     "balls": "32",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Clint McKay",
-                    "dismissal": "c Kieswetter b Broad",
+                    "dismissal": "c (wk)Kieswetter b Broad",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "8",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "England won by 15 runs"
+    "result": "England won by 15 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Eoin Morgan",
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Graeme Swann",
+            "Craig Kieswetter (wk)",
+            "Stuart Broad",
+            "Ian Bell",
+            "Ravi Bopara"
+        ],
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Michael Clarke(c)",
+            "Pat Cummins",
+            "Clint McKay",
+            "Brett Lee",
+            "David Warner",
+            "Steven Smith",
+            "George Bailey",
+            "Shane Watson"
+        ]
+    }
 }

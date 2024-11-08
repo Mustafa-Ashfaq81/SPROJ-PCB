@@ -29,8 +29,8 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
-                    "dismissal": "c Kotze b Viljoen",
+                    "batsman": "Matthew Cross (wk)",
+                    "dismissal": "c (wk)Kotze b Viljoen",
                     "runs": "27",
                     "balls": "33",
                     "minutes": "46",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Preston Mommsen(c)",
-                    "dismissal": "st Kotze b BM Scholtz",
+                    "dismissal": "st (wk)Kotze b BM Scholtz",
                     "runs": "46",
                     "balls": "67",
                     "minutes": "74",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Michael Leask",
-                    "dismissal": "run out (Kotze)",
+                    "dismissal": "run out ( (wk)Kotze)",
                     "runs": "8",
                     "balls": "7",
                     "minutes": "8",
@@ -320,8 +320,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "JP Kotze",
-                    "dismissal": "st Cross b MacLeod",
+                    "batsman": "JP Kotze (wk)",
+                    "dismissal": "st (wk)Cross b MacLeod",
                     "runs": "18",
                     "balls": "19",
                     "minutes": "42",
@@ -450,5 +450,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 21 runs"
+    "result": "Scotland won by 21 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Rob Taylor",
+            "Michael Leask",
+            "Richie Berrington",
+            "Matthew Cross (wk)",
+            "Freddie Coleman",
+            "Safyaan Sharif",
+            "Majid Haq",
+            "Iain Wardlaw",
+            "Preston Mommsen(c)",
+            "Calum MacLeod",
+            "Matt Machan"
+        ],
+        "Namibia": [
+            "Nicolaas Scholtz",
+            "Louis Klazinga",
+            "JJ Smit",
+            "Craig Williams",
+            "Stephan Baard",
+            "Bernard Scholtz",
+            "JP Kotze (wk)",
+            "Louis van der Westhuizen",
+            "Gerrie Snyman",
+            "Christi Viljoen",
+            "Sarel Burger(c)"
+        ]
+    }
 }

@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "17",
                     "balls": "32",
                     "minutes": "49",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Mal Loye",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "21",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Jamie Dalrymple",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "10",
                     "balls": "24",
                     "minutes": "32",
@@ -102,7 +102,7 @@
                     "strike_rate": "41.66"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "c & b Hogg",
                     "runs": "4",
                     "balls": "19",
@@ -225,8 +225,8 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "run out (Plunkett/Nixon)",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "run out (Plunkett/ (wk)Nixon)",
                     "runs": "23",
                     "balls": "19",
                     "minutes": "29",
@@ -331,5 +331,33 @@
             ]
         }
     ],
-    "result": "Australia won by 9 wickets (with 153 balls remaining)"
+    "result": "Australia won by 9 wickets (with 153 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Liam Plunkett",
+            "Ed Joyce",
+            "Chris Tremlett",
+            "Andrew Strauss",
+            "Jamie Dalrymple",
+            "Mal Loye",
+            "Andrew Flintoff(c)"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Stuart Clark",
+            "Cameron White",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ]
+    }
 }

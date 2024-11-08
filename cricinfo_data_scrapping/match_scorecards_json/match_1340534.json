@@ -35,7 +35,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "b Rajitha",
                     "runs": "5",
                     "balls": "12",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Mendis b Rajitha",
+                    "dismissal": "c (wk)Mendis b Rajitha",
                     "runs": "22",
                     "balls": "30",
                     "minutes": "40",
@@ -246,7 +246,7 @@
                     "strike_rate": "63.63"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c Rashid Khan b Mohammad Nabi",
                     "runs": "67",
                     "balls": "61",
@@ -297,7 +297,7 @@
                 },
                 {
                     "batsman": "Wanindu Hasaranga",
-                    "dismissal": "c Rahmanullah Gurbaz b Rashid Khan",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Rashid Khan",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "8",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 4 wickets (with 2 balls remaining)"
+    "result": "Sri Lanka won by 4 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Noor Ahmad",
+            "Ibrahim Zadran",
+            "Najibullah Zadran",
+            "Rashid Khan",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz (wk)",
+            "Fazalhaq Farooqi",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Rahmat Shah"
+        ],
+        "Sri Lanka": [
+            "Dasun Shanaka(c)",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Wanindu Hasaranga",
+            "Dunith Wellalage",
+            "Maheesh Theekshana",
+            "Kasun Rajitha",
+            "Kusal Mendis (wk)",
+            "Dinesh Chandimal",
+            "Asitha Fernando",
+            "Charith Asalanka"
+        ]
+    }
 }

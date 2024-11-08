@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Alviro Petersen",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "8",
                     "balls": "17",
                     "minutes": "18",
@@ -43,8 +43,8 @@
                     "strike_rate": "47.05"
                 },
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Sangakkara b NLTC Perera",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Sangakkara b NLTC Perera",
                     "runs": "20",
                     "balls": "28",
                     "minutes": "55",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Sangakkara b Mendis",
+                    "dismissal": "c (wk)Sangakkara b Mendis",
                     "runs": "47",
                     "balls": "72",
                     "minutes": "108",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "run out (Chandimal/Sangakkara)",
+                    "dismissal": "run out (Chandimal/ (wk)Sangakkara)",
                     "runs": "16",
                     "balls": "33",
                     "minutes": "43",
@@ -240,7 +240,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Duminy b Tsotsobe",
                     "runs": "0",
                     "balls": "3",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "c de Kock b McLaren",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "29",
                     "balls": "65",
                     "minutes": "82",
@@ -420,5 +420,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 56 runs"
+    "result": "South Africa won by 56 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Ryan McLaren",
+            "Lonwabo Tsotsobe",
+            "Morne Morkel",
+            "Robin Peterson",
+            "Farhaan Behardien",
+            "Alviro Petersen",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Lasith Malinga",
+            "Thisara Perera",
+            "Ajantha Mendis",
+            "Angelo Mathews(c)",
+            "Rangana Herath",
+            "Angelo Perera"
+        ]
+    }
 }

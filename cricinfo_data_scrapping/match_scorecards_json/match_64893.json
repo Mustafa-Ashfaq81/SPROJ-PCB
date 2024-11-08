@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "c Jacobs b Bradshaw",
+                    "dismissal": "c (wk)Jacobs b Bradshaw",
                     "runs": "25",
                     "balls": "29",
                     "minutes": "35",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Jacobs b Rampaul",
+                    "dismissal": "c (wk)Jacobs b Rampaul",
                     "runs": "4",
                     "balls": "14",
                     "minutes": "13",
@@ -93,7 +93,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "c Powell b Bradshaw",
                     "runs": "24",
                     "balls": "25",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Read b Blackwell",
+                    "dismissal": "c (wk)Read b Blackwell",
                     "runs": "40",
                     "balls": "56",
                     "minutes": "109",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Read b Harmison",
+                    "dismissal": "c (wk)Read b Harmison",
                     "runs": "37",
                     "balls": "41",
                     "minutes": "60",
@@ -300,7 +300,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Ridley Jacobs , Ian Bradshaw , Ravi Rampaul , Mervyn Dillon",
+            "did_not_bat": "Ridley Jacobs (wk) , Ian Bradshaw , Ravi Rampaul , Mervyn Dillon",
             "fall_of_wickets": "Fall of wickets : 1 - 62 ( Chris Gayle , 11.6 ov ) , 2 - 102 ( Ricardo Powell , 20.6 ov ) , 3 - 115 ( Shivnarine Chanderpaul , 23.2 ov ) , 4 - 191 ( Brian Lara , 37.6 ov ) , 5 - 271 ( Dwayne Smith , 46.4 ov )",
             "bowling": [
                 {
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 5 wickets (with 12 balls remaining)"
+    "result": "West Indies won by 5 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Ian Blackwell",
+            "Michael Vaughan(c)",
+            "Rikki Clarke",
+            "Darren Gough",
+            "Chris Read (wk)",
+            "Steve Harmison",
+            "Paul Collingwood",
+            "Marcus Trescothick",
+            "Andrew Strauss",
+            "Andrew Flintoff"
+        ],
+        "West Indies": [
+            "Dwayne Smith",
+            "Ravi Rampaul",
+            "Ian Bradshaw",
+            "Dwayne Bravo",
+            "Ramnaresh Sarwan",
+            "Mervyn Dillon",
+            "Ridley Jacobs (wk)",
+            "Ricardo Powell",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                     "strike_rate": "84.21"
                 },
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b van Beek",
                     "runs": "0",
                     "balls": "2",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Brandon McMullen",
-                    "dismissal": "c Edwards b Klein",
+                    "dismissal": "c (wk)Edwards b Klein",
                     "runs": "106",
                     "balls": "110",
                     "minutes": "148",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "George Munsey",
-                    "dismissal": "c Edwards b de Leede",
+                    "dismissal": "c (wk)Edwards b de Leede",
                     "runs": "9",
                     "balls": "14",
                     "minutes": "15",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Safyaan Sharif",
-                    "dismissal": "run out (Edwards/Klein)",
+                    "dismissal": "run out ( (wk)Edwards/Klein)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "7",
@@ -292,7 +292,7 @@
                     "strike_rate": "90.90"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "lbw b Watt",
                     "runs": "25",
                     "balls": "23",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 4 wickets (with 43 balls remaining)"
+    "result": "Netherlands won by 4 wickets (with 43 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Brandon McMullen",
+            "Mark Watt",
+            "George Munsey",
+            "Matthew Cross (wk)",
+            "Richie Berrington(c)",
+            "Christopher McBride",
+            "Michael Leask",
+            "Chris Sole",
+            "Safyaan Sharif",
+            "Chris Greaves",
+            "Tomas Mackintosh"
+        ],
+        "Netherlands": [
+            "Aryan Dutt",
+            "Wesley Barresi",
+            "Ryan Klein",
+            "Clayton Floyd",
+            "Teja Nidamanuru",
+            "Scott Edwards(c) (wk)",
+            "Max O'Dowd",
+            "Vikramjit Singh",
+            "Saqib Zulfiqar",
+            "Bas de Leede",
+            "Logan van Beek"
+        ]
+    }
 }

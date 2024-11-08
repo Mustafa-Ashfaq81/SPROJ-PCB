@@ -70,7 +70,7 @@
                     "strike_rate": "97.72"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Rahul b Pandya",
                     "runs": "11",
                     "balls": "15",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "run out (Kumar/Dhoni)",
+                    "dismissal": "run out (Kumar/ (wk)Dhoni)",
                     "runs": "34",
                     "balls": "19",
                     "minutes": "35",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Liam Plunkett",
-                    "dismissal": "run out (sub [MK Pandey]/Dhoni)",
+                    "dismissal": "run out (sub [MK Pandey]/ (wk)Dhoni)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "1",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "KL Rahul",
-                    "dismissal": "c Buttler b Ball",
+                    "dismissal": "c (wk)Buttler b Ball",
                     "runs": "11",
                     "balls": "11",
                     "minutes": "28",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "55",
                     "balls": "63",
                     "minutes": "81",
@@ -257,8 +257,8 @@
                     "strike_rate": "78.94"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "c Buttler b Ball",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "c (wk)Buttler b Ball",
                     "runs": "25",
                     "balls": "36",
                     "minutes": "45",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "England won by 5 runs"
+    "result": "England won by 5 runs",
+    "playing_xi": {
+        "England": [
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Jos Buttler (wk)",
+            "Jake Ball",
+            "David Willey",
+            "Sam Billings",
+            "Moeen Ali",
+            "Ben Stokes",
+            "Jonny Bairstow"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Hardik Pandya",
+            "Kedar Jadhav",
+            "Yuvraj Singh",
+            "Ajinkya Rahane",
+            "KL Rahul",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Virat Kohli(c)",
+            "Jasprit Bumrah",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

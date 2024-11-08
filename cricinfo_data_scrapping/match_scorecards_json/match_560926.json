@@ -90,7 +90,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "c Taylor b Nicol",
                     "runs": "37",
                     "balls": "43",
@@ -287,8 +287,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Tom Latham",
-                    "dismissal": "c Thomas b Samuels",
+                    "batsman": "Tom Latham (wk)",
+                    "dismissal": "c (wk)Thomas b Samuels",
                     "runs": "32",
                     "balls": "62",
                     "minutes": "86",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Tim Southee",
-                    "dismissal": "run out (Thomas)",
+                    "dismissal": "run out ( (wk)Thomas)",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "15",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 24 runs"
+    "result": "West Indies won by 24 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Kieron Pollard",
+            "Sunil Narine",
+            "Johnson Charles",
+            "Dwayne Bravo",
+            "Andre Russell",
+            "Tino Best",
+            "Dwayne Smith",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Devon Thomas (wk)",
+            "Daren Sammy(c)"
+        ],
+        "New Zealand": [
+            "Jacob Oram",
+            "Ross Taylor(c)",
+            "Martin Guptill",
+            "Trent Boult",
+            "Nathan McCullum",
+            "Tim Southee",
+            "Kane Williamson",
+            "Tom Latham (wk)",
+            "Brendon McCullum",
+            "Rob Nicol",
+            "Doug Bracewell"
+        ]
+    }
 }

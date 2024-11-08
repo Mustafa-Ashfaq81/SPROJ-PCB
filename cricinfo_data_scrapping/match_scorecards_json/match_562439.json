@@ -50,7 +50,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "lbw b Mohammad Sami",
                     "runs": "9",
                     "balls": "31",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "st Sangakkara b Herath",
+                    "dismissal": "st (wk)Sangakkara b Herath",
                     "runs": "37",
                     "balls": "57",
                     "minutes": "95",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Azhar Ali",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "3",
                     "balls": "2",
                     "minutes": "10",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "run out (Mathews/Sangakkara)",
+                    "dismissal": "run out (Mathews/ (wk)Sangakkara)",
                     "runs": "30",
                     "balls": "79",
                     "minutes": "118",
@@ -287,7 +287,7 @@
                     "strike_rate": "50.00"
                 }
             ],
-            "did_not_bat": "Sarfaraz Ahmed , Umar Gul , Saeed Ajmal , Sohail Tanvir , Mohammad Sami",
+            "did_not_bat": "Sarfaraz Ahmed (wk) , Umar Gul , Saeed Ajmal , Sohail Tanvir , Mohammad Sami",
             "fall_of_wickets": "Fall of wickets : 1 - 11 ( Azhar Ali , 2.1 ov ) , 2 - 27 ( Younis Khan , 7.1 ov ) , 3 - 78 ( Mohammad Hafeez , 19.5 ov ) , 4 - 133 ( Misbah-ul-Haq , 33.2 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 47 balls remaining) (D/L method)"
+    "result": "Pakistan won by 6 wickets (with 47 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Mahela Jayawardene(c)",
+            "Upul Tharanga",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ],
+        "Pakistan": [
+            "Umar Gul",
+            "Sarfaraz Ahmed (wk)",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Misbah-ul-Haq(c)",
+            "Azhar Ali",
+            "Sohail Tanvir",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Umar Akmal",
+            "Mohammad Sami"
+        ]
+    }
 }

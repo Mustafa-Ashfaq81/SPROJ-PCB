@@ -40,7 +40,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "c Kohli b Vinay Kumar",
                     "runs": "0",
                     "balls": "5",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jonathan Trott",
-                    "dismissal": "c Dhoni b Vinay Kumar",
+                    "dismissal": "c (wk)Dhoni b Vinay Kumar",
                     "runs": "34",
                     "balls": "37",
                     "minutes": "43",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "46",
                     "balls": "55",
                     "minutes": "93",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Jade Dernbach",
-                    "dismissal": "run out (Kumar/Dhoni)",
+                    "dismissal": "run out (Kumar/ (wk)Dhoni)",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "13",
@@ -277,7 +277,7 @@
                     "strike_rate": "114.28"
                 }
             ],
-            "did_not_bat": "Suresh Raina , MS Dhoni (c) , Ravindra Jadeja , Ravichandran Ashwin , Vinay Kumar , Umesh Yadav , Praveen Kumar",
+            "did_not_bat": "Suresh Raina , MS Dhoni (c) (wk) , Ravindra Jadeja , Ravichandran Ashwin , Vinay Kumar , Umesh Yadav , Praveen Kumar",
             "fall_of_wickets": "Fall of wickets : 1 - 14 ( Parthiv Patel , 4.1 ov ) , 2 - 29 ( Ajinkya Rahane , 6.5 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 80 balls remaining)"
+    "result": "India won by 8 wickets (with 80 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Graeme Swann",
+            "Kevin Pietersen",
+            "Samit Patel",
+            "Jonny Bairstow",
+            "Craig Kieswetter (wk)",
+            "Ravi Bopara"
+        ],
+        "India": [
+            "Gautam Gambhir",
+            "Umesh Yadav",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Praveen Kumar",
+            "Parthiv Patel",
+            "Vinay Kumar",
+            "MS Dhoni (c) (wk)",
+            "Suresh Raina"
+        ]
+    }
 }

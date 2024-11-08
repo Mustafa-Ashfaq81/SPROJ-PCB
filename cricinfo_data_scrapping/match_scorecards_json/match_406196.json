@@ -43,7 +43,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Pollard",
                     "runs": "32",
                     "balls": "42",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Ramdin b Pollard",
+                    "dismissal": "c (wk)Ramdin b Pollard",
                     "runs": "61",
                     "balls": "55",
                     "minutes": "-",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "22",
                     "balls": "33",
                     "minutes": "-",
@@ -284,7 +284,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "lbw b Smith",
                     "runs": "3",
                     "balls": "4",
@@ -315,7 +315,7 @@
                 },
                 {
                     "batsman": "Ravi Rampaul",
-                    "dismissal": "st Haddin b Smith",
+                    "dismissal": "st (wk)Haddin b Smith",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "-",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "Australia won by 125 runs"
+    "result": "Australia won by 125 runs",
+    "playing_xi": {
+        "Australia": [
+            "Michael Clarke",
+            "Cameron White",
+            "Adam Voges",
+            "Shane Watson",
+            "Ricky Ponting(c)",
+            "Ryan Harris",
+            "Brad Haddin (wk)",
+            "Clint McKay",
+            "James Hopes",
+            "Steven Smith",
+            "Doug Bollinger"
+        ],
+        "West Indies": [
+            "Nikita Miller",
+            "Ravi Rampaul",
+            "Daren Sammy",
+            "Denesh Ramdin (wk)",
+            "Chris Gayle(c)",
+            "Wavell Hinds",
+            "Narsingh Deonarine",
+            "Dwayne Smith",
+            "Lendl Simmons",
+            "Travis Dowlin",
+            "Kieron Pollard"
+        ]
+    }
 }

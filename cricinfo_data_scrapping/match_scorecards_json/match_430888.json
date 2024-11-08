@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Karthik b Nehra",
+                    "dismissal": "c (wk)Karthik b Nehra",
                     "runs": "41",
                     "balls": "18",
                     "minutes": "37",
@@ -50,8 +50,8 @@
                     "strike_rate": "227.77"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
-                    "dismissal": "st Karthik b Sehwag",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
+                    "dismissal": "st (wk)Karthik b Sehwag",
                     "runs": "46",
                     "balls": "41",
                     "minutes": "62",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Suraj Randiv",
-                    "dismissal": "c Karthik b Sharma",
+                    "dismissal": "c (wk)Karthik b Sharma",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Sangakkara b Welegedara",
+                    "dismissal": "c (wk)Sangakkara b Welegedara",
                     "runs": "23",
                     "balls": "40",
                     "minutes": "46",
@@ -291,7 +291,7 @@
                     "strike_rate": "57.50"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
+                    "batsman": "Dinesh Karthik (wk)",
                     "dismissal": "not out",
                     "runs": "32",
                     "balls": "31",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 45 balls remaining)"
+    "result": "India won by 7 wickets (with 45 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Suraj Randiv",
+            "Chanaka Welegedara",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Kumar Sangakkara(c) (wk)",
+            "Ajantha Mendis",
+            "Nuwan Kulasekara",
+            "Chamara Kapugedera",
+            "Upul Tharanga"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "Harbhajan Singh",
+            "Ashish Nehra",
+            "Ishant Sharma",
+            "Virender Sehwag(c)",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Dinesh Karthik (wk)"
+        ]
+    }
 }

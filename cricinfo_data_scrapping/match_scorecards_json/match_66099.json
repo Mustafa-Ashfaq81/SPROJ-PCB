@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Kennedy Otieno",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -52,7 +52,7 @@
                     "strike_rate": "16.00"
                 },
                 {
-                    "batsman": "David Obuya",
+                    "batsman": "David Obuya (wk)",
                     "dismissal": "c Nel b Kallis",
                     "runs": "17",
                     "balls": "53",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c DO Obuya b CO Obuya",
+                    "dismissal": "c (wk)DO Obuya b CO Obuya",
                     "runs": "54",
                     "balls": "80",
                     "minutes": "100",
@@ -269,7 +269,7 @@
                     "strike_rate": "50.00"
                 }
             ],
-            "did_not_bat": "Lance Klusener , Shaun Pollock (c) , Mark Boucher , Claude Henderson , Makhaya Ntini , Andre Nel",
+            "did_not_bat": "Lance Klusener , Shaun Pollock (c) , Mark Boucher (wk) , Claude Henderson , Makhaya Ntini , Andre Nel",
             "fall_of_wickets": "Fall of wickets : 1 - 21 ( Gary Kirsten , 3.6 ov ) , 2 - 51 ( Herschelle Gibbs , 9.1 ov ) , 3 - 140 ( Jacques Kallis , 29.5 ov )",
             "bowling": [
                 {
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 98 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 98 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Ravi Shah",
+            "Peter Ongondo",
+            "Thomas Odoyo",
+            "Collins Obuya",
+            "Brijal Patel",
+            "Maurice Odumbe(c)",
+            "David Obuya (wk)",
+            "Martin Suji",
+            "Steve Tikolo",
+            "Kennedy Otieno",
+            "Tony Suji"
+        ],
+        "South Africa": [
+            "Lance Klusener",
+            "Andre Nel",
+            "Jonty Rhodes",
+            "Claude Henderson",
+            "Shaun Pollock (c)",
+            "Gary Kirsten",
+            "Jacques Kallis",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Herschelle Gibbs",
+            "Neil McKenzie"
+        ]
+    }
 }

@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Barresi b ten Doeschate",
+                    "dismissal": "c (wk)Barresi b ten Doeschate",
                     "runs": "2",
                     "balls": "12",
                     "minutes": "10",
@@ -61,7 +61,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "run out (Westdijk/Mudassar Bukhari)",
                     "runs": "134",
                     "balls": "98",
@@ -208,8 +208,8 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Wesley Barresi",
-                    "dismissal": "st van Wyk b Duminy",
+                    "batsman": "Wesley Barresi (wk)",
+                    "dismissal": "st (wk)van Wyk b Duminy",
                     "runs": "44",
                     "balls": "66",
                     "minutes": "98",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 231 runs"
+    "result": "South Africa won by 231 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Dale Steyn",
+            "Hashim Amla",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Faf du Plessis",
+            "AB de Villiers (wk)",
+            "Morne van Wyk",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Robin Peterson",
+            "Morne Morkel"
+        ],
+        "Netherlands": [
+            "Pieter Seelaar",
+            "Tom de Grooth",
+            "Ryan ten Doeschate",
+            "Peter Borren(c)",
+            "Tom Cooper",
+            "Bernard Loots",
+            "Mudassar Bukhari",
+            "Wesley Barresi (wk)",
+            "Berend Westdijk",
+            "Bas Zuiderent",
+            "Alexei Kervezee"
+        ]
+    }
 }

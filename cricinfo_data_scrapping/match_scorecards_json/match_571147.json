@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Nasir Jamshed",
-                    "dismissal": "c Wade b Johnson",
+                    "dismissal": "c (wk)Wade b Johnson",
                     "runs": "48",
                     "balls": "75",
                     "minutes": "125",
@@ -100,7 +100,7 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Starc",
                     "runs": "2",
                     "balls": "3",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "st Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "32",
                     "balls": "34",
                     "minutes": "42",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "George Bailey",
-                    "dismissal": "c Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "c (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "7",
@@ -281,7 +281,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "b Abdur Rehman",
                     "runs": "22",
                     "balls": "46",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Australia won by 3 wickets (with 18 balls remaining)"
+    "result": "Australia won by 3 wickets (with 18 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Azhar Ali",
+            "Abdur Rehman",
+            "Junaid Khan",
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Umar Akmal"
+        ],
+        "Australia": [
+            "James Pattinson",
+            "Mitchell Johnson",
+            "David Warner",
+            "Michael Clarke(c)",
+            "George Bailey",
+            "Michael Hussey",
+            "Matthew Wade (wk)",
+            "Dan Christian",
+            "Mitchell Starc",
+            "David Hussey",
+            "Glenn Maxwell"
+        ]
+    }
 }

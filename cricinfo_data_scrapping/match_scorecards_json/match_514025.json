@@ -74,7 +74,7 @@
                     "strike_rate": "142.85"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Duminy b Kallis",
                     "runs": "9",
                     "balls": "7",
@@ -188,7 +188,7 @@
                 },
                 {
                     "batsman": "Hashim Amla(c)",
-                    "dismissal": "c Haddin b Marsh",
+                    "dismissal": "c (wk)Haddin b Marsh",
                     "runs": "24",
                     "balls": "32",
                     "minutes": "45",
@@ -237,7 +237,7 @@
                     "strike_rate": "91.66"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "lbw b Doherty",
                     "runs": "1",
                     "balls": "4",
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Australia won by 93 runs (D/L method)"
+    "result": "Australia won by 93 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "Steven Smith",
+            "Michael Hussey",
+            "Doug Bollinger",
+            "Michael Clarke(c)",
+            "Pat Cummins",
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Ricky Ponting",
+            "David Warner",
+            "Mitchell Marsh"
+        ],
+        "South Africa": [
+            "Dale Steyn",
+            "Morne Morkel",
+            "Jacques Kallis",
+            "Faf du Plessis",
+            "Lonwabo Tsotsobe",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Hashim Amla(c)",
+            "Johan Botha",
+            "Graeme Smith"
+        ]
+    }
 }

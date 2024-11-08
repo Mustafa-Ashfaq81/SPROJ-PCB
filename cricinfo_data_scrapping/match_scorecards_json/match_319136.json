@@ -32,7 +32,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Sammy b Powell",
                     "runs": "1",
                     "balls": "3",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Mahela Udawatte",
-                    "dismissal": "st Ramdin b Gayle",
+                    "dismissal": "st (wk)Ramdin b Gayle",
                     "runs": "73",
                     "balls": "121",
                     "minutes": "-",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Chamara Silva",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "-",
@@ -206,7 +206,7 @@
             "batting": [
                 {
                     "batsman": "Sewnarine Chattergoon",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "46",
                     "balls": "53",
                     "minutes": "-",
@@ -216,7 +216,7 @@
                 },
                 {
                     "batsman": "Runako Morton",
-                    "dismissal": "c Sangakkara b Thushara",
+                    "dismissal": "c (wk)Sangakkara b Thushara",
                     "runs": "17",
                     "balls": "21",
                     "minutes": "-",
@@ -245,7 +245,7 @@
                     "strike_rate": "27.27"
                 }
             ],
-            "did_not_bat": "Chris Gayle (c) , Dwayne Bravo , Denesh Ramdin , Daren Sammy , Jerome Taylor , Kieron Pollard , Daren Powell",
+            "did_not_bat": "Chris Gayle (c) , Dwayne Bravo , Denesh Ramdin (wk) , Daren Sammy , Jerome Taylor , Kieron Pollard , Daren Powell",
             "fall_of_wickets": "Fall of wickets : 1 - 54 ( Runako Morton , 8.1 ov ) , 2 - 77 ( Sewnarine Chattergoon , 15.4 ov )",
             "bowling": [
                 {
@@ -293,5 +293,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Chamara Silva",
+            "Mahela Udawatte",
+            "Ajantha Mendis",
+            "Thilan Thushara",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara",
+            "Kaushalya Weeraratne"
+        ],
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Daren Powell",
+            "Ramnaresh Sarwan",
+            "Chris Gayle (c)",
+            "Daren Sammy",
+            "Kieron Pollard",
+            "Sewnarine Chattergoon",
+            "Runako Morton",
+            "Dwayne Bravo",
+            "Marlon Samuels",
+            "Jerome Taylor"
+        ]
+    }
 }

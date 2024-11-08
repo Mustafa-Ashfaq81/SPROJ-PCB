@@ -40,8 +40,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "st Umar Akmal b Shahid Afridi",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "st (wk)Umar Akmal b Shahid Afridi",
                     "runs": "40",
                     "balls": "57",
                     "minutes": "88",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "st Umar Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Umar Akmal b Shahid Afridi",
                     "runs": "55",
                     "balls": "60",
                     "minutes": "76",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Umar Amin",
-                    "dismissal": "c de Kock b Tsotsobe",
+                    "dismissal": "c (wk)de Kock b Tsotsobe",
                     "runs": "13",
                     "balls": "27",
                     "minutes": "54",
@@ -277,7 +277,7 @@
                     "strike_rate": "39.28"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c & b Imran Tahir",
                     "runs": "7",
                     "balls": "20",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Wahab Riaz",
-                    "dismissal": "c de Kock b Morkel",
+                    "dismissal": "c (wk)de Kock b Morkel",
                     "runs": "33",
                     "balls": "47",
                     "minutes": "44",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 68 runs"
+    "result": "South Africa won by 68 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "AB de Villiers(c)",
+            "Ryan McLaren",
+            "Jean-Paul Duminy",
+            "Dale Steyn",
+            "Faf du Plessis",
+            "David Miller",
+            "Quinton de Kock (wk)",
+            "Morne Morkel",
+            "Imran Tahir",
+            "Hashim Amla"
+        ],
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Asad Shafiq",
+            "Wahab Riaz",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Mohammad Irfan",
+            "Misbah-ul-Haq(c)",
+            "Umar Akmal (wk)",
+            "Sohail Tanvir",
+            "Umar Amin",
+            "Mohammad Hafeez"
+        ]
+    }
 }

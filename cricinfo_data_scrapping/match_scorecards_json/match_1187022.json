@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Hope b Cottrell",
+                    "dismissal": "c (wk)Hope b Cottrell",
                     "runs": "159",
                     "balls": "138",
                     "minutes": "-",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Shreyas Iyer",
-                    "dismissal": "c Hope b Cottrell",
+                    "dismissal": "c (wk)Hope b Cottrell",
                     "runs": "53",
                     "balls": "32",
                     "minutes": "-",
@@ -73,7 +73,7 @@
                     "strike_rate": "165.62"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "c Pooran b Paul",
                     "runs": "39",
                     "balls": "16",
@@ -224,7 +224,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Kohli b Kuldeep Yadav",
                     "runs": "78",
                     "balls": "85",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Kieron Pollard(c)",
-                    "dismissal": "c Pant b Mohammed Shami",
+                    "dismissal": "c (wk)Pant b Mohammed Shami",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Jason Holder",
-                    "dismissal": "st Pant b Kuldeep Yadav",
+                    "dismissal": "st (wk)Pant b Kuldeep Yadav",
                     "runs": "11",
                     "balls": "13",
                     "minutes": "-",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "India won by 107 runs"
+    "result": "India won by 107 runs",
+    "playing_xi": {
+        "India": [
+            "KL Rahul",
+            "Shreyas Iyer",
+            "Deepak Chahar",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Kedar Jadhav",
+            "Mohammed Shami",
+            "Rishabh Pant (wk)",
+            "Shardul Thakur",
+            "Virat Kohli(c)"
+        ],
+        "West Indies": [
+            "Shimron Hetmyer",
+            "Khary Pierre",
+            "Jason Holder",
+            "Roston Chase",
+            "Alzarri Joseph",
+            "Nicholas Pooran",
+            "Kieron Pollard(c)",
+            "Sheldon Cottrell",
+            "Evin Lewis",
+            "Shai Hope (wk)",
+            "Keemo Paul"
+        ]
+    }
 }

@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Steven Taylor",
-                    "dismissal": "c Movva b Saad Bin Zafar",
+                    "dismissal": "c (wk)Movva b Saad Bin Zafar",
                     "runs": "46",
                     "balls": "77",
                     "minutes": "-",
@@ -44,7 +44,7 @@
                     "strike_rate": "59.74"
                 },
                 {
-                    "batsman": "Smit Patel",
+                    "batsman": "Smit Patel (wk)",
                     "dismissal": "lbw b Saad Bin Zafar",
                     "runs": "70",
                     "balls": "84",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Aaron Jones",
-                    "dismissal": "c Movva b Heyliger",
+                    "dismissal": "c (wk)Movva b Heyliger",
                     "runs": "50",
                     "balls": "53",
                     "minutes": "-",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Milind Kumar",
-                    "dismissal": "c Movva b Kaleem Sana",
+                    "dismissal": "c (wk)Movva b Kaleem Sana",
                     "runs": "47",
                     "balls": "30",
                     "minutes": "-",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Shayan Jahangir",
-                    "dismissal": "c Movva b Kaleem Sana",
+                    "dismissal": "c (wk)Movva b Kaleem Sana",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "-",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Shadley van Schalkwyk",
-                    "dismissal": "run out (Movva)",
+                    "dismissal": "run out ( (wk)Movva)",
                     "runs": "6",
                     "balls": "3",
                     "minutes": "-",
@@ -115,7 +115,7 @@
                 },
                 {
                     "batsman": "Jasdeep Singh",
-                    "dismissal": "run out (Heyliger/Movva)",
+                    "dismissal": "run out (Heyliger/ (wk)Movva)",
                     "runs": "3",
                     "balls": "2",
                     "minutes": "-",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Nicholas Kirton(c)",
-                    "dismissal": "c SK Patel b van Schalkwyk",
+                    "dismissal": "c (wk)SK Patel b van Schalkwyk",
                     "runs": "9",
                     "balls": "18",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Shreyas Movva",
+                    "batsman": "Shreyas Movva (wk)",
                     "dismissal": "c Yasir Mohammad b Harmeet Singh",
                     "runs": "68",
                     "balls": "95",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Aaditya Varadarajan",
-                    "dismissal": "c SK Patel b Jasdeep Singh",
+                    "dismissal": "c (wk)SK Patel b Jasdeep Singh",
                     "runs": "25",
                     "balls": "32",
                     "minutes": "-",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "U.S.A. won by 50 runs"
+    "result": "U.S.A. won by 50 runs",
+    "playing_xi": {
+        "United States of America": [
+            "Jasdeep Singh",
+            "Aaron Jones",
+            "Monank Patel(c)",
+            "Smit Patel (wk)",
+            "Milind Kumar",
+            "Nosthush Kenjige",
+            "Harmeet Singh",
+            "Steven Taylor",
+            "Yasir Mohammad",
+            "Shadley van Schalkwyk",
+            "Shayan Jahangir"
+        ],
+        "Canada": [
+            "Pargat Singh",
+            "Nicholas Kirton(c)",
+            "Kaleem Sana",
+            "Rishiv Joshi",
+            "Harsh Thaker",
+            "Aaron Johnson",
+            "Aaditya Varadarajan",
+            "Dilpreet Bajwa",
+            "Shreyas Movva (wk)",
+            "Dilon Heyliger",
+            "Saad Bin Zafar"
+        ]
+    }
 }

@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Shamsur Rahman",
-                    "dismissal": "st Latham b NL McCullum",
+                    "dismissal": "st (wk)Latham b NL McCullum",
                     "runs": "25",
                     "balls": "54",
                     "minutes": "68",
@@ -63,8 +63,8 @@
                     "strike_rate": "91.17"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
-                    "dismissal": "c Latham b Neesham",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
+                    "dismissal": "c (wk)Latham b Neesham",
                     "runs": "31",
                     "balls": "28",
                     "minutes": "56",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Naeem Islam",
-                    "dismissal": "c Latham b Mills",
+                    "dismissal": "c (wk)Latham b Mills",
                     "runs": "16",
                     "balls": "19",
                     "minutes": "33",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Corey Anderson",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "37",
                     "balls": "40",
                     "minutes": "59",
@@ -300,7 +300,7 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "run out (Rubel Hossain)",
                     "runs": "0",
                     "balls": "1",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 40 runs"
+    "result": "Bangladesh won by 40 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Nasir Hossain",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Mushfiqur Rahim(c) (wk)",
+            "Sohag Gazi",
+            "Mominul Haque",
+            "Shamsur Rahman",
+            "Tamim Iqbal",
+            "Mahmudullah",
+            "Mashrafe Mortaza"
+        ],
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "James Neesham",
+            "Corey Anderson",
+            "Anton Devcich",
+            "Brendon McCullum(c)",
+            "Grant Elliott",
+            "Kyle Mills",
+            "Hamish Rutherford",
+            "Ross Taylor",
+            "Tim Southee",
+            "Nathan McCullum"
+        ]
+    }
 }

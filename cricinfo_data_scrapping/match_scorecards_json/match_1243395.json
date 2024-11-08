@@ -62,8 +62,8 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Rishabh Pant",
-                    "dismissal": "c Buttler b Curran",
+                    "batsman": "Rishabh Pant (wk)",
+                    "dismissal": "c (wk)Buttler b Curran",
                     "runs": "78",
                     "balls": "62",
                     "minutes": "79",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Shardul Thakur",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "30",
                     "balls": "21",
                     "minutes": "35",
@@ -293,7 +293,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "lbw b Thakur",
                     "runs": "15",
                     "balls": "18",
@@ -344,7 +344,7 @@
                 },
                 {
                     "batsman": "Mark Wood",
-                    "dismissal": "run out (HH Pandya/Pant)",
+                    "dismissal": "run out (HH Pandya/ (wk)Pant)",
                     "runs": "14",
                     "balls": "21",
                     "minutes": "60",
@@ -453,5 +453,33 @@
             ]
         }
     ],
-    "result": "India won by 7 runs"
+    "result": "India won by 7 runs",
+    "playing_xi": {
+        "India": [
+            "Shardul Thakur",
+            "KL Rahul",
+            "Krunal Pandya",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli(c)",
+            "Prasidh Krishna",
+            "T Natarajan",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Rishabh Pant (wk)"
+        ],
+        "England": [
+            "Jonny Bairstow",
+            "Dawid Malan",
+            "Mark Wood",
+            "Moeen Ali",
+            "Sam Curran",
+            "Jason Roy",
+            "Ben Stokes",
+            "Liam Livingstone",
+            "Jos Buttler(c) (wk)",
+            "Adil Rashid",
+            "Reece Topley"
+        ]
+    }
 }

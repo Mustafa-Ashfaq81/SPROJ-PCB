@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c Kieswetter b Broad",
+                    "dismissal": "c (wk)Kieswetter b Broad",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "9",
@@ -100,8 +100,8 @@
                     "strike_rate": "105.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
-                    "dismissal": "c Kieswetter b Anderson",
+                    "batsman": "Denesh Ramdin (wk)",
+                    "dismissal": "c (wk)Kieswetter b Anderson",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "6",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Sunil Narine",
-                    "dismissal": "run out (Kieswetter)",
+                    "dismissal": "run out ( (wk)Kieswetter)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "9",
@@ -277,7 +277,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Eoin Morgan , Craig Kieswetter , Tim Bresnan , Stuart Broad , Graeme Swann , James Anderson , Steven Finn",
+            "did_not_bat": "Eoin Morgan , Craig Kieswetter (wk) , Tim Bresnan , Stuart Broad , Graeme Swann , James Anderson , Steven Finn",
             "fall_of_wickets": "Fall of wickets : 1 - 122 ( Ian Bell , 21.2 ov ) , 2 - 203 ( Alastair Cook , 37.5 ov )",
             "bowling": [
                 {
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "England won by 8 wickets (with 30 balls remaining)"
+    "result": "England won by 8 wickets (with 30 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Sunil Narine",
+            "Daren Sammy(c)",
+            "Kieron Pollard",
+            "Ravi Rampaul",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Dwayne Bravo",
+            "Chris Gayle",
+            "Dwayne Smith",
+            "Tino Best"
+        ],
+        "England": [
+            "James Anderson",
+            "Eoin Morgan",
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Graeme Swann",
+            "Craig Kieswetter (wk)",
+            "Stuart Broad",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

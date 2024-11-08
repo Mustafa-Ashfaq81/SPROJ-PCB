@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Moin Khan b Shoaib Malik",
+                    "dismissal": "c (wk)Moin Khan b Shoaib Malik",
                     "runs": "25",
                     "balls": "52",
                     "minutes": "66",
@@ -100,7 +100,7 @@
                     "strike_rate": "88.52"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "56",
                     "balls": "51",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Saleem Elahi",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "14",
                     "balls": "33",
                     "minutes": "47",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "14",
                     "balls": "25",
                     "minutes": "25",
@@ -273,7 +273,7 @@
                     "strike_rate": "150.00"
                 }
             ],
-            "did_not_bat": "Moin Khan , Abdul Razzaq , Azhar Mahmood , Mohammad Sami , Shabbir Ahmed",
+            "did_not_bat": "Moin Khan (wk) , Abdul Razzaq , Azhar Mahmood , Mohammad Sami , Shabbir Ahmed",
             "fall_of_wickets": "Fall of wickets : 1 - 13 ( Yasir Hameed , 3.1 ov ) , 2 - 52 ( Saleem Elahi , 13.3 ov ) , 3 - 195 ( Imran Farhat , 38.5 ov ) , 4 - 224 ( Inzamam-ul-Haq , 45.3 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 18 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 18 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "Scott Styris",
+            "Brendon McCullum (wk)",
+            "Hamish Marshall",
+            "Craig Cumming",
+            "Ian Butler",
+            "Craig McMillan",
+            "Daniel Vettori",
+            "Chris Cairns",
+            "Daryl Tuffey"
+        ],
+        "Pakistan": [
+            "Mohammad Yousuf",
+            "Yasir Hameed",
+            "Imran Farhat",
+            "Azhar Mahmood",
+            "Moin Khan (wk)",
+            "Abdul Razzaq",
+            "Inzamam-ul-Haq(c)",
+            "Shabbir Ahmed",
+            "Shoaib Malik",
+            "Saleem Elahi",
+            "Mohammad Sami"
+        ]
+    }
 }

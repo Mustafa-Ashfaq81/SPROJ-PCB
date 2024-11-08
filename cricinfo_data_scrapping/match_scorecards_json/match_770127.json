@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "run out (Ramdin/Holder)",
+                    "dismissal": "run out ( (wk)Ramdin/Holder)",
                     "runs": "127",
                     "balls": "114",
                     "minutes": "164",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Ramdin b Taylor",
+                    "dismissal": "c (wk)Ramdin b Taylor",
                     "runs": "71",
                     "balls": "58",
                     "minutes": "81",
@@ -70,7 +70,7 @@
                     "strike_rate": "122.41"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "run out (Pollard)",
                     "runs": "6",
                     "balls": "5",
@@ -251,7 +251,7 @@
                     "strike_rate": "105.66"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Patel b Jadeja",
                     "runs": "9",
                     "balls": "21",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "India won by 59 runs"
+    "result": "India won by 59 runs",
+    "playing_xi": {
+        "India": [
+            "Ajinkya Rahane",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Mohammed Shami",
+            "Ravindra Jadeja",
+            "Umesh Yadav",
+            "Axar Patel",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ],
+        "West Indies": [
+            "Daren Sammy",
+            "Sulieman Benn",
+            "Andre Russell",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Dwayne Smith",
+            "Jason Holder",
+            "Kieron Pollard",
+            "Jerome Taylor",
+            "Denesh Ramdin (wk)",
+            "Dwayne Bravo(c)"
+        ]
+    }
 }

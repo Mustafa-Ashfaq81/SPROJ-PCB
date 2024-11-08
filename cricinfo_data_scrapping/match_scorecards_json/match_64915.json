@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu(c)",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "19",
@@ -60,8 +60,8 @@
                     "strike_rate": "36.36"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c McCullum b Mills",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "5",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "run out (Jayantha/Sangakkara)",
+                    "dismissal": "run out (Jayantha/ (wk)Sangakkara)",
                     "runs": "12",
                     "balls": "21",
                     "minutes": "30",
@@ -287,7 +287,7 @@
                     "strike_rate": "50.00"
                 }
             ],
-            "did_not_bat": "Jacob Oram , Chris Cairns , Brendon McCullum , Daniel Vettori , Kyle Mills , Daryl Tuffey",
+            "did_not_bat": "Jacob Oram , Chris Cairns , Brendon McCullum (wk) , Daniel Vettori , Kyle Mills , Daryl Tuffey",
             "fall_of_wickets": "Fall of wickets : 1 - 7 ( Nathan Astle , 0.6 ov ) , 2 - 64 ( Mathew Sinclair , 16.4 ov ) , 3 - 101 ( Scott Styris , 23.3 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 102 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 102 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Saman Jayantha",
+            "Nuwan Kulasekara",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)",
+            "Dilhara Fernando",
+            "Farveez Maharoof"
+        ],
+        "New Zealand": [
+            "Scott Styris",
+            "Jacob Oram",
+            "Chris Cairns",
+            "Nathan Astle",
+            "Mathew Sinclair",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Kyle Mills",
+            "Hamish Marshall"
+        ]
+    }
 }

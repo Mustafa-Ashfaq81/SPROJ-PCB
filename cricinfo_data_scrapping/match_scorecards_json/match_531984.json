@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -60,7 +60,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "c Samuels b Russell",
                     "runs": "69",
                     "balls": "109",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "12",
                     "balls": "9",
                     "minutes": "11",
@@ -291,7 +291,7 @@
                     "strike_rate": "8.33"
                 }
             ],
-            "did_not_bat": "Denesh Ramdin , Kieron Pollard , Andre Russell , Daren Sammy (c) , Devendra Bishoo , Ravi Rampaul , Kemar Roach",
+            "did_not_bat": "Denesh Ramdin (wk) , Kieron Pollard , Andre Russell , Daren Sammy (c) , Devendra Bishoo , Ravi Rampaul , Kemar Roach",
             "fall_of_wickets": "Fall of wickets : 1 - 71 ( Danza Hyatt , 16.1 ov ) , 2 - 182 ( Lendl Simmons , 37.5 ov )",
             "bowling": [
                 {
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 8 wickets (with 44 balls remaining)"
+    "result": "West Indies won by 8 wickets (with 44 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Naeem Islam",
+            "Mohammad Ashraful",
+            "Shafiul Islam",
+            "Mushfiqur Rahim(c) (wk)",
+            "Alok Kapali",
+            "Imrul Kayes",
+            "Shakib Al Hasan"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Daren Sammy (c)",
+            "Kieron Pollard",
+            "Ravi Rampaul",
+            "Andre Russell",
+            "Darren Bravo",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Devendra Bishoo",
+            "Danza Hyatt",
+            "Kemar Roach"
+        ]
+    }
 }

@@ -85,7 +85,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Mohammad Haris",
+                    "batsman": "Mohammad Haris (wk)",
                     "dismissal": "c Cooper b de Leede",
                     "runs": "4",
                     "balls": "10",
@@ -106,7 +106,7 @@
                 },
                 {
                     "batsman": "Mohammad Wasim",
-                    "dismissal": "c Edwards b de Leede",
+                    "dismissal": "c (wk)Edwards b de Leede",
                     "runs": "11",
                     "balls": "14",
                     "minutes": "22",
@@ -126,7 +126,7 @@
                 },
                 {
                     "batsman": "Zahid Mahmood",
-                    "dismissal": "run out (Edwards/Kingma)",
+                    "dismissal": "run out ( (wk)Edwards/Kingma)",
                     "runs": "9",
                     "balls": "7",
                     "minutes": "2",
@@ -243,7 +243,7 @@
             "batting": [
                 {
                     "batsman": "Vikramjit Singh",
-                    "dismissal": "c Mohammad Haris b Mohammad Wasim",
+                    "dismissal": "c (wk)Mohammad Haris b Mohammad Wasim",
                     "runs": "50",
                     "balls": "85",
                     "minutes": "126",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Bas de Leede",
-                    "dismissal": "c Mohammad Haris b Mohammad Wasim",
+                    "dismissal": "c (wk)Mohammad Haris b Mohammad Wasim",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "21",
@@ -292,7 +292,7 @@
                     "strike_rate": "59.04"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "b Naseem Shah",
                     "runs": "6",
                     "balls": "6",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Shariz Ahmad",
-                    "dismissal": "run out (Mohammad Wasim/Mohammad Haris)",
+                    "dismissal": "run out (Mohammad Wasim/ (wk)Mohammad Haris)",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "19",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 9 runs"
+    "result": "Pakistan won by 9 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Abdullah Shafique",
+            "Shahnawaz Dahani",
+            "Salman Agha",
+            "Babar Azam(c)",
+            "Mohammad Haris (wk)",
+            "Khushdil Shah",
+            "Mohammad Wasim",
+            "Zahid Mahmood",
+            "Mohammad Nawaz",
+            "Naseem Shah"
+        ],
+        "Netherlands": [
+            "Vikramjit Singh",
+            "Scott Edwards(c) (wk)",
+            "Tom Cooper",
+            "Shariz Ahmad",
+            "Aryan Dutt",
+            "Teja Nidamanuru",
+            "Musa Ahmad",
+            "Max O'Dowd",
+            "Logan van Beek",
+            "Bas de Leede",
+            "Vivian Kingma"
+        ]
+    }
 }

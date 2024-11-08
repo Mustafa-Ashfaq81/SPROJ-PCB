@@ -33,7 +33,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock(c)",
+                    "batsman": "Quinton de Kock(c) (wk)",
                     "dismissal": "b Rashid",
                     "runs": "69",
                     "balls": "81",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "JJ Smuts",
-                    "dismissal": "run out (Banton/Bairstow)",
+                    "dismissal": "run out (Banton/ (wk)Bairstow)",
                     "runs": "31",
                     "balls": "38",
                     "minutes": "46",
@@ -230,7 +230,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Jonny Bairstow",
+                    "batsman": "Jonny Bairstow (wk)",
                     "dismissal": "c Phehlukwayo b Sipamla",
                     "runs": "43",
                     "balls": "23",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Tom Banton",
-                    "dismissal": "c de Kock b BE Hendricks",
+                    "dismissal": "c (wk)de Kock b BE Hendricks",
                     "runs": "32",
                     "balls": "32",
                     "minutes": "51",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "c de Kock b Ngidi",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "16",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "England won by 2 wickets (with 40 balls remaining)"
+    "result": "England won by 2 wickets (with 40 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Andile Phehlukwayo",
+            "Beuran Hendricks",
+            "Rassie van der Dussen",
+            "Lutho Sipamla",
+            "Tabraiz Shamsi",
+            "Lungi Ngidi",
+            "Quinton de Kock(c) (wk)",
+            "JJ Smuts",
+            "David Miller",
+            "Reeza Hendricks",
+            "Temba Bavuma"
+        ],
+        "England": [
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Joe Denly",
+            "Moeen Ali",
+            "Tom Curran",
+            "Adil Rashid",
+            "Saqib Mahmood",
+            "Jonny Bairstow (wk)",
+            "Jason Roy",
+            "Tom Banton",
+            "Chris Jordan"
+        ]
+    }
 }

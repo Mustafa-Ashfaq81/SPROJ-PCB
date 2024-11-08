@@ -50,8 +50,8 @@
                     "strike_rate": "83.87"
                 },
                 {
-                    "batsman": "Kusal Mendis",
-                    "dismissal": "c Rahmanullah Gurbaz b Fareed Ahmad",
+                    "batsman": "Kusal Mendis (wk)",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Fareed Ahmad",
                     "runs": "78",
                     "balls": "75",
                     "minutes": "117",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Dasun Shanaka(c)",
-                    "dismissal": "c Rahmanullah Gurbaz b Fareed Ahmad",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Fareed Ahmad",
                     "runs": "23",
                     "balls": "13",
                     "minutes": "19",
@@ -207,8 +207,8 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
-                    "dismissal": "c Mendis b Chameera",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
+                    "dismissal": "c (wk)Mendis b Chameera",
                     "runs": "2",
                     "balls": "12",
                     "minutes": "14",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Ibrahim Zadran",
-                    "dismissal": "c Mendis b de Silva",
+                    "dismissal": "c (wk)Mendis b de Silva",
                     "runs": "54",
                     "balls": "75",
                     "minutes": "123",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c Mendis b Chameera",
+                    "dismissal": "c (wk)Mendis b Chameera",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "5",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 132 runs"
+    "result": "Sri Lanka won by 132 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Pathum Nissanka",
+            "Dushmantha Chameera",
+            "Dhananjaya de Silva",
+            "Maheesh Theekshana",
+            "Kusal Mendis (wk)",
+            "Kasun Rajitha",
+            "Dimuth Karunaratne",
+            "Sadeera Samarawickrama",
+            "Charith Asalanka",
+            "Dasun Shanaka(c)"
+        ],
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Hashmatullah Shahidi(c)",
+            "Azmatullah Omarzai",
+            "Mujeeb Ur Rahman",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Fazalhaq Farooqi",
+            "Ibrahim Zadran",
+            "Noor Ahmad",
+            "Fareed Ahmad",
+            "Rahmanullah Gurbaz (wk)"
+        ]
+    }
 }

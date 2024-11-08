@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly",
-                    "dismissal": "run out (Hodge/Gilchrist)",
+                    "dismissal": "run out (Hodge/ (wk)Gilchrist)",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "5",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "47",
                     "balls": "73",
                     "minutes": "128",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "16",
@@ -80,8 +80,8 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "12",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Irfan Pathan",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "26",
                     "balls": "63",
                     "minutes": "84",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Murali Kartik",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "11",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "28",
                     "balls": "44",
                     "minutes": "51",
@@ -223,7 +223,7 @@
             "extras": "2",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "not out",
                     "runs": "79",
                     "balls": "77",
@@ -343,5 +343,33 @@
             ]
         }
     ],
-    "result": "Australia won by 9 wickets (with 145 balls remaining)"
+    "result": "Australia won by 9 wickets (with 145 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Sourav Ganguly",
+            "Rahul Dravid",
+            "Irfan Pathan",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "RP Singh",
+            "Harbhajan Singh",
+            "Murali Kartik",
+            "MS Dhoni(c) (wk)"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "James Hopes",
+            "Nathan Bracken",
+            "Ricky Ponting(c)",
+            "Brad Hodge",
+            "Brett Lee",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ]
+    }
 }

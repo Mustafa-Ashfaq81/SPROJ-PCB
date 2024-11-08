@@ -36,7 +36,7 @@
             "extras": "24",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Kingma b de Leede",
                     "runs": "24",
                     "balls": "43",
@@ -77,7 +77,7 @@
                 },
                 {
                     "batsman": "Brandon King",
-                    "dismissal": "c Edwards b van Beek",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "14",
@@ -243,7 +243,7 @@
                     "strike_rate": "104.16"
                 },
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "c Lewis b Walsh",
                     "runs": "18",
                     "balls": "19",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Teja Nidamanuru",
-                    "dismissal": "c Hope b Seales",
+                    "dismissal": "c (wk)Hope b Seales",
                     "runs": "8",
                     "balls": "8",
                     "minutes": "20",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Logan van Beek",
-                    "dismissal": "run out (Walsh/Hope)",
+                    "dismissal": "run out (Walsh/ (wk)Hope)",
                     "runs": "15",
                     "balls": "14",
                     "minutes": "24",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 20 runs"
+    "result": "West Indies won by 20 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Hayden Walsh",
+            "Nicholas Pooran(c)",
+            "Nkrumah Bonner",
+            "Shai Hope (wk)",
+            "Brandon King",
+            "Shamarh Brooks",
+            "Keacy Carty",
+            "Jayden Seales",
+            "Kyle Mayers",
+            "Akeal Hosein",
+            "Shermon Lewis"
+        ],
+        "Netherlands": [
+            "Vikramjit Singh",
+            "Scott Edwards (wk)",
+            "Aryan Dutt",
+            "Teja Nidamanuru",
+            "Musa Ahmad",
+            "Max O'Dowd",
+            "Logan van Beek",
+            "Ryan Klein",
+            "Pieter Seelaar(c)",
+            "Bas de Leede",
+            "Vivian Kingma"
+        ]
+    }
 }

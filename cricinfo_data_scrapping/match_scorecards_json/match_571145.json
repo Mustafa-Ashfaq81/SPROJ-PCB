@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Nasir Jamshed",
-                    "dismissal": "c Wade b Starc",
+                    "dismissal": "c (wk)Wade b Starc",
                     "runs": "23",
                     "balls": "30",
                     "minutes": "50",
@@ -90,7 +90,7 @@
                     "strike_rate": "94.54"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Clarke b Starc",
                     "runs": "4",
                     "balls": "14",
@@ -261,7 +261,7 @@
                     "strike_rate": "45.45"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Misbah-ul-Haq b Shahid Afridi",
                     "runs": "10",
                     "balls": "29",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 10 balls remaining)"
+    "result": "Australia won by 4 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Azhar Ali",
+            "Sohail Tanvir",
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Umar Akmal",
+            "Aizaz Cheema"
+        ],
+        "Australia": [
+            "James Pattinson",
+            "Mitchell Johnson",
+            "David Warner",
+            "Michael Clarke(c)",
+            "George Bailey",
+            "Michael Hussey",
+            "Matthew Wade (wk)",
+            "Dan Christian",
+            "Mitchell Starc",
+            "David Hussey",
+            "Glenn Maxwell"
+        ]
+    }
 }

@@ -90,7 +90,7 @@
                     "strike_rate": "97.22"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "c Kohli b Kumar",
                     "runs": "39",
                     "balls": "57",
@@ -227,7 +227,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "c & b Sammy",
                     "runs": "26",
                     "balls": "32",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Manoj Tiwary",
-                    "dismissal": "c Baugh b Sammy",
+                    "dismissal": "c (wk)Baugh b Sammy",
                     "runs": "2",
                     "balls": "17",
                     "minutes": "21",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "st Baugh b Martin",
+                    "dismissal": "st (wk)Baugh b Martin",
                     "runs": "22",
                     "balls": "33",
                     "minutes": "68",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "S Badrinath",
-                    "dismissal": "c Baugh b Russell",
+                    "dismissal": "c (wk)Baugh b Russell",
                     "runs": "12",
                     "balls": "27",
                     "minutes": "29",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Ishant Sharma",
-                    "dismissal": "st Baugh b Martin",
+                    "dismissal": "st (wk)Baugh b Martin",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "5",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 103 runs"
+    "result": "West Indies won by 103 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Kieron Pollard",
+            "Anthony Martin",
+            "Daren Sammy(c)",
+            "Andre Russell",
+            "Kemar Roach",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Lendl Simmons",
+            "Danza Hyatt"
+        ],
+        "India": [
+            "Manoj Tiwary",
+            "Praveen Kumar",
+            "S Badrinath",
+            "Ishant Sharma",
+            "Ravichandran Ashwin",
+            "Yusuf Pathan",
+            "Rohit Sharma",
+            "Amit Mishra",
+            "Virat Kohli",
+            "Parthiv Patel (wk)",
+            "Suresh Raina(c)"
+        ]
+    }
 }

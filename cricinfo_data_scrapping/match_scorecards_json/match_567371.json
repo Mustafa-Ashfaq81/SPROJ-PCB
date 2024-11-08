@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Kamran Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Irfan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -60,8 +60,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Kamran Akmal b Saeed Ajmal",
+                    "batsman": "AB de Villiers(c) (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "75",
                     "balls": "108",
                     "minutes": "157",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Farhaan Behardien",
-                    "dismissal": "c Kamran Akmal b Junaid Khan",
+                    "dismissal": "c (wk)Kamran Akmal b Junaid Khan",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -257,7 +257,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Miller b Tsotsobe",
                     "runs": "11",
                     "balls": "13",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c de Villiers b Peterson",
+                    "dismissal": "c (wk)de Villiers b Peterson",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "3",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 8 balls remaining)"
+    "result": "Pakistan won by 3 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Farhaan Behardien",
+            "Colin Ingram",
+            "Graeme Smith",
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Rory Kleinveldt",
+            "Dale Steyn",
+            "David Miller",
+            "Robin Peterson",
+            "Hashim Amla"
+        ],
+        "Pakistan": [
+            "Wahab Riaz",
+            "Mohammad Irfan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Imran Farhat"
+        ]
+    }
 }

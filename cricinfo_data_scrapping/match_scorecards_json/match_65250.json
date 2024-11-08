@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Taibu b Whittall",
+                    "dismissal": "c (wk)Taibu b Whittall",
                     "runs": "36",
                     "balls": "38",
                     "minutes": "78",
@@ -71,7 +71,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "not out",
                     "runs": "43",
                     "balls": "55",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Taibu b Murphy",
+                    "dismissal": "c (wk)Taibu b Murphy",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "3",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Mark Vermeulen",
-                    "dismissal": "c Dravid b Srinath",
+                    "dismissal": "c (wk)Dravid b Srinath",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "4",
@@ -278,7 +278,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "not out",
                     "runs": "29",
                     "balls": "44",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "India won by 83 runs"
+    "result": "India won by 83 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Ashish Nehra",
+            "Javagal Srinath",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)",
+            "Dinesh Mongia",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Zaheer Khan"
+        ],
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Mark Vermeulen",
+            "Craig Wishart",
+            "Andy Flower",
+            "Brian Murphy",
+            "Grant Flower",
+            "Andy Blignaut",
+            "Guy Whittall",
+            "Dion Ebrahim",
+            "Heath Streak(c)",
+            "Douglas Hondo"
+        ]
+    }
 }

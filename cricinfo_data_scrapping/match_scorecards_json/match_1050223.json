@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Azhar Ali(c)",
-                    "dismissal": "c Ramdin b Gabriel",
+                    "dismissal": "c (wk)Ramdin b Gabriel",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -73,8 +73,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
-                    "dismissal": "c Ramdin b Holder",
+                    "batsman": "Sarfaraz Ahmed (wk)",
+                    "dismissal": "c (wk)Ramdin b Holder",
                     "runs": "35",
                     "balls": "45",
                     "minutes": "72",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Johnson Charles",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Amir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Amir",
                     "runs": "20",
                     "balls": "21",
                     "minutes": "25",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Kraigg Brathwaite",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "14",
                     "balls": "38",
                     "minutes": "47",
@@ -280,7 +280,7 @@
                     "strike_rate": "77.96"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Azhar Ali b Mohammad Nawaz",
                     "runs": "8",
                     "balls": "16",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 111 runs (D/L method)"
+    "result": "Pakistan won by 111 runs (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Rizwan",
+            "Wahab Riaz",
+            "Babar Azam",
+            "Sarfaraz Ahmed (wk)",
+            "Azhar Ali(c)",
+            "Mohammad Nawaz",
+            "Mohammad Amir",
+            "Hasan Ali",
+            "Shoaib Malik",
+            "Sharjeel Khan",
+            "Imad Wasim"
+        ],
+        "West Indies": [
+            "Johnson Charles",
+            "Marlon Samuels",
+            "Sunil Narine",
+            "Shannon Gabriel",
+            "Kieron Pollard",
+            "Darren Bravo",
+            "Denesh Ramdin (wk)",
+            "Sulieman Benn",
+            "Jason Holder(c)",
+            "Kraigg Brathwaite",
+            "Carlos Brathwaite"
+        ]
+    }
 }

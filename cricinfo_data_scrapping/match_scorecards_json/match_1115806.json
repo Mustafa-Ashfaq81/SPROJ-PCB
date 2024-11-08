@@ -90,8 +90,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Tom Latham",
-                    "dismissal": "c Sarfaraz Ahmed b Faheem Ashraf",
+                    "batsman": "Tom Latham (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Faheem Ashraf",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "7",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Mitchell Santner",
-                    "dismissal": "run out (Mohammad Nawaz/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Mohammad Nawaz/ (wk)Sarfaraz Ahmed)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "2",
@@ -267,7 +267,7 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "c Taylor b de Grandhomme",
                     "runs": "3",
                     "balls": "8",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 15 runs"
+    "result": "New Zealand won by 15 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Kane Williamson(c)",
+            "Matt Henry",
+            "Tim Southee",
+            "Colin de Grandhomme",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ross Taylor",
+            "Tom Latham (wk)",
+            "Lockie Ferguson"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Fakhar Zaman",
+            "Mohammad Nawaz",
+            "Rumman Raees",
+            "Shadab Khan",
+            "Faheem Ashraf",
+            "Umar Amin",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Haris Sohail",
+            "Aamer Yamin",
+            "Babar Azam"
+        ]
+    }
 }

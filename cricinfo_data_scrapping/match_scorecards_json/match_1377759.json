@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Kushal Bhurtel",
-                    "dismissal": "c Edwards b Vikramjit Singh",
+                    "dismissal": "c (wk)Edwards b Vikramjit Singh",
                     "runs": "27",
                     "balls": "42",
                     "minutes": "68",
@@ -41,7 +41,7 @@
                     "strike_rate": "64.28"
                 },
                 {
-                    "batsman": "Aasif Sheikh",
+                    "batsman": "Aasif Sheikh (wk)",
                     "dismissal": "b van Beek",
                     "runs": "0",
                     "balls": "2",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Dipendra Singh Airee",
-                    "dismissal": "c Edwards b van Beek",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "14",
                     "balls": "21",
                     "minutes": "29",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Gulsan Jha",
-                    "dismissal": "c Edwards b de Leede",
+                    "dismissal": "c (wk)Edwards b de Leede",
                     "runs": "15",
                     "balls": "31",
                     "minutes": "40",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Karan KC",
-                    "dismissal": "c Edwards b de Leede",
+                    "dismissal": "c (wk)Edwards b de Leede",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "2",
@@ -302,7 +302,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Scott Edwards (c) , Logan van Beek , Clayton Floyd , Shariz Ahmad , Aryan Dutt , Ryan Klein",
+            "did_not_bat": "Scott Edwards (c) (wk) , Logan van Beek , Clayton Floyd , Shariz Ahmad , Aryan Dutt , Ryan Klein",
             "fall_of_wickets": "Fall of wickets : 1 - 86 ( Vikramjit Singh , 12.6 ov ) , 2 - 96 ( Wesley Barresi , 14.5 ov ) , 3 - 158 ( Max O'Dowd , 26.1 ov )",
             "bowling": [
                 {
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 7 wickets (with 137 balls remaining)"
+    "result": "Netherlands won by 7 wickets (with 137 balls remaining)",
+    "playing_xi": {
+        "Nepal": [
+            "Gulsan Jha",
+            "Kushal Bhurtel",
+            "Kushal Malla",
+            "Rohit Paudel(c)",
+            "Bhim Sharki",
+            "Lalit Rajbanshi",
+            "Sandeep Lamichhane",
+            "Aasif Sheikh (wk)",
+            "Karan KC",
+            "Aarif Sheikh",
+            "Dipendra Singh Airee"
+        ],
+        "Netherlands": [
+            "Aryan Dutt",
+            "Wesley Barresi",
+            "Max O'Dowd",
+            "Teja Nidamanuru",
+            "Logan van Beek",
+            "Shariz Ahmad",
+            "Bas de Leede",
+            "Scott Edwards (c) (wk)",
+            "Ryan Klein",
+            "Vikramjit Singh",
+            "Clayton Floyd"
+        ]
+    }
 }

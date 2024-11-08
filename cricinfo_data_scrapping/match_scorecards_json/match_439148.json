@@ -60,7 +60,7 @@
                     "strike_rate": "95.50"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "c Taylor b Pollard",
                     "runs": "41",
                     "balls": "35",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c de Villiers b Botha",
+                    "dismissal": "c (wk)de Villiers b Botha",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "-",
@@ -281,7 +281,7 @@
                     "strike_rate": "150.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "run out (Miller)",
                     "runs": "2",
                     "balls": "4",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 17 runs"
+    "result": "South Africa won by 17 runs",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers (wk)",
+            "Graeme Smith(c)",
+            "David Miller",
+            "Hashim Amla",
+            "Alviro Petersen",
+            "Jacques Kallis",
+            "Lonwabo Tsotsobe",
+            "Johan Botha",
+            "Dale Steyn",
+            "Ryan McLaren",
+            "Morne Morkel"
+        ],
+        "West Indies": [
+            "Dale Richards",
+            "Kieron Pollard",
+            "Jerome Taylor",
+            "Dwayne Bravo",
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Narsingh Deonarine",
+            "Chris Gayle(c)",
+            "Nikita Miller",
+            "Daren Sammy",
+            "Ravi Rampaul"
+        ]
+    }
 }

@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "run out (Bodi/de Villiers)",
+                    "dismissal": "run out (Bodi/ (wk)de Villiers)",
                     "runs": "19",
                     "balls": "56",
                     "minutes": "83",
@@ -64,8 +64,8 @@
                     "strike_rate": "33.92"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c de Villiers b Morkel",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "22",
                     "balls": "28",
                     "minutes": "44",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "run out (de Villiers)",
+                    "dismissal": "run out ( (wk)de Villiers)",
                     "runs": "59",
                     "balls": "74",
                     "minutes": "108",
@@ -135,7 +135,7 @@
                 },
                 {
                     "batsman": "Chris Mpofu",
-                    "dismissal": "run out (Bosman/de Villiers)",
+                    "dismissal": "run out (Bosman/ (wk)de Villiers)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "2",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Loots Bosman",
-                    "dismissal": "c Taibu b Mpofu",
+                    "dismissal": "c (wk)Taibu b Mpofu",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Gulam Bodi",
-                    "dismissal": "c Taibu b Utseya",
+                    "dismissal": "c (wk)Taibu b Utseya",
                     "runs": "51",
                     "balls": "99",
                     "minutes": "135",
@@ -285,8 +285,8 @@
                     "strike_rate": "51.51"
                 },
                 {
-                    "batsman": "AB de Villiers",
-                    "dismissal": "run out (Williams/Taibu)",
+                    "batsman": "AB de Villiers (wk)",
+                    "dismissal": "run out (Williams/ (wk)Taibu)",
                     "runs": "63",
                     "balls": "85",
                     "minutes": "95",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 19 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 19 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Prosper Utseya(c)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Brendan Taylor",
+            "Timycen Maruma",
+            "Gary Brent",
+            "Stuart Matsikenyeri",
+            "Chris Mpofu",
+            "Tatenda Taibu (wk)"
+        ],
+        "South Africa": [
+            "Loots Bosman",
+            "Morne Morkel",
+            "Thandi Tshabalala",
+            "Vernon Philander",
+            "AB de Villiers (wk)",
+            "Gulam Bodi",
+            "Johan van der Wath",
+            "Shaun Pollock",
+            "Jean-Paul Duminy",
+            "Makhaya Ntini",
+            "Graeme Smith(c)"
+        ]
+    }
 }

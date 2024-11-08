@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c Sangakkara b Eranga",
+                    "dismissal": "c (wk)Sangakkara b Eranga",
                     "runs": "47",
                     "balls": "67",
                     "minutes": "94",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c Sangakkara b Prasanna",
+                    "dismissal": "c (wk)Sangakkara b Prasanna",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "17",
@@ -90,7 +90,7 @@
                     "strike_rate": "93.87"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Jayawardene b BAW Mendis",
                     "runs": "8",
                     "balls": "14",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -257,8 +257,8 @@
                     "strike_rate": "106.25"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Haddin b Pattinson",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Haddin b Pattinson",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "6",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 4 wickets (with 18 balls remaining)"
+    "result": "Sri Lanka won by 4 wickets (with 18 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Michael Clarke(c)",
+            "Brad Haddin (wk)",
+            "James Pattinson",
+            "Ricky Ponting",
+            "John Hastings",
+            "Mitchell Johnson",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Shane Watson"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Jeevan Mendis",
+            "Ajantha Mendis",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Shaminda Eranga",
+            "Chamara Silva",
+            "Seekkuge Prasanna",
+            "Tillakaratne Dilshan(c)",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ]
+    }
 }

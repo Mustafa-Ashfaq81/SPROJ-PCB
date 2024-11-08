@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Sai Sudharsan",
-                    "dismissal": "c Klaasen b Williams",
+                    "dismissal": "c (wk)Klaasen b Williams",
                     "runs": "62",
                     "balls": "83",
                     "minutes": "112",
@@ -73,7 +73,7 @@
                     "strike_rate": "87.50"
                 },
                 {
-                    "batsman": "Sanju Samson",
+                    "batsman": "Sanju Samson (wk)",
                     "dismissal": "b BE Hendricks",
                     "runs": "12",
                     "balls": "23",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Rinku Singh",
-                    "dismissal": "st Klaasen b Maharaj",
+                    "dismissal": "st (wk)Klaasen b Maharaj",
                     "runs": "17",
                     "balls": "14",
                     "minutes": "19",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Rassie van der Dussen",
-                    "dismissal": "c Samson b Singh",
+                    "dismissal": "c (wk)Samson b Singh",
                     "runs": "36",
                     "balls": "51",
                     "minutes": "50",
@@ -280,7 +280,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Heinrich Klaasen , David Miller , Wiaan Mulder , Keshav Maharaj , Nandre Burger , Lizaad Williams , Beuran Hendricks",
+            "did_not_bat": "Heinrich Klaasen (wk) , David Miller , Wiaan Mulder , Keshav Maharaj , Nandre Burger , Lizaad Williams , Beuran Hendricks",
             "fall_of_wickets": "Fall of wickets : 1 - 130 ( Reeza Hendricks , 27.5 ov ) , 2 - 206 ( Rassie van der Dussen , 41.3 ov ) DRS",
             "bowling": [
                 {
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 45 balls remaining)"
+    "result": "South Africa won by 8 wickets (with 45 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ruturaj Gaikwad",
+            "Sanju Samson (wk)",
+            "Sai Sudharsan",
+            "Axar Patel",
+            "KL Rahul(c)",
+            "Avesh Khan",
+            "Mukesh Kumar",
+            "Tilak Varma",
+            "Kuldeep Yadav",
+            "Arshdeep Singh",
+            "Rinku Singh"
+        ],
+        "South Africa": [
+            "Aiden Markram(c)",
+            "Keshav Maharaj",
+            "David Miller",
+            "Wiaan Mulder",
+            "Beuran Hendricks",
+            "Heinrich Klaasen (wk)",
+            "Tony de Zorzi",
+            "Nandre Burger",
+            "Reeza Hendricks",
+            "Rassie van der Dussen",
+            "Lizaad Williams"
+        ]
+    }
 }

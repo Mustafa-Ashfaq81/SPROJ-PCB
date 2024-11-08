@@ -40,7 +40,7 @@
                     "strike_rate": "73.86"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c & b Kohli",
                     "runs": "135",
                     "balls": "121",
@@ -212,7 +212,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c de Kock b Morkel",
+                    "dismissal": "c (wk)de Kock b Morkel",
                     "runs": "12",
                     "balls": "13",
                     "minutes": "19",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "run out (Steyn/de Kock)",
+                    "dismissal": "run out (Steyn/ (wk)de Kock)",
                     "runs": "14",
                     "balls": "20",
                     "minutes": "39",
@@ -251,7 +251,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Steyn",
                     "runs": "65",
                     "balls": "71",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "c de Kock b McLaren",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "19",
                     "balls": "19",
                     "minutes": "23",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 141 runs"
+    "result": "South Africa won by 141 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "AB de Villiers(c)",
+            "Wayne Parnell",
+            "Ryan McLaren",
+            "Jean-Paul Duminy",
+            "Dale Steyn",
+            "David Miller",
+            "Quinton de Kock (wk)",
+            "Morne Morkel",
+            "Hashim Amla",
+            "Jacques Kallis"
+        ],
+        "India": [
+            "Ravindra Jadeja",
+            "Mohit Sharma",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Mohammed Shami",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

@@ -40,7 +40,7 @@
                     "strike_rate": "7.14"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c & b Peterson",
                     "runs": "4",
                     "balls": "4",
@@ -271,8 +271,8 @@
                     "strike_rate": "62.66"
                 },
                 {
-                    "batsman": "AB de Villiers",
-                    "dismissal": "run out (Guptill/BB McCullum)",
+                    "batsman": "AB de Villiers (wk)",
+                    "dismissal": "run out (Guptill/ (wk)BB McCullum)",
                     "runs": "35",
                     "balls": "40",
                     "minutes": "63",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Robin Peterson",
-                    "dismissal": "c BB McCullum b Oram",
+                    "dismissal": "c (wk)BB McCullum b Oram",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "9",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 49 runs"
+    "result": "New Zealand won by 49 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Ross Taylor",
+            "Kane Williamson",
+            "Martin Guptill",
+            "Jesse Ryder",
+            "Luke Woodcock",
+            "Nathan McCullum",
+            "Tim Southee",
+            "Daniel Vettori(c)",
+            "Jacob Oram",
+            "Scott Styris"
+        ],
+        "South Africa": [
+            "AB de Villiers (wk)",
+            "Graeme Smith(c)",
+            "Hashim Amla",
+            "Morne Morkel",
+            "Imran Tahir",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Robin Peterson",
+            "Dale Steyn",
+            "Faf du Plessis"
+        ]
+    }
 }

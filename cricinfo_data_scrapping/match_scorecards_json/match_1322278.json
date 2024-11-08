@@ -66,7 +66,7 @@
                     "strike_rate": "105.26"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "b Ferguson",
                     "runs": "15",
                     "balls": "23",
@@ -107,7 +107,7 @@
                 },
                 {
                     "batsman": "Shardul Thakur",
-                    "dismissal": "c Latham b Southee",
+                    "dismissal": "c (wk)Latham b Southee",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "3",
@@ -200,7 +200,7 @@
             "batting": [
                 {
                     "batsman": "Finn Allen",
-                    "dismissal": "c Pant b Thakur",
+                    "dismissal": "c (wk)Pant b Thakur",
                     "runs": "22",
                     "balls": "25",
                     "minutes": "33",
@@ -210,7 +210,7 @@
                 },
                 {
                     "batsman": "Devon Conway",
-                    "dismissal": "c Pant b Umran Malik",
+                    "dismissal": "c (wk)Pant b Umran Malik",
                     "runs": "24",
                     "balls": "42",
                     "minutes": "65",
@@ -239,7 +239,7 @@
                     "strike_rate": "68.75"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "not out",
                     "runs": "145",
                     "balls": "104",
@@ -325,5 +325,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 17 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Shubman Gill",
+            "Sanju Samson",
+            "Arshdeep Singh",
+            "Washington Sundar",
+            "Umran Malik",
+            "Suryakumar Yadav",
+            "Rishabh Pant (wk)",
+            "Shreyas Iyer",
+            "Shikhar Dhawan(c)",
+            "Shardul Thakur",
+            "Yuzvendra Chahal"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Tom Latham (wk)",
+            "Matt Henry",
+            "Kane Williamson(c)",
+            "Finn Allen",
+            "Lockie Ferguson",
+            "Devon Conway",
+            "Tim Southee",
+            "Daryl Mitchell",
+            "Adam Milne",
+            "Glenn Phillips"
+        ]
+    }
 }

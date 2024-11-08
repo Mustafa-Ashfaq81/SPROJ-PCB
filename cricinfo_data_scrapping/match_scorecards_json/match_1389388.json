@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Marnus Labuschagne",
-                    "dismissal": "st Rahul b Ashwin",
+                    "dismissal": "st (wk)Rahul b Ashwin",
                     "runs": "39",
                     "balls": "49",
                     "minutes": "61",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Cameron Green",
-                    "dismissal": "run out (Rahul/Iyer/Yadav)",
+                    "dismissal": "run out ( (wk)Rahul/Iyer/Yadav)",
                     "runs": "31",
                     "balls": "52",
                     "minutes": "75",
@@ -83,7 +83,7 @@
                     "strike_rate": "59.61"
                 },
                 {
-                    "batsman": "Josh Inglis",
+                    "batsman": "Josh Inglis (wk)",
                     "dismissal": "c Iyer b Bumrah",
                     "runs": "45",
                     "balls": "45",
@@ -134,7 +134,7 @@
                 },
                 {
                     "batsman": "Adam Zampa",
-                    "dismissal": "run out (Yadav/Jadeja/Rahul)",
+                    "dismissal": "run out (Yadav/Jadeja/ (wk)Rahul)",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "8",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Shreyas Iyer",
-                    "dismissal": "run out (Green/Inglis)",
+                    "dismissal": "run out (Green/ (wk)Inglis)",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "8",
@@ -256,7 +256,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "KL Rahul(c)",
+                    "batsman": "KL Rahul(c) (wk)",
                     "dismissal": "not out",
                     "runs": "58",
                     "balls": "63",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Ishan Kishan",
-                    "dismissal": "c Inglis b Cummins",
+                    "dismissal": "c (wk)Inglis b Cummins",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "29",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 8 balls remaining)"
+    "result": "India won by 5 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Marsh",
+            "Matthew Short",
+            "Adam Zampa",
+            "Cameron Green",
+            "Josh Inglis (wk)",
+            "Pat Cummins(c)",
+            "Marcus Stoinis",
+            "Steven Smith",
+            "Marnus Labuschagne",
+            "Sean Abbott",
+            "David Warner"
+        ],
+        "India": [
+            "Ruturaj Gaikwad",
+            "Ishan Kishan",
+            "Suryakumar Yadav",
+            "Ravichandran Ashwin",
+            "Shubman Gill",
+            "Mohammed Shami",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Shardul Thakur",
+            "Shreyas Iyer",
+            "KL Rahul(c) (wk)"
+        ]
+    }
 }

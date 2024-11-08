@@ -40,8 +40,8 @@
                     "strike_rate": "67.79"
                 },
                 {
-                    "batsman": "Regis Chakabva",
-                    "dismissal": "c Ghulam Shabber b Qadeer Ahmed",
+                    "batsman": "Regis Chakabva (wk)",
+                    "dismissal": "c (wk)Ghulam Shabber b Qadeer Ahmed",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "8",
@@ -188,7 +188,7 @@
             "batting": [
                 {
                     "batsman": "Ashfaq Ahmed",
-                    "dismissal": "c Chakabva b Jarvis",
+                    "dismissal": "c (wk)Chakabva b Jarvis",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "10",
@@ -207,7 +207,7 @@
                     "strike_rate": "52.94"
                 },
                 {
-                    "batsman": "Ghulam Shabber",
+                    "batsman": "Ghulam Shabber (wk)",
                     "dismissal": "c sub (A Ndlovu) b Jarvis",
                     "runs": "0",
                     "balls": "2",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Imran Haider",
-                    "dismissal": "c Chakabva b Burl",
+                    "dismissal": "c (wk)Chakabva b Burl",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "5",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Zahoor Khan",
-                    "dismissal": "st Chakabva b Burl",
+                    "dismissal": "st (wk)Chakabva b Burl",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "13",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 131 runs"
+    "result": "Zimbabwe won by 131 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Ryan Burl",
+            "Kyle Jarvis",
+            "Regis Chakabva (wk)",
+            "Donald Tiripano",
+            "Peter Moor(c)",
+            "Solomon Mire",
+            "Sean Williams",
+            "Sikandar Raza",
+            "Timycen Maruma",
+            "Craig Ervine",
+            "Chris Mpofu"
+        ],
+        "United Arab Emirates": [
+            "Mohammad Naveed(c)",
+            "Imran Haider",
+            "CP Rizwan",
+            "Mohammad Boota",
+            "Ghulam Shabber (wk)",
+            "Muhammad Usman",
+            "Qadeer Ahmed",
+            "Zahoor Khan",
+            "Shaiman Anwar",
+            "Ashfaq Ahmed",
+            "Rohan Mustafa"
+        ]
+    }
 }

@@ -82,7 +82,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Franklin b Bond",
                     "runs": "51",
                     "balls": "57",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock(c)",
-                    "dismissal": "c Parore b Franklin",
+                    "dismissal": "c (wk)Parore b Franklin",
                     "runs": "15",
                     "balls": "16",
                     "minutes": "16",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Justin Kemp",
-                    "dismissal": "c Parore b Cairns",
+                    "dismissal": "c (wk)Parore b Cairns",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "4",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "9",
                     "balls": "22",
                     "minutes": "38",
@@ -309,7 +309,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Adam Parore",
+                    "batsman": "Adam Parore (wk)",
                     "dismissal": "not out",
                     "runs": "21",
                     "balls": "32",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 5 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Justin Ontong",
+            "Jonty Rhodes",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Boeta Dippenaar",
+            "Steve Elworthy",
+            "Makhaya Ntini",
+            "Justin Kemp"
+        ],
+        "New Zealand": [
+            "Brendon McCullum",
+            "Lou Vincent",
+            "James Franklin",
+            "Mark Richardson",
+            "Adam Parore (wk)",
+            "Stephen Fleming(c)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Craig McMillan",
+            "Chris Cairns",
+            "Shane Bond"
+        ]
+    }
 }

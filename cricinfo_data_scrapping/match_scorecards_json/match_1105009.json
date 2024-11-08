@@ -30,7 +30,7 @@
             "extras": "2",
             "batting": [
                 {
-                    "batsman": "Jamie Atkinson",
+                    "batsman": "Jamie Atkinson (wk)",
                     "dismissal": "lbw b Bhari",
                     "runs": "76",
                     "balls": "117",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Nizakat Khan",
-                    "dismissal": "st Bhandari b Lamichhane",
+                    "dismissal": "st (wk)Bhandari b Lamichhane",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Waqas Khan",
-                    "dismissal": "st Bhandari b Regmi",
+                    "dismissal": "st (wk)Bhandari b Regmi",
                     "runs": "14",
                     "balls": "41",
                     "minutes": "-",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Kyle Christie",
-                    "dismissal": "run out (Bhandari)",
+                    "dismissal": "run out ( (wk)Bhandari)",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "-",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Dipendra Singh Airee",
-                    "dismissal": "c Atkinson b Aizaz Khan",
+                    "dismissal": "c (wk)Atkinson b Aizaz Khan",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "-",
@@ -311,7 +311,7 @@
                     "strike_rate": "36.66"
                 },
                 {
-                    "batsman": "Binod Bhandari",
+                    "batsman": "Binod Bhandari (wk)",
                     "dismissal": "c Waqas Khan b Ehsan Khan",
                     "runs": "18",
                     "balls": "17",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 83 runs"
+    "result": "Hong Kong won by 83 runs",
+    "playing_xi": {
+        "Hong Kong": [
+            "Shahid Wasif",
+            "Aizaz Khan",
+            "Waqas Khan",
+            "Babar Hayat(c)",
+            "Kyle Christie",
+            "Jamie Atkinson (wk)",
+            "Ehsan Khan",
+            "Ehsan Nawaz",
+            "Tanwir Afzal",
+            "Anshy Rath",
+            "Nizakat Khan"
+        ],
+        "Nepal": [
+            "Paras Khadka(c)",
+            "Binod Bhandari (wk)",
+            "Aarif Sheikh",
+            "Gyanendra Malla",
+            "Karan KC",
+            "Sandeep Lamichhane",
+            "Sagar Pun",
+            "Basant Regmi",
+            "Sompal Kami",
+            "Dipendra Singh Airee",
+            "Sushan Bhari"
+        ]
+    }
 }

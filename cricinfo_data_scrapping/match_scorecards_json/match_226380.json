@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Jehan Mubarak",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "2",
                     "balls": "19",
                     "minutes": "28",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "st Haddin b Hogg",
+                    "dismissal": "st (wk)Haddin b Hogg",
                     "runs": "114",
                     "balls": "96",
                     "minutes": "132",
@@ -51,7 +51,7 @@
                     "strike_rate": "118.75"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c & b Symonds",
                     "runs": "78",
                     "balls": "95",
@@ -262,7 +262,7 @@
                     "strike_rate": "95.71"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Muralidaran",
                     "runs": "41",
                     "balls": "44",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "run out (Dilshan/Sangakkara)",
+                    "dismissal": "run out (Dilshan/ (wk)Sangakkara)",
                     "runs": "31",
                     "balls": "32",
                     "minutes": "39",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 51 runs"
+    "result": "Sri Lanka won by 51 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene",
+            "Ruchira Perera",
+            "Jehan Mubarak",
+            "Chaminda Vaas"
+        ],
+        "Australia": [
+            "Nathan Bracken",
+            "Michael Hussey",
+            "Michael Clarke",
+            "James Hopes",
+            "Andrew Symonds",
+            "Brett Lee",
+            "Damien Martyn",
+            "Simon Katich",
+            "Brad Haddin (wk)",
+            "Ricky Ponting(c)",
+            "Brad Hogg"
+        ]
+    }
 }

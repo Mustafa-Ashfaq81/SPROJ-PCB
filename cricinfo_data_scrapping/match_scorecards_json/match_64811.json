@@ -30,7 +30,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Ntini",
                     "runs": "31",
                     "balls": "38",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "20",
                     "balls": "26",
                     "minutes": "27",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Faisal Iqbal",
-                    "dismissal": "run out (Dippenaar/Boucher)",
+                    "dismissal": "run out (Dippenaar/ (wk)Boucher)",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "15",
@@ -267,7 +267,7 @@
                     "strike_rate": "61.03"
                 }
             ],
-            "did_not_bat": "Jacques Kallis , Jonty Rhodes , Mark Boucher , Shaun Pollock (c) , Lance Klusener , Robin Peterson , Allan Donald , Makhaya Ntini",
+            "did_not_bat": "Jacques Kallis , Jonty Rhodes , Mark Boucher (wk) , Shaun Pollock (c) , Lance Klusener , Robin Peterson , Allan Donald , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 111 ( Herschelle Gibbs , 18.6 ov )",
             "bowling": [
                 {
@@ -343,5 +343,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 9 wickets (with 48 balls remaining)"
+    "result": "South Africa won by 9 wickets (with 48 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Faisal Iqbal",
+            "Saqlain Mushtaq",
+            "Mohammad Yousuf",
+            "Waqar Younis(c)",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Abdul Razzaq",
+            "Inzamam-ul-Haq",
+            "Shahid Afridi",
+            "Saleem Elahi",
+            "Shoaib Akhtar"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Makhaya Ntini",
+            "Lance Klusener",
+            "Allan Donald",
+            "Jacques Kallis",
+            "Shaun Pollock (c)",
+            "Robin Peterson",
+            "Boeta Dippenaar",
+            "Jonty Rhodes",
+            "Herschelle Gibbs",
+            "Gary Kirsten"
+        ]
+    }
 }

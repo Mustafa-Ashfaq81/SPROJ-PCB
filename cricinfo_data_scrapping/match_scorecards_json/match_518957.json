@@ -52,8 +52,8 @@
                     "strike_rate": "60.75"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Dhoni b Khan",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "26",
                     "balls": "34",
                     "minutes": "63",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "64",
                     "balls": "81",
                     "minutes": "98",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "20",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "run out (Sharma/Dhoni)",
+                    "dismissal": "run out (Sharma/ (wk)Dhoni)",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "9",
@@ -265,7 +265,7 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Malinga b Prasad",
                     "runs": "4",
                     "balls": "5",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 20 balls remaining)"
+    "result": "India won by 4 wickets (with 20 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Dhammika Prasad",
+            "Dinesh Chandimal",
+            "Angelo Mathews",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara",
+            "Thisara Perera",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Lahiru Thirimanne",
+            "Upul Tharanga"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Rohit Sharma",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Praveen Kumar",
+            "Vinay Kumar",
+            "MS Dhoni(c) (wk)",
+            "Sachin Tendulkar",
+            "Suresh Raina"
+        ]
+    }
 }

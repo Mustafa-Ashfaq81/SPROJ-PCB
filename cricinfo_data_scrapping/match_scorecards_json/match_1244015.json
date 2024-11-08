@@ -32,7 +32,7 @@
             "extras": "28",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "b Young",
                     "runs": "22",
                     "balls": "10",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie(c)",
-                    "dismissal": "c Rahmanullah Gurbaz b Mohammad Nabi",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Mohammad Nabi",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "18",
@@ -289,7 +289,7 @@
                     "strike_rate": "46.15"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "b Rashid Khan",
                     "runs": "22",
                     "balls": "35",
@@ -300,7 +300,7 @@
                 },
                 {
                     "batsman": "Simi Singh",
-                    "dismissal": "run out (Mohammad Nabi/Rahmanullah Gurbaz)",
+                    "dismissal": "run out (Mohammad Nabi/ (wk)Rahmanullah Gurbaz)",
                     "runs": "20",
                     "balls": "29",
                     "minutes": "47",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 36 runs"
+    "result": "Afghanistan won by 36 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Rahmanullah Gurbaz (wk)",
+            "Javed Ahmadi",
+            "Rahmat Shah",
+            "Naveen-ul-Haq",
+            "Najibullah Zadran",
+            "Gulbadin Naib",
+            "Rashid Khan",
+            "Asghar Afghan(c)",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman"
+        ],
+        "Ireland": [
+            "Harry Tector",
+            "Mark Adair",
+            "Craig Young",
+            "Curtis Campher",
+            "Andy Balbirnie(c)",
+            "James McCollum",
+            "Lorcan Tucker (wk)",
+            "Paul Stirling",
+            "Andy McBrine",
+            "Josh Little",
+            "Simi Singh"
+        ]
+    }
 }

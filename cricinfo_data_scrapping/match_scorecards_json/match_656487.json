@@ -40,7 +40,7 @@
                     "strike_rate": "38.46"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Watson b Starc",
                     "runs": "10",
                     "balls": "16",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Haris Sohail",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "41",
                     "balls": "57",
                     "minutes": "94",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Wahab Riaz",
-                    "dismissal": "c Haddin b Starc",
+                    "dismissal": "c (wk)Haddin b Starc",
                     "runs": "16",
                     "balls": "22",
                     "minutes": "35",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Sohail Khan",
-                    "dismissal": "c Haddin b Hazlewood",
+                    "dismissal": "c (wk)Haddin b Hazlewood",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "7",
@@ -297,7 +297,7 @@
                     "strike_rate": "151.72"
                 }
             ],
-            "did_not_bat": "James Faulkner , Brad Haddin , Mitchell Johnson , Mitchell Starc , Josh Hazlewood",
+            "did_not_bat": "James Faulkner , Brad Haddin (wk) , Mitchell Johnson , Mitchell Starc , Josh Hazlewood",
             "fall_of_wickets": "Fall of wickets : 1 - 15 ( Aaron Finch , 2.3 ov ) , 2 - 49 ( David Warner , 8.3 ov ) , 3 - 59 ( Michael Clarke , 10.4 ov ) , 4 - 148 ( Steven Smith , 26.4 ov )",
             "bowling": [
                 {
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 97 balls remaining)"
+    "result": "Australia won by 6 wickets (with 97 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Wahab Riaz",
+            "Sarfaraz Ahmed (wk)",
+            "Sohaib Maqsood",
+            "Ehsan Adil",
+            "Rahat Ali",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi",
+            "Sohail Khan",
+            "Haris Sohail",
+            "Umar Akmal"
+        ],
+        "Australia": [
+            "James Faulkner",
+            "Michael Clarke(c)",
+            "Aaron Finch",
+            "Brad Haddin (wk)",
+            "David Warner",
+            "Glenn Maxwell",
+            "Steven Smith",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Mitchell Johnson",
+            "Shane Watson"
+        ]
+    }
 }

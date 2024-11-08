@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alick Athanaze",
-                    "dismissal": "c Buttler b Atkinson",
+                    "dismissal": "c (wk)Buttler b Atkinson",
                     "runs": "4",
                     "balls": "14",
                     "minutes": "15",
@@ -60,7 +60,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Shai Hope(c)",
+                    "batsman": "Shai Hope(c) (wk)",
                     "dismissal": "b Livingstone",
                     "runs": "68",
                     "balls": "68",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Ben Duckett",
-                    "dismissal": "c Hope b Motie",
+                    "dismissal": "c (wk)Hope b Motie",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "8",
@@ -287,7 +287,7 @@
                     "strike_rate": "87.75"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "not out",
                     "runs": "58",
                     "balls": "45",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 103 balls remaining)"
+    "result": "England won by 6 wickets (with 103 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Oshane Thomas",
+            "Keacy Carty",
+            "Brandon King",
+            "Sherfane Rutherford",
+            "Alzarri Joseph",
+            "Alick Athanaze",
+            "Yannic Cariah",
+            "Gudakesh Motie",
+            "Shimron Hetmyer",
+            "Romario Shepherd",
+            "Shai Hope(c) (wk)"
+        ],
+        "England": [
+            "Harry Brook",
+            "Liam Livingstone",
+            "Will Jacks",
+            "Jos Buttler(c) (wk)",
+            "Gus Atkinson",
+            "Phil Salt",
+            "Brydon Carse",
+            "Rehan Ahmed",
+            "Ben Duckett",
+            "Sam Curran",
+            "Zak Crawley"
+        ]
+    }
 }

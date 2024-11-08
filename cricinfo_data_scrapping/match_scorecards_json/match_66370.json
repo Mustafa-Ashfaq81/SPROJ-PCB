@@ -42,7 +42,7 @@
                     "strike_rate": "131.57"
                 },
                 {
-                    "batsman": "Jimmy Maher",
+                    "batsman": "Jimmy Maher (wk)",
                     "dismissal": "lbw b Tuffey",
                     "runs": "3",
                     "balls": "10",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "18",
                     "balls": "25",
                     "minutes": "29",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Maher b Bichel",
+                    "dismissal": "c (wk)Maher b Bichel",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -289,8 +289,8 @@
                     "strike_rate": "55.88"
                 },
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "c Maher b Kasprowicz",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "c (wk)Maher b Kasprowicz",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "22",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Kyle Mills",
-                    "dismissal": "c Maher b Bracken",
+                    "dismissal": "c (wk)Maher b Bracken",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "15",
@@ -433,5 +433,33 @@
             ]
         }
     ],
-    "result": "Australia won by 44 runs"
+    "result": "Australia won by 44 runs",
+    "playing_xi": {
+        "Australia": [
+            "Michael Kasprowicz",
+            "Brad Hogg",
+            "Ian Harvey",
+            "Michael Bevan",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Nathan Bracken",
+            "Jimmy Maher (wk)",
+            "Damien Martyn",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Chris Nevin",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Kyle Mills",
+            "Chris Harris",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Lou Vincent",
+            "Jacob Oram",
+            "Scott Styris"
+        ]
+    }
 }

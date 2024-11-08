@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Nick Knight",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "88",
                     "balls": "110",
                     "minutes": "172",
@@ -72,7 +72,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "b Lakshitha",
                     "runs": "51",
                     "balls": "59",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Hashan Tillakaratne",
-                    "dismissal": "c Stewart b Caddick",
+                    "dismissal": "c (wk)Stewart b Caddick",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "26",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Aravinda de Silva",
-                    "dismissal": "c Stewart b Collingwood",
+                    "dismissal": "c (wk)Stewart b Collingwood",
                     "runs": "15",
                     "balls": "27",
                     "minutes": "46",
@@ -269,7 +269,7 @@
                     "strike_rate": "56.52"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Blackwell b Caddick",
                     "runs": "56",
                     "balls": "66",
@@ -433,5 +433,33 @@
             ]
         }
     ],
-    "result": "England won by 19 runs"
+    "result": "England won by 19 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Andy Caddick",
+            "Nick Knight",
+            "Michael Vaughan",
+            "Ian Blackwell",
+            "Ronnie Irani",
+            "Nasser Hussain(c)",
+            "Steve Harmison",
+            "Paul Collingwood",
+            "Alec Stewart (wk)",
+            "Marcus Trescothick"
+        ],
+        "Sri Lanka": [
+            "Hashan Tillakaratne",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Aravinda de Silva",
+            "Charitha Buddhika",
+            "Chamila Gamage",
+            "Sanath Jayasuriya(c)",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ]
+    }
 }

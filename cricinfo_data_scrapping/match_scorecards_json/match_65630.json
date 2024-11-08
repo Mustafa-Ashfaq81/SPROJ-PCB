@@ -35,7 +35,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Anderson",
                     "runs": "124",
                     "balls": "104",
@@ -262,7 +262,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "run out (Bevan)",
                     "runs": "3",
                     "balls": "5",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Ian Blackwell",
-                    "dismissal": "run out (Gilchrist)",
+                    "dismissal": "run out ( (wk)Gilchrist)",
                     "runs": "43",
                     "balls": "54",
                     "minutes": "90",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "Australia won by 89 runs"
+    "result": "Australia won by 89 runs",
+    "playing_xi": {
+        "Australia": [
+            "Darren Lehmann",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Shane Warne",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Damien Martyn",
+            "Shane Watson"
+        ],
+        "England": [
+            "James Anderson",
+            "Owais Shah",
+            "Marcus Trescothick",
+            "Nick Knight",
+            "James Kirtley",
+            "Ian Blackwell",
+            "Gareth Batty",
+            "Nasser Hussain(c)",
+            "Alec Stewart (wk)",
+            "Craig White",
+            "Ronnie Irani"
+        ]
+    }
 }

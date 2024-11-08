@@ -31,7 +31,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Yuvraj Singh b Kumar",
                     "runs": "7",
                     "balls": "7",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "7",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "run out (Dhoni/Pathan)",
+                    "dismissal": "run out ( (wk)Dhoni/Pathan)",
                     "runs": "45",
                     "balls": "67",
                     "minutes": "87",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "James Hopes",
-                    "dismissal": "c Dhoni b Yuvraj Singh",
+                    "dismissal": "c (wk)Dhoni b Yuvraj Singh",
                     "runs": "15",
                     "balls": "37",
                     "minutes": "40",
@@ -292,7 +292,7 @@
                     "strike_rate": "75.86"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "15",
                     "balls": "12",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 25 balls remaining)"
+    "result": "India won by 6 wickets (with 25 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "James Hopes",
+            "Nathan Bracken",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ],
+        "India": [
+            "Praveen Kumar",
+            "Irfan Pathan",
+            "Piyush Chawla",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

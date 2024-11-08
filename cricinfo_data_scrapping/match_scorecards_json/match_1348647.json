@@ -70,7 +70,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "c Shubman Gill b Thakur",
                     "runs": "1",
                     "balls": "17",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Michael Bracewell",
-                    "dismissal": "c Ishan Kishan b Mohammed Shami",
+                    "dismissal": "c (wk)Ishan Kishan b Mohammed Shami",
                     "runs": "22",
                     "balls": "30",
                     "minutes": "38",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "st Latham b Santner",
+                    "dismissal": "st (wk)Latham b Santner",
                     "runs": "11",
                     "balls": "9",
                     "minutes": "19",
@@ -267,7 +267,7 @@
                     "strike_rate": "122.22"
                 },
                 {
-                    "batsman": "Ishan Kishan",
+                    "batsman": "Ishan Kishan (wk)",
                     "dismissal": "not out",
                     "runs": "8",
                     "balls": "9",
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 179 balls remaining)"
+    "result": "India won by 8 wickets (with 179 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Henry Shipley",
+            "Daryl Mitchell",
+            "Devon Conway",
+            "Blair Tickner",
+            "Tom Latham(c) (wk)",
+            "Finn Allen",
+            "Lockie Ferguson",
+            "Mitchell Santner",
+            "Michael Bracewell",
+            "Glenn Phillips",
+            "Henry Nicholls"
+        ],
+        "India": [
+            "Rohit Sharma(c)",
+            "Hardik Pandya",
+            "Ishan Kishan (wk)",
+            "Shardul Thakur",
+            "Suryakumar Yadav",
+            "Mohammed Siraj",
+            "Washington Sundar",
+            "Shubman Gill",
+            "Kuldeep Yadav",
+            "Mohammed Shami",
+            "Virat Kohli"
+        ]
+    }
 }

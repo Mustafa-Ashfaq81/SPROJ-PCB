@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Taylor b Ireland",
+                    "dismissal": "c (wk)Taylor b Ireland",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "14",
@@ -62,7 +62,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Matsikenyeri b Chibhabha",
                     "runs": "80",
                     "balls": "86",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "30",
                     "balls": "56",
                     "minutes": "86",
@@ -287,7 +287,7 @@
                     "strike_rate": "53.57"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b Fernando",
                     "runs": "30",
                     "balls": "40",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "run out (Maharoof/Perera/Sangakkara)",
+                    "dismissal": "run out (Maharoof/Perera/ (wk)Sangakkara)",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "3",
@@ -338,7 +338,7 @@
                 },
                 {
                     "batsman": "Anthony Ireland",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "30",
@@ -447,5 +447,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 144 runs"
+    "result": "Sri Lanka won by 144 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene(c)",
+            "Kumar Sangakkara (wk)",
+            "Ruchira Perera",
+            "Farveez Maharoof",
+            "Upul Tharanga",
+            "Dilhara Fernando"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Hamilton Masakadza",
+            "Prosper Utseya(c)",
+            "Tawanda Mupariwa",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Chamu Chibhabha",
+            "Anthony Ireland",
+            "Tafadzwa Kamungozi",
+            "Piet Rinke",
+            "Tafadzwa Mufambisi"
+        ]
+    }
 }

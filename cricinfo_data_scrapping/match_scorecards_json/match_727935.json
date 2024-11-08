@@ -34,8 +34,8 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
-                    "dismissal": "c SW Poynter b Sorensen",
+                    "batsman": "Matthew Cross (wk)",
+                    "dismissal": "c (wk)SW Poynter b Sorensen",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "-",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Freddie Coleman",
-                    "dismissal": "c SW Poynter b Thompson",
+                    "dismissal": "c (wk)SW Poynter b Thompson",
                     "runs": "23",
                     "balls": "44",
                     "minutes": "-",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Michael Leask",
-                    "dismissal": "c SW Poynter b Young",
+                    "dismissal": "c (wk)SW Poynter b Young",
                     "runs": "50",
                     "balls": "50",
                     "minutes": "-",
@@ -115,7 +115,7 @@
                 },
                 {
                     "batsman": "Safyaan Sharif",
-                    "dismissal": "c SW Poynter b Young",
+                    "dismissal": "c (wk)SW Poynter b Young",
                     "runs": "18",
                     "balls": "33",
                     "minutes": "-",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Cross b Berrington",
+                    "dismissal": "c (wk)Cross b Berrington",
                     "runs": "38",
                     "balls": "82",
                     "minutes": "-",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Andrew Poynter",
-                    "dismissal": "c Cross b Davey",
+                    "dismissal": "c (wk)Cross b Davey",
                     "runs": "16",
                     "balls": "27",
                     "minutes": "-",
@@ -291,7 +291,7 @@
                     "strike_rate": "97.22"
                 }
             ],
-            "did_not_bat": "Andy McBrine , Stuart Poynter , Max Sorensen , John Mooney , Craig Young , Andrew White",
+            "did_not_bat": "Andy McBrine , Stuart Poynter (wk) , Max Sorensen , John Mooney , Craig Young , Andrew White",
             "fall_of_wickets": "Fall of wickets : 1 - 11 ( John Anderson , 5.6 ov ) , 2 - 50 ( Andrew Poynter , 14.3 ov ) , 3 - 93 ( Andy Balbirnie , 24.5 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 7 wickets (with 80 balls remaining)"
+    "result": "Ireland won by 7 wickets (with 80 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Safyaan Sharif",
+            "Michael Leask",
+            "Matthew Cross (wk)",
+            "Calum MacLeod",
+            "Majid Haq",
+            "Freddie Coleman",
+            "Preston Mommsen(c)",
+            "Iain Wardlaw",
+            "Josh Davey",
+            "Hamish Gardiner",
+            "Richie Berrington"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "Max Sorensen",
+            "John Anderson",
+            "Andrew White",
+            "Andy McBrine",
+            "Craig Young",
+            "Andrew Poynter",
+            "Stuart Thompson",
+            "Stuart Poynter (wk)",
+            "Kevin O'Brien(c)",
+            "John Mooney"
+        ]
+    }
 }

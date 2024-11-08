@@ -30,7 +30,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
+                    "batsman": "Kennedy Otieno (wk)",
                     "dismissal": "lbw b Syed Rasel",
                     "runs": "5",
                     "balls": "17",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jimmy Kamande",
-                    "dismissal": "c Khaled Mashud b Syed Rasel",
+                    "dismissal": "c (wk)Khaled Mashud b Syed Rasel",
                     "runs": "3",
                     "balls": "19",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Thomas Odoyo",
-                    "dismissal": "st Khaled Mashud b Shakib Al Hasan",
+                    "dismissal": "st (wk)Khaled Mashud b Shakib Al Hasan",
                     "runs": "84",
                     "balls": "97",
                     "minutes": "-",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Otieno b Odoyo",
+                    "dismissal": "c (wk)Otieno b Odoyo",
                     "runs": "13",
                     "balls": "11",
                     "minutes": "-",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Otieno b Odoyo",
+                    "dismissal": "c (wk)Otieno b Odoyo",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "-",
@@ -297,7 +297,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "c Modi b Ababu",
                     "runs": "13",
                     "balls": "45",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 2 wickets (with 24 balls remaining)"
+    "result": "Bangladesh won by 2 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Nehemiah Odhiambo",
+            "Morris Ouma",
+            "Tanmay Mishra",
+            "Peter Ongondo",
+            "Kennedy Otieno (wk)",
+            "Hitesh Modi",
+            "Jimmy Kamande",
+            "Collins Obuya",
+            "Steve Tikolo(c)",
+            "Josephat Ababu",
+            "Thomas Odoyo"
+        ],
+        "Bangladesh": [
+            "Khaled Mashud(c) (wk)",
+            "Rajin Saleh",
+            "Aftab Ahmed",
+            "Farhad Reza",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique"
+        ]
+    }
 }

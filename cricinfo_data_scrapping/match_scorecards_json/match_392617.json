@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "run out (Laughlin/Haddin)",
+                    "dismissal": "run out (Laughlin/ (wk)Haddin)",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "-",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Younis Khan(c)",
-                    "dismissal": "c Haddin b Laughlin",
+                    "dismissal": "c (wk)Haddin b Laughlin",
                     "runs": "28",
                     "balls": "34",
                     "minutes": "-",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Haddin b Hauritz",
+                    "dismissal": "c (wk)Haddin b Hauritz",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "-",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Haddin b Hopes",
+                    "dismissal": "c (wk)Haddin b Hopes",
                     "runs": "41",
                     "balls": "40",
                     "minutes": "-",
@@ -94,7 +94,7 @@
                     "strike_rate": "102.50"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Hussey b Hopes",
                     "runs": "19",
                     "balls": "22",
@@ -241,7 +241,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Umar Gul",
                     "runs": "8",
                     "balls": "13",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 29 balls remaining)"
+    "result": "Australia won by 6 wickets (with 29 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Iftikhar Anjum",
+            "Shoaib Akhtar",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Salman Butt",
+            "Misbah-ul-Haq",
+            "Shahid Afridi"
+        ],
+        "Australia": [
+            "Callum Ferguson",
+            "Nathan Bracken",
+            "Ben Laughlin",
+            "Shane Watson",
+            "Andrew Symonds",
+            "Michael Clarke(c)",
+            "Brad Haddin (wk)",
+            "Nathan Hauritz",
+            "James Hopes",
+            "David Hussey",
+            "Doug Bollinger"
+        ]
+    }
 }

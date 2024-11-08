@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Danushka Gunathilaka",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "22",
                     "balls": "21",
                     "minutes": "27",
@@ -61,8 +61,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
-                    "dismissal": "run out (Roy/Buttler)",
+                    "batsman": "Dinesh Chandimal (wk)",
+                    "dismissal": "run out (Roy/ (wk)Buttler)",
                     "runs": "52",
                     "balls": "86",
                     "minutes": "115",
@@ -238,7 +238,7 @@
                     "strike_rate": "120.90"
                 }
             ],
-            "did_not_bat": "Joe Root , Eoin Morgan (c) , Jonny Bairstow , Jos Buttler , Moeen Ali , Chris Woakes , David Willey , Liam Plunkett , Adil Rashid",
+            "did_not_bat": "Joe Root , Eoin Morgan (c) , Jonny Bairstow , Jos Buttler (wk) , Moeen Ali , Chris Woakes , David Willey , Liam Plunkett , Adil Rashid",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -328,5 +328,33 @@
             ]
         }
     ],
-    "result": "England won by 10 wickets (with 95 balls remaining)"
+    "result": "England won by 10 wickets (with 95 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Suraj Randiv",
+            "Danushka Gunathilaka",
+            "Dinesh Chandimal (wk)",
+            "Suranga Lakmal",
+            "Kusal Mendis",
+            "Seekkuge Prasanna",
+            "Nuwan Pradeep",
+            "Angelo Mathews(c)",
+            "Farveez Maharoof",
+            "Kusal Perera",
+            "Upul Tharanga"
+        ],
+        "England": [
+            "Jason Roy",
+            "Adil Rashid",
+            "Chris Woakes",
+            "David Willey",
+            "Alex Hales",
+            "Joe Root",
+            "Eoin Morgan (c)",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Moeen Ali"
+        ]
+    }
 }

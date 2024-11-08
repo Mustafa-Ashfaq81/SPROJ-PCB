@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "c Umar Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Umar Akmal b Mohammad Irfan",
                     "runs": "8",
                     "balls": "22",
                     "minutes": "24",
@@ -40,7 +40,7 @@
                     "strike_rate": "36.36"
                 },
                 {
-                    "batsman": "Johnson Charles",
+                    "batsman": "Johnson Charles (wk)",
                     "dismissal": "lbw b Junaid Khan",
                     "runs": "32",
                     "balls": "48",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo(c)",
-                    "dismissal": "run out (Umar Akmal/Mohammad Irfan)",
+                    "dismissal": "run out ( (wk)Umar Akmal/Mohammad Irfan)",
                     "runs": "6",
                     "balls": "5",
                     "minutes": "11",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Nasir Jamshed",
-                    "dismissal": "run out (Charles/Narine)",
+                    "dismissal": "run out ( (wk)Charles/Narine)",
                     "runs": "22",
                     "balls": "37",
                     "minutes": "61",
@@ -267,7 +267,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "29",
                     "balls": "18",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 6 balls remaining) (D/L method)"
+    "result": "Pakistan won by 6 wickets (with 6 balls remaining) (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Lendl Simmons",
+            "Kemar Roach",
+            "Chris Gayle",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Jason Holder",
+            "Johnson Charles (wk)",
+            "Daren Sammy",
+            "Marlon Samuels",
+            "Dwayne Bravo(c)",
+            "Devon Smith"
+        ],
+        "Pakistan": [
+            "Wahab Riaz",
+            "Umar Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Nasir Jamshed",
+            "Haris Sohail",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Misbah-ul-Haq(c)"
+        ]
+    }
 }

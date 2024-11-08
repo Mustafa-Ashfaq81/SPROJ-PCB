@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "run out (Prasanna/Chandimal)",
+                    "dismissal": "run out (Prasanna/ (wk)Chandimal)",
                     "runs": "66",
                     "balls": "64",
                     "minutes": "109",
@@ -83,7 +83,7 @@
                     "strike_rate": "220.00"
                 },
                 {
-                    "batsman": "Robin Uthappa",
+                    "batsman": "Robin Uthappa (wk)",
                     "dismissal": "not out",
                     "runs": "16",
                     "balls": "16",
@@ -224,7 +224,7 @@
                     "strike_rate": "103.03"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "c Raina b Binny",
                     "runs": "9",
                     "balls": "13",
@@ -245,7 +245,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "st Uthappa b Patel",
+                    "dismissal": "st (wk)Uthappa b Patel",
                     "runs": "75",
                     "balls": "68",
                     "minutes": "85",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "c Uthappa b Kulkarni",
+                    "dismissal": "c (wk)Uthappa b Kulkarni",
                     "runs": "29",
                     "balls": "29",
                     "minutes": "39",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "India won by 153 runs"
+    "result": "India won by 153 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Robin Uthappa (wk)",
+            "Karn Sharma",
+            "Virat Kohli(c)",
+            "Suresh Raina",
+            "Umesh Yadav",
+            "Axar Patel",
+            "Stuart Binny",
+            "Ambati Rayudu",
+            "Dhawal Kulkarni"
+        ],
+        "Sri Lanka": [
+            "Dinesh Chandimal (wk)",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene",
+            "Shaminda Eranga",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Seekkuge Prasanna",
+            "Nuwan Kulasekara",
+            "Ajantha Mendis",
+            "Angelo Mathews(c)",
+            "Kusal Perera"
+        ]
+    }
 }

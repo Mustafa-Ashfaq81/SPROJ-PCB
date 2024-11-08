@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Aravinda de Silva",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "3",
                     "balls": "14",
                     "minutes": "27",
@@ -73,7 +73,7 @@
                     "strike_rate": "21.42"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "77",
                     "balls": "115",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Andrew Hall",
-                    "dismissal": "c Sangakkara b Gunaratne",
+                    "dismissal": "c (wk)Sangakkara b Gunaratne",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "35",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Robin Peterson",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "8",
@@ -290,7 +290,7 @@
                     "strike_rate": "92.59"
                 }
             ],
-            "did_not_bat": "Shaun Pollock (c) , Lance Klusener , Mark Boucher , Allan Donald , Monde Zondeki",
+            "did_not_bat": "Shaun Pollock (c) , Lance Klusener , Mark Boucher (wk) , Allan Donald , Monde Zondeki",
             "fall_of_wickets": "Fall of wickets : 1 - 44 ( Andrew Hall , 7.2 ov ) , 2 - 53 ( Robin Peterson , 8.6 ov ) , 3 - 87 ( Herschelle Gibbs , 14.4 ov ) , 4 - 175 ( Boeta Dippenaar , 37.1 ov )",
             "bowling": [
                 {
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 29 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 29 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Pulasthi Gunaratne",
+            "Sanath Jayasuriya(c)",
+            "Kumar Sangakkara (wk)",
+            "Thilan Samaraweera",
+            "Chamila Gamage",
+            "Aravinda de Silva",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Marvan Atapattu",
+            "Russel Arnold",
+            "Prabath Nissanka"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Lance Klusener",
+            "Allan Donald",
+            "Neil McKenzie",
+            "Robin Peterson",
+            "Shaun Pollock (c)",
+            "Andrew Hall",
+            "Boeta Dippenaar",
+            "Jonty Rhodes",
+            "Herschelle Gibbs",
+            "Monde Zondeki"
+        ]
+    }
 }

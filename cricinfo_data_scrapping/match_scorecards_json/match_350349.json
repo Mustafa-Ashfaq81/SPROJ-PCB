@@ -70,7 +70,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Mohammad Ashraful b Syed Rasel",
                     "runs": "6",
                     "balls": "9",
@@ -257,7 +257,7 @@
                     "strike_rate": "72.72"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c JA Morkel b M Morkel",
                     "runs": "2",
                     "balls": "11",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Syed Rasel",
-                    "dismissal": "c Boucher b JA Morkel",
+                    "dismissal": "c (wk)Boucher b JA Morkel",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "3",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 128 runs"
+    "result": "South Africa won by 128 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Johann Louw",
+            "Morne Morkel",
+            "Johan Botha",
+            "Graeme Smith(c)",
+            "AB de Villiers"
+        ],
+        "Bangladesh": [
+            "Syed Rasel",
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Zunaed Siddique",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Imrul Kayes",
+            "Abdur Razzak",
+            "Naeem Islam",
+            "Raqibul Hasan"
+        ]
+    }
 }

@@ -81,7 +81,7 @@
                     "strike_rate": "146.29"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c & b Mohammed Shami",
                     "runs": "20",
                     "balls": "8",
@@ -215,7 +215,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "102",
                     "balls": "109",
                     "minutes": "152",
@@ -254,7 +254,7 @@
                     "strike_rate": "136.36"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "42",
                     "balls": "31",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "England won by 31 runs"
+    "result": "England won by 31 runs",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Ben Stokes",
+            "Mark Wood",
+            "Jofra Archer"
+        ],
+        "India": [
+            "Rishabh Pant",
+            "Rohit Sharma",
+            "KL Rahul",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Yuzvendra Chahal",
+            "Kedar Jadhav",
+            "Virat Kohli(c)",
+            "Hardik Pandya",
+            "MS Dhoni (wk)",
+            "Mohammed Shami"
+        ]
+    }
 }

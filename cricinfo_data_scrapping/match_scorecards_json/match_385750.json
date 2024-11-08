@@ -49,7 +49,7 @@
                     "strike_rate": "111.76"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Umar Gul)",
                     "runs": "16",
                     "balls": "22",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "24",
                     "balls": "34",
                     "minutes": "59",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Thilan Thushara",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "8",
                     "balls": "7",
                     "minutes": "9",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq",
-                    "dismissal": "c Sangakkara b Thushara",
+                    "dismissal": "c (wk)Sangakkara b Thushara",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "4",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik(c)",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "54",
                     "balls": "52",
                     "minutes": "94",
@@ -276,8 +276,8 @@
                     "strike_rate": "103.84"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Sangakkara b Mendis",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Sangakkara b Mendis",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "17",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 129 runs"
+    "result": "Sri Lanka won by 129 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Nuwan Kulasekara",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Sohail Tanvir",
+            "Iftikhar Anjum",
+            "Khurram Manzoor",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Salman Butt",
+            "Misbah-ul-Haq",
+            "Shoaib Malik(c)",
+            "Shahid Afridi"
+        ]
+    }
 }

@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Litton Das",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "15",
                     "balls": "21",
                     "minutes": "37",
@@ -62,7 +62,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "lbw b Parnell",
                     "runs": "11",
                     "balls": "31",
@@ -263,7 +263,7 @@
                     "strike_rate": "65.00"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Afif Hossain b Shakib Al Hasan",
                     "runs": "62",
                     "balls": "41",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 76 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 76 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Taskin Ahmed",
+            "Afif Hossain",
+            "Tamim Iqbal(c)",
+            "Yasir Ali",
+            "Shakib Al Hasan",
+            "Mehidy Hasan Miraz",
+            "Mahmudullah",
+            "Shoriful Islam",
+            "Mustafizur Rahman",
+            "Mushfiqur Rahim (wk)",
+            "Litton Das"
+        ],
+        "South Africa": [
+            "Rassie van der Dussen",
+            "Kagiso Rabada",
+            "Janneman Malan",
+            "Temba Bavuma(c)",
+            "Lungi Ngidi",
+            "Tabraiz Shamsi",
+            "Quinton de Kock (wk)",
+            "David Miller",
+            "Keshav Maharaj",
+            "Wayne Parnell",
+            "Kyle Verreynne"
+        ]
+    }
 }

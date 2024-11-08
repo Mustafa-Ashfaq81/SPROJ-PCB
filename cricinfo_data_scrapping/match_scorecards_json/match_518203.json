@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Shabir Noori",
-                    "dismissal": "c Bhatti b Khurram Chohan",
+                    "dismissal": "c (wk)Bhatti b Khurram Chohan",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "1",
@@ -55,7 +55,7 @@
                     "strike_rate": "147.82"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Patel b Baidwan",
                     "runs": "8",
                     "balls": "10",
@@ -116,7 +116,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib",
-                    "dismissal": "c Bhatti b Khurram Chohan",
+                    "dismissal": "c (wk)Bhatti b Khurram Chohan",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -332,7 +332,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Rustam Bhatti",
+                    "batsman": "Rustam Bhatti (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "4",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 17 runs"
+    "result": "Afghanistan won by 17 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Karim Sadiq",
+            "Nawroz Mangal(c)",
+            "Dawlat Zadran",
+            "Hamid Hassan",
+            "Shabir Noori",
+            "Gulbadin Naib",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Mohammad Nabi",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)"
+        ],
+        "Canada": [
+            "Rizwan Cheema",
+            "Ruvindu Gunasekera",
+            "Tyson Gordon",
+            "Harvir Baidwan",
+            "Jimmy Hansra(c)",
+            "Usman Limbada",
+            "Rustam Bhatti (wk)",
+            "Khurram Chohan",
+            "Hiral Patel",
+            "Parth Desai",
+            "Zubin Surkari"
+        ]
+    }
 }

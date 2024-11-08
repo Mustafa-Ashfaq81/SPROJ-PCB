@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Read b Gough",
+                    "dismissal": "c (wk)Read b Gough",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "34",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Read b Gough",
+                    "dismissal": "c (wk)Read b Gough",
                     "runs": "0",
                     "balls": "12",
                     "minutes": "22",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Jacques Rudolph",
-                    "dismissal": "c Read b Flintoff",
+                    "dismissal": "c (wk)Read b Flintoff",
                     "runs": "19",
                     "balls": "40",
                     "minutes": "56",
@@ -84,8 +84,8 @@
                     "strike_rate": "47.50"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Read b Johnson",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Read b Johnson",
                     "runs": "11",
                     "balls": "31",
                     "minutes": "44",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "c Read b Flintoff",
+                    "dismissal": "c (wk)Read b Flintoff",
                     "runs": "18",
                     "balls": "22",
                     "minutes": "47",
@@ -277,7 +277,7 @@
                     "strike_rate": "46.15"
                 }
             ],
-            "did_not_bat": "Rikki Clarke , Chris Read , Ashley Giles , Darren Gough , James Anderson , Richard Johnson",
+            "did_not_bat": "Rikki Clarke , Chris Read (wk) , Ashley Giles , Darren Gough , James Anderson , Richard Johnson",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Marcus Trescothick , 1.4 ov ) , 2 - 88 ( Michael Vaughan , 15.1 ov ) , 3 - 89 ( Vikram Solanki , 16.4 ov )",
             "bowling": [
                 {
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 178 balls remaining)"
+    "result": "England won by 7 wickets (with 178 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Graeme Smith(c)",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Andrew Hall",
+            "Martin van Jaarsveld",
+            "Morne van Wyk"
+        ],
+        "England": [
+            "Rikki Clarke",
+            "Marcus Trescothick",
+            "Michael Vaughan(c)",
+            "Vikram Solanki",
+            "Andrew Flintoff",
+            "Anthony McGrath",
+            "Darren Gough",
+            "James Anderson",
+            "Richard Johnson",
+            "Chris Read (wk)",
+            "Ashley Giles"
+        ]
+    }
 }

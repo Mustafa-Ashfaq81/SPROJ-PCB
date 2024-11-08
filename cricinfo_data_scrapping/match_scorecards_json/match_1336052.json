@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Harry Brook",
-                    "dismissal": "c Latham b Ferguson",
+                    "dismissal": "c (wk)Latham b Ferguson",
                     "runs": "25",
                     "balls": "41",
                     "minutes": "69",
@@ -73,7 +73,7 @@
                     "strike_rate": "75.36"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Ferguson b Southee",
                     "runs": "72",
                     "balls": "68",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Buttler b Willey",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "26",
                     "balls": "30",
                     "minutes": "34",
@@ -250,7 +250,7 @@
                     "strike_rate": "129.67"
                 }
             ],
-            "did_not_bat": "Tom Latham (c) , Glenn Phillips , Rachin Ravindra , Kyle Jamieson , Matt Henry , Tim Southee , Lockie Ferguson",
+            "did_not_bat": "Tom Latham (c) (wk) , Glenn Phillips , Rachin Ravindra , Kyle Jamieson , Matt Henry , Tim Southee , Lockie Ferguson",
             "fall_of_wickets": "Fall of wickets : 1 - 61 ( Will Young , 10.1 ov ) , 2 - 117 ( Henry Nicholls , 20.3 ov ) DRS",
             "bowling": [
                 {
@@ -354,5 +354,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 8 wickets (with 26 balls remaining)"
+    "result": "New Zealand won by 8 wickets (with 26 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Chris Woakes",
+            "Gus Atkinson",
+            "David Willey",
+            "Harry Brook",
+            "Adil Rashid",
+            "Jos Buttler(c) (wk)",
+            "Ben Stokes",
+            "Dawid Malan",
+            "Reece Topley",
+            "Liam Livingstone",
+            "Joe Root"
+        ],
+        "New Zealand": [
+            "Matt Henry",
+            "Will Young",
+            "Tom Latham (c) (wk)",
+            "Glenn Phillips",
+            "Rachin Ravindra",
+            "Lockie Ferguson",
+            "Kyle Jamieson",
+            "Devon Conway",
+            "Tim Southee",
+            "Daryl Mitchell",
+            "Henry Nicholls"
+        ]
+    }
 }

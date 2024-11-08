@@ -53,7 +53,7 @@
                     "strike_rate": "82.60"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "lbw b Saqib Zulfiqar",
                     "runs": "43",
                     "balls": "52",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Maheesh Theekshana",
-                    "dismissal": "st Edwards b Dutt",
+                    "dismissal": "st (wk)Edwards b Dutt",
                     "runs": "13",
                     "balls": "30",
                     "minutes": "46",
@@ -290,8 +290,8 @@
                     "strike_rate": "116.66"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
-                    "dismissal": "run out (Nissanka/Mendis)",
+                    "batsman": "Scott Edwards(c) (wk)",
+                    "dismissal": "run out (Nissanka/ (wk)Mendis)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "11",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 128 runs"
+    "result": "Sri Lanka won by 128 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Mendis (wk)",
+            "Maheesh Theekshana",
+            "Matheesha Pathirana",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dilshan Madushanka",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Wanindu Hasaranga",
+            "Sadeera Samarawickrama",
+            "Sahan Arachchige"
+        ],
+        "Netherlands": [
+            "Aryan Dutt",
+            "Wesley Barresi",
+            "Ryan Klein",
+            "Clayton Floyd",
+            "Teja Nidamanuru",
+            "Scott Edwards(c) (wk)",
+            "Max O'Dowd",
+            "Noah Croes",
+            "Vikramjit Singh",
+            "Saqib Zulfiqar",
+            "Logan van Beek"
+        ]
+    }
 }

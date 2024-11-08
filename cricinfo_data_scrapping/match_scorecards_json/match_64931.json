@@ -30,8 +30,8 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c McCullum b Tuffey",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c McCullum b Cairns",
+                    "dismissal": "c (wk)McCullum b Cairns",
                     "runs": "23",
                     "balls": "13",
                     "minutes": "22",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "5",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "23",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Mathew Sinclair",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "15",
                     "balls": "27",
                     "minutes": "30",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Hamish Marshall",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "16",
                     "balls": "20",
                     "minutes": "27",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Gilchrist b Symonds",
+                    "dismissal": "c (wk)Gilchrist b Symonds",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "32",
@@ -267,7 +267,7 @@
                     "strike_rate": "137.50"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c & b Symonds",
                     "runs": "20",
                     "balls": "41",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Australia won by 106 runs"
+    "result": "Australia won by 106 runs",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ],
+        "New Zealand": [
+            "Chris Cairns",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Mathew Sinclair",
+            "Daryl Tuffey",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Jeff Wilson",
+            "Kyle Mills",
+            "Hamish Marshall"
+        ]
+    }
 }

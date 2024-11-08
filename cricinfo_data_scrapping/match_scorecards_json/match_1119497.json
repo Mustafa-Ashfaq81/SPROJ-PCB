@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "run out (Cartwright/Wade)",
+                    "dismissal": "run out (Cartwright/ (wk)Wade)",
                     "runs": "55",
                     "balls": "64",
                     "minutes": "110",
@@ -80,7 +80,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Smith b Richardson",
                     "runs": "5",
                     "balls": "10",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Kuldeep Yadav",
-                    "dismissal": "c Wade b Cummins",
+                    "dismissal": "c (wk)Wade b Cummins",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Yuzvendra Chahal",
-                    "dismissal": "run out (Wade)",
+                    "dismissal": "run out ( (wk)Wade)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "3",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "st Dhoni b Chahal",
+                    "dismissal": "st (wk)Dhoni b Chahal",
                     "runs": "14",
                     "balls": "18",
                     "minutes": "21",
@@ -297,7 +297,7 @@
                     "strike_rate": "95.38"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "b Kuldeep Yadav",
                     "runs": "2",
                     "balls": "8",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Pat Cummins",
-                    "dismissal": "c Dhoni b Kuldeep Yadav",
+                    "dismissal": "c (wk)Dhoni b Kuldeep Yadav",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "India won by 50 runs"
+    "result": "India won by 50 runs",
+    "playing_xi": {
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Manish Pandey",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ],
+        "Australia": [
+            "Hilton Cartwright",
+            "Pat Cummins",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Nathan Coulter-Nile",
+            "Matthew Wade (wk)",
+            "Marcus Stoinis",
+            "Steven Smith(c)",
+            "Ashton Agar",
+            "Kane Richardson",
+            "David Warner"
+        ]
+    }
 }

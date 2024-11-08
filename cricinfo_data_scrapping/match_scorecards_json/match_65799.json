@@ -42,8 +42,8 @@
                     "strike_rate": "95.83"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "batsman": "Romesh Kaluwitharana (wk)",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "7",
                     "balls": "20",
                     "minutes": "37",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "15",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "10",
@@ -259,7 +259,7 @@
                     "strike_rate": "124.13"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "23",
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 runs"
+    "result": "Sri Lanka won by 9 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Charitha Buddhika",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Romesh Kaluwitharana (wk)",
+            "Russel Arnold",
+            "Sanath Jayasuriya(c)",
+            "Upul Chandana",
+            "Kumar Sangakkara",
+            "Marvan Atapattu"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Saqlain Mushtaq",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Waqar Younis (c)",
+            "Inzamam-ul-Haq",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Shahid Afridi",
+            "Imran Nazir"
+        ]
+    }
 }

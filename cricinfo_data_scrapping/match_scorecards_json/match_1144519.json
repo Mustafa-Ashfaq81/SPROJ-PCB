@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Latham b Ferguson",
+                    "dismissal": "c (wk)Latham b Ferguson",
                     "runs": "16",
                     "balls": "23",
                     "minutes": "39",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "c Latham b Neesham",
+                    "dismissal": "c (wk)Latham b Neesham",
                     "runs": "21",
                     "balls": "26",
                     "minutes": "41",
@@ -91,7 +91,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Guptill b Williamson",
                     "runs": "71",
                     "balls": "72",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Carey b Behrendorff",
+                    "dismissal": "c (wk)Carey b Behrendorff",
                     "runs": "8",
                     "balls": "20",
                     "minutes": "43",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Carey b Starc",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "40",
                     "balls": "51",
                     "minutes": "69",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "30",
                     "balls": "54",
                     "minutes": "76",
@@ -292,7 +292,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Smith b Starc",
                     "runs": "14",
                     "balls": "28",
@@ -480,5 +480,33 @@
             ]
         }
     ],
-    "result": "Australia won by 86 runs"
+    "result": "Australia won by 86 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Jason Behrendorff",
+            "Aaron Finch(c)",
+            "Steven Smith",
+            "Pat Cummins",
+            "Marcus Stoinis",
+            "David Warner",
+            "Alex Carey (wk)",
+            "Usman Khawaja",
+            "Nathan Lyon",
+            "Glenn Maxwell"
+        ],
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "Lockie Ferguson",
+            "James Neesham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Colin de Grandhomme",
+            "Mitchell Santner",
+            "Ish Sodhi",
+            "Ross Taylor",
+            "Henry Nicholls"
+        ]
+    }
 }

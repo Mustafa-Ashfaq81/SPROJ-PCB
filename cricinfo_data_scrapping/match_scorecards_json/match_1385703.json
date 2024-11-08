@@ -70,7 +70,7 @@
                     "strike_rate": "150.00"
                 },
                 {
-                    "batsman": "Jamie Smith",
+                    "batsman": "Jamie Smith (wk)",
                     "dismissal": "c Hazlewood b Maxwell",
                     "runs": "39",
                     "balls": "28",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "c Smith b Potts",
+                    "dismissal": "c (wk)Smith b Potts",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "5",
@@ -241,7 +241,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Josh Inglis",
+                    "batsman": "Josh Inglis (wk)",
                     "dismissal": "c Jacks b Carse",
                     "runs": "8",
                     "balls": "15",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c Smith b Archer",
+                    "dismissal": "c (wk)Smith b Archer",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "4",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "England won by 186 runs"
+    "result": "England won by 186 runs",
+    "playing_xi": {
+        "England": [
+            "Liam Livingstone",
+            "Matthew Potts",
+            "Harry Brook(c)",
+            "Phil Salt",
+            "Brydon Carse",
+            "Jamie Smith (wk)",
+            "Jofra Archer",
+            "Will Jacks",
+            "Jacob Bethell",
+            "Ben Duckett",
+            "Adil Rashid"
+        ],
+        "Australia": [
+            "Glenn Maxwell",
+            "Travis Head",
+            "Adam Zampa",
+            "Josh Inglis (wk)",
+            "Mitchell Marsh(c)",
+            "Josh Hazlewood",
+            "Alex Carey",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Marnus Labuschagne",
+            "Sean Abbott"
+        ]
+    }
 }

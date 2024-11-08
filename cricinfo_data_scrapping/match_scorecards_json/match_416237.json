@@ -70,8 +70,8 @@
                     "strike_rate": "95.83"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Paine b Johnson",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Paine b Johnson",
                     "runs": "124",
                     "balls": "107",
                     "minutes": "141",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Paine b Johnson",
+                    "dismissal": "c (wk)Paine b Johnson",
                     "runs": "62",
                     "balls": "50",
                     "minutes": "68",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Praveen Kumar",
-                    "dismissal": "run out (Siddle/Paine)",
+                    "dismissal": "run out (Siddle/ (wk)Paine)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "1",
@@ -217,7 +217,7 @@
                     "strike_rate": "73.07"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "b Kumar",
                     "runs": "8",
                     "balls": "14",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "21",
                     "balls": "21",
                     "minutes": "25",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Peter Siddle",
-                    "dismissal": "c Dhoni b Sharma",
+                    "dismissal": "c (wk)Dhoni b Sharma",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "5",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Ben Hilfenhaus",
-                    "dismissal": "run out (Yuvraj Singh/Dhoni)",
+                    "dismissal": "run out (Yuvraj Singh/ (wk)Dhoni)",
                     "runs": "16",
                     "balls": "12",
                     "minutes": "17",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "India won by 99 runs"
+    "result": "India won by 99 runs",
+    "playing_xi": {
+        "India": [
+            "MS Dhoni(c) (wk)",
+            "Praveen Kumar",
+            "Ashish Nehra",
+            "Suresh Raina",
+            "Ishant Sharma",
+            "Ravindra Jadeja",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ],
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Adam Voges",
+            "Ben Hilfenhaus",
+            "Cameron White",
+            "Peter Siddle",
+            "Shaun Marsh",
+            "Tim Paine (wk)",
+            "Michael Hussey",
+            "Shane Watson",
+            "Nathan Hauritz",
+            "Mitchell Johnson"
+        ]
+    }
 }

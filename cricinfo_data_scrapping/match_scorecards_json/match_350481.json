@@ -30,7 +30,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Duminy b JA Morkel",
                     "runs": "62",
                     "balls": "64",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "David Hussey",
-                    "dismissal": "st Boucher b Duminy",
+                    "dismissal": "st (wk)Boucher b Duminy",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "7",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Haddin b Bracken",
+                    "dismissal": "c (wk)Haddin b Bracken",
                     "runs": "20",
                     "balls": "15",
                     "minutes": "32",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Haddin b Bracken",
+                    "dismissal": "c (wk)Haddin b Bracken",
                     "runs": "64",
                     "balls": "69",
                     "minutes": "103",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "8",
@@ -281,7 +281,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Hauritz b Hopes",
                     "runs": "9",
                     "balls": "10",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Dale Steyn",
-                    "dismissal": "run out (MEK Hussey/Haddin)",
+                    "dismissal": "run out (MEK Hussey/ (wk)Haddin)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "Australia won by 47 runs"
+    "result": "Australia won by 47 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Brad Haddin (wk)",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Nathan Hauritz",
+            "Ben Laughlin",
+            "David Hussey",
+            "Nathan Bracken"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Makhaya Ntini",
+            "Dale Steyn",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Herschelle Gibbs",
+            "Morne Morkel",
+            "Roelof van der Merwe",
+            "Graeme Smith(c)",
+            "AB de Villiers"
+        ]
+    }
 }

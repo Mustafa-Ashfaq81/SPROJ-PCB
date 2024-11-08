@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Vikram Solanki",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "13",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "4",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Anthony McGrath",
-                    "dismissal": "st Boucher b Boje",
+                    "dismissal": "st (wk)Boucher b Boje",
                     "runs": "52",
                     "balls": "98",
                     "minutes": "129",
@@ -92,7 +92,7 @@
                     "strike_rate": "22.72"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "not out",
                     "runs": "30",
                     "balls": "27",
@@ -283,7 +283,7 @@
                     "strike_rate": "70.29"
                 }
             ],
-            "did_not_bat": "Martin van Jaarsveld , Shaun Pollock , Nicky Boje , Mark Boucher , Charl Langeveldt , Makhaya Ntini",
+            "did_not_bat": "Martin van Jaarsveld , Shaun Pollock , Nicky Boje , Mark Boucher (wk) , Charl Langeveldt , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 24 ( Herschelle Gibbs , 5.3 ov ) , 2 - 37 ( Graeme Smith , 8.1 ov ) , 3 - 82 ( Andrew Hall , 17.6 ov )",
             "bowling": [
                 {
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 15 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Marcus Trescothick",
+            "Michael Vaughan(c)",
+            "Vikram Solanki",
+            "Andrew Flintoff",
+            "Anthony McGrath",
+            "Darren Gough",
+            "James Anderson",
+            "Richard Johnson",
+            "Chris Read (wk)",
+            "Jim Troughton",
+            "Ashley Giles"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Jacques Rudolph",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Andrew Hall",
+            "Martin van Jaarsveld"
+        ]
+    }
 }

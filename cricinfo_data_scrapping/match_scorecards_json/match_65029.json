@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c Rashid Latif b Mohammad Sami",
+                    "dismissal": "c (wk)Rashid Latif b Mohammad Sami",
                     "runs": "18",
                     "balls": "25",
                     "minutes": "29",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "c Rashid Latif b Umar Gul",
+                    "dismissal": "c (wk)Rashid Latif b Umar Gul",
                     "runs": "27",
                     "balls": "34",
                     "minutes": "49",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Jim Troughton",
-                    "dismissal": "c Rashid Latif b Umar Gul",
+                    "dismissal": "c (wk)Rashid Latif b Umar Gul",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "19",
@@ -105,7 +105,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "c Imran Nazir b Shoaib Malik",
                     "runs": "5",
                     "balls": "17",
@@ -312,7 +312,7 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Rashid Latif(c)",
+                    "batsman": "Rashid Latif(c) (wk)",
                     "dismissal": "lbw b Anderson",
                     "runs": "1",
                     "balls": "2",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 2 wickets (with 4 balls remaining)"
+    "result": "Pakistan won by 2 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Michael Vaughan(c)",
+            "Rikki Clarke",
+            "Darren Gough",
+            "Chris Read (wk)",
+            "Marcus Trescothick",
+            "Jim Troughton",
+            "Anthony McGrath",
+            "Andrew Flintoff",
+            "Ashley Giles",
+            "Vikram Solanki"
+        ],
+        "Pakistan": [
+            "Imran Nazir",
+            "Umar Gul",
+            "Azhar Mahmood",
+            "Yasir Hameed",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Rashid Latif(c) (wk)",
+            "Mohammad Sami"
+        ]
+    }
 }

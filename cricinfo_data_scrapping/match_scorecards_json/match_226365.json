@@ -33,7 +33,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Cairns b Mills",
                     "runs": "8",
                     "balls": "9",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "28",
                     "balls": "32",
                     "minutes": "29",
@@ -215,7 +215,7 @@
             "batting": [
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Gilchrist b Lewis",
+                    "dismissal": "c (wk)Gilchrist b Lewis",
                     "runs": "71",
                     "balls": "49",
                     "minutes": "67",
@@ -284,7 +284,7 @@
                     "strike_rate": "102.50"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "run out (Clarke)",
                     "runs": "48",
                     "balls": "33",
@@ -295,7 +295,7 @@
                 },
                 {
                     "batsman": "James Marshall",
-                    "dismissal": "run out (Hussey/Gilchrist)",
+                    "dismissal": "run out (Hussey/ (wk)Gilchrist)",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "15",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 runs"
+    "result": "Australia won by 2 runs",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Bracken",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Andrew Symonds",
+            "Brad Hodge",
+            "Brett Lee",
+            "Stuart Clark",
+            "Simon Katich",
+            "Ricky Ponting(c)",
+            "Brad Hogg"
+        ],
+        "New Zealand": [
+            "Lou Vincent",
+            "Jacob Oram",
+            "Daniel Vettori(c)",
+            "Chris Cairns",
+            "Nathan Astle",
+            "James Marshall",
+            "Brendon McCullum (wk)",
+            "Kyle Mills",
+            "Craig McMillan",
+            "Scott Styris",
+            "Hamish Marshall"
+        ]
+    }
 }

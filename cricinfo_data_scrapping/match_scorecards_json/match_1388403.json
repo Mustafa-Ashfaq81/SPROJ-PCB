@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Dimuth Karunaratne",
-                    "dismissal": "c Mushfiqur Rahim b Hasan Mahmud",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Hasan Mahmud",
                     "runs": "18",
                     "balls": "17",
                     "minutes": "27",
@@ -51,7 +51,7 @@
                     "strike_rate": "105.88"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c Taskin Ahmed b Shoriful Islam",
                     "runs": "50",
                     "balls": "73",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "c Mushfiqur Rahim b Hasan Mahmud",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Hasan Mahmud",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "19",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Maheesh Theekshana",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "3",
@@ -229,7 +229,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Naim",
-                    "dismissal": "c Mendis b Shanaka",
+                    "dismissal": "c (wk)Mendis b Shanaka",
                     "runs": "21",
                     "balls": "46",
                     "minutes": "64",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Litton Das",
-                    "dismissal": "c Mendis b Wellalage",
+                    "dismissal": "c (wk)Mendis b Wellalage",
                     "runs": "15",
                     "balls": "24",
                     "minutes": "38",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "c Mendis b Pathirana",
+                    "dismissal": "c (wk)Mendis b Pathirana",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "10",
@@ -268,7 +268,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Rajitha b Shanaka",
                     "runs": "29",
                     "balls": "48",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 21 runs"
+    "result": "Sri Lanka won by 21 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Mendis (wk)",
+            "Maheesh Theekshana",
+            "Matheesha Pathirana",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Kasun Rajitha",
+            "Sadeera Samarawickrama",
+            "Dimuth Karunaratne"
+        ],
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shoriful Islam",
+            "Hasan Mahmud",
+            "Towhid Hridoy",
+            "Mohammad Naim",
+            "Shakib Al Hasan(c)",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed",
+            "Nasum Ahmed",
+            "Shamim Hossain"
+        ]
+    }
 }

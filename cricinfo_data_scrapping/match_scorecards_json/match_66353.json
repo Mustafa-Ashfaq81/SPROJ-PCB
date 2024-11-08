@@ -94,8 +94,8 @@
                     "strike_rate": "57.37"
                 },
                 {
-                    "batsman": "Khaled Mashud",
-                    "dismissal": "c Patel b Mishra",
+                    "batsman": "Khaled Mashud (wk)",
+                    "dismissal": "c (wk)Patel b Mishra",
                     "runs": "12",
                     "balls": "14",
                     "minutes": "15",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Tapash Baisya",
-                    "dismissal": "run out (Mishra/Patel/Bangar)",
+                    "dismissal": "run out (Mishra/ (wk)Patel/Bangar)",
                     "runs": "15",
                     "balls": "13",
                     "minutes": "16",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Khaled Mashud b Alok Kapali",
+                    "dismissal": "c (wk)Khaled Mashud b Alok Kapali",
                     "runs": "71",
                     "balls": "89",
                     "minutes": "145",
@@ -261,7 +261,7 @@
                     "strike_rate": "79.77"
                 },
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "lbw b Alok Kapali",
                     "runs": "27",
                     "balls": "51",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 43 balls remaining)"
+    "result": "India won by 4 wickets (with 43 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Habibul Bashar",
+            "Khaled Mahmud(c)",
+            "Khaled Mashud (wk)",
+            "Tapash Baisya",
+            "Alok Kapali",
+            "Mohammad Ashraful",
+            "Javed Omer",
+            "Akram Khan",
+            "Tareq Aziz",
+            "Mehrab Hossain",
+            "Mohammad Rafique"
+        ],
+        "India": [
+            "Parthiv Patel (wk)",
+            "Dinesh Mongia",
+            "Mohammad Kaif",
+            "Abhijit Kale",
+            "Gautam Gambhir",
+            "Ajit Agarkar",
+            "Sarandeep Singh",
+            "Sanjay Bangar",
+            "Virender Sehwag(c)",
+            "Amit Mishra",
+            "Aavishkar Salvi"
+        ]
+    }
 }

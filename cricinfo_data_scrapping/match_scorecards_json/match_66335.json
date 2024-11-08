@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "run out (Sarwan/Jacobs)",
+                    "dismissal": "run out (Sarwan/ (wk)Jacobs)",
                     "runs": "63",
                     "balls": "65",
                     "minutes": "101",
@@ -81,7 +81,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Samuels b Brown",
                     "runs": "23",
                     "balls": "49",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Sangakkara b Jayasuriya",
+                    "dismissal": "c (wk)Sangakkara b Jayasuriya",
                     "runs": "5",
                     "balls": "17",
                     "minutes": "20",
@@ -288,8 +288,8 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
-                    "dismissal": "st Sangakkara b Dharmasena",
+                    "batsman": "Ridley Jacobs (wk)",
+                    "dismissal": "st (wk)Sangakkara b Dharmasena",
                     "runs": "21",
                     "balls": "18",
                     "minutes": "29",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 34 runs (D/L method)"
+    "result": "Sri Lanka won by 34 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Avishka Gunawardene",
+            "Kumar Sangakkara (wk)",
+            "Chaminda Vaas",
+            "Kumar Dharmasena",
+            "Nuwan Zoysa",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Daren Ganga",
+            "Pedro Collins",
+            "Marlon Samuels",
+            "Carl Hooper(c)",
+            "Darrel Brown",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Ryan Hinds",
+            "Ricardo Powell",
+            "Corey Collymore"
+        ]
+    }
 }

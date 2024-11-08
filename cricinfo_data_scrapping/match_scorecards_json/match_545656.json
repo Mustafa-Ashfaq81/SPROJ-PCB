@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Karim Sadiq",
-                    "dismissal": "c Umar Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Umar Akmal b Shahid Afridi",
                     "runs": "40",
                     "balls": "47",
                     "minutes": "67",
@@ -53,7 +53,7 @@
                     "strike_rate": "112.50"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Asad Shafiq b Shahid Afridi",
                     "runs": "20",
                     "balls": "17",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Amir Hamza",
-                    "dismissal": "c Umar Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Umar Akmal b Wahab Riaz",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "8",
@@ -290,7 +290,7 @@
                     "strike_rate": "72.72"
                 }
             ],
-            "did_not_bat": "Shahid Afridi , Umar Akmal , Shoaib Malik , Saeed Ajmal , Umar Gul , Wahab Riaz",
+            "did_not_bat": "Shahid Afridi , Umar Akmal (wk) , Shoaib Malik , Saeed Ajmal , Umar Gul , Wahab Riaz",
             "fall_of_wickets": "Fall of wickets : 1 - 9 ( Mohammad Hafeez , 3.6 ov ) , 2 - 42 ( Asad Shafiq , 9.5 ov ) , 3 - 99 ( Imran Farhat , 21.4 ov )",
             "bowling": [
                 {
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 77 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 77 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Nawroz Mangal(c)",
+            "Amir Hamza",
+            "Gulbadin Naib",
+            "Karim Sadiq",
+            "Mohammad Shahzad (wk)",
+            "Mirwais Ashraf",
+            "Samiullah Shinwari",
+            "Shapoor Zadran"
+        ],
+        "Pakistan": [
+            "Umar Gul",
+            "Asad Shafiq",
+            "Wahab Riaz",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Misbah-ul-Haq(c)",
+            "Umar Akmal (wk)",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Imran Farhat"
+        ]
+    }
 }

@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Taylor b Higgins",
+                    "dismissal": "c (wk)Taylor b Higgins",
                     "runs": "54",
                     "balls": "62",
                     "minutes": "-",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Taylor b Higgins",
+                    "dismissal": "c (wk)Taylor b Higgins",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "-",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "run out (Chigumbura/Taylor)",
+                    "dismissal": "run out (Chigumbura/ (wk)Taylor)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "-",
@@ -99,7 +99,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "not out",
                     "runs": "25",
                     "balls": "15",
@@ -221,7 +221,7 @@
             "batting": [
                 {
                     "batsman": "Terry Duffin(c)",
-                    "dismissal": "c Baugh b Samuels",
+                    "dismissal": "c (wk)Baugh b Samuels",
                     "runs": "14",
                     "balls": "26",
                     "minutes": "-",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Piet Rinke",
-                    "dismissal": "run out (Lara/Baugh)",
+                    "dismissal": "run out (Lara/ (wk)Baugh)",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "-",
@@ -250,7 +250,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "not out",
                     "runs": "20",
                     "balls": "21",
@@ -322,5 +322,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Marlon Samuels",
+            "Carlton Baugh (wk)",
+            "Dwayne Smith",
+            "Dave Mohammed",
+            "Runako Morton",
+            "Brian Lara(c)",
+            "Ramnaresh Sarwan",
+            "Shivnarine Chanderpaul",
+            "Corey Collymore"
+        ],
+        "Zimbabwe": [
+            "Ryan Higgins",
+            "Gregory Strydom",
+            "Tawanda Mupariwa",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Keegan Meth",
+            "Prosper Utseya",
+            "Piet Rinke",
+            "Anthony Ireland",
+            "Terry Duffin(c)",
+            "Vusi Sibanda"
+        ]
+    }
 }

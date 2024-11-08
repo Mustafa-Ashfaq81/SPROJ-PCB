@@ -31,7 +31,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Shoaib Malik b Abdul Razzaq",
                     "runs": "40",
                     "balls": "30",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Simon Katich",
-                    "dismissal": "run out (Shoaib Malik/Kamran Akmal)",
+                    "dismissal": "run out (Shoaib Malik/ (wk)Kamran Akmal)",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "9",
@@ -252,8 +252,8 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "12",
                     "balls": "19",
                     "minutes": "23",
@@ -313,7 +313,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "43",
                     "balls": "58",
                     "minutes": "90",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "run out (Lee/Gilchrist)",
+                    "dismissal": "run out (Lee/ (wk)Gilchrist)",
                     "runs": "31",
                     "balls": "21",
                     "minutes": "23",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "Australia won by 31 runs"
+    "result": "Australia won by 31 runs",
+    "playing_xi": {
+        "Australia": [
+            "Michael Clarke",
+            "Brett Lee",
+            "Shane Watson",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Damien Martyn",
+            "Brad Hogg",
+            "Glenn McGrath",
+            "Jason Gillespie",
+            "Darren Lehmann",
+            "Simon Katich"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Inzamam-ul-Haq(c)",
+            "Iftikhar Anjum",
+            "Abdul Razzaq",
+            "Azhar Mahmood",
+            "Shoaib Malik",
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Taufeeq Umar",
+            "Shahid Afridi"
+        ]
+    }
 }

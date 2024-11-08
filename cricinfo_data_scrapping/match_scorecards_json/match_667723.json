@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "11",
                     "balls": "22",
                     "minutes": "29",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "st Buttler b Tredwell",
+                    "dismissal": "st (wk)Buttler b Tredwell",
                     "runs": "41",
                     "balls": "47",
                     "minutes": "70",
@@ -83,7 +83,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Woakes",
                     "runs": "52",
                     "balls": "51",
@@ -260,7 +260,7 @@
                     "strike_rate": "62.22"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Kohli b Jadeja",
                     "runs": "2",
                     "balls": "9",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "20",
                     "balls": "23",
                     "minutes": "25",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "India won by 133 runs (D/L method)"
+    "result": "India won by 133 runs (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Bhuvneshwar Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Mohit Sharma",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ],
+        "England": [
+            "Jos Buttler (wk)",
+            "Chris Woakes",
+            "Alex Hales",
+            "Ben Stokes",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "James Anderson",
+            "Eoin Morgan",
+            "Joe Root",
+            "James Tredwell",
+            "Chris Jordan"
+        ]
+    }
 }

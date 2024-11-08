@@ -42,7 +42,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Avesh Khan b Washington Sundar",
                     "runs": "6",
                     "balls": "10",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "c Samson b Shahbaz Ahmed",
+                    "dismissal": "c (wk)Samson b Shahbaz Ahmed",
                     "runs": "9",
                     "balls": "19",
                     "minutes": "38",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Shikhar Dhawan(c)",
-                    "dismissal": "run out (Jansen/de Kock)",
+                    "dismissal": "run out (Jansen/ (wk)de Kock)",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "29",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Ishan Kishan",
-                    "dismissal": "c de Kock b Fortuin",
+                    "dismissal": "c (wk)de Kock b Fortuin",
                     "runs": "10",
                     "balls": "18",
                     "minutes": "18",
@@ -279,7 +279,7 @@
                     "strike_rate": "121.73"
                 },
                 {
-                    "batsman": "Sanju Samson",
+                    "batsman": "Sanju Samson (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "4",
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 185 balls remaining)"
+    "result": "India won by 7 wickets (with 185 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Reeza Hendricks",
+            "David Miller(c)",
+            "Andile Phehlukwayo",
+            "Quinton de Kock (wk)",
+            "Heinrich Klaasen",
+            "Aiden Markram",
+            "Lungi Ngidi",
+            "Bjorn Fortuin",
+            "Anrich Nortje",
+            "Marco Jansen",
+            "Janneman Malan"
+        ],
+        "India": [
+            "Ishan Kishan",
+            "Avesh Khan",
+            "Shubman Gill",
+            "Sanju Samson (wk)",
+            "Kuldeep Yadav",
+            "Washington Sundar",
+            "Shreyas Iyer",
+            "Shahbaz Ahmed",
+            "Shikhar Dhawan(c)",
+            "Shardul Thakur",
+            "Mohammed Siraj"
+        ]
+    }
 }

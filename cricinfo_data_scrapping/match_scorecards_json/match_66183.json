@@ -32,7 +32,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Sinclair b Tuffey",
                     "runs": "44",
                     "balls": "30",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Mathew Sinclair",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "18",
                     "balls": "33",
                     "minutes": "42",
@@ -249,7 +249,7 @@
                     "strike_rate": "54.54"
                 },
                 {
-                    "batsman": "Lou Vincent",
+                    "batsman": "Lou Vincent (wk)",
                     "dismissal": "c Martyn b McGrath",
                     "runs": "0",
                     "balls": "1",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "16",
                     "balls": "14",
                     "minutes": "25",
@@ -320,7 +320,7 @@
                 },
                 {
                     "batsman": "Shane Bond",
-                    "dismissal": "st Gilchrist b Warne",
+                    "dismissal": "st (wk)Gilchrist b Warne",
                     "runs": "26",
                     "balls": "22",
                     "minutes": "33",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Australia won by 164 runs"
+    "result": "Australia won by 164 runs",
+    "playing_xi": {
+        "Australia": [
+            "Brett Lee",
+            "Michael Bevan",
+            "Shane Watson",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Damien Martyn",
+            "Shane Warne",
+            "Glenn McGrath",
+            "Jason Gillespie",
+            "Darren Lehmann",
+            "Matthew Hayden"
+        ],
+        "New Zealand": [
+            "Nathan Astle",
+            "Kyle Mills",
+            "Chris Harris",
+            "Jacob Oram",
+            "Daniel Vettori",
+            "Lou Vincent (wk)",
+            "Mathew Sinclair",
+            "Stephen Fleming(c)",
+            "Scott Styris",
+            "Daryl Tuffey",
+            "Shane Bond"
+        ]
+    }
 }

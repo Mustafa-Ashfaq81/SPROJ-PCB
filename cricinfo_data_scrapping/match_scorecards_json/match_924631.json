@@ -39,7 +39,7 @@
                     "strike_rate": "51.85"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Williams",
                     "runs": "30",
                     "balls": "30",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan(c)",
-                    "dismissal": "c Mutumbami b Jongwe",
+                    "dismissal": "c (wk)Mutumbami b Jongwe",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Rashid Khan",
-                    "dismissal": "c Mutumbami b Williams",
+                    "dismissal": "c (wk)Mutumbami b Williams",
                     "runs": "15",
                     "balls": "27",
                     "minutes": "21",
@@ -240,7 +240,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "c Rashid Khan b Amir Hamza",
                     "runs": "74",
                     "balls": "92",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 6 wickets (with 2 balls remaining)"
+    "result": "Zimbabwe won by 6 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Rashid Khan",
+            "Aftab Alam",
+            "Amir Hamza",
+            "Samiullah Shinwari",
+            "Mohammad Nabi",
+            "Mohammad Shahzad (wk)",
+            "Asghar Afghan(c)",
+            "Shafiqullah",
+            "Nawroz Mangal"
+        ],
+        "Zimbabwe": [
+            "Tinotenda Mutombodzi",
+            "Chamu Chibhabha",
+            "Wellington Masakadza",
+            "Tendai Chisoro",
+            "Tinashe Panyangara",
+            "Craig Ervine",
+            "Richmond Mutumbami (wk)",
+            "Sean Williams",
+            "Elton Chigumbura(c)",
+            "Sikandar Raza",
+            "Luke Jongwe"
+        ]
+    }
 }

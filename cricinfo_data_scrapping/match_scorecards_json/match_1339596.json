@@ -72,7 +72,7 @@
                     "strike_rate": "106.66"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "not out",
                     "runs": "94",
                     "balls": "81",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c Klaasen b Jansen",
+                    "dismissal": "c (wk)Klaasen b Jansen",
                     "runs": "14",
                     "balls": "16",
                     "minutes": "12",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Sam Curran",
-                    "dismissal": "c Klaasen b Nortje",
+                    "dismissal": "c (wk)Klaasen b Nortje",
                     "runs": "28",
                     "balls": "17",
                     "minutes": "30",
@@ -219,7 +219,7 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Duckett b Stone",
                     "runs": "31",
                     "balls": "28",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Heinrich Klaasen",
-                    "dismissal": "c Buttler b Stone",
+                    "dismissal": "c (wk)Buttler b Stone",
                     "runs": "27",
                     "balls": "19",
                     "minutes": "31",
@@ -379,5 +379,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 5 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Moeen Ali",
+            "Chris Woakes",
+            "Harry Brook",
+            "Adil Rashid",
+            "Sam Curran",
+            "Jos Buttler(c) (wk)",
+            "Jason Roy",
+            "Dawid Malan",
+            "Reece Topley",
+            "Ben Duckett",
+            "Olly Stone"
+        ],
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Wayne Parnell",
+            "Keshav Maharaj",
+            "David Miller",
+            "Heinrich Klaasen",
+            "Aiden Markram",
+            "Lungi Ngidi",
+            "Temba Bavuma(c)",
+            "Anrich Nortje",
+            "Marco Jansen",
+            "Rassie van der Dussen"
+        ]
+    }
 }

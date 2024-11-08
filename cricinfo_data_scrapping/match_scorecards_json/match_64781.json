@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "16",
                     "balls": "39",
                     "minutes": "41",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "62",
                     "balls": "64",
                     "minutes": "91",
@@ -84,7 +84,7 @@
                     "strike_rate": "96.87"
                 },
                 {
-                    "batsman": "Tillakaratne Dilshan",
+                    "batsman": "Tillakaratne Dilshan (wk)",
                     "dismissal": "c Mohammad Rafique b Mohammad Ashraful",
                     "runs": "50",
                     "balls": "63",
@@ -236,7 +236,7 @@
                 },
                 {
                     "batsman": "Al Sahariar",
-                    "dismissal": "c Dilshan b Lakshitha",
+                    "dismissal": "c (wk)Dilshan b Lakshitha",
                     "runs": "20",
                     "balls": "13",
                     "minutes": "17",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar",
-                    "dismissal": "c Dilshan b Muralidaran",
+                    "dismissal": "c (wk)Dilshan b Muralidaran",
                     "runs": "52",
                     "balls": "98",
                     "minutes": "127",
@@ -275,8 +275,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
-                    "dismissal": "run out (Arnold/Dilshan)",
+                    "batsman": "Khaled Mashud(c) (wk)",
+                    "dismissal": "run out (Arnold/ (wk)Dilshan)",
                     "runs": "37",
                     "balls": "71",
                     "minutes": "74",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 58 runs"
+    "result": "Sri Lanka won by 58 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Upul Chandana",
+            "Pulasthi Gunaratne",
+            "Chamila Gamage",
+            "Tillakaratne Dilshan (wk)",
+            "Marvan Atapattu(c)",
+            "Aravinda de Silva",
+            "Muthiah Muralidaran",
+            "Kumar Sangakkara",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Hasantha Fernando"
+        ],
+        "Bangladesh": [
+            "Mohammad Rafique",
+            "Mohammad Ashraful",
+            "Alok Kapali",
+            "Khaled Mashud(c) (wk)",
+            "Al Sahariar",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Manjurul Islam",
+            "Khaled Mahmud",
+            "Tushar Imran",
+            "Hannan Sarkar"
+        ]
+    }
 }

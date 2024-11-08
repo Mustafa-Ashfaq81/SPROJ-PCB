@@ -48,7 +48,7 @@
                 },
                 {
                     "batsman": "Mark Richardson",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "20",
@@ -68,7 +68,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "17",
                     "balls": "28",
                     "minutes": "42",
@@ -107,7 +107,7 @@
                     "strike_rate": "68.47"
                 },
                 {
-                    "batsman": "Adam Parore",
+                    "batsman": "Adam Parore (wk)",
                     "dismissal": "run out (Martyn/Lee)",
                     "runs": "3",
                     "balls": "5",
@@ -118,7 +118,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "run out (Warne/Gilchrist)",
+                    "dismissal": "run out (Warne/ (wk)Gilchrist)",
                     "runs": "30",
                     "balls": "50",
                     "minutes": "66",
@@ -220,7 +220,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c & b Cairns",
                     "runs": "23",
                     "balls": "18",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Mark Waugh",
-                    "dismissal": "c Parore b Bond",
+                    "dismissal": "c (wk)Parore b Bond",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "3",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Steve Waugh(c)",
-                    "dismissal": "run out (Vincent/Parore)",
+                    "dismissal": "run out (Vincent/ (wk)Parore)",
                     "runs": "15",
                     "balls": "28",
                     "minutes": "49",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Glenn McGrath",
-                    "dismissal": "c Parore b Vettori",
+                    "dismissal": "c (wk)Parore b Vettori",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "11",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 23 runs"
+    "result": "New Zealand won by 23 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Scott Styris",
+            "Lou Vincent",
+            "James Franklin",
+            "Mark Richardson",
+            "Adam Parore (wk)",
+            "Stephen Fleming(c)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Craig McMillan",
+            "Chris Cairns",
+            "Shane Bond"
+        ],
+        "Australia": [
+            "Glenn McGrath",
+            "Steve Waugh(c)",
+            "Shane Warne",
+            "Brett Lee",
+            "Brad Williams",
+            "Adam Gilchrist (wk)",
+            "Ian Harvey",
+            "Ricky Ponting",
+            "Michael Bevan",
+            "Damien Martyn",
+            "Mark Waugh"
+        ]
+    }
 }

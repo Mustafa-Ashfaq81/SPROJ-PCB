@@ -35,8 +35,8 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "87",
                     "balls": "108",
                     "minutes": "172",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Jason Holder(c)",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "62",
                     "balls": "76",
                     "minutes": "85",
@@ -272,7 +272,7 @@
                     "strike_rate": "82.85"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Bravo b Roach",
                     "runs": "63",
                     "balls": "73",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 5 wickets (with 16 balls remaining)"
+    "result": "Bangladesh won by 5 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kemar Roach",
+            "Jonathan Carter",
+            "Darren Bravo",
+            "Fabian Allen",
+            "Sunil Ambris",
+            "Roston Chase",
+            "Raymon Reifer",
+            "Sheldon Cottrell",
+            "Jason Holder(c)",
+            "Ashley Nurse",
+            "Shai Hope (wk)"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Soumya Sarkar",
+            "Mashrafe Mortaza (c)",
+            "Mustafizur Rahman",
+            "Sabbir Rahman",
+            "Tamim Iqbal",
+            "Mehidy Hasan Miraz",
+            "Abu Jayed",
+            "Shakib Al Hasan",
+            "Mohammad Mithun",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

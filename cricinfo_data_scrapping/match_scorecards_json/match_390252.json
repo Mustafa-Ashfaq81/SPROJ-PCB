@@ -42,7 +42,7 @@
                     "strike_rate": "64.00"
                 },
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "c Zuiderent b Schiferli",
                     "runs": "0",
                     "balls": "4",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Alex Obanda",
-                    "dismissal": "c Smits b Schiferli",
+                    "dismissal": "c (wk)Smits b Schiferli",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "8",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Jimmy Kamande",
-                    "dismissal": "c Smits b Nijman",
+                    "dismissal": "c (wk)Smits b Nijman",
                     "runs": "27",
                     "balls": "53",
                     "minutes": "77",
@@ -133,7 +133,7 @@
                 },
                 {
                     "batsman": "Elijah Otieno",
-                    "dismissal": "c Smits b Nijman",
+                    "dismissal": "c (wk)Smits b Nijman",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "5",
@@ -254,7 +254,7 @@
             "batting": [
                 {
                     "batsman": "Alexei Kervezee",
-                    "dismissal": "c Ouma b E Otieno",
+                    "dismissal": "c (wk)Ouma b E Otieno",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "6",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Mudassar Bukhari",
-                    "dismissal": "c Ouma b Ongondo",
+                    "dismissal": "c (wk)Ouma b Ongondo",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "13",
@@ -313,7 +313,7 @@
                     "strike_rate": "77.77"
                 }
             ],
-            "did_not_bat": "Jeroen Smits (c) , Edgar Schiferli , Maurits Jonkman , Ruud Nijman , Mohammad Kashif",
+            "did_not_bat": "Jeroen Smits (c) (wk) , Edgar Schiferli , Maurits Jonkman , Ruud Nijman , Mohammad Kashif",
             "fall_of_wickets": "Fall of wickets : 1 - 6 ( Alexei Kervezee , 1.2 ov ) , 2 - 10 ( Mudassar Bukhari , 2.4 ov ) , 3 - 129 ( Daan van Bunge , 23.5 ov ) , 4 - 142 ( Peter Borren , 24.5 ov )",
             "bowling": [
                 {
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 6 wickets (with 107 balls remaining)"
+    "result": "Netherlands won by 6 wickets (with 107 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Peter Ongondo",
+            "Morris Ouma (wk)",
+            "Alex Obanda",
+            "Steve Tikolo(c)",
+            "Rajesh Bhudia",
+            "Jimmy Kamande",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Elijah Otieno",
+            "Kennedy Otieno",
+            "Seren Waters"
+        ],
+        "Netherlands": [
+            "Bas Zuiderent",
+            "Tom de Grooth",
+            "Ruud Nijman",
+            "Mohammad Kashif",
+            "Edgar Schiferli",
+            "Maurits Jonkman",
+            "Mudassar Bukhari",
+            "Alexei Kervezee",
+            "Peter Borren",
+            "Jeroen Smits (c) (wk)",
+            "Daan van Bunge"
+        ]
+    }
 }

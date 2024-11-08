@@ -30,7 +30,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Joylord Gumbie",
+                    "batsman": "Joylord Gumbie (wk)",
                     "dismissal": "b Theekshana",
                     "runs": "30",
                     "balls": "37",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tinashe Kamunhukamwe",
-                    "dismissal": "c Mendis b Madushanka",
+                    "dismissal": "c (wk)Mendis b Madushanka",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Blessing Muzarabani",
-                    "dismissal": "run out (Vandersay/Mendis)",
+                    "dismissal": "run out (Vandersay/ (wk)Mendis)",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -266,7 +266,7 @@
             "batting": [
                 {
                     "batsman": "Avishka Fernando",
-                    "dismissal": "c Gumbie b Ngarava",
+                    "dismissal": "c (wk)Gumbie b Ngarava",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "3",
@@ -275,7 +275,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
+                    "batsman": "Kusal Mendis(c) (wk)",
                     "dismissal": "c Burl b Ngarava",
                     "runs": "17",
                     "balls": "28",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "c Gumbie b Ngarava",
+                    "dismissal": "c (wk)Gumbie b Ngarava",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "9",
@@ -326,7 +326,7 @@
                 },
                 {
                     "batsman": "Dasun Shanaka",
-                    "dismissal": "c Gumbie b Sikandar Raza",
+                    "dismissal": "c (wk)Gumbie b Sikandar Raza",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "16",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 wickets (with 6 balls remaining)"
+    "result": "Sri Lanka won by 2 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Ryan Burl",
+            "Richard Ngarava",
+            "Milton Shumba",
+            "Tinashe Kamunhukamwe",
+            "Clive Madande",
+            "Sikandar Raza",
+            "Craig Ervine(c)",
+            "Blessing Muzarabani",
+            "Faraz Akram",
+            "Joylord Gumbie (wk)",
+            "Tapiwa Mufudza"
+        ],
+        "Sri Lanka": [
+            "Charith Asalanka",
+            "Sadeera Samarawickrama",
+            "Dilshan Madushanka",
+            "Avishka Fernando",
+            "Sahan Arachchige",
+            "Dasun Shanaka",
+            "Janith Liyanage",
+            "Kusal Mendis(c) (wk)",
+            "Maheesh Theekshana",
+            "Dushmantha Chameera",
+            "Jeffrey Vandersay"
+        ]
+    }
 }

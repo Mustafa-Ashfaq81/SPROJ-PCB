@@ -55,7 +55,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "b Oram",
                     "runs": "5",
                     "balls": "11",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Hopkins b Franklin",
+                    "dismissal": "c (wk)Hopkins b Franklin",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "10",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Anthony McGrath",
-                    "dismissal": "c Hopkins b Oram",
+                    "dismissal": "c (wk)Hopkins b Oram",
                     "runs": "12",
                     "balls": "38",
                     "minutes": "53",
@@ -106,7 +106,7 @@
                 },
                 {
                     "batsman": "Ashley Giles",
-                    "dismissal": "c Hopkins b Franklin",
+                    "dismissal": "c (wk)Hopkins b Franklin",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -278,7 +278,7 @@
                     "strike_rate": "125.00"
                 }
             ],
-            "did_not_bat": "Jacob Oram , Chris Cairns , Gareth Hopkins , Daniel Vettori , James Franklin , Chris Harris",
+            "did_not_bat": "Jacob Oram , Chris Cairns , Gareth Hopkins (wk) , Daniel Vettori , James Franklin , Chris Harris",
             "fall_of_wickets": "Fall of wickets : 1 - 48 ( Stephen Fleming , 9.1 ov ) , 2 - 57 ( Nathan Astle , 9.5 ov ) , 3 - 66 ( Hamish Marshall , 11.2 ov )",
             "bowling": [
                 {
@@ -326,5 +326,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 196 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 196 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Blackwell",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Michael Vaughan(c)",
+            "Steve Harmison",
+            "Geraint Jones (wk)",
+            "Anthony McGrath",
+            "Darren Gough",
+            "James Anderson",
+            "Andrew Strauss",
+            "Ashley Giles"
+        ],
+        "New Zealand": [
+            "Chris Cairns",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Nathan Astle",
+            "Gareth Hopkins (wk)",
+            "James Franklin",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Hamish Marshall",
+            "Jacob Oram",
+            "Scott Styris"
+        ]
+    }
 }

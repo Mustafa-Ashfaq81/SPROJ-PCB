@@ -50,7 +50,7 @@
                     "strike_rate": "125.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Duminy b Phangiso",
                     "runs": "169",
                     "balls": "137",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Alviro Petersen",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "29",
                     "balls": "31",
                     "minutes": "61",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Sangakkara b Eranga",
+                    "dismissal": "c (wk)Sangakkara b Eranga",
                     "runs": "15",
                     "balls": "22",
                     "minutes": "24",
@@ -227,7 +227,7 @@
                     "strike_rate": "68.18"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "b Herath",
                     "runs": "23",
                     "balls": "19",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Aaron Phangiso",
-                    "dismissal": "st Sangakkara b Herath",
+                    "dismissal": "st (wk)Sangakkara b Herath",
                     "runs": "0",
                     "balls": "13",
                     "minutes": "7",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 180 runs"
+    "result": "Sri Lanka won by 180 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Lasith Malinga",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Jehan Mubarak",
+            "Shaminda Eranga",
+            "Rangana Herath",
+            "Dinesh Chandimal(c)"
+        ],
+        "South Africa": [
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Chris Morris",
+            "Morne Morkel",
+            "Aaron Phangiso",
+            "Alviro Petersen",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Colin Ingram",
+            "Faf du Plessis",
+            "Robin Peterson"
+        ]
+    }
 }

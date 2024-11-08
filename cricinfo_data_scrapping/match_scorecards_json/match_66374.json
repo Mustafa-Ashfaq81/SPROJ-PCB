@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "c Dravid b Balaji",
+                    "dismissal": "c (wk)Dravid b Balaji",
                     "runs": "9",
                     "balls": "35",
                     "minutes": "53",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c Dravid b Balaji",
+                    "dismissal": "c (wk)Dravid b Balaji",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "8",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Dravid b Balaji",
+                    "dismissal": "c (wk)Dravid b Balaji",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -101,7 +101,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "not out",
                     "runs": "27",
                     "balls": "20",
@@ -224,7 +224,7 @@
                     "strike_rate": "72.54"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "run out (Inzamam-ul-Haq)",
                     "runs": "0",
                     "balls": "1",
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 66 runs (D/L method)"
+    "result": "Pakistan won by 66 runs (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Yasir Hameed",
+            "Shahid Afridi",
+            "Mohammad Yousuf",
+            "Shabbir Ahmed",
+            "Moin Khan (wk)",
+            "Mohammad Sami",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Younis Khan",
+            "Shoaib Akhtar"
+        ],
+        "India": [
+            "Rohan Gavaskar",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Irfan Pathan",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Virender Sehwag",
+            "Lakshmipathy Balaji",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

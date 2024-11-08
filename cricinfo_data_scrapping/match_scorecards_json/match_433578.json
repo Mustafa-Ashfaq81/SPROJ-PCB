@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "8",
@@ -61,8 +61,8 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "run out (Kohli/Dhoni)",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "run out (Kohli/ (wk)Dhoni)",
                     "runs": "46",
                     "balls": "78",
                     "minutes": "93",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "c Dhoni b Yuvraj Singh",
+                    "dismissal": "c (wk)Dhoni b Yuvraj Singh",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "8",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "George Dockrell",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "19",
@@ -288,7 +288,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "lbw b Dockrell",
                     "runs": "34",
                     "balls": "50",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 24 balls remaining)"
+    "result": "India won by 5 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "John Mooney",
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "Boyd Rankin",
+            "Ed Joyce",
+            "Trent Johnston",
+            "Niall O'Brien (wk)",
+            "Alex Cusack",
+            "George Dockrell",
+            "Paul Stirling",
+            "Andrew White"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Munaf Patel",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Piyush Chawla",
+            "Virender Sehwag",
+            "Yusuf Pathan",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

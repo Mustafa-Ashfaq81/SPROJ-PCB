@@ -40,8 +40,8 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Tim Paine",
-                    "dismissal": "c Prior b Mascarenhas",
+                    "batsman": "Tim Paine (wk)",
+                    "dismissal": "c (wk)Prior b Mascarenhas",
                     "runs": "111",
                     "balls": "148",
                     "minutes": "168",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Paine b Lee",
+                    "dismissal": "c (wk)Paine b Lee",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -257,7 +257,7 @@
                     "strike_rate": "72.72"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "run out (Ponting)",
                     "runs": "6",
                     "balls": "8",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "Australia won by 111 runs"
+    "result": "Australia won by 111 runs",
+    "playing_xi": {
+        "Australia": [
+            "Peter Siddle",
+            "Callum Ferguson",
+            "Cameron White",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Brett Lee",
+            "Nathan Bracken"
+        ],
+        "England": [
+            "Joe Denly",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Dimitri Mascarenhas",
+            "Tim Bresnan",
+            "James Anderson",
+            "Matt Prior (wk)",
+            "Ryan Sidebottom",
+            "Ravi Bopara",
+            "Andrew Strauss(c)",
+            "Owais Shah"
+        ]
+    }
 }

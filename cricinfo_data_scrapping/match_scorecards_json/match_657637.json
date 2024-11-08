@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Sohaib Maqsood",
-                    "dismissal": "run out (NLTC Perera/Sangakkara)",
+                    "dismissal": "run out (NLTC Perera/ (wk)Sangakkara)",
                     "runs": "73",
                     "balls": "68",
                     "minutes": "85",
@@ -83,7 +83,7 @@
                     "strike_rate": "283.33"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "9",
                     "balls": "7",
@@ -234,8 +234,8 @@
                     "strike_rate": "69.76"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Umar Akmal b Shahid Afridi",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Umar Akmal b Shahid Afridi",
                     "runs": "23",
                     "balls": "33",
                     "minutes": "47",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Lasith Malinga",
-                    "dismissal": "run out (Bilawal Bhatti/Umar Akmal)",
+                    "dismissal": "run out (Bilawal Bhatti/ (wk)Umar Akmal)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "4",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 11 runs"
+    "result": "Pakistan won by 11 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Sohail Tanvir",
+            "Umar Akmal (wk)",
+            "Misbah-ul-Haq (c)",
+            "Sohaib Maqsood",
+            "Sharjeel Khan",
+            "Bilawal Bhatti",
+            "Saeed Ajmal",
+            "Shahid Afridi"
+        ],
+        "Sri Lanka": [
+            "Seekkuge Prasanna",
+            "Suranga Lakmal",
+            "Lahiru Thirimanne",
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Thisara Perera"
+        ]
+    }
 }

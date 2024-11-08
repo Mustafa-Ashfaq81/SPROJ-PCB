@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "9",
                     "balls": "8",
                     "minutes": "17",
@@ -101,7 +101,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Fawad Alam , Sarfaraz Ahmed , Umar Gul , Iftikhar Anjum",
+            "did_not_bat": "Fawad Alam , Sarfaraz Ahmed (wk) , Umar Gul , Iftikhar Anjum",
             "fall_of_wickets": "Fall of wickets : 1 - 90 ( Salman Butt , 21.4 ov ) , 1 - 219 * ( Shoaib Malik , retired not out ) , 2 - 223 ( Younis Khan , 40.6 ov ) , 3 - 261 ( Mohammad Yousuf , 45.3 ov ) , 4 - 290 ( Shahid Afridi , 48.5 ov )",
             "bowling": [
                 {
@@ -238,7 +238,7 @@
                     "strike_rate": "102.12"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "26",
                     "balls": "30",
@@ -362,5 +362,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 47 balls remaining)"
+    "result": "India won by 6 wickets (with 47 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Salman Butt",
+            "Shahid Afridi",
+            "Sarfaraz Ahmed (wk)",
+            "Iftikhar Anjum",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Umar Gul",
+            "Younis Khan",
+            "Fawad Alam",
+            "Sohail Tanvir",
+            "Misbah-ul-Haq"
+        ],
+        "India": [
+            "Piyush Chawla",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "RP Singh",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Gautam Gambhir",
+            "Ishant Sharma"
+        ]
+    }
 }

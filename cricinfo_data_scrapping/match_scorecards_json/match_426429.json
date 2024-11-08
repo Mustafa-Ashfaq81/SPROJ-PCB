@@ -30,7 +30,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Collingwood",
                     "runs": "74",
                     "balls": "72",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Davies b Broad",
+                    "dismissal": "c (wk)Davies b Broad",
                     "runs": "46",
                     "balls": "48",
                     "minutes": "59",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Davies b Broad",
+                    "dismissal": "c (wk)Davies b Broad",
                     "runs": "28",
                     "balls": "23",
                     "minutes": "25",
@@ -237,8 +237,8 @@
                     "strike_rate": "94.02"
                 },
                 {
-                    "batsman": "Steven Davies",
-                    "dismissal": "c Kamran Akmal b Shoaib Akhtar",
+                    "batsman": "Steven Davies (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Shoaib Akhtar",
                     "runs": "26",
                     "balls": "21",
                     "minutes": "27",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 3 balls remaining)"
+    "result": "England won by 4 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Mohammad Hafeez",
+            "Shahid Afridi(c)",
+            "Mohammad Irfan",
+            "Umar Akmal",
+            "Asad Shafiq",
+            "Fawad Alam"
+        ],
+        "England": [
+            "Jonathan Trott",
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Ravi Bopara",
+            "Graeme Swann",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Steven Davies (wk)"
+        ]
+    }
 }

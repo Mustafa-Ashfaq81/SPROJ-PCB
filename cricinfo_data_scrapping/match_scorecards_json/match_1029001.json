@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Billings b Ball",
+                    "dismissal": "c (wk)Billings b Ball",
                     "runs": "30",
                     "balls": "38",
                     "minutes": "41",
@@ -70,7 +70,7 @@
                     "strike_rate": "78.94"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "lbw b Rashid",
                     "runs": "16",
                     "balls": "41",
@@ -287,7 +287,7 @@
                     "strike_rate": "66.66"
                 }
             ],
-            "did_not_bat": "Sam Billings , Adil Rashid , David Willey , Liam Plunkett , Jake Ball , Mark Wood",
+            "did_not_bat": "Sam Billings (wk) , Adil Rashid , David Willey , Liam Plunkett , Jake Ball , Mark Wood",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Jason Roy , 0.4 ov ) , 2 - 78 ( Alex Hales , 11.3 ov ) , 3 - 99 ( Eoin Morgan , 15.3 ov )",
             "bowling": [
                 {
@@ -349,5 +349,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 180 balls remaining)"
+    "result": "England won by 7 wickets (with 180 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Peter Chase",
+            "Gary Wilson",
+            "Paul Stirling",
+            "Tim Murtagh",
+            "Niall O'Brien (wk)",
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Kevin O'Brien",
+            "Stuart Thompson",
+            "Andy Balbirnie"
+        ],
+        "England": [
+            "Mark Wood",
+            "Liam Plunkett",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jake Ball",
+            "Alex Hales",
+            "Jonny Bairstow",
+            "David Willey",
+            "Sam Billings (wk)"
+        ]
+    }
 }

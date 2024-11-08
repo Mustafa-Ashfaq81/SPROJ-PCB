@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Anwar Arudin",
-                    "dismissal": "c Atkinson b Tanwir Afzal",
+                    "dismissal": "c (wk)Atkinson b Tanwir Afzal",
                     "runs": "20",
                     "balls": "14",
                     "minutes": "-",
@@ -59,8 +59,8 @@
                     "strike_rate": "72.72"
                 },
                 {
-                    "batsman": "Shafiq Sharif",
-                    "dismissal": "c Atkinson b Irfan Ahmed",
+                    "batsman": "Shafiq Sharif (wk)",
+                    "dismissal": "c (wk)Atkinson b Irfan Ahmed",
                     "runs": "11",
                     "balls": "23",
                     "minutes": "-",
@@ -280,7 +280,7 @@
                     "strike_rate": "115.62"
                 },
                 {
-                    "batsman": "Jamie Atkinson(c)",
+                    "batsman": "Jamie Atkinson(c) (wk)",
                     "dismissal": "b Khizar Hayat",
                     "runs": "22",
                     "balls": "43",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 4 wickets (with 47 balls remaining)"
+    "result": "Hong Kong won by 4 wickets (with 47 balls remaining)",
+    "playing_xi": {
+        "Malaysia": [
+            "Anwar Arudin",
+            "Suharril Fetri",
+            "Ahmad Faiz(c)",
+            "Hassan Ghulam",
+            "Hammadullah Khan",
+            "Shahrulnizam Yusof",
+            "Muhammad Wafiq",
+            "Nasir Shafiq",
+            "Khizar Hayat",
+            "Shafiq Sharif (wk)",
+            "Hiran Ralalage"
+        ],
+        "Hong Kong": [
+            "Haseeb Amjad",
+            "Nizakat Khan",
+            "Aizaz Khan",
+            "Roy Lamsam",
+            "Waqas Barkat",
+            "Jamie Atkinson(c) (wk)",
+            "Babar Hayat",
+            "Ankur Vasishta",
+            "Tanwir Afzal",
+            "Nadeem Ahmed",
+            "Irfan Ahmed"
+        ]
+    }
 }

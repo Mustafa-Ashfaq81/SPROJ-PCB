@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "st Khaled Mashud b Manjural Islam Rana",
+                    "dismissal": "st (wk)Khaled Mashud b Manjural Islam Rana",
                     "runs": "105",
                     "balls": "110",
                     "minutes": "157",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Khaled Mashud b Nazmul Hossain",
+                    "dismissal": "c (wk)Khaled Mashud b Nazmul Hossain",
                     "runs": "40",
                     "balls": "45",
                     "minutes": "67",
@@ -70,7 +70,7 @@
                     "strike_rate": "123.25"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Manjural Islam Rana b Mohammad Rafique",
                     "runs": "28",
                     "balls": "24",
@@ -267,7 +267,7 @@
                     "strike_rate": "83.78"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "10",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 75 runs"
+    "result": "Sri Lanka won by 75 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Mahela Jayawardene",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Marvan Atapattu(c)",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Dilhara Lokuhettige",
+            "Upul Tharanga"
+        ],
+        "Bangladesh": [
+            "Syed Rasel",
+            "Javed Omer",
+            "Aftab Ahmed",
+            "Tushar Imran",
+            "Manzarul Islam",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Mohammad Rafique",
+            "Habibul Bashar(c)",
+            "Khaled Mashud (wk)",
+            "Shahriar Nafees"
+        ]
+    }
 }

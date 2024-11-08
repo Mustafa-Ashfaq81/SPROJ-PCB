@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Hitesh Modi",
-                    "dismissal": "c Rashid Latif b Abdul Razzaq",
+                    "dismissal": "c (wk)Rashid Latif b Abdul Razzaq",
                     "runs": "34",
                     "balls": "36",
                     "minutes": "67",
@@ -91,7 +91,7 @@
                     "strike_rate": "94.44"
                 },
                 {
-                    "batsman": "David Obuya",
+                    "batsman": "David Obuya (wk)",
                     "dismissal": "c Younis Khan b Abdul Razzaq",
                     "runs": "0",
                     "balls": "5",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Collins Obuya",
-                    "dismissal": "c Rashid Latif b Abdul Razzaq",
+                    "dismissal": "c (wk)Rashid Latif b Abdul Razzaq",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "8",
@@ -225,7 +225,7 @@
             "batting": [
                 {
                     "batsman": "Saeed Anwar",
-                    "dismissal": "c DO Obuya b MA Suji",
+                    "dismissal": "c (wk)DO Obuya b MA Suji",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "2",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Azhar Mahmood",
-                    "dismissal": "run out (CO Obuya/DO Obuya)",
+                    "dismissal": "run out (CO Obuya/ (wk)DO Obuya)",
                     "runs": "9",
                     "balls": "30",
                     "minutes": "39",
@@ -294,7 +294,7 @@
                     "strike_rate": "45.16"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "not out",
                     "runs": "28",
                     "balls": "23",
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 99 balls remaining)"
+    "result": "Pakistan won by 4 wickets (with 99 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Hitesh Modi",
+            "Martin Suji",
+            "Collins Obuya",
+            "Steve Tikolo(c)",
+            "Tony Suji",
+            "Ravi Shah",
+            "David Obuya (wk)",
+            "Kennedy Otieno",
+            "Maurice Odumbe",
+            "Joseph Angara",
+            "Thomas Odoyo"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Inzamam-ul-Haq",
+            "Azhar Mahmood",
+            "Saeed Anwar",
+            "Rashid Latif (wk)",
+            "Imran Nazir",
+            "Wasim Akram",
+            "Abdul Razzaq",
+            "Younis Khan",
+            "Waqar Younis (c)",
+            "Shoaib Akhtar"
+        ]
+    }
 }

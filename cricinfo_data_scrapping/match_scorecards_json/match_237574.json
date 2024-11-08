@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "7",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "11",
@@ -80,8 +80,8 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Khaled Mashud",
-                    "dismissal": "c Sangakkara b Perera",
+                    "batsman": "Khaled Mashud (wk)",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -257,7 +257,7 @@
                     "strike_rate": "56.52"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Mashrafe Mortaza b Alok Kapali",
                     "runs": "50",
                     "balls": "62",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 155 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 155 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Shahriar Nafees",
+            "Mohammad Ashraful",
+            "Habibul Bashar(c)",
+            "Alok Kapali",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Khaled Mahmud",
+            "Rajin Saleh",
+            "Mashrafe Mortaza",
+            "Syed Rasel",
+            "Mohammad Rafique"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Dilhara Fernando",
+            "Hasantha Fernando",
+            "Ruchira Perera",
+            "Mahela Jayawardene(c)",
+            "Jehan Mubarak",
+            "Farveez Maharoof",
+            "Chamara Kapugedera",
+            "Malinga Bandara"
+        ]
+    }
 }

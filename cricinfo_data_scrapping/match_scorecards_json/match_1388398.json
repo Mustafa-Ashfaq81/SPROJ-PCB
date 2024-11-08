@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Kushal Bhurtel",
-                    "dismissal": "c Ishan Kishan b Thakur",
+                    "dismissal": "c (wk)Ishan Kishan b Thakur",
                     "runs": "38",
                     "balls": "25",
                     "minutes": "44",
@@ -41,7 +41,7 @@
                     "strike_rate": "152.00"
                 },
                 {
-                    "batsman": "Aasif Sheikh",
+                    "batsman": "Aasif Sheikh (wk)",
                     "dismissal": "c Kohli b Mohammed Siraj",
                     "runs": "58",
                     "balls": "97",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Gulsan Jha",
-                    "dismissal": "c Ishan Kishan b Mohammed Siraj",
+                    "dismissal": "c (wk)Ishan Kishan b Mohammed Siraj",
                     "runs": "23",
                     "balls": "35",
                     "minutes": "39",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Sompal Kami",
-                    "dismissal": "c Ishan Kishan b Mohammed Shami",
+                    "dismissal": "c (wk)Ishan Kishan b Mohammed Shami",
                     "runs": "48",
                     "balls": "56",
                     "minutes": "68",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Sandeep Lamichhane",
-                    "dismissal": "run out (sub [AR Patel]/Ishan Kishan)",
+                    "dismissal": "run out (sub [AR Patel]/ (wk)Ishan Kishan)",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "31",
@@ -258,7 +258,7 @@
                     "strike_rate": "108.06"
                 }
             ],
-            "did_not_bat": "Virat Kohli , Shreyas Iyer , Ishan Kishan , Hardik Pandya , Ravindra Jadeja , Shardul Thakur , Kuldeep Yadav , Mohammed Shami , Mohammed Siraj",
+            "did_not_bat": "Virat Kohli , Shreyas Iyer , Ishan Kishan (wk) , Hardik Pandya , Ravindra Jadeja , Shardul Thakur , Kuldeep Yadav , Mohammed Shami , Mohammed Siraj",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -362,5 +362,33 @@
             ]
         }
     ],
-    "result": "India won by 10 wickets (with 17 balls remaining) (DLS method)"
+    "result": "India won by 10 wickets (with 17 balls remaining) (DLS method)",
+    "playing_xi": {
+        "Nepal": [
+            "Kushal Malla",
+            "Lalit Rajbanshi",
+            "Kushal Bhurtel",
+            "Bhim Sharki",
+            "Rohit Paudel(c)",
+            "Aasif Sheikh (wk)",
+            "Gulsan Jha",
+            "Sandeep Lamichhane",
+            "Karan KC",
+            "Sompal Kami",
+            "Dipendra Singh Airee"
+        ],
+        "India": [
+            "Ishan Kishan (wk)",
+            "Virat Kohli",
+            "Mohammed Shami",
+            "Shubman Gill",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shardul Thakur",
+            "Hardik Pandya",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ]
+    }
 }

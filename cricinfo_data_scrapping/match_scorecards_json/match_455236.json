@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Dinesh Karthik",
-                    "dismissal": "c Sangakkara b Herath",
+                    "dismissal": "c (wk)Sangakkara b Herath",
                     "runs": "40",
                     "balls": "43",
                     "minutes": "71",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "13",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "run out (Sangakkara/Jayawardene)",
+                    "dismissal": "run out ( (wk)Sangakkara/Jayawardene)",
                     "runs": "69",
                     "balls": "73",
                     "minutes": "118",
@@ -82,7 +82,7 @@
                     "strike_rate": "78.26"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "run out (Kapugedera)",
                     "runs": "41",
                     "balls": "53",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "38",
                     "balls": "46",
                     "minutes": "57",
@@ -259,7 +259,7 @@
                     "strike_rate": "150.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Khan b Kumar",
                     "runs": "73",
                     "balls": "82",
@@ -379,5 +379,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 75 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 75 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Pragyan Ojha",
+            "Dinesh Karthik",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Ashok Dinda",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Gautam Gambhir"
+        ],
+        "Sri Lanka": [
+            "Farveez Maharoof",
+            "Chanaka Welegedara",
+            "Kumar Sangakkara(c) (wk)",
+            "Thilina Kandamby",
+            "Suraj Randiv",
+            "Rangana Herath",
+            "Upul Tharanga",
+            "Chamara Kapugedera",
+            "Angelo Mathews",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Prior b Wright",
+                    "dismissal": "c (wk)Prior b Wright",
                     "runs": "41",
                     "balls": "47",
                     "minutes": "64",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Ryan McLaren",
-                    "dismissal": "c Prior b Anderson",
+                    "dismissal": "c (wk)Prior b Anderson",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "20",
@@ -100,7 +100,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "30",
                     "balls": "37",
@@ -301,7 +301,7 @@
                     "strike_rate": "150.00"
                 }
             ],
-            "did_not_bat": "Matt Prior , Luke Wright , Tim Bresnan , Adil Rashid , Sajid Mahmood , James Anderson",
+            "did_not_bat": "Matt Prior (wk) , Luke Wright , Tim Bresnan , Adil Rashid , Sajid Mahmood , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 28 ( Andrew Strauss , 7.6 ov ) , 2 - 45 ( Kevin Pietersen , 11.3 ov ) , 3 - 207 ( Jonathan Trott , 41.3 ov )",
             "bowling": [
                 {
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 24 balls remaining)"
+    "result": "England won by 7 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Albie Morkel",
+            "Hashim Amla",
+            "Charl Langeveldt",
+            "Roelof van der Merwe",
+            "Graeme Smith(c)",
+            "Ryan McLaren",
+            "Alviro Petersen",
+            "Dale Steyn",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)"
+        ],
+        "England": [
+            "Tim Bresnan",
+            "Matt Prior (wk)",
+            "Jonathan Trott",
+            "Sajid Mahmood",
+            "James Anderson",
+            "Eoin Morgan",
+            "Andrew Strauss(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Luke Wright",
+            "Adil Rashid"
+        ]
+    }
 }

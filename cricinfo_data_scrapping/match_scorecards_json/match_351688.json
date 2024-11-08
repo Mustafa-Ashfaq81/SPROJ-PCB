@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Haddin b Hopes",
+                    "dismissal": "c (wk)Haddin b Hopes",
                     "runs": "97",
                     "balls": "117",
                     "minutes": "156",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Neil McKenzie",
-                    "dismissal": "c Haddin b Hopes",
+                    "dismissal": "c (wk)Haddin b Hopes",
                     "runs": "10",
                     "balls": "28",
                     "minutes": "33",
@@ -64,7 +64,7 @@
                     "strike_rate": "35.71"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "c Warner b Hopes",
                     "runs": "60",
                     "balls": "71",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c de Villiers b Tsotsobe",
+                    "dismissal": "c (wk)de Villiers b Tsotsobe",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "25",
@@ -271,7 +271,7 @@
                     "strike_rate": "62.74"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Tsotsobe b Parnell",
                     "runs": "63",
                     "balls": "50",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 39 runs"
+    "result": "South Africa won by 39 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Albie Morkel",
+            "Neil McKenzie",
+            "Wayne Parnell",
+            "Hashim Amla",
+            "Vaughn van Jaarsveld",
+            "Jean-Paul Duminy",
+            "Johan Botha(c)",
+            "Lonwabo Tsotsobe",
+            "AB de Villiers (wk)",
+            "Herschelle Gibbs",
+            "Morne Morkel"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "David Warner",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Ben Hilfenhaus",
+            "Shaun Marsh",
+            "David Hussey",
+            "Nathan Bracken"
+        ]
+    }
 }

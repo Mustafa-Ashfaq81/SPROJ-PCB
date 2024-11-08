@@ -42,8 +42,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Parthiv Patel",
-                    "dismissal": "c Taibu b Streak",
+                    "batsman": "Parthiv Patel (wk)",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "13",
@@ -230,7 +230,7 @@
                 },
                 {
                     "batsman": "Grant Flower",
-                    "dismissal": "c Patel b Agarkar",
+                    "dismissal": "c (wk)Patel b Agarkar",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "20",
@@ -299,7 +299,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Tatenda Taibu , Ray Price , Douglas Hondo",
+            "did_not_bat": "Tatenda Taibu (wk) , Ray Price , Douglas Hondo",
             "fall_of_wickets": "Fall of wickets : 1 - 14 ( Grant Flower , 4.6 ov ) , 2 - 25 ( Travis Friend , 6.3 ov ) , 3 - 46 ( Vusi Sibanda , 11.4 ov ) , 4 - 248 ( Sean Ervine , 45.6 ov ) , 5 - 261 ( Stuart Carlisle , 47.6 ov ) , 6 - 274 ( Andy Blignaut , 49.3 ov )",
             "bowling": [
                 {
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "India won by 3 runs"
+    "result": "India won by 3 runs",
+    "playing_xi": {
+        "India": [
+            "Rahul Dravid",
+            "Murali Kartik",
+            "Sanjay Bangar",
+            "Lakshmipathy Balaji",
+            "Irfan Pathan",
+            "VVS Laxman",
+            "Ajit Agarkar",
+            "Sourav Ganguly(c)",
+            "Parthiv Patel (wk)",
+            "Hemang Badani",
+            "Rohan Gavaskar"
+        ],
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Ray Price",
+            "Travis Friend",
+            "Stuart Carlisle",
+            "Grant Flower",
+            "Andy Blignaut",
+            "Dion Ebrahim",
+            "Sean Ervine",
+            "Vusi Sibanda",
+            "Heath Streak(c)",
+            "Douglas Hondo"
+        ]
+    }
 }

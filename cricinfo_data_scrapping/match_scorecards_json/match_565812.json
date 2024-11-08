@@ -73,7 +73,7 @@
                     "strike_rate": "107.89"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "not out",
                     "runs": "24",
                     "balls": "20",
@@ -225,7 +225,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Kieswetter b Bresnan",
+                    "dismissal": "c (wk)Kieswetter b Bresnan",
                     "runs": "15",
                     "balls": "22",
                     "minutes": "45",
@@ -254,7 +254,7 @@
                     "strike_rate": "102.04"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Root b Dernbach",
                     "runs": "32",
                     "balls": "25",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "c Kieswetter b Finn",
+                    "dismissal": "c (wk)Kieswetter b Finn",
                     "runs": "13",
                     "balls": "8",
                     "minutes": "17",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "England won by 9 runs"
+    "result": "England won by 9 runs",
+    "playing_xi": {
+        "England": [
+            "Craig Kieswetter (wk)",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "Kevin Pietersen",
+            "Samit Patel",
+            "Jade Dernbach",
+            "Tim Bresnan",
+            "James Tredwell"
+        ],
+        "India": [
+            "Ravindra Jadeja",
+            "Ashok Dinda",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ajinkya Rahane"
+        ]
+    }
 }

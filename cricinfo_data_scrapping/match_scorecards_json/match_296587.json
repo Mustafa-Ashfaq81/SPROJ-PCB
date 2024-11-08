@@ -42,7 +42,7 @@
                     "strike_rate": "22.72"
                 },
                 {
-                    "batsman": "Jekon Edness",
+                    "batsman": "Jekon Edness (wk)",
                     "dismissal": "c Zuiderent b Mudassar Bukhari",
                     "runs": "1",
                     "balls": "7",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Ryan Steede",
-                    "dismissal": "c Smits b Mol",
+                    "dismissal": "c (wk)Smits b Mol",
                     "runs": "12",
                     "balls": "32",
                     "minutes": "27",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "George O'Brien",
-                    "dismissal": "c Smits b de Grooth",
+                    "dismissal": "c (wk)Smits b de Grooth",
                     "runs": "4",
                     "balls": "18",
                     "minutes": "21",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Bas Zuiderent",
-                    "dismissal": "st Edness b Leverock",
+                    "dismissal": "st (wk)Edness b Leverock",
                     "runs": "17",
                     "balls": "21",
                     "minutes": "26",
@@ -293,7 +293,7 @@
                     "strike_rate": "71.42"
                 }
             ],
-            "did_not_bat": "Maurits Jonkman , Mudassar Bukhari , Atse Buurman , Geert-Maarten Mol , Jeroen Smits (c) , Pieter Seelaar , Edgar Schiferli",
+            "did_not_bat": "Maurits Jonkman , Mudassar Bukhari , Atse Buurman , Geert-Maarten Mol , Jeroen Smits (c) (wk) , Pieter Seelaar , Edgar Schiferli",
             "fall_of_wickets": "Fall of wickets : 1 - 61 ( Tom de Grooth ) , 2 - 85 ( Bas Zuiderent )",
             "bowling": [
                 {
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 8 wickets (with 183 balls remaining)"
+    "result": "Netherlands won by 8 wickets (with 183 balls remaining)",
+    "playing_xi": {
+        "Bermuda": [
+            "Jekon Edness (wk)",
+            "Irving Romaine(c)",
+            "Chris Lonsdale",
+            "Ryan Steede",
+            "Dwight Basden",
+            "James Celestine",
+            "George O'Brien",
+            "Josclyn Pitcher",
+            "Steven Outerbridge",
+            "Dwayne Leverock",
+            "Lionel Cann"
+        ],
+        "Netherlands": [
+            "Geert-Maarten Mol",
+            "Bas Zuiderent",
+            "Edgar Schiferli",
+            "Atse Buurman",
+            "Maurits Jonkman",
+            "Tom de Grooth",
+            "Mudassar Bukhari",
+            "Pieter Seelaar",
+            "Alexei Kervezee",
+            "Ryan ten Doeschate",
+            "Jeroen Smits (c) (wk)"
+        ]
+    }
 }

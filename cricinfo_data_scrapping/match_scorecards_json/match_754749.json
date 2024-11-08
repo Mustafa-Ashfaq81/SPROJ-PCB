@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Haddin b Sandhu",
+                    "dismissal": "c (wk)Haddin b Sandhu",
                     "runs": "12",
                     "balls": "22",
                     "minutes": "29",
@@ -84,7 +84,7 @@
                     "strike_rate": "80.95"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Starc",
                     "runs": "19",
                     "balls": "31",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Aaron Finch",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "96",
                     "balls": "127",
                     "minutes": "161",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "George Bailey(c)",
-                    "dismissal": "c Dhoni b Ashwin",
+                    "dismissal": "c (wk)Dhoni b Ashwin",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "12",
@@ -291,7 +291,7 @@
                     "strike_rate": "45.45"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "11",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 6 balls remaining)"
+    "result": "Australia won by 4 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Axar Patel",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)",
+            "Virat Kohli",
+            "Mohammed Shami",
+            "Ajinkya Rahane",
+            "Umesh Yadav",
+            "Bhuvneshwar Kumar",
+            "Suresh Raina",
+            "Ravichandran Ashwin"
+        ],
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Pat Cummins",
+            "David Warner",
+            "Glenn Maxwell",
+            "Gurinder Sandhu",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shane Watson",
+            "Aaron Finch"
+        ]
+    }
 }

@@ -63,7 +63,7 @@
                     "strike_rate": "84.37"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "run out (NLTC Perera)",
                     "runs": "77",
                     "balls": "74",
@@ -191,7 +191,7 @@
             "batting": [
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c Sarfaraz Ahmed b Anwar Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Anwar Ali",
                     "runs": "20",
                     "balls": "18",
                     "minutes": "38",
@@ -211,7 +211,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "c Sarfaraz Ahmed b Rahat Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Rahat Ali",
                     "runs": "56",
                     "balls": "67",
                     "minutes": "101",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "st Sarfaraz Ahmed b Yasir Shah",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Yasir Shah",
                     "runs": "16",
                     "balls": "21",
                     "minutes": "34",
@@ -240,7 +240,7 @@
                     "strike_rate": "30.76"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "b Imad Wasim",
                     "runs": "18",
                     "balls": "30",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Milinda Siriwardana",
-                    "dismissal": "run out (Shoaib Malik/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Shoaib Malik/ (wk)Sarfaraz Ahmed)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "3",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 135 runs"
+    "result": "Pakistan won by 135 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Anwar Ali",
+            "Imad Wasim",
+            "Mohammad Hafeez",
+            "Mohammad Rizwan",
+            "Ahmed Shehzad",
+            "Mohammad Irfan",
+            "Sarfaraz Ahmed (wk)",
+            "Rahat Ali",
+            "Shoaib Malik",
+            "Yasir Shah",
+            "Azhar Ali(c)"
+        ],
+        "Sri Lanka": [
+            "Dinesh Chandimal (wk)",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Nuwan Pradeep",
+            "Sachith Pathirana",
+            "Angelo Mathews(c)",
+            "Milinda Siriwardana",
+            "Upul Tharanga"
+        ]
+    }
 }

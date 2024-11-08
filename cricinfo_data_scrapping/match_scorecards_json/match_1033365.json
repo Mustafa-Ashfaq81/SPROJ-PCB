@@ -61,8 +61,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Ronchi b Neesham",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Ronchi b Neesham",
                     "runs": "55",
                     "balls": "66",
                     "minutes": "-",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "run out (Ronchi)",
+                    "dismissal": "run out ( (wk)Ronchi)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "-",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Tom Latham(c)",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "54",
                     "balls": "64",
                     "minutes": "-",
@@ -248,7 +248,7 @@
                     "strike_rate": "84.37"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Mahmudullah b Mustafizur Rahman",
                     "runs": "27",
                     "balls": "27",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 15 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Mashrafe Mortaza(c)",
+            "Mustafizur Rahman",
+            "Soumya Sarkar",
+            "Mehidy Hasan Miraz",
+            "Sabbir Rahman",
+            "Rubel Hossain",
+            "Shakib Al Hasan"
+        ],
+        "New Zealand": [
+            "Tom Latham(c)",
+            "Mitchell Santner",
+            "George Worker",
+            "Hamish Bennett",
+            "Neil Broom",
+            "Colin Munro",
+            "Ish Sodhi",
+            "Seth Rance",
+            "Luke Ronchi (wk)",
+            "Ross Taylor",
+            "James Neesham"
+        ]
+    }
 }

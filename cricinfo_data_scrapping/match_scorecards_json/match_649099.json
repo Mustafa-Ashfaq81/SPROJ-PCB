@@ -40,7 +40,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "lbw b Saeed Ajmal",
                     "runs": "34",
                     "balls": "41",
@@ -267,7 +267,7 @@
                     "strike_rate": "72.00"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "lbw b Duminy",
                     "runs": "30",
                     "balls": "38",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Sohail Tanvir",
-                    "dismissal": "c de Kock b McLaren",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "15",
                     "balls": "17",
                     "minutes": "28",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 117 runs"
+    "result": "South Africa won by 117 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "AB de Villiers(c)",
+            "Wayne Parnell",
+            "Ryan McLaren",
+            "Jean-Paul Duminy",
+            "Vernon Philander",
+            "Faf du Plessis",
+            "David Miller",
+            "Quinton de Kock (wk)",
+            "Robin Peterson",
+            "Hashim Amla"
+        ],
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Sohaib Maqsood",
+            "Mohammad Irfan",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Misbah-ul-Haq(c)",
+            "Umar Akmal (wk)",
+            "Sohail Tanvir",
+            "Junaid Khan",
+            "Umar Amin",
+            "Mohammad Hafeez"
+        ]
+    }
 }

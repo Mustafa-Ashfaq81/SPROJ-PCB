@@ -50,7 +50,7 @@
                     "strike_rate": "103.75"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Kandamby b Malinga",
                     "runs": "56",
                     "balls": "62",
@@ -227,7 +227,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "hit wicket b Singh",
                     "runs": "33",
                     "balls": "37",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Chamara Kapugedera",
-                    "dismissal": "c Dhoni b Raina",
+                    "dismissal": "c (wk)Dhoni b Raina",
                     "runs": "35",
                     "balls": "42",
                     "minutes": "68",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Ajantha Mendis",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "10",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "India won by 46 runs"
+    "result": "India won by 46 runs",
+    "playing_xi": {
+        "India": [
+            "Yusuf Pathan",
+            "Rahul Dravid",
+            "MS Dhoni(c) (wk)",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "Ashish Nehra",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "RP Singh",
+            "Harbhajan Singh"
+        ],
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Chamara Kapugedera",
+            "Lasith Malinga",
+            "Kumar Sangakkara(c) (wk)",
+            "Nuwan Kulasekara",
+            "Angelo Mathews",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ]
+    }
 }

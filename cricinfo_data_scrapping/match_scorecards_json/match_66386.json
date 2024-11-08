@@ -30,7 +30,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Astle b Styris",
                     "runs": "60",
                     "balls": "48",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c McCullum b Cairns",
+                    "dismissal": "c (wk)McCullum b Cairns",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "23",
@@ -214,7 +214,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "11",
                     "balls": "22",
                     "minutes": "26",
@@ -273,7 +273,7 @@
                     "strike_rate": "125.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Hogg",
                     "runs": "21",
                     "balls": "44",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "Australia won by 17 runs"
+    "result": "Australia won by 17 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Darren Lehmann",
+            "Brad Hogg",
+            "Michael Clarke",
+            "Brett Lee",
+            "Jason Gillespie",
+            "Damien Martyn",
+            "Andrew Symonds",
+            "Glenn McGrath"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Mathew Sinclair",
+            "Chris Harris",
+            "Chris Cairns",
+            "Stephen Fleming(c)",
+            "Kyle Mills",
+            "Hamish Marshall",
+            "Nathan Astle",
+            "Scott Styris",
+            "Jacob Oram",
+            "Daniel Vettori"
+        ]
+    }
 }

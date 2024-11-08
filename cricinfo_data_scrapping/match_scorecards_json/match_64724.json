@@ -33,7 +33,7 @@
             "extras": "25",
             "batting": [
                 {
-                    "batsman": "David Obuya",
+                    "batsman": "David Obuya (wk)",
                     "dismissal": "b McGarrell",
                     "runs": "34",
                     "balls": "71",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Ravi Shah",
-                    "dismissal": "c Browne b McGarrell",
+                    "dismissal": "c (wk)Browne b McGarrell",
                     "runs": "29",
                     "balls": "74",
                     "minutes": "-",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Maurice Odumbe(c)",
-                    "dismissal": "c Browne b McGarrell",
+                    "dismissal": "c (wk)Browne b McGarrell",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "-",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Tony Suji",
-                    "dismissal": "st Browne b Gayle",
+                    "dismissal": "st (wk)Browne b Gayle",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "-",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c DO Obuya b Tikolo",
+                    "dismissal": "c (wk)DO Obuya b Tikolo",
                     "runs": "70",
                     "balls": "70",
                     "minutes": "-",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "st DO Obuya b Kamande",
+                    "dismissal": "st (wk)DO Obuya b Kamande",
                     "runs": "30",
                     "balls": "25",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                     "strike_rate": "400.00"
                 }
             ],
-            "did_not_bat": "Carl Hooper (c) , Courtney Browne , Neil McGarrell , Colin Stuart , Corey Collymore , Pedro Collins",
+            "did_not_bat": "Carl Hooper (c) , Courtney Browne (wk) , Neil McGarrell , Colin Stuart , Corey Collymore , Pedro Collins",
             "fall_of_wickets": "Fall of wickets : 1 - 116 ( Chris Gayle , 24.6 ov ) , 2 - 188 ( Leon Garrick , 40.1 ov ) , 3 - 226 ( Marlon Samuels , 46.5 ov )",
             "bowling": [
                 {
@@ -388,5 +388,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 17 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Collins Obuya",
+            "Tony Suji",
+            "Thomas Odoyo",
+            "Brijal Patel",
+            "Ravi Shah",
+            "Maurice Odumbe(c)",
+            "Peter Ongondo",
+            "Steve Tikolo",
+            "Jimmy Kamande",
+            "Hitesh Modi",
+            "David Obuya (wk)"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Corey Collymore",
+            "Shivnarine Chanderpaul",
+            "Marlon Samuels",
+            "Courtney Browne (wk)",
+            "Carl Hooper (c)",
+            "Colin Stuart",
+            "Leon Garrick",
+            "Wavell Hinds",
+            "Neil McGarrell",
+            "Pedro Collins"
+        ]
+    }
 }

@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "run out (Mohammad Shahzad/Najibullah Zadran)",
+                    "dismissal": "run out ( (wk)Mohammad Shahzad/Najibullah Zadran)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "2",
@@ -81,7 +81,7 @@
                     "strike_rate": "-"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "102",
                     "balls": "89",
@@ -228,8 +228,8 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Umar Akmal b Umar Gul",
+                    "batsman": "Mohammad Shahzad (wk)",
+                    "dismissal": "c (wk)Umar Akmal b Umar Gul",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "23",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 72 runs"
+    "result": "Pakistan won by 72 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Ahmed Shehzad",
+            "Anwar Ali",
+            "Umar Gul",
+            "Umar Akmal (wk)",
+            "Misbah-ul-Haq(c)",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Sohaib Maqsood",
+            "Sharjeel Khan"
+        ],
+        "Afghanistan": [
+            "Mirwais Ashraf",
+            "Nawroz Mangal",
+            "Shapoor Zadran",
+            "Mohammad Shahzad (wk)",
+            "Samiullah Shinwari",
+            "Asghar Afghan",
+            "Dawlat Zadran",
+            "Najibullah Zadran",
+            "Mohammad Nabi(c)",
+            "Noor Ali Zadran",
+            "Amir Hamza"
+        ]
+    }
 }

@@ -64,7 +64,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "run out (Mohammad Nabi/Rashid Khan)",
                     "runs": "33",
                     "balls": "52",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "c Mohammad Shahzad b Aftab Alam",
+                    "dismissal": "c (wk)Mohammad Shahzad b Aftab Alam",
                     "runs": "10",
                     "balls": "9",
                     "minutes": "-",
@@ -221,7 +221,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Mahmudullah",
                     "runs": "53",
                     "balls": "81",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 3 runs"
+    "result": "Bangladesh won by 3 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mohammad Mithun",
+            "Mahmudullah",
+            "Najmul Hossain Shanto",
+            "Nazmul Islam",
+            "Litton Das",
+            "Imrul Kayes",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)",
+            "Mujeeb Ur Rahman",
+            "Gulbadin Naib",
+            "Aftab Alam",
+            "Asghar Afghan(c)",
+            "Ihsanullah",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Samiullah Shinwari",
+            "Rashid Khan"
+        ]
+    }
 }

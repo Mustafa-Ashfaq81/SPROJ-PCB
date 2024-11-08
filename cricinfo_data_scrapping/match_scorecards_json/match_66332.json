@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya(c)",
-                    "dismissal": "c A Flower b Streak",
+                    "dismissal": "c (wk)A Flower b Streak",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -92,7 +92,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (GW Flower)",
                     "runs": "1",
                     "balls": "1",
@@ -249,7 +249,7 @@
                     "strike_rate": "56.52"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "lbw b Jayasuriya",
                     "runs": "11",
                     "balls": "8",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Heath Streak",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "24",
                     "balls": "25",
                     "minutes": "20",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Travis Friend",
-                    "dismissal": "st Sangakkara b Chandana",
+                    "dismissal": "st (wk)Sangakkara b Chandana",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -433,5 +433,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 59 runs"
+    "result": "Sri Lanka won by 59 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Avishka Gunawardene",
+            "Kumar Sangakkara (wk)",
+            "Chaminda Vaas",
+            "Kumar Dharmasena",
+            "Nuwan Zoysa",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)"
+        ],
+        "Zimbabwe": [
+            "Grant Flower",
+            "Craig Wishart",
+            "Dougie Marillier",
+            "Henry Olonga",
+            "Andy Flower (wk)",
+            "Heath Streak",
+            "Stuart Carlisle(c)",
+            "Dion Ebrahim",
+            "Mluleki Nkala",
+            "Travis Friend",
+            "Tatenda Taibu"
+        ]
+    }
 }

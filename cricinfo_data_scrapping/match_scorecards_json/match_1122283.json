@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Klaasen b Ngidi",
+                    "dismissal": "c (wk)Klaasen b Ngidi",
                     "runs": "115",
                     "balls": "126",
                     "minutes": "179",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "run out (Morkel/Klaasen)",
+                    "dismissal": "run out (Morkel/ (wk)Klaasen)",
                     "runs": "8",
                     "balls": "18",
                     "minutes": "25",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shreyas Iyer",
-                    "dismissal": "c Klaasen b Ngidi",
+                    "dismissal": "c (wk)Klaasen b Ngidi",
                     "runs": "30",
                     "balls": "37",
                     "minutes": "57",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Hardik Pandya",
-                    "dismissal": "c Klaasen b Ngidi",
+                    "dismissal": "c (wk)Klaasen b Ngidi",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Markram b Ngidi",
                     "runs": "13",
                     "balls": "17",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Dhoni b Pandya",
+                    "dismissal": "c (wk)Dhoni b Pandya",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "8",
@@ -267,8 +267,8 @@
                     "strike_rate": "70.58"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "batsman": "Heinrich Klaasen (wk)",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "39",
                     "balls": "42",
                     "minutes": "72",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "India won by 73 runs"
+    "result": "India won by 73 runs",
+    "playing_xi": {
+        "India": [
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Shreyas Iyer",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ],
+        "South Africa": [
+            "AB de Villiers",
+            "Andile Phehlukwayo",
+            "Aiden Markram(c)",
+            "Kagiso Rabada",
+            "Hashim Amla",
+            "David Miller",
+            "Tabraiz Shamsi",
+            "Heinrich Klaasen (wk)",
+            "Morne Morkel",
+            "Jean-Paul Duminy",
+            "Lungi Ngidi"
+        ]
+    }
 }

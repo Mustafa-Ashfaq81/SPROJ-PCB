@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Avishka Fernando",
-                    "dismissal": "c Madande b Ngarava",
+                    "dismissal": "c (wk)Madande b Ngarava",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "3",
@@ -44,7 +44,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
+                    "batsman": "Kusal Mendis(c) (wk)",
                     "dismissal": "run out (Sikandar Raza)",
                     "runs": "46",
                     "balls": "48",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "run out (Mufudza/Madande)",
+                    "dismissal": "run out (Mufudza/ (wk)Madande)",
                     "runs": "101",
                     "balls": "95",
                     "minutes": "132",
@@ -281,7 +281,7 @@
                     "strike_rate": "66.66"
                 }
             ],
-            "did_not_bat": "Sikandar Raza , Ryan Burl , Clive Madande , Faraz Akram , Richard Ngarava , Blessing Muzarabani , Tapiwa Mufudza",
+            "did_not_bat": "Sikandar Raza , Ryan Burl , Clive Madande (wk) , Faraz Akram , Richard Ngarava , Blessing Muzarabani , Tapiwa Mufudza",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Tinashe Kamunhukamwe , 2.1 ov ) , 2 - 5 ( Craig Ervine , 2.5 ov ) DRS",
             "bowling": [
                 {
@@ -315,5 +315,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Charith Asalanka",
+            "Sadeera Samarawickrama",
+            "Dilshan Madushanka",
+            "Avishka Fernando",
+            "Sahan Arachchige",
+            "Dasun Shanaka",
+            "Janith Liyanage",
+            "Kusal Mendis(c) (wk)",
+            "Maheesh Theekshana",
+            "Dushmantha Chameera",
+            "Jeffrey Vandersay"
+        ],
+        "Zimbabwe": [
+            "Ryan Burl",
+            "Richard Ngarava",
+            "Milton Shumba",
+            "Takudzwanashe Kaitano",
+            "Tinashe Kamunhukamwe",
+            "Sikandar Raza",
+            "Craig Ervine(c)",
+            "Clive Madande (wk)",
+            "Blessing Muzarabani",
+            "Faraz Akram",
+            "Tapiwa Mufudza"
+        ]
+    }
 }

@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Jacques Rudolph",
-                    "dismissal": "c Mohammad Salim b Sanuar Hossain",
+                    "dismissal": "c (wk)Mohammad Salim b Sanuar Hossain",
                     "runs": "81",
                     "balls": "113",
                     "minutes": "155",
@@ -75,7 +75,7 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Mehrab Hossain b Alok Kapali",
                     "runs": "12",
                     "balls": "16",
@@ -213,7 +213,7 @@
                 },
                 {
                     "batsman": "Mehrab Hossain",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "6",
                     "balls": "22",
                     "minutes": "32",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Akram Khan",
-                    "dismissal": "c Boucher b Dawson",
+                    "dismissal": "c (wk)Boucher b Dawson",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "24",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud(c)",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "24",
                     "balls": "44",
                     "minutes": "56",
@@ -272,8 +272,8 @@
                     "strike_rate": "45.00"
                 },
                 {
-                    "batsman": "Mohammad Salim",
-                    "dismissal": "c Boucher b Pollock",
+                    "batsman": "Mohammad Salim (wk)",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "9",
                     "balls": "24",
                     "minutes": "27",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Mohammad Rafique",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "11",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 93 runs"
+    "result": "South Africa won by 93 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Boeta Dippenaar",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Paul Adams",
+            "Graeme Smith(c)",
+            "Alan Dawson",
+            "Neil McKenzie",
+            "Herschelle Gibbs",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Andrew Hall"
+        ],
+        "Bangladesh": [
+            "Habibul Bashar",
+            "Khaled Mahmud(c)",
+            "Mohammad Salim (wk)",
+            "Tapash Baisya",
+            "Alok Kapali",
+            "Manjurul Islam",
+            "Mohammad Ashraful",
+            "Akram Khan",
+            "Mehrab Hossain",
+            "Mohammad Rafique",
+            "Sanuar Hossain"
+        ]
+    }
 }

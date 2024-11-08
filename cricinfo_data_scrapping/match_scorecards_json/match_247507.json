@@ -30,7 +30,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Silva b Fernando",
                     "runs": "149",
                     "balls": "104",
@@ -188,7 +188,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "11",
@@ -207,7 +207,7 @@
                     "strike_rate": "94.02"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Ponting b Hogg",
                     "runs": "54",
                     "balls": "52",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "9",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Lasith Malinga",
-                    "dismissal": "st Gilchrist b Symonds",
+                    "dismissal": "st (wk)Gilchrist b Symonds",
                     "runs": "10",
                     "balls": "6",
                     "minutes": "6",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Australia won by 53 runs (D/L method)"
+    "result": "Australia won by 53 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Shane Watson",
+            "Glenn McGrath",
+            "Shaun Tait",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Nathan Bracken",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Upul Tharanga",
+            "Dilhara Fernando",
+            "Chamara Silva"
+        ]
+    }
 }

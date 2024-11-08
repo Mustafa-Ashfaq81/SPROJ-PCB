@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "run out (Buttler)",
+                    "dismissal": "run out ( (wk)Buttler)",
                     "runs": "85",
                     "balls": "119",
                     "minutes": "201",
@@ -70,7 +70,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c sub (JM Vince) b Rashid",
                     "runs": "46",
                     "balls": "70",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "29",
                     "balls": "36",
                     "minutes": "45",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "85",
                     "balls": "65",
                     "minutes": "99",
@@ -277,7 +277,7 @@
                     "strike_rate": "115.38"
                 }
             ],
-            "did_not_bat": "Ben Stokes , Jos Buttler , Chris Woakes , Liam Plunkett , Adil Rashid , Jofra Archer , Mark Wood",
+            "did_not_bat": "Ben Stokes , Jos Buttler (wk) , Chris Woakes , Liam Plunkett , Adil Rashid , Jofra Archer , Mark Wood",
             "fall_of_wickets": "Fall of wickets : 1 - 124 ( Jonny Bairstow , 17.2 ov ) , 2 - 147 ( Jason Roy , 19.4 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "England won by 8 wickets (with 107 balls remaining)"
+    "result": "England won by 8 wickets (with 107 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Jason Behrendorff",
+            "Aaron Finch(c)",
+            "Steven Smith",
+            "Pat Cummins",
+            "David Warner",
+            "Alex Carey (wk)",
+            "Marcus Stoinis",
+            "Nathan Lyon",
+            "Glenn Maxwell",
+            "Peter Handscomb"
+        ],
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Ben Stokes",
+            "Mark Wood",
+            "Jofra Archer"
+        ]
+    }
 }

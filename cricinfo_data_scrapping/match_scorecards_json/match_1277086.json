@@ -32,8 +32,8 @@
             "extras": "30",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "c Rock b Young",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "c (wk)Rock b Young",
                     "runs": "17",
                     "balls": "37",
                     "minutes": "44",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Jason Holder",
-                    "dismissal": "c Rock b Little",
+                    "dismissal": "c (wk)Rock b Little",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "16",
@@ -309,7 +309,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Neil Rock , Mark Adair , Craig Young , Josh Little",
+            "did_not_bat": "Neil Rock (wk) , Mark Adair , Craig Young , Josh Little",
             "fall_of_wickets": "Fall of wickets : 1 - 37 ( Paul Stirling , 4.6 ov ) , 2 - 60 ( William Porterfield , 9.6 ov ) , 3 - 104 ( Andy McBrine , 19.4 ov ) , 4 - 157 ( Curtis Campher , 30.5 ov ) , 5 - 165 ( George Dockrell , 32.2 ov )",
             "bowling": [
                 {
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 5 wickets (with 21 balls remaining) (D/L method)"
+    "result": "Ireland won by 5 wickets (with 21 balls remaining) (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Akeal Hosein",
+            "Kieron Pollard(c)",
+            "Shamarh Brooks",
+            "Jason Holder",
+            "Alzarri Joseph",
+            "Justin Greaves",
+            "Romario Shepherd",
+            "Shai Hope (wk)",
+            "Roston Chase",
+            "Nicholas Pooran",
+            "Odean Smith"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Harry Tector",
+            "Mark Adair",
+            "Craig Young",
+            "Curtis Campher",
+            "William Porterfield",
+            "Gareth Delany",
+            "Neil Rock (wk)",
+            "Andy McBrine",
+            "Josh Little",
+            "Paul Stirling(c)"
+        ]
+    }
 }

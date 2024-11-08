@@ -47,7 +47,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie(c)",
-                    "dismissal": "c Latham b Henry",
+                    "dismissal": "c (wk)Latham b Henry",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "25",
@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Andy McBrine",
-                    "dismissal": "c Latham b Ferguson",
+                    "dismissal": "c (wk)Latham b Ferguson",
                     "runs": "39",
                     "balls": "58",
                     "minutes": "82",
@@ -86,7 +86,7 @@
                     "strike_rate": "91.48"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "c Bracewell b Sodhi",
                     "runs": "26",
                     "balls": "22",
@@ -117,7 +117,7 @@
                 },
                 {
                     "batsman": "Simi Singh",
-                    "dismissal": "run out (Tickner/Latham)",
+                    "dismissal": "run out (Tickner/ (wk)Latham)",
                     "runs": "30",
                     "balls": "19",
                     "minutes": "32",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Will Young",
-                    "dismissal": "c Tucker b Young",
+                    "dismissal": "c (wk)Tucker b Young",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "11",
@@ -263,7 +263,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "lbw b Campher",
                     "runs": "23",
                     "balls": "25",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Tucker b Campher",
+                    "dismissal": "c (wk)Tucker b Campher",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "20",
@@ -314,7 +314,7 @@
                 },
                 {
                     "batsman": "Matt Henry",
-                    "dismissal": "c Tucker b Little",
+                    "dismissal": "c (wk)Tucker b Little",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "9",
@@ -433,5 +433,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 1 wicket (with 1 ball remaining)"
+    "result": "New Zealand won by 1 wicket (with 1 ball remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Mark Adair",
+            "Curtis Campher",
+            "Lorcan Tucker (wk)",
+            "Simi Singh",
+            "Andy McBrine",
+            "Josh Little",
+            "Craig Young",
+            "Harry Tector",
+            "Andy Balbirnie(c)",
+            "Paul Stirling",
+            "George Dockrell"
+        ],
+        "New Zealand": [
+            "Michael Bracewell",
+            "Tom Latham(c) (wk)",
+            "Martin Guptill",
+            "Will Young",
+            "Finn Allen",
+            "Ish Sodhi",
+            "Glenn Phillips",
+            "Lockie Ferguson",
+            "Matt Henry",
+            "Blair Tickner",
+            "Henry Nicholls"
+        ]
+    }
 }

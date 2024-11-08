@@ -31,7 +31,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Anamul Haque",
+                    "batsman": "Anamul Haque (wk)",
                     "dismissal": "b Aaron",
                     "runs": "77",
                     "balls": "106",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Mominul Haque",
-                    "dismissal": "st Karthik b Ashwin",
+                    "dismissal": "st (wk)Karthik b Ashwin",
                     "runs": "23",
                     "balls": "29",
                     "minutes": "30",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Nasir Hossain",
-                    "dismissal": "c Karthik b Mohammed Shami",
+                    "dismissal": "c (wk)Karthik b Mohammed Shami",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "7",
@@ -282,7 +282,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
+                    "batsman": "Dinesh Karthik (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "2",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 6 balls remaining)"
+    "result": "India won by 6 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Nasir Hossain",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Anamul Haque (wk)",
+            "Sohag Gazi",
+            "Mominul Haque",
+            "Shamsur Rahman",
+            "Mashrafe Mortaza",
+            "Ziaur Rahman",
+            "Mushfiqur Rahim(c)"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Ambati Rayudu",
+            "Virat Kohli(c)",
+            "Ravichandran Ashwin",
+            "Dinesh Karthik (wk)",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Mohammed Shami",
+            "Shikhar Dhawan",
+            "Varun Aaron"
+        ]
+    }
 }

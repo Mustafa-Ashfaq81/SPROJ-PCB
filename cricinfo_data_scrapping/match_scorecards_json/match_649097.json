@@ -33,7 +33,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Misbah-ul-Haq b Junaid Khan",
                     "runs": "112",
                     "balls": "135",
@@ -201,7 +201,7 @@
             "batting": [
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "run out (de Villiers/de Kock)",
+                    "dismissal": "run out (de Villiers/ (wk)de Kock)",
                     "runs": "43",
                     "balls": "59",
                     "minutes": "80",
@@ -260,7 +260,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c Morkel b Steyn",
                     "runs": "22",
                     "balls": "23",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 28 runs"
+    "result": "South Africa won by 28 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "AB de Villiers(c)",
+            "Ryan McLaren",
+            "Jean-Paul Duminy",
+            "Dale Steyn",
+            "David Miller",
+            "Faf du Plessis",
+            "Quinton de Kock (wk)",
+            "Morne Morkel",
+            "Imran Tahir",
+            "Hashim Amla"
+        ],
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Sohaib Maqsood",
+            "Asad Shafiq",
+            "Mohammad Irfan",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Misbah-ul-Haq(c)",
+            "Umar Akmal (wk)",
+            "Sohail Tanvir",
+            "Junaid Khan",
+            "Mohammad Hafeez"
+        ]
+    }
 }

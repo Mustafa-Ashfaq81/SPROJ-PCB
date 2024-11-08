@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Guy Whittall",
-                    "dismissal": "c McCullum b Cairns",
+                    "dismissal": "c (wk)McCullum b Cairns",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "7",
@@ -81,7 +81,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "lbw b Harris",
                     "runs": "53",
                     "balls": "79",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Andy Blignaut",
-                    "dismissal": "run out (McCullum/Vettori)",
+                    "dismissal": "run out ( (wk)McCullum/Vettori)",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "10",
@@ -233,7 +233,7 @@
             "batting": [
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Taibu b Hondo",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "25",
@@ -292,7 +292,7 @@
                     "strike_rate": "140.00"
                 }
             ],
-            "did_not_bat": "Brendon McCullum , Jacob Oram , Andre Adams , Daniel Vettori , Shane Bond",
+            "did_not_bat": "Brendon McCullum (wk) , Jacob Oram , Andre Adams , Daniel Vettori , Shane Bond",
             "fall_of_wickets": "Fall of wickets : 1 - 27 ( Craig McMillan , 5.6 ov ) , 2 - 72 ( Stephen Fleming , 13.3 ov ) , 3 - 97 ( Scott Styris , 19.2 ov ) , 4 - 218 ( Chris Cairns , 43.6 ov )",
             "bowling": [
                 {
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 6 wickets (with 16 balls remaining)"
+    "result": "New Zealand won by 6 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Craig Wishart",
+            "Andy Flower",
+            "Brian Murphy",
+            "Grant Flower",
+            "Andy Blignaut",
+            "Guy Whittall",
+            "Dion Ebrahim",
+            "Sean Ervine",
+            "Heath Streak(c)",
+            "Douglas Hondo"
+        ],
+        "New Zealand": [
+            "Shane Bond",
+            "Jacob Oram",
+            "Stephen Fleming(c)",
+            "Nathan Astle",
+            "Craig McMillan",
+            "Brendon McCullum (wk)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Scott Styris",
+            "Chris Cairns",
+            "Andre Adams"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "6",
                     "balls": "14",
                     "minutes": "11",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "28",
@@ -60,7 +60,7 @@
                     "strike_rate": "43.63"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "lbw b Chigumbura",
                     "runs": "26",
                     "balls": "35",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Nasir Hossain",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "36",
                     "balls": "53",
                     "minutes": "70",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ziaur Rahman",
-                    "dismissal": "c Taylor b SW Masakadza",
+                    "dismissal": "c (wk)Taylor b SW Masakadza",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "25",
@@ -267,7 +267,7 @@
                     "strike_rate": "63.88"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
+                    "batsman": "Brendan Taylor(c) (wk)",
                     "dismissal": "c Mominul Haque b Ziaur Rahman",
                     "runs": "37",
                     "balls": "60",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 6 wickets (with 13 balls remaining)"
+    "result": "Zimbabwe won by 6 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mominul Haque",
+            "Mahmudullah",
+            "Mohammad Ashraful",
+            "Shafiul Islam",
+            "Robiul Islam",
+            "Mushfiqur Rahim(c) (wk)",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Ziaur Rahman",
+            "Shakib Al Hasan",
+            "Tamim Iqbal"
+        ],
+        "Zimbabwe": [
+            "Tendai Chatara",
+            "Shingi Masakadza",
+            "Kyle Jarvis",
+            "Brendan Taylor(c) (wk)",
+            "Prosper Utseya",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Sikandar Raza",
+            "Elton Chigumbura",
+            "Malcolm Waller"
+        ]
+    }
 }

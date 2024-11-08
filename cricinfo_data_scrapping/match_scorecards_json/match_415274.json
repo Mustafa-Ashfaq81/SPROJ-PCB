@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Travis Dowlin",
-                    "dismissal": "c Kamran Akmal b Mohammad Amir",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Amir",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -104,7 +104,7 @@
                     "strike_rate": "67.56"
                 },
                 {
-                    "batsman": "Chadwick Walton",
+                    "batsman": "Chadwick Walton (wk)",
                     "dismissal": "lbw b Umar Gul",
                     "runs": "0",
                     "balls": "1",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Tino Best",
-                    "dismissal": "st Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "8",
                     "balls": "19",
                     "minutes": "26",
@@ -237,8 +237,8 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Walton b Tonge",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Walton b Tonge",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "24",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Walton b Tonge",
+                    "dismissal": "c (wk)Walton b Tonge",
                     "runs": "23",
                     "balls": "39",
                     "minutes": "59",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Walton b Tonge",
+                    "dismissal": "c (wk)Walton b Tonge",
                     "runs": "23",
                     "balls": "31",
                     "minutes": "44",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq",
-                    "dismissal": "c Walton b Bernard",
+                    "dismissal": "c (wk)Walton b Bernard",
                     "runs": "6",
                     "balls": "22",
                     "minutes": "37",
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 5 wickets (with 117 balls remaining)"
+    "result": "Pakistan won by 5 wickets (with 117 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Travis Dowlin",
+            "Andre Fletcher",
+            "Chadwick Walton (wk)",
+            "Devon Smith",
+            "Gavin Tonge",
+            "Dale Richards",
+            "David Bernard",
+            "Tino Best",
+            "Floyd Reifer(c)",
+            "Nikita Miller",
+            "Daren Sammy"
+        ],
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Naved-ul-Hasan",
+            "Umar Gul",
+            "Mohammad Amir",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Shahid Afridi(c)",
+            "Imran Nazir",
+            "Misbah-ul-Haq",
+            "Shoaib Malik",
+            "Umar Akmal"
+        ]
+    }
 }

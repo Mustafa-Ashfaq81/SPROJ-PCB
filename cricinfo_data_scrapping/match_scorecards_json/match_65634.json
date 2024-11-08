@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "st Gilchrist b Symonds",
+                    "dismissal": "st (wk)Gilchrist b Symonds",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -81,7 +81,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Maher b Bichel",
                     "runs": "25",
                     "balls": "20",
@@ -198,7 +198,7 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Vaas",
                     "runs": "6",
                     "balls": "3",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "10",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Andy Bichel",
-                    "dismissal": "c Sangakkara b Gunaratne",
+                    "dismissal": "c (wk)Sangakkara b Gunaratne",
                     "runs": "28",
                     "balls": "24",
                     "minutes": "33",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 79 runs"
+    "result": "Sri Lanka won by 79 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Hashan Tillakaratne",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Aravinda de Silva",
+            "Sanath Jayasuriya(c)",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Pulasthi Gunaratne",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Jimmy Maher",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Brad Hogg",
+            "Damien Martyn",
+            "Shane Watson"
+        ]
+    }
 }

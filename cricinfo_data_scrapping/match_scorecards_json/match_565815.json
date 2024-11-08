@@ -90,7 +90,7 @@
                     "strike_rate": "126.66"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Yuvraj Singh b Jadeja",
                     "runs": "14",
                     "balls": "9",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Buttler b Bresnan",
+                    "dismissal": "c (wk)Buttler b Bresnan",
                     "runs": "10",
                     "balls": "16",
                     "minutes": "22",
@@ -267,7 +267,7 @@
                     "strike_rate": "112.65"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Morgan b Dernbach",
                     "runs": "19",
                     "balls": "21",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 15 balls remaining)"
+    "result": "India won by 5 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "Samit Patel",
+            "Kevin Pietersen",
+            "Tim Bresnan",
+            "Jade Dernbach",
+            "Jos Buttler (wk)",
+            "James Tredwell"
+        ],
+        "India": [
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Mohammed Shami",
+            "Gautam Gambhir",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

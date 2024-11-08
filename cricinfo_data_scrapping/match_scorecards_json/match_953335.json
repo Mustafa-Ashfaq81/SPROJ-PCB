@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Noor Ali Zadran",
-                    "dismissal": "c Mutumbami b Chibhabha",
+                    "dismissal": "c (wk)Mutumbami b Chibhabha",
                     "runs": "63",
                     "balls": "82",
                     "minutes": "-",
@@ -43,7 +43,7 @@
                     "strike_rate": "76.82"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Jongwe b Masakadza",
                     "runs": "5",
                     "balls": "7",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Mirwais Ashraf",
-                    "dismissal": "st Mutumbami b Cremer",
+                    "dismissal": "st (wk)Mutumbami b Cremer",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "b Mirwais Ashraf",
                     "runs": "0",
                     "balls": "2",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "run out (Asghar Afghan/Mohammad Shahzad)",
+                    "dismissal": "run out (Asghar Afghan/ (wk)Mohammad Shahzad)",
                     "runs": "6",
                     "balls": "25",
                     "minutes": "-",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 49 runs"
+    "result": "Afghanistan won by 49 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Amir Hamza",
+            "Samiullah Shinwari",
+            "Mohammad Nabi",
+            "Mohammad Shahzad (wk)",
+            "Mirwais Ashraf",
+            "Yamin Ahmadzai",
+            "Asghar Afghan(c)",
+            "Nawroz Mangal"
+        ],
+        "Zimbabwe": [
+            "Graeme Cremer",
+            "Taurai Muzarabani",
+            "Chamu Chibhabha",
+            "Wellington Masakadza",
+            "Craig Ervine",
+            "Richmond Mutumbami (wk)",
+            "Malcolm Waller",
+            "Peter Moor",
+            "Elton Chigumbura(c)",
+            "Sikandar Raza",
+            "Luke Jongwe"
+        ]
+    }
 }

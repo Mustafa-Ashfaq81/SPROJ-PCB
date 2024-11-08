@@ -34,7 +34,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Mohammad Mithun b Mashrafe Mortaza",
                     "runs": "109",
                     "balls": "132",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "5",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Jason Holder(c)",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "3",
@@ -257,7 +257,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "32",
                     "balls": "25",
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 8 wickets (with 30 balls remaining)"
+    "result": "Bangladesh won by 8 wickets (with 30 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kemar Roach",
+            "Jonathan Carter",
+            "Darren Bravo",
+            "Sunil Ambris",
+            "Roston Chase",
+            "Ashley Nurse",
+            "Sheldon Cottrell",
+            "Jason Holder(c)",
+            "Shane Dowrich",
+            "Shai Hope (wk)",
+            "Shannon Gabriel"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Soumya Sarkar",
+            "Mohammad Saifuddin",
+            "Mashrafe Mortaza (c)",
+            "Mustafizur Rahman",
+            "Sabbir Rahman",
+            "Tamim Iqbal",
+            "Mehidy Hasan Miraz",
+            "Shakib Al Hasan",
+            "Mohammad Mithun",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Green b Ellis",
                     "runs": "27",
                     "balls": "39",
@@ -277,8 +277,8 @@
                     "strike_rate": "69.84"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c de Kock b Jansen",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)de Kock b Jansen",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "9",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 122 runs"
+    "result": "South Africa won by 122 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Marco Jansen",
+            "Heinrich Klaasen",
+            "Rassie van der Dussen",
+            "David Miller",
+            "Lungi Ngidi",
+            "Keshav Maharaj",
+            "Andile Phehlukwayo",
+            "Gerald Coetzee",
+            "Quinton de Kock (wk)",
+            "Aiden Markram",
+            "Temba Bavuma(c)"
+        ],
+        "Australia": [
+            "Mitchell Marsh(c)",
+            "Michael Neser",
+            "David Warner",
+            "Sean Abbott",
+            "Tim David",
+            "Alex Carey (wk)",
+            "Nathan Ellis",
+            "Josh Inglis",
+            "Marnus Labuschagne",
+            "Adam Zampa",
+            "Cameron Green"
+        ]
+    }
 }

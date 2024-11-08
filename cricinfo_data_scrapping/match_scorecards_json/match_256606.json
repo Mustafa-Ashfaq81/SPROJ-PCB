@@ -91,7 +91,7 @@
                     "strike_rate": "13.33"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Taylor",
                     "runs": "23",
                     "balls": "19",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "92",
                     "balls": "83",
                     "minutes": "116",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "c Haddin b Cosgrove",
+                    "dismissal": "c (wk)Haddin b Cosgrove",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "9",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c Haddin b Bracken",
+                    "dismissal": "c (wk)Haddin b Bracken",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "24",
@@ -308,8 +308,8 @@
                     "strike_rate": "22.22"
                 },
                 {
-                    "batsman": "Carlton Baugh",
-                    "dismissal": "c Haddin b Bracken",
+                    "batsman": "Carlton Baugh (wk)",
+                    "dismissal": "c (wk)Haddin b Bracken",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "2",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Australia won by 78 runs"
+    "result": "Australia won by 78 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Mark Cosgrove",
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Simon Katich",
+            "Shane Watson",
+            "Nathan Bracken",
+            "Dan Cullen",
+            "Phil Jaques",
+            "Glenn McGrath",
+            "Michael Clarke"
+        ],
+        "West Indies": [
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Carlton Baugh (wk)",
+            "Fidel Edwards",
+            "Ramnaresh Sarwan",
+            "Dwayne Bravo",
+            "Wavell Hinds",
+            "Dwayne Smith",
+            "Jerome Taylor"
+        ]
+    }
 }

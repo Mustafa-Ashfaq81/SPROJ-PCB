@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "17",
                     "balls": "14",
                     "minutes": "25",
@@ -61,7 +61,7 @@
                     "strike_rate": "121.42"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "c Woakes b Ali",
                     "runs": "37",
                     "balls": "56",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "7",
@@ -245,7 +245,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Chandimal b Pradeep",
+                    "dismissal": "c (wk)Chandimal b Pradeep",
                     "runs": "43",
                     "balls": "49",
                     "minutes": "58",
@@ -264,7 +264,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Shanaka b Prasanna",
                     "runs": "93",
                     "balls": "99",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Farveez Maharoof",
+            "Danushka Gunathilaka",
+            "Dinesh Chandimal (wk)",
+            "Suranga Lakmal",
+            "Kusal Mendis",
+            "Seekkuge Prasanna",
+            "Nuwan Pradeep",
+            "Angelo Mathews(c)",
+            "Dasun Shanaka",
+            "Kusal Perera",
+            "Upul Tharanga"
+        ],
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "David Willey",
+            "Adil Rashid",
+            "Alex Hales",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Moeen Ali"
+        ]
+    }
 }

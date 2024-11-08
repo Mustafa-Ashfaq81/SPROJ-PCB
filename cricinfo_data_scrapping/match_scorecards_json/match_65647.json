@@ -65,7 +65,7 @@
                     "strike_rate": "91.15"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c Williams b Harvey",
                     "runs": "74",
                     "balls": "64",
@@ -192,7 +192,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Balaji b Pathan",
                     "runs": "21",
                     "balls": "15",
@@ -203,7 +203,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Dravid b Pathan",
+                    "dismissal": "c (wk)Dravid b Pathan",
                     "runs": "109",
                     "balls": "107",
                     "minutes": "150",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Dravid b Pathan",
+                    "dismissal": "c (wk)Dravid b Pathan",
                     "runs": "42",
                     "balls": "45",
                     "minutes": "59",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Brad Williams",
-                    "dismissal": "run out (Dravid)",
+                    "dismissal": "run out ( (wk)Dravid)",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "5",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "India won by 19 runs"
+    "result": "India won by 19 runs",
+    "playing_xi": {
+        "India": [
+            "Ashish Nehra",
+            "Lakshmipathy Balaji",
+            "Irfan Pathan",
+            "VVS Laxman",
+            "Rahul Dravid (wk)",
+            "Yuvraj Singh",
+            "Sourav Ganguly(c)",
+            "Hemang Badani",
+            "Anil Kumble",
+            "Rohan Gavaskar",
+            "Sachin Tendulkar"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Brad Williams",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Michael Clarke",
+            "Damien Martyn"
+        ]
+    }
 }

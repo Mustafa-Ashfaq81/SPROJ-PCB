@@ -51,7 +51,7 @@
                     "strike_rate": "87.23"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c McMillan b Styris",
                     "runs": "50",
                     "balls": "64",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Sinclair b Harris",
+                    "dismissal": "c (wk)Sinclair b Harris",
                     "runs": "2",
                     "balls": "12",
                     "minutes": "10",
@@ -288,7 +288,7 @@
                     "strike_rate": "67.12"
                 },
                 {
-                    "batsman": "Mathew Sinclair",
+                    "batsman": "Mathew Sinclair (wk)",
                     "dismissal": "run out (Jayasuriya)",
                     "runs": "16",
                     "balls": "38",
@@ -309,7 +309,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "st Sangakkara b Dharmasena",
+                    "dismissal": "st (wk)Sangakkara b Dharmasena",
                     "runs": "16",
                     "balls": "31",
                     "minutes": "31",
@@ -466,5 +466,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 46 runs"
+    "result": "Sri Lanka won by 46 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Russel Arnold",
+            "Kumar Dharmasena",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya(c)",
+            "Upul Chandana",
+            "Marvan Atapattu"
+        ],
+        "New Zealand": [
+            "Nathan Astle",
+            "Craig McMillan",
+            "Mathew Sinclair (wk)",
+            "Chris Harris",
+            "Jacob Oram",
+            "James Franklin",
+            "Ian Butler",
+            "Stephen Fleming(c)",
+            "Matt Horne",
+            "Scott Styris",
+            "Daryl Tuffey"
+        ]
+    }
 }

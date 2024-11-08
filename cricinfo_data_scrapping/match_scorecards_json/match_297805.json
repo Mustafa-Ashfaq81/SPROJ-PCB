@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "c Dhoni b Sreesanth",
+                    "dismissal": "c (wk)Dhoni b Sreesanth",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "9",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "st Dhoni b Yuvraj Singh",
+                    "dismissal": "st (wk)Dhoni b Yuvraj Singh",
                     "runs": "74",
                     "balls": "82",
                     "minutes": "129",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik(c)",
-                    "dismissal": "st Dhoni b Kartik",
+                    "dismissal": "st (wk)Dhoni b Kartik",
                     "runs": "89",
                     "balls": "82",
                     "minutes": "109",
@@ -114,7 +114,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Sarfaraz Ahmed , Umar Gul , Iftikhar Anjum",
+            "did_not_bat": "Sarfaraz Ahmed (wk) , Umar Gul , Iftikhar Anjum",
             "fall_of_wickets": "Fall of wickets : 1 - 65 ( Salman Butt , 12.6 ov ) , 2 - 70 ( Yasir Hameed , 14.4 ov ) , 3 - 77 ( Imran Nazir , 16.5 ov ) , 4 - 245 ( Shoaib Malik , 42.2 ov ) , 5 - 261 ( Mohammad Yousuf , 43.6 ov ) , 6 - 299 ( Misbah-ul-Haq , 48.6 ov )",
             "bowling": [
                 {
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Sarfaraz Ahmed b Sohail Tanvir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Sohail Tanvir",
                     "runs": "10",
                     "balls": "13",
                     "minutes": "27",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Sarfaraz Ahmed b Umar Gul",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Umar Gul",
                     "runs": "50",
                     "balls": "62",
                     "minutes": "120",
@@ -271,7 +271,7 @@
                     "strike_rate": "80.64"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Imran Nazir b Shoaib Malik",
                     "runs": "24",
                     "balls": "32",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 31 runs"
+    "result": "Pakistan won by 31 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Salman Butt",
+            "Yasir Hameed",
+            "Iftikhar Anjum",
+            "Sarfaraz Ahmed (wk)",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Umar Gul",
+            "Fawad Alam",
+            "Imran Nazir",
+            "Sohail Tanvir",
+            "Misbah-ul-Haq"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Robin Uthappa",
+            "Sreesanth",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Murali Kartik",
+            "Gautam Gambhir"
+        ]
+    }
 }

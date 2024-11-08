@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "run out (Coulter-Nile/Haddin)",
+                    "dismissal": "run out (Coulter-Nile/ (wk)Haddin)",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Haddin b Faulkner",
+                    "dismissal": "c (wk)Haddin b Faulkner",
                     "runs": "12",
                     "balls": "14",
                     "minutes": "20",
@@ -80,8 +80,8 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "run out (sub [MC Henriques]/Haddin)",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "run out (sub [MC Henriques]/ (wk)Haddin)",
                     "runs": "62",
                     "balls": "38",
                     "minutes": "73",
@@ -231,7 +231,7 @@
                     "strike_rate": "69.69"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Ashwin",
                     "runs": "40",
                     "balls": "49",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "George Bailey(c)",
-                    "dismissal": "run out (Yuvraj Singh/Vinay Kumar/Dhoni)",
+                    "dismissal": "run out (Yuvraj Singh/Vinay Kumar/ (wk)Dhoni)",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "11",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "India won by 57 runs"
+    "result": "India won by 57 runs",
+    "playing_xi": {
+        "India": [
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Mohammed Shami",
+            "Vinay Kumar",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "Ravichandran Ashwin"
+        ],
+        "Australia": [
+            "George Bailey(c)",
+            "Adam Voges",
+            "Nathan Coulter-Nile",
+            "Xavier Doherty",
+            "Clint McKay",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shane Watson",
+            "Phillip Hughes",
+            "Aaron Finch"
+        ]
+    }
 }

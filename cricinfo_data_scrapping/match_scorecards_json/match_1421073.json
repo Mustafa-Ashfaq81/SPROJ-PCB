@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Richie Berrington(c)",
-                    "dismissal": "c Wijeyeratne b Heyliger",
+                    "dismissal": "c (wk)Wijeyeratne b Heyliger",
                     "runs": "30",
                     "balls": "46",
                     "minutes": "52",
@@ -72,7 +72,7 @@
                     "strike_rate": "65.21"
                 },
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Ammar Khalid",
                     "runs": "17",
                     "balls": "31",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Scott Currie",
-                    "dismissal": "st Wijeyeratne b Kirton",
+                    "dismissal": "st (wk)Wijeyeratne b Kirton",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "7",
@@ -239,8 +239,8 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Srimantha Wijeyeratne",
-                    "dismissal": "run out (Berrington/Cross)",
+                    "batsman": "Srimantha Wijeyeratne (wk)",
+                    "dismissal": "run out (Berrington/ (wk)Cross)",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "12",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "Canada won by 5 wickets (with 27 balls remaining)"
+    "result": "Canada won by 5 wickets (with 27 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Richie Berrington(c)",
+            "Scott Currie",
+            "Safyaan Sharif",
+            "Brad Wheal",
+            "Matthew Cross (wk)",
+            "Michael Leask",
+            "Brandon McMullen",
+            "Charlie Tear",
+            "Brad Currie",
+            "George Munsey",
+            "Mark Watt"
+        ],
+        "Canada": [
+            "Pargat Singh",
+            "Shreyas Movva",
+            "Kaleem Sana",
+            "Harsh Thaker",
+            "Srimantha Wijeyeratne (wk)",
+            "Aaron Johnson",
+            "Nicholas Kirton",
+            "Navneet Dhaliwal",
+            "Ammar Khalid",
+            "Saad Bin Zafar (c)",
+            "Dilon Heyliger"
+        ]
+    }
 }

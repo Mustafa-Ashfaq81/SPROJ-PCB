@@ -31,7 +31,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Waller b Muzarabani",
                     "runs": "2",
                     "balls": "14",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Samiullah Shinwari",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "5",
                     "balls": "31",
                     "minutes": "-",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan(c)",
-                    "dismissal": "st Taylor b Cremer",
+                    "dismissal": "st (wk)Taylor b Cremer",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "-",
@@ -248,7 +248,7 @@
                     "strike_rate": "40.74"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "lbw b Sharafuddin Ashraf",
                     "runs": "27",
                     "balls": "38",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 146 runs"
+    "result": "Afghanistan won by 146 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Nasir Jamal",
+            "Sharafuddin Ashraf",
+            "Shapoor Zadran",
+            "Mujeeb Ur Rahman",
+            "Rashid Khan",
+            "Mohammad Shahzad (wk)",
+            "Rahmat Shah",
+            "Javed Ahmadi",
+            "Asghar Afghan(c)",
+            "Samiullah Shinwari"
+        ],
+        "Zimbabwe": [
+            "Tendai Chisoro",
+            "Sikandar Raza",
+            "Brendan Taylor (wk)",
+            "Tarisai Musakanda",
+            "Graeme Cremer(c)",
+            "Craig Ervine",
+            "Blessing Muzarabani",
+            "Malcolm Waller",
+            "Tendai Chatara",
+            "Solomon Mire",
+            "Hamilton Masakadza"
+        ]
+    }
 }

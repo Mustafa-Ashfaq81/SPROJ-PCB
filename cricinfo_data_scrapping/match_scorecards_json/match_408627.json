@@ -38,8 +38,8 @@
                     "strike_rate": "65.78"
                 },
                 {
-                    "batsman": "Gary Wilson",
-                    "dismissal": "c Petrie b Goudie",
+                    "batsman": "Gary Wilson (wk)",
+                    "dismissal": "c (wk)Petrie b Goudie",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "16",
@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Petrie b Nel",
+                    "dismissal": "c (wk)Petrie b Nel",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "20",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Ryan Watson",
-                    "dismissal": "run out (Wilson)",
+                    "dismissal": "run out ( (wk)Wilson)",
                     "runs": "12",
                     "balls": "31",
                     "minutes": "38",
@@ -295,7 +295,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Marc Petrie",
+                    "batsman": "Marc Petrie (wk)",
                     "dismissal": "run out (Mooney)",
                     "runs": "3",
                     "balls": "12",
@@ -316,7 +316,7 @@
                 },
                 {
                     "batsman": "Gordon Goudie",
-                    "dismissal": "st Wilson b West",
+                    "dismissal": "st (wk)Wilson b West",
                     "runs": "12",
                     "balls": "13",
                     "minutes": "16",
@@ -326,7 +326,7 @@
                 },
                 {
                     "batsman": "Ross Lyons",
-                    "dismissal": "st Wilson b West",
+                    "dismissal": "st (wk)Wilson b West",
                     "runs": "6",
                     "balls": "14",
                     "minutes": "18",
@@ -449,5 +449,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 96 runs"
+    "result": "Ireland won by 96 runs",
+    "playing_xi": {
+        "Ireland": [
+            "Gary Wilson (wk)",
+            "Trent Johnston",
+            "Kevin O'Brien",
+            "Paul Stirling",
+            "William Porterfield(c)",
+            "John Mooney",
+            "Alex Cusack",
+            "Kyle McCallan",
+            "Andre Botha",
+            "Andrew White",
+            "Regan West"
+        ],
+        "Scotland": [
+            "Navdeep Poonia",
+            "Neil McCallum",
+            "Dewald Nel",
+            "Ross Lyons",
+            "Gordon Goudie",
+            "Gavin Hamilton(c)",
+            "Gordon Drummond",
+            "Ryan Watson",
+            "Marc Petrie (wk)",
+            "Fraser Watts",
+            "Majid Haq"
+        ]
+    }
 }

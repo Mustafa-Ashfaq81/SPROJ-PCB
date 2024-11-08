@@ -91,7 +91,7 @@
                     "strike_rate": "115.78"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "c Harbhajan Singh b Pathan",
                     "runs": "14",
                     "balls": "13",
@@ -229,7 +229,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Moin Khan b Shabbir Ahmed",
+                    "dismissal": "c (wk)Moin Khan b Shabbir Ahmed",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "10",
@@ -258,7 +258,7 @@
                     "strike_rate": "86.66"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "lbw b Abdul Razzaq",
                     "runs": "5",
                     "balls": "9",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "run out (Younis Khan/Moin Khan)",
+                    "dismissal": "run out (Younis Khan/ (wk)Moin Khan)",
                     "runs": "3",
                     "balls": "18",
                     "minutes": "15",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 59 runs"
+    "result": "Pakistan won by 59 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Inzamam-ul-Haq(c)",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Shabbir Ahmed",
+            "Moin Khan (wk)",
+            "Mohammad Yousuf",
+            "Imran Nazir",
+            "Yasir Hameed"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Irfan Pathan",
+            "Anil Kumble",
+            "Ashish Nehra",
+            "Rahul Dravid (wk)",
+            "Lakshmipathy Balaji",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh",
+            "Mohammad Kaif"
+        ]
+    }
 }

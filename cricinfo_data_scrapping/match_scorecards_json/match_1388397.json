@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Najmul Hossain Shanto",
-                    "dismissal": "run out (Najibullah Zadran/Rahmanullah Gurbaz)",
+                    "dismissal": "run out (Najibullah Zadran/ (wk)Rahmanullah Gurbaz)",
                     "runs": "104",
                     "balls": "105",
                     "minutes": "142",
@@ -74,7 +74,7 @@
                     "strike_rate": "99.04"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "run out (Hashmatullah Shahidi/Gulbadin Naib)",
                     "runs": "25",
                     "balls": "15",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Shamim Hossain",
-                    "dismissal": "run out (Karim Janat/Rahmanullah Gurbaz)",
+                    "dismissal": "run out (Karim Janat/ (wk)Rahmanullah Gurbaz)",
                     "runs": "11",
                     "balls": "6",
                     "minutes": "9",
@@ -211,7 +211,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "lbw b Shoriful Islam",
                     "runs": "1",
                     "balls": "7",
@@ -222,7 +222,7 @@
                 },
                 {
                     "batsman": "Ibrahim Zadran",
-                    "dismissal": "c Mushfiqur Rahim b Hasan Mahmud",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Hasan Mahmud",
                     "runs": "75",
                     "balls": "74",
                     "minutes": "118",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 89 runs"
+    "result": "Bangladesh won by 89 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Afif Hossain",
+            "Shoriful Islam",
+            "Hasan Mahmud",
+            "Najmul Hossain Shanto",
+            "Towhid Hridoy",
+            "Mohammad Naim",
+            "Shakib Al Hasan(c)",
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed",
+            "Shamim Hossain"
+        ],
+        "Afghanistan": [
+            "Hashmatullah Shahidi(c)",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Karim Janat",
+            "Mujeeb Ur Rahman",
+            "Rahmanullah Gurbaz (wk)",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi",
+            "Najibullah Zadran",
+            "Gulbadin Naib"
+        ]
+    }
 }

@@ -70,7 +70,7 @@
                     "strike_rate": "118.75"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Abid Ali b Imad Wasim",
                     "runs": "34",
                     "balls": "34",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Babar Azam",
-                    "dismissal": "run out (Buttler/Rashid)",
+                    "dismissal": "run out ( (wk)Buttler/Rashid)",
                     "runs": "80",
                     "balls": "83",
                     "minutes": "101",
@@ -291,8 +291,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
-                    "dismissal": "run out (Buttler)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
+                    "dismissal": "run out ( (wk)Buttler)",
                     "runs": "97",
                     "balls": "80",
                     "minutes": "107",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Imad Wasim",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "25",
                     "balls": "21",
                     "minutes": "24",
@@ -352,7 +352,7 @@
                 },
                 {
                     "batsman": "Mohammad Hasnain",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "28",
                     "balls": "17",
                     "minutes": "28",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "England won by 54 runs"
+    "result": "England won by 54 runs",
+    "playing_xi": {
+        "England": [
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "David Willey",
+            "Adil Rashid",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Tom Curran",
+            "James Vince",
+            "Ben Stokes",
+            "Moeen Ali"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed(c) (wk)",
+            "Asif Ali",
+            "Imad Wasim",
+            "Mohammad Hafeez",
+            "Babar Azam",
+            "Abid Ali",
+            "Mohammad Hasnain",
+            "Shoaib Malik",
+            "Hasan Ali",
+            "Fakhar Zaman",
+            "Shaheen Shah Afridi"
+        ]
+    }
 }

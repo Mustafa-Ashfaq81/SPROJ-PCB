@@ -63,7 +63,7 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "run out (Schiferli/Mudassar Bukhari)",
                     "runs": "22",
                     "balls": "38",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Mudassar Bukhari",
-                    "dismissal": "run out (McCallan/NJ O'Brien)",
+                    "dismissal": "run out (McCallan/ (wk)NJ O'Brien)",
                     "runs": "71",
                     "balls": "114",
                     "minutes": "126",
@@ -324,7 +324,7 @@
                     "strike_rate": "71.42"
                 }
             ],
-            "did_not_bat": "Jeroen Smits (c) , Edgar Schiferli , Adeel Raja",
+            "did_not_bat": "Jeroen Smits (c) (wk) , Edgar Schiferli , Adeel Raja",
             "fall_of_wickets": "Fall of wickets : 1 - 84 ( Alexei Kervezee , 21.2 ov ) , 2 - 138 ( Mudassar Bukhari , 32.5 ov ) , 3 - 159 ( Bas Zuiderent , 38.3 ov ) , 4 - 192 ( Eric Szwarczynski , 45.2 ov ) , 5 - 192 ( Peter Borren , 46.1 ov ) , 6 - 198 ( Henk-Jan Mol , 47.4 ov )",
             "bowling": [
                 {
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 1 run"
+    "result": "Ireland won by 1 run",
+    "playing_xi": {
+        "Ireland": [
+            "Kyle McCallan",
+            "Kenny Carroll",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Eoin Morgan",
+            "Alex Cusack",
+            "Gary Kidd",
+            "Kevin O'Brien",
+            "Dave Langford-Smith",
+            "Thinus Fourie",
+            "Andre Botha"
+        ],
+        "Netherlands": [
+            "Geert-Maarten Mol",
+            "Eric Szwarczynski",
+            "Henk-Jan Mol",
+            "Bas Zuiderent",
+            "Billy Stelling",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Adeel Raja",
+            "Peter Borren",
+            "Alexei Kervezee",
+            "Jeroen Smits (c) (wk)"
+        ]
+    }
 }

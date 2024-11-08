@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Innocent Kaia",
-                    "dismissal": "c Samson b Chahar",
+                    "dismissal": "c (wk)Samson b Chahar",
                     "runs": "4",
                     "balls": "20",
                     "minutes": "36",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Tadiwanashe Marumani",
-                    "dismissal": "c Samson b Chahar",
+                    "dismissal": "c (wk)Samson b Chahar",
                     "runs": "8",
                     "balls": "22",
                     "minutes": "44",
@@ -82,7 +82,7 @@
                     "strike_rate": "70.58"
                 },
                 {
-                    "batsman": "Regis Chakabva(c)",
+                    "batsman": "Regis Chakabva(c) (wk)",
                     "dismissal": "b Patel",
                     "runs": "35",
                     "balls": "51",
@@ -245,7 +245,7 @@
                     "strike_rate": "113.88"
                 }
             ],
-            "did_not_bat": "Ishan Kishan , KL Rahul (c) , Deepak Hooda , Sanju Samson , Axar Patel , Deepak Chahar , Kuldeep Yadav , Prasidh Krishna , Mohammed Siraj",
+            "did_not_bat": "Ishan Kishan , KL Rahul (c) , Deepak Hooda , Sanju Samson (wk) , Axar Patel , Deepak Chahar , Kuldeep Yadav , Prasidh Krishna , Mohammed Siraj",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "India won by 10 wickets (with 115 balls remaining)"
+    "result": "India won by 10 wickets (with 115 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Wessly Madhevere",
+            "Richard Ngarava",
+            "Luke Jongwe",
+            "Brad Evans",
+            "Sean Williams",
+            "Sikandar Raza",
+            "Ryan Burl",
+            "Innocent Kaia",
+            "Tadiwanashe Marumani",
+            "Victor Nyauchi",
+            "Regis Chakabva(c) (wk)"
+        ],
+        "India": [
+            "Ishan Kishan",
+            "Shubman Gill",
+            "Sanju Samson (wk)",
+            "Deepak Chahar",
+            "Deepak Hooda",
+            "Kuldeep Yadav",
+            "KL Rahul (c)",
+            "Shikhar Dhawan",
+            "Axar Patel",
+            "Prasidh Krishna",
+            "Mohammed Siraj"
+        ]
+    }
 }

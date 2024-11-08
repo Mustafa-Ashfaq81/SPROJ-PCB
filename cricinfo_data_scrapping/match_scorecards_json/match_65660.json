@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "107",
                     "balls": "138",
                     "minutes": "-",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                     "strike_rate": "122.72"
                 },
                 {
-                    "batsman": "Courtney Browne",
+                    "batsman": "Courtney Browne (wk)",
                     "dismissal": "b Gillespie",
                     "runs": "0",
                     "balls": "1",
@@ -238,8 +238,8 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Browne b Bradshaw",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Browne b Bradshaw",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "-",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c Browne b Collins",
+                    "dismissal": "c (wk)Browne b Collins",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Marlon Samuels",
+            "Brian Lara(c)",
+            "Dwayne Bravo",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Pedro Collins",
+            "Shivnarine Chanderpaul",
+            "Ramnaresh Sarwan",
+            "Mervyn Dillon"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Darren Lehmann",
+            "Jason Gillespie",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Shane Watson"
+        ]
+    }
 }

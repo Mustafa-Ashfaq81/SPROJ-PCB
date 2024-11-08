@@ -90,7 +90,7 @@
                     "strike_rate": "120.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Taylor",
                     "runs": "21",
                     "balls": "11",
@@ -184,7 +184,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle(c)",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "122",
                     "balls": "137",
                     "minutes": "200",
@@ -223,7 +223,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Xavier Marshall",
+                    "batsman": "Xavier Marshall (wk)",
                     "dismissal": "b Iftikhar Anjum",
                     "runs": "0",
                     "balls": "2",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Brendan Nash",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "8",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 31 runs"
+    "result": "Pakistan won by 31 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Khurram Manzoor",
+            "Misbah-ul-Haq",
+            "Iftikhar Anjum",
+            "Umar Gul",
+            "Saeed Ajmal",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Sohail Tanvir",
+            "Salman Butt",
+            "Shoaib Malik(c)"
+        ],
+        "West Indies": [
+            "Nikita Miller",
+            "Ramnaresh Sarwan",
+            "Shawn Findlay",
+            "Daren Powell",
+            "Lionel Baker",
+            "Chris Gayle(c)",
+            "Sewnarine Chattergoon",
+            "Brendan Nash",
+            "Shivnarine Chanderpaul",
+            "Xavier Marshall (wk)",
+            "Jerome Taylor"
+        ]
+    }
 }

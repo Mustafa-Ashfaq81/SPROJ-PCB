@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Steven Smith(c)",
-                    "dismissal": "c Rahul b Pandya",
+                    "dismissal": "c (wk)Rahul b Pandya",
                     "runs": "22",
                     "balls": "30",
                     "minutes": "57",
@@ -70,7 +70,7 @@
                     "strike_rate": "68.18"
                 },
                 {
-                    "batsman": "Josh Inglis",
+                    "batsman": "Josh Inglis (wk)",
                     "dismissal": "b Mohammed Shami",
                     "runs": "26",
                     "balls": "27",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Adam Zampa",
-                    "dismissal": "c Rahul b Mohammed Siraj",
+                    "dismissal": "c (wk)Rahul b Mohammed Siraj",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "10",
@@ -277,7 +277,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "not out",
                     "runs": "75",
                     "balls": "91",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 61 balls remaining)"
+    "result": "India won by 5 wickets (with 61 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "Glenn Maxwell",
+            "Marcus Stoinis",
+            "Josh Inglis (wk)",
+            "Mitchell Starc",
+            "Sean Abbott",
+            "Mitchell Marsh",
+            "Adam Zampa",
+            "Marnus Labuschagne",
+            "Travis Head",
+            "Cameron Green"
+        ],
+        "India": [
+            "Shardul Thakur",
+            "Suryakumar Yadav",
+            "Hardik Pandya(c)",
+            "Mohammed Siraj",
+            "Ravindra Jadeja",
+            "Shubman Gill",
+            "Kuldeep Yadav",
+            "Ishan Kishan",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "KL Rahul (wk)"
+        ]
+    }
 }

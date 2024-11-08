@@ -61,7 +61,7 @@
                     "strike_rate": "56.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Gibbs b Langeveldt",
                     "runs": "25",
                     "balls": "37",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Kyle McCallan",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "5",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Paul Mooney",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -292,7 +292,7 @@
                     "strike_rate": "106.81"
                 }
             ],
-            "did_not_bat": "Mark Boucher , Justin Kemp , Shaun Pollock , Andrew Hall , Charl Langeveldt , Makhaya Ntini",
+            "did_not_bat": "Mark Boucher (wk) , Justin Kemp , Shaun Pollock , Andrew Hall , Charl Langeveldt , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( AB de Villiers , 0.3 ov ) , 2 - 71 ( Graeme Smith , 12.1 ov ) , 3 - 85 ( Herschelle Gibbs , 16.3 ov )",
             "bowling": [
                 {
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 21 balls remaining) (D/L method)"
+    "result": "South Africa won by 7 wickets (with 21 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Ireland": [
+            "Paul Mooney",
+            "Kyle McCallan",
+            "William Porterfield",
+            "Jeremy Bray",
+            "Dave Langford-Smith",
+            "Boyd Rankin",
+            "Eoin Morgan",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Andre Botha",
+            "Andrew White"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Andrew Hall"
+        ]
+    }
 }

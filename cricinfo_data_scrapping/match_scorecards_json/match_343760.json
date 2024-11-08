@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c Kamran Akmal b Sohail Tanvir",
+                    "dismissal": "c (wk)Kamran Akmal b Sohail Tanvir",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "20",
@@ -100,7 +100,7 @@
                     "strike_rate": "76.47"
                 },
                 {
-                    "batsman": "Dhiman Ghosh",
+                    "batsman": "Dhiman Ghosh (wk)",
                     "dismissal": "c Nasir Jamshed b Iftikhar Anjum",
                     "runs": "27",
                     "balls": "44",
@@ -277,7 +277,7 @@
                     "strike_rate": "400.00"
                 }
             ],
-            "did_not_bat": "Misbah-ul-Haq , Shahid Afridi , Kamran Akmal , Sohail Tanvir , Umar Gul , Iftikhar Anjum",
+            "did_not_bat": "Misbah-ul-Haq , Shahid Afridi , Kamran Akmal (wk) , Sohail Tanvir , Umar Gul , Iftikhar Anjum",
             "fall_of_wickets": "Fall of wickets : 1 - 46 ( Nasir Jamshed , 7.2 ov ) , 2 - 78 ( Younis Khan , 12.3 ov ) , 3 - 151 ( Salman Butt , 22.5 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 10 balls remaining) (D/L method)"
+    "result": "Pakistan won by 7 wickets (with 10 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Syed Rasel",
+            "Shakib Al Hasan",
+            "Shahriar Nafees",
+            "Farhad Reza",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Abdur Razzak",
+            "Aftab Ahmed",
+            "Dhiman Ghosh (wk)"
+        ],
+        "Pakistan": [
+            "Misbah-ul-Haq",
+            "Mohammad Yousuf",
+            "Iftikhar Anjum",
+            "Umar Gul",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Sohail Tanvir",
+            "Salman Butt",
+            "Nasir Jamshed",
+            "Shoaib Malik(c)"
+        ]
+    }
 }

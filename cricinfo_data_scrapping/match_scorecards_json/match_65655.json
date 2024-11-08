@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "13",
@@ -61,7 +61,7 @@
                     "strike_rate": "96.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c Hayden b Harvey",
                     "runs": "12",
                     "balls": "29",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Gilchrist b Harvey",
+                    "dismissal": "c (wk)Gilchrist b Harvey",
                     "runs": "6",
                     "balls": "21",
                     "minutes": "33",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "21",
                     "balls": "21",
                     "minutes": "30",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Irfan Pathan",
-                    "dismissal": "run out (Clarke/Gilchrist)",
+                    "dismissal": "run out (Clarke/ (wk)Gilchrist)",
                     "runs": "19",
                     "balls": "19",
                     "minutes": "23",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Anil Kumble",
-                    "dismissal": "run out (Clarke/Gilchrist)",
+                    "dismissal": "run out (Clarke/ (wk)Gilchrist)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "7",
@@ -238,7 +238,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Tendulkar b Balaji",
                     "runs": "38",
                     "balls": "20",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Dravid b Balaji",
+                    "dismissal": "c (wk)Dravid b Balaji",
                     "runs": "88",
                     "balls": "80",
                     "minutes": "114",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 59 balls remaining)"
+    "result": "Australia won by 7 wickets (with 59 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Lakshmipathy Balaji",
+            "Irfan Pathan",
+            "VVS Laxman",
+            "Rahul Dravid (wk)",
+            "Yuvraj Singh",
+            "Ajit Agarkar",
+            "Sourav Ganguly(c)",
+            "Hemang Badani",
+            "Anil Kumble",
+            "Sachin Tendulkar"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Brad Williams",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Simon Katich",
+            "Adam Gilchrist (wk)",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Damien Martyn"
+        ]
+    }
 }

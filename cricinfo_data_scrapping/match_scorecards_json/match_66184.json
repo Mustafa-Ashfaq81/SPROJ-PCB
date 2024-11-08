@@ -60,7 +60,7 @@
                     "strike_rate": "85.59"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Adeel Raja",
                     "runs": "41",
                     "balls": "68",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Robert van Oosterom",
-                    "dismissal": "c Sangakkara b Gunaratne",
+                    "dismissal": "c (wk)Sangakkara b Gunaratne",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "5",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Tim de Leede",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "31",
                     "balls": "43",
                     "minutes": "71",
@@ -271,8 +271,8 @@
                     "strike_rate": "72.09"
                 },
                 {
-                    "batsman": "Reinout Scholte",
-                    "dismissal": "c Sangakkara b Dharmasena",
+                    "batsman": "Reinout Scholte (wk)",
+                    "dismissal": "c (wk)Sangakkara b Dharmasena",
                     "runs": "12",
                     "balls": "37",
                     "minutes": "43",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Adeel Raja",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "7",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Edgar Schiferli",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "15",
                     "balls": "21",
                     "minutes": "15",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 206 runs"
+    "result": "Sri Lanka won by 206 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Pulasthi Gunaratne",
+            "Aravinda de Silva",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Russel Arnold",
+            "Kumar Dharmasena",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya(c)",
+            "Marvan Atapattu"
+        ],
+        "Netherlands": [
+            "Victor Grandia",
+            "Bas Zuiderent",
+            "Adeel Raja",
+            "Roland Lefebvre(c)",
+            "Robert van Oosterom",
+            "Tim de Leede",
+            "Edgar Schiferli",
+            "Reinout Scholte (wk)",
+            "Jacob-Jan Esmeijer",
+            "Daan van Bunge",
+            "Luuk van Troost"
+        ]
+    }
 }

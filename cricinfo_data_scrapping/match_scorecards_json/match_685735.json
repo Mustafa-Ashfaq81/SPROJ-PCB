@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "c de Kock b Tsotsobe",
+                    "dismissal": "c (wk)de Kock b Tsotsobe",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "10",
@@ -83,8 +83,8 @@
                     "strike_rate": "73.83"
                 },
                 {
-                    "batsman": "Umar Akmal",
-                    "dismissal": "c de Kock b Philander",
+                    "batsman": "Umar Akmal (wk)",
+                    "dismissal": "c (wk)de Kock b Philander",
                     "runs": "5",
                     "balls": "26",
                     "minutes": "30",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Anwar Ali",
-                    "dismissal": "c de Kock b Philander",
+                    "dismissal": "c (wk)de Kock b Philander",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "4",
@@ -226,7 +226,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Saeed Ajmal b Bilawal Bhatti",
                     "runs": "15",
                     "balls": "18",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "run out (Umar Amin/Umar Akmal)",
+                    "dismissal": "run out (Umar Amin/ (wk)Umar Akmal)",
                     "runs": "41",
                     "balls": "48",
                     "minutes": "69",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Henry Davids",
-                    "dismissal": "st Umar Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Umar Akmal b Saeed Ajmal",
                     "runs": "7",
                     "balls": "18",
                     "minutes": "21",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Umar Akmal b Abdur Rehman",
+                    "dismissal": "c (wk)Umar Akmal b Abdur Rehman",
                     "runs": "16",
                     "balls": "23",
                     "minutes": "35",
@@ -277,7 +277,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Umar Akmal b Sohail Tanvir",
+                    "dismissal": "c (wk)Umar Akmal b Sohail Tanvir",
                     "runs": "24",
                     "balls": "26",
                     "minutes": "28",
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 4 wickets (with 68 balls remaining)"
+    "result": "South Africa won by 4 wickets (with 68 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Abdur Rehman",
+            "Saeed Ajmal",
+            "Bilawal Bhatti",
+            "Umar Amin",
+            "Ahmed Shehzad",
+            "Anwar Ali",
+            "Umar Akmal (wk)",
+            "Misbah-ul-Haq(c)",
+            "Asad Shafiq",
+            "Sohail Tanvir",
+            "Sohaib Maqsood"
+        ],
+        "South Africa": [
+            "Imran Tahir",
+            "Hashim Amla",
+            "Vernon Philander",
+            "Lonwabo Tsotsobe",
+            "Quinton de Kock (wk)",
+            "Henry Davids",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Ryan McLaren",
+            "Wayne Parnell",
+            "AB de Villiers(c)"
+        ]
+    }
 }

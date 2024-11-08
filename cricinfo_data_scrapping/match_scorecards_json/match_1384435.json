@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c Mohammad Rizwan b Iftikhar Ahmed",
+                    "dismissal": "c (wk)Mohammad Rizwan b Iftikhar Ahmed",
                     "runs": "31",
                     "balls": "39",
                     "minutes": "61",
@@ -71,7 +71,7 @@
                     "strike_rate": "110.52"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "run out (Haris Rauf)",
                     "runs": "27",
                     "balls": "18",
@@ -268,7 +268,7 @@
                     "strike_rate": "84.44"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "b Ali",
                     "runs": "36",
                     "balls": "51",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "England won by 93 runs"
+    "result": "England won by 93 runs",
+    "playing_xi": {
+        "England": [
+            "Gus Atkinson",
+            "Jos Buttler(c) (wk)",
+            "Ben Stokes",
+            "Moeen Ali",
+            "Chris Woakes",
+            "Jonny Bairstow",
+            "Harry Brook",
+            "David Willey",
+            "Dawid Malan",
+            "Joe Root",
+            "Adil Rashid"
+        ],
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Saud Shakeel",
+            "Abdullah Shafique",
+            "Mohammad Wasim",
+            "Haris Rauf",
+            "Fakhar Zaman",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Salman Agha"
+        ]
+    }
 }

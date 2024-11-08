@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Colin Munro",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "58",
                     "balls": "35",
                     "minutes": "59",
@@ -70,7 +70,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Babar Azam b Faheem Ashraf",
                     "runs": "3",
                     "balls": "7",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "50",
                     "balls": "43",
                     "minutes": "64",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Latham b Southee",
+                    "dismissal": "c (wk)Latham b Southee",
                     "runs": "13",
                     "balls": "14",
                     "minutes": "20",
@@ -267,7 +267,7 @@
                     "strike_rate": "92.85"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "lbw b Astle",
                     "runs": "8",
                     "balls": "23",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Shadab Khan",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "28",
                     "balls": "32",
                     "minutes": "42",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 61 runs (D/L method)"
+    "result": "New Zealand won by 61 runs (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Todd Astle",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Tim Southee",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ross Taylor",
+            "Tom Latham (wk)",
+            "Lockie Ferguson"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Fakhar Zaman",
+            "Shoaib Malik",
+            "Azhar Ali",
+            "Rumman Raees",
+            "Shadab Khan",
+            "Faheem Ashraf",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Mohammad Amir",
+            "Babar Azam",
+            "Hasan Ali"
+        ]
+    }
 }

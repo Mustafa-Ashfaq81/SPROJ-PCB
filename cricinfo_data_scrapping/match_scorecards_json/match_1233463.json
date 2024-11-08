@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "c Mohammad Rizwan b Mohammad Hasnain",
+                    "dismissal": "c (wk)Mohammad Rizwan b Mohammad Hasnain",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "9",
@@ -65,7 +65,7 @@
                     "strike_rate": "11.11"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "c Khushdil Shah b Mohammad Hasnain",
                     "runs": "56",
                     "balls": "68",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Babar Azam(c)",
-                    "dismissal": "c Taylor b Muzarabani",
+                    "dismissal": "c (wk)Taylor b Muzarabani",
                     "runs": "125",
                     "balls": "125",
                     "minutes": "201",
@@ -238,7 +238,7 @@
                     "strike_rate": "144.44"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "b Tiripano",
                     "runs": "10",
                     "balls": "26",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Khushdil Shah",
-                    "dismissal": "c Taylor b Muzarabani",
+                    "dismissal": "c (wk)Taylor b Muzarabani",
                     "runs": "33",
                     "balls": "48",
                     "minutes": "45",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Match tied (Zimbabwe won the one-over eliminator)"
+    "result": "Match tied (Zimbabwe won the one-over eliminator)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sean Williams",
+            "Brian Chari",
+            "Craig Ervine",
+            "Richard Ngarava",
+            "Tendai Chisoro",
+            "Blessing Muzarabani",
+            "Chamu Chibhabha(c)",
+            "Wessly Madhevere",
+            "Donald Tiripano",
+            "Sikandar Raza",
+            "Brendan Taylor (wk)"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Mohammad Hasnain",
+            "Khushdil Shah",
+            "Wahab Riaz",
+            "Muhammad Musa",
+            "Babar Azam(c)",
+            "Mohammad Rizwan (wk)",
+            "Shaheen Shah Afridi",
+            "Haider Ali",
+            "Iftikhar Ahmed",
+            "Imam-ul-Haq"
+        ]
+    }
 }

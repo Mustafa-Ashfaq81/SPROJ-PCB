@@ -30,8 +30,8 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Jimmy Maher",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "12",
                     "balls": "25",
                     "minutes": "42",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Darren Lehmann",
-                    "dismissal": "c Rashid Latif b Azhar Mahmood",
+                    "dismissal": "c (wk)Rashid Latif b Azhar Mahmood",
                     "runs": "31",
                     "balls": "58",
                     "minutes": "77",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Michael Bevan",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "30",
                     "balls": "52",
                     "minutes": "96",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Azhar Mahmood",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "4",
                     "balls": "22",
                     "minutes": "36",
@@ -283,7 +283,7 @@
                     "strike_rate": "73.68"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "b Warne",
                     "runs": "16",
                     "balls": "26",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 2 wickets (with 7 balls remaining)"
+    "result": "Pakistan won by 2 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Shane Warne",
+            "Ricky Ponting(c)",
+            "Andy Bichel",
+            "Darren Lehmann",
+            "Adam Gilchrist (wk)",
+            "Jimmy Maher",
+            "Michael Bevan",
+            "Shane Watson",
+            "Brett Lee",
+            "Glenn McGrath"
+        ],
+        "Pakistan": [
+            "Rashid Latif (wk)",
+            "Mohammad Yousuf",
+            "Wasim Akram",
+            "Waqar Younis(c)",
+            "Azhar Mahmood",
+            "Imran Nazir",
+            "Younis Khan",
+            "Inzamam-ul-Haq",
+            "Shahid Afridi",
+            "Saeed Anwar",
+            "Shoaib Akhtar"
+        ]
+    }
 }

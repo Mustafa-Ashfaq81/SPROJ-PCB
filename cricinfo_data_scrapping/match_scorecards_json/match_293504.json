@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "run out (Salman Butt/Kamran Akmal)",
+                    "dismissal": "run out (Salman Butt/ (wk)Kamran Akmal)",
                     "runs": "17",
                     "balls": "33",
                     "minutes": "-",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "-",
@@ -93,7 +93,7 @@
                     "strike_rate": "63.63"
                 },
                 {
-                    "batsman": "Prasanna Jayawardene",
+                    "batsman": "Prasanna Jayawardene (wk)",
                     "dismissal": "run out (Imran Nazir)",
                     "runs": "20",
                     "balls": "30",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik(c)",
-                    "dismissal": "run out (Tharanga/HAPW Jayawardene)",
+                    "dismissal": "run out (Tharanga/ (wk)HAPW Jayawardene)",
                     "runs": "11",
                     "balls": "27",
                     "minutes": "-",
@@ -276,7 +276,7 @@
                     "strike_rate": "40.74"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "51",
                     "balls": "51",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 5 wickets (with 48 balls remaining)"
+    "result": "Pakistan won by 5 wickets (with 48 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Malinga Bandara",
+            "Tillakaratne Dilshan",
+            "Ishara Amerasinghe",
+            "Prasanna Jayawardene (wk)",
+            "Sanath Jayasuriya",
+            "Lasith Malinga",
+            "Chamara Kapugedera",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ],
+        "Pakistan": [
+            "Imran Nazir",
+            "Umar Gul",
+            "Shoaib Malik(c)",
+            "Mohammad Asif",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Salman Butt",
+            "Yasir Hameed",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Mohammad Sami"
+        ]
+    }
 }

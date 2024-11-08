@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "b Davey",
                     "runs": "22",
                     "balls": "18",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Calum MacLeod",
-                    "dismissal": "c Wilson b Rankin",
+                    "dismissal": "c (wk)Wilson b Rankin",
                     "runs": "31",
                     "balls": "41",
                     "minutes": "41",
@@ -325,7 +325,7 @@
                     "strike_rate": "33.33"
                 }
             ],
-            "did_not_bat": "Majid Haq , Gordon Drummond (c) , Gregor Maiden , Gordon Goudie",
+            "did_not_bat": "Majid Haq , Gordon Drummond (c) , Gregor Maiden (wk) , Gordon Goudie",
             "fall_of_wickets": "Fall of wickets : 1 - 129 ( Fraser Watts , 19.3 ov ) , 2 - 181 ( Kyle Coetzer , 29.1 ov ) , 3 - 197 ( Calum MacLeod , 31.5 ov ) , 4 - 232 ( Preston Mommsen , 39.6 ov ) , 5 - 313 ( Richie Berrington , 46.5 ov )",
             "bowling": [
                 {
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 5 wickets (with 9 balls remaining)"
+    "result": "Scotland won by 5 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Andrew White",
+            "Paul Stirling",
+            "William Porterfield(c)",
+            "John Mooney",
+            "Trent Johnston",
+            "Boyd Rankin",
+            "Alex Cusack",
+            "Andrew Poynter",
+            "Gary Wilson (wk)",
+            "Kevin O'Brien"
+        ],
+        "Scotland": [
+            "Preston Mommsen",
+            "Gregor Maiden (wk)",
+            "Gordon Drummond (c)",
+            "Richie Berrington",
+            "Safyaan Sharif",
+            "Majid Haq",
+            "Gordon Goudie",
+            "Fraser Watts",
+            "Josh Davey",
+            "Kyle Coetzer",
+            "Calum MacLeod"
+        ]
+    }
 }

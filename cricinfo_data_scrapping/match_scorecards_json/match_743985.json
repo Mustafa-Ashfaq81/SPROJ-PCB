@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "James Taylor",
-                    "dismissal": "c Wade b Hastings",
+                    "dismissal": "c (wk)Wade b Hastings",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "23",
@@ -83,7 +83,7 @@
                     "strike_rate": "82.35"
                 },
                 {
-                    "batsman": "Jonny Bairstow",
+                    "batsman": "Jonny Bairstow (wk)",
                     "dismissal": "lbw b Marsh",
                     "runs": "10",
                     "balls": "15",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Moeen Ali",
-                    "dismissal": "c Wade b Marsh",
+                    "dismissal": "c (wk)Wade b Marsh",
                     "runs": "5",
                     "balls": "5",
                     "minutes": "16",
@@ -227,7 +227,7 @@
             "batting": [
                 {
                     "batsman": "Joe Burns",
-                    "dismissal": "c Bairstow b Willey",
+                    "dismissal": "c (wk)Bairstow b Willey",
                     "runs": "0",
                     "balls": "10",
                     "minutes": "9",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Steven Smith(c)",
-                    "dismissal": "c Bairstow b Wood",
+                    "dismissal": "c (wk)Bairstow b Wood",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "30",
@@ -266,7 +266,7 @@
                     "strike_rate": "91.11"
                 }
             ],
-            "did_not_bat": "Glenn Maxwell , Matthew Wade , Mitchell Marsh , Ashton Agar , John Hastings , Mitchell Starc , Pat Cummins",
+            "did_not_bat": "Glenn Maxwell , Matthew Wade (wk) , Mitchell Marsh , Ashton Agar , John Hastings , Mitchell Starc , Pat Cummins",
             "fall_of_wickets": "Fall of wickets : 1 - 2 ( Joe Burns , 2.2 ov ) , 2 - 31 ( Steven Smith , 9.1 ov )",
             "bowling": [
                 {
@@ -342,5 +342,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 154 balls remaining)"
+    "result": "Australia won by 8 wickets (with 154 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ben Stokes",
+            "James Taylor",
+            "Eoin Morgan(c)",
+            "Reece Topley",
+            "Moeen Ali",
+            "Mark Wood",
+            "David Willey",
+            "Adil Rashid",
+            "Alex Hales",
+            "Jonny Bairstow (wk)",
+            "Jason Roy"
+        ],
+        "Australia": [
+            "Mitchell Starc",
+            "Matthew Wade (wk)",
+            "George Bailey",
+            "Pat Cummins",
+            "Joe Burns",
+            "Ashton Agar",
+            "John Hastings",
+            "Glenn Maxwell",
+            "Mitchell Marsh",
+            "Steven Smith(c)",
+            "Aaron Finch"
+        ]
+    }
 }

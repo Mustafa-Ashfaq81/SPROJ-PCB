@@ -92,7 +92,7 @@
                     "strike_rate": "35.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "22",
                     "balls": "59",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Abdur Razzak",
-                    "dismissal": "c Baugh b Bravo",
+                    "dismissal": "c (wk)Baugh b Bravo",
                     "runs": "9",
                     "balls": "23",
                     "minutes": "23",
@@ -259,7 +259,7 @@
                     "strike_rate": "50.00"
                 }
             ],
-            "did_not_bat": "Ramnaresh Sarwan , Brian Lara (c) , Marlon Samuels , Dwayne Bravo , Wavell Hinds , Carlton Baugh , Ian Bradshaw , Jerome Taylor , Corey Collymore",
+            "did_not_bat": "Ramnaresh Sarwan , Brian Lara (c) , Marlon Samuels , Dwayne Bravo , Wavell Hinds , Carlton Baugh (wk) , Ian Bradshaw , Jerome Taylor , Corey Collymore",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 10 wickets (with 80 balls remaining)"
+    "result": "West Indies won by 10 wickets (with 80 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Khaled Mashud (wk)",
+            "Habibul Bashar(c)",
+            "Aftab Ahmed",
+            "Farhad Reza",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Marlon Samuels",
+            "Carlton Baugh (wk)",
+            "Jerome Taylor",
+            "Dwayne Bravo",
+            "Ramnaresh Sarwan",
+            "Shivnarine Chanderpaul",
+            "Corey Collymore",
+            "Wavell Hinds",
+            "Brian Lara (c)"
+        ]
+    }
 }

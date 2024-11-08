@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "21",
@@ -92,8 +92,8 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
-                    "dismissal": "c Boucher b Ntini",
+                    "batsman": "Khaled Mashud(c) (wk)",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "29",
                     "balls": "67",
                     "minutes": "77",
@@ -259,7 +259,7 @@
                     "strike_rate": "162.50"
                 }
             ],
-            "did_not_bat": "Jacques Kallis , Boeta Dippenaar , Andrew Hall , Lance Klusener , Mark Boucher , Shaun Pollock (c) , Robin Peterson , Makhaya Ntini , Monde Zondeki",
+            "did_not_bat": "Jacques Kallis , Boeta Dippenaar , Andrew Hall , Lance Klusener , Mark Boucher (wk) , Shaun Pollock (c) , Robin Peterson , Makhaya Ntini , Monde Zondeki",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -335,5 +335,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 10 wickets (with 228 balls remaining)"
+    "result": "South Africa won by 10 wickets (with 228 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tushar Imran",
+            "Khaled Mashud(c) (wk)",
+            "Mohammad Ashraful",
+            "Sanuar Hossain",
+            "Ehsanul Hoque",
+            "Mohammad Rafique",
+            "Al Sahariar",
+            "Manjurul Islam",
+            "Khaled Mahmud",
+            "Alok Kapali",
+            "Talha Jubair"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Robin Peterson",
+            "Monde Zondeki",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Boeta Dippenaar",
+            "Lance Klusener",
+            "Andrew Hall",
+            "Makhaya Ntini",
+            "Shaun Pollock (c)"
+        ]
+    }
 }

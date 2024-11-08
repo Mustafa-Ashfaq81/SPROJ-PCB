@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Kamran Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Kamran Akmal b Wahab Riaz",
                     "runs": "62",
                     "balls": "62",
                     "minutes": "113",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Kamran Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Kamran Akmal b Wahab Riaz",
                     "runs": "89",
                     "balls": "76",
                     "minutes": "126",
@@ -84,7 +84,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "lbw b Sohail Tanvir",
                     "runs": "24",
                     "balls": "23",
@@ -241,7 +241,7 @@
                     "strike_rate": "112.50"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c YK Pathan b Kumar",
                     "runs": "38",
                     "balls": "35",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "24",
                     "balls": "28",
                     "minutes": "56",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "st Dhoni b Chawla",
+                    "dismissal": "st (wk)Dhoni b Chawla",
                     "runs": "23",
                     "balls": "19",
                     "minutes": "26",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "India won by 140 runs"
+    "result": "India won by 140 runs",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Piyush Chawla",
+            "Ishant Sharma",
+            "MS Dhoni(c) (wk)",
+            "Praveen Kumar",
+            "Yuvraj Singh",
+            "Rohit Sharma",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Yusuf Pathan"
+        ],
+        "Pakistan": [
+            "Misbah-ul-Haq",
+            "Mohammad Yousuf",
+            "Iftikhar Anjum",
+            "Umar Gul",
+            "Wahab Riaz",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Sohail Tanvir",
+            "Salman Butt",
+            "Shoaib Malik(c)"
+        ]
+    }
 }

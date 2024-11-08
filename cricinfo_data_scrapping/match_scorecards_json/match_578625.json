@@ -52,7 +52,7 @@
                     "strike_rate": "58.62"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Maxwell b McKay",
                     "runs": "3",
                     "balls": "11",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "run out (Maxwell/Wade)",
+                    "dismissal": "run out (Maxwell/ (wk)Wade)",
                     "runs": "6",
                     "balls": "5",
                     "minutes": "6",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Phillip Hughes",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "13",
                     "balls": "10",
                     "minutes": "23",
@@ -303,7 +303,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Dilshan b Kulasekara",
                     "runs": "31",
                     "balls": "23",
@@ -314,7 +314,7 @@
                 },
                 {
                     "batsman": "James Faulkner",
-                    "dismissal": "c Sangakkara b Herath",
+                    "dismissal": "c (wk)Sangakkara b Herath",
                     "runs": "17",
                     "balls": "14",
                     "minutes": "20",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 20 runs"
+    "result": "Sri Lanka won by 20 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Shaminda Eranga",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Lasith Malinga",
+            "Lahiru Thirimanne"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Mitchell Marsh",
+            "James Faulkner",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Adam Voges",
+            "Shane Watson",
+            "Glenn Maxwell",
+            "Xavier Doherty",
+            "Phillip Hughes",
+            "George Bailey(c)"
+        ]
+    }
 }

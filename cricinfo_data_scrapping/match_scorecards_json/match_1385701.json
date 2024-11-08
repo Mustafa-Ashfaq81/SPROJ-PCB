@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Matthew Short",
-                    "dismissal": "c Smith b Potts",
+                    "dismissal": "c (wk)Smith b Potts",
                     "runs": "29",
                     "balls": "36",
                     "minutes": "51",
@@ -80,7 +80,7 @@
                     "strike_rate": "67.85"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Salt b Stone",
                     "runs": "74",
                     "balls": "67",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Phil Salt",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "12",
                     "balls": "14",
                     "minutes": "20",
@@ -291,7 +291,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Jamie Smith",
+                    "batsman": "Jamie Smith (wk)",
                     "dismissal": "c sub (J Fraser-McGurk) b Hazlewood",
                     "runs": "49",
                     "balls": "61",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Liam Livingstone",
-                    "dismissal": "c Carey b Hardie",
+                    "dismissal": "c (wk)Carey b Hardie",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Australia won by 68 runs"
+    "result": "Australia won by 68 runs",
+    "playing_xi": {
+        "Australia": [
+            "Matthew Short",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Adam Zampa",
+            "Mitchell Marsh(c)",
+            "Josh Hazlewood",
+            "Alex Carey (wk)",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Aaron Hardie",
+            "Marnus Labuschagne"
+        ],
+        "England": [
+            "Liam Livingstone",
+            "Matthew Potts",
+            "Harry Brook(c)",
+            "Phil Salt",
+            "Brydon Carse",
+            "Jamie Smith (wk)",
+            "Olly Stone",
+            "Will Jacks",
+            "Jacob Bethell",
+            "Ben Duckett",
+            "Adil Rashid"
+        ]
+    }
 }

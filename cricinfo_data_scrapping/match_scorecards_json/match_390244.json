@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Alexei Kervezee",
-                    "dismissal": "st NJ O'Brien b Cusack",
+                    "dismissal": "st (wk)NJ O'Brien b Cusack",
                     "runs": "77",
                     "balls": "112",
                     "minutes": "-",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Eric Szwarczynski",
-                    "dismissal": "c NJ O'Brien b Connell",
+                    "dismissal": "c (wk)NJ O'Brien b Connell",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "-",
@@ -119,7 +119,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
+                    "batsman": "Jeroen Smits(c) (wk)",
                     "dismissal": "not out",
                     "runs": "9",
                     "balls": "16",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Gary Wilson",
-                    "dismissal": "c Smits b Borren",
+                    "dismissal": "c (wk)Smits b Borren",
                     "runs": "21",
                     "balls": "39",
                     "minutes": "-",
@@ -266,7 +266,7 @@
                     "strike_rate": "122.58"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "b Schiferli",
                     "runs": "10",
                     "balls": "26",
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 6 wickets (with 33 balls remaining)"
+    "result": "Ireland won by 6 wickets (with 33 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Bas Zuiderent",
+            "Darron Reekers",
+            "Eric Szwarczynski",
+            "Tom de Grooth",
+            "Pieter Seelaar",
+            "Jeroen Smits(c) (wk)",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Alexei Kervezee",
+            "Peter Borren",
+            "Daan van Bunge"
+        ],
+        "Ireland": [
+            "Niall O'Brien (wk)",
+            "Gary Wilson",
+            "William Porterfield(c)",
+            "Kevin O'Brien",
+            "Eoin Morgan",
+            "Peter Connell",
+            "Boyd Rankin",
+            "Regan West",
+            "Andrew White",
+            "Alex Cusack",
+            "Trent Johnston"
+        ]
+    }
 }

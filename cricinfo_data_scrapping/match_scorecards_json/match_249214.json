@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag(c)",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "11",
                     "balls": "22",
                     "minutes": "27",
@@ -70,7 +70,7 @@
                     "strike_rate": "46.06"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Nel b Ntini",
                     "runs": "44",
                     "balls": "49",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Dinesh Karthik",
-                    "dismissal": "c Boucher b Nel",
+                    "dismissal": "c (wk)Boucher b Nel",
                     "runs": "11",
                     "balls": "15",
                     "minutes": "18",
@@ -257,7 +257,7 @@
                     "strike_rate": "160.00"
                 }
             ],
-            "did_not_bat": "Herschelle Gibbs , Jacques Kallis , Ashwell Prince , Mark Boucher , Justin Kemp , Robin Peterson , Andre Nel , Makhaya Ntini",
+            "did_not_bat": "Herschelle Gibbs , Jacques Kallis , Ashwell Prince , Mark Boucher (wk) , Justin Kemp , Robin Peterson , Andre Nel , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 173 ( Graeme Smith , 28.1 ov )",
             "bowling": [
                 {
@@ -333,5 +333,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 9 wickets (with 112 balls remaining)"
+    "result": "South Africa won by 9 wickets (with 112 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "Dinesh Mongia",
+            "VVS Laxman",
+            "Irfan Pathan",
+            "Zaheer Khan",
+            "Anil Kumble",
+            "MS Dhoni (wk)",
+            "Dinesh Karthik",
+            "Sreesanth",
+            "Harbhajan Singh",
+            "Virender Sehwag(c)"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Shaun Pollock",
+            "Robin Peterson"
+        ]
+    }
 }

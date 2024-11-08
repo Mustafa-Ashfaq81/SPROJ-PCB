@@ -41,7 +41,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c Atkinson b Afzaal Haider",
+                    "dismissal": "c (wk)Atkinson b Afzaal Haider",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "1",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "st Atkinson b Nadeem Ahmed",
+                    "dismissal": "st (wk)Atkinson b Nadeem Ahmed",
                     "runs": "67",
                     "balls": "65",
                     "minutes": "101",
@@ -110,7 +110,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "run out (Butt/Munir Dar)",
                     "runs": "7",
                     "balls": "15",
@@ -307,7 +307,7 @@
                     "strike_rate": "48.14"
                 },
                 {
-                    "batsman": "Jamie Atkinson",
+                    "batsman": "Jamie Atkinson (wk)",
                     "dismissal": "b Shahid Afridi",
                     "runs": "18",
                     "balls": "30",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Munir Dar",
-                    "dismissal": "run out (Sarfaraz Ahmed)",
+                    "dismissal": "run out ( (wk)Sarfaraz Ahmed)",
                     "runs": "14",
                     "balls": "12",
                     "minutes": "19",
@@ -461,5 +461,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 155 runs"
+    "result": "Pakistan won by 155 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Salman Butt",
+            "Shahid Afridi",
+            "Sarfaraz Ahmed (wk)",
+            "Iftikhar Anjum",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Umar Gul",
+            "Younis Khan",
+            "Fawad Alam",
+            "Sohail Tanvir",
+            "Misbah-ul-Haq"
+        ],
+        "Hong Kong": [
+            "Zain Abbas",
+            "Munir Dar",
+            "Afzaal Haider",
+            "Skhawat Ali",
+            "Najeeb Amar",
+            "Tabarak Dar(c)",
+            "Nadeem Ahmed",
+            "Jamie Atkinson (wk)",
+            "Courtney Kruger",
+            "Irfan Ahmed",
+            "Hussain Butt"
+        ]
+    }
 }

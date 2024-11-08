@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c McCullum b Mason",
+                    "dismissal": "c (wk)McCullum b Mason",
                     "runs": "11",
                     "balls": "34",
                     "minutes": "59",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "6",
@@ -60,7 +60,7 @@
                     "strike_rate": "107.69"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Taylor b Mason",
                     "runs": "15",
                     "balls": "18",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "run out (JAH Marshall/McCullum)",
+                    "dismissal": "run out (JAH Marshall/ (wk)McCullum)",
                     "runs": "18",
                     "balls": "41",
                     "minutes": "57",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Farveez Maharoof",
-                    "dismissal": "c McCullum b Vettori",
+                    "dismissal": "c (wk)McCullum b Vettori",
                     "runs": "13",
                     "balls": "47",
                     "minutes": "65",
@@ -223,7 +223,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Silva b Perera",
                     "runs": "22",
                     "balls": "16",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori(c)",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "11",
                     "balls": "15",
                     "minutes": "20",
@@ -365,5 +365,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 129 balls remaining) (D/L method)"
+    "result": "New Zealand won by 4 wickets (with 129 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu",
+            "Mahela Jayawardene(c)",
+            "Kumar Sangakkara (wk)",
+            "Tillakaratne Dilshan",
+            "Dilhara Fernando",
+            "Chamara Silva",
+            "Ruchira Perera",
+            "Muthiah Muralidaran",
+            "Farveez Maharoof",
+            "Sanath Jayasuriya",
+            "Upul Tharanga"
+        ],
+        "New Zealand": [
+            "Mark Gillespie",
+            "Daniel Vettori(c)",
+            "James Franklin",
+            "Michael Mason",
+            "James Marshall",
+            "Hamish Marshall",
+            "Shane Bond",
+            "Nathan Astle",
+            "Peter Fulton",
+            "Ross Taylor",
+            "Brendon McCullum (wk)"
+        ]
+    }
 }

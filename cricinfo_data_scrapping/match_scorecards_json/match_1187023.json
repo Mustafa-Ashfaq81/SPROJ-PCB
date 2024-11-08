@@ -43,7 +43,7 @@
                     "strike_rate": "42.00"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "b Mohammed Shami",
                     "runs": "42",
                     "balls": "50",
@@ -187,7 +187,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Hope b Holder",
+                    "dismissal": "c (wk)Hope b Holder",
                     "runs": "63",
                     "balls": "63",
                     "minutes": "-",
@@ -197,7 +197,7 @@
                 },
                 {
                     "batsman": "KL Rahul",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "77",
                     "balls": "89",
                     "minutes": "-",
@@ -226,7 +226,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "b Paul",
                     "runs": "7",
                     "balls": "6",
@@ -356,5 +356,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 8 balls remaining)"
+    "result": "India won by 4 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Shimron Hetmyer",
+            "Khary Pierre",
+            "Jason Holder",
+            "Roston Chase",
+            "Alzarri Joseph",
+            "Nicholas Pooran",
+            "Kieron Pollard(c)",
+            "Sheldon Cottrell",
+            "Evin Lewis",
+            "Shai Hope (wk)",
+            "Keemo Paul"
+        ],
+        "India": [
+            "KL Rahul",
+            "Shreyas Iyer",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Kedar Jadhav",
+            "Navdeep Saini",
+            "Mohammed Shami",
+            "Rishabh Pant (wk)",
+            "Shardul Thakur",
+            "Virat Kohli(c)"
+        ]
+    }
 }

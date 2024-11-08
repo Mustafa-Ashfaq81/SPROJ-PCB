@@ -30,7 +30,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Neesham b de Grandhomme",
                     "runs": "68",
                     "balls": "70",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Wayne Parnell",
-                    "dismissal": "run out (Santner/Latham)",
+                    "dismissal": "run out (Santner/ (wk)Latham)",
                     "runs": "35",
                     "balls": "32",
                     "minutes": "53",
@@ -204,7 +204,7 @@
             "batting": [
                 {
                     "batsman": "Dean Brownlie",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "14",
@@ -213,7 +213,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Duminy b Parnell",
                     "runs": "0",
                     "balls": "7",
@@ -284,7 +284,7 @@
                 },
                 {
                     "batsman": "Tim Southee",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "5",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 159 runs"
+    "result": "South Africa won by 159 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Wayne Parnell",
+            "Kagiso Rabada",
+            "Hashim Amla",
+            "Dwaine Pretorius",
+            "AB de Villiers(c)",
+            "Faf du Plessis",
+            "Andile Phehlukwayo",
+            "Imran Tahir",
+            "David Miller",
+            "Jean-Paul Duminy"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Kane Williamson(c)",
+            "Neil Broom",
+            "Lockie Ferguson",
+            "Trent Boult",
+            "Colin de Grandhomme",
+            "Dean Brownlie",
+            "Ross Taylor",
+            "Tom Latham (wk)",
+            "Tim Southee",
+            "James Neesham"
+        ]
+    }
 }

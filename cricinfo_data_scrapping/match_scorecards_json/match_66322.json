@@ -91,7 +91,7 @@
                     "strike_rate": "52.00"
                 },
                 {
-                    "batsman": "Adam Parore",
+                    "batsman": "Adam Parore (wk)",
                     "dismissal": "not out",
                     "runs": "37",
                     "balls": "25",
@@ -262,8 +262,8 @@
                     "strike_rate": "19.23"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
-                    "dismissal": "c Parore b Mills",
+                    "batsman": "Romesh Kaluwitharana (wk)",
+                    "dismissal": "c (wk)Parore b Mills",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "run out (Sinclair/Parore)",
+                    "dismissal": "run out (Sinclair/ (wk)Parore)",
                     "runs": "66",
                     "balls": "91",
                     "minutes": "129",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 9 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Adam Parore (wk)",
+            "Kyle Mills",
+            "Grant Bradburn",
+            "Craig McMillan(c)",
+            "Mathew Sinclair",
+            "Chris Harris",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Daryl Tuffey",
+            "Lou Vincent",
+            "Jacob Oram"
+        ],
+        "Sri Lanka": [
+            "Romesh Kaluwitharana (wk)",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Avishka Gunawardene",
+            "Chaminda Vaas",
+            "Suresh Perera",
+            "Kumar Dharmasena",
+            "Dilhara Fernando",
+            "Sanath Jayasuriya(c)"
+        ]
+    }
 }

@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly",
-                    "dismissal": "st Minors b Borden",
+                    "dismissal": "st (wk)Minors b Borden",
                     "runs": "89",
                     "balls": "114",
                     "minutes": "161",
@@ -61,7 +61,7 @@
                     "strike_rate": "131.03"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Tucker b Borden",
                     "runs": "29",
                     "balls": "25",
@@ -272,7 +272,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Dean Minors",
+                    "batsman": "Dean Minors (wk)",
                     "dismissal": "c sub (KD Karthik) b Agarkar",
                     "runs": "21",
                     "balls": "36",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Dwayne Leverock",
-                    "dismissal": "c Dhoni b Tendulkar",
+                    "dismissal": "c (wk)Dhoni b Tendulkar",
                     "runs": "9",
                     "balls": "31",
                     "minutes": "40",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "India won by 257 runs"
+    "result": "India won by 257 runs",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "Sourav Ganguly",
+            "Robin Uthappa",
+            "Ajit Agarkar",
+            "Munaf Patel",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Rahul Dravid(c)",
+            "Virender Sehwag"
+        ],
+        "Bermuda": [
+            "Steven Outerbridge",
+            "Dwayne Leverock",
+            "Dean Minors (wk)",
+            "Lionel Cann",
+            "Malachi Jones",
+            "David Hemp",
+            "Irving Romaine(c)",
+            "Janeiro Tucker",
+            "Kevin Hurdle",
+            "Oliver Pitcher",
+            "Delyone Borden"
+        ]
+    }
 }

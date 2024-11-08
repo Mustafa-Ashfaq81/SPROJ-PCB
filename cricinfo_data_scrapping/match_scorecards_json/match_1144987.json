@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "22",
                     "balls": "26",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Chris Lynn",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "44",
                     "balls": "44",
                     "minutes": "-",
@@ -70,8 +70,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c de Kock b Rabada",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "47",
                     "balls": "72",
                     "minutes": "-",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c de Kock b Pretorius",
+                    "dismissal": "c (wk)de Kock b Pretorius",
                     "runs": "15",
                     "balls": "19",
                     "minutes": "-",
@@ -223,7 +223,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Zampa b Starc",
                     "runs": "9",
                     "balls": "12",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Reeza Hendricks",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "16",
                     "balls": "27",
                     "minutes": "-",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "run out (Stoinis/Carey)",
+                    "dismissal": "run out (Stoinis/ (wk)Carey)",
                     "runs": "19",
                     "balls": "17",
                     "minutes": "-",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 runs"
+    "result": "Australia won by 7 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Adam Zampa",
+            "Aaron Finch(c)",
+            "Pat Cummins",
+            "Shaun Marsh",
+            "Marcus Stoinis",
+            "Alex Carey (wk)",
+            "Josh Hazlewood",
+            "Chris Lynn",
+            "Travis Head",
+            "Glenn Maxwell"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Dale Steyn",
+            "Heinrich Klaasen",
+            "Kagiso Rabada",
+            "Lungi Ngidi",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis(c)",
+            "Imran Tahir",
+            "Dwaine Pretorius",
+            "Aiden Markram",
+            "David Miller"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Umar Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Umar Akmal b Wahab Riaz",
                     "runs": "18",
                     "balls": "23",
                     "minutes": "63",
@@ -50,7 +50,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Ahmed Shehzad b Mohammad Hafeez",
                     "runs": "25",
                     "balls": "40",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "run out (Umar Akmal)",
+                    "dismissal": "run out ( (wk)Umar Akmal)",
                     "runs": "63",
                     "balls": "66",
                     "minutes": "107",
@@ -247,7 +247,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c Malinga b Perera",
                     "runs": "15",
                     "balls": "12",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "c Sangakkara b Herath",
+                    "dismissal": "c (wk)Sangakkara b Herath",
                     "runs": "13",
                     "balls": "22",
                     "minutes": "30",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 1 ball remaining) (D/L method)"
+    "result": "Pakistan won by 4 wickets (with 1 ball remaining) (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Angelo Mathews(c)",
+            "Ashan Priyanjan",
+            "Rangana Herath"
+        ],
+        "Pakistan": [
+            "Wahab Riaz",
+            "Umar Akmal (wk)",
+            "Shahid Afridi",
+            "Sohaib Maqsood",
+            "Fawad Alam",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Younis Khan",
+            "Misbah-ul-Haq(c)"
+        ]
+    }
 }

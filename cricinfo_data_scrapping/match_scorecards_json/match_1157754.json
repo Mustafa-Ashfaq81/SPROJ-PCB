@@ -55,8 +55,8 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "c Dhoni b Mohammed Shami",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "c (wk)Dhoni b Mohammed Shami",
                     "runs": "32",
                     "balls": "51",
                     "minutes": "-",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "st Hope b Bishoo",
+                    "dismissal": "st (wk)Hope b Bishoo",
                     "runs": "140",
                     "balls": "107",
                     "minutes": "-",
@@ -258,7 +258,7 @@
                     "strike_rate": "84.61"
                 }
             ],
-            "did_not_bat": "Rishabh Pant , MS Dhoni , Ravindra Jadeja , Yuzvendra Chahal , Umesh Yadav , Mohammed Shami , Khaleel Ahmed",
+            "did_not_bat": "Rishabh Pant , MS Dhoni (wk) , Ravindra Jadeja , Yuzvendra Chahal , Umesh Yadav , Mohammed Shami , Khaleel Ahmed",
             "fall_of_wickets": "Fall of wickets : 1 - 10 ( Shikhar Dhawan , 1.6 ov ) , 2 - 256 ( Virat Kohli , 32.6 ov )",
             "bowling": [
                 {
@@ -348,5 +348,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 47 balls remaining)"
+    "result": "India won by 8 wickets (with 47 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kemar Roach",
+            "Kieran Powell",
+            "Shimron Hetmyer",
+            "Oshane Thomas",
+            "Rovman Powell",
+            "Chandrapaul Hemraj",
+            "Marlon Samuels",
+            "Devendra Bishoo",
+            "Jason Holder(c)",
+            "Ashley Nurse",
+            "Shai Hope (wk)"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Yuzvendra Chahal",
+            "Mohammed Shami",
+            "Umesh Yadav",
+            "Rishabh Pant",
+            "Ambati Rayudu",
+            "Khaleel Ahmed",
+            "Virat Kohli(c)",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

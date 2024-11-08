@@ -30,7 +30,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Ryder b Southee",
                     "runs": "8",
                     "balls": "23",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c BB McCullum b Southee",
+                    "dismissal": "c (wk)BB McCullum b Southee",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "15",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c BB McCullum b Bennett",
+                    "dismissal": "c (wk)BB McCullum b Bennett",
                     "runs": "24",
                     "balls": "35",
                     "minutes": "75",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi(c)",
-                    "dismissal": "c BB McCullum b Southee",
+                    "dismissal": "c (wk)BB McCullum b Southee",
                     "runs": "15",
                     "balls": "29",
                     "minutes": "31",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c BB McCullum b Oram",
+                    "dismissal": "c (wk)BB McCullum b Oram",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "8",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Abdur Rehman",
-                    "dismissal": "c BB McCullum b Oram",
+                    "dismissal": "c (wk)BB McCullum b Oram",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -253,7 +253,7 @@
                     "strike_rate": "79.31"
                 }
             ],
-            "did_not_bat": "Scott Styris , James Franklin , Brendon McCullum , Jacob Oram , Daniel Vettori (c) , Nathan McCullum , Tim Southee , Hamish Bennett",
+            "did_not_bat": "Scott Styris , James Franklin , Brendon McCullum (wk) , Jacob Oram , Daniel Vettori (c) , Nathan McCullum , Tim Southee , Hamish Bennett",
             "fall_of_wickets": "Fall of wickets : 1 - 84 ( Jesse Ryder , 9.6 ov )",
             "bowling": [
                 {
@@ -329,5 +329,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 9 wickets (with 196 balls remaining)"
+    "result": "New Zealand won by 9 wickets (with 196 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Abdul Razzaq",
+            "Abdur Rehman",
+            "Kamran Akmal (wk)",
+            "Shoaib Akhtar",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Asad Shafiq",
+            "Sohail Tanvir",
+            "Misbah-ul-Haq",
+            "Umar Akmal"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Martin Guptill",
+            "Hamish Bennett",
+            "Daniel Vettori (c)",
+            "Scott Styris",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Tim Southee",
+            "Nathan McCullum",
+            "Jacob Oram",
+            "James Franklin"
+        ]
+    }
 }

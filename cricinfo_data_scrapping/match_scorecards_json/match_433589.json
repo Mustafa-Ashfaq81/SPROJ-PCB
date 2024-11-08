@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "3",
@@ -51,7 +51,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Shahid Afridi b Wahab Riaz",
                     "runs": "19",
                     "balls": "29",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "18",
                     "balls": "32",
                     "minutes": "36",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "st Taibu b Price",
+                    "dismissal": "st (wk)Taibu b Price",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "18",
@@ -268,7 +268,7 @@
                     "strike_rate": "46.42"
                 }
             ],
-            "did_not_bat": "Misbah-ul-Haq , Abdul Razzaq , Kamran Akmal , Abdur Rehman , Umar Gul , Wahab Riaz",
+            "did_not_bat": "Misbah-ul-Haq , Abdul Razzaq , Kamran Akmal (wk) , Abdur Rehman , Umar Gul , Wahab Riaz",
             "fall_of_wickets": "Fall of wickets : 1 - 17 ( Ahmed Shehzad , 3.4 ov ) , 2 - 99 ( Mohammad Hafeez , 22.2 ov ) , 3 - 110 ( Shahid Afridi , 23.3 ov )",
             "bowling": [
                 {
@@ -344,5 +344,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 23 balls remaining) (D/L method)"
+    "result": "Pakistan won by 7 wickets (with 23 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Tatenda Taibu (wk)",
+            "Regis Chakabva",
+            "Elton Chigumbura(c)",
+            "Ray Price",
+            "Graeme Cremer",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Shingi Masakadza",
+            "Greg Lamb",
+            "Vusi Sibanda"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Abdur Rehman",
+            "Shahid Afridi(c)",
+            "Asad Shafiq",
+            "Misbah-ul-Haq",
+            "Kamran Akmal (wk)",
+            "Abdul Razzaq",
+            "Umar Gul",
+            "Ahmed Shehzad",
+            "Younis Khan",
+            "Wahab Riaz"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "run out (Ramdin/Benn)",
+                    "dismissal": "run out ( (wk)Ramdin/Benn)",
                     "runs": "42",
                     "balls": "61",
                     "minutes": "92",
@@ -90,7 +90,7 @@
                     "strike_rate": "245.45"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Benn b Taylor",
                     "runs": "9",
                     "balls": "5",
@@ -247,7 +247,7 @@
                     "strike_rate": "180.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "lbw b Boult",
                     "runs": "0",
                     "balls": "4",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Daren Sammy",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "27",
                     "balls": "16",
                     "minutes": "21",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 143 runs"
+    "result": "New Zealand won by 143 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum(c)",
+            "Martin Guptill",
+            "Adam Milne",
+            "Kane Williamson",
+            "Corey Anderson",
+            "Trent Boult",
+            "Luke Ronchi (wk)",
+            "Daniel Vettori",
+            "Ross Taylor",
+            "Grant Elliott",
+            "Tim Southee"
+        ],
+        "West Indies": [
+            "Johnson Charles",
+            "Marlon Samuels",
+            "Jonathan Carter",
+            "Daren Sammy",
+            "Jerome Taylor",
+            "Andre Russell",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Sulieman Benn",
+            "Chris Gayle",
+            "Jason Holder(c)"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "c Blundell b Henry",
+                    "dismissal": "c (wk)Blundell b Henry",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "28",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Shan Masood",
-                    "dismissal": "st Blundell b Sodhi",
+                    "dismissal": "st (wk)Blundell b Sodhi",
                     "runs": "44",
                     "balls": "55",
                     "minutes": "74",
@@ -63,7 +63,7 @@
                     "strike_rate": "91.45"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "run out (Henry)",
                     "runs": "24",
                     "balls": "28",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Iftikhar Ahmed",
-                    "dismissal": "c Blundell b Henry",
+                    "dismissal": "c (wk)Blundell b Henry",
                     "runs": "28",
                     "balls": "22",
                     "minutes": "26",
@@ -220,7 +220,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Tom Blundell",
+                    "batsman": "Tom Blundell (wk)",
                     "dismissal": "c Iftikhar Ahmed b Haris Rauf",
                     "runs": "23",
                     "balls": "29",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Tom Latham(c)",
-                    "dismissal": "c Mohammad Rizwan b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shaheen Shah Afridi",
                     "runs": "60",
                     "balls": "76",
                     "minutes": "96",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Cole McConchie",
-                    "dismissal": "c Mohammad Rizwan b Mohammad Wasim",
+                    "dismissal": "c (wk)Mohammad Rizwan b Mohammad Wasim",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "22",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Ish Sodhi",
-                    "dismissal": "st Mohammad Rizwan b Usama Mir",
+                    "dismissal": "st (wk)Mohammad Rizwan b Usama Mir",
                     "runs": "9",
                     "balls": "14",
                     "minutes": "20",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 102 runs"
+    "result": "Pakistan won by 102 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Shan Masood",
+            "Haris Rauf",
+            "Usama Mir",
+            "Mohammad Haris",
+            "Salman Agha",
+            "Babar Azam(c)",
+            "Mohammad Wasim",
+            "Mohammad Rizwan (wk)",
+            "Iftikhar Ahmed",
+            "Shaheen Shah Afridi"
+        ],
+        "New Zealand": [
+            "Matt Henry",
+            "Ben Lister",
+            "James Neesham",
+            "Tom Blundell (wk)",
+            "Will Young",
+            "Tom Latham(c)",
+            "Ish Sodhi",
+            "Cole McConchie",
+            "Daryl Mitchell",
+            "Blair Tickner",
+            "Mark Chapman"
+        ]
+    }
 }

@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "7",
                     "balls": "26",
                     "minutes": "40",
@@ -91,7 +91,7 @@
                     "strike_rate": "81.03"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Aftab Ahmed b Mohammad Rafique",
                     "runs": "0",
                     "balls": "3",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Ajit Agarkar",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "7",
@@ -225,7 +225,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "51",
                     "balls": "53",
                     "minutes": "55",
@@ -244,7 +244,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "56",
                     "balls": "107",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "st Dhoni b Sehwag",
+                    "dismissal": "st (wk)Dhoni b Sehwag",
                     "runs": "53",
                     "balls": "86",
                     "minutes": "94",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar(c)",
-                    "dismissal": "st Dhoni b Sehwag",
+                    "dismissal": "st (wk)Dhoni b Sehwag",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "12",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 5 wickets (with 9 balls remaining)"
+    "result": "Bangladesh won by 5 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "Sourav Ganguly",
+            "Robin Uthappa",
+            "Ajit Agarkar",
+            "Munaf Patel",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Rahul Dravid(c)",
+            "Virender Sehwag",
+            "Harbhajan Singh"
+        ],
+        "Bangladesh": [
+            "Habibul Bashar(c)",
+            "Aftab Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique"
+        ]
+    }
 }

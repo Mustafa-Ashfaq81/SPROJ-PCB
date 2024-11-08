@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "c Rashid Latif b Abdul Razzaq",
+                    "dismissal": "c (wk)Rashid Latif b Abdul Razzaq",
                     "runs": "24",
                     "balls": "36",
                     "minutes": "60",
@@ -92,7 +92,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "lbw b Azhar Mahmood",
                     "runs": "7",
                     "balls": "12",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "10",
                     "balls": "13",
                     "minutes": "16",
@@ -279,7 +279,7 @@
                     "strike_rate": "40.00"
                 }
             ],
-            "did_not_bat": "Azhar Mahmood , Abdul Razzaq , Rashid Latif , Shoaib Malik , Waqar Younis (c) , Shoaib Akhtar",
+            "did_not_bat": "Azhar Mahmood , Abdul Razzaq , Rashid Latif (wk) , Shoaib Malik , Waqar Younis (c) , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 17 ( Shahid Afridi , 2.4 ov ) , 2 - 41 ( Mohammad Yousuf , 9.2 ov ) , 3 - 260 ( Naved Latif , 46.3 ov )",
             "bowling": [
                 {
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 4 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Charitha Buddhika",
+            "Prabath Nissanka",
+            "Avishka Gunawardene",
+            "Mahela Jayawardene",
+            "Romesh Kaluwitharana (wk)",
+            "Russel Arnold",
+            "Kumar Dharmasena",
+            "Sanath Jayasuriya(c)",
+            "Kumar Sangakkara",
+            "Marvan Atapattu"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Naved Latif",
+            "Abdul Razzaq",
+            "Azhar Mahmood",
+            "Shoaib Malik",
+            "Waqar Younis (c)",
+            "Inzamam-ul-Haq",
+            "Shoaib Akhtar",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Shahid Afridi"
+        ]
+    }
 }

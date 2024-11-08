@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "28",
                     "balls": "43",
                     "minutes": "64",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "run out (Prasad/Sangakkara)",
+                    "dismissal": "run out (Prasad/ (wk)Sangakkara)",
                     "runs": "97",
                     "balls": "95",
                     "minutes": "141",
@@ -80,7 +80,7 @@
                     "strike_rate": "142.85"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Karunaratne b Prasad",
                     "runs": "13",
                     "balls": "13",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "run out (Sangakkara/Prasad)",
+                    "dismissal": "run out ( (wk)Sangakkara/Prasad)",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "9",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Lahiru Thirimanne(c)",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "29",
                     "balls": "43",
                     "minutes": "62",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "21",
                     "balls": "36",
                     "minutes": "56",
@@ -251,7 +251,7 @@
                     "strike_rate": "58.33"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Vettori b Boult",
                     "runs": "81",
                     "balls": "66",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "run out (McCullum/Ronchi)",
+                    "dismissal": "run out (McCullum/ (wk)Ronchi)",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "9",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Jeevan Mendis",
-                    "dismissal": "run out (Anderson/Vettori/Ronchi)",
+                    "dismissal": "run out (Anderson/Vettori/ (wk)Ronchi)",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "10",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 120 runs"
+    "result": "New Zealand won by 120 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Grant Elliott",
+            "Brendon McCullum(c)",
+            "Trent Boult",
+            "Kane Williamson",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Dimuth Karunaratne",
+            "Kumar Sangakkara (wk)",
+            "Dinesh Chandimal",
+            "Jeevan Mendis",
+            "Mahela Jayawardene",
+            "Lahiru Thirimanne(c)",
+            "Thisara Perera",
+            "Suranga Lakmal",
+            "Dhammika Prasad",
+            "Rangana Herath"
+        ]
+    }
 }

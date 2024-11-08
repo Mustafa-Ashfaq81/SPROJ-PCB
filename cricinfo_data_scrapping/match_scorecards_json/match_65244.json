@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "27",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "10",
@@ -61,7 +61,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "b Gillespie",
                     "runs": "1",
                     "balls": "23",
@@ -238,8 +238,8 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "st Dravid b Kumble",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "st (wk)Dravid b Kumble",
                     "runs": "48",
                     "balls": "61",
                     "minutes": "72",
@@ -330,5 +330,33 @@
             ]
         }
     ],
-    "result": "Australia won by 9 wickets (with 166 balls remaining)"
+    "result": "Australia won by 9 wickets (with 166 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Javagal Srinath",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)",
+            "Dinesh Mongia",
+            "Anil Kumble",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Zaheer Khan"
+        ],
+        "Australia": [
+            "Darren Lehmann",
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Brad Hogg",
+            "Damien Martyn"
+        ]
+    }
 }

@@ -70,8 +70,8 @@
                     "strike_rate": "95.45"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "c Buttler b Willey",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "42",
                     "balls": "66",
                     "minutes": "90",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Hardik Pandya",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "21",
                     "balls": "21",
                     "minutes": "29",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "James Vince",
-                    "dismissal": "run out (Pandya/Dhoni)",
+                    "dismissal": "run out (Pandya/ (wk)Dhoni)",
                     "runs": "27",
                     "balls": "27",
                     "minutes": "41",
@@ -257,7 +257,7 @@
                     "strike_rate": "81.48"
                 }
             ],
-            "did_not_bat": "Ben Stokes , Jos Buttler , Moeen Ali , David Willey , Liam Plunkett , Adil Rashid , Mark Wood",
+            "did_not_bat": "Ben Stokes , Jos Buttler (wk) , Moeen Ali , David Willey , Liam Plunkett , Adil Rashid , Mark Wood",
             "fall_of_wickets": "Fall of wickets : 1 - 43 ( Jonny Bairstow , 4.4 ov ) , 2 - 74 ( James Vince , 9.1 ov )",
             "bowling": [
                 {
@@ -347,5 +347,33 @@
             ]
         }
     ],
-    "result": "England won by 8 wickets (with 33 balls remaining)"
+    "result": "England won by 8 wickets (with 33 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina",
+            "MS Dhoni (wk)",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Dinesh Karthik",
+            "Shardul Thakur",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ],
+        "England": [
+            "Ben Stokes",
+            "Moeen Ali",
+            "James Vince",
+            "Liam Plunkett",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "David Willey",
+            "Mark Wood",
+            "Joe Root",
+            "Adil Rashid"
+        ]
+    }
 }

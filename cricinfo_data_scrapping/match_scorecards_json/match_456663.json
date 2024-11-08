@@ -52,7 +52,7 @@
                     "strike_rate": "72.58"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Ojha b Nehra",
                     "runs": "2",
                     "balls": "12",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "22",
                     "balls": "30",
                     "minutes": "33",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Lasith Malinga",
-                    "dismissal": "st Dhoni b Ojha",
+                    "dismissal": "st (wk)Dhoni b Ojha",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "16",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "5",
@@ -289,7 +289,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "38",
@@ -375,5 +375,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 93 balls remaining)"
+    "result": "India won by 6 wickets (with 93 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Thilan Samaraweera",
+            "Kumar Sangakkara(c) (wk)",
+            "Suraj Randiv",
+            "Upul Tharanga",
+            "Dilhara Fernando",
+            "Angelo Mathews",
+            "Chamara Kapugedera",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "Pragyan Ojha",
+            "Dinesh Karthik",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Virat Kohli",
+            "Ishant Sharma"
+        ]
+    }
 }

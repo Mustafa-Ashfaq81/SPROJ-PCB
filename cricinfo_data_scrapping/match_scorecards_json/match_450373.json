@@ -120,7 +120,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Rory McCann",
+                    "batsman": "Rory McCann (wk)",
                     "dismissal": "run out (Mohammad Nabi)",
                     "runs": "0",
                     "balls": "0",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Noor Ali Zadran",
-                    "dismissal": "c McCann b Cusack",
+                    "dismissal": "c (wk)McCann b Cusack",
                     "runs": "21",
                     "balls": "31",
                     "minutes": "38",
@@ -247,7 +247,7 @@
                     "strike_rate": "48.71"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Poynter b Cusack",
                     "runs": "2",
                     "balls": "4",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 39 runs"
+    "result": "Ireland won by 39 runs",
+    "playing_xi": {
+        "Ireland": [
+            "John Mooney",
+            "Andrew Poynter",
+            "Kevin O'Brien",
+            "Nigel Jones",
+            "George Dockrell",
+            "Rory McCann (wk)",
+            "James Hall",
+            "Trent Johnston(c)",
+            "Paul Stirling",
+            "Alex Cusack",
+            "Andrew White"
+        ],
+        "Afghanistan": [
+            "Nawroz Mangal(c)",
+            "Mohammad Nabi",
+            "Noor Ali Zadran",
+            "Karim Sadiq",
+            "Shabir Noori",
+            "Shapoor Zadran",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)",
+            "Samiullah Shinwari",
+            "Khaliq Dad",
+            "Hamid Hassan"
+        ]
+    }
 }

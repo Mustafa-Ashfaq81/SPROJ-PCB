@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Josh Inglis",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "10",
                     "balls": "16",
                     "minutes": "21",
@@ -72,7 +72,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "42",
                     "balls": "43",
@@ -220,7 +220,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "run out (Labuschagne/Carey)",
+                    "dismissal": "run out (Labuschagne/ (wk)Carey)",
                     "runs": "27",
                     "balls": "56",
                     "minutes": "82",
@@ -229,8 +229,8 @@
                     "strike_rate": "48.21"
                 },
                 {
-                    "batsman": "Tom Latham",
-                    "dismissal": "st Carey b Zampa",
+                    "batsman": "Tom Latham (wk)",
+                    "dismissal": "st (wk)Carey b Zampa",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "28",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "Australia won by 25 runs"
+    "result": "Australia won by 25 runs",
+    "playing_xi": {
+        "Australia": [
+            "Marnus Labuschagne",
+            "Mitchell Starc",
+            "Adam Zampa",
+            "Josh Inglis",
+            "Glenn Maxwell",
+            "Sean Abbott",
+            "Steven Smith",
+            "Josh Hazlewood",
+            "Cameron Green",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Tom Latham (wk)",
+            "James Neesham",
+            "Kane Williamson(c)",
+            "Finn Allen",
+            "Trent Boult",
+            "Lockie Ferguson",
+            "Devon Conway",
+            "Tim Southee",
+            "Daryl Mitchell",
+            "Glenn Phillips"
+        ]
+    }
 }

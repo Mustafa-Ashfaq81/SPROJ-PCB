@@ -29,7 +29,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Dai",
                     "runs": "49",
                     "balls": "59",
@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Calum MacLeod",
-                    "dismissal": "c Vare b Vanua",
+                    "dismissal": "c (wk)Vare b Vanua",
                     "runs": "29",
                     "balls": "31",
                     "minutes": "45",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Matt Machan",
-                    "dismissal": "c Vare b Vanua",
+                    "dismissal": "c (wk)Vare b Vanua",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "8",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Geraint Jones",
-                    "dismissal": "run out (Berrington/Cross)",
+                    "dismissal": "run out (Berrington/ (wk)Cross)",
                     "runs": "12",
                     "balls": "27",
                     "minutes": "32",
@@ -300,7 +300,7 @@
                     "strike_rate": "35.00"
                 },
                 {
-                    "batsman": "Jack Vare",
+                    "batsman": "Jack Vare (wk)",
                     "dismissal": "lbw b MacLeod",
                     "runs": "12",
                     "balls": "19",
@@ -450,5 +450,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 52 runs"
+    "result": "Scotland won by 52 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Rob Taylor",
+            "Michael Leask",
+            "Richie Berrington",
+            "Matthew Cross (wk)",
+            "Freddie Coleman",
+            "Safyaan Sharif",
+            "Majid Haq",
+            "Iain Wardlaw",
+            "Preston Mommsen(c)",
+            "Calum MacLeod",
+            "Matt Machan"
+        ],
+        "Papua New Guinea": [
+            "Raymond Haoda",
+            "Vani Morea",
+            "Mahuru Dai",
+            "Geraint Jones",
+            "Charles Amini",
+            "Chris Amini(c)",
+            "Jack Vare (wk)",
+            "Norman Vanua",
+            "Willie Gavera",
+            "Lega Siaka",
+            "Assad Vala"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "31",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c McCullum b Mason",
+                    "dismissal": "c (wk)McCullum b Mason",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "16",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c McCullum b Mason",
+                    "dismissal": "c (wk)McCullum b Mason",
                     "runs": "0",
                     "balls": "12",
                     "minutes": "10",
@@ -80,7 +80,7 @@
                     "strike_rate": "54.65"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Fleming b Tuffey",
                     "runs": "0",
                     "balls": "3",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "12",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Lance Klusener",
-                    "dismissal": "run out (Vettori/McCullum)",
+                    "dismissal": "run out (Vettori/ (wk)McCullum)",
                     "runs": "35",
                     "balls": "58",
                     "minutes": "71",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Robin Peterson",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "5",
                     "balls": "27",
                     "minutes": "29",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "run out (Ntini/Boucher)",
+                    "dismissal": "run out (Ntini/ (wk)Boucher)",
                     "runs": "32",
                     "balls": "45",
                     "minutes": "58",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "10",
                     "balls": "19",
                     "minutes": "37",
@@ -321,7 +321,7 @@
                     "strike_rate": "88.00"
                 }
             ],
-            "did_not_bat": "Brendon McCullum , Daniel Vettori , Michael Mason , Daryl Tuffey",
+            "did_not_bat": "Brendon McCullum (wk) , Daniel Vettori , Michael Mason , Daryl Tuffey",
             "fall_of_wickets": "Fall of wickets : 1 - 58 ( Stephen Fleming , 12.5 ov ) , 2 - 63 ( Hamish Marshall , 13.6 ov ) , 3 - 85 ( Scott Styris , 21.3 ov ) , 4 - 115 ( Chris Cairns , 29.3 ov ) , 5 - 155 ( Jacob Oram , 38.4 ov )",
             "bowling": [
                 {
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 24 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Mark Boucher (wk)",
+            "Jacques Rudolph",
+            "Albie Morkel",
+            "Robin Peterson",
+            "Shaun Pollock",
+            "Lance Klusener",
+            "Jacques Kallis"
+        ],
+        "New Zealand": [
+            "Scott Styris",
+            "Chris Cairns",
+            "Jacob Oram",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Chris Harris",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Michael Mason",
+            "Michael Papps",
+            "Hamish Marshall"
+        ]
+    }
 }

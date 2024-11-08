@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Mazharul Haque",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "3",
                     "balls": "18",
                     "minutes": "26",
@@ -85,7 +85,7 @@
                     "strike_rate": "65.85"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "b Warne",
                     "runs": "22",
                     "balls": "69",
@@ -242,7 +242,7 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "lbw b Mohammad Rafique",
                     "runs": "54",
                     "balls": "49",
@@ -348,5 +348,33 @@
             ]
         }
     ],
-    "result": "Australia won by 9 wickets (with 176 balls remaining)"
+    "result": "Australia won by 9 wickets (with 176 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Al Sahariar",
+            "Khaled Mahmud",
+            "Manjurul Islam",
+            "Mohammad Rafique",
+            "Javed Omer",
+            "Alok Kapali",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Tushar Imran",
+            "Mazharul Haque",
+            "Khaled Mashud(c) (wk)"
+        ],
+        "Australia": [
+            "Brett Lee",
+            "Michael Bevan",
+            "Shane Watson",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Jimmy Maher",
+            "Shane Warne",
+            "Glenn McGrath",
+            "Jason Gillespie",
+            "Darren Lehmann",
+            "Matthew Hayden"
+        ]
+    }
 }

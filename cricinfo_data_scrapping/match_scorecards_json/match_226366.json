@@ -33,7 +33,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "lbw b Mills",
                     "runs": "0",
                     "balls": "3",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "14",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Gilchrist b Symonds",
+                    "dismissal": "c (wk)Gilchrist b Symonds",
                     "runs": "11",
                     "balls": "18",
                     "minutes": "21",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Chris Cairns",
-                    "dismissal": "c Gilchrist b Lewis",
+                    "dismissal": "c (wk)Gilchrist b Lewis",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "15",
@@ -300,7 +300,7 @@
                     "strike_rate": "113.51"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "50",
                     "balls": "25",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 2 wickets (with 6 balls remaining)"
+    "result": "New Zealand won by 2 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Bracken",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Andrew Symonds",
+            "Brad Hodge",
+            "Cameron White",
+            "Stuart Clark",
+            "Simon Katich",
+            "Mick Lewis",
+            "Ricky Ponting(c)"
+        ],
+        "New Zealand": [
+            "Lou Vincent",
+            "Jacob Oram",
+            "Daniel Vettori(c)",
+            "Chris Cairns",
+            "Nathan Astle",
+            "Brendon McCullum (wk)",
+            "Stephen Fleming",
+            "Kyle Mills",
+            "Craig McMillan",
+            "Scott Styris",
+            "Hamish Marshall"
+        ]
+    }
 }

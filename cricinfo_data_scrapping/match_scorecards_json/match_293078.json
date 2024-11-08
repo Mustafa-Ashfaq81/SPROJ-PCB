@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Dhoni b Ganguly",
+                    "dismissal": "c (wk)Dhoni b Ganguly",
                     "runs": "15",
                     "balls": "35",
                     "minutes": "51",
@@ -91,7 +91,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "9",
@@ -223,7 +223,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly",
-                    "dismissal": "c Boucher b Nel",
+                    "dismissal": "c (wk)Boucher b Nel",
                     "runs": "18",
                     "balls": "24",
                     "minutes": "42",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "8",
                     "balls": "8",
                     "minutes": "10",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid(c)",
-                    "dismissal": "run out (Boucher)",
+                    "dismissal": "run out ( (wk)Boucher)",
                     "runs": "36",
                     "balls": "49",
                     "minutes": "87",
@@ -272,7 +272,7 @@
                     "strike_rate": "74.39"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "11",
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 4 balls remaining)"
+    "result": "India won by 6 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Makhaya Ntini",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Dale Steyn",
+            "Mark Boucher (wk)",
+            "Andrew Hall",
+            "Morne van Wyk",
+            "Jacques Kallis(c)",
+            "Justin Kemp",
+            "Andre Nel"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Piyush Chawla",
+            "Gautam Gambhir",
+            "Dinesh Karthik",
+            "Yuvraj Singh",
+            "Rahul Dravid(c)",
+            "Sachin Tendulkar",
+            "Ajit Agarkar",
+            "RP Singh"
+        ]
+    }
 }

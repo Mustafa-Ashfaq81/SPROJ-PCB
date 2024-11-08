@@ -75,7 +75,7 @@
                     "strike_rate": "127.27"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "51",
                     "balls": "22",
@@ -223,7 +223,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c McCullum b Adams",
+                    "dismissal": "c (wk)McCullum b Adams",
                     "runs": "18",
                     "balls": "32",
                     "minutes": "44",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Craig Wishart",
-                    "dismissal": "c McCullum b Cairns",
+                    "dismissal": "c (wk)McCullum b Cairns",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "7",
@@ -262,7 +262,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "b Vettori",
                     "runs": "13",
                     "balls": "16",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Gavin Ewing",
-                    "dismissal": "run out (McCullum)",
+                    "dismissal": "run out ( (wk)McCullum)",
                     "runs": "20",
                     "balls": "23",
                     "minutes": "28",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 192 runs"
+    "result": "New Zealand won by 192 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Shane Bond",
+            "Scott Styris",
+            "Lou Vincent",
+            "Kyle Mills",
+            "Stephen Fleming(c)",
+            "Hamish Marshall",
+            "Brendon McCullum (wk)",
+            "Jacob Oram",
+            "Craig McMillan",
+            "Chris Cairns",
+            "Andre Adams"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Blessing Mahwire",
+            "Gavin Ewing",
+            "Craig Wishart",
+            "Charles Coventry",
+            "Hamilton Masakadza",
+            "Stuart Carlisle",
+            "Andy Blignaut",
+            "Tatenda Taibu(c) (wk)",
+            "Prosper Utseya",
+            "Heath Streak"
+        ]
+    }
 }

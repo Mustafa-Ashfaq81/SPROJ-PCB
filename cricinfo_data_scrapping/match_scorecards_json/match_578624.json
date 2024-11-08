@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "38",
                     "balls": "40",
                     "minutes": "47",
@@ -85,7 +85,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c NL McCullum b Mills",
                     "runs": "14",
                     "balls": "9",
@@ -266,7 +266,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Trott b Anderson",
                     "runs": "2",
                     "balls": "12",
@@ -327,7 +327,7 @@
                 },
                 {
                     "batsman": "Nathan McCullum",
-                    "dismissal": "c Buttler b Anderson",
+                    "dismissal": "c (wk)Buttler b Anderson",
                     "runs": "13",
                     "balls": "11",
                     "minutes": "19",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "England won by 10 runs"
+    "result": "England won by 10 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Jonathan Trott",
+            "Jos Buttler (wk)",
+            "Ravi Bopara",
+            "James Tredwell"
+        ],
+        "New Zealand": [
+            "Daniel Vettori",
+            "Martin Guptill",
+            "Corey Anderson",
+            "Mitchell McClenaghan",
+            "Nathan McCullum",
+            "Kane Williamson",
+            "Luke Ronchi (wk)",
+            "Kyle Mills",
+            "Brendon McCullum(c)",
+            "James Franklin",
+            "Ross Taylor"
+        ]
+    }
 }

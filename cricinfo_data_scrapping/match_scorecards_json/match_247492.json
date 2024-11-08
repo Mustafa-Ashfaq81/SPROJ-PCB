@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c NJ O'Brien b Langford-Smith",
+                    "dismissal": "c (wk)NJ O'Brien b Langford-Smith",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "25",
@@ -91,7 +91,7 @@
                     "strike_rate": "41.66"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Morgan b Johnston",
                     "runs": "47",
                     "balls": "37",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "c NJ O'Brien b White",
+                    "dismissal": "c (wk)NJ O'Brien b White",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "6",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Jeremy Bray",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "7",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "15",
                     "balls": "37",
                     "minutes": "46",
@@ -258,7 +258,7 @@
                     "strike_rate": "40.54"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Oram b Patel",
                     "runs": "30",
                     "balls": "75",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 129 runs"
+    "result": "New Zealand won by 129 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "Jeetan Patel",
+            "James Franklin",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Hamish Marshall",
+            "Peter Fulton",
+            "Scott Styris"
+        ],
+        "Ireland": [
+            "Kyle McCallan",
+            "William Porterfield",
+            "Kevin O'Brien",
+            "Jeremy Bray",
+            "Dave Langford-Smith",
+            "Boyd Rankin",
+            "Eoin Morgan",
+            "Peter Gillespie",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Andrew White"
+        ]
+    }
 }

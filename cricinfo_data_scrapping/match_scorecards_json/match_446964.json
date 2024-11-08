@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "run out (Hussey/Doherty/Clarke/Haddin)",
+                    "dismissal": "run out (Hussey/Doherty/Clarke/ (wk)Haddin)",
                     "runs": "23",
                     "balls": "27",
                     "minutes": "39",
@@ -43,7 +43,7 @@
                     "strike_rate": "85.18"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "lbw b Lee",
                     "runs": "0",
                     "balls": "3",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Luke Wright",
-                    "dismissal": "c Haddin b Hastings",
+                    "dismissal": "c (wk)Haddin b Hastings",
                     "runs": "32",
                     "balls": "46",
                     "minutes": "52",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "15",
@@ -264,7 +264,7 @@
                     "strike_rate": "128.57"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Woakes b Collingwood",
                     "runs": "54",
                     "balls": "59",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 24 balls remaining)"
+    "result": "Australia won by 4 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Andrew Strauss(c)",
+            "Chris Woakes",
+            "Paul Collingwood",
+            "Jonathan Trott",
+            "Matt Prior (wk)",
+            "Michael Yardy",
+            "Eoin Morgan",
+            "Luke Wright",
+            "Ajmal Shahzad",
+            "Chris Tremlett"
+        ],
+        "Australia": [
+            "Shaun Marsh",
+            "Xavier Doherty",
+            "Shane Watson",
+            "David Hussey",
+            "John Hastings",
+            "Steven Smith",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Cameron White",
+            "Doug Bollinger",
+            "Michael Clarke(c)"
+        ]
+    }
 }

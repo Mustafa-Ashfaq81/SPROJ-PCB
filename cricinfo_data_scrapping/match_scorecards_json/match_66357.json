@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Taufeeq Umar",
-                    "dismissal": "c Kaluwitharana b Nissanka",
+                    "dismissal": "c (wk)Kaluwitharana b Nissanka",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "33",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "run out (Kaluwitharana/Muralidaran)",
+                    "dismissal": "run out ( (wk)Kaluwitharana/Muralidaran)",
                     "runs": "20",
                     "balls": "14",
                     "minutes": "27",
@@ -111,8 +111,8 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Rashid Latif(c)",
-                    "dismissal": "st Kaluwitharana b Muralidaran",
+                    "batsman": "Rashid Latif(c) (wk)",
+                    "dismissal": "st (wk)Kaluwitharana b Muralidaran",
                     "runs": "14",
                     "balls": "14",
                     "minutes": "12",
@@ -278,7 +278,7 @@
                     "strike_rate": "27.65"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "c Younis Khan b Shoaib Malik",
                     "runs": "0",
                     "balls": "5",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 79 runs"
+    "result": "Pakistan won by 79 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Mohammad Yousuf",
+            "Mohammad Sami",
+            "Umar Gul",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Rashid Latif(c) (wk)",
+            "Younis Khan",
+            "Faisal Iqbal",
+            "Taufeeq Umar",
+            "Shoaib Akhtar"
+        ],
+        "Sri Lanka": [
+            "Romesh Kaluwitharana (wk)",
+            "Kaushalya Weeraratne",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Kaushal Lokuarachchi",
+            "Chaminda Vaas",
+            "Prabath Nissanka",
+            "Marvan Atapattu(c)",
+            "Kumar Sangakkara"
+        ]
+    }
 }

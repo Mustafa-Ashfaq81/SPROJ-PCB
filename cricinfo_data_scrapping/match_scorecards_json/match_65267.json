@@ -32,8 +32,8 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
-                    "dismissal": "c Khaled Mashud b Manjural Islam",
+                    "batsman": "Kennedy Otieno (wk)",
+                    "dismissal": "c (wk)Khaled Mashud b Manjural Islam",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -234,7 +234,7 @@
             "batting": [
                 {
                     "batsman": "Al Sahariar",
-                    "dismissal": "c Otieno b MA Suji",
+                    "dismissal": "c (wk)Otieno b MA Suji",
                     "runs": "14",
                     "balls": "12",
                     "minutes": "14",
@@ -263,7 +263,7 @@
                     "strike_rate": "59.25"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "c Shah b Obuya",
                     "runs": "14",
                     "balls": "41",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Alok Kapali",
-                    "dismissal": "c Otieno b Odumbe",
+                    "dismissal": "c (wk)Otieno b Odumbe",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "41",
@@ -304,7 +304,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud",
-                    "dismissal": "st Otieno b Odumbe",
+                    "dismissal": "st (wk)Otieno b Odumbe",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "8",
@@ -334,7 +334,7 @@
                 },
                 {
                     "batsman": "Manjurul Islam",
-                    "dismissal": "st Otieno b Tikolo",
+                    "dismissal": "st (wk)Otieno b Tikolo",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "6",
@@ -447,5 +447,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 32 runs"
+    "result": "Kenya won by 32 runs",
+    "playing_xi": {
+        "Kenya": [
+            "Hitesh Modi",
+            "Kennedy Otieno (wk)",
+            "Martin Suji",
+            "Ravi Shah",
+            "Peter Ongondo",
+            "Brijal Patel",
+            "Collins Obuya",
+            "Maurice Odumbe",
+            "Steve Tikolo(c)",
+            "Tony Suji",
+            "Thomas Odoyo"
+        ],
+        "Bangladesh": [
+            "Akram Khan",
+            "Tushar Imran",
+            "Khaled Mashud(c) (wk)",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Sanuar Hossain",
+            "Mohammad Rafique",
+            "Al Sahariar",
+            "Manjurul Islam",
+            "Khaled Mahmud",
+            "Alok Kapali"
+        ]
+    }
 }

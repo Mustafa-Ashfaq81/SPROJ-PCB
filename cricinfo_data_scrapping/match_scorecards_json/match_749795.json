@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "c Ronchi b Boult",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "15",
                     "balls": "34",
                     "minutes": "45",
@@ -90,7 +90,7 @@
                     "strike_rate": "52.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Latham b Anderson",
                     "runs": "5",
                     "balls": "12",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Tom Latham",
-                    "dismissal": "c Sarfaraz Ahmed b Shahid Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shahid Afridi",
                     "runs": "23",
                     "balls": "28",
                     "minutes": "42",
@@ -287,7 +287,7 @@
                     "strike_rate": "94.11"
                 }
             ],
-            "did_not_bat": "Corey Anderson , Luke Ronchi , Nathan McCullum , Kyle Mills , Adam Milne , Trent Boult",
+            "did_not_bat": "Corey Anderson , Luke Ronchi (wk) , Nathan McCullum , Kyle Mills , Adam Milne , Trent Boult",
             "fall_of_wickets": "Fall of wickets : 1 - 31 ( Brendon McCullum , 3.1 ov ) , 2 - 75 ( Tom Latham , 11.6 ov ) , 3 - 101 ( Martin Guptill , 18.3 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 63 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 63 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Haris Sohail",
+            "Ehsan Adil",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Sarfaraz Ahmed (wk)",
+            "Bilawal Bhatti",
+            "Younis Khan",
+            "Misbah-ul-Haq(c)",
+            "Umar Akmal"
+        ],
+        "New Zealand": [
+            "Corey Anderson",
+            "Grant Elliott",
+            "Brendon McCullum(c)",
+            "Nathan McCullum",
+            "Adam Milne",
+            "Trent Boult",
+            "Tom Latham",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ]
+    }
 }

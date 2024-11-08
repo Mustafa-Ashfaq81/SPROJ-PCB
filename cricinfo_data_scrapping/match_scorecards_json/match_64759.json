@@ -33,7 +33,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Kirsten b Pollock",
                     "runs": "7",
                     "balls": "11",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c Boucher b Telemachus",
+                    "dismissal": "c (wk)Boucher b Telemachus",
                     "runs": "42",
                     "balls": "49",
                     "minutes": "68",
@@ -280,7 +280,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Hauritz",
                     "runs": "16",
                     "balls": "43",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Nicky Boje",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "18",
                     "balls": "24",
                     "minutes": "42",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "Australia won by 45 runs"
+    "result": "Australia won by 45 runs",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Hauritz",
+            "Jimmy Maher",
+            "Adam Gilchrist (wk)",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Glenn McGrath",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Shane Watson",
+            "Darren Lehmann",
+            "Jason Gillespie"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Gary Kirsten",
+            "Nicky Boje",
+            "Boeta Dippenaar",
+            "Herschelle Gibbs",
+            "Roger Telemachus",
+            "Shaun Pollock(c)",
+            "Jonty Rhodes",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Lance Klusener"
+        ]
+    }
 }

@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Ben Stokes",
-                    "dismissal": "c Dhoni b Pandya",
+                    "dismissal": "c (wk)Dhoni b Pandya",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "-",
@@ -80,8 +80,8 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "c Dhoni b Yadav",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "David Willey",
-                    "dismissal": "run out (Dhoni)",
+                    "dismissal": "run out ( (wk)Dhoni)",
                     "runs": "50",
                     "balls": "31",
                     "minutes": "-",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "KL Rahul",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "73.01"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Stokes b Plunkett",
                     "runs": "37",
                     "balls": "59",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Hardik Pandya",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "21",
                     "balls": "22",
                     "minutes": "-",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Umesh Yadav",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "England won by 86 runs"
+    "result": "England won by 86 runs",
+    "playing_xi": {
+        "England": [
+            "Ben Stokes",
+            "Moeen Ali",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "David Willey",
+            "Liam Plunkett",
+            "Mark Wood",
+            "Jason Roy",
+            "Adil Rashid"
+        ],
+        "India": [
+            "Suresh Raina",
+            "KL Rahul",
+            "MS Dhoni (wk)",
+            "Umesh Yadav",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Siddarth Kaul",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

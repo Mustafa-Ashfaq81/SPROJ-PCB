@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "15",
                     "balls": "19",
                     "minutes": "25",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Nawaz",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Nawaz",
                     "runs": "85",
                     "balls": "86",
                     "minutes": "146",
@@ -61,7 +61,7 @@
                     "strike_rate": "98.83"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "90",
                     "balls": "51",
@@ -232,7 +232,7 @@
                     "strike_rate": "47.36"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Root b Rashid",
                     "runs": "38",
                     "balls": "43",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "6",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "England won by 169 runs"
+    "result": "England won by 169 runs",
+    "playing_xi": {
+        "England": [
+            "Chris Woakes",
+            "Jason Roy",
+            "Liam Plunkett",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Alex Hales",
+            "Ben Stokes",
+            "Mark Wood",
+            "Eoin Morgan(c)",
+            "Joe Root",
+            "Moeen Ali"
+        ],
+        "Pakistan": [
+            "Hasan Ali",
+            "Wahab Riaz",
+            "Mohammad Nawaz",
+            "Yasir Shah",
+            "Sharjeel Khan",
+            "Sarfaraz Ahmed (wk)",
+            "Shoaib Malik",
+            "Sami Aslam",
+            "Babar Azam",
+            "Mohammad Amir",
+            "Azhar Ali(c)"
+        ]
+    }
 }

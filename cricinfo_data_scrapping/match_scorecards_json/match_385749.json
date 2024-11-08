@@ -50,7 +50,7 @@
                     "strike_rate": "108.57"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Salman Butt b Iftikhar Anjum",
                     "runs": "49",
                     "balls": "70",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "6",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Jehan Mubarak",
-                    "dismissal": "run out (Misbah-ul-Haq/Kamran Akmal)",
+                    "dismissal": "run out (Misbah-ul-Haq/ (wk)Kamran Akmal)",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "21",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Thilan Thushara",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "24",
                     "balls": "33",
                     "minutes": "35",
@@ -277,7 +277,7 @@
                     "strike_rate": "110.00"
                 }
             ],
-            "did_not_bat": "Misbah-ul-Haq , Shahid Afridi , Kamran Akmal , Sohail Tanvir , Umar Gul , Iftikhar Anjum , Shoaib Akhtar",
+            "did_not_bat": "Misbah-ul-Haq , Shahid Afridi , Kamran Akmal (wk) , Sohail Tanvir , Umar Gul , Iftikhar Anjum , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 168 ( Khurram Manzoor , 37.1 ov ) , 2 - 205 ( Younis Khan , 43.2 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 25 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 25 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Sanath Jayasuriya",
+            "Jehan Mubarak",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Nuwan Kulasekara",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Sohail Tanvir",
+            "Iftikhar Anjum",
+            "Khurram Manzoor",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Salman Butt",
+            "Misbah-ul-Haq",
+            "Shoaib Malik(c)",
+            "Shahid Afridi"
+        ]
+    }
 }

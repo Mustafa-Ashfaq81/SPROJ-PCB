@@ -45,8 +45,8 @@
                     "strike_rate": "65.71"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
-                    "dismissal": "c NJ O'Brien b Mooney",
+                    "batsman": "Craig Kieswetter (wk)",
+                    "dismissal": "c (wk)NJ O'Brien b Mooney",
                     "runs": "14",
                     "balls": "26",
                     "minutes": "32",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "c NJ O'Brien b Jones",
+                    "dismissal": "c (wk)NJ O'Brien b Jones",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "3",
@@ -247,7 +247,7 @@
             "batting": [
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c Kieswetter b Finn",
+                    "dismissal": "c (wk)Kieswetter b Finn",
                     "runs": "10",
                     "balls": "22",
                     "minutes": "28",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "run out (Borthwick/Kieswetter)",
+                    "dismissal": "run out (Borthwick/ (wk)Kieswetter)",
                     "runs": "15",
                     "balls": "37",
                     "minutes": "44",
@@ -276,7 +276,7 @@
                     "strike_rate": "40.54"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Finn b Dernbach",
                     "runs": "13",
                     "balls": "24",
@@ -436,5 +436,33 @@
             ]
         }
     ],
-    "result": "England won by 11 runs (D/L method)"
+    "result": "England won by 11 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Samit Patel",
+            "James Taylor",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Ben Stokes",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Scott Borthwick",
+            "Ravi Bopara",
+            "Steven Finn",
+            "Craig Kieswetter (wk)"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Boyd Rankin",
+            "Nigel Jones",
+            "Gary Wilson",
+            "Paul Stirling",
+            "William Porterfield(c)",
+            "John Mooney",
+            "Ed Joyce",
+            "Alex Cusack",
+            "Niall O'Brien (wk)",
+            "Kevin O'Brien"
+        ]
+    }
 }

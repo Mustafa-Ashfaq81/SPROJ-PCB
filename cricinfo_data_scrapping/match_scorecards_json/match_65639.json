@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "15",
@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Nick Knight",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "11",
                     "balls": "28",
                     "minutes": "52",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan",
-                    "dismissal": "c Gilchrist b Williams",
+                    "dismissal": "c (wk)Gilchrist b Williams",
                     "runs": "21",
                     "balls": "22",
                     "minutes": "19",
@@ -75,7 +75,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "c Maher b Watson",
                     "runs": "6",
                     "balls": "38",
@@ -242,7 +242,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist(c)",
+                    "batsman": "Adam Gilchrist(c) (wk)",
                     "dismissal": "c Trescothick b Caddick",
                     "runs": "4",
                     "balls": "5",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Jimmy Maher",
-                    "dismissal": "c Stewart b Anderson",
+                    "dismissal": "c (wk)Stewart b Anderson",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "7",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "st Stewart b Blackwell",
+                    "dismissal": "st (wk)Stewart b Blackwell",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 15 balls remaining)"
+    "result": "Australia won by 4 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Andy Caddick",
+            "Matthew Hoggard",
+            "Nick Knight",
+            "Michael Vaughan",
+            "Ian Blackwell",
+            "Ronnie Irani",
+            "Nasser Hussain(c)",
+            "Paul Collingwood",
+            "Alec Stewart (wk)",
+            "Marcus Trescothick"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Nathan Bracken",
+            "Jimmy Maher",
+            "Brad Williams",
+            "Brett Lee",
+            "Brad Hogg",
+            "Michael Bevan",
+            "Michael Clarke",
+            "Adam Gilchrist(c) (wk)",
+            "Damien Martyn",
+            "Shane Watson"
+        ]
+    }
 }

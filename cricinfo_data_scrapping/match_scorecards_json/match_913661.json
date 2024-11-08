@@ -84,7 +84,7 @@
                     "strike_rate": "98.68"
                 },
                 {
-                    "batsman": "Jonny Bairstow",
+                    "batsman": "Jonny Bairstow (wk)",
                     "dismissal": "c Mohammad Rizwan b Umar Gul",
                     "runs": "33",
                     "balls": "36",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Azhar Ali(c)",
-                    "dismissal": "c Bairstow b Wood",
+                    "dismissal": "c (wk)Bairstow b Wood",
                     "runs": "33",
                     "balls": "37",
                     "minutes": "63",
@@ -281,7 +281,7 @@
                     "strike_rate": "96.25"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Hales b Dawson",
                     "runs": "90",
                     "balls": "73",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Mohammad Nawaz",
-                    "dismissal": "run out (Bairstow)",
+                    "dismissal": "run out ( (wk)Bairstow)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "9",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 10 balls remaining)"
+    "result": "Pakistan won by 4 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Liam Dawson",
+            "Jason Roy",
+            "Chris Woakes",
+            "Jonny Bairstow (wk)",
+            "Chris Jordan",
+            "Alex Hales",
+            "Ben Stokes",
+            "Mark Wood",
+            "David Willey",
+            "Eoin Morgan(c)",
+            "Joe Root"
+        ],
+        "Pakistan": [
+            "Hasan Ali",
+            "Umar Gul",
+            "Mohammad Nawaz",
+            "Sharjeel Khan",
+            "Mohammad Rizwan",
+            "Sarfaraz Ahmed (wk)",
+            "Shoaib Malik",
+            "Babar Azam",
+            "Imad Wasim",
+            "Mohammad Amir",
+            "Azhar Ali(c)"
+        ]
+    }
 }

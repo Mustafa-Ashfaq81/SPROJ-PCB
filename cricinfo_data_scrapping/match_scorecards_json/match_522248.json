@@ -63,7 +63,7 @@
                     "strike_rate": "74.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Rubel Hossain b Nazmul Hossain",
                     "runs": "83",
                     "balls": "103",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "st Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "18",
                     "balls": "13",
                     "minutes": "11",
@@ -221,7 +221,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "run out (Mpofu/Taibu)",
+                    "dismissal": "run out (Mpofu/ (wk)Taibu)",
                     "runs": "44",
                     "balls": "62",
                     "minutes": "100",
@@ -250,7 +250,7 @@
                     "strike_rate": "63.15"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Sibanda b Mpofu",
                     "runs": "101",
                     "balls": "100",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Shuvagata Hom",
-                    "dismissal": "run out (Taibu/Vitori)",
+                    "dismissal": "run out ( (wk)Taibu/Vitori)",
                     "runs": "32",
                     "balls": "36",
                     "minutes": "43",
@@ -420,5 +420,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 5 runs"
+    "result": "Zimbabwe won by 5 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brian Vitori",
+            "Tatenda Taibu (wk)",
+            "Craig Ervine",
+            "Brendan Taylor(c)",
+            "Hamilton Masakadza",
+            "Chris Mpofu",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Kyle Jarvis",
+            "Vusi Sibanda",
+            "Forster Mutizwa"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nasir Hossain",
+            "Shuvagata Hom",
+            "Shakib Al Hasan(c)",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Nazmul Hossain",
+            "Rubel Hossain",
+            "Imrul Kayes",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

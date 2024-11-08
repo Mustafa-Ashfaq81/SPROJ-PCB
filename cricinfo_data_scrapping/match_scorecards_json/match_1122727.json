@@ -63,7 +63,7 @@
                     "strike_rate": "125.71"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "lbw b Perera",
                     "runs": "7",
                     "balls": "5",
@@ -195,7 +195,7 @@
             "batting": [
                 {
                     "batsman": "Danushka Gunathilaka",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "16",
                     "balls": "19",
                     "minutes": "31",
@@ -234,7 +234,7 @@
                     "strike_rate": "84.09"
                 },
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c Washington Sundar b Chahal",
                     "runs": "22",
                     "balls": "20",
@@ -245,7 +245,7 @@
                 },
                 {
                     "batsman": "Asela Gunaratne",
-                    "dismissal": "st Dhoni b Chahal",
+                    "dismissal": "st (wk)Dhoni b Chahal",
                     "runs": "34",
                     "balls": "30",
                     "minutes": "26",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Thisara Perera(c)",
-                    "dismissal": "c Dhoni b Chahal",
+                    "dismissal": "c (wk)Dhoni b Chahal",
                     "runs": "5",
                     "balls": "3",
                     "minutes": "4",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "India won by 141 runs"
+    "result": "India won by 141 runs",
+    "playing_xi": {
+        "India": [
+            "Washington Sundar",
+            "MS Dhoni (wk)",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Manish Pandey",
+            "Dinesh Karthik",
+            "Hardik Pandya",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ],
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Sachith Pathirana",
+            "Suranga Lakmal",
+            "Nuwan Pradeep",
+            "Asela Gunaratne",
+            "Lahiru Thirimanne",
+            "Danushka Gunathilaka",
+            "Upul Tharanga",
+            "Thisara Perera(c)",
+            "Angelo Mathews",
+            "Niroshan Dickwella (wk)"
+        ]
+    }
 }

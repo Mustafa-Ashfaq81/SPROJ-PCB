@@ -94,7 +94,7 @@
                     "strike_rate": "55.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "27",
@@ -241,8 +241,8 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
-                    "dismissal": "c Haddin b Lyon",
+                    "batsman": "Sarfaraz Ahmed (wk)",
+                    "dismissal": "c (wk)Haddin b Lyon",
                     "runs": "34",
                     "balls": "41",
                     "minutes": "54",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "13",
                     "balls": "28",
                     "minutes": "54",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Anwar Ali",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "8",
                     "balls": "21",
                     "minutes": "27",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Australia won by 93 runs"
+    "result": "Australia won by 93 runs",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Kane Richardson",
+            "Steven Smith",
+            "Sean Abbott",
+            "Mitchell Johnson",
+            "David Warner",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Nathan Lyon",
+            "Aaron Finch"
+        ],
+        "Pakistan": [
+            "Wahab Riaz",
+            "Shahid Afridi",
+            "Anwar Ali",
+            "Zulfiqar Babar",
+            "Asad Shafiq",
+            "Fawad Alam",
+            "Mohammad Irfan",
+            "Sarfaraz Ahmed (wk)",
+            "Ahmed Shehzad",
+            "Umar Akmal",
+            "Misbah-ul-Haq(c)"
+        ]
+    }
 }

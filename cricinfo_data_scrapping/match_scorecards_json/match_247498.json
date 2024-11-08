@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Jeremy Bray",
-                    "dismissal": "run out (Shakib Al Hasan/Mushfiqur Rahim)",
+                    "dismissal": "run out (Shakib Al Hasan/ (wk)Mushfiqur Rahim)",
                     "runs": "31",
                     "balls": "70",
                     "minutes": "111",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "run out (Mushfiqur Rahim/Shahadat Hossain)",
+                    "dismissal": "run out ( (wk)Mushfiqur Rahim/Shahadat Hossain)",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "7",
@@ -61,7 +61,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Tamim Iqbal b Shakib Al Hasan",
                     "runs": "10",
                     "balls": "14",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien",
-                    "dismissal": "run out (sub [Farhad Reza]/Mushfiqur Rahim)",
+                    "dismissal": "run out (sub [Farhad Reza]/ (wk)Mushfiqur Rahim)",
                     "runs": "48",
                     "balls": "44",
                     "minutes": "58",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "run out (sub [Farhad Reza]/Mushfiqur Rahim)",
+                    "dismissal": "run out (sub [Farhad Reza]/ (wk)Mushfiqur Rahim)",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "6",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c NJ O'Brien b Rankin",
+                    "dismissal": "c (wk)NJ O'Brien b Rankin",
                     "runs": "7",
                     "balls": "18",
                     "minutes": "29",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c NJ O'Brien b Botha",
+                    "dismissal": "c (wk)NJ O'Brien b Botha",
                     "runs": "12",
                     "balls": "9",
                     "minutes": "20",
@@ -278,7 +278,7 @@
                     "strike_rate": "56.14"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b McCallan",
                     "runs": "16",
                     "balls": "26",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 74 runs"
+    "result": "Ireland won by 74 runs",
+    "playing_xi": {
+        "Ireland": [
+            "Kyle McCallan",
+            "William Porterfield",
+            "Kevin O'Brien",
+            "Jeremy Bray",
+            "Dave Langford-Smith",
+            "Boyd Rankin",
+            "Eoin Morgan",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Andre Botha",
+            "Andrew White"
+        ],
+        "Bangladesh": [
+            "Habibul Bashar(c)",
+            "Aftab Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique",
+            "Shahadat Hossain"
+        ]
+    }
 }

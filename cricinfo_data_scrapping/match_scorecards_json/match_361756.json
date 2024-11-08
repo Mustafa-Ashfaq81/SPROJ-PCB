@@ -40,7 +40,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Junaid Siddique b Syed Rasel",
                     "runs": "12",
                     "balls": "15",
@@ -257,7 +257,7 @@
                     "strike_rate": "47.76"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Mills",
                     "runs": "11",
                     "balls": "28",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful(c)",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "40",
                     "balls": "86",
                     "minutes": "120",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "run out (Vettori/McCullum)",
+                    "dismissal": "run out (Vettori/ (wk)McCullum)",
                     "runs": "8",
                     "balls": "21",
                     "minutes": "31",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 75 runs"
+    "result": "New Zealand won by 75 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Jacob Oram",
+            "Scott Styris",
+            "Brendon McCullum (wk)",
+            "Jeetan Patel",
+            "Daniel Vettori(c)",
+            "Jamie How",
+            "Daniel Flynn",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Tim Southee"
+        ],
+        "Bangladesh": [
+            "Syed Rasel",
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Zunaed Siddique",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Abdur Razzak",
+            "Naeem Islam",
+            "Shahadat Hossain"
+        ]
+    }
 }

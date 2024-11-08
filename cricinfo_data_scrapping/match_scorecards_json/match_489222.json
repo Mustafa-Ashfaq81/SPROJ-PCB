@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "st PA Patel b Pathan",
+                    "dismissal": "st (wk)PA Patel b Pathan",
                     "runs": "53",
                     "balls": "84",
                     "minutes": "109",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Kirk Edwards",
-                    "dismissal": "c PA Patel b Mishra",
+                    "dismissal": "c (wk)PA Patel b Mishra",
                     "runs": "25",
                     "balls": "28",
                     "minutes": "50",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "st PA Patel b Pathan",
+                    "dismissal": "st (wk)PA Patel b Pathan",
                     "runs": "36",
                     "balls": "32",
                     "minutes": "30",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "b Mishra",
                     "runs": "2",
                     "balls": "9",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Devendra Bishoo",
-                    "dismissal": "c PA Patel b MM Patel",
+                    "dismissal": "c (wk)PA Patel b MM Patel",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -237,8 +237,8 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Parthiv Patel",
-                    "dismissal": "c Baugh b Martin",
+                    "batsman": "Parthiv Patel (wk)",
+                    "dismissal": "c (wk)Baugh b Martin",
                     "runs": "56",
                     "balls": "64",
                     "minutes": "108",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 20 balls remaining) (D/L method)"
+    "result": "India won by 7 wickets (with 20 balls remaining) (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Carlton Baugh (wk)",
+            "Ramnaresh Sarwan",
+            "Kieron Pollard",
+            "Anthony Martin",
+            "Daren Sammy(c)",
+            "Ravi Rampaul",
+            "Devendra Bishoo",
+            "Dwayne Bravo",
+            "Marlon Samuels",
+            "Lendl Simmons",
+            "Kirk Edwards"
+        ],
+        "India": [
+            "Praveen Kumar",
+            "S Badrinath",
+            "Harbhajan Singh",
+            "Yusuf Pathan",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Amit Mishra",
+            "Virat Kohli",
+            "Parthiv Patel (wk)",
+            "Suresh Raina(c)",
+            "Munaf Patel"
+        ]
+    }
 }

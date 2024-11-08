@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "st Gilchrist b Warne",
+                    "dismissal": "st (wk)Gilchrist b Warne",
                     "runs": "9",
                     "balls": "28",
                     "minutes": "39",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq",
-                    "dismissal": "st Gilchrist b Warne",
+                    "dismissal": "st (wk)Gilchrist b Warne",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Azhar Mahmood",
-                    "dismissal": "c Gilchrist b Warne",
+                    "dismissal": "c (wk)Gilchrist b Warne",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -102,7 +102,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "run out (SR Waugh/Lee)",
                     "runs": "66",
                     "balls": "68",
@@ -254,7 +254,7 @@
             "batting": [
                 {
                     "batsman": "Mark Waugh",
-                    "dismissal": "c Younis Khan b Abdul Razzaq",
+                    "dismissal": "c (wk)Younis Khan b Abdul Razzaq",
                     "runs": "47",
                     "balls": "51",
                     "minutes": "85",
@@ -263,7 +263,7 @@
                     "strike_rate": "92.15"
                 },
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Shoaib Akhtar",
                     "runs": "13",
                     "balls": "13",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 26 balls remaining)"
+    "result": "Australia won by 7 wickets (with 26 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Saeed Anwar",
+            "Waqar Younis(c)",
+            "Saqlain Mushtaq",
+            "Abdul Razzaq",
+            "Azhar Mahmood",
+            "Shoaib Akhtar",
+            "Inzamam-ul-Haq",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Shahid Afridi"
+        ],
+        "Australia": [
+            "Brett Lee",
+            "Michael Bevan",
+            "Andrew Symonds",
+            "Adam Gilchrist (wk)",
+            "Damien Martyn",
+            "Ian Harvey",
+            "Shane Warne",
+            "Glenn McGrath",
+            "Ricky Ponting",
+            "Mark Waugh",
+            "Steve Waugh(c)"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Sangakkara b Senanayake",
+                    "dismissal": "c (wk)Sangakkara b Senanayake",
                     "runs": "56",
                     "balls": "85",
                     "minutes": "118",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Sangakkara b Priyanjan",
+                    "dismissal": "c (wk)Sangakkara b Priyanjan",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "16",
@@ -90,7 +90,7 @@
                     "strike_rate": "56.66"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "run out (Senanayake)",
                     "runs": "21",
                     "balls": "24",
@@ -271,7 +271,7 @@
                     "strike_rate": "65.51"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Jordan b Tredwell",
                     "runs": "2",
                     "balls": "13",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 wickets (with 10 balls remaining)"
+    "result": "Sri Lanka won by 6 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jos Buttler (wk)",
+            "Ravi Bopara",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "James Anderson",
+            "Harry Gurney",
+            "Eoin Morgan",
+            "Gary Ballance",
+            "Joe Root",
+            "James Tredwell",
+            "Chris Jordan"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Ajantha Mendis",
+            "Ashan Priyanjan",
+            "Sachithra Senanayake",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Mahela Jayawardene",
+            "Lahiru Thirimanne",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara"
+        ]
+    }
 }

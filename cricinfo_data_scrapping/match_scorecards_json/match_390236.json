@@ -29,7 +29,7 @@
             "extras": "24",
             "batting": [
                 {
-                    "batsman": "Roger Mukasa",
+                    "batsman": "Roger Mukasa (wk)",
                     "dismissal": "c Lund b Andersen",
                     "runs": "21",
                     "balls": "46",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Mickey Lund",
-                    "dismissal": "run out (Kwebiha/Mukasa)",
+                    "dismissal": "run out (Kwebiha/ (wk)Mukasa)",
                     "runs": "59",
                     "balls": "91",
                     "minutes": "106",
@@ -240,7 +240,7 @@
                     "strike_rate": "63.07"
                 },
                 {
-                    "batsman": "Freddie Klokker(c)",
+                    "batsman": "Freddie Klokker(c) (wk)",
                     "dismissal": "c & b Baig",
                     "runs": "8",
                     "balls": "12",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Rizwan Mahmood",
-                    "dismissal": "c Mukasa b Bibodi",
+                    "dismissal": "c (wk)Mukasa b Bibodi",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Bobby Chawla",
-                    "dismissal": "run out (Kwebiha/Mukasa)",
+                    "dismissal": "run out (Kwebiha/ (wk)Mukasa)",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "1",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "Uganda won by 62 runs"
+    "result": "Uganda won by 62 runs",
+    "playing_xi": {
+        "Uganda": [
+            "Joel Olwenyi",
+            "Asadu Seiga",
+            "Benjamin Musoke",
+            "Akbar Baig",
+            "Frank Nsubuga",
+            "Junior Kwebiha (c)",
+            "Ronald Ssemanda",
+            "Kenneth Kamyuka",
+            "Roger Mukasa (wk)",
+            "Nehal Bibodi",
+            "Arthur Kyobe"
+        ],
+        "Denmark": [
+            "Soren Vestergaard",
+            "Carsten Pedersen",
+            "Rizwan Mahmood",
+            "Bobby Chawla",
+            "Henrik Hansen",
+            "Morten Hedegaard",
+            "David Borchersen",
+            "Mickey Lund",
+            "Michael Pedersen",
+            "Bashir Shah",
+            "Freddie Klokker(c) (wk)"
+        ]
+    }
 }

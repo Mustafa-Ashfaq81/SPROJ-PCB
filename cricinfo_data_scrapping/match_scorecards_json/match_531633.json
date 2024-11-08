@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Imran Farhat",
-                    "dismissal": "c Kieswetter b Finn",
+                    "dismissal": "c (wk)Kieswetter b Finn",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "15",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Azhar Ali",
-                    "dismissal": "c Kieswetter b Broad",
+                    "dismissal": "c (wk)Kieswetter b Broad",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "22",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "run out (Cook/Kieswetter)",
+                    "dismissal": "run out (Cook/ (wk)Kieswetter)",
                     "runs": "18",
                     "balls": "39",
                     "minutes": "56",
@@ -100,7 +100,7 @@
                     "strike_rate": "92.72"
                 },
                 {
-                    "batsman": "Adnan Akmal",
+                    "batsman": "Adnan Akmal (wk)",
                     "dismissal": "b Finn",
                     "runs": "9",
                     "balls": "22",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Aizaz Cheema",
-                    "dismissal": "run out (Finn/Kieswetter)",
+                    "dismissal": "run out (Finn/ (wk)Kieswetter)",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "7",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Adnan Akmal b Saeed Ajmal",
+                    "dismissal": "c (wk)Adnan Akmal b Saeed Ajmal",
                     "runs": "80",
                     "balls": "98",
                     "minutes": "130",
@@ -267,7 +267,7 @@
                     "strike_rate": "75.00"
                 }
             ],
-            "did_not_bat": "Jonathan Trott , Ravi Bopara , Craig Kieswetter , Samit Patel , Stuart Broad , Graeme Swann , James Anderson , Steven Finn",
+            "did_not_bat": "Jonathan Trott , Ravi Bopara , Craig Kieswetter (wk) , Samit Patel , Stuart Broad , Graeme Swann , James Anderson , Steven Finn",
             "fall_of_wickets": "Fall of wickets : 1 - 170 ( Alastair Cook , 28.2 ov )",
             "bowling": [
                 {
@@ -343,5 +343,33 @@
             ]
         }
     ],
-    "result": "England won by 9 wickets (with 76 balls remaining)"
+    "result": "England won by 9 wickets (with 76 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Adnan Akmal (wk)",
+            "Aizaz Cheema",
+            "Imran Farhat",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi",
+            "Umar Akmal",
+            "Mohammad Hafeez",
+            "Umar Gul",
+            "Azhar Ali"
+        ],
+        "England": [
+            "James Anderson",
+            "Eoin Morgan",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Kevin Pietersen",
+            "Samit Patel",
+            "Graeme Swann",
+            "Craig Kieswetter (wk)",
+            "Stuart Broad",
+            "Ravi Bopara"
+        ]
+    }
 }

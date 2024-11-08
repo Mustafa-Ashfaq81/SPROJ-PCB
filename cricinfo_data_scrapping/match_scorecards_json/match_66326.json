@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid",
-                    "dismissal": "st Kaluwitharana b Jayasuriya",
+                    "dismissal": "st (wk)Kaluwitharana b Jayasuriya",
                     "runs": "47",
                     "balls": "88",
                     "minutes": "122",
@@ -102,8 +102,8 @@
                     "strike_rate": "81.08"
                 },
                 {
-                    "batsman": "Sameer Dighe",
-                    "dismissal": "c Kaluwitharana b Fernando",
+                    "batsman": "Sameer Dighe (wk)",
+                    "dismissal": "c (wk)Kaluwitharana b Fernando",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "4",
@@ -253,7 +253,7 @@
                     "strike_rate": "52.63"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "run out (Harbhajan Singh)",
                     "runs": "0",
                     "balls": "5",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "c Dighe b Khan",
+                    "dismissal": "c (wk)Dighe b Khan",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "2",
@@ -314,7 +314,7 @@
                 },
                 {
                     "batsman": "Kumar Dharmasena",
-                    "dismissal": "run out (Dravid/Dighe)",
+                    "dismissal": "run out (Dravid/ (wk)Dighe)",
                     "runs": "22",
                     "balls": "27",
                     "minutes": "42",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "India won by 46 runs"
+    "result": "India won by 46 runs",
+    "playing_xi": {
+        "India": [
+            "Ashish Nehra",
+            "VVS Laxman",
+            "Rahul Dravid",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Hemang Badani",
+            "Virender Sehwag",
+            "Reetinder Sodhi",
+            "Harbhajan Singh",
+            "Sameer Dighe (wk)",
+            "Sourav Ganguly(c)"
+        ],
+        "Sri Lanka": [
+            "Romesh Kaluwitharana (wk)",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Chaminda Vaas",
+            "Suresh Perera",
+            "Kumar Dharmasena",
+            "Dilhara Fernando",
+            "Kumar Sangakkara",
+            "Sanath Jayasuriya(c)"
+        ]
+    }
 }

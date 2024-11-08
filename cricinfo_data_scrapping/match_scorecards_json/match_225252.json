@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "run out (Maharoof/Sangakkara)",
+                    "dismissal": "run out (Maharoof/ (wk)Sangakkara)",
                     "runs": "77",
                     "balls": "114",
                     "minutes": "155",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "29",
@@ -93,7 +93,7 @@
                     "strike_rate": "109.37"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "not out",
                     "runs": "22",
                     "balls": "13",
@@ -250,7 +250,7 @@
                     "strike_rate": "99.21"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "58",
                     "balls": "76",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 46 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 46 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jamie Dalrymple",
+            "Liam Plunkett",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Andrew Strauss(c)",
+            "Steve Harmison",
+            "Sajid Mahmood",
+            "Alex Loudon",
+            "Geraint Jones (wk)",
+            "Marcus Trescothick",
+            "Ian Bell"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dilhara Fernando",
+            "Upul Tharanga",
+            "Lasith Malinga",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Farveez Maharoof",
+            "Malinga Bandara"
+        ]
+    }
 }

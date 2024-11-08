@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Prior b Anderson",
+                    "dismissal": "c (wk)Prior b Anderson",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "14",
@@ -80,7 +80,7 @@
                     "strike_rate": "64.55"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Anderson",
                     "runs": "13",
                     "balls": "23",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Johan Botha",
-                    "dismissal": "c Prior b Anderson",
+                    "dismissal": "c (wk)Prior b Anderson",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "14",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Boucher b McLaren",
+                    "dismissal": "c (wk)Boucher b McLaren",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "11",
@@ -273,7 +273,7 @@
                     "strike_rate": "70.00"
                 }
             ],
-            "did_not_bat": "Matt Prior , Luke Wright , Stuart Broad , Graeme Swann , Tim Bresnan , James Anderson",
+            "did_not_bat": "Matt Prior (wk) , Luke Wright , Stuart Broad , Graeme Swann , Tim Bresnan , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 74 ( Andrew Strauss , 16.5 ov ) , 2 - 80 ( Kevin Pietersen , 18.4 ov ) , 3 - 83 ( Paul Collingwood , 21.4 ov )",
             "bowling": [
                 {
@@ -349,5 +349,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 112 balls remaining)"
+    "result": "England won by 7 wickets (with 112 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Hashim Amla",
+            "Charl Langeveldt",
+            "Graeme Smith(c)",
+            "Ryan McLaren",
+            "Alviro Petersen",
+            "Wayne Parnell",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Morne Morkel",
+            "Mark Boucher (wk)"
+        ],
+        "England": [
+            "Tim Bresnan",
+            "Matt Prior (wk)",
+            "Jonathan Trott",
+            "James Anderson",
+            "Eoin Morgan",
+            "Andrew Strauss(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Stuart Broad",
+            "Graeme Swann",
+            "Luke Wright"
+        ]
+    }
 }

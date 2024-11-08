@@ -30,8 +30,8 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Hannan Sarkar b Mohammad Rafique",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Hannan Sarkar b Mohammad Rafique",
                     "runs": "31",
                     "balls": "35",
                     "minutes": "57",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "run out (Sanuar Hossain/Hannan Sarkar)",
+                    "dismissal": "run out (Sanuar Hossain/ (wk)Hannan Sarkar)",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "4",
@@ -207,7 +207,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Hannan Sarkar",
+                    "batsman": "Hannan Sarkar (wk)",
                     "dismissal": "lbw b Gillespie",
                     "runs": "1",
                     "balls": "17",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Tushar Imran",
-                    "dismissal": "run out (Hogg/Gilchrist)",
+                    "dismissal": "run out (Hogg/ (wk)Gilchrist)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "4",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 112 runs"
+    "result": "Australia won by 112 runs",
+    "playing_xi": {
+        "Australia": [
+            "Brad Hogg",
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Andrew Symonds",
+            "Ian Harvey",
+            "Jason Gillespie",
+            "Matthew Hayden",
+            "Brad Williams"
+        ],
+        "Bangladesh": [
+            "Mohammad Rafique",
+            "Mohammad Ashraful",
+            "Alok Kapali",
+            "Sanuar Hossain",
+            "Mashrafe Mortaza",
+            "Khaled Mahmud(c)",
+            "Hannan Sarkar (wk)",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Tushar Imran",
+            "Javed Omer"
+        ]
+    }
 }

@@ -62,7 +62,7 @@
                     "strike_rate": "59.25"
                 },
                 {
-                    "batsman": "Rahul Dravid(c)",
+                    "batsman": "Rahul Dravid(c) (wk)",
                     "dismissal": "c Styris b Vettori",
                     "runs": "31",
                     "balls": "41",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Hemang Badani",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "41",
                     "balls": "45",
                     "minutes": "70",
@@ -300,7 +300,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "run out (Kaif/Dravid)",
+                    "dismissal": "run out (Kaif/ (wk)Dravid)",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "19",
@@ -309,7 +309,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "16",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 15 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Murali Kartik",
+            "Ajit Agarkar",
+            "Sairaj Bahutule",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Rahul Dravid(c) (wk)",
+            "Hemang Badani",
+            "Harbhajan Singh"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Chris Nevin",
+            "Stephen Fleming(c)",
+            "Craig McMillan",
+            "Jacob Oram",
+            "Kyle Mills",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Lou Vincent",
+            "Chris Harris",
+            "Scott Styris"
+        ]
+    }
 }

@@ -42,8 +42,8 @@
                     "strike_rate": "92.85"
                 },
                 {
-                    "batsman": "Regis Chakabva",
-                    "dismissal": "st BKG Mendis b Vandersay",
+                    "batsman": "Regis Chakabva (wk)",
+                    "dismissal": "st (wk)BKG Mendis b Vandersay",
                     "runs": "47",
                     "balls": "50",
                     "minutes": "68",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "st BKG Mendis b Vandersay",
+                    "dismissal": "st (wk)BKG Mendis b Vandersay",
                     "runs": "48",
                     "balls": "56",
                     "minutes": "73",
@@ -248,7 +248,7 @@
             "batting": [
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Chakabva b Muzarabani",
+                    "dismissal": "c (wk)Chakabva b Muzarabani",
                     "runs": "16",
                     "balls": "24",
                     "minutes": "27",
@@ -257,7 +257,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "b Chatara",
                     "runs": "7",
                     "balls": "9",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Chamika Karunaratne",
-                    "dismissal": "run out (Williams/Chakabva)",
+                    "dismissal": "run out (Williams/ (wk)Chakabva)",
                     "runs": "34",
                     "balls": "38",
                     "minutes": "68",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Jeffrey Vandersay",
-                    "dismissal": "c Chakabva b Muzarabani",
+                    "dismissal": "c (wk)Chakabva b Muzarabani",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "12",
@@ -461,5 +461,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 22 runs"
+    "result": "Zimbabwe won by 22 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Wessly Madhevere",
+            "Richard Ngarava",
+            "Tendai Chatara",
+            "Wellington Masakadza",
+            "Sean Williams",
+            "Sikandar Raza",
+            "Ryan Burl",
+            "Regis Chakabva (wk)",
+            "Takudzwanashe Kaitano",
+            "Craig Ervine(c)",
+            "Blessing Muzarabani"
+        ],
+        "Sri Lanka": [
+            "Dasun Shanaka(c)",
+            "Pathum Nissanka",
+            "Nuwan Pradeep",
+            "Kamindu Mendis",
+            "Maheesh Theekshana",
+            "Kusal Mendis (wk)",
+            "Dinesh Chandimal",
+            "Chamika Karunaratne",
+            "Jeffrey Vandersay",
+            "Dushmantha Chameera",
+            "Charith Asalanka"
+        ]
+    }
 }

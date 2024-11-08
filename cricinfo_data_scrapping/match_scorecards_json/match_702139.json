@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "c Ramdin b Cummins",
+                    "dismissal": "c (wk)Ramdin b Cummins",
                     "runs": "25",
                     "balls": "34",
                     "minutes": "-",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Niall O'Brien",
-                    "dismissal": "c Ramdin b DJ Bravo",
+                    "dismissal": "c (wk)Ramdin b DJ Bravo",
                     "runs": "12",
                     "balls": "26",
                     "minutes": "-",
@@ -72,7 +72,7 @@
                     "strike_rate": "46.15"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "c Edwards b Sammy",
                     "runs": "62",
                     "balls": "96",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Andrew Poynter",
-                    "dismissal": "c Ramdin b Miller",
+                    "dismissal": "c (wk)Ramdin b Miller",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "-",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c Wilson b Thompson",
+                    "dismissal": "c (wk)Wilson b Thompson",
                     "runs": "55",
                     "balls": "53",
                     "minutes": "-",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Kieran Powell",
-                    "dismissal": "st Wilson b Stirling",
+                    "dismissal": "st (wk)Wilson b Stirling",
                     "runs": "57",
                     "balls": "80",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Wilson b Thompson",
+                    "dismissal": "c (wk)Wilson b Thompson",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "-",
@@ -289,7 +289,7 @@
                     "strike_rate": "120.68"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "lbw b Dockrell",
                     "runs": "15",
                     "balls": "19",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 4 wickets (with 80 balls remaining)"
+    "result": "West Indies won by 4 wickets (with 80 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Stuart Thompson",
+            "Tim Murtagh",
+            "Niall O'Brien",
+            "Max Sorensen",
+            "Paul Stirling",
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Andrew Poynter",
+            "Gary Wilson (wk)",
+            "Kevin O'Brien"
+        ],
+        "West Indies": [
+            "Dwayne Smith",
+            "Denesh Ramdin (wk)",
+            "Jason Holder",
+            "Nikita Miller",
+            "Daren Sammy",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Kieran Powell",
+            "Kirk Edwards",
+            "Dwayne Bravo(c)",
+            "Miguel Cummins"
+        ]
+    }
 }

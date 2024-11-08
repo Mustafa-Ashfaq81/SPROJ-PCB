@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Kamran Akmal b Mohammad Asif",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Asif",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "5",
@@ -60,7 +60,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Shoaib Malik b Mohammad Asif",
                     "runs": "68",
                     "balls": "53",
@@ -261,7 +261,7 @@
                     "strike_rate": "90.99"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c sub (G Gambhir) b Sreesanth",
                     "runs": "25",
                     "balls": "24",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "9",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 runs (D/L method)"
+    "result": "Pakistan won by 7 runs (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Murali Kartik",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "MS Dhoni (wk)",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Sreesanth",
+            "Virender Sehwag",
+            "Yuvraj Singh"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Younis Khan",
+            "Abdul Razzaq",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Salman Butt",
+            "Arshad Khan",
+            "Shoaib Malik"
+        ]
+    }
 }

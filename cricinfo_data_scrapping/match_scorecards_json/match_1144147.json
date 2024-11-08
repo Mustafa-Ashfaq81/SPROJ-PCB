@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Dean Elgar",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "8",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "c Taylor b Tiripano",
+                    "dismissal": "c (wk)Taylor b Tiripano",
                     "runs": "35",
                     "balls": "49",
                     "minutes": "63",
@@ -60,7 +60,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
+                    "batsman": "Heinrich Klaasen (wk)",
                     "dismissal": "c Mire b Chatara",
                     "runs": "1",
                     "balls": "13",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Khaya Zondo",
-                    "dismissal": "st Taylor b Mavuta",
+                    "dismissal": "st (wk)Taylor b Mavuta",
                     "runs": "21",
                     "balls": "28",
                     "minutes": "58",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Andile Phehlukwayo",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "28",
                     "balls": "44",
                     "minutes": "80",
@@ -253,7 +253,7 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "lbw b Imran Tahir",
                     "runs": "10",
                     "balls": "17",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "st Klaasen b Imran Tahir",
+                    "dismissal": "st (wk)Klaasen b Imran Tahir",
                     "runs": "9",
                     "balls": "8",
                     "minutes": "20",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 120 runs"
+    "result": "South Africa won by 120 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Reeza Hendricks",
+            "Khaya Zondo",
+            "Lungi Ngidi",
+            "Aiden Markram",
+            "Christiaan Jonker",
+            "Dale Steyn",
+            "Dean Elgar",
+            "Jean-Paul Duminy(c)",
+            "Heinrich Klaasen (wk)",
+            "Andile Phehlukwayo",
+            "Imran Tahir"
+        ],
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Hamilton Masakadza(c)",
+            "Brendan Taylor (wk)",
+            "Kyle Jarvis",
+            "Craig Ervine",
+            "Donald Tiripano",
+            "Peter Moor",
+            "Solomon Mire",
+            "Brandon Mavuta",
+            "Tendai Chatara",
+            "Sean Williams"
+        ]
+    }
 }

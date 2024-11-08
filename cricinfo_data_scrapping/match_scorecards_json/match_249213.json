@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Dhoni b Kumble",
+                    "dismissal": "c (wk)Dhoni b Kumble",
                     "runs": "49",
                     "balls": "62",
                     "minutes": "78",
@@ -80,7 +80,7 @@
                     "strike_rate": "162.50"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "lbw b Sehwag",
                     "runs": "29",
                     "balls": "49",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "run out (Kumble/Dhoni)",
+                    "dismissal": "run out (Kumble/ (wk)Dhoni)",
                     "runs": "37",
                     "balls": "43",
                     "minutes": "34",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Andrew Hall",
-                    "dismissal": "run out (Karthik/Dhoni)",
+                    "dismissal": "run out (Karthik/ (wk)Dhoni)",
                     "runs": "13",
                     "balls": "9",
                     "minutes": "13",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "4",
@@ -291,7 +291,7 @@
                     "strike_rate": "44.73"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c sub (AG Prince) b Nel",
                     "runs": "26",
                     "balls": "21",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "11",
                     "balls": "12",
                     "minutes": "17",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 80 runs"
+    "result": "South Africa won by 80 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Shaun Pollock",
+            "Andrew Hall",
+            "Loots Bosman"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Mohammad Kaif",
+            "Irfan Pathan",
+            "Ajit Agarkar",
+            "Wasim Jaffer",
+            "Zaheer Khan",
+            "Anil Kumble",
+            "MS Dhoni (wk)",
+            "Dinesh Karthik",
+            "Sreesanth",
+            "Virender Sehwag(c)"
+        ]
+    }
 }

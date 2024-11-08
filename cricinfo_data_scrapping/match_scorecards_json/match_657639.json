@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "run out (Karunaratne/Sangakkara)",
+                    "dismissal": "run out (Karunaratne/ (wk)Sangakkara)",
                     "runs": "32",
                     "balls": "52",
                     "minutes": "80",
@@ -90,7 +90,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Umar Akmal , Bilawal Bhatti , Sohail Tanvir , Saeed Ajmal , Junaid Khan",
+            "did_not_bat": "Umar Akmal (wk) , Bilawal Bhatti , Sohail Tanvir , Saeed Ajmal , Junaid Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 8 ( Sharjeel Khan , 1.4 ov ) , 2 - 84 ( Mohammad Hafeez , 19.6 ov ) , 3 - 128 ( Sohaib Maqsood , 28.2 ov ) , 4 - 233 ( Ahmed Shehzad , 45.1 ov )",
             "bowling": [
                 {
@@ -235,7 +235,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Saeed Ajmal",
                     "runs": "58",
                     "balls": "67",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "st Umar Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Umar Akmal b Shahid Afridi",
                     "runs": "32",
                     "balls": "26",
                     "minutes": "33",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 wickets (with 2 balls remaining)"
+    "result": "Sri Lanka won by 2 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Sohail Tanvir",
+            "Umar Akmal (wk)",
+            "Sohaib Maqsood",
+            "Sharjeel Khan",
+            "Bilawal Bhatti",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi"
+        ],
+        "Sri Lanka": [
+            "Seekkuge Prasanna",
+            "Dimuth Karunaratne",
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Nuwan Kulasekara",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Thisara Perera"
+        ]
+    }
 }

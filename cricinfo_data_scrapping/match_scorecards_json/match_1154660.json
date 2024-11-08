@@ -28,7 +28,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Subash Khakurel",
+                    "batsman": "Subash Khakurel (wk)",
                     "dismissal": "b Tanwir Afzal",
                     "runs": "0",
                     "balls": "1",
@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Paras Khadka(c)",
-                    "dismissal": "c McKechnie b Ehsan Nawaz",
+                    "dismissal": "c (wk)McKechnie b Ehsan Nawaz",
                     "runs": "14",
                     "balls": "29",
                     "minutes": "-",
@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Gyanendra Malla",
-                    "dismissal": "c McKechnie b Tanwir Afzal",
+                    "dismissal": "c (wk)McKechnie b Tanwir Afzal",
                     "runs": "12",
                     "balls": "26",
                     "minutes": "-",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Aizaz Khan",
-                    "dismissal": "st Khakurel b Regmi",
+                    "dismissal": "st (wk)Khakurel b Regmi",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -291,7 +291,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Scott McKechnie",
+                    "batsman": "Scott McKechnie (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "8",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 3 wickets (with 105 balls remaining)"
+    "result": "Hong Kong won by 3 wickets (with 105 balls remaining)",
+    "playing_xi": {
+        "Nepal": [
+            "Subash Khakurel (wk)",
+            "Anil Sah",
+            "Sagar Pun",
+            "Paras Khadka(c)",
+            "Lalit Rajbanshi",
+            "Sandeep Lamichhane",
+            "Sompal Kami",
+            "Basant Regmi",
+            "Aarif Sheikh",
+            "Gyanendra Malla",
+            "Dipendra Singh Airee"
+        ],
+        "Hong Kong": [
+            "Kinchit Shah",
+            "Ehsan Khan",
+            "Nizakat Khan",
+            "Aizaz Khan",
+            "Anshy Rath(c)",
+            "Christopher Carter",
+            "Ehsan Nawaz",
+            "Babar Hayat",
+            "Tanwir Afzal",
+            "Nadeem Ahmed",
+            "Scott McKechnie (wk)"
+        ]
+    }
 }

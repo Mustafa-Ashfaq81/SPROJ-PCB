@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "11",
                     "balls": "22",
                     "minutes": "27",
@@ -63,7 +63,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Collingwood/Mahmood)",
                     "runs": "15",
                     "balls": "18",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Jones b Collingwood",
+                    "dismissal": "c (wk)Jones b Collingwood",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "19",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "12",
                     "balls": "16",
                     "minutes": "33",
@@ -300,7 +300,7 @@
                     "strike_rate": "77.01"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Kapugedera b Jayasuriya",
                     "runs": "19",
                     "balls": "23",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 20 runs"
+    "result": "Sri Lanka won by 20 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dilhara Fernando",
+            "Upul Tharanga",
+            "Lasith Malinga",
+            "Muthiah Muralidaran",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Chamara Kapugedera"
+        ],
+        "England": [
+            "Jamie Dalrymple",
+            "Liam Plunkett",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Andrew Strauss(c)",
+            "Steve Harmison",
+            "Sajid Mahmood",
+            "Geraint Jones (wk)",
+            "Marcus Trescothick",
+            "Tim Bresnan",
+            "Ian Bell"
+        ]
+    }
 }

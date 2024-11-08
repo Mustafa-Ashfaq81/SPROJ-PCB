@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Boucher b Nel",
+                    "dismissal": "c (wk)Boucher b Nel",
                     "runs": "1",
                     "balls": "20",
                     "minutes": "22",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "30",
                     "balls": "51",
                     "minutes": "82",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Boucher b Nel",
+                    "dismissal": "c (wk)Boucher b Nel",
                     "runs": "13",
                     "balls": "36",
                     "minutes": "41",
@@ -100,7 +100,7 @@
                     "strike_rate": "45.45"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "b Kallis",
                     "runs": "18",
                     "balls": "37",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Jacques Rudolph",
-                    "dismissal": "c Rashid Latif b Mohammad Hafeez",
+                    "dismissal": "c (wk)Rashid Latif b Mohammad Hafeez",
                     "runs": "20",
                     "balls": "40",
                     "minutes": "48",
@@ -287,7 +287,7 @@
                     "strike_rate": "28.94"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "1",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 67 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 67 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Faisal Iqbal",
+            "Rashid Latif (wk)",
+            "Yasir Hameed",
+            "Naved Latif",
+            "Younis Khan",
+            "Mohammad Yousuf(c)",
+            "Mohammad Hafeez",
+            "Shabbir Ahmed",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Shoaib Akhtar"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Makhaya Ntini",
+            "Shaun Pollock",
+            "Jacques Kallis",
+            "Robin Peterson",
+            "Andrew Hall",
+            "Boeta Dippenaar",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Jacques Rudolph",
+            "Graeme Smith(c)"
+        ]
+    }
 }

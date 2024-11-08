@@ -81,7 +81,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Brent",
                     "runs": "35",
                     "balls": "50",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Kumar Dharmasena",
-                    "dismissal": "st A Flower b Marillier",
+                    "dismissal": "st (wk)A Flower b Marillier",
                     "runs": "8",
                     "balls": "18",
                     "minutes": "18",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Dulip Liyanage",
-                    "dismissal": "c A Flower b Streak",
+                    "dismissal": "c (wk)A Flower b Streak",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "4",
@@ -296,7 +296,7 @@
                     "strike_rate": "84.09"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "c Muralidaran b Dharmasena",
                     "runs": "13",
                     "balls": "23",
@@ -307,7 +307,7 @@
                 },
                 {
                     "batsman": "Dion Ebrahim",
-                    "dismissal": "st Sangakkara b Dharmasena",
+                    "dismissal": "st (wk)Sangakkara b Dharmasena",
                     "runs": "14",
                     "balls": "29",
                     "minutes": "37",
@@ -327,7 +327,7 @@
                 },
                 {
                     "batsman": "Heath Streak",
-                    "dismissal": "st Sangakkara b Dharmasena",
+                    "dismissal": "st (wk)Sangakkara b Dharmasena",
                     "runs": "5",
                     "balls": "16",
                     "minutes": "18",
@@ -337,7 +337,7 @@
                 },
                 {
                     "batsman": "Mluleki Nkala",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "5",
                     "balls": "21",
                     "minutes": "15",
@@ -470,5 +470,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 79 runs"
+    "result": "Sri Lanka won by 79 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Charitha Buddhika",
+            "Avishka Gunawardene",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Russel Arnold",
+            "Kumar Dharmasena",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya(c)",
+            "Dulip Liyanage",
+            "Marvan Atapattu"
+        ],
+        "Zimbabwe": [
+            "Heath Streak",
+            "Stuart Carlisle",
+            "Andy Flower (wk)",
+            "Mluleki Nkala",
+            "Dougie Marillier",
+            "Travis Friend",
+            "Brian Murphy (c)",
+            "Gary Brent",
+            "Trevor Gripper",
+            "Dion Ebrahim",
+            "Grant Flower"
+        ]
+    }
 }

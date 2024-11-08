@@ -66,7 +66,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "b Yadav",
                     "runs": "71",
                     "balls": "97",
@@ -87,7 +87,7 @@
                 },
                 {
                     "batsman": "Andy Blignaut",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "41",
                     "balls": "26",
                     "minutes": "41",
@@ -97,7 +97,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "run out (Agarkar/Dhoni)",
+                    "dismissal": "run out (Agarkar/ (wk)Dhoni)",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "13",
@@ -303,7 +303,7 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "67",
                     "balls": "63",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 11 balls remaining)"
+    "result": "India won by 4 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Charles Coventry",
+            "Anthony Ireland",
+            "Gavin Ewing",
+            "Blessing Mahwire",
+            "Tatenda Taibu(c) (wk)",
+            "Prosper Utseya",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Brendan Taylor",
+            "Andy Blignaut"
+        ],
+        "India": [
+            "Rahul Dravid",
+            "Harbhajan Singh",
+            "Murali Kartik",
+            "Mohammad Kaif",
+            "Venugopal Rao",
+            "MS Dhoni (wk)",
+            "Jai Prakash Yadav",
+            "Ajit Agarkar",
+            "Virender Sehwag",
+            "Sourav Ganguly(c)",
+            "Yuvraj Singh"
+        ]
+    }
 }

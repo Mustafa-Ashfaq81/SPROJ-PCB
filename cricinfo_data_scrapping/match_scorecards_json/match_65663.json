@@ -102,7 +102,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Courtney Browne , Ian Bradshaw , Pedro Collins , Reon King",
+            "did_not_bat": "Courtney Browne (wk) , Ian Bradshaw , Pedro Collins , Reon King",
             "fall_of_wickets": "Fall of wickets : 1 - 17 ( Chris Gayle , 3.3 ov ) , 1 - 23 * ( Ramnaresh Sarwan , retired not out ) , 2 - 56 ( Ricardo Powell , 10.6 ov ) , 3 - 243 ( Shivnarine Chanderpaul , 42.3 ov ) , 4 - 327 ( Brian Lara , 48.4 ov )",
             "bowling": [
                 {
@@ -209,7 +209,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Hinds",
                     "runs": "19",
                     "balls": "34",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "run out (King/Browne/Powell)",
+                    "dismissal": "run out (King/ (wk)Browne/Powell)",
                     "runs": "45",
                     "balls": "46",
                     "minutes": "63",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Browne b Bravo",
+                    "dismissal": "c (wk)Browne b Bravo",
                     "runs": "17",
                     "balls": "16",
                     "minutes": "23",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 58 runs"
+    "result": "West Indies won by 58 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Brian Lara(c)",
+            "Reon King",
+            "Dwayne Bravo",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Ricardo Powell",
+            "Pedro Collins",
+            "Ramnaresh Sarwan"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Azhar Mahmood",
+            "Naved-ul-Hasan",
+            "Iftikhar Anjum",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Mohammad Hafeez"
+        ]
+    }
 }

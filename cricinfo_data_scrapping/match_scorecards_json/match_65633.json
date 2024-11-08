@@ -81,7 +81,7 @@
                     "strike_rate": "97.56"
                 },
                 {
-                    "batsman": "Ryan Campbell",
+                    "batsman": "Ryan Campbell (wk)",
                     "dismissal": "c Arnold b Fernando",
                     "runs": "16",
                     "balls": "18",
@@ -213,7 +213,7 @@
             "batting": [
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "c Campbell b McGrath",
+                    "dismissal": "c (wk)Campbell b McGrath",
                     "runs": "15",
                     "balls": "26",
                     "minutes": "41",
@@ -272,7 +272,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "c Bevan b Watson",
                     "runs": "35",
                     "balls": "56",
@@ -313,7 +313,7 @@
                 },
                 {
                     "batsman": "Pulasthi Gunaratne",
-                    "dismissal": "c Campbell b Watson",
+                    "dismissal": "c (wk)Campbell b Watson",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "6",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Australia won by 142 runs"
+    "result": "Australia won by 142 runs",
+    "playing_xi": {
+        "Australia": [
+            "Darren Lehmann",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Ryan Campbell (wk)",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Brad Hogg",
+            "Damien Martyn",
+            "Shane Watson"
+        ],
+        "Sri Lanka": [
+            "Kumar Sangakkara",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Sanath Jayasuriya(c)",
+            "Jehan Mubarak",
+            "Romesh Kaluwitharana (wk)",
+            "Prabath Nissanka",
+            "Dilhara Fernando",
+            "Pulasthi Gunaratne",
+            "Mahela Jayawardene"
+        ]
+    }
 }

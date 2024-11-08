@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Dickwella b Pradeep",
+                    "dismissal": "c (wk)Dickwella b Pradeep",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "5",
@@ -71,7 +71,7 @@
                     "strike_rate": "38.88"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Chandimal b NLTC Perera",
                     "runs": "63",
                     "balls": "52",
@@ -208,7 +208,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c Jadeja b Kumar",
                     "runs": "7",
                     "balls": "18",
@@ -219,7 +219,7 @@
                 },
                 {
                     "batsman": "Danushka Gunathilaka",
-                    "dismissal": "run out (Yadav/Dhoni)",
+                    "dismissal": "run out (Yadav/ (wk)Dhoni)",
                     "runs": "76",
                     "balls": "72",
                     "minutes": "115",
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 8 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Kedar Jadhav",
+            "Yuvraj Singh",
+            "Shikhar Dhawan",
+            "Ravindra Jadeja",
+            "Virat Kohli(c)",
+            "Jasprit Bumrah",
+            "MS Dhoni (wk)",
+            "Umesh Yadav"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Danushka Gunathilaka",
+            "Kusal Mendis",
+            "Dinesh Chandimal",
+            "Asela Gunaratne",
+            "Suranga Lakmal",
+            "Angelo Mathews(c)",
+            "Nuwan Pradeep",
+            "Thisara Perera",
+            "Niroshan Dickwella (wk)",
+            "Kusal Perera"
+        ]
+    }
 }

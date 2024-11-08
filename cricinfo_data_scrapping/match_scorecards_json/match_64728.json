@@ -57,8 +57,8 @@
                     "strike_rate": "34.21"
                 },
                 {
-                    "batsman": "Andy Flower",
-                    "dismissal": "st Foster b Snape",
+                    "batsman": "Andy Flower (wk)",
+                    "dismissal": "st (wk)Foster b Snape",
                     "runs": "59",
                     "balls": "78",
                     "minutes": "105",
@@ -88,7 +88,7 @@
                 },
                 {
                     "batsman": "Grant Flower",
-                    "dismissal": "st Foster b Snape",
+                    "dismissal": "st (wk)Foster b Snape",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -328,7 +328,7 @@
                     "strike_rate": "106.66"
                 }
             ],
-            "did_not_bat": "Jeremy Snape , James Foster , James Kirtley , Matthew Hoggard",
+            "did_not_bat": "Jeremy Snape , James Foster (wk) , James Kirtley , Matthew Hoggard",
             "fall_of_wickets": "Fall of wickets : 1 - 13 ( Marcus Trescothick , 3.5 ov ) , 2 - 111 ( Nick Knight , 23.1 ov ) , 3 - 144 ( Nasser Hussain , 29.1 ov ) , 4 - 176 ( Graham Thorpe , 39.3 ov ) , 5 - 187 ( Mark Ramprakash , 41.6 ov )",
             "bowling": [
                 {
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "England won by 5 wickets (with 20 balls remaining)"
+    "result": "England won by 5 wickets (with 20 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Stuart Carlisle",
+            "Guy Whittall(c)",
+            "Dion Ebrahim",
+            "Gary Brent",
+            "Douglas Hondo",
+            "Grant Flower",
+            "Alistair Campbell",
+            "Dirk Viljoen",
+            "Andy Flower (wk)",
+            "Mluleki Nkala",
+            "Craig Wishart"
+        ],
+        "England": [
+            "Matthew Hoggard",
+            "Graham Thorpe",
+            "James Kirtley",
+            "Nick Knight",
+            "Ben Hollioake",
+            "Nasser Hussain(c)",
+            "Andrew Flintoff",
+            "Marcus Trescothick",
+            "James Foster (wk)",
+            "Jeremy Snape",
+            "Mark Ramprakash"
+        ]
+    }
 }

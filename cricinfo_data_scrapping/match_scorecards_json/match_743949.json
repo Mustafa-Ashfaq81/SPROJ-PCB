@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Brendon McCullum(c)",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "35",
                     "balls": "31",
                     "minutes": "57",
@@ -80,7 +80,7 @@
                     "strike_rate": "105.76"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Stokes b Willey",
                     "runs": "8",
                     "balls": "5",
@@ -267,7 +267,7 @@
                     "strike_rate": "158.33"
                 }
             ],
-            "did_not_bat": "Jos Buttler , Sam Billings , Adil Rashid , David Willey , Mark Wood , Steven Finn",
+            "did_not_bat": "Jos Buttler (wk) , Sam Billings , Adil Rashid , David Willey , Mark Wood , Steven Finn",
             "fall_of_wickets": "Fall of wickets : 1 - 100 ( Alex Hales , 10.4 ov ) , 2 - 111 ( Jason Roy , 12.5 ov ) , 3 - 309 ( Eoin Morgan , 39.1 ov )",
             "bowling": [
                 {
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 36 balls remaining)"
+    "result": "England won by 7 wickets (with 36 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Grant Elliott",
+            "Mitchell Santner",
+            "Brendon McCullum(c)",
+            "Ben Wheeler",
+            "Matt Henry",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Tim Southee",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "England": [
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "Steven Finn",
+            "Ben Stokes",
+            "Eoin Morgan(c)",
+            "Sam Billings",
+            "Mark Wood",
+            "David Willey",
+            "Adil Rashid",
+            "Alex Hales",
+            "Jason Roy"
+        ]
+    }
 }

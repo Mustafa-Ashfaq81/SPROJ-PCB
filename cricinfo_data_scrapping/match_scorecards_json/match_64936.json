@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c Boucher b Zondeki",
+                    "dismissal": "c (wk)Boucher b Zondeki",
                     "runs": "17",
                     "balls": "27",
                     "minutes": "48",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Barney Rogers",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "14",
@@ -80,7 +80,7 @@
                     "strike_rate": "50.61"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "run out (de Villiers)",
                     "runs": "0",
                     "balls": "5",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Heath Streak",
-                    "dismissal": "run out (de Villiers/Morkel/Boucher)",
+                    "dismissal": "run out (de Villiers/Morkel/ (wk)Boucher)",
                     "runs": "68",
                     "balls": "105",
                     "minutes": "138",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Taibu b Streak",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "15",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Jacques Rudolph",
-                    "dismissal": "c Taibu b Mupariwa",
+                    "dismissal": "c (wk)Taibu b Mupariwa",
                     "runs": "33",
                     "balls": "65",
                     "minutes": "81",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Taibu b Mupariwa",
+                    "dismissal": "c (wk)Taibu b Mupariwa",
                     "runs": "21",
                     "balls": "30",
                     "minutes": "43",
@@ -287,7 +287,7 @@
                     "strike_rate": "96.29"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "18",
                     "balls": "18",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 21 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 21 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Prosper Utseya",
+            "Gavin Ewing",
+            "Chris Mpofu",
+            "Stuart Matsikenyeri",
+            "Tawanda Mupariwa",
+            "Heath Streak",
+            "Barney Rogers",
+            "Tatenda Taibu(c) (wk)",
+            "Hamilton Masakadza",
+            "Sean Williams"
+        ],
+        "South Africa": [
+            "AB de Villiers",
+            "Monde Zondeki",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Charl Langeveldt",
+            "Mark Boucher (wk)",
+            "Adam Bacher",
+            "Jacques Rudolph",
+            "Albie Morkel",
+            "Nicky Boje (c)",
+            "Justin Kemp"
+        ]
+    }
 }

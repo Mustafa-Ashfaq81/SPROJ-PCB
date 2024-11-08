@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Boucher b Parnell",
+                    "dismissal": "c (wk)Boucher b Parnell",
                     "runs": "25",
                     "balls": "37",
                     "minutes": "51",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Boucher b Botha",
+                    "dismissal": "c (wk)Boucher b Botha",
                     "runs": "98",
                     "balls": "89",
                     "minutes": "108",
@@ -71,7 +71,7 @@
                     "strike_rate": "87.23"
                 },
                 {
-                    "batsman": "Eoin Morgan",
+                    "batsman": "Eoin Morgan (wk)",
                     "dismissal": "c Smith b Steyn",
                     "runs": "67",
                     "balls": "34",
@@ -292,7 +292,7 @@
                     "strike_rate": "72.72"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Anderson",
                     "runs": "8",
                     "balls": "10",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Albie Morkel",
-                    "dismissal": "run out (Morgan)",
+                    "dismissal": "run out ( (wk)Morgan)",
                     "runs": "17",
                     "balls": "14",
                     "minutes": "22",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "England won by 22 runs"
+    "result": "England won by 22 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Paul Collingwood",
+            "Eoin Morgan (wk)",
+            "Ravi Bopara",
+            "Graeme Swann",
+            "Graham Onions",
+            "Joe Denly",
+            "Owais Shah",
+            "Luke Wright"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Dale Steyn",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Albie Morkel",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Wayne Parnell",
+            "Herschelle Gibbs",
+            "Roelof van der Merwe"
+        ]
+    }
 }

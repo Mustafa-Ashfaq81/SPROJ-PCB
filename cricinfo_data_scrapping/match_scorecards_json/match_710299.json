@@ -31,7 +31,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Rubel Hossain",
                     "runs": "2",
                     "balls": "8",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Samiullah Shinwari",
-                    "dismissal": "run out (Anamul Haque/Rubel Hossain)",
+                    "dismissal": "run out ( (wk)Anamul Haque/Rubel Hossain)",
                     "runs": "81",
                     "balls": "69",
                     "minutes": "94",
@@ -222,7 +222,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Anamul Haque",
+                    "batsman": "Anamul Haque (wk)",
                     "dismissal": "lbw b Hamid Hassan",
                     "runs": "1",
                     "balls": "9",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Arafat Sunny",
-                    "dismissal": "c Mohammad Shahzad b Shapoor Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Shapoor Zadran",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -436,5 +436,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 32 runs"
+    "result": "Afghanistan won by 32 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mirwais Ashraf",
+            "Nawroz Mangal",
+            "Shapoor Zadran",
+            "Karim Sadiq",
+            "Mohammad Shahzad (wk)",
+            "Hamid Hassan",
+            "Samiullah Shinwari",
+            "Asghar Afghan",
+            "Najibullah Zadran",
+            "Mohammad Nabi(c)",
+            "Amir Hamza"
+        ],
+        "Bangladesh": [
+            "Nasir Hossain",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Anamul Haque (wk)",
+            "Sohag Gazi",
+            "Mominul Haque",
+            "Shamsur Rahman",
+            "Ziaur Rahman",
+            "Mushfiqur Rahim(c)",
+            "Arafat Sunny"
+        ]
+    }
 }

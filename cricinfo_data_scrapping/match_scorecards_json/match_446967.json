@@ -40,7 +40,7 @@
                     "strike_rate": "91.30"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "b Johnson",
                     "runs": "18",
                     "balls": "23",
@@ -245,7 +245,7 @@
                     "strike_rate": "150.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Trott b Anderson",
                     "runs": "20",
                     "balls": "25",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Callum Ferguson",
-                    "dismissal": "run out (Prior/Yardy)",
+                    "dismissal": "run out ( (wk)Prior/Yardy)",
                     "runs": "46",
                     "balls": "44",
                     "minutes": "68",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Mitchell Johnson",
-                    "dismissal": "st Prior b Pietersen",
+                    "dismissal": "st (wk)Prior b Pietersen",
                     "runs": "57",
                     "balls": "59",
                     "minutes": "73",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "run out (Trott/Prior)",
+                    "dismissal": "run out (Trott/ (wk)Prior)",
                     "runs": "82",
                     "balls": "70",
                     "minutes": "115",
@@ -296,7 +296,7 @@
                 },
                 {
                     "batsman": "David Hussey",
-                    "dismissal": "c Prior b Finn",
+                    "dismissal": "c (wk)Prior b Finn",
                     "runs": "38",
                     "balls": "36",
                     "minutes": "59",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 wickets (with 4 balls remaining)"
+    "result": "Australia won by 2 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Andrew Strauss(c)",
+            "Chris Woakes",
+            "Paul Collingwood",
+            "Jonathan Trott",
+            "Matt Prior (wk)",
+            "Michael Yardy",
+            "Eoin Morgan",
+            "James Anderson",
+            "Steven Finn",
+            "Kevin Pietersen"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Shane Watson",
+            "Shaun Tait",
+            "Callum Ferguson",
+            "David Hussey",
+            "John Hastings",
+            "Steven Smith",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Cameron White",
+            "Michael Clarke(c)"
+        ]
+    }
 }

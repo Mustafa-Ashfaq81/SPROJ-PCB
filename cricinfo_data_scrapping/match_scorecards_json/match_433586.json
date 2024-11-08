@@ -81,7 +81,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "12",
                     "balls": "21",
@@ -253,7 +253,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Dhoni b Harbhajan Singh",
+                    "dismissal": "c (wk)Dhoni b Harbhajan Singh",
                     "runs": "61",
                     "balls": "72",
                     "minutes": "114",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "run out (Dhoni/Harbhajan Singh)",
+                    "dismissal": "run out ( (wk)Dhoni/Harbhajan Singh)",
                     "runs": "69",
                     "balls": "88",
                     "minutes": "120",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "23",
                     "balls": "20",
                     "minutes": "40",
@@ -312,7 +312,7 @@
                     "strike_rate": "108.69"
                 },
                 {
-                    "batsman": "Morne van Wyk",
+                    "batsman": "Morne van Wyk (wk)",
                     "dismissal": "lbw b Patel",
                     "runs": "5",
                     "balls": "5",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 3 wickets (with 2 balls remaining)"
+    "result": "South Africa won by 3 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Ashish Nehra",
+            "Munaf Patel",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Virender Sehwag",
+            "Yusuf Pathan",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)"
+        ],
+        "South Africa": [
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Morne van Wyk (wk)",
+            "Hashim Amla",
+            "Morne Morkel",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Robin Peterson",
+            "Dale Steyn",
+            "Faf du Plessis"
+        ]
+    }
 }

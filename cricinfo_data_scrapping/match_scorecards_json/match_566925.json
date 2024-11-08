@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "run out (Guptill/Ronchi)",
+                    "dismissal": "run out (Guptill/ (wk)Ronchi)",
                     "runs": "33",
                     "balls": "50",
                     "minutes": "52",
@@ -90,7 +90,7 @@
                     "strike_rate": "73.68"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "47",
                     "balls": "16",
@@ -221,7 +221,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Trott b Broad",
                     "runs": "22",
                     "balls": "17",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Colin Munro",
-                    "dismissal": "c Buttler b Bresnan",
+                    "dismissal": "c (wk)Buttler b Bresnan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Brendon McCullum(c)",
-                    "dismissal": "c Buttler b Tredwell",
+                    "dismissal": "c (wk)Buttler b Tredwell",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "17",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "England won by 34 runs"
+    "result": "England won by 34 runs",
+    "playing_xi": {
+        "England": [
+            "Stuart Broad",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "Tim Bresnan",
+            "Jonathan Trott",
+            "Jos Buttler (wk)",
+            "Ravi Bopara",
+            "James Tredwell"
+        ],
+        "New Zealand": [
+            "Martin Guptill",
+            "Mitchell McClenaghan",
+            "Nathan McCullum",
+            "Tim Southee",
+            "Kane Williamson",
+            "Luke Ronchi (wk)",
+            "Kyle Mills",
+            "Brendon McCullum(c)",
+            "Colin Munro",
+            "James Franklin",
+            "Ross Taylor"
+        ]
+    }
 }

@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c BB McCullum b Franklin",
+                    "dismissal": "c (wk)BB McCullum b Franklin",
                     "runs": "64",
                     "balls": "79",
                     "minutes": "95",
@@ -79,7 +79,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Elliott b McClenaghan",
                     "runs": "21",
                     "balls": "13",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c BB McCullum b Ellis",
+                    "dismissal": "c (wk)BB McCullum b Ellis",
                     "runs": "17",
                     "balls": "16",
                     "minutes": "22",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Stuart Broad",
-                    "dismissal": "c BB McCullum b McClenaghan",
+                    "dismissal": "c (wk)BB McCullum b McClenaghan",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "7",
@@ -300,7 +300,7 @@
                     "strike_rate": "91.66"
                 },
                 {
-                    "batsman": "Brendon McCullum(c)",
+                    "batsman": "Brendon McCullum(c) (wk)",
                     "dismissal": "not out",
                     "runs": "69",
                     "balls": "61",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "17",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 3 wickets (with 7 balls remaining)"
+    "result": "New Zealand won by 3 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Graeme Swann",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Chris Woakes",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Jos Buttler (wk)"
+        ],
+        "New Zealand": [
+            "Grant Elliott",
+            "Martin Guptill",
+            "Mitchell McClenaghan",
+            "Nathan McCullum",
+            "Kane Williamson",
+            "Brendon McCullum(c) (wk)",
+            "Kyle Mills",
+            "BJ Watling",
+            "Andrew Ellis",
+            "James Franklin",
+            "Ross Taylor"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Devon Conway",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "35",
                     "balls": "39",
                     "minutes": "48",
@@ -101,7 +101,7 @@
                     "strike_rate": "152.94"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "2",
@@ -238,7 +238,7 @@
                     "strike_rate": "104.76"
                 }
             ],
-            "did_not_bat": "Mohammad Rizwan , Saud Shakeel , Iftikhar Ahmed , Salman Agha , Hasan Ali , Shaheen Shah Afridi , Mohammad Wasim , Haris Rauf",
+            "did_not_bat": "Mohammad Rizwan (wk) , Saud Shakeel , Iftikhar Ahmed , Salman Agha , Hasan Ali , Shaheen Shah Afridi , Mohammad Wasim , Haris Rauf",
             "fall_of_wickets": "Fall of wickets : 1 - 6 ( Abdullah Shafique , 1.6 ov )",
             "bowling": [
                 {
@@ -328,5 +328,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 21 runs (DLS method)"
+    "result": "Pakistan won by 21 runs (DLS method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Devon Conway",
+            "Daryl Mitchell",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Mark Chapman",
+            "Tim Southee",
+            "Rachin Ravindra",
+            "Glenn Phillips",
+            "Ish Sodhi",
+            "Tom Latham (wk)"
+        ],
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Saud Shakeel",
+            "Abdullah Shafique",
+            "Mohammad Wasim",
+            "Haris Rauf",
+            "Fakhar Zaman",
+            "Mohammad Rizwan (wk)",
+            "Salman Agha",
+            "Hasan Ali"
+        ]
+    }
 }

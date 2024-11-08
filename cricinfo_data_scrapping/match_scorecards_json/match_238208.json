@@ -37,8 +37,8 @@
             "extras": "27",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
-                    "dismissal": "st Taylor b Meth",
+                    "batsman": "Kennedy Otieno (wk)",
+                    "dismissal": "st (wk)Taylor b Meth",
                     "runs": "74",
                     "balls": "112",
                     "minutes": "134",
@@ -98,7 +98,7 @@
                 },
                 {
                     "batsman": "Brijal Patel",
-                    "dismissal": "c Taylor b Masakadza",
+                    "dismissal": "c (wk)Taylor b Masakadza",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -259,7 +259,7 @@
             "batting": [
                 {
                     "batsman": "Piet Rinke",
-                    "dismissal": "c Otieno b Ongondo",
+                    "dismissal": "c (wk)Otieno b Ongondo",
                     "runs": "42",
                     "balls": "44",
                     "minutes": "55",
@@ -288,7 +288,7 @@
                     "strike_rate": "73.41"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "not out",
                     "runs": "60",
                     "balls": "58",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 8 wickets (with 39 balls remaining)"
+    "result": "Zimbabwe won by 8 wickets (with 39 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Nehemiah Odhiambo",
+            "Kennedy Otieno (wk)",
+            "Tony Suji",
+            "Thomas Odoyo",
+            "Brijal Patel",
+            "Tanmay Mishra",
+            "Peter Ongondo",
+            "Jimmy Kamande",
+            "Morris Ouma",
+            "Steve Tikolo(c)",
+            "Josephat Ababu"
+        ],
+        "Zimbabwe": [
+            "Gregory Strydom",
+            "Charles Coventry",
+            "Brendan Taylor (wk)",
+            "Anthony Ireland",
+            "Prosper Utseya",
+            "Elton Chigumbura",
+            "Piet Rinke",
+            "Terry Duffin(c)",
+            "Hamilton Masakadza",
+            "Blessing Mahwire",
+            "Keegan Meth"
+        ]
+    }
 }

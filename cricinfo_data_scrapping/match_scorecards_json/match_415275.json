@@ -31,7 +31,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Duminy b Botha",
                     "runs": "44",
                     "balls": "68",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "36",
                     "balls": "39",
                     "minutes": "45",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "11",
                     "balls": "13",
                     "minutes": "16",
@@ -288,8 +288,8 @@
                     "strike_rate": "84.61"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c McCullum b Tuffey",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "28",
                     "balls": "28",
                     "minutes": "40",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 53 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 53 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Jesse Ryder",
+            "Daniel Vettori(c)",
+            "Martin Guptill",
+            "Neil Broom",
+            "Grant Elliott",
+            "Kyle Mills",
+            "Daryl Tuffey",
+            "Shane Bond",
+            "Gareth Hopkins",
+            "Ross Taylor",
+            "Brendon McCullum (wk)"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Albie Morkel",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Wayne Parnell",
+            "Roelof van der Merwe"
+        ]
+    }
 }

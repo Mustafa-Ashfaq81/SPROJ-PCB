@@ -40,7 +40,7 @@
                     "strike_rate": "121.93"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "b Anderson",
                     "runs": "2",
                     "balls": "9",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Ronchi b Elliott",
+                    "dismissal": "c (wk)Ronchi b Elliott",
                     "runs": "21",
                     "balls": "23",
                     "minutes": "32",
@@ -227,7 +227,7 @@
                     "strike_rate": "91.30"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Guptill b McClenaghan",
                     "runs": "2",
                     "balls": "3",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "st Ronchi b Williamson",
+                    "dismissal": "st (wk)Ronchi b Williamson",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "30",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 86 runs"
+    "result": "New Zealand won by 86 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Grant Elliott",
+            "Martin Guptill",
+            "Mitchell McClenaghan",
+            "Nathan McCullum",
+            "Kane Williamson",
+            "Luke Ronchi (wk)",
+            "Kyle Mills",
+            "Brendon McCullum(c)",
+            "Doug Bracewell",
+            "James Franklin",
+            "Ross Taylor"
+        ],
+        "England": [
+            "James Anderson",
+            "Graeme Swann",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Chris Woakes",
+            "Tim Bresnan",
+            "Jade Dernbach",
+            "Jonathan Trott",
+            "Jos Buttler (wk)"
+        ]
+    }
 }

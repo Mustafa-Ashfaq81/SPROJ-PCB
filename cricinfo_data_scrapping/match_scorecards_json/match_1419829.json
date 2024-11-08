@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Avishka Fernando",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "21",
@@ -50,8 +50,8 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
-                    "dismissal": "c Mushfiqur Rahim b Rishad Hossain",
+                    "batsman": "Kusal Mendis(c) (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rishad Hossain",
                     "runs": "29",
                     "balls": "51",
                     "minutes": "81",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Sadeera Samarawickrama",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "14",
                     "balls": "15",
                     "minutes": "33",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "37",
                     "balls": "46",
                     "minutes": "71",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Lahiru Kumara",
-                    "dismissal": "run out (Towhid Hridoy/Mushfiqur Rahim)",
+                    "dismissal": "run out (Towhid Hridoy/ (wk)Mushfiqur Rahim)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "2",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Najmul Hossain Shanto(c)",
-                    "dismissal": "c Mendis b Kumara",
+                    "dismissal": "c (wk)Mendis b Kumara",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "8",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Mendis b Kumara",
+                    "dismissal": "c (wk)Mendis b Kumara",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "7",
@@ -287,7 +287,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "37",
                     "balls": "36",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 4 wickets (with 58 balls remaining)"
+    "result": "Bangladesh won by 4 wickets (with 58 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Charith Asalanka",
+            "Sadeera Samarawickrama",
+            "Avishka Fernando",
+            "Pramod Madushan",
+            "Maheesh Theekshana",
+            "Kusal Mendis(c) (wk)",
+            "Janith Liyanage",
+            "Wanindu Hasaranga",
+            "Pathum Nissanka",
+            "Dunith Wellalage",
+            "Lahiru Kumara"
+        ],
+        "Bangladesh": [
+            "Towhid Hridoy",
+            "Mahmudullah",
+            "Najmul Hossain Shanto(c)",
+            "Shoriful Islam",
+            "Taskin Ahmed",
+            "Tanzid Hasan",
+            "Rishad Hossain",
+            "Mustafizur Rahman",
+            "Anamul Haque",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

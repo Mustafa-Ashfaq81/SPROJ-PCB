@@ -37,7 +37,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Rohan Mustafa",
                     "runs": "24",
                     "balls": "31",
@@ -58,7 +58,7 @@
                 },
                 {
                     "batsman": "Calum MacLeod",
-                    "dismissal": "c Ghulam Shabber b Imran Haider",
+                    "dismissal": "c (wk)Ghulam Shabber b Imran Haider",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "-",
@@ -78,7 +78,7 @@
                 },
                 {
                     "batsman": "Richie Berrington",
-                    "dismissal": "c Ghulam Shabber b Zahoor Khan",
+                    "dismissal": "c (wk)Ghulam Shabber b Zahoor Khan",
                     "runs": "50",
                     "balls": "88",
                     "minutes": "-",
@@ -108,7 +108,7 @@
                 },
                 {
                     "batsman": "Safyaan Sharif",
-                    "dismissal": "c Ghulam Shabber b Zahoor Khan",
+                    "dismissal": "c (wk)Ghulam Shabber b Zahoor Khan",
                     "runs": "10",
                     "balls": "28",
                     "minutes": "-",
@@ -245,7 +245,7 @@
             "batting": [
                 {
                     "batsman": "Rohan Mustafa(c)",
-                    "dismissal": "c Cross b Davey",
+                    "dismissal": "c (wk)Cross b Davey",
                     "runs": "10",
                     "balls": "28",
                     "minutes": "-",
@@ -264,8 +264,8 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Ghulam Shabber",
-                    "dismissal": "c Cross b Sharif",
+                    "batsman": "Ghulam Shabber (wk)",
+                    "dismissal": "c (wk)Cross b Sharif",
                     "runs": "14",
                     "balls": "19",
                     "minutes": "-",
@@ -285,7 +285,7 @@
                 },
                 {
                     "batsman": "Muhammad Usman",
-                    "dismissal": "c Cross b Wheal",
+                    "dismissal": "c (wk)Cross b Wheal",
                     "runs": "45",
                     "balls": "58",
                     "minutes": "-",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Mohammad Naveed",
-                    "dismissal": "st Cross b Watt",
+                    "dismissal": "st (wk)Cross b Watt",
                     "runs": "30",
                     "balls": "23",
                     "minutes": "-",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 4 wickets (with 49 balls remaining)"
+    "result": "U.A.E. won by 4 wickets (with 49 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Mark Watt",
+            "Matthew Cross (wk)",
+            "Kyle Coetzer(c)",
+            "Calum MacLeod",
+            "Chris Sole",
+            "Michael Leask",
+            "Josh Davey",
+            "Brad Wheal",
+            "Safyaan Sharif",
+            "Richie Berrington",
+            "Craig Wallace"
+        ],
+        "United Arab Emirates": [
+            "Imran Haider",
+            "Muhammad Usman",
+            "Zahoor Khan",
+            "Rohan Mustafa(c)",
+            "Mohammed Qasim",
+            "Shaiman Anwar",
+            "Ghulam Shabber (wk)",
+            "Adnan Mufti",
+            "Ahmed Raza",
+            "Qadeer Ahmed",
+            "Mohammad Naveed"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "33",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Bandara",
                     "runs": "57",
                     "balls": "64",
@@ -198,7 +198,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "80",
                     "balls": "89",
                     "minutes": "139",
@@ -217,7 +217,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Imran Nazir b Iftikhar Anjum",
                     "runs": "39",
                     "balls": "33",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Thilan Samaraweera",
-                    "dismissal": "c Kamran Akmal b Iftikhar Anjum",
+                    "dismissal": "c (wk)Kamran Akmal b Iftikhar Anjum",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "6",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "st Kamran Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "23",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 146 runs"
+    "result": "Pakistan won by 146 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Iftikhar Anjum",
+            "Younis Khan(c)",
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Umar Akmal",
+            "Mohammad Yousuf",
+            "Mohammad Amir",
+            "Misbah-ul-Haq",
+            "Shahid Afridi",
+            "Imran Nazir"
+        ],
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Malinga Bandara",
+            "Mahela Jayawardene",
+            "Chamara Kapugedera",
+            "Lasith Malinga",
+            "Upul Tharanga",
+            "Kumar Sangakkara(c) (wk)",
+            "Thilan Samaraweera",
+            "Angelo Mathews",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ]
+    }
 }

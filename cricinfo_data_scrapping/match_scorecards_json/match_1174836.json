@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Jean Bredenkamp",
-                    "dismissal": "c Jacobs b Saad Bin Zafar",
+                    "dismissal": "c (wk)Jacobs b Saad Bin Zafar",
                     "runs": "24",
                     "balls": "47",
                     "minutes": "69",
@@ -109,7 +109,7 @@
                     "strike_rate": "300.00"
                 }
             ],
-            "did_not_bat": "Zane Green , Bernard Scholtz , Zhivago Groenewald",
+            "did_not_bat": "Zane Green (wk) , Bernard Scholtz , Zhivago Groenewald",
             "fall_of_wickets": "Fall of wickets : 1 - 18 ( JP Kotze , 5.6 ov ) , 2 - 91 ( Jean Bredenkamp , 24.4 ov ) , 3 - 97 ( Jan Frylinck , 26.2 ov ) , 4 - 119 ( Gerhard Erasmus , 31.5 ov ) , 5 - 188 ( Stephan Baard , 43.1 ov ) , 6 - 239 ( JJ Smit , 48.4 ov )",
             "bowling": [
                 {
@@ -217,7 +217,7 @@
                 },
                 {
                     "batsman": "Navneet Dhaliwal",
-                    "dismissal": "c Green b Frylinck",
+                    "dismissal": "c (wk)Green b Frylinck",
                     "runs": "14",
                     "balls": "24",
                     "minutes": "38",
@@ -266,7 +266,7 @@
                     "strike_rate": "38.46"
                 },
                 {
-                    "batsman": "Davy Jacobs(c)",
+                    "batsman": "Davy Jacobs(c) (wk)",
                     "dismissal": "c Erasmus b Frylinck",
                     "runs": "23",
                     "balls": "30",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "Namibia won by 98 runs"
+    "result": "Namibia won by 98 runs",
+    "playing_xi": {
+        "Namibia": [
+            "Christi Viljoen",
+            "Craig Williams",
+            "Zhivago Groenewald",
+            "Bernard Scholtz",
+            "JP Kotze",
+            "Stephan Baard",
+            "JJ Smit",
+            "Zane Green (wk)",
+            "Jan Frylinck",
+            "Gerhard Erasmus(c)",
+            "Jean Bredenkamp"
+        ],
+        "Canada": [
+            "Dilon Heyliger",
+            "Srimantha Wijeyeratne",
+            "Romesh Eranga",
+            "Bhavindu Adhihetty",
+            "Nitish Kumar",
+            "Saad Bin Zafar",
+            "Rodrigo Thomas",
+            "Navneet Dhaliwal",
+            "Hiral Patel",
+            "Nikhil Dutta",
+            "Davy Jacobs(c) (wk)"
+        ]
+    }
 }

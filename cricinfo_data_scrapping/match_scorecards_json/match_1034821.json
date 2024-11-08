@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "150",
                     "balls": "127",
                     "minutes": "183",
@@ -70,7 +70,7 @@
                     "strike_rate": "118.11"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Willey b Plunkett",
                     "runs": "134",
                     "balls": "122",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Alex Hales",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "14",
                     "balls": "12",
                     "minutes": "16",
@@ -257,8 +257,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "10",
                     "balls": "9",
                     "minutes": "16",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "India won by 15 runs"
+    "result": "India won by 15 runs",
+    "playing_xi": {
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Hardik Pandya",
+            "Kedar Jadhav",
+            "Yuvraj Singh",
+            "Shikhar Dhawan",
+            "KL Rahul",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Virat Kohli(c)",
+            "Jasprit Bumrah",
+            "MS Dhoni (wk)"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jos Buttler (wk)",
+            "Jake Ball",
+            "Alex Hales",
+            "David Willey",
+            "Moeen Ali",
+            "Ben Stokes"
+        ]
+    }
 }

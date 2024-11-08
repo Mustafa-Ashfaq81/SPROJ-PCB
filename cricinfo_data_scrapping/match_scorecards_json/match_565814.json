@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "25",
                     "balls": "43",
                     "minutes": "68",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "c Dhoni b Sharma",
+                    "dismissal": "c (wk)Dhoni b Sharma",
                     "runs": "17",
                     "balls": "20",
                     "minutes": "30",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Dhoni b Sharma",
+                    "dismissal": "c (wk)Dhoni b Sharma",
                     "runs": "39",
                     "balls": "57",
                     "minutes": "92",
@@ -80,7 +80,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "b Jadeja",
                     "runs": "0",
                     "balls": "3",
@@ -277,7 +277,7 @@
                     "strike_rate": "142.85"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "12",
@@ -349,5 +349,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 131 balls remaining)"
+    "result": "India won by 7 wickets (with 131 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Craig Kieswetter (wk)",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "Kevin Pietersen",
+            "Samit Patel",
+            "Jade Dernbach",
+            "Tim Bresnan",
+            "James Tredwell"
+        ],
+        "India": [
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Mohammed Shami",
+            "Gautam Gambhir",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ajinkya Rahane"
+        ]
+    }
 }

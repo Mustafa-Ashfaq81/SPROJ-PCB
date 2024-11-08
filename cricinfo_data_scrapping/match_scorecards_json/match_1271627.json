@@ -42,7 +42,7 @@
                     "strike_rate": "102.60"
                 },
                 {
-                    "batsman": "Minod Bhanuka",
+                    "batsman": "Minod Bhanuka (wk)",
                     "dismissal": "b Markram",
                     "runs": "27",
                     "balls": "39",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "st Klaasen b Maharaj",
+                    "dismissal": "st (wk)Klaasen b Maharaj",
                     "runs": "44",
                     "balls": "62",
                     "minutes": "74",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "c Klaasen b Rabada",
+                    "dismissal": "c (wk)Klaasen b Rabada",
                     "runs": "72",
                     "balls": "62",
                     "minutes": "93",
@@ -279,8 +279,8 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
-                    "dismissal": "run out (Karunaratne/Bhanuka)",
+                    "batsman": "Heinrich Klaasen (wk)",
+                    "dismissal": "run out (Karunaratne/ (wk)Bhanuka)",
                     "runs": "36",
                     "balls": "31",
                     "minutes": "63",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 14 runs"
+    "result": "Sri Lanka won by 14 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Dhananjaya de Silva",
+            "Bhanuka Rajapaksa",
+            "Praveen Jayawickrama",
+            "Charith Asalanka",
+            "Minod Bhanuka (wk)",
+            "Avishka Fernando",
+            "Chamika Karunaratne",
+            "Akila Dananjaya",
+            "Dushmantha Chameera",
+            "Dasun Shanaka(c)"
+        ],
+        "South Africa": [
+            "Keshav Maharaj",
+            "Rassie van der Dussen",
+            "Kagiso Rabada",
+            "Janneman Malan",
+            "Heinrich Klaasen (wk)",
+            "Temba Bavuma(c)",
+            "Aiden Markram",
+            "Tabraiz Shamsi",
+            "Andile Phehlukwayo",
+            "Kyle Verreynne",
+            "Anrich Nortje"
+        ]
+    }
 }

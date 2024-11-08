@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Matt Prior",
-                    "dismissal": "c Dhoni b Sreesanth",
+                    "dismissal": "c (wk)Dhoni b Sreesanth",
                     "runs": "14",
                     "balls": "13",
                     "minutes": "26",
@@ -90,7 +90,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "run out (Pathan/Agarkar)",
                     "runs": "49",
                     "balls": "66",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Irfan Pathan",
-                    "dismissal": "st Prior b Blackwell",
+                    "dismissal": "st (wk)Prior b Blackwell",
                     "runs": "46",
                     "balls": "56",
                     "minutes": "78",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Prior b Anderson",
+                    "dismissal": "c (wk)Prior b Anderson",
                     "runs": "48",
                     "balls": "55",
                     "minutes": "73",
@@ -311,7 +311,7 @@
                     "strike_rate": "55.26"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "13",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 16 balls remaining)"
+    "result": "India won by 4 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Matthew Hoggard",
+            "Andrew Flintoff(c)",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "James Anderson",
+            "Vikram Solanki",
+            "Andrew Strauss",
+            "Gareth Batty",
+            "Geraint Jones (wk)",
+            "Ian Blackwell",
+            "Matt Prior"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Harbhajan Singh",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "MS Dhoni (wk)",
+            "Ajit Agarkar",
+            "Sreesanth",
+            "Ramesh Powar",
+            "Virender Sehwag",
+            "Suresh Raina",
+            "Yuvraj Singh"
+        ]
+    }
 }

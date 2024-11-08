@@ -35,7 +35,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Pollock",
                     "runs": "0",
                     "balls": "1",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "35",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "18",
@@ -106,7 +106,7 @@
                 },
                 {
                     "batsman": "Brett Lee",
-                    "dismissal": "run out (Pollock/Boucher)",
+                    "dismissal": "run out (Pollock/ (wk)Boucher)",
                     "runs": "57",
                     "balls": "70",
                     "minutes": "130",
@@ -136,7 +136,7 @@
                 },
                 {
                     "batsman": "Glenn McGrath",
-                    "dismissal": "run out (Boucher/Hall)",
+                    "dismissal": "run out ( (wk)Boucher/Hall)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -292,7 +292,7 @@
                     "strike_rate": "46.34"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "63",
                     "balls": "62",
@@ -402,5 +402,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 7 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Bracken",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Andrew Symonds",
+            "Brett Lee",
+            "Damien Martyn",
+            "Stuart Clark",
+            "Simon Katich",
+            "Glenn McGrath",
+            "Ricky Ponting(c)"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Boeta Dippenaar",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Andrew Hall",
+            "Mark Boucher (wk)",
+            "Monde Zondeki",
+            "Garnett Kruger"
+        ]
+    }
 }

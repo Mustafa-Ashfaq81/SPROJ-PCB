@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "150",
                     "balls": "147",
                     "minutes": "214",
@@ -50,7 +50,7 @@
                     "strike_rate": "102.04"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Fernando b Jayasuriya",
                     "runs": "94",
                     "balls": "96",
@@ -217,7 +217,7 @@
                     "strike_rate": "168.75"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Gambhir b Sehwag",
                     "runs": "56",
                     "balls": "74",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Dhoni b Sehwag",
+                    "dismissal": "c (wk)Dhoni b Sehwag",
                     "runs": "28",
                     "balls": "40",
                     "minutes": "46",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Dhoni b Yuvraj Singh",
+                    "dismissal": "c (wk)Dhoni b Yuvraj Singh",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "8",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "India won by 67 runs"
+    "result": "India won by 67 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "MS Dhoni(c) (wk)",
+            "Gautam Gambhir",
+            "Yusuf Pathan",
+            "Suresh Raina",
+            "Pragyan Ojha",
+            "Rohit Sharma",
+            "Ishant Sharma",
+            "Praveen Kumar",
+            "Irfan Pathan"
+        ],
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Nuwan Kulasekara",
+            "Angelo Mathews"
+        ]
+    }
 }

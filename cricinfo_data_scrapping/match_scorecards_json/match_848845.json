@@ -43,7 +43,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Morne van Wyk",
+                    "batsman": "Morne van Wyk (wk)",
                     "dismissal": "b Milne",
                     "runs": "2",
                     "balls": "4",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Aaron Phangiso",
-                    "dismissal": "run out (Guptill/Ronchi)",
+                    "dismissal": "run out (Guptill/ (wk)Ronchi)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -294,7 +294,7 @@
                     "strike_rate": "51.28"
                 }
             ],
-            "did_not_bat": "Grant Elliott , Luke Ronchi , Colin Munro , Doug Bracewell , Ben Wheeler , Adam Milne , Ish Sodhi",
+            "did_not_bat": "Grant Elliott , Luke Ronchi (wk) , Colin Munro , Doug Bracewell , Ben Wheeler , Adam Milne , Ish Sodhi",
             "fall_of_wickets": "Fall of wickets : 1 - 126 ( Tom Latham , 28.3 ov ) , 2 - 140 ( Kane Williamson , 31.3 ov )",
             "bowling": [
                 {
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 8 wickets (with 33 balls remaining)"
+    "result": "New Zealand won by 8 wickets (with 33 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Farhaan Behardien",
+            "AB de Villiers(c)",
+            "David Wiese",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Morne van Wyk (wk)",
+            "Imran Tahir",
+            "Vernon Philander",
+            "Aaron Phangiso",
+            "David Miller"
+        ],
+        "New Zealand": [
+            "Tom Latham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Grant Elliott",
+            "Luke Ronchi (wk)",
+            "Ben Wheeler",
+            "Adam Milne",
+            "Doug Bracewell",
+            "Ish Sodhi",
+            "Colin Munro",
+            "George Worker"
+        ]
+    }
 }

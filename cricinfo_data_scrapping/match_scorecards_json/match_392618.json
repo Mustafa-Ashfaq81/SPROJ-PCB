@@ -40,7 +40,7 @@
                     "strike_rate": "68.18"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Shoaib Malik",
                     "runs": "26",
                     "balls": "55",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "run out (Haddin)",
+                    "dismissal": "run out ( (wk)Haddin)",
                     "runs": "30",
                     "balls": "56",
                     "minutes": "-",
@@ -277,7 +277,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Hopes b Bracken",
                     "runs": "8",
                     "balls": "22",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Australia won by 27 runs"
+    "result": "Australia won by 27 runs",
+    "playing_xi": {
+        "Australia": [
+            "Callum Ferguson",
+            "Nathan Bracken",
+            "Shane Watson",
+            "Andrew Symonds",
+            "Michael Clarke(c)",
+            "Brad Haddin (wk)",
+            "Stuart Clark",
+            "Nathan Hauritz",
+            "James Hopes",
+            "David Hussey",
+            "Ben Hilfenhaus"
+        ],
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Yasir Arafat",
+            "Sohail Tanvir",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Salman Butt",
+            "Misbah-ul-Haq",
+            "Shahid Afridi"
+        ]
+    }
 }

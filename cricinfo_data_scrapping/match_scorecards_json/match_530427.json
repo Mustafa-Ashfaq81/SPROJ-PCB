@@ -53,8 +53,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Sarfaraz Ahmed b Abdul Razzaq",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Abdul Razzaq",
                     "runs": "5",
                     "balls": "24",
                     "minutes": "44",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "run out (Abdul Razzaq/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Abdul Razzaq/ (wk)Sarfaraz Ahmed)",
                     "runs": "10",
                     "balls": "31",
                     "minutes": "31",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Seekkuge Prasanna",
-                    "dismissal": "st Sarfaraz Ahmed b Shahid Afridi",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Shahid Afridi",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "19",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Suranga Lakmal",
-                    "dismissal": "st Sarfaraz Ahmed b Saeed Ajmal",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Saeed Ajmal",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -270,7 +270,7 @@
                     "strike_rate": "98.24"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "7",
@@ -356,5 +356,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 169 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 169 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Dinesh Chandimal",
+            "Kosala Kulasekara",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Seekkuge Prasanna",
+            "Suranga Lakmal",
+            "Dilhara Fernando",
+            "Tillakaratne Dilshan(c)",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed (wk)",
+            "Younis Khan",
+            "Aizaz Cheema",
+            "Imran Farhat",
+            "Abdul Razzaq",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Mohammad Hafeez",
+            "Umar Gul",
+            "Umar Akmal",
+            "Misbah-ul-Haq (c)"
+        ]
+    }
 }

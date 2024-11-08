@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c de Kock b Nortje",
+                    "dismissal": "c (wk)de Kock b Nortje",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "18",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "run out (Miller/de Kock)",
+                    "dismissal": "run out (Miller/ (wk)de Kock)",
                     "runs": "32",
                     "balls": "41",
                     "minutes": "45",
@@ -93,7 +93,7 @@
                     "strike_rate": "78.04"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "b Smuts",
                     "runs": "0",
                     "balls": "3",
@@ -235,7 +235,7 @@
             "batting": [
                 {
                     "batsman": "Janneman Malan",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "23",
                     "balls": "26",
                     "minutes": "47",
@@ -244,7 +244,7 @@
                     "strike_rate": "88.46"
                 },
                 {
-                    "batsman": "Quinton de Kock(c)",
+                    "batsman": "Quinton de Kock(c) (wk)",
                     "dismissal": "b Hazlewood",
                     "runs": "26",
                     "balls": "31",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 27 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 27 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Alex Carey (wk)",
+            "Kane Richardson",
+            "Steven Smith",
+            "Aaron Finch(c)",
+            "Marnus Labuschagne",
+            "David Warner",
+            "Adam Zampa",
+            "Mitchell Marsh",
+            "Jhye Richardson",
+            "Josh Hazlewood",
+            "D'Arcy Short"
+        ],
+        "South Africa": [
+            "Andile Phehlukwayo",
+            "Kyle Verreynne",
+            "Janneman Malan",
+            "Heinrich Klaasen",
+            "Anrich Nortje",
+            "Lutho Sipamla",
+            "Quinton de Kock(c) (wk)",
+            "JJ Smuts",
+            "David Miller",
+            "Keshav Maharaj",
+            "Daryn Dupavillon"
+        ]
+    }
 }

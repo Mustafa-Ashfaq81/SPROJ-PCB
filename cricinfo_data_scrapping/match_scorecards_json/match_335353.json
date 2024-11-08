@@ -44,7 +44,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Sohail Tanvir",
                     "runs": "112",
                     "balls": "110",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Chamara Silva",
-                    "dismissal": "c Sarfaraz Ahmed b Sohail Tanvir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Sohail Tanvir",
                     "runs": "46",
                     "balls": "48",
                     "minutes": "54",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik(c)",
-                    "dismissal": "st Sangakkara b Mendis",
+                    "dismissal": "st (wk)Sangakkara b Mendis",
                     "runs": "52",
                     "balls": "79",
                     "minutes": "126",
@@ -291,7 +291,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "b Kulasekara",
                     "runs": "19",
                     "balls": "31",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 64 runs"
+    "result": "Sri Lanka won by 64 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Chamara Silva",
+            "Ajantha Mendis",
+            "Thilan Thushara",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Nuwan Kulasekara"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Shahid Afridi",
+            "Sarfaraz Ahmed (wk)",
+            "Iftikhar Anjum",
+            "Wahab Riaz",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Mansoor Amjad",
+            "Younis Khan",
+            "Sohail Tanvir",
+            "Misbah-ul-Haq"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Mwayenga b Hondo",
                     "runs": "20",
                     "balls": "23",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "st Taibu b Mwayenga",
+                    "dismissal": "st (wk)Taibu b Mwayenga",
                     "runs": "10",
                     "balls": "10",
                     "minutes": "22",
@@ -281,7 +281,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "run out (McGrath/Lehmann)",
                     "runs": "1",
                     "balls": "1",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Australia won by 139 runs"
+    "result": "Australia won by 139 runs",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Glenn McGrath",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Darren Lehmann",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Vusi Sibanda",
+            "Mark Vermeulen",
+            "Dion Ebrahim",
+            "Alester Maregwede",
+            "Tinashe Panyangara",
+            "Waddington Mwayenga",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Tawanda Mupariwa",
+            "Tatenda Taibu(c) (wk)"
+        ]
+    }
 }

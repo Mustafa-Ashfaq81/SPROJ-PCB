@@ -60,7 +60,7 @@
                     "strike_rate": "74.57"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "c Al Sahariar b Khaled Mahmud",
                     "runs": "10",
                     "balls": "9",
@@ -222,7 +222,7 @@
             "batting": [
                 {
                     "batsman": "Javed Omer",
-                    "dismissal": "c A Flower b Streak",
+                    "dismissal": "c (wk)A Flower b Streak",
                     "runs": "27",
                     "balls": "28",
                     "minutes": "43",
@@ -311,7 +311,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "not out",
                     "runs": "0",
                     "balls": "0",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 42 runs"
+    "result": "Zimbabwe won by 42 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Mluleki Nkala",
+            "Sean Ervine",
+            "Dougie Marillier",
+            "Travis Friend",
+            "Dion Ebrahim",
+            "Gary Brent",
+            "Grant Flower",
+            "Andy Flower (wk)",
+            "Heath Streak",
+            "Stuart Carlisle(c)",
+            "Craig Wishart"
+        ],
+        "Bangladesh": [
+            "Al Sahariar",
+            "Mohammad Ashraful",
+            "Khaled Mahmud",
+            "Javed Omer",
+            "Khaled Mashud(c) (wk)",
+            "Manjurul Islam",
+            "Mashrafe Mortaza",
+            "Hasibul Hossain",
+            "Mohammad Rafique",
+            "Habibul Bashar",
+            "Sanuar Hossain"
+        ]
+    }
 }

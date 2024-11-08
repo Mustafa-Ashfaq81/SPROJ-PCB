@@ -31,7 +31,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "c Thakur b Pandya",
                     "runs": "21",
                     "balls": "28",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Ibrahim Zadran",
-                    "dismissal": "c Rahul b Bumrah",
+                    "dismissal": "c (wk)Rahul b Bumrah",
                     "runs": "22",
                     "balls": "28",
                     "minutes": "31",
@@ -268,7 +268,7 @@
                     "strike_rate": "108.69"
                 }
             ],
-            "did_not_bat": "KL Rahul , Hardik Pandya , Ravindra Jadeja , Shardul Thakur , Kuldeep Yadav , Jasprit Bumrah , Mohammed Siraj",
+            "did_not_bat": "KL Rahul (wk) , Hardik Pandya , Ravindra Jadeja , Shardul Thakur , Kuldeep Yadav , Jasprit Bumrah , Mohammed Siraj",
             "fall_of_wickets": "Fall of wickets : 1 - 156 ( Ishan Kishan , 18.4 ov ) , 2 - 205 ( Rohit Sharma , 25.4 ov ) DRS",
             "bowling": [
                 {
@@ -358,5 +358,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 90 balls remaining)"
+    "result": "India won by 8 wickets (with 90 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Naveen-ul-Haq",
+            "Azmatullah Omarzai",
+            "Hashmatullah Shahidi(c)",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman",
+            "Rahmanullah Gurbaz (wk)",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi",
+            "Najibullah Zadran"
+        ],
+        "India": [
+            "KL Rahul (wk)",
+            "Ishan Kishan",
+            "Virat Kohli",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shardul Thakur",
+            "Hardik Pandya",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ]
+    }
 }

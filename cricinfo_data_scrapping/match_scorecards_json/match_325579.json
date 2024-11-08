@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tom de Grooth",
-                    "dismissal": "c Smith b Blain",
+                    "dismissal": "c (wk)Smith b Blain",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "15",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Henk-Jan Mol",
-                    "dismissal": "st Smith b Rogers",
+                    "dismissal": "st (wk)Smith b Rogers",
                     "runs": "4",
                     "balls": "22",
                     "minutes": "18",
@@ -100,7 +100,7 @@
                     "strike_rate": "18.18"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
+                    "batsman": "Jeroen Smits(c) (wk)",
                     "dismissal": "run out (Nel/Rogers)",
                     "runs": "2",
                     "balls": "11",
@@ -253,7 +253,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "c & b Seelaar",
                     "runs": "7",
                     "balls": "7",
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 6 wickets (with 166 balls remaining)"
+    "result": "Scotland won by 6 wickets (with 166 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Henk-Jan Mol",
+            "Jeroen Smits(c) (wk)",
+            "Pieter Seelaar",
+            "Ryan ten Doeschate",
+            "Edgar Schiferli",
+            "Darron Reekers",
+            "Mudassar Bukhari",
+            "Tom de Grooth",
+            "Daan van Bunge",
+            "Eric Szwarczynski",
+            "Peter Borren"
+        ],
+        "Scotland": [
+            "Glenn Rogers",
+            "Ryan Watson(c)",
+            "Dewald Nel",
+            "Neil McCallum",
+            "Colin Smith (wk)",
+            "Qasim Sheikh",
+            "Gordon Drummond",
+            "John Blain",
+            "Fraser Watts",
+            "Gavin Hamilton",
+            "Richie Berrington"
+        ]
+    }
 }

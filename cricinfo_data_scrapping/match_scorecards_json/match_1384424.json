@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Shubman Gill",
-                    "dismissal": "c Mendis b Madushanka",
+                    "dismissal": "c (wk)Mendis b Madushanka",
                     "runs": "92",
                     "balls": "92",
                     "minutes": "136",
@@ -71,7 +71,7 @@
                     "strike_rate": "146.42"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c Hemantha b Chameera",
                     "runs": "21",
                     "balls": "19",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Suryakumar Yadav",
-                    "dismissal": "c Mendis b Madushanka",
+                    "dismissal": "c (wk)Mendis b Madushanka",
                     "runs": "12",
                     "balls": "9",
                     "minutes": "13",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "run out (Samarawickrama/Mendis)",
+                    "dismissal": "run out (Samarawickrama/ (wk)Mendis)",
                     "runs": "35",
                     "balls": "24",
                     "minutes": "41",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Mohammed Shami",
-                    "dismissal": "run out (Mendis)",
+                    "dismissal": "run out ( (wk)Mendis)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "11",
@@ -238,7 +238,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
+                    "batsman": "Kusal Mendis(c) (wk)",
                     "dismissal": "b Mohammed Siraj",
                     "runs": "1",
                     "balls": "10",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Dushan Hemantha",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Dushmantha Chameera",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "10",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "India won by 302 runs"
+    "result": "India won by 302 runs",
+    "playing_xi": {
+        "India": [
+            "KL Rahul (wk)",
+            "Virat Kohli",
+            "Suryakumar Yadav",
+            "Mohammed Shami",
+            "Shubman Gill",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ],
+        "Sri Lanka": [
+            "Maheesh Theekshana",
+            "Pathum Nissanka",
+            "Kusal Mendis(c) (wk)",
+            "Dushan Hemantha",
+            "Dilshan Madushanka",
+            "Dushmantha Chameera",
+            "Angelo Mathews",
+            "Charith Asalanka",
+            "Kasun Rajitha",
+            "Sadeera Samarawickrama",
+            "Dimuth Karunaratne"
+        ]
+    }
 }

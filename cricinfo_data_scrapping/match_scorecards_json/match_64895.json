@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Read b Clarke",
+                    "dismissal": "c (wk)Read b Clarke",
                     "runs": "8",
                     "balls": "28",
                     "minutes": "33",
@@ -100,7 +100,7 @@
                     "strike_rate": "57.89"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "not out",
                     "runs": "32",
                     "balls": "28",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "st Jacobs b Gayle",
+                    "dismissal": "st (wk)Jacobs b Gayle",
                     "runs": "82",
                     "balls": "57",
                     "minutes": "81",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "c Jacobs b Rampaul",
+                    "dismissal": "c (wk)Jacobs b Rampaul",
                     "runs": "14",
                     "balls": "16",
                     "minutes": "25",
@@ -267,7 +267,7 @@
                     "strike_rate": "88.46"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "35",
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "England won by 5 wickets (with 16 balls remaining)"
+    "result": "England won by 5 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Dwayne Smith",
+            "Ravi Rampaul",
+            "Ian Bradshaw",
+            "Dwayne Bravo",
+            "Ramnaresh Sarwan",
+            "Mervyn Dillon",
+            "Ridley Jacobs (wk)",
+            "Ricardo Powell",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle"
+        ],
+        "England": [
+            "James Anderson",
+            "Michael Vaughan(c)",
+            "Rikki Clarke",
+            "Gareth Batty",
+            "Darren Gough",
+            "Chris Read (wk)",
+            "Steve Harmison",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Andrew Strauss",
+            "Andrew Flintoff"
+        ]
+    }
 }

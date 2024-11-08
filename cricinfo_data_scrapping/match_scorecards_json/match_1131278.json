@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Calum MacLeod",
-                    "dismissal": "c Ghulam Shabber b Shaiman Anwar",
+                    "dismissal": "c (wk)Ghulam Shabber b Shaiman Anwar",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "-",
@@ -90,8 +90,8 @@
                     "strike_rate": "102.27"
                 },
                 {
-                    "batsman": "Craig Wallace",
-                    "dismissal": "c Ghulam Shabber b Shaiman Anwar",
+                    "batsman": "Craig Wallace (wk)",
+                    "dismissal": "c (wk)Ghulam Shabber b Shaiman Anwar",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -224,7 +224,7 @@
                 },
                 {
                     "batsman": "Rohan Mustafa(c)",
-                    "dismissal": "c Wallace b Evans",
+                    "dismissal": "c (wk)Wallace b Evans",
                     "runs": "20",
                     "balls": "38",
                     "minutes": "-",
@@ -233,8 +233,8 @@
                     "strike_rate": "52.63"
                 },
                 {
-                    "batsman": "Ghulam Shabber",
-                    "dismissal": "run out (Sharif/Wallace)",
+                    "batsman": "Ghulam Shabber (wk)",
+                    "dismissal": "run out (Sharif/ (wk)Wallace)",
                     "runs": "90",
                     "balls": "83",
                     "minutes": "-",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Muhammad Usman",
-                    "dismissal": "c Wallace b Whittingham",
+                    "dismissal": "c (wk)Wallace b Whittingham",
                     "runs": "17",
                     "balls": "23",
                     "minutes": "-",
@@ -284,7 +284,7 @@
                 },
                 {
                     "batsman": "Mohammad Boota",
-                    "dismissal": "c Wallace b Whittingham",
+                    "dismissal": "c (wk)Wallace b Whittingham",
                     "runs": "13",
                     "balls": "26",
                     "minutes": "-",
@@ -304,7 +304,7 @@
                 },
                 {
                     "batsman": "Mohammad Naveed",
-                    "dismissal": "c Wallace b Evans",
+                    "dismissal": "c (wk)Wallace b Evans",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "-",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 31 runs"
+    "result": "Scotland won by 31 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Richie Berrington",
+            "Mark Watt",
+            "Stuart Whittingham",
+            "Craig Wallace (wk)",
+            "Michael Jones",
+            "Safyaan Sharif",
+            "George Munsey",
+            "Calum MacLeod",
+            "Kyle Coetzer(c)",
+            "Matthew Cross",
+            "Alasdair Evans"
+        ],
+        "United Arab Emirates": [
+            "Rohan Mustafa(c)",
+            "Rameez Shahzad",
+            "Ghulam Shabber (wk)",
+            "Ahmed Raza",
+            "Ashfaq Ahmed",
+            "Adnan Mufti",
+            "Mohammad Boota",
+            "Zahoor Khan",
+            "Mohammad Naveed",
+            "Shaiman Anwar",
+            "Muhammad Usman"
+        ]
+    }
 }

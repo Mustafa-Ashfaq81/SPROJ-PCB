@@ -31,7 +31,7 @@
             "extras": "28",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
+                    "batsman": "Kennedy Otieno (wk)",
                     "dismissal": "c Muralidaran b de Silva",
                     "runs": "60",
                     "balls": "88",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Brijal Patel",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "12",
                     "balls": "21",
                     "minutes": "37",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Thomas Odoyo",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "10",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Aravinda de Silva",
-                    "dismissal": "c Otieno b Obuya",
+                    "dismissal": "c (wk)Otieno b Obuya",
                     "runs": "41",
                     "balls": "53",
                     "minutes": "77",
@@ -302,8 +302,8 @@
                     "strike_rate": "38.46"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Otieno b Obuya",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Otieno b Obuya",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "17",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 53 runs"
+    "result": "Kenya won by 53 runs",
+    "playing_xi": {
+        "Kenya": [
+            "Hitesh Modi",
+            "Kennedy Otieno (wk)",
+            "Martin Suji",
+            "Ravi Shah",
+            "Peter Ongondo",
+            "Brijal Patel",
+            "Collins Obuya",
+            "Maurice Odumbe",
+            "Steve Tikolo(c)",
+            "Tony Suji",
+            "Thomas Odoyo"
+        ],
+        "Sri Lanka": [
+            "Hashan Tillakaratne",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Aravinda de Silva",
+            "Sanath Jayasuriya(c)",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Prabath Nissanka",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ]
+    }
 }

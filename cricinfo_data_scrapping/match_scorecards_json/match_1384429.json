@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c Mushfiqur Rahim b Shoriful Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shoriful Islam",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "5",
@@ -51,7 +51,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
+                    "batsman": "Kusal Mendis(c) (wk)",
                     "dismissal": "c Shoriful Islam b Shakib Al Hasan",
                     "runs": "19",
                     "balls": "30",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "st Mushfiqur Rahim b Mehidy Hasan Miraz",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Mehidy Hasan Miraz",
                     "runs": "34",
                     "balls": "36",
                     "minutes": "58",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Dushmantha Chameera",
-                    "dismissal": "run out (Mushfiqur Rahim)",
+                    "dismissal": "run out ( (wk)Mushfiqur Rahim)",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "17",
@@ -274,7 +274,7 @@
                     "strike_rate": "95.65"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Madushanka",
                     "runs": "10",
                     "balls": "13",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 3 wickets (with 53 balls remaining)"
+    "result": "Bangladesh won by 3 wickets (with 53 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kasun Rajitha",
+            "Maheesh Theekshana",
+            "Pathum Nissanka",
+            "Kusal Mendis(c) (wk)",
+            "Dhananjaya de Silva",
+            "Dilshan Madushanka",
+            "Dushmantha Chameera",
+            "Angelo Mathews",
+            "Charith Asalanka",
+            "Kusal Perera",
+            "Sadeera Samarawickrama"
+        ],
+        "Bangladesh": [
+            "Tanzim Hasan Sakib",
+            "Mushfiqur Rahim (wk)",
+            "Mahmudullah",
+            "Tanzid Hasan",
+            "Shoriful Islam",
+            "Najmul Hossain Shanto",
+            "Towhid Hridoy",
+            "Shakib Al Hasan(c)",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed"
+        ]
+    }
 }

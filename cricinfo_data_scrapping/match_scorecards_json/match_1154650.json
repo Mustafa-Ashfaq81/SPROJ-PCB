@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Manpreet Singh",
-                    "dismissal": "c McKechnie b Tanwir Afzal",
+                    "dismissal": "c (wk)McKechnie b Tanwir Afzal",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "-",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Anish Paraam",
-                    "dismissal": "c McKechnie b Ehsan Nawaz",
+                    "dismissal": "c (wk)McKechnie b Ehsan Nawaz",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -69,8 +69,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Chetan Suryawanshi(c)",
-                    "dismissal": "c McKechnie b Nadeem Ahmed",
+                    "batsman": "Chetan Suryawanshi(c) (wk)",
+                    "dismissal": "c (wk)McKechnie b Nadeem Ahmed",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "-",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Rezza Gaznavi",
-                    "dismissal": "c McKechnie b Ehsan Khan",
+                    "dismissal": "c (wk)McKechnie b Ehsan Khan",
                     "runs": "18",
                     "balls": "30",
                     "minutes": "-",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Abhiraj Singh",
-                    "dismissal": "c McKechnie b Nadeem Ahmed",
+                    "dismissal": "c (wk)McKechnie b Nadeem Ahmed",
                     "runs": "42",
                     "balls": "71",
                     "minutes": "-",
@@ -223,7 +223,7 @@
             "batting": [
                 {
                     "batsman": "Cameron McAuslan",
-                    "dismissal": "c Suryawanshi b Aryaman Sunil",
+                    "dismissal": "c (wk)Suryawanshi b Aryaman Sunil",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "-",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Anshy Rath(c)",
-                    "dismissal": "c Suryawanshi b Amjad Mahboob",
+                    "dismissal": "c (wk)Suryawanshi b Amjad Mahboob",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Babar Hayat",
-                    "dismissal": "c Suryawanshi b Vijayakumar",
+                    "dismissal": "c (wk)Suryawanshi b Vijayakumar",
                     "runs": "26",
                     "balls": "39",
                     "minutes": "-",
@@ -292,7 +292,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Nadeem Ahmed , Scott McKechnie , Ehsan Nawaz , Tanwir Afzal",
+            "did_not_bat": "Nadeem Ahmed , Scott McKechnie (wk) , Ehsan Nawaz , Tanwir Afzal",
             "fall_of_wickets": "Fall of wickets : 1 - 2 ( Anshy Rath , 0.6 ov ) , 2 - 7 ( Cameron McAuslan , 1.6 ov ) , 3 - 68 ( Babar Hayat , 13.4 ov ) , 4 - 84 ( Nizakat Khan , 19.6 ov ) , 5 - 107 ( Ehsan Khan , 27.1 ov )",
             "bowling": [
                 {
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 5 wickets (with 94 balls remaining)"
+    "result": "Hong Kong won by 5 wickets (with 94 balls remaining)",
+    "playing_xi": {
+        "Singapore": [
+            "Aritra Dutta",
+            "Chetan Suryawanshi(c) (wk)",
+            "Arjun Mutreja",
+            "Aryaman Sunil",
+            "Selladore Vijaya Kumar",
+            "Amjad Mahboob",
+            "Anantha Krishna",
+            "Manpreet Singh",
+            "Abhiraj Singh",
+            "Rezza Gaznavi",
+            "Anish Paraam"
+        ],
+        "Hong Kong": [
+            "Ehsan Nawaz",
+            "Aizaz Khan",
+            "Cameron McAuslan",
+            "Scott McKechnie (wk)",
+            "Tanwir Afzal",
+            "Kinchit Shah",
+            "Babar Hayat",
+            "Nadeem Ahmed",
+            "Nizakat Khan",
+            "Ehsan Khan",
+            "Anshy Rath(c)"
+        ]
+    }
 }

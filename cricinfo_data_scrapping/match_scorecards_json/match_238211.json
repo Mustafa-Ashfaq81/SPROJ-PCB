@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Piet Rinke",
-                    "dismissal": "run out (Kamande/Otieno)",
+                    "dismissal": "run out (Kamande/ (wk)Otieno)",
                     "runs": "72",
                     "balls": "83",
                     "minutes": "121",
@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Terry Duffin(c)",
-                    "dismissal": "c Otieno b Ababu",
+                    "dismissal": "c (wk)Otieno b Ababu",
                     "runs": "39",
                     "balls": "60",
                     "minutes": "78",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Otieno b Odoyo",
+                    "dismissal": "c (wk)Otieno b Odoyo",
                     "runs": "4",
                     "balls": "21",
                     "minutes": "21",
@@ -59,7 +59,7 @@
                     "strike_rate": "19.04"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b Odoyo",
                     "runs": "40",
                     "balls": "49",
@@ -236,7 +236,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
+                    "batsman": "Kennedy Otieno (wk)",
                     "dismissal": "c Strydom b Dabengwa",
                     "runs": "69",
                     "balls": "94",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo(c)",
-                    "dismissal": "st Taylor b Higgins",
+                    "dismissal": "st (wk)Taylor b Higgins",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "5",
@@ -436,5 +436,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 109 runs"
+    "result": "Zimbabwe won by 109 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Gregory Strydom",
+            "Charles Coventry",
+            "Brendan Taylor (wk)",
+            "Anthony Ireland",
+            "Ryan Higgins",
+            "Prosper Utseya",
+            "Piet Rinke",
+            "Elton Chigumbura",
+            "Terry Duffin(c)",
+            "Hamilton Masakadza",
+            "Blessing Mahwire"
+        ],
+        "Kenya": [
+            "Kennedy Otieno (wk)",
+            "Tony Suji",
+            "Alfred Luseno",
+            "Thomas Odoyo",
+            "Brijal Patel",
+            "Tanmay Mishra",
+            "Peter Ongondo",
+            "Jimmy Kamande",
+            "Morris Ouma",
+            "David Obuya",
+            "Steve Tikolo(c)"
+        ]
+    }
 }

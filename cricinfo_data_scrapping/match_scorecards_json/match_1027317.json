@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Kraigg Brathwaite",
-                    "dismissal": "st Buttler b Ali",
+                    "dismissal": "st (wk)Buttler b Ali",
                     "runs": "42",
                     "balls": "70",
                     "minutes": "116",
@@ -60,8 +60,8 @@
                     "strike_rate": "69.23"
                 },
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "c Buttler b Stokes",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "16",
                     "balls": "27",
                     "minutes": "30",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Shannon Gabriel",
-                    "dismissal": "run out (Buttler)",
+                    "dismissal": "run out ( (wk)Buttler)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "3",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Ben Stokes",
-                    "dismissal": "c Hope b Bishoo",
+                    "dismissal": "c (wk)Hope b Bishoo",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "6",
@@ -287,8 +287,8 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "c Hope b Bishoo",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "c (wk)Hope b Bishoo",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "7",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 10 balls remaining)"
+    "result": "England won by 4 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Ashley Nurse",
+            "Shannon Gabriel",
+            "Jonathan Carter",
+            "Kieran Powell",
+            "Jason Holder(c)",
+            "Jason Mohammed",
+            "Shai Hope (wk)",
+            "Kraigg Brathwaite",
+            "Evin Lewis",
+            "Devendra Bishoo",
+            "Carlos Brathwaite"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Jason Roy",
+            "Steven Finn",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Sam Billings",
+            "Moeen Ali",
+            "Ben Stokes"
+        ]
+    }
 }

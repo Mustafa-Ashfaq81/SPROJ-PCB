@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Wade b Stanlake",
+                    "dismissal": "c (wk)Wade b Stanlake",
                     "runs": "39",
                     "balls": "41",
                     "minutes": "40",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Wade b Hazlewood",
+                    "dismissal": "c (wk)Wade b Hazlewood",
                     "runs": "39",
                     "balls": "51",
                     "minutes": "65",
@@ -103,7 +103,7 @@
                     "strike_rate": "69.23"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "19",
@@ -207,7 +207,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Mohammad Rizwan b Junaid Khan",
+                    "dismissal": "c (wk)Mohammad Rizwan b Junaid Khan",
                     "runs": "35",
                     "balls": "38",
                     "minutes": "36",
@@ -217,7 +217,7 @@
                 },
                 {
                     "batsman": "Usman Khawaja",
-                    "dismissal": "c Mohammad Rizwan b Mohammad Amir",
+                    "dismissal": "c (wk)Mohammad Rizwan b Mohammad Amir",
                     "runs": "9",
                     "balls": "20",
                     "minutes": "41",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Peter Handscomb",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "82",
                     "balls": "84",
                     "minutes": "127",
@@ -256,7 +256,7 @@
                     "strike_rate": "92.00"
                 }
             ],
-            "did_not_bat": "Glenn Maxwell , Matthew Wade , James Faulkner , Pat Cummins , Josh Hazlewood , Billy Stanlake",
+            "did_not_bat": "Glenn Maxwell , Matthew Wade (wk) , James Faulkner , Pat Cummins , Josh Hazlewood , Billy Stanlake",
             "fall_of_wickets": "Fall of wickets : 1 - 44 ( David Warner , 8.6 ov ) , 2 - 45 ( Usman Khawaja , 9.4 ov ) , 3 - 228 ( Peter Handscomb , 39.1 ov )",
             "bowling": [
                 {
@@ -346,5 +346,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 30 balls remaining)"
+    "result": "Australia won by 7 wickets (with 30 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Mohammad Rizwan (wk)",
+            "Babar Azam",
+            "Mohammad Amir",
+            "Junaid Khan",
+            "Hasan Ali",
+            "Mohammad Hafeez(c)",
+            "Shoaib Malik",
+            "Sharjeel Khan",
+            "Imad Wasim",
+            "Umar Akmal"
+        ],
+        "Australia": [
+            "Billy Stanlake",
+            "Steven Smith(c)",
+            "Matthew Wade (wk)",
+            "James Faulkner",
+            "Pat Cummins",
+            "David Warner",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Josh Hazlewood",
+            "Travis Head",
+            "Peter Handscomb"
+        ]
+    }
 }

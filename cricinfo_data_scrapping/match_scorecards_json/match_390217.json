@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Gavin Hamilton",
-                    "dismissal": "c Sultan Ahmed b Awal Khan",
+                    "dismissal": "c (wk)Sultan Ahmed b Awal Khan",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "26",
@@ -70,7 +70,7 @@
                     "strike_rate": "96.34"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "c Amir Ali b Zeeshan Siddiqui",
                     "runs": "5",
                     "balls": "8",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Moneeb Iqbal",
-                    "dismissal": "st Sultan Ahmed b Zeeshan Siddiqui",
+                    "dismissal": "st (wk)Sultan Ahmed b Zeeshan Siddiqui",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "7",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Jan Stander",
-                    "dismissal": "run out (Amir Ali/Sultan Ahmed)",
+                    "dismissal": "run out (Amir Ali/ (wk)Sultan Ahmed)",
                     "runs": "27",
                     "balls": "20",
                     "minutes": "35",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Zeeshan Siddiqui",
-                    "dismissal": "c Smith b Stander",
+                    "dismissal": "c (wk)Smith b Stander",
                     "runs": "50",
                     "balls": "71",
                     "minutes": "94",
@@ -301,7 +301,7 @@
                     "strike_rate": "73.91"
                 },
                 {
-                    "batsman": "Sultan Ahmed",
+                    "batsman": "Sultan Ahmed (wk)",
                     "dismissal": "b Stander",
                     "runs": "25",
                     "balls": "23",
@@ -342,7 +342,7 @@
                 },
                 {
                     "batsman": "Farhan Khan",
-                    "dismissal": "run out (Stander/Smith)",
+                    "dismissal": "run out (Stander/ (wk)Smith)",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "12",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 9 runs"
+    "result": "Scotland won by 9 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Neil McCallum",
+            "Calum MacLeod",
+            "Gordon Goudie",
+            "Kyle Coetzer",
+            "Colin Smith (wk)",
+            "Moneeb Iqbal",
+            "Jan Stander",
+            "Ryan Watson(c)",
+            "Gavin Hamilton",
+            "Dewald Nel",
+            "Navdeep Poonia"
+        ],
+        "Oman": [
+            "Farhan Khan",
+            "Amir Ali",
+            "Adnan Ilyas",
+            "Sultan Ahmed (wk)",
+            "Nilesh Parmar",
+            "Hemal Mehta(c)",
+            "Zeeshan Siddiqui",
+            "Tariq Hussain",
+            "Awal Khan",
+            "Hemin Desai",
+            "Maqsood Hussain"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Raymond van Schoor",
+                    "batsman": "Raymond van Schoor (wk)",
                     "dismissal": "c Schiferli b Seelaar",
                     "runs": "50",
                     "balls": "94",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Jan-Berrie Burger",
-                    "dismissal": "c Smits b Mudassar Bukhari",
+                    "dismissal": "c (wk)Smits b Mudassar Bukhari",
                     "runs": "16",
                     "balls": "22",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Craig Williams",
-                    "dismissal": "run out (Schiferli/Smits)",
+                    "dismissal": "run out (Schiferli/ (wk)Smits)",
                     "runs": "43",
                     "balls": "31",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Ian van Zyl",
-                    "dismissal": "c Smits b Mudassar Bukhari",
+                    "dismissal": "c (wk)Smits b Mudassar Bukhari",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "-",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Tom de Grooth",
-                    "dismissal": "c van Schoor b Snyman",
+                    "dismissal": "c (wk)van Schoor b Snyman",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "-",
@@ -293,7 +293,7 @@
                     "strike_rate": "68.75"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
+                    "batsman": "Jeroen Smits(c) (wk)",
                     "dismissal": "c Williams b van Zyl",
                     "runs": "0",
                     "balls": "2",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 2 wickets (with 17 balls remaining)"
+    "result": "Netherlands won by 2 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Sarel Burger",
+            "Craig Williams",
+            "Deon Kotze",
+            "Louis van der Westhuizen",
+            "Raymond van Schoor (wk)",
+            "Gerrie Snyman",
+            "Louis Burger(c)",
+            "Ian van Zyl",
+            "Nicolaas Scholtz",
+            "Louis Klazinga",
+            "Jan-Berrie Burger"
+        ],
+        "Netherlands": [
+            "Bas Zuiderent",
+            "Darron Reekers",
+            "Tom de Grooth",
+            "Pieter Seelaar",
+            "Jeroen Smits(c) (wk)",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Alexei Kervezee",
+            "Peter Borren",
+            "Daan van Bunge",
+            "Ryan ten Doeschate"
+        ]
+    }
 }

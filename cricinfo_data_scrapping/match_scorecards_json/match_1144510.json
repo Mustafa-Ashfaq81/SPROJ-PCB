@@ -72,8 +72,8 @@
                     "strike_rate": "70.73"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "st Ikram Alikhil b Rashid Khan",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "st (wk)Ikram Alikhil b Rashid Khan",
                     "runs": "28",
                     "balls": "52",
                     "minutes": "75",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Hardik Pandya",
-                    "dismissal": "c Ikram Alikhil b Aftab Alam",
+                    "dismissal": "c (wk)Ikram Alikhil b Aftab Alam",
                     "runs": "7",
                     "balls": "9",
                     "minutes": "23",
@@ -300,7 +300,7 @@
                 },
                 {
                     "batsman": "Rashid Khan",
-                    "dismissal": "st Dhoni b Chahal",
+                    "dismissal": "st (wk)Dhoni b Chahal",
                     "runs": "14",
                     "balls": "16",
                     "minutes": "20",
@@ -309,7 +309,7 @@
                     "strike_rate": "87.50"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "not out",
                     "runs": "7",
                     "balls": "10",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "India won by 11 runs"
+    "result": "India won by 11 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "KL Rahul",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Yuzvendra Chahal",
+            "Vijay Shankar",
+            "Kedar Jadhav",
+            "Virat Kohli(c)",
+            "Hardik Pandya",
+            "MS Dhoni (wk)",
+            "Mohammed Shami"
+        ],
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Najibullah Zadran",
+            "Mujeeb Ur Rahman",
+            "Hazratullah Zazai",
+            "Asghar Afghan",
+            "Gulbadin Naib(c)",
+            "Aftab Alam",
+            "Ikram Alikhil (wk)",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Rashid Khan"
+        ]
+    }
 }

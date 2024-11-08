@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Ibrahim Zadran",
-                    "dismissal": "c de Kock b Coetzee",
+                    "dismissal": "c (wk)de Kock b Coetzee",
                     "runs": "15",
                     "balls": "30",
                     "minutes": "52",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi(c)",
-                    "dismissal": "c de Kock b Maharaj",
+                    "dismissal": "c (wk)de Kock b Maharaj",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "5",
@@ -81,8 +81,8 @@
                     "strike_rate": "90.65"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
-                    "dismissal": "c de Kock b Coetzee",
+                    "batsman": "Ikram Alikhil (wk)",
+                    "dismissal": "c (wk)de Kock b Coetzee",
                     "runs": "12",
                     "balls": "14",
                     "minutes": "16",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c de Kock b Ngidi",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "7",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Rashid Khan",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "14",
                     "balls": "30",
                     "minutes": "42",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Noor Ahmad",
-                    "dismissal": "c de Kock b Coetzee",
+                    "dismissal": "c (wk)de Kock b Coetzee",
                     "runs": "26",
                     "balls": "32",
                     "minutes": "36",
@@ -238,7 +238,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "lbw b Mohammad Nabi",
                     "runs": "41",
                     "balls": "47",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 15 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Naveen-ul-Haq",
+            "Azmatullah Omarzai",
+            "Hashmatullah Shahidi(c)",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman",
+            "Noor Ahmad",
+            "Rahmanullah Gurbaz",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Ikram Alikhil (wk)"
+        ],
+        "South Africa": [
+            "Andile Phehlukwayo",
+            "Keshav Maharaj",
+            "Quinton de Kock (wk)",
+            "Kagiso Rabada",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Temba Bavuma(c)",
+            "Lungi Ngidi",
+            "Rassie van der Dussen",
+            "Gerald Coetzee",
+            "Aiden Markram"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "11",
@@ -80,7 +80,7 @@
                     "strike_rate": "43.47"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "lbw b Sehwag",
                     "runs": "14",
                     "balls": "33",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "run out (Ontong/Boucher)",
+                    "dismissal": "run out (Ontong/ (wk)Boucher)",
                     "runs": "38",
                     "balls": "50",
                     "minutes": "69",
@@ -301,7 +301,7 @@
                     "strike_rate": "66.66"
                 }
             ],
-            "did_not_bat": "MS Dhoni , Ajit Agarkar , Harbhajan Singh , Mohammad Kaif , Murali Kartik",
+            "did_not_bat": "MS Dhoni (wk) , Ajit Agarkar , Harbhajan Singh , Mohammad Kaif , Murali Kartik",
             "fall_of_wickets": "Fall of wickets : 1 - 13 ( Sachin Tendulkar , 8.1 ov ) , 2 - 52 ( Gautam Gambhir , 16.3 ov ) , 3 - 105 ( Irfan Pathan , 26.4 ov ) , 4 - 155 ( Rahul Dravid , 33.6 ov )",
             "bowling": [
                 {
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 86 balls remaining)"
+    "result": "India won by 6 wickets (with 86 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "AB de Villiers",
+            "Johan Botha",
+            "Ashwell Prince",
+            "Andre Nel",
+            "Andrew Hall",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Murali Kartik",
+            "Rahul Dravid(c)",
+            "Ajit Agarkar",
+            "MS Dhoni (wk)",
+            "Gautam Gambhir",
+            "Mohammad Kaif",
+            "Virender Sehwag",
+            "Yuvraj Singh"
+        ]
+    }
 }

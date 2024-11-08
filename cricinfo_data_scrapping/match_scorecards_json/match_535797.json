@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "114",
                     "balls": "147",
                     "minutes": "205",
@@ -71,7 +71,7 @@
                     "strike_rate": "134.21"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "21",
                     "balls": "11",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "49",
                     "balls": "31",
                     "minutes": "40",
@@ -262,7 +262,7 @@
                     "strike_rate": "158.06"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "not out",
                     "runs": "46",
                     "balls": "25",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 5 wickets (with 4 balls remaining)"
+    "result": "Bangladesh won by 5 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "Gautam Gambhir",
+            "Irfan Pathan",
+            "Virat Kohli",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Praveen Kumar",
+            "Ashok Dinda",
+            "MS Dhoni(c) (wk)",
+            "Sachin Tendulkar",
+            "Suresh Raina"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nasir Hossain",
+            "Jahurul Islam",
+            "Abdur Razzak",
+            "Nazimuddin",
+            "Mahmudullah",
+            "Mashrafe Mortaza",
+            "Shafiul Islam",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim(c) (wk)",
+            "Shakib Al Hasan"
+        ]
+    }
 }

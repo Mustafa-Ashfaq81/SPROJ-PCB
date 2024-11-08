@@ -30,7 +30,7 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "138",
                     "balls": "147",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu(c)",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "17",
                     "balls": "49",
                     "minutes": "61",
@@ -212,7 +212,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "2",
@@ -221,7 +221,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "183",
                     "balls": "145",
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 23 balls remaining)"
+    "result": "India won by 6 wickets (with 23 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya",
+            "Russel Arnold",
+            "Dilhara Fernando",
+            "Muthiah Muralidaran",
+            "Mahela Jayawardene",
+            "Chaminda Vaas",
+            "Thilan Samaraweera",
+            "Farveez Maharoof"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Rahul Dravid(c)",
+            "Ajit Agarkar",
+            "MS Dhoni (wk)",
+            "Venugopal Rao",
+            "Jai Prakash Yadav",
+            "Virender Sehwag",
+            "Suresh Raina",
+            "Yuvraj Singh"
+        ]
+    }
 }

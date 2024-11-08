@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "JP Kotze",
-                    "dismissal": "c Suraj Kumar b Bilal Khan",
+                    "dismissal": "c (wk)Suraj Kumar b Bilal Khan",
                     "runs": "10",
                     "balls": "16",
                     "minutes": "25",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Jean Bredenkamp",
-                    "dismissal": "st Suraj Kumar b Zeeshan Maqsood",
+                    "dismissal": "st (wk)Suraj Kumar b Zeeshan Maqsood",
                     "runs": "15",
                     "balls": "34",
                     "minutes": "53",
@@ -99,7 +99,7 @@
                     "strike_rate": "31.25"
                 },
                 {
-                    "batsman": "Zane Green",
+                    "batsman": "Zane Green (wk)",
                     "dismissal": "c Aqib Ilyas b Fayyaz Butt",
                     "runs": "46",
                     "balls": "54",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Aqib Ilyas",
-                    "dismissal": "c Green b Frylinck",
+                    "dismissal": "c (wk)Green b Frylinck",
                     "runs": "44",
                     "balls": "45",
                     "minutes": "53",
@@ -276,7 +276,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Suraj Kumar",
+                    "batsman": "Suraj Kumar (wk)",
                     "dismissal": "lbw b Frylinck",
                     "runs": "51",
                     "balls": "65",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "Oman won by 4 wickets (with 5 balls remaining)"
+    "result": "Oman won by 4 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Christi Viljoen",
+            "Craig Williams",
+            "Zhivago Groenewald",
+            "Bernard Scholtz",
+            "JP Kotze",
+            "Stephan Baard",
+            "Zane Green (wk)",
+            "JJ Smit",
+            "Jan Frylinck",
+            "Gerhard Erasmus(c)",
+            "Jean Bredenkamp"
+        ],
+        "Oman": [
+            "Suraj Kumar (wk)",
+            "Khurram Nawaz",
+            "Aqib Ilyas",
+            "Mohammad Nadeem",
+            "Khawar Ali",
+            "Fayyaz Butt",
+            "Zeeshan Maqsood (c)",
+            "Sandeep Goud",
+            "Kaleemullah",
+            "Bilal Khan",
+            "Jatinder Singh"
+        ]
+    }
 }

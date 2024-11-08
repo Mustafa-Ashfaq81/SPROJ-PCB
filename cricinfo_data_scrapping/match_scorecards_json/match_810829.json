@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Hamish Gardiner",
-                    "dismissal": "c Wilson b Mooney",
+                    "dismissal": "c (wk)Wilson b Mooney",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Preston Mommsen(c)",
-                    "dismissal": "c Wilson b Young",
+                    "dismissal": "c (wk)Wilson b Young",
                     "runs": "16",
                     "balls": "25",
                     "minutes": "-",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Richie Berrington",
-                    "dismissal": "c Wilson b Cusack",
+                    "dismissal": "c (wk)Wilson b Cusack",
                     "runs": "28",
                     "balls": "40",
                     "minutes": "-",
@@ -90,7 +90,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "run out (Mooney)",
                     "runs": "1",
                     "balls": "2",
@@ -277,7 +277,7 @@
                     "strike_rate": "75.47"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "c & b Leask",
                     "runs": "21",
                     "balls": "40",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien",
-                    "dismissal": "c Cross b Wardlaw",
+                    "dismissal": "c (wk)Cross b Wardlaw",
                     "runs": "13",
                     "balls": "21",
                     "minutes": "-",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 3 wickets (with 21 balls remaining)"
+    "result": "Ireland won by 3 wickets (with 21 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Kyle Coetzer",
+            "Calum MacLeod",
+            "Matt Machan",
+            "Michael Leask",
+            "Hamish Gardiner",
+            "Preston Mommsen(c)",
+            "Richie Berrington",
+            "Matthew Cross (wk)",
+            "Rob Taylor",
+            "Iain Wardlaw",
+            "Majid Haq"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "Gary Wilson (wk)",
+            "Niall O'Brien",
+            "Craig Young",
+            "Ed Joyce",
+            "George Dockrell",
+            "Paul Stirling",
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "John Mooney",
+            "Alex Cusack"
+        ]
+    }
 }

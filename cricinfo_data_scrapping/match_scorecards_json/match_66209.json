@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "run out (Bravo/Browne)",
+                    "dismissal": "run out (Bravo/ (wk)Browne)",
                     "runs": "39",
                     "balls": "56",
                     "minutes": "84",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Browne b Bravo",
+                    "dismissal": "c (wk)Browne b Bravo",
                     "runs": "17",
                     "balls": "58",
                     "minutes": "94",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c Browne b WW Hinds",
+                    "dismissal": "c (wk)Browne b WW Hinds",
                     "runs": "21",
                     "balls": "44",
                     "minutes": "69",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Browne b Bravo",
+                    "dismissal": "c (wk)Browne b Bravo",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "30",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "run out (Bravo/Browne)",
+                    "dismissal": "run out (Bravo/ (wk)Browne)",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "18",
@@ -94,7 +94,7 @@
                     "strike_rate": "35.29"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "lbw b WW Hinds",
                     "runs": "0",
                     "balls": "2",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "st Browne b Gayle",
+                    "dismissal": "st (wk)Browne b Gayle",
                     "runs": "17",
                     "balls": "13",
                     "minutes": "22",
@@ -301,7 +301,7 @@
                     "strike_rate": "54.54"
                 }
             ],
-            "did_not_bat": "Dwayne Bravo , Ryan Hinds , Courtney Browne , Ian Bradshaw , Corey Collymore",
+            "did_not_bat": "Dwayne Bravo , Ryan Hinds , Courtney Browne (wk) , Ian Bradshaw , Corey Collymore",
             "fall_of_wickets": "Fall of wickets : 1 - 8 ( Chris Gayle , 2.2 ov ) , 2 - 20 ( Wavell Hinds , 4.2 ov ) , 2 - 76 * ( Brian Lara , retired not out ) , 3 - 102 ( Shivnarine Chanderpaul , 23.6 ov )",
             "bowling": [
                 {
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 131 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 131 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Naved-ul-Hasan",
+            "Salman Butt",
+            "Moin Khan (wk)",
+            "Mohammad Yousuf",
+            "Shahid Afridi",
+            "Yasir Hameed"
+        ],
+        "West Indies": [
+            "Ramnaresh Sarwan",
+            "Dwayne Bravo",
+            "Courtney Browne (wk)",
+            "Ian Bradshaw",
+            "Ryan Hinds",
+            "Shivnarine Chanderpaul",
+            "Brian Lara(c)",
+            "Wavell Hinds",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Corey Collymore"
+        ]
+    }
 }

@@ -70,7 +70,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Robin Uthappa",
+                    "batsman": "Robin Uthappa (wk)",
                     "dismissal": "run out (Sikandar Raza)",
                     "runs": "0",
                     "balls": "3",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Kedar Jadhav",
-                    "dismissal": "c Mutumbami b Chibhabha",
+                    "dismissal": "c (wk)Mutumbami b Chibhabha",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "11",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Stuart Binny",
-                    "dismissal": "c Mutumbami b Tiripano",
+                    "dismissal": "c (wk)Mutumbami b Tiripano",
                     "runs": "77",
                     "balls": "76",
                     "minutes": "92",
@@ -267,7 +267,7 @@
                     "strike_rate": "112.12"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "c Harbhajan Singh b Binny",
                     "runs": "7",
                     "balls": "16",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "India won by 4 runs"
+    "result": "India won by 4 runs",
+    "playing_xi": {
+        "India": [
+            "Axar Patel",
+            "Bhuvneshwar Kumar",
+            "Robin Uthappa (wk)",
+            "Kedar Jadhav",
+            "Murali Vijay",
+            "Ajinkya Rahane(c)",
+            "Manoj Tiwary",
+            "Stuart Binny",
+            "Ambati Rayudu",
+            "Harbhajan Singh",
+            "Dhawal Kulkarni"
+        ],
+        "Zimbabwe": [
+            "Richmond Mutumbami (wk)",
+            "Elton Chigumbura(c)",
+            "Brian Vitori",
+            "Donald Tiripano",
+            "Vusi Sibanda",
+            "Sean Williams",
+            "Tinashe Panyangara",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Graeme Cremer",
+            "Sikandar Raza"
+        ]
+    }
 }

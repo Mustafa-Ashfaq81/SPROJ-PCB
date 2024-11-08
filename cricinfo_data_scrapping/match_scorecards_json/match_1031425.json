@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "c de Kock b Parnell",
+                    "dismissal": "c (wk)de Kock b Parnell",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "7",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Alex Hales",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "61",
                     "balls": "60",
                     "minutes": "81",
@@ -80,7 +80,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Miller b Morris",
                     "runs": "7",
                     "balls": "7",
@@ -217,8 +217,8 @@
                     "strike_rate": "96.05"
                 },
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Buttler b Woakes",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "27",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "67",
                     "balls": "61",
                     "minutes": "76",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Chris Morris",
-                    "dismissal": "c Buttler b Ali",
+                    "dismissal": "c (wk)Buttler b Ali",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "6",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Kagiso Rabada",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "19",
                     "balls": "21",
                     "minutes": "23",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "England won by 72 runs"
+    "result": "England won by 72 runs",
+    "playing_xi": {
+        "England": [
+            "Mark Wood",
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Alex Hales",
+            "Moeen Ali",
+            "Ben Stokes"
+        ],
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Wayne Parnell",
+            "Kagiso Rabada",
+            "Hashim Amla",
+            "AB de Villiers(c)",
+            "Faf du Plessis",
+            "Andile Phehlukwayo",
+            "Imran Tahir",
+            "David Miller",
+            "Chris Morris",
+            "Jean-Paul Duminy"
+        ]
+    }
 }

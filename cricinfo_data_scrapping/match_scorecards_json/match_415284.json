@@ -34,7 +34,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Andre Fletcher",
+                    "batsman": "Andre Fletcher (wk)",
                     "dismissal": "c Dravid b Kumar",
                     "runs": "0",
                     "balls": "6",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Kieran Powell",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "32",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "21",
                     "balls": "26",
                     "minutes": "31",
@@ -291,7 +291,7 @@
                     "strike_rate": "0.00"
                 }
             ],
-            "did_not_bat": "Suresh Raina , MS Dhoni (c) , Amit Mishra , Harbhajan Singh , Ashish Nehra , Praveen Kumar",
+            "did_not_bat": "Suresh Raina , MS Dhoni (c) (wk) , Amit Mishra , Harbhajan Singh , Ashish Nehra , Praveen Kumar",
             "fall_of_wickets": "Fall of wickets : 1 - 7 ( Gautam Gambhir , 2.5 ov ) , 2 - 12 ( Rahul Dravid , 3.2 ov ) , 3 - 104 ( Dinesh Karthik , 27.4 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 107 balls remaining)"
+    "result": "India won by 7 wickets (with 107 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Travis Dowlin",
+            "Andre Fletcher (wk)",
+            "Royston Crandon",
+            "Devon Smith",
+            "Gavin Tonge",
+            "Kemar Roach",
+            "David Bernard",
+            "Floyd Reifer(c)",
+            "Kieran Powell",
+            "Nikita Miller",
+            "Daren Sammy"
+        ],
+        "India": [
+            "Dinesh Karthik",
+            "Abhishek Nayar",
+            "Rahul Dravid",
+            "Virat Kohli",
+            "MS Dhoni (c) (wk)",
+            "Amit Mishra",
+            "Ashish Nehra",
+            "Praveen Kumar",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Harbhajan Singh"
+        ]
+    }
 }

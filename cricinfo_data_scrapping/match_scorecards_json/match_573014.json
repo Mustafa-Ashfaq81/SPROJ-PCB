@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Aaron Finch",
-                    "dismissal": "c Chandimal b BAW Mendis",
+                    "dismissal": "c (wk)Chandimal b BAW Mendis",
                     "runs": "16",
                     "balls": "28",
                     "minutes": "42",
@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Phillip Hughes",
-                    "dismissal": "c Chandimal b Malinga",
+                    "dismissal": "c (wk)Chandimal b Malinga",
                     "runs": "112",
                     "balls": "129",
                     "minutes": "162",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Usman Khawaja",
-                    "dismissal": "run out (BMAJ Mendis/Chandimal)",
+                    "dismissal": "run out (BMAJ Mendis/ (wk)Chandimal)",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "18",
@@ -95,7 +95,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "13",
@@ -217,7 +217,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Haddin b Starc",
+                    "dismissal": "c (wk)Haddin b Starc",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "12",
@@ -246,8 +246,8 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
-                    "dismissal": "c Haddin b McKay",
+                    "batsman": "Dinesh Chandimal (wk)",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "73",
                     "balls": "95",
                     "minutes": "128",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "run out (Maxwell/Haddin)",
+                    "dismissal": "run out (Maxwell/ (wk)Haddin)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "1",
@@ -317,7 +317,7 @@
                 },
                 {
                     "batsman": "Ajantha Mendis",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Australia won by 107 runs"
+    "result": "Australia won by 107 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Usman Khawaja",
+            "Mitchell Starc",
+            "Clint McKay",
+            "Aaron Finch",
+            "Xavier Doherty",
+            "David Hussey",
+            "Phillip Hughes",
+            "Glenn Maxwell",
+            "George Bailey(c)"
+        ],
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Dinesh Chandimal (wk)",
+            "Mahela Jayawardene(c)",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Ajantha Mendis",
+            "Jeevan Mendis",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

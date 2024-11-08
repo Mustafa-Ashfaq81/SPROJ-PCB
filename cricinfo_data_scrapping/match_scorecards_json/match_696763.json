@@ -38,7 +38,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Guruge",
                     "runs": "14",
                     "balls": "13",
@@ -216,7 +216,7 @@
                 },
                 {
                     "batsman": "Amjad Ali",
-                    "dismissal": "c Cross b Taylor",
+                    "dismissal": "c (wk)Cross b Taylor",
                     "runs": "34",
                     "balls": "35",
                     "minutes": "48",
@@ -236,7 +236,7 @@
                 },
                 {
                     "batsman": "Shaiman Anwar",
-                    "dismissal": "c Cross b Sharif",
+                    "dismissal": "c (wk)Cross b Sharif",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "12",
@@ -245,7 +245,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Swapnil Patil",
+                    "batsman": "Swapnil Patil (wk)",
                     "dismissal": "not out",
                     "runs": "99",
                     "balls": "99",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Rohan Mustafa",
-                    "dismissal": "c Cross b Wardlaw",
+                    "dismissal": "c (wk)Cross b Wardlaw",
                     "runs": "18",
                     "balls": "35",
                     "minutes": "38",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 41 runs"
+    "result": "Scotland won by 41 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Rob Taylor",
+            "Moneeb Iqbal",
+            "Richie Berrington",
+            "Matthew Cross (wk)",
+            "Freddie Coleman",
+            "Safyaan Sharif",
+            "Majid Haq",
+            "Iain Wardlaw",
+            "Preston Mommsen(c)",
+            "Calum MacLeod",
+            "Matt Machan"
+        ],
+        "United Arab Emirates": [
+            "Khurram Khan(c)",
+            "Vikrant Shetty",
+            "Manjula Guruge",
+            "Rohan Mustafa",
+            "Kamran Shazad",
+            "Amjad Ali",
+            "Swapnil Patil (wk)",
+            "Amjad Javed",
+            "Ahmed Raza",
+            "Shaiman Anwar",
+            "Salman Faris"
+        ]
+    }
 }

@@ -62,8 +62,8 @@
                     "strike_rate": "54.05"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Dhoni b Sehwag",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Dhoni b Sehwag",
                     "runs": "30",
                     "balls": "55",
                     "minutes": "67",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Dhoni b Jadeja",
+                    "dismissal": "c (wk)Dhoni b Jadeja",
                     "runs": "23",
                     "balls": "41",
                     "minutes": "39",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Naeem Islam",
-                    "dismissal": "c Dhoni b Sharma",
+                    "dismissal": "c (wk)Dhoni b Sharma",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "14",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "11",
                     "balls": "14",
                     "minutes": "29",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "11",
                     "balls": "22",
                     "minutes": "35",
@@ -293,7 +293,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "38",
                     "balls": "45",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 116 balls remaining)"
+    "result": "India won by 6 wickets (with 116 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Shakib Al Hasan(c)",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Syed Rasel",
+            "Naeem Islam",
+            "Shafiul Islam",
+            "Imrul Kayes",
+            "Mahmudullah",
+            "Sohrawordi Shuvo"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "Zaheer Khan",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "Harbhajan Singh",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "st Ramdin b Benn",
+                    "dismissal": "st (wk)Ramdin b Benn",
                     "runs": "52",
                     "balls": "66",
                     "minutes": "-",
@@ -50,7 +50,7 @@
                     "strike_rate": "90.74"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "b Taylor",
                     "runs": "87",
                     "balls": "86",
@@ -281,8 +281,8 @@
                     "strike_rate": "118.18"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
-                    "dismissal": "c Prior b Anderson",
+                    "batsman": "Denesh Ramdin (wk)",
+                    "dismissal": "c (wk)Prior b Anderson",
                     "runs": "45",
                     "balls": "48",
                     "minutes": "-",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Kieron Pollard",
-                    "dismissal": "run out (Prior)",
+                    "dismissal": "run out ( (wk)Prior)",
                     "runs": "12",
                     "balls": "9",
                     "minutes": "-",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "England won by 58 runs"
+    "result": "England won by 58 runs",
+    "playing_xi": {
+        "England": [
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Dimitri Mascarenhas",
+            "Tim Bresnan",
+            "James Anderson",
+            "Matt Prior (wk)",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Andrew Strauss(c)",
+            "Paul Collingwood",
+            "Owais Shah"
+        ],
+        "West Indies": [
+            "Sulieman Benn",
+            "Dwayne Bravo",
+            "Runako Morton",
+            "Kieron Pollard",
+            "Ramnaresh Sarwan",
+            "Denesh Ramdin (wk)",
+            "Ravi Rampaul",
+            "Chris Gayle(c)",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Jerome Taylor"
+        ]
+    }
 }

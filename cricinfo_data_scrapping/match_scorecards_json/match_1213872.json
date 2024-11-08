@@ -50,8 +50,8 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Kusal Perera",
-                    "dismissal": "c Hope b Cottrell",
+                    "batsman": "Kusal Perera (wk)",
+                    "dismissal": "c (wk)Hope b Cottrell",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "119",
                     "balls": "119",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Wanindu Hasaranga",
-                    "dismissal": "run out (Hope/Cottrell)",
+                    "dismissal": "run out ( (wk)Hope/Cottrell)",
                     "runs": "17",
                     "balls": "10",
                     "minutes": "-",
@@ -231,7 +231,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Karunaratne b Mathews",
                     "runs": "51",
                     "balls": "65",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 161 runs"
+    "result": "Sri Lanka won by 161 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Dhananjaya de Silva",
+            "Nuwan Pradeep",
+            "Lakshan Sandakan",
+            "Dimuth Karunaratne(c)",
+            "Avishka Fernando",
+            "Kusal Perera (wk)",
+            "Angelo Mathews",
+            "Thisara Perera",
+            "Isuru Udana",
+            "Kusal Mendis"
+        ],
+        "West Indies": [
+            "Kieron Pollard(c)",
+            "Jason Holder",
+            "Alzarri Joseph",
+            "Shai Hope (wk)",
+            "Sunil Ambris",
+            "Nicholas Pooran",
+            "Roston Chase",
+            "Darren Bravo",
+            "Fabian Allen",
+            "Keemo Paul",
+            "Sheldon Cottrell"
+        ]
+    }
 }

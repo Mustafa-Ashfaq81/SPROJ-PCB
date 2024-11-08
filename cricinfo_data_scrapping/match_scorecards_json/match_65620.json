@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Mark Waugh",
-                    "dismissal": "c Boucher b Elworthy",
+                    "dismissal": "c (wk)Boucher b Elworthy",
                     "runs": "15",
                     "balls": "30",
                     "minutes": "35",
@@ -92,7 +92,7 @@
                     "strike_rate": "115.78"
                 }
             ],
-            "did_not_bat": "Adam Gilchrist , Shane Warne , Andy Bichel , Jason Gillespie , Glenn McGrath",
+            "did_not_bat": "Adam Gilchrist (wk) , Shane Warne , Andy Bichel , Jason Gillespie , Glenn McGrath",
             "fall_of_wickets": "Fall of wickets : 1 - 25 ( Mark Waugh , 9.4 ov ) , 2 - 29 ( Matthew Hayden , 11.5 ov ) , 3 - 200 ( Ricky Ponting , 42.2 ov ) , 4 - 205 ( Andrew Symonds , 43.6 ov )",
             "bowling": [
                 {
@@ -200,7 +200,7 @@
                 },
                 {
                     "batsman": "Gary Kirsten",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "22",
                     "balls": "40",
                     "minutes": "51",
@@ -220,7 +220,7 @@
                 },
                 {
                     "batsman": "Neil McKenzie",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "68",
                     "balls": "85",
                     "minutes": "105",
@@ -230,7 +230,7 @@
                 },
                 {
                     "batsman": "Jonty Rhodes",
-                    "dismissal": "c Gilchrist b Symonds",
+                    "dismissal": "c (wk)Gilchrist b Symonds",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "12",
@@ -239,7 +239,7 @@
                     "strike_rate": "22.22"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c & b Symonds",
                     "runs": "10",
                     "balls": "17",
@@ -375,5 +375,33 @@
             ]
         }
     ],
-    "result": "Australia won by 27 runs"
+    "result": "Australia won by 27 runs",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Steve Waugh(c)",
+            "Shane Warne",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting",
+            "Damien Martyn",
+            "Mark Waugh"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Neil McKenzie",
+            "Charl Langeveldt",
+            "Nicky Boje",
+            "Jonty Rhodes",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Lance Klusener",
+            "Steve Elworthy"
+        ]
+    }
 }

@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Taylor b SW Masakadza",
+                    "dismissal": "c (wk)Taylor b SW Masakadza",
                     "runs": "27",
                     "balls": "49",
                     "minutes": "56",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Mominul Haque",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "38",
                     "balls": "66",
                     "minutes": "94",
@@ -64,8 +64,8 @@
                     "strike_rate": "57.57"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
-                    "dismissal": "c Taylor b SW Masakadza",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
+                    "dismissal": "c (wk)Taylor b SW Masakadza",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "25",
@@ -275,7 +275,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
+                    "batsman": "Brendan Taylor(c) (wk)",
                     "dismissal": "b Abdur Razzak",
                     "runs": "33",
                     "balls": "37",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "run out (Abdur Razzak/Mushfiqur Rahim)",
+                    "dismissal": "run out (Abdur Razzak/ (wk)Mushfiqur Rahim)",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "19",
@@ -459,5 +459,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 121 runs"
+    "result": "Bangladesh won by 121 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mominul Haque",
+            "Mahmudullah",
+            "Mohammad Ashraful",
+            "Shafiul Islam",
+            "Robiul Islam",
+            "Mushfiqur Rahim(c) (wk)",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Ziaur Rahman",
+            "Shakib Al Hasan",
+            "Tamim Iqbal"
+        ],
+        "Zimbabwe": [
+            "Tendai Chatara",
+            "Shingi Masakadza",
+            "Tinashe Panyangara",
+            "Brendan Taylor(c) (wk)",
+            "Prosper Utseya",
+            "Sean Williams",
+            "Elton Chigumbura",
+            "Hamilton Masakadza",
+            "Sikandar Raza",
+            "Malcolm Waller",
+            "Regis Chakabva"
+        ]
+    }
 }

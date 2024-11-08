@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Mark Richardson",
-                    "dismissal": "st Campbell b Warne",
+                    "dismissal": "st (wk)Campbell b Warne",
                     "runs": "26",
                     "balls": "71",
                     "minutes": "103",
@@ -67,7 +67,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Campbell b Martyn",
+                    "dismissal": "c (wk)Campbell b Martyn",
                     "runs": "39",
                     "balls": "45",
                     "minutes": "54",
@@ -106,7 +106,7 @@
                     "strike_rate": "97.67"
                 },
                 {
-                    "batsman": "Adam Parore",
+                    "batsman": "Adam Parore (wk)",
                     "dismissal": "c ME Waugh b Warne",
                     "runs": "18",
                     "balls": "11",
@@ -117,7 +117,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "c Campbell b Lee",
+                    "dismissal": "c (wk)Campbell b Lee",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "7",
@@ -243,7 +243,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Ryan Campbell",
+                    "batsman": "Ryan Campbell (wk)",
                     "dismissal": "c Harris b Vettori",
                     "runs": "38",
                     "balls": "52",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting",
-                    "dismissal": "c Parore b Bond",
+                    "dismissal": "c (wk)Parore b Bond",
                     "runs": "11",
                     "balls": "17",
                     "minutes": "22",
@@ -433,5 +433,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 23 runs"
+    "result": "New Zealand won by 23 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum",
+            "Scott Styris",
+            "Lou Vincent",
+            "James Franklin",
+            "Mark Richardson",
+            "Adam Parore (wk)",
+            "Chris Cairns(c)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Craig McMillan",
+            "Shane Bond"
+        ],
+        "Australia": [
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Steve Waugh(c)",
+            "Shane Warne",
+            "Brett Lee",
+            "Ryan Campbell (wk)",
+            "Ian Harvey",
+            "Ricky Ponting",
+            "Michael Bevan",
+            "Damien Martyn",
+            "Mark Waugh"
+        ]
+    }
 }

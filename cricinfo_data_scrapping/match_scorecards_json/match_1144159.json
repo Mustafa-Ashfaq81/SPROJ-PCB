@@ -40,7 +40,7 @@
                     "strike_rate": "78.66"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "lbw b Shaheen Shah Afridi",
                     "runs": "0",
                     "balls": "7",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Reeza Hendricks",
-                    "dismissal": "c Mohammad Rizwan b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shaheen Shah Afridi",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "17",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Rassie van der Dussen",
-                    "dismissal": "c Mohammad Rizwan b Usman Shinwari",
+                    "dismissal": "c (wk)Mohammad Rizwan b Usman Shinwari",
                     "runs": "18",
                     "balls": "31",
                     "minutes": "53",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Kagiso Rabada",
-                    "dismissal": "c Mohammad Rizwan b Usman Shinwari",
+                    "dismissal": "c (wk)Mohammad Rizwan b Usman Shinwari",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -224,7 +224,7 @@
             "batting": [
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "71",
                     "balls": "91",
                     "minutes": "123",
@@ -253,7 +253,7 @@
                     "strike_rate": "77.35"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "1",
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 111 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 111 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Reeza Hendricks",
+            "Beuran Hendricks",
+            "Dale Steyn",
+            "David Miller",
+            "Imran Tahir",
+            "Kagiso Rabada",
+            "Rassie van der Dussen",
+            "Quinton de Kock (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)",
+            "Hashim Amla"
+        ],
+        "Pakistan": [
+            "Imad Wasim",
+            "Fakhar Zaman",
+            "Mohammad Rizwan (wk)",
+            "Shaheen Shah Afridi",
+            "Shadab Khan",
+            "Mohammad Amir",
+            "Usman Shinwari",
+            "Babar Azam",
+            "Imam-ul-Haq",
+            "Mohammad Hafeez",
+            "Shoaib Malik (c)"
+        ]
+    }
 }

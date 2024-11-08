@@ -32,7 +32,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b I Sharma",
                     "runs": "15",
                     "balls": "17",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "13",
                     "balls": "34",
                     "minutes": "63",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "5",
                     "balls": "21",
                     "minutes": "38",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "James Hopes",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "19",
                     "balls": "18",
                     "minutes": "36",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "run out (Dhoni/Harbhajan Singh)",
+                    "dismissal": "run out ( (wk)Dhoni/Harbhajan Singh)",
                     "runs": "32",
                     "balls": "52",
                     "minutes": "62",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Nathan Bracken",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Gilchrist b Hopes",
+                    "dismissal": "c (wk)Gilchrist b Hopes",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "12",
@@ -289,7 +289,7 @@
                     "strike_rate": "59.09"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "run out (Hayden)",
                     "runs": "37",
                     "balls": "50",
@@ -300,7 +300,7 @@
                 },
                 {
                     "batsman": "Robin Uthappa",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "18",
                     "balls": "36",
                     "minutes": "57",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "8",
@@ -320,7 +320,7 @@
                 },
                 {
                     "batsman": "Sreesanth",
-                    "dismissal": "st Gilchrist b Hogg",
+                    "dismissal": "st (wk)Gilchrist b Hogg",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "15",
@@ -340,7 +340,7 @@
                 },
                 {
                     "batsman": "Munaf Patel",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "11",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Australia won by 50 runs"
+    "result": "Australia won by 50 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "James Hopes",
+            "Nathan Bracken",
+            "Stuart Clark",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Munaf Patel",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Sreesanth",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

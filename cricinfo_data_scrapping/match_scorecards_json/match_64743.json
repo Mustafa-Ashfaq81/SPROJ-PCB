@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Nasser Hussain(c)",
-                    "dismissal": "c Ratra b Tendulkar",
+                    "dismissal": "c (wk)Ratra b Tendulkar",
                     "runs": "49",
                     "balls": "71",
                     "minutes": "86",
@@ -103,7 +103,7 @@
                     "strike_rate": "140.00"
                 }
             ],
-            "did_not_bat": "James Foster , Ashley Giles , Darren Gough , Andy Caddick",
+            "did_not_bat": "James Foster (wk) , Ashley Giles , Darren Gough , Andy Caddick",
             "fall_of_wickets": "Fall of wickets : 1 - 51 ( Marcus Trescothick , 11.4 ov ) , 2 - 168 ( Nasser Hussain , 35.3 ov ) , 3 - 248 ( Nick Knight , 45.4 ov ) , 4 - 254 ( Andrew Flintoff , 47.1 ov ) , 5 - 260 ( Graham Thorpe , 48.3 ov )",
             "bowling": [
                 {
@@ -225,7 +225,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Foster b Caddick",
+                    "dismissal": "c (wk)Foster b Caddick",
                     "runs": "18",
                     "balls": "16",
                     "minutes": "20",
@@ -245,7 +245,7 @@
                 },
                 {
                     "batsman": "Dinesh Mongia",
-                    "dismissal": "c Foster b Flintoff",
+                    "dismissal": "c (wk)Foster b Flintoff",
                     "runs": "20",
                     "balls": "33",
                     "minutes": "40",
@@ -274,8 +274,8 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Ajay Ratra",
-                    "dismissal": "st Foster b Giles",
+                    "batsman": "Ajay Ratra (wk)",
+                    "dismissal": "st (wk)Foster b Giles",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "15",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "England won by 2 runs"
+    "result": "England won by 2 runs",
+    "playing_xi": {
+        "England": [
+            "Ashley Giles",
+            "Darren Gough",
+            "Graham Thorpe",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Andy Caddick",
+            "Nasser Hussain(c)",
+            "Andrew Flintoff",
+            "Marcus Trescothick",
+            "Michael Vaughan",
+            "James Foster (wk)"
+        ],
+        "India": [
+            "Hemang Badani",
+            "Ajay Ratra (wk)",
+            "Sachin Tendulkar",
+            "Anil Kumble",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Javagal Srinath",
+            "Sarandeep Singh",
+            "Dinesh Mongia",
+            "Virender Sehwag",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

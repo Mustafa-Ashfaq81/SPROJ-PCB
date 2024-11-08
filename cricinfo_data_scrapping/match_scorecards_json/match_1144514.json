@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "12",
                     "balls": "8",
                     "minutes": "14",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "run out (Bairstow/Rashid/Buttler)",
+                    "dismissal": "run out (Bairstow/Rashid/ (wk)Buttler)",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "17",
@@ -91,7 +91,7 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "38",
                     "balls": "27",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Pat Cummins",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "8",
@@ -268,7 +268,7 @@
                     "strike_rate": "77.39"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Khawaja b Stoinis",
                     "runs": "25",
                     "balls": "27",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Moeen Ali",
-                    "dismissal": "c Carey b Behrendorff",
+                    "dismissal": "c (wk)Carey b Behrendorff",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "14",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Australia won by 64 runs"
+    "result": "Australia won by 64 runs",
+    "playing_xi": {
+        "Australia": [
+            "Usman Khawaja",
+            "Mitchell Starc",
+            "Jason Behrendorff",
+            "Aaron Finch(c)",
+            "Steven Smith",
+            "Pat Cummins",
+            "Marcus Stoinis",
+            "David Warner",
+            "Alex Carey (wk)",
+            "Glenn Maxwell",
+            "Nathan Lyon"
+        ],
+        "England": [
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Jofra Archer",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "James Vince",
+            "Ben Stokes",
+            "Mark Wood",
+            "Moeen Ali"
+        ]
+    }
 }

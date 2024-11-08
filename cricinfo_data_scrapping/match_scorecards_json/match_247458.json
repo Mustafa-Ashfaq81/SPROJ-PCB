@@ -31,7 +31,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "lbw b Brown",
                     "runs": "46",
                     "balls": "55",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "st Smith b Hoffmann",
+                    "dismissal": "st (wk)Smith b Hoffmann",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "19",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Gavin Hamilton",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "3",
                     "balls": "18",
                     "minutes": "23",
@@ -268,7 +268,7 @@
                     "strike_rate": "51.35"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "b Hogg",
                     "runs": "51",
                     "balls": "76",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Glenn Rogers",
-                    "dismissal": "run out (Hayden/Gilchrist)",
+                    "dismissal": "run out (Hayden/ (wk)Gilchrist)",
                     "runs": "6",
                     "balls": "19",
                     "minutes": "29",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Australia won by 203 runs"
+    "result": "Australia won by 203 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shane Watson",
+            "Glenn McGrath",
+            "Shaun Tait",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brad Hodge",
+            "Nathan Bracken",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Michael Hussey"
+        ],
+        "Scotland": [
+            "Fraser Watts",
+            "Dougie Brown",
+            "Glenn Rogers",
+            "John Blain",
+            "Craig Wright(c)",
+            "Colin Smith (wk)",
+            "Navdeep Poonia",
+            "Paul Hoffmann",
+            "Ryan Watson",
+            "Gavin Hamilton",
+            "Majid Haq"
+        ]
+    }
 }

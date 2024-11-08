@@ -43,8 +43,8 @@
                     "strike_rate": "91.11"
                 },
                 {
-                    "batsman": "Steven Davies",
-                    "dismissal": "c Kamran Akmal b Saeed Ajmal",
+                    "batsman": "Steven Davies (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "87",
                     "balls": "67",
                     "minutes": "96",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "13",
                     "balls": "11",
                     "minutes": "14",
@@ -210,7 +210,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Broad b Swann",
                     "runs": "53",
                     "balls": "61",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Davies b Broad",
+                    "dismissal": "c (wk)Davies b Broad",
                     "runs": "43",
                     "balls": "33",
                     "minutes": "44",
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "England won by 24 runs"
+    "result": "England won by 24 runs",
+    "playing_xi": {
+        "England": [
+            "Jonathan Trott",
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Ravi Bopara",
+            "Graeme Swann",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Steven Davies (wk)"
+        ],
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Mohammad Hafeez",
+            "Shahid Afridi(c)",
+            "Umar Akmal",
+            "Mohammad Irfan",
+            "Fawad Alam",
+            "Asad Shafiq"
+        ]
+    }
 }

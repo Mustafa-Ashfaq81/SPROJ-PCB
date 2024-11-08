@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c McCullum b McKay",
+                    "dismissal": "c (wk)McCullum b McKay",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "7",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c McCullum b Butler",
+                    "dismissal": "c (wk)McCullum b Butler",
                     "runs": "10",
                     "balls": "27",
                     "minutes": "36",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "lbw b Butler",
                     "runs": "86",
                     "balls": "107",
@@ -227,7 +227,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Shafiul Islam",
                     "runs": "9",
                     "balls": "6",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Peter Ingram",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "28",
                     "balls": "49",
                     "minutes": "81",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 135 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 135 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rubel Hossain",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Mohammad Ashraful",
+            "Imrul Kayes",
+            "Aftab Ahmed",
+            "Shakib Al Hasan(c)",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ],
+        "New Zealand": [
+            "Daniel Vettori(c)",
+            "James Franklin",
+            "Martin Guptill",
+            "Neil Broom",
+            "Daryl Tuffey",
+            "Ian Butler",
+            "Peter Ingram",
+            "Ross Taylor",
+            "Jacob Oram",
+            "Brendon McCullum (wk)",
+            "Andy McKay"
+        ]
+    }
 }

@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Will Young",
-                    "dismissal": "c Litton Das b Mustafizur Rahman",
+                    "dismissal": "c (wk)Litton Das b Mustafizur Rahman",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "12",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Litton Das b Khaled Ahmed",
+                    "dismissal": "c (wk)Litton Das b Khaled Ahmed",
                     "runs": "49",
                     "balls": "61",
                     "minutes": "76",
@@ -73,7 +73,7 @@
                     "strike_rate": "80.32"
                 },
                 {
-                    "batsman": "Tom Blundell",
+                    "batsman": "Tom Blundell (wk)",
                     "dismissal": "b Hasan Mahmud",
                     "runs": "68",
                     "balls": "66",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Ish Sodhi",
-                    "dismissal": "c Litton Das b Khaled Ahmed",
+                    "dismissal": "c (wk)Litton Das b Khaled Ahmed",
                     "runs": "35",
                     "balls": "39",
                     "minutes": "62",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Lockie Ferguson(c)",
-                    "dismissal": "st Litton Das b Mahedi Hasan",
+                    "dismissal": "st (wk)Litton Das b Mahedi Hasan",
                     "runs": "13",
                     "balls": "13",
                     "minutes": "18",
@@ -227,7 +227,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Blundell b Sodhi",
+                    "dismissal": "c (wk)Blundell b Sodhi",
                     "runs": "44",
                     "balls": "58",
                     "minutes": "90",
@@ -236,7 +236,7 @@
                     "strike_rate": "75.86"
                 },
                 {
-                    "batsman": "Litton Das(c)",
+                    "batsman": "Litton Das(c) (wk)",
                     "dismissal": "c Ravindra b Jamieson",
                     "runs": "6",
                     "balls": "16",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 86 runs"
+    "result": "New Zealand won by 86 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Tom Blundell (wk)",
+            "Trent Boult",
+            "Finn Allen",
+            "Chad Bowes",
+            "Will Young",
+            "Cole McConchie",
+            "Henry Nicholls",
+            "Rachin Ravindra",
+            "Lockie Ferguson(c)",
+            "Kyle Jamieson",
+            "Ish Sodhi"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Tanzid Hasan",
+            "Mahmudullah",
+            "Hasan Mahmud",
+            "Mustafizur Rahman",
+            "Khaled Ahmed",
+            "Litton Das(c) (wk)",
+            "Towhid Hridoy",
+            "Mahedi Hasan",
+            "Soumya Sarkar",
+            "Nasum Ahmed"
+        ]
+    }
 }

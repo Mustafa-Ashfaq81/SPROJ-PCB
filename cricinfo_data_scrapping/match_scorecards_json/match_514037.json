@@ -50,7 +50,7 @@
                     "strike_rate": "67.34"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (du Plessis)",
                     "runs": "38",
                     "balls": "37",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Kosala Kulasekara",
-                    "dismissal": "run out (Tsotsobe/de Villiers)",
+                    "dismissal": "run out (Tsotsobe/ (wk)de Villiers)",
                     "runs": "19",
                     "balls": "20",
                     "minutes": "31",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "run out (Mathews/Sangakkara)",
+                    "dismissal": "run out (Mathews/ (wk)Sangakkara)",
                     "runs": "72",
                     "balls": "74",
                     "minutes": "99",
@@ -291,7 +291,7 @@
                     "strike_rate": "73.52"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "not out",
                     "runs": "39",
                     "balls": "36",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 4 runs (D/L method)"
+    "result": "South Africa won by 4 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kosala Kulasekara",
+            "Kumar Sangakkara (wk)",
+            "Tillakaratne Dilshan(c)",
+            "Dinesh Chandimal",
+            "Rangana Herath",
+            "Upul Tharanga",
+            "Dhammika Prasad",
+            "Angelo Mathews",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara"
+        ],
+        "South Africa": [
+            "Colin Ingram",
+            "Dale Steyn",
+            "Morne Morkel",
+            "Alviro Petersen",
+            "Robin Peterson",
+            "Faf du Plessis",
+            "Lonwabo Tsotsobe",
+            "AB de Villiers(c) (wk)",
+            "Jean-Paul Duminy",
+            "Albie Morkel",
+            "Graeme Smith"
+        ]
+    }
 }

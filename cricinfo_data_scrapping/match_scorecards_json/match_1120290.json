@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "c Sarfaraz Ahmed b Usman Shinwari",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Usman Shinwari",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "19",
                     "balls": "31",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                     "strike_rate": "61.29"
                 },
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "lbw b Usman Shinwari",
                     "runs": "0",
                     "balls": "2",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "c Dickwella b Vandersay",
+                    "dismissal": "c (wk)Dickwella b Vandersay",
                     "runs": "48",
                     "balls": "47",
                     "minutes": "-",
@@ -268,7 +268,7 @@
                     "strike_rate": "45.45"
                 }
             ],
-            "did_not_bat": "Babar Azam , Mohammad Hafeez , Shoaib Malik , Sarfaraz Ahmed (c) , Imad Wasim , Shadab Khan , Hasan Ali , Usman Shinwari",
+            "did_not_bat": "Babar Azam , Mohammad Hafeez , Shoaib Malik , Sarfaraz Ahmed (c) (wk) , Imad Wasim , Shadab Khan , Hasan Ali , Usman Shinwari",
             "fall_of_wickets": "Fall of wickets : 1 - 84 ( Fakhar Zaman , 16.4 ov )",
             "bowling": [
                 {
@@ -344,5 +344,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 9 wickets (with 178 balls remaining)"
+    "result": "Pakistan won by 9 wickets (with 178 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Milinda Siriwardana",
+            "Seekkuge Prasanna",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Vishwa Fernando",
+            "Dinesh Chandimal",
+            "Upul Tharanga(c)",
+            "Dushmantha Chameera",
+            "Jeffrey Vandersay",
+            "Sadeera Samarawickrama",
+            "Niroshan Dickwella (wk)"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed (c) (wk)",
+            "Mohammad Hafeez",
+            "Imam-ul-Haq",
+            "Imad Wasim",
+            "Fakhar Zaman",
+            "Shoaib Malik",
+            "Faheem Ashraf",
+            "Shadab Khan",
+            "Usman Shinwari",
+            "Babar Azam",
+            "Hasan Ali"
+        ]
+    }
 }

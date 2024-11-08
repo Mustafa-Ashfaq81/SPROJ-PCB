@@ -74,7 +74,7 @@
                     "strike_rate": "172.88"
                 }
             ],
-            "did_not_bat": "Herschelle Gibbs , Mark Boucher , Johan Botha , Roelof van der Merwe , Dale Steyn , Morne Morkel , Lonwabo Tsotsobe",
+            "did_not_bat": "Herschelle Gibbs , Mark Boucher (wk) , Johan Botha , Roelof van der Merwe , Dale Steyn , Morne Morkel , Lonwabo Tsotsobe",
             "fall_of_wickets": "Fall of wickets : 1 - 113 ( Loots Bosman , 15.4 ov ) , 2 - 192 ( Hashim Amla , 32.5 ov )",
             "bowling": [
                 {
@@ -196,7 +196,7 @@
                 },
                 {
                     "batsman": "Murali Vijay",
-                    "dismissal": "c Boucher b Tsotsobe",
+                    "dismissal": "c (wk)Boucher b Tsotsobe",
                     "runs": "25",
                     "balls": "16",
                     "minutes": "-",
@@ -206,7 +206,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Boucher b Steyn",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "57",
                     "balls": "71",
                     "minutes": "-",
@@ -225,8 +225,8 @@
                     "strike_rate": "78.68"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Boucher b Steyn",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "9",
                     "balls": "7",
                     "minutes": "-",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "c Boucher b Tsotsobe",
+                    "dismissal": "c (wk)Boucher b Tsotsobe",
                     "runs": "36",
                     "balls": "35",
                     "minutes": "-",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Abhimanyu Mithun",
-                    "dismissal": "st Boucher b van der Merwe",
+                    "dismissal": "st (wk)Boucher b van der Merwe",
                     "runs": "24",
                     "balls": "23",
                     "minutes": "-",
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 90 runs"
+    "result": "South Africa won by 90 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Hashim Amla",
+            "Herschelle Gibbs",
+            "Roelof van der Merwe",
+            "Lonwabo Tsotsobe",
+            "Johan Botha",
+            "Loots Bosman",
+            "Dale Steyn",
+            "Morne Morkel",
+            "Jacques Kallis(c)"
+        ],
+        "India": [
+            "Sudeep Tyagi",
+            "Murali Vijay",
+            "Abhimanyu Mithun",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "Dinesh Karthik",
+            "Sreesanth",
+            "Yusuf Pathan",
+            "Suresh Raina",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

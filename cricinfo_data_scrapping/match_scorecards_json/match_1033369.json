@@ -31,7 +31,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "b Young",
                     "runs": "35",
                     "balls": "31",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Tom Latham(c)",
-                    "dismissal": "st O'Brien b Dockrell",
+                    "dismissal": "st (wk)O'Brien b Dockrell",
                     "runs": "104",
                     "balls": "111",
                     "minutes": "-",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Colin Munro",
-                    "dismissal": "c O'Brien b Chase",
+                    "dismissal": "c (wk)O'Brien b Chase",
                     "runs": "44",
                     "balls": "15",
                     "minutes": "-",
@@ -209,7 +209,7 @@
             "batting": [
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "17",
                     "balls": "28",
                     "minutes": "-",
@@ -248,7 +248,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Munro b Kuggeleijn",
                     "runs": "5",
                     "balls": "19",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Craig Young",
-                    "dismissal": "c Ronchi b Henry",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "-",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 190 runs"
+    "result": "New Zealand won by 190 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Tom Latham(c)",
+            "Mitchell Santner",
+            "Neil Broom",
+            "Adam Milne",
+            "Scott Kuggeleijn",
+            "Corey Anderson",
+            "Colin Munro",
+            "Ish Sodhi",
+            "Luke Ronchi (wk)",
+            "Ross Taylor",
+            "Matt Henry"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Peter Chase",
+            "Gary Wilson",
+            "Paul Stirling",
+            "Simi Singh",
+            "Barry McCarthy",
+            "Niall O'Brien (wk)",
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Craig Young",
+            "Andy Balbirnie"
+        ]
+    }
 }

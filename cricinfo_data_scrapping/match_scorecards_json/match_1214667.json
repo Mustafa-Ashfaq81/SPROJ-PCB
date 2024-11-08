@@ -33,7 +33,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Litton Das",
+                    "batsman": "Litton Das (wk)",
                     "dismissal": "retired hurt",
                     "runs": "126",
                     "balls": "105",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Mutumbami b Tiripano",
+                    "dismissal": "c (wk)Mutumbami b Tiripano",
                     "runs": "19",
                     "balls": "26",
                     "minutes": "-",
@@ -280,7 +280,7 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "run out (Najmul Hossain Shanto/Mushfiqur Rahim)",
                     "runs": "17",
                     "balls": "14",
@@ -420,5 +420,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 169 runs"
+    "result": "Bangladesh won by 169 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Litton Das (wk)",
+            "Najmul Hossain Shanto",
+            "Tamim Iqbal",
+            "Mushfiqur Rahim",
+            "Mehidy Hasan Miraz",
+            "Taijul Islam",
+            "Mahmudullah",
+            "Mohammad Saifuddin",
+            "Mashrafe Mortaza(c)",
+            "Mustafizur Rahman",
+            "Mohammad Mithun"
+        ],
+        "Zimbabwe": [
+            "Tinotenda Mutombodzi",
+            "Tinashe Kamunhukamwe",
+            "Richmond Mutumbami (wk)",
+            "Brendan Taylor",
+            "Chamu Chibhabha(c)",
+            "Regis Chakabva",
+            "Wessly Madhevere",
+            "Carl Mumba",
+            "Donald Tiripano",
+            "Sikandar Raza",
+            "Chris Mpofu"
+        ]
+    }
 }

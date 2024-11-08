@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shaheen Shah Afridi",
                     "runs": "15",
                     "balls": "12",
                     "minutes": "22",
@@ -62,7 +62,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "c Mohammad Hafeez b Imad Wasim",
                     "runs": "24",
                     "balls": "66",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "st Ikram Alikhil b Mohammad Nabi",
+                    "dismissal": "st (wk)Ikram Alikhil b Mohammad Nabi",
                     "runs": "36",
                     "balls": "51",
                     "minutes": "60",
@@ -289,8 +289,8 @@
                     "strike_rate": "47.36"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
-                    "dismissal": "run out (Najibullah Zadran/Ikram Alikhil)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
+                    "dismissal": "run out (Najibullah Zadran/ (wk)Ikram Alikhil)",
                     "runs": "18",
                     "balls": "22",
                     "minutes": "37",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Shadab Khan",
-                    "dismissal": "run out (Gulbadin Naib/Ikram Alikhil)",
+                    "dismissal": "run out (Gulbadin Naib/ (wk)Ikram Alikhil)",
                     "runs": "11",
                     "balls": "17",
                     "minutes": "33",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 2 balls remaining)"
+    "result": "Pakistan won by 3 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Najibullah Zadran",
+            "Mujeeb Ur Rahman",
+            "Asghar Afghan",
+            "Gulbadin Naib(c)",
+            "Ikram Alikhil (wk)",
+            "Hamid Hassan",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Samiullah Shinwari",
+            "Rashid Khan"
+        ],
+        "Pakistan": [
+            "Haris Sohail",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Wahab Riaz",
+            "Mohammad Amir",
+            "Imad Wasim",
+            "Mohammad Hafeez",
+            "Imam-ul-Haq",
+            "Babar Azam",
+            "Shadab Khan",
+            "Fakhar Zaman",
+            "Shaheen Shah Afridi"
+        ]
+    }
 }

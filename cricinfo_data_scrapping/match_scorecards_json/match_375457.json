@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "6",
                     "balls": "25",
                     "minutes": "36",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "9",
@@ -60,7 +60,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Mendis",
                     "runs": "12",
                     "balls": "38",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya(c)",
-                    "dismissal": "c Sangakkara b Thushara",
+                    "dismissal": "c (wk)Sangakkara b Thushara",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -243,7 +243,7 @@
                     "strike_rate": "29.16"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "28",
                     "balls": "25",
@@ -315,5 +315,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 194 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 194 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Prosper Utseya(c)",
+            "Vusi Sibanda",
+            "Chamu Chibhabha",
+            "Ray Price",
+            "Tawanda Mupariwa",
+            "Tatenda Taibu (wk)",
+            "Sean Williams",
+            "Hamilton Masakadza",
+            "Chris Mpofu",
+            "Stuart Matsikenyeri"
+        ],
+        "Sri Lanka": [
+            "Farveez Maharoof",
+            "Chamara Kapugedera",
+            "Nuwan Kulasekara",
+            "Thilan Thushara",
+            "Mahela Jayawardene (c)",
+            "Upul Tharanga",
+            "Ajantha Mendis",
+            "Kumar Sangakkara (wk)",
+            "Muthiah Muralidaran",
+            "Mahela Udawatte",
+            "Jehan Mubarak"
+        ]
+    }
 }

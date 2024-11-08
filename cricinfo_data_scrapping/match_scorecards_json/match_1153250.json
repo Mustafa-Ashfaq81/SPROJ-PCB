@@ -34,8 +34,8 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Nawaz",
+                    "batsman": "Mohammad Shahzad (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Nawaz",
                     "runs": "20",
                     "balls": "31",
                     "minutes": "-",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Babar Azam",
-                    "dismissal": "st Mohammad Shahzad b Rashid Khan",
+                    "dismissal": "st (wk)Mohammad Shahzad b Rashid Khan",
                     "runs": "66",
                     "balls": "94",
                     "minutes": "-",
@@ -261,7 +261,7 @@
                     "strike_rate": "118.60"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "b Gulbadin Naib",
                     "runs": "8",
                     "balls": "12",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 3 balls remaining)"
+    "result": "Pakistan won by 3 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Aftab Alam",
+            "Asghar Afghan(c)",
+            "Ihsanullah",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Rashid Khan"
+        ],
+        "Pakistan": [
+            "Haris Sohail",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Asif Ali",
+            "Mohammad Nawaz",
+            "Imam-ul-Haq",
+            "Babar Azam",
+            "Shoaib Malik",
+            "Hasan Ali",
+            "Fakhar Zaman",
+            "Shaheen Shah Afridi",
+            "Usman Shinwari"
+        ]
+    }
 }

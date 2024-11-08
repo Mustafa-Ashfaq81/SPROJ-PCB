@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Alick Athanaze",
-                    "dismissal": "c Inglis b Bartlett",
+                    "dismissal": "c (wk)Inglis b Bartlett",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "18",
@@ -64,7 +64,7 @@
                     "strike_rate": "81.48"
                 },
                 {
-                    "batsman": "Shai Hope(c)",
+                    "batsman": "Shai Hope(c) (wk)",
                     "dismissal": "c Short b Bartlett",
                     "runs": "12",
                     "balls": "17",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Travis Head",
-                    "dismissal": "c Hope b Forde",
+                    "dismissal": "c (wk)Hope b Forde",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "3",
@@ -251,7 +251,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Josh Inglis",
+                    "batsman": "Josh Inglis (wk)",
                     "dismissal": "c Athanaze b Motie",
                     "runs": "65",
                     "balls": "43",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 69 balls remaining)"
+    "result": "Australia won by 8 wickets (with 69 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Oshane Thomas",
+            "Matthew Forde",
+            "Keacy Carty",
+            "Justin Greaves",
+            "Hayden Walsh",
+            "Alick Athanaze",
+            "Roston Chase",
+            "Gudakesh Motie",
+            "Romario Shepherd",
+            "Shai Hope(c) (wk)",
+            "Kavem Hodge"
+        ],
+        "Australia": [
+            "Steven Smith(c)",
+            "Josh Inglis (wk)",
+            "Matthew Short",
+            "Sean Abbott",
+            "Adam Zampa",
+            "Marnus Labuschagne",
+            "Travis Head",
+            "Cameron Green",
+            "Lance Morris",
+            "Xavier Bartlett",
+            "Aaron Hardie"
+        ]
+    }
 }

@@ -65,7 +65,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Oram b Butler",
                     "runs": "18",
                     "balls": "47",
@@ -222,7 +222,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Malinga",
                     "runs": "14",
                     "balls": "52",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "11",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "6",
@@ -313,7 +313,7 @@
                 },
                 {
                     "batsman": "Daryl Tuffey",
-                    "dismissal": "run out (Sangakkara)",
+                    "dismissal": "run out ( (wk)Sangakkara)",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "9",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 97 runs"
+    "result": "Sri Lanka won by 97 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Kumar Sangakkara(c) (wk)",
+            "Nuwan Kulasekara",
+            "Thilan Samaraweera",
+            "Angelo Mathews",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Jacob Oram",
+            "Nathan McCullum",
+            "Ian Butler",
+            "Jesse Ryder",
+            "Shane Bond",
+            "Martin Guptill",
+            "Daniel Vettori(c)",
+            "Ross Taylor",
+            "Daryl Tuffey",
+            "Grant Elliott"
+        ]
+    }
 }

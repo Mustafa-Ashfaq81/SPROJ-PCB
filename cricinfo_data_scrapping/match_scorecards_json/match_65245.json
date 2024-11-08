@@ -101,8 +101,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Ashish Bagai",
-                    "dismissal": "c DO Obuya b Odoyo",
+                    "batsman": "Ashish Bagai (wk)",
+                    "dismissal": "c (wk)DO Obuya b Odoyo",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "20",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Sanjayan Thuraisingam",
-                    "dismissal": "c DO Obuya b Odoyo",
+                    "dismissal": "c (wk)DO Obuya b Odoyo",
                     "runs": "13",
                     "balls": "10",
                     "minutes": "13",
@@ -308,7 +308,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "David Obuya",
+                    "batsman": "David Obuya (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "5",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 4 wickets (with 9 balls remaining)"
+    "result": "Kenya won by 4 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Ian Billcliff",
+            "Fazil Sattaur",
+            "Ishwar Maraj",
+            "Ashish Bagai (wk)",
+            "Davis Joseph",
+            "Austin Codrington",
+            "John Davison",
+            "Nicholas de Groot",
+            "Joe Harris(c)",
+            "Desmond Chumney",
+            "Sanjayan Thuraisingam"
+        ],
+        "Kenya": [
+            "Hitesh Modi",
+            "Martin Suji",
+            "Ravi Shah",
+            "David Obuya (wk)",
+            "Kennedy Otieno",
+            "Peter Ongondo",
+            "Collins Obuya",
+            "Maurice Odumbe",
+            "Steve Tikolo(c)",
+            "Tony Suji",
+            "Thomas Odoyo"
+        ]
+    }
 }

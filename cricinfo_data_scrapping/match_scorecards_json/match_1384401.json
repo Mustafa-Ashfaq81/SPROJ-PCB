@@ -32,7 +32,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Maxwell",
                     "runs": "109",
                     "balls": "106",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Heinrich Klaasen",
-                    "dismissal": "c Inglis b Hazlewood",
+                    "dismissal": "c (wk)Inglis b Hazlewood",
                     "runs": "29",
                     "balls": "27",
                     "minutes": "40",
@@ -273,7 +273,7 @@
                     "strike_rate": "62.16"
                 },
                 {
-                    "batsman": "Josh Inglis",
+                    "batsman": "Josh Inglis (wk)",
                     "dismissal": "b Rabada",
                     "runs": "5",
                     "balls": "4",
@@ -294,7 +294,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "6",
@@ -304,7 +304,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "c de Kock b Jansen",
+                    "dismissal": "c (wk)de Kock b Jansen",
                     "runs": "27",
                     "balls": "51",
                     "minutes": "69",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 134 runs"
+    "result": "South Africa won by 134 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Marco Jansen",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Keshav Maharaj",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Tabraiz Shamsi",
+            "Temba Bavuma(c)",
+            "Lungi Ngidi",
+            "Rassie van der Dussen",
+            "Aiden Markram"
+        ],
+        "Australia": [
+            "Mitchell Marsh",
+            "Glenn Maxwell",
+            "Adam Zampa",
+            "Josh Inglis (wk)",
+            "Pat Cummins(c)",
+            "Marcus Stoinis",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Marnus Labuschagne",
+            "David Warner"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "14",
                     "balls": "26",
                     "minutes": "30",
@@ -60,8 +60,8 @@
                     "strike_rate": "85.88"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Ramdin b Bravo",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Ramdin b Bravo",
                     "runs": "10",
                     "balls": "20",
                     "minutes": "25",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "c Taibu b Chigumbura",
+                    "dismissal": "c (wk)Taibu b Chigumbura",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "30",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Taibu b Masakadza",
+                    "dismissal": "c (wk)Taibu b Masakadza",
                     "runs": "25",
                     "balls": "49",
                     "minutes": "58",
@@ -297,8 +297,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
-                    "dismissal": "run out (Masakadza/Taibu)",
+                    "batsman": "Denesh Ramdin (wk)",
+                    "dismissal": "run out (Masakadza/ (wk)Taibu)",
                     "runs": "8",
                     "balls": "5",
                     "minutes": "14",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 30 runs"
+    "result": "Zimbabwe won by 30 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Vusi Sibanda",
+            "Prosper Utseya(c)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Chamu Chibhabha",
+            "Brendan Taylor",
+            "Keith Dabengwa",
+            "Gary Brent",
+            "Stuart Matsikenyeri",
+            "Ray Price",
+            "Tatenda Taibu (wk)"
+        ],
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Daren Powell",
+            "Devon Smith",
+            "Ravi Rampaul",
+            "Shivnarine Chanderpaul",
+            "Runako Morton",
+            "Dwayne Bravo",
+            "Marlon Samuels",
+            "Rawl Lewis",
+            "Chris Gayle(c)",
+            "Jerome Taylor"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Pietersen b Flintoff",
                     "runs": "27",
                     "balls": "32",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c GO Jones b Harmison",
+                    "dismissal": "c (wk)GO Jones b Harmison",
                     "runs": "7",
                     "balls": "18",
                     "minutes": "26",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c GO Jones b Harmison",
+                    "dismissal": "c (wk)GO Jones b Harmison",
                     "runs": "11",
                     "balls": "24",
                     "minutes": "43",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "c GO Jones b Harmison",
+                    "dismissal": "c (wk)GO Jones b Harmison",
                     "runs": "16",
                     "balls": "22",
                     "minutes": "16",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Brett Lee",
-                    "dismissal": "c GO Jones b Flintoff",
+                    "dismissal": "c (wk)GO Jones b Flintoff",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "6",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Jason Gillespie",
-                    "dismissal": "c GO Jones b Flintoff",
+                    "dismissal": "c (wk)GO Jones b Flintoff",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "10",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "run out (Symonds/Gilchrist)",
+                    "dismissal": "run out (Symonds/ (wk)Gilchrist)",
                     "runs": "53",
                     "balls": "116",
                     "minutes": "154",
@@ -298,7 +298,7 @@
                     "strike_rate": "45.68"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "lbw b Hogg",
                     "runs": "71",
                     "balls": "100",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Michael Hussey"
+        ],
+        "England": [
+            "Andrew Flintoff",
+            "Darren Gough",
+            "Simon Jones",
+            "Steve Harmison",
+            "Michael Vaughan(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Ashley Giles",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Marcus Trescothick"
+        ]
+    }
 }

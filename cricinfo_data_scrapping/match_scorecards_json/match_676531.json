@@ -80,7 +80,7 @@
                     "strike_rate": "95.83"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "51",
                     "balls": "40",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "c Charles b Holder",
+                    "dismissal": "c (wk)Charles b Holder",
                     "runs": "19",
                     "balls": "10",
                     "minutes": "18",
@@ -231,7 +231,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Johnson Charles",
+                    "batsman": "Johnson Charles (wk)",
                     "dismissal": "c & b Kumar",
                     "runs": "12",
                     "balls": "9",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Kieran Powell",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "59",
                     "balls": "70",
                     "minutes": "116",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Dhoni b MM Sharma",
+                    "dismissal": "c (wk)Dhoni b MM Sharma",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "14",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Dhoni b Ashwin",
+                    "dismissal": "c (wk)Dhoni b Ashwin",
                     "runs": "50",
                     "balls": "54",
                     "minutes": "71",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Jason Holder",
-                    "dismissal": "c Dhoni b Mohammed Shami",
+                    "dismissal": "c (wk)Dhoni b Mohammed Shami",
                     "runs": "7",
                     "balls": "5",
                     "minutes": "7",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 2 wickets (with 3 balls remaining)"
+    "result": "West Indies won by 2 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Bhuvneshwar Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Mohit Sharma",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Mohammed Shami",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ],
+        "West Indies": [
+            "Veerasammy Permaul",
+            "Jason Holder",
+            "Sunil Narine",
+            "Daren Sammy",
+            "Ravi Rampaul",
+            "Lendl Simmons",
+            "Johnson Charles (wk)",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Kieran Powell",
+            "Dwayne Bravo(c)"
+        ]
+    }
 }

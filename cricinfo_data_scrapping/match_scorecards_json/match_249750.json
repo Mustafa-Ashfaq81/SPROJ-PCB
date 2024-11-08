@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Gilchrist b Symonds",
+                    "dismissal": "c (wk)Gilchrist b Symonds",
                     "runs": "56",
                     "balls": "90",
                     "minutes": "138",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "5",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Michael Yardy",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "4",
                     "balls": "15",
                     "minutes": "24",
@@ -101,8 +101,8 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Chris Read",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "batsman": "Chris Read (wk)",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "5",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Steve Harmison",
-                    "dismissal": "c Gilchrist b Johnson",
+                    "dismissal": "c (wk)Gilchrist b Johnson",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "3",
@@ -238,7 +238,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Mahmood",
                     "runs": "10",
                     "balls": "10",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c Read b Harmison",
+                    "dismissal": "c (wk)Read b Harmison",
                     "runs": "78",
                     "balls": "91",
                     "minutes": "118",
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 79 balls remaining)"
+    "result": "Australia won by 6 wickets (with 79 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Andrew Strauss",
+            "Steve Harmison",
+            "Jamie Dalrymple",
+            "Sajid Mahmood",
+            "Michael Yardy",
+            "Andrew Flintoff(c)",
+            "Ian Bell",
+            "Chris Read (wk)"
+        ],
+        "Australia": [
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Andrew Symonds",
+            "Mitchell Johnson",
+            "Brett Lee",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Bracken",
+            "Glenn McGrath",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke"
+        ]
+    }
 }

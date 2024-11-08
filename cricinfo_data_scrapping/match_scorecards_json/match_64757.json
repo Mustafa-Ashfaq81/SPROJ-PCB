@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Taibu b Streak",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "28",
                     "balls": "31",
                     "minutes": "50",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "run out (A Flower/Taibu)",
+                    "dismissal": "run out (A Flower/ (wk)Taibu)",
                     "runs": "16",
                     "balls": "27",
                     "minutes": "43",
@@ -110,7 +110,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Harbhajan Singh , Ajay Ratra , Zaheer Khan",
+            "did_not_bat": "Harbhajan Singh , Ajay Ratra (wk) , Zaheer Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 52 ( Sourav Ganguly , 10.4 ov ) , 2 - 98 ( VVS Laxman , 19.2 ov ) , 3 - 149 ( Rahul Dravid , 28.5 ov ) , 4 - 157 ( Mohammad Kaif , 30.3 ov ) , 5 - 315 ( Yuvraj Singh , 48.2 ov ) , 6 - 316 ( Vijay Bharadwaj , 48.4 ov )",
             "bowling": [
                 {
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Travis Friend",
-                    "dismissal": "st Ratra b Harbhajan Singh",
+                    "dismissal": "st (wk)Ratra b Harbhajan Singh",
                     "runs": "31",
                     "balls": "34",
                     "minutes": "54",
@@ -287,7 +287,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "run out (Yuvraj Singh/Harbhajan Singh)",
                     "runs": "0",
                     "balls": "1",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "India won by 101 runs"
+    "result": "India won by 101 runs",
+    "playing_xi": {
+        "India": [
+            "Ajay Ratra (wk)",
+            "Rahul Dravid",
+            "Harbhajan Singh",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Vijay Bharadwaj",
+            "Zaheer Khan",
+            "Dinesh Mongia",
+            "Yuvraj Singh",
+            "Sourav Ganguly(c)"
+        ],
+        "Zimbabwe": [
+            "Andy Flower",
+            "Dougie Marillier",
+            "Travis Friend",
+            "Tatenda Taibu (wk)",
+            "Dion Ebrahim",
+            "Gary Brent",
+            "Douglas Hondo",
+            "Grant Flower",
+            "Alistair Campbell",
+            "Heath Streak",
+            "Stuart Carlisle(c)"
+        ]
+    }
 }

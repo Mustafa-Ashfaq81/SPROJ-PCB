@@ -31,7 +31,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Patel b Mills",
                     "runs": "13",
                     "balls": "20",
@@ -223,7 +223,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "28",
                     "balls": "27",
                     "minutes": "39",
@@ -272,7 +272,7 @@
                     "strike_rate": "140.27"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "46",
                     "balls": "39",
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 runs"
+    "result": "Australia won by 8 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Glenn McGrath",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Nathan Bracken",
+            "Cameron White",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ],
+        "New Zealand": [
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "Kyle Mills",
+            "Mark Gillespie",
+            "Jeetan Patel",
+            "Daniel Vettori",
+            "Lou Vincent",
+            "Peter Fulton"
+        ]
+    }
 }

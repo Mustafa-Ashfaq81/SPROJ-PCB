@@ -44,8 +44,8 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Mushfiqur Rahim b Dolar Mahmud",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Dolar Mahmud",
                     "runs": "25",
                     "balls": "27",
                     "minutes": "54",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "29",
                     "balls": "38",
                     "minutes": "60",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c Kamran Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Kamran Akmal b Wahab Riaz",
                     "runs": "9",
                     "balls": "23",
                     "minutes": "40",
@@ -291,7 +291,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Sohail Tanvir b Shahid Afridi",
                     "runs": "15",
                     "balls": "29",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 70 runs"
+    "result": "Pakistan won by 70 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Misbah-ul-Haq",
+            "Mohammad Yousuf",
+            "Fawad Alam",
+            "Umar Gul",
+            "Wahab Riaz",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Sohail Tanvir",
+            "Salman Butt",
+            "Shoaib Malik(c)"
+        ],
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shahriar Nafees",
+            "Tamim Iqbal",
+            "Alok Kapali",
+            "Dolar Mahmud",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Raqibul Hasan"
+        ]
+    }
 }

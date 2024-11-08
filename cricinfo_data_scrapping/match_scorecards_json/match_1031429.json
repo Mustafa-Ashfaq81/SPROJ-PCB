@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c de Kock b Parnell",
+                    "dismissal": "c (wk)de Kock b Parnell",
                     "runs": "8",
                     "balls": "13",
                     "minutes": "10",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "st de Kock b Maharaj",
+                    "dismissal": "st (wk)de Kock b Maharaj",
                     "runs": "51",
                     "balls": "67",
                     "minutes": "112",
@@ -83,7 +83,7 @@
                     "strike_rate": "76.11"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c du Plessis b Rabada",
                     "runs": "4",
                     "balls": "4",
@@ -236,7 +236,7 @@
                     "strike_rate": "101.85"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Ball",
                     "runs": "34",
                     "balls": "39",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Buttler b Ball",
+                    "dismissal": "c (wk)Buttler b Ball",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "11",
@@ -338,5 +338,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 127 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 127 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Toby Roland-Jones",
+            "Jason Roy",
+            "Steven Finn",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Jake Ball",
+            "Alex Hales",
+            "Jonny Bairstow",
+            "David Willey"
+        ],
+        "South Africa": [
+            "Keshav Maharaj",
+            "Quinton de Kock (wk)",
+            "Wayne Parnell",
+            "Kagiso Rabada",
+            "Hashim Amla",
+            "AB de Villiers(c)",
+            "Faf du Plessis",
+            "David Miller",
+            "Chris Morris",
+            "Morne Morkel",
+            "Jean-Paul Duminy"
+        ]
+    }
 }

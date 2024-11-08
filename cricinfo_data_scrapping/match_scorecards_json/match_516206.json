@@ -50,7 +50,7 @@
                     "strike_rate": "70.73"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Smith b Johnson",
                     "runs": "16",
                     "balls": "19",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "10",
@@ -261,7 +261,7 @@
                     "strike_rate": "135.29"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b BAW Mendis",
                     "runs": "12",
                     "balls": "18",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 71 balls remaining)"
+    "result": "Australia won by 7 wickets (with 71 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kumar Sangakkara (wk)",
+            "Ajantha Mendis",
+            "Suranga Lakmal",
+            "Tillakaratne Dilshan(c)",
+            "Dinesh Chandimal",
+            "Suraj Randiv",
+            "Upul Tharanga",
+            "Angelo Mathews",
+            "Jeevan Mendis",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara"
+        ],
+        "Australia": [
+            "Xavier Doherty",
+            "Steven Smith",
+            "Michael Hussey",
+            "Shane Watson",
+            "Michael Clarke(c)",
+            "Mitchell Johnson",
+            "Brett Lee",
+            "Brad Haddin (wk)",
+            "Ricky Ponting",
+            "Doug Bollinger",
+            "David Hussey"
+        ]
+    }
 }

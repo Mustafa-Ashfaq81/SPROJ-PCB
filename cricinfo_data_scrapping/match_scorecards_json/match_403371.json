@@ -43,7 +43,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Samaraweera b Thushara",
                     "runs": "13",
                     "balls": "19",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "18",
                     "balls": "28",
                     "minutes": "43",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Fawad Alam",
-                    "dismissal": "c Sangakkara b Thushara",
+                    "dismissal": "c (wk)Sangakkara b Thushara",
                     "runs": "10",
                     "balls": "24",
                     "minutes": "25",
@@ -260,7 +260,7 @@
                     "strike_rate": "90.90"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "run out (Younis Khan)",
                     "runs": "2",
                     "balls": "17",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 wickets (with 38 balls remaining)"
+    "result": "Sri Lanka won by 6 wickets (with 38 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Nasir Jamshed",
+            "Fawad Alam",
+            "Abdul Razzaq",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Umar Akmal",
+            "Mohammad Amir",
+            "Shahid Afridi"
+        ],
+        "Sri Lanka": [
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Chamara Kapugedera",
+            "Lasith Malinga",
+            "Upul Tharanga",
+            "Kumar Sangakkara(c) (wk)",
+            "Nuwan Kulasekara",
+            "Thilan Samaraweera",
+            "Angelo Mathews",
+            "Thilan Thushara"
+        ]
+    }
 }

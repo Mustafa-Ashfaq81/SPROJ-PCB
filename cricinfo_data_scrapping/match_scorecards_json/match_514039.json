@@ -60,7 +60,7 @@
                     "strike_rate": "61.53"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "not out",
                     "runs": "125",
                     "balls": "98",
@@ -212,7 +212,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan(c)",
-                    "dismissal": "c de Villiers b Tsotsobe",
+                    "dismissal": "c (wk)de Villiers b Tsotsobe",
                     "runs": "41",
                     "balls": "49",
                     "minutes": "88",
@@ -221,7 +221,7 @@
                     "strike_rate": "83.67"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Peterson b Duminy",
                     "runs": "102",
                     "balls": "97",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "c de Villiers b Parnell",
+                    "dismissal": "c (wk)de Villiers b Parnell",
                     "runs": "20",
                     "balls": "35",
                     "minutes": "54",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 wickets (with 1 ball remaining)"
+    "result": "Sri Lanka won by 2 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Colin Ingram",
+            "Morne Morkel",
+            "Alviro Petersen",
+            "Robin Peterson",
+            "Faf du Plessis",
+            "Lonwabo Tsotsobe",
+            "AB de Villiers(c) (wk)",
+            "Jean-Paul Duminy",
+            "Wayne Parnell",
+            "Albie Morkel",
+            "Graeme Smith"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Tillakaratne Dilshan(c)",
+            "Dinesh Chandimal",
+            "Rangana Herath",
+            "Sachithra Senanayake",
+            "Upul Tharanga",
+            "Angelo Mathews",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Nuwan Kulasekara"
+        ]
+    }
 }

@@ -90,7 +90,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "12",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Dimuth Karunaratne",
-                    "dismissal": "c Umar Akmal b Umar Gul",
+                    "dismissal": "c (wk)Umar Akmal b Umar Gul",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "2",
@@ -227,7 +227,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Sohaib Maqsood b Junaid Khan",
                     "runs": "14",
                     "balls": "14",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "c Umar Akmal b Saeed Ajmal",
+                    "dismissal": "c (wk)Umar Akmal b Saeed Ajmal",
                     "runs": "44",
                     "balls": "51",
                     "minutes": "68",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c Umar Akmal b Saeed Ajmal",
+                    "dismissal": "c (wk)Umar Akmal b Saeed Ajmal",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "7",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 113 runs"
+    "result": "Pakistan won by 113 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Umar Akmal (wk)",
+            "Sohaib Maqsood",
+            "Sharjeel Khan",
+            "Umar Gul",
+            "Bilawal Bhatti",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi"
+        ],
+        "Sri Lanka": [
+            "Seekkuge Prasanna",
+            "Thisara Perera",
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Nuwan Kulasekara",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Dimuth Karunaratne"
+        ]
+    }
 }

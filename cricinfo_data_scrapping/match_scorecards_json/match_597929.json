@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "11",
                     "balls": "29",
                     "minutes": "28",
@@ -50,7 +50,7 @@
                     "strike_rate": "78.57"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Vinay Kumar b Ashwin",
                     "runs": "71",
                     "balls": "100",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "1",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Rangana Herath",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "18",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Suranga Lakmal",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "8",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Sangakkara b Eranga",
+                    "dismissal": "c (wk)Sangakkara b Eranga",
                     "runs": "16",
                     "balls": "35",
                     "minutes": "38",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Sangakkara b Eranga",
+                    "dismissal": "c (wk)Sangakkara b Eranga",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "8",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Sangakkara b Lakmal",
+                    "dismissal": "c (wk)Sangakkara b Lakmal",
                     "runs": "32",
                     "balls": "27",
                     "minutes": "51",
@@ -301,7 +301,7 @@
                     "strike_rate": "118.51"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "45",
                     "balls": "52",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "India won by 1 wicket (with 2 balls remaining)"
+    "result": "India won by 1 wicket (with 2 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Lasith Malinga",
+            "Lahiru Thirimanne",
+            "Suranga Lakmal",
+            "Angelo Mathews(c)",
+            "Shaminda Eranga",
+            "Rangana Herath"
+        ],
+        "India": [
+            "Ishant Sharma",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Dinesh Karthik",
+            "Vinay Kumar",
+            "Bhuvneshwar Kumar",
+            "Suresh Raina",
+            "Ravichandran Ashwin"
+        ]
+    }
 }

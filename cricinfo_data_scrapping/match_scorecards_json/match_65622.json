@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Brendon McCullum",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "1",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "st Gilchrist b Warne",
+                    "dismissal": "st (wk)Gilchrist b Warne",
                     "runs": "13",
                     "balls": "19",
                     "minutes": "27",
@@ -102,7 +102,7 @@
                     "strike_rate": "90.47"
                 }
             ],
-            "did_not_bat": "Adam Parore , Dion Nash , Daniel Vettori , Shane Bond",
+            "did_not_bat": "Adam Parore (wk) , Dion Nash , Daniel Vettori , Shane Bond",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Brendon McCullum , 0.3 ov ) , 2 - 128 ( Lou Vincent , 27.5 ov ) , 3 - 152 ( Craig McMillan , 33.4 ov ) , 4 - 176 ( Stephen Fleming , 39.5 ov ) , 5 - 197 ( Nathan Astle , 44.3 ov )",
             "bowling": [
                 {
@@ -199,7 +199,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Bond",
                     "runs": "21",
                     "balls": "19",
@@ -220,7 +220,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting",
-                    "dismissal": "c Parore b Bond",
+                    "dismissal": "c (wk)Parore b Bond",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Shane Warne",
-                    "dismissal": "c Parore b Cairns",
+                    "dismissal": "c (wk)Parore b Cairns",
                     "runs": "22",
                     "balls": "32",
                     "minutes": "54",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 77 runs"
+    "result": "New Zealand won by 77 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum",
+            "Lou Vincent",
+            "Adam Parore (wk)",
+            "Dion Nash",
+            "Nathan Astle",
+            "Stephen Fleming(c)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Craig McMillan",
+            "Chris Cairns",
+            "Shane Bond"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Steve Waugh(c)",
+            "Shane Warne",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting",
+            "Michael Bevan",
+            "Damien Martyn",
+            "Mark Waugh"
+        ]
+    }
 }

@@ -42,8 +42,8 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Kusal Perera",
-                    "dismissal": "c Mohammad Shahzad b Rashid Khan",
+                    "batsman": "Kusal Perera (wk)",
+                    "dismissal": "c (wk)Mohammad Shahzad b Rashid Khan",
                     "runs": "78",
                     "balls": "81",
                     "minutes": "150",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "c Mohammad Shahzad b Hamid Hassan",
+                    "dismissal": "c (wk)Mohammad Shahzad b Hamid Hassan",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "7",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "run out (Hashmatullah Shahidi/Mohammad Shahzad)",
+                    "dismissal": "run out (Hashmatullah Shahidi/ (wk)Mohammad Shahzad)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "12",
@@ -239,7 +239,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Karunaratne b Malinga",
                     "runs": "7",
                     "balls": "12",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi",
-                    "dismissal": "c MDKJ Perera b Pradeep",
+                    "dismissal": "c (wk)MDKJ Perera b Pradeep",
                     "runs": "4",
                     "balls": "17",
                     "minutes": "24",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 34 runs (D/L method)"
+    "result": "Sri Lanka won by 34 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Isuru Udana",
+            "Dhananjaya de Silva",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kusal Perera (wk)",
+            "Dimuth Karunaratne(c)",
+            "Nuwan Pradeep",
+            "Kusal Mendis",
+            "Suranga Lakmal",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ],
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Dawlat Zadran",
+            "Gulbadin Naib(c)",
+            "Hashmatullah Shahidi",
+            "Hazratullah Zazai",
+            "Mujeeb Ur Rahman",
+            "Rashid Khan",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Rahmat Shah",
+            "Hamid Hassan"
+        ]
+    }
 }

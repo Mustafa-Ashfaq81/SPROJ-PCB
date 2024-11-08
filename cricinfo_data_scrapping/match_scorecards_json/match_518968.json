@@ -41,7 +41,7 @@
                     "strike_rate": "103.82"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Herath b Kulasekara",
                     "runs": "64",
                     "balls": "72",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Dan Christian",
-                    "dismissal": "c Sangakkara b Prasad",
+                    "dismissal": "c (wk)Sangakkara b Prasad",
                     "runs": "10",
                     "balls": "8",
                     "minutes": "19",
@@ -199,7 +199,7 @@
             "batting": [
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Wade b Lee",
+                    "dismissal": "c (wk)Wade b Lee",
                     "runs": "14",
                     "balls": "14",
                     "minutes": "20",
@@ -218,7 +218,7 @@
                     "strike_rate": "122.72"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Watson b Lee",
                     "runs": "42",
                     "balls": "49",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "c Wade b DJ Hussey",
+                    "dismissal": "c (wk)Wade b DJ Hussey",
                     "runs": "14",
                     "balls": "30",
                     "minutes": "40",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Australia won by 15 runs"
+    "result": "Australia won by 15 runs",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Michael Clarke(c)",
+            "Brett Lee",
+            "James Pattinson",
+            "Ben Hilfenhaus",
+            "David Warner",
+            "Dan Christian",
+            "Michael Hussey",
+            "Shane Watson"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Dhammika Prasad",
+            "Dinesh Chandimal",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Rangana Herath",
+            "Farveez Maharoof",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Lahiru Thirimanne",
+            "Upul Tharanga"
+        ]
+    }
 }

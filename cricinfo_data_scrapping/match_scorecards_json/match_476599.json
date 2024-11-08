@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c BB McCullum b Vettori",
+                    "dismissal": "c (wk)BB McCullum b Vettori",
                     "runs": "37",
                     "balls": "52",
                     "minutes": "85",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c BB McCullum b Mills",
+                    "dismissal": "c (wk)BB McCullum b Mills",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -83,8 +83,8 @@
                     "strike_rate": "93.80"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "run out (NL McCullum/BB McCullum/Elliott)",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "run out (NL McCullum/ (wk)BB McCullum/Elliott)",
                     "runs": "13",
                     "balls": "25",
                     "minutes": "47",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Shafiul Islam",
-                    "dismissal": "c BB McCullum b Bennett",
+                    "dismissal": "c (wk)BB McCullum b Bennett",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "3",
@@ -254,7 +254,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c & b Shafiul Islam",
                     "runs": "21",
                     "balls": "20",
@@ -454,5 +454,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 9 runs"
+    "result": "Bangladesh won by 9 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Raqibul Hasan",
+            "Imrul Kayes",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Sohrawordi Shuvo",
+            "Shahriar Nafees",
+            "Mahmudullah",
+            "Shakib Al Hasan(c)",
+            "Zunaed Siddique",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "BJ Watling",
+            "Daryl Tuffey",
+            "Kyle Mills",
+            "Aaron Redmond",
+            "Grant Elliott",
+            "Hamish Bennett",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Nathan McCullum",
+            "Daniel Vettori(c)"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Shahid Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shahid Afridi",
                     "runs": "97",
                     "balls": "119",
                     "minutes": "156",
@@ -70,7 +70,7 @@
                     "strike_rate": "92.63"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Shahid Afridi b Mohammad Irfan",
                     "runs": "16",
                     "balls": "12",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Ronchi b Henry",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "12",
                     "balls": "25",
                     "minutes": "34",
@@ -247,8 +247,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
-                    "dismissal": "c Ronchi b Henry",
+                    "batsman": "Sarfaraz Ahmed (wk)",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "26",
                     "balls": "24",
                     "minutes": "41",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Anwar Ali",
-                    "dismissal": "st Ronchi b McCullum",
+                    "dismissal": "st (wk)Ronchi b McCullum",
                     "runs": "18",
                     "balls": "14",
                     "minutes": "13",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 68 runs"
+    "result": "New Zealand won by 68 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Anton Devcich",
+            "Mitchell McClenaghan",
+            "Nathan McCullum",
+            "Adam Milne",
+            "Kane Williamson(c)",
+            "Tom Latham",
+            "Matt Henry",
+            "Dean Brownlie",
+            "Ross Taylor",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "Pakistan": [
+            "Nasir Jamshed",
+            "Haris Sohail",
+            "Anwar Ali",
+            "Zulfiqar Babar",
+            "Asad Shafiq",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Sarfaraz Ahmed (wk)",
+            "Shahid Afridi(c)",
+            "Younis Khan",
+            "Umar Akmal"
+        ]
+    }
 }

@@ -45,8 +45,8 @@
                     "strike_rate": "89.85"
                 },
                 {
-                    "batsman": "Brendan Taylor",
-                    "dismissal": "c Chandimal b Fernando",
+                    "batsman": "Brendan Taylor (wk)",
+                    "dismissal": "c (wk)Chandimal b Fernando",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "7",
@@ -96,7 +96,7 @@
                 },
                 {
                     "batsman": "Andy Blignaut",
-                    "dismissal": "c Chandimal b Randiv",
+                    "dismissal": "c (wk)Chandimal b Randiv",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "3",
@@ -116,7 +116,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya",
-                    "dismissal": "st Chandimal b BMAJ Mendis",
+                    "dismissal": "st (wk)Chandimal b BMAJ Mendis",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -243,7 +243,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "run out (Taylor/Utseya)",
+                    "dismissal": "run out ( (wk)Taylor/Utseya)",
                     "runs": "40",
                     "balls": "37",
                     "minutes": "42",
@@ -262,7 +262,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "10",
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 64 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 64 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Hamilton Masakadza",
+            "Charles Coventry",
+            "Elton Chigumbura(c)",
+            "Ray Price",
+            "Andy Blignaut",
+            "Brendan Taylor (wk)",
+            "Graeme Cremer",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Greg Lamb",
+            "Chris Mpofu"
+        ],
+        "Sri Lanka": [
+            "Suraj Randiv",
+            "Dilhara Fernando",
+            "Jeevan Mendis",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan(c)",
+            "Ajantha Mendis",
+            "Thisara Perera",
+            "Upul Tharanga",
+            "Dinesh Chandimal (wk)",
+            "Chamara Kapugedera",
+            "Chamara Silva"
+        ]
+    }
 }

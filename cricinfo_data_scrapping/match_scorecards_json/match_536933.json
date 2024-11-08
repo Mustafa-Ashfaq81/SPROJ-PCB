@@ -53,7 +53,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "b Roach",
                     "runs": "0",
                     "balls": "1",
@@ -245,7 +245,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Patel b Mithun",
+                    "dismissal": "c (wk)Patel b Mithun",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "24",
@@ -264,7 +264,7 @@
                     "strike_rate": "9.52"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "lbw b Jadeja",
                     "runs": "14",
                     "balls": "20",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "India won by 34 runs"
+    "result": "India won by 34 runs",
+    "playing_xi": {
+        "India": [
+            "Rahul Sharma",
+            "Rohit Sharma",
+            "Gautam Gambhir(c)",
+            "Irfan Pathan",
+            "Abhimanyu Mithun",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Parthiv Patel (wk)",
+            "Ravindra Jadeja",
+            "Manoj Tiwary",
+            "Suresh Raina"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Anthony Martin",
+            "Daren Sammy(c)",
+            "Kieron Pollard",
+            "Andre Russell",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Kieran Powell",
+            "Jason Mohammed",
+            "Sunil Narine",
+            "Kemar Roach"
+        ]
+    }
 }

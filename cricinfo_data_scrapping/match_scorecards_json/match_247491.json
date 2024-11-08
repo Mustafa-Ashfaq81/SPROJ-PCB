@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Gilchrist b Tait",
+                    "dismissal": "c (wk)Gilchrist b Tait",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "3",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Andrew Flintoff",
-                    "dismissal": "st Gilchrist b Hogg",
+                    "dismissal": "st (wk)Gilchrist b Hogg",
                     "runs": "4",
                     "balls": "19",
                     "minutes": "20",
@@ -101,7 +101,7 @@
                     "strike_rate": "58.33"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "c Hodge b McGrath",
                     "runs": "8",
                     "balls": "6",
@@ -238,7 +238,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Collingwood b Flintoff",
                     "runs": "27",
                     "balls": "37",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 16 balls remaining)"
+    "result": "Australia won by 7 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Sajid Mahmood",
+            "Michael Vaughan(c)",
+            "Andrew Flintoff",
+            "Ravi Bopara",
+            "James Anderson",
+            "Andrew Strauss",
+            "Kevin Pietersen"
+        ],
+        "Australia": [
+            "Glenn McGrath",
+            "Shaun Tait",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brad Hodge",
+            "Nathan Bracken",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ]
+    }
 }

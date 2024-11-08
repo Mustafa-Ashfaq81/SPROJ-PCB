@@ -30,7 +30,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Jimmy Maher",
+                    "batsman": "Jimmy Maher (wk)",
                     "dismissal": "c Smith b Banks",
                     "runs": "17",
                     "balls": "33",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Baugh b Dillon",
+                    "dismissal": "c (wk)Baugh b Dillon",
                     "runs": "20",
                     "balls": "14",
                     "minutes": "-",
@@ -198,7 +198,7 @@
                 },
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "c Maher b McGrath",
+                    "dismissal": "c (wk)Maher b McGrath",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "-",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "run out (Bevan/Maher)",
+                    "dismissal": "run out (Bevan/ (wk)Maher)",
                     "runs": "42",
                     "balls": "60",
                     "minutes": "-",
@@ -267,7 +267,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "not out",
                     "runs": "24",
                     "balls": "41",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "Australia won by 25 runs"
+    "result": "Australia won by 25 runs",
+    "playing_xi": {
+        "Australia": [
+            "Jimmy Maher (wk)",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Andy Bichel",
+            "Nathan Hauritz",
+            "Michael Bevan",
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Matthew Hayden",
+            "Glenn McGrath"
+        ],
+        "West Indies": [
+            "Omari Banks",
+            "Marlon Samuels",
+            "Ramnaresh Sarwan",
+            "Wavell Hinds",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Brian Lara(c)",
+            "Devon Smith",
+            "Carlton Baugh (wk)"
+        ]
+    }
 }

@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c Mendis b Mathews",
+                    "dismissal": "c (wk)Mendis b Mathews",
                     "runs": "28",
                     "balls": "25",
                     "minutes": "32",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "run out (Mathews/Mendis)",
+                    "dismissal": "run out (Mathews/ (wk)Mendis)",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "14",
@@ -71,8 +71,8 @@
                     "strike_rate": "58.90"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
-                    "dismissal": "c Mendis b Kumara",
+                    "batsman": "Jos Buttler(c) (wk)",
+                    "dismissal": "c (wk)Mendis b Kumara",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "6",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "run out (Mendis)",
+                    "dismissal": "run out ( (wk)Mendis)",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "7",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Mark Wood",
-                    "dismissal": "st Mendis b Theekshana",
+                    "dismissal": "st (wk)Mendis b Theekshana",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "6",
@@ -258,8 +258,8 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
-                    "dismissal": "c Buttler b Willey",
+                    "batsman": "Kusal Mendis(c) (wk)",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "11",
                     "balls": "12",
                     "minutes": "15",
@@ -368,5 +368,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 146 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 146 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Liam Livingstone",
+            "Jos Buttler(c) (wk)",
+            "Ben Stokes",
+            "Moeen Ali",
+            "Chris Woakes",
+            "Jonny Bairstow",
+            "David Willey",
+            "Dawid Malan",
+            "Mark Wood",
+            "Joe Root",
+            "Adil Rashid"
+        ],
+        "Sri Lanka": [
+            "Kasun Rajitha",
+            "Maheesh Theekshana",
+            "Lahiru Kumara",
+            "Pathum Nissanka",
+            "Kusal Mendis(c) (wk)",
+            "Dhananjaya de Silva",
+            "Dilshan Madushanka",
+            "Angelo Mathews",
+            "Charith Asalanka",
+            "Kusal Perera",
+            "Sadeera Samarawickrama"
+        ]
+    }
 }

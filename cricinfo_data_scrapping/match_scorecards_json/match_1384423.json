@@ -31,7 +31,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Phillips b Southee",
                     "runs": "114",
                     "balls": "116",
@@ -213,7 +213,7 @@
                 },
                 {
                     "batsman": "Will Young",
-                    "dismissal": "c de Kock b Coetzee",
+                    "dismissal": "c (wk)de Kock b Coetzee",
                     "runs": "33",
                     "balls": "37",
                     "minutes": "50",
@@ -242,7 +242,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "c Maharaj b Rabada",
                     "runs": "4",
                     "balls": "15",
@@ -388,5 +388,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 190 runs"
+    "result": "South Africa won by 190 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Marco Jansen",
+            "Keshav Maharaj",
+            "Quinton de Kock (wk)",
+            "Kagiso Rabada",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Temba Bavuma(c)",
+            "Lungi Ngidi",
+            "Rassie van der Dussen",
+            "Gerald Coetzee",
+            "Aiden Markram"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Devon Conway",
+            "Daryl Mitchell",
+            "Tom Latham(c) (wk)",
+            "Trent Boult",
+            "Matt Henry",
+            "Tim Southee",
+            "Will Young",
+            "James Neesham",
+            "Rachin Ravindra",
+            "Glenn Phillips"
+        ]
+    }
 }

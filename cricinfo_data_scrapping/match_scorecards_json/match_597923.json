@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Ramdin b DJ Bravo",
+                    "dismissal": "c (wk)Ramdin b DJ Bravo",
                     "runs": "25",
                     "balls": "43",
                     "minutes": "56",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Ramdin b Narine",
+                    "dismissal": "c (wk)Ramdin b Narine",
                     "runs": "52",
                     "balls": "52",
                     "minutes": "86",
@@ -51,7 +51,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Pollard b Narine",
                     "runs": "17",
                     "balls": "23",
@@ -298,7 +298,7 @@
                     "strike_rate": "72.72"
                 }
             ],
-            "did_not_bat": "Denesh Ramdin , Daren Sammy , Sunil Narine , Ravi Rampaul , Kemar Roach",
+            "did_not_bat": "Denesh Ramdin (wk) , Daren Sammy , Sunil Narine , Ravi Rampaul , Kemar Roach",
             "fall_of_wickets": "Fall of wickets : 1 - 115 ( Johnson Charles , 20.2 ov ) , 2 - 181 ( Chris Gayle , 30.6 ov ) , 3 - 190 ( Darren Bravo , 31.4 ov ) , 4 - 193 ( Kieron Pollard , 33.4 ov )",
             "bowling": [
                 {
@@ -388,5 +388,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 6 wickets (with 73 balls remaining)"
+    "result": "West Indies won by 6 wickets (with 73 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Lasith Malinga",
+            "Lahiru Thirimanne",
+            "Ajantha Mendis",
+            "Angelo Mathews(c)",
+            "Rangana Herath"
+        ],
+        "West Indies": [
+            "Kemar Roach",
+            "Kieron Pollard",
+            "Chris Gayle",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Ravi Rampaul",
+            "Marlon Samuels",
+            "Dwayne Bravo(c)",
+            "Denesh Ramdin (wk)",
+            "Johnson Charles",
+            "Daren Sammy"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Wade b Coulter-Nile",
+                    "dismissal": "c (wk)Wade b Coulter-Nile",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "18",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Manish Pandey",
-                    "dismissal": "c Wade b Coulter-Nile",
+                    "dismissal": "c (wk)Wade b Coulter-Nile",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -83,7 +83,7 @@
                     "strike_rate": "74.07"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Warner b Faulkner",
                     "runs": "79",
                     "balls": "88",
@@ -207,7 +207,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Dhoni b Kuldeep Yadav",
+                    "dismissal": "c (wk)Dhoni b Kuldeep Yadav",
                     "runs": "25",
                     "balls": "28",
                     "minutes": "47",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Travis Head",
-                    "dismissal": "c Dhoni b Pandya",
+                    "dismissal": "c (wk)Dhoni b Pandya",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "6",
@@ -266,8 +266,8 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Matthew Wade",
-                    "dismissal": "st Dhoni b Chahal",
+                    "batsman": "Matthew Wade (wk)",
+                    "dismissal": "st (wk)Dhoni b Chahal",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "17",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "India won by 26 runs (D/L method)"
+    "result": "India won by 26 runs (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Manish Pandey",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ],
+        "Australia": [
+            "James Faulkner",
+            "Hilton Cartwright",
+            "Pat Cummins",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Nathan Coulter-Nile",
+            "Adam Zampa",
+            "Matthew Wade (wk)",
+            "Marcus Stoinis",
+            "Steven Smith(c)",
+            "David Warner"
+        ]
+    }
 }

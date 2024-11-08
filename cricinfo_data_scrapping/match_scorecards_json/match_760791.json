@@ -73,7 +73,7 @@
                     "strike_rate": "121.21"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Panyangara",
                     "runs": "33",
                     "balls": "22",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "20",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Solomon Mire",
-                    "dismissal": "st Mushfiqur Rahim b Arafat Sunny",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Arafat Sunny",
                     "runs": "12",
                     "balls": "33",
                     "minutes": "40",
@@ -308,7 +308,7 @@
                     "strike_rate": "115.21"
                 },
                 {
-                    "batsman": "Peter Moor",
+                    "batsman": "Peter Moor (wk)",
                     "dismissal": "lbw b Rubel Hossain",
                     "runs": "2",
                     "balls": "11",
@@ -466,5 +466,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 124 runs"
+    "result": "Bangladesh won by 124 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Arafat Sunny",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Anamul Haque",
+            "Sabbir Rahman",
+            "Mushfiqur Rahim (wk)",
+            "Mominul Haque"
+        ],
+        "Zimbabwe": [
+            "Peter Moor (wk)",
+            "Elton Chigumbura(c)",
+            "Neville Madziva",
+            "Brendan Taylor",
+            "Regis Chakabva",
+            "Vusi Sibanda",
+            "Tinashe Panyangara",
+            "Timycen Maruma",
+            "Hamilton Masakadza",
+            "Solomon Mire",
+            "Tafadzwa Kamungozi"
+        ]
+    }
 }

@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Prithvi Shaw",
-                    "dismissal": "c Latham b de Grandhomme",
+                    "dismissal": "c (wk)Latham b de Grandhomme",
                     "runs": "20",
                     "balls": "21",
                     "minutes": "37",
@@ -75,7 +75,7 @@
                     "strike_rate": "96.26"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "not out",
                     "runs": "88",
                     "balls": "64",
@@ -213,7 +213,7 @@
                 },
                 {
                     "batsman": "Tom Blundell",
-                    "dismissal": "st Rahul b Kuldeep Yadav",
+                    "dismissal": "st (wk)Rahul b Kuldeep Yadav",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "14",
@@ -232,7 +232,7 @@
                     "strike_rate": "129.76"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "c Mohammed Shami b Kuldeep Yadav",
                     "runs": "69",
                     "balls": "48",
@@ -348,5 +348,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 11 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Shreyas Iyer",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kedar Jadhav",
+            "Mayank Agarwal",
+            "Mohammed Shami",
+            "Prithvi Shaw",
+            "KL Rahul (wk)",
+            "Shardul Thakur",
+            "Virat Kohli(c)"
+        ],
+        "New Zealand": [
+            "Henry Nicholls",
+            "Mitchell Santner",
+            "Colin de Grandhomme",
+            "James Neesham",
+            "Hamish Bennett",
+            "Ish Sodhi",
+            "Ross Taylor",
+            "Tim Southee",
+            "Tom Blundell",
+            "Tom Latham(c) (wk)",
+            "Martin Guptill"
+        ]
+    }
 }

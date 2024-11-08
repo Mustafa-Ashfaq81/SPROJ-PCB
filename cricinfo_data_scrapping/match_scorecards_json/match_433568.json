@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Prior b Bresnan",
+                    "dismissal": "c (wk)Prior b Bresnan",
                     "runs": "35",
                     "balls": "26",
                     "minutes": "34",
@@ -71,7 +71,7 @@
                     "strike_rate": "116.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c sub (LJ Wright) b Bresnan",
                     "runs": "31",
                     "balls": "25",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "run out (Bresnan/Prior)",
+                    "dismissal": "run out (Bresnan/ (wk)Prior)",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "10",
@@ -288,7 +288,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c sub (SK Raina) b Harbhajan Singh",
                     "runs": "4",
                     "balls": "8",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Munaf Patel",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Yusuf Pathan",
+            "Piyush Chawla",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ],
+        "England": [
+            "Jonathan Trott",
+            "James Anderson",
+            "Andrew Strauss(c)",
+            "Ajmal Shahzad",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Graeme Swann",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Matt Prior (wk)",
+            "Ian Bell"
+        ]
+    }
 }

@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Javed Omer",
-                    "dismissal": "c Boucher b Elworthy",
+                    "dismissal": "c (wk)Boucher b Elworthy",
                     "runs": "3",
                     "balls": "14",
                     "minutes": "11",
@@ -95,7 +95,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "c & b Pollock",
                     "runs": "23",
                     "balls": "45",
@@ -292,7 +292,7 @@
                     "strike_rate": "71.42"
                 }
             ],
-            "did_not_bat": "Mark Boucher , Allan Donald , Makhaya Ntini , Robin Peterson , Steve Elworthy , Shaun Pollock (c)",
+            "did_not_bat": "Mark Boucher (wk) , Allan Donald , Makhaya Ntini , Robin Peterson , Steve Elworthy , Shaun Pollock (c)",
             "fall_of_wickets": "Fall of wickets : 1 - 33 ( Herschelle Gibbs , 6.6 ov ) , 2 - 73 ( Graeme Smith , 11.6 ov ) , 3 - 103 ( Martin van Jaarsveld , 15.5 ov )",
             "bowling": [
                 {
@@ -368,5 +368,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 146 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 146 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Alok Kapali",
+            "Khaled Mashud(c) (wk)",
+            "Sanuar Hossain",
+            "Rafikul Khan",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Khaled Mahmud",
+            "Tushar Imran",
+            "Javed Omer",
+            "Anwar Hossain Monir",
+            "Talha Jubair"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Makhaya Ntini",
+            "Allan Donald",
+            "Robin Peterson",
+            "Shaun Pollock (c)",
+            "Graeme Smith",
+            "Martin van Jaarsveld",
+            "Ashwell Prince",
+            "Jonty Rhodes",
+            "Herschelle Gibbs",
+            "Steve Elworthy"
+        ]
+    }
 }

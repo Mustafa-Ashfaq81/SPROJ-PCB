@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Sylvester Joseph",
-                    "dismissal": "run out (Raina/Dhoni)",
+                    "dismissal": "run out (Raina/ (wk)Dhoni)",
                     "runs": "3",
                     "balls": "14",
                     "minutes": "27",
@@ -97,7 +97,7 @@
                 },
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c Dhoni b Harbhajan Singh",
+                    "dismissal": "c (wk)Dhoni b Harbhajan Singh",
                     "runs": "20",
                     "balls": "7",
                     "minutes": "8",
@@ -106,7 +106,7 @@
                     "strike_rate": "285.71"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Nehra",
                     "runs": "24",
                     "balls": "37",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Ramdin b Lawson",
+                    "dismissal": "c (wk)Ramdin b Lawson",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "6",
@@ -293,7 +293,7 @@
                     "strike_rate": "48.27"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "15",
                     "balls": "11",
@@ -379,5 +379,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 84 balls remaining)"
+    "result": "India won by 6 wickets (with 84 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Jermaine Lawson",
+            "Sylvester Joseph",
+            "Runako Morton",
+            "Xavier Marshall",
+            "Daren Powell",
+            "Denesh Ramdin (wk)",
+            "Shivnarine Chanderpaul(c)",
+            "Ricardo Powell",
+            "Dwayne Smith",
+            "Narsingh Deonarine",
+            "Tino Best"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Ashish Nehra",
+            "Venugopal Rao",
+            "Irfan Pathan",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Rahul Dravid(c)",
+            "Harbhajan Singh",
+            "MS Dhoni (wk)",
+            "Suresh Raina"
+        ]
+    }
 }

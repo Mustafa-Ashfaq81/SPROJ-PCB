@@ -64,7 +64,7 @@
                     "strike_rate": "52.63"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Williams b Cremer",
                     "runs": "44",
                     "balls": "59",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Imad Wasim",
-                    "dismissal": "run out (Mutumbami)",
+                    "dismissal": "run out ( (wk)Mutumbami)",
                     "runs": "61",
                     "balls": "61",
                     "minutes": "81",
@@ -271,7 +271,7 @@
                     "strike_rate": "73.33"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "c Mohammad Hafeez b Yasir Shah",
                     "runs": "3",
                     "balls": "5",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 131 runs"
+    "result": "Pakistan won by 131 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Aamer Yamin",
+            "Wahab Riaz",
+            "Yasir Shah",
+            "Mohammad Rizwan",
+            "Sarfaraz Ahmed (wk)",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Shoaib Malik",
+            "Imad Wasim",
+            "Azhar Ali(c)"
+        ],
+        "Zimbabwe": [
+            "Graeme Cremer",
+            "Chamu Chibhabha",
+            "Tinashe Panyangara",
+            "Brian Chari",
+            "Hamilton Masakadza",
+            "Richmond Mutumbami (wk)",
+            "Sean Williams",
+            "Elton Chigumbura(c)",
+            "Sikandar Raza",
+            "John Nyumbu",
+            "Luke Jongwe"
+        ]
+    }
 }

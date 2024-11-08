@@ -82,7 +82,7 @@
                     "strike_rate": "84.61"
                 },
                 {
-                    "batsman": "John Simpson",
+                    "batsman": "John Simpson (wk)",
                     "dismissal": "b Hasan Ali",
                     "runs": "17",
                     "balls": "19",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Craig Overton",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "c Simpson b Gregory",
+                    "dismissal": "c (wk)Simpson b Gregory",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "6",
@@ -269,8 +269,8 @@
                     "strike_rate": "126.66"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
-                    "dismissal": "c Simpson b Mahmood",
+                    "batsman": "Mohammad Rizwan (wk)",
+                    "dismissal": "c (wk)Simpson b Mahmood",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "19",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Sohaib Maqsood",
-                    "dismissal": "c Simpson b Overton",
+                    "dismissal": "c (wk)Simpson b Overton",
                     "runs": "19",
                     "balls": "17",
                     "minutes": "23",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Faheem Ashraf",
-                    "dismissal": "c Simpson b Parkinson",
+                    "dismissal": "c (wk)Simpson b Parkinson",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "8",
@@ -340,7 +340,7 @@
                 },
                 {
                     "batsman": "Haris Rauf",
-                    "dismissal": "c Simpson b Gregory",
+                    "dismissal": "c (wk)Simpson b Gregory",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "6",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "England won by 52 runs"
+    "result": "England won by 52 runs",
+    "playing_xi": {
+        "England": [
+            "Phil Salt",
+            "James Vince",
+            "Dawid Malan",
+            "John Simpson (wk)",
+            "Lewis Gregory",
+            "Brydon Carse",
+            "Craig Overton",
+            "Saqib Mahmood",
+            "Zak Crawley",
+            "Matt Parkinson",
+            "Ben Stokes(c)"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Hasan Ali",
+            "Babar Azam(c)",
+            "Haris Rauf",
+            "Mohammad Rizwan (wk)",
+            "Saud Shakeel",
+            "Faheem Ashraf",
+            "Shaheen Shah Afridi",
+            "Sohaib Maqsood",
+            "Shadab Khan",
+            "Imam-ul-Haq"
+        ]
+    }
 }

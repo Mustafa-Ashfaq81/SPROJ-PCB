@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Nasir Jamshed",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "106",
                     "balls": "124",
                     "minutes": "173",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Azhar Ali",
-                    "dismissal": "run out (Dhoni/Sehwag)",
+                    "dismissal": "run out ( (wk)Dhoni/Sehwag)",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "7",
@@ -90,7 +90,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Sehwag b Jadeja",
                     "runs": "0",
                     "balls": "2",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Kamran Akmal b Junaid Khan",
+                    "dismissal": "c (wk)Kamran Akmal b Junaid Khan",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "12",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "9",
                     "balls": "19",
                     "minutes": "30",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "st Kamran Akmal b Mohammad Hafeez",
+                    "dismissal": "st (wk)Kamran Akmal b Mohammad Hafeez",
                     "runs": "18",
                     "balls": "42",
                     "minutes": "47",
@@ -301,7 +301,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "54",
                     "balls": "89",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "st Kamran Akmal b Shoaib Malik",
+                    "dismissal": "st (wk)Kamran Akmal b Shoaib Malik",
                     "runs": "3",
                     "balls": "22",
                     "minutes": "15",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 85 runs"
+    "result": "Pakistan won by 85 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Umar Gul",
+            "Mohammad Irfan",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Azhar Ali",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Younis Khan"
+        ],
+        "India": [
+            "Ravindra Jadeja",
+            "Ashok Dinda",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

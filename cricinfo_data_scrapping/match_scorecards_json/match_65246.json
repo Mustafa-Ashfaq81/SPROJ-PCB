@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Klaas-Jan van Noortwijk",
-                    "dismissal": "c Stewart b Anderson",
+                    "dismissal": "c (wk)Stewart b Anderson",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Edgar Schiferli",
-                    "dismissal": "st Stewart b Blackwell",
+                    "dismissal": "st (wk)Stewart b Blackwell",
                     "runs": "12",
                     "balls": "16",
                     "minutes": "16",
@@ -134,7 +134,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Jeroen Smits",
+                    "batsman": "Jeroen Smits (wk)",
                     "dismissal": "not out",
                     "runs": "17",
                     "balls": "38",
@@ -287,7 +287,7 @@
                     "strike_rate": "62.50"
                 }
             ],
-            "did_not_bat": "Nasser Hussain (c) , Craig White , Alec Stewart , Andy Caddick , James Anderson",
+            "did_not_bat": "Nasser Hussain (c) , Craig White , Alec Stewart (wk) , Andy Caddick , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 18 ( Marcus Trescothick , 4.1 ov ) , 2 - 107 ( Michael Vaughan , 18.3 ov ) , 3 - 107 ( Andrew Flintoff , 18.5 ov ) , 4 - 126 ( Nick Knight , 20.5 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 160 balls remaining)"
+    "result": "England won by 6 wickets (with 160 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Jeroen Smits (wk)",
+            "Bas Zuiderent",
+            "Edgar Schiferli",
+            "Klaas-Jan van Noortwijk",
+            "Feiko Kloppenburg",
+            "Nick Statham",
+            "Roland Lefebvre(c)",
+            "Adeel Raja",
+            "Daan van Bunge",
+            "Luuk van Troost",
+            "Tim de Leede"
+        ],
+        "England": [
+            "James Anderson",
+            "Nasser Hussain (c)",
+            "Andy Caddick",
+            "Andrew Flintoff",
+            "Nick Knight",
+            "Ian Blackwell",
+            "Michael Vaughan",
+            "Paul Collingwood",
+            "Alec Stewart (wk)",
+            "Craig White",
+            "Marcus Trescothick"
+        ]
+    }
 }

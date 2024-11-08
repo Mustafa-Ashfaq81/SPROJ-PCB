@@ -61,7 +61,7 @@
                     "strike_rate": "59.61"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
+                    "batsman": "Dinesh Karthik (wk)",
                     "dismissal": "b Herath",
                     "runs": "12",
                     "balls": "18",
@@ -198,7 +198,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "lbw b Kumar",
                     "runs": "0",
                     "balls": "1",
@@ -209,7 +209,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "st Karthik b Jadeja",
+                    "dismissal": "st (wk)Karthik b Jadeja",
                     "runs": "26",
                     "balls": "54",
                     "minutes": "58",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "c Karthik b Jadeja",
+                    "dismissal": "c (wk)Karthik b Jadeja",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "18",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Dilhara Lokuhettige",
-                    "dismissal": "c Karthik b I Sharma",
+                    "dismissal": "c (wk)Karthik b I Sharma",
                     "runs": "6",
                     "balls": "22",
                     "minutes": "27",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "India won by 81 runs (D/L method)"
+    "result": "India won by 81 runs (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Ishant Sharma",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Ravichandran Ashwin",
+            "Ravindra Jadeja",
+            "Umesh Yadav",
+            "Bhuvneshwar Kumar",
+            "Suresh Raina",
+            "Virat Kohli(c)",
+            "Murali Vijay",
+            "Dinesh Karthik (wk)"
+        ],
+        "Sri Lanka": [
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Lasith Malinga",
+            "Lahiru Thirimanne",
+            "Angelo Mathews(c)",
+            "Shaminda Eranga",
+            "Dilhara Lokuhettige",
+            "Rangana Herath"
+        ]
+    }
 }

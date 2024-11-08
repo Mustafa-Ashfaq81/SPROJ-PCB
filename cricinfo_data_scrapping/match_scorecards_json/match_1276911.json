@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c de Kock b Pretorius",
+                    "dismissal": "c (wk)de Kock b Pretorius",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "9",
@@ -80,7 +80,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Pretorius b Shamsi",
                     "runs": "19",
                     "balls": "27",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "run out (Klaasen/de Kock)",
+                    "dismissal": "run out (Klaasen/ (wk)de Kock)",
                     "runs": "12",
                     "balls": "12",
                     "minutes": "29",
@@ -223,7 +223,7 @@
             "extras": "4",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Livingstone b Willey",
                     "runs": "5",
                     "balls": "9",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Rassie van der Dussen",
-                    "dismissal": "c Buttler b Topley",
+                    "dismissal": "c (wk)Buttler b Topley",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "run out (Buttler)",
+                    "dismissal": "run out ( (wk)Buttler)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "5",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Heinrich Klaasen",
-                    "dismissal": "st Buttler b Ali",
+                    "dismissal": "st (wk)Buttler b Ali",
                     "runs": "33",
                     "balls": "40",
                     "minutes": "50",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "England won by 118 runs"
+    "result": "England won by 118 runs",
+    "playing_xi": {
+        "England": [
+            "Jonny Bairstow",
+            "Phil Salt",
+            "Moeen Ali",
+            "Sam Curran",
+            "Jason Roy",
+            "Liam Livingstone",
+            "Jos Buttler(c) (wk)",
+            "Adil Rashid",
+            "Reece Topley",
+            "David Willey",
+            "Joe Root"
+        ],
+        "South Africa": [
+            "Rassie van der Dussen",
+            "Keshav Maharaj(c)",
+            "Anrich Nortje",
+            "Janneman Malan",
+            "Aiden Markram",
+            "Lungi Ngidi",
+            "Quinton de Kock (wk)",
+            "Tabraiz Shamsi",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Dwaine Pretorius"
+        ]
+    }
 }

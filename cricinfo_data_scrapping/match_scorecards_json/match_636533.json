@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c Buttler b Tredwell",
+                    "dismissal": "c (wk)Buttler b Tredwell",
                     "runs": "24",
                     "balls": "32",
                     "minutes": "40",
@@ -104,7 +104,7 @@
                     "strike_rate": "169.44"
                 }
             ],
-            "did_not_bat": "Denesh Ramdin , Jason Holder , Sunil Narine , Ravi Rampaul",
+            "did_not_bat": "Denesh Ramdin (wk) , Jason Holder , Sunil Narine , Ravi Rampaul",
             "fall_of_wickets": "Fall of wickets : 1 - 19 ( Kieran Powell , 6.2 ov ) , 2 - 38 ( Dwayne Smith , 10.4 ov ) , 3 - 40 ( Kirk Edwards , 11.4 ov ) , 4 - 45 ( Darren Bravo , 15.4 ov ) , 5 - 153 ( Lendl Simmons , 39.5 ov ) , 6 - 269 ( Daren Sammy , 49.6 ov )",
             "bowling": [
                 {
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Ramdin b Narine",
+                    "dismissal": "c (wk)Ramdin b Narine",
                     "runs": "37",
                     "balls": "48",
                     "minutes": "86",
@@ -251,7 +251,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Holder b DJ Bravo",
                     "runs": "12",
                     "balls": "17",
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 15 runs"
+    "result": "West Indies won by 15 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Lendl Simmons",
+            "Kieran Powell",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Dwayne Smith",
+            "Jason Holder",
+            "Ravi Rampaul",
+            "Dwayne Bravo(c)",
+            "Denesh Ramdin (wk)",
+            "Kirk Edwards",
+            "Daren Sammy"
+        ],
+        "England": [
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "Chris Jordan",
+            "Ben Stokes",
+            "Michael Lumb",
+            "James Tredwell",
+            "Moeen Ali",
+            "Tim Bresnan",
+            "Luke Wright",
+            "Stuart Broad (c)",
+            "Ravi Bopara"
+        ]
+    }
 }

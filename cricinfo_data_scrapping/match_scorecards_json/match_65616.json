@@ -32,7 +32,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Donald b Pollock",
                     "runs": "0",
                     "balls": "1",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "38",
                     "balls": "51",
                     "minutes": "82",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Gary Kirsten",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "22",
                     "balls": "26",
                     "minutes": "42",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "6",
                     "balls": "22",
                     "minutes": "28",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Lance Klusener",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "18",
                     "balls": "17",
                     "minutes": "30",
@@ -299,7 +299,7 @@
                     "strike_rate": "105.88"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Symonds b Lee",
                     "runs": "11",
                     "balls": "15",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 4 wickets (with 9 balls remaining)"
+    "result": "South Africa won by 4 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Steve Waugh(c)",
+            "Shane Warne",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting",
+            "Michael Bevan",
+            "Damien Martyn"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Neil McKenzie",
+            "Nicky Boje",
+            "Jonty Rhodes",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Allan Donald",
+            "Lance Klusener",
+            "Makhaya Ntini"
+        ]
+    }
 }

@@ -62,7 +62,7 @@
                     "strike_rate": "35.29"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "c Sinclair b Holder",
                     "runs": "0",
                     "balls": "3",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "James Neesham",
-                    "dismissal": "c Hope b Sinclair",
+                    "dismissal": "c (wk)Hope b Sinclair",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "13",
@@ -239,7 +239,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Allen b Boult",
                     "runs": "16",
                     "balls": "29",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Kyle Mayers",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "5",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 50 runs (D/L method)"
+    "result": "New Zealand won by 50 runs (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Michael Bracewell",
+            "James Neesham",
+            "Tom Latham(c) (wk)",
+            "Martin Guptill",
+            "Finn Allen",
+            "Trent Boult",
+            "Devon Conway",
+            "Tim Southee",
+            "Daryl Mitchell",
+            "Glenn Phillips"
+        ],
+        "West Indies": [
+            "Yannic Cariah",
+            "Nicholas Pooran(c)",
+            "Shai Hope (wk)",
+            "Brandon King",
+            "Shamarh Brooks",
+            "Keacy Carty",
+            "Jason Holder",
+            "Kyle Mayers",
+            "Kevin Sinclair",
+            "Akeal Hosein",
+            "Alzarri Joseph"
+        ]
+    }
 }

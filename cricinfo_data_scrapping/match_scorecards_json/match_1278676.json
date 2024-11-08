@@ -35,7 +35,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "b Mohammed Siraj",
                     "runs": "8",
                     "balls": "10",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Shamarh Brooks",
-                    "dismissal": "c Pant b Chahal",
+                    "dismissal": "c (wk)Pant b Chahal",
                     "runs": "12",
                     "balls": "26",
                     "minutes": "52",
@@ -96,7 +96,7 @@
                 },
                 {
                     "batsman": "Jason Holder",
-                    "dismissal": "c Pant b Prasidh Krishna",
+                    "dismissal": "c (wk)Pant b Prasidh Krishna",
                     "runs": "57",
                     "balls": "71",
                     "minutes": "93",
@@ -106,7 +106,7 @@
                 },
                 {
                     "batsman": "Akeal Hosein",
-                    "dismissal": "c Pant b Prasidh Krishna",
+                    "dismissal": "c (wk)Pant b Prasidh Krishna",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "7",
@@ -258,7 +258,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "run out (Joseph)",
                     "runs": "11",
                     "balls": "9",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 132 balls remaining)"
+    "result": "India won by 6 wickets (with 132 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Akeal Hosein",
+            "Kieron Pollard(c)",
+            "Shamarh Brooks",
+            "Jason Holder",
+            "Alzarri Joseph",
+            "Shai Hope (wk)",
+            "Kemar Roach",
+            "Nicholas Pooran",
+            "Darren Bravo",
+            "Fabian Allen",
+            "Brandon King"
+        ],
+        "India": [
+            "Mohammed Siraj",
+            "Ishan Kishan",
+            "Shardul Thakur",
+            "Prasidh Krishna",
+            "Deepak Hooda",
+            "Washington Sundar",
+            "Rohit Sharma(c)",
+            "Suryakumar Yadav",
+            "Yuzvendra Chahal",
+            "Virat Kohli",
+            "Rishabh Pant (wk)"
+        ]
+    }
 }

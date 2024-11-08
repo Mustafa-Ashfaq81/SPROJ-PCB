@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Hiral Patel",
-                    "dismissal": "c Ouma b Aga",
+                    "dismissal": "c (wk)Ouma b Aga",
                     "runs": "36",
                     "balls": "37",
                     "minutes": "-",
@@ -104,7 +104,7 @@
                     "strike_rate": "160.00"
                 },
                 {
-                    "batsman": "Hamza Tariq",
+                    "batsman": "Hamza Tariq (wk)",
                     "dismissal": "run out (Mishra)",
                     "runs": "3",
                     "balls": "3",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Irfan Karim",
-                    "dismissal": "c Hamza Tariq b Pathan",
+                    "dismissal": "c (wk)Hamza Tariq b Pathan",
                     "runs": "112",
                     "balls": "137",
                     "minutes": "-",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Alex Obanda",
-                    "dismissal": "c Hamza Tariq b Osinde",
+                    "dismissal": "c (wk)Hamza Tariq b Osinde",
                     "runs": "29",
                     "balls": "26",
                     "minutes": "-",
@@ -261,7 +261,7 @@
                     "strike_rate": "111.53"
                 },
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "lbw b Daesrath",
                     "runs": "34",
                     "balls": "46",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 6 wickets (with 12 balls remaining)"
+    "result": "Kenya won by 6 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Hamza Tariq (wk)",
+            "Rayyan Pathan",
+            "Junaid Siddiqui",
+            "Rizwan Cheema(c)",
+            "Raza-ur-Rehman",
+            "Jimmy Hansra",
+            "Hiral Patel",
+            "Ruvindu Gunasekera",
+            "Usman Limbada",
+            "Damodar Daesrath",
+            "Henry Osinde"
+        ],
+        "Kenya": [
+            "Rakep Patel",
+            "Irfan Karim",
+            "Tanmay Mishra",
+            "Ragheb Aga",
+            "Nehemiah Odhiambo",
+            "Hiren Varaiya",
+            "James Ngoche",
+            "Elijah Otieno",
+            "Alex Obanda",
+            "Morris Ouma (wk)",
+            "Collins Obuya(c)"
+        ]
+    }
 }

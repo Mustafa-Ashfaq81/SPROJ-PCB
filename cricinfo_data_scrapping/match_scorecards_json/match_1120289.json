@@ -8,8 +8,8 @@
         "date": "October 20",
         "toss": "Sri Lanka, elected to bat first",
         "series": [
-            "Pakistan tour of United Arab Emirates",
-            "Sri Lanka tour of United Arab Emirates and Pakistan"
+            "Sri Lanka tour of United Arab Emirates and Pakistan",
+            "Pakistan tour of United Arab Emirates"
         ],
         "season": "2017/18",
         "player_of_the_match": "Babar Azam",
@@ -35,7 +35,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c Fakhar Zaman b Junaid Khan",
                     "runs": "22",
                     "balls": "16",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "run out (sub [Ahmed Shehzad]/Sarfaraz Ahmed)",
+                    "dismissal": "run out (sub [Ahmed Shehzad]/ (wk)Sarfaraz Ahmed)",
                     "runs": "16",
                     "balls": "24",
                     "minutes": "-",
@@ -116,7 +116,7 @@
                 },
                 {
                     "batsman": "Akila Dananjaya",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "18",
                     "balls": "37",
                     "minutes": "-",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "st Dickwella b Dananjaya",
+                    "dismissal": "st (wk)Dickwella b Dananjaya",
                     "runs": "17",
                     "balls": "30",
                     "minutes": "-",
@@ -292,7 +292,7 @@
                     "strike_rate": "85.18"
                 }
             ],
-            "did_not_bat": "Sarfaraz Ahmed (c) , Imad Wasim , Shadab Khan , Hasan Ali , Usman Shinwari , Junaid Khan",
+            "did_not_bat": "Sarfaraz Ahmed (c) (wk) , Imad Wasim , Shadab Khan , Hasan Ali , Usman Shinwari , Junaid Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Imam-ul-Haq , 1.4 ov ) , 2 - 37 ( Fakhar Zaman , 8.5 ov ) , 3 - 58 ( Mohammad Hafeez , 13.6 ov )",
             "bowling": [
                 {
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 66 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 66 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Milinda Siriwardana",
+            "Seekkuge Prasanna",
+            "Suranga Lakmal",
+            "Lahiru Gamage",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Dinesh Chandimal",
+            "Upul Tharanga(c)",
+            "Sadeera Samarawickrama",
+            "Niroshan Dickwella (wk)"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed (c) (wk)",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Imam-ul-Haq",
+            "Imad Wasim",
+            "Fakhar Zaman",
+            "Shoaib Malik",
+            "Shadab Khan",
+            "Usman Shinwari",
+            "Babar Azam",
+            "Hasan Ali"
+        ]
+    }
 }

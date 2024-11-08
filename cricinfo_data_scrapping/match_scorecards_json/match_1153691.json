@@ -70,7 +70,7 @@
                     "strike_rate": "58.53"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c & b Chahal",
                     "runs": "11",
                     "balls": "10",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Lockie Ferguson",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "7",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Latham b Ferguson",
+                    "dismissal": "c (wk)Latham b Ferguson",
                     "runs": "45",
                     "balls": "59",
                     "minutes": "59",
@@ -277,7 +277,7 @@
                     "strike_rate": "56.52"
                 }
             ],
-            "did_not_bat": "Kedar Jadhav , MS Dhoni , Vijay Shankar , Kuldeep Yadav , Yuzvendra Chahal , Bhuvneshwar Kumar , Mohammed Shami",
+            "did_not_bat": "Kedar Jadhav , MS Dhoni (wk) , Vijay Shankar , Kuldeep Yadav , Yuzvendra Chahal , Bhuvneshwar Kumar , Mohammed Shami",
             "fall_of_wickets": "Fall of wickets : 1 - 41 ( Rohit Sharma , 9.2 ov ) , 2 - 132 ( Virat Kohli , 28.4 ov )",
             "bowling": [
                 {
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 85 balls remaining) (D/L method)"
+    "result": "India won by 8 wickets (with 85 balls remaining) (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "Lockie Ferguson",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Doug Bracewell",
+            "Mitchell Santner",
+            "Tim Southee",
+            "Ross Taylor",
+            "Colin Munro",
+            "Henry Nicholls"
+        ],
+        "India": [
+            "Rohit Sharma",
+            "Kuldeep Yadav",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Vijay Shankar",
+            "Kedar Jadhav",
+            "Virat Kohli(c)",
+            "MS Dhoni (wk)",
+            "Mohammed Shami",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ]
+    }
 }

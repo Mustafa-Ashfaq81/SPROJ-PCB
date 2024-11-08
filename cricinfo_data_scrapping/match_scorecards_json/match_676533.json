@@ -30,7 +30,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Johnson Charles",
+                    "batsman": "Johnson Charles (wk)",
                     "dismissal": "b Kumar",
                     "runs": "11",
                     "balls": "20",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Dhoni b Jadeja",
+                    "dismissal": "c (wk)Dhoni b Jadeja",
                     "runs": "13",
                     "balls": "14",
                     "minutes": "11",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Charles b Rampaul",
+                    "dismissal": "c (wk)Charles b Rampaul",
                     "runs": "19",
                     "balls": "18",
                     "minutes": "19",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Charles b DJ Bravo",
+                    "dismissal": "c (wk)Charles b DJ Bravo",
                     "runs": "34",
                     "balls": "43",
                     "minutes": "55",
@@ -247,7 +247,7 @@
                     "strike_rate": "79.06"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "23",
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 23 balls remaining)"
+    "result": "India won by 5 wickets (with 23 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Veerasammy Permaul",
+            "Jason Holder",
+            "Sunil Narine",
+            "Daren Sammy",
+            "Ravi Rampaul",
+            "Lendl Simmons",
+            "Johnson Charles (wk)",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Kieran Powell",
+            "Dwayne Bravo(c)"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Mohit Sharma",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Mohammed Shami",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ]
+    }
 }

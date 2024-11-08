@@ -28,8 +28,8 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Cross b Smith",
+                    "batsman": "Mohammad Shahzad (wk)",
+                    "dismissal": "c (wk)Cross b Smith",
                     "runs": "84",
                     "balls": "91",
                     "minutes": "-",
@@ -225,7 +225,7 @@
                     "strike_rate": "220.00"
                 },
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "c Najibullah Zadran b Mohammad Nabi",
                     "runs": "24",
                     "balls": "21",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Michael Leask",
-                    "dismissal": "st Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "-",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 78 runs (D/L method)"
+    "result": "Afghanistan won by 78 runs (D/L method)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Javed Ahmadi",
+            "Dawlat Zadran",
+            "Rashid Khan",
+            "Noor Ali Zadran",
+            "Shapoor Zadran",
+            "Mirwais Ashraf",
+            "Asghar Afghan(c)",
+            "Mohammad Nabi",
+            "Najibullah Zadran",
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)"
+        ],
+        "Scotland": [
+            "Safyaan Sharif",
+            "Preston Mommsen(c)",
+            "Brad Wheal",
+            "Craig Wallace",
+            "Con de Lange",
+            "Richie Berrington",
+            "Alasdair Evans",
+            "Matthew Cross (wk)",
+            "Michael Leask",
+            "Kyle Coetzer",
+            "Ruaidhri Smith"
+        ]
+    }
 }

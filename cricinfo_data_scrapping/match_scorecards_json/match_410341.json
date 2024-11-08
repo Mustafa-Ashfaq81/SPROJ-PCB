@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "run out (Mushfiqur Rahim/Mohammad Ashraful)",
+                    "dismissal": "run out ( (wk)Mushfiqur Rahim/Mohammad Ashraful)",
                     "runs": "25",
                     "balls": "24",
                     "minutes": "37",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Charles Coventry",
-                    "dismissal": "c Mushfiqur Rahim b Dolar Mahmud",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Dolar Mahmud",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "3",
@@ -90,7 +90,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "lbw b Mehrab Hossain jnr",
                     "runs": "61",
                     "balls": "86",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Graeme Cremer",
-                    "dismissal": "st Mushfiqur Rahim b Naeem Islam",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Naeem Islam",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "13",
@@ -247,8 +247,8 @@
                     "strike_rate": "17.39"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "st Coventry b Price",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "st (wk)Coventry b Price",
                     "runs": "98",
                     "balls": "121",
                     "minutes": "185",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 5 wickets (with 13 balls remaining)"
+    "result": "Bangladesh won by 5 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Malcolm Waller",
+            "Brendan Taylor (wk)",
+            "Vusi Sibanda",
+            "Sean Williams",
+            "Ray Price",
+            "Graeme Cremer",
+            "Hamilton Masakadza",
+            "Ed Rainsford",
+            "Prosper Utseya(c)",
+            "Charles Coventry"
+        ],
+        "Bangladesh": [
+            "Mehrab Hossain jnr",
+            "Mahmudullah",
+            "Syed Rasel",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Shakib Al Hasan(c)",
+            "Raqibul Hasan",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam",
+            "Dolar Mahmud"
+        ]
+    }
 }

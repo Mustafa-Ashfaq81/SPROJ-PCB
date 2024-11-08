@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c NJ O'Brien b Langford-Smith",
+                    "dismissal": "c (wk)NJ O'Brien b Langford-Smith",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "5",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c NJ O'Brien b KJ O'Brien",
+                    "dismissal": "c (wk)NJ O'Brien b KJ O'Brien",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "32",
@@ -91,7 +91,7 @@
                     "strike_rate": "36.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Johnston b Rankin",
                     "runs": "27",
                     "balls": "47",
@@ -268,8 +268,8 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "st Kamran Akmal b Shoaib Malik",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "st (wk)Kamran Akmal b Shoaib Malik",
                     "runs": "72",
                     "balls": "107",
                     "minutes": "139",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 3 wickets (with 32 balls remaining) (D/L method)"
+    "result": "Ireland won by 3 wickets (with 32 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Azhar Mahmood",
+            "Mohammad Yousuf",
+            "Imran Nazir",
+            "Mohammad Sami",
+            "Kamran Akmal (wk)",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Umar Gul",
+            "Younis Khan",
+            "Iftikhar Anjum"
+        ],
+        "Ireland": [
+            "Kyle McCallan",
+            "William Porterfield",
+            "Kevin O'Brien",
+            "Jeremy Bray",
+            "Dave Langford-Smith",
+            "Boyd Rankin",
+            "Eoin Morgan",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Andre Botha",
+            "Andrew White"
+        ]
+    }
 }

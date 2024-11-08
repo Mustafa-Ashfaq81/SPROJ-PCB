@@ -80,7 +80,7 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Warner b Tye",
                     "runs": "21",
                     "balls": "25",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Steven Smith(c)",
-                    "dismissal": "st Buttler b Ali",
+                    "dismissal": "st (wk)Buttler b Ali",
                     "runs": "12",
                     "balls": "23",
                     "minutes": "-",
@@ -297,7 +297,7 @@
                     "strike_rate": "87.17"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "b Curran",
                     "runs": "34",
                     "balls": "44",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "c Buttler b Curran",
+                    "dismissal": "c (wk)Buttler b Curran",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "England won by 12 runs"
+    "result": "England won by 12 runs",
+    "playing_xi": {
+        "England": [
+            "Jake Ball",
+            "Moeen Ali",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "David Willey",
+            "Tom Curran",
+            "Alex Hales",
+            "Adil Rashid"
+        ],
+        "Australia": [
+            "Mitchell Marsh",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Adam Zampa",
+            "Andrew Tye",
+            "Marcus Stoinis",
+            "Steven Smith(c)",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Tim Paine (wk)",
+            "David Warner"
+        ]
+    }
 }

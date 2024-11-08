@@ -52,7 +52,7 @@
                     "strike_rate": "132.30"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Kemp b Langeveldt",
                     "runs": "16",
                     "balls": "24",
@@ -226,7 +226,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "41",
                     "balls": "52",
                     "minutes": "70",
@@ -236,7 +236,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "87",
                     "balls": "94",
                     "minutes": "139",
@@ -246,7 +246,7 @@
                 },
                 {
                     "batsman": "Jacques Rudolph",
-                    "dismissal": "st Sangakkara b Bandara",
+                    "dismissal": "st (wk)Sangakkara b Bandara",
                     "runs": "25",
                     "balls": "48",
                     "minutes": "62",
@@ -265,7 +265,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "30",
                     "balls": "33",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Justin Kemp",
-                    "dismissal": "st Sangakkara b Bandara",
+                    "dismissal": "st (wk)Sangakkara b Bandara",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "11",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 29 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 29 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene",
+            "Jehan Mubarak",
+            "Chaminda Vaas",
+            "Malinga Bandara"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Justin Kemp",
+            "Boeta Dippenaar",
+            "Johan Botha",
+            "Herschelle Gibbs",
+            "Jacques Rudolph",
+            "Ashwell Prince",
+            "Andrew Hall",
+            "Johan van der Wath",
+            "Mark Boucher (wk)"
+        ]
+    }
 }

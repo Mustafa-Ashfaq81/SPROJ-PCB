@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Peter Forrest",
-                    "dismissal": "st Baugh b Samuels",
+                    "dismissal": "st (wk)Baugh b Samuels",
                     "runs": "26",
                     "balls": "64",
                     "minutes": "64",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "David Hussey",
-                    "dismissal": "c Baugh b Roach",
+                    "dismissal": "c (wk)Baugh b Roach",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "11",
@@ -94,7 +94,7 @@
                     "strike_rate": "71.64"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c DJ Bravo b Narine",
                     "runs": "0",
                     "balls": "1",
@@ -291,7 +291,7 @@
                     "strike_rate": "36.36"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "lbw b Doherty",
                     "runs": "0",
                     "balls": "3",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "st Wade b Doherty",
+                    "dismissal": "st (wk)Wade b Doherty",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "8",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Australia won by 64 runs"
+    "result": "Australia won by 64 runs",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Peter Forrest",
+            "Brett Lee",
+            "Shane Watson(c)",
+            "David Warner",
+            "Dan Christian",
+            "George Bailey",
+            "Michael Hussey"
+        ],
+        "West Indies": [
+            "Johnson Charles",
+            "Marlon Samuels",
+            "Daren Sammy(c)",
+            "Kieron Pollard",
+            "Carlton Baugh (wk)",
+            "Andre Russell",
+            "Darren Bravo",
+            "Kieran Powell",
+            "Dwayne Bravo",
+            "Sunil Narine",
+            "Kemar Roach"
+        ]
+    }
 }

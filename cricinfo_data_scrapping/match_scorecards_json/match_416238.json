@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "st Dhoni b Yuvraj Singh",
+                    "dismissal": "st (wk)Dhoni b Yuvraj Singh",
                     "runs": "41",
                     "balls": "59",
                     "minutes": "71",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "c Dhoni b Raina",
+                    "dismissal": "c (wk)Dhoni b Raina",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "5",
@@ -104,7 +104,7 @@
                     "strike_rate": "75.00"
                 }
             ],
-            "did_not_bat": "Graham Manou , Nathan Hauritz , Peter Siddle , Doug Bollinger",
+            "did_not_bat": "Graham Manou (wk) , Nathan Hauritz , Peter Siddle , Doug Bollinger",
             "fall_of_wickets": "Fall of wickets : 1 - 72 ( Shane Watson , 16.2 ov ) , 2 - 128 ( Ricky Ponting , 31.1 ov ) , 3 - 129 ( Cameron White , 32.4 ov ) , 4 - 172 ( Adam Voges , 41.5 ov ) , 5 - 200 ( Moises Henriques , 46.3 ov )",
             "bowling": [
                 {
@@ -255,7 +255,7 @@
                     "strike_rate": "81.25"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "71",
                     "balls": "95",
@@ -365,5 +365,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 10 balls remaining)"
+    "result": "India won by 6 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Adam Voges",
+            "Graham Manou (wk)",
+            "Cameron White",
+            "Peter Siddle",
+            "Doug Bollinger",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Moises Henriques",
+            "Mitchell Johnson"
+        ],
+        "India": [
+            "MS Dhoni(c) (wk)",
+            "Ashish Nehra",
+            "Praveen Kumar",
+            "Suresh Raina",
+            "Ishant Sharma",
+            "Ravindra Jadeja",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ]
+    }
 }

@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Colin Ackermann",
-                    "dismissal": "c Mendis b Rajitha",
+                    "dismissal": "c (wk)Mendis b Rajitha",
                     "runs": "29",
                     "balls": "31",
                     "minutes": "42",
@@ -81,7 +81,7 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "b Theekshana",
                     "runs": "16",
                     "balls": "16",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Roelof van der Merwe",
-                    "dismissal": "c Mendis b Madushanka",
+                    "dismissal": "c (wk)Mendis b Madushanka",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "12",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Paul van Meekeren",
-                    "dismissal": "run out (Mendis/Madushanka)",
+                    "dismissal": "run out ( (wk)Mendis/Madushanka)",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "6",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Edwards b van Meekeren",
+                    "dismissal": "c (wk)Edwards b van Meekeren",
                     "runs": "54",
                     "balls": "52",
                     "minutes": "69",
@@ -258,7 +258,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
+                    "batsman": "Kusal Mendis(c) (wk)",
                     "dismissal": "c van Meekeren b Dutt",
                     "runs": "11",
                     "balls": "17",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 10 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Aryan Dutt",
+            "Teja Nidamanuru",
+            "Scott Edwards(c) (wk)",
+            "Roelof van der Merwe",
+            "Paul van Meekeren",
+            "Max O'Dowd",
+            "Vikramjit Singh",
+            "Sybrand Engelbrecht",
+            "Colin Ackermann",
+            "Bas de Leede",
+            "Logan van Beek"
+        ],
+        "Sri Lanka": [
+            "Kasun Rajitha",
+            "Maheesh Theekshana",
+            "Pathum Nissanka",
+            "Kusal Mendis(c) (wk)",
+            "Chamika Karunaratne",
+            "Dhananjaya de Silva",
+            "Dushan Hemantha",
+            "Dilshan Madushanka",
+            "Charith Asalanka",
+            "Kusal Perera",
+            "Sadeera Samarawickrama"
+        ]
+    }
 }

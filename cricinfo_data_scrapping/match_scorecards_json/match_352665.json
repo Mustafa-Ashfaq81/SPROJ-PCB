@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Ramdin b Bravo",
+                    "dismissal": "c (wk)Ramdin b Bravo",
                     "runs": "62",
                     "balls": "86",
                     "minutes": "143",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "not out",
                     "runs": "26",
                     "balls": "21",
@@ -291,7 +291,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "lbw b Broad",
                     "runs": "11",
                     "balls": "16",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "England won by 1 run (D/L method)"
+    "result": "England won by 1 run (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Kevin Pietersen",
+            "Dimitri Mascarenhas",
+            "James Anderson",
+            "Gareth Batty",
+            "Matt Prior (wk)",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Andrew Strauss(c)",
+            "Owais Shah",
+            "Steve Harmison"
+        ],
+        "West Indies": [
+            "Dwayne Bravo",
+            "Nikita Miller",
+            "Kieron Pollard",
+            "Ramnaresh Sarwan",
+            "Daren Powell",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Chris Gayle(c)",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Daren Sammy"
+        ]
+    }
 }

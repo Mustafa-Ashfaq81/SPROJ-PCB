@@ -32,8 +32,8 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Taibu b Blignaut",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Taibu b Blignaut",
                     "runs": "34",
                     "balls": "44",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c Gilchrist b Williams",
+                    "dismissal": "c (wk)Gilchrist b Williams",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -279,8 +279,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Gilchrist b Symonds",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Gilchrist b Symonds",
                     "runs": "29",
                     "balls": "59",
                     "minutes": "-",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Heath Streak(c)",
-                    "dismissal": "st Gilchrist b Clarke",
+                    "dismissal": "st (wk)Gilchrist b Clarke",
                     "runs": "46",
                     "balls": "92",
                     "minutes": "-",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "Australia won by 99 runs"
+    "result": "Australia won by 99 runs",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Brad Williams",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Michael Clarke",
+            "Damien Martyn"
+        ],
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Mark Vermeulen",
+            "Ray Price",
+            "Stuart Carlisle",
+            "Grant Flower",
+            "Andy Blignaut",
+            "Sean Ervine",
+            "Vusi Sibanda",
+            "Heath Streak(c)",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo"
+        ]
+    }
 }

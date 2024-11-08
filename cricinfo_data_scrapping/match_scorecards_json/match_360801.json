@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Morris Ouma",
-                    "dismissal": "c Boucher b Louw",
+                    "dismissal": "c (wk)Boucher b Louw",
                     "runs": "9",
                     "balls": "11",
                     "minutes": "10",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo(c)",
-                    "dismissal": "c Boucher b Morkel",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "5",
@@ -83,8 +83,8 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "David Obuya",
-                    "dismissal": "c Boucher b Zondeki",
+                    "batsman": "David Obuya (wk)",
+                    "dismissal": "c (wk)Boucher b Zondeki",
                     "runs": "12",
                     "balls": "19",
                     "minutes": "28",
@@ -280,7 +280,7 @@
                     "strike_rate": "52.63"
                 }
             ],
-            "did_not_bat": "Justin Ontong , Mark Boucher , Albie Morkel , Johan Botha (c) , Johann Louw , Monde Zondeki",
+            "did_not_bat": "Justin Ontong , Mark Boucher (wk) , Albie Morkel , Johan Botha (c) , Johann Louw , Monde Zondeki",
             "fall_of_wickets": "Fall of wickets : 1 - 2 ( Herschelle Gibbs , 3.1 ov ) , 2 - 120 ( Hashim Amla , 20.6 ov ) , 3 - 179 ( AB de Villiers , 29.1 ov )",
             "bowling": [
                 {
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 87 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 87 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Hiren Varaiya",
+            "Morris Ouma",
+            "Elijah Otieno",
+            "Peter Ongondo",
+            "Steve Tikolo(c)",
+            "David Obuya (wk)",
+            "Seren Waters",
+            "Jimmy Kamande",
+            "Thomas Odoyo",
+            "Nehemiah Odhiambo",
+            "Alex Obanda"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Johan Botha (c)",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Johann Louw",
+            "Justin Ontong",
+            "Herschelle Gibbs",
+            "Monde Zondeki",
+            "AB de Villiers"
+        ]
+    }
 }

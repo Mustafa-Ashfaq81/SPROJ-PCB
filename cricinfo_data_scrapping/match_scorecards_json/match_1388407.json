@@ -61,7 +61,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Ishan Kishan",
+                    "batsman": "Ishan Kishan (wk)",
                     "dismissal": "c Wellalage b Asalanka",
                     "runs": "33",
                     "balls": "61",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Hardik Pandya",
-                    "dismissal": "c Mendis b Wellalage",
+                    "dismissal": "c (wk)Mendis b Wellalage",
                     "runs": "5",
                     "balls": "18",
                     "minutes": "26",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "c Mendis b Asalanka",
+                    "dismissal": "c (wk)Mendis b Asalanka",
                     "runs": "4",
                     "balls": "19",
                     "minutes": "18",
@@ -253,7 +253,7 @@
             "batting": [
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Rahul b Bumrah",
+                    "dismissal": "c (wk)Rahul b Bumrah",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "11",
@@ -272,7 +272,7 @@
                     "strike_rate": "11.11"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c sub (SA Yadav) b Bumrah",
                     "runs": "15",
                     "balls": "16",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Sadeera Samarawickrama",
-                    "dismissal": "st Rahul b Kuldeep Yadav",
+                    "dismissal": "st (wk)Rahul b Kuldeep Yadav",
                     "runs": "17",
                     "balls": "31",
                     "minutes": "56",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Charith Asalanka",
-                    "dismissal": "c Rahul b Kuldeep Yadav",
+                    "dismissal": "c (wk)Rahul b Kuldeep Yadav",
                     "runs": "22",
                     "balls": "35",
                     "minutes": "59",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "India won by 41 runs"
+    "result": "India won by 41 runs",
+    "playing_xi": {
+        "India": [
+            "KL Rahul",
+            "Ishan Kishan (wk)",
+            "Virat Kohli",
+            "Axar Patel",
+            "Shubman Gill",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Hardik Pandya",
+            "Rohit Sharma(c)"
+        ],
+        "Sri Lanka": [
+            "Kusal Mendis (wk)",
+            "Maheesh Theekshana",
+            "Matheesha Pathirana",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dunith Wellalage",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Kasun Rajitha",
+            "Sadeera Samarawickrama",
+            "Dimuth Karunaratne"
+        ]
+    }
 }

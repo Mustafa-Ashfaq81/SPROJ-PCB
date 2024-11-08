@@ -43,7 +43,7 @@
                     "strike_rate": "109.67"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Junaid Siddique b Mashrafe Mortaza",
                     "runs": "10",
                     "balls": "14",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik(c)",
-                    "dismissal": "st Dhiman Ghosh b Abdur Razzak",
+                    "dismissal": "st (wk)Dhiman Ghosh b Abdur Razzak",
                     "runs": "27",
                     "balls": "27",
                     "minutes": "52",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "9",
                     "balls": "14",
                     "minutes": "28",
@@ -310,7 +310,7 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Dhiman Ghosh",
+                    "batsman": "Dhiman Ghosh (wk)",
                     "dismissal": "b Shahid Afridi",
                     "runs": "29",
                     "balls": "39",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 150 runs"
+    "result": "Pakistan won by 150 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Misbah-ul-Haq",
+            "Mohammad Yousuf",
+            "Wahab Riaz",
+            "Umar Gul",
+            "Mohammad Asif",
+            "Naumanullah",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Salman Butt",
+            "Shoaib Malik(c)"
+        ],
+        "Bangladesh": [
+            "Shakib Al Hasan",
+            "Farhad Reza",
+            "Zunaed Siddique",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Abdur Razzak",
+            "Aftab Ahmed",
+            "Shahadat Hossain",
+            "Dhiman Ghosh (wk)"
+        ]
+    }
 }

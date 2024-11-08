@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Binod Bhandari",
-                    "dismissal": "st Barresi b Rippon",
+                    "dismissal": "st (wk)Barresi b Rippon",
                     "runs": "17",
                     "balls": "14",
                     "minutes": "-",
@@ -89,8 +89,8 @@
                     "strike_rate": "121.42"
                 },
                 {
-                    "batsman": "Raju Rijal",
-                    "dismissal": "c Barresi b Rippon",
+                    "batsman": "Raju Rijal (wk)",
+                    "dismissal": "c (wk)Barresi b Rippon",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -110,7 +110,7 @@
                 },
                 {
                     "batsman": "Basant Regmi",
-                    "dismissal": "c Barresi b Ahsan Malik",
+                    "dismissal": "c (wk)Barresi b Ahsan Malik",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "-",
@@ -251,7 +251,7 @@
             "batting": [
                 {
                     "batsman": "Stephan Myburgh",
-                    "dismissal": "c Rijal b Khadka",
+                    "dismissal": "c (wk)Rijal b Khadka",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "-",
@@ -270,8 +270,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Wesley Barresi",
-                    "dismissal": "c Rijal b Khadka",
+                    "batsman": "Wesley Barresi (wk)",
+                    "dismissal": "c (wk)Rijal b Khadka",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "-",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Max O'Dowd",
-                    "dismissal": "st Rijal b Gauchan",
+                    "dismissal": "st (wk)Rijal b Gauchan",
                     "runs": "35",
                     "balls": "95",
                     "minutes": "-",
@@ -331,7 +331,7 @@
                 },
                 {
                     "batsman": "Paul van Meekeren",
-                    "dismissal": "st Rijal b Regmi",
+                    "dismissal": "st (wk)Rijal b Regmi",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "-",
@@ -450,5 +450,33 @@
             ]
         }
     ],
-    "result": "Nepal won by 19 runs"
+    "result": "Nepal won by 19 runs",
+    "playing_xi": {
+        "Nepal": [
+            "Gyanendra Malla",
+            "Binod Bhandari",
+            "Sandeep Lamichhane",
+            "Basant Regmi",
+            "Sagar Pun",
+            "Sharad Vesawkar",
+            "Paras Khadka(c)",
+            "Anil Mandal",
+            "Sompal Kami",
+            "Shakti Gauchan",
+            "Raju Rijal (wk)"
+        ],
+        "Netherlands": [
+            "Paul van Meekeren",
+            "Michael Rippon",
+            "Stephan Myburgh",
+            "Tim Gruijters",
+            "Ahsan Malik",
+            "Max O'Dowd",
+            "Vivian Kingma",
+            "Wesley Barresi (wk)",
+            "Timm van der Gugten",
+            "Pieter Seelaar(c)",
+            "Roelof van der Merwe"
+        ]
+    }
 }

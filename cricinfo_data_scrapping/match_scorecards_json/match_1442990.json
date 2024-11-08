@@ -53,7 +53,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "lbw b Dube",
                     "runs": "14",
                     "balls": "31",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Shubman Gill",
-                    "dismissal": "c Mendis b Wellalage",
+                    "dismissal": "c (wk)Mendis b Wellalage",
                     "runs": "16",
                     "balls": "35",
                     "minutes": "48",
@@ -294,7 +294,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c Wellalage b Hasaranga",
                     "runs": "31",
                     "balls": "43",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Axar Patel",
-                    "dismissal": "c Mendis b Asalanka",
+                    "dismissal": "c (wk)Mendis b Asalanka",
                     "runs": "33",
                     "balls": "57",
                     "minutes": "66",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Sadeera Samarawickrama",
+            "Avishka Fernando",
+            "Janith Liyanage",
+            "Wanindu Hasaranga",
+            "Akila Dananjaya",
+            "Asitha Fernando",
+            "Kusal Mendis (wk)",
+            "Charith Asalanka(c)",
+            "Mohamed Shiraz",
+            "Pathum Nissanka",
+            "Dunith Wellalage"
+        ],
+        "India": [
+            "Shivam Dube",
+            "Washington Sundar",
+            "Shreyas Iyer",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Axar Patel",
+            "Virat Kohli",
+            "Shubman Gill",
+            "KL Rahul (wk)",
+            "Arshdeep Singh",
+            "Rohit Sharma(c)"
+        ]
+    }
 }

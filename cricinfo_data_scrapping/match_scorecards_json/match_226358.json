@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "2",
                     "balls": "15",
                     "minutes": "18",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "30",
                     "balls": "21",
                     "minutes": "31",
@@ -100,7 +100,7 @@
                     "strike_rate": "73.01"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Botha b Hall",
                     "runs": "14",
                     "balls": "26",
@@ -271,7 +271,7 @@
                     "strike_rate": "51.06"
                 }
             ],
-            "did_not_bat": "Jacques Kallis , Ashwell Prince , Mark Boucher , Justin Kemp , Charl Langeveldt , Shaun Pollock , Johan Botha , Robin Peterson , Albie Morkel",
+            "did_not_bat": "Jacques Kallis , Ashwell Prince , Mark Boucher (wk) , Justin Kemp , Charl Langeveldt , Shaun Pollock , Johan Botha , Robin Peterson , Albie Morkel",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 10 wickets (with 85 balls remaining)"
+    "result": "South Africa won by 10 wickets (with 85 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "RP Singh",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "MS Dhoni (wk)",
+            "Gautam Gambhir",
+            "Ajit Agarkar",
+            "Virender Sehwag",
+            "Yuvraj Singh"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Albie Morkel",
+            "Johan Botha",
+            "Ashwell Prince",
+            "Andrew Hall",
+            "Mark Boucher (wk)",
+            "Robin Peterson"
+        ]
+    }
 }

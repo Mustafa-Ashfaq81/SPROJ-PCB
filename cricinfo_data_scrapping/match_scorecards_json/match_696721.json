@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Sagar Pun",
-                    "dismissal": "c Ferguson b Tanwir Afzal",
+                    "dismissal": "c (wk)Ferguson b Tanwir Afzal",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "12",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Paras Khadka(c)",
-                    "dismissal": "c Ferguson b Irfan Ahmed",
+                    "dismissal": "c (wk)Ferguson b Irfan Ahmed",
                     "runs": "29",
                     "balls": "75",
                     "minutes": "114",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Shakti Gauchan",
-                    "dismissal": "c Ferguson b Aizaz Khan",
+                    "dismissal": "c (wk)Ferguson b Aizaz Khan",
                     "runs": "8",
                     "balls": "28",
                     "minutes": "38",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Sharad Vesawkar",
-                    "dismissal": "c Ferguson b Irfan Ahmed",
+                    "dismissal": "c (wk)Ferguson b Irfan Ahmed",
                     "runs": "4",
                     "balls": "21",
                     "minutes": "30",
@@ -99,7 +99,7 @@
                     "strike_rate": "19.04"
                 },
                 {
-                    "batsman": "Binod Bhandari",
+                    "batsman": "Binod Bhandari (wk)",
                     "dismissal": "b Nadeem Ahmed",
                     "runs": "8",
                     "balls": "9",
@@ -120,7 +120,7 @@
                 },
                 {
                     "batsman": "Sompal Kami",
-                    "dismissal": "c Ferguson b Aizaz Khan",
+                    "dismissal": "c (wk)Ferguson b Aizaz Khan",
                     "runs": "26",
                     "balls": "48",
                     "minutes": "66",
@@ -242,7 +242,7 @@
                     "strike_rate": "52.83"
                 }
             ],
-            "did_not_bat": "Jamie Atkinson , Mark Chapman , Nizakat Khan , Babar Hayat , Tanwir Afzal , Haseeb Amjad , Nadeem Ahmed , Mark Ferguson , Aizaz Khan",
+            "did_not_bat": "Jamie Atkinson , Mark Chapman , Nizakat Khan , Babar Hayat , Tanwir Afzal , Haseeb Amjad , Nadeem Ahmed , Mark Ferguson (wk) , Aizaz Khan",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -332,5 +332,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 10 wickets (with 100 balls remaining)"
+    "result": "Hong Kong won by 10 wickets (with 100 balls remaining)",
+    "playing_xi": {
+        "Nepal": [
+            "Shakti Gauchan",
+            "Sharad Vesawkar",
+            "Avinash Karn",
+            "Paras Khadka(c)",
+            "Sagar Pun",
+            "Prithu Baskota",
+            "Basant Regmi",
+            "Sompal Kami",
+            "Anil Mandal",
+            "Binod Bhandari (wk)",
+            "Gyanendra Malla"
+        ],
+        "Hong Kong": [
+            "Aizaz Khan",
+            "Haseeb Amjad",
+            "Babar Hayat",
+            "Waqas Barkat",
+            "Irfan Ahmed(c)",
+            "Jamie Atkinson",
+            "Mark Chapman",
+            "Tanwir Afzal",
+            "Nizakat Khan",
+            "Nadeem Ahmed",
+            "Mark Ferguson (wk)"
+        ]
+    }
 }

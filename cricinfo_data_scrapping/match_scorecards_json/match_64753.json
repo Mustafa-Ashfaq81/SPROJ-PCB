@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Dinesh Mongia",
-                    "dismissal": "c Taibu b Streak",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "25",
                     "balls": "24",
                     "minutes": "40",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "st Taibu b Marillier",
+                    "dismissal": "st (wk)Taibu b Marillier",
                     "runs": "57",
                     "balls": "70",
                     "minutes": "102",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Ajay Ratra",
+                    "batsman": "Ajay Ratra (wk)",
                     "dismissal": "run out (A Flower/Marillier)",
                     "runs": "6",
                     "balls": "9",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Stuart Carlisle(c)",
-                    "dismissal": "c Ratra b Khan",
+                    "dismissal": "c (wk)Ratra b Khan",
                     "runs": "23",
                     "balls": "27",
                     "minutes": "45",
@@ -273,8 +273,8 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Ratra b Bangar",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Ratra b Bangar",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "27",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 1 wicket (with 2 balls remaining)"
+    "result": "Zimbabwe won by 1 wicket (with 2 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ajay Ratra (wk)",
+            "Rahul Dravid",
+            "Harbhajan Singh",
+            "Sanjay Bangar",
+            "Anil Kumble",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Dinesh Mongia",
+            "Sourav Ganguly(c)"
+        ],
+        "Zimbabwe": [
+            "Andy Flower",
+            "Tatenda Taibu (wk)",
+            "Travis Friend",
+            "Dougie Marillier",
+            "Dion Ebrahim",
+            "Gary Brent",
+            "Grant Flower",
+            "Alistair Campbell",
+            "Heath Streak",
+            "Stuart Carlisle(c)",
+            "Craig Wishart"
+        ]
+    }
 }

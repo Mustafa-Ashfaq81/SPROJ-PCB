@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Imran Nazir",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "2",
@@ -40,7 +40,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "run out (Gibbs)",
                     "runs": "3",
                     "balls": "23",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "21",
                     "balls": "29",
                     "minutes": "54",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Boucher b Kemp",
+                    "dismissal": "c (wk)Boucher b Kemp",
                     "runs": "19",
                     "balls": "36",
                     "minutes": "53",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Azhar Mahmood",
-                    "dismissal": "c Boucher b Kemp",
+                    "dismissal": "c (wk)Boucher b Kemp",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "6",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Naved-ul-Hasan",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "15",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Abdur Rehman",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "0",
                     "balls": "18",
                     "minutes": "21",
@@ -257,7 +257,7 @@
                     "strike_rate": "127.27"
                 }
             ],
-            "did_not_bat": "Herschelle Gibbs , Jacques Kallis , Ashwell Prince , Justin Kemp , Mark Boucher , Shaun Pollock , Andrew Hall , Makhaya Ntini , Charl Langeveldt",
+            "did_not_bat": "Herschelle Gibbs , Jacques Kallis , Ashwell Prince , Justin Kemp , Mark Boucher (wk) , Shaun Pollock , Andrew Hall , Makhaya Ntini , Charl Langeveldt",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -333,5 +333,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 10 wickets (with 216 balls remaining)"
+    "result": "South Africa won by 10 wickets (with 216 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Azhar Mahmood",
+            "Imran Nazir",
+            "Abdur Rehman",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Mohammad Asif",
+            "Younis Khan",
+            "Abdul Razzaq"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Charl Langeveldt",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Makhaya Ntini",
+            "Justin Kemp",
+            "Shaun Pollock",
+            "Ashwell Prince",
+            "Andrew Hall",
+            "Herschelle Gibbs"
+        ]
+    }
 }

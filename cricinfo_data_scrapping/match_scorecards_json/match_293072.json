@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c NJ O'Brien b Cusack",
+                    "dismissal": "c (wk)NJ O'Brien b Cusack",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "4",
@@ -85,7 +85,7 @@
                     "strike_rate": "138.46"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "3",
@@ -207,7 +207,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield",
-                    "dismissal": "c Boucher b Philander",
+                    "dismissal": "c (wk)Boucher b Philander",
                     "runs": "17",
                     "balls": "35",
                     "minutes": "47",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Dom Joyce",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "11",
                     "balls": "19",
                     "minutes": "27",
@@ -246,7 +246,7 @@
                     "strike_rate": "57.89"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "b Philander",
                     "runs": "4",
                     "balls": "5",
@@ -297,7 +297,7 @@
                 },
                 {
                     "batsman": "Kyle McCallan",
-                    "dismissal": "c Boucher b Philander",
+                    "dismissal": "c (wk)Boucher b Philander",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "25",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 42 runs"
+    "result": "South Africa won by 42 runs",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Makhaya Ntini",
+            "Herschelle Gibbs",
+            "Thandi Tshabalala",
+            "Jean-Paul Duminy",
+            "Vernon Philander",
+            "Dale Steyn",
+            "Mark Boucher (wk)",
+            "Morne van Wyk",
+            "Jacques Kallis(c)",
+            "Justin Kemp"
+        ],
+        "Ireland": [
+            "Andrew White",
+            "Kyle McCallan",
+            "Kenny Carroll",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Dom Joyce",
+            "Kevin O'Brien",
+            "William Porterfield",
+            "Thinus Fourie",
+            "Roger Whelan",
+            "Alex Cusack"
+        ]
+    }
 }

@@ -33,8 +33,8 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
-                    "dismissal": "c Billings b Plunkett",
+                    "batsman": "Matthew Cross (wk)",
+                    "dismissal": "c (wk)Billings b Plunkett",
                     "runs": "48",
                     "balls": "39",
                     "minutes": "-",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Kyle Coetzer(c)",
-                    "dismissal": "c Billings b Rashid",
+                    "dismissal": "c (wk)Billings b Rashid",
                     "runs": "58",
                     "balls": "49",
                     "minutes": "-",
@@ -236,7 +236,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Sam Billings",
+                    "batsman": "Sam Billings (wk)",
                     "dismissal": "c Coetzer b Watt",
                     "runs": "12",
                     "balls": "14",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "David Willey",
-                    "dismissal": "c Cross b Evans",
+                    "dismissal": "c (wk)Cross b Evans",
                     "runs": "7",
                     "balls": "4",
                     "minutes": "-",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 6 runs"
+    "result": "Scotland won by 6 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Richie Berrington",
+            "Mark Watt",
+            "Michael Leask",
+            "Safyaan Sharif",
+            "Matthew Cross (wk)",
+            "George Munsey",
+            "Dylan Budge",
+            "Calum MacLeod",
+            "Kyle Coetzer(c)",
+            "Alasdair Evans",
+            "Chris Sole"
+        ],
+        "England": [
+            "Mark Wood",
+            "Moeen Ali",
+            "Jason Roy",
+            "Joe Root",
+            "David Willey",
+            "Liam Plunkett",
+            "Jonny Bairstow",
+            "Sam Billings (wk)",
+            "Adil Rashid",
+            "Alex Hales",
+            "Eoin Morgan(c)"
+        ]
+    }
 }

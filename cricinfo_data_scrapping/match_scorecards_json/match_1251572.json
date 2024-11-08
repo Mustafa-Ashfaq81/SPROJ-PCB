@@ -45,7 +45,7 @@
                     "strike_rate": "82.60"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Babar Azam b Shaheen Shah Afridi",
                     "runs": "20",
                     "balls": "18",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Heinrich Klaasen",
-                    "dismissal": "c Mohammad Rizwan b Faheem Ashraf",
+                    "dismissal": "c (wk)Mohammad Rizwan b Faheem Ashraf",
                     "runs": "1",
                     "balls": "21",
                     "minutes": "32",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "50",
                     "balls": "56",
                     "minutes": "93",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Babar Azam(c)",
-                    "dismissal": "c de Kock b Nortje",
+                    "dismissal": "c (wk)de Kock b Nortje",
                     "runs": "103",
                     "balls": "104",
                     "minutes": "132",
@@ -242,7 +242,7 @@
                     "strike_rate": "99.03"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "c Rabada b Phehlukwayo",
                     "runs": "40",
                     "balls": "52",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Danish Aziz",
-                    "dismissal": "c de Kock b Nortje",
+                    "dismissal": "c (wk)de Kock b Nortje",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "10",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 0 balls remaining)"
+    "result": "Pakistan won by 3 wickets (with 0 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Rassie van der Dussen",
+            "Kagiso Rabada",
+            "Temba Bavuma(c)",
+            "Aiden Markram",
+            "Lungi Ngidi",
+            "Quinton de Kock (wk)",
+            "Tabraiz Shamsi",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Andile Phehlukwayo",
+            "Anrich Nortje"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Asif Ali",
+            "Mohammad Hasnain",
+            "Haris Rauf",
+            "Babar Azam(c)",
+            "Mohammad Rizwan (wk)",
+            "Faheem Ashraf",
+            "Shaheen Shah Afridi",
+            "Shadab Khan",
+            "Imam-ul-Haq",
+            "Danish Aziz"
+        ]
+    }
 }

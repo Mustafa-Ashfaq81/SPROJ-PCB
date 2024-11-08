@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Ramdin b Smith",
+                    "dismissal": "c (wk)Ramdin b Smith",
                     "runs": "67",
                     "balls": "59",
                     "minutes": "87",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "run out (Morton/Ramdin)",
+                    "dismissal": "run out (Morton/ (wk)Ramdin)",
                     "runs": "15",
                     "balls": "10",
                     "minutes": "13",
@@ -83,7 +83,7 @@
                     "strike_rate": "166.66"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Sarwan b Bradshaw",
                     "runs": "21",
                     "balls": "9",
@@ -254,7 +254,7 @@
                     "strike_rate": "70.96"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Styris b Mills",
                     "runs": "10",
                     "balls": "11",
@@ -295,7 +295,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "st McCullum b Astle",
+                    "dismissal": "st (wk)McCullum b Astle",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "9",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "7",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 91 runs"
+    "result": "New Zealand won by 91 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Lou Vincent",
+            "Nathan Astle",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Kyle Mills",
+            "Shane Bond",
+            "Ross Taylor",
+            "Scott Styris",
+            "Peter Fulton",
+            "Daniel Vettori",
+            "Hamish Marshall"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Dwayne Bravo",
+            "Runako Morton",
+            "Daren Ganga",
+            "Dwayne Smith",
+            "Deighton Butler",
+            "Denesh Ramdin (wk)",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Ian Bradshaw",
+            "Shivnarine Chanderpaul(c)"
+        ]
+    }
 }

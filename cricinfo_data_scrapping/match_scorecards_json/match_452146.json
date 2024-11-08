@@ -38,8 +38,8 @@
             "extras": "29",
             "batting": [
                 {
-                    "batsman": "Dinesh Karthik",
-                    "dismissal": "c Taylor b Utseya",
+                    "batsman": "Dinesh Karthik (wk)",
+                    "dismissal": "c (wk)Taylor b Utseya",
                     "runs": "22",
                     "balls": "39",
                     "minutes": "54",
@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Murali Vijay",
-                    "dismissal": "run out (Utseya/Taylor)",
+                    "dismissal": "run out (Utseya/ (wk)Taylor)",
                     "runs": "11",
                     "balls": "24",
                     "minutes": "40",
@@ -69,7 +69,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Taylor b Mpofu",
+                    "dismissal": "c (wk)Taylor b Mpofu",
                     "runs": "114",
                     "balls": "119",
                     "minutes": "135",
@@ -79,7 +79,7 @@
                 },
                 {
                     "batsman": "Suresh Raina(c)",
-                    "dismissal": "c Taylor b Mpofu",
+                    "dismissal": "c (wk)Taylor b Mpofu",
                     "runs": "37",
                     "balls": "53",
                     "minutes": "56",
@@ -229,7 +229,7 @@
                     "strike_rate": "106.97"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "c Yadav b Vinay Kumar",
                     "runs": "81",
                     "balls": "103",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 6 wickets (with 10 balls remaining)"
+    "result": "Zimbabwe won by 6 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina(c)",
+            "Dinesh Karthik (wk)",
+            "Umesh Yadav",
+            "Ravindra Jadeja",
+            "Ashok Dinda",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "Yusuf Pathan",
+            "Vinay Kumar",
+            "Amit Mishra",
+            "Murali Vijay"
+        ],
+        "Zimbabwe": [
+            "Hamilton Masakadza",
+            "Charles Coventry",
+            "Elton Chigumbura(c)",
+            "Ray Price",
+            "Andy Blignaut",
+            "Brendan Taylor (wk)",
+            "Graeme Cremer",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Greg Lamb",
+            "Chris Mpofu"
+        ]
+    }
 }

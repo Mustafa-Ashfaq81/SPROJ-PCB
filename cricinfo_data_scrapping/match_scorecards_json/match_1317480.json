@@ -82,8 +82,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "st Latham b Santner",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "st (wk)Latham b Santner",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "47",
@@ -269,7 +269,7 @@
                     "strike_rate": "29.31"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Finch b Abbott",
                     "runs": "0",
                     "balls": "3",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "Australia won by 113 runs"
+    "result": "Australia won by 113 runs",
+    "playing_xi": {
+        "Australia": [
+            "Marnus Labuschagne",
+            "Mitchell Starc",
+            "Adam Zampa",
+            "Glenn Maxwell",
+            "Sean Abbott",
+            "Steven Smith",
+            "Josh Hazlewood",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "David Warner",
+            "Marcus Stoinis"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Tom Latham (wk)",
+            "Michael Bracewell",
+            "James Neesham",
+            "Kane Williamson(c)",
+            "Martin Guptill",
+            "Trent Boult",
+            "Devon Conway",
+            "Tim Southee",
+            "Daryl Mitchell",
+            "Matt Henry"
+        ]
+    }
 }

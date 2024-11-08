@@ -50,7 +50,7 @@
                     "strike_rate": "81.45"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Tredwell b Ali",
                     "runs": "33",
                     "balls": "50",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "James Taylor",
-                    "dismissal": "c Sangakkara b Lakmal",
+                    "dismissal": "c (wk)Sangakkara b Lakmal",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "8",
@@ -267,7 +267,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Chandimal b Prasanna",
                     "runs": "23",
                     "balls": "23",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "James Tredwell",
-                    "dismissal": "st Sangakkara b Jayawardene",
+                    "dismissal": "st (wk)Sangakkara b Jayawardene",
                     "runs": "17",
                     "balls": "21",
                     "minutes": "20",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 87 runs"
+    "result": "Sri Lanka won by 87 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dilruwan Perera",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Mahela Jayawardene",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Suranga Lakmal",
+            "Angelo Mathews(c)",
+            "Seekkuge Prasanna"
+        ],
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Harry Gurney",
+            "Joe Root",
+            "Eoin Morgan",
+            "James Taylor",
+            "James Tredwell",
+            "Moeen Ali",
+            "Alastair Cook(c)",
+            "Alex Hales",
+            "Chris Jordan"
+        ]
+    }
 }

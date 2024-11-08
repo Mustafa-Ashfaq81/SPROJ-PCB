@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ben Stokes",
-                    "dismissal": "c Wade b Faulkner",
+                    "dismissal": "c (wk)Wade b Faulkner",
                     "runs": "70",
                     "balls": "84",
                     "minutes": "93",
@@ -90,7 +90,7 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Johnson b Faulkner",
                     "runs": "71",
                     "balls": "43",
@@ -247,7 +247,7 @@
                     "strike_rate": "97.29"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Cook b Bopara",
                     "runs": "23",
                     "balls": "42",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "George Bailey(c)",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "11",
                     "balls": "15",
                     "minutes": "22",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "c Buttler b Broad",
+                    "dismissal": "c (wk)Buttler b Broad",
                     "runs": "19",
                     "balls": "16",
                     "minutes": "25",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "26",
                     "balls": "26",
                     "minutes": "39",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "James Faulkner",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "11",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "James Pattinson",
-                    "dismissal": "c Buttler b Bresnan",
+                    "dismissal": "c (wk)Buttler b Bresnan",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "9",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "England won by 57 runs"
+    "result": "England won by 57 runs",
+    "playing_xi": {
+        "England": [
+            "Eoin Morgan",
+            "Chris Jordan",
+            "Ben Stokes",
+            "Stuart Broad",
+            "James Tredwell",
+            "Gary Ballance",
+            "Tim Bresnan",
+            "Alastair Cook(c)",
+            "Jos Buttler (wk)",
+            "Ian Bell",
+            "Ravi Bopara"
+        ],
+        "Australia": [
+            "George Bailey(c)",
+            "Shaun Marsh",
+            "Steven Smith",
+            "Matthew Wade (wk)",
+            "Nathan Coulter-Nile",
+            "Mitchell Johnson",
+            "Glenn Maxwell",
+            "James Faulkner",
+            "Dan Christian",
+            "James Pattinson",
+            "Aaron Finch"
+        ]
+    }
 }

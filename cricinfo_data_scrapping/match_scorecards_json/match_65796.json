@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya(c)",
-                    "dismissal": "c Rashid Latif b Abdul Razzaq",
+                    "dismissal": "c (wk)Rashid Latif b Abdul Razzaq",
                     "runs": "87",
                     "balls": "78",
                     "minutes": "-",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "6",
                     "balls": "14",
                     "minutes": "-",
@@ -82,7 +82,7 @@
                     "strike_rate": "66.27"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "c Yousuf Youhana b Shoaib Akhtar",
                     "runs": "15",
                     "balls": "35",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Kaluwitharana b Zoysa",
+                    "dismissal": "c (wk)Kaluwitharana b Zoysa",
                     "runs": "7",
                     "balls": "16",
                     "minutes": "-",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq",
-                    "dismissal": "st Kaluwitharana b Muralidaran",
+                    "dismissal": "st (wk)Kaluwitharana b Muralidaran",
                     "runs": "37",
                     "balls": "56",
                     "minutes": "-",
@@ -299,7 +299,7 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "c Vaas b Muralidaran",
                     "runs": "41",
                     "balls": "44",
@@ -453,5 +453,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 41 runs"
+    "result": "Sri Lanka won by 41 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Charitha Buddhika",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Romesh Kaluwitharana (wk)",
+            "Russel Arnold",
+            "Sanath Jayasuriya(c)",
+            "Upul Chandana",
+            "Kumar Sangakkara",
+            "Marvan Atapattu"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Waqar Younis(c)",
+            "Saqlain Mushtaq",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Inzamam-ul-Haq",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Shahid Afridi",
+            "Imran Nazir"
+        ]
+    }
 }

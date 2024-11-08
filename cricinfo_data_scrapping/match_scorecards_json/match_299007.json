@@ -40,7 +40,7 @@
                     "strike_rate": "15.38"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Pollock",
                     "runs": "0",
                     "balls": "3",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Kamran Akmal b Abdur Rehman",
+                    "dismissal": "c (wk)Kamran Akmal b Abdur Rehman",
                     "runs": "65",
                     "balls": "96",
                     "minutes": "172",
@@ -287,7 +287,7 @@
                     "strike_rate": "42.10"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c & b Shahid Afridi",
                     "runs": "14",
                     "balls": "23",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Albie Morkel",
-                    "dismissal": "run out (Umar Gul/Kamran Akmal)",
+                    "dismissal": "run out (Umar Gul/ (wk)Kamran Akmal)",
                     "runs": "31",
                     "balls": "28",
                     "minutes": "37",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 25 runs"
+    "result": "Pakistan won by 25 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Abdur Rehman",
+            "Iftikhar Anjum",
+            "Kamran Akmal (wk)",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Misbah-ul-Haq",
+            "Umar Gul",
+            "Imran Nazir",
+            "Sohail Tanvir",
+            "Younis Khan"
+        ],
+        "South Africa": [
+            "Charl Langeveldt",
+            "Justin Kemp",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "AB de Villiers",
+            "Makhaya Ntini",
+            "Shaun Pollock",
+            "Mark Boucher (wk)",
+            "Johan Botha",
+            "Albie Morkel",
+            "Graeme Smith(c)"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "c GO Jones b SP Jones",
+                    "dismissal": "c (wk)GO Jones b SP Jones",
                     "runs": "25",
                     "balls": "54",
                     "minutes": "59",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "run out (sub [GJ Batty]/GO Jones)",
+                    "dismissal": "run out (sub [GJ Batty]/ (wk)GO Jones)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "1",
@@ -93,7 +93,7 @@
                     "strike_rate": "87.50"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "c Anderson b SP Jones",
                     "runs": "24",
                     "balls": "18",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Taibu b Matsikenyeri",
+                    "dismissal": "c (wk)Taibu b Matsikenyeri",
                     "runs": "53",
                     "balls": "63",
                     "minutes": "85",
@@ -260,7 +260,7 @@
                     "strike_rate": "61.11"
                 }
             ],
-            "did_not_bat": "Kevin Pietersen , Paul Collingwood , Geraint Jones , Ashley Giles , Alex Wharf , Simon Jones , James Anderson",
+            "did_not_bat": "Kevin Pietersen , Paul Collingwood , Geraint Jones (wk) , Ashley Giles , Alex Wharf , Simon Jones , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 138 ( Ian Bell , 19.3 ov ) , 2 - 191 ( Vikram Solanki , 33.2 ov )",
             "bowling": [
                 {
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "England won by 8 wickets (with 41 balls remaining)"
+    "result": "England won by 8 wickets (with 41 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Dion Ebrahim",
+            "Mark Vermeulen",
+            "Prosper Utseya",
+            "Tinashe Panyangara",
+            "Chris Mpofu",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Tatenda Taibu(c) (wk)",
+            "Hamilton Masakadza"
+        ],
+        "England": [
+            "James Anderson",
+            "Michael Vaughan(c)",
+            "Simon Jones",
+            "Ian Bell",
+            "Alex Wharf",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Ashley Giles",
+            "Vikram Solanki"
+        ]
+    }
 }

@@ -29,7 +29,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Christopher Carter",
+                    "batsman": "Christopher Carter (wk)",
                     "dismissal": "c Obuya b Oluoch",
                     "runs": "41",
                     "balls": "63",
@@ -186,7 +186,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "b Anshuman Rath",
                     "runs": "33",
                     "balls": "40",
@@ -197,7 +197,7 @@
                 },
                 {
                     "batsman": "Alex Obanda",
-                    "dismissal": "st Carter b Nadeem Ahmed",
+                    "dismissal": "st (wk)Carter b Nadeem Ahmed",
                     "runs": "39",
                     "balls": "38",
                     "minutes": "-",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 39 runs (D/L method)"
+    "result": "Hong Kong won by 39 runs (D/L method)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Tanveer Ahmed",
+            "Anshy Rath",
+            "Aizaz Khan",
+            "Shahid Wasif",
+            "Tanwir Afzal",
+            "Babar Hayat(c)",
+            "Ehsan Khan",
+            "Nadeem Ahmed",
+            "Nizakat Khan",
+            "Kinchit Shah",
+            "Christopher Carter (wk)"
+        ],
+        "Kenya": [
+            "Collins Obuya",
+            "Nehemiah Odhiambo",
+            "Dhiren Gondaria",
+            "Gurdeep Singh",
+            "Nelson Odhiambo",
+            "Lucas Oluoch",
+            "Shem Ngoche",
+            "Rakep Patel(c)",
+            "Irfan Karim (wk)",
+            "Narendra Kalyan",
+            "Alex Obanda"
+        ]
+    }
 }

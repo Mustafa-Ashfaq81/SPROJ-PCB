@@ -91,8 +91,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Ramdin b Narine",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Ramdin b Narine",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "12",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Kamran Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Irfan",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "8",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "st Kamran Akmal b Mohammad Hafeez",
+                    "dismissal": "st (wk)Kamran Akmal b Mohammad Hafeez",
                     "runs": "30",
                     "balls": "57",
                     "minutes": "93",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Kamran Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Kamran Akmal b Wahab Riaz",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "4",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Kieron Pollard",
-                    "dismissal": "c Kamran Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Kamran Akmal b Wahab Riaz",
                     "runs": "30",
                     "balls": "58",
                     "minutes": "78",
@@ -308,7 +308,7 @@
                     "strike_rate": "52.77"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "14",
@@ -319,7 +319,7 @@
                 },
                 {
                     "batsman": "Sunil Narine",
-                    "dismissal": "c Kamran Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Irfan",
                     "runs": "11",
                     "balls": "8",
                     "minutes": "14",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 2 wickets (with 56 balls remaining)"
+    "result": "West Indies won by 2 wickets (with 56 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Wahab Riaz",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Mohammad Irfan",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Imran Farhat"
+        ],
+        "West Indies": [
+            "Kieron Pollard",
+            "Dwayne Bravo(c)",
+            "Kemar Roach",
+            "Sunil Narine",
+            "Darren Bravo",
+            "Ravi Rampaul",
+            "Denesh Ramdin (wk)",
+            "Johnson Charles",
+            "Ramnaresh Sarwan",
+            "Marlon Samuels",
+            "Chris Gayle"
+        ]
+    }
 }

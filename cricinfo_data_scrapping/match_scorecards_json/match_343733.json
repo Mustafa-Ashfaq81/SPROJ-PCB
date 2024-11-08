@@ -43,7 +43,7 @@
                     "strike_rate": "35.13"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Khan",
                     "runs": "2",
                     "balls": "10",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Chamara Kapugedera",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Irfan Pathan",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "11",
@@ -280,7 +280,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Fernando",
                     "runs": "39",
                     "balls": "54",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "India won by 3 wickets (with 62 balls remaining)"
+    "result": "India won by 3 wickets (with 62 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chamara Kapugedera",
+            "Chamara Silva",
+            "Nuwan Kulasekara",
+            "Ajantha Mendis",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene(c)",
+            "Dilhara Fernando",
+            "Thilan Thushara"
+        ],
+        "India": [
+            "Suresh Raina",
+            "MS Dhoni(c) (wk)",
+            "Zaheer Khan",
+            "Yuvraj Singh",
+            "Irfan Pathan",
+            "Virat Kohli",
+            "Praveen Kumar",
+            "S Badrinath",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "Munaf Patel"
+        ]
+    }
 }

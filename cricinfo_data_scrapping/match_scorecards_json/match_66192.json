@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c Boucher b Donald",
+                    "dismissal": "c (wk)Boucher b Donald",
                     "runs": "22",
                     "balls": "33",
                     "minutes": "51",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "run out (Boucher/Rhodes)",
+                    "dismissal": "run out ( (wk)Boucher/Rhodes)",
                     "runs": "16",
                     "balls": "29",
                     "minutes": "39",
@@ -73,7 +73,7 @@
                     "strike_rate": "55.17"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "lbw b Klusener",
                     "runs": "49",
                     "balls": "67",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Dravid b Sehwag",
+                    "dismissal": "c (wk)Dravid b Sehwag",
                     "runs": "97",
                     "balls": "133",
                     "minutes": "201",
@@ -290,7 +290,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Yuvraj Singh b Sehwag",
                     "runs": "10",
                     "balls": "16",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "India won by 10 runs"
+    "result": "India won by 10 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Ashish Nehra",
+            "VVS Laxman",
+            "Rahul Dravid (wk)",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)",
+            "Zaheer Khan",
+            "Harbhajan Singh",
+            "Mohammad Kaif"
+        ],
+        "South Africa": [
+            "Lance Klusener",
+            "Boeta Dippenaar",
+            "Jonty Rhodes",
+            "Shaun Pollock(c)",
+            "Allan Donald",
+            "Jacques Kallis",
+            "Graeme Smith",
+            "Makhaya Ntini",
+            "Robin Peterson",
+            "Mark Boucher (wk)",
+            "Herschelle Gibbs"
+        ]
+    }
 }

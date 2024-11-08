@@ -30,7 +30,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
+                    "batsman": "Kennedy Otieno (wk)",
                     "dismissal": "lbw b Syed Rasel",
                     "runs": "0",
                     "balls": "1",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Thomas Odoyo",
-                    "dismissal": "c Khaled Mashud b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Khaled Mashud b Mashrafe Mortaza",
                     "runs": "29",
                     "balls": "59",
                     "minutes": "-",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c Otieno b Odoyo",
+                    "dismissal": "c (wk)Otieno b Odoyo",
                     "runs": "18",
                     "balls": "22",
                     "minutes": "-",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Tushar Imran",
-                    "dismissal": "run out (Otieno)",
+                    "dismissal": "run out ( (wk)Otieno)",
                     "runs": "2",
                     "balls": "13",
                     "minutes": "-",
@@ -297,7 +297,7 @@
                     "strike_rate": "85.41"
                 }
             ],
-            "did_not_bat": "Khaled Mashud (c) , Mohammad Rafique , Mashrafe Mortaza , Abdur Razzak , Syed Rasel",
+            "did_not_bat": "Khaled Mashud (c) (wk) , Mohammad Rafique , Mashrafe Mortaza , Abdur Razzak , Syed Rasel",
             "fall_of_wickets": "Fall of wickets : 1 - 38 ( Shahriar Nafees , 6.3 ov ) , 2 - 43 ( Aftab Ahmed , 7.6 ov ) , 3 - 45 ( Mohammad Ashraful , 9.1 ov ) , 4 - 55 ( Tushar Imran , 12.5 ov )",
             "bowling": [
                 {
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 138 balls remaining)"
+    "result": "Bangladesh won by 6 wickets (with 138 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Nehemiah Odhiambo",
+            "Morris Ouma",
+            "Tanmay Mishra",
+            "Peter Ongondo",
+            "Malhar Patel",
+            "Kennedy Otieno (wk)",
+            "Brijal Patel",
+            "Collins Obuya",
+            "Steve Tikolo(c)",
+            "Josephat Ababu",
+            "Thomas Odoyo"
+        ],
+        "Bangladesh": [
+            "Tushar Imran",
+            "Aftab Ahmed",
+            "Farhad Reza",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Khaled Mashud (c) (wk)",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique"
+        ]
+    }
 }

@@ -110,7 +110,7 @@
                     "strike_rate": "73.33"
                 },
                 {
-                    "batsman": "James Foster",
+                    "batsman": "James Foster (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "3",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Dinesh Mongia",
-                    "dismissal": "run out (Hoggard/Foster)",
+                    "dismissal": "run out (Hoggard/ (wk)Foster)",
                     "runs": "49",
                     "balls": "82",
                     "minutes": "127",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "run out (Collingwood/Foster)",
+                    "dismissal": "run out (Collingwood/ (wk)Foster)",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "10",
@@ -291,7 +291,7 @@
                     "strike_rate": "76.47"
                 },
                 {
-                    "batsman": "Ajay Ratra",
+                    "batsman": "Ajay Ratra (wk)",
                     "dismissal": "lbw b Flintoff",
                     "runs": "30",
                     "balls": "40",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Ajit Agarkar",
-                    "dismissal": "c Foster b Gough",
+                    "dismissal": "c (wk)Foster b Gough",
                     "runs": "29",
                     "balls": "26",
                     "minutes": "65",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "England won by 16 runs"
+    "result": "England won by 16 runs",
+    "playing_xi": {
+        "England": [
+            "Matthew Hoggard",
+            "Darren Gough",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Ben Hollioake",
+            "Nasser Hussain(c)",
+            "Michael Vaughan",
+            "Marcus Trescothick",
+            "Andrew Flintoff",
+            "Jeremy Snape",
+            "James Foster (wk)"
+        ],
+        "India": [
+            "Hemang Badani",
+            "Ajay Ratra (wk)",
+            "Harbhajan Singh",
+            "Sachin Tendulkar",
+            "Anil Kumble",
+            "VVS Laxman",
+            "Ajit Agarkar",
+            "Javagal Srinath",
+            "Dinesh Mongia",
+            "Virender Sehwag",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Jones b Ali",
+                    "dismissal": "c (wk)Jones b Ali",
                     "runs": "25",
                     "balls": "27",
                     "minutes": "41",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "run out (Jones)",
+                    "dismissal": "run out ( (wk)Jones)",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "10",
@@ -100,7 +100,7 @@
                     "strike_rate": "65.11"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Collingwood b Plunkett",
                     "runs": "20",
                     "balls": "28",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "1",
@@ -297,7 +297,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "b Harbhajan Singh",
                     "runs": "0",
                     "balls": "10",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Liam Plunkett",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "14",
                     "balls": "31",
                     "minutes": "36",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "India won by 39 runs"
+    "result": "India won by 39 runs",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Harbhajan Singh",
+            "RP Singh",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "MS Dhoni (wk)",
+            "Gautam Gambhir",
+            "Sreesanth",
+            "Virender Sehwag",
+            "Suresh Raina",
+            "Yuvraj Singh"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Owais Shah",
+            "Andrew Flintoff(c)",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "James Anderson",
+            "Andrew Strauss",
+            "Geraint Jones (wk)",
+            "Kabir Ali",
+            "Ian Blackwell",
+            "Matt Prior"
+        ]
+    }
 }

@@ -28,7 +28,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Ewald Steenkamp",
+                    "batsman": "Ewald Steenkamp (wk)",
                     "dismissal": "c Usman Limbada b Soraine",
                     "runs": "3",
                     "balls": "15",
@@ -39,7 +39,7 @@
                 },
                 {
                     "batsman": "Ian Opperman",
-                    "dismissal": "c Bhatti b Rizwan Cheema",
+                    "dismissal": "c (wk)Bhatti b Rizwan Cheema",
                     "runs": "33",
                     "balls": "51",
                     "minutes": "-",
@@ -69,7 +69,7 @@
                 },
                 {
                     "batsman": "Gerrie Snyman",
-                    "dismissal": "c Bhatti b Junaid Siddiqui",
+                    "dismissal": "c (wk)Bhatti b Junaid Siddiqui",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "-",
@@ -329,7 +329,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Rustam Bhatti",
+                    "batsman": "Rustam Bhatti (wk)",
                     "dismissal": "c & b Burger",
                     "runs": "23",
                     "balls": "44",
@@ -463,5 +463,33 @@
             ]
         }
     ],
-    "result": "Namibia won by 21 runs"
+    "result": "Namibia won by 21 runs",
+    "playing_xi": {
+        "Namibia": [
+            "Craig Williams",
+            "Louis Klazinga",
+            "Raymond van Schoor",
+            "Louis van der Westhuizen",
+            "Sarel Burger(c)",
+            "Gerrie Snyman",
+            "Bernard Scholtz",
+            "Christi Viljoen",
+            "Ian Opperman",
+            "Ewald Steenkamp (wk)",
+            "Nicolaas Scholtz"
+        ],
+        "Canada": [
+            "Rustam Bhatti (wk)",
+            "Durand Soraine",
+            "Junaid Siddiqui",
+            "Tyson Gordon",
+            "Rizwan Cheema(c)",
+            "Jimmy Hansra",
+            "Hiral Patel",
+            "Ruvindu Gunasekera",
+            "Nitish Kumar",
+            "Usman Limbada",
+            "Henry Osinde"
+        ]
+    }
 }

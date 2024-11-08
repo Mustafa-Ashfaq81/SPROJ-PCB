@@ -61,8 +61,8 @@
                     "strike_rate": "38.70"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Boucher b Hall",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "28",
                     "balls": "38",
                     "minutes": "50",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "50",
                     "balls": "73",
                     "minutes": "99",
@@ -253,7 +253,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "59",
                     "balls": "65",
                     "minutes": "79",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "86",
                     "balls": "110",
                     "minutes": "187",
@@ -292,7 +292,7 @@
                     "strike_rate": "60.78"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "lbw b Muralidaran",
                     "runs": "0",
                     "balls": "1",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Justin Kemp",
-                    "dismissal": "st Sangakkara b Jayasuriya",
+                    "dismissal": "st (wk)Sangakkara b Jayasuriya",
                     "runs": "5",
                     "balls": "16",
                     "minutes": "23",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 1 wicket (with 10 balls remaining)"
+    "result": "South Africa won by 1 wicket (with 10 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene(c)",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Upul Tharanga",
+            "Chamara Silva"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Robin Peterson",
+            "Andrew Hall"
+        ]
+    }
 }

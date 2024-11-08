@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "17",
                     "balls": "28",
                     "minutes": "41",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik(c)",
-                    "dismissal": "run out (Steyn/Pretorius/de Kock)",
+                    "dismissal": "run out (Steyn/Pretorius/ (wk)de Kock)",
                     "runs": "31",
                     "balls": "44",
                     "minutes": "81",
@@ -80,8 +80,8 @@
                     "strike_rate": "70.45"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
-                    "dismissal": "c de Kock b Pretorius",
+                    "batsman": "Mohammad Rizwan (wk)",
+                    "dismissal": "c (wk)de Kock b Pretorius",
                     "runs": "10",
                     "balls": "30",
                     "minutes": "36",
@@ -227,7 +227,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c sub (Hasan Ali) b Usman Shinwari",
                     "runs": "83",
                     "balls": "58",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Mohammad Rizwan b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Mohammad Rizwan b Shaheen Shah Afridi",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "30",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 60 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 60 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shoaib Malik(c)",
+            "Imad Wasim",
+            "Fakhar Zaman",
+            "Mohammad Rizwan (wk)",
+            "Shaheen Shah Afridi",
+            "Shadab Khan",
+            "Mohammad Amir",
+            "Usman Shinwari",
+            "Babar Azam",
+            "Imam-ul-Haq",
+            "Mohammad Hafeez"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Dwaine Pretorius",
+            "Dale Steyn",
+            "Imran Tahir",
+            "Wiaan Mulder",
+            "Kagiso Rabada",
+            "Rassie van der Dussen",
+            "Quinton de Kock (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)",
+            "Hashim Amla"
+        ]
+    }
 }

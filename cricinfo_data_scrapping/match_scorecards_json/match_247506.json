@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Gilchrist b Tait",
+                    "dismissal": "c (wk)Gilchrist b Tait",
                     "runs": "15",
                     "balls": "34",
                     "minutes": "39",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Gilchrist b Tait",
+                    "dismissal": "c (wk)Gilchrist b Tait",
                     "runs": "39",
                     "balls": "49",
                     "minutes": "77",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Ashwell Prince",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Hayden b McGrath",
                     "runs": "0",
                     "balls": "1",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Andrew Hall",
-                    "dismissal": "c Gilchrist b Tait",
+                    "dismissal": "c (wk)Gilchrist b Tait",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "14",
@@ -223,7 +223,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Langeveldt",
                     "runs": "1",
                     "balls": "5",
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 111 balls remaining)"
+    "result": "Australia won by 7 wickets (with 111 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Andrew Hall"
+        ],
+        "Australia": [
+            "Shane Watson",
+            "Glenn McGrath",
+            "Shaun Tait",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Nathan Bracken",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ]
+    }
 }

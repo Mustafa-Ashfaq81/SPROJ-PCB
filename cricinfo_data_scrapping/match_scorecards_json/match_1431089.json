@@ -31,7 +31,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Ryan Rickelton",
+                    "batsman": "Ryan Rickelton (wk)",
                     "dismissal": "c & b Campher",
                     "runs": "40",
                     "balls": "39",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Kyle Verreynne",
-                    "dismissal": "st Doheny b McBrine",
+                    "dismissal": "st (wk)Doheny b McBrine",
                     "runs": "67",
                     "balls": "64",
                     "minutes": "95",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Curtis Campher",
-                    "dismissal": "c Rickelton b Williams",
+                    "dismissal": "c (wk)Rickelton b Williams",
                     "runs": "17",
                     "balls": "14",
                     "minutes": "31",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Harry Tector",
-                    "dismissal": "c Rickelton b Baartman",
+                    "dismissal": "c (wk)Rickelton b Baartman",
                     "runs": "20",
                     "balls": "28",
                     "minutes": "40",
@@ -252,7 +252,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Stephen Doheny",
+                    "batsman": "Stephen Doheny (wk)",
                     "dismissal": "lbw b Williams",
                     "runs": "0",
                     "balls": "1",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 174 runs"
+    "result": "South Africa won by 174 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Ryan Rickelton (wk)",
+            "Lungi Ngidi",
+            "Bjorn Fortuin",
+            "Temba Bavuma(c)",
+            "Rassie van der Dussen",
+            "Wiaan Mulder",
+            "Ottneil Baartman",
+            "Andile Phehlukwayo",
+            "Lizaad Williams",
+            "Kyle Verreynne",
+            "Tristan Stubbs"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Andy Balbirnie",
+            "Andy McBrine",
+            "Paul Stirling(c)",
+            "Harry Tector",
+            "Graham Hume",
+            "Curtis Campher",
+            "Mark Adair",
+            "Gavin Hoey",
+            "Craig Young",
+            "Stephen Doheny (wk)"
+        ]
+    }
 }

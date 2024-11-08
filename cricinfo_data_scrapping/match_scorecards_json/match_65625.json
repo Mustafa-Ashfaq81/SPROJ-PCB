@@ -82,7 +82,7 @@
                     "strike_rate": "79.25"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Astle b Harris",
                     "runs": "58",
                     "balls": "74",
@@ -214,7 +214,7 @@
             "batting": [
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Boucher b Donald",
+                    "dismissal": "c (wk)Boucher b Donald",
                     "runs": "22",
                     "balls": "43",
                     "minutes": "58",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Andre Adams",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "17",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "27",
                     "balls": "37",
                     "minutes": "51",
@@ -293,7 +293,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Adam Parore",
+                    "batsman": "Adam Parore (wk)",
                     "dismissal": "not out",
                     "runs": "36",
                     "balls": "67",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 67 runs"
+    "result": "South Africa won by 67 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Neil McKenzie",
+            "Nicky Boje",
+            "Jonty Rhodes",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Allan Donald",
+            "Makhaya Ntini",
+            "Justin Kemp"
+        ],
+        "New Zealand": [
+            "Scott Styris",
+            "Lou Vincent",
+            "James Franklin",
+            "Adam Parore (wk)",
+            "Dion Nash",
+            "Nathan Astle",
+            "Stephen Fleming(c)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Craig McMillan",
+            "Andre Adams"
+        ]
+    }
 }

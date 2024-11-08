@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "c Steenkamp b Viljoen",
+                    "dismissal": "c (wk)Steenkamp b Viljoen",
                     "runs": "12",
                     "balls": "25",
                     "minutes": "-",
@@ -59,7 +59,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Snyman b Klazinga",
                     "runs": "57",
                     "balls": "89",
@@ -110,7 +110,7 @@
                 },
                 {
                     "batsman": "Trent Johnston",
-                    "dismissal": "c Steenkamp b van der Westhuizen",
+                    "dismissal": "c (wk)Steenkamp b van der Westhuizen",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "-",
@@ -236,7 +236,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Ewald Steenkamp",
+                    "batsman": "Ewald Steenkamp (wk)",
                     "dismissal": "b Rankin",
                     "runs": "12",
                     "balls": "14",
@@ -327,7 +327,7 @@
                 },
                 {
                     "batsman": "Louis Klazinga",
-                    "dismissal": "c NJ O'Brien b Cusack",
+                    "dismissal": "c (wk)NJ O'Brien b Cusack",
                     "runs": "16",
                     "balls": "7",
                     "minutes": "-",
@@ -436,5 +436,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 26 runs"
+    "result": "Ireland won by 26 runs",
+    "playing_xi": {
+        "Ireland": [
+            "George Dockrell",
+            "Boyd Rankin",
+            "Gary Wilson",
+            "Andrew White",
+            "Paul Stirling",
+            "Alex Cusack",
+            "Niall O'Brien (wk)",
+            "William Porterfield(c)",
+            "Kevin O'Brien",
+            "John Mooney",
+            "Trent Johnston"
+        ],
+        "Namibia": [
+            "Gerhard Rudolph",
+            "Stephan Baard",
+            "Louis van der Westhuizen",
+            "Christi Viljoen",
+            "Raymond van Schoor",
+            "Pikky Ya France",
+            "Gerrie Snyman",
+            "Craig Williams(c)",
+            "Nicolaas Scholtz",
+            "Ewald Steenkamp (wk)",
+            "Louis Klazinga"
+        ]
+    }
 }

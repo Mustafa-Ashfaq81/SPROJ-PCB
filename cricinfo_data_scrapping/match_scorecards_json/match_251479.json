@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Abali Hoilett",
-                    "dismissal": "c A Ferguson b MJ Paterlini",
+                    "dismissal": "c (wk)A Ferguson b MJ Paterlini",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "6",
@@ -119,7 +119,7 @@
                     "strike_rate": "63.63"
                 }
             ],
-            "did_not_bat": "Ryan Ebanks , Troy Taylor",
+            "did_not_bat": "Ryan Ebanks (wk) , Troy Taylor",
             "fall_of_wickets": "Fall of wickets : 1 - 78 ( Keneil Irving ) , 2 - 89 ( Saheed Mohamed ) , 3 - 129 ( Steve Gordon ) , 4 - 132 ( Ryan Bovell ) , 5 - 161 ( Franklyn Hinds ) , 6 - 167 ( Philip Wight ) , 7 - 171 ( Abali Hoilett )",
             "bowling": [
                 {
@@ -277,7 +277,7 @@
                 },
                 {
                     "batsman": "Pablo Ferguson",
-                    "dismissal": "c Ryan Ebanks b Mohamed",
+                    "dismissal": "c (wk)Ryan Ebanks b Mohamed",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -286,7 +286,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Alejandro Ferguson",
+                    "batsman": "Alejandro Ferguson (wk)",
                     "dismissal": "b Ronald Ebanks",
                     "runs": "5",
                     "balls": "5",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Cayman won by 114 runs"
+    "result": "Cayman won by 114 runs",
+    "playing_xi": {
+        "Cayman Islands": [
+            "Troy Taylor",
+            "Ronald Ebanks",
+            "Philip Wight",
+            "Pearson Best",
+            "Ryan Bovell(c)",
+            "Steve Gordon",
+            "Saheed Mohamed",
+            "Abali Hoilett",
+            "Franklyn Hinds",
+            "Keneil Irving",
+            "Ryan Ebanks (wk)"
+        ],
+        "Argentina": [
+            "Esteban Nino",
+            "Lucas Paterlini",
+            "Matias Paterlini",
+            "Pablo Ferguson",
+            "Alejandro Ferguson (wk)",
+            "Esteban MacDermott(c)",
+            "Gary Savage",
+            "Diego Lord",
+            "Donald Forrester",
+            "Carlos Gibson",
+            "Gaston Arizaga"
+        ]
+    }
 }

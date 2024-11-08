@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "run out (Mashrafe Mortaza/Dhiman Ghosh)",
+                    "dismissal": "run out (Mashrafe Mortaza/ (wk)Dhiman Ghosh)",
                     "runs": "27",
                     "balls": "44",
                     "minutes": "113",
@@ -80,7 +80,7 @@
                     "strike_rate": "40.74"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Alok Kapali b Abdur Razzak",
                     "runs": "16",
                     "balls": "31",
@@ -257,7 +257,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Dhiman Ghosh",
+                    "batsman": "Dhiman Ghosh (wk)",
                     "dismissal": "lbw b Hopes",
                     "runs": "1",
                     "balls": "4",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 73 runs"
+    "result": "Australia won by 73 runs",
+    "playing_xi": {
+        "Australia": [
+            "Stuart Clark",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Nathan Bracken",
+            "Michael Clarke(c)",
+            "Cameron White",
+            "Mitchell Johnson",
+            "James Hopes",
+            "Brad Haddin (wk)",
+            "David Hussey"
+        ],
+        "Bangladesh": [
+            "Abdur Razzak",
+            "Dhiman Ghosh (wk)",
+            "Shahadat Hossain",
+            "Farhad Reza",
+            "Tamim Iqbal",
+            "Shakib Al Hasan",
+            "Mahmudullah",
+            "Alok Kapali",
+            "Mashrafe Mortaza",
+            "Zunaed Siddique",
+            "Mohammad Ashraful(c)"
+        ]
+    }
 }

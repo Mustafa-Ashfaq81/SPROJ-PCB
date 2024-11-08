@@ -31,7 +31,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Watson",
                     "runs": "44",
                     "balls": "63",
@@ -209,7 +209,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "24",
                     "balls": "22",
                     "minutes": "38",
@@ -218,7 +218,7 @@
                     "strike_rate": "109.09"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "lbw b Shahid Afridi",
                     "runs": "29",
                     "balls": "40",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 wickets (with 0 balls remaining)"
+    "result": "Australia won by 2 wickets (with 0 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Naved-ul-Hasan",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Younis Khan(c)",
+            "Misbah-ul-Haq",
+            "Mohammad Asif",
+            "Shoaib Malik",
+            "Umar Akmal",
+            "Shahid Afridi"
+        ],
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Peter Siddle",
+            "Brett Lee",
+            "Callum Ferguson",
+            "Michael Hussey",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Nathan Hauritz",
+            "Mitchell Johnson"
+        ]
+    }
 }

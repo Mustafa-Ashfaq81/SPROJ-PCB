@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Taufeeq Umar",
-                    "dismissal": "st A Flower b Brent",
+                    "dismissal": "st (wk)A Flower b Brent",
                     "runs": "18",
                     "balls": "28",
                     "minutes": "46",
@@ -105,7 +105,7 @@
                     "strike_rate": "157.14"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "4",
@@ -270,7 +270,7 @@
                     "strike_rate": "60.56"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "b Shoaib Malik",
                     "runs": "51",
                     "balls": "59",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Dion Ebrahim",
-                    "dismissal": "c Rashid Latif b Shoaib Malik",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Malik",
                     "runs": "12",
                     "balls": "23",
                     "minutes": "22",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Trevor Gripper",
-                    "dismissal": "run out (Rashid Latif)",
+                    "dismissal": "run out ( (wk)Rashid Latif)",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Sean Ervine",
-                    "dismissal": "c Rashid Latif b Shahid Afridi",
+                    "dismissal": "c (wk)Rashid Latif b Shahid Afridi",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 106 runs"
+    "result": "Pakistan won by 106 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Saeed Anwar",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Waqar Younis (c)",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Taufeeq Umar",
+            "Rashid Latif (wk)",
+            "Shahid Afridi"
+        ],
+        "Zimbabwe": [
+            "Heath Streak",
+            "Stuart Carlisle",
+            "Andy Flower (wk)",
+            "Brian Murphy(c)",
+            "Dougie Marillier",
+            "Sean Ervine",
+            "Travis Friend",
+            "Gary Brent",
+            "Trevor Gripper",
+            "Dion Ebrahim",
+            "Grant Flower"
+        ]
+    }
 }

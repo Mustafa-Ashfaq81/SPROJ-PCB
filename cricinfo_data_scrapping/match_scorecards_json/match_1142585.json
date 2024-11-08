@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c de Kock b Ngidi",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "9",
                     "balls": "8",
                     "minutes": "-",
@@ -44,7 +44,7 @@
                     "strike_rate": "112.50"
                 },
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "b Phehlukwayo",
                     "runs": "69",
                     "balls": "78",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Shehan Jayasuriya",
-                    "dismissal": "c de Kock b Mulder",
+                    "dismissal": "c (wk)de Kock b Mulder",
                     "runs": "18",
                     "balls": "27",
                     "minutes": "-",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "c de Kock b Ngidi",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "19",
                     "balls": "20",
                     "minutes": "-",
@@ -231,7 +231,7 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Lakmal b Rajitha",
                     "runs": "87",
                     "balls": "78",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "c MDKJ Perera b Dananjaya",
+                    "dismissal": "c (wk)MDKJ Perera b Dananjaya",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "-",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 4 wickets (with 43 balls remaining)"
+    "result": "South Africa won by 4 wickets (with 43 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Shehan Jayasuriya",
+            "Upul Tharanga",
+            "Prabath Jayasuriya",
+            "Kusal Mendis",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Kasun Rajitha",
+            "Niroshan Dickwella (wk)",
+            "Suranga Lakmal"
+        ],
+        "South Africa": [
+            "Lungi Ngidi",
+            "Aiden Markram",
+            "Jean-Paul Duminy",
+            "David Miller",
+            "Wiaan Mulder",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)",
+            "Hashim Amla",
+            "Tabraiz Shamsi"
+        ]
+    }
 }

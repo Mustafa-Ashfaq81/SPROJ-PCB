@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Ambrose b Tremlett",
+                    "dismissal": "c (wk)Ambrose b Tremlett",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "4",
@@ -90,7 +90,7 @@
                     "strike_rate": "54.90"
                 },
                 {
-                    "batsman": "Gareth Hopkins",
+                    "batsman": "Gareth Hopkins (wk)",
                     "dismissal": "c sub (WTS Porterfield) b Collingwood",
                     "runs": "7",
                     "balls": "24",
@@ -297,7 +297,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tim Ambrose",
+                    "batsman": "Tim Ambrose (wk)",
                     "dismissal": "c Taylor b Southee",
                     "runs": "0",
                     "balls": "4",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Stuart Broad",
-                    "dismissal": "c Hopkins b Vettori",
+                    "dismissal": "c (wk)Hopkins b Vettori",
                     "runs": "17",
                     "balls": "30",
                     "minutes": "42",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 22 runs"
+    "result": "New Zealand won by 22 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Scott Styris",
+            "Gareth Hopkins (wk)",
+            "Daniel Vettori(c)",
+            "Grant Elliott",
+            "Mark Gillespie",
+            "Tim Southee",
+            "Jamie How",
+            "Daniel Flynn",
+            "Kyle Mills",
+            "Brendon McCullum",
+            "Ross Taylor"
+        ],
+        "England": [
+            "Tim Ambrose (wk)",
+            "James Anderson",
+            "Graeme Swann",
+            "Stuart Broad",
+            "Luke Wright",
+            "Chris Tremlett",
+            "Ian Bell",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Ravi Bopara",
+            "Owais Shah"
+        ]
+    }
 }

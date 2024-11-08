@@ -60,8 +60,8 @@
                     "strike_rate": "69.56"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
-                    "dismissal": "run out (sub [HMRKB Herath]/Sangakkara)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
+                    "dismissal": "run out (sub [HMRKB Herath]/ (wk)Sangakkara)",
                     "runs": "35",
                     "balls": "57",
                     "minutes": "62",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "18",
                     "balls": "34",
                     "minutes": "58",
@@ -253,7 +253,7 @@
                     "strike_rate": "65.62"
                 }
             ],
-            "did_not_bat": "Mahela Jayawardene , Nuwan Zoysa , Tillakaratne Dilshan , Kumar Sangakkara , Muthiah Muralidaran , Chaminda Vaas , Russel Arnold , Upul Chandana",
+            "did_not_bat": "Mahela Jayawardene , Nuwan Zoysa , Tillakaratne Dilshan , Kumar Sangakkara (wk) , Muthiah Muralidaran , Chaminda Vaas , Russel Arnold , Upul Chandana",
             "fall_of_wickets": "Fall of wickets : 1 - 84 ( Sanath Jayasuriya , 10.5 ov )",
             "bowling": [
                 {
@@ -329,5 +329,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 175 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 175 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Vusi Sibanda",
+            "Dion Ebrahim",
+            "Prosper Utseya",
+            "Alester Maregwede",
+            "Tinashe Panyangara",
+            "Mluleki Nkala",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Tatenda Taibu(c) (wk)"
+        ],
+        "Sri Lanka": [
+            "Saman Jayantha",
+            "Russel Arnold",
+            "Nuwan Zoysa",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)"
+        ]
+    }
 }

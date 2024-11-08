@@ -80,7 +80,7 @@
                     "strike_rate": "70.51"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Root b Dernbach",
                     "runs": "72",
                     "balls": "66",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Dhoni b Mohammed Shami",
+                    "dismissal": "c (wk)Dhoni b Mohammed Shami",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "5",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -257,7 +257,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "c Raina b Ashwin",
                     "runs": "18",
                     "balls": "38",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Steven Finn",
-                    "dismissal": "c Dhoni b Ashwin",
+                    "dismissal": "c (wk)Dhoni b Ashwin",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Jade Dernbach",
-                    "dismissal": "run out (Jadeja/Dhoni)",
+                    "dismissal": "run out (Jadeja/ (wk)Dhoni)",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "9",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "India won by 127 runs"
+    "result": "India won by 127 runs",
+    "playing_xi": {
+        "India": [
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Mohammed Shami",
+            "Gautam Gambhir",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ajinkya Rahane"
+        ],
+        "England": [
+            "Craig Kieswetter (wk)",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Chris Woakes",
+            "Kevin Pietersen",
+            "Samit Patel",
+            "Steven Finn",
+            "Jade Dernbach",
+            "James Tredwell"
+        ]
+    }
 }

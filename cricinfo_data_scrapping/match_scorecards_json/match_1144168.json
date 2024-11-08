@@ -30,8 +30,8 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Dickwella b NLTC Perera",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Dickwella b NLTC Perera",
                     "runs": "94",
                     "balls": "70",
                     "minutes": "92",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "st Dickwella b de Silva",
+                    "dismissal": "st (wk)Dickwella b de Silva",
                     "runs": "25",
                     "balls": "36",
                     "minutes": "53",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Kagiso Rabada",
-                    "dismissal": "c Dickwella b Rajitha",
+                    "dismissal": "c (wk)Dickwella b Rajitha",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "13",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Lungi Ngidi",
-                    "dismissal": "st Dickwella b Dananjaya",
+                    "dismissal": "st (wk)Dickwella b Dananjaya",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "23",
@@ -237,8 +237,8 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
-                    "dismissal": "c de Kock b Rabada",
+                    "batsman": "Niroshan Dickwella (wk)",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "10",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 113 runs"
+    "result": "South Africa won by 113 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Reeza Hendricks",
+            "Lungi Ngidi",
+            "Anrich Nortje",
+            "Imran Tahir",
+            "David Miller",
+            "Wiaan Mulder",
+            "Kagiso Rabada",
+            "Rassie van der Dussen",
+            "Quinton de Kock (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)"
+        ],
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Lasith Malinga(c)",
+            "Dhananjaya de Silva",
+            "Kusal Mendis",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Oshada Fernando",
+            "Kasun Rajitha",
+            "Avishka Fernando",
+            "Vishwa Fernando",
+            "Niroshan Dickwella (wk)"
+        ]
+    }
 }

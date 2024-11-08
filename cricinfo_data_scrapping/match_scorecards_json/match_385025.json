@@ -29,7 +29,7 @@
             "batting": [
                 {
                     "batsman": "Seren Waters",
-                    "dismissal": "c Mutizwa b Mpofu",
+                    "dismissal": "c (wk)Mutizwa b Mpofu",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -68,7 +68,7 @@
                     "strike_rate": "68.75"
                 },
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "c Matsikenyeri b Utseya",
                     "runs": "33",
                     "balls": "43",
@@ -319,7 +319,7 @@
                     "strike_rate": "104.61"
                 },
                 {
-                    "batsman": "Forster Mutizwa",
+                    "batsman": "Forster Mutizwa (wk)",
                     "dismissal": "not out",
                     "runs": "38",
                     "balls": "27",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 4 wickets (with 10 balls remaining)"
+    "result": "Zimbabwe won by 4 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Peter Ongondo",
+            "Morris Ouma (wk)",
+            "Alex Obanda",
+            "Steve Tikolo(c)",
+            "Rajesh Bhudia",
+            "Jimmy Kamande",
+            "Collins Obuya",
+            "Rakep Patel",
+            "Nehemiah Odhiambo",
+            "Kennedy Otieno",
+            "Seren Waters"
+        ],
+        "Zimbabwe": [
+            "Malcolm Waller",
+            "Ray Price",
+            "Chris Mpofu",
+            "Keith Dabengwa",
+            "Forster Mutizwa (wk)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Prosper Utseya(c)",
+            "Stuart Matsikenyeri",
+            "Graeme Cremer",
+            "Vusi Sibanda"
+        ]
+    }
 }

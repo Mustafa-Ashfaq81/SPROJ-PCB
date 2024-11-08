@@ -43,7 +43,7 @@
                     "strike_rate": "45.83"
                 },
                 {
-                    "batsman": "BJ Watling",
+                    "batsman": "BJ Watling (wk)",
                     "dismissal": "run out (Kulasekara/Mendis)",
                     "runs": "15",
                     "balls": "26",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Ross Taylor(c)",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "18",
@@ -250,7 +250,7 @@
                     "strike_rate": "66.15"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "42",
                     "balls": "55",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "c Watling b Ellis",
+                    "dismissal": "c (wk)Watling b Ellis",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "16",
@@ -356,5 +356,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 34 balls remaining) (D/L method)"
+    "result": "Sri Lanka won by 7 wickets (with 34 balls remaining) (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Andrew Ellis",
+            "Adam Milne",
+            "Ross Taylor(c)",
+            "Trent Boult",
+            "Nathan McCullum",
+            "BJ Watling (wk)",
+            "Tim Southee",
+            "Kane Williamson",
+            "Brendon McCullum",
+            "Rob Nicol",
+            "James Franklin"
+        ],
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene (c)",
+            "Dinesh Chandimal",
+            "Jeevan Mendis",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

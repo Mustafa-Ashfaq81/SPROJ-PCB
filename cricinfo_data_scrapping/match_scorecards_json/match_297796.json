@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly",
-                    "dismissal": "c Gilchrist b Hopes",
+                    "dismissal": "c (wk)Gilchrist b Hopes",
                     "runs": "41",
                     "balls": "59",
                     "minutes": "95",
@@ -60,7 +60,7 @@
                     "strike_rate": "70.90"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "50",
                     "balls": "35",
@@ -187,7 +187,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Khan b Singh",
                     "runs": "18",
                     "balls": "17",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "st Dhoni b Pathan",
+                    "dismissal": "st (wk)Dhoni b Pathan",
                     "runs": "29",
                     "balls": "33",
                     "minutes": "62",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Brad Hodge",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "17",
                     "balls": "29",
                     "minutes": "36",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "India won by 8 runs"
+    "result": "India won by 8 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Sourav Ganguly",
+            "Rahul Dravid",
+            "Irfan Pathan",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "RP Singh",
+            "Harbhajan Singh",
+            "Murali Kartik",
+            "MS Dhoni(c) (wk)"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "James Hopes",
+            "Nathan Bracken",
+            "Ricky Ponting(c)",
+            "Brad Hodge",
+            "Brett Lee",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ]
+    }
 }

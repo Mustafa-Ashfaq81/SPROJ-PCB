@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Karthik b Sreesanth",
+                    "dismissal": "c (wk)Karthik b Sreesanth",
                     "runs": "25",
                     "balls": "34",
                     "minutes": "41",
@@ -83,8 +83,8 @@
                     "strike_rate": "76.19"
                 },
                 {
-                    "batsman": "Geraint Jones",
-                    "dismissal": "c Karthik b Sreesanth",
+                    "batsman": "Geraint Jones (wk)",
+                    "dismissal": "c (wk)Karthik b Sreesanth",
                     "runs": "53",
                     "balls": "50",
                     "minutes": "60",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Robin Uthappa",
-                    "dismissal": "run out (Anderson/Jones)",
+                    "dismissal": "run out (Anderson/ (wk)Jones)",
                     "runs": "86",
                     "balls": "96",
                     "minutes": "123",
@@ -290,7 +290,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Dinesh Karthik , Venugopal Rao , Ramesh Powar , RP Singh , Vikram Singh , Sreesanth",
+            "did_not_bat": "Dinesh Karthik (wk) , Venugopal Rao , Ramesh Powar , RP Singh , Vikram Singh , Sreesanth",
             "fall_of_wickets": "Fall of wickets : 1 - 166 ( Robin Uthappa , 28.3 ov ) , 2 - 166 ( Rahul Dravid , 29.1 ov ) , 3 - 281 ( Suresh Raina , 48.3 ov )",
             "bowling": [
                 {
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 5 balls remaining)"
+    "result": "India won by 7 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Liam Plunkett",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "James Anderson",
+            "Andrew Strauss(c)",
+            "Sajid Mahmood",
+            "Geraint Jones (wk)",
+            "Ian Bell",
+            "Kabir Ali",
+            "Ian Blackwell",
+            "Matt Prior"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "RP Singh",
+            "Dinesh Karthik (wk)",
+            "Rahul Dravid(c)",
+            "Venugopal Rao",
+            "Sreesanth",
+            "Ramesh Powar",
+            "Vikram Singh",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "Robin Uthappa"
+        ]
+    }
 }

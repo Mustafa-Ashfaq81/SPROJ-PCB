@@ -40,7 +40,7 @@
                     "strike_rate": "110.00"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "b Mashrafe Mortaza",
                     "runs": "0",
                     "balls": "2",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Luke Wright",
-                    "dismissal": "c Jahurul Islam b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Jahurul Islam b Mashrafe Mortaza",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Kieswetter b Shahzad",
+                    "dismissal": "c (wk)Kieswetter b Shahzad",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "20",
@@ -247,7 +247,7 @@
                     "strike_rate": "125.00"
                 },
                 {
-                    "batsman": "Jahurul Islam",
+                    "batsman": "Jahurul Islam (wk)",
                     "dismissal": "c Strauss b Broad",
                     "runs": "27",
                     "balls": "41",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "run out (Collingwood/Kieswetter)",
+                    "dismissal": "run out (Collingwood/ (wk)Kieswetter)",
                     "runs": "6",
                     "balls": "19",
                     "minutes": "38",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "c Kieswetter b Bopara",
+                    "dismissal": "c (wk)Kieswetter b Bopara",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "16",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "England won by 144 runs"
+    "result": "England won by 144 runs",
+    "playing_xi": {
+        "England": [
+            "Jonathan Trott",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Ajmal Shahzad",
+            "Craig Kieswetter (wk)",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Ravi Bopara",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Luke Wright"
+        ],
+        "Bangladesh": [
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Mohammad Ashraful",
+            "Imrul Kayes",
+            "Jahurul Islam (wk)",
+            "Abdur Razzak",
+            "Zunaed Siddique"
+        ]
+    }
 }

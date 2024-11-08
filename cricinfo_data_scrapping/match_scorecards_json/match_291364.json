@@ -32,7 +32,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Kapugedera b Malinga",
                     "runs": "118",
                     "balls": "132",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "43",
                     "balls": "69",
                     "minutes": "105",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "5",
@@ -245,7 +245,7 @@
                     "strike_rate": "120.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Lee",
                     "runs": "80",
                     "balls": "114",
@@ -296,7 +296,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "c Gilchrist b Hogg",
+                    "dismissal": "c (wk)Gilchrist b Hogg",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Australia won by 63 runs"
+    "result": "Australia won by 63 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "James Hopes",
+            "Nathan Bracken",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ],
+        "Sri Lanka": [
+            "Mahela Jayawardene(c)",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Chamara Kapugedera",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ]
+    }
 }

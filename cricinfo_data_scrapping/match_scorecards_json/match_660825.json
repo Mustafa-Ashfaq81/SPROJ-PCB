@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Stephan Myburgh",
-                    "dismissal": "run out (Bagai)",
+                    "dismissal": "run out ( (wk)Bagai)",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "-",
@@ -63,7 +63,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "c Baidwan b Gordon",
                     "runs": "1",
                     "balls": "7",
@@ -270,7 +270,7 @@
                     "strike_rate": "86.36"
                 }
             ],
-            "did_not_bat": "Ashish Bagai (c) , Damodar Daesrath , Raza-ur-Rehman , Jimmy Hansra , Junaid Siddiqui , Kenneth Kamyuka , Jeremy Gordon , Harvir Baidwan",
+            "did_not_bat": "Ashish Bagai (c) (wk) , Damodar Daesrath , Raza-ur-Rehman , Jimmy Hansra , Junaid Siddiqui , Kenneth Kamyuka , Jeremy Gordon , Harvir Baidwan",
             "fall_of_wickets": "Fall of wickets : 1 - 3 ( Ruvindu Gunasekera , 0.6 ov )",
             "bowling": [
                 {
@@ -346,5 +346,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Netherlands": [
+            "Stephan Myburgh",
+            "Michael Swart",
+            "Ben Cooper",
+            "Peter Borren(c)",
+            "Eric Szwarczynski",
+            "Ahsan Malik",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Wesley Barresi (wk)",
+            "Timm van der Gugten",
+            "Daan van Bunge"
+        ],
+        "Canada": [
+            "Jimmy Hansra",
+            "Jeremy Gordon",
+            "Raza-ur-Rehman",
+            "Damodar Daesrath",
+            "Junaid Siddiqui",
+            "Kenneth Kamyuka",
+            "Ruvindu Gunasekera",
+            "Hiral Patel",
+            "Nitish Kumar",
+            "Harvir Baidwan",
+            "Ashish Bagai (c) (wk)"
+        ]
+    }
 }

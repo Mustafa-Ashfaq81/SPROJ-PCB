@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Nixon b Flintoff",
+                    "dismissal": "c (wk)Nixon b Flintoff",
                     "runs": "20",
                     "balls": "42",
                     "minutes": "52",
@@ -92,7 +92,7 @@
                     "strike_rate": "96.62"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Flintoff",
                     "runs": "30",
                     "balls": "56",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "run out (Collingwood/Nixon)",
+                    "dismissal": "run out (Collingwood/ (wk)Nixon)",
                     "runs": "14",
                     "balls": "9",
                     "minutes": "22",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "c Nixon b Flintoff",
+                    "dismissal": "c (wk)Nixon b Flintoff",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "6",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Andrew Flintoff(c)",
-                    "dismissal": "c McCullum b Vettori",
+                    "dismissal": "c (wk)McCullum b Vettori",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "17",
@@ -299,8 +299,8 @@
                     "strike_rate": "52.94"
                 },
                 {
-                    "batsman": "Paul Nixon",
-                    "dismissal": "c McCullum b Oram",
+                    "batsman": "Paul Nixon (wk)",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "17",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 90 runs"
+    "result": "New Zealand won by 90 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "Mark Gillespie",
+            "James Franklin",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Peter Fulton"
+        ],
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Ed Joyce",
+            "James Anderson",
+            "Andrew Strauss",
+            "Jamie Dalrymple",
+            "Jon Lewis",
+            "Mal Loye",
+            "Andrew Flintoff(c)"
+        ]
+    }
 }

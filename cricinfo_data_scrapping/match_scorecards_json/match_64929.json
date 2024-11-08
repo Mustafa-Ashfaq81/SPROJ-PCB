@@ -40,7 +40,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Kemp b Nel",
                     "runs": "14",
                     "balls": "43",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Boucher b Nel",
+                    "dismissal": "c (wk)Boucher b Nel",
                     "runs": "15",
                     "balls": "35",
                     "minutes": "42",
@@ -287,8 +287,8 @@
                     "strike_rate": "81.57"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "run out (Strauss/Jones)",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "run out (Strauss/ (wk)Jones)",
                     "runs": "44",
                     "balls": "40",
                     "minutes": "51",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 3 wickets (with 6 balls remaining)"
+    "result": "South Africa won by 3 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Michael Vaughan(c)",
+            "Kabir Ali",
+            "Steve Harmison",
+            "Alex Wharf",
+            "Kevin Pietersen",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Ashley Giles",
+            "Vikram Solanki"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Andre Nel",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Mark Boucher (wk)",
+            "Andrew Hall",
+            "Shaun Pollock",
+            "Justin Kemp",
+            "Jacques Kallis"
+        ]
+    }
 }

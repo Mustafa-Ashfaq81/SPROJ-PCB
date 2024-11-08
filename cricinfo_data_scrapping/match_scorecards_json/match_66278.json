@@ -42,7 +42,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Hollioake b Gough",
                     "runs": "5",
                     "balls": "22",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Michael Bevan",
-                    "dismissal": "c Stewart b Mullally",
+                    "dismissal": "c (wk)Stewart b Mullally",
                     "runs": "37",
                     "balls": "50",
                     "minutes": "65",
@@ -216,7 +216,7 @@
                 },
                 {
                     "batsman": "Nick Knight",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "36",
@@ -225,7 +225,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Alec Stewart(c)",
+                    "batsman": "Alec Stewart(c) (wk)",
                     "dismissal": "c Bevan b Gillespie",
                     "runs": "0",
                     "balls": "3",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Ben Hollioake",
-                    "dismissal": "st Gilchrist b Warne",
+                    "dismissal": "st (wk)Gilchrist b Warne",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "10",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Alan Mullally",
-                    "dismissal": "c Gilchrist b Harvey",
+                    "dismissal": "c (wk)Gilchrist b Harvey",
                     "runs": "6",
                     "balls": "23",
                     "minutes": "17",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Australia won by 125 runs (D/L method)"
+    "result": "Australia won by 125 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Steve Waugh(c)",
+            "Shane Warne",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Ricky Ponting",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Ian Harvey",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Andrew Symonds"
+        ],
+        "England": [
+            "Dominic Cork",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Alan Mullally",
+            "Ben Hollioake",
+            "Andy Caddick",
+            "Michael Vaughan",
+            "Alec Stewart(c) (wk)",
+            "Darren Gough",
+            "Owais Shah"
+        ]
+    }
 }

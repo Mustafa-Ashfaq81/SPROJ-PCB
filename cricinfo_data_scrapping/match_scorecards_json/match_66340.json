@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "run out (Azhar Mahmood/Rashid Latif)",
+                    "dismissal": "run out (Azhar Mahmood/ (wk)Rashid Latif)",
                     "runs": "55",
                     "balls": "89",
                     "minutes": "137",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Jonty Rhodes",
-                    "dismissal": "c Rashid Latif b Azhar Mahmood",
+                    "dismissal": "c (wk)Rashid Latif b Azhar Mahmood",
                     "runs": "11",
                     "balls": "20",
                     "minutes": "29",
@@ -91,7 +91,7 @@
                     "strike_rate": "55.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Azhar Mahmood",
                     "runs": "57",
                     "balls": "99",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Boucher b Donald",
+                    "dismissal": "c (wk)Boucher b Donald",
                     "runs": "62",
                     "balls": "40",
                     "minutes": "73",
@@ -298,7 +298,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "b Donald",
                     "runs": "22",
                     "balls": "32",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 runs"
+    "result": "South Africa won by 8 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Graeme Smith",
+            "Boeta Dippenaar",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Justin Ontong",
+            "Lance Klusener",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Jonty Rhodes",
+            "Allan Donald"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Inzamam-ul-Haq",
+            "Azhar Mahmood",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Imran Nazir",
+            "Wasim Akram",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Younis Khan",
+            "Waqar Younis(c)"
+        ]
+    }
 }

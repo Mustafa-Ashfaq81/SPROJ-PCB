@@ -59,7 +59,7 @@
                     "strike_rate": "94.44"
                 },
                 {
-                    "batsman": "Jamie Atkinson(c)",
+                    "batsman": "Jamie Atkinson(c) (wk)",
                     "dismissal": "b Aarif Sheikh",
                     "runs": "11",
                     "balls": "18",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Babar Hayat",
-                    "dismissal": "c Khakurel b Aarif Sheikh",
+                    "dismissal": "c (wk)Khakurel b Aarif Sheikh",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Roy Lamsam",
-                    "dismissal": "c Khakurel b Sompal Kami",
+                    "dismissal": "c (wk)Khakurel b Sompal Kami",
                     "runs": "18",
                     "balls": "49",
                     "minutes": "-",
@@ -120,7 +120,7 @@
                 },
                 {
                     "batsman": "Nadeem Ahmed",
-                    "dismissal": "c Khakurel b Sompal Kami",
+                    "dismissal": "c (wk)Khakurel b Sompal Kami",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "-",
@@ -236,8 +236,8 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Subash Khakurel",
-                    "dismissal": "c Atkinson b Tanwir Afzal",
+                    "batsman": "Subash Khakurel (wk)",
+                    "dismissal": "c (wk)Atkinson b Tanwir Afzal",
                     "runs": "16",
                     "balls": "24",
                     "minutes": "-",
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "Nepal won by 7 wickets (with 23 balls remaining) (D/L method)"
+    "result": "Nepal won by 7 wickets (with 23 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Haseeb Amjad",
+            "Nizakat Khan",
+            "Roy Lamsam",
+            "Ehsan Nawaz",
+            "Waqas Barkat",
+            "Jamie Atkinson(c) (wk)",
+            "Babar Hayat",
+            "Ankur Vasishta",
+            "Tanwir Afzal",
+            "Nadeem Ahmed",
+            "Irfan Ahmed"
+        ],
+        "Nepal": [
+            "Binod Bhandari",
+            "Mahaboob Alam",
+            "Subash Khakurel (wk)",
+            "Paras Khadka(c)",
+            "Sharad Vesawkar",
+            "Shakti Gauchan",
+            "Sompal Kami",
+            "Basant Regmi",
+            "Naresh Budayair",
+            "Aarif Sheikh",
+            "Gyanendra Malla"
+        ]
+    }
 }

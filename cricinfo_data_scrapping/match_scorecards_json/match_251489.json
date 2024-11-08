@@ -33,7 +33,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Vaas",
                     "runs": "10",
                     "balls": "16",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Peter Fulton",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "24",
                     "balls": "29",
                     "minutes": "31",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Hamish Marshall",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "17",
                     "balls": "17",
                     "minutes": "22",
@@ -231,7 +231,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c McCullum b Franklin",
+                    "dismissal": "c (wk)McCullum b Franklin",
                     "runs": "68",
                     "balls": "73",
                     "minutes": "107",
@@ -260,7 +260,7 @@
                     "strike_rate": "87.17"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c & b Vettori",
                     "runs": "36",
                     "balls": "41",
@@ -356,5 +356,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 60 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 60 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mark Gillespie",
+            "Daniel Vettori(c)",
+            "James Franklin",
+            "Michael Mason",
+            "James Marshall",
+            "Hamish Marshall",
+            "Andre Adams",
+            "Nathan Astle",
+            "Peter Fulton",
+            "Ross Taylor",
+            "Brendon McCullum (wk)"
+        ],
+        "Sri Lanka": [
+            "Marvan Atapattu",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Chamara Silva",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Upul Tharanga"
+        ]
+    }
 }

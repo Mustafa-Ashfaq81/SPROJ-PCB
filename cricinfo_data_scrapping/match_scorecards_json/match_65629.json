@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Ian Blackwell",
-                    "dismissal": "c Gilchrist b Lehmann",
+                    "dismissal": "c (wk)Gilchrist b Lehmann",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -95,7 +95,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "lbw b Lee",
                     "runs": "4",
                     "balls": "6",
@@ -246,7 +246,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Shah b Irani",
                     "runs": "53",
                     "balls": "50",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 30 balls remaining)"
+    "result": "Australia won by 7 wickets (with 30 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Owais Shah",
+            "Marcus Trescothick",
+            "Andy Caddick",
+            "Nick Knight",
+            "James Kirtley",
+            "Ian Blackwell",
+            "Gareth Batty",
+            "Nasser Hussain(c)",
+            "Alec Stewart (wk)",
+            "Craig White",
+            "Ronnie Irani"
+        ],
+        "Australia": [
+            "Darren Lehmann",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Shane Warne",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Damien Martyn",
+            "Shane Watson"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c Khaled Mashud b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Khaled Mashud b Mashrafe Mortaza",
                     "runs": "25",
                     "balls": "45",
                     "minutes": "62",
@@ -40,7 +40,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "c Mashrafe Mortaza b Shahadat Hossain",
                     "runs": "1",
                     "balls": "3",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "st Khaled Mashud b Shakib Al Hasan",
+                    "dismissal": "st (wk)Khaled Mashud b Shakib Al Hasan",
                     "runs": "41",
                     "balls": "72",
                     "minutes": "95",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "17",
@@ -214,7 +214,7 @@
                 },
                 {
                     "batsman": "Mehrab Hossain jnr",
-                    "dismissal": "c Taylor b Utseya",
+                    "dismissal": "c (wk)Taylor b Utseya",
                     "runs": "54",
                     "balls": "111",
                     "minutes": "171",
@@ -263,7 +263,7 @@
                     "strike_rate": "44.44"
                 }
             ],
-            "did_not_bat": "Khaled Mashud , Mohammad Rafique , Mashrafe Mortaza , Abdur Razzak , Shahadat Hossain",
+            "did_not_bat": "Khaled Mashud (wk) , Mohammad Rafique , Mashrafe Mortaza , Abdur Razzak , Shahadat Hossain",
             "fall_of_wickets": "Fall of wickets : 1 - 104 ( Shahriar Nafees , 21.1 ov ) , 2 - 126 ( Aftab Ahmed , 25.4 ov ) , 3 - 175 ( Shakib Al Hasan , 34.1 ov ) , 4 - 198 ( Mehrab Hossain jnr , 39.1 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 44 balls remaining)"
+    "result": "Bangladesh won by 6 wickets (with 44 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Gary Brent",
+            "Sean Williams",
+            "Blessing Mahwire",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Ed Rainsford",
+            "Prosper Utseya(c)",
+            "Keith Dabengwa"
+        ],
+        "Bangladesh": [
+            "Mohammad Rafique",
+            "Shakib Al Hasan",
+            "Mehrab Hossain jnr",
+            "Habibul Bashar(c)",
+            "Shahriar Nafees",
+            "Khaled Mashud (wk)",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Aftab Ahmed",
+            "Abdur Razzak",
+            "Shahadat Hossain"
+        ]
+    }
 }

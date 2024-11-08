@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Colin de Grandhomme",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "16",
                     "balls": "10",
                     "minutes": "19",
@@ -90,7 +90,7 @@
                     "strike_rate": "160.00"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Jadeja b Kumar",
                     "runs": "10",
                     "balls": "11",
@@ -214,7 +214,7 @@
             "batting": [
                 {
                     "batsman": "KL Rahul",
-                    "dismissal": "c Latham b Henry",
+                    "dismissal": "c (wk)Latham b Henry",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "18",
@@ -224,7 +224,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Latham b Henry",
+                    "dismissal": "c (wk)Latham b Henry",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "7",
@@ -273,7 +273,7 @@
                     "strike_rate": "51.61"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "run out (Guptill)",
                     "runs": "50",
                     "balls": "72",
@@ -304,7 +304,7 @@
                 },
                 {
                     "batsman": "Yuzvendra Chahal",
-                    "dismissal": "c Latham b Neesham",
+                    "dismissal": "c (wk)Latham b Neesham",
                     "runs": "5",
                     "balls": "5",
                     "minutes": "8",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 18 runs"
+    "result": "New Zealand won by 18 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "Lockie Ferguson",
+            "James Neesham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Matt Henry",
+            "Colin de Grandhomme",
+            "Mitchell Santner",
+            "Ross Taylor",
+            "Henry Nicholls"
+        ],
+        "India": [
+            "Rishabh Pant",
+            "Rohit Sharma",
+            "KL Rahul",
+            "Dinesh Karthik",
+            "Jasprit Bumrah",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Virat Kohli(c)",
+            "Hardik Pandya",
+            "MS Dhoni (wk)",
+            "Ravindra Jadeja"
+        ]
+    }
 }

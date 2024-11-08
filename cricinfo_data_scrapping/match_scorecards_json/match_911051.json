@@ -47,7 +47,7 @@
                 },
                 {
                     "batsman": "Waqas Barkat",
-                    "dismissal": "st Patil b Ahmed Raza",
+                    "dismissal": "st (wk)Patil b Ahmed Raza",
                     "runs": "27",
                     "balls": "50",
                     "minutes": "-",
@@ -77,7 +77,7 @@
                 },
                 {
                     "batsman": "Nizakat Khan",
-                    "dismissal": "run out (Zaheer Maqsood/Patil)",
+                    "dismissal": "run out (Zaheer Maqsood/ (wk)Patil)",
                     "runs": "20",
                     "balls": "21",
                     "minutes": "-",
@@ -96,8 +96,8 @@
                     "strike_rate": "40.54"
                 },
                 {
-                    "batsman": "Christopher Carter",
-                    "dismissal": "run out (Usman Mushtaq/Patil)",
+                    "batsman": "Christopher Carter (wk)",
+                    "dismissal": "run out (Usman Mushtaq/ (wk)Patil)",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "-",
@@ -234,7 +234,7 @@
             "batting": [
                 {
                     "batsman": "Amjad Ali",
-                    "dismissal": "c Carter b Haseeb Amjad",
+                    "dismissal": "c (wk)Carter b Haseeb Amjad",
                     "runs": "14",
                     "balls": "8",
                     "minutes": "-",
@@ -263,8 +263,8 @@
                     "strike_rate": "71.71"
                 },
                 {
-                    "batsman": "Swapnil Patil",
-                    "dismissal": "c Carter b Tanwir Afzal",
+                    "batsman": "Swapnil Patil (wk)",
+                    "dismissal": "c (wk)Carter b Tanwir Afzal",
                     "runs": "8",
                     "balls": "7",
                     "minutes": "-",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Laxman Sreekumar",
-                    "dismissal": "c Carter b Tanwir Afzal",
+                    "dismissal": "c (wk)Carter b Tanwir Afzal",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "-",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 136 runs"
+    "result": "Hong Kong won by 136 runs",
+    "playing_xi": {
+        "Hong Kong": [
+            "Christopher Carter (wk)",
+            "Aizaz Khan",
+            "Waqas Barkat",
+            "Anshy Rath",
+            "Haseeb Amjad",
+            "Tanwir Afzal(c)",
+            "Babar Hayat",
+            "Nadeem Ahmed",
+            "Waqas Khan",
+            "Nizakat Khan",
+            "Mark Chapman"
+        ],
+        "United Arab Emirates": [
+            "Usman Mushtaq",
+            "Swapnil Patil (wk)",
+            "Umair Ali",
+            "Ahmed Raza(c)",
+            "Shaiman Anwar",
+            "Laxman Sreekumar",
+            "Amjad Ali",
+            "Abdul Shakoor",
+            "Nasir Aziz",
+            "Zaheer Maqsood",
+            "Qadeer Ahmed"
+        ]
+    }
 }

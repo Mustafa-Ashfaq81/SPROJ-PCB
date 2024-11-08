@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Danushka Gunathilaka",
-                    "dismissal": "run out (Stoinis/Carey)",
+                    "dismissal": "run out (Stoinis/ (wk)Carey)",
                     "runs": "55",
                     "balls": "53",
                     "minutes": "90",
@@ -53,7 +53,7 @@
                     "strike_rate": "82.35"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "not out",
                     "runs": "86",
                     "balls": "87",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Chamika Karunaratne",
-                    "dismissal": "c Carey b Labuschagne",
+                    "dismissal": "c (wk)Carey b Labuschagne",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "11",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Aaron Finch(c)",
-                    "dismissal": "c Mendis b Hasaranga",
+                    "dismissal": "c (wk)Mendis b Hasaranga",
                     "runs": "44",
                     "balls": "41",
                     "minutes": "55",
@@ -274,7 +274,7 @@
                     "strike_rate": "141.93"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "lbw b Hasaranga",
                     "runs": "21",
                     "balls": "22",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 wickets (with 9 balls remaining) (D/L method)"
+    "result": "Australia won by 2 wickets (with 9 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dasun Shanaka(c)",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Danushka Gunathilaka",
+            "Wanindu Hasaranga",
+            "Dunith Wellalage",
+            "Maheesh Theekshana",
+            "Kusal Mendis (wk)",
+            "Chamika Karunaratne",
+            "Dushmantha Chameera",
+            "Charith Asalanka"
+        ],
+        "Australia": [
+            "Marnus Labuschagne",
+            "Glenn Maxwell",
+            "Ashton Agar",
+            "Steven Smith",
+            "Pat Cummins",
+            "Josh Hazlewood",
+            "Jhye Richardson",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "David Warner",
+            "Marcus Stoinis"
+        ]
+    }
 }

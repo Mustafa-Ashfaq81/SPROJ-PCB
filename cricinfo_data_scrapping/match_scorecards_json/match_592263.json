@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Arshad Ali",
-                    "dismissal": "c Wilson b Johnston",
+                    "dismissal": "c (wk)Wilson b Johnston",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "-",
@@ -60,8 +60,8 @@
                     "strike_rate": "81.25"
                 },
                 {
-                    "batsman": "Swapnil Patil",
-                    "dismissal": "st Wilson b Cusack",
+                    "batsman": "Swapnil Patil (wk)",
+                    "dismissal": "st (wk)Wilson b Cusack",
                     "runs": "65",
                     "balls": "91",
                     "minutes": "-",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Niall O'Brien",
-                    "dismissal": "run out (Patil)",
+                    "dismissal": "run out ( (wk)Patil)",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "-",
@@ -277,7 +277,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "not out",
                     "runs": "72",
                     "balls": "102",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 5 wickets (with 48 balls remaining)"
+    "result": "Ireland won by 5 wickets (with 48 balls remaining)",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Nasir Aziz",
+            "Rohan Mustafa",
+            "Faizan Asif",
+            "Khurram Khan(c)",
+            "Swapnil Patil (wk)",
+            "Kamran Shazad",
+            "Arshad Ali",
+            "Shaiman Anwar",
+            "Abdul Shakoor",
+            "Mohammad Azam",
+            "Shadeep Silva"
+        ],
+        "Ireland": [
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Gary Wilson (wk)",
+            "Niall O'Brien",
+            "John Mooney",
+            "Kevin O'Brien",
+            "Trent Johnston",
+            "Max Sorensen",
+            "Paul Stirling",
+            "George Dockrell",
+            "Alex Cusack"
+        ]
+    }
 }

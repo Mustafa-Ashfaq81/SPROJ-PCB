@@ -34,8 +34,8 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Joylord Gumbie",
-                    "dismissal": "st MD Patel b Kenjige",
+                    "batsman": "Joylord Gumbie (wk)",
+                    "dismissal": "st (wk)MD Patel b Kenjige",
                     "runs": "78",
                     "balls": "103",
                     "minutes": "135",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "c MD Patel b Paradkar",
+                    "dismissal": "c (wk)MD Patel b Paradkar",
                     "runs": "48",
                     "balls": "27",
                     "minutes": "37",
@@ -226,7 +226,7 @@
             "batting": [
                 {
                     "batsman": "Steven Taylor",
-                    "dismissal": "c Gumbie b Ngarava",
+                    "dismissal": "c (wk)Gumbie b Ngarava",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "9",
@@ -236,7 +236,7 @@
                 },
                 {
                     "batsman": "Sushant Modani",
-                    "dismissal": "c Gumbie b Ngarava",
+                    "dismissal": "c (wk)Gumbie b Ngarava",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "23",
@@ -245,7 +245,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Monank Patel(c)",
+                    "batsman": "Monank Patel(c) (wk)",
                     "dismissal": "c Williams b Evans",
                     "runs": "9",
                     "balls": "13",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Aaron Jones",
-                    "dismissal": "run out (Gumbie/Burl/Evans)",
+                    "dismissal": "run out ( (wk)Gumbie/Burl/Evans)",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "26",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Abhishek Paradkar",
-                    "dismissal": "c Gumbie b Jongwe",
+                    "dismissal": "c (wk)Gumbie b Jongwe",
                     "runs": "24",
                     "balls": "31",
                     "minutes": "36",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 304 runs"
+    "result": "Zimbabwe won by 304 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sikandar Raza",
+            "Ryan Burl",
+            "Innocent Kaia",
+            "Joylord Gumbie (wk)",
+            "Richard Ngarava",
+            "Tadiwanashe Marumani",
+            "Wellington Masakadza",
+            "Luke Jongwe",
+            "Brad Evans",
+            "Sean Williams(c)",
+            "Wessly Madhevere"
+        ],
+        "United States of America": [
+            "Sushant Modani",
+            "Aaron Jones",
+            "Usman Rafiq",
+            "Shayan Jahangir",
+            "Jasdeep Singh",
+            "Nosthush Kenjige",
+            "Gajanand Singh",
+            "Nisarg Patel",
+            "Abhishek Paradkar",
+            "Steven Taylor",
+            "Monank Patel(c) (wk)"
+        ]
+    }
 }

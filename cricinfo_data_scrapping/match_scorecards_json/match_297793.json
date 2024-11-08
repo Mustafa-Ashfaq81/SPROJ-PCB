@@ -29,7 +29,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist(c)",
+                    "batsman": "Adam Gilchrist(c) (wk)",
                     "dismissal": "c Yuvraj Singh b Khan",
                     "runs": "12",
                     "balls": "11",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Brad Haddin",
-                    "dismissal": "st Dhoni b Yuvraj Singh",
+                    "dismissal": "st (wk)Dhoni b Yuvraj Singh",
                     "runs": "69",
                     "balls": "83",
                     "minutes": "99",
@@ -236,7 +236,7 @@
                     "strike_rate": "-"
                 }
             ],
-            "did_not_bat": "Sourav Ganguly , Rahul Dravid , Yuvraj Singh , MS Dhoni (c) , Ramesh Powar , RP Singh , Zaheer Khan , Sreesanth",
+            "did_not_bat": "Sourav Ganguly , Rahul Dravid , Yuvraj Singh , MS Dhoni (c) (wk) , Ramesh Powar , RP Singh , Zaheer Khan , Sreesanth",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Sachin Tendulkar , 1.6 ov )",
             "bowling": [
                 {
@@ -270,5 +270,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "James Hopes",
+            "Stuart Clark",
+            "Brad Hodge",
+            "Brett Lee",
+            "Michael Clarke",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist(c) (wk)",
+            "Brad Haddin"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "Sourav Ganguly",
+            "Rahul Dravid",
+            "Irfan Pathan",
+            "MS Dhoni (c) (wk)",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Sreesanth",
+            "RP Singh",
+            "Ramesh Powar"
+        ]
+    }
 }

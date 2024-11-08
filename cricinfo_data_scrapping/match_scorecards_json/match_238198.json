@@ -30,8 +30,8 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Boucher b Pollock",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "25",
                     "balls": "33",
                     "minutes": "35",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "run out (Boucher)",
+                    "dismissal": "run out ( (wk)Boucher)",
                     "runs": "25",
                     "balls": "23",
                     "minutes": "42",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "13",
@@ -247,8 +247,8 @@
                     "strike_rate": "73.91"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Gilchrist b Lee",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "18",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Andrew Hall",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "5",
                     "balls": "6",
                     "minutes": "12",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Robin Peterson",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "9",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 24 runs"
+    "result": "Australia won by 24 runs",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Bracken",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Brett Lee",
+            "Damien Martyn",
+            "Stuart Clark",
+            "Simon Katich",
+            "Ricky Ponting(c)",
+            "Shane Watson",
+            "Brad Hogg"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Justin Kemp",
+            "Boeta Dippenaar",
+            "AB de Villiers",
+            "Herschelle Gibbs",
+            "Roger Telemachus",
+            "Andrew Hall",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Robin Peterson"
+        ]
+    }
 }

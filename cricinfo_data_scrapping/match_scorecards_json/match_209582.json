@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "run out (Collymore/Browne)",
+                    "dismissal": "run out (Collymore/ (wk)Browne)",
                     "runs": "24",
                     "balls": "21",
                     "minutes": "25",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Browne b Bradshaw",
+                    "dismissal": "c (wk)Browne b Bradshaw",
                     "runs": "13",
                     "balls": "26",
                     "minutes": "29",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "run out (Browne)",
+                    "dismissal": "run out ( (wk)Browne)",
                     "runs": "30",
                     "balls": "46",
                     "minutes": "71",
@@ -100,8 +100,8 @@
                     "strike_rate": "70.96"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Browne b Collymore",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Browne b Collymore",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "16",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "22",
                     "balls": "21",
                     "minutes": "28",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Xavier Marshall",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "3",
                     "balls": "16",
                     "minutes": "17",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Runako Morton",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "13",
                     "balls": "48",
                     "minutes": "66",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul(c)",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "13",
                     "balls": "31",
                     "minutes": "42",
@@ -321,7 +321,7 @@
                     "strike_rate": "40.90"
                 },
                 {
-                    "batsman": "Courtney Browne",
+                    "batsman": "Courtney Browne (wk)",
                     "dismissal": "c & b Shahid Afridi",
                     "runs": "0",
                     "balls": "2",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 59 runs"
+    "result": "Pakistan won by 59 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Salman Butt",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Younis Khan",
+            "Naved-ul-Hasan",
+            "Iftikhar Anjum",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Shabbir Ahmed"
+        ],
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Runako Morton",
+            "Corey Collymore",
+            "Xavier Marshall",
+            "Daren Powell",
+            "Dwayne Bravo",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Shivnarine Chanderpaul(c)",
+            "Ramnaresh Sarwan"
+        ]
+    }
 }

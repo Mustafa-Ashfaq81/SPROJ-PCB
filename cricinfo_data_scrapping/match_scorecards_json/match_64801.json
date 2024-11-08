@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Khaled Mashud b Manjural Islam",
+                    "dismissal": "c (wk)Khaled Mashud b Manjural Islam",
                     "runs": "21",
                     "balls": "43",
                     "minutes": "50",
@@ -93,7 +93,7 @@
                     "strike_rate": "91.30"
                 }
             ],
-            "did_not_bat": "Ridley Jacobs (c) , Mahendra Nagamootoo , Vasbert Drakes , Jermaine Lawson , Cameron Cuffy",
+            "did_not_bat": "Ridley Jacobs (c) (wk) , Mahendra Nagamootoo , Vasbert Drakes , Jermaine Lawson , Cameron Cuffy",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Wavell Hinds , 1.4 ov ) , 2 - 37 ( Chris Gayle , 12.2 ov ) , 3 - 183 ( Marlon Samuels , 38.6 ov ) , 4 - 214 ( Ricardo Powell , 43.2 ov )",
             "bowling": [
                 {
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Alok Kapali",
-                    "dismissal": "st Jacobs b Nagamootoo",
+                    "dismissal": "st (wk)Jacobs b Nagamootoo",
                     "runs": "12",
                     "balls": "30",
                     "minutes": "40",
@@ -250,7 +250,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "b Cuffy",
                     "runs": "41",
                     "balls": "64",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 84 runs"
+    "result": "West Indies won by 84 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Daren Ganga",
+            "Jermaine Lawson",
+            "Mahendra Nagamootoo",
+            "Cameron Cuffy",
+            "Vasbert Drakes",
+            "Ridley Jacobs (c) (wk)"
+        ],
+        "Bangladesh": [
+            "Ehsanul Hoque",
+            "Mohammad Rafique",
+            "Mohammad Ashraful",
+            "Alok Kapali",
+            "Khaled Mashud(c) (wk)",
+            "Al Sahariar",
+            "Naimur Rahman",
+            "Sanuar Hossain",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Manjurul Islam"
+        ]
+    }
 }

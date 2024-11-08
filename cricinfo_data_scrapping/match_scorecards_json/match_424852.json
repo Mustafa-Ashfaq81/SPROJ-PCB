@@ -29,7 +29,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "David Obuya",
+                    "batsman": "David Obuya (wk)",
                     "dismissal": "c Chigumbura b Masakadza",
                     "runs": "56",
                     "balls": "65",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Rakep Patel",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "20",
                     "balls": "26",
                     "minutes": "38",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Morris Ouma(c)",
-                    "dismissal": "run out (Taylor)",
+                    "dismissal": "run out ( (wk)Taylor)",
                     "runs": "17",
                     "balls": "35",
                     "minutes": "45",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c DO Obuya b Odhiambo",
+                    "dismissal": "c (wk)DO Obuya b Odhiambo",
                     "runs": "44",
                     "balls": "42",
                     "minutes": "54",
@@ -270,7 +270,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b Varaiya",
                     "runs": "92",
                     "balls": "109",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 20 runs"
+    "result": "Kenya won by 20 runs",
+    "playing_xi": {
+        "Kenya": [
+            "Lameck Onyango",
+            "Collins Obuya",
+            "Hiren Varaiya",
+            "David Obuya (wk)",
+            "Alex Obanda",
+            "Steve Tikolo",
+            "Rakep Patel",
+            "Thomas Odoyo",
+            "Morris Ouma(c)",
+            "Nehemiah Odhiambo",
+            "Jimmy Kamande"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Elton Chigumbura",
+            "Kyle Jarvis",
+            "Brendan Taylor (wk)",
+            "Mark Vermeulen",
+            "Sean Williams",
+            "Ray Price",
+            "Graeme Cremer",
+            "Hamilton Masakadza",
+            "Prosper Utseya(c)",
+            "Charles Coventry"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "14",
                     "balls": "32",
                     "minutes": "42",
@@ -90,7 +90,7 @@
                     "strike_rate": "49.53"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "run out (Yuvraj Singh/Srinath)",
                     "runs": "0",
                     "balls": "0",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Kyle Mills",
-                    "dismissal": "c Dravid b Srinath",
+                    "dismissal": "c (wk)Dravid b Srinath",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "10",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Daryl Tuffey",
-                    "dismissal": "run out (Sehwag/Dravid)",
+                    "dismissal": "run out (Sehwag/ (wk)Dravid)",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "5",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c McCullum b Adams",
+                    "dismissal": "c (wk)McCullum b Adams",
                     "runs": "23",
                     "balls": "44",
                     "minutes": "63",
@@ -257,7 +257,7 @@
                     "strike_rate": "80.57"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "lbw b Styris",
                     "runs": "21",
                     "balls": "50",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "1",
                     "balls": "13",
                     "minutes": "21",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "run out (McCullum/Adams)",
+                    "dismissal": "run out ( (wk)McCullum/Adams)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "4",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "India won by 1 wicket (with 1 ball remaining)"
+    "result": "India won by 1 wicket (with 1 ball remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Mathew Sinclair",
+            "Scott Styris",
+            "Brendon McCullum (wk)",
+            "Chris Harris",
+            "Andre Adams",
+            "Lou Vincent",
+            "Shane Bond",
+            "Kyle Mills",
+            "Chris Cairns",
+            "Daryl Tuffey"
+        ],
+        "India": [
+            "Rahul Dravid (wk)",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Sachin Tendulkar",
+            "Sanjay Bangar",
+            "Mohammad Kaif",
+            "Javagal Srinath",
+            "Yuvraj Singh",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag"
+        ]
+    }
 }

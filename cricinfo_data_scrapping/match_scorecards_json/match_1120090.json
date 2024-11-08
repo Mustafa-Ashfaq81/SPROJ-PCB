@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "15",
@@ -80,7 +80,7 @@
                     "strike_rate": "78.72"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Guptill b Boult",
                     "runs": "25",
                     "balls": "42",
@@ -257,7 +257,7 @@
                     "strike_rate": "95.00"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "not out",
                     "runs": "103",
                     "balls": "102",
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 6 wickets (with 6 balls remaining)"
+    "result": "New Zealand won by 6 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Kuldeep Yadav",
+            "Dinesh Karthik",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Adam Milne",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Tim Southee",
+            "Colin de Grandhomme",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ross Taylor",
+            "Tom Latham (wk)"
+        ]
+    }
 }

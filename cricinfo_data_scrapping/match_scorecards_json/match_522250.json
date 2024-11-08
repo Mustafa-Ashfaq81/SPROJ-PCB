@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Taibu b Meth",
+                    "dismissal": "c (wk)Taibu b Meth",
                     "runs": "9",
                     "balls": "26",
                     "minutes": "39",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Taibu b Chigumbura",
+                    "dismissal": "c (wk)Taibu b Chigumbura",
                     "runs": "15",
                     "balls": "24",
                     "minutes": "28",
@@ -60,7 +60,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Sibanda b Price",
                     "runs": "20",
                     "balls": "31",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Brendan Taylor(c)",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "6",
@@ -237,7 +237,7 @@
                     "strike_rate": "65.11"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "lbw b Shakib Al Hasan",
                     "runs": "7",
                     "balls": "14",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Forster Mutizwa",
-                    "dismissal": "run out (Shakib Al Hasan/Mushfiqur Rahim)",
+                    "dismissal": "run out (Shakib Al Hasan/ (wk)Mushfiqur Rahim)",
                     "runs": "27",
                     "balls": "38",
                     "minutes": "57",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 93 runs"
+    "result": "Bangladesh won by 93 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Mohammad Ashraful",
+            "Shuvagata Hom",
+            "Shakib Al Hasan(c)",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Rubel Hossain",
+            "Imrul Kayes",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Malcolm Waller",
+            "Ray Price",
+            "Brendan Taylor(c)",
+            "Hamilton Masakadza",
+            "Chris Mpofu",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Keegan Meth",
+            "Vusi Sibanda",
+            "Forster Mutizwa"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Smits b Stelling",
+                    "dismissal": "c (wk)Smits b Stelling",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -71,7 +71,7 @@
                     "strike_rate": "180.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "75",
                     "balls": "31",
@@ -292,7 +292,7 @@
                     "strike_rate": "25.00"
                 }
             ],
-            "did_not_bat": "Jeroen Smits",
+            "did_not_bat": "Jeroen Smits (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 5 ( Darron Reekers , 2.2 ov ) , 2 - 6 ( Bas Zuiderent , 4.1 ov ) , 3 - 33 ( Alexei Kervezee , 14.2 ov ) , 4 - 47 ( Daan van Bunge , 19.2 ov ) , 5 - 72 ( Eric Szwarczynski , 26.5 ov ) , 6 - 114 ( Ryan ten Doeschate , 35.1 ov ) , 7 - 124 ( Tim de Leede , 37.3 ov ) , 8 - 131 ( Peter Borren , 38.6 ov ) , 9 - 132 ( Luuk van Troost , 39.6 ov )",
             "bowling": [
                 {
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 221 runs"
+    "result": "South Africa won by 221 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Andrew Hall"
+        ],
+        "Netherlands": [
+            "Darron Reekers",
+            "Ryan ten Doeschate",
+            "Tim de Leede",
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Jeroen Smits (wk)",
+            "Billy Stelling",
+            "Daan van Bunge",
+            "Peter Borren",
+            "Alexei Kervezee",
+            "Luuk van Troost(c)"
+        ]
+    }
 }

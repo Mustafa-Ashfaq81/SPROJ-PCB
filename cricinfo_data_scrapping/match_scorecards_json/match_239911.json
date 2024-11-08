@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Terry Duffin(c)",
-                    "dismissal": "run out (Ramdin)",
+                    "dismissal": "run out ( (wk)Ramdin)",
                     "runs": "38",
                     "balls": "107",
                     "minutes": "127",
@@ -53,7 +53,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "c Collymore b Bravo",
                     "runs": "21",
                     "balls": "35",
@@ -260,7 +260,7 @@
                     "strike_rate": "69.23"
                 }
             ],
-            "did_not_bat": "Brian Lara (c) , Ramnaresh Sarwan , Marlon Samuels , Denesh Ramdin , Jerome Taylor , Corey Collymore , Runako Morton , Dwayne Bravo , Dave Mohammed",
+            "did_not_bat": "Brian Lara (c) , Ramnaresh Sarwan , Marlon Samuels , Denesh Ramdin (wk) , Jerome Taylor , Corey Collymore , Runako Morton , Dwayne Bravo , Dave Mohammed",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -350,5 +350,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 10 wickets (with 134 balls remaining)"
+    "result": "West Indies won by 10 wickets (with 134 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Gregory Strydom",
+            "Tawanda Mupariwa",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Keith Dabengwa",
+            "Prosper Utseya",
+            "Blessing Mahwire",
+            "Piet Rinke",
+            "Anthony Ireland",
+            "Terry Duffin(c)",
+            "Vusi Sibanda"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Marlon Samuels",
+            "Sewnarine Chattergoon",
+            "Jerome Taylor",
+            "Dwayne Bravo",
+            "Denesh Ramdin (wk)",
+            "Dave Mohammed",
+            "Ramnaresh Sarwan",
+            "Runako Morton",
+            "Corey Collymore",
+            "Brian Lara (c)"
+        ]
+    }
 }

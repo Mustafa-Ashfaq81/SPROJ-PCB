@@ -82,7 +82,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Fakhar Zaman b Iftikhar Ahmed",
                     "runs": "56",
                     "balls": "61",
@@ -255,7 +255,7 @@
                     "strike_rate": "91.30"
                 }
             ],
-            "did_not_bat": "Mohammad Rizwan , Asif Ali , Iftikhar Ahmed , Khushdil Shah , Mohammad Wasim , Shaheen Shah Afridi , Haris Rauf , Zahid Mahmood",
+            "did_not_bat": "Mohammad Rizwan (wk) , Asif Ali , Iftikhar Ahmed , Khushdil Shah , Mohammad Wasim , Shaheen Shah Afridi , Haris Rauf , Zahid Mahmood",
             "fall_of_wickets": "Fall of wickets : 1 - 24 ( Fakhar Zaman , 3.4 ov )",
             "bowling": [
                 {
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 9 wickets (with 73 balls remaining)"
+    "result": "Pakistan won by 9 wickets (with 73 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Jason Behrendorff",
+            "Nathan Ellis",
+            "Marnus Labuschagne",
+            "Adam Zampa",
+            "Travis Head",
+            "Sean Abbott",
+            "Cameron Green",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "Ben McDermott",
+            "Marcus Stoinis"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Haris Rauf",
+            "Babar Azam(c)",
+            "Mohammad Wasim",
+            "Khushdil Shah",
+            "Zahid Mahmood",
+            "Imam-ul-Haq",
+            "Mohammad Rizwan (wk)",
+            "Iftikhar Ahmed",
+            "Asif Ali",
+            "Shaheen Shah Afridi"
+        ]
+    }
 }

@@ -50,7 +50,7 @@
                     "strike_rate": "21.73"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
+                    "batsman": "Kusal Mendis(c) (wk)",
                     "dismissal": "c Rahmanullah Gurbaz b Azmatullah Omarzai",
                     "runs": "61",
                     "balls": "65",
@@ -198,7 +198,7 @@
             "batting": [
                 {
                     "batsman": "Rahmanullah Gurbaz",
-                    "dismissal": "c Mendis b AM Fernando",
+                    "dismissal": "c (wk)Mendis b AM Fernando",
                     "runs": "8",
                     "balls": "20",
                     "minutes": "33",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Ibrahim Zadran",
-                    "dismissal": "c Mendis b AM Fernando",
+                    "dismissal": "c (wk)Mendis b AM Fernando",
                     "runs": "54",
                     "balls": "76",
                     "minutes": "114",
@@ -257,8 +257,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
-                    "dismissal": "run out (Pramod Madushan/Mendis)",
+                    "batsman": "Ikram Alikhil (wk)",
+                    "dismissal": "run out (Pramod Madushan/ (wk)Mendis)",
                     "runs": "4",
                     "balls": "1",
                     "minutes": "7",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 155 runs"
+    "result": "Sri Lanka won by 155 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Charith Asalanka",
+            "Sadeera Samarawickrama",
+            "Dilshan Madushanka",
+            "Avishka Fernando",
+            "Pramod Madushan",
+            "Maheesh Theekshana",
+            "Kusal Mendis(c) (wk)",
+            "Janith Liyanage",
+            "Wanindu Hasaranga",
+            "Asitha Fernando",
+            "Pathum Nissanka"
+        ],
+        "Afghanistan": [
+            "Noor Ahmad",
+            "Qais Ahmad",
+            "Azmatullah Omarzai",
+            "Gulbadin Naib",
+            "Fazalhaq Farooqi",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz",
+            "Ibrahim Zadran",
+            "Mohammad Nabi",
+            "Ikram Alikhil (wk)",
+            "Rahmat Shah"
+        ]
+    }
 }

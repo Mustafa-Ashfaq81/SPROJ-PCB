@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma(c)",
-                    "dismissal": "c Hope b Roach",
+                    "dismissal": "c (wk)Hope b Roach",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "14",
@@ -42,7 +42,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "c Holder b Smith",
                     "runs": "18",
                     "balls": "34",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Hope b Smith",
+                    "dismissal": "c (wk)Hope b Smith",
                     "runs": "18",
                     "balls": "30",
                     "minutes": "42",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "KL Rahul",
-                    "dismissal": "run out (Hosein/Hope)",
+                    "dismissal": "run out (Hosein/ (wk)Hope)",
                     "runs": "49",
                     "balls": "48",
                     "minutes": "86",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Mohammed Siraj",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "9",
@@ -239,7 +239,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Yadav b Chahal",
                     "runs": "27",
                     "balls": "54",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Brandon King",
-                    "dismissal": "c Pant b Prasidh Krishna",
+                    "dismissal": "c (wk)Pant b Prasidh Krishna",
                     "runs": "18",
                     "balls": "20",
                     "minutes": "33",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Pant b Prasidh Krishna",
+                    "dismissal": "c (wk)Pant b Prasidh Krishna",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "11",
@@ -300,7 +300,7 @@
                 },
                 {
                     "batsman": "Akeal Hosein",
-                    "dismissal": "c Pant b Thakur",
+                    "dismissal": "c (wk)Pant b Thakur",
                     "runs": "34",
                     "balls": "52",
                     "minutes": "80",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Fabian Allen",
-                    "dismissal": "c Pant b Mohammed Siraj",
+                    "dismissal": "c (wk)Pant b Mohammed Siraj",
                     "runs": "13",
                     "balls": "22",
                     "minutes": "39",
@@ -439,5 +439,33 @@
             ]
         }
     ],
-    "result": "India won by 44 runs"
+    "result": "India won by 44 runs",
+    "playing_xi": {
+        "India": [
+            "Mohammed Siraj",
+            "Shardul Thakur",
+            "KL Rahul",
+            "Prasidh Krishna",
+            "Washington Sundar",
+            "Deepak Hooda",
+            "Rohit Sharma(c)",
+            "Suryakumar Yadav",
+            "Yuzvendra Chahal",
+            "Virat Kohli",
+            "Rishabh Pant (wk)"
+        ],
+        "West Indies": [
+            "Akeal Hosein",
+            "Jason Holder",
+            "Nicholas Pooran(c)",
+            "Shamarh Brooks",
+            "Alzarri Joseph",
+            "Shai Hope (wk)",
+            "Kemar Roach",
+            "Darren Bravo",
+            "Fabian Allen",
+            "Brandon King",
+            "Odean Smith"
+        ]
+    }
 }

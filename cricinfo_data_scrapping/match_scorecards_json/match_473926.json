@@ -90,8 +90,8 @@
                     "strike_rate": "82.66"
                 },
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "c Kamran Akmal b Wahab Riaz",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Wahab Riaz",
                     "runs": "37",
                     "balls": "39",
                     "minutes": "42",
@@ -237,7 +237,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Taylor b Styris",
                     "runs": "20",
                     "balls": "30",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "run out (NL McCullum/BB McCullum)",
+                    "dismissal": "run out (NL McCullum/ (wk)BB McCullum)",
                     "runs": "42",
                     "balls": "63",
                     "minutes": "101",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Wahab Riaz",
-                    "dismissal": "c BB McCullum b Styris",
+                    "dismissal": "c (wk)BB McCullum b Styris",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "7",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 2 wickets (with 6 balls remaining)"
+    "result": "Pakistan won by 2 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Jamie How",
+            "Brendon McCullum (wk)",
+            "Martin Guptill",
+            "Hamish Bennett",
+            "Scott Styris",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Tim Southee",
+            "Nathan McCullum",
+            "James Franklin",
+            "Daniel Vettori(c)"
+        ],
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Abdul Razzaq",
+            "Kamran Akmal (wk)",
+            "Wahab Riaz",
+            "Ahmed Shehzad",
+            "Umar Gul",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Sohail Tanvir",
+            "Misbah-ul-Haq",
+            "Umar Akmal"
+        ]
+    }
 }

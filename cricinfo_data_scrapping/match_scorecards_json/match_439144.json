@@ -70,8 +70,8 @@
                     "strike_rate": "41.17"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Ramdin b Sammy",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Ramdin b Sammy",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Ray Price",
-                    "dismissal": "run out (Ramdin/Rampaul)",
+                    "dismissal": "run out ( (wk)Ramdin/Rampaul)",
                     "runs": "4",
                     "balls": "13",
                     "minutes": "15",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "st Taibu b Lamb",
+                    "dismissal": "st (wk)Taibu b Lamb",
                     "runs": "14",
                     "balls": "35",
                     "minutes": "46",
@@ -267,7 +267,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "not out",
                     "runs": "21",
                     "balls": "34",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "st Taibu b Utseya",
+                    "dismissal": "st (wk)Taibu b Utseya",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 4 wickets (with 134 balls remaining)"
+    "result": "West Indies won by 4 wickets (with 134 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Prosper Utseya(c)",
+            "Hamilton Masakadza",
+            "Brendan Taylor",
+            "Tatenda Taibu (wk)",
+            "Charles Coventry",
+            "Ray Price",
+            "Elton Chigumbura",
+            "Graeme Cremer",
+            "Timycen Maruma",
+            "Greg Lamb",
+            "Vusi Sibanda"
+        ],
+        "West Indies": [
+            "Chris Gayle(c)",
+            "Kieron Pollard",
+            "David Bernard",
+            "Dwayne Bravo",
+            "Sulieman Benn",
+            "Darren Bravo",
+            "Denesh Ramdin (wk)",
+            "Narsingh Deonarine",
+            "Adrian Barath",
+            "Daren Sammy",
+            "Ravi Rampaul"
+        ]
+    }
 }

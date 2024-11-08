@@ -35,7 +35,7 @@
             "extras": "25",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Abdul Razzaq",
                     "runs": "47",
                     "balls": "46",
@@ -96,7 +96,7 @@
                 },
                 {
                     "batsman": "Simon Katich",
-                    "dismissal": "c Younis Khan b Mohammad Khalil",
+                    "dismissal": "c (wk)Younis Khan b Mohammad Khalil",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -106,7 +106,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "c Younis Khan b Mohammad Khalil",
+                    "dismissal": "c (wk)Younis Khan b Mohammad Khalil",
                     "runs": "10",
                     "balls": "13",
                     "minutes": "-",
@@ -126,7 +126,7 @@
                 },
                 {
                     "batsman": "Jason Gillespie",
-                    "dismissal": "c Younis Khan b Abdul Razzaq",
+                    "dismissal": "c (wk)Younis Khan b Abdul Razzaq",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "-",
@@ -248,7 +248,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Younis Khan",
+                    "batsman": "Younis Khan (wk)",
                     "dismissal": "c Martyn b McGrath",
                     "runs": "6",
                     "balls": "14",
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 16 balls remaining)"
+    "result": "Pakistan won by 3 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Simon Katich",
+            "Adam Gilchrist (wk)",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Damien Martyn"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Naved-ul-Hasan",
+            "Iftikhar Anjum",
+            "Mohammad Khalil",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Younis Khan (wk)"
+        ]
+    }
 }

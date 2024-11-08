@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c Kamran Akmal b Mohammad Asif",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Asif",
                     "runs": "16",
                     "balls": "27",
                     "minutes": "44",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "c Kamran Akmal b Mohammad Asif",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Asif",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "15",
@@ -102,7 +102,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "c & b Mohammad Hafeez",
                     "runs": "0",
                     "balls": "2",
@@ -269,7 +269,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Mohammad Yousuf , Inzamam-ul-Haq (c) , Abdul Razzaq , Shahid Afridi , Kamran Akmal , Naved-ul-Hasan , Shoaib Akhtar , Mohammad Asif",
+            "did_not_bat": "Mohammad Yousuf , Inzamam-ul-Haq (c) , Abdul Razzaq , Shahid Afridi , Kamran Akmal (wk) , Naved-ul-Hasan , Shoaib Akhtar , Mohammad Asif",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Shoaib Malik , 1.4 ov )",
             "bowling": [
                 {
@@ -303,5 +303,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "England": [
+            "Jamie Dalrymple",
+            "Darren Gough",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Andrew Strauss(c)",
+            "Chris Read (wk)",
+            "Stuart Broad",
+            "Sajid Mahmood",
+            "Marcus Trescothick",
+            "Rikki Clarke",
+            "Ian Bell"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Shahid Afridi",
+            "Shoaib Akhtar",
+            "Abdul Razzaq",
+            "Mohammad Hafeez",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Mohammad Asif",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq (c)",
+            "Shoaib Malik"
+        ]
+    }
 }

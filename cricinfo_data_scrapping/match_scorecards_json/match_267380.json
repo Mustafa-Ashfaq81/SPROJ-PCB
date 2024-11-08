@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "William Porterfield",
-                    "dismissal": "c Smith b Hoffmann",
+                    "dismissal": "c (wk)Smith b Hoffmann",
                     "runs": "11",
                     "balls": "22",
                     "minutes": "28",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Smith b Wright",
+                    "dismissal": "c (wk)Smith b Wright",
                     "runs": "41",
                     "balls": "60",
                     "minutes": "74",
@@ -60,7 +60,7 @@
                     "strike_rate": "68.33"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "lbw b Haq",
                     "runs": "10",
                     "balls": "10",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Andre Botha",
-                    "dismissal": "st Smith b Haq",
+                    "dismissal": "st (wk)Smith b Haq",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "11",
@@ -287,7 +287,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "not out",
                     "runs": "49",
                     "balls": "49",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 3 wickets (with 0 balls remaining)"
+    "result": "Scotland won by 3 wickets (with 0 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Dave Langford-Smith",
+            "Jeremy Bray",
+            "Niall O'Brien (wk)",
+            "Eoin Morgan",
+            "Kevin O'Brien",
+            "John Mooney",
+            "Kyle McCallan",
+            "William Porterfield",
+            "Andre Botha",
+            "Andrew White",
+            "Trent Johnston(c)"
+        ],
+        "Scotland": [
+            "Neil McCallum",
+            "Gavin Hamilton",
+            "Paul Hoffmann",
+            "Craig Wright(c)",
+            "Ross Lyons",
+            "John Blain",
+            "Dougie Brown",
+            "Ryan Watson",
+            "Fraser Watts",
+            "Majid Haq",
+            "Colin Smith (wk)"
+        ]
+    }
 }

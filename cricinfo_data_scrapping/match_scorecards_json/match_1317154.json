@@ -30,8 +30,8 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "st Nurul Hasan b Taijul Islam",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "st (wk)Nurul Hasan b Taijul Islam",
                     "runs": "2",
                     "balls": "15",
                     "minutes": "22",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Keemo Paul",
-                    "dismissal": "st Nurul Hasan b Taijul Islam",
+                    "dismissal": "st (wk)Nurul Hasan b Taijul Islam",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "14",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Najmul Hossain Shanto",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "1",
                     "balls": "13",
                     "minutes": "27",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "st Hope b Pooran",
+                    "dismissal": "st (wk)Hope b Pooran",
                     "runs": "26",
                     "balls": "61",
                     "minutes": "96",
@@ -297,7 +297,7 @@
                     "strike_rate": "56.00"
                 },
                 {
-                    "batsman": "Nurul Hasan",
+                    "batsman": "Nurul Hasan (wk)",
                     "dismissal": "not out",
                     "runs": "32",
                     "balls": "38",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 4 wickets (with 9 balls remaining)"
+    "result": "Bangladesh won by 4 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Gudakesh Motie",
+            "Nicholas Pooran(c)",
+            "Rovman Powell",
+            "Romario Shepherd",
+            "Shai Hope (wk)",
+            "Brandon King",
+            "Shamarh Brooks",
+            "Keacy Carty",
+            "Keemo Paul",
+            "Akeal Hosein",
+            "Alzarri Joseph"
+        ],
+        "Bangladesh": [
+            "Mehidy Hasan Miraz",
+            "Mustafizur Rahman",
+            "Afif Hossain",
+            "Litton Das",
+            "Mosaddek Hossain",
+            "Nurul Hasan (wk)",
+            "Mahmudullah",
+            "Nasum Ahmed",
+            "Taijul Islam",
+            "Tamim Iqbal(c)",
+            "Najmul Hossain Shanto"
+        ]
+    }
 }

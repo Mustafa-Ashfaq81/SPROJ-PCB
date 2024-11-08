@@ -70,7 +70,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "lbw b Starc",
                     "runs": "9",
                     "balls": "12",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "c Carey b Ellis",
+                    "dismissal": "c (wk)Carey b Ellis",
                     "runs": "16",
                     "balls": "39",
                     "minutes": "54",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Mohammed Shami",
-                    "dismissal": "c Carey b Abbott",
+                    "dismissal": "c (wk)Carey b Abbott",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -243,7 +243,7 @@
                     "strike_rate": "183.33"
                 }
             ],
-            "did_not_bat": "Steven Smith (c) , Marnus Labuschagne , Cameron Green , Alex Carey , Marcus Stoinis , Sean Abbott , Mitchell Starc , Adam Zampa , Nathan Ellis",
+            "did_not_bat": "Steven Smith (c) , Marnus Labuschagne , Cameron Green , Alex Carey (wk) , Marcus Stoinis , Sean Abbott , Mitchell Starc , Adam Zampa , Nathan Ellis",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -319,5 +319,33 @@
             ]
         }
     ],
-    "result": "Australia won by 10 wickets (with 234 balls remaining)"
+    "result": "Australia won by 10 wickets (with 234 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma(c)",
+            "Hardik Pandya",
+            "Suryakumar Yadav",
+            "Mohammed Siraj",
+            "Ravindra Jadeja",
+            "Shubman Gill",
+            "Kuldeep Yadav",
+            "Axar Patel",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "KL Rahul (wk)"
+        ],
+        "Australia": [
+            "Marcus Stoinis",
+            "Mitchell Starc",
+            "Sean Abbott",
+            "Mitchell Marsh",
+            "Alex Carey (wk)",
+            "Adam Zampa",
+            "Marnus Labuschagne",
+            "Nathan Ellis",
+            "Travis Head",
+            "Cameron Green",
+            "Steven Smith (c)"
+        ]
+    }
 }

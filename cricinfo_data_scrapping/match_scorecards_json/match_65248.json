@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "23",
                     "balls": "28",
                     "minutes": "43",
@@ -71,7 +71,7 @@
                     "strike_rate": "68.75"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Cairns b Oram",
                     "runs": "10",
                     "balls": "14",
@@ -209,7 +209,7 @@
             "batting": [
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Boucher b Donald",
+                    "dismissal": "c (wk)Boucher b Donald",
                     "runs": "25",
                     "balls": "32",
                     "minutes": "60",
@@ -238,7 +238,7 @@
                     "strike_rate": "94.73"
                 }
             ],
-            "did_not_bat": "Scott Styris , Chris Cairns , Lou Vincent , Brendon McCullum , Jacob Oram , Andre Adams , Daniel Vettori , Shane Bond",
+            "did_not_bat": "Scott Styris , Chris Cairns , Lou Vincent , Brendon McCullum (wk) , Jacob Oram , Andre Adams , Daniel Vettori , Shane Bond",
             "fall_of_wickets": "Fall of wickets : 1 - 89 ( Craig McMillan , 14.1 ov )",
             "bowling": [
                 {
@@ -328,5 +328,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 9 wickets (with 13 balls remaining) (D/L method)"
+    "result": "New Zealand won by 9 wickets (with 13 balls remaining) (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Nicky Boje",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Boeta Dippenaar",
+            "Allan Donald",
+            "Lance Klusener",
+            "Graeme Smith",
+            "Makhaya Ntini"
+        ],
+        "New Zealand": [
+            "Shane Bond",
+            "Lou Vincent",
+            "Stephen Fleming(c)",
+            "Nathan Astle",
+            "Craig McMillan",
+            "Brendon McCullum (wk)",
+            "Daniel Vettori",
+            "Jacob Oram",
+            "Scott Styris",
+            "Chris Cairns",
+            "Andre Adams"
+        ]
+    }
 }

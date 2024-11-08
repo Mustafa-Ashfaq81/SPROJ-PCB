@@ -34,7 +34,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Ashwin",
                     "runs": "27",
                     "balls": "41",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Janneman Malan",
-                    "dismissal": "c Pant b Bumrah",
+                    "dismissal": "c (wk)Pant b Bumrah",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "21",
@@ -178,7 +178,7 @@
             "batting": [
                 {
                     "batsman": "KL Rahul(c)",
-                    "dismissal": "c de Kock b Markram",
+                    "dismissal": "c (wk)de Kock b Markram",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "32",
@@ -207,8 +207,8 @@
                     "strike_rate": "80.95"
                 },
                 {
-                    "batsman": "Rishabh Pant",
-                    "dismissal": "st de Kock b Phehlukwayo",
+                    "batsman": "Rishabh Pant (wk)",
+                    "dismissal": "st (wk)de Kock b Phehlukwayo",
                     "runs": "16",
                     "balls": "22",
                     "minutes": "44",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Shreyas Iyer",
-                    "dismissal": "c de Kock b Ngidi",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "17",
                     "balls": "17",
                     "minutes": "25",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 31 runs"
+    "result": "South Africa won by 31 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Keshav Maharaj",
+            "Rassie van der Dussen",
+            "Janneman Malan",
+            "Temba Bavuma(c)",
+            "Marco Jansen",
+            "Aiden Markram",
+            "Lungi Ngidi",
+            "Quinton de Kock (wk)",
+            "Tabraiz Shamsi",
+            "David Miller",
+            "Andile Phehlukwayo"
+        ],
+        "India": [
+            "Shardul Thakur",
+            "Bhuvneshwar Kumar",
+            "Jasprit Bumrah",
+            "Ravichandran Ashwin",
+            "Shreyas Iyer",
+            "Venkatesh Iyer",
+            "KL Rahul(c)",
+            "Rishabh Pant (wk)",
+            "Yuzvendra Chahal",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ]
+    }
 }

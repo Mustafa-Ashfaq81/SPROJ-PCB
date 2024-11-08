@@ -34,7 +34,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "run out (Mohammad Ashraful)",
                     "runs": "0",
                     "balls": "9",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "c Mushfiqur Rahim b Shafiul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shafiul Islam",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "6",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori(c)",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "32",
                     "balls": "27",
                     "minutes": "37",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c McCullum b Vettori",
+                    "dismissal": "c (wk)McCullum b Vettori",
                     "runs": "62",
                     "balls": "69",
                     "minutes": "95",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c McCullum b McKay",
+                    "dismissal": "c (wk)McCullum b McKay",
                     "runs": "33",
                     "balls": "29",
                     "minutes": "49",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c McCullum b McKay",
+                    "dismissal": "c (wk)McCullum b McKay",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "17",
@@ -291,8 +291,8 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c McCullum b Tuffey",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "8",
                     "balls": "24",
                     "minutes": "28",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Naeem Islam",
-                    "dismissal": "c McCullum b Guptill",
+                    "dismissal": "c (wk)McCullum b Guptill",
                     "runs": "15",
                     "balls": "49",
                     "minutes": "59",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 146 runs"
+    "result": "New Zealand won by 146 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Daniel Vettori(c)",
+            "James Franklin",
+            "Martin Guptill",
+            "Neil Broom",
+            "Daryl Tuffey",
+            "Peter Ingram",
+            "Tim Southee",
+            "Ross Taylor",
+            "Jacob Oram",
+            "Brendon McCullum (wk)",
+            "Andy McKay"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Mohammad Ashraful",
+            "Imrul Kayes",
+            "Raqibul Hasan",
+            "Shakib Al Hasan(c)",
+            "Nazmul Hossain",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ]
+    }
 }

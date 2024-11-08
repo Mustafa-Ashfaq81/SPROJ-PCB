@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Usman Khawaja",
-                    "dismissal": "c Ramdin b Holder",
+                    "dismissal": "c (wk)Ramdin b Holder",
                     "runs": "14",
                     "balls": "14",
                     "minutes": "20",
@@ -90,7 +90,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "not out",
                     "runs": "57",
                     "balls": "52",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "st Ramdin b Narine",
+                    "dismissal": "st (wk)Ramdin b Narine",
                     "runs": "17",
                     "balls": "25",
                     "minutes": "26",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Wade b Marsh",
+                    "dismissal": "c (wk)Wade b Marsh",
                     "runs": "6",
                     "balls": "20",
                     "minutes": "24",
@@ -277,7 +277,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Hazlewood",
                     "runs": "40",
                     "balls": "67",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Australia won by 58 runs"
+    "result": "Australia won by 58 runs",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "George Bailey",
+            "Glenn Maxwell",
+            "Mitchell Starc",
+            "Aaron Finch",
+            "Matthew Wade (wk)",
+            "Mitchell Marsh",
+            "Usman Khawaja",
+            "Adam Zampa",
+            "Josh Hazlewood",
+            "Nathan Coulter-Nile"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Carlos Brathwaite",
+            "Sulieman Benn",
+            "Kieron Pollard",
+            "Jason Holder(c)",
+            "Johnson Charles",
+            "Denesh Ramdin (wk)",
+            "Sunil Narine",
+            "Shannon Gabriel",
+            "Andre Fletcher",
+            "Darren Bravo"
+        ]
+    }
 }

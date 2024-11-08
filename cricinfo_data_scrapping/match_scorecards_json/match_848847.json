@@ -30,7 +30,7 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Morne van Wyk",
+                    "batsman": "Morne van Wyk (wk)",
                     "dismissal": "c Latham b Elliott",
                     "runs": "58",
                     "balls": "100",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Ronchi b Milne",
+                    "dismissal": "c (wk)Ronchi b Milne",
                     "runs": "36",
                     "balls": "37",
                     "minutes": "60",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c van Wyk b Steyn",
+                    "dismissal": "c (wk)van Wyk b Steyn",
                     "runs": "10",
                     "balls": "18",
                     "minutes": "19",
@@ -267,7 +267,7 @@
                     "strike_rate": "79.54"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Amla b Rabada",
                     "runs": "1",
                     "balls": "3",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 62 runs"
+    "result": "South Africa won by 62 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Farhaan Behardien",
+            "Kyle Abbott",
+            "AB de Villiers(c)",
+            "David Wiese",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Kagiso Rabada",
+            "Morne van Wyk (wk)",
+            "Imran Tahir",
+            "David Miller"
+        ],
+        "New Zealand": [
+            "Tom Latham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Grant Elliott",
+            "Luke Ronchi (wk)",
+            "Ben Wheeler",
+            "Adam Milne",
+            "Doug Bracewell",
+            "Ish Sodhi",
+            "Colin Munro",
+            "George Worker"
+        ]
+    }
 }

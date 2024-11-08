@@ -51,7 +51,7 @@
                     "strike_rate": "86.36"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Nazimuddin b Nazmul Hossain",
                     "runs": "6",
                     "balls": "14",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "48",
                     "balls": "73",
                     "minutes": "89",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Mushfiqur Rahim b Shahadat Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shahadat Hossain",
                     "runs": "48",
                     "balls": "44",
                     "minutes": "60",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Farveez Maharoof",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "4",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Suranga Lakmal",
-                    "dismissal": "run out (Jahurul Islam/Mushfiqur Rahim)",
+                    "dismissal": "run out (Jahurul Islam/ (wk)Mushfiqur Rahim)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -268,7 +268,7 @@
                     "strike_rate": "13.33"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "b Kulasekara",
                     "runs": "1",
                     "balls": "4",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 5 wickets (with 17 balls remaining) (D/L method)"
+    "result": "Bangladesh won by 5 wickets (with 17 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Sachithra Senanayake",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Suranga Lakmal",
+            "Chamara Kapugedera",
+            "Farveez Maharoof",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Lahiru Thirimanne",
+            "Upul Tharanga"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Jahurul Islam",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Nazimuddin",
+            "Mahmudullah",
+            "Mashrafe Mortaza",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim(c) (wk)",
+            "Nazmul Hossain",
+            "Shakib Al Hasan"
+        ]
+    }
 }

@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Ramdin b Collymore",
+                    "dismissal": "c (wk)Ramdin b Collymore",
                     "runs": "7",
                     "balls": "22",
                     "minutes": "35",
@@ -74,7 +74,7 @@
                     "strike_rate": "152.50"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c & b Bravo",
                     "runs": "52",
                     "balls": "23",
@@ -275,7 +275,7 @@
                     "strike_rate": "58.82"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c sub (RJ Peterson) b Smith",
                     "runs": "4",
                     "balls": "9",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 67 runs"
+    "result": "South Africa won by 67 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Jacques Kallis",
+            "Shaun Pollock",
+            "Andrew Hall",
+            "Loots Bosman"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Kieron Pollard",
+            "Ian Bradshaw",
+            "Devon Smith",
+            "Dwayne Bravo",
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Daren Powell",
+            "Corey Collymore"
+        ]
+    }
 }

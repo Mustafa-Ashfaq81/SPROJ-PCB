@@ -30,7 +30,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "lbw b Kulasekara",
                     "runs": "23",
                     "balls": "28",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Wade b Henriques",
+                    "dismissal": "c (wk)Wade b Henriques",
                     "runs": "19",
                     "balls": "48",
                     "minutes": "79",
@@ -227,7 +227,7 @@
                     "strike_rate": "10.00"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "b Doherty",
                     "runs": "6",
                     "balls": "19",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 32 runs"
+    "result": "Australia won by 32 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "David Warner",
+            "Moises Henriques",
+            "Matthew Wade (wk)",
+            "Mitchell Starc",
+            "Clint McKay",
+            "Xavier Doherty",
+            "David Hussey",
+            "Phillip Hughes",
+            "Glenn Maxwell",
+            "George Bailey(c)"
+        ],
+        "Sri Lanka": [
+            "Mahela Jayawardene(c)",
+            "Dinesh Chandimal (wk)",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Lasith Malinga",
+            "Jeevan Mendis",
+            "Rangana Herath",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

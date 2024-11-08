@@ -8,8 +8,8 @@
         "date": "August 20",
         "toss": "Asia XI, elected to bat first",
         "series": [
-            "Africa XI tour of South Africa",
-            "Asia XI tour of South Africa"
+            "Asia XI tour of South Africa",
+            "Africa XI tour of South Africa"
         ],
         "season": "2005",
         "player_of_the_match": "Kumar Sangakkara",
@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Boucher b Odoyo",
+                    "dismissal": "c (wk)Boucher b Odoyo",
                     "runs": "38",
                     "balls": "51",
                     "minutes": "78",
@@ -51,8 +51,8 @@
                     "strike_rate": "300.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Boucher b Odoyo",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Boucher b Odoyo",
                     "runs": "61",
                     "balls": "70",
                     "minutes": "97",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "st Boucher b Odoyo",
+                    "dismissal": "st (wk)Boucher b Odoyo",
                     "runs": "52",
                     "balls": "72",
                     "minutes": "106",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "c Boucher b Streak",
+                    "dismissal": "c (wk)Boucher b Streak",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "11",
@@ -228,7 +228,7 @@
                     "strike_rate": "88.46"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Jayawardene b Khan",
                     "runs": "16",
                     "balls": "16",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "run out (Sangakkara)",
+                    "dismissal": "run out ( (wk)Sangakkara)",
                     "runs": "39",
                     "balls": "67",
                     "minutes": "110",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Jacques Rudolph",
-                    "dismissal": "c Sangakkara b Nehra",
+                    "dismissal": "c (wk)Sangakkara b Nehra",
                     "runs": "10",
                     "balls": "22",
                     "minutes": "33",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Justin Kemp",
-                    "dismissal": "run out (Sangakkara/Muralidaran)",
+                    "dismissal": "run out ( (wk)Sangakkara/Muralidaran)",
                     "runs": "38",
                     "balls": "57",
                     "minutes": "64",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Asia XI won by 17 runs"
+    "result": "Asia XI won by 17 runs",
+    "playing_xi": {
+        "Asia XI": [
+            "Shoaib Akhtar",
+            "Virender Sehwag",
+            "Ashish Nehra",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Zaheer Khan",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Muthiah Muralidaran",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ],
+        "Africa XI": [
+            "Justin Kemp",
+            "Nicky Boje",
+            "Thomas Odoyo",
+            "Shaun Pollock(c)",
+            "Steve Tikolo",
+            "Mark Boucher (wk)",
+            "Boeta Dippenaar",
+            "Ashwell Prince",
+            "Jacques Rudolph",
+            "Heath Streak",
+            "AB de Villiers"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "run out (Al Sahariar/Khaled Mashud)",
+                    "dismissal": "run out (Al Sahariar/ (wk)Khaled Mashud)",
                     "runs": "38",
                     "balls": "70",
                     "minutes": "105",
@@ -89,7 +89,7 @@
                     "strike_rate": "176.00"
                 },
                 {
-                    "batsman": "Ridley Jacobs(c)",
+                    "batsman": "Ridley Jacobs(c) (wk)",
                     "dismissal": "c Tapash Baisya b Mohammad Ashraful",
                     "runs": "10",
                     "balls": "8",
@@ -217,7 +217,7 @@
             "batting": [
                 {
                     "batsman": "Hannan Sarkar",
-                    "dismissal": "c Jacobs b Drakes",
+                    "dismissal": "c (wk)Jacobs b Drakes",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "18",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar",
-                    "dismissal": "c Jacobs b Drakes",
+                    "dismissal": "c (wk)Jacobs b Drakes",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "12",
@@ -276,7 +276,7 @@
                     "strike_rate": "105.26"
                 }
             ],
-            "did_not_bat": "Naimur Rahman , Mohammad Rafique , Tapash Baisya , Manjurul Islam , Khaled Mashud (c)",
+            "did_not_bat": "Naimur Rahman , Mohammad Rafique , Tapash Baisya , Manjurul Islam , Khaled Mashud (c) (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 15 ( Hannan Sarkar , 4.2 ov ) , 2 - 34 ( Al Sahariar , 6.3 ov ) , 3 - 48 ( Habibul Bashar , 8.6 ov ) , 4 - 52 ( Mohammad Ashraful , 10.2 ov )",
             "bowling": [
                 {
@@ -352,5 +352,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Daren Ganga",
+            "Chris Gayle",
+            "Ramnaresh Sarwan",
+            "Ricardo Powell",
+            "Jermaine Lawson",
+            "Corey Collymore",
+            "Mahendra Nagamootoo",
+            "Ridley Jacobs(c) (wk)",
+            "Vasbert Drakes"
+        ],
+        "Bangladesh": [
+            "Mohammad Rafique",
+            "Mohammad Ashraful",
+            "Alok Kapali",
+            "Khaled Mashud (c) (wk)",
+            "Al Sahariar",
+            "Naimur Rahman",
+            "Sanuar Hossain",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Manjurul Islam",
+            "Hannan Sarkar"
+        ]
+    }
 }

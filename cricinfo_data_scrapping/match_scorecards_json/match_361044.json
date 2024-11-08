@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Prior b Broad",
+                    "dismissal": "c (wk)Prior b Broad",
                     "runs": "118",
                     "balls": "122",
                     "minutes": "153",
@@ -80,7 +80,7 @@
                     "strike_rate": "96.72"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Collingwood",
                     "runs": "15",
                     "balls": "26",
@@ -261,7 +261,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "b Yuvraj Singh",
                     "runs": "38",
                     "balls": "64",
@@ -342,7 +342,7 @@
                 },
                 {
                     "batsman": "Steve Harmison",
-                    "dismissal": "st Dhoni b Sehwag",
+                    "dismissal": "st (wk)Dhoni b Sehwag",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "5",
@@ -465,5 +465,33 @@
             ]
         }
     ],
-    "result": "India won by 54 runs"
+    "result": "India won by 54 runs",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)",
+            "RP Singh",
+            "Zaheer Khan",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Virender Sehwag",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "Munaf Patel"
+        ],
+        "England": [
+            "Ian Bell",
+            "James Anderson",
+            "Matt Prior (wk)",
+            "Samit Patel",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Owais Shah",
+            "Andrew Flintoff",
+            "Kevin Pietersen(c)",
+            "Steve Harmison"
+        ]
+    }
 }

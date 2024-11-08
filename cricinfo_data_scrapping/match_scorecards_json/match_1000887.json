@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Travis Head",
-                    "dismissal": "c Mohammad Rizwan b Imad Wasim",
+                    "dismissal": "c (wk)Mohammad Rizwan b Imad Wasim",
                     "runs": "39",
                     "balls": "39",
                     "minutes": "61",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Steven Smith(c)",
-                    "dismissal": "c Mohammad Rizwan b Mohammad Amir",
+                    "dismissal": "c (wk)Mohammad Rizwan b Mohammad Amir",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Chris Lynn",
-                    "dismissal": "c Mohammad Rizwan b Hasan Ali",
+                    "dismissal": "c (wk)Mohammad Rizwan b Hasan Ali",
                     "runs": "16",
                     "balls": "12",
                     "minutes": "24",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "c Mohammad Rizwan b Imad Wasim",
+                    "dismissal": "c (wk)Mohammad Rizwan b Imad Wasim",
                     "runs": "4",
                     "balls": "17",
                     "minutes": "30",
@@ -94,7 +94,7 @@
                     "strike_rate": "107.14"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "not out",
                     "runs": "100",
                     "balls": "100",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Wade b Faulkner",
+                    "dismissal": "c (wk)Wade b Faulkner",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "11",
@@ -291,7 +291,7 @@
                     "strike_rate": "68.00"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "c Marsh b Cummins",
                     "runs": "21",
                     "balls": "44",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Australia won by 92 runs"
+    "result": "Australia won by 92 runs",
+    "playing_xi": {
+        "Australia": [
+            "Billy Stanlake",
+            "Steven Smith(c)",
+            "Matthew Wade (wk)",
+            "James Faulkner",
+            "Pat Cummins",
+            "Chris Lynn",
+            "David Warner",
+            "Glenn Maxwell",
+            "Mitchell Marsh",
+            "Travis Head",
+            "Mitchell Starc"
+        ],
+        "Pakistan": [
+            "Mohammad Rizwan (wk)",
+            "Wahab Riaz",
+            "Babar Azam",
+            "Azhar Ali(c)",
+            "Mohammad Nawaz",
+            "Mohammad Amir",
+            "Hasan Ali",
+            "Mohammad Hafeez",
+            "Sharjeel Khan",
+            "Imad Wasim",
+            "Umar Akmal"
+        ]
+    }
 }

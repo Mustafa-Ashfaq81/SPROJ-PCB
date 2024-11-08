@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Rob Key",
-                    "dismissal": "c Hopkins b Styris",
+                    "dismissal": "c (wk)Hopkins b Styris",
                     "runs": "18",
                     "balls": "34",
                     "minutes": "52",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Hopkins b Oram",
+                    "dismissal": "c (wk)Hopkins b Oram",
                     "runs": "20",
                     "balls": "20",
                     "minutes": "29",
@@ -95,7 +95,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "not out",
                     "runs": "1",
                     "balls": "2",
@@ -272,7 +272,7 @@
                     "strike_rate": "142.85"
                 }
             ],
-            "did_not_bat": "Chris Harris , Gareth Hopkins , Daniel Vettori , James Franklin , Ian Butler",
+            "did_not_bat": "Chris Harris , Gareth Hopkins (wk) , Daniel Vettori , James Franklin , Ian Butler",
             "fall_of_wickets": "Fall of wickets : 1 - 122 ( Nathan Astle , 26.4 ov ) , 2 - 226 ( Hamish Marshall , 42.4 ov ) , 3 - 227 ( Scott Styris , 43.2 ov ) , 4 - 231 ( Stephen Fleming , 45.1 ov )",
             "bowling": [
                 {
@@ -362,5 +362,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 6 wickets (with 16 balls remaining)"
+    "result": "New Zealand won by 6 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Marcus Trescothick",
+            "Rob Key",
+            "Paul Collingwood",
+            "Sajid Mahmood",
+            "Michael Vaughan(c)",
+            "Steve Harmison",
+            "Geraint Jones (wk)",
+            "Andrew Flintoff",
+            "Darren Gough",
+            "James Anderson",
+            "Andrew Strauss"
+        ],
+        "New Zealand": [
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Ian Butler",
+            "Nathan Astle",
+            "Gareth Hopkins (wk)",
+            "James Franklin",
+            "Chris Harris",
+            "Daniel Vettori",
+            "Hamish Marshall",
+            "Jacob Oram",
+            "Scott Styris"
+        ]
+    }
 }

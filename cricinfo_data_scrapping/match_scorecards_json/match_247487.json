@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Javed Omer",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "22",
                     "balls": "51",
                     "minutes": "79",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "st McCullum b Oram",
+                    "dismissal": "st (wk)McCullum b Oram",
                     "runs": "29",
                     "balls": "54",
                     "minutes": "69",
@@ -91,7 +91,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b Bond",
                     "runs": "0",
                     "balls": "5",
@@ -282,7 +282,7 @@
                     "strike_rate": "92.59"
                 }
             ],
-            "did_not_bat": "Scott Styris , Craig McMillan , Jacob Oram , Brendon McCullum , Daniel Vettori , James Franklin , Shane Bond , Michael Mason",
+            "did_not_bat": "Scott Styris , Craig McMillan , Jacob Oram , Brendon McCullum (wk) , Daniel Vettori , James Franklin , Shane Bond , Michael Mason",
             "fall_of_wickets": "Fall of wickets : 1 - 44 ( Peter Fulton , 9.2 ov )",
             "bowling": [
                 {
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 9 wickets (with 124 balls remaining)"
+    "result": "New Zealand won by 9 wickets (with 124 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Habibul Bashar(c)",
+            "Aftab Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Javed Omer",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Abdur Razzak",
+            "Mohammad Rafique"
+        ],
+        "New Zealand": [
+            "Michael Mason",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "James Franklin",
+            "Shane Bond",
+            "Daniel Vettori",
+            "Hamish Marshall",
+            "Peter Fulton",
+            "Scott Styris"
+        ]
+    }
 }

@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Rob Nicol",
-                    "dismissal": "c de Villiers b Botha",
+                    "dismissal": "c (wk)de Villiers b Botha",
                     "runs": "12",
                     "balls": "40",
                     "minutes": "56",
@@ -54,7 +54,7 @@
                     "strike_rate": "53.84"
                 },
                 {
-                    "batsman": "Brendon McCullum(c)",
+                    "batsman": "Brendon McCullum(c) (wk)",
                     "dismissal": "c du Plessis b de Lange",
                     "runs": "47",
                     "balls": "59",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "run out (du Plessis/de Villiers)",
+                    "dismissal": "run out (du Plessis/ (wk)de Villiers)",
                     "runs": "22",
                     "balls": "43",
                     "minutes": "69",
@@ -256,7 +256,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c BB McCullum b Mills",
+                    "dismissal": "c (wk)BB McCullum b Mills",
                     "runs": "76",
                     "balls": "89",
                     "minutes": "113",
@@ -305,7 +305,7 @@
                     "strike_rate": "67.56"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "not out",
                     "runs": "9",
                     "balls": "5",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 40 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 40 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "James Franklin",
+            "Martin Guptill",
+            "Andy McKay",
+            "Kyle Mills",
+            "Brendon McCullum(c) (wk)",
+            "Kane Williamson",
+            "Colin de Grandhomme",
+            "Nathan McCullum",
+            "Michael Bates",
+            "Rob Nicol",
+            "Andrew Ellis"
+        ],
+        "South Africa": [
+            "Johan Botha",
+            "Wayne Parnell",
+            "Lonwabo Tsotsobe",
+            "Robin Peterson",
+            "Dale Steyn",
+            "Marchant de Lange",
+            "Hashim Amla",
+            "Albie Morkel",
+            "Faf du Plessis",
+            "AB de Villiers(c) (wk)",
+            "Jean-Paul Duminy"
+        ]
+    }
 }

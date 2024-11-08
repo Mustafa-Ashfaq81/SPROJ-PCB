@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Travis Friend",
-                    "dismissal": "c Ratra b Agarkar",
+                    "dismissal": "c (wk)Ratra b Agarkar",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Andy Flower",
-                    "dismissal": "c Ratra b Khan",
+                    "dismissal": "c (wk)Ratra b Khan",
                     "runs": "89",
                     "balls": "107",
                     "minutes": "164",
@@ -113,7 +113,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "5",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c Taibu b Friend",
+                    "dismissal": "c (wk)Taibu b Friend",
                     "runs": "13",
                     "balls": "21",
                     "minutes": "31",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "run out (Taibu/Friend)",
+                    "dismissal": "run out ( (wk)Taibu/Friend)",
                     "runs": "68",
                     "balls": "101",
                     "minutes": "143",
@@ -290,7 +290,7 @@
                     "strike_rate": "166.66"
                 }
             ],
-            "did_not_bat": "Harbhajan Singh , Murali Kartik , Zaheer Khan , Ajay Ratra",
+            "did_not_bat": "Harbhajan Singh , Murali Kartik , Zaheer Khan , Ajay Ratra (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 30 ( Sourav Ganguly , 5.5 ov ) , 2 - 50 ( Dinesh Mongia , 10.6 ov ) , 3 - 56 ( VVS Laxman , 12.1 ov ) , 4 - 132 ( Rahul Dravid , 31.2 ov ) , 5 - 226 ( Mohammad Kaif , 46.3 ov )",
             "bowling": [
                 {
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 11 balls remaining)"
+    "result": "India won by 5 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Andy Flower",
+            "Dougie Marillier",
+            "Travis Friend",
+            "Tatenda Taibu (wk)",
+            "Pommie Mbangwa",
+            "Dion Ebrahim",
+            "Douglas Hondo",
+            "Grant Flower",
+            "Alistair Campbell",
+            "Heath Streak",
+            "Stuart Carlisle(c)"
+        ],
+        "India": [
+            "Ajay Ratra (wk)",
+            "Rahul Dravid",
+            "Harbhajan Singh",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Dinesh Mongia",
+            "Yuvraj Singh",
+            "Sourav Ganguly(c)",
+            "Murali Kartik"
+        ]
+    }
 }

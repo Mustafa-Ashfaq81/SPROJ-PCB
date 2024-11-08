@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "0",
                     "balls": "11",
                     "minutes": "7",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Nick Knight",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "5",
                     "balls": "16",
                     "minutes": "24",
@@ -71,8 +71,8 @@
                     "strike_rate": "8.33"
                 },
                 {
-                    "batsman": "Alec Stewart",
-                    "dismissal": "c Gilchrist b Williams",
+                    "batsman": "Alec Stewart (wk)",
+                    "dismissal": "c (wk)Gilchrist b Williams",
                     "runs": "12",
                     "balls": "13",
                     "minutes": "10",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "st Gilchrist b Warne",
+                    "dismissal": "st (wk)Gilchrist b Warne",
                     "runs": "43",
                     "balls": "71",
                     "minutes": "117",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "James Anderson",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "5",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Matthew Hoggard",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -224,7 +224,7 @@
             "extras": "4",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "not out",
                     "runs": "69",
                     "balls": "37",
@@ -306,5 +306,33 @@
             ]
         }
     ],
-    "result": "Australia won by 10 wickets (with 226 balls remaining)"
+    "result": "Australia won by 10 wickets (with 226 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Andy Caddick",
+            "Matthew Hoggard",
+            "Nick Knight",
+            "Michael Vaughan",
+            "Ian Blackwell",
+            "Ronnie Irani",
+            "Nasser Hussain(c)",
+            "Paul Collingwood",
+            "Alec Stewart (wk)",
+            "Marcus Trescothick"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Ricky Ponting (c)",
+            "Brad Williams",
+            "Brett Lee",
+            "Shane Warne",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Brad Hogg",
+            "Damien Martyn"
+        ]
+    }
 }

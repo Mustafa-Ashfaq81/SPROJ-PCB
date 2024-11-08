@@ -30,8 +30,8 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Carey b Starc",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "-",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Reeza Hendricks",
-                    "dismissal": "c Carey b Stoinis",
+                    "dismissal": "c (wk)Carey b Stoinis",
                     "runs": "8",
                     "balls": "26",
                     "minutes": "-",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "c Carey b Starc",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "32",
                     "balls": "42",
                     "minutes": "-",
@@ -198,7 +198,7 @@
             "batting": [
                 {
                     "batsman": "Chris Lynn",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -247,8 +247,8 @@
                     "strike_rate": "82.89"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c de Kock b Steyn",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "42",
                     "balls": "41",
                     "minutes": "-",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 40 runs"
+    "result": "South Africa won by 40 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Reeza Hendricks",
+            "Dale Steyn",
+            "Heinrich Klaasen",
+            "Kagiso Rabada",
+            "Lungi Ngidi",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis(c)",
+            "Imran Tahir",
+            "Dwaine Pretorius",
+            "Aiden Markram",
+            "David Miller"
+        ],
+        "Australia": [
+            "Mitchell Starc",
+            "Adam Zampa",
+            "Aaron Finch(c)",
+            "Pat Cummins",
+            "Shaun Marsh",
+            "Marcus Stoinis",
+            "Alex Carey (wk)",
+            "Josh Hazlewood",
+            "Chris Lynn",
+            "Travis Head",
+            "Glenn Maxwell"
+        ]
+    }
 }

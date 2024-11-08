@@ -44,8 +44,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Quinton de Kock(c)",
-                    "dismissal": "c Carey b Hazlewood",
+                    "batsman": "Quinton de Kock(c) (wk)",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "15",
                     "balls": "16",
                     "minutes": "30",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "64",
                     "balls": "70",
                     "minutes": "93",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Aaron Finch(c)",
-                    "dismissal": "c de Kock b Ngidi",
+                    "dismissal": "c (wk)de Kock b Ngidi",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "15",
@@ -271,7 +271,7 @@
                     "strike_rate": "84.21"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Verreynne b Shamsi",
                     "runs": "5",
                     "balls": "16",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "D'Arcy Short",
-                    "dismissal": "st de Kock b Shamsi",
+                    "dismissal": "st (wk)de Kock b Shamsi",
                     "runs": "18",
                     "balls": "24",
                     "minutes": "41",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "run out (de Kock)",
+                    "dismissal": "run out ( (wk)de Kock)",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "11",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 74 runs"
+    "result": "South Africa won by 74 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Andile Phehlukwayo",
+            "Kyle Verreynne",
+            "Janneman Malan",
+            "Heinrich Klaasen",
+            "Anrich Nortje",
+            "Tabraiz Shamsi",
+            "Lungi Ngidi",
+            "Quinton de Kock(c) (wk)",
+            "David Miller",
+            "Keshav Maharaj",
+            "Temba Bavuma"
+        ],
+        "Australia": [
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Steven Smith",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Marnus Labuschagne",
+            "David Warner",
+            "Adam Zampa",
+            "Mitchell Marsh",
+            "Josh Hazlewood",
+            "D'Arcy Short"
+        ]
+    }
 }

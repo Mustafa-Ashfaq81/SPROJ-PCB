@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c van Schoor b LJ Burger",
+                    "dismissal": "c (wk)van Schoor b LJ Burger",
                     "runs": "28",
                     "balls": "39",
                     "minutes": "48",
@@ -86,7 +86,7 @@
                     "strike_rate": "78.18"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "b Snyman",
                     "runs": "36",
                     "balls": "30",
@@ -107,7 +107,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c van Schoor b Snyman",
+                    "dismissal": "c (wk)van Schoor b Snyman",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "2",
@@ -127,7 +127,7 @@
                 },
                 {
                     "batsman": "Saqlain Mushtaq",
-                    "dismissal": "run out (BL Kotze/van Schoor)",
+                    "dismissal": "run out (BL Kotze/ (wk)van Schoor)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "1",
@@ -244,7 +244,7 @@
             "batting": [
                 {
                     "batsman": "Riaan Walters",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -323,7 +323,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Melt van Schoor",
+                    "batsman": "Melt van Schoor (wk)",
                     "dismissal": "lbw b Wasim Akram",
                     "runs": "2",
                     "balls": "4",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 171 runs"
+    "result": "Pakistan won by 171 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shoaib Akhtar",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Waqar Younis(c)",
+            "Younis Khan",
+            "Saeed Anwar",
+            "Abdul Razzaq",
+            "Saleem Elahi",
+            "Saqlain Mushtaq",
+            "Wasim Akram",
+            "Inzamam-ul-Haq"
+        ],
+        "Namibia": [
+            "Stefan Swanepoel",
+            "Louis Burger",
+            "Bjorn Kotze",
+            "Rudi van Vuuren",
+            "Gerrie Snyman",
+            "Gavin Murgatroyd",
+            "Jan-Berrie Burger",
+            "Deon Kotze(c)",
+            "Danie Keulder",
+            "Melt van Schoor (wk)",
+            "Riaan Walters"
+        ]
+    }
 }

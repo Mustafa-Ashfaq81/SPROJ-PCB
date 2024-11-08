@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Bagai b Patel",
+                    "dismissal": "c (wk)Bagai b Patel",
                     "runs": "8",
                     "balls": "18",
                     "minutes": "23",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Gary Kirsten",
-                    "dismissal": "c Bagai b Joseph",
+                    "dismissal": "c (wk)Bagai b Joseph",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "5",
@@ -84,7 +84,7 @@
                     "strike_rate": "67.79"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b de Groot",
                     "runs": "21",
                     "balls": "36",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock(c)",
-                    "dismissal": "c Bagai b Joseph",
+                    "dismissal": "c (wk)Bagai b Joseph",
                     "runs": "32",
                     "balls": "23",
                     "minutes": "33",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Nicholas de Groot",
-                    "dismissal": "c Boucher b Hall",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "16",
                     "balls": "36",
                     "minutes": "51",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Joe Harris(c)",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "15",
                     "balls": "32",
                     "minutes": "45",
@@ -291,7 +291,7 @@
                     "strike_rate": "46.87"
                 },
                 {
-                    "batsman": "Ashish Bagai",
+                    "batsman": "Ashish Bagai (wk)",
                     "dismissal": "not out",
                     "runs": "28",
                     "balls": "37",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 118 runs"
+    "result": "South Africa won by 118 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Jacques Kallis",
+            "Herschelle Gibbs",
+            "Monde Zondeki",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Boeta Dippenaar",
+            "Allan Donald",
+            "Andrew Hall",
+            "Graeme Smith",
+            "Makhaya Ntini"
+        ],
+        "Canada": [
+            "Ian Billcliff",
+            "Ishwar Maraj",
+            "Joe Harris(c)",
+            "Barry Seebaran",
+            "Nicholas Ifill",
+            "Ashish Bagai (wk)",
+            "Davis Joseph",
+            "Ashish Patel",
+            "John Davison",
+            "Nicholas de Groot",
+            "Desmond Chumney"
+        ]
+    }
 }

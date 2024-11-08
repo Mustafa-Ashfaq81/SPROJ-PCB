@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Runako Morton",
-                    "dismissal": "run out (Pollock/Boucher)",
+                    "dismissal": "run out (Pollock/ (wk)Boucher)",
                     "runs": "41",
                     "balls": "50",
                     "minutes": "94",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo(c)",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "7",
@@ -90,8 +90,8 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
-                    "dismissal": "c Boucher b Morkel",
+                    "batsman": "Denesh Ramdin (wk)",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "11",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "24",
                     "balls": "43",
                     "minutes": "65",
@@ -273,7 +273,7 @@
                     "strike_rate": "82.14"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "26",
                     "balls": "35",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 12 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Daren Powell",
+            "Daren Sammy",
+            "Devon Smith",
+            "Ravi Rampaul",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Runako Morton",
+            "Marlon Samuels",
+            "Dwayne Bravo(c)",
+            "Brenton Parchment"
+        ],
+        "South Africa": [
+            "Dale Steyn",
+            "Charl Langeveldt",
+            "Andre Nel",
+            "AB de Villiers",
+            "Jacques Kallis",
+            "Shaun Pollock",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Justin Ontong",
+            "Albie Morkel",
+            "Graeme Smith(c)"
+        ]
+    }
 }

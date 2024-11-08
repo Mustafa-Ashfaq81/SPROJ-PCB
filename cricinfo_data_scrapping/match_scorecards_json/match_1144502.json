@@ -92,7 +92,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "run out (Udana)",
                     "runs": "4",
                     "balls": "3",
@@ -229,7 +229,7 @@
                     "strike_rate": "89.81"
                 },
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "b Starc",
                     "runs": "52",
                     "balls": "36",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "c Carey b Behrendorff",
+                    "dismissal": "c (wk)Carey b Behrendorff",
                     "runs": "16",
                     "balls": "26",
                     "minutes": "34",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "c Carey b Starc",
+                    "dismissal": "c (wk)Carey b Starc",
                     "runs": "30",
                     "balls": "37",
                     "minutes": "68",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "9",
                     "balls": "11",
                     "minutes": "14",
@@ -320,7 +320,7 @@
                 },
                 {
                     "batsman": "Nuwan Pradeep",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "21",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Australia won by 87 runs"
+    "result": "Australia won by 87 runs",
+    "playing_xi": {
+        "Australia": [
+            "Kane Richardson",
+            "Usman Khawaja",
+            "Mitchell Starc",
+            "Jason Behrendorff",
+            "Aaron Finch(c)",
+            "Steven Smith",
+            "Pat Cummins",
+            "Shaun Marsh",
+            "David Warner",
+            "Alex Carey (wk)",
+            "Glenn Maxwell"
+        ],
+        "Sri Lanka": [
+            "Angelo Mathews",
+            "Kusal Perera (wk)",
+            "Isuru Udana",
+            "Dimuth Karunaratne(c)",
+            "Lasith Malinga",
+            "Kusal Mendis",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Nuwan Pradeep",
+            "Milinda Siriwardana",
+            "Dhananjaya de Silva"
+        ]
+    }
 }

@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Rohan Alexander",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "8",
                     "balls": "28",
                     "minutes": "49",
@@ -46,7 +46,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Mark Johnson",
+                    "batsman": "Mark Johnson (wk)",
                     "dismissal": "b Lee",
                     "runs": "0",
                     "balls": "1",
@@ -107,7 +107,7 @@
                 },
                 {
                     "batsman": "Aijaz Ali",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "9",
@@ -215,7 +215,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "not out",
                     "runs": "24",
                     "balls": "25",
@@ -226,7 +226,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c MR Johnson b HR Johnson",
+                    "dismissal": "c (wk)MR Johnson b HR Johnson",
                     "runs": "23",
                     "balls": "17",
                     "minutes": "19",
@@ -307,5 +307,33 @@
             ]
         }
     ],
-    "result": "Australia won by 9 wickets (with 253 balls remaining)"
+    "result": "Australia won by 9 wickets (with 253 balls remaining)",
+    "playing_xi": {
+        "United States of America": [
+            "Rashid",
+            "Aijaz Ali",
+            "Steve Massiah",
+            "Nasir Javed",
+            "Richard Staple(c)",
+            "Rohan Alexander",
+            "Donovan Blake",
+            "Mark Johnson (wk)",
+            "Tony Reid",
+            "Leon Romero",
+            "Howard Johnson"
+        ],
+        "Australia": [
+            "Michael Clarke",
+            "Brett Lee",
+            "Andrew Symonds",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Kasprowicz",
+            "Damien Martyn",
+            "Glenn McGrath",
+            "Jason Gillespie",
+            "Darren Lehmann",
+            "Matthew Hayden"
+        ]
+    }
 }

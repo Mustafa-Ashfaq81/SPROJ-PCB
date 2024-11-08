@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Javed Omer",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "24",
                     "balls": "65",
                     "minutes": "87",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Hannan Sarkar",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "7",
                     "balls": "29",
                     "minutes": "44",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Tushar Imran",
-                    "dismissal": "c Boucher b Benkenstein",
+                    "dismissal": "c (wk)Boucher b Benkenstein",
                     "runs": "23",
                     "balls": "31",
                     "minutes": "44",
@@ -93,7 +93,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "b Ntini",
                     "runs": "15",
                     "balls": "47",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "18",
                     "balls": "21",
                     "minutes": "22",
@@ -260,7 +260,7 @@
                     "strike_rate": "146.96"
                 }
             ],
-            "did_not_bat": "Shaun Pollock (c) , Dale Benkenstein , Boeta Dippenaar , Martin van Jaarsveld , Justin Ontong , Lance Klusener , Mark Boucher , Allan Donald , Makhaya Ntini",
+            "did_not_bat": "Shaun Pollock (c) , Dale Benkenstein , Boeta Dippenaar , Martin van Jaarsveld , Justin Ontong , Lance Klusener , Mark Boucher (wk) , Allan Donald , Makhaya Ntini",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -336,5 +336,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 10 wickets (with 178 balls remaining)"
+    "result": "South Africa won by 10 wickets (with 178 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Alok Kapali",
+            "Khaled Mashud(c) (wk)",
+            "Al Sahariar",
+            "Sanuar Hossain",
+            "Tapash Baisya",
+            "Manjurul Islam",
+            "Khaled Mahmud",
+            "Tushar Imran",
+            "Javed Omer",
+            "Hannan Sarkar",
+            "Talha Jubair"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Makhaya Ntini",
+            "Lance Klusener",
+            "Dale Benkenstein",
+            "Allan Donald",
+            "Shaun Pollock (c)",
+            "Graeme Smith",
+            "Martin van Jaarsveld",
+            "Boeta Dippenaar",
+            "Justin Ontong",
+            "Herschelle Gibbs"
+        ]
+    }
 }

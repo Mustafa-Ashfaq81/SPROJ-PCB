@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Ben Cooper",
-                    "dismissal": "st Vare b Soper",
+                    "dismissal": "st (wk)Vare b Soper",
                     "runs": "22",
                     "balls": "26",
                     "minutes": "-",
@@ -68,7 +68,7 @@
                     "strike_rate": "94.59"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "b Dai",
                     "runs": "23",
                     "balls": "28",
@@ -79,7 +79,7 @@
                 },
                 {
                     "batsman": "Pieter Seelaar",
-                    "dismissal": "c Vare b Vala",
+                    "dismissal": "c (wk)Vare b Vala",
                     "runs": "22",
                     "balls": "32",
                     "minutes": "-",
@@ -234,7 +234,7 @@
             "batting": [
                 {
                     "batsman": "Tony Ura",
-                    "dismissal": "st Barresi b Rippon",
+                    "dismissal": "st (wk)Barresi b Rippon",
                     "runs": "16",
                     "balls": "33",
                     "minutes": "-",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Lega Siaka",
-                    "dismissal": "c Barresi b van der Gugten",
+                    "dismissal": "c (wk)Barresi b van der Gugten",
                     "runs": "11",
                     "balls": "9",
                     "minutes": "-",
@@ -293,7 +293,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Jack Vare(c)",
+                    "batsman": "Jack Vare(c) (wk)",
                     "dismissal": "run out (van der Gugten)",
                     "runs": "25",
                     "balls": "31",
@@ -461,5 +461,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 85 runs"
+    "result": "Netherlands won by 85 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Pieter Seelaar",
+            "Ben Cooper",
+            "Peter Borren(c)",
+            "Timm van der Gugten",
+            "Michael Rippon",
+            "Paul van Meekeren",
+            "Mudassar Bukhari",
+            "Wesley Barresi (wk)",
+            "Michael Swart",
+            "Stephan Myburgh",
+            "Ahsan Malik"
+        ],
+        "Papua New Guinea": [
+            "Chad Soper",
+            "Norman Vanua",
+            "Willie Gavera",
+            "John Reva",
+            "Tony Ura",
+            "Lega Siaka",
+            "Mahuru Dai",
+            "Assad Vala",
+            "Sese Bau",
+            "Kila Pala",
+            "Jack Vare(c) (wk)"
+        ]
+    }
 }

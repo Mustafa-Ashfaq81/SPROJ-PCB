@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "55",
                     "balls": "67",
                     "minutes": "96",
@@ -74,8 +74,8 @@
                     "strike_rate": "73.52"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Dhoni b Ojha",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Dhoni b Ojha",
                     "runs": "22",
                     "balls": "35",
                     "minutes": "52",
@@ -261,7 +261,7 @@
                     "strike_rate": "102.85"
                 }
             ],
-            "did_not_bat": "Yusuf Pathan , MS Dhoni (c) , RP Singh , Ishant Sharma , Pragyan Ojha , Manpreet Gony",
+            "did_not_bat": "Yusuf Pathan , MS Dhoni (c) (wk) , RP Singh , Ishant Sharma , Pragyan Ojha , Manpreet Gony",
             "fall_of_wickets": "Fall of wickets : 1 - 14 ( Robin Uthappa , 3.2 ov ) , 2 - 56 ( Rohit Sharma , 9.3 ov ) , 3 - 195 ( Gautam Gambhir , 31.4 ov )",
             "bowling": [
                 {
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 40 balls remaining)"
+    "result": "India won by 7 wickets (with 40 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Nazimuddin",
+            "Raqibul Hasan",
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Farhad Reza",
+            "Tamim Iqbal",
+            "Mahmudullah",
+            "Alok Kapali",
+            "Mashrafe Mortaza",
+            "Mushfiqur Rahim (wk)",
+            "Mohammad Ashraful(c)"
+        ],
+        "India": [
+            "Pragyan Ojha",
+            "MS Dhoni (c) (wk)",
+            "Suresh Raina",
+            "Robin Uthappa",
+            "RP Singh",
+            "Manpreet Gony",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Gautam Gambhir",
+            "Ishant Sharma"
+        ]
+    }
 }

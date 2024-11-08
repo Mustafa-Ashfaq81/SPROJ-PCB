@@ -80,7 +80,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c & b Rampaul",
                     "runs": "99",
                     "balls": "84",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Buttler b Parry",
+                    "dismissal": "c (wk)Buttler b Parry",
                     "runs": "23",
                     "balls": "39",
                     "minutes": "56",
@@ -285,7 +285,7 @@
                     "strike_rate": "58.97"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Bresnan",
                     "runs": "128",
                     "balls": "109",
@@ -296,7 +296,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo(c)",
-                    "dismissal": "c Buttler b Bopara",
+                    "dismissal": "c (wk)Buttler b Bopara",
                     "runs": "27",
                     "balls": "32",
                     "minutes": "34",
@@ -463,5 +463,33 @@
             ]
         }
     ],
-    "result": "England won by 25 runs"
+    "result": "England won by 25 runs",
+    "playing_xi": {
+        "England": [
+            "Jos Buttler (wk)",
+            "Eoin Morgan",
+            "Ben Stokes",
+            "Michael Lumb",
+            "James Tredwell",
+            "Stephen Parry",
+            "Moeen Ali",
+            "Tim Bresnan",
+            "Joe Root",
+            "Stuart Broad (c)",
+            "Ravi Bopara"
+        ],
+        "West Indies": [
+            "Lendl Simmons",
+            "Kieran Powell",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Dwayne Smith",
+            "Ravi Rampaul",
+            "Marlon Samuels",
+            "Dwayne Bravo(c)",
+            "Denesh Ramdin (wk)",
+            "Daren Sammy",
+            "Nikita Miller"
+        ]
+    }
 }

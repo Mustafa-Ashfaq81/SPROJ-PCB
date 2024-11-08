@@ -43,7 +43,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Solanki b Mahmood",
                     "runs": "96",
                     "balls": "106",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Prior b Plunkett",
+                    "dismissal": "c (wk)Prior b Plunkett",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "12",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Venugopal Rao",
-                    "dismissal": "c Prior b Anderson",
+                    "dismissal": "c (wk)Prior b Anderson",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "11",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Dhoni b Harbhajan Singh",
+                    "dismissal": "c (wk)Dhoni b Harbhajan Singh",
                     "runs": "46",
                     "balls": "64",
                     "minutes": "88",
@@ -318,7 +318,7 @@
                     "strike_rate": "63.88"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c VRV Singh b Harbhajan Singh",
                     "runs": "3",
                     "balls": "11",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "England won by 5 wickets (with 44 balls remaining)"
+    "result": "England won by 5 wickets (with 44 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Harbhajan Singh",
+            "RP Singh",
+            "Mohammad Kaif",
+            "Venugopal Rao",
+            "Virender Sehwag(c)",
+            "Munaf Patel",
+            "Ramesh Powar",
+            "Vikram Singh",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "MS Dhoni (wk)"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Matthew Hoggard",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "James Anderson",
+            "Andrew Strauss(c)",
+            "Vikram Solanki",
+            "Sajid Mahmood",
+            "Matt Prior (wk)",
+            "Ian Bell",
+            "Ian Blackwell"
+        ]
+    }
 }

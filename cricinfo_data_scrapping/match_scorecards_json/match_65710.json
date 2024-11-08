@@ -85,7 +85,7 @@
                     "strike_rate": "105.88"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "6",
@@ -212,7 +212,7 @@
                     "strike_rate": "43.85"
                 },
                 {
-                    "batsman": "Nasir Hameed",
+                    "batsman": "Nasir Hameed (wk)",
                     "dismissal": "lbw b Mohammad Sami",
                     "runs": "0",
                     "balls": "1",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Khalid Khan",
-                    "dismissal": "st Moin Khan b Shoaib Malik",
+                    "dismissal": "st (wk)Moin Khan b Shoaib Malik",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "5",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 173 runs (D/L method)"
+    "result": "Pakistan won by 173 runs (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Imran Farhat",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq (c)",
+            "Shabbir Ahmed",
+            "Moin Khan (wk)",
+            "Mohammad Yousuf",
+            "Imran Nazir"
+        ],
+        "Hong Kong": [
+            "Khalid Khan",
+            "Tim Smart",
+            "Alexander French",
+            "Rahul Sharma(c)",
+            "Tabarak Dar",
+            "Afzaal Haider",
+            "Nasir Hameed (wk)",
+            "Manoj Cheruparambil",
+            "Najeeb Amar",
+            "Ilyas Gull",
+            "Nadeem Ahmed"
+        ]
+    }
 }

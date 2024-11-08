@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Aiden Markram",
-                    "dismissal": "st Carey b Lyon",
+                    "dismissal": "st (wk)Carey b Lyon",
                     "runs": "34",
                     "balls": "37",
                     "minutes": "51",
@@ -41,7 +41,7 @@
                     "strike_rate": "91.89"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Starc b Lyon",
                     "runs": "52",
                     "balls": "51",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "run out (Rabada/de Kock)",
+                    "dismissal": "run out (Rabada/ (wk)de Kock)",
                     "runs": "22",
                     "balls": "34",
                     "minutes": "54",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "24",
@@ -272,7 +272,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Markram b Morris",
                     "runs": "85",
                     "balls": "69",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 10 runs"
+    "result": "South Africa won by 10 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Chris Morris",
+            "Andile Phehlukwayo",
+            "Kagiso Rabada",
+            "Tabraiz Shamsi",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis(c)",
+            "Jean-Paul Duminy",
+            "Rassie van der Dussen",
+            "Dwaine Pretorius",
+            "Imran Tahir",
+            "Aiden Markram"
+        ],
+        "Australia": [
+            "Mitchell Starc",
+            "Jason Behrendorff",
+            "Aaron Finch(c)",
+            "Steven Smith",
+            "Pat Cummins",
+            "Marcus Stoinis",
+            "David Warner",
+            "Alex Carey (wk)",
+            "Usman Khawaja",
+            "Nathan Lyon",
+            "Glenn Maxwell"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "st Kamran Akmal b Mohammad Hafeez",
+                    "dismissal": "st (wk)Kamran Akmal b Mohammad Hafeez",
                     "runs": "27",
                     "balls": "32",
                     "minutes": "55",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "lbw b Wahab Riaz",
                     "runs": "25",
                     "balls": "42",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "st Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "28",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Zaheer Khan",
-                    "dismissal": "c Kamran Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Kamran Akmal b Wahab Riaz",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "14",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Ashish Nehra",
-                    "dismissal": "run out (Wahab Riaz/Kamran Akmal)",
+                    "dismissal": "run out (Wahab Riaz/ (wk)Kamran Akmal)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "1",
@@ -237,7 +237,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Yuvraj Singh b Khan",
                     "runs": "19",
                     "balls": "21",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "43",
                     "balls": "59",
                     "minutes": "66",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "India won by 29 runs"
+    "result": "India won by 29 runs",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "Ashish Nehra",
+            "Munaf Patel",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Virender Sehwag",
+            "Harbhajan Singh",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Shahid Afridi(c)",
+            "Asad Shafiq",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq",
+            "Kamran Akmal (wk)",
+            "Abdul Razzaq",
+            "Umar Gul",
+            "Wahab Riaz",
+            "Younis Khan",
+            "Umar Akmal"
+        ]
+    }
 }

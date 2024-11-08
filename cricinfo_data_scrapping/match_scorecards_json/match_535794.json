@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Nasir Jamshed",
-                    "dismissal": "run out (Shakib Al Hasan/Mushfiqur Rahim)",
+                    "dismissal": "run out (Shakib Al Hasan/ (wk)Mushfiqur Rahim)",
                     "runs": "54",
                     "balls": "64",
                     "minutes": "120",
@@ -101,7 +101,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "28",
@@ -258,7 +258,7 @@
                     "strike_rate": "74.19"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "b Shahid Afridi",
                     "runs": "3",
                     "balls": "5",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 21 runs"
+    "result": "Pakistan won by 21 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Sarfaraz Ahmed (wk)",
+            "Younis Khan",
+            "Aizaz Cheema",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi",
+            "Mohammad Hafeez",
+            "Umar Gul",
+            "Umar Akmal",
+            "Nasir Jamshed"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Jahurul Islam",
+            "Nasir Hossain",
+            "Abdur Razzak",
+            "Nazimuddin",
+            "Mahmudullah",
+            "Mashrafe Mortaza",
+            "Shafiul Islam",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim(c) (wk)",
+            "Shakib Al Hasan"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Noor Ali Zadran",
-                    "dismissal": "run out (Chakabva)",
+                    "dismissal": "run out ( (wk)Chakabva)",
                     "runs": "43",
                     "balls": "106",
                     "minutes": "122",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan",
-                    "dismissal": "c Chakabva b Chatara",
+                    "dismissal": "c (wk)Chakabva b Chatara",
                     "runs": "8",
                     "balls": "32",
                     "minutes": "41",
@@ -93,7 +93,7 @@
                     "strike_rate": "163.63"
                 },
                 {
-                    "batsman": "Shafiqullah",
+                    "batsman": "Shafiqullah (wk)",
                     "dismissal": "c Sikandar Raza b Panyangara",
                     "runs": "24",
                     "balls": "17",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Sharafuddin Ashraf",
-                    "dismissal": "run out (Chakabva)",
+                    "dismissal": "run out ( (wk)Chakabva)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -231,7 +231,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Shafiqullah b Shapoor Zadran",
+                    "dismissal": "c (wk)Shafiqullah b Shapoor Zadran",
                     "runs": "4",
                     "balls": "14",
                     "minutes": "14",
@@ -290,7 +290,7 @@
                     "strike_rate": "65.00"
                 }
             ],
-            "did_not_bat": "Prosper Utseya , Regis Chakabva , Tinashe Panyangara , Donald Tiripano , Tendai Chatara",
+            "did_not_bat": "Prosper Utseya , Regis Chakabva (wk) , Tinashe Panyangara , Donald Tiripano , Tendai Chatara",
             "fall_of_wickets": "Fall of wickets : 1 - 8 ( Vusi Sibanda , 2.6 ov ) , 2 - 27 ( Hamilton Masakadza , 9.2 ov ) , 2 - 89 * ( Sikandar Raza , retired not out ) , 3 - 120 ( Brendan Taylor , 26.5 ov ) , 4 - 205 ( Sean Williams , 42.5 ov )",
             "bowling": [
                 {
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 6 wickets (with 28 balls remaining)"
+    "result": "Zimbabwe won by 6 wickets (with 28 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Samiullah Shinwari",
+            "Asghar Afghan",
+            "Usman Ghani",
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Mohammad Nabi(c)",
+            "Hashmatullah Shahidi",
+            "Shafiqullah (wk)",
+            "Shapoor Zadran",
+            "Mirwais Ashraf",
+            "Sharafuddin Ashraf"
+        ],
+        "Zimbabwe": [
+            "Tinashe Panyangara",
+            "Regis Chakabva (wk)",
+            "Donald Tiripano",
+            "Prosper Utseya",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Sikandar Raza",
+            "Elton Chigumbura",
+            "Tendai Chatara",
+            "Brendan Taylor(c)"
+        ]
+    }
 }

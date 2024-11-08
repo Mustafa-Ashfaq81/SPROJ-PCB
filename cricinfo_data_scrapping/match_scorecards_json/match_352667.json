@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c Sammy b Pollard",
                     "runs": "7",
                     "balls": "22",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Stuart Broad",
-                    "dismissal": "c Ramdin b Pollard",
+                    "dismissal": "c (wk)Ramdin b Pollard",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -277,7 +277,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Kieron Pollard , Dwayne Bravo , Daren Sammy , Denesh Ramdin , Nikita Miller , Lionel Baker , Fidel Edwards",
+            "did_not_bat": "Kieron Pollard , Dwayne Bravo , Daren Sammy , Denesh Ramdin (wk) , Nikita Miller , Lionel Baker , Fidel Edwards",
             "fall_of_wickets": "Fall of wickets : 1 - 98 ( Chris Gayle , 10.2 ov ) , 2 - 114 ( Ramnaresh Sarwan , 14.1 ov )",
             "bowling": [
                 {
@@ -339,5 +339,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 8 wickets (with 176 balls remaining) (D/L method)"
+    "result": "West Indies won by 8 wickets (with 176 balls remaining) (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Kevin Pietersen",
+            "Dimitri Mascarenhas",
+            "James Anderson",
+            "Gareth Batty",
+            "Matt Prior (wk)",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Andrew Strauss(c)",
+            "Owais Shah",
+            "Andrew Flintoff"
+        ],
+        "West Indies": [
+            "Dwayne Bravo",
+            "Nikita Miller",
+            "Kieron Pollard",
+            "Ramnaresh Sarwan",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Lionel Baker",
+            "Chris Gayle(c)",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Daren Sammy"
+        ]
+    }
 }

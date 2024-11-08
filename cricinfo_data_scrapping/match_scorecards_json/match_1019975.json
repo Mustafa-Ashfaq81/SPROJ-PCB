@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "James Neesham",
-                    "dismissal": "st Nurul Hasan b Mosaddek Hossain",
+                    "dismissal": "st (wk)Nurul Hasan b Mosaddek Hossain",
                     "runs": "28",
                     "balls": "31",
                     "minutes": "-",
@@ -95,7 +95,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Tanbir Hayder b Taskin Ahmed",
                     "runs": "35",
                     "balls": "38",
@@ -116,7 +116,7 @@
                 },
                 {
                     "batsman": "Tim Southee",
-                    "dismissal": "c Nurul Hasan b Shakib Al Hasan",
+                    "dismissal": "c (wk)Nurul Hasan b Shakib Al Hasan",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "-",
@@ -126,7 +126,7 @@
                 },
                 {
                     "batsman": "Lockie Ferguson",
-                    "dismissal": "c Nurul Hasan b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Nurul Hasan b Mashrafe Mortaza",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "-",
@@ -136,7 +136,7 @@
                 },
                 {
                     "batsman": "Trent Boult",
-                    "dismissal": "run out (Nurul Hasan/Taskin Ahmed)",
+                    "dismissal": "run out ( (wk)Nurul Hasan/Taskin Ahmed)",
                     "runs": "12",
                     "balls": "12",
                     "minutes": "-",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Sabbir Rahman",
-                    "dismissal": "run out (Williamson/Ronchi)",
+                    "dismissal": "run out (Williamson/ (wk)Ronchi)",
                     "runs": "38",
                     "balls": "49",
                     "minutes": "-",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Tanbir Hayder",
-                    "dismissal": "st Ronchi b Williamson",
+                    "dismissal": "st (wk)Ronchi b Williamson",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "-",
@@ -312,8 +312,8 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Nurul Hasan",
-                    "dismissal": "c Ronchi b Boult",
+                    "batsman": "Nurul Hasan (wk)",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "24",
                     "balls": "31",
                     "minutes": "-",
@@ -333,7 +333,7 @@
                 },
                 {
                     "batsman": "Taskin Ahmed",
-                    "dismissal": "st Ronchi b Santner",
+                    "dismissal": "st (wk)Ronchi b Santner",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "-",
@@ -456,5 +456,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 67 runs"
+    "result": "New Zealand won by 67 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Neil Broom",
+            "Lockie Ferguson",
+            "Tom Latham",
+            "Colin Munro",
+            "Trent Boult",
+            "Luke Ronchi (wk)",
+            "Tim Southee",
+            "James Neesham"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nurul Hasan (wk)",
+            "Tanbir Hayder",
+            "Subashis Roy",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Taskin Ahmed",
+            "Mashrafe Mortaza(c)",
+            "Sabbir Rahman",
+            "Imrul Kayes",
+            "Shakib Al Hasan"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Kennedy Otieno",
-                    "dismissal": "c Taibu b Hondo",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "11",
                     "balls": "12",
                     "minutes": "19",
@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Ravi Shah",
-                    "dismissal": "c Taibu b Blignaut",
+                    "dismissal": "c (wk)Taibu b Blignaut",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Hitesh Modi",
-                    "dismissal": "c Taibu b Olonga",
+                    "dismissal": "c (wk)Taibu b Olonga",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -99,7 +99,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "David Obuya",
+                    "batsman": "David Obuya (wk)",
                     "dismissal": "not out",
                     "runs": "8",
                     "balls": "18",
@@ -209,7 +209,7 @@
             "batting": [
                 {
                     "batsman": "Alistair Campbell(c)",
-                    "dismissal": "c Obuya b Suji",
+                    "dismissal": "c (wk)Obuya b Suji",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "3",
@@ -238,7 +238,7 @@
                     "strike_rate": "146.51"
                 }
             ],
-            "did_not_bat": "Andy Flower , Grant Flower , Craig Wishart , Dougie Marillier , Tatenda Taibu , Brian Murphy , Henry Olonga , Douglas Hondo",
+            "did_not_bat": "Andy Flower , Grant Flower , Craig Wishart , Dougie Marillier , Tatenda Taibu (wk) , Brian Murphy , Henry Olonga , Douglas Hondo",
             "fall_of_wickets": "Fall of wickets : 1 - 6 ( Alistair Campbell )",
             "bowling": [
                 {
@@ -328,5 +328,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 9 wickets (with 204 balls remaining)"
+    "result": "Zimbabwe won by 9 wickets (with 204 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Maurice Odumbe",
+            "Martin Suji",
+            "Peter Ongondo",
+            "Steve Tikolo(c)",
+            "David Obuya (wk)",
+            "Hitesh Modi",
+            "Thomas Odoyo",
+            "Kennedy Otieno",
+            "Ravi Shah",
+            "Brijal Patel",
+            "Joseph Angara"
+        ],
+        "Zimbabwe": [
+            "Henry Olonga",
+            "Andy Blignaut",
+            "Grant Flower",
+            "Craig Wishart",
+            "Mark Vermeulen",
+            "Alistair Campbell(c)",
+            "Brian Murphy",
+            "Dougie Marillier",
+            "Tatenda Taibu (wk)",
+            "Douglas Hondo",
+            "Andy Flower"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Buttler b Finn",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "73",
                     "balls": "101",
                     "minutes": "152",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "38",
                     "balls": "65",
                     "minutes": "85",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Ambati Rayudu",
-                    "dismissal": "c Buttler b Broad",
+                    "dismissal": "c (wk)Buttler b Broad",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "21",
@@ -81,7 +81,7 @@
                     "strike_rate": "70.58"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "lbw b Anderson",
                     "runs": "17",
                     "balls": "32",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Mohammed Shami",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "25",
                     "balls": "18",
                     "minutes": "18",
@@ -284,7 +284,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Rayudu b Mohammed Shami",
                     "runs": "67",
                     "balls": "78",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 19 balls remaining)"
+    "result": "England won by 3 wickets (with 19 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Axar Patel",
+            "Shikhar Dhawan",
+            "MS Dhoni(c) (wk)",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Mohammed Shami",
+            "Ajinkya Rahane",
+            "Mohit Sharma",
+            "Suresh Raina",
+            "Ambati Rayudu",
+            "Stuart Binny"
+        ],
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "James Anderson",
+            "Steven Finn",
+            "Eoin Morgan(c)",
+            "Stuart Broad",
+            "Moeen Ali",
+            "James Taylor",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

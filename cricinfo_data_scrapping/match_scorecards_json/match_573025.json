@@ -90,7 +90,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "c Finch b Cutting",
                     "runs": "7",
                     "balls": "6",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Sunil Narine",
-                    "dismissal": "c Wade b McKay",
+                    "dismissal": "c (wk)Wade b McKay",
                     "runs": "23",
                     "balls": "22",
                     "minutes": "35",
@@ -224,7 +224,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Thomas b Best",
+                    "dismissal": "c (wk)Thomas b Best",
                     "runs": "76",
                     "balls": "84",
                     "minutes": "130",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c Thomas b Best",
+                    "dismissal": "c (wk)Thomas b Best",
                     "runs": "37",
                     "balls": "65",
                     "minutes": "92",
@@ -273,7 +273,7 @@
                     "strike_rate": "71.79"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "7",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 5 wickets (with 31 balls remaining)"
+    "result": "Australia won by 5 wickets (with 31 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kieron Pollard",
+            "Sunil Narine",
+            "Kieran Powell",
+            "Darren Bravo",
+            "Johnson Charles",
+            "Dwayne Bravo",
+            "Andre Russell",
+            "Tino Best",
+            "Narsingh Deonarine",
+            "Devon Thomas (wk)",
+            "Daren Sammy(c)"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Michael Clarke(c)",
+            "James Faulkner",
+            "Matthew Wade (wk)",
+            "Ben Cutting",
+            "Clint McKay",
+            "Adam Voges",
+            "Aaron Finch",
+            "Shane Watson",
+            "Phillip Hughes",
+            "Glenn Maxwell"
+        ]
+    }
 }

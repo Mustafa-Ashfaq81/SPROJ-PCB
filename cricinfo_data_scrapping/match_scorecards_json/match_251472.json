@@ -39,7 +39,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Kwame Tucker",
+                    "batsman": "Kwame Tucker (wk)",
                     "dismissal": "not out",
                     "runs": "100",
                     "balls": "135",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Azeem Pitcher",
-                    "dismissal": "c A Ferguson b MJ Paterlini",
+                    "dismissal": "c (wk)A Ferguson b MJ Paterlini",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "20",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Donald Forrester",
-                    "dismissal": "c KL Tucker b Kelly",
+                    "dismissal": "c (wk)KL Tucker b Kelly",
                     "runs": "35",
                     "balls": "42",
                     "minutes": "62",
@@ -250,7 +250,7 @@
                     "strike_rate": "61.90"
                 },
                 {
-                    "batsman": "Alejandro Ferguson",
+                    "batsman": "Alejandro Ferguson (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "16",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "Bermuda won by 109 runs"
+    "result": "Bermuda won by 109 runs",
+    "playing_xi": {
+        "Bermuda": [
+            "Kwame Tucker (wk)",
+            "Malachi Jones",
+            "Steven Outerbridge",
+            "Clay Smith",
+            "Saleem Mukuddem",
+            "Stefan Kelly",
+            "Irving Romaine (c)",
+            "Dwayne Leverock",
+            "Azeem Pitcher",
+            "Lionel Cann",
+            "Janeiro Tucker"
+        ],
+        "Argentina": [
+            "Lucas Paterlini",
+            "Matias Paterlini",
+            "Pablo Ferguson",
+            "Alejandro Ferguson (wk)",
+            "Esteban MacDermott (c)",
+            "Gary Savage",
+            "Diego Lord",
+            "Donald Forrester",
+            "Carlos Gibson",
+            "Pablo Ryan",
+            "Hernan Pereyra"
+        ]
+    }
 }

@@ -93,7 +93,7 @@
                     "strike_rate": "47.50"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c & b Mills",
                     "runs": "40",
                     "balls": "47",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "3",
                     "balls": "15",
                     "minutes": "20",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "c Boucher b Kemp",
+                    "dismissal": "c (wk)Boucher b Kemp",
                     "runs": "11",
                     "balls": "37",
                     "minutes": "52",
@@ -300,8 +300,8 @@
                     "strike_rate": "29.72"
                 },
                 {
-                    "batsman": "Brendon McCullum",
-                    "dismissal": "st Boucher b Boje",
+                    "batsman": "Brendon McCullum (wk)",
+                    "dismissal": "st (wk)Boucher b Boje",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "7",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 19 runs"
+    "result": "South Africa won by 19 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Andre Nel",
+            "Andrew Puttick",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)"
+        ],
+        "New Zealand": [
+            "Lou Vincent",
+            "Jacob Oram",
+            "Andre Adams",
+            "Nathan Astle",
+            "James Franklin",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Kyle Mills",
+            "Craig McMillan",
+            "Scott Styris",
+            "Daniel Vettori"
+        ]
+    }
 }

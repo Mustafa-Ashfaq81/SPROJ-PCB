@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Read b Clarke",
+                    "dismissal": "c (wk)Read b Clarke",
                     "runs": "5",
                     "balls": "21",
                     "minutes": "31",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Read b Flintoff",
+                    "dismissal": "c (wk)Read b Flintoff",
                     "runs": "23",
                     "balls": "46",
                     "minutes": "49",
@@ -120,7 +120,7 @@
                     "strike_rate": "-"
                 }
             ],
-            "did_not_bat": "Mohammad Sami , Rashid Latif (c)",
+            "did_not_bat": "Mohammad Sami , Rashid Latif (c) (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 29 ( Imran Nazir , 9.1 ov ) , 2 - 38 ( Mohammad Hafeez , 12.3 ov ) , 3 - 44 ( Yasir Hameed , 13.6 ov ) , 4 - 61 ( Mohammad Yousuf , 18.5 ov ) , 5 - 117 ( Shoaib Malik , 33.5 ov ) , 6 - 165 ( Younis Khan , 43.4 ov ) , 7 - 225 ( Abdul Razzaq , 49.5 ov )",
             "bowling": [
                 {
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Vikram Solanki",
-                    "dismissal": "c Rashid Latif b Mohammad Sami",
+                    "dismissal": "c (wk)Rashid Latif b Mohammad Sami",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "27",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Anthony McGrath",
-                    "dismissal": "st Rashid Latif b Mohammad Hafeez",
+                    "dismissal": "st (wk)Rashid Latif b Mohammad Hafeez",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "14",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Rikki Clarke",
-                    "dismissal": "c Rashid Latif b Mohammad Hafeez",
+                    "dismissal": "c (wk)Rashid Latif b Mohammad Hafeez",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "8",
@@ -287,7 +287,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "not out",
                     "runs": "25",
                     "balls": "40",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 9 balls remaining)"
+    "result": "England won by 4 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Imran Nazir",
+            "Azhar Mahmood",
+            "Rashid Latif (c) (wk)",
+            "Yasir Hameed",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Shoaib Akhtar",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Mohammad Sami"
+        ],
+        "England": [
+            "James Anderson",
+            "Michael Vaughan(c)",
+            "Rikki Clarke",
+            "Darren Gough",
+            "Chris Read (wk)",
+            "Marcus Trescothick",
+            "Jim Troughton",
+            "Anthony McGrath",
+            "Andrew Flintoff",
+            "Ashley Giles",
+            "Vikram Solanki"
+        ]
+    }
 }

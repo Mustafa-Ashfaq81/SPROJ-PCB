@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "run out (Kohli/Karthik)",
+                    "dismissal": "run out (Kohli/ (wk)Karthik)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "8",
@@ -42,7 +42,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Tillakaratne Dilshan(c)",
+                    "batsman": "Tillakaratne Dilshan(c) (wk)",
                     "dismissal": "run out (Sharma/Mishra)",
                     "runs": "61",
                     "balls": "84",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Thilan Samaraweera",
-                    "dismissal": "st Karthik b Ojha",
+                    "dismissal": "st (wk)Karthik b Ojha",
                     "runs": "19",
                     "balls": "24",
                     "minutes": "36",
@@ -225,7 +225,7 @@
             "extras": "4",
             "batting": [
                 {
-                    "batsman": "Dinesh Karthik",
+                    "batsman": "Dinesh Karthik (wk)",
                     "dismissal": "c sub (BMAJ Mendis) b Mendis",
                     "runs": "18",
                     "balls": "26",
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 39 balls remaining)"
+    "result": "India won by 7 wickets (with 39 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Suraj Randiv",
+            "Nuwan Kulasekara",
+            "Chamara Silva",
+            "Thisara Perera",
+            "Ajantha Mendis",
+            "Angelo Mathews",
+            "Tillakaratne Dilshan(c) (wk)",
+            "Upul Tharanga",
+            "Dilhara Fernando",
+            "Chamara Kapugedera",
+            "Thilan Samaraweera"
+        ],
+        "India": [
+            "Suresh Raina(c)",
+            "Pragyan Ojha",
+            "Dinesh Karthik (wk)",
+            "Umesh Yadav",
+            "Ravindra Jadeja",
+            "Ashok Dinda",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "Yusuf Pathan",
+            "Amit Mishra",
+            "Murali Vijay"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Moin Khan b Shabbir Ahmed",
+                    "dismissal": "c (wk)Moin Khan b Shabbir Ahmed",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "7",
@@ -60,8 +60,8 @@
                     "strike_rate": "15.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
-                    "dismissal": "c Moin Khan b Shoaib Malik",
+                    "batsman": "Rahul Dravid (wk)",
+                    "dismissal": "c (wk)Moin Khan b Shoaib Malik",
                     "runs": "33",
                     "balls": "86",
                     "minutes": "106",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Moin Khan b Abdul Razzaq",
+                    "dismissal": "c (wk)Moin Khan b Abdul Razzaq",
                     "runs": "39",
                     "balls": "41",
                     "minutes": "64",
@@ -293,7 +293,7 @@
                     "strike_rate": "101.92"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "not out",
                     "runs": "22",
                     "balls": "34",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 16 balls remaining)"
+    "result": "Pakistan won by 4 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "VVS Laxman",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Rahul Dravid (wk)",
+            "Mohammad Kaif",
+            "Ramesh Powar",
+            "Sourav Ganguly(c)",
+            "Lakshmipathy Balaji"
+        ],
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Moin Khan (wk)",
+            "Shahid Afridi",
+            "Yasir Hameed",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Shabbir Ahmed",
+            "Younis Khan",
+            "Shoaib Akhtar",
+            "Mohammad Sami"
+        ]
+    }
 }

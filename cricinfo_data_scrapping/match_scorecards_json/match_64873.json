@@ -50,7 +50,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Hayden b Gillespie",
                     "runs": "15",
                     "balls": "30",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "run out (Hogg/Gilchrist)",
+                    "dismissal": "run out (Hogg/ (wk)Gilchrist)",
                     "runs": "80",
                     "balls": "110",
                     "minutes": "152",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Gilchrist b Symonds",
+                    "dismissal": "c (wk)Gilchrist b Symonds",
                     "runs": "30",
                     "balls": "40",
                     "minutes": "41",
@@ -227,7 +227,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Jayawardene b Vaas",
                     "runs": "0",
                     "balls": "9",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Australia won by 5 wickets (with 9 balls remaining)"
+    "result": "Australia won by 5 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kumar Dharmasena",
+            "Russel Arnold",
+            "Nuwan Zoysa",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)"
+        ],
+        "Australia": [
+            "Damien Martyn",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Michael Kasprowicz",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ]
+    }
 }

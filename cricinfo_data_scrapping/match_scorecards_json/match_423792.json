@@ -40,7 +40,7 @@
                     "strike_rate": "97.91"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c & b Vettori",
                     "runs": "53",
                     "balls": "62",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "James Hopes",
-                    "dismissal": "run out (Hopkins/Tuffey)",
+                    "dismissal": "run out ( (wk)Hopkins/Tuffey)",
                     "runs": "29",
                     "balls": "24",
                     "minutes": "34",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Brendon McCullum",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "24",
                     "balls": "16",
                     "minutes": "20",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Haddin b Watson",
+                    "dismissal": "c (wk)Haddin b Watson",
                     "runs": "18",
                     "balls": "34",
                     "minutes": "53",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "10",
@@ -267,7 +267,7 @@
                     "strike_rate": "79.31"
                 },
                 {
-                    "batsman": "Gareth Hopkins",
+                    "batsman": "Gareth Hopkins (wk)",
                     "dismissal": "c Bollinger b Watson",
                     "runs": "35",
                     "balls": "39",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 12 runs (D/L method)"
+    "result": "Australia won by 12 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Mitchell Johnson",
+            "Doug Bollinger",
+            "Brad Haddin (wk)",
+            "Ryan Harris",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Michael Clarke"
+        ],
+        "New Zealand": [
+            "Gareth Hopkins (wk)",
+            "Scott Styris",
+            "Martin Guptill",
+            "Neil Broom",
+            "Daniel Vettori(c)",
+            "Brendon McCullum",
+            "Daryl Tuffey",
+            "Shane Bond",
+            "Peter Ingram",
+            "Tim Southee",
+            "James Franklin"
+        ]
+    }
 }

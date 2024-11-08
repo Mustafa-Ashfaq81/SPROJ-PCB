@@ -64,7 +64,7 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Alec Stewart(c)",
+                    "batsman": "Alec Stewart(c) (wk)",
                     "dismissal": "c BL Kotze b DB Kotze",
                     "runs": "60",
                     "balls": "77",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Ian Blackwell",
-                    "dismissal": "c van Schoor b Snyman",
+                    "dismissal": "c (wk)van Schoor b Snyman",
                     "runs": "16",
                     "balls": "19",
                     "minutes": "27",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Danie Keulder",
-                    "dismissal": "run out (Trescothick/Stewart)",
+                    "dismissal": "run out (Trescothick/ (wk)Stewart)",
                     "runs": "46",
                     "balls": "66",
                     "minutes": "102",
@@ -335,7 +335,7 @@
                     "strike_rate": "35.71"
                 },
                 {
-                    "batsman": "Melt van Schoor",
+                    "batsman": "Melt van Schoor (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "23",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "England won by 55 runs"
+    "result": "England won by 55 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Andy Caddick",
+            "Andrew Flintoff",
+            "Alec Stewart(c) (wk)",
+            "Nick Knight",
+            "Michael Vaughan",
+            "Ian Blackwell",
+            "Ronnie Irani",
+            "Paul Collingwood",
+            "Craig White",
+            "Marcus Trescothick"
+        ],
+        "Namibia": [
+            "Stefan Swanepoel",
+            "Louis Burger",
+            "Sarel Burger",
+            "Bjorn Kotze",
+            "Rudi van Vuuren",
+            "Gerrie Snyman",
+            "Gavin Murgatroyd",
+            "Jan-Berrie Burger",
+            "Deon Kotze(c)",
+            "Danie Keulder",
+            "Melt van Schoor (wk)"
+        ]
+    }
 }

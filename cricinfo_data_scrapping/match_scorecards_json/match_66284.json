@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c Dravid b Ganguly",
+                    "dismissal": "c (wk)Dravid b Ganguly",
                     "runs": "86",
                     "balls": "78",
                     "minutes": "110",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Nasser Hussain(c)",
-                    "dismissal": "st Dravid b Yuvraj Singh",
+                    "dismissal": "st (wk)Dravid b Yuvraj Singh",
                     "runs": "54",
                     "balls": "82",
                     "minutes": "101",
@@ -82,7 +82,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "not out",
                     "runs": "28",
                     "balls": "35",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Dravid b Khan",
+                    "dismissal": "c (wk)Dravid b Khan",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "9",
@@ -259,7 +259,7 @@
                     "strike_rate": "11.11"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "not out",
                     "runs": "73",
                     "balls": "86",
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 7 balls remaining)"
+    "result": "India won by 6 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Marcus Trescothick",
+            "Graham Thorpe",
+            "Alec Stewart (wk)",
+            "Paul Collingwood",
+            "James Kirtley",
+            "Nick Knight",
+            "Ronnie Irani",
+            "Andrew Flintoff",
+            "Nasser Hussain(c)",
+            "Matthew Hoggard",
+            "Ashley Giles"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Dinesh Mongia",
+            "Mohammad Kaif",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Anil Kumble",
+            "Virender Sehwag",
+            "Rahul Dravid (wk)",
+            "Harbhajan Singh",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Wade b Paris",
+                    "dismissal": "c (wk)Wade b Paris",
                     "runs": "6",
                     "balls": "4",
                     "minutes": "10",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "run out (Richardson/Wade)",
+                    "dismissal": "run out (Richardson/ (wk)Wade)",
                     "runs": "59",
                     "balls": "67",
                     "minutes": "84",
@@ -70,7 +70,7 @@
                     "strike_rate": "111.25"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Maxwell b Boland",
                     "runs": "11",
                     "balls": "10",
@@ -267,7 +267,7 @@
                     "strike_rate": "104.00"
                 }
             ],
-            "did_not_bat": "Matthew Wade , James Faulkner , Kane Richardson , John Hastings , Joel Paris , Scott Boland",
+            "did_not_bat": "Matthew Wade (wk) , James Faulkner , Kane Richardson , John Hastings , Joel Paris , Scott Boland",
             "fall_of_wickets": "Fall of wickets : 1 - 145 ( Aaron Finch , 24.5 ov ) , 2 - 166 ( Shaun Marsh , 29.5 ov ) , 3 - 244 ( Steven Smith , 40.5 ov )",
             "bowling": [
                 {
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 6 balls remaining)"
+    "result": "Australia won by 7 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Ishant Sharma",
+            "Ravindra Jadeja",
+            "Umesh Yadav",
+            "Manish Pandey",
+            "Ravichandran Ashwin",
+            "Barinder Sran",
+            "Shikhar Dhawan"
+        ],
+        "Australia": [
+            "Kane Richardson",
+            "Scott Boland",
+            "Steven Smith(c)",
+            "Matthew Wade (wk)",
+            "John Hastings",
+            "George Bailey",
+            "Shaun Marsh",
+            "Joel Paris",
+            "Aaron Finch",
+            "James Faulkner",
+            "Glenn Maxwell"
+        ]
+    }
 }

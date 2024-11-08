@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Murali Vijay",
-                    "dismissal": "c Hopkins b Tuffey",
+                    "dismissal": "c (wk)Hopkins b Tuffey",
                     "runs": "29",
                     "balls": "32",
                     "minutes": "36",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Hopkins b Tuffey",
+                    "dismissal": "c (wk)Hopkins b Tuffey",
                     "runs": "42",
                     "balls": "64",
                     "minutes": "77",
@@ -93,8 +93,8 @@
                     "strike_rate": "152.63"
                 },
                 {
-                    "batsman": "Wriddhiman Saha",
-                    "dismissal": "c Hopkins b McKay",
+                    "batsman": "Wriddhiman Saha (wk)",
+                    "dismissal": "c (wk)Hopkins b McKay",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "5",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "c Saha b Yuvraj Singh",
+                    "dismissal": "c (wk)Saha b Yuvraj Singh",
                     "runs": "25",
                     "balls": "51",
                     "minutes": "73",
@@ -324,7 +324,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Gareth Hopkins",
+                    "batsman": "Gareth Hopkins (wk)",
                     "dismissal": "c Pathan b Ashwin",
                     "runs": "16",
                     "balls": "14",
@@ -345,7 +345,7 @@
                 },
                 {
                     "batsman": "Kyle Mills",
-                    "dismissal": "c Saha b Sreesanth",
+                    "dismissal": "c (wk)Saha b Sreesanth",
                     "runs": "32",
                     "balls": "28",
                     "minutes": "42",
@@ -468,5 +468,33 @@
             ]
         }
     ],
-    "result": "India won by 40 runs"
+    "result": "India won by 40 runs",
+    "playing_xi": {
+        "India": [
+            "Ashish Nehra",
+            "Wriddhiman Saha (wk)",
+            "Murali Vijay",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Sreesanth",
+            "Gautam Gambhir(c)",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Yusuf Pathan",
+            "Munaf Patel"
+        ],
+        "New Zealand": [
+            "Jamie How",
+            "Nathan McCullum",
+            "Andy McKay",
+            "Martin Guptill",
+            "Gareth Hopkins (wk)",
+            "Kyle Mills",
+            "Ross Taylor(c)",
+            "Grant Elliott",
+            "Scott Styris",
+            "Kane Williamson",
+            "Daryl Tuffey"
+        ]
+    }
 }

@@ -38,7 +38,7 @@
                     "strike_rate": "118.18"
                 },
                 {
-                    "batsman": "Ashif Mulla",
+                    "batsman": "Ashif Mulla (wk)",
                     "dismissal": "c Watson b Drummond",
                     "runs": "7",
                     "balls": "8",
@@ -69,7 +69,7 @@
                 },
                 {
                     "batsman": "Ashish Bagai(c)",
-                    "dismissal": "st Petrie b Lyons",
+                    "dismissal": "st (wk)Petrie b Lyons",
                     "runs": "31",
                     "balls": "56",
                     "minutes": "78",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Ryan Watson",
-                    "dismissal": "st Mulla b Baidwan",
+                    "dismissal": "st (wk)Mulla b Baidwan",
                     "runs": "74",
                     "balls": "98",
                     "minutes": "151",
@@ -305,7 +305,7 @@
                     "strike_rate": "64.28"
                 }
             ],
-            "did_not_bat": "Ross Lyons , Alasdair Evans , Marc Petrie , Majid Haq",
+            "did_not_bat": "Ross Lyons , Alasdair Evans , Marc Petrie (wk) , Majid Haq",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Fraser Watts , 0.2 ov ) , 2 - 36 ( Navdeep Poonia , 5.6 ov ) , 3 - 132 ( Gavin Hamilton , 26.5 ov ) , 4 - 218 ( Ryan Watson , 42.3 ov ) , 5 - 218 ( Gordon Drummond , 42.4 ov )",
             "bowling": [
                 {
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 5 wickets (with 16 balls remaining)"
+    "result": "Scotland won by 5 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Ashif Mulla (wk)",
+            "Henry Osinde",
+            "Ashish Bagai(c)",
+            "Sandeep Jyoti",
+            "Shaheed Keshvani",
+            "Sunil Dhaniram",
+            "Khurram Chohan",
+            "Rizwan Cheema",
+            "Zubin Surkari",
+            "Umar Bhatti",
+            "Harvir Baidwan"
+        ],
+        "Scotland": [
+            "Ross Lyons",
+            "Ryan Watson",
+            "Neil McCallum",
+            "Fraser Watts",
+            "Majid Haq",
+            "Marc Petrie (wk)",
+            "Gavin Hamilton(c)",
+            "Alasdair Evans",
+            "Gordon Drummond",
+            "Stuart Chalmers",
+            "Navdeep Poonia"
+        ]
+    }
 }

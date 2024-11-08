@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Nafees Iqbal",
-                    "dismissal": "c Jones b Lewis",
+                    "dismissal": "c (wk)Jones b Lewis",
                     "runs": "19",
                     "balls": "28",
                     "minutes": "43",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar(c)",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "19",
                     "balls": "28",
                     "minutes": "34",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "run out (Pietersen/Jones)",
+                    "dismissal": "run out (Pietersen/ (wk)Jones)",
                     "runs": "51",
                     "balls": "58",
                     "minutes": "97",
@@ -95,8 +95,8 @@
                     "strike_rate": "87.93"
                 },
                 {
-                    "batsman": "Khaled Mashud",
-                    "dismissal": "c Jones b Harmison",
+                    "batsman": "Khaled Mashud (wk)",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "1",
                     "balls": "10",
                     "minutes": "11",
@@ -136,7 +136,7 @@
                 },
                 {
                     "batsman": "Nazmul Hossain",
-                    "dismissal": "c Jones b Gough",
+                    "dismissal": "c (wk)Jones b Gough",
                     "runs": "6",
                     "balls": "23",
                     "minutes": "29",
@@ -248,7 +248,7 @@
                     "strike_rate": "106.49"
                 }
             ],
-            "did_not_bat": "Michael Vaughan (c) , Paul Collingwood , Andrew Flintoff , Kevin Pietersen , Geraint Jones , Vikram Solanki , Jon Lewis , Darren Gough , Steve Harmison",
+            "did_not_bat": "Michael Vaughan (c) , Paul Collingwood , Andrew Flintoff , Kevin Pietersen , Geraint Jones (wk) , Vikram Solanki , Jon Lewis , Darren Gough , Steve Harmison",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -324,5 +324,33 @@
             ]
         }
     ],
-    "result": "England won by 10 wickets (with 151 balls remaining)"
+    "result": "England won by 10 wickets (with 151 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Javed Omer",
+            "Nafees Iqbal",
+            "Tushar Imran",
+            "Aftab Ahmed",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Mohammad Rafique",
+            "Habibul Bashar(c)",
+            "Khaled Mahmud",
+            "Nazmul Hossain",
+            "Khaled Mashud (wk)"
+        ],
+        "England": [
+            "Vikram Solanki",
+            "Andrew Flintoff",
+            "Darren Gough",
+            "Jon Lewis",
+            "Steve Harmison",
+            "Michael Vaughan (c)",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Marcus Trescothick"
+        ]
+    }
 }

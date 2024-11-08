@@ -71,7 +71,7 @@
                     "strike_rate": "45.45"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "c Mehidy Hasan Miraz b Mustafizur Rahman",
                     "runs": "68",
                     "balls": "89",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Bas de Leede",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "17",
                     "balls": "32",
                     "minutes": "49",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Shariz Ahmad",
-                    "dismissal": "run out (Mahmudullah/Mushfiqur Rahim)",
+                    "dismissal": "run out (Mahmudullah/ (wk)Mushfiqur Rahim)",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "13",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Litton Das",
-                    "dismissal": "c Edwards b Dutt",
+                    "dismissal": "c (wk)Edwards b Dutt",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "20",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Tanzid Hasan",
-                    "dismissal": "c Edwards b van Beek",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "15",
                     "balls": "16",
                     "minutes": "25",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Mehidy Hasan Miraz",
-                    "dismissal": "c Edwards b de Leede",
+                    "dismissal": "c (wk)Edwards b de Leede",
                     "runs": "35",
                     "balls": "40",
                     "minutes": "51",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "c Edwards b van Meekeren",
+                    "dismissal": "c (wk)Edwards b van Meekeren",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "14",
@@ -288,7 +288,7 @@
                     "strike_rate": "35.71"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b van Meekeren",
                     "runs": "1",
                     "balls": "5",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 87 runs"
+    "result": "Netherlands won by 87 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Aryan Dutt",
+            "Wesley Barresi",
+            "Scott Edwards(c) (wk)",
+            "Shariz Ahmad",
+            "Paul van Meekeren",
+            "Max O'Dowd",
+            "Vikramjit Singh",
+            "Sybrand Engelbrecht",
+            "Colin Ackermann",
+            "Bas de Leede",
+            "Logan van Beek"
+        ],
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Mahmudullah",
+            "Tanzid Hasan",
+            "Mustafizur Rahman",
+            "Shoriful Islam",
+            "Najmul Hossain Shanto",
+            "Mahedi Hasan",
+            "Shakib Al Hasan(c)",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed"
+        ]
+    }
 }

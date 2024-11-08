@@ -53,7 +53,7 @@
                     "strike_rate": "98.55"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "b Perera",
                     "runs": "96",
                     "balls": "76",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "36",
                     "balls": "47",
                     "minutes": "50",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Sangakkara b Herath",
+                    "dismissal": "c (wk)Sangakkara b Herath",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "13",
@@ -235,7 +235,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c de Villiers b Tsotsobe",
+                    "dismissal": "c (wk)de Villiers b Tsotsobe",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "13",
@@ -254,7 +254,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Petersen b Peterson",
                     "runs": "32",
                     "balls": "31",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 8 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Colin Ingram",
+            "Morne Morkel",
+            "Alviro Petersen",
+            "Robin Peterson",
+            "Vernon Philander",
+            "Faf du Plessis",
+            "Lonwabo Tsotsobe",
+            "AB de Villiers(c) (wk)",
+            "Jean-Paul Duminy",
+            "Wayne Parnell",
+            "Graeme Smith"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Tillakaratne Dilshan(c)",
+            "Dinesh Chandimal",
+            "Rangana Herath",
+            "Sachithra Senanayake",
+            "Upul Tharanga",
+            "Angelo Mathews",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Nuwan Kulasekara"
+        ]
+    }
 }

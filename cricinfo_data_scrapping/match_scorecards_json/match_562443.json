@@ -120,7 +120,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Sarfaraz Ahmed , Mohammad Sami",
+            "did_not_bat": "Sarfaraz Ahmed (wk) , Mohammad Sami",
             "fall_of_wickets": "Fall of wickets : 1 - 22 ( Mohammad Hafeez , 5.6 ov ) , 2 - 82 ( Imran Farhat , 18.1 ov ) , 3 - 113 ( Azhar Ali , 25.1 ov ) , 4 - 146 ( Asad Shafiq , 32.5 ov ) , 5 - 207 ( Misbah-ul-Haq , 42.6 ov ) , 6 - 229 ( Shahid Afridi , 46.4 ov ) , 7 - 244 ( Sohail Tanvir , 49.4 ov )",
             "bowling": [
                 {
@@ -237,8 +237,8 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "st Sarfaraz Ahmed b Shahid Afridi",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Shahid Afridi",
                     "runs": "40",
                     "balls": "68",
                     "minutes": "91",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "run out (Imran Farhat/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Imran Farhat/ (wk)Sarfaraz Ahmed)",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "7",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "run out (Sarfaraz Ahmed/Mohammad Sami)",
+                    "dismissal": "run out ( (wk)Sarfaraz Ahmed/Mohammad Sami)",
                     "runs": "11",
                     "balls": "16",
                     "minutes": "27",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 2 wickets (with 2 balls remaining)"
+    "result": "Sri Lanka won by 2 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Umar Gul",
+            "Sarfaraz Ahmed (wk)",
+            "Asad Shafiq",
+            "Shahid Afridi",
+            "Misbah-ul-Haq(c)",
+            "Azhar Ali",
+            "Sohail Tanvir",
+            "Mohammad Hafeez",
+            "Umar Akmal",
+            "Imran Farhat",
+            "Mohammad Sami"
+        ],
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Jeevan Mendis",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

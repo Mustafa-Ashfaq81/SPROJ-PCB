@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "run out (Warne/Gilchrist)",
+                    "dismissal": "run out (Warne/ (wk)Gilchrist)",
                     "runs": "69",
                     "balls": "75",
                     "minutes": "108",
@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Ali Brown",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "12",
                     "balls": "16",
                     "minutes": "17",
@@ -65,7 +65,7 @@
                     "strike_rate": "72.41"
                 },
                 {
-                    "batsman": "Alec Stewart(c)",
+                    "batsman": "Alec Stewart(c) (wk)",
                     "dismissal": "lbw b Lee",
                     "runs": "25",
                     "balls": "44",
@@ -192,7 +192,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Shah b Gough",
                     "runs": "4",
                     "balls": "13",
@@ -213,7 +213,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting",
-                    "dismissal": "run out (Brown/Mullally/Stewart)",
+                    "dismissal": "run out (Brown/Mullally/ (wk)Stewart)",
                     "runs": "102",
                     "balls": "116",
                     "minutes": "153",
@@ -352,5 +352,33 @@
             ]
         }
     ],
-    "result": "Australia won by 5 wickets (with 3 balls remaining)"
+    "result": "Australia won by 5 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ben Hollioake",
+            "Mark Ealham",
+            "Dominic Cork",
+            "Marcus Trescothick",
+            "Nick Knight",
+            "Alec Stewart(c) (wk)",
+            "Ali Brown",
+            "Robert Croft",
+            "Alan Mullally",
+            "Owais Shah",
+            "Darren Gough"
+        ],
+        "Australia": [
+            "Brett Lee",
+            "Andrew Symonds",
+            "Adam Gilchrist (wk)",
+            "Damien Martyn",
+            "Ian Harvey",
+            "Shane Warne",
+            "Glenn McGrath",
+            "Ricky Ponting",
+            "Mark Waugh",
+            "Steve Waugh(c)",
+            "Matthew Hayden"
+        ]
+    }
 }

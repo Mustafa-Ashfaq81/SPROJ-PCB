@@ -40,7 +40,7 @@
                     "strike_rate": "59.25"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Younis Khan b Shahid Afridi",
                     "runs": "40",
                     "balls": "52",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "c (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "-",
@@ -247,8 +247,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "c Haddin b Clark",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "c (wk)Haddin b Clark",
                     "runs": "48",
                     "balls": "62",
                     "minutes": "-",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Haddin b Hopes",
+                    "dismissal": "c (wk)Haddin b Hopes",
                     "runs": "24",
                     "balls": "53",
                     "minutes": "-",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 35 balls remaining)"
+    "result": "Pakistan won by 4 wickets (with 35 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Callum Ferguson",
+            "Nathan Bracken",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Andrew Symonds",
+            "Michael Clarke(c)",
+            "Brad Haddin (wk)",
+            "Stuart Clark",
+            "Nathan Hauritz",
+            "James Hopes",
+            "Ben Hilfenhaus"
+        ],
+        "Pakistan": [
+            "Nasir Jamshed",
+            "Iftikhar Anjum",
+            "Shoaib Akhtar",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Salman Butt",
+            "Misbah-ul-Haq",
+            "Shahid Afridi"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Murtagh",
                     "runs": "5",
                     "balls": "15",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c Poynter b Rankin",
+                    "dismissal": "c (wk)Poynter b Rankin",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "-",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "George Dockrell",
-                    "dismissal": "st Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "54",
                     "balls": "77",
                     "minutes": "-",
@@ -287,7 +287,7 @@
                     "strike_rate": "70.12"
                 },
                 {
-                    "batsman": "Stuart Poynter",
+                    "batsman": "Stuart Poynter (wk)",
                     "dismissal": "c Hazratullah Zazai b Rashid Khan",
                     "runs": "0",
                     "balls": "3",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 4 wickets (with 6 balls remaining)"
+    "result": "Ireland won by 4 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Hazratullah Zazai",
+            "Samiullah Shinwari",
+            "Dawlat Zadran",
+            "Mujeeb Ur Rahman",
+            "Najibullah Zadran",
+            "Hashmatullah Shahidi",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Rashid Khan",
+            "Asghar Afghan(c)",
+            "Mohammad Shahzad (wk)"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "James Cameron-Dow",
+            "Boyd Rankin",
+            "Tim Murtagh",
+            "Andy McBrine",
+            "Stuart Poynter (wk)",
+            "William Porterfield(c)",
+            "Simi Singh",
+            "Paul Stirling",
+            "George Dockrell",
+            "Kevin O'Brien"
+        ]
+    }
 }

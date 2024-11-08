@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Mushfiqur Rahim b Mohammad Saifuddin",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mohammad Saifuddin",
                     "runs": "0",
                     "balls": "13",
                     "minutes": "17",
@@ -51,7 +51,7 @@
                     "strike_rate": "104.47"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Liton Das b Mustafizur Rahman",
                     "runs": "96",
                     "balls": "121",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "5",
@@ -248,8 +248,8 @@
                     "strike_rate": "125.25"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Hope b Thomas",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Hope b Thomas",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "11",
@@ -358,5 +358,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 7 wickets (with 51 balls remaining)"
+    "result": "Bangladesh won by 7 wickets (with 51 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Oshane Thomas",
+            "Evin Lewis",
+            "Sheldon Cottrell",
+            "Chris Gayle",
+            "Shannon Gabriel",
+            "Andre Russell",
+            "Darren Bravo",
+            "Shai Hope (wk)",
+            "Jason Holder(c)",
+            "Nicholas Pooran",
+            "Shimron Hetmyer"
+        ],
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza (c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Mohammad Saifuddin",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain"
+        ]
+    }
 }

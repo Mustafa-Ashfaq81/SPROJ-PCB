@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "run out (de Leede/Edwards)",
+                    "dismissal": "run out (de Leede/ (wk)Edwards)",
                     "runs": "109",
                     "balls": "109",
                     "minutes": "168",
@@ -66,7 +66,7 @@
                     "strike_rate": "87.05"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "lbw b de Leede",
                     "runs": "14",
                     "balls": "17",
@@ -263,7 +263,7 @@
                     "strike_rate": "120.37"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "not out",
                     "runs": "71",
                     "balls": "60",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 16 runs"
+    "result": "Pakistan won by 16 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Haris Rauf",
+            "Salman Agha",
+            "Babar Azam(c)",
+            "Mohammad Wasim",
+            "Khushdil Shah",
+            "Imam-ul-Haq",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Mohammad Nawaz",
+            "Naseem Shah"
+        ],
+        "Netherlands": [
+            "Wesley Barresi",
+            "Vikramjit Singh",
+            "Scott Edwards(c) (wk)",
+            "Tom Cooper",
+            "Aryan Dutt",
+            "Teja Nidamanuru",
+            "Max O'Dowd",
+            "Tim Pringle",
+            "Logan van Beek",
+            "Bas de Leede",
+            "Vivian Kingma"
+        ]
+    }
 }

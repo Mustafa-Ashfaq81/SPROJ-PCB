@@ -31,7 +31,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "lbw b Kulasekara",
                     "runs": "1",
                     "balls": "7",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Ouma b Otieno",
+                    "dismissal": "c (wk)Ouma b Otieno",
                     "runs": "44",
                     "balls": "30",
                     "minutes": "41",
@@ -258,7 +258,7 @@
                     "strike_rate": "146.66"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "not out",
                     "runs": "27",
                     "balls": "24",
@@ -358,5 +358,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 188 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 188 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Shem Ngoche",
+            "Collins Obuya",
+            "David Obuya",
+            "Tanmay Mishra",
+            "Peter Ongondo",
+            "Morris Ouma (wk)",
+            "Steve Tikolo",
+            "Seren Waters",
+            "Elijah Otieno",
+            "Nehemiah Odhiambo",
+            "Jimmy Kamande(c)"
+        ],
+        "Sri Lanka": [
+            "Angelo Mathews",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Kumar Sangakkara(c) (wk)",
+            "Ajantha Mendis",
+            "Chamara Silva",
+            "Nuwan Kulasekara",
+            "Muthiah Muralidaran",
+            "Thilan Samaraweera",
+            "Upul Tharanga"
+        ]
+    }
 }

@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "c Prior b Swann",
+                    "dismissal": "c (wk)Prior b Swann",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "37",
@@ -83,7 +83,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "run out (Pietersen)",
                     "runs": "22",
                     "balls": "34",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Craig Kieswetter",
-                    "dismissal": "st Mushfiqur Rahim b Naeem Islam",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Naeem Islam",
                     "runs": "19",
                     "balls": "26",
                     "minutes": "49",
@@ -304,7 +304,7 @@
                     "strike_rate": "82.50"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "not out",
                     "runs": "30",
                     "balls": "37",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 24 balls remaining)"
+    "result": "England won by 6 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Shakib Al Hasan(c)",
+            "Imrul Kayes",
+            "Aftab Ahmed",
+            "Mashrafe Mortaza",
+            "Abdur Razzak",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ],
+        "England": [
+            "Stuart Broad",
+            "Kevin Pietersen",
+            "Tim Bresnan",
+            "Paul Collingwood",
+            "Ryan Sidebottom",
+            "Alastair Cook(c)",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Craig Kieswetter",
+            "Matt Prior (wk)",
+            "Luke Wright"
+        ]
+    }
 }

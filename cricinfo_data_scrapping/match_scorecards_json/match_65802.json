@@ -51,7 +51,7 @@
                     "strike_rate": "155.55"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "c Jayawardene b Vaas",
                     "runs": "0",
                     "balls": "7",
@@ -228,8 +228,8 @@
                     "strike_rate": "41.17"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "18",
                     "balls": "21",
                     "minutes": "37",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Kumar Dharmasena",
-                    "dismissal": "run out (Abdul Razzaq/Rashid Latif)",
+                    "dismissal": "run out (Abdul Razzaq/ (wk)Rashid Latif)",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "5",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Charitha Buddhika",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -366,5 +366,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 217 runs"
+    "result": "Pakistan won by 217 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Saqlain Mushtaq",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Waqar Younis (c)",
+            "Inzamam-ul-Haq",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Shahid Afridi",
+            "Imran Nazir"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Charitha Buddhika",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Russel Arnold",
+            "Kumar Dharmasena",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya(c)",
+            "Upul Chandana",
+            "Marvan Atapattu"
+        ]
+    }
 }

@@ -50,8 +50,8 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "c Dhoni b Pandya",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "c (wk)Dhoni b Pandya",
                     "runs": "25",
                     "balls": "39",
                     "minutes": "-",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Jason Holder(c)",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "11",
                     "balls": "10",
                     "minutes": "-",
@@ -224,7 +224,7 @@
             "batting": [
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c SD Hope b Bishoo",
+                    "dismissal": "c (wk)SD Hope b Bishoo",
                     "runs": "60",
                     "balls": "91",
                     "minutes": "-",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c SD Hope b Holder",
+                    "dismissal": "c (wk)SD Hope b Holder",
                     "runs": "3",
                     "balls": "12",
                     "minutes": "-",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Dinesh Karthik",
-                    "dismissal": "c SD Hope b Joseph",
+                    "dismissal": "c (wk)SD Hope b Joseph",
                     "runs": "2",
                     "balls": "19",
                     "minutes": "-",
@@ -263,7 +263,7 @@
                     "strike_rate": "10.52"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Joseph b Williams",
                     "runs": "54",
                     "balls": "114",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Kedar Jadhav",
-                    "dismissal": "c SD Hope b Nurse",
+                    "dismissal": "c (wk)SD Hope b Nurse",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "-",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 11 runs"
+    "result": "West Indies won by 11 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Shai Hope (wk)",
+            "Evin Lewis",
+            "Roston Chase",
+            "Jason Holder(c)",
+            "Rovman Powell",
+            "Kyle Hope",
+            "Ashley Nurse",
+            "Devendra Bishoo",
+            "Jason Mohammed",
+            "Alzarri Joseph",
+            "Kesrick Williams"
+        ],
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Mohammed Shami",
+            "Umesh Yadav",
+            "Virat Kohli(c)",
+            "Shikhar Dhawan",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Dinesh Karthik",
+            "Hardik Pandya"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c de Villiers b JA Morkel",
+                    "dismissal": "c (wk)de Villiers b JA Morkel",
                     "runs": "8",
                     "balls": "31",
                     "minutes": "39",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c de Villiers b M Morkel",
+                    "dismissal": "c (wk)de Villiers b M Morkel",
                     "runs": "25",
                     "balls": "33",
                     "minutes": "53",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Raqibul Hasan",
-                    "dismissal": "run out (Duminy/de Villiers)",
+                    "dismissal": "run out (Duminy/ (wk)de Villiers)",
                     "runs": "12",
                     "balls": "30",
                     "minutes": "36",
@@ -90,7 +90,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Dhiman Ghosh",
+                    "batsman": "Dhiman Ghosh (wk)",
                     "dismissal": "b Harris",
                     "runs": "3",
                     "balls": "14",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Abdur Razzak",
-                    "dismissal": "c de Villiers b Botha",
+                    "dismissal": "c (wk)de Villiers b Botha",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "15",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "c de Villiers b JA Morkel",
+                    "dismissal": "c (wk)de Villiers b JA Morkel",
                     "runs": "5",
                     "balls": "25",
                     "minutes": "30",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Mosharraf Hossain",
-                    "dismissal": "c de Villiers b Botha",
+                    "dismissal": "c (wk)de Villiers b Botha",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "14",
@@ -253,7 +253,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "b Farhad Reza",
                     "runs": "40",
                     "balls": "37",
@@ -349,5 +349,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 94 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 94 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Nazimuddin",
+            "Raqibul Hasan",
+            "Dhiman Ghosh (wk)",
+            "Abdur Razzak",
+            "Farhad Reza",
+            "Shahriar Nafees",
+            "Tamim Iqbal",
+            "Shakib Al Hasan",
+            "Mosharraf Hossain",
+            "Mashrafe Mortaza",
+            "Mohammad Ashraful(c)"
+        ],
+        "South Africa": [
+            "Dale Steyn",
+            "Morne Morkel",
+            "Herschelle Gibbs",
+            "Alviro Petersen",
+            "Hashim Amla",
+            "Paul Harris",
+            "AB de Villiers (wk)",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Albie Morkel",
+            "Graeme Smith(c)"
+        ]
+    }
 }

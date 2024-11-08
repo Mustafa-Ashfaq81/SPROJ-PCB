@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Amjad Ali",
-                    "dismissal": "c Sultan Ahmed b Ansari",
+                    "dismissal": "c (wk)Sultan Ahmed b Ansari",
                     "runs": "20",
                     "balls": "17",
                     "minutes": "-",
@@ -59,8 +59,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Swapnil Patil",
-                    "dismissal": "c Sultan Ahmed b Ranpura",
+                    "batsman": "Swapnil Patil (wk)",
+                    "dismissal": "c (wk)Sultan Ahmed b Ranpura",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "-",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Mohammad Nadeem",
-                    "dismissal": "run out (Khurram Khan/Patil)",
+                    "dismissal": "run out (Khurram Khan/ (wk)Patil)",
                     "runs": "14",
                     "balls": "36",
                     "minutes": "-",
@@ -324,7 +324,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Sultan Ahmed(c)",
+                    "batsman": "Sultan Ahmed(c) (wk)",
                     "dismissal": "c Mohammad Shahzad b Fayyaz Ahmed",
                     "runs": "6",
                     "balls": "28",
@@ -335,7 +335,7 @@
                 },
                 {
                     "batsman": "Amir Ali",
-                    "dismissal": "c Patil b Fayyaz Ahmed",
+                    "dismissal": "c (wk)Patil b Fayyaz Ahmed",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -464,5 +464,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 57 runs"
+    "result": "U.A.E. won by 57 runs",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Khurram Khan(c)",
+            "Fayyaz Ahmed",
+            "Kamran Shazad",
+            "Mohammad Naveed",
+            "Mohammad Shahzad",
+            "Krishna Chandran",
+            "Swapnil Patil (wk)",
+            "Salman Faris",
+            "Shaiman Anwar",
+            "Amjad Ali",
+            "Ahmed Raza"
+        ],
+        "Oman": [
+            "Rajeshkumar Ranpura",
+            "Mohammad Nadeem",
+            "Arif Hussain",
+            "Zeeshan Siddiqui",
+            "Zeeshan Maqsood",
+            "Munis Ansari",
+            "Sultan Ahmed(c) (wk)",
+            "Vaibhav Wategaonkar",
+            "Amir Ali",
+            "Ajay Lalcheta",
+            "Aamir Kaleem"
+        ]
+    }
 }

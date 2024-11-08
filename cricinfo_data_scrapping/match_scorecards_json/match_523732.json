@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Imran Farhat",
-                    "dismissal": "c Taibu b Mpofu",
+                    "dismissal": "c (wk)Taibu b Mpofu",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "8",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "run out (Waller/Taibu)",
+                    "dismissal": "run out (Waller/ (wk)Taibu)",
                     "runs": "78",
                     "balls": "72",
                     "minutes": "86",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Taibu b Chigumbura",
+                    "dismissal": "c (wk)Taibu b Chigumbura",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "12",
@@ -94,7 +94,7 @@
                     "strike_rate": "61.01"
                 },
                 {
-                    "batsman": "Adnan Akmal",
+                    "batsman": "Adnan Akmal (wk)",
                     "dismissal": "c Mpofu b Price",
                     "runs": "27",
                     "balls": "32",
@@ -261,7 +261,7 @@
                     "strike_rate": "81.55"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Younis Khan b Aizaz Cheema",
                     "runs": "26",
                     "balls": "43",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "run out (Umar Akmal/Adnan Akmal)",
+                    "dismissal": "run out (Umar Akmal/ (wk)Adnan Akmal)",
                     "runs": "24",
                     "balls": "23",
                     "minutes": "35",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 5 runs"
+    "result": "Pakistan won by 5 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Adnan Akmal (wk)",
+            "Younis Khan",
+            "Junaid Khan",
+            "Aizaz Cheema",
+            "Imran Farhat",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Sohail Tanvir",
+            "Umar Akmal"
+        ],
+        "Zimbabwe": [
+            "Chamu Chibhabha",
+            "Tatenda Taibu (wk)",
+            "Greg Lamb",
+            "Malcolm Waller",
+            "Ray Price",
+            "Brendan Taylor(c)",
+            "Hamilton Masakadza",
+            "Chris Mpofu",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Vusi Sibanda"
+        ]
+    }
 }

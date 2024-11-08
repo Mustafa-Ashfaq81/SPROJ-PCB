@@ -70,7 +70,7 @@
                     "strike_rate": "185.71"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Shoaib Malik b Hasan Ali",
                     "runs": "8",
                     "balls": "6",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "run out (Mohammad Rizwan/Shoaib Malik)",
+                    "dismissal": "run out ( (wk)Mohammad Rizwan/Shoaib Malik)",
                     "runs": "6",
                     "balls": "5",
                     "minutes": "8",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Sharjeel Khan",
-                    "dismissal": "c Wade b Starc",
+                    "dismissal": "c (wk)Wade b Starc",
                     "runs": "79",
                     "balls": "69",
                     "minutes": "105",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Wade b Cummins",
+                    "dismissal": "c (wk)Wade b Cummins",
                     "runs": "46",
                     "balls": "40",
                     "minutes": "59",
@@ -277,7 +277,7 @@
                     "strike_rate": "115.00"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "c Starc b Cummins",
                     "runs": "6",
                     "balls": "6",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Hasan Ali",
-                    "dismissal": "st Wade b Zampa",
+                    "dismissal": "st (wk)Wade b Zampa",
                     "runs": "13",
                     "balls": "10",
                     "minutes": "14",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Australia won by 57 runs"
+    "result": "Australia won by 57 runs",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "Matthew Wade (wk)",
+            "James Faulkner",
+            "Pat Cummins",
+            "Adam Zampa",
+            "David Warner",
+            "Glenn Maxwell",
+            "Josh Hazlewood",
+            "Travis Head",
+            "Mitchell Starc",
+            "Peter Handscomb"
+        ],
+        "Pakistan": [
+            "Mohammad Rizwan (wk)",
+            "Wahab Riaz",
+            "Babar Azam",
+            "Azhar Ali(c)",
+            "Mohammad Amir",
+            "Junaid Khan",
+            "Hasan Ali",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Sharjeel Khan",
+            "Umar Akmal"
+        ]
+    }
 }

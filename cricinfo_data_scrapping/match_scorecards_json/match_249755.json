@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "run out (Flintoff/Read)",
+                    "dismissal": "run out (Flintoff/ (wk)Read)",
                     "runs": "101",
                     "balls": "128",
                     "minutes": "177",
@@ -92,7 +92,7 @@
                     "strike_rate": "150.00"
                 }
             ],
-            "did_not_bat": "Runako Morton , Carlton Baugh , Corey Collymore , Jerome Taylor , Fidel Edwards",
+            "did_not_bat": "Runako Morton , Carlton Baugh (wk) , Corey Collymore , Jerome Taylor , Fidel Edwards",
             "fall_of_wickets": "Fall of wickets : 1 - 35 ( Shivnarine Chanderpaul , 7.6 ov ) , 2 - 209 ( Chris Gayle , 42.3 ov ) , 3 - 259 ( Ramnaresh Sarwan , 47.6 ov ) , 4 - 268 ( Brian Lara , 49.3 ov )",
             "bowling": [
                 {
@@ -273,7 +273,7 @@
                     "strike_rate": "61.53"
                 },
                 {
-                    "batsman": "Chris Read",
+                    "batsman": "Chris Read (wk)",
                     "dismissal": "c Gayle b Bravo",
                     "runs": "4",
                     "balls": "7",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 9 balls remaining)"
+    "result": "England won by 3 wickets (with 9 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle",
+            "Carlton Baugh (wk)",
+            "Fidel Edwards",
+            "Ramnaresh Sarwan",
+            "Corey Collymore",
+            "Dwayne Bravo",
+            "Marlon Samuels",
+            "Runako Morton",
+            "Jerome Taylor"
+        ],
+        "England": [
+            "James Anderson",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Jon Lewis",
+            "Andrew Strauss",
+            "Jamie Dalrymple",
+            "Sajid Mahmood",
+            "Michael Yardy",
+            "Andrew Flintoff(c)",
+            "Ian Bell",
+            "Chris Read (wk)"
+        ]
+    }
 }

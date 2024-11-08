@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Raqibul Hasan",
-                    "dismissal": "run out (Strauss/Kieswetter)",
+                    "dismissal": "run out (Strauss/ (wk)Kieswetter)",
                     "runs": "76",
                     "balls": "95",
                     "minutes": "148",
@@ -80,7 +80,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Wright b Bresnan",
                     "runs": "22",
                     "balls": "18",
@@ -251,7 +251,7 @@
                     "strike_rate": "135.13"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "c Faisal Hossain b Shakib Al Hasan",
                     "runs": "32",
                     "balls": "40",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Junaid Siddique b Shakib Al Hasan",
+                    "dismissal": "c (wk)Junaid Siddique b Shakib Al Hasan",
                     "runs": "33",
                     "balls": "49",
                     "minutes": "58",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 29 balls remaining)"
+    "result": "England won by 6 wickets (with 29 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Faisal Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Imrul Kayes",
+            "Raqibul Hasan",
+            "Abdur Razzak",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "James Tredwell",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Luke Wright",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Craig Kieswetter (wk)",
+            "Ian Bell"
+        ]
+    }
 }

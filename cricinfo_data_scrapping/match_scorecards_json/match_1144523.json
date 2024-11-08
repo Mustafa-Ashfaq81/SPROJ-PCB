@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "24",
                     "balls": "25",
                     "minutes": "54",
@@ -61,7 +61,7 @@
                     "strike_rate": "96.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Williamson b Boult",
                     "runs": "11",
                     "balls": "12",
@@ -229,7 +229,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Buttler b Archer",
+                    "dismissal": "c (wk)Buttler b Archer",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "25",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "run out (Rashid/Buttler)",
+                    "dismissal": "run out (Rashid/ (wk)Buttler)",
                     "runs": "28",
                     "balls": "42",
                     "minutes": "54",
@@ -268,8 +268,8 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Tom Latham",
-                    "dismissal": "c Buttler b Plunkett",
+                    "batsman": "Tom Latham (wk)",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "57",
                     "balls": "65",
                     "minutes": "106",
@@ -329,7 +329,7 @@
                 },
                 {
                     "batsman": "Trent Boult",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "7",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "England won by 119 runs"
+    "result": "England won by 119 runs",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Ben Stokes",
+            "Mark Wood",
+            "Jofra Archer"
+        ],
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "James Neesham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Matt Henry",
+            "Colin de Grandhomme",
+            "Mitchell Santner",
+            "Tim Southee",
+            "Ross Taylor",
+            "Henry Nicholls"
+        ]
+    }
 }

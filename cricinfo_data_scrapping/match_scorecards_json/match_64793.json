@@ -93,7 +93,7 @@
                     "strike_rate": "180.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "24",
                     "balls": "12",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Barney Rogers",
-                    "dismissal": "c Kamran Akmal b Wasim Akram",
+                    "dismissal": "c (wk)Kamran Akmal b Wasim Akram",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -260,7 +260,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "not out",
                     "runs": "30",
                     "balls": "70",
@@ -356,5 +356,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 104 runs (D/L method)"
+    "result": "Pakistan won by 104 runs (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Faisal Iqbal",
+            "Saqlain Mushtaq",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Azhar Mahmood",
+            "Kamran Akmal (wk)",
+            "Inzamam-ul-Haq",
+            "Shahid Afridi",
+            "Taufeeq Umar",
+            "Saleem Elahi",
+            "Waqar Younis (c)"
+        ],
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Grant Flower",
+            "Waddington Mwayenga",
+            "Alistair Campbell(c)",
+            "Richard Sims",
+            "Tatenda Taibu (wk)",
+            "Andy Flower",
+            "Craig Evans",
+            "Mluleki Nkala",
+            "Barney Rogers",
+            "Stuart Matsikenyeri"
+        ]
+    }
 }

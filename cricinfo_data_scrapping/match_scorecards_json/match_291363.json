@@ -72,8 +72,8 @@
                     "strike_rate": "109.37"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "run out (Kapugedera/Sangakkara)",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "run out (Kapugedera/ (wk)Sangakkara)",
                     "runs": "31",
                     "balls": "26",
                     "minutes": "33",
@@ -196,7 +196,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "27",
                     "balls": "13",
                     "minutes": "20",
@@ -205,7 +205,7 @@
                     "strike_rate": "207.69"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c I Sharma b Harbhajan Singh",
                     "runs": "10",
                     "balls": "10",
@@ -315,5 +315,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 12 balls remaining) (D/L method)"
+    "result": "Sri Lanka won by 8 wickets (with 12 balls remaining) (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Sreesanth",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "MS Dhoni(c) (wk)"
+        ],
+        "Sri Lanka": [
+            "Mahela Jayawardene(c)",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Chamara Kapugedera",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ]
+    }
 }

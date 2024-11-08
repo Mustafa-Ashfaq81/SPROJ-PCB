@@ -29,7 +29,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Subash Khakurel",
+                    "batsman": "Subash Khakurel (wk)",
                     "dismissal": "c Lalcheta b Ranpura",
                     "runs": "0",
                     "balls": "10",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Mahaboob Alam",
-                    "dismissal": "st Sultan Ahmed b Amir Ali",
+                    "dismissal": "st (wk)Sultan Ahmed b Amir Ali",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "-",
@@ -120,7 +120,7 @@
                 },
                 {
                     "batsman": "Sagar Pun",
-                    "dismissal": "st Sultan Ahmed b Aamir Kaleem",
+                    "dismissal": "st (wk)Sultan Ahmed b Aamir Kaleem",
                     "runs": "20",
                     "balls": "25",
                     "minutes": "-",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Aamir Kaleem",
-                    "dismissal": "c Khakurel b Sompal Kami",
+                    "dismissal": "c (wk)Khakurel b Sompal Kami",
                     "runs": "6",
                     "balls": "20",
                     "minutes": "-",
@@ -330,7 +330,7 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Sultan Ahmed(c)",
+                    "batsman": "Sultan Ahmed(c) (wk)",
                     "dismissal": "not out",
                     "runs": "32",
                     "balls": "55",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Oman won by 2 wickets (with 13 balls remaining)"
+    "result": "Oman won by 2 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Nepal": [
+            "Binod Bhandari",
+            "Mahaboob Alam",
+            "Subash Khakurel (wk)",
+            "Sagar Pun",
+            "Paras Khadka(c)",
+            "Sharad Vesawkar",
+            "Shakti Gauchan",
+            "Sompal Kami",
+            "Basant Regmi",
+            "Naresh Budayair",
+            "Gyanendra Malla"
+        ],
+        "Oman": [
+            "Rajeshkumar Ranpura",
+            "Mohammad Nadeem",
+            "Arif Hussain",
+            "Zeeshan Siddiqui",
+            "Zeeshan Maqsood",
+            "Sultan Ahmed(c) (wk)",
+            "Vaibhav Wategaonkar",
+            "Amir Ali",
+            "Ajay Lalcheta",
+            "Aamir Kaleem",
+            "Jatinder Singh"
+        ]
+    }
 }

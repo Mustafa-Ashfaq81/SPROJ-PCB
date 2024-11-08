@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Kieswetter b Wright",
+                    "dismissal": "c (wk)Kieswetter b Wright",
                     "runs": "57",
                     "balls": "59",
                     "minutes": "94",
@@ -40,8 +40,8 @@
                     "strike_rate": "96.61"
                 },
                 {
-                    "batsman": "Tim Paine",
-                    "dismissal": "c Kieswetter b Broad",
+                    "batsman": "Tim Paine (wk)",
+                    "dismissal": "c (wk)Kieswetter b Broad",
                     "runs": "16",
                     "balls": "29",
                     "minutes": "40",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Kieswetter b Broad",
+                    "dismissal": "c (wk)Kieswetter b Broad",
                     "runs": "13",
                     "balls": "21",
                     "minutes": "17",
@@ -227,8 +227,8 @@
                     "strike_rate": "91.07"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
-                    "dismissal": "c Paine b Bollinger",
+                    "batsman": "Craig Kieswetter (wk)",
+                    "dismissal": "c (wk)Paine b Bollinger",
                     "runs": "8",
                     "balls": "7",
                     "minutes": "10",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Paine b Bollinger",
+                    "dismissal": "c (wk)Paine b Bollinger",
                     "runs": "52",
                     "balls": "64",
                     "minutes": "80",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 28 balls remaining)"
+    "result": "England won by 4 wickets (with 28 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Doug Bollinger",
+            "Clint McKay",
+            "Steven Smith",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Michael Clarke"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Luke Wright",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

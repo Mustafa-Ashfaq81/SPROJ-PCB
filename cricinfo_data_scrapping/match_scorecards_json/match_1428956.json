@@ -36,7 +36,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Pratik Athavale",
+                    "batsman": "Pratik Athavale (wk)",
                     "dismissal": "b McMullen",
                     "runs": "12",
                     "balls": "18",
@@ -117,7 +117,7 @@
                 },
                 {
                     "batsman": "Mehran Khan",
-                    "dismissal": "c Cross b Davidson",
+                    "dismissal": "c (wk)Cross b Davidson",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "6",
@@ -127,7 +127,7 @@
                 },
                 {
                     "batsman": "Kaleemullah",
-                    "dismissal": "c Cross b Davidson",
+                    "dismissal": "c (wk)Cross b Davidson",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "14",
@@ -137,7 +137,7 @@
                 },
                 {
                     "batsman": "Bilal Khan",
-                    "dismissal": "c Cross b Davidson",
+                    "dismissal": "c (wk)Cross b Davidson",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -283,7 +283,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Matthew Cross , Michael Leask , Chris Greaves , Mark Watt , Jack Jarvis , Safyaan Sharif , Jasper Davidson",
+            "did_not_bat": "Matthew Cross (wk) , Michael Leask , Chris Greaves , Mark Watt , Jack Jarvis , Safyaan Sharif , Jasper Davidson",
             "fall_of_wickets": "Fall of wickets : 1 - 83 ( George Munsey , 9.6 ov ) , 2 - 93 ( Brandon McMullen , 11.5 ov )",
             "bowling": [
                 {
@@ -345,5 +345,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Oman": [
+            "Shoaib Khan",
+            "Kashyap Prajapati",
+            "Mehran Khan",
+            "Fayyaz Butt",
+            "Khalid Kail",
+            "Aqib Ilyas(c)",
+            "Bilal Khan",
+            "Pratik Athavale (wk)",
+            "Ayaan Khan",
+            "Kaleemullah",
+            "Zeeshan Maqsood"
+        ],
+        "Scotland": [
+            "Richie Berrington(c)",
+            "Safyaan Sharif",
+            "Jack Jarvis",
+            "Matthew Cross (wk)",
+            "Michael Leask",
+            "Jasper Davidson",
+            "Brandon McMullen",
+            "Charlie Tear",
+            "Mark Watt",
+            "George Munsey",
+            "Chris Greaves"
+        ]
+    }
 }

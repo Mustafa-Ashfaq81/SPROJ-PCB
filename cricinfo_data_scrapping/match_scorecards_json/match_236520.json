@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -40,7 +40,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Pathan",
                     "runs": "14",
                     "balls": "18",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "run out (Sreesanth/Dhoni)",
+                    "dismissal": "run out (Sreesanth/ (wk)Dhoni)",
                     "runs": "95",
                     "balls": "110",
                     "minutes": "147",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Mohammad Asif",
-                    "dismissal": "run out (Sehwag/Dhoni)",
+                    "dismissal": "run out (Sehwag/ (wk)Dhoni)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "7",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "42",
                     "balls": "43",
                     "minutes": "71",
@@ -287,7 +287,7 @@
                     "strike_rate": "55.55"
                 }
             ],
-            "did_not_bat": "Irfan Pathan , MS Dhoni , Suresh Raina , Ajit Agarkar , Zaheer Khan , Ramesh Powar",
+            "did_not_bat": "Irfan Pathan , MS Dhoni (wk) , Suresh Raina , Ajit Agarkar , Zaheer Khan , Ramesh Powar",
             "fall_of_wickets": "Fall of wickets : 1 - 105 ( Sachin Tendulkar , 15.1 ov ) , 2 - 123 ( Virender Sehwag , 17.2 ov ) , 3 - 241 ( Rahul Dravid , 38.4 ov )",
             "bowling": [
                 {
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 41 balls remaining)"
+    "result": "India won by 7 wickets (with 41 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Shahid Afridi",
+            "Abdul Razzaq",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Umar Gul",
+            "Salman Butt",
+            "Shoaib Malik"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "MS Dhoni (wk)",
+            "Ajit Agarkar",
+            "Zaheer Khan",
+            "Ramesh Powar",
+            "Virender Sehwag",
+            "Suresh Raina",
+            "Yuvraj Singh"
+        ]
+    }
 }

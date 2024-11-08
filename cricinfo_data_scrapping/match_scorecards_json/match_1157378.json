@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "George Worker",
-                    "dismissal": "c Sarfaraz Ahmed b Shaheen Shah Afridi",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shaheen Shah Afridi",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "lbw b Shadab Khan",
                     "runs": "68",
                     "balls": "64",
@@ -287,7 +287,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "b de Grandhomme",
                     "runs": "64",
                     "balls": "69",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Shadab Khan",
-                    "dismissal": "c Latham b Sodhi",
+                    "dismissal": "c (wk)Latham b Sodhi",
                     "runs": "7",
                     "balls": "18",
                     "minutes": "-",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 47 runs"
+    "result": "New Zealand won by 47 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Henry Nicholls",
+            "Colin de Grandhomme",
+            "Trent Boult",
+            "Tom Latham (wk)",
+            "Kane Williamson(c)",
+            "Lockie Ferguson",
+            "Ish Sodhi",
+            "Ross Taylor",
+            "Colin Munro",
+            "Tim Southee",
+            "George Worker"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Hasan Ali",
+            "Shaheen Shah Afridi",
+            "Imad Wasim",
+            "Mohammad Hafeez",
+            "Babar Azam",
+            "Shadab Khan",
+            "Junaid Khan",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Imam-ul-Haq",
+            "Shoaib Malik"
+        ]
+    }
 }

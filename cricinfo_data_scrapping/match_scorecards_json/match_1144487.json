@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "16",
                     "balls": "29",
                     "minutes": "40",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Soumya Sarkar",
-                    "dismissal": "c de Kock b Morris",
+                    "dismissal": "c (wk)de Kock b Morris",
                     "runs": "42",
                     "balls": "30",
                     "minutes": "58",
@@ -61,7 +61,7 @@
                     "strike_rate": "89.28"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c van der Dussen b Phehlukwayo",
                     "runs": "78",
                     "balls": "80",
@@ -222,8 +222,8 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "run out (Mushfiqur Rahim)",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "run out ( (wk)Mushfiqur Rahim)",
                     "runs": "23",
                     "balls": "32",
                     "minutes": "41",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 21 runs"
+    "result": "Bangladesh won by 21 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mashrafe Mortaza (c)",
+            "Mehidy Hasan Miraz",
+            "Mohammad Mithun",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain",
+            "Mohammad Saifuddin",
+            "Mustafizur Rahman",
+            "Soumya Sarkar",
+            "Shakib Al Hasan",
+            "Mahmudullah"
+        ],
+        "South Africa": [
+            "Lungi Ngidi",
+            "Aiden Markram",
+            "Jean-Paul Duminy",
+            "Imran Tahir",
+            "David Miller",
+            "Kagiso Rabada",
+            "Rassie van der Dussen",
+            "Quinton de Kock (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)",
+            "Chris Morris"
+        ]
+    }
 }

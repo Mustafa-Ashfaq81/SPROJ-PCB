@@ -52,7 +52,7 @@
                     "strike_rate": "39.13"
                 },
                 {
-                    "batsman": "Alec Stewart(c)",
+                    "batsman": "Alec Stewart(c) (wk)",
                     "dismissal": "c Abdul Razzaq b Waqar Younis",
                     "runs": "18",
                     "balls": "47",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Dominic Cork",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "12",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Andy Caddick",
-                    "dismissal": "c Rashid Latif b Azhar Mahmood",
+                    "dismissal": "c (wk)Rashid Latif b Azhar Mahmood",
                     "runs": "6",
                     "balls": "19",
                     "minutes": "17",
@@ -133,7 +133,7 @@
                 },
                 {
                     "batsman": "Alan Mullally",
-                    "dismissal": "run out (Rashid Latif)",
+                    "dismissal": "run out ( (wk)Rashid Latif)",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "10",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Saeed Anwar",
-                    "dismissal": "c Stewart b Gough",
+                    "dismissal": "c (wk)Stewart b Gough",
                     "runs": "24",
                     "balls": "29",
                     "minutes": "36",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Stewart b Gough",
+                    "dismissal": "c (wk)Stewart b Gough",
                     "runs": "2",
                     "balls": "17",
                     "minutes": "26",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Stewart b Cork",
+                    "dismissal": "c (wk)Stewart b Cork",
                     "runs": "75",
                     "balls": "103",
                     "minutes": "141",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Stewart b Cork",
+                    "dismissal": "c (wk)Stewart b Cork",
                     "runs": "24",
                     "balls": "74",
                     "minutes": "104",
@@ -299,7 +299,7 @@
                     "strike_rate": "150.00"
                 }
             ],
-            "did_not_bat": "Inzamam-ul-Haq , Rashid Latif , Fazl-e-Akbar , Waqar Younis (c) , Saqlain Mushtaq",
+            "did_not_bat": "Inzamam-ul-Haq , Rashid Latif (wk) , Fazl-e-Akbar , Waqar Younis (c) , Saqlain Mushtaq",
             "fall_of_wickets": "Fall of wickets : 1 - 21 ( Shahid Afridi , 6.2 ov ) , 2 - 34 ( Saeed Anwar , 8.4 ov ) , 3 - 128 ( Mohammad Yousuf , 33.2 ov ) , 4 - 147 ( Abdul Razzaq , 39.1 ov )",
             "bowling": [
                 {
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "Pakistan awarded the match (opposition conceded)"
+    "result": "Pakistan awarded the match (opposition conceded)",
+    "playing_xi": {
+        "England": [
+            "Dominic Cork",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Alan Mullally",
+            "Ben Hollioake",
+            "Andy Caddick",
+            "Michael Vaughan",
+            "Alec Stewart(c) (wk)",
+            "Darren Gough",
+            "Owais Shah"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Inzamam-ul-Haq",
+            "Azhar Mahmood",
+            "Saqlain Mushtaq",
+            "Mohammad Yousuf",
+            "Saeed Anwar",
+            "Rashid Latif (wk)",
+            "Fazl-e-Akbar",
+            "Abdul Razzaq",
+            "Younis Khan",
+            "Waqar Younis (c)"
+        ]
+    }
 }

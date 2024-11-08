@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Bas Zuiderent",
-                    "dismissal": "c Edness b O'Brien",
+                    "dismissal": "c (wk)Edness b O'Brien",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "6",
@@ -115,7 +115,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
+                    "batsman": "Jeroen Smits(c) (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "19",
@@ -261,7 +261,7 @@
             "batting": [
                 {
                     "batsman": "Dwight Basden",
-                    "dismissal": "c Smits b Mudassar Bukhari",
+                    "dismissal": "c (wk)Smits b Mudassar Bukhari",
                     "runs": "7",
                     "balls": "17",
                     "minutes": "20",
@@ -270,7 +270,7 @@
                     "strike_rate": "41.17"
                 },
                 {
-                    "batsman": "Jekon Edness",
+                    "batsman": "Jekon Edness (wk)",
                     "dismissal": "lbw b ten Doeschate",
                     "runs": "14",
                     "balls": "31",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Lionel Cann",
-                    "dismissal": "c Smits b Borren",
+                    "dismissal": "c (wk)Smits b Borren",
                     "runs": "21",
                     "balls": "27",
                     "minutes": "33",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "James Celestine",
-                    "dismissal": "c Smits b Mol",
+                    "dismissal": "c (wk)Smits b Mol",
                     "runs": "20",
                     "balls": "26",
                     "minutes": "28",
@@ -460,5 +460,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 172 runs"
+    "result": "Netherlands won by 172 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Geert-Maarten Mol",
+            "Mangesh Panchal",
+            "Bas Zuiderent",
+            "Atse Buurman",
+            "Tom de Grooth",
+            "Mudassar Bukhari",
+            "Pieter Seelaar",
+            "Peter Borren",
+            "Jeroen Smits(c) (wk)",
+            "Alexei Kervezee",
+            "Ryan ten Doeschate"
+        ],
+        "Bermuda": [
+            "Jekon Edness (wk)",
+            "Irving Romaine(c)",
+            "Ryan Steede",
+            "Dwight Basden",
+            "James Celestine",
+            "George O'Brien",
+            "Jacobi Robinson",
+            "Josclyn Pitcher",
+            "Steven Outerbridge",
+            "Dwayne Leverock",
+            "Lionel Cann"
+        ]
+    }
 }

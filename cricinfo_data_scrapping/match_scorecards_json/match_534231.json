@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "c Kieswetter b Dernbach",
+                    "dismissal": "c (wk)Kieswetter b Dernbach",
                     "runs": "29",
                     "balls": "54",
                     "minutes": "86",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "st Kieswetter b Tredwell",
+                    "dismissal": "st (wk)Kieswetter b Tredwell",
                     "runs": "18",
                     "balls": "22",
                     "minutes": "31",
@@ -60,8 +60,8 @@
                     "strike_rate": "81.81"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
-                    "dismissal": "st Kieswetter b Tredwell",
+                    "batsman": "AB de Villiers(c) (wk)",
+                    "dismissal": "st (wk)Kieswetter b Tredwell",
                     "runs": "39",
                     "balls": "46",
                     "minutes": "66",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Dean Elgar",
-                    "dismissal": "c Kieswetter b Finn",
+                    "dismissal": "c (wk)Kieswetter b Finn",
                     "runs": "35",
                     "balls": "59",
                     "minutes": "86",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Wayne Parnell",
-                    "dismissal": "st Kieswetter b Tredwell",
+                    "dismissal": "st (wk)Kieswetter b Tredwell",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "12",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c de Villiers b Steyn",
+                    "dismissal": "c (wk)de Villiers b Steyn",
                     "runs": "88",
                     "balls": "137",
                     "minutes": "197",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "c de Villiers b McLaren",
+                    "dismissal": "c (wk)de Villiers b McLaren",
                     "runs": "6",
                     "balls": "14",
                     "minutes": "17",
@@ -277,7 +277,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "not out",
                     "runs": "21",
                     "balls": "12",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 20 balls remaining)"
+    "result": "England won by 6 wickets (with 20 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Dean Elgar",
+            "Wayne Parnell",
+            "Lonwabo Tsotsobe",
+            "Robin Peterson",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "AB de Villiers(c) (wk)",
+            "Ryan McLaren",
+            "Graeme Smith",
+            "Jean-Paul Duminy"
+        ],
+        "England": [
+            "James Anderson",
+            "Eoin Morgan",
+            "James Tredwell",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Samit Patel",
+            "Craig Kieswetter (wk)",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

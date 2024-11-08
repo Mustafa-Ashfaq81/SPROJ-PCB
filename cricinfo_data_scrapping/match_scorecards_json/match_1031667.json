@@ -50,7 +50,7 @@
                     "strike_rate": "78.57"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Bairstow b Stokes",
                     "runs": "35",
                     "balls": "57",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "17",
                     "balls": "46",
                     "minutes": "66",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Jerome Taylor",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "7",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Hope b Williams",
+                    "dismissal": "c (wk)Hope b Williams",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "17",
@@ -287,7 +287,7 @@
                     "strike_rate": "230.00"
                 }
             ],
-            "did_not_bat": "Jos Buttler , Moeen Ali , Adil Rashid , Chris Woakes , David Willey , Liam Plunkett",
+            "did_not_bat": "Jos Buttler (wk) , Moeen Ali , Adil Rashid , Chris Woakes , David Willey , Liam Plunkett",
             "fall_of_wickets": "Fall of wickets : 1 - 31 ( Alex Hales , 4.2 ov ) , 2 - 156 ( Joe Root , 23.4 ov ) , 3 - 175 ( Eoin Morgan , 27.1 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 67 balls remaining)"
+    "result": "England won by 7 wickets (with 67 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kesrick Williams",
+            "Marlon Samuels",
+            "Ashley Nurse",
+            "Rovman Powell",
+            "Jerome Taylor",
+            "Jason Mohammed",
+            "Chris Gayle",
+            "Shai Hope (wk)",
+            "Jason Holder(c)",
+            "Evin Lewis",
+            "Devendra Bishoo"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Alex Hales",
+            "David Willey",
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Ben Stokes"
+        ]
+    }
 }

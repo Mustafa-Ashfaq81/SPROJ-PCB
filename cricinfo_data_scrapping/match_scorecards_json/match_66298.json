@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Dion Ebrahim",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "20",
                     "balls": "49",
                     "minutes": "65",
@@ -72,7 +72,7 @@
                     "strike_rate": "53.06"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "lbw b Adams",
                     "runs": "19",
                     "balls": "31",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Sean Ervine",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "44",
@@ -230,7 +230,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Taibu b Ervine",
+                    "dismissal": "c (wk)Taibu b Ervine",
                     "runs": "58",
                     "balls": "98",
                     "minutes": "129",
@@ -259,7 +259,7 @@
                     "strike_rate": "66.66"
                 }
             ],
-            "did_not_bat": "Jacques Rudolph , Mark Boucher , Jacques Kallis , Shaun Pollock , Andrew Hall , Paul Adams , Charl Langeveldt , Makhaya Ntini",
+            "did_not_bat": "Jacques Rudolph , Mark Boucher (wk) , Jacques Kallis , Shaun Pollock , Andrew Hall , Paul Adams , Charl Langeveldt , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 154 ( Graeme Smith , 30.1 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 9 wickets (with 94 balls remaining)"
+    "result": "South Africa won by 9 wickets (with 94 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Grant Flower",
+            "Stuart Matsikenyeri",
+            "Heath Streak(c)",
+            "Douglas Hondo",
+            "Tatenda Taibu (wk)",
+            "Dougie Marillier",
+            "Ray Price",
+            "Andy Blignaut",
+            "Dion Ebrahim",
+            "Travis Friend",
+            "Sean Ervine"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Paul Adams",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Jacques Rudolph",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Andrew Hall",
+            "Martin van Jaarsveld"
+        ]
+    }
 }

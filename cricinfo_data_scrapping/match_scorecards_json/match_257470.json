@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Loots Bosman",
-                    "dismissal": "st Taylor b Kamungozi",
+                    "dismissal": "st (wk)Taylor b Kamungozi",
                     "runs": "88",
                     "balls": "70",
                     "minutes": "89",
@@ -63,7 +63,7 @@
                     "strike_rate": "84.74"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "147",
                     "balls": "68",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Justin Kemp",
-                    "dismissal": "st Taylor b Kamungozi",
+                    "dismissal": "st (wk)Taylor b Kamungozi",
                     "runs": "10",
                     "balls": "9",
                     "minutes": "9",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c Boucher b Telemachus",
+                    "dismissal": "c (wk)Boucher b Telemachus",
                     "runs": "46",
                     "balls": "75",
                     "minutes": "99",
@@ -245,7 +245,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Boucher b Telemachus",
+                    "dismissal": "c (wk)Boucher b Telemachus",
                     "runs": "54",
                     "balls": "53",
                     "minutes": "74",
@@ -254,7 +254,7 @@
                     "strike_rate": "101.88"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "21",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 171 runs"
+    "result": "South Africa won by 171 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Jacques Kallis(c)",
+            "Andre Nel",
+            "Charl Langeveldt",
+            "Loots Bosman",
+            "Roger Telemachus",
+            "Justin Kemp",
+            "Alviro Petersen",
+            "Jean-Paul Duminy",
+            "Andrew Hall",
+            "Johan van der Wath"
+        ],
+        "Zimbabwe": [
+            "Tawanda Mupariwa",
+            "Stuart Matsikenyeri",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Terry Duffin",
+            "Prosper Utseya (c)",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Ed Rainsford",
+            "Tafadzwa Kamungozi"
+        ]
+    }
 }

@@ -83,7 +83,7 @@
                     "strike_rate": "61.29"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Jayawardene b Mendis",
                     "runs": "6",
                     "balls": "28",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "53",
@@ -250,7 +250,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c & b Patel",
                     "runs": "19",
                     "balls": "41",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 91 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 91 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Pragyan Ojha",
+            "MS Dhoni(c) (wk)",
+            "Zaheer Khan",
+            "Yuvraj Singh",
+            "Irfan Pathan",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "Munaf Patel"
+        ],
+        "Sri Lanka": [
+            "Chamara Kapugedera",
+            "Chamara Silva",
+            "Nuwan Kulasekara",
+            "Ajantha Mendis",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Chaminda Vaas",
+            "Mahela Jayawardene(c)",
+            "Thilan Thushara"
+        ]
+    }
 }

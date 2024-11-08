@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi(c)",
-                    "dismissal": "c Karthik b Jadeja",
+                    "dismissal": "c (wk)Karthik b Jadeja",
                     "runs": "6",
                     "balls": "20",
                     "minutes": "24",
@@ -91,7 +91,7 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Ashwin",
                     "runs": "22",
                     "balls": "28",
@@ -254,7 +254,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
+                    "batsman": "Dinesh Karthik (wk)",
                     "dismissal": "not out",
                     "runs": "21",
                     "balls": "27",
@@ -354,5 +354,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 106 balls remaining)"
+    "result": "India won by 8 wickets (with 106 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Asghar Afghan",
+            "Samiullah Shinwari",
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Mohammad Nabi(c)",
+            "Nawroz Mangal",
+            "Najibullah Zadran",
+            "Shapoor Zadran",
+            "Rahmat Shah",
+            "Mirwais Ashraf",
+            "Mohammad Shahzad (wk)"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Virat Kohli (c)",
+            "Mohammed Shami",
+            "Amit Mishra",
+            "Ajinkya Rahane",
+            "Bhuvneshwar Kumar",
+            "Ambati Rayudu",
+            "Ravichandran Ashwin",
+            "Dinesh Karthik (wk)"
+        ]
+    }
 }

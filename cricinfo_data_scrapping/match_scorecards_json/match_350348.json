@@ -80,7 +80,7 @@
                     "strike_rate": "92.30"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Naeem Islam b Mashrafe Mortaza",
                     "runs": "8",
                     "balls": "11",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "run out (Amla/Boucher/JA Morkel)",
+                    "dismissal": "run out (Amla/ (wk)Boucher/JA Morkel)",
                     "runs": "24",
                     "balls": "39",
                     "minutes": "61",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful(c)",
-                    "dismissal": "c Boucher b Steyn",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "73",
                     "balls": "78",
                     "minutes": "121",
@@ -267,7 +267,7 @@
                     "strike_rate": "93.58"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "b M Morkel",
                     "runs": "1",
                     "balls": "5",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 61 runs"
+    "result": "South Africa won by 61 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Johan Botha(c)",
+            "Johann Louw",
+            "Justin Ontong",
+            "Morne Morkel",
+            "AB de Villiers"
+        ],
+        "Bangladesh": [
+            "Syed Rasel",
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Zunaed Siddique",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Imrul Kayes",
+            "Abdur Razzak",
+            "Naeem Islam",
+            "Raqibul Hasan"
+        ]
+    }
 }

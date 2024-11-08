@@ -31,7 +31,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "c Theekshana b de Silva",
                     "runs": "68",
                     "balls": "73",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Mujeeb Ur Rahman",
-                    "dismissal": "c Mendis b Rajitha",
+                    "dismissal": "c (wk)Mendis b Rajitha",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -248,7 +248,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "8",
@@ -292,5 +292,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Ibrahim Zadran",
+            "Najibullah Zadran",
+            "Rashid Khan",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz (wk)",
+            "Fazalhaq Farooqi",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Yamin Ahmadzai",
+            "Rahmat Shah"
+        ],
+        "Sri Lanka": [
+            "Dhananjaya Lakshan",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Wanindu Hasaranga",
+            "Lahiru Kumara",
+            "Maheesh Theekshana",
+            "Kasun Rajitha",
+            "Kusal Mendis (wk)",
+            "Dinesh Chandimal",
+            "Dasun Shanaka (c)",
+            "Charith Asalanka"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Imran Farhat",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "17",
                     "balls": "25",
                     "minutes": "39",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "c Mills b Styris",
                     "runs": "10",
                     "balls": "15",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "run out (McCullum/Mills)",
+                    "dismissal": "run out ( (wk)McCullum/Mills)",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "5",
@@ -287,7 +287,7 @@
                     "strike_rate": "80.00"
                 }
             ],
-            "did_not_bat": "Chris Cairns , Jacob Oram , Brendon McCullum , Daniel Vettori , Daryl Tuffey , Kyle Mills",
+            "did_not_bat": "Chris Cairns , Jacob Oram , Brendon McCullum (wk) , Daniel Vettori , Daryl Tuffey , Kyle Mills",
             "fall_of_wickets": "Fall of wickets : 1 - 10 ( Craig Cumming , 3.3 ov ) , 2 - 158 ( Hamish Marshall , 29.1 ov ) , 3 - 188 ( Scott Styris , 34.3 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 22 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 22 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Yousuf",
+            "Yasir Hameed",
+            "Imran Farhat",
+            "Azhar Mahmood",
+            "Moin Khan (wk)",
+            "Abdul Razzaq",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Saleem Elahi",
+            "Mohammad Sami",
+            "Shoaib Akhtar"
+        ],
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "Scott Styris",
+            "Brendon McCullum (wk)",
+            "Hamish Marshall",
+            "Craig Cumming",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Daniel Vettori",
+            "Chris Cairns",
+            "Daryl Tuffey"
+        ]
+    }
 }

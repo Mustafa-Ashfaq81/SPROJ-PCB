@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "2",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "c McCullum b Cairns",
+                    "dismissal": "c (wk)McCullum b Cairns",
                     "runs": "28",
                     "balls": "78",
                     "minutes": "108",
@@ -90,7 +90,7 @@
                     "strike_rate": "35.89"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Harris b Cairns",
                     "runs": "41",
                     "balls": "71",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Mathew Sinclair",
-                    "dismissal": "st Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "st (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "62",
                     "balls": "73",
                     "minutes": "107",
@@ -297,7 +297,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Aftab Ahmed",
                     "runs": "0",
                     "balls": "2",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 3 wickets (with 32 balls remaining)"
+    "result": "New Zealand won by 3 wickets (with 32 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Javed Omer",
+            "Nafees Iqbal",
+            "Manzarul Islam",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Habibul Bashar(c)",
+            "Nazmul Hossain",
+            "Mohammad Rafique"
+        ],
+        "New Zealand": [
+            "Scott Styris",
+            "Chris Cairns",
+            "Nathan Astle",
+            "Mathew Sinclair",
+            "Chris Harris",
+            "Brendon McCullum (wk)",
+            "Daniel Vettori(c)",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Hamish Marshall",
+            "James Franklin"
+        ]
+    }
 }

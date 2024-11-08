@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "17",
                     "balls": "19",
                     "minutes": "20",
@@ -95,7 +95,7 @@
                     "strike_rate": "206.66"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Tamim Iqbal b Shafiul Islam",
                     "runs": "23",
                     "balls": "16",
@@ -223,7 +223,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Kamran Akmal b Mohammad Asif",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Asif",
                     "runs": "34",
                     "balls": "27",
                     "minutes": "35",
@@ -252,7 +252,7 @@
                     "strike_rate": "85.08"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "run out (Umar Akmal)",
                     "runs": "1",
                     "balls": "4",
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 139 runs"
+    "result": "Pakistan won by 139 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Abdul Razzaq",
+            "Shahzaib Hasan",
+            "Kamran Akmal (wk)",
+            "Abdur Rehman",
+            "Imran Farhat",
+            "Umar Amin",
+            "Shoaib Akhtar",
+            "Mohammad Asif",
+            "Asad Shafiq",
+            "Umar Akmal"
+        ],
+        "Bangladesh": [
+            "Abdur Razzak",
+            "Imrul Kayes",
+            "Sohrawordi Shuvo",
+            "Tamim Iqbal",
+            "Mahmudullah",
+            "Shakib Al Hasan(c)",
+            "Mashrafe Mortaza",
+            "Zunaed Siddique",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)",
+            "Jahurul Islam"
+        ]
+    }
 }

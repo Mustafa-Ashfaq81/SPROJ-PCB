@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Sarfaraz Ahmed b Shadab Khan",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shadab Khan",
                     "runs": "46",
                     "balls": "56",
                     "minutes": "82",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "33",
                     "balls": "53",
                     "minutes": "60",
@@ -83,8 +83,8 @@
                     "strike_rate": "53.12"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "c Sarfaraz Ahmed b Junaid Khan",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Junaid Khan",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "16",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Mark Wood",
-                    "dismissal": "run out (Sarfaraz Ahmed)",
+                    "dismissal": "run out ( (wk)Sarfaraz Ahmed)",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "13",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "57",
                     "balls": "58",
                     "minutes": "89",
@@ -280,7 +280,7 @@
                     "strike_rate": "147.61"
                 }
             ],
-            "did_not_bat": "Shoaib Malik , Sarfaraz Ahmed (c) , Imad Wasim , Rumman Raees , Shadab Khan , Hasan Ali , Junaid Khan",
+            "did_not_bat": "Shoaib Malik , Sarfaraz Ahmed (c) (wk) , Imad Wasim , Rumman Raees , Shadab Khan , Hasan Ali , Junaid Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 118 ( Fakhar Zaman , 21.1 ov ) , 2 - 173 ( Azhar Ali , 32.2 ov )",
             "bowling": [
                 {
@@ -370,5 +370,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 77 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 77 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Mark Wood",
+            "Liam Plunkett",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Jake Ball",
+            "Alex Hales",
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Ben Stokes"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed (c) (wk)",
+            "Babar Azam",
+            "Junaid Khan",
+            "Fakhar Zaman",
+            "Hasan Ali",
+            "Shadab Khan",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Imad Wasim",
+            "Azhar Ali",
+            "Rumman Raees"
+        ]
+    }
 }

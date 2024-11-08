@@ -62,7 +62,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mathew Sinclair",
+                    "batsman": "Mathew Sinclair (wk)",
                     "dismissal": "b Shoaib Akhtar",
                     "runs": "0",
                     "balls": "1",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Andre Adams",
-                    "dismissal": "st Rashid Latif b Saqlain Mushtaq",
+                    "dismissal": "st (wk)Rashid Latif b Saqlain Mushtaq",
                     "runs": "21",
                     "balls": "28",
                     "minutes": "17",
@@ -240,7 +240,7 @@
             "batting": [
                 {
                     "batsman": "Imran Nazir",
-                    "dismissal": "c Sinclair b Walker",
+                    "dismissal": "c (wk)Sinclair b Walker",
                     "runs": "57",
                     "balls": "53",
                     "minutes": "61",
@@ -279,7 +279,7 @@
                     "strike_rate": "112.50"
                 }
             ],
-            "did_not_bat": "Younis Khan , Abdul Razzaq , Rashid Latif , Wasim Akram , Waqar Younis (c) , Saqlain Mushtaq , Shoaib Akhtar",
+            "did_not_bat": "Younis Khan , Abdul Razzaq , Rashid Latif (wk) , Wasim Akram , Waqar Younis (c) , Saqlain Mushtaq , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 101 ( Imran Nazir , 14.3 ov ) , 2 - 138 ( Mohammad Yousuf , 22.1 ov )",
             "bowling": [
                 {
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 105 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 105 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Nathan Astle",
+            "Andre Adams",
+            "Brooke Walker",
+            "Mathew Sinclair (wk)",
+            "Jacob Oram",
+            "Chris Harris",
+            "Ian Butler",
+            "Stephen Fleming(c)",
+            "Matt Horne",
+            "Scott Styris",
+            "Daryl Tuffey"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Saqlain Mushtaq",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Waqar Younis (c)",
+            "Inzamam-ul-Haq",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Shahid Afridi",
+            "Imran Nazir"
+        ]
+    }
 }

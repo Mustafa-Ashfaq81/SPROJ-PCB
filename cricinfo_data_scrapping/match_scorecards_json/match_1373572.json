@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Tim David",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "6",
@@ -94,7 +94,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c van der Dussen b Shamsi",
                     "runs": "6",
                     "balls": "10",
@@ -231,7 +231,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c & b Ellis",
                     "runs": "45",
                     "balls": "30",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Australia won by 123 runs"
+    "result": "Australia won by 123 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Marsh(c)",
+            "David Warner",
+            "Sean Abbott",
+            "Tim David",
+            "Alex Carey (wk)",
+            "Nathan Ellis",
+            "Marnus Labuschagne",
+            "Josh Inglis",
+            "Adam Zampa",
+            "Travis Head",
+            "Aaron Hardie"
+        ],
+        "South Africa": [
+            "Marco Jansen",
+            "Tabraiz Shamsi",
+            "Heinrich Klaasen",
+            "Rassie van der Dussen",
+            "David Miller",
+            "Andile Phehlukwayo",
+            "Anrich Nortje",
+            "Quinton de Kock (wk)",
+            "Aiden Markram",
+            "Temba Bavuma(c)",
+            "Kagiso Rabada"
+        ]
+    }
 }

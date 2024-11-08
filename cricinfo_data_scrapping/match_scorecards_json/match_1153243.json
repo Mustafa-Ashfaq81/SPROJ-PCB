@@ -61,7 +61,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Mendis b NLTC Perera",
                     "runs": "144",
                     "balls": "150",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Mohammad Mithun",
-                    "dismissal": "c MDKJ Perera b Malinga",
+                    "dismissal": "c (wk)MDKJ Perera b Malinga",
                     "runs": "63",
                     "balls": "68",
                     "minutes": "-",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Mosaddek Hossain",
-                    "dismissal": "c MDKJ Perera b Malinga",
+                    "dismissal": "c (wk)MDKJ Perera b Malinga",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "-",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Mustafizur Rahman",
-                    "dismissal": "run out (Mendis/MDKJ Perera)",
+                    "dismissal": "run out (Mendis/ (wk)MDKJ Perera)",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "-",
@@ -272,7 +272,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "lbw b Mehidy Hasan Miraz",
                     "runs": "11",
                     "balls": "24",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Dilruwan Perera",
-                    "dismissal": "st Litton Das b Mosaddek Hossain",
+                    "dismissal": "st (wk)Litton Das b Mosaddek Hossain",
                     "runs": "29",
                     "balls": "44",
                     "minutes": "-",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 137 runs"
+    "result": "Bangladesh won by 137 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mohammad Mithun",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain"
+        ],
+        "Sri Lanka": [
+            "Amila Aponso",
+            "Dilruwan Perera",
+            "Kusal Perera (wk)",
+            "Suranga Lakmal",
+            "Lasith Malinga",
+            "Kusal Mendis",
+            "Thisara Perera",
+            "Dasun Shanaka",
+            "Angelo Mathews(c)",
+            "Dhananjaya de Silva",
+            "Upul Tharanga"
+        ]
+    }
 }

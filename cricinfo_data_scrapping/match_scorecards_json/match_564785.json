@@ -90,8 +90,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Chandimal b Malinga",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Chandimal b Malinga",
                     "runs": "58",
                     "balls": "38",
                     "minutes": "57",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Lahiru Thirimanne",
-                    "dismissal": "run out (Kohli/Khan/Dhoni)",
+                    "dismissal": "run out (Kohli/Khan/ (wk)Dhoni)",
                     "runs": "77",
                     "balls": "96",
                     "minutes": "135",
@@ -247,7 +247,7 @@
                     "strike_rate": "80.20"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "lbw b Dinda",
                     "runs": "8",
                     "balls": "8",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Jeevan Mendis",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "72",
                     "balls": "88",
                     "minutes": "103",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "India won by 20 runs"
+    "result": "India won by 20 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Ashok Dinda",
+            "Manoj Tiwary",
+            "Irfan Pathan",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Gautam Gambhir",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ajinkya Rahane"
+        ],
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Dinesh Chandimal (wk)",
+            "Tillakaratne Dilshan",
+            "Sachithra Senanayake",
+            "Thisara Perera",
+            "Angelo Mathews(c)",
+            "Jeevan Mendis",
+            "Chamara Kapugedera",
+            "Nuwan Pradeep",
+            "Lasith Malinga",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

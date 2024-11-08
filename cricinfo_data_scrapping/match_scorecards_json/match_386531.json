@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "27",
                     "balls": "28",
                     "minutes": "31",
@@ -80,8 +80,8 @@
                     "strike_rate": "67.44"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "23",
                     "balls": "35",
                     "minutes": "55",
@@ -247,7 +247,7 @@
                     "strike_rate": "70.83"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Tendulkar b Kumar",
                     "runs": "4",
                     "balls": "8",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Chamara Kapugedera",
-                    "dismissal": "c Dhoni b Sharma",
+                    "dismissal": "c (wk)Dhoni b Sharma",
                     "runs": "31",
                     "balls": "29",
                     "minutes": "36",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "run out (Dhoni)",
+                    "dismissal": "run out ( (wk)Dhoni)",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "5",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Ajantha Mendis",
-                    "dismissal": "run out (Pathan/Dhoni)",
+                    "dismissal": "run out (Pathan/ (wk)Dhoni)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "3",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "India won by 15 runs"
+    "result": "India won by 15 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Gautam Gambhir",
+            "Suresh Raina",
+            "MS Dhoni(c) (wk)",
+            "Yusuf Pathan",
+            "Praveen Kumar",
+            "Pragyan Ojha",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "Zaheer Khan"
+        ],
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Nuwan Kulasekara",
+            "Thilan Thushara",
+            "Ajantha Mendis"
+        ]
+    }
 }

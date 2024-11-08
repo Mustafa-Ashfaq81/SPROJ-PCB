@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Christi Viljoen",
-                    "dismissal": "c Vare b CJA Amini",
+                    "dismissal": "c (wk)Vare b CJA Amini",
                     "runs": "9",
                     "balls": "18",
                     "minutes": "20",
@@ -99,7 +99,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "JP Kotze",
+                    "batsman": "JP Kotze (wk)",
                     "dismissal": "b Dai",
                     "runs": "15",
                     "balls": "41",
@@ -290,7 +290,7 @@
                     "strike_rate": "85.71"
                 }
             ],
-            "did_not_bat": "Jack Vare , Mahuru Dai , Pipi Raho , Norman Vanua , Chris Amini (c) , Willie Gavera , Charles Amini",
+            "did_not_bat": "Jack Vare (wk) , Mahuru Dai , Pipi Raho , Norman Vanua , Chris Amini (c) , Willie Gavera , Charles Amini",
             "fall_of_wickets": "Fall of wickets : 1 - 62 ( Jason Kila , 12.5 ov ) , 2 - 99 ( Assad Vala , 18.2 ov )",
             "bowling": [
                 {
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "P.N.G. won by 8 wickets (with 150 balls remaining)"
+    "result": "P.N.G. won by 8 wickets (with 150 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Nicolaas Scholtz",
+            "Louis Klazinga",
+            "JJ Smit",
+            "Craig Williams",
+            "Stephan Baard",
+            "Bernard Scholtz",
+            "JP Kotze (wk)",
+            "Louis van der Westhuizen",
+            "Gerrie Snyman",
+            "Christi Viljoen",
+            "Sarel Burger(c)"
+        ],
+        "Papua New Guinea": [
+            "Chris Amini (c)",
+            "Jason Kila",
+            "Mahuru Dai",
+            "Geraint Jones",
+            "Charles Amini",
+            "Jack Vare (wk)",
+            "Pipi Raho",
+            "Norman Vanua",
+            "Willie Gavera",
+            "Lega Siaka",
+            "Assad Vala"
+        ]
+    }
 }

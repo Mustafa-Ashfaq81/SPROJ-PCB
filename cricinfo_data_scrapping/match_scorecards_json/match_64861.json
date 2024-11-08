@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Moin Khan b Azhar Mahmood",
+                    "dismissal": "c (wk)Moin Khan b Azhar Mahmood",
                     "runs": "10",
                     "balls": "16",
                     "minutes": "18",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Chris Cairns",
-                    "dismissal": "run out (Inzamam-ul-Haq/Moin Khan)",
+                    "dismissal": "run out (Inzamam-ul-Haq/ (wk)Moin Khan)",
                     "runs": "36",
                     "balls": "20",
                     "minutes": "33",
@@ -90,7 +90,7 @@
                     "strike_rate": "180.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Shoaib Akhtar",
                     "runs": "9",
                     "balls": "15",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "48",
                     "balls": "56",
                     "minutes": "67",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "6",
@@ -277,7 +277,7 @@
                     "strike_rate": "82.71"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "b Styris",
                     "runs": "52",
                     "balls": "78",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "st McCullum b Vettori",
+                    "dismissal": "st (wk)McCullum b Vettori",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "run out (Marshall/McCullum)",
+                    "dismissal": "run out (Marshall/ (wk)McCullum)",
                     "runs": "9",
                     "balls": "5",
                     "minutes": "-",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Shabbir Ahmed",
-                    "dismissal": "run out (Styris/McCullum)",
+                    "dismissal": "run out (Styris/ (wk)McCullum)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "-",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 runs"
+    "result": "New Zealand won by 4 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "Jacob Oram",
+            "Scott Styris",
+            "Brendon McCullum (wk)",
+            "Hamish Marshall",
+            "Craig Cumming",
+            "Andre Adams",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Daniel Vettori",
+            "Chris Cairns"
+        ],
+        "Pakistan": [
+            "Mohammad Yousuf",
+            "Yasir Hameed",
+            "Imran Farhat",
+            "Azhar Mahmood",
+            "Moin Khan (wk)",
+            "Abdul Razzaq",
+            "Inzamam-ul-Haq(c)",
+            "Shabbir Ahmed",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Shoaib Akhtar"
+        ]
+    }
 }

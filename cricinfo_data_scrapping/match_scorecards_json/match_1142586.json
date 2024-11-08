@@ -43,7 +43,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c MDKJ Perera b Kumara",
                     "runs": "2",
                     "balls": "8",
@@ -220,7 +220,7 @@
                     "strike_rate": "111.76"
                 },
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c du Plessis b Ngidi",
                     "runs": "10",
                     "balls": "10",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "c de Kock b Mulder",
+                    "dismissal": "c (wk)de Kock b Mulder",
                     "runs": "16",
                     "balls": "14",
                     "minutes": "-",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "84",
                     "balls": "66",
                     "minutes": "-",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 78 runs"
+    "result": "South Africa won by 78 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Reeza Hendricks",
+            "Lungi Ngidi",
+            "Jean-Paul Duminy",
+            "David Miller",
+            "Wiaan Mulder",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)",
+            "Hashim Amla",
+            "Tabraiz Shamsi"
+        ],
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Upul Tharanga",
+            "Prabath Jayasuriya",
+            "Dhananjaya de Silva",
+            "Kusal Mendis",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Lahiru Kumara",
+            "Niroshan Dickwella (wk)",
+            "Suranga Lakmal"
+        ]
+    }
 }

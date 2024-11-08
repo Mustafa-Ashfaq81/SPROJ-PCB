@@ -60,7 +60,7 @@
                     "strike_rate": "87.50"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Uthappa b Khan",
                     "runs": "1",
                     "balls": "2",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "run out (Bandara/Sangakkara)",
+                    "dismissal": "run out (Bandara/ (wk)Sangakkara)",
                     "runs": "46",
                     "balls": "44",
                     "minutes": "82",
@@ -267,7 +267,7 @@
                     "strike_rate": "114.45"
                 }
             ],
-            "did_not_bat": "Rahul Dravid (c) , MS Dhoni , Harbhajan Singh , Ajit Agarkar , Zaheer Khan , Sreesanth",
+            "did_not_bat": "Rahul Dravid (c) , MS Dhoni (wk) , Harbhajan Singh , Ajit Agarkar , Zaheer Khan , Sreesanth",
             "fall_of_wickets": "Fall of wickets : 0 - 6 * ( Sourav Ganguly , retired not out ) , 1 - 92 ( Robin Uthappa , 11.6 ov ) , 2 - 106 ( Dinesh Karthik , 14.1 ov ) , 3 - 118 ( Virender Sehwag , 17.1 ov )",
             "bowling": [
                 {
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 36 balls remaining)"
+    "result": "India won by 7 wickets (with 36 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Russel Arnold",
+            "Mahela Jayawardene(c)",
+            "Malinga Bandara",
+            "Tillakaratne Dilshan",
+            "Marvan Atapattu",
+            "Sanath Jayasuriya",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "Rahul Dravid (c)",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Virender Sehwag",
+            "Dinesh Karthik",
+            "Yuvraj Singh",
+            "Ajit Agarkar",
+            "Robin Uthappa",
+            "Sreesanth",
+            "Harbhajan Singh"
+        ]
+    }
 }

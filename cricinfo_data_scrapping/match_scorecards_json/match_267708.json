@@ -93,8 +93,8 @@
                     "strike_rate": "47.61"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
-                    "dismissal": "c Ramdin b Bravo",
+                    "batsman": "Dinesh Karthik (wk)",
+                    "dismissal": "c (wk)Ramdin b Bravo",
                     "runs": "8",
                     "balls": "17",
                     "minutes": "21",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Runako Morton",
-                    "dismissal": "c Karthik b Agarkar",
+                    "dismissal": "c (wk)Karthik b Agarkar",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "16",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Karthik b Agarkar",
+                    "dismissal": "c (wk)Karthik b Agarkar",
                     "runs": "98",
                     "balls": "95",
                     "minutes": "137",
@@ -310,7 +310,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "4",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 3 wickets (with 38 balls remaining)"
+    "result": "West Indies won by 3 wickets (with 38 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Dinesh Karthik (wk)",
+            "Anil Kumble",
+            "Sreesanth",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Rahul Dravid(c)",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Ajit Agarkar",
+            "Ramesh Powar"
+        ],
+        "West Indies": [
+            "Runako Morton",
+            "Denesh Ramdin (wk)",
+            "Dwayne Bravo",
+            "Rayad Emrit",
+            "Jerome Taylor",
+            "Devon Smith",
+            "Daren Powell",
+            "Brian Lara(c)",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Lendl Simmons"
+        ]
+    }
 }

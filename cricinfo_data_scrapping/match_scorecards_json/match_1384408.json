@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Mehidy Hasan Miraz",
-                    "dismissal": "c Rahul b Mohammed Siraj",
+                    "dismissal": "c (wk)Rahul b Mohammed Siraj",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "15",
@@ -81,7 +81,7 @@
                     "strike_rate": "45.71"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Jadeja b Bumrah",
                     "runs": "38",
                     "balls": "46",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Nasum Ahmed",
-                    "dismissal": "c Rahul b Mohammed Siraj",
+                    "dismissal": "c (wk)Rahul b Mohammed Siraj",
                     "runs": "14",
                     "balls": "18",
                     "minutes": "21",
@@ -282,7 +282,7 @@
                     "strike_rate": "76.00"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "not out",
                     "runs": "34",
                     "balls": "34",
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 51 balls remaining)"
+    "result": "India won by 7 wickets (with 51 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Mahmudullah",
+            "Tanzid Hasan",
+            "Mustafizur Rahman",
+            "Shoriful Islam",
+            "Hasan Mahmud",
+            "Towhid Hridoy",
+            "Najmul Hossain Shanto(c)",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Nasum Ahmed"
+        ],
+        "India": [
+            "KL Rahul (wk)",
+            "Virat Kohli",
+            "Shubman Gill",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shardul Thakur",
+            "Hardik Pandya",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Marsh b Hazlewood",
                     "runs": "45",
                     "balls": "64",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Rassie van der Dussen",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "62",
                     "balls": "65",
                     "minutes": "91",
@@ -204,7 +204,7 @@
                 },
                 {
                     "batsman": "Marnus Labuschagne",
-                    "dismissal": "c de Kock b Jansen",
+                    "dismissal": "c (wk)de Kock b Jansen",
                     "runs": "20",
                     "balls": "22",
                     "minutes": "36",
@@ -213,8 +213,8 @@
                     "strike_rate": "90.90"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c de Kock b Rabada",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "99",
                     "balls": "77",
                     "minutes": "125",
@@ -224,7 +224,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "18",
                     "balls": "13",
                     "minutes": "15",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Adam Zampa",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "9",
                     "balls": "11",
                     "minutes": "13",
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 164 runs"
+    "result": "South Africa won by 164 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Aiden Markram(c)",
+            "Marco Jansen",
+            "Heinrich Klaasen",
+            "Rassie van der Dussen",
+            "David Miller",
+            "Reeza Hendricks",
+            "Lungi Ngidi",
+            "Keshav Maharaj",
+            "Quinton de Kock (wk)",
+            "Gerald Coetzee",
+            "Kagiso Rabada"
+        ],
+        "Australia": [
+            "Marcus Stoinis",
+            "Mitchell Marsh(c)",
+            "Michael Neser",
+            "David Warner",
+            "Tim David",
+            "Alex Carey (wk)",
+            "Nathan Ellis",
+            "Marnus Labuschagne",
+            "Adam Zampa",
+            "Travis Head",
+            "Josh Hazlewood"
+        ]
+    }
 }

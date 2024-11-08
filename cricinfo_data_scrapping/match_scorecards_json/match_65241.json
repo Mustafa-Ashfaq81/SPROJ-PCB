@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Smits b Lefebvre",
+                    "dismissal": "c (wk)Smits b Lefebvre",
                     "runs": "8",
                     "balls": "32",
                     "minutes": "39",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Smits b de Leede",
+                    "dismissal": "c (wk)Smits b de Leede",
                     "runs": "52",
                     "balls": "72",
                     "minutes": "91",
@@ -64,7 +64,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "b de Leede",
                     "runs": "17",
                     "balls": "38",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Henk-Jan Mol",
-                    "dismissal": "c Dravid b Srinath",
+                    "dismissal": "c (wk)Dravid b Srinath",
                     "runs": "2",
                     "balls": "30",
                     "minutes": "38",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Tim de Leede",
-                    "dismissal": "c Dravid b Harbhajan Singh",
+                    "dismissal": "c (wk)Dravid b Harbhajan Singh",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "17",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Luuk van Troost",
-                    "dismissal": "c Dravid b Kumble",
+                    "dismissal": "c (wk)Dravid b Kumble",
                     "runs": "1",
                     "balls": "10",
                     "minutes": "10",
@@ -331,7 +331,7 @@
                     "strike_rate": "61.90"
                 },
                 {
-                    "batsman": "Jeroen Smits",
+                    "batsman": "Jeroen Smits (wk)",
                     "dismissal": "c Sehwag b Srinath",
                     "runs": "26",
                     "balls": "66",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "India won by 68 runs"
+    "result": "India won by 68 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Anil Kumble",
+            "Virender Sehwag",
+            "Dinesh Mongia",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Rahul Dravid (wk)",
+            "Mohammad Kaif",
+            "Javagal Srinath",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh"
+        ],
+        "Netherlands": [
+            "Henk-Jan Mol",
+            "Luuk van Troost",
+            "Bas Zuiderent",
+            "Tim de Leede",
+            "Jeroen Smits (wk)",
+            "Feiko Kloppenburg",
+            "Reinout Scholte",
+            "Adeel Raja",
+            "Edgar Schiferli",
+            "Daan van Bunge",
+            "Roland Lefebvre(c)"
+        ]
+    }
 }

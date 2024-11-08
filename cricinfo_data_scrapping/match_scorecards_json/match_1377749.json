@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie(c)",
-                    "dismissal": "c Naseem Khushi b Zeeshan Maqsood",
+                    "dismissal": "c (wk)Naseem Khushi b Zeeshan Maqsood",
                     "runs": "7",
                     "balls": "19",
                     "minutes": "-",
@@ -74,7 +74,7 @@
                     "strike_rate": "63.41"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "b Ayaan Khan",
                     "runs": "26",
                     "balls": "18",
@@ -222,7 +222,7 @@
             "batting": [
                 {
                     "batsman": "Kashyap Prajapati",
-                    "dismissal": "c Tucker b Little",
+                    "dismissal": "c (wk)Tucker b Little",
                     "runs": "72",
                     "balls": "74",
                     "minutes": "-",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Zeeshan Maqsood(c)",
-                    "dismissal": "c Tucker b Little",
+                    "dismissal": "c (wk)Tucker b Little",
                     "runs": "59",
                     "balls": "67",
                     "minutes": "-",
@@ -291,7 +291,7 @@
                     "strike_rate": "111.76"
                 }
             ],
-            "did_not_bat": "Naseem Khushi , Jay Odedra , Fayyaz Butt , Bilal Khan",
+            "did_not_bat": "Naseem Khushi (wk) , Jay Odedra , Fayyaz Butt , Bilal Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 9 ( Jatinder Singh , 3.1 ov ) , 2 - 103 ( Aqib Ilyas , 17.5 ov ) , 3 - 166 ( Kashyap Prajapati , 27.3 ov ) , 4 - 222 ( Zeeshan Maqsood , 38.3 ov ) , 5 - 259 ( Ayaan Khan , 44.4 ov )",
             "bowling": [
                 {
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "Oman won by 5 wickets (with 11 balls remaining)"
+    "result": "Oman won by 5 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Gareth Delany",
+            "George Dockrell",
+            "Josh Little",
+            "Lorcan Tucker (wk)",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Graham Hume",
+            "Andy Balbirnie(c)",
+            "Ben White",
+            "Harry Tector",
+            "Mark Adair"
+        ],
+        "Oman": [
+            "Shoaib Khan",
+            "Zeeshan Maqsood(c)",
+            "Bilal Khan",
+            "Jay Odedra",
+            "Kashyap Prajapati",
+            "Jatinder Singh",
+            "Mohammad Nadeem",
+            "Fayyaz Butt",
+            "Ayaan Khan",
+            "Naseem Khushi (wk)",
+            "Aqib Ilyas"
+        ]
+    }
 }

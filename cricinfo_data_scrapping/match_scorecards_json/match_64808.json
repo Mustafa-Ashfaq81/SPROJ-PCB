@@ -100,7 +100,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "2",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Rashid Latif b Mohammad Sami",
+                    "dismissal": "c (wk)Rashid Latif b Mohammad Sami",
                     "runs": "12",
                     "balls": "19",
                     "minutes": "31",
@@ -267,8 +267,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Rashid Latif b Shahid Afridi",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Rashid Latif b Shahid Afridi",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "10",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Allan Donald",
-                    "dismissal": "c Rashid Latif b Shahid Afridi",
+                    "dismissal": "c (wk)Rashid Latif b Shahid Afridi",
                     "runs": "2",
                     "balls": "13",
                     "minutes": "10",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 182 runs"
+    "result": "Pakistan won by 182 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Rashid Latif (wk)",
+            "Saqlain Mushtaq",
+            "Mohammad Yousuf",
+            "Wasim Akram",
+            "Younis Khan",
+            "Inzamam-ul-Haq",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Saleem Elahi",
+            "Mohammad Sami",
+            "Waqar Younis (c)"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Shaun Pollock(c)",
+            "Makhaya Ntini",
+            "Lance Klusener",
+            "Allan Donald",
+            "Neil McKenzie",
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Graeme Smith",
+            "Jonty Rhodes",
+            "Herschelle Gibbs"
+        ]
+    }
 }

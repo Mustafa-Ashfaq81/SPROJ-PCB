@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "36",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "138",
                     "balls": "140",
                     "minutes": "202",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "45",
                     "balls": "53",
                     "minutes": "79",
@@ -80,7 +80,7 @@
                     "strike_rate": "101.92"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c de Villiers b Steyn",
                     "runs": "15",
                     "balls": "16",
@@ -217,7 +217,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Rahane b Harbhajan Singh",
                     "runs": "43",
                     "balls": "35",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "17",
                     "balls": "34",
                     "minutes": "45",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "112",
                     "balls": "107",
                     "minutes": "128",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "India won by 35 runs"
+    "result": "India won by 35 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "Mohit Sharma",
+            "Ajinkya Rahane",
+            "Harbhajan Singh",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Bhuvneshwar Kumar",
+            "Amit Mishra",
+            "Suresh Raina",
+            "Axar Patel",
+            "Shikhar Dhawan"
+        ],
+        "South Africa": [
+            "Farhaan Behardien",
+            "AB de Villiers(c)",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "Chris Morris",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "Aaron Phangiso",
+            "David Miller"
+        ]
+    }
 }

@@ -93,7 +93,7 @@
                     "strike_rate": "178.94"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "5",
@@ -250,7 +250,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Neesham b Williamson",
                     "runs": "47",
                     "balls": "72",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Bhuvneshwar Kumar",
-                    "dismissal": "c Ronchi b Henry",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "20",
                     "balls": "25",
                     "minutes": "31",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 87 runs"
+    "result": "New Zealand won by 87 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "James Neesham",
+            "Luke Ronchi (wk)",
+            "Mitchell McClenaghan",
+            "Martin Guptill",
+            "Matt Henry",
+            "Brendon McCullum(c)",
+            "Kyle Mills",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Nathan McCullum"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Ambati Rayudu",
+            "MS Dhoni(c) (wk)",
+            "Ravichandran Ashwin",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "Shikhar Dhawan",
+            "Varun Aaron"
+        ]
+    }
 }

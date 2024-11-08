@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Boucher b Steyn",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "17",
@@ -94,7 +94,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "run out (Ntini)",
                     "runs": "23",
                     "balls": "26",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "run out (Harris/Haddin)",
+                    "dismissal": "run out (Harris/ (wk)Haddin)",
                     "runs": "44",
                     "balls": "62",
                     "minutes": "78",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "run out (Haddin)",
+                    "dismissal": "run out ( (wk)Haddin)",
                     "runs": "35",
                     "balls": "34",
                     "minutes": "57",
@@ -291,7 +291,7 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "37",
                     "balls": "32",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Australia won by 5 runs"
+    "result": "Australia won by 5 runs",
+    "playing_xi": {
+        "Australia": [
+            "Brad Haddin (wk)",
+            "David Warner",
+            "Cameron White",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Ben Hilfenhaus",
+            "Shaun Marsh",
+            "David Hussey",
+            "Ryan Harris",
+            "Nathan Bracken"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Makhaya Ntini",
+            "Johan Botha (c)",
+            "Neil McKenzie",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Herschelle Gibbs",
+            "AB de Villiers"
+        ]
+    }
 }

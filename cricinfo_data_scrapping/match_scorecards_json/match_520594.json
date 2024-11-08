@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "st Taibu b Price",
+                    "dismissal": "st (wk)Taibu b Price",
                     "runs": "85",
                     "balls": "69",
                     "minutes": "90",
@@ -63,7 +63,7 @@
                     "strike_rate": "104.16"
                 },
                 {
-                    "batsman": "Brendon McCullum(c)",
+                    "batsman": "Brendon McCullum(c) (wk)",
                     "dismissal": "c Mawoyo b Jarvis",
                     "runs": "119",
                     "balls": "88",
@@ -250,7 +250,7 @@
                     "strike_rate": "104.83"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c sub (C de Grandhomme) b Bates",
                     "runs": "26",
                     "balls": "46",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Malcolm Waller",
-                    "dismissal": "run out (sub [C de Grandhomme]/NL McCullum/BB McCullum)",
+                    "dismissal": "run out (sub [C de Grandhomme]/NL McCullum/ (wk)BB McCullum)",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "11",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Brian Vitori",
-                    "dismissal": "c BB McCullum b NL McCullum",
+                    "dismissal": "c (wk)BB McCullum b NL McCullum",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "5",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 202 runs"
+    "result": "New Zealand won by 202 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Martin Guptill",
+            "Doug Bracewell",
+            "Brendon McCullum(c) (wk)",
+            "Kane Williamson",
+            "Tom Latham",
+            "Nathan McCullum",
+            "Tarun Nethula",
+            "Michael Bates",
+            "Rob Nicol",
+            "Jacob Oram",
+            "Andrew Ellis"
+        ],
+        "Zimbabwe": [
+            "Brian Vitori",
+            "Tatenda Taibu (wk)",
+            "Malcolm Waller",
+            "Regis Chakabva",
+            "Ray Price",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Kyle Jarvis",
+            "Brendan Taylor(c)",
+            "Tino Mawoyo",
+            "Stuart Matsikenyeri"
+        ]
+    }
 }

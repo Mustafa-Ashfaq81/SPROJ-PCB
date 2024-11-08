@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "18",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "19",
@@ -80,7 +80,7 @@
                     "strike_rate": "85.07"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c Priyanjan b Malinga",
                     "runs": "59",
                     "balls": "42",
@@ -198,7 +198,7 @@
             "batting": [
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "st Umar Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Umar Akmal b Saeed Ajmal",
                     "runs": "42",
                     "balls": "37",
                     "minutes": "41",
@@ -217,7 +217,7 @@
                     "strike_rate": "93.51"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "lbw b Saeed Ajmal",
                     "runs": "0",
                     "balls": "1",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Ashan Priyanjan",
-                    "dismissal": "c Umar Akmal b Junaid Khan",
+                    "dismissal": "c (wk)Umar Akmal b Junaid Khan",
                     "runs": "13",
                     "balls": "18",
                     "minutes": "19",
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 wickets (with 22 balls remaining)"
+    "result": "Sri Lanka won by 5 wickets (with 22 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Umar Akmal (wk)",
+            "Shahid Afridi",
+            "Mohammad Talha",
+            "Saeed Ajmal",
+            "Umar Gul",
+            "Fawad Alam",
+            "Mohammad Hafeez",
+            "Misbah-ul-Haq(c)",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Sharjeel Khan"
+        ],
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Sachithra Senanayake",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene",
+            "Lasith Malinga",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Suranga Lakmal",
+            "Angelo Mathews(c)",
+            "Chaturanga de Silva",
+            "Ashan Priyanjan"
+        ]
+    }
 }

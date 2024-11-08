@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Janneman Malan",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "39",
                     "balls": "56",
                     "minutes": "68",
@@ -42,7 +42,7 @@
                     "strike_rate": "69.64"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Mahmudullah b Mehidy Hasan Miraz",
                     "runs": "12",
                     "balls": "8",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "16",
                     "balls": "31",
                     "minutes": "57",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Dwaine Pretorius",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "20",
                     "balls": "29",
                     "minutes": "25",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Keshav Maharaj",
-                    "dismissal": "run out (Tamim Iqbal/Mushfiqur Rahim)",
+                    "dismissal": "run out (Tamim Iqbal/ (wk)Mushfiqur Rahim)",
                     "runs": "28",
                     "balls": "39",
                     "minutes": "62",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Kagiso Rabada",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "3",
@@ -255,7 +255,7 @@
                     "strike_rate": "90.00"
                 }
             ],
-            "did_not_bat": "Mushfiqur Rahim , Yasir Ali , Mahmudullah , Afif Hossain , Mehidy Hasan Miraz , Taskin Ahmed , Shoriful Islam , Mustafizur Rahman",
+            "did_not_bat": "Mushfiqur Rahim (wk) , Yasir Ali , Mahmudullah , Afif Hossain , Mehidy Hasan Miraz , Taskin Ahmed , Shoriful Islam , Mustafizur Rahman",
             "fall_of_wickets": "Fall of wickets : 1 - 127 ( Litton Das , 20.5 ov )",
             "bowling": [
                 {
@@ -331,5 +331,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 9 wickets (with 141 balls remaining)"
+    "result": "Bangladesh won by 9 wickets (with 141 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Rassie van der Dussen",
+            "Kagiso Rabada",
+            "Janneman Malan",
+            "Temba Bavuma(c)",
+            "Lungi Ngidi",
+            "Tabraiz Shamsi",
+            "Quinton de Kock (wk)",
+            "David Miller",
+            "Keshav Maharaj",
+            "Kyle Verreynne",
+            "Dwaine Pretorius"
+        ],
+        "Bangladesh": [
+            "Taskin Ahmed",
+            "Afif Hossain",
+            "Tamim Iqbal(c)",
+            "Yasir Ali",
+            "Shakib Al Hasan",
+            "Mehidy Hasan Miraz",
+            "Mahmudullah",
+            "Shoriful Islam",
+            "Mustafizur Rahman",
+            "Mushfiqur Rahim (wk)",
+            "Litton Das"
+        ]
+    }
 }

@@ -59,8 +59,8 @@
                     "strike_rate": "78.87"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "c Smits b de Leede",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "c (wk)Smits b de Leede",
                     "runs": "53",
                     "balls": "60",
                     "minutes": "69",
@@ -130,7 +130,7 @@
                 },
                 {
                     "batsman": "Trent Johnston(c)",
-                    "dismissal": "run out (Smits)",
+                    "dismissal": "run out ( (wk)Smits)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "2",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Billy Stelling",
-                    "dismissal": "c NJ O'Brien b Langford-Smith",
+                    "dismissal": "c (wk)NJ O'Brien b Langford-Smith",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Tim de Leede",
-                    "dismissal": "c NJ O'Brien b Langford-Smith",
+                    "dismissal": "c (wk)NJ O'Brien b Langford-Smith",
                     "runs": "7",
                     "balls": "16",
                     "minutes": "19",
@@ -320,7 +320,7 @@
                     "strike_rate": "72.00"
                 }
             ],
-            "did_not_bat": "Luuk van Troost (c) , Peter Borren , Jeroen Smits , Mohammad Kashif",
+            "did_not_bat": "Luuk van Troost (c) , Peter Borren , Jeroen Smits (wk) , Mohammad Kashif",
             "fall_of_wickets": "Fall of wickets : 1 - 29 ( Bas Zuiderent ) , 2 - 29 ( Darron Reekers ) , 3 - 29 ( Billy Stelling ) , 4 - 29 ( Daan van Bunge ) , 5 - 47 ( Tim de Leede )",
             "bowling": [
                 {
@@ -368,5 +368,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Ireland": [
+            "Peter Gillespie",
+            "Dave Langford-Smith",
+            "Jeremy Bray",
+            "Niall O'Brien (wk)",
+            "Kevin O'Brien",
+            "John Mooney",
+            "Kyle McCallan",
+            "William Porterfield",
+            "Andre Botha",
+            "Andrew White",
+            "Trent Johnston(c)"
+        ],
+        "Netherlands": [
+            "Ryan ten Doeschate",
+            "Billy Stelling",
+            "Tim de Leede",
+            "Luuk van Troost (c)",
+            "Daan van Bunge",
+            "Mohammad Kashif",
+            "Peter Borren",
+            "Darron Reekers",
+            "Bas Zuiderent",
+            "Alexei Kervezee",
+            "Jeroen Smits (wk)"
+        ]
+    }
 }

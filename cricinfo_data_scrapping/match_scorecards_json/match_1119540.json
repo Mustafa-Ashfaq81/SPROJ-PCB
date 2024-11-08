@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Ashton Agar",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "19",
                     "balls": "15",
                     "minutes": "-",
@@ -93,7 +93,7 @@
                     "strike_rate": "120.00"
                 },
                 {
-                    "batsman": "Tim Paine(c)",
+                    "batsman": "Tim Paine(c) (wk)",
                     "dismissal": "lbw b Willey",
                     "runs": "3",
                     "balls": "5",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Michael Neser",
-                    "dismissal": "c Buttler b Willey",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "-",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Paine b Stanlake",
+                    "dismissal": "c (wk)Paine b Stanlake",
                     "runs": "79",
                     "balls": "66",
                     "minutes": "-",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Paine b Agar",
+                    "dismissal": "c (wk)Paine b Agar",
                     "runs": "15",
                     "balls": "11",
                     "minutes": "-",
@@ -280,7 +280,7 @@
                     "strike_rate": "136.36"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "54",
                     "balls": "29",
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 32 balls remaining)"
+    "result": "England won by 6 wickets (with 32 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Shaun Marsh",
+            "Travis Head",
+            "Tim Paine(c) (wk)",
+            "Jhye Richardson",
+            "Marcus Stoinis",
+            "Ashton Agar",
+            "Michael Neser",
+            "Alex Carey",
+            "Billy Stanlake",
+            "Nathan Lyon",
+            "Aaron Finch"
+        ],
+        "England": [
+            "Moeen Ali",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "David Willey",
+            "Craig Overton",
+            "Mark Wood",
+            "Alex Hales",
+            "Adil Rashid"
+        ]
+    }
 }

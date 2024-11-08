@@ -70,7 +70,7 @@
                     "strike_rate": "123.15"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "35",
                     "balls": "45",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "st Sangakkara b Mendis",
+                    "dismissal": "st (wk)Sangakkara b Mendis",
                     "runs": "9",
                     "balls": "14",
                     "minutes": "13",
@@ -217,7 +217,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Yuvraj Singh b Ojha",
                     "runs": "83",
                     "balls": "82",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Muthiah Muralidaran",
-                    "dismissal": "c Dhoni b Ojha",
+                    "dismissal": "c (wk)Dhoni b Ojha",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "India won by 147 runs"
+    "result": "India won by 147 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "MS Dhoni(c) (wk)",
+            "Gautam Gambhir",
+            "Suresh Raina",
+            "Yusuf Pathan",
+            "Praveen Kumar",
+            "Pragyan Ojha",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "Zaheer Khan"
+        ],
+        "Sri Lanka": [
+            "Thilina Kandamby",
+            "Sanath Jayasuriya",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Tillakaratne Dilshan",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Nuwan Kulasekara",
+            "Ajantha Mendis"
+        ]
+    }
 }

@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "run out (Mpofu/Mutumbami)",
+                    "dismissal": "run out (Mpofu/ (wk)Mutumbami)",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "7",
@@ -83,7 +83,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Williams b Sikandar Raza",
                     "runs": "25",
                     "balls": "23",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Wahab Riaz",
-                    "dismissal": "c Mutumbami b Mpofu",
+                    "dismissal": "c (wk)Mutumbami b Mpofu",
                     "runs": "13",
                     "balls": "10",
                     "minutes": "12",
@@ -274,7 +274,7 @@
                     "strike_rate": "144.44"
                 }
             ],
-            "did_not_bat": "Hamilton Masakadza (c) , Sean Williams , Richmond Mutumbami , Sikandar Raza , Charles Coventry , Graeme Cremer , Tinashe Panyangara , Chris Mpofu , Roy Kaia",
+            "did_not_bat": "Hamilton Masakadza (c) , Sean Williams , Richmond Mutumbami (wk) , Sikandar Raza , Charles Coventry , Graeme Cremer , Tinashe Panyangara , Chris Mpofu , Roy Kaia",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -336,5 +336,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Pakistan": [
+            "Anwar Ali",
+            "Junaid Khan",
+            "Mohammad Hafeez",
+            "Babar Azam",
+            "Sarfaraz Ahmed (wk)",
+            "Shoaib Malik",
+            "Wahab Riaz",
+            "Asad Shafiq",
+            "Yasir Shah",
+            "Hammad Azam",
+            "Azhar Ali(c)"
+        ],
+        "Zimbabwe": [
+            "Richmond Mutumbami (wk)",
+            "Chris Mpofu",
+            "Hamilton Masakadza (c)",
+            "Vusi Sibanda",
+            "Sean Williams",
+            "Tinashe Panyangara",
+            "Roy Kaia",
+            "Chamu Chibhabha",
+            "Graeme Cremer",
+            "Charles Coventry",
+            "Sikandar Raza"
+        ]
+    }
 }

@@ -32,8 +32,8 @@
             "extras": "25",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Jones b Tremlett",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Jones b Tremlett",
                     "runs": "18",
                     "balls": "31",
                     "minutes": "38",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Jones b Flintoff",
+                    "dismissal": "c (wk)Jones b Flintoff",
                     "runs": "39",
                     "balls": "56",
                     "minutes": "94",
@@ -200,7 +200,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick(c)",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "0",
                     "balls": "15",
                     "minutes": "23",
@@ -259,7 +259,7 @@
                     "strike_rate": "67.85"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Hayden b Watson",
                     "runs": "23",
                     "balls": "31",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "Australia won by 57 runs"
+    "result": "Australia won by 57 runs",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brad Hogg",
+            "Damien Martyn",
+            "Michael Hussey",
+            "Shane Watson"
+        ],
+        "England": [
+            "Vikram Solanki",
+            "Andrew Flintoff",
+            "Darren Gough",
+            "Chris Tremlett",
+            "Steve Harmison",
+            "Marcus Trescothick(c)",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Ashley Giles",
+            "Geraint Jones (wk)",
+            "Andrew Strauss"
+        ]
+    }
 }

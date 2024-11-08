@@ -31,7 +31,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Chris Nevin",
+                    "batsman": "Chris Nevin (wk)",
                     "dismissal": "c sub (HDPK Dharmasena) b Muralidaran",
                     "runs": "45",
                     "balls": "58",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Kaluwitharana b Zoysa",
+                    "dismissal": "c (wk)Kaluwitharana b Zoysa",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "5",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "c Nevin b Astle",
+                    "dismissal": "c (wk)Nevin b Astle",
                     "runs": "26",
                     "balls": "44",
                     "minutes": "56",
@@ -292,7 +292,7 @@
                     "strike_rate": "59.09"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "lbw b Astle",
                     "runs": "10",
                     "balls": "18",
@@ -456,5 +456,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 11 runs"
+    "result": "New Zealand won by 11 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Nathan Astle",
+            "Chris Nevin (wk)",
+            "Craig McMillan",
+            "Chris Harris",
+            "Jacob Oram",
+            "James Franklin",
+            "Ian Butler",
+            "Mathew Sinclair",
+            "Stephen Fleming(c)",
+            "Scott Styris",
+            "Daryl Tuffey"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Charitha Buddhika",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Romesh Kaluwitharana (wk)",
+            "Russel Arnold",
+            "Sanath Jayasuriya(c)",
+            "Upul Chandana",
+            "Kumar Sangakkara",
+            "Marvan Atapattu"
+        ]
+    }
 }

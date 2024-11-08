@@ -33,7 +33,7 @@
             "extras": "2",
             "batting": [
                 {
-                    "batsman": "Joylord Gumbie",
+                    "batsman": "Joylord Gumbie (wk)",
                     "dismissal": "lbw b de Silva",
                     "runs": "29",
                     "balls": "34",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "st Mendis b Theekshana",
+                    "dismissal": "st (wk)Mendis b Theekshana",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "22",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Luke Jongwe",
-                    "dismissal": "c Mendis b Madushanka",
+                    "dismissal": "c (wk)Mendis b Madushanka",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "26",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Avishka Fernando",
-                    "dismissal": "c Gumbie b Ngarava",
+                    "dismissal": "c (wk)Gumbie b Ngarava",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "6",
@@ -246,7 +246,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kusal Mendis(c)",
+                    "batsman": "Kusal Mendis(c) (wk)",
                     "dismissal": "not out",
                     "runs": "66",
                     "balls": "51",
@@ -342,5 +342,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 62 balls remaining) (DLS method)"
+    "result": "Sri Lanka won by 8 wickets (with 62 balls remaining) (DLS method)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Ryan Burl",
+            "Wellington Masakadza",
+            "Richard Ngarava",
+            "Milton Shumba",
+            "Luke Jongwe",
+            "Takudzwanashe Kaitano",
+            "Clive Madande",
+            "Sikandar Raza",
+            "Craig Ervine(c)",
+            "Blessing Muzarabani",
+            "Joylord Gumbie (wk)"
+        ],
+        "Sri Lanka": [
+            "Shevon Daniel",
+            "Charith Asalanka",
+            "Sadeera Samarawickrama",
+            "Dilshan Madushanka",
+            "Avishka Fernando",
+            "Sahan Arachchige",
+            "Maheesh Theekshana",
+            "Kusal Mendis(c) (wk)",
+            "Janith Liyanage",
+            "Wanindu Hasaranga",
+            "Dushmantha Chameera"
+        ]
+    }
 }

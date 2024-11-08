@@ -30,8 +30,8 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Morris Ouma(c)",
-                    "dismissal": "c Mohammad Shahzad b Hamid Hassan",
+                    "batsman": "Morris Ouma(c) (wk)",
+                    "dismissal": "c (wk)Mohammad Shahzad b Hamid Hassan",
                     "runs": "40",
                     "balls": "70",
                     "minutes": "94",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Alex Obanda",
-                    "dismissal": "c Mohammad Shahzad b Shapoor Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Shapoor Zadran",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "24",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Collins Obuya",
-                    "dismissal": "c Mohammad Shahzad b Hamid Hassan",
+                    "dismissal": "c (wk)Mohammad Shahzad b Hamid Hassan",
                     "runs": "60",
                     "balls": "97",
                     "minutes": "136",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Noor Ali Zadran",
-                    "dismissal": "c Ouma b NN Odhiambo",
+                    "dismissal": "c (wk)Ouma b NN Odhiambo",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "17",
@@ -237,7 +237,7 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b NM Odhiambo",
                     "runs": "20",
                     "balls": "22",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Samiullah Shinwari",
-                    "dismissal": "c Ouma b NN Odhiambo",
+                    "dismissal": "c (wk)Ouma b NN Odhiambo",
                     "runs": "82",
                     "balls": "118",
                     "minutes": "138",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan",
-                    "dismissal": "c Ouma b SO Ngoche",
+                    "dismissal": "c (wk)Ouma b SO Ngoche",
                     "runs": "24",
                     "balls": "45",
                     "minutes": "63",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Nawroz Mangal(c)",
-                    "dismissal": "c Ouma b SO Ngoche",
+                    "dismissal": "c (wk)Ouma b SO Ngoche",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "8",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 1 wicket (with 0 balls remaining)"
+    "result": "Afghanistan won by 1 wicket (with 0 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Alex Obanda",
+            "Nehemiah Odhiambo",
+            "Rakep Patel",
+            "Jimmy Kamande",
+            "Morris Ouma(c) (wk)",
+            "Shem Ngoche",
+            "Collins Obuya",
+            "James Ngoche",
+            "Thomas Odoyo",
+            "Nelson Odhiambo",
+            "Francis Otieno"
+        ],
+        "Afghanistan": [
+            "Nawroz Mangal(c)",
+            "Mohammad Nabi",
+            "Noor Ali Zadran",
+            "Karim Sadiq",
+            "Shabir Noori",
+            "Shapoor Zadran",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)",
+            "Samiullah Shinwari",
+            "Khaliq Dad",
+            "Hamid Hassan"
+        ]
+    }
 }

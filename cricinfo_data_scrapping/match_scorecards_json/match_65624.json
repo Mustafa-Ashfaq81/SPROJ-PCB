@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "12",
@@ -102,7 +102,7 @@
                     "strike_rate": "120.00"
                 },
                 {
-                    "batsman": "Adam Parore",
+                    "batsman": "Adam Parore (wk)",
                     "dismissal": "lbw b McGrath",
                     "runs": "1",
                     "balls": "3",
@@ -239,7 +239,7 @@
                     "strike_rate": "58.33"
                 },
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Bond",
                     "runs": "14",
                     "balls": "8",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Steve Waugh(c)",
-                    "dismissal": "c Parore b Nash",
+                    "dismissal": "c (wk)Parore b Nash",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "19",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Ian Harvey",
-                    "dismissal": "c Parore b Bond",
+                    "dismissal": "c (wk)Parore b Bond",
                     "runs": "12",
                     "balls": "20",
                     "minutes": "20",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 wickets (with 3 balls remaining)"
+    "result": "Australia won by 2 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Shane Bond",
+            "Lou Vincent",
+            "Adam Parore (wk)",
+            "Dion Nash",
+            "Nathan Astle",
+            "Stephen Fleming(c)",
+            "Daniel Vettori",
+            "Chris Harris",
+            "Craig McMillan",
+            "Chris Cairns",
+            "Andre Adams"
+        ],
+        "Australia": [
+            "Glenn McGrath",
+            "Steve Waugh(c)",
+            "Shane Warne",
+            "Brett Lee",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ian Harvey",
+            "Ricky Ponting",
+            "Michael Bevan",
+            "Damien Martyn",
+            "Mark Waugh"
+        ]
+    }
 }

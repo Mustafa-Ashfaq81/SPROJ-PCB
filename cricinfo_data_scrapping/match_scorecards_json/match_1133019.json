@@ -30,7 +30,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Rohan Mustafa",
                     "runs": "114",
                     "balls": "135",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Michael Leask",
-                    "dismissal": "st Mohammad Boota b Rohan Mustafa",
+                    "dismissal": "st (wk)Mohammad Boota b Rohan Mustafa",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "11",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Chirag Suri",
-                    "dismissal": "c Cross b Wheal",
+                    "dismissal": "c (wk)Cross b Wheal",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "7",
@@ -281,7 +281,7 @@
                     "strike_rate": "87.91"
                 },
                 {
-                    "batsman": "Mohammad Boota",
+                    "batsman": "Mohammad Boota (wk)",
                     "dismissal": "c Munsey b Sole",
                     "runs": "5",
                     "balls": "16",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 73 runs"
+    "result": "Scotland won by 73 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Richie Berrington",
+            "Mark Watt",
+            "Michael Leask",
+            "Craig Wallace",
+            "Safyaan Sharif",
+            "Matthew Cross (wk)",
+            "George Munsey",
+            "Calum MacLeod",
+            "Kyle Coetzer(c)",
+            "Chris Sole",
+            "Brad Wheal"
+        ],
+        "United Arab Emirates": [
+            "Rohan Mustafa(c)",
+            "Ahmed Raza",
+            "Chirag Suri",
+            "Ashfaq Ahmed",
+            "Adnan Mufti",
+            "Zahoor Khan",
+            "Mohammad Boota (wk)",
+            "Shaiman Anwar",
+            "Mohammad Naveed",
+            "Imran Haider",
+            "Muhammad Usman"
+        ]
+    }
 }

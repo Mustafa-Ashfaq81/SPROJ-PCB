@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Tucker b Adair",
+                    "dismissal": "c (wk)Tucker b Adair",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "13",
@@ -94,7 +94,7 @@
                     "strike_rate": "77.41"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "b Tector",
                     "runs": "2",
                     "balls": "4",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Nangeyalia Kharote",
-                    "dismissal": "c Tucker b McCarthy",
+                    "dismissal": "c (wk)Tucker b McCarthy",
                     "runs": "10",
                     "balls": "8",
                     "minutes": "13",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Ikram Alikhil b Fazalhaq Farooqi",
+                    "dismissal": "c (wk)Ikram Alikhil b Fazalhaq Farooqi",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "10",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Curtis Campher",
-                    "dismissal": "c Ikram Alikhil b Nangeyalia Kharote",
+                    "dismissal": "c (wk)Ikram Alikhil b Nangeyalia Kharote",
                     "runs": "43",
                     "balls": "63",
                     "minutes": "89",
@@ -281,7 +281,7 @@
                     "strike_rate": "21.42"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "c Nangeyalia Kharote b Mohammad Nabi",
                     "runs": "3",
                     "balls": "7",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 117 runs"
+    "result": "Afghanistan won by 117 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Nangeyalia Kharote",
+            "Naveed Zadran",
+            "Azmatullah Omarzai",
+            "AM Ghazanfar",
+            "Fazalhaq Farooqi",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz",
+            "Ibrahim Zadran",
+            "Mohammad Nabi",
+            "Ikram Alikhil (wk)",
+            "Rahmat Shah"
+        ],
+        "Ireland": [
+            "Lorcan Tucker (wk)",
+            "George Dockrell",
+            "Andy McBrine",
+            "Paul Stirling(c)",
+            "Theo van Woerkom",
+            "Harry Tector",
+            "Barry McCarthy",
+            "Graham Hume",
+            "Curtis Campher",
+            "Mark Adair",
+            "Andy Balbirnie"
+        ]
+    }
 }

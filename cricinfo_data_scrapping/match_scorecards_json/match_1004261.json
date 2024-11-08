@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Sharad Vesawkar",
-                    "dismissal": "c Barresi b Mudassar Bukhari",
+                    "dismissal": "c (wk)Barresi b Mudassar Bukhari",
                     "runs": "14",
                     "balls": "71",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Sagar Pun",
-                    "dismissal": "c Barresi b Rippon",
+                    "dismissal": "c (wk)Barresi b Rippon",
                     "runs": "7",
                     "balls": "31",
                     "minutes": "-",
@@ -79,8 +79,8 @@
                     "strike_rate": "22.58"
                 },
                 {
-                    "batsman": "Raju Rijal",
-                    "dismissal": "c Barresi b van Meekeren",
+                    "batsman": "Raju Rijal (wk)",
+                    "dismissal": "c (wk)Barresi b van Meekeren",
                     "runs": "3",
                     "balls": "2",
                     "minutes": "-",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Sompal Kami",
-                    "dismissal": "c Barresi b van der Gugten",
+                    "dismissal": "c (wk)Barresi b van der Gugten",
                     "runs": "12",
                     "balls": "28",
                     "minutes": "-",
@@ -256,7 +256,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "b Regmi",
                     "runs": "37",
                     "balls": "33",
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 7 wickets (with 199 balls remaining)"
+    "result": "Netherlands won by 7 wickets (with 199 balls remaining)",
+    "playing_xi": {
+        "Nepal": [
+            "Gyanendra Malla",
+            "Binod Bhandari",
+            "Sandeep Lamichhane",
+            "Basant Regmi",
+            "Sagar Pun",
+            "Sharad Vesawkar",
+            "Paras Khadka(c)",
+            "Karan KC",
+            "Anil Mandal",
+            "Sompal Kami",
+            "Raju Rijal (wk)"
+        ],
+        "Netherlands": [
+            "Paul van Meekeren",
+            "Michael Rippon",
+            "Stephan Myburgh",
+            "Tim Gruijters",
+            "Ahsan Malik",
+            "Ben Cooper",
+            "Wesley Barresi (wk)",
+            "Pieter Seelaar (c)",
+            "Timm van der Gugten",
+            "Mudassar Bukhari",
+            "Roelof van der Merwe"
+        ]
+    }
 }

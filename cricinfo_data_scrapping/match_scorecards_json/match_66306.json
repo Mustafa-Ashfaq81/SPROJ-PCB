@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Shivnarine Chanderpaul",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "7",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "21",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "c Jones b Anderson",
+                    "dismissal": "c (wk)Jones b Anderson",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "16",
@@ -92,7 +92,7 @@
                     "strike_rate": "35.71"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "b Anderson",
                     "runs": "2",
                     "balls": "7",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Ian Bradshaw",
-                    "dismissal": "c Jones b McGrath",
+                    "dismissal": "c (wk)Jones b McGrath",
                     "runs": "12",
                     "balls": "24",
                     "minutes": "29",
@@ -275,7 +275,7 @@
                     "strike_rate": "116.66"
                 }
             ],
-            "did_not_bat": "Paul Collingwood , Geraint Jones , Anthony McGrath , Darren Gough , Steve Harmison , James Anderson",
+            "did_not_bat": "Paul Collingwood , Geraint Jones (wk) , Anthony McGrath , Darren Gough , Steve Harmison , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 55 ( Michael Vaughan , 9.1 ov ) , 2 - 64 ( Rob Key , 11.6 ov ) , 3 - 120 ( Marcus Trescothick , 17.4 ov )",
             "bowling": [
                 {
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 168 balls remaining)"
+    "result": "England won by 7 wickets (with 168 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ricardo Powell",
+            "Jermaine Lawson",
+            "Ravi Rampaul"
+        ],
+        "England": [
+            "Marcus Trescothick",
+            "Rob Key",
+            "Paul Collingwood",
+            "Michael Vaughan(c)",
+            "Steve Harmison",
+            "Geraint Jones (wk)",
+            "Andrew Flintoff",
+            "Anthony McGrath",
+            "Darren Gough",
+            "James Anderson",
+            "Andrew Strauss"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Arshad Ali",
-                    "dismissal": "c Klokker b Chawla",
+                    "dismissal": "c (wk)Klokker b Chawla",
                     "runs": "35",
                     "balls": "43",
                     "minutes": "59",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Saqib Ali",
-                    "dismissal": "c Klokker b Andersen",
+                    "dismissal": "c (wk)Klokker b Andersen",
                     "runs": "26",
                     "balls": "40",
                     "minutes": "45",
@@ -100,7 +100,7 @@
                     "strike_rate": "208.33"
                 },
                 {
-                    "batsman": "Naeemuddin Aslam",
+                    "batsman": "Naeemuddin Aslam (wk)",
                     "dismissal": "not out",
                     "runs": "0",
                     "balls": "0",
@@ -247,7 +247,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Freddie Klokker(c)",
+                    "batsman": "Freddie Klokker(c) (wk)",
                     "dismissal": "c Amjad Javed b Nayak",
                     "runs": "77",
                     "balls": "79",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 112 runs"
+    "result": "U.A.E. won by 112 runs",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Saqib Ali",
+            "Arshad Ali",
+            "Naeemuddin Aslam (wk)",
+            "Zahid Shah",
+            "Khurram Khan(c)",
+            "Amjad Javed",
+            "Fayyaz Ahmed",
+            "Sameer Nayak",
+            "Fahad Alhashmi",
+            "Nithin Gopal",
+            "Owais Hameed"
+        ],
+        "Denmark": [
+            "Soren Vestergaard",
+            "Carsten Pedersen",
+            "Henrik Hansen",
+            "Bobby Chawla",
+            "Morten Hedegaard",
+            "David Borchersen",
+            "Max Overgaard",
+            "Mickey Lund",
+            "Michael Pedersen",
+            "Bashir Shah",
+            "Freddie Klokker(c) (wk)"
+        ]
+    }
 }

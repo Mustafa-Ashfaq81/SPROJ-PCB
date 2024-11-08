@@ -40,8 +40,8 @@
                     "strike_rate": "63.15"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Irfan",
+                    "batsman": "Richmond Mutumbami (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Irfan",
                     "runs": "67",
                     "balls": "85",
                     "minutes": "141",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "st Chari b Williams",
+                    "dismissal": "st (wk)Chari b Williams",
                     "runs": "32",
                     "balls": "61",
                     "minutes": "85",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Chari b Panyangara",
+                    "dismissal": "c (wk)Chari b Panyangara",
                     "runs": "13",
                     "balls": "16",
                     "minutes": "15",
@@ -287,7 +287,7 @@
                     "strike_rate": "121.42"
                 }
             ],
-            "did_not_bat": "Sarfaraz Ahmed (c) , Mohammad Rizwan , Imad Wasim , Aamer Yamin , Wahab Riaz , Mohammad Irfan",
+            "did_not_bat": "Sarfaraz Ahmed (c) (wk) , Mohammad Rizwan , Imad Wasim , Aamer Yamin , Wahab Riaz , Mohammad Irfan",
             "fall_of_wickets": "Fall of wickets : 1 - 58 ( Bilal Asif , 12.2 ov ) , 2 - 74 ( Mohammad Hafeez , 16.3 ov ) , 3 - 104 ( Ahmed Shehzad , 23.2 ov )",
             "bowling": [
                 {
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 96 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 96 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tinotenda Mutombodzi",
+            "Chamu Chibhabha",
+            "Tinashe Panyangara",
+            "Brian Chari",
+            "Richmond Mutumbami (wk)",
+            "Malcolm Waller",
+            "Sean Williams",
+            "Elton Chigumbura(c)",
+            "Sikandar Raza",
+            "John Nyumbu",
+            "Luke Jongwe"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed (c) (wk)",
+            "Ahmed Shehzad",
+            "Asad Shafiq",
+            "Aamer Yamin",
+            "Wahab Riaz",
+            "Mohammad Rizwan",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Shoaib Malik",
+            "Imad Wasim",
+            "Bilal Asif"
+        ]
+    }
 }

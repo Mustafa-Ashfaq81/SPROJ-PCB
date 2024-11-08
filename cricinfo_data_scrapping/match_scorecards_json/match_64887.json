@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Sangakkara b Zoysa",
+                    "dismissal": "c (wk)Sangakkara b Zoysa",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "9",
@@ -66,7 +66,7 @@
                     "strike_rate": "31.70"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "not out",
                     "runs": "96",
                     "balls": "151",
@@ -87,7 +87,7 @@
                 },
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "6",
                     "balls": "14",
                     "minutes": "17",
@@ -247,7 +247,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "73",
                     "balls": "72",
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 12 runs (D/L method)"
+    "result": "Sri Lanka won by 12 runs (D/L method)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Vusi Sibanda",
+            "Dion Ebrahim",
+            "Prosper Utseya",
+            "Alester Maregwede",
+            "Tinashe Panyangara",
+            "Mluleki Nkala",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Tatenda Taibu(c) (wk)"
+        ],
+        "Sri Lanka": [
+            "Russel Arnold",
+            "Nuwan Zoysa",
+            "Nuwan Kulasekara",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)"
+        ]
+    }
 }

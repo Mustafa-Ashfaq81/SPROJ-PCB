@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Mushfiqur Rahim b Mahbubul Alam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahbubul Alam",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "4",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Charles Coventry",
-                    "dismissal": "run out (Mehrab Hossain jnr/Mushfiqur Rahim)",
+                    "dismissal": "run out (Mehrab Hossain jnr/ (wk)Mushfiqur Rahim)",
                     "runs": "22",
                     "balls": "20",
                     "minutes": "31",
@@ -70,8 +70,8 @@
                     "strike_rate": "110.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
-                    "dismissal": "run out (Raqibul Hasan/Mushfiqur Rahim)",
+                    "batsman": "Brendan Taylor (wk)",
+                    "dismissal": "run out (Raqibul Hasan/ (wk)Mushfiqur Rahim)",
                     "runs": "94",
                     "balls": "103",
                     "minutes": "116",
@@ -267,7 +267,7 @@
                     "strike_rate": "113.33"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Coventry b Price",
                     "runs": "33",
                     "balls": "39",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 69 runs"
+    "result": "Zimbabwe won by 69 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tawanda Mupariwa",
+            "Elton Chigumbura",
+            "Stuart Matsikenyeri",
+            "Malcolm Waller",
+            "Brendan Taylor (wk)",
+            "Mark Vermeulen",
+            "Vusi Sibanda",
+            "Ray Price",
+            "Hamilton Masakadza",
+            "Prosper Utseya(c)",
+            "Charles Coventry"
+        ],
+        "Bangladesh": [
+            "Mahbubul Alam",
+            "Mehrab Hossain jnr",
+            "Mahmudullah",
+            "Syed Rasel",
+            "Tamim Iqbal",
+            "Enamul Haque jnr",
+            "Mohammad Ashraful",
+            "Shakib Al Hasan(c)",
+            "Raqibul Hasan",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ]
+    }
 }

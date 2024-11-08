@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c Sangakkara b Zoysa",
+                    "dismissal": "c (wk)Sangakkara b Zoysa",
                     "runs": "16",
                     "balls": "22",
                     "minutes": "30",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Mark Vermeulen",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "17",
                     "balls": "29",
                     "minutes": "61",
@@ -81,8 +81,8 @@
                     "strike_rate": "58.62"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "batsman": "Tatenda Taibu(c) (wk)",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "16",
                     "balls": "34",
                     "minutes": "50",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Taibu b Hondo",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "14",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu(c)",
-                    "dismissal": "c Taibu b Chigumbura",
+                    "dismissal": "c (wk)Taibu b Chigumbura",
                     "runs": "43",
                     "balls": "80",
                     "minutes": "135",
@@ -278,7 +278,7 @@
                     "strike_rate": "87.80"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Chigumbura b Sibanda",
                     "runs": "28",
                     "balls": "40",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 4 wickets (with 37 balls remaining)"
+    "result": "Sri Lanka won by 4 wickets (with 37 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Ed Rainsford",
+            "Tinashe Panyangara",
+            "Tatenda Taibu(c) (wk)",
+            "Prosper Utseya",
+            "Elton Chigumbura",
+            "Brendan Taylor",
+            "Douglas Hondo",
+            "Dion Ebrahim",
+            "Stuart Matsikenyeri",
+            "Mark Vermeulen",
+            "Vusi Sibanda"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Sanath Jayasuriya",
+            "Avishka Gunawardene",
+            "Marvan Atapattu(c)",
+            "Mahela Jayawardene",
+            "Saman Jayantha",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Upul Chandana"
+        ]
+    }
 }

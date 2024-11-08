@@ -30,7 +30,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
+                    "batsman": "Kennedy Otieno (wk)",
                     "dismissal": "lbw b Mashrafe Mortaza",
                     "runs": "1",
                     "balls": "10",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Morris Ouma",
-                    "dismissal": "c Khaled Mashud b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Khaled Mashud b Mashrafe Mortaza",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "-",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jimmy Kamande",
-                    "dismissal": "c Khaled Mashud b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Khaled Mashud b Mashrafe Mortaza",
                     "runs": "5",
                     "balls": "41",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Hitesh Modi",
-                    "dismissal": "c Khaled Mashud b Shakib Al Hasan",
+                    "dismissal": "c (wk)Khaled Mashud b Shakib Al Hasan",
                     "runs": "22",
                     "balls": "52",
                     "minutes": "-",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Collins Obuya",
-                    "dismissal": "st Khaled Mashud b Shakib Al Hasan",
+                    "dismissal": "st (wk)Khaled Mashud b Shakib Al Hasan",
                     "runs": "17",
                     "balls": "41",
                     "minutes": "-",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Hiren Varaiya",
-                    "dismissal": "st Khaled Mashud b Syed Rasel",
+                    "dismissal": "st (wk)Khaled Mashud b Syed Rasel",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "-",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "c Otieno b Odhiambo",
+                    "dismissal": "c (wk)Otieno b Odhiambo",
                     "runs": "19",
                     "balls": "54",
                     "minutes": "-",
@@ -297,7 +297,7 @@
                     "strike_rate": "97.14"
                 }
             ],
-            "did_not_bat": "Mohammad Rafique , Khaled Mashud (c) , Mashrafe Mortaza , Abdur Razzak , Syed Rasel",
+            "did_not_bat": "Mohammad Rafique , Khaled Mashud (c) (wk) , Mashrafe Mortaza , Abdur Razzak , Syed Rasel",
             "fall_of_wickets": "Fall of wickets : 1 - 10 ( Shahriar Nafees , 4.5 ov ) , 2 - 27 ( Aftab Ahmed , 7.6 ov ) , 3 - 58 ( Rajin Saleh , 15.1 ov ) , 4 - 97 ( Shakib Al Hasan , 20.4 ov )",
             "bowling": [
                 {
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 119 balls remaining)"
+    "result": "Bangladesh won by 6 wickets (with 119 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Nehemiah Odhiambo",
+            "Morris Ouma",
+            "Tanmay Mishra",
+            "Peter Ongondo",
+            "Kennedy Otieno (wk)",
+            "Hitesh Modi",
+            "Jimmy Kamande",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Steve Tikolo(c)",
+            "Thomas Odoyo"
+        ],
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Aftab Ahmed",
+            "Farhad Reza",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Khaled Mashud (c) (wk)",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique"
+        ]
+    }
 }

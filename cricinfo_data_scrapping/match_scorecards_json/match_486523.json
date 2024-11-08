@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Taibu b Utseya",
+                    "dismissal": "c (wk)Taibu b Utseya",
                     "runs": "33",
                     "balls": "61",
                     "minutes": "88",
@@ -80,7 +80,7 @@
                     "strike_rate": "80.21"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c SW Masakadza b Utseya",
                     "runs": "63",
                     "balls": "73",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Sohrawordi Shuvo",
-                    "dismissal": "st Taibu b Price",
+                    "dismissal": "st (wk)Taibu b Price",
                     "runs": "8",
                     "balls": "9",
                     "minutes": "10",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "st Mushfiqur Rahim b Abdur Razzak",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Abdur Razzak",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "12",
@@ -261,7 +261,7 @@
                     "strike_rate": "23.07"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Mashrafe Mortaza",
                     "runs": "3",
                     "balls": "23",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "c Mushfiqur Rahim b Shafiul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shafiul Islam",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "16",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Graeme Cremer",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "24",
                     "balls": "41",
                     "minutes": "40",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Shingi Masakadza",
-                    "dismissal": "c Mushfiqur Rahim b Shafiul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shafiul Islam",
                     "runs": "14",
                     "balls": "16",
                     "minutes": "16",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 65 runs"
+    "result": "Bangladesh won by 65 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Raqibul Hasan",
+            "Imrul Kayes",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Sohrawordi Shuvo",
+            "Tamim Iqbal",
+            "Shakib Al Hasan(c)",
+            "Mashrafe Mortaza",
+            "Zunaed Siddique",
+            "Shafiul Islam",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Zimbabwe": [
+            "Prosper Utseya(c)",
+            "Hamilton Masakadza",
+            "Craig Ervine",
+            "Chamu Chibhabha",
+            "Brendan Taylor",
+            "Chris Mpofu",
+            "Regis Chakabva",
+            "Graeme Cremer",
+            "Ray Price",
+            "Shingi Masakadza",
+            "Tatenda Taibu (wk)"
+        ]
+    }
 }

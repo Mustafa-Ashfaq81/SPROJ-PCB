@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Mohammad Salman b Saeed Ajmal",
+                    "dismissal": "c (wk)Mohammad Salman b Saeed Ajmal",
                     "runs": "24",
                     "balls": "44",
                     "minutes": "79",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "run out (Ahmed Shehzad/Mohammad Salman)",
+                    "dismissal": "run out (Ahmed Shehzad/ (wk)Mohammad Salman)",
                     "runs": "67",
                     "balls": "109",
                     "minutes": "153",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "run out (Mohammad Salman)",
+                    "dismissal": "run out ( (wk)Mohammad Salman)",
                     "runs": "2",
                     "balls": "19",
                     "minutes": "15",
@@ -105,7 +105,7 @@
                     "strike_rate": "170.58"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "15",
@@ -209,7 +209,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "st Baugh b Bishoo",
+                    "dismissal": "st (wk)Baugh b Bishoo",
                     "runs": "22",
                     "balls": "39",
                     "minutes": "48",
@@ -238,7 +238,7 @@
                     "strike_rate": "81.11"
                 }
             ],
-            "did_not_bat": "Umar Akmal , Shahid Afridi (c) , Mohammad Salman , Hammad Azam , Junaid Khan , Wahab Riaz , Saeed Ajmal",
+            "did_not_bat": "Umar Akmal , Shahid Afridi (c) , Mohammad Salman (wk) , Hammad Azam , Junaid Khan , Wahab Riaz , Saeed Ajmal",
             "fall_of_wickets": "Fall of wickets : 1 - 68 ( Ahmed Shehzad , 12.4 ov ) , 2 - 88 ( Mohammad Hafeez , 16.4 ov )",
             "bowling": [
                 {
@@ -328,5 +328,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 51 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 51 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Carlton Baugh (wk)",
+            "Daren Sammy(c)",
+            "Devon Smith",
+            "Andre Russell",
+            "Kemar Roach",
+            "Devendra Bishoo",
+            "Dwayne Bravo",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Lendl Simmons",
+            "Kirk Edwards"
+        ],
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Wahab Riaz",
+            "Mohammad Salman (wk)",
+            "Ahmed Shehzad",
+            "Hammad Azam",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Asad Shafiq",
+            "Shahid Afridi (c)",
+            "Misbah-ul-Haq",
+            "Umar Akmal"
+        ]
+    }
 }

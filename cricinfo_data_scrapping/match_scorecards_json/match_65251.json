@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Desmond Chumney",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "31",
@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "John Davison",
-                    "dismissal": "c Sangakkara b Nissanka",
+                    "dismissal": "c (wk)Sangakkara b Nissanka",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "7",
@@ -105,7 +105,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Ashish Bagai",
+                    "batsman": "Ashish Bagai (wk)",
                     "dismissal": "c Jayawardene b Fernando",
                     "runs": "6",
                     "balls": "25",
@@ -234,7 +234,7 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "4",
@@ -278,5 +278,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 272 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 272 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Ian Billcliff",
+            "Fazil Sattaur",
+            "Ishwar Maraj",
+            "Joe Harris(c)",
+            "Barry Seebaran",
+            "Ashish Bagai (wk)",
+            "Austin Codrington",
+            "John Davison",
+            "Nicholas de Groot",
+            "Desmond Chumney",
+            "Sanjayan Thuraisingam"
+        ],
+        "Sri Lanka": [
+            "Hashan Tillakaratne",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Aravinda de Silva",
+            "Sanath Jayasuriya(c)",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Prabath Nissanka",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene"
+        ]
+    }
 }

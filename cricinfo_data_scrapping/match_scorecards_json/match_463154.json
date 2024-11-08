@@ -60,8 +60,8 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "AB de Villiers",
-                    "dismissal": "st Dhoni b Yuvraj Singh",
+                    "batsman": "AB de Villiers (wk)",
+                    "dismissal": "st (wk)Dhoni b Yuvraj Singh",
                     "runs": "11",
                     "balls": "12",
                     "minutes": "14",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Johan Botha",
-                    "dismissal": "c Dhoni b MM Patel",
+                    "dismissal": "c (wk)Dhoni b MM Patel",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "2",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Dale Steyn",
-                    "dismissal": "run out (Dhoni)",
+                    "dismissal": "run out ( (wk)Dhoni)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Morne Morkel",
-                    "dismissal": "run out (Dhoni)",
+                    "dismissal": "run out ( (wk)Dhoni)",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c de Villiers b Morkel",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "11",
@@ -295,7 +295,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Smith b Morkel",
                     "runs": "5",
                     "balls": "10",
@@ -465,5 +465,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 33 runs (D/L method)"
+    "result": "South Africa won by 33 runs (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Dale Steyn",
+            "Morne Morkel",
+            "Robin Peterson",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "AB de Villiers (wk)",
+            "Lonwabo Tsotsobe",
+            "Morne van Wyk",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Graeme Smith(c)"
+        ],
+        "India": [
+            "Parthiv Patel",
+            "Piyush Chawla",
+            "Zaheer Khan",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Harbhajan Singh",
+            "Rohit Sharma",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Yusuf Pathan",
+            "Munaf Patel"
+        ]
+    }
 }

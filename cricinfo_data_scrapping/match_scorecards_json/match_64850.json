@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Mathew Sinclair",
-                    "dismissal": "st Moin Khan b Shoaib Malik",
+                    "dismissal": "st (wk)Moin Khan b Shoaib Malik",
                     "runs": "55",
                     "balls": "76",
                     "minutes": "91",
@@ -98,7 +98,7 @@
                     "strike_rate": "112.90"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "0",
                     "balls": "0",
@@ -202,7 +202,7 @@
                 },
                 {
                     "batsman": "Imran Farhat",
-                    "dismissal": "c McCullum b Mason",
+                    "dismissal": "c (wk)McCullum b Mason",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -231,8 +231,8 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Moin Khan",
-                    "dismissal": "c McCullum b Vettori",
+                    "batsman": "Moin Khan (wk)",
+                    "dismissal": "c (wk)McCullum b Vettori",
                     "runs": "43",
                     "balls": "47",
                     "minutes": "70",
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 12 balls remaining)"
+    "result": "Pakistan won by 3 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mathew Sinclair",
+            "Jacob Oram",
+            "Brendon McCullum (wk)",
+            "Hamish Marshall",
+            "Richard Jones",
+            "Craig Cumming",
+            "Chris Cairns(c)",
+            "Michael Mason",
+            "Kerry Walmsley",
+            "Daniel Vettori",
+            "Matthew Walker"
+        ],
+        "Pakistan": [
+            "Misbah-ul-Haq",
+            "Mohammad Yousuf",
+            "Yasir Hameed",
+            "Imran Farhat",
+            "Danish Kaneria",
+            "Moin Khan (wk)",
+            "Abdul Razzaq",
+            "Inzamam-ul-Haq(c)",
+            "Shabbir Ahmed",
+            "Shoaib Malik",
+            "Mohammad Sami"
+        ]
+    }
 }

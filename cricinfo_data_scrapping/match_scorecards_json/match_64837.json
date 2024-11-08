@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "st Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "st (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "44",
                     "balls": "64",
                     "minutes": "95",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "st Khaled Mashud b Rajin Saleh",
+                    "dismissal": "st (wk)Khaled Mashud b Rajin Saleh",
                     "runs": "82",
                     "balls": "107",
                     "minutes": "133",
@@ -100,7 +100,7 @@
                     "strike_rate": "115.38"
                 }
             ],
-            "did_not_bat": "Kamran Akmal , Shabbir Ahmed , Mohammad Sami , Umar Gul",
+            "did_not_bat": "Kamran Akmal (wk) , Shabbir Ahmed , Mohammad Sami , Umar Gul",
             "fall_of_wickets": "Fall of wickets : 1 - 95 ( Mohammad Hafeez , 22.1 ov ) , 2 - 169 ( Yasir Hameed , 33.1 ov ) , 3 - 181 ( Mohammad Yousuf , 34.3 ov ) , 4 - 199 ( Younis Khan , 38.1 ov ) , 5 - 260 ( Shoaib Malik , 46.1 ov )",
             "bowling": [
                 {
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar",
-                    "dismissal": "run out (Inzamam-ul-Haq/Kamran Akmal)",
+                    "dismissal": "run out (Inzamam-ul-Haq/ (wk)Kamran Akmal)",
                     "runs": "13",
                     "balls": "30",
                     "minutes": "43",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "run out (Kamran Akmal)",
+                    "dismissal": "run out ( (wk)Kamran Akmal)",
                     "runs": "71",
                     "balls": "96",
                     "minutes": "136",
@@ -267,7 +267,7 @@
                     "strike_rate": "140.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "6",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 58 runs"
+    "result": "Pakistan won by 58 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Umar Gul",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Mohammad Hafeez",
+            "Inzamam-ul-Haq(c)",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Shabbir Ahmed",
+            "Mohammad Sami"
+        ],
+        "Bangladesh": [
+            "Khaled Mashud (wk)",
+            "Mushfiqur Rahman",
+            "Mohammad Rafique",
+            "Alok Kapali",
+            "Rajin Saleh",
+            "Mashrafe Mortaza",
+            "Khaled Mahmud(c)",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Tushar Imran",
+            "Hannan Sarkar"
+        ]
+    }
 }

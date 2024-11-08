@@ -33,7 +33,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "lbw b Waller",
                     "runs": "116",
                     "balls": "118",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Tarisai Musakanda",
-                    "dismissal": "c Dickwella b Chameera",
+                    "dismissal": "c (wk)Dickwella b Chameera",
                     "runs": "30",
                     "balls": "23",
                     "minutes": "40",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "st Dickwella b Gunaratne",
+                    "dismissal": "st (wk)Dickwella b Gunaratne",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "21",
@@ -284,7 +284,7 @@
                     "strike_rate": "153.84"
                 },
                 {
-                    "batsman": "Peter Moor",
+                    "batsman": "Peter Moor (wk)",
                     "dismissal": "not out",
                     "runs": "0",
                     "balls": "0",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 4 wickets (with 10 balls remaining) (D/L method)"
+    "result": "Zimbabwe won by 4 wickets (with 10 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Asela Gunaratne",
+            "Danushka Gunathilaka",
+            "Lakshan Sandakan",
+            "Kusal Mendis",
+            "Lasith Malinga",
+            "Upul Tharanga",
+            "Dushmantha Chameera",
+            "Asitha Fernando",
+            "Wanindu Hasaranga",
+            "Angelo Mathews(c)",
+            "Niroshan Dickwella (wk)"
+        ],
+        "Zimbabwe": [
+            "Sikandar Raza",
+            "Malcolm Waller",
+            "Peter Moor (wk)",
+            "Chris Mpofu",
+            "Craig Ervine",
+            "Hamilton Masakadza",
+            "Solomon Mire",
+            "Tendai Chatara",
+            "Graeme Cremer (c)",
+            "Sean Williams",
+            "Tarisai Musakanda"
+        ]
+    }
 }

@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "st Taylor b Cremer",
+                    "dismissal": "st (wk)Taylor b Cremer",
                     "runs": "76",
                     "balls": "105",
                     "minutes": "-",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "st Taylor b Sikandar Raza",
+                    "dismissal": "st (wk)Taylor b Sikandar Raza",
                     "runs": "51",
                     "balls": "80",
                     "minutes": "-",
@@ -62,7 +62,7 @@
                     "strike_rate": "63.75"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Muzarabani b Cremer",
                     "runs": "18",
                     "balls": "25",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Nasir Hossain",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "-",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "c Taylor b Cremer",
+                    "dismissal": "c (wk)Taylor b Cremer",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "-",
@@ -269,7 +269,7 @@
                     "strike_rate": "73.33"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "lbw b Shakib Al Hasan",
                     "runs": "0",
                     "balls": "1",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 91 runs"
+    "result": "Bangladesh won by 91 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)",
+            "Sabbir Rahman",
+            "Rubel Hossain",
+            "Mashrafe Mortaza(c)",
+            "Mustafizur Rahman",
+            "Anamul Haque",
+            "Nasir Hossain",
+            "Shakib Al Hasan",
+            "Mahmudullah",
+            "Sunzamul Islam"
+        ],
+        "Zimbabwe": [
+            "Sikandar Raza",
+            "Brendan Taylor (wk)",
+            "Kyle Jarvis",
+            "Graeme Cremer(c)",
+            "Craig Ervine",
+            "Blessing Muzarabani",
+            "Malcolm Waller",
+            "Tendai Chatara",
+            "Peter Moor",
+            "Solomon Mire",
+            "Hamilton Masakadza"
+        ]
+    }
 }

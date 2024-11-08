@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kyle Coetzer",
-                    "dismissal": "run out (Khurram Khan/Naeemuddin Aslam)",
+                    "dismissal": "run out (Khurram Khan/ (wk)Naeemuddin Aslam)",
                     "runs": "35",
                     "balls": "65",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Neil McCallum",
-                    "dismissal": "c Naeemuddin Aslam b Amjad Javed",
+                    "dismissal": "c (wk)Naeemuddin Aslam b Amjad Javed",
                     "runs": "54",
                     "balls": "60",
                     "minutes": "-",
@@ -80,8 +80,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Colin Smith",
-                    "dismissal": "c Naeemuddin Aslam b Amjad Javed",
+                    "batsman": "Colin Smith (wk)",
+                    "dismissal": "c (wk)Naeemuddin Aslam b Amjad Javed",
                     "runs": "9",
                     "balls": "4",
                     "minutes": "-",
@@ -260,7 +260,7 @@
             "batting": [
                 {
                     "batsman": "Amjad Javed",
-                    "dismissal": "c Smith b Blain",
+                    "dismissal": "c (wk)Smith b Blain",
                     "runs": "5",
                     "balls": "16",
                     "minutes": "-",
@@ -319,7 +319,7 @@
                     "strike_rate": "81.81"
                 },
                 {
-                    "batsman": "Naeemuddin Aslam",
+                    "batsman": "Naeemuddin Aslam (wk)",
                     "dismissal": "b Nel",
                     "runs": "16",
                     "balls": "32",
@@ -459,5 +459,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 122 runs"
+    "result": "Scotland won by 122 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Neil McCallum",
+            "Craig Wright",
+            "Calum MacLeod",
+            "Kyle Coetzer",
+            "Colin Smith (wk)",
+            "Jan Stander",
+            "John Blain",
+            "Ryan Watson(c)",
+            "Gavin Hamilton",
+            "Dewald Nel",
+            "Navdeep Poonia"
+        ],
+        "United Arab Emirates": [
+            "Saqib Ali",
+            "Arshad Ali",
+            "Naeemuddin Aslam (wk)",
+            "Zahid Shah",
+            "Khurram Khan(c)",
+            "Amjad Javed",
+            "Fayyaz Ahmed",
+            "Sameer Nayak",
+            "Qasim Zubair",
+            "Nithin Gopal",
+            "Owais Hameed"
+        ]
+    }
 }

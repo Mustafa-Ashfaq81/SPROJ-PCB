@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Will Young",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "19",
                     "balls": "22",
                     "minutes": "29",
@@ -63,8 +63,8 @@
                     "strike_rate": "108.40"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "batsman": "Tom Latham(c) (wk)",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "98",
                     "balls": "85",
                     "minutes": "122",
@@ -240,7 +240,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "not out",
                     "runs": "54",
                     "balls": "41",
@@ -326,5 +326,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 10 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Matt Henry",
+            "James Neesham",
+            "Chad Bowes",
+            "Henry Nicholls",
+            "Tom Latham(c) (wk)",
+            "Will Young",
+            "Ish Sodhi",
+            "Rachin Ravindra",
+            "Henry Shipley",
+            "Daryl Mitchell",
+            "Mark Chapman"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Abdullah Shafique",
+            "Haris Rauf",
+            "Ihsanullah",
+            "Usama Mir",
+            "Salman Agha",
+            "Babar Azam(c)",
+            "Imam-ul-Haq",
+            "Mohammad Rizwan (wk)",
+            "Mohammad Nawaz",
+            "Naseem Shah"
+        ]
+    }
 }

@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "c Hope b Cottrell",
+                    "dismissal": "c (wk)Hope b Cottrell",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "15",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Babar Azam",
-                    "dismissal": "c Hope b Thomas",
+                    "dismissal": "c (wk)Hope b Thomas",
                     "runs": "22",
                     "balls": "33",
                     "minutes": "47",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Haris Sohail",
-                    "dismissal": "c Hope b Russell",
+                    "dismissal": "c (wk)Hope b Russell",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "17",
@@ -72,8 +72,8 @@
                     "strike_rate": "72.72"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
-                    "dismissal": "c Hope b Holder",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
+                    "dismissal": "c (wk)Hope b Holder",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "34",
@@ -235,7 +235,7 @@
                     "strike_rate": "147.05"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Mohammad Hafeez b Mohammad Amir",
                     "runs": "11",
                     "balls": "17",
@@ -323,5 +323,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 218 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 218 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Sarfaraz Ahmed(c) (wk)",
+            "Imad Wasim",
+            "Wahab Riaz",
+            "Fakhar Zaman",
+            "Shadab Khan",
+            "Haris Sohail",
+            "Mohammad Amir",
+            "Babar Azam",
+            "Imam-ul-Haq",
+            "Mohammad Hafeez",
+            "Hasan Ali"
+        ],
+        "West Indies": [
+            "Oshane Thomas",
+            "Nicholas Pooran",
+            "Shai Hope (wk)",
+            "Darren Bravo",
+            "Jason Holder (c)",
+            "Shimron Hetmyer",
+            "Andre Russell",
+            "Carlos Brathwaite",
+            "Sheldon Cottrell",
+            "Ashley Nurse",
+            "Chris Gayle"
+        ]
+    }
 }

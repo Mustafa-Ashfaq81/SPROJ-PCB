@@ -60,8 +60,8 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Ishan Kishan",
-                    "dismissal": "c Latham b Ferguson",
+                    "batsman": "Ishan Kishan (wk)",
+                    "dismissal": "c (wk)Latham b Ferguson",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "19",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Shardul Thakur",
-                    "dismissal": "run out (Santner/Latham)",
+                    "dismissal": "run out (Santner/ (wk)Latham)",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "9",
@@ -267,7 +267,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "c Washington Sundar b Mohammed Siraj",
                     "runs": "24",
                     "balls": "46",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "India won by 12 runs"
+    "result": "India won by 12 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma(c)",
+            "Hardik Pandya",
+            "Ishan Kishan (wk)",
+            "Shardul Thakur",
+            "Suryakumar Yadav",
+            "Mohammed Siraj",
+            "Washington Sundar",
+            "Shubman Gill",
+            "Kuldeep Yadav",
+            "Mohammed Shami",
+            "Virat Kohli"
+        ],
+        "New Zealand": [
+            "Henry Shipley",
+            "Daryl Mitchell",
+            "Devon Conway",
+            "Blair Tickner",
+            "Tom Latham(c) (wk)",
+            "Finn Allen",
+            "Lockie Ferguson",
+            "Mitchell Santner",
+            "Michael Bracewell",
+            "Glenn Phillips",
+            "Henry Nicholls"
+        ]
+    }
 }

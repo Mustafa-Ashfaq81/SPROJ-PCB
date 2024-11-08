@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "25",
                     "balls": "40",
                     "minutes": "57",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Buttler b Rankin",
+                    "dismissal": "c (wk)Buttler b Rankin",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "16",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "George Bailey",
-                    "dismissal": "c Buttler b Rankin",
+                    "dismissal": "c (wk)Buttler b Rankin",
                     "runs": "87",
                     "balls": "91",
                     "minutes": "138",
@@ -93,7 +93,7 @@
                     "strike_rate": "57.69"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Carberry b Tredwell",
                     "runs": "36",
                     "balls": "40",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "James Faulkner",
-                    "dismissal": "run out (Trott/Buttler)",
+                    "dismissal": "run out (Trott/ (wk)Buttler)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "2",
@@ -300,7 +300,7 @@
                     "strike_rate": "36.84"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "65",
                     "balls": "48",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 3 balls remaining)"
+    "result": "England won by 3 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Michael Clarke(c)",
+            "George Bailey",
+            "James Faulkner",
+            "Shaun Marsh",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Shane Watson",
+            "Aaron Finch",
+            "Adam Voges",
+            "Nathan Coulter-Nile"
+        ],
+        "England": [
+            "Boyd Rankin",
+            "Joe Root",
+            "Steven Finn",
+            "Kevin Pietersen",
+            "Jonathan Trott",
+            "James Tredwell",
+            "Jos Buttler (wk)",
+            "Eoin Morgan(c)",
+            "Ravi Bopara",
+            "Michael Carberry",
+            "Ben Stokes"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "run out (Chigumbura/Taibu)",
+                    "dismissal": "run out (Chigumbura/ (wk)Taibu)",
                     "runs": "44",
                     "balls": "49",
                     "minutes": "59",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar(c)",
-                    "dismissal": "st Taibu b Hondo",
+                    "dismissal": "st (wk)Taibu b Hondo",
                     "runs": "16",
                     "balls": "27",
                     "minutes": "36",
@@ -80,7 +80,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Utseya b Taylor",
                     "runs": "51",
                     "balls": "61",
@@ -287,7 +287,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "lbw b Manjural Islam Rana",
                     "runs": "0",
                     "balls": "2",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 58 runs"
+    "result": "Bangladesh won by 58 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Mashrafe Mortaza",
+            "Khaled Mahmud",
+            "Nafees Iqbal",
+            "Manzarul Islam",
+            "Mohammad Ashraful",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Habibul Bashar(c)",
+            "Nazmul Hossain",
+            "Mohammad Rafique"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Dion Ebrahim",
+            "Prosper Utseya",
+            "Tinashe Panyangara",
+            "Chris Mpofu",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Barney Rogers",
+            "Tatenda Taibu(c) (wk)",
+            "Hamilton Masakadza"
+        ]
+    }
 }

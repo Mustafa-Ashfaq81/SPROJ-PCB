@@ -30,8 +30,8 @@
             "extras": "25",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
-                    "dismissal": "c de Kock b Phehlukwayo",
+                    "batsman": "Niroshan Dickwella (wk)",
+                    "dismissal": "c (wk)de Kock b Phehlukwayo",
                     "runs": "43",
                     "balls": "65",
                     "minutes": "-",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c de Kock b Dala",
+                    "dismissal": "c (wk)de Kock b Dala",
                     "runs": "19",
                     "balls": "18",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "c de Kock b Maharaj",
+                    "dismissal": "c (wk)de Kock b Maharaj",
                     "runs": "38",
                     "balls": "43",
                     "minutes": "-",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Akila Dananjaya",
-                    "dismissal": "run out (Markram/de Kock)",
+                    "dismissal": "run out (Markram/ (wk)de Kock)",
                     "runs": "5",
                     "balls": "2",
                     "minutes": "-",
@@ -227,7 +227,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Quinton de Kock(c)",
+                    "batsman": "Quinton de Kock(c) (wk)",
                     "dismissal": "b Dananjaya",
                     "runs": "54",
                     "balls": "57",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Andile Phehlukwayo",
-                    "dismissal": "c Dickwella b Dananjaya",
+                    "dismissal": "c (wk)Dickwella b Dananjaya",
                     "runs": "3",
                     "balls": "14",
                     "minutes": "-",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 178 runs"
+    "result": "Sri Lanka won by 178 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dasun Shanaka",
+            "Akila Dananjaya",
+            "Upul Tharanga",
+            "Dhananjaya de Silva",
+            "Kusal Mendis",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Angelo Mathews(c)",
+            "Lahiru Kumara",
+            "Niroshan Dickwella (wk)",
+            "Suranga Lakmal"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Keshav Maharaj",
+            "Heinrich Klaasen",
+            "Aiden Markram",
+            "Jean-Paul Duminy",
+            "Wiaan Mulder",
+            "Kagiso Rabada",
+            "Junior Dala",
+            "Andile Phehlukwayo",
+            "Hashim Amla",
+            "Quinton de Kock(c) (wk)"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "st Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "83",
                     "balls": "113",
                     "minutes": "131",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "28",
                     "balls": "31",
                     "minutes": "40",
@@ -90,7 +90,7 @@
                     "strike_rate": "175.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "1",
                     "balls": "1",
@@ -203,7 +203,7 @@
                     "strike_rate": "87.17"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Harris",
                     "runs": "1",
                     "balls": "2",
@@ -214,7 +214,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "12",
                     "balls": "31",
                     "minutes": "49",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Haddin b Harris",
+                    "dismissal": "c (wk)Haddin b Harris",
                     "runs": "59",
                     "balls": "76",
                     "minutes": "78",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Umar Gul",
-                    "dismissal": "c Haddin b Harris",
+                    "dismissal": "c (wk)Haddin b Harris",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -294,7 +294,7 @@
                 },
                 {
                     "batsman": "Mohammad Asif",
-                    "dismissal": "c Haddin b Hauritz",
+                    "dismissal": "c (wk)Haddin b Hauritz",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "9",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Australia won by 40 runs"
+    "result": "Australia won by 40 runs",
+    "playing_xi": {
+        "Australia": [
+            "Michael Clarke",
+            "Cameron White",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Ricky Ponting(c)",
+            "Ryan Harris",
+            "Brad Haddin (wk)",
+            "Clint McKay",
+            "Nathan Hauritz",
+            "Michael Hussey",
+            "Doug Bollinger"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Fawad Alam",
+            "Mohammad Yousuf(c)",
+            "Naved-ul-Hasan",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Umar Akmal",
+            "Salman Butt",
+            "Shahid Afridi",
+            "Mohammad Asif"
+        ]
+    }
 }

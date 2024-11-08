@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Muhammad Younis",
-                    "dismissal": "c Usman Patel b Shahrukh Quddus",
+                    "dismissal": "c (wk)Usman Patel b Shahrukh Quddus",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "-",
@@ -40,8 +40,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Shahbaz Badar",
-                    "dismissal": "c Usman Patel b Sayed Monib",
+                    "batsman": "Shahbaz Badar (wk)",
+                    "dismissal": "c (wk)Usman Patel b Sayed Monib",
                     "runs": "16",
                     "balls": "41",
                     "minutes": "-",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Junaid Aziz",
-                    "dismissal": "c Usman Patel b Sayed Monib",
+                    "dismissal": "c (wk)Usman Patel b Sayed Monib",
                     "runs": "36",
                     "balls": "77",
                     "minutes": "-",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Haider Ali(c)",
-                    "dismissal": "c Usman Patel b Sayed Monib",
+                    "dismissal": "c (wk)Usman Patel b Sayed Monib",
                     "runs": "34",
                     "balls": "35",
                     "minutes": "-",
@@ -217,7 +217,7 @@
                     "strike_rate": "121.73"
                 },
                 {
-                    "batsman": "Usman Patel",
+                    "batsman": "Usman Patel (wk)",
                     "dismissal": "lbw b Abdul Majid",
                     "runs": "18",
                     "balls": "27",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Ravija Sandaruwan",
-                    "dismissal": "run out (Muhammad Younis/Shahbaz Badar)",
+                    "dismissal": "run out (Muhammad Younis/ (wk)Shahbaz Badar)",
                     "runs": "8",
                     "balls": "10",
                     "minutes": "-",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Kuwait won by 2 wickets (with 34 balls remaining)"
+    "result": "Kuwait won by 2 wickets (with 34 balls remaining)",
+    "playing_xi": {
+        "Bahrain": [
+            "Rizwan Butt",
+            "Haider Ali(c)",
+            "Ali Dawood",
+            "Abdul Majid",
+            "Shahbaz Badar (wk)",
+            "Junaid Aziz",
+            "Fiaz Ahmed",
+            "Muhammad Younis",
+            "Imran Anwar",
+            "Waseeq Ahmed",
+            "Sohail Ahmed"
+        ],
+        "Kuwait": [
+            "Usman Patel (wk)",
+            "Yasin Patel",
+            "Adnan Idrees",
+            "Shiraz Khan",
+            "Shahrukh Quddus",
+            "Meet Bhavsar",
+            "Ravija Sandaruwan",
+            "Parvindar Kumar",
+            "Sayed Monib",
+            "Mohammed Aslam(c)",
+            "Bilal Tahir"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c & b Shoaib Malik",
                     "runs": "76",
                     "balls": "78",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "run out (Guptill/McCullum)",
+                    "dismissal": "run out (Guptill/ (wk)McCullum)",
                     "runs": "25",
                     "balls": "34",
                     "minutes": "49",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c McCullum b Southee",
+                    "dismissal": "c (wk)McCullum b Southee",
                     "runs": "12",
                     "balls": "24",
                     "minutes": "41",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "19",
@@ -297,7 +297,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Vettori b Southee",
                     "runs": "4",
                     "balls": "4",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 runs"
+    "result": "New Zealand won by 7 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Daniel Vettori(c)",
+            "Scott Styris",
+            "Martin Guptill",
+            "Neil Broom",
+            "Kyle Mills",
+            "Shane Bond",
+            "Tim Southee",
+            "Ross Taylor",
+            "Jacob Oram",
+            "Brendon McCullum (wk)",
+            "Aaron Redmond"
+        ],
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Salman Butt",
+            "Umar Gul",
+            "Mohammad Amir",
+            "Kamran Akmal (wk)",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Umar Akmal",
+            "Khalid Latif",
+            "Abdul Razzaq",
+            "Shahid Afridi"
+        ]
+    }
 }

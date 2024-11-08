@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Peter Fulton",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "16",
@@ -91,7 +91,7 @@
                     "strike_rate": "38.88"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c & b Peterson",
                     "runs": "21",
                     "balls": "34",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "c Boucher b Smith",
+                    "dismissal": "c (wk)Boucher b Smith",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "10",
@@ -292,8 +292,8 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c McCullum b Oram",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "8",
                     "balls": "28",
                     "minutes": "28",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 87 runs"
+    "result": "New Zealand won by 87 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Stephen Fleming(c)",
+            "James Franklin",
+            "Jacob Oram",
+            "Hamish Marshall",
+            "Kyle Mills",
+            "Jeetan Patel",
+            "Peter Fulton",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Lou Vincent",
+            "Brendon McCullum (wk)"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Andre Nel",
+            "Jacques Kallis",
+            "Graeme Smith(c)",
+            "Makhaya Ntini",
+            "Justin Kemp",
+            "Shaun Pollock",
+            "Andrew Hall",
+            "Robin Peterson",
+            "Herschelle Gibbs",
+            "Boeta Dippenaar"
+        ]
+    }
 }

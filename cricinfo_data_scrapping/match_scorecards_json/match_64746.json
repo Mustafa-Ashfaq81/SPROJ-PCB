@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Ryan Hinds",
-                    "dismissal": "run out (Rashid Latif/Wasim Akram)",
+                    "dismissal": "run out ( (wk)Rashid Latif/Wasim Akram)",
                     "runs": "8",
                     "balls": "17",
                     "minutes": "17",
@@ -91,7 +91,7 @@
                     "strike_rate": "47.05"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "b Saqlain Mushtaq",
                     "runs": "25",
                     "balls": "56",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Naved Latif",
-                    "dismissal": "c Jacobs b Dillon",
+                    "dismissal": "c (wk)Jacobs b Dillon",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -288,7 +288,7 @@
                     "strike_rate": "50.64"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "c Collymore b Hooper",
                     "runs": "47",
                     "balls": "58",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 23 balls remaining)"
+    "result": "Pakistan won by 4 wickets (with 23 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Carl Hooper(c)",
+            "Chris Gayle",
+            "Darrel Brown",
+            "Corey Collymore",
+            "Cameron Cuffy",
+            "Daren Ganga",
+            "Ridley Jacobs (wk)",
+            "Shivnarine Chanderpaul",
+            "Mervyn Dillon",
+            "Wavell Hinds",
+            "Ryan Hinds"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Inzamam-ul-Haq",
+            "Younis Khan",
+            "Waqar Younis (c)",
+            "Shoaib Akhtar",
+            "Naved Latif",
+            "Rashid Latif (wk)",
+            "Mohammad Yousuf",
+            "Wasim Akram",
+            "Saqlain Mushtaq",
+            "Abdul Razzaq"
+        ]
+    }
 }

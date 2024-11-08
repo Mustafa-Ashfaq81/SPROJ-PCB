@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Louis van der Westhuizen",
-                    "dismissal": "c Selowa b Waiswa",
+                    "dismissal": "c (wk)Selowa b Waiswa",
                     "runs": "52",
                     "balls": "71",
                     "minutes": "118",
@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Stephan Baard(c)",
-                    "dismissal": "c Selowa b Waiswa",
+                    "dismissal": "c (wk)Selowa b Waiswa",
                     "runs": "27",
                     "balls": "22",
                     "minutes": "19",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Gerrie Snyman",
-                    "dismissal": "c Selowa b Waiswa",
+                    "dismissal": "c (wk)Selowa b Waiswa",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "10",
@@ -99,7 +99,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "JP Kotze",
+                    "batsman": "JP Kotze (wk)",
                     "dismissal": "b Waiswa",
                     "runs": "3",
                     "balls": "10",
@@ -237,7 +237,7 @@
             "batting": [
                 {
                     "batsman": "Hamza Saleh",
-                    "dismissal": "c Kotze b Klazinga",
+                    "dismissal": "c (wk)Kotze b Klazinga",
                     "runs": "7",
                     "balls": "6",
                     "minutes": "6",
@@ -266,7 +266,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Phillimon Selowa",
+                    "batsman": "Phillimon Selowa (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "41",
@@ -287,7 +287,7 @@
                 },
                 {
                     "batsman": "Richard Okia",
-                    "dismissal": "c Kotze b Burger",
+                    "dismissal": "c (wk)Kotze b Burger",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "23",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Namibia won by 100 runs"
+    "result": "Namibia won by 100 runs",
+    "playing_xi": {
+        "Namibia": [
+            "Nicolaas Scholtz",
+            "Sarel Burger",
+            "JJ Smit",
+            "Louis Klazinga",
+            "Craig Williams",
+            "Stephan Baard(c)",
+            "Bernard Scholtz",
+            "JP Kotze (wk)",
+            "Louis van der Westhuizen",
+            "Gerrie Snyman",
+            "Christi Viljoen"
+        ],
+        "Uganda": [
+            "Phillimon Selowa (wk)",
+            "Lepono Ndhlovu",
+            "Charles Waiswa",
+            "Frank Nsubuga",
+            "Roger Mukasa",
+            "Lawrence Sematimba",
+            "Richard Okia",
+            "Hamza Saleh",
+            "Davis Karashani(c)",
+            "Faruk Ochimi",
+            "Patrick Ochan"
+        ]
+    }
 }

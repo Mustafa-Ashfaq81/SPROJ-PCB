@@ -80,7 +80,7 @@
                     "strike_rate": "163.63"
                 },
                 {
-                    "batsman": "Sam Billings",
+                    "batsman": "Sam Billings (wk)",
                     "dismissal": "c KJ O'Brien b Dockrell",
                     "runs": "7",
                     "balls": "10",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "c NJ O'Brien b Chase",
+                    "dismissal": "c (wk)NJ O'Brien b Chase",
                     "runs": "39",
                     "balls": "25",
                     "minutes": "34",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Billings b Ball",
+                    "dismissal": "c (wk)Billings b Ball",
                     "runs": "48",
                     "balls": "42",
                     "minutes": "52",
@@ -247,7 +247,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Willey b Root",
                     "runs": "15",
                     "balls": "17",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "England won by 85 runs"
+    "result": "England won by 85 runs",
+    "playing_xi": {
+        "England": [
+            "Mark Wood",
+            "Liam Plunkett",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jake Ball",
+            "Alex Hales",
+            "Jonny Bairstow",
+            "David Willey",
+            "Sam Billings (wk)"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Peter Chase",
+            "Gary Wilson",
+            "Paul Stirling",
+            "Tim Murtagh",
+            "Barry McCarthy",
+            "Niall O'Brien (wk)",
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Kevin O'Brien",
+            "Andy Balbirnie"
+        ]
+    }
 }

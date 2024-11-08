@@ -30,7 +30,7 @@
             "extras": "33",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "lbw b Shakib Al Hasan",
                     "runs": "145",
                     "balls": "125",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Rashid Khan",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "5",
@@ -277,7 +277,7 @@
                     "strike_rate": "86.20"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Mujeeb Ur Rahman b Fazalhaq Farooqi",
                     "runs": "69",
                     "balls": "85",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 142 runs"
+    "result": "Afghanistan won by 142 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Mohammad Saleem",
+            "Hashmatullah Shahidi(c)",
+            "Rashid Khan",
+            "Azmatullah Omarzai",
+            "Mujeeb Ur Rahman",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Fazalhaq Farooqi",
+            "Ibrahim Zadran",
+            "Rahmanullah Gurbaz (wk)"
+        ],
+        "Bangladesh": [
+            "Litton Das(c)",
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Mohammad Naim",
+            "Mustafizur Rahman",
+            "Najmul Hossain Shanto",
+            "Mehidy Hasan Miraz",
+            "Afif Hossain",
+            "Ebadot Hossain",
+            "Hasan Mahmud",
+            "Towhid Hridoy"
+        ]
+    }
 }

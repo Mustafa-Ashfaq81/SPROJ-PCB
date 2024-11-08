@@ -49,7 +49,7 @@
                     "strike_rate": "43.75"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "not out",
                     "runs": "118",
                     "balls": "125",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "38",
                     "balls": "38",
                     "minutes": "48",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "st Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "18",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Raqibul Hasan",
-                    "dismissal": "st Taylor b Cremer",
+                    "dismissal": "st (wk)Taylor b Cremer",
                     "runs": "31",
                     "balls": "51",
                     "minutes": "71",
@@ -277,7 +277,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "st Taylor b Matsikenyeri",
+                    "dismissal": "st (wk)Taylor b Matsikenyeri",
                     "runs": "20",
                     "balls": "30",
                     "minutes": "66",
@@ -286,7 +286,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Cremer b Matsikenyeri",
                     "runs": "23",
                     "balls": "20",
@@ -436,5 +436,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 1 wicket (with 6 balls remaining)"
+    "result": "Bangladesh won by 1 wicket (with 6 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Stuart Matsikenyeri",
+            "Malcolm Waller",
+            "Forster Mutizwa",
+            "Brendan Taylor (wk)",
+            "Mark Vermeulen",
+            "Chris Mpofu",
+            "Hamilton Masakadza(c)",
+            "Ray Price",
+            "Chamu Chibhabha",
+            "Graeme Cremer"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Enamul Haque jnr",
+            "Mohammad Ashraful",
+            "Shakib Al Hasan(c)",
+            "Raqibul Hasan",
+            "Nazmul Hossain",
+            "Abdur Razzak",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ]
+    }
 }

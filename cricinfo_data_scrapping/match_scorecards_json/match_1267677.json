@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal(c)",
-                    "dismissal": "c Chakabva b Muzarabani",
+                    "dismissal": "c (wk)Chakabva b Muzarabani",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "9",
@@ -46,7 +46,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Litton Das",
+                    "batsman": "Litton Das (wk)",
                     "dismissal": "c sub (WP Masakadza) b Ngarava",
                     "runs": "102",
                     "balls": "114",
@@ -67,7 +67,7 @@
                 },
                 {
                     "batsman": "Mohammad Mithun",
-                    "dismissal": "c Chakabva b Chatara",
+                    "dismissal": "c (wk)Chakabva b Chatara",
                     "runs": "19",
                     "balls": "19",
                     "minutes": "24",
@@ -77,7 +77,7 @@
                 },
                 {
                     "batsman": "Mosaddek Hossain",
-                    "dismissal": "c Chakabva b Ngarava",
+                    "dismissal": "c (wk)Chakabva b Ngarava",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "22",
@@ -87,7 +87,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Chakabva b Jongwe",
+                    "dismissal": "c (wk)Chakabva b Jongwe",
                     "runs": "33",
                     "balls": "52",
                     "minutes": "79",
@@ -127,7 +127,7 @@
                 },
                 {
                     "batsman": "Taskin Ahmed",
-                    "dismissal": "run out (sub [WP Masakadza]/Chakabva)",
+                    "dismissal": "run out (sub [WP Masakadza]/ (wk)Chakabva)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "2",
@@ -283,7 +283,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Regis Chakabva",
+                    "batsman": "Regis Chakabva (wk)",
                     "dismissal": "c Mehidy Hasan Miraz b Shakib Al Hasan",
                     "runs": "54",
                     "balls": "51",
@@ -334,7 +334,7 @@
                 },
                 {
                     "batsman": "Richard Ngarava",
-                    "dismissal": "c sub (Nurul Hasan) b Shakib Al Hasan",
+                    "dismissal": "c sub ( (wk)Nurul Hasan) b Shakib Al Hasan",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "7",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 155 runs"
+    "result": "Bangladesh won by 155 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Litton Das (wk)",
+            "Taskin Ahmed",
+            "Afif Hossain",
+            "Tamim Iqbal(c)",
+            "Shakib Al Hasan",
+            "Mehidy Hasan Miraz",
+            "Mahmudullah",
+            "Mohammad Saifuddin",
+            "Shoriful Islam",
+            "Mosaddek Hossain",
+            "Mohammad Mithun"
+        ],
+        "Zimbabwe": [
+            "Dion Myers",
+            "Regis Chakabva (wk)",
+            "Richard Ngarava",
+            "Blessing Muzarabani",
+            "Tendai Chatara",
+            "Timycen Maruma",
+            "Brendan Taylor(c)",
+            "Wessly Madhevere",
+            "Tadiwanashe Marumani",
+            "Luke Jongwe",
+            "Ryan Burl"
+        ]
+    }
 }

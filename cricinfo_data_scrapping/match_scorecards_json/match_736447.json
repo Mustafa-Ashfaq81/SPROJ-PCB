@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla(c)",
-                    "dismissal": "st Taylor b Utseya",
+                    "dismissal": "st (wk)Taylor b Utseya",
                     "runs": "66",
                     "balls": "80",
                     "minutes": "102",
@@ -42,7 +42,7 @@
                     "strike_rate": "82.50"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Chatara b Utseya",
                     "runs": "76",
                     "balls": "76",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Aaron Phangiso",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "13",
                     "balls": "19",
                     "minutes": "32",
@@ -268,7 +268,7 @@
             "batting": [
                 {
                     "batsman": "Tino Mawoyo",
-                    "dismissal": "run out (Miller/de Kock)",
+                    "dismissal": "run out (Miller/ (wk)de Kock)",
                     "runs": "0",
                     "balls": "10",
                     "minutes": "11",
@@ -297,7 +297,7 @@
                     "strike_rate": "75.75"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b Phangiso",
                     "runs": "0",
                     "balls": "4",
@@ -338,7 +338,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya",
-                    "dismissal": "c de Kock b McLaren",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "17",
@@ -348,7 +348,7 @@
                 },
                 {
                     "batsman": "John Nyumbu",
-                    "dismissal": "c de Kock b McLaren",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -368,7 +368,7 @@
                 },
                 {
                     "batsman": "Brian Vitori",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "8",
@@ -467,5 +467,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 61 runs"
+    "result": "South Africa won by 61 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Hashim Amla(c)",
+            "Ryan McLaren",
+            "Dale Steyn",
+            "Aaron Phangiso",
+            "Imran Tahir",
+            "Kyle Abbott",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor (wk)",
+            "Tendai Chatara",
+            "Brian Vitori",
+            "Elton Chigumbura(c)",
+            "Prosper Utseya",
+            "John Nyumbu",
+            "Sean Williams",
+            "Hamilton Masakadza",
+            "Sikandar Raza",
+            "Malcolm Waller",
+            "Tino Mawoyo"
+        ]
+    }
 }

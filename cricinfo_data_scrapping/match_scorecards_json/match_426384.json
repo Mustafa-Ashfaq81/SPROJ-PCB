@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Wilson b Rankin",
+                    "dismissal": "c (wk)Wilson b Rankin",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "18",
@@ -39,7 +39,7 @@
                     "strike_rate": "86.66"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "c NJ O'Brien b KJ O'Brien",
                     "runs": "81",
                     "balls": "122",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "st Wilson b Cusack",
+                    "dismissal": "st (wk)Wilson b Cusack",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "5",
@@ -260,7 +260,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "lbw b Harris",
                     "runs": "4",
                     "balls": "6",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Niall O'Brien",
-                    "dismissal": "c Paine b Hauritz",
+                    "dismissal": "c (wk)Paine b Hauritz",
                     "runs": "15",
                     "balls": "27",
                     "minutes": "48",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien",
-                    "dismissal": "c Paine b Hopes",
+                    "dismissal": "c (wk)Paine b Hopes",
                     "runs": "5",
                     "balls": "20",
                     "minutes": "19",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "c Paine b Hopes",
+                    "dismissal": "c (wk)Paine b Hopes",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "4",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Australia won by 39 runs"
+    "result": "Australia won by 39 runs",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Doug Bollinger",
+            "Clint McKay",
+            "Ryan Harris",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Michael Clarke"
+        ],
+        "Ireland": [
+            "Gary Wilson (wk)",
+            "Niall O'Brien",
+            "Peter Connell",
+            "Trent Johnston",
+            "Paul Stirling",
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "Alex Cusack",
+            "John Mooney",
+            "Boyd Rankin",
+            "Andrew White"
+        ]
+    }
 }

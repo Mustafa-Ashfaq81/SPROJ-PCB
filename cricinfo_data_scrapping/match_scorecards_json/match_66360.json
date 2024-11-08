@@ -31,7 +31,7 @@
             "extras": "33",
             "batting": [
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "c Shabbir Ahmed b Shoaib Akhtar",
                     "runs": "1",
                     "balls": "5",
@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Rashid Latif b Mohammad Sami",
+                    "dismissal": "c (wk)Rashid Latif b Mohammad Sami",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "15",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu(c)",
-                    "dismissal": "c Rashid Latif b Shabbir Ahmed",
+                    "dismissal": "c (wk)Rashid Latif b Shabbir Ahmed",
                     "runs": "9",
                     "balls": "36",
                     "minutes": "56",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Rashid Latif b Abdul Razzaq",
+                    "dismissal": "c (wk)Rashid Latif b Abdul Razzaq",
                     "runs": "17",
                     "balls": "50",
                     "minutes": "73",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Rashid Latif b Shoaib Malik",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Malik",
                     "runs": "46",
                     "balls": "93",
                     "minutes": "110",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Kaushal Lokuarachchi",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "14",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "st Kaluwitharana b Jayasuriya",
+                    "dismissal": "st (wk)Kaluwitharana b Jayasuriya",
                     "runs": "26",
                     "balls": "47",
                     "minutes": "62",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Kaluwitharana b Muralidaran",
+                    "dismissal": "c (wk)Kaluwitharana b Muralidaran",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "26",
@@ -308,7 +308,7 @@
                     "strike_rate": "53.84"
                 },
                 {
-                    "batsman": "Rashid Latif(c)",
+                    "batsman": "Rashid Latif(c) (wk)",
                     "dismissal": "c Sangakkara b Lokuarachchi",
                     "runs": "20",
                     "balls": "21",
@@ -319,7 +319,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "st Kaluwitharana b Muralidaran",
+                    "dismissal": "st (wk)Kaluwitharana b Muralidaran",
                     "runs": "5",
                     "balls": "16",
                     "minutes": "13",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 12 runs"
+    "result": "Sri Lanka won by 12 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Romesh Kaluwitharana (wk)",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Kaushal Lokuarachchi",
+            "Chaminda Vaas",
+            "Prabath Nissanka",
+            "Kumar Dharmasena",
+            "Marvan Atapattu(c)",
+            "Kumar Sangakkara"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Mohammad Yousuf",
+            "Shabbir Ahmed",
+            "Mohammad Sami",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Rashid Latif(c) (wk)",
+            "Younis Khan",
+            "Faisal Iqbal",
+            "Taufeeq Umar",
+            "Shoaib Akhtar"
+        ]
+    }
 }

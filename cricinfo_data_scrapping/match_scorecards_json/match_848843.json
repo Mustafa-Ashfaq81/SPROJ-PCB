@@ -33,7 +33,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Morne van Wyk",
+                    "batsman": "Morne van Wyk (wk)",
                     "dismissal": "c McCullum b McClenaghan",
                     "runs": "16",
                     "balls": "22",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Farhaan Behardien",
-                    "dismissal": "run out (Ronchi/McClenaghan)",
+                    "dismissal": "run out ( (wk)Ronchi/McClenaghan)",
                     "runs": "15",
                     "balls": "10",
                     "minutes": "27",
@@ -234,7 +234,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Amla b Steyn",
                     "runs": "1",
                     "balls": "4",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "James Neesham",
-                    "dismissal": "c van Wyk b Wiese",
+                    "dismissal": "c (wk)van Wyk b Wiese",
                     "runs": "41",
                     "balls": "41",
                     "minutes": "55",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 20 runs"
+    "result": "South Africa won by 20 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Farhaan Behardien",
+            "AB de Villiers(c)",
+            "David Wiese",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Kagiso Rabada",
+            "Morne van Wyk (wk)",
+            "Imran Tahir",
+            "Vernon Philander",
+            "David Miller"
+        ],
+        "New Zealand": [
+            "Tom Latham",
+            "James Neesham",
+            "Kane Williamson(c)",
+            "Luke Ronchi (wk)",
+            "Grant Elliott",
+            "Martin Guptill",
+            "Nathan McCullum",
+            "Adam Milne",
+            "Mitchell McClenaghan",
+            "Ish Sodhi",
+            "Colin Munro"
+        ]
+    }
 }

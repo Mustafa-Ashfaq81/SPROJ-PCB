@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Will Young",
-                    "dismissal": "c Ikram Alikhil b Azmatullah Omarzai",
+                    "dismissal": "c (wk)Ikram Alikhil b Azmatullah Omarzai",
                     "runs": "54",
                     "balls": "64",
                     "minutes": "98",
@@ -71,7 +71,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "b Naveen-ul-Haq",
                     "runs": "68",
                     "balls": "74",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Azmatullah Omarzai",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "27",
                     "balls": "32",
                     "minutes": "39",
@@ -258,7 +258,7 @@
                     "strike_rate": "84.37"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "21",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 149 runs"
+    "result": "New Zealand won by 149 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Devon Conway",
+            "Daryl Mitchell",
+            "Tom Latham(c) (wk)",
+            "Matt Henry",
+            "Trent Boult",
+            "Mark Chapman",
+            "Will Young",
+            "Rachin Ravindra",
+            "Glenn Phillips",
+            "Lockie Ferguson"
+        ],
+        "Afghanistan": [
+            "Naveen-ul-Haq",
+            "Azmatullah Omarzai",
+            "Hashmatullah Shahidi(c)",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman",
+            "Rahmanullah Gurbaz",
+            "Rashid Khan",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi",
+            "Ikram Alikhil (wk)"
+        ]
+    }
 }

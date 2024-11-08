@@ -40,7 +40,7 @@
                     "strike_rate": "79.45"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Younis Khan b Shoaib Akhtar",
                     "runs": "36",
                     "balls": "31",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Marcus North",
-                    "dismissal": "st Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "26",
                     "balls": "43",
                     "minutes": "-",
@@ -217,7 +217,7 @@
                     "strike_rate": "72.97"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "116",
                     "balls": "115",
@@ -341,5 +341,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 18 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 18 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Callum Ferguson",
+            "Ben Laughlin",
+            "Shane Watson",
+            "Andrew Symonds",
+            "Michael Clarke(c)",
+            "Brad Haddin (wk)",
+            "Nathan Hauritz",
+            "James Hopes",
+            "Marcus North",
+            "Ben Hilfenhaus",
+            "Doug Bollinger"
+        ],
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Yasir Arafat",
+            "Shoaib Akhtar",
+            "Younis Khan(c)",
+            "Shoaib Malik",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Salman Butt",
+            "Misbah-ul-Haq",
+            "Shahid Afridi"
+        ]
+    }
 }

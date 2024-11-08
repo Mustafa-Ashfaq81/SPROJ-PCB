@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "c Read b Batty",
+                    "dismissal": "c (wk)Read b Batty",
                     "runs": "19",
                     "balls": "42",
                     "minutes": "52",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud(c)",
-                    "dismissal": "run out (Anderson/Read)",
+                    "dismissal": "run out (Anderson/ (wk)Read)",
                     "runs": "11",
                     "balls": "24",
                     "minutes": "21",
@@ -100,7 +100,7 @@
                     "strike_rate": "45.83"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "b Flintoff",
                     "runs": "16",
                     "balls": "36",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Vikram Solanki",
-                    "dismissal": "c Khaled Mashud b Mushfiqur Rahman",
+                    "dismissal": "c (wk)Khaled Mashud b Mushfiqur Rahman",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "10",
@@ -287,7 +287,7 @@
                     "strike_rate": "133.33"
                 }
             ],
-            "did_not_bat": "Rikki Clarke , Ian Blackwell , Chris Read , Gareth Batty , James Kirtley , James Anderson",
+            "did_not_bat": "Rikki Clarke , Ian Blackwell , Chris Read (wk) , Gareth Batty , James Kirtley , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 5 ( Vikram Solanki , 1.4 ov ) , 2 - 66 ( Michael Vaughan , 15.4 ov ) , 3 - 102 ( Marcus Trescothick , 24.3 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 63 balls remaining)"
+    "result": "England won by 7 wickets (with 63 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Khaled Mashud (wk)",
+            "Mushfiqur Rahman",
+            "Manzarul Islam",
+            "Moniruzzaman",
+            "Alok Kapali",
+            "Mohammad Rafique",
+            "Rajin Saleh",
+            "Khaled Mahmud(c)",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Hannan Sarkar"
+        ],
+        "England": [
+            "Vikram Solanki",
+            "Marcus Trescothick",
+            "James Anderson",
+            "Gareth Batty",
+            "Chris Read (wk)",
+            "Michael Vaughan(c)",
+            "Ian Blackwell",
+            "Paul Collingwood",
+            "Andrew Flintoff",
+            "James Kirtley",
+            "Rikki Clarke"
+        ]
+    }
 }

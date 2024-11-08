@@ -48,7 +48,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "c Amjad Ali b Guruge",
                     "runs": "67",
                     "balls": "107",
@@ -206,7 +206,7 @@
             "batting": [
                 {
                     "batsman": "Amjad Ali",
-                    "dismissal": "c Karim b Oluoch",
+                    "dismissal": "c (wk)Karim b Oluoch",
                     "runs": "16",
                     "balls": "23",
                     "minutes": "-",
@@ -245,7 +245,7 @@
                     "strike_rate": "95.55"
                 },
                 {
-                    "batsman": "Swapnil Patil",
+                    "batsman": "Swapnil Patil (wk)",
                     "dismissal": "c Obuya b NM Odhiambo",
                     "runs": "9",
                     "balls": "25",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Abdul Shakoor",
-                    "dismissal": "c Karim b SO Ngoche",
+                    "dismissal": "c (wk)Karim b SO Ngoche",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "-",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Ahmed Raza",
-                    "dismissal": "st Karim b JO Ngoche",
+                    "dismissal": "st (wk)Karim b JO Ngoche",
                     "runs": "23",
                     "balls": "38",
                     "minutes": "-",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 65 runs"
+    "result": "Kenya won by 65 runs",
+    "playing_xi": {
+        "Kenya": [
+            "Shem Ngoche",
+            "James Ngoche",
+            "Collins Obuya",
+            "Narendra Kalyan",
+            "Elijah Otieno",
+            "Morris Ouma",
+            "Nelson Odhiambo",
+            "Irfan Karim (wk)",
+            "Nehemiah Odhiambo",
+            "Rakep Patel(c)",
+            "Lucas Oluoch"
+        ],
+        "United Arab Emirates": [
+            "Swapnil Patil (wk)",
+            "Qais Farooq",
+            "Mohammad Shahzad",
+            "Shaiman Anwar",
+            "Manjula Guruge",
+            "Amjad Ali",
+            "Abdul Shakoor",
+            "Ahmed Raza",
+            "Mohammad Tauqir(c)",
+            "Mohammad Naveed",
+            "Amjad Javed"
+        ]
+    }
 }

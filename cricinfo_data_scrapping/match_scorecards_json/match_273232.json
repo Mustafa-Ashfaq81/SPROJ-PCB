@@ -49,8 +49,8 @@
                     "strike_rate": "87.50"
                 },
                 {
-                    "batsman": "Ashish Bagai",
-                    "dismissal": "c Smith b Wright",
+                    "batsman": "Ashish Bagai (wk)",
+                    "dismissal": "c (wk)Smith b Wright",
                     "runs": "13",
                     "balls": "30",
                     "minutes": "41",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Qaiser Ali",
-                    "dismissal": "c Smith b Wright",
+                    "dismissal": "c (wk)Smith b Wright",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "8",
@@ -237,7 +237,7 @@
             "batting": [
                 {
                     "batsman": "Navdeep Poonia",
-                    "dismissal": "c Bagai b Osinde",
+                    "dismissal": "c (wk)Bagai b Osinde",
                     "runs": "2",
                     "balls": "18",
                     "minutes": "21",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Fraser Watts",
-                    "dismissal": "c Bagai b Davison",
+                    "dismissal": "c (wk)Bagai b Davison",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "8",
@@ -296,7 +296,7 @@
                     "strike_rate": "63.15"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "c Samad b Dhaniram",
                     "runs": "0",
                     "balls": "5",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 2 wickets (with 16 balls remaining)"
+    "result": "Scotland won by 2 wickets (with 16 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "John Davison(c)",
+            "Ashish Bagai (wk)",
+            "Don Maxwell",
+            "Sunil Dhaniram",
+            "Abdool Samad",
+            "Kevin Sandher",
+            "Desmond Chumney",
+            "Anderson Cummins",
+            "Qaiser Ali",
+            "Ashif Mulla",
+            "Henry Osinde"
+        ],
+        "Scotland": [
+            "Gavin Hamilton",
+            "John Blain",
+            "Navdeep Poonia",
+            "Neil McCallum",
+            "Ryan Watson",
+            "Glenn Rogers",
+            "Paul Hoffmann",
+            "Colin Smith (wk)",
+            "Majid Haq",
+            "Fraser Watts",
+            "Craig Wright(c)"
+        ]
+    }
 }

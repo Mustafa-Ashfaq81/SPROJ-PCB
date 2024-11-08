@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Jesse Ryder",
-                    "dismissal": "c Dhoni b Mohammed Shami",
+                    "dismissal": "c (wk)Dhoni b Mohammed Shami",
                     "runs": "20",
                     "balls": "11",
                     "minutes": "21",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "77",
                     "balls": "87",
                     "minutes": "99",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Dhoni b Mohammed Shami",
+                    "dismissal": "c (wk)Dhoni b Mohammed Shami",
                     "runs": "57",
                     "balls": "56",
                     "minutes": "79",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "not out",
                     "runs": "18",
                     "balls": "10",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Ronchi b Southee",
+                    "dismissal": "c (wk)Ronchi b Southee",
                     "runs": "20",
                     "balls": "34",
                     "minutes": "42",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "36",
                     "balls": "42",
                     "minutes": "52",
@@ -271,7 +271,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Williamson b Anderson",
                     "runs": "56",
                     "balls": "44",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 15 runs (D/L method)"
+    "result": "New Zealand won by 15 runs (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Luke Ronchi (wk)",
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Martin Guptill",
+            "Brendon McCullum(c)",
+            "Kyle Mills",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Tim Southee",
+            "Nathan McCullum"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "Shikhar Dhawan",
+            "Ishant Sharma"
+        ]
+    }
 }

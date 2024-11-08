@@ -30,8 +30,8 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Anamul Haque",
-                    "dismissal": "c Chandimal b Prasad",
+                    "batsman": "Anamul Haque (wk)",
+                    "dismissal": "c (wk)Chandimal b Prasad",
                     "runs": "2",
                     "balls": "16",
                     "minutes": "26",
@@ -271,8 +271,8 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
-                    "dismissal": "c Anamul Haque b Rubel Hossain",
+                    "batsman": "Dinesh Chandimal (wk)",
+                    "dismissal": "c (wk)Anamul Haque b Rubel Hossain",
                     "runs": "64",
                     "balls": "70",
                     "minutes": "98",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 wickets (with 15 balls remaining)"
+    "result": "Sri Lanka won by 6 wickets (with 15 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Nasir Hossain",
+            "Naeem Islam",
+            "Rubel Hossain",
+            "Anamul Haque (wk)",
+            "Sohag Gazi",
+            "Mominul Haque",
+            "Shamsur Rahman",
+            "Mahmudullah",
+            "Mushfiqur Rahim(c)",
+            "Shafiul Islam",
+            "Arafat Sunny"
+        ],
+        "Sri Lanka": [
+            "Ashan Priyanjan",
+            "Suranga Lakmal",
+            "Sachithra Senanayake",
+            "Kusal Perera",
+            "Angelo Perera",
+            "Angelo Mathews(c)",
+            "Dhammika Prasad",
+            "Kithuruwan Vithanage",
+            "Lahiru Thirimanne",
+            "Thisara Perera",
+            "Dinesh Chandimal (wk)"
+        ]
+    }
 }

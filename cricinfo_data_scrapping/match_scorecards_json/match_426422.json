@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "32",
                     "balls": "43",
                     "minutes": "47",
@@ -103,7 +103,7 @@
                     "strike_rate": "200.00"
                 }
             ],
-            "did_not_bat": "Matt Prior , Ajmal Shahzad , Graeme Swann , Liam Plunkett",
+            "did_not_bat": "Matt Prior (wk) , Ajmal Shahzad , Graeme Swann , Liam Plunkett",
             "fall_of_wickets": "Fall of wickets : 1 - 59 ( Alastair Cook , 12.4 ov ) , 2 - 96 ( Kevin Pietersen , 22.3 ov ) , 3 - 170 ( Paul Collingwood , 38.2 ov ) , 4 - 237 ( Craig Kieswetter , 46.3 ov ) , 5 - 257 ( Eoin Morgan , 48.3 ov )",
             "bowling": [
                 {
@@ -225,7 +225,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Prior b Bresnan",
+                    "dismissal": "c (wk)Prior b Bresnan",
                     "runs": "17",
                     "balls": "30",
                     "minutes": "40",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "run out (Cook/Prior)",
+                    "dismissal": "run out (Cook/ (wk)Prior)",
                     "runs": "46",
                     "balls": "60",
                     "minutes": "80",
@@ -244,7 +244,7 @@
                     "strike_rate": "76.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Bresnan b Swann",
                     "runs": "40",
                     "balls": "43",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Shafiul Islam",
-                    "dismissal": "c Prior b Bresnan",
+                    "dismissal": "c (wk)Prior b Bresnan",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "England won by 45 runs"
+    "result": "England won by 45 runs",
+    "playing_xi": {
+        "England": [
+            "Ajmal Shahzad",
+            "Kevin Pietersen",
+            "Tim Bresnan",
+            "Paul Collingwood",
+            "Alastair Cook(c)",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Liam Plunkett",
+            "Craig Kieswetter",
+            "Matt Prior (wk)",
+            "Luke Wright"
+        ],
+        "Bangladesh": [
+            "Sohrawordi Shuvo",
+            "Rubel Hossain",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Shafiul Islam",
+            "Shakib Al Hasan(c)",
+            "Imrul Kayes",
+            "Aftab Ahmed",
+            "Abdur Razzak",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ]
+    }
 }

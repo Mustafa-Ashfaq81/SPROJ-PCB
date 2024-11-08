@@ -34,7 +34,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Tremain b Hastings",
                     "runs": "22",
                     "balls": "24",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Steven Smith(c)",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "14",
                     "balls": "12",
                     "minutes": "21",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "c de Kock b Parnell",
+                    "dismissal": "c (wk)de Kock b Parnell",
                     "runs": "19",
                     "balls": "19",
                     "minutes": "24",
@@ -271,7 +271,7 @@
                     "strike_rate": "113.33"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Duminy b Parnell",
                     "runs": "33",
                     "balls": "33",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 142 runs"
+    "result": "South Africa won by 142 runs",
+    "playing_xi": {
+        "South Africa": [
+            "David Miller",
+            "Rilee Rossouw",
+            "Wayne Parnell",
+            "Dale Steyn",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Andile Phehlukwayo",
+            "Farhaan Behardien",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis(c)",
+            "Kagiso Rabada"
+        ],
+        "Australia": [
+            "Chris Tremain",
+            "Steven Smith(c)",
+            "George Bailey",
+            "Aaron Finch",
+            "Matthew Wade (wk)",
+            "David Warner",
+            "Mitchell Marsh",
+            "Adam Zampa",
+            "Travis Head",
+            "John Hastings",
+            "Joe Mennie"
+        ]
+    }
 }

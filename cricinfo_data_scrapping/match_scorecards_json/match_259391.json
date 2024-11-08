@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Ashif Mulla",
-                    "dismissal": "c Smits b Jonkman",
+                    "dismissal": "c (wk)Smits b Jonkman",
                     "runs": "12",
                     "balls": "19",
                     "minutes": "16",
@@ -50,7 +50,7 @@
                     "strike_rate": "58.66"
                 },
                 {
-                    "batsman": "Ashish Bagai",
+                    "batsman": "Ashish Bagai (wk)",
                     "dismissal": "c van Bunge b de Leede",
                     "runs": "23",
                     "balls": "51",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Bas Zuiderent",
-                    "dismissal": "c Bagai b Bhatti",
+                    "dismissal": "c (wk)Bagai b Bhatti",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -317,7 +317,7 @@
                     "strike_rate": "114.70"
                 },
                 {
-                    "batsman": "Jeroen Smits",
+                    "batsman": "Jeroen Smits (wk)",
                     "dismissal": "lbw b Codrington",
                     "runs": "0",
                     "balls": "1",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 1 wicket (with 2 balls remaining) (D/L method)"
+    "result": "Netherlands won by 1 wicket (with 2 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Canada": [
+            "Abdool Samad",
+            "Sunil Dhaniram",
+            "George Codrington(c)",
+            "Ashif Mulla",
+            "Don Maxwell",
+            "Desmond Chumney",
+            "Ashish Bagai (wk)",
+            "Qaiser Ali",
+            "Kevin Sandher",
+            "Henry Osinde",
+            "Umar Bhatti"
+        ],
+        "Netherlands": [
+            "Tom de Grooth",
+            "Ryan ten Doeschate",
+            "Billy Stelling",
+            "Luuk van Troost(c)",
+            "Tim de Leede",
+            "Maurits van Nierop",
+            "Daan van Bunge",
+            "Peter Borren",
+            "Mark Jonkman",
+            "Bas Zuiderent",
+            "Jeroen Smits (wk)"
+        ]
+    }
 }

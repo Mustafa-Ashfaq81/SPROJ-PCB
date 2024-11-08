@@ -70,7 +70,7 @@
                     "strike_rate": "84.14"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "c Soumya Sarkar b Mustafizur Rahman",
                     "runs": "59",
                     "balls": "51",
@@ -208,7 +208,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Latham b Southee",
+                    "dismissal": "c (wk)Latham b Southee",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -217,7 +217,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Litton Das",
+                    "batsman": "Litton Das (wk)",
                     "dismissal": "lbw b Southee",
                     "runs": "1",
                     "balls": "4",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 88 runs"
+    "result": "New Zealand won by 88 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Lockie Ferguson",
+            "Tom Latham(c) (wk)",
+            "James Neesham",
+            "Martin Guptill",
+            "Trent Boult",
+            "Colin de Grandhomme",
+            "Mitchell Santner",
+            "Tim Southee",
+            "Ross Taylor",
+            "Colin Munro",
+            "Henry Nicholls"
+        ],
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Litton Das (wk)",
+            "Rubel Hossain",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Mohammad Saifuddin",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim",
+            "Sabbir Rahman"
+        ]
+    }
 }

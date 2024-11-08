@@ -40,7 +40,7 @@
                     "strike_rate": "78.68"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Mendis b Senanayake",
                     "runs": "128",
                     "balls": "127",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "run out (de Villiers/de Kock)",
+                    "dismissal": "run out (de Villiers/ (wk)de Kock)",
                     "runs": "30",
                     "balls": "24",
                     "minutes": "65",
@@ -217,8 +217,8 @@
                     "strike_rate": "125.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c de Kock b McLaren",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "36",
                     "balls": "23",
                     "minutes": "41",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Ashan Priyanjan",
-                    "dismissal": "c de Kock b McLaren",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "30",
                     "balls": "46",
                     "minutes": "72",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Rangana Herath",
-                    "dismissal": "c de Kock b Morkel",
+                    "dismissal": "c (wk)de Kock b Morkel",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "8",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 82 runs"
+    "result": "South Africa won by 82 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Jacques Kallis",
+            "Ryan McLaren",
+            "Dale Steyn",
+            "Morne Morkel",
+            "Imran Tahir",
+            "Wayne Parnell",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ],
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene",
+            "Lasith Malinga",
+            "Lahiru Thirimanne",
+            "Ajantha Mendis",
+            "Angelo Mathews(c)",
+            "Ashan Priyanjan",
+            "Rangana Herath"
+        ]
+    }
 }

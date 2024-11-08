@@ -31,8 +31,8 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c GO Jones b SP Jones",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)GO Jones b SP Jones",
                     "runs": "19",
                     "balls": "18",
                     "minutes": "13",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c GO Jones b Flintoff",
+                    "dismissal": "c (wk)GO Jones b Flintoff",
                     "runs": "34",
                     "balls": "40",
                     "minutes": "69",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c GO Jones b Harmison",
+                    "dismissal": "c (wk)GO Jones b Harmison",
                     "runs": "45",
                     "balls": "42",
                     "minutes": "76",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c GO Jones b Gough",
+                    "dismissal": "c (wk)GO Jones b Gough",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "8",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "c GO Jones b Gough",
+                    "dismissal": "c (wk)GO Jones b Gough",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "9",
@@ -268,7 +268,7 @@
                     "strike_rate": "-"
                 }
             ],
-            "did_not_bat": "Andrew Flintoff , Kevin Pietersen , Paul Collingwood , Geraint Jones , Ashley Giles , Darren Gough , Steve Harmison , Simon Jones",
+            "did_not_bat": "Andrew Flintoff , Kevin Pietersen , Paul Collingwood , Geraint Jones (wk) , Ashley Giles , Darren Gough , Steve Harmison , Simon Jones",
             "fall_of_wickets": "Fall of wickets : 1 - 37 ( Andrew Strauss , 5.6 ov )",
             "bowling": [
                 {
@@ -302,5 +302,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Michael Hussey"
+        ],
+        "England": [
+            "Andrew Flintoff",
+            "Darren Gough",
+            "Simon Jones",
+            "Steve Harmison",
+            "Michael Vaughan(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Ashley Giles",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Marcus Trescothick"
+        ]
+    }
 }

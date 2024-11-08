@@ -83,7 +83,7 @@
                     "strike_rate": "135.00"
                 },
                 {
-                    "batsman": "Wriddhiman Saha",
+                    "batsman": "Wriddhiman Saha (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "8",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Saha b Yadav",
+                    "dismissal": "c (wk)Saha b Yadav",
                     "runs": "18",
                     "balls": "22",
                     "minutes": "38",
@@ -248,8 +248,8 @@
                     "strike_rate": "81.81"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Saha b Sharma",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Saha b Sharma",
                     "runs": "13",
                     "balls": "13",
                     "minutes": "24",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Ashan Priyanjan",
-                    "dismissal": "c Saha b Sharma",
+                    "dismissal": "c (wk)Saha b Sharma",
                     "runs": "12",
                     "balls": "21",
                     "minutes": "25",
@@ -319,7 +319,7 @@
                 },
                 {
                     "batsman": "Dhammika Prasad",
-                    "dismissal": "c Saha b Sharma",
+                    "dismissal": "c (wk)Saha b Sharma",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "India won by 169 runs"
+    "result": "India won by 169 runs",
+    "playing_xi": {
+        "India": [
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Varun Aaron",
+            "Suresh Raina",
+            "Ishant Sharma",
+            "Ravichandran Ashwin",
+            "Umesh Yadav",
+            "Axar Patel",
+            "Wriddhiman Saha (wk)",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ],
+        "Sri Lanka": [
+            "Ashan Priyanjan",
+            "Suraj Randiv",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Seekkuge Prasanna",
+            "Thisara Perera",
+            "Dhammika Prasad",
+            "Lahiru Gamage",
+            "Angelo Mathews(c)",
+            "Upul Tharanga"
+        ]
+    }
 }

@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Nasser Hussain(c)",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "12",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Dravid b Kumble",
+                    "dismissal": "c (wk)Dravid b Kumble",
                     "runs": "34",
                     "balls": "47",
                     "minutes": "52",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Ian Blackwell",
-                    "dismissal": "run out (Sehwag/Dravid)",
+                    "dismissal": "run out (Sehwag/ (wk)Dravid)",
                     "runs": "82",
                     "balls": "68",
                     "minutes": "91",
@@ -91,7 +91,7 @@
                     "strike_rate": "120.58"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "c Ganguly b Tendulkar",
                     "runs": "35",
                     "balls": "44",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "run out (Shah/Stewart)",
+                    "dismissal": "run out (Shah/ (wk)Stewart)",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "11",
@@ -286,7 +286,7 @@
                     "strike_rate": "45.00"
                 }
             ],
-            "did_not_bat": "Rahul Dravid , Yuvraj Singh , Mohammad Kaif , Anil Kumble , Harbhajan Singh , Zaheer Khan , Ashish Nehra",
+            "did_not_bat": "Rahul Dravid (wk) , Yuvraj Singh , Mohammad Kaif , Anil Kumble , Harbhajan Singh , Zaheer Khan , Ashish Nehra",
             "fall_of_wickets": "Fall of wickets : 1 - 192 ( Virender Sehwag , 28.4 ov ) , 2 - 200 ( VVS Laxman , 31.2 ov )",
             "bowling": [
                 {
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 63 balls remaining)"
+    "result": "India won by 8 wickets (with 63 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Dominic Cork",
+            "Ronnie Irani",
+            "Andy Caddick",
+            "Marcus Trescothick",
+            "Nick Knight",
+            "Ian Blackwell",
+            "Matthew Hoggard",
+            "Alec Stewart (wk)",
+            "Nasser Hussain(c)",
+            "Owais Shah",
+            "Ashley Giles"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Ashish Nehra",
+            "VVS Laxman",
+            "Rahul Dravid (wk)",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)",
+            "Zaheer Khan",
+            "Harbhajan Singh",
+            "Mohammad Kaif"
+        ]
+    }
 }

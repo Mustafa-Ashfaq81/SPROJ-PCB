@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Karim Sadiq",
-                    "dismissal": "c Lockhart b Drummond",
+                    "dismissal": "c (wk)Lockhart b Drummond",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -52,7 +52,7 @@
                     "strike_rate": "78.12"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "b Parker",
                     "runs": "11",
                     "balls": "11",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Noor-ul-Haq",
-                    "dismissal": "c Lockhart b Lyons",
+                    "dismissal": "c (wk)Lockhart b Lyons",
                     "runs": "12",
                     "balls": "56",
                     "minutes": "72",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Hamid Hassan",
-                    "dismissal": "c Lockhart b Parker",
+                    "dismissal": "c (wk)Lockhart b Parker",
                     "runs": "1",
                     "balls": "12",
                     "minutes": "13",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Ryan Flannigan",
-                    "dismissal": "c Mohammad Shahzad b Shapoor Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Shapoor Zadran",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "10",
@@ -299,7 +299,7 @@
                     "strike_rate": "81.81"
                 }
             ],
-            "did_not_bat": "Dougie Lockhart , Majid Haq , Matthew Parker , Gordon Drummond (c) , Ross Lyons",
+            "did_not_bat": "Dougie Lockhart (wk) , Majid Haq , Matthew Parker , Gordon Drummond (c) , Ross Lyons",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Gavin Hamilton , 3.5 ov ) , 2 - 15 ( Ryan Flannigan , 6.2 ov ) , 3 - 47 ( Josh Davey , 16.4 ov ) , 4 - 107 ( Richie Berrington , 31.2 ov )",
             "bowling": [
                 {
@@ -375,5 +375,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 6 wickets (with 97 balls remaining)"
+    "result": "Scotland won by 6 wickets (with 97 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Nawroz Mangal(c)",
+            "Mohammad Nabi",
+            "Javed Ahmadi",
+            "Karim Sadiq",
+            "Mirwais Ashraf",
+            "Shapoor Zadran",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)",
+            "Samiullah Shinwari",
+            "Hamid Hassan",
+            "Noor-ul-Haq"
+        ],
+        "Scotland": [
+            "Fraser Watts",
+            "Gordon Drummond (c)",
+            "Moneeb Iqbal",
+            "Dougie Lockhart (wk)",
+            "Josh Davey",
+            "Ryan Flannigan",
+            "Matthew Parker",
+            "Richie Berrington",
+            "Gavin Hamilton",
+            "Majid Haq",
+            "Ross Lyons"
+        ]
+    }
 }

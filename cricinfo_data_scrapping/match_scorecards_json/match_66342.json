@@ -50,7 +50,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Dippenaar b Boje",
                     "runs": "40",
                     "balls": "54",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Aravinda de Silva",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "33",
                     "balls": "47",
                     "minutes": "55",
@@ -301,8 +301,8 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Sangakkara b Gunaratne",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Sangakkara b Gunaratne",
                     "runs": "70",
                     "balls": "65",
                     "minutes": "92",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 27 runs"
+    "result": "Sri Lanka won by 27 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Aravinda de Silva",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Pulasthi Gunaratne",
+            "Dilhara Fernando",
+            "Upul Chandana",
+            "Sanath Jayasuriya(c)"
+        ],
+        "South Africa": [
+            "Graeme Smith",
+            "Boeta Dippenaar",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Roger Telemachus",
+            "Lance Klusener",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Jonty Rhodes",
+            "Allan Donald"
+        ]
+    }
 }

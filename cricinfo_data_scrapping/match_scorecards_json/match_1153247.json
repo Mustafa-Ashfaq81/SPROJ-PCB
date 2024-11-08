@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                     "strike_rate": "64.17"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "c sub (MK Pandey) b Jadhav",
                     "runs": "6",
                     "balls": "12",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Asif Ali",
-                    "dismissal": "c Dhoni b Jadhav",
+                    "dismissal": "c (wk)Dhoni b Jadhav",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "-",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Shadab Khan",
-                    "dismissal": "st Dhoni b Jadhav",
+                    "dismissal": "st (wk)Dhoni b Jadhav",
                     "runs": "8",
                     "balls": "19",
                     "minutes": "-",
@@ -292,7 +292,7 @@
                     "strike_rate": "83.78"
                 }
             ],
-            "did_not_bat": "MS Dhoni , Kedar Jadhav , Hardik Pandya , Bhuvneshwar Kumar , Kuldeep Yadav , Yuzvendra Chahal , Jasprit Bumrah",
+            "did_not_bat": "MS Dhoni (wk) , Kedar Jadhav , Hardik Pandya , Bhuvneshwar Kumar , Kuldeep Yadav , Yuzvendra Chahal , Jasprit Bumrah",
             "fall_of_wickets": "Fall of wickets : 1 - 86 ( Rohit Sharma , 13.1 ov ) , 2 - 104 ( Shikhar Dhawan , 16.3 ov )",
             "bowling": [
                 {
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 126 balls remaining)"
+    "result": "India won by 8 wickets (with 126 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Hasan Ali",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Asif Ali",
+            "Mohammad Amir",
+            "Faheem Ashraf",
+            "Imam-ul-Haq",
+            "Babar Azam",
+            "Shoaib Malik",
+            "Shadab Khan",
+            "Fakhar Zaman",
+            "Usman Shinwari"
+        ],
+        "India": [
+            "Dinesh Karthik",
+            "Kuldeep Yadav",
+            "Jasprit Bumrah",
+            "Rohit Sharma(c)",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Kedar Jadhav",
+            "Hardik Pandya",
+            "MS Dhoni (wk)",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ]
+    }
 }

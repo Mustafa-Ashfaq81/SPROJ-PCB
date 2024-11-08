@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Vikram Solanki",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "18",
                     "balls": "26",
                     "minutes": "33",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "run out (Maharoof/Sangakkara)",
+                    "dismissal": "run out (Maharoof/ (wk)Sangakkara)",
                     "runs": "7",
                     "balls": "22",
                     "minutes": "30",
@@ -91,7 +91,7 @@
                     "strike_rate": "79.59"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "2",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Alex Wharf",
-                    "dismissal": "run out (Sangakkara/Vaas)",
+                    "dismissal": "run out ( (wk)Sangakkara/Vaas)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -233,7 +233,7 @@
             "batting": [
                 {
                     "batsman": "Avishka Gunawardene",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "5",
                     "balls": "16",
                     "minutes": "13",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu(c)",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "6",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Saman Jayantha",
-                    "dismissal": "c Jones b Flintoff",
+                    "dismissal": "c (wk)Jones b Flintoff",
                     "runs": "23",
                     "balls": "38",
                     "minutes": "64",
@@ -272,7 +272,7 @@
                     "strike_rate": "60.52"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "17",
                     "balls": "40",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "England won by 49 runs (D/L method)"
+    "result": "England won by 49 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Steve Harmison",
+            "Andrew Strauss",
+            "Vikram Solanki",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Michael Vaughan(c)",
+            "Ashley Giles",
+            "Andrew Flintoff",
+            "Alex Wharf",
+            "Darren Gough",
+            "Geraint Jones (wk)"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Nuwan Zoysa",
+            "Sanath Jayasuriya",
+            "Avishka Gunawardene",
+            "Marvan Atapattu(c)",
+            "Mahela Jayawardene",
+            "Saman Jayantha",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Upul Chandana"
+        ]
+    }
 }

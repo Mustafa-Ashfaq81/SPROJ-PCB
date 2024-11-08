@@ -63,7 +63,7 @@
                     "strike_rate": "210.71"
                 },
                 {
-                    "batsman": "Brendon McCullum(c)",
+                    "batsman": "Brendon McCullum(c) (wk)",
                     "dismissal": "c SW Masakadza b Utseya",
                     "runs": "20",
                     "balls": "18",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor(c)",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "10",
@@ -250,7 +250,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Nethula b Nicol",
                     "runs": "50",
                     "balls": "76",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Malcolm Waller",
-                    "dismissal": "c McCullum b Oram",
+                    "dismissal": "c (wk)McCullum b Oram",
                     "runs": "18",
                     "balls": "23",
                     "minutes": "25",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 141 runs"
+    "result": "New Zealand won by 141 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Martin Guptill",
+            "Tim Southee",
+            "Kyle Mills",
+            "Brendon McCullum(c) (wk)",
+            "Kane Williamson",
+            "Tom Latham",
+            "Dean Brownlie",
+            "Tarun Nethula",
+            "Rob Nicol",
+            "Jacob Oram",
+            "Andrew Ellis"
+        ],
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Malcolm Waller",
+            "Regis Chakabva",
+            "Ray Price",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Shingi Masakadza",
+            "Kyle Jarvis",
+            "Brendan Taylor(c)",
+            "Stuart Matsikenyeri"
+        ]
+    }
 }

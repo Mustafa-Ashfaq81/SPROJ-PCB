@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Hamish Marshall",
-                    "dismissal": "st Khaled Mashud b Manjural Islam Rana",
+                    "dismissal": "st (wk)Khaled Mashud b Manjural Islam Rana",
                     "runs": "7",
                     "balls": "21",
                     "minutes": "43",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Khaled Mashud b Tapash Baisya",
+                    "dismissal": "c (wk)Khaled Mashud b Tapash Baisya",
                     "runs": "17",
                     "balls": "22",
                     "minutes": "30",
@@ -83,7 +83,7 @@
                     "strike_rate": "77.27"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Mohammad Rafique",
                     "runs": "8",
                     "balls": "26",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "11",
@@ -300,7 +300,7 @@
                     "strike_rate": "27.65"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "lbw b Styris",
                     "runs": "2",
                     "balls": "6",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud",
-                    "dismissal": "st McCullum b Vettori",
+                    "dismissal": "st (wk)McCullum b Vettori",
                     "runs": "14",
                     "balls": "28",
                     "minutes": "37",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 138 runs"
+    "result": "New Zealand won by 138 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Scott Styris",
+            "Chris Cairns",
+            "Nathan Astle",
+            "Chris Harris",
+            "Brendon McCullum (wk)",
+            "Daniel Vettori(c)",
+            "Craig McMillan",
+            "Andre Adams",
+            "Kyle Mills",
+            "Hamish Marshall",
+            "Peter Fulton"
+        ],
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Javed Omer",
+            "Khaled Mahmud",
+            "Manzarul Islam",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Habibul Bashar(c)",
+            "Nazmul Hossain",
+            "Mohammad Rafique"
+        ]
+    }
 }

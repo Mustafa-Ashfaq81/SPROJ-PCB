@@ -32,7 +32,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Cooper b Kingma",
                     "runs": "8",
                     "balls": "19",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Heinrich Klaasen",
-                    "dismissal": "c Edwards b Shariz Ahmad",
+                    "dismissal": "c (wk)Edwards b Shariz Ahmad",
                     "runs": "28",
                     "balls": "21",
                     "minutes": "33",
@@ -279,7 +279,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "lbw b Markram",
                     "runs": "42",
                     "balls": "33",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 146 runs"
+    "result": "South Africa won by 146 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "David Miller",
+            "Heinrich Klaasen",
+            "Aiden Markram",
+            "Lungi Ngidi",
+            "Temba Bavuma(c)",
+            "Anrich Nortje",
+            "Marco Jansen",
+            "Tabraiz Shamsi",
+            "Rassie van der Dussen",
+            "Sisanda Magala"
+        ],
+        "Netherlands": [
+            "Wesley Barresi",
+            "Vikramjit Singh",
+            "Scott Edwards(c) (wk)",
+            "Tom Cooper",
+            "Fred Klaassen",
+            "Aryan Dutt",
+            "Musa Ahmad",
+            "Max O'Dowd",
+            "Paul van Meekeren",
+            "Shariz Ahmad",
+            "Vivian Kingma"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tom Latham",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Amir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Amir",
                     "runs": "11",
                     "balls": "15",
                     "minutes": "28",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Corey Anderson",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Amir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Amir",
                     "runs": "10",
                     "balls": "19",
                     "minutes": "23",
@@ -90,8 +90,8 @@
                     "strike_rate": "52.63"
                 },
                 {
-                    "batsman": "Luke Ronchi",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Amir",
+                    "batsman": "Luke Ronchi (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Amir",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "7",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Mitchell Santner",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Irfan",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Irfan",
                     "runs": "48",
                     "balls": "63",
                     "minutes": "62",
@@ -287,7 +287,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Anderson b Boult",
                     "runs": "30",
                     "balls": "29",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Imad Wasim",
-                    "dismissal": "c Ronchi b Santner",
+                    "dismissal": "c (wk)Ronchi b Santner",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "4",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 70 runs"
+    "result": "New Zealand won by 70 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Grant Elliott",
+            "Mitchell McClenaghan",
+            "Martin Guptill",
+            "Trent Boult",
+            "Corey Anderson",
+            "Kane Williamson(c)",
+            "Mitchell Santner",
+            "Luke Ronchi (wk)",
+            "Tom Latham",
+            "Matt Henry",
+            "Henry Nicholls"
+        ],
+        "Pakistan": [
+            "Sohaib Maqsood",
+            "Ahmed Shehzad",
+            "Wahab Riaz",
+            "Anwar Ali",
+            "Sarfaraz Ahmed (wk)",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Babar Azam",
+            "Imad Wasim",
+            "Mohammad Amir",
+            "Azhar Ali(c)"
+        ]
+    }
 }

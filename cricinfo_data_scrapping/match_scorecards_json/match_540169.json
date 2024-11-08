@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c Baugh b Narine",
+                    "dismissal": "c (wk)Baugh b Narine",
                     "runs": "24",
                     "balls": "52",
                     "minutes": "67",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Dan Christian",
-                    "dismissal": "run out (Narine/Baugh)",
+                    "dismissal": "run out (Narine/ (wk)Baugh)",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "15",
@@ -100,7 +100,7 @@
                     "strike_rate": "54.54"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Roach b Narine",
                     "runs": "3",
                     "balls": "10",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Clint McKay",
-                    "dismissal": "st Baugh b Narine",
+                    "dismissal": "st (wk)Baugh b Narine",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "7",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "run out (Wade)",
+                    "dismissal": "run out ( (wk)Wade)",
                     "runs": "30",
                     "balls": "49",
                     "minutes": "75",
@@ -311,7 +311,7 @@
                     "strike_rate": "77.04"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "not out",
                     "runs": "18",
                     "balls": "17",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 5 wickets (with 10 balls remaining) (D/L method)"
+    "result": "West Indies won by 5 wickets (with 10 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Peter Forrest",
+            "Brett Lee",
+            "Shane Watson(c)",
+            "David Warner",
+            "Dan Christian",
+            "George Bailey",
+            "Michael Hussey"
+        ],
+        "West Indies": [
+            "Johnson Charles",
+            "Marlon Samuels",
+            "Daren Sammy (c)",
+            "Kieron Pollard",
+            "Carlton Baugh (wk)",
+            "Andre Russell",
+            "Darren Bravo",
+            "Kieran Powell",
+            "Dwayne Bravo",
+            "Sunil Narine",
+            "Kemar Roach"
+        ]
+    }
 }

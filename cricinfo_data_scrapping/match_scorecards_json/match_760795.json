@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "9",
                     "balls": "14",
                     "minutes": "21",
@@ -64,7 +64,7 @@
                     "strike_rate": "72.54"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "b Shakib Al Hasan",
                     "runs": "9",
                     "balls": "11",
@@ -277,8 +277,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Taylor b Chatara",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "11",
                     "balls": "23",
                     "minutes": "31",
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 5 wickets (with 153 balls remaining)"
+    "result": "Bangladesh won by 5 wickets (with 153 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura(c)",
+            "Brendan Taylor (wk)",
+            "Tendai Chatara",
+            "Vusi Sibanda",
+            "Tafadzwa Kamungozi",
+            "Tinashe Panyangara",
+            "Timycen Maruma",
+            "Hamilton Masakadza",
+            "Solomon Mire",
+            "Sikandar Raza",
+            "John Nyumbu"
+        ],
+        "Bangladesh": [
+            "Abul Hasan",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza (c)",
+            "Mahmudullah",
+            "Taijul Islam",
+            "Tamim Iqbal",
+            "Jubair Hossain",
+            "Soumya Sarkar",
+            "Anamul Haque",
+            "Sabbir Rahman",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "37",
@@ -60,7 +60,7 @@
                     "strike_rate": "80.30"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "c Jordan b Woakes",
                     "runs": "62",
                     "balls": "77",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "c Buttler b Jordan",
+                    "dismissal": "c (wk)Buttler b Jordan",
                     "runs": "56",
                     "balls": "67",
                     "minutes": "93",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Dasun Shanaka",
-                    "dismissal": "run out (Root/Buttler)",
+                    "dismissal": "run out (Root/ (wk)Buttler)",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "9",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Alex Hales",
-                    "dismissal": "c Chandimal b Lakmal",
+                    "dismissal": "c (wk)Chandimal b Lakmal",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -253,7 +253,7 @@
                     "strike_rate": "68.75"
                 }
             ],
-            "did_not_bat": "Eoin Morgan (c) , Jonny Bairstow , Jos Buttler , Chris Woakes , Chris Jordan , David Willey , Liam Plunkett , Adil Rashid",
+            "did_not_bat": "Eoin Morgan (c) , Jonny Bairstow , Jos Buttler (wk) , Chris Woakes , Chris Jordan , David Willey , Liam Plunkett , Adil Rashid",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Alex Hales , 0.3 ov )",
             "bowling": [
                 {
@@ -287,5 +287,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Farveez Maharoof",
+            "Danushka Gunathilaka",
+            "Dinesh Chandimal (wk)",
+            "Suranga Lakmal",
+            "Kusal Mendis",
+            "Seekkuge Prasanna",
+            "Nuwan Pradeep",
+            "Angelo Mathews(c)",
+            "Dasun Shanaka",
+            "Kusal Perera",
+            "Upul Tharanga"
+        ],
+        "England": [
+            "Jason Roy",
+            "Adil Rashid",
+            "Chris Woakes",
+            "David Willey",
+            "Alex Hales",
+            "Joe Root",
+            "Eoin Morgan (c)",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Chris Jordan"
+        ]
+    }
 }

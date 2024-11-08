@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Umar Amin",
-                    "dismissal": "c de Villiers b McLaren",
+                    "dismissal": "c (wk)de Villiers b McLaren",
                     "runs": "14",
                     "balls": "25",
                     "minutes": "45",
@@ -80,7 +80,7 @@
                     "strike_rate": "56.00"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c Ingram b Morkel",
                     "runs": "18",
                     "balls": "32",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Sohail Tanvir",
-                    "dismissal": "run out (Smith/de Villiers)",
+                    "dismissal": "run out (Smith/ (wk)de Villiers)",
                     "runs": "9",
                     "balls": "24",
                     "minutes": "21",
@@ -267,8 +267,8 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Umar Akmal b Shahid Afridi",
+                    "batsman": "AB de Villiers(c) (wk)",
+                    "dismissal": "c (wk)Umar Akmal b Shahid Afridi",
                     "runs": "10",
                     "balls": "21",
                     "minutes": "46",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Wayne Parnell",
-                    "dismissal": "c Umar Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Umar Akmal b Mohammad Irfan",
                     "runs": "21",
                     "balls": "22",
                     "minutes": "32",
@@ -338,7 +338,7 @@
                 },
                 {
                     "batsman": "Imran Tahir",
-                    "dismissal": "st Umar Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Umar Akmal b Shahid Afridi",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "13",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 66 runs"
+    "result": "Pakistan won by 66 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Ahmed Shehzad",
+            "Wahab Riaz",
+            "Mohammad Irfan",
+            "Saeed Ajmal",
+            "Shahid Afridi",
+            "Misbah-ul-Haq(c)",
+            "Umar Akmal (wk)",
+            "Sohail Tanvir",
+            "Umar Amin",
+            "Nasir Jamshed",
+            "Mohammad Hafeez"
+        ],
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Colin Ingram",
+            "Graeme Smith",
+            "Ryan McLaren",
+            "Wayne Parnell",
+            "AB de Villiers(c) (wk)",
+            "Jean-Paul Duminy",
+            "Faf du Plessis",
+            "David Miller",
+            "Morne Morkel",
+            "Imran Tahir"
+        ]
+    }
 }

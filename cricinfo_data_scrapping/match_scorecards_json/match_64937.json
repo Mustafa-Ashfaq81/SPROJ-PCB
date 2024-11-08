@@ -30,7 +30,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Cumming b Canning",
                     "runs": "91",
                     "balls": "61",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Simon Katich",
-                    "dismissal": "c McCullum b Hamilton",
+                    "dismissal": "c (wk)McCullum b Hamilton",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "25",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "35",
                     "balls": "46",
                     "minutes": "60",
@@ -247,7 +247,7 @@
                     "strike_rate": "91.30"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c McGrath b Symonds",
                     "runs": "36",
                     "balls": "60",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Australia won by 122 runs"
+    "result": "Australia won by 122 runs",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Simon Katich",
+            "Ricky Ponting(c)",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Michael Hussey",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ],
+        "New Zealand": [
+            "Chris Cairns",
+            "Daniel Vettori",
+            "Tama Canning",
+            "Stephen Fleming(c)",
+            "James Marshall",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Lance Hamilton",
+            "Kyle Mills",
+            "Craig Cumming",
+            "Hamish Marshall"
+        ]
+    }
 }

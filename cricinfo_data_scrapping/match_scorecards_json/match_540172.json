@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "David Hussey",
-                    "dismissal": "c Baugh b Russell",
+                    "dismissal": "c (wk)Baugh b Russell",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -100,7 +100,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c DM Bravo b Roach",
                     "runs": "26",
                     "balls": "17",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Wade b Lee",
+                    "dismissal": "c (wk)Wade b Lee",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "5",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Wade b McKay",
+                    "dismissal": "c (wk)Wade b McKay",
                     "runs": "3",
                     "balls": "21",
                     "minutes": "42",
@@ -297,7 +297,7 @@
                     "strike_rate": "82.50"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "c Hilfenhaus b Lee",
                     "runs": "13",
                     "balls": "20",
@@ -328,7 +328,7 @@
                 },
                 {
                     "batsman": "Sunil Narine",
-                    "dismissal": "c Wade b McKay",
+                    "dismissal": "c (wk)Wade b McKay",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "11",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Australia won by 30 runs"
+    "result": "Australia won by 30 runs",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Peter Forrest",
+            "Brett Lee",
+            "Shane Watson(c)",
+            "Ben Hilfenhaus",
+            "David Warner",
+            "George Bailey",
+            "Michael Hussey"
+        ],
+        "West Indies": [
+            "Johnson Charles",
+            "Marlon Samuels",
+            "Daren Sammy(c)",
+            "Adrian Barath",
+            "Kieron Pollard",
+            "Carlton Baugh (wk)",
+            "Andre Russell",
+            "Darren Bravo",
+            "Dwayne Bravo",
+            "Sunil Narine",
+            "Kemar Roach"
+        ]
+    }
 }

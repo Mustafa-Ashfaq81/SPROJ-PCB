@@ -40,7 +40,7 @@
                     "strike_rate": "51.75"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Mohammad Sami",
                     "runs": "10",
                     "balls": "30",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Darren Lehmann",
-                    "dismissal": "c Moin Khan b Shabbir Ahmed",
+                    "dismissal": "c (wk)Moin Khan b Shabbir Ahmed",
                     "runs": "40",
                     "balls": "66",
                     "minutes": "90",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "run out (Moin Khan)",
+                    "dismissal": "run out ( (wk)Moin Khan)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "1",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c Haddin b Symonds",
+                    "dismissal": "c (wk)Haddin b Symonds",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "12",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Haddin b Hogg",
+                    "dismissal": "c (wk)Haddin b Hogg",
                     "runs": "43",
                     "balls": "57",
                     "minutes": "69",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "run out (Symonds/Haddin)",
+                    "dismissal": "run out (Symonds/ (wk)Haddin)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "1",
@@ -277,8 +277,8 @@
                     "strike_rate": "78.78"
                 },
                 {
-                    "batsman": "Moin Khan",
-                    "dismissal": "c Haddin b Gillespie",
+                    "batsman": "Moin Khan (wk)",
+                    "dismissal": "c (wk)Haddin b Gillespie",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "24",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "c Haddin b McGrath",
+                    "dismissal": "c (wk)Haddin b McGrath",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "8",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 17 runs"
+    "result": "Australia won by 17 runs",
+    "playing_xi": {
+        "Australia": [
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Brad Hogg",
+            "Andrew Symonds",
+            "Ricky Ponting(c)",
+            "Brad Haddin (wk)",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Michael Clarke",
+            "Darren Lehmann"
+        ],
+        "Pakistan": [
+            "Yasir Hameed",
+            "Shahid Afridi",
+            "Mohammad Yousuf",
+            "Shabbir Ahmed",
+            "Moin Khan (wk)",
+            "Imran Farhat",
+            "Mohammad Sami",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Shoaib Akhtar"
+        ]
+    }
 }

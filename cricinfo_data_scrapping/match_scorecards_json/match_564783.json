@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "8",
                     "balls": "20",
                     "minutes": "24",
@@ -50,7 +50,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Kohli b Dinda",
                     "runs": "73",
                     "balls": "95",
@@ -241,7 +241,7 @@
                     "strike_rate": "58.46"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Malinga",
                     "runs": "31",
                     "balls": "49",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 2 balls remaining)"
+    "result": "India won by 5 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Isuru Udana",
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Jeevan Mendis",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Angelo Mathews"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "Ashok Dinda",
+            "Irfan Pathan",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "Rahul Sharma",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Latham b de Grandhomme",
+                    "dismissal": "c (wk)Latham b de Grandhomme",
                     "runs": "64",
                     "balls": "68",
                     "minutes": "98",
@@ -61,8 +61,8 @@
                     "strike_rate": "94.11"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "run out (Guptill/Latham)",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "run out (Guptill/ (wk)Latham)",
                     "runs": "19",
                     "balls": "35",
                     "minutes": "48",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Mehidy Hasan Miraz",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "7",
                     "balls": "9",
                     "minutes": "9",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Mushfiqur Rahim b Mosaddek Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mosaddek Hossain",
                     "runs": "82",
                     "balls": "91",
                     "minutes": "122",
@@ -278,7 +278,7 @@
                     "strike_rate": "90.10"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Mohammad Saifuddin b Mehidy Hasan Miraz",
                     "runs": "0",
                     "balls": "4",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Colin de Grandhomme",
-                    "dismissal": "c Mushfiqur Rahim b Mohammad Saifuddin",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mohammad Saifuddin",
                     "runs": "15",
                     "balls": "13",
                     "minutes": "23",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 2 wickets (with 17 balls remaining)"
+    "result": "New Zealand won by 2 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mohammad Mithun",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Mohammad Saifuddin",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain"
+        ],
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "Lockie Ferguson",
+            "James Neesham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Matt Henry",
+            "Colin de Grandhomme",
+            "Mitchell Santner",
+            "Ross Taylor",
+            "Colin Munro"
+        ]
+    }
 }

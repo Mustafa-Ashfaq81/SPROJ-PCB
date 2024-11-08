@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Haddin b Hopes",
+                    "dismissal": "c (wk)Haddin b Hopes",
                     "runs": "20",
                     "balls": "30",
                     "minutes": "44",
@@ -83,7 +83,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "29",
                     "balls": "25",
@@ -200,7 +200,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Parnell b Botha",
                     "runs": "78",
                     "balls": "61",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Callum Ferguson",
-                    "dismissal": "st Boucher b van der Merwe",
+                    "dismissal": "st (wk)Boucher b van der Merwe",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "6",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 61 runs"
+    "result": "South Africa won by 61 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Johan Botha",
+            "Dale Steyn",
+            "Jacques Kallis",
+            "Wayne Parnell",
+            "Jean-Paul Duminy",
+            "Herschelle Gibbs",
+            "Roelof van der Merwe",
+            "Graeme Smith(c)",
+            "AB de Villiers"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Brad Haddin (wk)",
+            "Shane Harwood",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Nathan Hauritz",
+            "David Hussey",
+            "Nathan Bracken"
+        ]
+    }
 }

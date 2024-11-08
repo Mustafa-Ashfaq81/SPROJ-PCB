@@ -50,7 +50,7 @@
                     "strike_rate": "92.00"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Rahane b Mohammed Shami",
                     "runs": "51",
                     "balls": "98",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Rovman Powell",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "31",
                     "balls": "32",
                     "minutes": "-",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Devendra Bishoo",
-                    "dismissal": "c Dhoni b Mohammed Shami",
+                    "dismissal": "c (wk)Dhoni b Mohammed Shami",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "-",
@@ -277,7 +277,7 @@
                     "strike_rate": "96.15"
                 }
             ],
-            "did_not_bat": "MS Dhoni , Kedar Jadhav , Hardik Pandya , Ravindra Jadeja , Kuldeep Yadav , Umesh Yadav , Mohammed Shami",
+            "did_not_bat": "MS Dhoni (wk) , Kedar Jadhav , Hardik Pandya , Ravindra Jadeja , Kuldeep Yadav , Umesh Yadav , Mohammed Shami",
             "fall_of_wickets": "Fall of wickets : 1 - 5 ( Shikhar Dhawan , 0.6 ov ) , 2 - 84 ( Ajinkya Rahane , 18.5 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 79 balls remaining)"
+    "result": "India won by 8 wickets (with 79 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Shai Hope (wk)",
+            "Evin Lewis",
+            "Roston Chase",
+            "Jason Holder(c)",
+            "Rovman Powell",
+            "Kyle Hope",
+            "Ashley Nurse",
+            "Devendra Bishoo",
+            "Jason Mohammed",
+            "Alzarri Joseph",
+            "Kesrick Williams"
+        ],
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Mohammed Shami",
+            "Umesh Yadav",
+            "Virat Kohli(c)",
+            "Shikhar Dhawan",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Dinesh Karthik",
+            "Hardik Pandya"
+        ]
+    }
 }

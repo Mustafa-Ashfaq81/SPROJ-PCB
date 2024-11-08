@@ -51,7 +51,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "lbw b McGrath",
                     "runs": "0",
                     "balls": "4",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "st Gilchrist b Hogg",
+                    "dismissal": "st (wk)Gilchrist b Hogg",
                     "runs": "72",
                     "balls": "88",
                     "minutes": "133",
@@ -238,7 +238,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "lbw b Arnold",
                     "runs": "30",
                     "balls": "49",
@@ -392,5 +392,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 44 balls remaining)"
+    "result": "Australia won by 7 wickets (with 44 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Malinga Bandara",
+            "Russel Arnold",
+            "Nuwan Kulasekara",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Farveez Maharoof",
+            "Upul Tharanga",
+            "Dilhara Fernando",
+            "Chamara Silva"
+        ],
+        "Australia": [
+            "Glenn McGrath",
+            "Shaun Tait",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brad Hodge",
+            "Nathan Bracken",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ]
+    }
 }

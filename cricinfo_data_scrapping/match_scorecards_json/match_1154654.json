@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Cameron McAuslan",
-                    "dismissal": "c Abdul Shakoor b Imran Haider",
+                    "dismissal": "c (wk)Abdul Shakoor b Imran Haider",
                     "runs": "13",
                     "balls": "33",
                     "minutes": "-",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Babar Hayat",
-                    "dismissal": "c Abdul Shakoor b Imran Haider",
+                    "dismissal": "c (wk)Abdul Shakoor b Imran Haider",
                     "runs": "107",
                     "balls": "105",
                     "minutes": "-",
@@ -109,7 +109,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Scott McKechnie",
+                    "batsman": "Scott McKechnie (wk)",
                     "dismissal": "c Adnan Mufti b Rohan Mustafa",
                     "runs": "0",
                     "balls": "1",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Chirag Suri",
-                    "dismissal": "c McKechnie b Ehsan Nawaz",
+                    "dismissal": "c (wk)McKechnie b Ehsan Nawaz",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "-",
@@ -296,7 +296,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Abdul Shakoor",
+                    "batsman": "Abdul Shakoor (wk)",
                     "dismissal": "lbw b Ehsan Khan",
                     "runs": "0",
                     "balls": "2",
@@ -327,7 +327,7 @@
                 },
                 {
                     "batsman": "Imran Haider",
-                    "dismissal": "c McKechnie b Nadeem Ahmed",
+                    "dismissal": "c (wk)McKechnie b Nadeem Ahmed",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 182 runs"
+    "result": "Hong Kong won by 182 runs",
+    "playing_xi": {
+        "Hong Kong": [
+            "Ehsan Nawaz",
+            "Aizaz Khan",
+            "Cameron McAuslan",
+            "Scott McKechnie (wk)",
+            "Tanwir Afzal",
+            "Kinchit Shah",
+            "Babar Hayat",
+            "Nadeem Ahmed",
+            "Nizakat Khan",
+            "Ehsan Khan",
+            "Anshy Rath(c)"
+        ],
+        "United Arab Emirates": [
+            "Mohammad Naveed",
+            "Shaiman Anwar",
+            "Adnan Mufti",
+            "Abdul Shakoor (wk)",
+            "Ahmed Raza",
+            "Muhammad Usman",
+            "Ashfaq Ahmed",
+            "Imran Haider",
+            "Rameez Shahzad",
+            "Rohan Mustafa(c)",
+            "Chirag Suri"
+        ]
+    }
 }

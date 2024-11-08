@@ -40,7 +40,7 @@
                     "strike_rate": "84.61"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Swann b Anderson",
                     "runs": "23",
                     "balls": "57",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Ambrose b Broad",
+                    "dismissal": "c (wk)Ambrose b Broad",
                     "runs": "4",
                     "balls": "15",
                     "minutes": "18",
@@ -222,7 +222,7 @@
                 },
                 {
                     "batsman": "Alastair Cook",
-                    "dismissal": "c McCullum b Southee",
+                    "dismissal": "c (wk)McCullum b Southee",
                     "runs": "24",
                     "balls": "38",
                     "minutes": "57",
@@ -271,7 +271,7 @@
                     "strike_rate": "27.27"
                 },
                 {
-                    "batsman": "Tim Ambrose",
+                    "batsman": "Tim Ambrose (wk)",
                     "dismissal": "c sub (JAH Marshall) b Vettori",
                     "runs": "2",
                     "balls": "11",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Graeme Swann",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "12",
                     "balls": "16",
                     "minutes": "19",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 51 runs"
+    "result": "New Zealand won by 51 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Scott Styris",
+            "Jacob Oram",
+            "Brendon McCullum (wk)",
+            "Grant Elliott",
+            "Mark Gillespie",
+            "Tim Southee",
+            "Jamie How",
+            "Daniel Flynn",
+            "Kyle Mills",
+            "Daniel Vettori (c)",
+            "Ross Taylor"
+        ],
+        "England": [
+            "Tim Ambrose (wk)",
+            "James Anderson",
+            "Graeme Swann",
+            "Stuart Broad",
+            "Luke Wright",
+            "Ian Bell",
+            "Ryan Sidebottom",
+            "Alastair Cook",
+            "Kevin Pietersen(c)",
+            "Ravi Bopara",
+            "Owais Shah"
+        ]
+    }
 }

@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Taibu b Streak",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Taibu b Ewing",
+                    "dismissal": "c (wk)Taibu b Ewing",
                     "runs": "61",
                     "balls": "81",
                     "minutes": "-",
@@ -106,7 +106,7 @@
                     "strike_rate": "27.77"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c & b Ewing",
                     "runs": "2",
                     "balls": "7",
@@ -230,7 +230,7 @@
             "batting": [
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "1",
                     "balls": "20",
                     "minutes": "-",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -269,7 +269,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "b Vettori",
                     "runs": "16",
                     "balls": "38",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Heath Streak",
-                    "dismissal": "st McCullum b Vettori",
+                    "dismissal": "st (wk)McCullum b Vettori",
                     "runs": "18",
                     "balls": "33",
                     "minutes": "-",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Charles Coventry",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "35",
                     "balls": "21",
                     "minutes": "-",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 27 runs"
+    "result": "New Zealand won by 27 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Scott Styris",
+            "Lou Vincent",
+            "Kyle Mills",
+            "Stephen Fleming(c)",
+            "Nathan Astle",
+            "Hamish Marshall",
+            "Brendon McCullum (wk)",
+            "Daniel Vettori",
+            "Jacob Oram",
+            "Craig McMillan",
+            "Shane Bond"
+        ],
+        "Zimbabwe": [
+            "Chamu Chibhabha",
+            "Brendan Taylor",
+            "Blessing Mahwire",
+            "Gavin Ewing",
+            "Charles Coventry",
+            "Stuart Carlisle",
+            "Tatenda Taibu(c) (wk)",
+            "Andy Blignaut",
+            "Prosper Utseya",
+            "Vusi Sibanda",
+            "Heath Streak"
+        ]
+    }
 }

@@ -47,7 +47,7 @@
                 },
                 {
                     "batsman": "Ruvindu Gunasekera",
-                    "dismissal": "st Wallace b Haq",
+                    "dismissal": "st (wk)Wallace b Haq",
                     "runs": "53",
                     "balls": "75",
                     "minutes": "118",
@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Nitish Kumar",
-                    "dismissal": "c Wallace b Davey",
+                    "dismissal": "c (wk)Wallace b Davey",
                     "runs": "9",
                     "balls": "23",
                     "minutes": "29",
@@ -97,7 +97,7 @@
                 },
                 {
                     "batsman": "Usman Limbada",
-                    "dismissal": "run out (Berrington/Wallace)",
+                    "dismissal": "run out (Berrington/ (wk)Wallace)",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -127,7 +127,7 @@
                 },
                 {
                     "batsman": "Jeremy Gordon",
-                    "dismissal": "run out (Evans/Wallace)",
+                    "dismissal": "run out (Evans/ (wk)Wallace)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "8",
@@ -136,8 +136,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Darren Ramsammy",
-                    "dismissal": "run out (Goudie/Wallace)",
+                    "batsman": "Darren Ramsammy (wk)",
+                    "dismissal": "run out (Goudie/ (wk)Wallace)",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -337,7 +337,7 @@
                     "strike_rate": "0.00"
                 }
             ],
-            "did_not_bat": "Alasdair Evans , Craig Wallace , Gordon Drummond (c)",
+            "did_not_bat": "Alasdair Evans , Craig Wallace (wk) , Gordon Drummond (c)",
             "fall_of_wickets": "Fall of wickets : 1 - 6 ( Kyle Coetzer , 1.2 ov ) , 2 - 98 ( Josh Davey , 20.2 ov ) , 3 - 117 ( Gordon Goudie , 23.1 ov ) , 4 - 130 ( Richie Berrington , 26.6 ov ) , 5 - 145 ( Preston Mommsen , 33.5 ov ) , 6 - 173 ( Jan Stander , 40.3 ov )",
             "bowling": [
                 {
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 4 wickets (with 47 balls remaining)"
+    "result": "Scotland won by 4 wickets (with 47 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Darren Ramsammy (wk)",
+            "Durand Soraine",
+            "Zeeshan Siddiqi",
+            "Junaid Siddiqui",
+            "Hiral Patel",
+            "Ruvindu Gunasekera",
+            "Nitish Kumar",
+            "Jeremy Gordon",
+            "Jimmy Hansra(c)",
+            "Usman Limbada",
+            "Damodar Daesrath"
+        ],
+        "Scotland": [
+            "Richie Berrington",
+            "Jan Stander",
+            "Craig Wallace (wk)",
+            "Gordon Drummond (c)",
+            "Josh Davey",
+            "Majid Haq",
+            "Calum MacLeod",
+            "Alasdair Evans",
+            "Kyle Coetzer",
+            "Gordon Goudie",
+            "Preston Mommsen"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Watling b Southee",
+                    "dismissal": "c (wk)Watling b Southee",
                     "runs": "3",
                     "balls": "17",
                     "minutes": "15",
@@ -100,7 +100,7 @@
                     "strike_rate": "147.61"
                 }
             ],
-            "did_not_bat": "Denesh Ramdin , Sunil Narine , Ravi Rampaul , Andre Russell",
+            "did_not_bat": "Denesh Ramdin (wk) , Sunil Narine , Ravi Rampaul , Andre Russell",
             "fall_of_wickets": "Fall of wickets : 1 - 10 ( Lendl Simmons , 3.5 ov ) , 2 - 98 ( Dwayne Smith , 18.1 ov ) , 3 - 227 ( Chris Gayle , 37.3 ov ) , 4 - 253 ( Kieron Pollard , 40.6 ov ) , 5 - 272 ( Dwayne Bravo , 43.6 ov )",
             "bowling": [
                 {
@@ -275,7 +275,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "BJ Watling",
+                    "batsman": "BJ Watling (wk)",
                     "dismissal": "not out",
                     "runs": "72",
                     "balls": "62",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Tim Southee",
-                    "dismissal": "run out (Pollard/Ramdin)",
+                    "dismissal": "run out (Pollard/ (wk)Ramdin)",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "7",
@@ -326,7 +326,7 @@
                 },
                 {
                     "batsman": "Tarun Nethula",
-                    "dismissal": "run out (Russell/Ramdin)",
+                    "dismissal": "run out (Russell/ (wk)Ramdin)",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "5",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 55 runs"
+    "result": "West Indies won by 55 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Kieron Pollard",
+            "Sunil Narine",
+            "Ravi Rampaul",
+            "Denesh Ramdin (wk)",
+            "Dwayne Bravo",
+            "Andre Russell",
+            "Dwayne Smith",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Lendl Simmons",
+            "Daren Sammy(c)"
+        ],
+        "New Zealand": [
+            "Jacob Oram",
+            "Kane Williamson(c)",
+            "Tom Latham",
+            "Martin Guptill",
+            "Nathan McCullum",
+            "Tarun Nethula",
+            "BJ Watling (wk)",
+            "Tim Southee",
+            "Daniel Flynn",
+            "Kyle Mills",
+            "Rob Nicol"
+        ]
+    }
 }

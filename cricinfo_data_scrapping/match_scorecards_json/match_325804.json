@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "run out (Rizwan Ahmed/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Rizwan Ahmed/ (wk)Sarfaraz Ahmed)",
                     "runs": "18",
                     "balls": "36",
                     "minutes": "55",
@@ -66,7 +66,7 @@
                     "strike_rate": "45.23"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Rizwan Ahmed b Wahab Riaz",
                     "runs": "6",
                     "balls": "11",
@@ -97,7 +97,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "st Sarfaraz Ahmed b Fawad Alam",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Fawad Alam",
                     "runs": "34",
                     "balls": "58",
                     "minutes": "73",
@@ -117,7 +117,7 @@
                 },
                 {
                     "batsman": "Gary Brent",
-                    "dismissal": "run out (Sarfaraz Ahmed/Shoaib Malik)",
+                    "dismissal": "run out ( (wk)Sarfaraz Ahmed/Shoaib Malik)",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "6",
@@ -293,7 +293,7 @@
                     "strike_rate": "116.66"
                 }
             ],
-            "did_not_bat": "Shoaib Malik (c) , Sarfaraz Ahmed , Sohail Tanvir , Wahab Riaz , Abdur Rauf , Rizwan Ahmed",
+            "did_not_bat": "Shoaib Malik (c) , Sarfaraz Ahmed (wk) , Sohail Tanvir , Wahab Riaz , Abdur Rauf , Rizwan Ahmed",
             "fall_of_wickets": "Fall of wickets : 1 - 40 ( Nasir Jamshed , 6.1 ov ) , 2 - 137 ( Younis Khan , 22.5 ov ) , 3 - 145 ( Khurram Manzoor , 24.4 ov )",
             "bowling": [
                 {
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 114 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 114 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Elton Chigumbura",
+            "Brendan Taylor",
+            "Chamu Chibhabha",
+            "Keith Dabengwa",
+            "Hamilton Masakadza(c)",
+            "Gary Brent",
+            "Ray Price",
+            "Chris Mpofu",
+            "Tatenda Taibu (wk)"
+        ],
+        "Pakistan": [
+            "Khurram Manzoor",
+            "Sarfaraz Ahmed (wk)",
+            "Wahab Riaz",
+            "Rizwan Ahmed",
+            "Nasir Jamshed",
+            "Shoaib Malik (c)",
+            "Younis Khan",
+            "Fawad Alam",
+            "Sohail Tanvir",
+            "Misbah-ul-Haq",
+            "Abdur Rauf"
+        ]
+    }
 }

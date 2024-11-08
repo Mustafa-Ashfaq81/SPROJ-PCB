@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Tucker b Hume",
+                    "dismissal": "c (wk)Tucker b Hume",
                     "runs": "93",
                     "balls": "89",
                     "minutes": "122",
@@ -83,7 +83,7 @@
                     "strike_rate": "108.23"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c McBrine b Hume",
                     "runs": "44",
                     "balls": "26",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Yasir Ali",
-                    "dismissal": "run out (Campher/Tucker)",
+                    "dismissal": "run out (Campher/ (wk)Tucker)",
                     "runs": "17",
                     "balls": "10",
                     "minutes": "20",
@@ -231,7 +231,7 @@
             "batting": [
                 {
                     "batsman": "Stephen Doheny",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "34",
                     "balls": "38",
                     "minutes": "49",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Mushfiqur Rahim b Ebadot Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Ebadot Hossain",
                     "runs": "22",
                     "balls": "31",
                     "minutes": "54",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Harry Tector",
-                    "dismissal": "c Mushfiqur Rahim b Ebadot Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Ebadot Hossain",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "9",
@@ -270,7 +270,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "c Yasir Ali b Taskin Ahmed",
                     "runs": "6",
                     "balls": "8",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Andy McBrine",
-                    "dismissal": "c Mushfiqur Rahim b Nasum Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Nasum Ahmed",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Mark Adair",
-                    "dismissal": "c Mushfiqur Rahim b Ebadot Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Ebadot Hossain",
                     "runs": "13",
                     "balls": "11",
                     "minutes": "18",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 183 runs"
+    "result": "Bangladesh won by 183 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Nasum Ahmed",
+            "Mustafizur Rahman",
+            "Najmul Hossain Shanto",
+            "Tamim Iqbal(c)",
+            "Ebadot Hossain",
+            "Taskin Ahmed",
+            "Yasir Ali",
+            "Litton Das",
+            "Towhid Hridoy"
+        ],
+        "Ireland": [
+            "Gareth Delany",
+            "George Dockrell",
+            "Lorcan Tucker (wk)",
+            "Curtis Campher",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Graham Hume",
+            "Andy Balbirnie(c)",
+            "Harry Tector",
+            "Mark Adair",
+            "Stephen Doheny"
+        ]
+    }
 }

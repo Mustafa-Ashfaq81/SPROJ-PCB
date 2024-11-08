@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Amartya Kaul",
-                    "dismissal": "c Zeeshan Ali b Yasim Murtaza",
+                    "dismissal": "c (wk)Zeeshan Ali b Yasim Murtaza",
                     "runs": "7",
                     "balls": "19",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                     "strike_rate": "36.84"
                 },
                 {
-                    "batsman": "Sidhant Srikanth",
+                    "batsman": "Sidhant Srikanth (wk)",
                     "dismissal": "c Babar Hayat b Ehsan Khan",
                     "runs": "0",
                     "balls": "5",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Prasheen Param",
-                    "dismissal": "st Zeeshan Ali b Yasim Murtaza",
+                    "dismissal": "st (wk)Zeeshan Ali b Yasim Murtaza",
                     "runs": "10",
                     "balls": "25",
                     "minutes": "-",
@@ -277,7 +277,7 @@
                     "strike_rate": "25.00"
                 }
             ],
-            "did_not_bat": "Aizaz Khan , Yasim Murtaza , Haroon Arshad , Mohammad Ghazanfar , Ehsan Khan , Ayush Shukla , Zeeshan Ali",
+            "did_not_bat": "Aizaz Khan , Yasim Murtaza , Haroon Arshad , Mohammad Ghazanfar , Ehsan Khan , Ayush Shukla , Zeeshan Ali (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 14 ( Anshy Rath , 5.1 ov ) , 2 - 146 ( Nizakat Khan , 30.6 ov )",
             "bowling": [
                 {
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 8 wickets (with 102 balls remaining)"
+    "result": "Hong Kong won by 8 wickets (with 102 balls remaining)",
+    "playing_xi": {
+        "Singapore": [
+            "Vinoth Baskaran",
+            "Ramesh Kalimuthu",
+            "Aaryan Modi",
+            "Akshay Puri",
+            "Sidhant Srikanth (wk)",
+            "Surendran Chandramohan",
+            "Avi Dixit",
+            "Thilipan Omaidurai",
+            "Prasheen Param",
+            "Aritra Dutta(c)",
+            "Amartya Kaul"
+        ],
+        "Hong Kong": [
+            "Ayush Shukla",
+            "Ehsan Khan",
+            "Kinchit Shah",
+            "Mohammad Ghazanfar",
+            "Babar Hayat",
+            "Zeeshan Ali (wk)",
+            "Yasim Murtaza",
+            "Anshy Rath",
+            "Haroon Arshad",
+            "Nizakat Khan(c)",
+            "Aizaz Khan"
+        ]
+    }
 }

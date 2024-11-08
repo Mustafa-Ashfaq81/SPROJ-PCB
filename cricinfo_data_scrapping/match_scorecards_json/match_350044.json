@@ -40,7 +40,7 @@
                     "strike_rate": "69.38"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "c Morgan b Wright",
                     "runs": "26",
                     "balls": "44",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "c Prior b Bopara",
+                    "dismissal": "c (wk)Prior b Bopara",
                     "runs": "42",
                     "balls": "66",
                     "minutes": "70",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "c Prior b Wright",
+                    "dismissal": "c (wk)Prior b Wright",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "12",
@@ -261,8 +261,8 @@
                     "strike_rate": "61.36"
                 },
                 {
-                    "batsman": "Matt Prior",
-                    "dismissal": "c Paine b Watson",
+                    "batsman": "Matt Prior (wk)",
+                    "dismissal": "c (wk)Paine b Watson",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "3",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "run out (Clarke/Paine)",
+                    "dismissal": "run out (Clarke/ (wk)Paine)",
                     "runs": "12",
                     "balls": "12",
                     "minutes": "17",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Luke Wright",
-                    "dismissal": "c Paine b Lee",
+                    "dismissal": "c (wk)Paine b Lee",
                     "runs": "20",
                     "balls": "19",
                     "minutes": "28",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Tim Bresnan",
-                    "dismissal": "c Paine b Johnson",
+                    "dismissal": "c (wk)Paine b Johnson",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "17",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Australia won by 39 runs"
+    "result": "Australia won by 39 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Cameron White",
+            "James Hopes",
+            "Michael Clarke(c)",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Brett Lee",
+            "Nathan Bracken"
+        ],
+        "England": [
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Luke Wright",
+            "Tim Bresnan",
+            "James Anderson",
+            "Matt Prior (wk)",
+            "Ryan Sidebottom",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Andrew Strauss(c)",
+            "Owais Shah"
+        ]
+    }
 }

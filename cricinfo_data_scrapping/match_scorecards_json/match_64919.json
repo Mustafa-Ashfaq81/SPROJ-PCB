@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "st Khaled Mashud b Enamul Haque jnr",
+                    "dismissal": "st (wk)Khaled Mashud b Enamul Haque jnr",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "6",
@@ -83,7 +83,7 @@
                     "strike_rate": "60.78"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "not out",
                     "runs": "64",
                     "balls": "80",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c Taibu b Panyangara",
+                    "dismissal": "c (wk)Taibu b Panyangara",
                     "runs": "15",
                     "balls": "26",
                     "minutes": "29",
@@ -270,7 +270,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "25",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Tapash Baisya",
-                    "dismissal": "c Taibu b Hondo",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "2",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Enamul Haque jnr",
-                    "dismissal": "run out (Masakadza/Taibu)",
+                    "dismissal": "run out (Masakadza/ (wk)Taibu)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "2",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 31 runs"
+    "result": "Zimbabwe won by 31 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Elton Chigumbura",
+            "Dion Ebrahim",
+            "Prosper Utseya",
+            "Tinashe Panyangara",
+            "Chris Mpofu",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo",
+            "Barney Rogers",
+            "Tatenda Taibu(c) (wk)",
+            "Hamilton Masakadza"
+        ],
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Mashrafe Mortaza",
+            "Khaled Mahmud",
+            "Nafees Iqbal",
+            "Manzarul Islam",
+            "Mohammad Ashraful",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Enamul Haque jnr",
+            "Habibul Bashar(c)",
+            "Tapash Baisya"
+        ]
+    }
 }

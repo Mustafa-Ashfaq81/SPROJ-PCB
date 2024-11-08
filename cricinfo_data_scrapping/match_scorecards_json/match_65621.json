@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Jonty Rhodes",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "4",
@@ -82,7 +82,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "lbw b Bichel",
                     "runs": "1",
                     "balls": "11",
@@ -249,7 +249,7 @@
                     "strike_rate": "88.70"
                 },
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Pollock",
                     "runs": "8",
                     "balls": "13",
@@ -341,5 +341,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 188 balls remaining)"
+    "result": "Australia won by 8 wickets (with 188 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Herschelle Gibbs",
+            "Neil McKenzie",
+            "Nicky Boje",
+            "Jonty Rhodes",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Gary Kirsten",
+            "Boeta Dippenaar",
+            "Lance Klusener",
+            "Steve Elworthy",
+            "Makhaya Ntini"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Shane Warne",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting",
+            "Michael Bevan",
+            "Damien Martyn",
+            "Mark Waugh",
+            "Steve Waugh (c)"
+        ]
+    }
 }

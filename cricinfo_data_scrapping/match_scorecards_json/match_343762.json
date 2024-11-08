@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Zunaed Siddique",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Farhad Reza",
-                    "dismissal": "c Kamran Akmal b Sohail Khan",
+                    "dismissal": "c (wk)Kamran Akmal b Sohail Khan",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "-",
@@ -100,7 +100,7 @@
                     "strike_rate": "82.35"
                 },
                 {
-                    "batsman": "Dhiman Ghosh",
+                    "batsman": "Dhiman Ghosh (wk)",
                     "dismissal": "lbw b Shahid Afridi",
                     "runs": "0",
                     "balls": "4",
@@ -247,7 +247,7 @@
                     "strike_rate": "88.09"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Mashrafe Mortaza b Shakib Al Hasan",
                     "runs": "36",
                     "balls": "35",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 33 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 33 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Shakib Al Hasan",
+            "Farhad Reza",
+            "Zunaed Siddique",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Abdur Razzak",
+            "Aftab Ahmed",
+            "Shahadat Hossain",
+            "Dhiman Ghosh (wk)"
+        ],
+        "Pakistan": [
+            "Sohail Khan",
+            "Shoaib Malik (c)",
+            "Bazid Khan",
+            "Misbah-ul-Haq",
+            "Mohammad Yousuf",
+            "Fawad Alam",
+            "Umar Gul",
+            "Mohammad Asif",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Salman Butt"
+        ]
+    }
 }

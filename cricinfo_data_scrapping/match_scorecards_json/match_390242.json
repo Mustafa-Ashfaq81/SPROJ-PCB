@@ -29,8 +29,8 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Freddie Klokker(c)",
-                    "dismissal": "c Sultan Ahmed b Haider Ali",
+                    "batsman": "Freddie Klokker(c) (wk)",
+                    "dismissal": "c (wk)Sultan Ahmed b Haider Ali",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "11",
@@ -280,8 +280,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Sultan Ahmed",
-                    "dismissal": "c Klokker b Borchersen",
+                    "batsman": "Sultan Ahmed (wk)",
+                    "dismissal": "c (wk)Klokker b Borchersen",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Awal Khan",
-                    "dismissal": "c Klokker b Borchersen",
+                    "dismissal": "c (wk)Klokker b Borchersen",
                     "runs": "69",
                     "balls": "82",
                     "minutes": "110",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "Oman won by 5 wickets (with 50 balls remaining)"
+    "result": "Oman won by 5 wickets (with 50 balls remaining)",
+    "playing_xi": {
+        "Denmark": [
+            "Rizwan Mahmood",
+            "Carsten Pedersen",
+            "Bobby Chawla",
+            "Henrik Hansen",
+            "David Borchersen",
+            "Max Overgaard",
+            "Michael Pedersen",
+            "Bashir Shah",
+            "Freddie Klokker(c) (wk)",
+            "Rohit Kanaiya",
+            "Jacob Larsen"
+        ],
+        "Oman": [
+            "Farhan Khan",
+            "Amir Ali",
+            "Adnan Ilyas",
+            "Haider Ali",
+            "Sultan Ahmed (wk)",
+            "Zeeshan Siddiqui",
+            "Tariq Hussain",
+            "Hemal Mehta (c)",
+            "Awal Khan",
+            "Hemin Desai",
+            "Maqsood Hussain"
+        ]
+    }
 }

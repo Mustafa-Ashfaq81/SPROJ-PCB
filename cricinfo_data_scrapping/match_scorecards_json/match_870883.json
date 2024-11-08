@@ -100,7 +100,7 @@
                     "strike_rate": "36.84"
                 },
                 {
-                    "batsman": "JP Kotze",
+                    "batsman": "JP Kotze (wk)",
                     "dismissal": "lbw b Haseeb Amjad",
                     "runs": "1",
                     "balls": "2",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Zhivago Groenewald",
-                    "dismissal": "c Atkinson b Nizakat Khan",
+                    "dismissal": "c (wk)Atkinson b Nizakat Khan",
                     "runs": "15",
                     "balls": "31",
                     "minutes": "-",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Irfan Ahmed",
-                    "dismissal": "c Kotze b Snyman",
+                    "dismissal": "c (wk)Kotze b Snyman",
                     "runs": "36",
                     "balls": "38",
                     "minutes": "-",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Skhawat Ali",
-                    "dismissal": "c Kotze b Burger",
+                    "dismissal": "c (wk)Kotze b Burger",
                     "runs": "23",
                     "balls": "59",
                     "minutes": "-",
@@ -277,7 +277,7 @@
                     "strike_rate": "78.57"
                 }
             ],
-            "did_not_bat": "Babar Hayat , Nadeem Ahmed , Waqas Barkat , Tanwir Afzal , Haseeb Amjad , Ehsan Nawaz , Jamie Atkinson (c)",
+            "did_not_bat": "Babar Hayat , Nadeem Ahmed , Waqas Barkat , Tanwir Afzal , Haseeb Amjad , Ehsan Nawaz , Jamie Atkinson (c) (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 40 ( Irfan Ahmed , 8.5 ov ) , 2 - 93 ( Skhawat Ali , 30.4 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 8 wickets (with 82 balls remaining)"
+    "result": "Hong Kong won by 8 wickets (with 82 balls remaining)",
+    "playing_xi": {
+        "Namibia": [
+            "Zhivago Groenewald",
+            "Nicolaas Scholtz(c)",
+            "Raymond van Schoor",
+            "Craig Williams",
+            "JP Kotze (wk)",
+            "Pikky Ya France",
+            "JJ Smit",
+            "Stephan Baard",
+            "Gerrie Snyman",
+            "Sarel Burger",
+            "Bernard Scholtz"
+        ],
+        "Hong Kong": [
+            "Ehsan Nawaz",
+            "Jamie Atkinson (c) (wk)",
+            "Waqas Barkat",
+            "Skhawat Ali",
+            "Haseeb Amjad",
+            "Tanwir Afzal",
+            "Roy Lamsam",
+            "Babar Hayat",
+            "Nadeem Ahmed",
+            "Irfan Ahmed",
+            "Nizakat Khan"
+        ]
+    }
 }

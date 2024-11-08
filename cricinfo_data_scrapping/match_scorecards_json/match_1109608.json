@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Dickwella b Mathews",
+                    "dismissal": "c (wk)Dickwella b Mathews",
                     "runs": "104",
                     "balls": "88",
                     "minutes": "-",
@@ -95,7 +95,7 @@
                     "strike_rate": "119.04"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "49",
                     "balls": "42",
@@ -216,8 +216,8 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
-                    "dismissal": "c Dhoni b Thakur",
+                    "batsman": "Niroshan Dickwella (wk)",
+                    "dismissal": "c (wk)Dhoni b Thakur",
                     "runs": "14",
                     "balls": "11",
                     "minutes": "-",
@@ -227,7 +227,7 @@
                 },
                 {
                     "batsman": "Dilshan Munaweera",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "11",
                     "balls": "24",
                     "minutes": "-",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Milinda Siriwardana",
-                    "dismissal": "c Dhoni b Pandya",
+                    "dismissal": "c (wk)Dhoni b Pandya",
                     "runs": "39",
                     "balls": "43",
                     "minutes": "-",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "India won by 168 runs"
+    "result": "India won by 168 runs",
+    "playing_xi": {
+        "India": [
+            "KL Rahul",
+            "MS Dhoni (wk)",
+            "Axar Patel",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Manish Pandey",
+            "Jasprit Bumrah",
+            "Kuldeep Yadav",
+            "Shardul Thakur",
+            "Hardik Pandya"
+        ],
+        "Sri Lanka": [
+            "Dilshan Munaweera",
+            "Akila Dananjaya",
+            "Milinda Siriwardana",
+            "Lahiru Thirimanne",
+            "Vishwa Fernando",
+            "Kusal Mendis",
+            "Lasith Malinga(c)",
+            "Malinda Pushpakumara",
+            "Angelo Mathews",
+            "Wanindu Hasaranga",
+            "Niroshan Dickwella (wk)"
+        ]
+    }
 }

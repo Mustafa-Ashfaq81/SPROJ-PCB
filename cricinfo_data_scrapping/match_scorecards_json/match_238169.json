@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Jehan Mubarak",
-                    "dismissal": "c Khaled Mashud b Syed Rasel",
+                    "dismissal": "c (wk)Khaled Mashud b Syed Rasel",
                     "runs": "2",
                     "balls": "13",
                     "minutes": "14",
@@ -50,8 +50,8 @@
                     "strike_rate": "87.27"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Khaled Mashud b Syed Rasel",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Khaled Mashud b Syed Rasel",
                     "runs": "23",
                     "balls": "54",
                     "minutes": "78",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Chamara Kapugedera",
-                    "dismissal": "c Khaled Mashud b Alok Kapali",
+                    "dismissal": "c (wk)Khaled Mashud b Alok Kapali",
                     "runs": "13",
                     "balls": "26",
                     "minutes": "34",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c Sangakkara b CRD Fernando",
+                    "dismissal": "c (wk)Sangakkara b CRD Fernando",
                     "runs": "17",
                     "balls": "23",
                     "minutes": "36",
@@ -307,7 +307,7 @@
                     "strike_rate": "78.26"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "11",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 4 wickets (with 12 balls remaining)"
+    "result": "Bangladesh won by 4 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Dilhara Fernando",
+            "Hasantha Fernando",
+            "Ruchira Perera",
+            "Mahela Jayawardene(c)",
+            "Jehan Mubarak",
+            "Farveez Maharoof",
+            "Chamara Kapugedera",
+            "Malinga Bandara"
+        ],
+        "Bangladesh": [
+            "Shahriar Nafees",
+            "Mohammad Ashraful",
+            "Habibul Bashar(c)",
+            "Alok Kapali",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Javed Omer",
+            "Rajin Saleh",
+            "Mashrafe Mortaza",
+            "Syed Rasel",
+            "Mohammad Rafique"
+        ]
+    }
 }

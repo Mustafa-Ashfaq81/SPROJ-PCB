@@ -43,8 +43,8 @@
                     "strike_rate": "118.57"
                 },
                 {
-                    "batsman": "Andre Fletcher",
-                    "dismissal": "c Perera b Malinga",
+                    "batsman": "Andre Fletcher (wk)",
+                    "dismissal": "c (wk)Perera b Malinga",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels(c)",
-                    "dismissal": "run out (Thirimanne/Mendis/Perera)",
+                    "dismissal": "run out (Thirimanne/Mendis/ (wk)Perera)",
                     "runs": "63",
                     "balls": "61",
                     "minutes": "88",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Sunil Narine",
-                    "dismissal": "run out (Mathews/Perera)",
+                    "dismissal": "run out (Mathews/ (wk)Perera)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "6",
@@ -254,7 +254,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "c Brathwaite b Rampaul",
                     "runs": "99",
                     "balls": "92",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 9 balls remaining) (D/L method)"
+    "result": "Sri Lanka won by 8 wickets (with 9 balls remaining) (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Carlos Brathwaite",
+            "Sunil Narine",
+            "Johnson Charles",
+            "Ravi Rampaul",
+            "Darren Bravo",
+            "Jonathan Carter",
+            "Marlon Samuels(c)",
+            "Jermaine Blackwood",
+            "Andre Fletcher (wk)",
+            "Jerome Taylor",
+            "Jason Mohammed"
+        ],
+        "Sri Lanka": [
+            "Ajantha Mendis",
+            "Lasith Malinga",
+            "Suranga Lakmal",
+            "Kusal Perera (wk)",
+            "Tillakaratne Dilshan",
+            "Shehan Jayasuriya",
+            "Dinesh Chandimal",
+            "Sachithra Senanayake",
+            "Angelo Mathews (c)",
+            "Milinda Siriwardana",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

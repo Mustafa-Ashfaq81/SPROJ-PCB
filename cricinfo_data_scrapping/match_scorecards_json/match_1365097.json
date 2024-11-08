@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Harrison Carlyon",
-                    "dismissal": "c Green b Shikongo",
+                    "dismissal": "c (wk)Green b Shikongo",
                     "runs": "12",
                     "balls": "21",
                     "minutes": "-",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Nick Greenwood",
-                    "dismissal": "c Green b Trumpelmann",
+                    "dismissal": "c (wk)Green b Trumpelmann",
                     "runs": "8",
                     "balls": "17",
                     "minutes": "-",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Benjamin Ward",
-                    "dismissal": "c Green b Trumpelmann",
+                    "dismissal": "c (wk)Green b Trumpelmann",
                     "runs": "13",
                     "balls": "29",
                     "minutes": "-",
@@ -113,7 +113,7 @@
                     "strike_rate": "93.33"
                 },
                 {
-                    "batsman": "Jake Dunford",
+                    "batsman": "Jake Dunford (wk)",
                     "dismissal": "b Shikongo",
                     "runs": "2",
                     "balls": "5",
@@ -308,7 +308,7 @@
                     "strike_rate": "101.14"
                 }
             ],
-            "did_not_bat": "Jan Nicol Loftie-Eaton , Zane Green , Pikky Ya France , Ruben Trumpelmann , Karl Birkenstock , Bernard Scholtz , Ben Shikongo",
+            "did_not_bat": "Jan Nicol Loftie-Eaton , Zane Green (wk) , Pikky Ya France , Ruben Trumpelmann , Karl Birkenstock , Bernard Scholtz , Ben Shikongo",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Shaun Fouche , 0.5 ov ) , 2 - 18 ( Nikolaas Davin , 3.4 ov )",
             "bowling": [
                 {
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Namibia won by 8 wickets (with 107 balls remaining)"
+    "result": "Namibia won by 8 wickets (with 107 balls remaining)",
+    "playing_xi": {
+        "Jersey": [
+            "Elliot Miles",
+            "Harrison Carlyon",
+            "Dominic Blampied",
+            "Josh Lawrenson",
+            "Jonty Jenner",
+            "Jake Dunford (wk)",
+            "Charles Perchard(c)",
+            "Asa Tribe",
+            "Benjamin Ward",
+            "Nick Greenwood",
+            "Julius Sumerauer"
+        ],
+        "Namibia": [
+            "Nikolaas Davin",
+            "Shaun Fouche",
+            "Jan Nicol Loftie-Eaton",
+            "Bernard Scholtz",
+            "Ben Shikongo",
+            "Ruben Trumpelmann",
+            "Karl Birkenstock",
+            "Zane Green (wk)",
+            "Gerhard Erasmus(c)",
+            "Pikky Ya France",
+            "Michael van Lingen"
+        ]
+    }
 }

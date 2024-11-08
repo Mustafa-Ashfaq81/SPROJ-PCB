@@ -63,7 +63,7 @@
                     "strike_rate": "65.95"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "b Imran Tahir",
                     "runs": "22",
                     "balls": "55",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Asela Gunaratne",
-                    "dismissal": "run out (de Kock/Parnell/Morris)",
+                    "dismissal": "run out ( (wk)de Kock/Parnell/Morris)",
                     "runs": "10",
                     "balls": "9",
                     "minutes": "27",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c de Kock b Rabada",
+                    "dismissal": "c (wk)de Kock b Rabada",
                     "runs": "17",
                     "balls": "16",
                     "minutes": "24",
@@ -240,7 +240,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Weerakkody b Sandakan",
                     "runs": "34",
                     "balls": "40",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 94 balls remaining)"
+    "result": "South Africa won by 8 wickets (with 94 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Nuwan Kulasekara",
+            "Lakshan Sandakan",
+            "Kusal Mendis",
+            "Suranga Lakmal",
+            "Jeffrey Vandersay",
+            "Dhananjaya de Silva",
+            "Asela Gunaratne",
+            "Dinesh Chandimal (wk)",
+            "Sandun Weerakkody",
+            "Niroshan Dickwella",
+            "Upul Tharanga(c)"
+        ],
+        "South Africa": [
+            "Chris Morris",
+            "David Miller",
+            "Wayne Parnell",
+            "Hashim Amla",
+            "Jean-Paul Duminy",
+            "Andile Phehlukwayo",
+            "Faf du Plessis",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "AB de Villiers(c)",
+            "Kagiso Rabada"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Moin Khan b Shabbir Ahmed",
+                    "dismissal": "c (wk)Moin Khan b Shabbir Ahmed",
                     "runs": "20",
                     "balls": "22",
                     "minutes": "26",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Moin Khan b Mohammad Sami",
+                    "dismissal": "c (wk)Moin Khan b Mohammad Sami",
                     "runs": "37",
                     "balls": "48",
                     "minutes": "60",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Moin Khan b Shoaib Akhtar",
+                    "dismissal": "c (wk)Moin Khan b Shoaib Akhtar",
                     "runs": "45",
                     "balls": "64",
                     "minutes": "69",
@@ -70,7 +70,7 @@
                     "strike_rate": "70.31"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "b Mohammad Sami",
                     "runs": "4",
                     "balls": "10",
@@ -273,7 +273,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "b Balaji",
                     "runs": "72",
                     "balls": "71",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "India won by 40 runs"
+    "result": "India won by 40 runs",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Murali Kartik",
+            "VVS Laxman",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Rahul Dravid (wk)",
+            "Mohammad Kaif",
+            "Sourav Ganguly(c)",
+            "Lakshmipathy Balaji"
+        ],
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Taufeeq Umar",
+            "Moin Khan (wk)",
+            "Yasir Hameed",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Shoaib Akhtar",
+            "Shabbir Ahmed",
+            "Younis Khan",
+            "Mohammad Sami"
+        ]
+    }
 }

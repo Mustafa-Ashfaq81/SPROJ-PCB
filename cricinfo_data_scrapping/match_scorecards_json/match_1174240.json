@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "run out (Mohammad Rizwan)",
+                    "dismissal": "run out ( (wk)Mohammad Rizwan)",
                     "runs": "71",
                     "balls": "55",
                     "minutes": "-",
@@ -90,7 +90,7 @@
                     "strike_rate": "129.09"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "25",
                     "balls": "21",
@@ -237,8 +237,8 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
-                    "dismissal": "c Carey b Cummins",
+                    "batsman": "Mohammad Rizwan (wk)",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Imad Wasim",
-                    "dismissal": "st Carey b Zampa",
+                    "dismissal": "st (wk)Carey b Zampa",
                     "runs": "43",
                     "balls": "53",
                     "minutes": "-",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Junaid Khan",
-                    "dismissal": "c Carey b Zampa",
+                    "dismissal": "c (wk)Carey b Zampa",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "-",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 80 runs"
+    "result": "Australia won by 80 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shaun Marsh",
+            "Alex Carey (wk)",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Peter Handscomb",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Jason Behrendorff",
+            "Adam Zampa",
+            "Nathan Lyon",
+            "Marcus Stoinis"
+        ],
+        "Pakistan": [
+            "Shoaib Malik(c)",
+            "Imam-ul-Haq",
+            "Haris Sohail",
+            "Usman Shinwari",
+            "Mohammad Hasnain",
+            "Imad Wasim",
+            "Shan Masood",
+            "Yasir Shah",
+            "Junaid Khan",
+            "Umar Akmal",
+            "Mohammad Rizwan (wk)"
+        ]
+    }
 }

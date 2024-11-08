@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Morne van Wyk",
-                    "dismissal": "c Dhoni b Yuvraj Singh",
+                    "dismissal": "c (wk)Dhoni b Yuvraj Singh",
                     "runs": "82",
                     "balls": "126",
                     "minutes": "163",
@@ -84,7 +84,7 @@
                     "strike_rate": "67.79"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "55",
                     "balls": "55",
@@ -265,7 +265,7 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b Ntini",
                     "runs": "0",
                     "balls": "4",
@@ -375,5 +375,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 5 balls remaining)"
+    "result": "India won by 6 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Makhaya Ntini",
+            "Herschelle Gibbs",
+            "Thandi Tshabalala",
+            "Jean-Paul Duminy",
+            "Charl Langeveldt",
+            "Mark Boucher (wk)",
+            "Andrew Hall",
+            "Morne van Wyk",
+            "Jacques Kallis(c)",
+            "Andre Nel"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Piyush Chawla",
+            "Dinesh Karthik",
+            "Yuvraj Singh",
+            "Rahul Dravid(c)",
+            "Sachin Tendulkar",
+            "Ishant Sharma",
+            "RP Singh",
+            "Ramesh Powar"
+        ]
+    }
 }

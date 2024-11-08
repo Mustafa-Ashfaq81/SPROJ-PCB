@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "c Dravid b Srinath",
+                    "dismissal": "c (wk)Dravid b Srinath",
                     "runs": "26",
                     "balls": "24",
                     "minutes": "42",
@@ -90,7 +90,7 @@
                     "strike_rate": "133.33"
                 }
             ],
-            "did_not_bat": "Ridley Jacobs , Pedro Collins , Mervyn Dillon , Mahendra Nagamootoo , Vasbert Drakes",
+            "did_not_bat": "Ridley Jacobs (wk) , Pedro Collins , Mervyn Dillon , Mahendra Nagamootoo , Vasbert Drakes",
             "fall_of_wickets": "Fall of wickets : 1 - 80 ( Wavell Hinds , 8.6 ov ) , 2 - 90 ( Marlon Samuels , 13.5 ov ) , 3 - 238 ( Chris Gayle , 39.2 ov ) , 4 - 258 ( Shivnarine Chanderpaul , 42.2 ov )",
             "bowling": [
                 {
@@ -216,7 +216,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Jacobs b Collins",
+                    "dismissal": "c (wk)Jacobs b Collins",
                     "runs": "28",
                     "balls": "16",
                     "minutes": "32",
@@ -245,7 +245,7 @@
                     "strike_rate": "89.18"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "not out",
                     "runs": "109",
                     "balls": "124",
@@ -375,5 +375,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 14 balls remaining)"
+    "result": "India won by 5 wickets (with 14 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Carl Hooper(c)",
+            "Mahendra Nagamootoo",
+            "Pedro Collins",
+            "Shivnarine Chanderpaul",
+            "Vasbert Drakes"
+        ],
+        "India": [
+            "Rahul Dravid (wk)",
+            "Sanjay Bangar",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Murali Kartik",
+            "Yuvraj Singh",
+            "Javagal Srinath",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Virender Sehwag",
+            "Harbhajan Singh"
+        ]
+    }
 }

@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "st Kamran Akmal b Arshad Khan",
+                    "dismissal": "st (wk)Kamran Akmal b Arshad Khan",
                     "runs": "26",
                     "balls": "57",
                     "minutes": "72",
@@ -103,8 +103,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
-                    "dismissal": "run out (Yasir Hameed/Kamran Akmal)",
+                    "batsman": "Geraint Jones (wk)",
+                    "dismissal": "run out (Yasir Hameed/ (wk)Kamran Akmal)",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "8",
@@ -264,7 +264,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Trescothick b Anderson",
                     "runs": "11",
                     "balls": "13",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "st Jones b Udal",
+                    "dismissal": "st (wk)Jones b Udal",
                     "runs": "57",
                     "balls": "105",
                     "minutes": "111",
@@ -454,5 +454,33 @@
             ]
         }
     ],
-    "result": "England won by 6 runs"
+    "result": "England won by 6 runs",
+    "playing_xi": {
+        "England": [
+            "Liam Plunkett",
+            "Marcus Trescothick(c)",
+            "Paul Collingwood",
+            "Vikram Solanki",
+            "Steve Harmison",
+            "Shaun Udal",
+            "Andrew Strauss",
+            "Andrew Flintoff",
+            "Geraint Jones (wk)",
+            "Ian Blackwell",
+            "Matt Prior"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Abdul Razzaq",
+            "Yasir Hameed",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Younis Khan(c)",
+            "Mohammad Yousuf",
+            "Danish Kaneria",
+            "Salman Butt",
+            "Arshad Khan",
+            "Shoaib Malik"
+        ]
+    }
 }

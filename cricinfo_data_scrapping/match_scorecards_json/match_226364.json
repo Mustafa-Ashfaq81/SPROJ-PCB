@@ -33,7 +33,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Astle b Franklin",
                     "runs": "3",
                     "balls": "13",
@@ -310,7 +310,7 @@
                     "strike_rate": "67.64"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c White b Clark",
                     "runs": "2",
                     "balls": "10",
@@ -331,7 +331,7 @@
                 },
                 {
                     "batsman": "James Franklin",
-                    "dismissal": "c Gilchrist b Symonds",
+                    "dismissal": "c (wk)Gilchrist b Symonds",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Australia won by 147 runs"
+    "result": "Australia won by 147 runs",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Bracken",
+            "Adam Gilchrist (wk)",
+            "Michael Clarke",
+            "Michael Hussey",
+            "Andrew Symonds",
+            "Brad Hodge",
+            "Brett Lee",
+            "Stuart Clark",
+            "Simon Katich",
+            "Ricky Ponting(c)",
+            "Brad Hogg"
+        ],
+        "New Zealand": [
+            "Lou Vincent",
+            "Jacob Oram",
+            "Daniel Vettori(c)",
+            "Chris Cairns",
+            "Nathan Astle",
+            "James Franklin",
+            "James Marshall",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Scott Styris",
+            "Hamish Marshall"
+        ]
+    }
 }

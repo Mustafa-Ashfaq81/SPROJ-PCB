@@ -90,7 +90,7 @@
                     "strike_rate": "91.66"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Khawaja b Zampa",
                     "runs": "0",
                     "balls": "1",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Dhoni b Jadeja",
+                    "dismissal": "c (wk)Dhoni b Jadeja",
                     "runs": "16",
                     "balls": "27",
                     "minutes": "-",
@@ -297,7 +297,7 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "b Kuldeep Yadav",
                     "runs": "22",
                     "balls": "24",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Pat Cummins",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "India won by 8 runs"
+    "result": "India won by 8 runs",
+    "playing_xi": {
+        "India": [
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kedar Jadhav",
+            "Mohammed Shami",
+            "Vijay Shankar",
+            "Ambati Rayudu",
+            "Virat Kohli(c)",
+            "MS Dhoni (wk)"
+        ],
+        "Australia": [
+            "Shaun Marsh",
+            "Alex Carey (wk)",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Peter Handscomb",
+            "Nathan Coulter-Nile",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Adam Zampa",
+            "Nathan Lyon",
+            "Marcus Stoinis"
+        ]
+    }
 }

@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Ihsanullah",
-                    "dismissal": "c NJ O'Brien b Rankin",
+                    "dismissal": "c (wk)NJ O'Brien b Rankin",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "-",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c NJ O'Brien b Rankin",
+                    "dismissal": "c (wk)NJ O'Brien b Rankin",
                     "runs": "50",
                     "balls": "75",
                     "minutes": "-",
@@ -113,7 +113,7 @@
                     "strike_rate": "97.95"
                 },
                 {
-                    "batsman": "Shafiqullah",
+                    "batsman": "Shafiqullah (wk)",
                     "dismissal": "c KJ O'Brien b Rankin",
                     "runs": "36",
                     "balls": "23",
@@ -260,7 +260,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Javed Ahmadi b Dawlat Zadran",
                     "runs": "4",
                     "balls": "7",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "George Dockrell",
-                    "dismissal": "c Shafiqullah b Dawlat Zadran",
+                    "dismissal": "c (wk)Shafiqullah b Dawlat Zadran",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "-",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 138 runs"
+    "result": "Afghanistan won by 138 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Nasir Jamal",
+            "Dawlat Zadran",
+            "Mujeeb Ur Rahman",
+            "Ihsanullah",
+            "Gulbadin Naib",
+            "Rashid Khan",
+            "Rahmat Shah",
+            "Javed Ahmadi",
+            "Shafiqullah (wk)",
+            "Asghar Afghan(c)"
+        ],
+        "Ireland": [
+            "William Porterfield(c)",
+            "Stuart Poynter",
+            "Gary Wilson",
+            "Niall O'Brien (wk)",
+            "Andy Balbirnie",
+            "Simi Singh",
+            "Kevin O'Brien",
+            "Tim Murtagh",
+            "Paul Stirling",
+            "George Dockrell",
+            "Boyd Rankin"
+        ]
+    }
 }

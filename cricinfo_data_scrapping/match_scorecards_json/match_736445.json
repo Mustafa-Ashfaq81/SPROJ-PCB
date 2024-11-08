@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "George Bailey(c)",
-                    "dismissal": "c de Kock b Morkel",
+                    "dismissal": "c (wk)de Kock b Morkel",
                     "runs": "66",
                     "balls": "54",
                     "minutes": "81",
@@ -92,7 +92,7 @@
                     "strike_rate": "163.15"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Amla b Steyn",
                     "runs": "9",
                     "balls": "7",
@@ -219,7 +219,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Faulkner b Starc",
                     "runs": "19",
                     "balls": "18",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 20 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 20 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Kane Richardson",
+            "Steven Smith",
+            "Mitchell Johnson",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Mitchell Marsh",
+            "Phillip Hughes",
+            "Aaron Finch"
+        ],
+        "South Africa": [
+            "Ryan McLaren",
+            "Dale Steyn",
+            "Morne Morkel",
+            "Imran Tahir",
+            "Wayne Parnell",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ]
+    }
 }

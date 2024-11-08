@@ -9,7 +9,7 @@
         "toss": "Australia, elected to field first",
         "series": [
             "NatWest Series",
-            "Bangladesh tour of England"
+            "Australia tour of England and Scotland"
         ],
         "season": "2005",
         "player_of_the_match": "Shahriar Nafees",
@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Javed Omer",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "0",
                     "balls": "10",
                     "minutes": "18",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "75",
                     "balls": "116",
                     "minutes": "152",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar(c)",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "30",
                     "balls": "24",
                     "minutes": "28",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "14",
@@ -92,7 +92,7 @@
                     "strike_rate": "63.63"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "71",
                     "balls": "105",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Mohammad Rafique",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "15",
                     "balls": "13",
                     "minutes": "20",
@@ -219,7 +219,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Khaled Mahmud b Tapash Baisya",
                     "runs": "45",
                     "balls": "36",
@@ -230,7 +230,7 @@
                 },
                 {
                     "batsman": "Matthew Hayden",
-                    "dismissal": "c Khaled Mashud b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Khaled Mashud b Mashrafe Mortaza",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "20",
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 11 balls remaining)"
+    "result": "Australia won by 6 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Javed Omer",
+            "Tushar Imran",
+            "Aftab Ahmed",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Mashrafe Mortaza",
+            "Mohammad Rafique",
+            "Habibul Bashar(c)",
+            "Khaled Mahmud",
+            "Khaled Mashud (wk)",
+            "Shahriar Nafees"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Michael Hussey",
+            "Shane Watson"
+        ]
+    }
 }

@@ -84,7 +84,7 @@
                     "strike_rate": "101.00"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Mosaddek Hossain b Shakib Al Hasan",
                     "runs": "63",
                     "balls": "38",
@@ -246,7 +246,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "112",
                     "balls": "119",
                     "minutes": "212",
@@ -275,7 +275,7 @@
                     "strike_rate": "96.15"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c sub (SW Billings) b Rashid",
                     "runs": "12",
                     "balls": "12",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "4",
@@ -336,7 +336,7 @@
                 },
                 {
                     "batsman": "Taskin Ahmed",
-                    "dismissal": "c Buttler b Ball",
+                    "dismissal": "c (wk)Buttler b Ball",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "8",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "England won by 21 runs"
+    "result": "England won by 21 runs",
+    "playing_xi": {
+        "England": [
+            "Ben Duckett",
+            "Chris Woakes",
+            "Jos Buttler(c) (wk)",
+            "Jason Roy",
+            "Adil Rashid",
+            "Jake Ball",
+            "David Willey",
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Ben Stokes",
+            "James Vince"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mosharraf Hossain",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Taskin Ahmed",
+            "Mashrafe Mortaza(c)",
+            "Sabbir Rahman",
+            "Imrul Kayes",
+            "Shakib Al Hasan",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

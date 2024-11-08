@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "st Taibu b Utseya",
+                    "dismissal": "st (wk)Taibu b Utseya",
                     "runs": "26",
                     "balls": "19",
                     "minutes": "27",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Taibu b SW Masakadza",
+                    "dismissal": "c (wk)Taibu b SW Masakadza",
                     "runs": "24",
                     "balls": "18",
                     "minutes": "34",
@@ -60,7 +60,7 @@
                     "strike_rate": "110.25"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "c SW Masakadza b H Masakadza",
                     "runs": "109",
                     "balls": "99",
@@ -279,7 +279,7 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Botha",
                     "runs": "28",
                     "balls": "28",
@@ -350,7 +350,7 @@
                 },
                 {
                     "batsman": "Ian Nicolson",
-                    "dismissal": "c de Villiers b Theron",
+                    "dismissal": "c (wk)de Villiers b Theron",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 272 runs"
+    "result": "South Africa won by 272 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Colin Ingram",
+            "Wayne Parnell",
+            "Rusty Theron",
+            "Hashim Amla",
+            "Lonwabo Tsotsobe",
+            "AB de Villiers (wk)",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Albie Morkel",
+            "Graeme Smith(c)"
+        ],
+        "Zimbabwe": [
+            "Elton Chigumbura(c)",
+            "Hamilton Masakadza",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Ian Nicolson",
+            "Chamu Chibhabha",
+            "Brendan Taylor",
+            "Keith Dabengwa",
+            "Graeme Cremer",
+            "Shingi Masakadza",
+            "Tatenda Taibu (wk)"
+        ]
+    }
 }

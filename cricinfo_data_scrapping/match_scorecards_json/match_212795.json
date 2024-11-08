@@ -30,8 +30,8 @@
             "extras": "31",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c GO Jones b Harmison",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)GO Jones b Harmison",
                     "runs": "42",
                     "balls": "51",
                     "minutes": "68",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Damien Martyn",
-                    "dismissal": "c GO Jones b Collingwood",
+                    "dismissal": "c (wk)GO Jones b Collingwood",
                     "runs": "43",
                     "balls": "71",
                     "minutes": "104",
@@ -214,7 +214,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Gilchrist b Hogg",
+                    "dismissal": "c (wk)Gilchrist b Hogg",
                     "runs": "41",
                     "balls": "84",
                     "minutes": "110",
@@ -233,7 +233,7 @@
                     "strike_rate": "90.76"
                 }
             ],
-            "did_not_bat": "Kevin Pietersen , Andrew Flintoff , Paul Collingwood , Geraint Jones , Ashley Giles , Vikram Solanki , Darren Gough , Steve Harmison",
+            "did_not_bat": "Kevin Pietersen , Andrew Flintoff , Paul Collingwood , Geraint Jones (wk) , Ashley Giles , Vikram Solanki , Darren Gough , Steve Harmison",
             "fall_of_wickets": "Fall of wickets : 1 - 101 ( Andrew Strauss , 24.3 ov )",
             "bowling": [
                 {
@@ -323,5 +323,33 @@
             ]
         }
     ],
-    "result": "England won by 9 wickets (with 24 balls remaining)"
+    "result": "England won by 9 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Michael Hussey",
+            "Shane Watson"
+        ],
+        "England": [
+            "Vikram Solanki",
+            "Andrew Flintoff",
+            "Darren Gough",
+            "Steve Harmison",
+            "Michael Vaughan(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Ashley Giles",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Marcus Trescothick"
+        ]
+    }
 }

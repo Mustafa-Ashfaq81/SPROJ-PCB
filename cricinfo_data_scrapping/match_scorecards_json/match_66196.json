@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Taibu b Rainsford",
+                    "dismissal": "c (wk)Taibu b Rainsford",
                     "runs": "25",
                     "balls": "30",
                     "minutes": "48",
@@ -91,7 +91,7 @@
                     "strike_rate": "86.02"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "b Hondo",
                     "runs": "38",
                     "balls": "43",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Dion Ebrahim",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "5",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Mark Vermeulen",
-                    "dismissal": "c Jones b Harmison",
+                    "dismissal": "c (wk)Jones b Harmison",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "2",
@@ -282,7 +282,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "hit wicket b Giles",
                     "runs": "40",
                     "balls": "61",
@@ -333,7 +333,7 @@
                 },
                 {
                     "batsman": "Ed Rainsford",
-                    "dismissal": "c Jones b Giles",
+                    "dismissal": "c (wk)Jones b Giles",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "4",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "England won by 152 runs"
+    "result": "England won by 152 runs",
+    "playing_xi": {
+        "England": [
+            "Steve Harmison",
+            "Andrew Strauss",
+            "Vikram Solanki",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Michael Vaughan(c)",
+            "Ashley Giles",
+            "Andrew Flintoff",
+            "Alex Wharf",
+            "Darren Gough",
+            "Geraint Jones (wk)"
+        ],
+        "Zimbabwe": [
+            "Ed Rainsford",
+            "Tinashe Panyangara",
+            "Tatenda Taibu(c) (wk)",
+            "Prosper Utseya",
+            "Elton Chigumbura",
+            "Brendan Taylor",
+            "Douglas Hondo",
+            "Dion Ebrahim",
+            "Stuart Matsikenyeri",
+            "Mark Vermeulen",
+            "Vusi Sibanda"
+        ]
+    }
 }

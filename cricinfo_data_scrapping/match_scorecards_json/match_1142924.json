@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "c Murray b Roche",
+                    "dismissal": "c (wk)Murray b Roche",
                     "runs": "85",
                     "balls": "83",
                     "minutes": "107",
@@ -80,7 +80,7 @@
                     "strike_rate": "112.50"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "not out",
                     "runs": "6",
                     "balls": "6",
@@ -217,7 +217,7 @@
                     "strike_rate": "73.58"
                 },
                 {
-                    "batsman": "Ryan Murray",
+                    "batsman": "Ryan Murray (wk)",
                     "dismissal": "b Mohammad Nawaz",
                     "runs": "47",
                     "balls": "70",
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 131 runs"
+    "result": "Pakistan won by 131 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Sarfaraz Ahmed(c) (wk)",
+            "Fakhar Zaman",
+            "Shadab Khan",
+            "Asif Ali",
+            "Mohammad Amir",
+            "Babar Azam",
+            "Imam-ul-Haq",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Mohammad Nawaz",
+            "Hasan Ali"
+        ],
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Hamilton Masakadza(c)",
+            "Chris Mpofu",
+            "Liam Roche",
+            "Tendai Chatara",
+            "Ryan Murray (wk)",
+            "Peter Moor",
+            "Donald Tiripano",
+            "Wellington Masakadza",
+            "Tinashe Kamunhukamwe",
+            "Prince Masvaure"
+        ]
+    }
 }

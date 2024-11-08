@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "23",
                     "balls": "32",
                     "minutes": "39",
@@ -43,7 +43,7 @@
                     "strike_rate": "71.87"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Pandya b Chahal",
                     "runs": "20",
                     "balls": "36",
@@ -270,7 +270,7 @@
                     "strike_rate": "92.00"
                 }
             ],
-            "did_not_bat": "Ajinkya Rahane , MS Dhoni , Kedar Jadhav , Hardik Pandya , Bhuvneshwar Kumar , Kuldeep Yadav , Jasprit Bumrah , Yuzvendra Chahal",
+            "did_not_bat": "Ajinkya Rahane , MS Dhoni (wk) , Kedar Jadhav , Hardik Pandya , Bhuvneshwar Kumar , Kuldeep Yadav , Jasprit Bumrah , Yuzvendra Chahal",
             "fall_of_wickets": "Fall of wickets : 1 - 26 ( Rohit Sharma , 3.5 ov )",
             "bowling": [
                 {
@@ -346,5 +346,33 @@
             ]
         }
     ],
-    "result": "India won by 9 wickets (with 177 balls remaining)"
+    "result": "India won by 9 wickets (with 177 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Aiden Markram(c)",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Hashim Amla",
+            "Chris Morris",
+            "David Miller",
+            "Khaya Zondo",
+            "Imran Tahir",
+            "Tabraiz Shamsi",
+            "Morne Morkel",
+            "Jean-Paul Duminy"
+        ],
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

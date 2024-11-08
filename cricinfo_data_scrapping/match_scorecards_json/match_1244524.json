@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie(c)",
-                    "dismissal": "c Aravind b Ahmed Raza",
+                    "dismissal": "c (wk)Aravind b Ahmed Raza",
                     "runs": "53",
                     "balls": "61",
                     "minutes": "75",
@@ -74,7 +74,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "b Rohan Mustafa",
                     "runs": "4",
                     "balls": "10",
@@ -202,7 +202,7 @@
             "batting": [
                 {
                     "batsman": "Zawar Farid",
-                    "dismissal": "c Tucker b McCarthy",
+                    "dismissal": "c (wk)Tucker b McCarthy",
                     "runs": "15",
                     "balls": "20",
                     "minutes": "33",
@@ -211,7 +211,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Vriitya Aravind",
+                    "batsman": "Vriitya Aravind (wk)",
                     "dismissal": "c sub (JA McCollum) b McCarthy",
                     "runs": "14",
                     "balls": "13",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Alishan Sharafu",
-                    "dismissal": "c Tucker b Campher",
+                    "dismissal": "c (wk)Tucker b Campher",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "20",
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 6 wickets (with 6 balls remaining)"
+    "result": "U.A.E. won by 6 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Harry Tector",
+            "Mark Adair",
+            "Craig Young",
+            "Curtis Campher",
+            "Andy Balbirnie(c)",
+            "Barry McCarthy",
+            "Gareth Delany",
+            "Lorcan Tucker (wk)",
+            "Paul Stirling",
+            "Andy McBrine",
+            "Kevin O'Brien"
+        ],
+        "United Arab Emirates": [
+            "CP Rizwan",
+            "Karthik Meiyappan",
+            "Zahoor Khan",
+            "Waheed Ahmed",
+            "Kashif Daud",
+            "Rohan Mustafa",
+            "Muhammad Usman",
+            "Zawar Farid",
+            "Vriitya Aravind (wk)",
+            "Alishan Sharafu",
+            "Ahmed Raza (c)"
+        ]
+    }
 }

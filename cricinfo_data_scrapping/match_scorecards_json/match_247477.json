@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "18",
                     "balls": "34",
                     "minutes": "66",
@@ -61,8 +61,8 @@
                     "strike_rate": "52.94"
                 },
                 {
-                    "batsman": "Niall O'Brien",
-                    "dismissal": "c Ramdin b Bradshaw",
+                    "batsman": "Niall O'Brien (wk)",
+                    "dismissal": "c (wk)Ramdin b Bradshaw",
                     "runs": "11",
                     "balls": "19",
                     "minutes": "21",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Andre Botha",
-                    "dismissal": "c Ramdin b Gayle",
+                    "dismissal": "c (wk)Ramdin b Gayle",
                     "runs": "28",
                     "balls": "56",
                     "minutes": "76",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "John Mooney",
-                    "dismissal": "c Ramdin b Bravo",
+                    "dismissal": "c (wk)Ramdin b Bravo",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -268,7 +268,7 @@
                     "strike_rate": "87.09"
                 }
             ],
-            "did_not_bat": "Brian Lara (c) , Dwayne Bravo , Dwayne Smith , Denesh Ramdin , Ian Bradshaw , Jerome Taylor , Daren Powell",
+            "did_not_bat": "Brian Lara (c) , Dwayne Bravo , Dwayne Smith , Denesh Ramdin (wk) , Ian Bradshaw , Jerome Taylor , Daren Powell",
             "fall_of_wickets": "Fall of wickets : 1 - 24 ( Chris Gayle , 4.3 ov ) , 2 - 143 ( Ramnaresh Sarwan , 27.4 ov )",
             "bowling": [
                 {
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 8 wickets (with 59 balls remaining) (D/L method)"
+    "result": "West Indies won by 8 wickets (with 59 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Ireland": [
+            "John Mooney",
+            "William Porterfield",
+            "Kevin O'Brien",
+            "Jeremy Bray",
+            "Dave Langford-Smith",
+            "Boyd Rankin",
+            "Eoin Morgan",
+            "Kyle McCallan(c)",
+            "Niall O'Brien (wk)",
+            "Andre Botha",
+            "Andrew White"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Marlon Samuels",
+            "Jerome Taylor",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Shivnarine Chanderpaul",
+            "Daren Powell",
+            "Brian Lara (c)"
+        ]
+    }
 }

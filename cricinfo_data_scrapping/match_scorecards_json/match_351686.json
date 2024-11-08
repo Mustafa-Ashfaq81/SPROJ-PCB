@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "st Boucher b Botha",
+                    "dismissal": "st (wk)Boucher b Botha",
                     "runs": "43",
                     "balls": "63",
                     "minutes": "119",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "run out (de Villiers/Boucher)",
+                    "dismissal": "run out (de Villiers/ (wk)Boucher)",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "17",
@@ -80,7 +80,7 @@
                     "strike_rate": "81.81"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c & b Botha",
                     "runs": "6",
                     "balls": "15",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Haddin b Tait",
+                    "dismissal": "c (wk)Haddin b Tait",
                     "runs": "60",
                     "balls": "72",
                     "minutes": "91",
@@ -297,7 +297,7 @@
                     "strike_rate": "64.28"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "31",
                     "balls": "44",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 3 wickets (with 21 balls remaining)"
+    "result": "South Africa won by 3 wickets (with 21 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "Shaun Tait",
+            "David Warner",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Shaun Marsh",
+            "David Hussey",
+            "Nathan Bracken"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Makhaya Ntini",
+            "Neil McKenzie",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Johan Botha(c)",
+            "Herschelle Gibbs",
+            "AB de Villiers"
+        ]
+    }
 }

@@ -35,7 +35,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Samuels b Dillon",
                     "runs": "21",
                     "balls": "26",
@@ -213,7 +213,7 @@
                 },
                 {
                     "batsman": "Ricardo Powell",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "37",
                     "balls": "37",
                     "minutes": "64",
@@ -223,7 +223,7 @@
                 },
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "c Gilchrist b Harvey",
+                    "dismissal": "c (wk)Gilchrist b Harvey",
                     "runs": "26",
                     "balls": "38",
                     "minutes": "56",
@@ -233,7 +233,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Gilchrist b Harvey",
+                    "dismissal": "c (wk)Gilchrist b Harvey",
                     "runs": "23",
                     "balls": "28",
                     "minutes": "43",
@@ -272,7 +272,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "b McGrath",
                     "runs": "7",
                     "balls": "8",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 runs (D/L method)"
+    "result": "Australia won by 2 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Andy Bichel",
+            "Darren Lehmann",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Andrew Symonds",
+            "Ian Harvey",
+            "Matthew Hayden",
+            "Brett Lee",
+            "Glenn McGrath"
+        ],
+        "West Indies": [
+            "Omari Banks",
+            "Marlon Samuels",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Brian Lara(c)",
+            "Vasbert Drakes",
+            "Devon Smith",
+            "Carlton Baugh (wk)"
+        ]
+    }
 }

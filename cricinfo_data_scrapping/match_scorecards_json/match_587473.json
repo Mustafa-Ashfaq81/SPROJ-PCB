@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Thomas b Narine",
+                    "dismissal": "c (wk)Thomas b Narine",
                     "runs": "22",
                     "balls": "30",
                     "minutes": "47",
@@ -63,7 +63,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "c Sammy b Permaul",
                     "runs": "38",
                     "balls": "58",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "st Thomas b Narine",
+                    "dismissal": "st (wk)Thomas b Narine",
                     "runs": "0",
                     "balls": "11",
                     "minutes": "13",
@@ -269,7 +269,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "14",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Kieran Powell",
-                    "dismissal": "st Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "47",
                     "balls": "59",
                     "minutes": "100",
@@ -328,7 +328,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "not out",
                     "runs": "12",
                     "balls": "22",
@@ -452,5 +452,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 4 wickets (with 18 balls remaining)"
+    "result": "West Indies won by 4 wickets (with 18 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mashrafe Mortaza",
+            "Mominul Haque",
+            "Sohag Gazi",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Mushfiqur Rahim(c) (wk)",
+            "Anamul Haque",
+            "Nasir Hossain",
+            "Mahmudullah"
+        ],
+        "West Indies": [
+            "Kieron Pollard",
+            "Sunil Narine",
+            "Kieran Powell",
+            "Veerasammy Permaul",
+            "Darren Bravo",
+            "Ravi Rampaul",
+            "Dwayne Smith",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Devon Thomas (wk)",
+            "Daren Sammy(c)"
+        ]
+    }
 }

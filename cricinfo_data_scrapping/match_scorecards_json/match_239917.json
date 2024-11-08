@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "run out (Chanderpaul/Baugh)",
+                    "dismissal": "run out (Chanderpaul/ (wk)Baugh)",
                     "runs": "61",
                     "balls": "89",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                     "strike_rate": "68.53"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "run out (Gayle)",
                     "runs": "15",
                     "balls": "26",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Venugopal Rao",
-                    "dismissal": "run out (Edwards/Baugh)",
+                    "dismissal": "run out (Edwards/ (wk)Baugh)",
                     "runs": "11",
                     "balls": "28",
                     "minutes": "-",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Dhoni b Agarkar",
+                    "dismissal": "c (wk)Dhoni b Agarkar",
                     "runs": "40",
                     "balls": "65",
                     "minutes": "-",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "run out (Pathan/Dhoni)",
+                    "dismissal": "run out (Pathan/ (wk)Dhoni)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "-",
@@ -321,7 +321,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "not out",
                     "runs": "1",
                     "balls": "2",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 4 wickets (with 1 ball remaining)"
+    "result": "West Indies won by 4 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "India": [
+            "Ramesh Powar",
+            "Mohammad Kaif",
+            "Venugopal Rao",
+            "Irfan Pathan",
+            "Ajit Agarkar",
+            "MS Dhoni (wk)",
+            "Rahul Dravid(c)",
+            "Virender Sehwag",
+            "Sreesanth",
+            "Suresh Raina",
+            "Harbhajan Singh"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Marlon Samuels",
+            "Carlton Baugh (wk)",
+            "Jerome Taylor",
+            "Dwayne Bravo",
+            "Runako Morton",
+            "Brian Lara(c)",
+            "Ramnaresh Sarwan",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards"
+        ]
+    }
 }

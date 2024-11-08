@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "run out (Jadeja/Dhoni)",
+                    "dismissal": "run out (Jadeja/ (wk)Dhoni)",
                     "runs": "74",
                     "balls": "85",
                     "minutes": "118",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Dhoni b Jadeja",
+                    "dismissal": "c (wk)Dhoni b Jadeja",
                     "runs": "21",
                     "balls": "26",
                     "minutes": "33",
@@ -92,7 +92,7 @@
                     "strike_rate": "128.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Raina b Kumar",
                     "runs": "51",
                     "balls": "41",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "5",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "10",
                     "balls": "32",
                     "minutes": "41",
@@ -269,7 +269,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Shoaib Malik",
                     "runs": "56",
                     "balls": "71",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "run out (Kamran Akmal)",
+                    "dismissal": "run out ( (wk)Kamran Akmal)",
                     "runs": "34",
                     "balls": "27",
                     "minutes": "47",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "India won by 3 wickets (with 1 ball remaining)"
+    "result": "India won by 3 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Saeed Ajmal",
+            "Umar Amin",
+            "Salman Butt",
+            "Imran Farhat",
+            "Kamran Akmal (wk)",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Amir",
+            "Umar Akmal",
+            "Shoaib Akhtar"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "Zaheer Khan",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "Harbhajan Singh",
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

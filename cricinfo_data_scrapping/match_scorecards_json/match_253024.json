@@ -27,8 +27,8 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Freddie Klokker(c)",
-                    "dismissal": "c Smits b Seelaar",
+                    "batsman": "Freddie Klokker(c) (wk)",
+                    "dismissal": "c (wk)Smits b Seelaar",
                     "runs": "35",
                     "balls": "60",
                     "minutes": "69",
@@ -255,7 +255,7 @@
                 },
                 {
                     "batsman": "Daan van Bunge",
-                    "dismissal": "st Klokker b Malcolm-Hansen",
+                    "dismissal": "st (wk)Klokker b Malcolm-Hansen",
                     "runs": "15",
                     "balls": "15",
                     "minutes": "14",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Bas Zuiderent",
-                    "dismissal": "st Klokker b Hamid Zaman",
+                    "dismissal": "st (wk)Klokker b Hamid Zaman",
                     "runs": "24",
                     "balls": "41",
                     "minutes": "48",
@@ -304,7 +304,7 @@
                     "strike_rate": "37.50"
                 }
             ],
-            "did_not_bat": "Billy Stelling , Jeroen Smits , Pieter Seelaar",
+            "did_not_bat": "Billy Stelling , Jeroen Smits (wk) , Pieter Seelaar",
             "fall_of_wickets": "Fall of wickets : 1 - 66 ( Eric Szwarczynski ) , 2 - 92 ( Tom de Grooth ) , 3 - 112 ( Daan van Bunge ) , 4 - 120 ( Alexei Kervezee ) , 5 - 186 ( Bas Zuiderent ) , 6 - 221 ( Ryan ten Doeschate )",
             "bowling": [
                 {
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 4 wickets (with 1 ball remaining)"
+    "result": "Netherlands won by 4 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "Denmark": [
+            "Johan Malcolm",
+            "Gerrit Mueller",
+            "Carsten Pedersen",
+            "Henrik Hansen",
+            "Freddie Klokker(c) (wk)",
+            "Baljit Singh",
+            "Michael Pedersen",
+            "Hamid Zaman",
+            "Rohit Kanaiya",
+            "Yasir Iqbal",
+            "Zishan Shah"
+        ],
+        "Netherlands": [
+            "Pieter Seelaar",
+            "Tom de Grooth",
+            "Ryan ten Doeschate",
+            "Billy Stelling",
+            "Luuk van Troost(c)",
+            "Tim de Leede",
+            "Daan van Bunge",
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Alexei Kervezee",
+            "Jeroen Smits (wk)"
+        ]
+    }
 }

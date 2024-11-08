@@ -39,7 +39,7 @@
                 },
                 {
                     "batsman": "Lepono Ndhlovu",
-                    "dismissal": "c Hamza Tariq b Khurram Chohan",
+                    "dismissal": "c (wk)Hamza Tariq b Khurram Chohan",
                     "runs": "2",
                     "balls": "21",
                     "minutes": "27",
@@ -58,7 +58,7 @@
                     "strike_rate": "52.38"
                 },
                 {
-                    "batsman": "Phillimon Selowa",
+                    "batsman": "Phillimon Selowa (wk)",
                     "dismissal": "c Gunasekera b Hansra",
                     "runs": "6",
                     "balls": "29",
@@ -89,7 +89,7 @@
                 },
                 {
                     "batsman": "Richard Okia",
-                    "dismissal": "run out (Raza-ur-Rehman/Hamza Tariq)",
+                    "dismissal": "run out (Raza-ur-Rehman/ (wk)Hamza Tariq)",
                     "runs": "19",
                     "balls": "44",
                     "minutes": "58",
@@ -265,7 +265,7 @@
                     "strike_rate": "63.23"
                 }
             ],
-            "did_not_bat": "Raza-ur-Rehman , Trevin Bastiampillai , Hamza Tariq , Usman Limbada , Khurram Chohan , Harvir Baidwan , Parth Desai , Jeremy Gordon",
+            "did_not_bat": "Raza-ur-Rehman , Trevin Bastiampillai , Hamza Tariq (wk) , Usman Limbada , Khurram Chohan , Harvir Baidwan , Parth Desai , Jeremy Gordon",
             "fall_of_wickets": "Fall of wickets : 1 - 33 ( Nitish Kumar , 8.1 ov )",
             "bowling": [
                 {
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Canada won by 59 runs (D/L method)"
+    "result": "Canada won by 59 runs (D/L method)",
+    "playing_xi": {
+        "Uganda": [
+            "Phillimon Selowa (wk)",
+            "Lepono Ndhlovu",
+            "Charles Waiswa",
+            "Frank Nsubuga",
+            "Richard Okia",
+            "Raymond Otim",
+            "Hamza Saleh",
+            "Brian Masaba",
+            "Davis Karashani(c)",
+            "Benjamin Musoke",
+            "Patrick Ochan"
+        ],
+        "Canada": [
+            "Jeremy Gordon",
+            "Raza-ur-Rehman",
+            "Khurram Chohan",
+            "Ruvindu Gunasekera",
+            "Harvir Baidwan",
+            "Nitish Kumar",
+            "Hamza Tariq (wk)",
+            "Parth Desai",
+            "Trevin Bastiampillai",
+            "Usman Limbada",
+            "Jimmy Hansra(c)"
+        ]
+    }
 }

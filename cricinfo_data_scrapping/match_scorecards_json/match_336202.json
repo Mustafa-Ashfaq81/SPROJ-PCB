@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Zunaed Siddique",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "21",
                     "balls": "44",
                     "minutes": "80",
@@ -90,7 +90,7 @@
                     "strike_rate": "22.22"
                 },
                 {
-                    "batsman": "Dhiman Ghosh",
+                    "batsman": "Dhiman Ghosh (wk)",
                     "dismissal": "c Watson b Clark",
                     "runs": "30",
                     "balls": "36",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "8",
                     "balls": "27",
                     "minutes": "43",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "st Dhiman Ghosh b Shakib Al Hasan",
+                    "dismissal": "st (wk)Dhiman Ghosh b Shakib Al Hasan",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "9",
@@ -277,7 +277,7 @@
                     "strike_rate": "40.00"
                 }
             ],
-            "did_not_bat": "James Hopes , David Hussey , Brad Haddin , Cameron White , Mitchell Johnson , Nathan Bracken , Stuart Clark",
+            "did_not_bat": "James Hopes , David Hussey , Brad Haddin (wk) , Cameron White , Mitchell Johnson , Nathan Bracken , Stuart Clark",
             "fall_of_wickets": "Fall of wickets : 1 - 73 ( Shane Watson , 12.5 ov ) , 2 - 79 ( Michael Clarke , 14.2 ov )",
             "bowling": [
                 {
@@ -339,5 +339,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 164 balls remaining)"
+    "result": "Australia won by 8 wickets (with 164 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mehrab Hossain jnr",
+            "Dhiman Ghosh (wk)",
+            "Abdur Razzak",
+            "Nazmul Hossain",
+            "Shahadat Hossain",
+            "Tamim Iqbal",
+            "Shakib Al Hasan",
+            "Alok Kapali",
+            "Mashrafe Mortaza",
+            "Zunaed Siddique",
+            "Mohammad Ashraful(c)"
+        ],
+        "Australia": [
+            "Stuart Clark",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Nathan Bracken",
+            "Michael Clarke(c)",
+            "Cameron White",
+            "Mitchell Johnson",
+            "James Hopes",
+            "Brad Haddin (wk)",
+            "David Hussey"
+        ]
+    }
 }

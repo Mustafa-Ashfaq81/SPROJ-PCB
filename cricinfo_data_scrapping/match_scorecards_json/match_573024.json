@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Aaron Finch",
-                    "dismissal": "c Thomas b Sammy",
+                    "dismissal": "c (wk)Thomas b Sammy",
                     "runs": "38",
                     "balls": "41",
                     "minutes": "61",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Phillip Hughes",
-                    "dismissal": "c Thomas b Sammy",
+                    "dismissal": "c (wk)Thomas b Sammy",
                     "runs": "86",
                     "balls": "93",
                     "minutes": "133",
@@ -90,7 +90,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "5",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Kieran Powell",
-                    "dismissal": "c Wade b Maxwell",
+                    "dismissal": "c (wk)Wade b Maxwell",
                     "runs": "47",
                     "balls": "49",
                     "minutes": "67",
@@ -241,7 +241,7 @@
                     "strike_rate": "95.91"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "c Hughes b McKay",
                     "runs": "19",
                     "balls": "25",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "c Wade b McKay",
+                    "dismissal": "c (wk)Wade b McKay",
                     "runs": "43",
                     "balls": "31",
                     "minutes": "41",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Australia won by 39 runs"
+    "result": "Australia won by 39 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Michael Clarke(c)",
+            "George Bailey",
+            "James Faulkner",
+            "Matthew Wade (wk)",
+            "Mitchell Starc",
+            "Clint McKay",
+            "Aaron Finch",
+            "Shane Watson",
+            "Glenn Maxwell",
+            "Phillip Hughes"
+        ],
+        "West Indies": [
+            "Kieron Pollard",
+            "Kemar Roach",
+            "Sunil Narine",
+            "Kieran Powell",
+            "Darren Bravo",
+            "Dwayne Bravo",
+            "Ramnaresh Sarwan",
+            "Andre Russell",
+            "Chris Gayle",
+            "Devon Thomas (wk)",
+            "Daren Sammy(c)"
+        ]
+    }
 }

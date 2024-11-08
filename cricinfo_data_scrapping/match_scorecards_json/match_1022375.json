@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Azhar Ali",
-                    "dismissal": "run out (Dhoni/Bumrah)",
+                    "dismissal": "run out ( (wk)Dhoni/Bumrah)",
                     "runs": "59",
                     "balls": "71",
                     "minutes": "99",
@@ -90,7 +90,7 @@
                     "strike_rate": "119.04"
                 }
             ],
-            "did_not_bat": "Sarfaraz Ahmed (c) , Mohammad Amir , Shadab Khan , Hasan Ali , Junaid Khan",
+            "did_not_bat": "Sarfaraz Ahmed (c) (wk) , Mohammad Amir , Shadab Khan , Hasan Ali , Junaid Khan",
             "fall_of_wickets": "Fall of wickets : 1 - 128 ( Azhar Ali , 22.6 ov ) , 2 - 200 ( Fakhar Zaman , 33.1 ov ) , 3 - 247 ( Shoaib Malik , 39.4 ov ) , 4 - 267 ( Babar Azam , 42.3 ov )",
             "bowling": [
                 {
@@ -198,7 +198,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Amir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Amir",
                     "runs": "21",
                     "balls": "22",
                     "minutes": "42",
@@ -227,7 +227,7 @@
                     "strike_rate": "70.96"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Imad Wasim b Hasan Ali",
                     "runs": "4",
                     "balls": "16",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Kedar Jadhav",
-                    "dismissal": "c Sarfaraz Ahmed b Shadab Khan",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Shadab Khan",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "18",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "11",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Jasprit Bumrah",
-                    "dismissal": "c Sarfaraz Ahmed b Hasan Ali",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Hasan Ali",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "10",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 180 runs"
+    "result": "Pakistan won by 180 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Sarfaraz Ahmed (c) (wk)",
+            "Babar Azam",
+            "Mohammad Amir",
+            "Fakhar Zaman",
+            "Junaid Khan",
+            "Hasan Ali",
+            "Shadab Khan",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Imad Wasim",
+            "Azhar Ali"
+        ],
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Kedar Jadhav",
+            "Yuvraj Singh",
+            "Shikhar Dhawan",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Virat Kohli(c)",
+            "Jasprit Bumrah",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

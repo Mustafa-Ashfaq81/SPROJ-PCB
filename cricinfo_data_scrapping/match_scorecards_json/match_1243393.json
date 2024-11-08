@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "28",
                     "balls": "42",
                     "minutes": "79",
@@ -76,7 +76,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "not out",
                     "runs": "62",
                     "balls": "43",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Rahul b Thakur",
+                    "dismissal": "c (wk)Rahul b Thakur",
                     "runs": "22",
                     "balls": "30",
                     "minutes": "36",
@@ -243,7 +243,7 @@
                     "strike_rate": "73.33"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "lbw b Thakur",
                     "runs": "2",
                     "balls": "4",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Moeen Ali",
-                    "dismissal": "c Rahul b Kumar",
+                    "dismissal": "c (wk)Rahul b Kumar",
                     "runs": "30",
                     "balls": "37",
                     "minutes": "54",
@@ -294,7 +294,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "c Rahul b Kumar",
+                    "dismissal": "c (wk)Rahul b Kumar",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "5",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "India won by 66 runs"
+    "result": "India won by 66 runs",
+    "playing_xi": {
+        "India": [
+            "Shardul Thakur",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli(c)",
+            "Prasidh Krishna",
+            "Kuldeep Yadav",
+            "Shreyas Iyer",
+            "KL Rahul (wk)",
+            "Rohit Sharma",
+            "Hardik Pandya",
+            "Krunal Pandya",
+            "Shikhar Dhawan"
+        ],
+        "England": [
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "Mark Wood",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Sam Curran",
+            "Jason Roy",
+            "Ben Stokes",
+            "Adil Rashid",
+            "Tom Curran",
+            "Sam Billings"
+        ]
+    }
 }

@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Mushfiqur Rahim b Abu Jayed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Abu Jayed",
                     "runs": "20",
                     "balls": "20",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                     "strike_rate": "157.14"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "c Shakib Al Hasan b Abu Jayed",
                     "runs": "12",
                     "balls": "6",
@@ -248,8 +248,8 @@
                     "strike_rate": "98.03"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Wilson b Rankin",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Wilson b Rankin",
                     "runs": "35",
                     "balls": "33",
                     "minutes": "-",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Mosaddek Hossain",
-                    "dismissal": "c Wilson b Adair",
+                    "dismissal": "c (wk)Wilson b Adair",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "-",
@@ -364,5 +364,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 42 balls remaining)"
+    "result": "Bangladesh won by 6 wickets (with 42 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Andy Balbirnie",
+            "Boyd Rankin",
+            "William Porterfield(c)",
+            "Josh Little",
+            "James McCollum",
+            "Barry McCarthy",
+            "Mark Adair",
+            "Gary Wilson (wk)",
+            "Paul Stirling",
+            "George Dockrell",
+            "Kevin O'Brien"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Mohammad Saifuddin",
+            "Mashrafe Mortaza (c)",
+            "Sabbir Rahman",
+            "Rubel Hossain",
+            "Mosaddek Hossain",
+            "Litton Das",
+            "Abu Jayed",
+            "Shakib Al Hasan",
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "18",
                     "balls": "27",
                     "minutes": "44",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "26",
                     "balls": "32",
                     "minutes": "43",
@@ -90,7 +90,7 @@
                     "strike_rate": "111.11"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "lbw b Malinga",
                     "runs": "2",
                     "balls": "5",
@@ -261,7 +261,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "19",
@@ -375,5 +375,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 75 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 75 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jamie Dalrymple",
+            "Liam Plunkett",
+            "Vikram Solanki",
+            "Alastair Cook",
+            "Andrew Strauss(c)",
+            "Steve Harmison",
+            "Geraint Jones (wk)",
+            "Marcus Trescothick",
+            "Tim Bresnan",
+            "Ian Bell",
+            "Kabir Ali"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Dilhara Fernando",
+            "Upul Tharanga",
+            "Lasith Malinga",
+            "Mahela Jayawardene(c)",
+            "Chaminda Vaas",
+            "Farveez Maharoof",
+            "Chamara Kapugedera",
+            "Malinga Bandara"
+        ]
+    }
 }

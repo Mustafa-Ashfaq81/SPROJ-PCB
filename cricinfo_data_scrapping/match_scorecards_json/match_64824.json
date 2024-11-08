@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "79",
                     "balls": "102",
                     "minutes": "-",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "80",
                     "balls": "101",
                     "minutes": "-",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "32",
                     "balls": "37",
                     "minutes": "-",
@@ -93,7 +93,7 @@
                     "strike_rate": "153.84"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "not out",
                     "runs": "7",
                     "balls": "7",
@@ -200,7 +200,7 @@
             "extras": "24",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Hinds b Collymore",
                     "runs": "11",
                     "balls": "13",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 39 runs"
+    "result": "West Indies won by 39 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Brian Lara(c)",
+            "Ryan Hurley",
+            "David Bernard"
+        ],
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Jimmy Maher",
+            "Andrew Symonds",
+            "Michael Bevan",
+            "Ian Harvey",
+            "Nathan Hauritz",
+            "Brett Lee",
+            "Glenn McGrath"
+        ]
+    }
 }

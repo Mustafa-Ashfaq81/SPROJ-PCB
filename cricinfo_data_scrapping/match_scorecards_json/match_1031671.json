@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Hope b Holder",
+                    "dismissal": "c (wk)Hope b Holder",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -80,7 +80,7 @@
                     "strike_rate": "115.87"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Cummins",
                     "runs": "2",
                     "balls": "4",
@@ -257,8 +257,8 @@
                     "strike_rate": "162.50"
                 },
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "c Buttler b Plunkett",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "20",
                     "balls": "25",
                     "minutes": "40",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "11",
                     "balls": "11",
                     "minutes": "17",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "England won by 124 runs"
+    "result": "England won by 124 runs",
+    "playing_xi": {
+        "England": [
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "Jos Buttler (wk)",
+            "Alex Hales",
+            "David Willey",
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Ben Stokes"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Ashley Nurse",
+            "Miguel Cummins",
+            "Rovman Powell",
+            "Jerome Taylor",
+            "Jason Mohammed",
+            "Chris Gayle",
+            "Shai Hope (wk)",
+            "Jason Holder(c)",
+            "Evin Lewis",
+            "Devendra Bishoo"
+        ]
+    }
 }

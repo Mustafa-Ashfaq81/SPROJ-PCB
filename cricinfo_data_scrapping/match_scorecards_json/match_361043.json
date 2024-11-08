@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Harmison",
                     "runs": "39",
                     "balls": "32",
@@ -212,7 +212,7 @@
             "batting": [
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "25",
                     "balls": "35",
                     "minutes": "47",
@@ -221,7 +221,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c Sehwag b Patel",
                     "runs": "4",
                     "balls": "9",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen(c)",
-                    "dismissal": "run out (Sharma/Dhoni)",
+                    "dismissal": "run out (Sharma/ (wk)Dhoni)",
                     "runs": "63",
                     "balls": "56",
                     "minutes": "98",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "19",
                     "balls": "23",
                     "minutes": "31",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Samit Patel",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "28",
                     "balls": "28",
                     "minutes": "31",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Steve Harmison",
-                    "dismissal": "run out (Harbhajan Singh/Dhoni)",
+                    "dismissal": "run out (Harbhajan Singh/ (wk)Dhoni)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "2",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "India won by 158 runs"
+    "result": "India won by 158 runs",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)",
+            "RP Singh",
+            "Zaheer Khan",
+            "Yuvraj Singh",
+            "Rohit Sharma",
+            "Virender Sehwag",
+            "Yusuf Pathan",
+            "Harbhajan Singh",
+            "Munaf Patel"
+        ],
+        "England": [
+            "Ian Bell",
+            "James Anderson",
+            "Matt Prior (wk)",
+            "Samit Patel",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Owais Shah",
+            "Andrew Flintoff",
+            "Kevin Pietersen(c)",
+            "Steve Harmison"
+        ]
+    }
 }

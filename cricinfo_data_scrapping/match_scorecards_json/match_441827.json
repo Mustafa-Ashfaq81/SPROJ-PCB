@@ -60,7 +60,7 @@
                     "strike_rate": "78.57"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Morkel b Kallis",
                     "runs": "26",
                     "balls": "29",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "58",
                     "balls": "63",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "22",
                     "balls": "20",
                     "minutes": "-",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Alviro Petersen",
-                    "dismissal": "run out (Sreesanth/Dhoni)",
+                    "dismissal": "run out (Sreesanth/ (wk)Dhoni)",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "-",
@@ -297,8 +297,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Dhoni b Sreesanth",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Dhoni b Sreesanth",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "-",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Wayne Parnell",
-                    "dismissal": "run out (Sreesanth/Dhoni)",
+                    "dismissal": "run out (Sreesanth/ (wk)Dhoni)",
                     "runs": "49",
                     "balls": "47",
                     "minutes": "-",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "India won by 1 run"
+    "result": "India won by 1 run",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "Ashish Nehra",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Dinesh Karthik",
+            "Virender Sehwag",
+            "Praveen Kumar",
+            "Yusuf Pathan",
+            "Suresh Raina",
+            "Sreesanth",
+            "MS Dhoni(c) (wk)"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Albie Morkel",
+            "Alviro Petersen",
+            "Herschelle Gibbs",
+            "Johan Botha",
+            "Charl Langeveldt",
+            "Loots Bosman",
+            "Dale Steyn",
+            "Wayne Parnell",
+            "Jacques Kallis(c)"
+        ]
+    }
 }

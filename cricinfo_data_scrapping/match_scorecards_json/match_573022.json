@@ -94,7 +94,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "c Clarke b Faulkner",
                     "runs": "3",
                     "balls": "11",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Sunil Narine",
-                    "dismissal": "c Wade b McKay",
+                    "dismissal": "c (wk)Wade b McKay",
                     "runs": "0",
                     "balls": "11",
                     "minutes": "12",
@@ -224,7 +224,7 @@
                 },
                 {
                     "batsman": "Aaron Finch",
-                    "dismissal": "c Thomas b Holder",
+                    "dismissal": "c (wk)Thomas b Holder",
                     "runs": "10",
                     "balls": "6",
                     "minutes": "18",
@@ -243,7 +243,7 @@
                     "strike_rate": "53.33"
                 }
             ],
-            "did_not_bat": "Phillip Hughes , Michael Clarke (c) , George Bailey , Matthew Wade , James Faulkner , Mitchell Johnson , Mitchell Starc , Clint McKay",
+            "did_not_bat": "Phillip Hughes , Michael Clarke (c) , George Bailey , Matthew Wade (wk) , James Faulkner , Mitchell Johnson , Mitchell Starc , Clint McKay",
             "fall_of_wickets": "Fall of wickets : 1 - 39 ( Aaron Finch , 3.3 ov )",
             "bowling": [
                 {
@@ -291,5 +291,33 @@
             ]
         }
     ],
-    "result": "Australia won by 9 wickets (with 244 balls remaining)"
+    "result": "Australia won by 9 wickets (with 244 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kieron Pollard",
+            "Jason Holder",
+            "Kemar Roach",
+            "Sunil Narine",
+            "Kieran Powell",
+            "Darren Bravo",
+            "Dwayne Bravo",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Devon Thomas (wk)",
+            "Daren Sammy(c)"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "George Bailey",
+            "James Faulkner",
+            "Usman Khawaja",
+            "Michael Clarke (c)",
+            "Matthew Wade (wk)",
+            "Mitchell Starc",
+            "Clint McKay",
+            "Aaron Finch",
+            "Glenn Maxwell",
+            "Phillip Hughes"
+        ]
+    }
 }

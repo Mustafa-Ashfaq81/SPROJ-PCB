@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Chandrapaul Hemraj",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "15",
                     "balls": "20",
                     "minutes": "-",
@@ -53,7 +53,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "b Bumrah",
                     "runs": "95",
                     "balls": "113",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Dhoni b Ahmed",
+                    "dismissal": "c (wk)Dhoni b Ahmed",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "-",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Shimron Hetmyer",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "37",
                     "balls": "21",
                     "minutes": "-",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Rishabh Pant",
-                    "dismissal": "c Hope b Nurse",
+                    "dismissal": "c (wk)Hope b Nurse",
                     "runs": "24",
                     "balls": "18",
                     "minutes": "-",
@@ -276,8 +276,8 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "c Hope b Holder",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "c (wk)Hope b Holder",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "-",
@@ -317,7 +317,7 @@
                 },
                 {
                     "batsman": "Khaleel Ahmed",
-                    "dismissal": "st Hope b Samuels",
+                    "dismissal": "st (wk)Hope b Samuels",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "-",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 43 runs"
+    "result": "West Indies won by 43 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Kemar Roach",
+            "Kieran Powell",
+            "Shimron Hetmyer",
+            "Fabian Allen",
+            "Rovman Powell",
+            "Obed McCoy",
+            "Chandrapaul Hemraj",
+            "Marlon Samuels",
+            "Jason Holder(c)",
+            "Ashley Nurse",
+            "Shai Hope (wk)"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Yuzvendra Chahal",
+            "Bhuvneshwar Kumar",
+            "Rishabh Pant",
+            "Ambati Rayudu",
+            "Khaleel Ahmed",
+            "Virat Kohli(c)",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

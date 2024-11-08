@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "38",
                     "balls": "51",
                     "minutes": "58",
@@ -100,7 +100,7 @@
                     "strike_rate": "74.50"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "b Pollock",
                     "runs": "25",
                     "balls": "44",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "st Rashid Latif b Danish Kaneria",
+                    "dismissal": "st (wk)Rashid Latif b Danish Kaneria",
                     "runs": "34",
                     "balls": "63",
                     "minutes": "87",
@@ -287,7 +287,7 @@
                     "strike_rate": "64.28"
                 }
             ],
-            "did_not_bat": "Mark Boucher (c) , Shaun Pollock , Alan Dawson , Robin Peterson , Andre Nel , Makhaya Ntini",
+            "did_not_bat": "Mark Boucher (c) (wk) , Shaun Pollock , Alan Dawson , Robin Peterson , Andre Nel , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 75 ( Herschelle Gibbs , 19.1 ov ) , 2 - 168 ( Jacques Kallis , 39.2 ov ) , 3 - 170 ( Boeta Dippenaar , 39.4 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 25 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 25 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Rashid Latif (wk)",
+            "Yasir Hameed",
+            "Mohammad Yousuf",
+            "Danish Kaneria",
+            "Younis Khan",
+            "Mohammad Hafeez",
+            "Inzamam-ul-Haq(c)",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Shoaib Akhtar"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Neil McKenzie",
+            "Shaun Pollock",
+            "Jacques Kallis",
+            "Robin Peterson",
+            "Andre Nel",
+            "Boeta Dippenaar",
+            "Alan Dawson",
+            "Herschelle Gibbs",
+            "Mark Boucher (c) (wk)",
+            "Jacques Rudolph"
+        ]
+    }
 }

@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "55",
                     "balls": "61",
                     "minutes": "59",
@@ -83,7 +83,7 @@
                     "strike_rate": "118.18"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "c Shoaib Malik b Umar Gul",
                     "runs": "5",
                     "balls": "8",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Brendan Nash",
-                    "dismissal": "run out (Kamran Akmal)",
+                    "dismissal": "run out ( (wk)Kamran Akmal)",
                     "runs": "9",
                     "balls": "8",
                     "minutes": "17",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Khurram Manzoor",
-                    "dismissal": "c Baugh b Taylor",
+                    "dismissal": "c (wk)Baugh b Taylor",
                     "runs": "69",
                     "balls": "89",
                     "minutes": "118",
@@ -300,7 +300,7 @@
                     "strike_rate": "104.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "24",
                     "balls": "9",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 1 ball remaining)"
+    "result": "Pakistan won by 4 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Xavier Marshall",
+            "Nikita Miller",
+            "Ramnaresh Sarwan",
+            "Daren Powell",
+            "Lionel Baker",
+            "Chris Gayle(c)",
+            "Sewnarine Chattergoon",
+            "Brendan Nash",
+            "Shivnarine Chanderpaul",
+            "Jerome Taylor",
+            "Carlton Baugh (wk)"
+        ],
+        "Pakistan": [
+            "Khurram Manzoor",
+            "Misbah-ul-Haq",
+            "Abdur Rauf",
+            "Fawad Alam",
+            "Umar Gul",
+            "Younis Khan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Sohail Tanvir",
+            "Salman Butt",
+            "Shoaib Malik(c)"
+        ]
+    }
 }

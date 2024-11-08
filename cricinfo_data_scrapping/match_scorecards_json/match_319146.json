@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "16",
                     "balls": "34",
                     "minutes": "60",
@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "20",
                     "balls": "22",
                     "minutes": "38",
@@ -105,7 +105,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Marshall b Bravo",
                     "runs": "12",
                     "balls": "9",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Ronchi b Lee",
+                    "dismissal": "c (wk)Ronchi b Lee",
                     "runs": "63",
                     "balls": "79",
                     "minutes": "117",
@@ -292,7 +292,7 @@
                     "strike_rate": "64.28"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "not out",
                     "runs": "5",
                     "balls": "9",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Australia won by 1 run"
+    "result": "Australia won by 1 run",
+    "playing_xi": {
+        "Australia": [
+            "Luke Ronchi (wk)",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Nathan Bracken",
+            "Michael Clarke(c)",
+            "Mitchell Johnson",
+            "Brett Lee",
+            "James Hopes",
+            "Andrew Symonds",
+            "David Hussey"
+        ],
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Daren Powell",
+            "Ramnaresh Sarwan",
+            "Daren Sammy",
+            "Nikita Miller",
+            "Xavier Marshall",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Dwayne Bravo",
+            "Chris Gayle(c)",
+            "Shawn Findlay"
+        ]
+    }
 }

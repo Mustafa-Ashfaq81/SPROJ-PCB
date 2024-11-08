@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c de Kock b Wiese",
+                    "dismissal": "c (wk)de Kock b Wiese",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "16",
@@ -80,7 +80,7 @@
                     "strike_rate": "90.62"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Rabada",
                     "runs": "0",
                     "balls": "1",
@@ -223,8 +223,8 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Buttler b Topley",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Buttler b Topley",
                     "runs": "4",
                     "balls": "17",
                     "minutes": "24",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "st Buttler b Ali",
+                    "dismissal": "st (wk)Buttler b Ali",
                     "runs": "59",
                     "balls": "93",
                     "minutes": "131",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 36 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 36 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Stuart Broad",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "Alex Hales",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Reece Topley",
+            "Ben Stokes",
+            "Moeen Ali"
+        ],
+        "South Africa": [
+            "Rilee Rossouw",
+            "Farhaan Behardien",
+            "Kyle Abbott",
+            "AB de Villiers(c)",
+            "David Wiese",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "Chris Morris",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Imran Tahir"
+        ]
+    }
 }

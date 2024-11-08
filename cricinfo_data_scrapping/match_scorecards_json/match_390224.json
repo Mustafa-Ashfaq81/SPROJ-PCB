@@ -30,8 +30,8 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Raymond van Schoor",
-                    "dismissal": "c Sultan Ahmed b Farhan Khan",
+                    "batsman": "Raymond van Schoor (wk)",
+                    "dismissal": "c (wk)Sultan Ahmed b Farhan Khan",
                     "runs": "11",
                     "balls": "29",
                     "minutes": "39",
@@ -305,7 +305,7 @@
                     "strike_rate": "97.05"
                 },
                 {
-                    "batsman": "Sultan Ahmed",
+                    "batsman": "Sultan Ahmed (wk)",
                     "dismissal": "c BM Scholtz b SF Burger",
                     "runs": "20",
                     "balls": "32",
@@ -326,7 +326,7 @@
                 },
                 {
                     "batsman": "Hemal Mehta(c)",
-                    "dismissal": "c van Schoor b SF Burger",
+                    "dismissal": "c (wk)van Schoor b SF Burger",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "6",
@@ -479,5 +479,33 @@
             ]
         }
     ],
-    "result": "Namibia won by 119 runs"
+    "result": "Namibia won by 119 runs",
+    "playing_xi": {
+        "Namibia": [
+            "Bjorn Kotze",
+            "Sarel Burger",
+            "Craig Williams",
+            "Deon Kotze",
+            "Raymond van Schoor (wk)",
+            "Gerrie Snyman",
+            "Louis Burger(c)",
+            "Nicolaas Scholtz",
+            "Ian van Zyl",
+            "Bernard Scholtz",
+            "Louis Klazinga"
+        ],
+        "Oman": [
+            "Farhan Khan",
+            "Amir Ali",
+            "Adnan Ilyas",
+            "Haider Ali",
+            "Sultan Ahmed (wk)",
+            "Nilesh Parmar",
+            "Hemal Mehta(c)",
+            "Zeeshan Siddiqui",
+            "Tariq Hussain",
+            "Awal Khan",
+            "Maqsood Hussain"
+        ]
+    }
 }

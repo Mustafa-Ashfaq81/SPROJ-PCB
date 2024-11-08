@@ -53,7 +53,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Southee",
                     "runs": "6",
                     "balls": "9",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi(c)",
-                    "dismissal": "c McCullum b Bennett",
+                    "dismissal": "c (wk)McCullum b Bennett",
                     "runs": "65",
                     "balls": "25",
                     "minutes": "26",
@@ -270,7 +270,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "run out (Umar Akmal)",
                     "runs": "12",
                     "balls": "13",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 43 runs"
+    "result": "Pakistan won by 43 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Abdul Razzaq",
+            "Kamran Akmal (wk)",
+            "Wahab Riaz",
+            "Ahmed Shehzad",
+            "Umar Gul",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Sohail Tanvir",
+            "Misbah-ul-Haq",
+            "Umar Akmal"
+        ],
+        "New Zealand": [
+            "Jamie How",
+            "Brendon McCullum (wk)",
+            "Martin Guptill",
+            "Hamish Bennett",
+            "Kyle Mills",
+            "Ross Taylor(c)",
+            "Tim Southee",
+            "Scott Styris",
+            "Kane Williamson",
+            "Luke Woodcock",
+            "Jacob Oram"
+        ]
+    }
 }

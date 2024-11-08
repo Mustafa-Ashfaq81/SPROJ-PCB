@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "c MDKJ Perera b NLTC Perera",
+                    "dismissal": "c (wk)MDKJ Perera b NLTC Perera",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "13",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c MDKJ Perera b Mathews",
+                    "dismissal": "c (wk)MDKJ Perera b Mathews",
                     "runs": "8",
                     "balls": "18",
                     "minutes": "22",
@@ -95,7 +95,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Thirimanne b BAW Mendis",
                     "runs": "50",
                     "balls": "67",
@@ -106,7 +106,7 @@
                 },
                 {
                     "batsman": "Ben Cutting",
-                    "dismissal": "c MDKJ Perera b Malinga",
+                    "dismissal": "c (wk)MDKJ Perera b Malinga",
                     "runs": "27",
                     "balls": "45",
                     "minutes": "58",
@@ -126,7 +126,7 @@
                 },
                 {
                     "batsman": "Clint McKay",
-                    "dismissal": "c MDKJ Perera b NLTC Perera",
+                    "dismissal": "c (wk)MDKJ Perera b NLTC Perera",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "15",
@@ -243,7 +243,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -272,7 +272,7 @@
                     "strike_rate": "76.11"
                 },
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "16",
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 59 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 59 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Brad Haddin (wk)",
+            "Kane Richardson",
+            "Steven Smith",
+            "Ben Cutting",
+            "Clint McKay",
+            "Aaron Finch",
+            "Xavier Doherty",
+            "David Hussey",
+            "Phillip Hughes",
+            "Glenn Maxwell",
+            "George Bailey(c)"
+        ],
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene (c)",
+            "Tillakaratne Dilshan",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Ajantha Mendis",
+            "Kusal Perera (wk)",
+            "Jeevan Mendis",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

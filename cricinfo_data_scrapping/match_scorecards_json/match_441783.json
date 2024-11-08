@@ -29,7 +29,7 @@
             "batting": [
                 {
                     "batsman": "Alexei Kervezee",
-                    "dismissal": "c Ouma b NN Odhiambo",
+                    "dismissal": "c (wk)Ouma b NN Odhiambo",
                     "runs": "6",
                     "balls": "18",
                     "minutes": "-",
@@ -39,7 +39,7 @@
                 },
                 {
                     "batsman": "Eric Szwarczynski",
-                    "dismissal": "c Ouma b Otieno",
+                    "dismissal": "c (wk)Ouma b Otieno",
                     "runs": "23",
                     "balls": "36",
                     "minutes": "-",
@@ -89,7 +89,7 @@
                 },
                 {
                     "batsman": "Tim Gruijters",
-                    "dismissal": "st Ouma b Varaiya",
+                    "dismissal": "st (wk)Ouma b Varaiya",
                     "runs": "29",
                     "balls": "43",
                     "minutes": "-",
@@ -99,7 +99,7 @@
                 },
                 {
                     "batsman": "Mudassar Bukhari",
-                    "dismissal": "c Ouma b NN Odhiambo",
+                    "dismissal": "c (wk)Ouma b NN Odhiambo",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -108,7 +108,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Atse Buurman",
+                    "batsman": "Atse Buurman (wk)",
                     "dismissal": "not out",
                     "runs": "30",
                     "balls": "32",
@@ -119,7 +119,7 @@
                 },
                 {
                     "batsman": "Mark Jonkman",
-                    "dismissal": "st Ouma b Varaiya",
+                    "dismissal": "st (wk)Ouma b Varaiya",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "-",
@@ -236,7 +236,7 @@
             "batting": [
                 {
                     "batsman": "David Obuya",
-                    "dismissal": "c Buurman b Mudassar Bukhari",
+                    "dismissal": "c (wk)Buurman b Mudassar Bukhari",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -265,7 +265,7 @@
                     "strike_rate": "93.75"
                 },
                 {
-                    "batsman": "Morris Ouma(c)",
+                    "batsman": "Morris Ouma(c) (wk)",
                     "dismissal": "lbw b Mudassar Bukhari",
                     "runs": "3",
                     "balls": "11",
@@ -296,7 +296,7 @@
                 },
                 {
                     "batsman": "Nehemiah Odhiambo",
-                    "dismissal": "c Buurman b Borren",
+                    "dismissal": "c (wk)Buurman b Borren",
                     "runs": "19",
                     "balls": "22",
                     "minutes": "-",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 80 runs"
+    "result": "Netherlands won by 80 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Ryan ten Doeschate",
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Peter Borren(c)",
+            "Tom de Grooth",
+            "Atse Buurman (wk)",
+            "Mudassar Bukhari",
+            "Mark Jonkman",
+            "Pieter Seelaar",
+            "Tim Gruijters",
+            "Alexei Kervezee"
+        ],
+        "Kenya": [
+            "Alex Obanda",
+            "Nehemiah Odhiambo",
+            "David Obuya",
+            "Elijah Otieno",
+            "Rakep Patel",
+            "Jimmy Kamande",
+            "Morris Ouma(c) (wk)",
+            "Shem Ngoche",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Nelson Odhiambo"
+        ]
+    }
 }

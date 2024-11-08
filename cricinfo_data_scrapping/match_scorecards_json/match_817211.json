@@ -30,7 +30,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Mustafizur Rahman",
                     "runs": "7",
                     "balls": "8",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Hashim Amla(c)",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "15",
                     "balls": "35",
                     "minutes": "62",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "6",
                     "balls": "17",
                     "minutes": "22",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Rilee Rossouw",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "17",
                     "balls": "27",
                     "minutes": "37",
@@ -257,7 +257,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Mahmudullah , Shakib Al Hasan , Mushfiqur Rahim , Sabbir Rahman , Nasir Hossain , Mashrafe Mortaza (c) , Rubel Hossain , Mustafizur Rahman",
+            "did_not_bat": "Mahmudullah , Shakib Al Hasan , Mushfiqur Rahim (wk) , Sabbir Rahman , Nasir Hossain , Mashrafe Mortaza (c) , Rubel Hossain , Mustafizur Rahman",
             "fall_of_wickets": "Fall of wickets : 1 - 154 ( Soumya Sarkar , 24.4 ov )",
             "bowling": [
                 {
@@ -333,5 +333,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 9 wickets (with 83 balls remaining) (D/L method)"
+    "result": "Bangladesh won by 9 wickets (with 83 balls remaining) (D/L method)",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Farhaan Behardien",
+            "Kyle Abbott",
+            "Faf du Plessis",
+            "Hashim Amla(c)",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Morne Morkel",
+            "David Miller"
+        ],
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza (c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Litton Das",
+            "Sabbir Rahman",
+            "Nasir Hossain",
+            "Mushfiqur Rahim (wk)"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c SD Hope b Holder",
+                    "dismissal": "c (wk)SD Hope b Holder",
                     "runs": "57",
                     "balls": "66",
                     "minutes": "90",
@@ -70,8 +70,8 @@
                     "strike_rate": "86.36"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
-                    "dismissal": "c SD Hope b Holder",
+                    "batsman": "Tom Latham(c) (wk)",
+                    "dismissal": "c (wk)SD Hope b Holder",
                     "runs": "20",
                     "balls": "34",
                     "minutes": "36",
@@ -227,8 +227,8 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "c Latham b Boult",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "23",
                     "balls": "19",
                     "minutes": "32",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Sheldon Cottrell",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "8",
                     "balls": "11",
                     "minutes": "14",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 204 runs"
+    "result": "New Zealand won by 204 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Todd Astle",
+            "Tom Latham(c) (wk)",
+            "Doug Bracewell",
+            "Matt Henry",
+            "Trent Boult",
+            "Neil Broom",
+            "Henry Nicholls",
+            "Colin Munro",
+            "George Worker",
+            "Ross Taylor",
+            "Lockie Ferguson"
+        ],
+        "West Indies": [
+            "Shai Hope (wk)",
+            "Evin Lewis",
+            "Sheldon Cottrell",
+            "Jason Holder(c)",
+            "Shannon Gabriel",
+            "Rovman Powell",
+            "Kyle Hope",
+            "Ronsford Beaton",
+            "Ashley Nurse",
+            "Jason Mohammed",
+            "Shimron Hetmyer"
+        ]
+    }
 }

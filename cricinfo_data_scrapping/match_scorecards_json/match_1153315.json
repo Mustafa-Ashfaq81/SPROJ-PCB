@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Hope b Thomas",
+                    "dismissal": "c (wk)Hope b Thomas",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "-",
@@ -60,8 +60,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Hope b Thomas",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Hope b Thomas",
                     "runs": "62",
                     "balls": "80",
                     "minutes": "-",
@@ -227,7 +227,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "not out",
                     "runs": "146",
                     "balls": "144",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "26",
                     "balls": "45",
                     "minutes": "-",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 4 wickets (with 2 balls remaining)"
+    "result": "West Indies won by 4 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mustafizur Rahman",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Imrul Kayes",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "West Indies": [
+            "Chandrapaul Hemraj",
+            "Rovman Powell(c)",
+            "Oshane Thomas",
+            "Roston Chase",
+            "Devendra Bishoo",
+            "Kemar Roach",
+            "Darren Bravo",
+            "Shai Hope (wk)",
+            "Marlon Samuels",
+            "Keemo Paul",
+            "Shimron Hetmyer"
+        ]
+    }
 }

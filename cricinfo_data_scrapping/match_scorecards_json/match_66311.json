@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Chris Cairns",
-                    "dismissal": "st Jacobs b Sarwan",
+                    "dismissal": "st (wk)Jacobs b Sarwan",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "11",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "c Jacobs b Best",
+                    "dismissal": "c (wk)Jacobs b Best",
                     "runs": "15",
                     "balls": "22",
                     "minutes": "27",
@@ -121,7 +121,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Gareth Hopkins",
+                    "batsman": "Gareth Hopkins (wk)",
                     "dismissal": "run out (Best)",
                     "runs": "0",
                     "balls": "0",
@@ -318,7 +318,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "c Cairns b Harris",
                     "runs": "1",
                     "balls": "3",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 107 runs"
+    "result": "New Zealand won by 107 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Chris Cairns",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Ian Butler",
+            "Nathan Astle",
+            "Gareth Hopkins (wk)",
+            "Chris Harris",
+            "Daniel Vettori",
+            "Hamish Marshall",
+            "Jacob Oram",
+            "Scott Styris"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Dwayne Smith",
+            "Devon Smith",
+            "Dwayne Bravo",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ricardo Powell",
+            "Tino Best"
+        ]
+    }
 }

@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Boucher b Kemp",
+                    "dismissal": "c (wk)Boucher b Kemp",
                     "runs": "127",
                     "balls": "126",
                     "minutes": "150",
@@ -106,7 +106,7 @@
                     "strike_rate": "83.33"
                 }
             ],
-            "did_not_bat": "Venkatesh Prasad , Deep Dasgupta , Anil Kumble , Javagal Srinath",
+            "did_not_bat": "Venkatesh Prasad , Deep Dasgupta (wk) , Anil Kumble , Javagal Srinath",
             "fall_of_wickets": "Fall of wickets : 1 - 193 ( Sourav Ganguly , 35.2 ov ) , 2 - 198 ( Rahul Dravid , 37.5 ov ) , 3 - 242 ( Yuvraj Singh , 44.3 ov ) , 4 - 257 ( Virender Sehwag , 46.3 ov ) , 5 - 263 ( Sachin Tendulkar , 47.5 ov )",
             "bowling": [
                 {
@@ -214,7 +214,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Dasgupta b Srinath",
+                    "dismissal": "c (wk)Dasgupta b Srinath",
                     "runs": "48",
                     "balls": "45",
                     "minutes": "75",
@@ -263,7 +263,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Shaun Pollock (c) , Mark Boucher , Justin Kemp , Andre Nel , Makhaya Ntini",
+            "did_not_bat": "Shaun Pollock (c) , Mark Boucher (wk) , Justin Kemp , Andre Nel , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 114 ( Herschelle Gibbs , 17.4 ov ) , 2 - 207 ( Jacques Kallis , 36.4 ov ) , 3 - 242 ( Jonty Rhodes , 41.6 ov ) , 4 - 270 ( Lance Klusener , 46.4 ov )",
             "bowling": [
                 {
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 10 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Rahul Dravid",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Shiv Sunder Das",
+            "Deep Dasgupta (wk)",
+            "Venkatesh Prasad",
+            "Javagal Srinath",
+            "Ajit Agarkar",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)"
+        ],
+        "South Africa": [
+            "Lance Klusener",
+            "Andre Nel",
+            "Jonty Rhodes",
+            "Shaun Pollock (c)",
+            "Gary Kirsten",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Herschelle Gibbs",
+            "Neil McKenzie"
+        ]
+    }
 }

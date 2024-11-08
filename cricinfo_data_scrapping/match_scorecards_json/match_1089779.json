@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Noor Ali Zadran",
-                    "dismissal": "c Hope b Holder",
+                    "dismissal": "c (wk)Hope b Holder",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "-",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Javed Ahmadi",
-                    "dismissal": "c Hope b Cummins",
+                    "dismissal": "c (wk)Hope b Cummins",
                     "runs": "81",
                     "balls": "102",
                     "minutes": "-",
@@ -93,7 +93,7 @@
                     "strike_rate": "90.00"
                 },
                 {
-                    "batsman": "Afsar Zazai",
+                    "batsman": "Afsar Zazai (wk)",
                     "dismissal": "c Chase b Joseph",
                     "runs": "13",
                     "balls": "17",
@@ -230,7 +230,7 @@
                     "strike_rate": "22.22"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Mohammad Nabi b Rashid Khan",
                     "runs": "35",
                     "balls": "63",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 63 runs"
+    "result": "Afghanistan won by 63 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Javed Ahmadi",
+            "Dawlat Zadran",
+            "Noor Ali Zadran",
+            "Asghar Afghan(c)",
+            "Samiullah Shinwari",
+            "Amir Hamza",
+            "Rashid Khan",
+            "Afsar Zazai (wk)",
+            "Gulbadin Naib"
+        ],
+        "West Indies": [
+            "Shai Hope (wk)",
+            "Kieran Powell",
+            "Evin Lewis",
+            "Roston Chase",
+            "Jonathan Carter",
+            "Jason Holder(c)",
+            "Shannon Gabriel",
+            "Ashley Nurse",
+            "Jason Mohammed",
+            "Alzarri Joseph",
+            "Miguel Cummins"
+        ]
+    }
 }

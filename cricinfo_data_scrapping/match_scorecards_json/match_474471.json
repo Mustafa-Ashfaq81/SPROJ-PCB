@@ -33,7 +33,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "b Prasad",
                     "runs": "43",
                     "balls": "44",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "st Sangakkara b Randiv",
+                    "dismissal": "st (wk)Sangakkara b Randiv",
                     "runs": "31",
                     "balls": "35",
                     "minutes": "55",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "c Sangakkara b Prasad",
+                    "dismissal": "c (wk)Sangakkara b Prasad",
                     "runs": "5",
                     "balls": "7",
                     "minutes": "11",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "st Sangakkara b Dilshan",
+                    "dismissal": "st (wk)Sangakkara b Dilshan",
                     "runs": "57",
                     "balls": "60",
                     "minutes": "84",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Tim Bresnan",
-                    "dismissal": "c Sangakkara b Randiv",
+                    "dismissal": "c (wk)Sangakkara b Randiv",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "12",
@@ -260,7 +260,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Bresnan",
                     "runs": "48",
                     "balls": "75",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "st Kieswetter b Swann",
+                    "dismissal": "st (wk)Kieswetter b Swann",
                     "runs": "54",
                     "balls": "64",
                     "minutes": "65",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "Suraj Randiv",
-                    "dismissal": "run out (Swann/Anderson/Kieswetter)",
+                    "dismissal": "run out (Swann/Anderson/ (wk)Kieswetter)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "2",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "England won by 16 runs"
+    "result": "England won by 16 runs",
+    "playing_xi": {
+        "England": [
+            "Samit Patel",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Kevin Pietersen",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "Graeme Swann",
+            "James Anderson",
+            "Tim Bresnan",
+            "Eoin Morgan",
+            "Craig Kieswetter (wk)"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Tillakaratne Dilshan(c)",
+            "Dinesh Chandimal",
+            "Suraj Randiv",
+            "Dhammika Prasad",
+            "Angelo Mathews",
+            "Dimuth Karunaratne",
+            "Mahela Jayawardene",
+            "Jeevan Mendis",
+            "Nuwan Kulasekara"
+        ]
+    }
 }

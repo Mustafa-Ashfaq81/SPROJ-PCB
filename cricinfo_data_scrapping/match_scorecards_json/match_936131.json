@@ -35,7 +35,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b O'Brien",
                     "runs": "82",
                     "balls": "66",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Wilson b O'Brien",
+                    "dismissal": "c (wk)Wilson b O'Brien",
                     "runs": "14",
                     "balls": "16",
                     "minutes": "26",
@@ -208,8 +208,8 @@
                     "strike_rate": "41.66"
                 },
                 {
-                    "batsman": "Gary Wilson",
-                    "dismissal": "c de Kock b Pretorius",
+                    "batsman": "Gary Wilson (wk)",
+                    "dismissal": "c (wk)de Kock b Pretorius",
                     "runs": "3",
                     "balls": "18",
                     "minutes": "23",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 206 runs"
+    "result": "South Africa won by 206 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Dwaine Pretorius",
+            "David Miller",
+            "Wayne Parnell",
+            "Jean-Paul Duminy",
+            "Andile Phehlukwayo",
+            "Temba Bavuma",
+            "Farhaan Behardien",
+            "Quinton de Kock (wk)",
+            "Aaron Phangiso",
+            "Faf du Plessis(c)",
+            "Kagiso Rabada"
+        ],
+        "Ireland": [
+            "William Porterfield(c)",
+            "Tim Murtagh",
+            "George Dockrell",
+            "Kevin O'Brien",
+            "John Anderson",
+            "Sean Terry",
+            "Peter Chase",
+            "Paul Stirling",
+            "Gary Wilson (wk)",
+            "Stuart Poynter",
+            "Craig Young"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tom Latham",
-                    "dismissal": "c Mushfiqur Rahim b Mustafizur Rahman",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mustafizur Rahman",
                     "runs": "137",
                     "balls": "121",
                     "minutes": "218",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "31",
                     "balls": "36",
                     "minutes": "48",
@@ -90,7 +90,7 @@
                     "strike_rate": "142.62"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "b Taskin Ahmed",
                     "runs": "5",
                     "balls": "6",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Imrul Kayes",
-                    "dismissal": "c Ronchi b Southee",
+                    "dismissal": "c (wk)Ronchi b Southee",
                     "runs": "16",
                     "balls": "21",
                     "minutes": "33",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Ronchi b Neesham",
+                    "dismissal": "c (wk)Ronchi b Neesham",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -267,7 +267,7 @@
                     "strike_rate": "109.25"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "retired hurt",
                     "runs": "42",
                     "balls": "48",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Taskin Ahmed",
-                    "dismissal": "c Ronchi b Ferguson",
+                    "dismissal": "c (wk)Ronchi b Ferguson",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "11",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 77 runs"
+    "result": "New Zealand won by 77 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Neil Broom",
+            "Lockie Ferguson",
+            "Tom Latham",
+            "Colin Munro",
+            "Trent Boult",
+            "Luke Ronchi (wk)",
+            "Tim Southee",
+            "James Neesham"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mushfiqur Rahim (wk)",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Taskin Ahmed",
+            "Mashrafe Mortaza(c)",
+            "Mustafizur Rahman",
+            "Soumya Sarkar",
+            "Sabbir Rahman",
+            "Imrul Kayes",
+            "Shakib Al Hasan"
+        ]
+    }
 }

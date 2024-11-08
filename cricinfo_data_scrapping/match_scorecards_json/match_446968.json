@@ -43,7 +43,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Finn b Yardy",
                     "runs": "27",
                     "balls": "58",
@@ -230,8 +230,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Steven Davies",
-                    "dismissal": "c Haddin b Bollinger",
+                    "batsman": "Steven Davies (wk)",
+                    "dismissal": "c (wk)Haddin b Bollinger",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "12",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Liam Plunkett",
-                    "dismissal": "c Haddin b Tait",
+                    "dismissal": "c (wk)Haddin b Tait",
                     "runs": "20",
                     "balls": "32",
                     "minutes": "39",
@@ -321,7 +321,7 @@
                 },
                 {
                     "batsman": "James Anderson",
-                    "dismissal": "c Haddin b Hastings",
+                    "dismissal": "c (wk)Haddin b Hastings",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "14",
@@ -420,5 +420,33 @@
             ]
         }
     ],
-    "result": "Australia won by 57 runs"
+    "result": "Australia won by 57 runs",
+    "playing_xi": {
+        "Australia": [
+            "Adam Voges",
+            "Mitchell Johnson",
+            "Shaun Tait",
+            "Callum Ferguson",
+            "David Hussey",
+            "Tim Paine",
+            "Cameron White(c)",
+            "John Hastings",
+            "Brad Haddin (wk)",
+            "Doug Bollinger",
+            "Jason Krejza"
+        ],
+        "England": [
+            "Ian Bell",
+            "Andrew Strauss(c)",
+            "Matt Prior",
+            "Liam Plunkett",
+            "Jonathan Trott",
+            "Michael Yardy",
+            "Luke Wright",
+            "James Anderson",
+            "Steven Davies (wk)",
+            "Steven Finn",
+            "Kevin Pietersen"
+        ]
+    }
 }

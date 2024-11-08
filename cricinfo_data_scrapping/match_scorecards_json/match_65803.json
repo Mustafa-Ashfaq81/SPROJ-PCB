@@ -46,7 +46,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Taibu b Streak",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "32",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Taibu b Ervine",
+                    "dismissal": "c (wk)Taibu b Ervine",
                     "runs": "17",
                     "balls": "28",
                     "minutes": "49",
@@ -95,8 +95,8 @@
                     "strike_rate": "86.66"
                 },
                 {
-                    "batsman": "Rashid Latif(c)",
-                    "dismissal": "run out (Friend/Taibu)",
+                    "batsman": "Rashid Latif(c) (wk)",
+                    "dismissal": "run out (Friend/ (wk)Taibu)",
                     "runs": "34",
                     "balls": "36",
                     "minutes": "36",
@@ -237,7 +237,7 @@
             "batting": [
                 {
                     "batsman": "Craig Wishart",
-                    "dismissal": "c Rashid Latif b Umar Gul",
+                    "dismissal": "c (wk)Rashid Latif b Umar Gul",
                     "runs": "8",
                     "balls": "24",
                     "minutes": "22",
@@ -307,7 +307,7 @@
                 },
                 {
                     "batsman": "Sean Ervine",
-                    "dismissal": "run out (Younis Khan/Rashid Latif)",
+                    "dismissal": "run out (Younis Khan/ (wk)Rashid Latif)",
                     "runs": "30",
                     "balls": "30",
                     "minutes": "27",
@@ -316,7 +316,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Mohammad Sami",
                     "runs": "1",
                     "balls": "4",
@@ -327,7 +327,7 @@
                 },
                 {
                     "batsman": "Heath Streak(c)",
-                    "dismissal": "c Rashid Latif b Abdul Razzaq",
+                    "dismissal": "c (wk)Rashid Latif b Abdul Razzaq",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "7",
@@ -436,5 +436,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 68 runs"
+    "result": "Pakistan won by 68 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Mohammad Hafeez",
+            "Naved Latif",
+            "Rashid Latif(c) (wk)",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Umar Gul",
+            "Danish Kaneria",
+            "Mohammad Yousuf",
+            "Taufeeq Umar"
+        ],
+        "Zimbabwe": [
+            "Andy Blignaut",
+            "Craig Wishart",
+            "Gavin Rennie",
+            "Dougie Marillier",
+            "Sean Ervine",
+            "Travis Friend",
+            "Heath Streak(c)",
+            "Tatenda Taibu (wk)",
+            "Douglas Hondo",
+            "Dion Ebrahim",
+            "Grant Flower"
+        ]
+    }
 }

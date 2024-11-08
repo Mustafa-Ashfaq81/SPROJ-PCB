@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c Rashid Latif b Wasim Akram",
+                    "dismissal": "c (wk)Rashid Latif b Wasim Akram",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "12",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Nasser Hussain(c)",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "8",
                     "balls": "9",
                     "minutes": "16",
@@ -72,7 +72,7 @@
                     "strike_rate": "88.88"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "b Shahid Afridi",
                     "runs": "30",
                     "balls": "34",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Andrew Flintoff",
-                    "dismissal": "st Rashid Latif b Saqlain Mushtaq",
+                    "dismissal": "st (wk)Rashid Latif b Saqlain Mushtaq",
                     "runs": "26",
                     "balls": "38",
                     "minutes": "39",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Stewart b Caddick",
+                    "dismissal": "c (wk)Stewart b Caddick",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "12",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Stewart b Flintoff",
+                    "dismissal": "c (wk)Stewart b Flintoff",
                     "runs": "5",
                     "balls": "27",
                     "minutes": "46",
@@ -289,8 +289,8 @@
                     "strike_rate": "52.38"
                 },
                 {
-                    "batsman": "Rashid Latif",
-                    "dismissal": "c Stewart b Anderson",
+                    "batsman": "Rashid Latif (wk)",
+                    "dismissal": "c (wk)Stewart b Anderson",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "England won by 112 runs"
+    "result": "England won by 112 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Andy Caddick",
+            "Andrew Flintoff",
+            "Nick Knight",
+            "Michael Vaughan",
+            "Nasser Hussain(c)",
+            "Paul Collingwood",
+            "Ashley Giles",
+            "Alec Stewart (wk)",
+            "Craig White",
+            "Marcus Trescothick"
+        ],
+        "Pakistan": [
+            "Shoaib Akhtar",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Waqar Younis(c)",
+            "Younis Khan",
+            "Saeed Anwar",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Wasim Akram",
+            "Saqlain Mushtaq",
+            "Inzamam-ul-Haq"
+        ]
+    }
 }

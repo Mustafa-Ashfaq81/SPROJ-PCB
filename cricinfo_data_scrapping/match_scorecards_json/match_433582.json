@@ -41,7 +41,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "lbw b Yuvraj Singh",
                     "runs": "26",
                     "balls": "58",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Tom Cooper",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "29",
                     "balls": "47",
                     "minutes": "52",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Tom de Grooth",
-                    "dismissal": "run out (Chawla/Dhoni)",
+                    "dismissal": "run out (Chawla/ (wk)Dhoni)",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "14",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Bradley Kruger",
-                    "dismissal": "run out (Kohli/Dhoni)",
+                    "dismissal": "run out (Kohli/ (wk)Dhoni)",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "16",
@@ -298,7 +298,7 @@
                     "strike_rate": "69.86"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "40",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 81 balls remaining)"
+    "result": "India won by 5 wickets (with 81 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Bradley Kruger",
+            "Ryan ten Doeschate",
+            "Eric Szwarczynski",
+            "Tom Cooper",
+            "Bas Zuiderent",
+            "Peter Borren(c)",
+            "Tom de Grooth",
+            "Wesley Barresi (wk)",
+            "Pieter Seelaar",
+            "Mudassar Bukhari",
+            "Alexei Kervezee"
+        ],
+        "India": [
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Ashish Nehra",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Virat Kohli",
+            "Piyush Chawla",
+            "Virender Sehwag",
+            "Yusuf Pathan",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)"
+        ]
+    }
 }

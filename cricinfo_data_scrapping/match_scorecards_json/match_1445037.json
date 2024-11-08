@@ -70,8 +70,8 @@
                     "strike_rate": "34.78"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
-                    "dismissal": "c Movva b Kirton",
+                    "batsman": "Scott Edwards(c) (wk)",
+                    "dismissal": "c (wk)Movva b Kirton",
                     "runs": "72",
                     "balls": "94",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shariz Ahmad",
-                    "dismissal": "c Movva b Thaker",
+                    "dismissal": "c (wk)Movva b Thaker",
                     "runs": "19",
                     "balls": "27",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Kyle Klein",
-                    "dismissal": "c Movva b Heyliger",
+                    "dismissal": "c (wk)Movva b Heyliger",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "-",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Harsh Thaker",
-                    "dismissal": "c Edwards b van Meekeren",
+                    "dismissal": "c (wk)Edwards b van Meekeren",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Nicholas Kirton(c)",
-                    "dismissal": "c Edwards b Kingma",
+                    "dismissal": "c (wk)Edwards b Kingma",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -287,7 +287,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Shreyas Movva",
+                    "batsman": "Shreyas Movva (wk)",
                     "dismissal": "not out",
                     "runs": "47",
                     "balls": "72",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 63 runs"
+    "result": "Netherlands won by 63 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Paul van Meekeren",
+            "Michael Levitt",
+            "Musa Ahmad",
+            "Max O'Dowd",
+            "Kyle Klein",
+            "Vivian Kingma",
+            "Scott Edwards(c) (wk)",
+            "Shariz Ahmad",
+            "Aryan Dutt",
+            "Vikramjit Singh",
+            "Noah Croes"
+        ],
+        "Canada": [
+            "Pargat Singh",
+            "Nicholas Kirton(c)",
+            "Junaid Siddiqui",
+            "Ravinderpal Singh",
+            "Kaleem Sana",
+            "Harsh Thaker",
+            "Aaron Johnson",
+            "Dilpreet Bajwa",
+            "Shreyas Movva (wk)",
+            "Dilon Heyliger",
+            "Saad Bin Zafar"
+        ]
+    }
 }

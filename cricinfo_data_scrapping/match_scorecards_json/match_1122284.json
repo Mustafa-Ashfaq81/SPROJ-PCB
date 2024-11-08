@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Dhoni b Thakur",
+                    "dismissal": "c (wk)Dhoni b Thakur",
                     "runs": "10",
                     "balls": "19",
                     "minutes": "25",
@@ -70,7 +70,7 @@
                     "strike_rate": "72.97"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
+                    "batsman": "Heinrich Klaasen (wk)",
                     "dismissal": "c Kohli b Bumrah",
                     "runs": "22",
                     "balls": "40",
@@ -234,7 +234,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Klaasen b Ngidi",
+                    "dismissal": "c (wk)Klaasen b Ngidi",
                     "runs": "15",
                     "balls": "13",
                     "minutes": "14",
@@ -263,7 +263,7 @@
                     "strike_rate": "68.00"
                 }
             ],
-            "did_not_bat": "Shreyas Iyer , MS Dhoni , Hardik Pandya , Kuldeep Yadav , Shardul Thakur , Jasprit Bumrah , Yuzvendra Chahal",
+            "did_not_bat": "Shreyas Iyer , MS Dhoni (wk) , Hardik Pandya , Kuldeep Yadav , Shardul Thakur , Jasprit Bumrah , Yuzvendra Chahal",
             "fall_of_wickets": "Fall of wickets : 1 - 19 ( Rohit Sharma , 3.4 ov ) , 2 - 80 ( Shikhar Dhawan , 12.4 ov )",
             "bowling": [
                 {
@@ -339,5 +339,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 107 balls remaining)"
+    "result": "India won by 8 wickets (with 107 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "AB de Villiers",
+            "Andile Phehlukwayo",
+            "Aiden Markram(c)",
+            "Hashim Amla",
+            "Chris Morris",
+            "Imran Tahir",
+            "Khaya Zondo",
+            "Farhaan Behardien",
+            "Heinrich Klaasen (wk)",
+            "Morne Morkel",
+            "Lungi Ngidi"
+        ],
+        "India": [
+            "MS Dhoni (wk)",
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Kuldeep Yadav",
+            "Shardul Thakur",
+            "Hardik Pandya",
+            "Shreyas Iyer",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

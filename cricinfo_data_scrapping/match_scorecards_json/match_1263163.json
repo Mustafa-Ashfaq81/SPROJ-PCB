@@ -42,7 +42,7 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Marsh b Agar",
                     "runs": "14",
                     "balls": "35",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Alzarri Joseph",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "15",
                     "balls": "42",
                     "minutes": "48",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Akeal Hosein",
-                    "dismissal": "st Carey b Zampa",
+                    "dismissal": "st (wk)Carey b Zampa",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "14",
@@ -226,7 +226,7 @@
             "batting": [
                 {
                     "batsman": "Josh Philippe",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "10",
                     "balls": "23",
                     "minutes": "39",
@@ -245,7 +245,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Alex Carey(c)",
+                    "batsman": "Alex Carey(c) (wk)",
                     "dismissal": "lbw b Walsh",
                     "runs": "35",
                     "balls": "50",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "c Hope b Cottrell",
+                    "dismissal": "c (wk)Hope b Cottrell",
                     "runs": "29",
                     "balls": "21",
                     "minutes": "31",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 117 balls remaining)"
+    "result": "Australia won by 6 wickets (with 117 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Akeal Hosein",
+            "Kieron Pollard(c)",
+            "Jason Holder",
+            "Alzarri Joseph",
+            "Shai Hope (wk)",
+            "Nicholas Pooran",
+            "Hayden Walsh",
+            "Darren Bravo",
+            "Shimron Hetmyer",
+            "Evin Lewis",
+            "Sheldon Cottrell"
+        ],
+        "Australia": [
+            "Ashton Turner",
+            "Adam Zampa",
+            "Dan Christian",
+            "Mitchell Marsh",
+            "Matthew Wade",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Alex Carey(c) (wk)",
+            "Ashton Agar",
+            "Moises Henriques",
+            "Josh Philippe"
+        ]
+    }
 }

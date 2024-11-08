@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Ramdin b Samuels",
+                    "dismissal": "c (wk)Ramdin b Samuels",
                     "runs": "86",
                     "balls": "107",
                     "minutes": "146",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Ramdin b Taylor",
+                    "dismissal": "c (wk)Ramdin b Taylor",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "14",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "run out (Ramdin)",
+                    "dismissal": "run out ( (wk)Ramdin)",
                     "runs": "68",
                     "balls": "81",
                     "minutes": "94",
@@ -80,7 +80,7 @@
                     "strike_rate": "83.95"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Edwards",
                     "runs": "17",
                     "balls": "17",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "c Ramdin b Taylor",
+                    "dismissal": "c (wk)Ramdin b Taylor",
                     "runs": "12",
                     "balls": "10",
                     "minutes": "14",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Morne Morkel",
-                    "dismissal": "run out (Ramdin/Taylor)",
+                    "dismissal": "run out ( (wk)Ramdin/Taylor)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Sewnarine Chattergoon",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "34",
                     "balls": "56",
                     "minutes": "75",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Boucher b Morkel",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "14",
@@ -297,7 +297,7 @@
                     "strike_rate": "42.30"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Pollock",
                     "runs": "0",
                     "balls": "3",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Daren Sammy",
-                    "dismissal": "c Boucher b Morkel",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "21",
                     "balls": "23",
                     "minutes": "31",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 86 runs"
+    "result": "South Africa won by 86 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Dale Steyn",
+            "Charl Langeveldt",
+            "Morne Morkel",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "AB de Villiers",
+            "Shaun Pollock",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Johan Botha",
+            "Graeme Smith(c)"
+        ],
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Daren Sammy",
+            "Jerome Taylor",
+            "Ravi Rampaul",
+            "Shivnarine Chanderpaul",
+            "Sewnarine Chattergoon",
+            "Fidel Edwards",
+            "Runako Morton",
+            "Marlon Samuels",
+            "Dwayne Bravo(c)",
+            "Brenton Parchment"
+        ]
+    }
 }

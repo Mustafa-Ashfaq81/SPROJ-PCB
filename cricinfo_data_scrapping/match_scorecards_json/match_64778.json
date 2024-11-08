@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "6",
@@ -80,8 +80,8 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Rashid Latif",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "batsman": "Rashid Latif (wk)",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "5",
@@ -231,7 +231,7 @@
             "extras": "28",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "run out (Yousuf Youhana)",
                     "runs": "20",
                     "balls": "33",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Michael Bevan",
-                    "dismissal": "c Rashid Latif b Shoaib Akhtar",
+                    "dismissal": "c (wk)Rashid Latif b Shoaib Akhtar",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "35",
@@ -332,7 +332,7 @@
                 },
                 {
                     "batsman": "Glenn McGrath",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "24",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 91 runs"
+    "result": "Pakistan won by 91 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Rashid Latif (wk)",
+            "Mohammad Yousuf",
+            "Wasim Akram",
+            "Azhar Mahmood",
+            "Imran Nazir",
+            "Younis Khan",
+            "Inzamam-ul-Haq",
+            "Shahid Afridi",
+            "Waqar Younis (c)",
+            "Saeed Anwar",
+            "Shoaib Akhtar"
+        ],
+        "Australia": [
+            "Damien Martyn",
+            "Shane Warne",
+            "Ricky Ponting(c)",
+            "Andy Bichel",
+            "Darren Lehmann",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Jason Gillespie",
+            "Matthew Hayden",
+            "Shane Watson",
+            "Glenn McGrath"
+        ]
+    }
 }

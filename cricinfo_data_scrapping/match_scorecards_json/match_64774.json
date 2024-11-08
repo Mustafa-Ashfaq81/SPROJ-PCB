@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Gilchrist b Warne",
+                    "dismissal": "c (wk)Gilchrist b Warne",
                     "runs": "19",
                     "balls": "38",
                     "minutes": "53",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "33",
                     "balls": "42",
                     "minutes": "61",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "16",
                     "balls": "30",
                     "minutes": "44",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "st Gilchrist b Lehmann",
+                    "dismissal": "st (wk)Gilchrist b Lehmann",
                     "runs": "27",
                     "balls": "56",
                     "minutes": "71",
@@ -100,8 +100,8 @@
                     "strike_rate": "48.21"
                 },
                 {
-                    "batsman": "Rashid Latif",
-                    "dismissal": "c Gilchrist b Lehmann",
+                    "batsman": "Rashid Latif (wk)",
+                    "dismissal": "c (wk)Gilchrist b Lehmann",
                     "runs": "11",
                     "balls": "29",
                     "minutes": "41",
@@ -227,7 +227,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Shahid Afridi b Mohammad Sami",
                     "runs": "56",
                     "balls": "47",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Rashid Latif b Shahid Afridi",
+                    "dismissal": "c (wk)Rashid Latif b Shahid Afridi",
                     "runs": "13",
                     "balls": "26",
                     "minutes": "36",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 103 balls remaining)"
+    "result": "Australia won by 7 wickets (with 103 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Rashid Latif (wk)",
+            "Mohammad Yousuf",
+            "Wasim Akram",
+            "Waqar Younis(c)",
+            "Azhar Mahmood",
+            "Imran Nazir",
+            "Younis Khan",
+            "Inzamam-ul-Haq",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Mohammad Sami"
+        ],
+        "Australia": [
+            "Damien Martyn",
+            "Shane Warne",
+            "Ricky Ponting(c)",
+            "Andy Bichel",
+            "Darren Lehmann",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Jason Gillespie",
+            "Matthew Hayden",
+            "Shane Watson",
+            "Glenn McGrath"
+        ]
+    }
 }

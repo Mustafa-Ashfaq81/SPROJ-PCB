@@ -61,7 +61,7 @@
                     "strike_rate": "27.77"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "b de Leede",
                     "runs": "68",
                     "balls": "75",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Iftikhar Ahmed",
-                    "dismissal": "c Edwards b de Leede",
+                    "dismissal": "c (wk)Edwards b de Leede",
                     "runs": "9",
                     "balls": "11",
                     "minutes": "22",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Haris Rauf",
-                    "dismissal": "st Edwards b Ackermann",
+                    "dismissal": "st (wk)Edwards b Ackermann",
                     "runs": "16",
                     "balls": "14",
                     "minutes": "10",
@@ -316,7 +316,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "lbw b Haris Rauf",
                     "runs": "0",
                     "balls": "2",
@@ -337,7 +337,7 @@
                 },
                 {
                     "batsman": "Roelof van der Merwe",
-                    "dismissal": "run out (Babar Azam/Mohammad Rizwan)",
+                    "dismissal": "run out (Babar Azam/ (wk)Mohammad Rizwan)",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "18",
@@ -466,5 +466,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 81 runs"
+    "result": "Pakistan won by 81 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Iftikhar Ahmed",
+            "Babar Azam(c)",
+            "Saud Shakeel",
+            "Imam-ul-Haq",
+            "Haris Rauf",
+            "Fakhar Zaman",
+            "Mohammad Nawaz",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Hasan Ali"
+        ],
+        "Netherlands": [
+            "Aryan Dutt",
+            "Teja Nidamanuru",
+            "Scott Edwards(c) (wk)",
+            "Roelof van der Merwe",
+            "Paul van Meekeren",
+            "Max O'Dowd",
+            "Vikramjit Singh",
+            "Colin Ackermann",
+            "Saqib Zulfiqar",
+            "Bas de Leede",
+            "Logan van Beek"
+        ]
+    }
 }

@@ -93,7 +93,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "c Shahadat Hossain b Mehrab Hossain jnr",
                     "runs": "30",
                     "balls": "59",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Mehrab Hossain jnr",
-                    "dismissal": "c Smith b Brown",
+                    "dismissal": "c (wk)Smith b Brown",
                     "runs": "8",
                     "balls": "20",
                     "minutes": "23",
@@ -300,7 +300,7 @@
                     "strike_rate": "57.14"
                 }
             ],
-            "did_not_bat": "Mushfiqur Rahim , Mashrafe Mortaza , Abdur Razzak , Farhad Reza , Shahadat Hossain",
+            "did_not_bat": "Mushfiqur Rahim (wk) , Mashrafe Mortaza , Abdur Razzak , Farhad Reza , Shahadat Hossain",
             "fall_of_wickets": "Fall of wickets : 1 - 16 ( Mehrab Hossain jnr , 6.1 ov ) , 2 - 108 ( Aftab Ahmed , 19.2 ov ) , 3 - 124 ( Shahriar Nafees , 22.1 ov ) , 4 - 145 ( Habibul Bashar , 27.1 ov )",
             "bowling": [
                 {
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 125 balls remaining)"
+    "result": "Bangladesh won by 6 wickets (with 125 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Navdeep Poonia",
+            "Neil McCallum",
+            "Gavin Hamilton",
+            "Craig Wright(c)",
+            "Ross Lyons",
+            "Paul Hoffmann",
+            "Dougie Brown",
+            "Ryan Watson",
+            "Fraser Watts",
+            "Glenn Rogers",
+            "Colin Smith (wk)"
+        ],
+        "Bangladesh": [
+            "Shakib Al Hasan",
+            "Mehrab Hossain jnr",
+            "Habibul Bashar(c)",
+            "Shahriar Nafees",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Aftab Ahmed",
+            "Abdur Razzak",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim (wk)",
+            "Farhad Reza"
+        ]
+    }
 }

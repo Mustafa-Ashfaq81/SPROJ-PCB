@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Dighe b Nehra",
+                    "dismissal": "c (wk)Dighe b Nehra",
                     "runs": "5",
                     "balls": "3",
                     "minutes": "15",
@@ -92,7 +92,7 @@
                     "strike_rate": "52.17"
                 },
                 {
-                    "batsman": "Adam Parore",
+                    "batsman": "Adam Parore (wk)",
                     "dismissal": "b Yuvraj Singh",
                     "runs": "0",
                     "balls": "4",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Parore b Harris",
+                    "dismissal": "c (wk)Parore b Harris",
                     "runs": "28",
                     "balls": "51",
                     "minutes": "50",
@@ -309,8 +309,8 @@
                     "strike_rate": "69.23"
                 },
                 {
-                    "batsman": "Sameer Dighe",
-                    "dismissal": "run out (Harris/Parore)",
+                    "batsman": "Sameer Dighe (wk)",
+                    "dismissal": "run out (Harris/ (wk)Parore)",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -453,5 +453,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 67 runs"
+    "result": "New Zealand won by 67 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Adam Parore (wk)",
+            "Kyle Mills",
+            "Craig McMillan(c)",
+            "Mathew Sinclair",
+            "Daryl Tuffey",
+            "Chris Harris",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Dion Nash",
+            "Lou Vincent",
+            "Jacob Oram"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "VVS Laxman",
+            "Rahul Dravid",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Hemang Badani",
+            "Virender Sehwag",
+            "Reetinder Sodhi",
+            "Harbhajan Singh",
+            "Sameer Dighe (wk)",
+            "Sourav Ganguly(c)"
+        ]
+    }
 }

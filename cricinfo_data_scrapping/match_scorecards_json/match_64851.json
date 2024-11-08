@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Taibu b Ervine",
+                    "dismissal": "c (wk)Taibu b Ervine",
                     "runs": "51",
                     "balls": "34",
                     "minutes": "70",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Taibu b Brent",
+                    "dismissal": "c (wk)Taibu b Brent",
                     "runs": "14",
                     "balls": "25",
                     "minutes": "30",
@@ -83,7 +83,7 @@
                     "strike_rate": "60.00"
                 }
             ],
-            "did_not_bat": "Ricardo Powell , Ridley Jacobs , Mervyn Dillon , Corey Collymore , Fidel Edwards , Ravi Rampaul",
+            "did_not_bat": "Ricardo Powell , Ridley Jacobs (wk) , Mervyn Dillon , Corey Collymore , Fidel Edwards , Ravi Rampaul",
             "fall_of_wickets": "Fall of wickets : 1 - 96 ( Chris Gayle , 15.1 ov ) , 2 - 124 ( Brian Lara , 21.6 ov ) , 3 - 231 ( Ramnaresh Sarwan , 42.6 ov )",
             "bowling": [
                 {
@@ -167,7 +167,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Jacobs b Edwards",
+                    "dismissal": "c (wk)Jacobs b Edwards",
                     "runs": "7",
                     "balls": "14",
                     "minutes": "18",
@@ -226,7 +226,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Edwards",
                     "runs": "66",
                     "balls": "85",
@@ -346,5 +346,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 72 runs (D/L method)"
+    "result": "West Indies won by 72 runs (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Ravi Rampaul",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards"
+        ],
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Andy Blignaut",
+            "Vusi Sibanda",
+            "Craig Wishart",
+            "Ray Price",
+            "Mark Vermeulen",
+            "Heath Streak(c)",
+            "Tatenda Taibu (wk)",
+            "Gary Brent",
+            "Barney Rogers",
+            "Stuart Matsikenyeri"
+        ]
+    }
 }

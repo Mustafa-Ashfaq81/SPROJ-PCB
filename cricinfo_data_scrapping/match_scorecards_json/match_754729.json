@@ -30,7 +30,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c & b Maxwell",
                     "runs": "17",
                     "balls": "38",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Wade b Cummins",
+                    "dismissal": "c (wk)Wade b Cummins",
                     "runs": "28",
                     "balls": "37",
                     "minutes": "45",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Ryan McLaren",
-                    "dismissal": "c Wade b Starc",
+                    "dismissal": "c (wk)Wade b Starc",
                     "runs": "13",
                     "balls": "14",
                     "minutes": "12",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c de Kock b McLaren",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "19",
                     "balls": "25",
                     "minutes": "31",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "George Bailey(c)",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "16",
                     "balls": "29",
                     "minutes": "35",
@@ -301,7 +301,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c McLaren b Parnell",
                     "runs": "52",
                     "balls": "59",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Australia won by 3 wickets (with 6 balls remaining)"
+    "result": "Australia won by 3 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Ryan McLaren",
+            "Dale Steyn",
+            "Robin Peterson",
+            "Wayne Parnell",
+            "Kyle Abbott",
+            "Farhaan Behardien",
+            "David Miller",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ],
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Matthew Wade (wk)",
+            "Pat Cummins",
+            "Nathan Coulter-Nile",
+            "David Warner",
+            "Glenn Maxwell",
+            "James Faulkner",
+            "Shane Watson",
+            "Aaron Finch"
+        ]
+    }
 }

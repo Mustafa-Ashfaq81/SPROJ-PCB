@@ -50,8 +50,8 @@
                     "strike_rate": "87.12"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Buttler b Tredwell",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Buttler b Tredwell",
                     "runs": "40",
                     "balls": "67",
                     "minutes": "83",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "run out (Ballance/Buttler)",
+                    "dismissal": "run out (Ballance/ (wk)Buttler)",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "8",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Michael Carberry",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "11",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "21",
@@ -287,7 +287,7 @@
                     "strike_rate": "29.16"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Senanayake b Mathews",
                     "runs": "4",
                     "balls": "6",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 157 runs"
+    "result": "Sri Lanka won by 157 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Ashan Priyanjan",
+            "Sachithra Senanayake",
+            "Dinesh Chandimal",
+            "Angelo Mathews(c)",
+            "Dhammika Prasad",
+            "Mahela Jayawardene",
+            "Lahiru Thirimanne",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara"
+        ],
+        "England": [
+            "Michael Carberry",
+            "Jos Buttler (wk)",
+            "Eoin Morgan(c)",
+            "Ravi Bopara",
+            "James Anderson",
+            "Ian Bell",
+            "Harry Gurney",
+            "Gary Ballance",
+            "Joe Root",
+            "James Tredwell",
+            "Chris Jordan"
+        ]
+    }
 }

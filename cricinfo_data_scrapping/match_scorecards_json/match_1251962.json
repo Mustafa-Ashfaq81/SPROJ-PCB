@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Stephan Myburgh",
-                    "dismissal": "c Tucker b Young",
+                    "dismissal": "c (wk)Tucker b Young",
                     "runs": "20",
                     "balls": "30",
                     "minutes": "30",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Pieter Seelaar(c)",
-                    "dismissal": "c Tucker b Little",
+                    "dismissal": "c (wk)Tucker b Little",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -82,7 +82,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "b Little",
                     "runs": "1",
                     "balls": "11",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Logan van Beek",
-                    "dismissal": "run out (Tucker/Little)",
+                    "dismissal": "run out ( (wk)Tucker/Little)",
                     "runs": "29",
                     "balls": "48",
                     "minutes": "83",
@@ -289,7 +289,7 @@
                     "strike_rate": "28.94"
                 },
                 {
-                    "batsman": "Lorcan Tucker",
+                    "batsman": "Lorcan Tucker (wk)",
                     "dismissal": "lbw b Seelaar",
                     "runs": "8",
                     "balls": "21",
@@ -300,7 +300,7 @@
                 },
                 {
                     "batsman": "Simi Singh",
-                    "dismissal": "run out (de Leede/Edwards)",
+                    "dismissal": "run out (de Leede/ (wk)Edwards)",
                     "runs": "45",
                     "balls": "69",
                     "minutes": "112",
@@ -453,5 +453,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 1 run"
+    "result": "Netherlands won by 1 run",
+    "playing_xi": {
+        "Netherlands": [
+            "Max O'Dowd",
+            "Saqib Zulfiqar",
+            "Scott Edwards (wk)",
+            "Brandon Glover",
+            "Pieter Seelaar(c)",
+            "Timm van der Gugten",
+            "Ben Cooper",
+            "Stephan Myburgh",
+            "Bas de Leede",
+            "Fred Klaassen",
+            "Logan van Beek"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Harry Tector",
+            "Craig Young",
+            "Andy Balbirnie(c)",
+            "Barry McCarthy",
+            "William Porterfield",
+            "Lorcan Tucker (wk)",
+            "Paul Stirling",
+            "Andy McBrine",
+            "Josh Little",
+            "Simi Singh"
+        ]
+    }
 }

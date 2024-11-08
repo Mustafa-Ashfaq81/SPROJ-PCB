@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Dinesh Karthik",
-                    "dismissal": "c Ramdin b Taylor",
+                    "dismissal": "c (wk)Ramdin b Taylor",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "3",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "7",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Ramdin b Taylor",
+                    "dismissal": "c (wk)Ramdin b Taylor",
                     "runs": "35",
                     "balls": "33",
                     "minutes": "47",
@@ -70,7 +70,7 @@
                     "strike_rate": "106.06"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Taylor",
                     "runs": "95",
                     "balls": "130",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "9",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Ramdin b DJ Bravo",
+                    "dismissal": "c (wk)Ramdin b DJ Bravo",
                     "runs": "7",
                     "balls": "14",
                     "minutes": "16",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "st Dhoni b Sharma",
+                    "dismissal": "st (wk)Dhoni b Sharma",
                     "runs": "15",
                     "balls": "17",
                     "minutes": "25",
@@ -277,7 +277,7 @@
                     "strike_rate": "43.90"
                 }
             ],
-            "did_not_bat": "Dwayne Bravo , Darren Bravo , Denesh Ramdin , Jerome Taylor , David Bernard , Sulieman Benn , Ravi Rampaul",
+            "did_not_bat": "Dwayne Bravo , Darren Bravo , Denesh Ramdin (wk) , Jerome Taylor , David Bernard , Sulieman Benn , Ravi Rampaul",
             "fall_of_wickets": "Fall of wickets : 1 - 101 ( Chris Gayle , 15.2 ov ) , 2 - 132 ( Ramnaresh Sarwan , 21.1 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 8 wickets (with 95 balls remaining)"
+    "result": "West Indies won by 8 wickets (with 95 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Gautam Gambhir",
+            "Dinesh Karthik",
+            "MS Dhoni(c) (wk)",
+            "RP Singh",
+            "Ravindra Jadeja",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Ashish Nehra",
+            "Praveen Kumar",
+            "Rohit Sharma",
+            "Harbhajan Singh"
+        ],
+        "West Indies": [
+            "Sulieman Benn",
+            "Dwayne Bravo",
+            "Runako Morton",
+            "Ramnaresh Sarwan",
+            "Denesh Ramdin (wk)",
+            "Ravi Rampaul",
+            "Chris Gayle(c)",
+            "Darren Bravo",
+            "Shivnarine Chanderpaul",
+            "David Bernard",
+            "Jerome Taylor"
+        ]
+    }
 }

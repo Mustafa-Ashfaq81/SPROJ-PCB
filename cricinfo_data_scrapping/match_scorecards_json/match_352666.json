@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Prior b Anderson",
+                    "dismissal": "c (wk)Prior b Anderson",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "16",
@@ -90,7 +90,7 @@
                     "strike_rate": "95.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Harmison b Collingwood",
                     "runs": "1",
                     "balls": "5",
@@ -291,8 +291,8 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Matt Prior",
-                    "dismissal": "c Ramdin b Sammy",
+                    "batsman": "Matt Prior (wk)",
+                    "dismissal": "c (wk)Ramdin b Sammy",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "11",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Dimitri Mascarenhas",
-                    "dismissal": "run out (Gayle/Ramdin)",
+                    "dismissal": "run out (Gayle/ (wk)Ramdin)",
                     "runs": "29",
                     "balls": "36",
                     "minutes": "49",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 21 runs"
+    "result": "West Indies won by 21 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Dwayne Bravo",
+            "Nikita Miller",
+            "Kieron Pollard",
+            "Ramnaresh Sarwan",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Lionel Baker",
+            "Chris Gayle(c)",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Daren Sammy"
+        ],
+        "England": [
+            "Kevin Pietersen",
+            "Dimitri Mascarenhas",
+            "James Anderson",
+            "Gareth Batty",
+            "Matt Prior (wk)",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Andrew Strauss(c)",
+            "Owais Shah",
+            "Steve Harmison"
+        ]
+    }
 }

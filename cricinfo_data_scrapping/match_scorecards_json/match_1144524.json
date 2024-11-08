@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Ikram Alikhil b Dawlat Zadran",
+                    "dismissal": "c (wk)Ikram Alikhil b Dawlat Zadran",
                     "runs": "7",
                     "balls": "18",
                     "minutes": "21",
@@ -52,7 +52,7 @@
                     "strike_rate": "74.35"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Rashid Khan b Mohammad Nabi",
                     "runs": "77",
                     "balls": "92",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Nicholas Pooran",
-                    "dismissal": "run out (Ikram Alikhil/Sayed Shirzad)",
+                    "dismissal": "run out ( (wk)Ikram Alikhil/Sayed Shirzad)",
                     "runs": "58",
                     "balls": "43",
                     "minutes": "66",
@@ -229,7 +229,7 @@
                     "strike_rate": "79.48"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "lbw b Gayle",
                     "runs": "86",
                     "balls": "93",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 23 runs"
+    "result": "West Indies won by 23 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Fabian Allen",
+            "Oshane Thomas",
+            "Evin Lewis",
+            "Carlos Brathwaite",
+            "Chris Gayle",
+            "Sheldon Cottrell",
+            "Kemar Roach",
+            "Shai Hope (wk)",
+            "Jason Holder(c)",
+            "Nicholas Pooran",
+            "Shimron Hetmyer"
+        ],
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Najibullah Zadran",
+            "Mujeeb Ur Rahman",
+            "Asghar Afghan",
+            "Gulbadin Naib(c)",
+            "Sayed Shirzad",
+            "Ikram Alikhil (wk)",
+            "Dawlat Zadran",
+            "Mohammad Nabi",
+            "Samiullah Shinwari",
+            "Rashid Khan"
+        ]
+    }
 }

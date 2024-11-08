@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Alex Hales",
-                    "dismissal": "st Sarfaraz Ahmed b Iftikhar Ahmed",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Iftikhar Ahmed",
                     "runs": "109",
                     "balls": "117",
                     "minutes": "166",
@@ -73,7 +73,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Wahab Riaz",
                     "runs": "11",
                     "balls": "10",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c Buttler b Willey",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "10",
@@ -260,8 +260,8 @@
                     "strike_rate": "45.94"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
-                    "dismissal": "c Buttler b Woakes",
+                    "batsman": "Sarfaraz Ahmed (wk)",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "64",
                     "balls": "76",
                     "minutes": "97",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Wahab Riaz",
-                    "dismissal": "c Buttler b Willey",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "5",
                     "balls": "8",
                     "minutes": "10",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "England won by 95 runs"
+    "result": "England won by 95 runs",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Moeen Ali",
+            "Eoin Morgan(c)",
+            "Chris Woakes",
+            "Adil Rashid",
+            "David Willey",
+            "Alex Hales",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Reece Topley",
+            "James Taylor"
+        ],
+        "Pakistan": [
+            "Anwar Ali",
+            "Iftikhar Ahmed",
+            "Mohammad Hafeez",
+            "Mohammad Rizwan",
+            "Babar Azam",
+            "Mohammad Irfan",
+            "Sarfaraz Ahmed (wk)",
+            "Shoaib Malik",
+            "Wahab Riaz",
+            "Yasir Shah",
+            "Azhar Ali(c)"
+        ]
+    }
 }

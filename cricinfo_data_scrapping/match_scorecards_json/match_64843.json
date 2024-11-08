@@ -36,7 +36,7 @@
             "batting": [
                 {
                     "batsman": "Hannan Sarkar",
-                    "dismissal": "c Read b Flintoff",
+                    "dismissal": "c (wk)Read b Flintoff",
                     "runs": "30",
                     "balls": "55",
                     "minutes": "80",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar",
-                    "dismissal": "c Read b Flintoff",
+                    "dismissal": "c (wk)Read b Flintoff",
                     "runs": "10",
                     "balls": "22",
                     "minutes": "28",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Khaled Mahmud(c)",
-                    "dismissal": "c Read b Flintoff",
+                    "dismissal": "c (wk)Read b Flintoff",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -115,7 +115,7 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Vaughan b Clarke",
                     "runs": "13",
                     "balls": "45",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "st Khaled Mashud b Manjural Islam Rana",
+                    "dismissal": "st (wk)Khaled Mashud b Manjural Islam Rana",
                     "runs": "9",
                     "balls": "9",
                     "minutes": "15",
@@ -292,7 +292,7 @@
                     "strike_rate": "105.76"
                 }
             ],
-            "did_not_bat": "Rikki Clarke , Ian Blackwell , Chris Read , Ashley Giles , Richard Johnson , James Anderson",
+            "did_not_bat": "Rikki Clarke , Ian Blackwell , Chris Read (wk) , Ashley Giles , Richard Johnson , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 39 ( Vikram Solanki , 7.1 ov ) , 2 - 39 ( Marcus Trescothick , 7.2 ov ) , 3 - 55 ( Michael Vaughan , 10.3 ov )",
             "bowling": [
                 {
@@ -368,5 +368,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 147 balls remaining)"
+    "result": "England won by 7 wickets (with 147 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Khaled Mashud (wk)",
+            "Mushfiqur Rahman",
+            "Manzarul Islam",
+            "Alok Kapali",
+            "Rajin Saleh",
+            "Jamaluddin Ahmed",
+            "Khaled Mahmud(c)",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Nafees Iqbal",
+            "Hannan Sarkar"
+        ],
+        "England": [
+            "Vikram Solanki",
+            "Marcus Trescothick",
+            "James Anderson",
+            "Chris Read (wk)",
+            "Michael Vaughan(c)",
+            "Ian Blackwell",
+            "Paul Collingwood",
+            "Ashley Giles",
+            "Richard Johnson",
+            "Andrew Flintoff",
+            "Rikki Clarke"
+        ]
+    }
 }

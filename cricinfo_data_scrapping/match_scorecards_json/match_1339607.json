@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Max O'Dowd",
-                    "dismissal": "c de Kock b Magala",
+                    "dismissal": "c (wk)de Kock b Magala",
                     "runs": "18",
                     "balls": "27",
                     "minutes": "45",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Musa Ahmad",
-                    "dismissal": "c de Kock b Shamsi",
+                    "dismissal": "c (wk)de Kock b Shamsi",
                     "runs": "17",
                     "balls": "33",
                     "minutes": "66",
@@ -72,7 +72,7 @@
                     "strike_rate": "58.33"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "c Jansen b Nortje",
                     "runs": "5",
                     "balls": "10",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Teja Nidamanuru",
-                    "dismissal": "c de Kock b Magala",
+                    "dismissal": "c (wk)de Kock b Magala",
                     "runs": "48",
                     "balls": "71",
                     "minutes": "84",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Shariz Ahmad",
-                    "dismissal": "st de Kock b Markram",
+                    "dismissal": "st (wk)de Kock b Markram",
                     "runs": "2",
                     "balls": "13",
                     "minutes": "19",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Paul van Meekeren",
-                    "dismissal": "st de Kock b Shamsi",
+                    "dismissal": "st (wk)de Kock b Shamsi",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "15",
@@ -239,7 +239,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Klaassen b Dutt",
                     "runs": "9",
                     "balls": "21",
@@ -355,5 +355,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 8 wickets (with 120 balls remaining)"
+    "result": "South Africa won by 8 wickets (with 120 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Wesley Barresi",
+            "Vikramjit Singh",
+            "Scott Edwards(c) (wk)",
+            "Fred Klaassen",
+            "Aryan Dutt",
+            "Teja Nidamanuru",
+            "Musa Ahmad",
+            "Max O'Dowd",
+            "Ryan Klein",
+            "Paul van Meekeren",
+            "Shariz Ahmad"
+        ],
+        "South Africa": [
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "David Miller",
+            "Heinrich Klaasen",
+            "Aiden Markram",
+            "Temba Bavuma(c)",
+            "Anrich Nortje",
+            "Marco Jansen",
+            "Tabraiz Shamsi",
+            "Rassie van der Dussen",
+            "Sisanda Magala"
+        ]
+    }
 }

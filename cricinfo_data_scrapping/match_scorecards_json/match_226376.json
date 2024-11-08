@@ -48,7 +48,7 @@
                 },
                 {
                     "batsman": "Phil Jaques",
-                    "dismissal": "c Boucher b van der Wath",
+                    "dismissal": "c (wk)Boucher b van der Wath",
                     "runs": "94",
                     "balls": "112",
                     "minutes": "145",
@@ -78,7 +78,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Boucher b van der Wath",
+                    "dismissal": "c (wk)Boucher b van der Wath",
                     "runs": "34",
                     "balls": "44",
                     "minutes": "65",
@@ -97,7 +97,7 @@
                     "strike_rate": "58.06"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Pollock",
                     "runs": "1",
                     "balls": "4",
@@ -259,7 +259,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Haddin b Lee",
+                    "dismissal": "c (wk)Haddin b Lee",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "19",
@@ -308,7 +308,7 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "lbw b Hogg",
                     "runs": "5",
                     "balls": "12",
@@ -329,7 +329,7 @@
                 },
                 {
                     "batsman": "Johan van der Wath",
-                    "dismissal": "c Haddin b Hogg",
+                    "dismissal": "c (wk)Haddin b Hogg",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "7",
@@ -339,7 +339,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "c Haddin b Dorey",
+                    "dismissal": "c (wk)Haddin b Dorey",
                     "runs": "46",
                     "balls": "31",
                     "minutes": "36",
@@ -458,5 +458,33 @@
             ]
         }
     ],
-    "result": "Australia won by 59 runs"
+    "result": "Australia won by 59 runs",
+    "playing_xi": {
+        "Australia": [
+            "Michael Hussey",
+            "Michael Clarke",
+            "James Hopes",
+            "Andrew Symonds",
+            "Brett Lee",
+            "Damien Martyn",
+            "Glenn McGrath",
+            "Brad Haddin (wk)",
+            "Brett Dorey",
+            "Phil Jaques",
+            "Ricky Ponting(c)"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Justin Kemp",
+            "Boeta Dippenaar",
+            "Johan Botha",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Andrew Hall",
+            "Johan van der Wath",
+            "Mark Boucher (wk)",
+            "Garnett Kruger"
+        ]
+    }
 }

@@ -101,8 +101,8 @@
                     "strike_rate": "61.36"
                 },
                 {
-                    "batsman": "Paul Nixon",
-                    "dismissal": "c Boucher b Hall",
+                    "batsman": "Paul Nixon (wk)",
+                    "dismissal": "c (wk)Boucher b Hall",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "3",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Monty Panesar",
-                    "dismissal": "c Boucher b Nel",
+                    "dismissal": "c (wk)Boucher b Nel",
                     "runs": "2",
                     "balls": "28",
                     "minutes": "30",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "AB de Villiers",
-                    "dismissal": "c Nixon b Flintoff",
+                    "dismissal": "c (wk)Nixon b Flintoff",
                     "runs": "42",
                     "balls": "35",
                     "minutes": "45",
@@ -268,7 +268,7 @@
                     "strike_rate": "68.00"
                 }
             ],
-            "did_not_bat": "Herschelle Gibbs , Ashwell Prince , Mark Boucher , Justin Kemp , Shaun Pollock , Andrew Hall , Andre Nel , Charl Langeveldt",
+            "did_not_bat": "Herschelle Gibbs , Ashwell Prince , Mark Boucher (wk) , Justin Kemp , Shaun Pollock , Andrew Hall , Andre Nel , Charl Langeveldt",
             "fall_of_wickets": "Fall of wickets : 1 - 85 ( AB de Villiers , 9.5 ov )",
             "bowling": [
                 {
@@ -344,5 +344,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 9 wickets (with 184 balls remaining)"
+    "result": "South Africa won by 9 wickets (with 184 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Sajid Mahmood",
+            "Michael Vaughan(c)",
+            "Andrew Flintoff",
+            "Ravi Bopara",
+            "James Anderson",
+            "Andrew Strauss",
+            "Kevin Pietersen"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Shaun Pollock",
+            "Andrew Hall"
+        ]
+    }
 }

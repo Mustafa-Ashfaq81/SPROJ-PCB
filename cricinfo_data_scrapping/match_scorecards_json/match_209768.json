@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "c Browne b Collins",
+                    "dismissal": "c (wk)Browne b Collins",
                     "runs": "41",
                     "balls": "54",
                     "minutes": "77",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Browne b Bradshaw",
+                    "dismissal": "c (wk)Browne b Bradshaw",
                     "runs": "18",
                     "balls": "13",
                     "minutes": "14",
@@ -90,7 +90,7 @@
                     "strike_rate": "138.46"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "24",
                     "balls": "9",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "35",
                     "balls": "47",
                     "minutes": "68",
@@ -277,7 +277,7 @@
                     "strike_rate": "123.07"
                 },
                 {
-                    "batsman": "Courtney Browne",
+                    "batsman": "Courtney Browne (wk)",
                     "dismissal": "b Naved-ul-Hasan",
                     "runs": "11",
                     "balls": "9",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 22 runs"
+    "result": "Pakistan won by 22 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Yasir Hameed",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Naved-ul-Hasan",
+            "Bazid Khan",
+            "Younis Khan(c)",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Arshad Khan",
+            "Shabbir Ahmed"
+        ],
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Runako Morton",
+            "Corey Collymore",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Shivnarine Chanderpaul(c)",
+            "Pedro Collins",
+            "Ramnaresh Sarwan"
+        ]
+    }
 }

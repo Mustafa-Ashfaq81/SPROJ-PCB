@@ -93,7 +93,7 @@
                     "strike_rate": "48.86"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "113",
                     "balls": "125",
@@ -270,7 +270,7 @@
                     "strike_rate": "97.14"
                 }
             ],
-            "did_not_bat": "Kamran Akmal , Junaid Khan , Umar Gul , Saeed Ajmal , Mohammad Irfan",
+            "did_not_bat": "Kamran Akmal (wk) , Junaid Khan , Umar Gul , Saeed Ajmal , Mohammad Irfan",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Mohammad Hafeez , 0.1 ov ) , 2 - 21 ( Azhar Ali , 10.2 ov ) , 3 - 133 ( Younis Khan , 30.3 ov ) , 4 - 172 ( Misbah-ul-Haq , 38.2 ov )",
             "bowling": [
                 {
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 11 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ashok Dinda",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)"
+        ],
+        "Pakistan": [
+            "Umar Gul",
+            "Mohammad Irfan",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Azhar Ali",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Younis Khan"
+        ]
+    }
 }

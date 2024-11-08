@@ -34,7 +34,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Karthik b Jadhav",
                     "runs": "124",
                     "balls": "116",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Javed Ahmadi",
-                    "dismissal": "st Dhoni b Jadeja",
+                    "dismissal": "st (wk)Dhoni b Jadeja",
                     "runs": "5",
                     "balls": "30",
                     "minutes": "-",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi",
-                    "dismissal": "st Dhoni b Kuldeep Yadav",
+                    "dismissal": "st (wk)Dhoni b Kuldeep Yadav",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -261,7 +261,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "lbw b Javed Ahmadi",
                     "runs": "8",
                     "balls": "17",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Manish Pandey",
-                    "dismissal": "c Mohammad Shahzad b Aftab Alam",
+                    "dismissal": "c (wk)Mohammad Shahzad b Aftab Alam",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "-",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "Afghanistan": [
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Aftab Alam",
+            "Asghar Afghan(c)",
+            "Hashmatullah Shahidi",
+            "Mohammad Nabi",
+            "Rashid Khan",
+            "Javed Ahmadi"
+        ],
+        "India": [
+            "Dinesh Karthik",
+            "Deepak Chahar",
+            "KL Rahul",
+            "Kuldeep Yadav",
+            "MS Dhoni(c) (wk)",
+            "Kedar Jadhav",
+            "Siddarth Kaul",
+            "Khaleel Ahmed",
+            "Ravindra Jadeja",
+            "Manish Pandey",
+            "Ambati Rayudu"
+        ]
+    }
 }

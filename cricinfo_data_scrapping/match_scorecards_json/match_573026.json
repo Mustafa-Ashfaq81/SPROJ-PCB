@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Thomas b DJ Bravo",
+                    "dismissal": "c (wk)Thomas b DJ Bravo",
                     "runs": "40",
                     "balls": "58",
                     "minutes": "88",
@@ -80,7 +80,7 @@
                     "strike_rate": "105.66"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Powell b Roach",
                     "runs": "43",
                     "balls": "45",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Narsingh Deonarine",
-                    "dismissal": "c Haddin b Cutting",
+                    "dismissal": "c (wk)Haddin b Cutting",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "5",
@@ -257,7 +257,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "run out (Marsh/Faulkner)",
                     "runs": "19",
                     "balls": "18",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Daren Sammy(c)",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "23",
                     "balls": "18",
                     "minutes": "26",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 17 runs"
+    "result": "Australia won by 17 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shaun Marsh",
+            "Ben Cutting",
+            "Clint McKay",
+            "Adam Voges",
+            "Aaron Finch",
+            "Shane Watson(c)",
+            "Xavier Doherty",
+            "Phillip Hughes"
+        ],
+        "West Indies": [
+            "Kieron Pollard",
+            "Kemar Roach",
+            "Sunil Narine",
+            "Kieran Powell",
+            "Darren Bravo",
+            "Johnson Charles",
+            "Dwayne Bravo",
+            "Tino Best",
+            "Narsingh Deonarine",
+            "Devon Thomas (wk)",
+            "Daren Sammy(c)"
+        ]
+    }
 }

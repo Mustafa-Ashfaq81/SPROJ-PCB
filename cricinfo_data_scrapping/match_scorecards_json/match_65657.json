@@ -35,7 +35,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Bravo b Bradshaw",
                     "runs": "0",
                     "balls": "7",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "run out (Chanderpaul/Browne)",
+                    "dismissal": "run out (Chanderpaul/ (wk)Browne)",
                     "runs": "78",
                     "balls": "92",
                     "minutes": "146",
@@ -227,7 +227,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "20",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Xavier Marshall",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "12",
@@ -277,7 +277,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "c Gilchrist b Hogg",
+                    "dismissal": "c (wk)Gilchrist b Hogg",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "17",
@@ -286,7 +286,7 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Courtney Browne",
+                    "batsman": "Courtney Browne (wk)",
                     "dismissal": "not out",
                     "runs": "20",
                     "balls": "39",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "Australia won by 116 runs"
+    "result": "Australia won by 116 runs",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Darren Lehmann",
+            "Jason Gillespie",
+            "Brett Lee",
+            "Adam Gilchrist (wk)",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Shane Watson"
+        ],
+        "West Indies": [
+            "Courtney Browne (wk)",
+            "Wavell Hinds",
+            "Marlon Samuels",
+            "Brian Lara(c)",
+            "Xavier Marshall",
+            "Dwayne Bravo",
+            "Ian Bradshaw",
+            "Chris Gayle",
+            "Shivnarine Chanderpaul",
+            "Ramnaresh Sarwan",
+            "Mervyn Dillon"
+        ]
+    }
 }

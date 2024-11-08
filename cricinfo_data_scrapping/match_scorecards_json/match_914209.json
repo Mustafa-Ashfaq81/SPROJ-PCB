@@ -63,7 +63,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "lbw b Bracewell",
                     "runs": "9",
                     "balls": "24",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "17",
                     "balls": "22",
                     "minutes": "39",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Dushmantha Chameera",
-                    "dismissal": "c Ronchi b Sodhi",
+                    "dismissal": "c (wk)Ronchi b Sodhi",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "17",
@@ -246,7 +246,7 @@
                     "strike_rate": "85.00"
                 }
             ],
-            "did_not_bat": "Brendon McCullum (c) , Ross Taylor , Henry Nicholls , Mitchell Santner , Luke Ronchi , Doug Bracewell , Matt Henry , Ish Sodhi , Mitchell McClenaghan",
+            "did_not_bat": "Brendon McCullum (c) , Ross Taylor , Henry Nicholls , Mitchell Santner , Luke Ronchi (wk) , Doug Bracewell , Matt Henry , Ish Sodhi , Mitchell McClenaghan",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -308,5 +308,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 10 wickets (with 250 balls remaining)"
+    "result": "New Zealand won by 10 wickets (with 250 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chamara Kapugedera",
+            "Nuwan Kulasekara",
+            "Dushmantha Chameera",
+            "Jeffrey Vandersay",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal (wk)",
+            "Danushka Gunathilaka",
+            "Angelo Mathews(c)",
+            "Sachithra Senanayake",
+            "Milinda Siriwardana",
+            "Lahiru Thirimanne"
+        ],
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Martin Guptill",
+            "Doug Bracewell",
+            "Ish Sodhi",
+            "Mitchell Santner",
+            "Ross Taylor",
+            "Luke Ronchi (wk)",
+            "Brendon McCullum (c)",
+            "Tom Latham",
+            "Matt Henry",
+            "Henry Nicholls"
+        ]
+    }
 }

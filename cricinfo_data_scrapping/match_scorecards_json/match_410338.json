@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "run out (Taylor)",
+                    "dismissal": "run out ( (wk)Taylor)",
                     "runs": "79",
                     "balls": "105",
                     "minutes": "124",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Zunaed Siddique",
-                    "dismissal": "run out (Chibhabha/Taylor)",
+                    "dismissal": "run out (Chibhabha/ (wk)Taylor)",
                     "runs": "27",
                     "balls": "41",
                     "minutes": "67",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "run out (Williams/Taylor/Utseya)",
+                    "dismissal": "run out (Williams/ (wk)Taylor/Utseya)",
                     "runs": "104",
                     "balls": "64",
                     "minutes": "92",
@@ -90,7 +90,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "23",
                     "balls": "18",
@@ -295,7 +295,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "c & b Enamul Haque jnr",
                     "runs": "9",
                     "balls": "16",
@@ -326,7 +326,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya(c)",
-                    "dismissal": "c Mushfiqur Rahim b Nazmul Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Nazmul Hossain",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "2",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 49 runs"
+    "result": "Bangladesh won by 49 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mahmudullah",
+            "Syed Rasel",
+            "Tamim Iqbal",
+            "Enamul Haque jnr",
+            "Mohammad Ashraful",
+            "Shakib Al Hasan(c)",
+            "Raqibul Hasan",
+            "Nazmul Hossain",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Mark Vermeulen",
+            "Sean Williams",
+            "Ray Price",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Ed Rainsford",
+            "Prosper Utseya(c)",
+            "Charles Coventry"
+        ]
+    }
 }

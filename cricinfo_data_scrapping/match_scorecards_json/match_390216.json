@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Darron Reekers",
-                    "dismissal": "c Naeemuddin Aslam b Zahid Shah",
+                    "dismissal": "c (wk)Naeemuddin Aslam b Zahid Shah",
                     "runs": "22",
                     "balls": "24",
                     "minutes": "-",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Eric Szwarczynski",
-                    "dismissal": "c Naeemuddin Aslam b Fayyaz Ahmed",
+                    "dismissal": "c (wk)Naeemuddin Aslam b Fayyaz Ahmed",
                     "runs": "56",
                     "balls": "88",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ryan ten Doeschate",
-                    "dismissal": "c Naeemuddin Aslam b Zahid Shah",
+                    "dismissal": "c (wk)Naeemuddin Aslam b Zahid Shah",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "-",
@@ -120,7 +120,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
+                    "batsman": "Jeroen Smits(c) (wk)",
                     "dismissal": "not out",
                     "runs": "3",
                     "balls": "4",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Amjad Javed",
-                    "dismissal": "c Smits b Schiferli",
+                    "dismissal": "c (wk)Smits b Schiferli",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "9",
@@ -301,7 +301,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Naeemuddin Aslam",
+                    "batsman": "Naeemuddin Aslam (wk)",
                     "dismissal": "run out (ten Doeschate)",
                     "runs": "19",
                     "balls": "25",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 2 wickets (with 5 balls remaining)"
+    "result": "U.A.E. won by 2 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Darron Reekers",
+            "Bas Zuiderent",
+            "Eric Szwarczynski",
+            "Ruud Nijman",
+            "Jeroen Smits(c) (wk)",
+            "Mohammad Kashif",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Alexei Kervezee",
+            "Daan van Bunge",
+            "Ryan ten Doeschate"
+        ],
+        "United Arab Emirates": [
+            "Saqib Ali",
+            "Arshad Ali",
+            "Naeemuddin Aslam (wk)",
+            "Zahid Shah",
+            "Khurram Khan(c)",
+            "Amjad Javed",
+            "Fayyaz Ahmed",
+            "Sameer Nayak",
+            "Fahad Alhashmi",
+            "Nithin Gopal",
+            "Owais Hameed"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b van Rooi",
                     "runs": "13",
                     "balls": "22",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Andrew Symonds",
-                    "dismissal": "run out (Swanepoel/van Schoor)",
+                    "dismissal": "run out (Swanepoel/ (wk)van Schoor)",
                     "runs": "59",
                     "balls": "63",
                     "minutes": "78",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Morne Karg",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "4",
                     "balls": "14",
                     "minutes": "21",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Danie Keulder",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "3",
                     "balls": "20",
                     "minutes": "26",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Deon Kotze(c)",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "31",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Louis Burger",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "11",
@@ -278,8 +278,8 @@
                     "strike_rate": "9.09"
                 },
                 {
-                    "batsman": "Melt van Schoor",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "batsman": "Melt van Schoor (wk)",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "18",
@@ -309,7 +309,7 @@
                 },
                 {
                     "batsman": "Rudi van Vuuren",
-                    "dismissal": "c Gilchrist b Bichel",
+                    "dismissal": "c (wk)Gilchrist b Bichel",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "9",
@@ -366,5 +366,33 @@
             ]
         }
     ],
-    "result": "Australia won by 256 runs"
+    "result": "Australia won by 256 runs",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Darren Lehmann",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Andy Bichel",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Brad Hogg",
+            "Damien Martyn"
+        ],
+        "Namibia": [
+            "Stefan Swanepoel",
+            "Louis Burger",
+            "Burton van Rooi",
+            "Bjorn Kotze",
+            "Rudi van Vuuren",
+            "Gavin Murgatroyd",
+            "Morne Karg",
+            "Jan-Berrie Burger",
+            "Deon Kotze(c)",
+            "Danie Keulder",
+            "Melt van Schoor (wk)"
+        ]
+    }
 }

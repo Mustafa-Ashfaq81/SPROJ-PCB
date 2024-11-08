@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Henry Nicholls",
-                    "dismissal": "c Wade b Marsh",
+                    "dismissal": "c (wk)Wade b Marsh",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "9",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Corey Anderson",
-                    "dismissal": "c Wade b Hazlewood",
+                    "dismissal": "c (wk)Wade b Hazlewood",
                     "runs": "16",
                     "balls": "28",
                     "minutes": "46",
@@ -93,7 +93,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Marsh b Boland",
                     "runs": "19",
                     "balls": "19",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Steven Smith(c)",
-                    "dismissal": "c Ronchi b Henry",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "2",
                     "balls": "12",
                     "minutes": "12",
@@ -300,7 +300,7 @@
                     "strike_rate": "95.83"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Milne b Santner",
                     "runs": "2",
                     "balls": "9",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 21 balls remaining)"
+    "result": "Australia won by 4 wickets (with 21 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum(c)",
+            "Grant Elliott",
+            "Martin Guptill",
+            "Kane Williamson",
+            "Trent Boult",
+            "Corey Anderson",
+            "Mitchell Santner",
+            "Luke Ronchi (wk)",
+            "Adam Milne",
+            "Matt Henry",
+            "Henry Nicholls"
+        ],
+        "Australia": [
+            "Steven Smith(c)",
+            "George Bailey",
+            "Glenn Maxwell",
+            "Scott Boland",
+            "Matthew Wade (wk)",
+            "David Warner",
+            "Usman Khawaja",
+            "Mitchell Marsh",
+            "Adam Zampa",
+            "John Hastings",
+            "Josh Hazlewood"
+        ]
+    }
 }

@@ -90,8 +90,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
-                    "dismissal": "c Dhoni b Bumrah",
+                    "batsman": "Richmond Mutumbami (wk)",
+                    "dismissal": "c (wk)Dhoni b Bumrah",
                     "runs": "2",
                     "balls": "14",
                     "minutes": "17",
@@ -263,7 +263,7 @@
                     "strike_rate": "400.00"
                 }
             ],
-            "did_not_bat": "Kedar Jadhav , MS Dhoni (c) , Axar Patel , Dhawal Kulkarni , Jasprit Bumrah , Barinder Sran , Yuzvendra Chahal",
+            "did_not_bat": "Kedar Jadhav , MS Dhoni (c) (wk) , Axar Patel , Dhawal Kulkarni , Jasprit Bumrah , Barinder Sran , Yuzvendra Chahal",
             "fall_of_wickets": "Fall of wickets : 1 - 58 ( KL Rahul , 14.4 ov ) , 2 - 125 ( Karun Nair , 26.4 ov )",
             "bowling": [
                 {
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 139 balls remaining)"
+    "result": "India won by 8 wickets (with 139 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Chamu Chibhabha",
+            "Tendai Chatara",
+            "Sean Williams",
+            "Graeme Cremer(c)",
+            "Richmond Mutumbami (wk)",
+            "Hamilton Masakadza",
+            "Taurai Muzarabani",
+            "Peter Moor",
+            "Sikandar Raza",
+            "Elton Chigumbura",
+            "Vusi Sibanda"
+        ],
+        "India": [
+            "Dhawal Kulkarni",
+            "Kedar Jadhav",
+            "Manish Pandey",
+            "Ambati Rayudu",
+            "Axar Patel",
+            "Barinder Sran",
+            "KL Rahul",
+            "Jasprit Bumrah",
+            "MS Dhoni (c) (wk)",
+            "Karun Nair",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

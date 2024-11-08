@@ -71,7 +71,7 @@
                     "strike_rate": "128.57"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "7",
@@ -242,8 +242,8 @@
                     "strike_rate": "57.37"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "8",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya",
-                    "dismissal": "st Sangakkara b Dilshan",
+                    "dismissal": "st (wk)Sangakkara b Dilshan",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "21",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 139 runs"
+    "result": "Sri Lanka won by 139 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Muthiah Muralidaran",
+            "Thisara Perera",
+            "Kumar Sangakkara(c) (wk)",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Thilan Samaraweera",
+            "Chamara Silva"
+        ],
+        "Zimbabwe": [
+            "Brendan Taylor",
+            "Tatenda Taibu (wk)",
+            "Regis Chakabva",
+            "Elton Chigumbura(c)",
+            "Ray Price",
+            "Tinashe Panyangara",
+            "Graeme Cremer",
+            "Craig Ervine",
+            "Prosper Utseya",
+            "Greg Lamb",
+            "Chris Mpofu"
+        ]
+    }
 }

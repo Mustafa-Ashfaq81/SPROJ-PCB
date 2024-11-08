@@ -86,7 +86,7 @@
                     "strike_rate": "130.23"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "1",
@@ -214,7 +214,7 @@
                 },
                 {
                     "batsman": "Tushar Imran",
-                    "dismissal": "c Jones b Tremlett",
+                    "dismissal": "c (wk)Jones b Tremlett",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -253,8 +253,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Khaled Mashud",
-                    "dismissal": "c Jones b Collingwood",
+                    "batsman": "Khaled Mashud (wk)",
+                    "dismissal": "c (wk)Jones b Collingwood",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "18",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "England won by 168 runs"
+    "result": "England won by 168 runs",
+    "playing_xi": {
+        "England": [
+            "Andrew Flintoff",
+            "Chris Tremlett",
+            "Jon Lewis",
+            "Steve Harmison",
+            "Michael Vaughan(c)",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "Ashley Giles",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Marcus Trescothick"
+        ],
+        "Bangladesh": [
+            "Javed Omer",
+            "Tushar Imran",
+            "Aftab Ahmed",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Mashrafe Mortaza",
+            "Mohammad Rafique",
+            "Habibul Bashar(c)",
+            "Nazmul Hossain",
+            "Khaled Mashud (wk)",
+            "Shahriar Nafees"
+        ]
+    }
 }

@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Dinesh Karthik",
-                    "dismissal": "c de Villiers b McLaren",
+                    "dismissal": "c (wk)de Villiers b McLaren",
                     "runs": "14",
                     "balls": "15",
                     "minutes": "21",
@@ -71,7 +71,7 @@
                     "strike_rate": "93.33"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c du Plessis b Tsotsobe",
                     "runs": "27",
                     "balls": "26",
@@ -219,7 +219,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Dhoni b Yadav",
+                    "dismissal": "c (wk)Dhoni b Yadav",
                     "runs": "22",
                     "balls": "15",
                     "minutes": "17",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Robin Peterson",
-                    "dismissal": "run out (Jadeja/Dhoni)",
+                    "dismissal": "run out (Jadeja/ (wk)Dhoni)",
                     "runs": "68",
                     "balls": "72",
                     "minutes": "92",
@@ -248,7 +248,7 @@
                     "strike_rate": "94.44"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "c Jadeja b Yadav",
                     "runs": "70",
                     "balls": "71",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "run out (I Sharma/Raina/Dhoni)",
+                    "dismissal": "run out (I Sharma/Raina/ (wk)Dhoni)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "3",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Rory Kleinveldt",
-                    "dismissal": "c Dhoni b I Sharma",
+                    "dismissal": "c (wk)Dhoni b I Sharma",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "12",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "India won by 26 runs"
+    "result": "India won by 26 runs",
+    "playing_xi": {
+        "India": [
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "Bhuvneshwar Kumar",
+            "Dinesh Karthik",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "Umesh Yadav",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "MS Dhoni(c) (wk)"
+        ],
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Colin Ingram",
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Jean-Paul Duminy",
+            "Rory Kleinveldt",
+            "Faf du Plessis",
+            "David Miller",
+            "Morne Morkel",
+            "Robin Peterson",
+            "Hashim Amla"
+        ]
+    }
 }

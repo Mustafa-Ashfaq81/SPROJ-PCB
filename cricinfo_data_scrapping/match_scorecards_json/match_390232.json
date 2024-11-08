@@ -30,7 +30,7 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Raymond van Schoor",
+                    "batsman": "Raymond van Schoor (wk)",
                     "dismissal": "c Arshad Ali b Amjad Javed",
                     "runs": "0",
                     "balls": "1",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Craig Williams",
-                    "dismissal": "st Naeemuddin Aslam b Fayyaz Ahmed",
+                    "dismissal": "st (wk)Naeemuddin Aslam b Fayyaz Ahmed",
                     "runs": "40",
                     "balls": "32",
                     "minutes": "-",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Amjad Javed",
-                    "dismissal": "c van Schoor b Klazinga",
+                    "dismissal": "c (wk)van Schoor b Klazinga",
                     "runs": "6",
                     "balls": "19",
                     "minutes": "-",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Nithin Gopal",
-                    "dismissal": "run out (LJ Burger/van Schoor)",
+                    "dismissal": "run out (LJ Burger/ (wk)van Schoor)",
                     "runs": "14",
                     "balls": "28",
                     "minutes": "-",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Saqib Ali",
-                    "dismissal": "c van Schoor b Snyman",
+                    "dismissal": "c (wk)van Schoor b Snyman",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "-",
@@ -267,7 +267,7 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Naeemuddin Aslam",
+                    "batsman": "Naeemuddin Aslam (wk)",
                     "dismissal": "c Williams b Kotze",
                     "runs": "53",
                     "balls": "75",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Namibia won by 49 runs"
+    "result": "Namibia won by 49 runs",
+    "playing_xi": {
+        "Namibia": [
+            "Sarel Burger",
+            "Craig Williams",
+            "Deon Kotze",
+            "Louis van der Westhuizen",
+            "Raymond van Schoor (wk)",
+            "Gerrie Snyman",
+            "Louis Burger(c)",
+            "Nicolaas Scholtz",
+            "Ian van Zyl",
+            "Louis Klazinga",
+            "Jan-Berrie Burger"
+        ],
+        "United Arab Emirates": [
+            "Saqib Ali",
+            "Arshad Ali",
+            "Naeemuddin Aslam (wk)",
+            "Zahid Shah",
+            "Khurram Khan(c)",
+            "Amjad Javed",
+            "Fayyaz Ahmed",
+            "Sameer Nayak",
+            "Qasim Zubair",
+            "Nithin Gopal",
+            "Owais Hameed"
+        ]
+    }
 }

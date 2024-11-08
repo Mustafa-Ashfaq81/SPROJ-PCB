@@ -85,7 +85,7 @@
                     "strike_rate": "82.22"
                 },
                 {
-                    "batsman": "Alec Stewart",
+                    "batsman": "Alec Stewart (wk)",
                     "dismissal": "b Jayasuriya",
                     "runs": "64",
                     "balls": "60",
@@ -106,7 +106,7 @@
                 },
                 {
                     "batsman": "Craig White",
-                    "dismissal": "run out (Fernando/Kaluwitharana)",
+                    "dismissal": "run out (Fernando/ (wk)Kaluwitharana)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "4",
@@ -252,8 +252,8 @@
                     "strike_rate": "40.62"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
-                    "dismissal": "c Stewart b Caddick",
+                    "batsman": "Romesh Kaluwitharana (wk)",
+                    "dismissal": "c (wk)Stewart b Caddick",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "19",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Stewart b White",
+                    "dismissal": "c (wk)Stewart b White",
                     "runs": "71",
                     "balls": "92",
                     "minutes": "99",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "England won by 43 runs"
+    "result": "England won by 43 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Marcus Trescothick",
+            "Andy Caddick",
+            "Nick Knight",
+            "Ian Blackwell",
+            "Steve Harmison",
+            "Nasser Hussain(c)",
+            "Paul Collingwood",
+            "Alec Stewart (wk)",
+            "Craig White",
+            "Ronnie Irani"
+        ],
+        "Sri Lanka": [
+            "Kumar Sangakkara",
+            "Chaminda Vaas",
+            "Russel Arnold",
+            "Marvan Atapattu",
+            "Thilan Samaraweera",
+            "Sanath Jayasuriya(c)",
+            "Jehan Mubarak",
+            "Romesh Kaluwitharana (wk)",
+            "Dilhara Fernando",
+            "Pulasthi Gunaratne",
+            "Mahela Jayawardene"
+        ]
+    }
 }

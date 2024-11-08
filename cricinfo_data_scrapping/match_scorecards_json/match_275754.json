@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Mufambisi b Mpofu",
+                    "dismissal": "c (wk)Mufambisi b Mpofu",
                     "runs": "22",
                     "balls": "26",
                     "minutes": "35",
@@ -110,8 +110,8 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "run out (Mufambisi)",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "run out ( (wk)Mufambisi)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "4",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c Mushfiqur Rahim b Mohammad Rafique",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mohammad Rafique",
                     "runs": "57",
                     "balls": "116",
                     "minutes": "143",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "31",
                     "balls": "32",
                     "minutes": "48",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "8",
@@ -287,8 +287,8 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Tafadzwa Mufambisi",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "batsman": "Tafadzwa Mufambisi (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "2",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 45 runs"
+    "result": "Bangladesh won by 45 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mehrab Hossain jnr",
+            "Mashrafe Mortaza",
+            "Shahadat Hossain",
+            "Mushfiqur Rahim (wk)",
+            "Abdur Razzak",
+            "Habibul Bashar(c)",
+            "Mohammad Ashraful",
+            "Aftab Ahmed",
+            "Shahriar Nafees",
+            "Shakib Al Hasan",
+            "Mohammad Rafique"
+        ],
+        "Zimbabwe": [
+            "Terry Duffin",
+            "Elton Chigumbura",
+            "Tafadzwa Mufambisi (wk)",
+            "Vusi Sibanda",
+            "Prosper Utseya(c)",
+            "Anthony Ireland",
+            "Gary Brent",
+            "Chamu Chibhabha",
+            "Chris Mpofu",
+            "Hamilton Masakadza",
+            "Sean Williams"
+        ]
+    }
 }

@@ -60,8 +60,8 @@
                     "strike_rate": "37.03"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "12",
                     "balls": "17",
                     "minutes": "37",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Ed Rainsford",
-                    "dismissal": "st Mushfiqur Rahim b Shakib Al Hasan",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Shakib Al Hasan",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "11",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Taibu b Mpofu",
+                    "dismissal": "c (wk)Taibu b Mpofu",
                     "runs": "34",
                     "balls": "49",
                     "minutes": "67",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Mehrab Hossain jnr",
-                    "dismissal": "run out (Sibanda/Taibu)",
+                    "dismissal": "run out (Sibanda/ (wk)Taibu)",
                     "runs": "2",
                     "balls": "25",
                     "minutes": "42",
@@ -287,7 +287,7 @@
                     "strike_rate": "91.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "20",
                     "balls": "31",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 wickets (with 27 balls remaining)"
+    "result": "Bangladesh won by 6 wickets (with 27 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Prosper Utseya(c)",
+            "Vusi Sibanda",
+            "Ray Price",
+            "Tatenda Taibu (wk)",
+            "Keith Dabengwa",
+            "Ed Rainsford",
+            "Sean Williams",
+            "Hamilton Masakadza",
+            "Chris Mpofu",
+            "Stuart Matsikenyeri"
+        ],
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shakib Al Hasan",
+            "Tamim Iqbal",
+            "Mohammad Ashraful(c)",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Rubel Hossain",
+            "Mehrab Hossain jnr",
+            "Nazmul Hossain",
+            "Naeem Islam",
+            "Raqibul Hasan"
+        ]
+    }
 }

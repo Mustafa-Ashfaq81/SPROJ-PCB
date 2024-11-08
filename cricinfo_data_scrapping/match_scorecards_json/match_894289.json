@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "st Ronchi b Sodhi",
+                    "dismissal": "st (wk)Ronchi b Sodhi",
                     "runs": "42",
                     "balls": "44",
                     "minutes": "81",
@@ -60,7 +60,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Regis Chakabva",
+                    "batsman": "Regis Chakabva (wk)",
                     "dismissal": "lbw b Sodhi",
                     "runs": "2",
                     "balls": "6",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya",
-                    "dismissal": "c Ronchi b McCullum",
+                    "dismissal": "c (wk)Ronchi b McCullum",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "5",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Tinashe Panyangara",
-                    "dismissal": "run out (Elliott/Ronchi)",
+                    "dismissal": "run out (Elliott/ (wk)Ronchi)",
                     "runs": "33",
                     "balls": "39",
                     "minutes": "54",
@@ -247,7 +247,7 @@
                     "strike_rate": "94.82"
                 }
             ],
-            "did_not_bat": "Kane Williamson (c) , Ross Taylor , Grant Elliott , Colin Munro , Luke Ronchi , Nathan McCullum , Matt Henry , Mitchell McClenaghan , Ish Sodhi",
+            "did_not_bat": "Kane Williamson (c) , Ross Taylor , Grant Elliott , Colin Munro , Luke Ronchi (wk) , Nathan McCullum , Matt Henry , Mitchell McClenaghan , Ish Sodhi",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 10 wickets (with 46 balls remaining)"
+    "result": "New Zealand won by 10 wickets (with 46 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Prosper Utseya",
+            "Elton Chigumbura(c)",
+            "Chris Mpofu",
+            "Regis Chakabva (wk)",
+            "Sean Williams",
+            "Tinashe Panyangara",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Graeme Cremer",
+            "Sikandar Raza",
+            "Craig Ervine"
+        ],
+        "New Zealand": [
+            "Tom Latham",
+            "Martin Guptill",
+            "Luke Ronchi (wk)",
+            "Grant Elliott",
+            "Nathan McCullum",
+            "Kane Williamson (c)",
+            "Matt Henry",
+            "Mitchell McClenaghan",
+            "Ish Sodhi",
+            "Ross Taylor",
+            "Colin Munro"
+        ]
+    }
 }

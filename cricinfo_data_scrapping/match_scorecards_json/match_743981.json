@@ -83,7 +83,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Jonny Bairstow",
+                    "batsman": "Jonny Bairstow (wk)",
                     "dismissal": "run out (Smith)",
                     "runs": "17",
                     "balls": "18",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c Bairstow b Ali",
+                    "dismissal": "c (wk)Bairstow b Ali",
                     "runs": "17",
                     "balls": "12",
                     "minutes": "16",
@@ -290,7 +290,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "b Finn",
                     "runs": "42",
                     "balls": "41",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "c Bairstow b Ali",
+                    "dismissal": "c (wk)Bairstow b Ali",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "2",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "England won by 93 runs"
+    "result": "England won by 93 runs",
+    "playing_xi": {
+        "England": [
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Steven Finn",
+            "Ben Stokes",
+            "James Taylor",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Adil Rashid",
+            "Alex Hales",
+            "Jonny Bairstow (wk)",
+            "Jason Roy"
+        ],
+        "Australia": [
+            "Mitchell Starc",
+            "Matthew Wade (wk)",
+            "George Bailey",
+            "Pat Cummins",
+            "Joe Burns",
+            "Ashton Agar",
+            "Glenn Maxwell",
+            "Mitchell Marsh",
+            "Steven Smith(c)",
+            "James Pattinson",
+            "Aaron Finch"
+        ]
+    }
 }

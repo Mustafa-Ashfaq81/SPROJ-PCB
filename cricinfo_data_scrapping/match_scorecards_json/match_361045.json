@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "st Dhoni b Yuvraj Singh",
+                    "dismissal": "st (wk)Dhoni b Yuvraj Singh",
                     "runs": "60",
                     "balls": "82",
                     "minutes": "114",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "46",
                     "balls": "47",
                     "minutes": "64",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "6",
@@ -100,7 +100,7 @@
                     "strike_rate": "89.65"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "b I Sharma",
                     "runs": "5",
                     "balls": "13",
@@ -121,7 +121,7 @@
                 },
                 {
                     "batsman": "Stuart Broad",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "5",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Prior b Swann",
+                    "dismissal": "c (wk)Prior b Swann",
                     "runs": "28",
                     "balls": "41",
                     "minutes": "54",
@@ -301,7 +301,7 @@
                     "strike_rate": "122.58"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "29",
                     "balls": "51",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "India won by 16 runs (D/L method)"
+    "result": "India won by 16 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Ian Bell",
+            "Graeme Swann",
+            "James Anderson",
+            "Matt Prior (wk)",
+            "Samit Patel",
+            "Stuart Broad",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Owais Shah",
+            "Andrew Flintoff",
+            "Kevin Pietersen(c)"
+        ],
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "Ishant Sharma",
+            "MS Dhoni(c) (wk)",
+            "Zaheer Khan",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Virender Sehwag",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "Munaf Patel"
+        ]
+    }
 }

@@ -70,7 +70,7 @@
                     "strike_rate": "46.66"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "c Zuiderent b Schiferli",
                     "runs": "0",
                     "balls": "2",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Neil McCallum",
-                    "dismissal": "c Smits b Borren",
+                    "dismissal": "c (wk)Smits b Borren",
                     "runs": "12",
                     "balls": "21",
                     "minutes": "30",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Craig Wright",
-                    "dismissal": "st Smits b Seelaar",
+                    "dismissal": "st (wk)Smits b Seelaar",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "5",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Alexei Kervezee",
-                    "dismissal": "c Smith b Wright",
+                    "dismissal": "c (wk)Smith b Wright",
                     "runs": "36",
                     "balls": "47",
                     "minutes": "54",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Ryan ten Doeschate",
-                    "dismissal": "c Smith b Nel",
+                    "dismissal": "c (wk)Smith b Nel",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "11",
@@ -317,7 +317,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
+                    "batsman": "Jeroen Smits(c) (wk)",
                     "dismissal": "b Blain",
                     "runs": "7",
                     "balls": "10",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 26 runs"
+    "result": "Scotland won by 26 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Qasim Sheikh",
+            "Neil McCallum",
+            "Craig Wright",
+            "Majid Haq",
+            "Kyle Coetzer",
+            "Colin Smith (wk)",
+            "Jan Stander",
+            "John Blain",
+            "Ryan Watson(c)",
+            "Gavin Hamilton",
+            "Dewald Nel"
+        ],
+        "Netherlands": [
+            "Darron Reekers",
+            "Bas Zuiderent",
+            "Eric Szwarczynski",
+            "Pieter Seelaar",
+            "Jeroen Smits(c) (wk)",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Alexei Kervezee",
+            "Peter Borren",
+            "Daan van Bunge",
+            "Ryan ten Doeschate"
+        ]
+    }
 }

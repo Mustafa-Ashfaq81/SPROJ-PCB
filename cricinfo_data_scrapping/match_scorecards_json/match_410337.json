@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Mushfiqur Rahim b Syed Rasel",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Syed Rasel",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "1",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c Mushfiqur Rahim b Nazmul Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Nazmul Hossain",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "24",
@@ -60,7 +60,7 @@
                     "strike_rate": "53.84"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "lbw b Shakib Al Hasan",
                     "runs": "20",
                     "balls": "39",
@@ -291,7 +291,7 @@
                     "strike_rate": "44.00"
                 }
             ],
-            "did_not_bat": "Shakib Al Hasan (c) , Mushfiqur Rahim , Mahmudullah , Naeem Islam , Syed Rasel , Nazmul Hossain , Enamul Haque jnr",
+            "did_not_bat": "Shakib Al Hasan (c) , Mushfiqur Rahim (wk) , Mahmudullah , Naeem Islam , Syed Rasel , Nazmul Hossain , Enamul Haque jnr",
             "fall_of_wickets": "Fall of wickets : 1 - 30 ( Zunaed Siddique , 3.5 ov ) , 2 - 167 ( Tamim Iqbal , 25.4 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 8 wickets (with 93 balls remaining)"
+    "result": "Bangladesh won by 8 wickets (with 93 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Mark Vermeulen",
+            "Sean Williams",
+            "Ray Price",
+            "Graeme Cremer",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Prosper Utseya(c)",
+            "Charles Coventry"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Syed Rasel",
+            "Tamim Iqbal",
+            "Enamul Haque jnr",
+            "Mohammad Ashraful",
+            "Raqibul Hasan",
+            "Nazmul Hossain",
+            "Shakib Al Hasan (c)",
+            "Zunaed Siddique",
+            "Mushfiqur Rahim (wk)",
+            "Naeem Islam"
+        ]
+    }
 }

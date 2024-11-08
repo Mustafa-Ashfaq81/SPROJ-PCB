@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Kamran Akmal b Sohail Tanvir",
+                    "dismissal": "c (wk)Kamran Akmal b Sohail Tanvir",
                     "runs": "29",
                     "balls": "27",
                     "minutes": "54",
@@ -70,7 +70,7 @@
                     "strike_rate": "81.05"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b Shoaib Akhtar",
                     "runs": "49",
                     "balls": "52",
@@ -267,7 +267,7 @@
                     "strike_rate": "80.85"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Harbhajan Singh b Singh",
                     "runs": "2",
                     "balls": "2",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Sohail Tanvir",
-                    "dismissal": "run out (Singh/Dhoni)",
+                    "dismissal": "run out (Singh/ (wk)Dhoni)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "2",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "India won by 46 runs"
+    "result": "India won by 46 runs",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Zaheer Khan",
+            "MS Dhoni(c) (wk)",
+            "Robin Uthappa",
+            "Sourav Ganguly",
+            "Harbhajan Singh",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Murali Kartik",
+            "RP Singh",
+            "Gautam Gambhir"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Shahid Afridi",
+            "Abdur Rehman",
+            "Kamran Akmal (wk)",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Misbah-ul-Haq",
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Sohail Tanvir",
+            "Younis Khan"
+        ]
+    }
 }

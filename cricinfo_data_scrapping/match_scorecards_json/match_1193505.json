@@ -60,7 +60,7 @@
                     "strike_rate": "52.17"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "98",
                     "balls": "110",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Sabbir Rahman",
-                    "dismissal": "run out (de Silva/Perera)",
+                    "dismissal": "run out (de Silva/ (wk)Perera)",
                     "runs": "11",
                     "balls": "19",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Mosaddek Hossain",
-                    "dismissal": "c Perera b Udana",
+                    "dismissal": "c (wk)Perera b Udana",
                     "runs": "13",
                     "balls": "27",
                     "minutes": "-",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Taijul Islam",
-                    "dismissal": "run out (Perera/Pradeep)",
+                    "dismissal": "run out ( (wk)Perera/Pradeep)",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "-",
@@ -233,7 +233,7 @@
                     "strike_rate": "51.72"
                 },
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "c Soumya Sarkar b Mustafizur Rahman",
                     "runs": "30",
                     "balls": "34",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 7 wickets (with 32 balls remaining)"
+    "result": "Sri Lanka won by 7 wickets (with 32 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Mahmudullah",
+            "Soumya Sarkar",
+            "Shafiul Islam",
+            "Mustafizur Rahman",
+            "Sabbir Rahman",
+            "Tamim Iqbal(c)",
+            "Taijul Islam",
+            "Mosaddek Hossain",
+            "Mehidy Hasan Miraz",
+            "Mohammad Mithun",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Sri Lanka": [
+            "Kusal Perera (wk)",
+            "Dhananjaya de Silva",
+            "Angelo Mathews",
+            "Avishka Fernando",
+            "Kusal Mendis",
+            "Lahiru Kumara",
+            "Dimuth Karunaratne(c)",
+            "Isuru Udana",
+            "Akila Dananjaya",
+            "Lahiru Thirimanne",
+            "Nuwan Pradeep"
+        ]
+    }
 }

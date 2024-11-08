@@ -30,7 +30,7 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "c Karunaratne b Kumara",
                     "runs": "8",
                     "balls": "10",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Mendis b Chameera",
+                    "dismissal": "c (wk)Mendis b Chameera",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "13",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi(c)",
-                    "dismissal": "c Mendis b Chameera",
+                    "dismissal": "c (wk)Mendis b Chameera",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "2",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Mujeeb Ur Rahman",
-                    "dismissal": "c Mendis b Hasaranga",
+                    "dismissal": "c (wk)Mendis b Hasaranga",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "8",
@@ -229,7 +229,7 @@
                     "strike_rate": "124.44"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "17",
@@ -329,5 +329,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 204 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 204 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Hashmatullah Shahidi(c)",
+            "Rashid Khan",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Fazalhaq Farooqi",
+            "Ibrahim Zadran",
+            "Fareed Ahmad",
+            "Rahmanullah Gurbaz (wk)"
+        ],
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Pathum Nissanka",
+            "Dushmantha Chameera",
+            "Dhananjaya de Silva",
+            "Maheesh Theekshana",
+            "Kusal Mendis (wk)",
+            "Dimuth Karunaratne",
+            "Sadeera Samarawickrama",
+            "Charith Asalanka",
+            "Lahiru Kumara",
+            "Dasun Shanaka (c)"
+        ]
+    }
 }

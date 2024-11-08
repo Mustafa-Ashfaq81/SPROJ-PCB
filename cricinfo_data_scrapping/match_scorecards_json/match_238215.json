@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "23",
                     "balls": "43",
                     "minutes": "54",
@@ -50,8 +50,8 @@
                     "strike_rate": "67.56"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "22",
                     "balls": "27",
                     "minutes": "59",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "st Kamran Akmal b Shahid Afridi",
+                    "dismissal": "st (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "6",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Imran Farhat",
-                    "dismissal": "st Sangakkara b Dilshan",
+                    "dismissal": "st (wk)Sangakkara b Dilshan",
                     "runs": "46",
                     "balls": "52",
                     "minutes": "87",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "st Sangakkara b Muralidaran",
+                    "dismissal": "st (wk)Sangakkara b Muralidaran",
                     "runs": "25",
                     "balls": "46",
                     "minutes": "64",
@@ -307,7 +307,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "9",
                     "balls": "7",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 28 balls remaining)"
+    "result": "Pakistan won by 4 wickets (with 28 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dhammika Prasad",
+            "Muthiah Muralidaran",
+            "Upul Tharanga",
+            "Lasith Malinga",
+            "Mahela Jayawardene(c)",
+            "Kaushal Lokuarachchi",
+            "Farveez Maharoof",
+            "Chamara Kapugedera"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Shahid Afridi",
+            "Abdul Razzaq",
+            "Imran Farhat",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Mohammad Asif",
+            "Iftikhar Anjum",
+            "Shoaib Malik"
+        ]
+    }
 }

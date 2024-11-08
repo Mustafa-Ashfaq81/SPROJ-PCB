@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Wade b Watson",
+                    "dismissal": "c (wk)Wade b Watson",
                     "runs": "30",
                     "balls": "42",
                     "minutes": "55",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Jonathan Trott",
-                    "dismissal": "c Wade b Starc",
+                    "dismissal": "c (wk)Wade b Starc",
                     "runs": "43",
                     "balls": "56",
                     "minutes": "99",
@@ -92,7 +92,7 @@
                     "strike_rate": "124.32"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Faulkner",
                     "runs": "1",
                     "balls": "2",
@@ -224,7 +224,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Buttler b Broad",
+                    "dismissal": "c (wk)Buttler b Broad",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "23",
@@ -283,8 +283,8 @@
                     "strike_rate": "41.66"
                 },
                 {
-                    "batsman": "Matthew Wade",
-                    "dismissal": "c Buttler b Anderson",
+                    "batsman": "Matthew Wade (wk)",
+                    "dismissal": "c (wk)Buttler b Anderson",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "5",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "England won by 48 runs"
+    "result": "England won by 48 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Joe Root",
+            "Eoin Morgan",
+            "Ian Bell",
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Jonathan Trott",
+            "Jos Buttler (wk)",
+            "Ravi Bopara",
+            "James Tredwell"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "David Warner",
+            "Mitchell Marsh",
+            "James Faulkner",
+            "Matthew Wade (wk)",
+            "Mitchell Starc",
+            "Clint McKay",
+            "Adam Voges",
+            "Shane Watson",
+            "Phillip Hughes",
+            "George Bailey(c)"
+        ]
+    }
 }

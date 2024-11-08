@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "54",
                     "balls": "73",
                     "minutes": "110",
@@ -51,7 +51,7 @@
                     "strike_rate": "139.21"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Shakib Al Hasan b Shafiul Islam",
                     "runs": "52",
                     "balls": "69",
@@ -203,7 +203,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "st Sangakkara b Dilshan",
+                    "dismissal": "st (wk)Sangakkara b Dilshan",
                     "runs": "51",
                     "balls": "53",
                     "minutes": "82",
@@ -252,8 +252,8 @@
                     "strike_rate": "76.92"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "st Sangakkara b Dilshan",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "st (wk)Sangakkara b Dilshan",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "13",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Sangakkara b Welegedara",
+                    "dismissal": "c (wk)Sangakkara b Welegedara",
                     "runs": "9",
                     "balls": "23",
                     "minutes": "38",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza",
-                    "dismissal": "c Sangakkara b Welegedara",
+                    "dismissal": "c (wk)Sangakkara b Welegedara",
                     "runs": "15",
                     "balls": "15",
                     "minutes": "17",
@@ -388,5 +388,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 126 runs"
+    "result": "Sri Lanka won by 126 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Chanaka Welegedara",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Muthiah Muralidaran",
+            "Kumar Sangakkara(c) (wk)",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Chamara Kapugedera",
+            "Thilan Samaraweera"
+        ],
+        "Bangladesh": [
+            "Shakib Al Hasan(c)",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Syed Rasel",
+            "Naeem Islam",
+            "Shafiul Islam",
+            "Imrul Kayes",
+            "Zunaed Siddique",
+            "Mahmudullah"
+        ]
+    }
 }

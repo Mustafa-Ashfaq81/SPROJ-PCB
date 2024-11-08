@@ -80,8 +80,8 @@
                     "strike_rate": "58.69"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
-                    "dismissal": "st Latham b Astle",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
+                    "dismissal": "st (wk)Latham b Astle",
                     "runs": "3",
                     "balls": "6",
                     "minutes": "14",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Shadab Khan",
-                    "dismissal": "c Latham b Ferguson",
+                    "dismissal": "c (wk)Latham b Ferguson",
                     "runs": "52",
                     "balls": "68",
                     "minutes": "104",
@@ -277,7 +277,7 @@
                     "strike_rate": "104.65"
                 }
             ],
-            "did_not_bat": "Tom Latham , Henry Nicholls , Mitchell Santner , Todd Astle , Tim Southee , Lockie Ferguson , Trent Boult",
+            "did_not_bat": "Tom Latham (wk) , Henry Nicholls , Mitchell Santner , Todd Astle , Tim Southee , Lockie Ferguson , Trent Boult",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Colin Munro , 0.3 ov ) , 2 - 47 ( Kane Williamson , 9.3 ov )",
             "bowling": [
                 {
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 8 wickets (with 7 balls remaining) (D/L method)"
+    "result": "New Zealand won by 8 wickets (with 7 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Imam-ul-Haq",
+            "Shoaib Malik",
+            "Azhar Ali",
+            "Rumman Raees",
+            "Shadab Khan",
+            "Faheem Ashraf",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Mohammad Amir",
+            "Babar Azam",
+            "Hasan Ali"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Todd Astle",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Tim Southee",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ross Taylor",
+            "Tom Latham (wk)",
+            "Lockie Ferguson"
+        ]
+    }
 }

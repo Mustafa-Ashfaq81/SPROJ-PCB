@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "st Taibu b Utseya",
+                    "dismissal": "st (wk)Taibu b Utseya",
                     "runs": "53",
                     "balls": "46",
                     "minutes": "80",
@@ -90,7 +90,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "31",
                     "balls": "19",
@@ -217,8 +217,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "52",
                     "balls": "71",
                     "minutes": "102",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c Boucher b Morkel",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "13",
                     "balls": "20",
                     "minutes": "32",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 212 runs"
+    "result": "South Africa won by 212 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Charl Langeveldt",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Lonwabo Tsotsobe",
+            "Albie Morkel",
+            "Alviro Petersen",
+            "Jean-Paul Duminy",
+            "Ryan McLaren",
+            "Roelof van der Merwe"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Elton Chigumbura",
+            "Kyle Jarvis",
+            "Chris Mpofu",
+            "Brendan Taylor",
+            "Tatenda Taibu (wk)",
+            "Ray Price",
+            "Graeme Cremer",
+            "Hamilton Masakadza",
+            "Prosper Utseya(c)",
+            "Charles Coventry"
+        ]
+    }
 }

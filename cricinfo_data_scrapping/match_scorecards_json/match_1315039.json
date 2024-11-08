@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "run out (Pooran/Hope)",
+                    "dismissal": "run out (Pooran/ (wk)Hope)",
                     "runs": "72",
                     "balls": "72",
                     "minutes": "135",
@@ -62,7 +62,7 @@
                     "strike_rate": "82.79"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "b Hosein",
                     "runs": "15",
                     "balls": "23",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Mohammad Haris",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "8",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Shadab Khan",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "22",
                     "balls": "23",
                     "minutes": "31",
@@ -243,7 +243,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Fakhar Zaman b Shaheen Shah Afridi",
                     "runs": "4",
                     "balls": "6",
@@ -294,7 +294,7 @@
                 },
                 {
                     "batsman": "Rovman Powell",
-                    "dismissal": "c Mohammad Rizwan b Mohammad Nawaz",
+                    "dismissal": "c (wk)Mohammad Rizwan b Mohammad Nawaz",
                     "runs": "10",
                     "balls": "10",
                     "minutes": "18",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 120 runs"
+    "result": "Pakistan won by 120 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Haris Rauf",
+            "Mohammad Haris",
+            "Babar Azam(c)",
+            "Mohammad Wasim",
+            "Khushdil Shah",
+            "Imam-ul-Haq",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Mohammad Nawaz",
+            "Shaheen Shah Afridi"
+        ],
+        "West Indies": [
+            "Hayden Walsh",
+            "Nicholas Pooran(c)",
+            "Rovman Powell",
+            "Romario Shepherd",
+            "Shai Hope (wk)",
+            "Brandon King",
+            "Shamarh Brooks",
+            "Anderson Phillip",
+            "Kyle Mayers",
+            "Akeal Hosein",
+            "Alzarri Joseph"
+        ]
+    }
 }

@@ -90,7 +90,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "c Southee b Ellis",
                     "runs": "20",
                     "balls": "31",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Daren Sammy(c)",
-                    "dismissal": "c Latham b Mills",
+                    "dismissal": "c (wk)Latham b Mills",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "5",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Ross Taylor(c)",
-                    "dismissal": "st Thomas b Samuels",
+                    "dismissal": "st (wk)Thomas b Samuels",
                     "runs": "28",
                     "balls": "38",
                     "minutes": "56",
@@ -311,8 +311,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tom Latham",
-                    "dismissal": "c Thomas b Bravo",
+                    "batsman": "Tom Latham (wk)",
+                    "dismissal": "c (wk)Thomas b Bravo",
                     "runs": "11",
                     "balls": "25",
                     "minutes": "36",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 20 runs"
+    "result": "West Indies won by 20 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Kieron Pollard",
+            "Sunil Narine",
+            "Johnson Charles",
+            "Dwayne Bravo",
+            "Andre Russell",
+            "Tino Best",
+            "Dwayne Smith",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Devon Thomas (wk)",
+            "Daren Sammy(c)"
+        ],
+        "New Zealand": [
+            "Andrew Ellis",
+            "Ross Taylor(c)",
+            "Martin Guptill",
+            "Trent Boult",
+            "Tim Southee",
+            "Kane Williamson",
+            "Daniel Flynn",
+            "Tom Latham (wk)",
+            "Brendon McCullum",
+            "Kyle Mills",
+            "Rob Nicol"
+        ]
+    }
 }

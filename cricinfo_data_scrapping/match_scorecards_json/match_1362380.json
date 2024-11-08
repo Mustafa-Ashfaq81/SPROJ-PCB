@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Wessly Madhevere",
-                    "dismissal": "c Edwards b Shariz Ahmad",
+                    "dismissal": "c (wk)Edwards b Shariz Ahmad",
                     "runs": "43",
                     "balls": "50",
                     "minutes": "95",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "c Edwards b Shariz Ahmad",
+                    "dismissal": "c (wk)Edwards b Shariz Ahmad",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -92,7 +92,7 @@
                     "strike_rate": "72.72"
                 },
                 {
-                    "batsman": "Clive Madande",
+                    "batsman": "Clive Madande (wk)",
                     "dismissal": "c Ackermann b van Meekeren",
                     "runs": "52",
                     "balls": "57",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Wellington Masakadza",
-                    "dismissal": "st Edwards b Ackermann",
+                    "dismissal": "st (wk)Edwards b Ackermann",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "19",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Tendai Chatara",
-                    "dismissal": "c Edwards b Klein",
+                    "dismissal": "c (wk)Edwards b Klein",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "21",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Tom Cooper",
-                    "dismissal": "run out (Ervine/Madande)",
+                    "dismissal": "run out (Ervine/ (wk)Madande)",
                     "runs": "74",
                     "balls": "84",
                     "minutes": "94",
@@ -270,7 +270,7 @@
                 },
                 {
                     "batsman": "Colin Ackermann",
-                    "dismissal": "st Madande b Madhevere",
+                    "dismissal": "st (wk)Madande b Madhevere",
                     "runs": "28",
                     "balls": "36",
                     "minutes": "37",
@@ -279,7 +279,7 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "c Evans b Sikandar Raza",
                     "runs": "36",
                     "balls": "28",
@@ -310,7 +310,7 @@
                 },
                 {
                     "batsman": "Shariz Ahmad",
-                    "dismissal": "run out (Madande/Sikandar Raza)",
+                    "dismissal": "run out ( (wk)Madande/Sikandar Raza)",
                     "runs": "8",
                     "balls": "9",
                     "minutes": "18",
@@ -467,5 +467,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 1 run"
+    "result": "Zimbabwe won by 1 run",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Brad Evans",
+            "Gary Ballance",
+            "Wellington Masakadza",
+            "Blessing Muzarabani",
+            "Craig Ervine(c)",
+            "Ryan Burl",
+            "Clive Madande (wk)",
+            "Sean Williams",
+            "Sikandar Raza",
+            "Wessly Madhevere",
+            "Tendai Chatara"
+        ],
+        "Netherlands": [
+            "Fred Klaassen",
+            "Scott Edwards(c) (wk)",
+            "Max O'Dowd",
+            "Teja Nidamanuru",
+            "Tom Cooper",
+            "Paul van Meekeren",
+            "Shariz Ahmad",
+            "Ryan Klein",
+            "Colin Ackermann",
+            "Musa Ahmad",
+            "Vikramjit Singh"
+        ]
+    }
 }

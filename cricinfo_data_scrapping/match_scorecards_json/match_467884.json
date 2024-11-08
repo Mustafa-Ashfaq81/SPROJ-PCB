@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Saha b Ashwin",
+                    "dismissal": "c (wk)Saha b Ashwin",
                     "runs": "70",
                     "balls": "102",
                     "minutes": "145",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Jamie How",
-                    "dismissal": "c Saha b Sreesanth",
+                    "dismissal": "c (wk)Saha b Sreesanth",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "15",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "c Saha b Sreesanth",
+                    "dismissal": "c (wk)Saha b Sreesanth",
                     "runs": "59",
                     "balls": "56",
                     "minutes": "78",
@@ -90,7 +90,7 @@
                     "strike_rate": "96.87"
                 },
                 {
-                    "batsman": "Gareth Hopkins",
+                    "batsman": "Gareth Hopkins (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "12",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Nathan McCullum",
-                    "dismissal": "run out (Saha)",
+                    "dismissal": "run out ( (wk)Saha)",
                     "runs": "12",
                     "balls": "9",
                     "minutes": "18",
@@ -281,7 +281,7 @@
                     "strike_rate": "145.45"
                 }
             ],
-            "did_not_bat": "Suresh Raina , Yusuf Pathan , Wriddhiman Saha , Ravichandran Ashwin , Ashish Nehra , Sreesanth , Munaf Patel",
+            "did_not_bat": "Suresh Raina , Yusuf Pathan , Wriddhiman Saha (wk) , Ravichandran Ashwin , Ashish Nehra , Sreesanth , Munaf Patel",
             "fall_of_wickets": "Fall of wickets : 1 - 87 ( Murali Vijay , 17.4 ov ) , 2 - 203 ( Virat Kohli , 36.5 ov )",
             "bowling": [
                 {
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 42 balls remaining)"
+    "result": "India won by 8 wickets (with 42 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Jamie How",
+            "Andy McKay",
+            "Martin Guptill",
+            "Gareth Hopkins (wk)",
+            "Kyle Mills",
+            "Scott Styris",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Tim Southee",
+            "Nathan McCullum",
+            "Daniel Vettori(c)"
+        ],
+        "India": [
+            "Ashish Nehra",
+            "Wriddhiman Saha (wk)",
+            "Murali Vijay",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Sreesanth",
+            "Gautam Gambhir(c)",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Yusuf Pathan",
+            "Munaf Patel"
+        ]
+    }
 }

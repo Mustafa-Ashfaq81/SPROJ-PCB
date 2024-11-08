@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "c Wade b Hastings",
+                    "dismissal": "c (wk)Wade b Hastings",
                     "runs": "33",
                     "balls": "36",
                     "minutes": "44",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal(c)",
-                    "dismissal": "c Wade b Starc",
+                    "dismissal": "c (wk)Wade b Starc",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "4",
@@ -80,7 +80,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "lbw b Head",
                     "runs": "14",
                     "balls": "27",
@@ -247,8 +247,8 @@
                     "strike_rate": "84.12"
                 },
                 {
-                    "batsman": "Matthew Wade",
-                    "dismissal": "c MDKJ Perera b MDK Perera",
+                    "batsman": "Matthew Wade (wk)",
+                    "dismissal": "c (wk)MDKJ Perera b MDK Perera",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "17",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Australia won by 5 wickets (with 42 balls remaining)"
+    "result": "Australia won by 5 wickets (with 42 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Sachith Pathirana",
+            "Kusal Mendis",
+            "Suranga Lakmal",
+            "Dilruwan Perera",
+            "Dhananjaya de Silva",
+            "Dinesh Chandimal(c)",
+            "Kusal Perera (wk)",
+            "Dasun Shanaka",
+            "Danushka Gunathilaka",
+            "Amila Aponso"
+        ],
+        "Australia": [
+            "Scott Boland",
+            "George Bailey",
+            "Mitchell Starc",
+            "Aaron Finch",
+            "Matthew Wade (wk)",
+            "Usman Khawaja",
+            "Adam Zampa",
+            "Travis Head",
+            "David Warner(c)",
+            "James Faulkner",
+            "John Hastings"
+        ]
+    }
 }

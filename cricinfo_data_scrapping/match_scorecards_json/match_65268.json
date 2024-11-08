@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "12",
                     "balls": "29",
                     "minutes": "45",
@@ -102,7 +102,7 @@
                     "strike_rate": "128.57"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "not out",
                     "runs": "29",
                     "balls": "25",
@@ -273,7 +273,7 @@
                     "strike_rate": "58.33"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "not out",
                     "runs": "44",
                     "balls": "76",
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 26 balls remaining)"
+    "result": "India won by 6 wickets (with 26 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Shoaib Akhtar",
+            "Mohammad Yousuf",
+            "Rashid Latif (wk)",
+            "Younis Khan",
+            "Saeed Anwar",
+            "Abdul Razzaq",
+            "Waqar Younis (c)",
+            "Shahid Afridi",
+            "Wasim Akram",
+            "Taufeeq Umar",
+            "Inzamam-ul-Haq"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Javagal Srinath",
+            "Ashish Nehra",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)",
+            "Dinesh Mongia",
+            "Anil Kumble",
+            "Sachin Tendulkar",
+            "Zaheer Khan"
+        ]
+    }
 }

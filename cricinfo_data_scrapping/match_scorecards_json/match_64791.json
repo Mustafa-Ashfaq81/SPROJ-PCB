@@ -96,7 +96,7 @@
                     "strike_rate": "183.33"
                 }
             ],
-            "did_not_bat": "Kamran Akmal , Wasim Akram , Azhar Mahmood , Waqar Younis (c) , Shoaib Akhtar",
+            "did_not_bat": "Kamran Akmal (wk) , Wasim Akram , Azhar Mahmood , Waqar Younis (c) , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Taufeeq Umar , 1.1 ov ) , 2 - 127 ( Saleem Elahi , 23.6 ov ) , 3 - 236 ( Inzamam-ul-Haq , 42.4 ov ) , 4 - 241 ( Shahid Afridi , 43.4 ov )",
             "bowling": [
                 {
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Stuart Matsikenyeri",
-                    "dismissal": "c Kamran Akmal b Wasim Akram",
+                    "dismissal": "c (wk)Kamran Akmal b Wasim Akram",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "14",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Craig Evans",
-                    "dismissal": "run out (Kamran Akmal/Shahid Afridi)",
+                    "dismissal": "run out ( (wk)Kamran Akmal/Shahid Afridi)",
                     "runs": "68",
                     "balls": "76",
                     "minutes": "114",
@@ -277,7 +277,7 @@
                     "strike_rate": "141.02"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Waqar Younis",
                     "runs": "35",
                     "balls": "41",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 runs"
+    "result": "Pakistan won by 7 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Yousuf",
+            "Wasim Akram",
+            "Azhar Mahmood",
+            "Younis Khan",
+            "Inzamam-ul-Haq",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Taufeeq Umar",
+            "Saleem Elahi",
+            "Waqar Younis (c)",
+            "Shoaib Akhtar"
+        ],
+        "Zimbabwe": [
+            "Sean Ervine",
+            "Andy Blignaut",
+            "Henry Olonga",
+            "Grant Flower",
+            "Alistair Campbell(c)",
+            "Richard Sims",
+            "Tatenda Taibu (wk)",
+            "Andy Flower",
+            "Craig Evans",
+            "Barney Rogers",
+            "Stuart Matsikenyeri"
+        ]
+    }
 }

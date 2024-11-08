@@ -57,7 +57,7 @@
                 },
                 {
                     "batsman": "Eric Szwarczynski",
-                    "dismissal": "c AA Mulla b Dhaniram",
+                    "dismissal": "c (wk)AA Mulla b Dhaniram",
                     "runs": "51",
                     "balls": "61",
                     "minutes": "66",
@@ -77,7 +77,7 @@
                 },
                 {
                     "batsman": "Peter Borren",
-                    "dismissal": "st AA Mulla b Sandher",
+                    "dismissal": "st (wk)AA Mulla b Sandher",
                     "runs": "96",
                     "balls": "69",
                     "minutes": "78",
@@ -126,7 +126,7 @@
                     "strike_rate": "300.00"
                 }
             ],
-            "did_not_bat": "Jeroen Smits (c) , Mark Jonkman",
+            "did_not_bat": "Jeroen Smits (c) (wk) , Mark Jonkman",
             "fall_of_wickets": "Fall of wickets : 1 - 62 ( Darron Reekers , 11.5 ov ) , 2 - 63 ( Alexei Kervezee , 13.1 ov ) , 3 - 134 ( Tom de Grooth , 27.6 ov ) , 4 - 141 ( Eric Szwarczynski , 29.6 ov ) , 5 - 158 ( Billy Stelling , 34.6 ov ) , 6 - 279 ( Peter Borren , 49.1 ov ) , 7 - 286 ( Atse Buurman , 49.5 ov )",
             "bowling": [
                 {
@@ -263,7 +263,7 @@
                     "strike_rate": "38.70"
                 },
                 {
-                    "batsman": "Ashif Mulla",
+                    "batsman": "Ashif Mulla (wk)",
                     "dismissal": "run out (Borren)",
                     "runs": "7",
                     "balls": "9",
@@ -304,7 +304,7 @@
                 },
                 {
                     "batsman": "Kevin Sandher",
-                    "dismissal": "c Smits b Schiferli",
+                    "dismissal": "c (wk)Smits b Schiferli",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "9",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 117 runs"
+    "result": "Netherlands won by 117 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Eric Szwarczynski",
+            "Billy Stelling",
+            "Jeroen Smits (c) (wk)",
+            "Atse Buurman",
+            "Tom de Grooth",
+            "Mudassar Bukhari",
+            "Mark Jonkman",
+            "Peter Borren",
+            "Alexei Kervezee",
+            "Darron Reekers",
+            "Edgar Schiferli"
+        ],
+        "Canada": [
+            "Ashish Bagai(c)",
+            "Steven Welsh",
+            "Trevin Bastiampillai",
+            "Sunil Dhaniram",
+            "Kevin Sandher",
+            "Geoff Barnett",
+            "Shahzad Khan",
+            "Qaiser Ali",
+            "Mohsin Mulla",
+            "Henry Osinde",
+            "Ashif Mulla (wk)"
+        ]
+    }
 }

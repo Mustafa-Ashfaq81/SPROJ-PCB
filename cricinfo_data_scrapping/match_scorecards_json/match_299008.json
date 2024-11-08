@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "19",
                     "balls": "26",
                     "minutes": "39",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "run out (Shoaib Malik/Kamran Akmal)",
+                    "dismissal": "run out (Shoaib Malik/ (wk)Kamran Akmal)",
                     "runs": "48",
                     "balls": "68",
                     "minutes": "145",
@@ -80,7 +80,7 @@
                     "strike_rate": "56.75"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Shoaib Malik b Abdur Rehman",
                     "runs": "17",
                     "balls": "38",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik(c)",
-                    "dismissal": "c Boucher b Morkel",
+                    "dismissal": "c (wk)Boucher b Morkel",
                     "runs": "42",
                     "balls": "62",
                     "minutes": "95",
@@ -297,7 +297,7 @@
                     "strike_rate": "90.62"
                 }
             ],
-            "did_not_bat": "Kamran Akmal , Sohail Tanvir , Abdur Rehman , Iftikhar Anjum , Umar Gul",
+            "did_not_bat": "Kamran Akmal (wk) , Sohail Tanvir , Abdur Rehman , Iftikhar Anjum , Umar Gul",
             "fall_of_wickets": "Fall of wickets : 1 - 42 ( Shahid Afridi , 6.6 ov ) , 2 - 58 ( Yasir Hameed , 11.4 ov ) , 3 - 68 ( Younis Khan , 16.2 ov ) , 4 - 147 ( Shoaib Malik , 38.1 ov )",
             "bowling": [
                 {
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 11 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Charl Langeveldt",
+            "Justin Kemp",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "AB de Villiers",
+            "Makhaya Ntini",
+            "Shaun Pollock",
+            "Mark Boucher (wk)",
+            "Johan Botha",
+            "Albie Morkel",
+            "Graeme Smith(c)"
+        ],
+        "Pakistan": [
+            "Yasir Hameed",
+            "Shahid Afridi",
+            "Abdur Rehman",
+            "Iftikhar Anjum",
+            "Kamran Akmal (wk)",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Misbah-ul-Haq",
+            "Umar Gul",
+            "Sohail Tanvir",
+            "Younis Khan"
+        ]
+    }
 }

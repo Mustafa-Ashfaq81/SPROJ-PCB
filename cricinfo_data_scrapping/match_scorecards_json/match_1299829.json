@@ -35,7 +35,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "c Tamim Iqbal b Mustafizur Rahman",
                     "runs": "7",
                     "balls": "14",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "34",
                     "balls": "69",
                     "minutes": "84",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi(c)",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "28",
                     "balls": "43",
                     "minutes": "56",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "20",
                     "balls": "24",
                     "minutes": "44",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Litton Das",
-                    "dismissal": "c Rahmanullah Gurbaz b Fazalhaq Farooqi",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Fazalhaq Farooqi",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "12",
@@ -272,7 +272,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "lbw b Fazalhaq Farooqi",
                     "runs": "3",
                     "balls": "5",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 4 wickets (with 7 balls remaining)"
+    "result": "Bangladesh won by 4 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Ibrahim Zadran",
+            "Najibullah Zadran",
+            "Rashid Khan",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz (wk)",
+            "Fazalhaq Farooqi",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Yamin Ahmadzai",
+            "Rahmat Shah"
+        ],
+        "Bangladesh": [
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Mustafizur Rahman",
+            "Afif Hossain",
+            "Yasir Ali",
+            "Litton Das",
+            "Shakib Al Hasan",
+            "Mahmudullah",
+            "Shoriful Islam",
+            "Tamim Iqbal(c)"
+        ]
+    }
 }

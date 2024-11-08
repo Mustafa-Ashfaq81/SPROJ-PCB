@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c BB McCullum b Bracewell",
+                    "dismissal": "c (wk)BB McCullum b Bracewell",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "13",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha",
-                    "dismissal": "c BB McCullum b Bracewell",
+                    "dismissal": "c (wk)BB McCullum b Bracewell",
                     "runs": "6",
                     "balls": "20",
                     "minutes": "33",
@@ -84,8 +84,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Forster Mutizwa",
-                    "dismissal": "c BB McCullum b Franklin",
+                    "batsman": "Forster Mutizwa (wk)",
+                    "dismissal": "c (wk)BB McCullum b Franklin",
                     "runs": "69",
                     "balls": "98",
                     "minutes": "116",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c BB McCullum b McKay",
+                    "dismissal": "c (wk)BB McCullum b McKay",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "13",
@@ -231,7 +231,7 @@
                     "strike_rate": "76.28"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "39",
                     "balls": "35",
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 9 wickets (with 39 balls remaining)"
+    "result": "New Zealand won by 9 wickets (with 39 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Chamu Chibhabha",
+            "Ray Price",
+            "Tatenda Taibu",
+            "Brendan Taylor(c)",
+            "Hamilton Masakadza",
+            "Chris Mpofu",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Forster Mutizwa (wk)",
+            "Kyle Jarvis",
+            "Vusi Sibanda"
+        ],
+        "New Zealand": [
+            "Jesse Ryder",
+            "Martin Guptill",
+            "James Franklin",
+            "Doug Bracewell",
+            "Kyle Mills",
+            "Andy McKay",
+            "Kane Williamson",
+            "Nathan McCullum",
+            "Brendon McCullum (wk)",
+            "Rob Nicol",
+            "Ross Taylor (c)"
+        ]
+    }
 }

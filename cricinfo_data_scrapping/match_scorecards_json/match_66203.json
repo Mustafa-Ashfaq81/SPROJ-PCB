@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Khaled Mashud b Tapash Baisya",
+                    "dismissal": "c (wk)Khaled Mashud b Tapash Baisya",
                     "runs": "99",
                     "balls": "132",
                     "minutes": "173",
@@ -82,7 +82,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Sylvester Joseph , Dwayne Bravo , Courtney Browne , Mervyn Dillon , Ian Bradshaw , Daren Sammy",
+            "did_not_bat": "Sylvester Joseph , Dwayne Bravo , Courtney Browne (wk) , Mervyn Dillon , Ian Bradshaw , Daren Sammy",
             "fall_of_wickets": "Fall of wickets : 1 - 192 ( Wavell Hinds , 39.6 ov ) , 2 - 201 ( Chris Gayle , 42.4 ov ) , 3 - 232 ( Brian Lara , 44.5 ov )",
             "bowling": [
                 {
@@ -215,7 +215,7 @@
                     "strike_rate": "47.72"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "c Sammy b Dillon",
                     "runs": "0",
                     "balls": "9",
@@ -351,5 +351,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 138 runs"
+    "result": "West Indies won by 138 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Ramnaresh Sarwan",
+            "Dwayne Bravo",
+            "Courtney Browne (wk)",
+            "Mervyn Dillon",
+            "Daren Sammy",
+            "Shivnarine Chanderpaul",
+            "Brian Lara(c)",
+            "Wavell Hinds",
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Sylvester Joseph"
+        ],
+        "Bangladesh": [
+            "Mohammad Ashraful",
+            "Khaled Mahmud",
+            "Mushfiqur Rahman",
+            "Mohammad Rafique",
+            "Javed Omer",
+            "Khaled Mashud (wk)",
+            "Nafees Iqbal",
+            "Aftab Ahmed",
+            "Tapash Baisya",
+            "Nazmul Hossain",
+            "Rajin Saleh(c)"
+        ]
+    }
 }

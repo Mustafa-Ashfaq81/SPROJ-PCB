@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "143",
                     "balls": "107",
                     "minutes": "174",
@@ -63,8 +63,8 @@
                     "strike_rate": "133.64"
                 },
                 {
-                    "batsman": "Matthew Wade",
-                    "dismissal": "c Buttler b Stokes",
+                    "batsman": "Matthew Wade (wk)",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "George Bailey",
-                    "dismissal": "st Buttler b Root",
+                    "dismissal": "st (wk)Buttler b Root",
                     "runs": "4",
                     "balls": "14",
                     "minutes": "14",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Adam Voges",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "8",
                     "balls": "17",
                     "minutes": "12",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "James Faulkner",
-                    "dismissal": "c Buttler b Jordan",
+                    "dismissal": "c (wk)Buttler b Jordan",
                     "runs": "10",
                     "balls": "19",
                     "minutes": "35",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "st Wade b Voges",
+                    "dismissal": "st (wk)Wade b Voges",
                     "runs": "30",
                     "balls": "39",
                     "minutes": "56",
@@ -300,7 +300,7 @@
                     "strike_rate": "93.93"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Faulkner",
                     "runs": "42",
                     "balls": "37",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Australia won by 49 runs"
+    "result": "Australia won by 49 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Michael Clarke(c)",
+            "George Bailey",
+            "James Faulkner",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Shane Watson",
+            "Aaron Finch",
+            "Adam Voges",
+            "Fawad Ahmed",
+            "Phillip Hughes"
+        ],
+        "England": [
+            "Boyd Rankin",
+            "Joe Root",
+            "Chris Jordan",
+            "Luke Wright",
+            "Kevin Pietersen",
+            "Ravi Bopara",
+            "James Tredwell",
+            "Jos Buttler (wk)",
+            "Eoin Morgan(c)",
+            "Michael Carberry",
+            "Ben Stokes"
+        ]
+    }
 }

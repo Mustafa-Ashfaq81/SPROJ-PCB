@@ -31,7 +31,7 @@
             "extras": "23",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Ganguly b Nehra",
                     "runs": "29",
                     "balls": "32",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Dravid b Pathan",
+                    "dismissal": "c (wk)Dravid b Pathan",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "11",
@@ -252,7 +252,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "run out (Martyn)",
                     "runs": "0",
                     "balls": "11",
@@ -263,7 +263,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Gilchrist b Harvey",
+                    "dismissal": "c (wk)Gilchrist b Harvey",
                     "runs": "4",
                     "balls": "15",
                     "minutes": "19",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Hemang Badani",
-                    "dismissal": "run out (Gilchrist/Symonds)",
+                    "dismissal": "run out ( (wk)Gilchrist/Symonds)",
                     "runs": "18",
                     "balls": "27",
                     "minutes": "43",
@@ -293,7 +293,7 @@
                 },
                 {
                     "batsman": "Murali Kartik",
-                    "dismissal": "c Gilchrist b Williams",
+                    "dismissal": "c (wk)Gilchrist b Williams",
                     "runs": "23",
                     "balls": "25",
                     "minutes": "32",
@@ -398,5 +398,33 @@
             ]
         }
     ],
-    "result": "Australia won by 208 runs"
+    "result": "Australia won by 208 runs",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Brad Williams",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Simon Katich",
+            "Adam Gilchrist (wk)",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Damien Martyn"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Ashish Nehra",
+            "Murali Kartik",
+            "Lakshmipathy Balaji",
+            "Irfan Pathan",
+            "VVS Laxman",
+            "Rahul Dravid (wk)",
+            "Yuvraj Singh",
+            "Sourav Ganguly(c)",
+            "Hemang Badani",
+            "Sachin Tendulkar"
+        ]
+    }
 }

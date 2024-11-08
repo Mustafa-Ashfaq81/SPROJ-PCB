@@ -55,7 +55,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "b Rampaul",
                     "runs": "35",
                     "balls": "45",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Jacobs b Bravo",
+                    "dismissal": "c (wk)Jacobs b Bravo",
                     "runs": "43",
                     "balls": "63",
                     "minutes": "94",
@@ -76,7 +76,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Jacobs b Rampaul",
+                    "dismissal": "c (wk)Jacobs b Rampaul",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "17",
@@ -278,7 +278,7 @@
                     "strike_rate": "110.34"
                 }
             ],
-            "did_not_bat": "Ricardo Powell , Dwayne Bravo , Ridley Jacobs , Ian Bradshaw , Ravi Rampaul , Jermaine Lawson",
+            "did_not_bat": "Ricardo Powell , Dwayne Bravo , Ridley Jacobs (wk) , Ian Bradshaw , Ravi Rampaul , Jermaine Lawson",
             "fall_of_wickets": "Fall of wickets : 1 - 62 ( Shivnarine Chanderpaul , 19.2 ov ) , 2 - 71 ( Dwayne Smith , 20.6 ov ) , 3 - 93 ( Ramnaresh Sarwan , 24.5 ov )",
             "bowling": [
                 {
@@ -354,5 +354,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 106 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 106 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ian Blackwell",
+            "Rikki Clarke",
+            "Marcus Trescothick",
+            "Paul Collingwood",
+            "Michael Vaughan(c)",
+            "Steve Harmison",
+            "Geraint Jones (wk)",
+            "Anthony McGrath",
+            "Darren Gough",
+            "James Anderson",
+            "Andrew Strauss"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ricardo Powell",
+            "Jermaine Lawson",
+            "Ravi Rampaul"
+        ]
+    }
 }

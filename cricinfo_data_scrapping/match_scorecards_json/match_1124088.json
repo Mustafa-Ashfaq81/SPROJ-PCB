@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ashfaq Ahmed",
-                    "dismissal": "c Nath b Sompal Kami",
+                    "dismissal": "c (wk)Nath b Sompal Kami",
                     "runs": "4",
                     "balls": "9",
                     "minutes": "-",
@@ -50,8 +50,8 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Ghulam Shabber",
-                    "dismissal": "c Nath b Sompal Kami",
+                    "batsman": "Ghulam Shabber (wk)",
+                    "dismissal": "c (wk)Nath b Sompal Kami",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Muhammad Usman",
-                    "dismissal": "c Nath b Khadka",
+                    "dismissal": "c (wk)Nath b Khadka",
                     "runs": "5",
                     "balls": "23",
                     "minutes": "-",
@@ -247,7 +247,7 @@
                     "strike_rate": "46.66"
                 },
                 {
-                    "batsman": "Dilip Nath",
+                    "batsman": "Dilip Nath (wk)",
                     "dismissal": "lbw b Amjad Javed",
                     "runs": "0",
                     "balls": "6",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Paras Khadka(c)",
-                    "dismissal": "c Ghulam Shabber b Rohan Mustafa",
+                    "dismissal": "c (wk)Ghulam Shabber b Rohan Mustafa",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "-",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Aarif Sheikh",
-                    "dismissal": "c Ghulam Shabber b Ahmed Raza",
+                    "dismissal": "c (wk)Ghulam Shabber b Ahmed Raza",
                     "runs": "14",
                     "balls": "25",
                     "minutes": "-",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 63 runs"
+    "result": "U.A.E. won by 63 runs",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Rohan Mustafa(c)",
+            "Rameez Shahzad",
+            "Ghulam Shabber (wk)",
+            "Ahmed Raza",
+            "Ashfaq Ahmed",
+            "Adnan Mufti",
+            "Mohammad Boota",
+            "Mohammad Naveed",
+            "Imran Haider",
+            "Amjad Javed",
+            "Muhammad Usman"
+        ],
+        "Nepal": [
+            "Gyanendra Malla",
+            "Aarif Sheikh",
+            "Paras Khadka(c)",
+            "Sandeep Lamichhane",
+            "Sagar Pun",
+            "Basant Regmi",
+            "Sharad Vesawkar",
+            "Binod Bhandari",
+            "Sompal Kami",
+            "Dilip Nath (wk)",
+            "Lalit Bhandari"
+        ]
+    }
 }

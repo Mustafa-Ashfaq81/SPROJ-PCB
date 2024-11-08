@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Jake Fraser-McGurk",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "10",
                     "balls": "5",
                     "minutes": "3",
@@ -44,7 +44,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Josh Inglis",
+                    "batsman": "Josh Inglis (wk)",
                     "dismissal": "c Chase b Joseph",
                     "runs": "9",
                     "balls": "11",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Kjorn Ottley",
-                    "dismissal": "c Inglis b Abbott",
+                    "dismissal": "c (wk)Inglis b Abbott",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "23",
@@ -271,7 +271,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Shai Hope(c)",
+                    "batsman": "Shai Hope(c) (wk)",
                     "dismissal": "b Hazlewood",
                     "runs": "29",
                     "balls": "65",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Keacy Carty",
-                    "dismissal": "c Inglis b Abbott",
+                    "dismissal": "c (wk)Inglis b Abbott",
                     "runs": "40",
                     "balls": "51",
                     "minutes": "75",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Australia won by 83 runs"
+    "result": "Australia won by 83 runs",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "Josh Inglis (wk)",
+            "Matthew Short",
+            "Sean Abbott",
+            "Jake Fraser-McGurk",
+            "Adam Zampa",
+            "Marnus Labuschagne",
+            "Josh Hazlewood",
+            "Cameron Green",
+            "Will Sutherland",
+            "Aaron Hardie"
+        ],
+        "West Indies": [
+            "Oshane Thomas",
+            "Matthew Forde",
+            "Keacy Carty",
+            "Justin Greaves",
+            "Kjorn Ottley",
+            "Alzarri Joseph",
+            "Alick Athanaze",
+            "Roston Chase",
+            "Gudakesh Motie",
+            "Romario Shepherd",
+            "Shai Hope(c) (wk)"
+        ]
+    }
 }

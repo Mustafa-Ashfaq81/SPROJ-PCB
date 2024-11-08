@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Tony de Zorzi",
-                    "dismissal": "c Rahul b Arshdeep Singh",
+                    "dismissal": "c (wk)Rahul b Arshdeep Singh",
                     "runs": "28",
                     "balls": "22",
                     "minutes": "43",
@@ -74,7 +74,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
+                    "batsman": "Heinrich Klaasen (wk)",
                     "dismissal": "b Arshdeep Singh",
                     "runs": "6",
                     "balls": "9",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "c Rahul b Avesh Khan",
+                    "dismissal": "c (wk)Rahul b Avesh Khan",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "19",
@@ -253,7 +253,7 @@
                     "strike_rate": "33.33"
                 }
             ],
-            "did_not_bat": "KL Rahul (c) , Sanju Samson , Axar Patel , Arshdeep Singh , Avesh Khan , Kuldeep Yadav , Mukesh Kumar",
+            "did_not_bat": "KL Rahul (c) (wk) , Sanju Samson , Axar Patel , Arshdeep Singh , Avesh Khan , Kuldeep Yadav , Mukesh Kumar",
             "fall_of_wickets": "Fall of wickets : 1 - 23 ( Ruturaj Gaikwad , 3.4 ov ) , 2 - 111 ( Shreyas Iyer , 15.5 ov ) DRS",
             "bowling": [
                 {
@@ -329,5 +329,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 200 balls remaining)"
+    "result": "India won by 8 wickets (with 200 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Andile Phehlukwayo",
+            "Aiden Markram(c)",
+            "Keshav Maharaj",
+            "David Miller",
+            "Wiaan Mulder",
+            "Tabraiz Shamsi",
+            "Heinrich Klaasen (wk)",
+            "Tony de Zorzi",
+            "Nandre Burger",
+            "Reeza Hendricks",
+            "Rassie van der Dussen"
+        ],
+        "India": [
+            "Ruturaj Gaikwad",
+            "Sai Sudharsan",
+            "KL Rahul (c) (wk)",
+            "Axar Patel",
+            "Avesh Khan",
+            "Sanju Samson",
+            "Mukesh Kumar",
+            "Tilak Varma",
+            "Kuldeep Yadav",
+            "Arshdeep Singh",
+            "Shreyas Iyer"
+        ]
+    }
 }

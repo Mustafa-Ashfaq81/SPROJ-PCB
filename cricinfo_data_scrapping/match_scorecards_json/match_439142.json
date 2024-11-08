@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle(c)",
-                    "dismissal": "st Taibu b Utseya",
+                    "dismissal": "st (wk)Taibu b Utseya",
                     "runs": "33",
                     "balls": "53",
                     "minutes": "54",
@@ -60,7 +60,7 @@
                     "strike_rate": "76.31"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Utseya b Maruma",
                     "runs": "19",
                     "balls": "37",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Kieron Pollard",
-                    "dismissal": "st Taibu b Cremer",
+                    "dismissal": "st (wk)Taibu b Cremer",
                     "runs": "17",
                     "balls": "11",
                     "minutes": "15",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Ravi Rampaul",
-                    "dismissal": "run out (Maruma/Taibu/Chigumbura)",
+                    "dismissal": "run out (Maruma/ (wk)Taibu/Chigumbura)",
                     "runs": "14",
                     "balls": "4",
                     "minutes": "6",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Ramdin b Sammy",
+                    "dismissal": "c (wk)Ramdin b Sammy",
                     "runs": "35",
                     "balls": "35",
                     "minutes": "56",
@@ -267,8 +267,8 @@
                     "strike_rate": "55.88"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
-                    "dismissal": "c Ramdin b Sammy",
+                    "batsman": "Tatenda Taibu (wk)",
+                    "dismissal": "c (wk)Ramdin b Sammy",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "7",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 141 runs"
+    "result": "West Indies won by 141 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Kemar Roach",
+            "Kieron Pollard",
+            "Dwayne Bravo",
+            "Denesh Ramdin (wk)",
+            "Adrian Barath",
+            "Shivnarine Chanderpaul",
+            "Narsingh Deonarine",
+            "Chris Gayle(c)",
+            "Nikita Miller",
+            "Daren Sammy",
+            "Ravi Rampaul"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Hamilton Masakadza",
+            "Prosper Utseya(c)",
+            "Brendan Taylor",
+            "Tatenda Taibu (wk)",
+            "Ray Price",
+            "Elton Chigumbura",
+            "Graeme Cremer",
+            "Timycen Maruma",
+            "Greg Lamb",
+            "Vusi Sibanda"
+        ]
+    }
 }

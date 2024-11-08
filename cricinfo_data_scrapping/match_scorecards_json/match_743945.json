@@ -80,8 +80,8 @@
                     "strike_rate": "213.33"
                 },
                 {
-                    "batsman": "Luke Ronchi",
-                    "dismissal": "c Buttler b Finn",
+                    "batsman": "Luke Ronchi (wk)",
+                    "dismissal": "c (wk)Buttler b Finn",
                     "runs": "33",
                     "balls": "16",
                     "minutes": "22",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Ben Stokes",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "28",
                     "balls": "17",
                     "minutes": "23",
@@ -247,8 +247,8 @@
                     "strike_rate": "164.70"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "c Ronchi b Boult",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "41",
                     "balls": "38",
                     "minutes": "42",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 13 runs (D/L method)"
+    "result": "New Zealand won by 13 runs (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Grant Elliott",
+            "Mitchell Santner",
+            "Brendon McCullum(c)",
+            "Nathan McCullum",
+            "Trent Boult",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Tim Southee",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "Steven Finn",
+            "Ben Stokes",
+            "Eoin Morgan(c)",
+            "Sam Billings",
+            "Adil Rashid",
+            "Alex Hales",
+            "Jason Roy",
+            "Chris Jordan"
+        ]
+    }
 }

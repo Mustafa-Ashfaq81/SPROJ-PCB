@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "run out (Shadab Khan/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Shadab Khan/ (wk)Sarfaraz Ahmed)",
                     "runs": "45",
                     "balls": "62",
                     "minutes": "86",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Colin Munro",
-                    "dismissal": "c Sarfaraz Ahmed b Faheem Ashraf",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Faheem Ashraf",
                     "runs": "8",
                     "balls": "4",
                     "minutes": "7",
@@ -70,7 +70,7 @@
                     "strike_rate": "81.25"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Shoaib Malik b Rumman Raees",
                     "runs": "35",
                     "balls": "35",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Babar Azam",
-                    "dismissal": "run out (Santner/Latham)",
+                    "dismissal": "run out (Santner/ (wk)Latham)",
                     "runs": "8",
                     "balls": "28",
                     "minutes": "43",
@@ -287,7 +287,7 @@
                     "strike_rate": "11.11"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "28",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 183 runs"
+    "result": "New Zealand won by 183 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Todd Astle",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Tim Southee",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ross Taylor",
+            "Tom Latham (wk)",
+            "Lockie Ferguson"
+        ],
+        "Pakistan": [
+            "Mohammad Hafeez",
+            "Fakhar Zaman",
+            "Shoaib Malik",
+            "Azhar Ali",
+            "Rumman Raees",
+            "Shadab Khan",
+            "Faheem Ashraf",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Mohammad Amir",
+            "Babar Azam",
+            "Hasan Ali"
+        ]
+    }
 }

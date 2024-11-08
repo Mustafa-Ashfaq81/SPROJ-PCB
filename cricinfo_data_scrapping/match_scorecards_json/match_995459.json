@@ -60,7 +60,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Dinesh Chandimal",
+                    "batsman": "Dinesh Chandimal (wk)",
                     "dismissal": "lbw b Zampa",
                     "runs": "48",
                     "balls": "67",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Chandimal b NLTC Perera",
+                    "dismissal": "c (wk)Chandimal b NLTC Perera",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "5",
@@ -291,7 +291,7 @@
                     "strike_rate": "58.69"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Gunathilaka b NLTC Perera",
                     "runs": "76",
                     "balls": "88",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Moises Henriques",
-                    "dismissal": "st Chandimal b Prasanna",
+                    "dismissal": "st (wk)Chandimal b Prasanna",
                     "runs": "4",
                     "balls": "16",
                     "minutes": "20",
@@ -465,5 +465,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 82 runs"
+    "result": "Sri Lanka won by 82 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Thisara Perera",
+            "Seekkuge Prasanna",
+            "Kusal Mendis",
+            "Dilruwan Perera",
+            "Dhananjaya de Silva",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal (wk)",
+            "Kusal Perera",
+            "Danushka Gunathilaka",
+            "Angelo Mathews(c)",
+            "Amila Aponso"
+        ],
+        "Australia": [
+            "Steven Smith(c)",
+            "George Bailey",
+            "Mitchell Starc",
+            "Aaron Finch",
+            "Matthew Wade (wk)",
+            "David Warner",
+            "Adam Zampa",
+            "Travis Head",
+            "James Faulkner",
+            "Moises Henriques",
+            "Nathan Lyon"
+        ]
+    }
 }

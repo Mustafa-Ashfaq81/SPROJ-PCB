@@ -40,8 +40,8 @@
                     "strike_rate": "80.55"
                 },
                 {
-                    "batsman": "Srimantha Wijeyeratne",
-                    "dismissal": "c Aravind b Junaid Siddique",
+                    "batsman": "Srimantha Wijeyeratne (wk)",
+                    "dismissal": "c (wk)Aravind b Junaid Siddique",
                     "runs": "19",
                     "balls": "17",
                     "minutes": "33",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Pargat Singh",
-                    "dismissal": "c Aravind b Sharma",
+                    "dismissal": "c (wk)Aravind b Sharma",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "16",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Tanish Suri",
-                    "dismissal": "c Wijeyeratne b Heyliger",
+                    "dismissal": "c (wk)Wijeyeratne b Heyliger",
                     "runs": "27",
                     "balls": "28",
                     "minutes": "46",
@@ -227,7 +227,7 @@
                     "strike_rate": "96.42"
                 },
                 {
-                    "batsman": "Vriitya Aravind",
+                    "batsman": "Vriitya Aravind (wk)",
                     "dismissal": "run out (Johnson/Heyliger)",
                     "runs": "51",
                     "balls": "83",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "CP Rizwan",
-                    "dismissal": "c Wijeyeratne b Thaker",
+                    "dismissal": "c (wk)Wijeyeratne b Thaker",
                     "runs": "18",
                     "balls": "31",
                     "minutes": "36",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Canada won by 8 runs (DLS method)"
+    "result": "Canada won by 8 runs (DLS method)",
+    "playing_xi": {
+        "Canada": [
+            "Pargat Singh",
+            "Shreyas Movva",
+            "Harsh Thaker",
+            "Saad Bin Zafar(c)",
+            "Srimantha Wijeyeratne (wk)",
+            "Aaron Johnson",
+            "Nicholas Kirton",
+            "Navneet Dhaliwal",
+            "Ammar Khalid",
+            "Dilon Heyliger",
+            "Uday Bhagwan"
+        ],
+        "United Arab Emirates": [
+            "Basil Hameed",
+            "Muhammad Zuhaib",
+            "Sanchit Sharma",
+            "CP Rizwan",
+            "Junaid Siddique",
+            "Rahul Chopra",
+            "Vriitya Aravind (wk)",
+            "Muhammad Waseem(c)",
+            "Tanish Suri",
+            "Aayan Afzal Khan",
+            "Zahoor Khan"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Ramdin b Best",
+                    "dismissal": "c (wk)Ramdin b Best",
                     "runs": "46",
                     "balls": "78",
                     "minutes": "124",
@@ -71,8 +71,8 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
-                    "dismissal": "c Ramdin b Best",
+                    "batsman": "Dinesh Karthik (wk)",
+                    "dismissal": "c (wk)Ramdin b Best",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "11",
@@ -223,7 +223,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Karthik b Kumar",
+                    "dismissal": "c (wk)Karthik b Kumar",
                     "runs": "10",
                     "balls": "13",
                     "minutes": "11",
@@ -253,7 +253,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Karthik b I Sharma",
+                    "dismissal": "c (wk)Karthik b I Sharma",
                     "runs": "6",
                     "balls": "20",
                     "minutes": "34",
@@ -282,7 +282,7 @@
                     "strike_rate": "48.27"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "c Kumar b Yadav",
                     "runs": "9",
                     "balls": "17",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "India won by 102 runs (D/L method)"
+    "result": "India won by 102 runs (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Ishant Sharma",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Ravichandran Ashwin",
+            "Ravindra Jadeja",
+            "Umesh Yadav",
+            "Bhuvneshwar Kumar",
+            "Suresh Raina",
+            "Virat Kohli(c)",
+            "Murali Vijay",
+            "Dinesh Karthik (wk)"
+        ],
+        "West Indies": [
+            "Kemar Roach",
+            "Kieron Pollard",
+            "Chris Gayle",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Marlon Samuels",
+            "Dwayne Bravo(c)",
+            "Denesh Ramdin (wk)",
+            "Johnson Charles",
+            "Tino Best",
+            "Daren Sammy"
+        ]
+    }
 }

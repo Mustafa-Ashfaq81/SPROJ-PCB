@@ -29,7 +29,7 @@
             "batting": [
                 {
                     "batsman": "David Obuya",
-                    "dismissal": "st Wilson b McCallan",
+                    "dismissal": "st (wk)Wilson b McCallan",
                     "runs": "41",
                     "balls": "64",
                     "minutes": "58",
@@ -68,7 +68,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Morris Ouma(c)",
+                    "batsman": "Morris Ouma(c) (wk)",
                     "dismissal": "lbw b McCallan",
                     "runs": "6",
                     "balls": "21",
@@ -259,7 +259,7 @@
                     "strike_rate": "72.97"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "lbw b Odoyo",
                     "runs": "13",
                     "balls": "16",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Andre Botha",
-                    "dismissal": "st Ouma b Tikolo",
+                    "dismissal": "st (wk)Ouma b Tikolo",
                     "runs": "10",
                     "balls": "16",
                     "minutes": "19",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien",
-                    "dismissal": "c Ouma b Odoyo",
+                    "dismissal": "c (wk)Ouma b Odoyo",
                     "runs": "16",
                     "balls": "40",
                     "minutes": "47",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 3 wickets (with 7 balls remaining)"
+    "result": "Ireland won by 3 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Peter Ongondo",
+            "Alex Obanda",
+            "Morris Ouma(c) (wk)",
+            "Thomas Odoyo",
+            "Jimmy Kamande",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "David Obuya",
+            "Nehemiah Odhiambo",
+            "Steve Tikolo",
+            "Kennedy Otieno"
+        ],
+        "Ireland": [
+            "John Mooney",
+            "Kyle McCallan",
+            "William Porterfield(c)",
+            "Kevin O'Brien",
+            "Gary Wilson (wk)",
+            "Boyd Rankin",
+            "Andre Botha",
+            "Regan West",
+            "Andrew White",
+            "Alex Cusack",
+            "Trent Johnston"
+        ]
+    }
 }

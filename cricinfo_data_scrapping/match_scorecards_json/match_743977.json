@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "15",
                     "balls": "15",
                     "minutes": "22",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "run out (Stokes/Buttler)",
+                    "dismissal": "run out (Stokes/ (wk)Buttler)",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "22",
@@ -90,7 +90,7 @@
                     "strike_rate": "54.54"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "not out",
                     "runs": "71",
                     "balls": "50",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Wade b Watson",
+                    "dismissal": "c (wk)Wade b Watson",
                     "runs": "38",
                     "balls": "46",
                     "minutes": "78",
@@ -257,7 +257,7 @@
                     "strike_rate": "56.52"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Marsh b Coulter-Nile",
                     "runs": "4",
                     "balls": "10",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c Wade b Coulter-Nile",
+                    "dismissal": "c (wk)Wade b Coulter-Nile",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "c Wade b Starc",
+                    "dismissal": "c (wk)Wade b Starc",
                     "runs": "11",
                     "balls": "11",
                     "minutes": "16",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 59 runs"
+    "result": "Australia won by 59 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Matthew Wade (wk)",
+            "George Bailey",
+            "Pat Cummins",
+            "Nathan Coulter-Nile",
+            "Joe Burns",
+            "David Warner",
+            "Glenn Maxwell",
+            "Shane Watson",
+            "Mitchell Marsh",
+            "Steven Smith(c)"
+        ],
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Steven Finn",
+            "Ben Stokes",
+            "James Taylor",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Mark Wood",
+            "Adil Rashid",
+            "Alex Hales",
+            "Jason Roy"
+        ]
+    }
 }

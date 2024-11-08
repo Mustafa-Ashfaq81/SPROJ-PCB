@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c de Kock b Philander",
+                    "dismissal": "c (wk)de Kock b Philander",
                     "runs": "5",
                     "balls": "29",
                     "minutes": "42",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "James Neesham",
-                    "dismissal": "c de Kock b Philander",
+                    "dismissal": "c (wk)de Kock b Philander",
                     "runs": "16",
                     "balls": "15",
                     "minutes": "24",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Dean Brownlie",
-                    "dismissal": "c de Kock b Imran Tahir",
+                    "dismissal": "c (wk)de Kock b Imran Tahir",
                     "runs": "24",
                     "balls": "28",
                     "minutes": "44",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Tom Latham",
-                    "dismissal": "st de Kock b Duminy",
+                    "dismissal": "st (wk)de Kock b Duminy",
                     "runs": "29",
                     "balls": "38",
                     "minutes": "52",
@@ -90,8 +90,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
-                    "dismissal": "c de Kock b Steyn",
+                    "batsman": "Luke Ronchi (wk)",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "99",
                     "balls": "83",
                     "minutes": "129",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Nathan McCullum",
-                    "dismissal": "c de Kock b McLaren",
+                    "dismissal": "c (wk)de Kock b McLaren",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "20",
@@ -237,7 +237,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Latham b Boult",
                     "runs": "9",
                     "balls": "5",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Ronchi b Boult",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "8",
                     "balls": "23",
                     "minutes": "27",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 11 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Corey Anderson",
+            "Brendon McCullum(c)",
+            "Nathan McCullum",
+            "James Neesham",
+            "Trent Boult",
+            "Tom Latham",
+            "Dean Brownlie",
+            "Kyle Mills",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "South Africa": [
+            "Rilee Rossouw",
+            "Ryan McLaren",
+            "Dale Steyn",
+            "Morne Morkel",
+            "Vernon Philander",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ]
+    }
 }

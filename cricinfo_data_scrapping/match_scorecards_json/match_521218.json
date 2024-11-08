@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ajinkya Rahane",
-                    "dismissal": "st Kieswetter b Swann",
+                    "dismissal": "st (wk)Kieswetter b Swann",
                     "runs": "15",
                     "balls": "41",
                     "minutes": "59",
@@ -80,7 +80,7 @@
                     "strike_rate": "110.90"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "87",
                     "balls": "70",
@@ -227,8 +227,8 @@
                     "strike_rate": "95.23"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
-                    "dismissal": "c Dhoni b Kumar",
+                    "batsman": "Craig Kieswetter (wk)",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "7",
                     "balls": "8",
                     "minutes": "13",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Tim Bresnan",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "7",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "India won by 126 runs"
+    "result": "India won by 126 runs",
+    "playing_xi": {
+        "India": [
+            "Gautam Gambhir",
+            "Umesh Yadav",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Praveen Kumar",
+            "Parthiv Patel",
+            "Vinay Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina"
+        ],
+        "England": [
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Graeme Swann",
+            "Kevin Pietersen",
+            "Samit Patel",
+            "Jonny Bairstow",
+            "Craig Kieswetter (wk)",
+            "Ravi Bopara"
+        ]
+    }
 }

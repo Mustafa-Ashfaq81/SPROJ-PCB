@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "run out (Root/Bopara/Buttler)",
+                    "dismissal": "run out (Root/Bopara/ (wk)Buttler)",
                     "runs": "59",
                     "balls": "74",
                     "minutes": "89",
@@ -50,7 +50,7 @@
                     "strike_rate": "79.72"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "lbw b Ali",
                     "runs": "2",
                     "balls": "4",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Buttler b Tredwell",
+                    "dismissal": "c (wk)Buttler b Tredwell",
                     "runs": "55",
                     "balls": "58",
                     "minutes": "88",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Sangakkara b NLTC Perera",
+                    "dismissal": "c (wk)Sangakkara b NLTC Perera",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "7",
@@ -271,7 +271,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "b Prasad",
                     "runs": "21",
                     "balls": "21",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Ben Stokes",
-                    "dismissal": "st Sangakkara b Herath",
+                    "dismissal": "st (wk)Sangakkara b Herath",
                     "runs": "16",
                     "balls": "27",
                     "minutes": "28",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "st Sangakkara b Herath",
+                    "dismissal": "st (wk)Sangakkara b Herath",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "14",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 25 runs"
+    "result": "Sri Lanka won by 25 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Perera",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Mahela Jayawardene",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Ajantha Mendis",
+            "Angelo Mathews(c)",
+            "Dhammika Prasad",
+            "Rangana Herath"
+        ],
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Harry Gurney",
+            "Eoin Morgan",
+            "Ben Stokes",
+            "James Tredwell",
+            "Moeen Ali",
+            "Alastair Cook(c)",
+            "Joe Root",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "1",
                     "balls": "9",
                     "minutes": "12",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "8",
                     "balls": "12",
                     "minutes": "15",
@@ -90,7 +90,7 @@
                     "strike_rate": "58.33"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Dippenaar b Nel",
                     "runs": "28",
                     "balls": "32",
@@ -291,7 +291,7 @@
                     "strike_rate": "68.88"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Vettori",
                     "runs": "33",
                     "balls": "50",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 2 wickets (with 3 balls remaining)"
+    "result": "South Africa won by 2 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Lou Vincent",
+            "Jacob Oram",
+            "Andre Adams",
+            "Nathan Astle",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Kyle Mills",
+            "Shane Bond",
+            "Craig McMillan",
+            "Daniel Vettori",
+            "Hamish Marshall"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Boeta Dippenaar",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Andre Nel",
+            "Mark Boucher (wk)"
+        ]
+    }
 }

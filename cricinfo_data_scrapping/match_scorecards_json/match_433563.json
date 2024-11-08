@@ -51,8 +51,8 @@
                     "strike_rate": "5.55"
                 },
                 {
-                    "batsman": "Kamran Akmal",
-                    "dismissal": "st Ouma b Ngoche",
+                    "batsman": "Kamran Akmal (wk)",
+                    "dismissal": "st (wk)Ouma b Ngoche",
                     "runs": "55",
                     "balls": "67",
                     "minutes": "84",
@@ -232,8 +232,8 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Morris Ouma",
-                    "dismissal": "c Kamran Akmal b Umar Gul",
+                    "batsman": "Morris Ouma (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Umar Gul",
                     "runs": "16",
                     "balls": "37",
                     "minutes": "55",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 205 runs"
+    "result": "Pakistan won by 205 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shoaib Akhtar",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Mohammad Hafeez",
+            "Shahid Afridi(c)",
+            "Ahmed Shehzad",
+            "Misbah-ul-Haq",
+            "Abdur Rehman",
+            "Umar Akmal",
+            "Younis Khan",
+            "Abdul Razzaq"
+        ],
+        "Kenya": [
+            "Shem Ngoche",
+            "Tanmay Mishra",
+            "Collins Obuya",
+            "Morris Ouma (wk)",
+            "Steve Tikolo",
+            "Seren Waters",
+            "Elijah Otieno",
+            "Rakep Patel",
+            "Thomas Odoyo",
+            "Nehemiah Odhiambo",
+            "Jimmy Kamande(c)"
+        ]
+    }
 }

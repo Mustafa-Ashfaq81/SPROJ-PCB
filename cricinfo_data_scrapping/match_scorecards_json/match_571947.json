@@ -33,7 +33,7 @@
             "extras": "8",
             "batting": [
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c & b Mohammad Nabi",
                     "runs": "75",
                     "balls": "108",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Mohammad Shahzad b Shapoor Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Shapoor Zadran",
                     "runs": "24",
                     "balls": "18",
                     "minutes": "15",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Michael Clarke(c)",
-                    "dismissal": "st Mohammad Shahzad b Samiullah Shinwari",
+                    "dismissal": "st (wk)Mohammad Shahzad b Samiullah Shinwari",
                     "runs": "75",
                     "balls": "94",
                     "minutes": "120",
@@ -274,8 +274,8 @@
                     "strike_rate": "62.26"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Wade b Pattinson",
+                    "batsman": "Mohammad Shahzad (wk)",
+                    "dismissal": "c (wk)Wade b Pattinson",
                     "runs": "11",
                     "balls": "12",
                     "minutes": "28",
@@ -315,7 +315,7 @@
                 },
                 {
                     "batsman": "Najibullah Zadran",
-                    "dismissal": "c Wade b Johnson",
+                    "dismissal": "c (wk)Wade b Johnson",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -325,7 +325,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib",
-                    "dismissal": "c Wade b Pattinson",
+                    "dismissal": "c (wk)Wade b Pattinson",
                     "runs": "22",
                     "balls": "17",
                     "minutes": "31",
@@ -458,5 +458,33 @@
             ]
         }
     ],
-    "result": "Australia won by 66 runs"
+    "result": "Australia won by 66 runs",
+    "playing_xi": {
+        "Australia": [
+            "James Pattinson",
+            "Mitchell Johnson",
+            "David Warner",
+            "Michael Clarke(c)",
+            "David Hussey",
+            "George Bailey",
+            "Michael Hussey",
+            "Matthew Wade (wk)",
+            "Mitchell Starc",
+            "Xavier Doherty",
+            "Glenn Maxwell"
+        ],
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Shapoor Zadran",
+            "Dawlat Zadran",
+            "Nawroz Mangal(c)",
+            "Gulbadin Naib",
+            "Asghar Afghan",
+            "Karim Sadiq",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Javed Ahmadi",
+            "Samiullah Shinwari"
+        ]
+    }
 }

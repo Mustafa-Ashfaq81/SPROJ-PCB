@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Pathum Nissanka",
-                    "dismissal": "c Carey b Kuhnemann",
+                    "dismissal": "c (wk)Carey b Kuhnemann",
                     "runs": "14",
                     "balls": "17",
                     "minutes": "24",
@@ -53,7 +53,7 @@
                     "strike_rate": "82.35"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c & b Maxwell",
                     "runs": "36",
                     "balls": "41",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Dhananjaya de Silva",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "34",
                     "balls": "41",
                     "minutes": "45",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Jeffrey Vandersay",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "7",
                     "balls": "10",
                     "minutes": "17",
@@ -290,8 +290,8 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "run out (Karunaratne/Mendis)",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "run out (Karunaratne/ (wk)Mendis)",
                     "runs": "15",
                     "balls": "20",
                     "minutes": "44",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 26 runs (D/L method)"
+    "result": "Sri Lanka won by 26 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dasun Shanaka(c)",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Danushka Gunathilaka",
+            "Dunith Wellalage",
+            "Maheesh Theekshana",
+            "Kusal Mendis (wk)",
+            "Chamika Karunaratne",
+            "Jeffrey Vandersay",
+            "Dushmantha Chameera",
+            "Charith Asalanka"
+        ],
+        "Australia": [
+            "Matthew Kuhnemann",
+            "Mitchell Swepson",
+            "Marnus Labuschagne",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Steven Smith",
+            "Pat Cummins",
+            "Josh Hazlewood",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "David Warner"
+        ]
+    }
 }

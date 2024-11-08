@@ -47,7 +47,7 @@
                 },
                 {
                     "batsman": "Chamu Chibhabha(c)",
-                    "dismissal": "c Mohammad Rizwan b Haris Rauf",
+                    "dismissal": "c (wk)Mohammad Rizwan b Haris Rauf",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "22",
@@ -66,7 +66,7 @@
                     "strike_rate": "23.07"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "c Imam-ul-Haq b Iftikhar Ahmed",
                     "runs": "36",
                     "balls": "45",
@@ -244,7 +244,7 @@
             "batting": [
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "c Taylor b Chisoro",
+                    "dismissal": "c (wk)Taylor b Chisoro",
                     "runs": "49",
                     "balls": "61",
                     "minutes": "69",
@@ -283,7 +283,7 @@
                     "strike_rate": "120.83"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "b Sikandar Raza",
                     "runs": "1",
                     "balls": "5",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 88 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 88 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sean Williams",
+            "Brian Chari",
+            "Craig Ervine",
+            "Richard Ngarava",
+            "Tendai Chisoro",
+            "Blessing Muzarabani",
+            "Chamu Chibhabha(c)",
+            "Wessly Madhevere",
+            "Carl Mumba",
+            "Sikandar Raza",
+            "Brendan Taylor (wk)"
+        ],
+        "Pakistan": [
+            "Imad Wasim",
+            "Muhammad Musa",
+            "Haris Rauf",
+            "Babar Azam(c)",
+            "Mohammad Rizwan (wk)",
+            "Abid Ali",
+            "Faheem Ashraf",
+            "Shaheen Shah Afridi",
+            "Haider Ali",
+            "Iftikhar Ahmed",
+            "Imam-ul-Haq"
+        ]
+    }
 }

@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "George Bailey",
-                    "dismissal": "c Watling b Neesham",
+                    "dismissal": "c (wk)Watling b Neesham",
                     "runs": "17",
                     "balls": "25",
                     "minutes": "35",
@@ -93,7 +93,7 @@
                     "strike_rate": "86.66"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "b Henry",
                     "runs": "38",
                     "balls": "22",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Mitchell Starc",
-                    "dismissal": "c Watling b Neesham",
+                    "dismissal": "c (wk)Watling b Neesham",
                     "runs": "11",
                     "balls": "5",
                     "minutes": "6",
@@ -270,7 +270,7 @@
                     "strike_rate": "94.44"
                 },
                 {
-                    "batsman": "BJ Watling",
+                    "batsman": "BJ Watling (wk)",
                     "dismissal": "c Smith b Marsh",
                     "runs": "6",
                     "balls": "13",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Australia won by 68 runs"
+    "result": "Australia won by 68 runs",
+    "playing_xi": {
+        "Australia": [
+            "Steven Smith(c)",
+            "Matthew Wade (wk)",
+            "Pat Cummins",
+            "Adam Zampa",
+            "Aaron Finch",
+            "David Warner",
+            "Mitchell Marsh",
+            "Josh Hazlewood",
+            "George Bailey",
+            "Travis Head",
+            "Mitchell Starc"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Lockie Ferguson",
+            "Tom Latham",
+            "Colin Munro",
+            "Trent Boult",
+            "Colin de Grandhomme",
+            "BJ Watling (wk)",
+            "Matt Henry",
+            "James Neesham"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "run out (KJ O'Brien)",
                     "runs": "43",
                     "balls": "41",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan(c)",
-                    "dismissal": "c NJ O'Brien b Murtagh",
+                    "dismissal": "c (wk)NJ O'Brien b Murtagh",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "-",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi",
-                    "dismissal": "c NJ O'Brien b KJ O'Brien",
+                    "dismissal": "c (wk)NJ O'Brien b KJ O'Brien",
                     "runs": "32",
                     "balls": "32",
                     "minutes": "-",
@@ -233,7 +233,7 @@
             "batting": [
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "c Mohammad Shahzad b Amir Hamza",
+                    "dismissal": "c (wk)Mohammad Shahzad b Amir Hamza",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "-",
@@ -262,7 +262,7 @@
                     "strike_rate": "121.42"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "lbw b Rashid Khan",
                     "runs": "10",
                     "balls": "23",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien",
-                    "dismissal": "st Mohammad Shahzad b Amir Hamza",
+                    "dismissal": "st (wk)Mohammad Shahzad b Amir Hamza",
                     "runs": "13",
                     "balls": "19",
                     "minutes": "-",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 30 runs"
+    "result": "Afghanistan won by 30 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Dawlat Zadran",
+            "Gulbadin Naib",
+            "Rashid Khan",
+            "Noor Ali Zadran",
+            "Mohammad Shahzad (wk)",
+            "Samiullah Shinwari",
+            "Asghar Afghan(c)",
+            "Amir Hamza",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Hashmatullah Shahidi"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Peter Chase",
+            "Gary Wilson",
+            "Paul Stirling",
+            "Tim Murtagh",
+            "Niall O'Brien (wk)",
+            "William Porterfield(c)",
+            "Kevin O'Brien",
+            "Ed Joyce",
+            "Stuart Thompson",
+            "Jacob Mulder"
+        ]
+    }
 }

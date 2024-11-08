@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "28",
                     "balls": "42",
                     "minutes": "57",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Dhoni b Sreesanth",
+                    "dismissal": "c (wk)Dhoni b Sreesanth",
                     "runs": "19",
                     "balls": "17",
                     "minutes": "33",
@@ -50,7 +50,7 @@
                     "strike_rate": "111.76"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Tendulkar b Pathan",
                     "runs": "9",
                     "balls": "13",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "st Dhoni b Kartik",
+                    "dismissal": "st (wk)Dhoni b Kartik",
                     "runs": "14",
                     "balls": "14",
                     "minutes": "30",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Russel Arnold",
-                    "dismissal": "run out (Kaif/Dhoni)",
+                    "dismissal": "run out (Kaif/ (wk)Dhoni)",
                     "runs": "8",
                     "balls": "20",
                     "minutes": "30",
@@ -273,7 +273,7 @@
                     "strike_rate": "117.91"
                 }
             ],
-            "did_not_bat": "MS Dhoni , Irfan Pathan , Suresh Raina , Harbhajan Singh , Sreesanth , RP Singh",
+            "did_not_bat": "MS Dhoni (wk) , Irfan Pathan , Suresh Raina , Harbhajan Singh , Sreesanth , RP Singh",
             "fall_of_wickets": "Fall of wickets : 1 - 43 ( Gautam Gambhir , 7.4 ov ) , 2 - 57 ( Sachin Tendulkar , 9.4 ov ) , 3 - 92 ( Virender Sehwag , 16.5 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 91 balls remaining)"
+    "result": "India won by 7 wickets (with 91 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dilhara Fernando",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Farveez Maharoof",
+            "Chaminda Vaas",
+            "Upul Chandana"
+        ],
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "RP Singh",
+            "Mohammad Kaif",
+            "Virender Sehwag(c)",
+            "Gautam Gambhir",
+            "Sreesanth",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "MS Dhoni (wk)"
+        ]
+    }
 }

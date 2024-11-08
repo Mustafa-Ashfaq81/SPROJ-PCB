@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza(c)",
-                    "dismissal": "c Klaasen b Rabada",
+                    "dismissal": "c (wk)Klaasen b Rabada",
                     "runs": "28",
                     "balls": "39",
                     "minutes": "43",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "c Klaasen b Steyn",
+                    "dismissal": "c (wk)Klaasen b Steyn",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -60,8 +60,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
-                    "dismissal": "st Klaasen b Imran Tahir",
+                    "batsman": "Brendan Taylor (wk)",
+                    "dismissal": "st (wk)Klaasen b Imran Tahir",
                     "runs": "40",
                     "balls": "44",
                     "minutes": "82",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "c Klaasen b Phehlukwayo",
+                    "dismissal": "c (wk)Klaasen b Phehlukwayo",
                     "runs": "9",
                     "balls": "26",
                     "minutes": "33",
@@ -277,7 +277,7 @@
                     "strike_rate": "9.09"
                 },
                 {
-                    "batsman": "Heinrich Klaasen",
+                    "batsman": "Heinrich Klaasen (wk)",
                     "dismissal": "c Masakadza b Jarvis",
                     "runs": "59",
                     "balls": "67",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Andile Phehlukwayo",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "11",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 4 wickets (with 25 balls remaining)"
+    "result": "South Africa won by 4 wickets (with 25 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Elton Chigumbura",
+            "Hamilton Masakadza(c)",
+            "Brendan Taylor (wk)",
+            "Kyle Jarvis",
+            "Craig Ervine",
+            "Donald Tiripano",
+            "Peter Moor",
+            "Solomon Mire",
+            "Brandon Mavuta",
+            "Tendai Chatara",
+            "Sean Williams"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Khaya Zondo",
+            "Aiden Markram",
+            "Jean-Paul Duminy",
+            "Dale Steyn",
+            "Imran Tahir",
+            "Kagiso Rabada",
+            "Heinrich Klaasen (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)",
+            "Tabraiz Shamsi"
+        ]
+    }
 }

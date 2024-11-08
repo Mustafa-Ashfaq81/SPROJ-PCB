@@ -100,7 +100,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "0",
                     "balls": "0",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "16",
                     "balls": "15",
                     "minutes": "34",
@@ -271,7 +271,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "25",
                     "balls": "23",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 3 balls remaining)"
+    "result": "India won by 6 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Adam Voges",
+            "Xavier Doherty",
+            "Mitchell Johnson",
+            "Clint McKay",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shane Watson",
+            "Phillip Hughes",
+            "Aaron Finch"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Mohammed Shami",
+            "Amit Mishra",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "Ravichandran Ashwin"
+        ]
+    }
 }

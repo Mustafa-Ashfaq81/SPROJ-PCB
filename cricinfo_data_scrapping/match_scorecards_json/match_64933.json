@@ -33,7 +33,7 @@
             "extras": "19",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Astle b Cairns",
                     "runs": "18",
                     "balls": "36",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "run out (Papps/McCullum)",
+                    "dismissal": "run out (Papps/ (wk)McCullum)",
                     "runs": "11",
                     "balls": "18",
                     "minutes": "18",
@@ -211,7 +211,7 @@
                 },
                 {
                     "batsman": "Nathan Astle",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "27",
                     "balls": "43",
                     "minutes": "65",
@@ -270,7 +270,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Hussey b Hogg",
                     "runs": "23",
                     "balls": "23",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "c Gilchrist b Hogg",
+                    "dismissal": "c (wk)Gilchrist b Hogg",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "Australia won by 86 runs"
+    "result": "Australia won by 86 runs",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Simon Katich",
+            "Ricky Ponting(c)",
+            "Brett Lee",
+            "Michael Hussey",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ],
+        "New Zealand": [
+            "Chris Cairns",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Daryl Tuffey",
+            "Stephen Fleming(c)",
+            "James Marshall",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Michael Papps",
+            "Hamish Marshall"
+        ]
+    }
 }

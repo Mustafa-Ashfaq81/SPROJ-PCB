@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Michael Vaughan(c)",
-                    "dismissal": "c Jacobs b Best",
+                    "dismissal": "c (wk)Jacobs b Best",
                     "runs": "8",
                     "balls": "21",
                     "minutes": "31",
@@ -92,7 +92,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "run out (Powell)",
                     "runs": "1",
                     "balls": "1",
@@ -206,7 +206,7 @@
                 },
                 {
                     "batsman": "Devon Smith",
-                    "dismissal": "c Jones b Gough",
+                    "dismissal": "c (wk)Jones b Gough",
                     "runs": "10",
                     "balls": "18",
                     "minutes": "24",
@@ -216,7 +216,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Jones b Anderson",
+                    "dismissal": "c (wk)Jones b Anderson",
                     "runs": "89",
                     "balls": "78",
                     "minutes": "131",
@@ -226,7 +226,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "c Jones b Anderson",
+                    "dismissal": "c (wk)Jones b Anderson",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "14",
@@ -245,7 +245,7 @@
                     "strike_rate": "150.00"
                 }
             ],
-            "did_not_bat": "Shivnarine Chanderpaul , Dwayne Bravo , Dwayne Smith , Ridley Jacobs , Ian Bradshaw , Tino Best",
+            "did_not_bat": "Shivnarine Chanderpaul , Dwayne Bravo , Dwayne Smith , Ridley Jacobs (wk) , Ian Bradshaw , Tino Best",
             "fall_of_wickets": "Fall of wickets : 1 - 15 ( Devon Smith , 6.3 ov ) , 2 - 202 ( Ramnaresh Sarwan , 37.5 ov ) , 3 - 218 ( Brian Lara , 41.2 ov )",
             "bowling": [
                 {
@@ -335,5 +335,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 5 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Marcus Trescothick",
+            "Rob Key",
+            "Paul Collingwood",
+            "Michael Vaughan(c)",
+            "Steve Harmison",
+            "Geraint Jones (wk)",
+            "Andrew Flintoff",
+            "Darren Gough",
+            "James Anderson",
+            "Andrew Strauss",
+            "Ashley Giles"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Dwayne Smith",
+            "Devon Smith",
+            "Dwayne Bravo",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ricardo Powell",
+            "Tino Best"
+        ]
+    }
 }

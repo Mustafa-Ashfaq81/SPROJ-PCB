@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Buttler b Broad",
+                    "dismissal": "c (wk)Buttler b Broad",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "9",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "22",
                     "balls": "35",
                     "minutes": "36",
@@ -90,7 +90,7 @@
                     "strike_rate": "62.85"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "b Broad",
                     "runs": "31",
                     "balls": "46",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "st Wade b McKay",
+                    "dismissal": "st (wk)Wade b McKay",
                     "runs": "25",
                     "balls": "44",
                     "minutes": "68",
@@ -297,7 +297,7 @@
                     "strike_rate": "56.81"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c McKay b Coulter-Nile",
                     "runs": "5",
                     "balls": "9",
@@ -338,7 +338,7 @@
                 },
                 {
                     "batsman": "James Tredwell",
-                    "dismissal": "c Wade b Watson",
+                    "dismissal": "c (wk)Wade b Watson",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "7",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Australia won by 5 runs"
+    "result": "Australia won by 5 runs",
+    "playing_xi": {
+        "Australia": [
+            "Shaun Marsh",
+            "Matthew Wade (wk)",
+            "George Bailey",
+            "Nathan Coulter-Nile",
+            "Xavier Doherty",
+            "Clint McKay",
+            "Glenn Maxwell",
+            "Michael Clarke(c)",
+            "James Faulkner",
+            "Shane Watson",
+            "Aaron Finch"
+        ],
+        "England": [
+            "Jos Buttler (wk)",
+            "Eoin Morgan",
+            "Chris Jordan",
+            "Ben Stokes",
+            "Stuart Broad",
+            "James Tredwell",
+            "Tim Bresnan",
+            "Alastair Cook(c)",
+            "Joe Root",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

@@ -50,7 +50,7 @@
                     "strike_rate": "72.54"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "b Narine",
                     "runs": "2",
                     "balls": "11",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "st Baugh b Samuels",
+                    "dismissal": "st (wk)Baugh b Samuels",
                     "runs": "67",
                     "balls": "95",
                     "minutes": "130",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Clint McKay",
-                    "dismissal": "c Baugh b Narine",
+                    "dismissal": "c (wk)Baugh b Narine",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "5",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Kieran Powell",
-                    "dismissal": "st Wade b Doherty",
+                    "dismissal": "st (wk)Wade b Doherty",
                     "runs": "12",
                     "balls": "18",
                     "minutes": "31",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "c Wade b Doherty",
+                    "dismissal": "c (wk)Wade b Doherty",
                     "runs": "13",
                     "balls": "14",
                     "minutes": "31",
@@ -311,7 +311,7 @@
                     "strike_rate": "83.72"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "c Christian b McKay",
                     "runs": "33",
                     "balls": "69",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "c Wade b McKay",
+                    "dismissal": "c (wk)Wade b McKay",
                     "runs": "37",
                     "balls": "42",
                     "minutes": "64",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Clint McKay",
+            "Brett Lee",
+            "Shane Watson(c)",
+            "David Warner",
+            "Dan Christian",
+            "George Bailey",
+            "Nathan Lyon",
+            "Michael Hussey"
+        ],
+        "West Indies": [
+            "Johnson Charles",
+            "Marlon Samuels",
+            "Daren Sammy(c)",
+            "Kieron Pollard",
+            "Carlton Baugh (wk)",
+            "Andre Russell",
+            "Darren Bravo",
+            "Kieran Powell",
+            "Dwayne Bravo",
+            "Sunil Narine",
+            "Kemar Roach"
+        ]
+    }
 }

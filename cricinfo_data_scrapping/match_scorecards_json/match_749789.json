@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Kane Williamson",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "26",
                     "balls": "32",
                     "minutes": "60",
@@ -90,7 +90,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "not out",
                     "runs": "170",
                     "balls": "99",
@@ -231,7 +231,7 @@
                     "strike_rate": "109.43"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c NL McCullum b Elliott",
                     "runs": "9",
                     "balls": "17",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c Ronchi b Boult",
+                    "dismissal": "c (wk)Ronchi b Boult",
                     "runs": "3",
                     "balls": "4",
                     "minutes": "9",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Dinesh Chandimal",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "6",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 108 runs"
+    "result": "New Zealand won by 108 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Grant Elliott",
+            "Brendon McCullum(c)",
+            "Nathan McCullum",
+            "Trent Boult",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Tim Southee",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "Sri Lanka": [
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Dimuth Karunaratne",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene",
+            "Lahiru Thirimanne(c)",
+            "Thisara Perera",
+            "Suranga Lakmal"
+        ]
+    }
 }

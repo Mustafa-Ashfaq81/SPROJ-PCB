@@ -90,7 +90,7 @@
                     "strike_rate": "214.28"
                 },
                 {
-                    "batsman": "Moin Khan",
+                    "batsman": "Moin Khan (wk)",
                     "dismissal": "c Cumming b Walker",
                     "runs": "1",
                     "balls": "2",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Craig Cumming",
-                    "dismissal": "c Moin Khan b Shoaib Akhtar",
+                    "dismissal": "c (wk)Moin Khan b Shoaib Akhtar",
                     "runs": "10",
                     "balls": "8",
                     "minutes": "13",
@@ -277,7 +277,7 @@
                     "strike_rate": "150.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Mohammad Sami",
                     "runs": "1",
                     "balls": "4",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Matthew Walker",
-                    "dismissal": "st Moin Khan b Imran Farhat",
+                    "dismissal": "st (wk)Moin Khan b Imran Farhat",
                     "runs": "10",
                     "balls": "6",
                     "minutes": "4",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 51 runs"
+    "result": "Pakistan won by 51 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Mohammad Yousuf",
+            "Yasir Hameed",
+            "Imran Farhat",
+            "Moin Khan (wk)",
+            "Abdul Razzaq",
+            "Inzamam-ul-Haq(c)",
+            "Shabbir Ahmed",
+            "Shoaib Malik",
+            "Saleem Elahi",
+            "Mohammad Sami",
+            "Shoaib Akhtar"
+        ],
+        "New Zealand": [
+            "Mathew Sinclair",
+            "Brendon McCullum (wk)",
+            "Hamish Marshall",
+            "Chris Harris",
+            "Richard Jones",
+            "Craig Cumming",
+            "Chris Cairns(c)",
+            "Michael Mason",
+            "Kerry Walmsley",
+            "Daniel Vettori",
+            "Matthew Walker"
+        ]
+    }
 }

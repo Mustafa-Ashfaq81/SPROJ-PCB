@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "5",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "c Ramdin b DJ Bravo",
+                    "dismissal": "c (wk)Ramdin b DJ Bravo",
                     "runs": "126",
                     "balls": "117",
                     "minutes": "178",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jonathan Trott",
-                    "dismissal": "c Ramdin b Narine",
+                    "dismissal": "c (wk)Ramdin b Narine",
                     "runs": "42",
                     "balls": "66",
                     "minutes": "94",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "c Ramdin b Samuels",
+                    "dismissal": "c (wk)Ramdin b Samuels",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "22",
@@ -80,7 +80,7 @@
                     "strike_rate": "84.00"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "not out",
                     "runs": "38",
                     "balls": "39",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Tim Bresnan",
-                    "dismissal": "run out (Smith/Ramdin)",
+                    "dismissal": "run out (Smith/ (wk)Ramdin)",
                     "runs": "21",
                     "balls": "21",
                     "minutes": "23",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c Kieswetter b Bresnan",
+                    "dismissal": "c (wk)Kieswetter b Bresnan",
                     "runs": "56",
                     "balls": "44",
                     "minutes": "70",
@@ -227,7 +227,7 @@
                     "strike_rate": "127.27"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "lbw b Bresnan",
                     "runs": "22",
                     "balls": "38",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Sunil Narine",
-                    "dismissal": "c Kieswetter b Bresnan",
+                    "dismissal": "c (wk)Kieswetter b Bresnan",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "5",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "England won by 114 runs (D/L method)"
+    "result": "England won by 114 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Eoin Morgan",
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Graeme Swann",
+            "Craig Kieswetter (wk)",
+            "Stuart Broad",
+            "Ian Bell",
+            "Ravi Bopara"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Daren Sammy(c)",
+            "Kieron Pollard",
+            "Ravi Rampaul",
+            "Andre Russell",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Dwayne Bravo",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Dwayne Smith"
+        ]
+    }
 }

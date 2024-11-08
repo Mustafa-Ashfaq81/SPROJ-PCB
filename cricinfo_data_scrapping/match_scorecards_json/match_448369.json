@@ -62,7 +62,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Bernard b Miller",
                     "runs": "49",
                     "balls": "76",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Alex Cusack",
-                    "dismissal": "st Fletcher b Deonarine",
+                    "dismissal": "st (wk)Fletcher b Deonarine",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "-",
@@ -239,7 +239,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Andre Fletcher",
+                    "batsman": "Andre Fletcher (wk)",
                     "dismissal": "c Stirling b Johnston",
                     "runs": "1",
                     "balls": "5",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 6 wickets (with 6 balls remaining) (D/L method)"
+    "result": "West Indies won by 6 wickets (with 6 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Ireland": [
+            "Kevin O'Brien",
+            "William Porterfield(c)",
+            "Gary Wilson",
+            "Trent Johnston",
+            "Niall O'Brien (wk)",
+            "Alex Cusack",
+            "George Dockrell",
+            "Paul Stirling",
+            "Peter Connell",
+            "Andre Botha",
+            "Andrew White"
+        ],
+        "West Indies": [
+            "Andre Fletcher (wk)",
+            "Daren Sammy (c)",
+            "David Bernard",
+            "Sulieman Benn",
+            "Darren Bravo",
+            "Ramnaresh Sarwan",
+            "Shivnarine Chanderpaul",
+            "Narsingh Deonarine",
+            "Wavell Hinds",
+            "Nikita Miller",
+            "Ravi Rampaul"
+        ]
+    }
 }

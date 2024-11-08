@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "VVS Laxman",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "43",
                     "balls": "44",
                     "minutes": "60",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Kamran Akmal b Shoaib Akhtar",
+                    "dismissal": "c (wk)Kamran Akmal b Shoaib Akhtar",
                     "runs": "48",
                     "balls": "70",
                     "minutes": "99",
@@ -70,7 +70,7 @@
                     "strike_rate": "68.57"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c Shahid Afridi b Abdul Razzaq",
                     "runs": "16",
                     "balls": "34",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Dravid b Nehra",
+                    "dismissal": "c (wk)Dravid b Nehra",
                     "runs": "18",
                     "balls": "25",
                     "minutes": "41",
@@ -267,7 +267,7 @@
                     "strike_rate": "33.33"
                 }
             ],
-            "did_not_bat": "Shahid Afridi , Kamran Akmal , Naved-ul-Hasan , Mohammad Sami , Shoaib Akhtar",
+            "did_not_bat": "Shahid Afridi , Kamran Akmal (wk) , Naved-ul-Hasan , Mohammad Sami , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 15 ( Younis Khan , 3.2 ov ) , 2 - 128 ( Shoaib Malik , 23.5 ov ) , 2 - 155 * ( Salman Butt , retired not out ) , 3 - 186 ( Mohammad Yousuf , 35.5 ov ) , 4 - 284 ( Inzamam-ul-Haq , 48.2 ov )",
             "bowling": [
                 {
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 6 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ashish Nehra",
+            "Irfan Pathan",
+            "Rahul Dravid (wk)",
+            "Virender Sehwag",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Zaheer Khan",
+            "Harbhajan Singh",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)"
+        ],
+        "Pakistan": [
+            "Salman Butt",
+            "Shahid Afridi",
+            "Abdul Razzaq",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Akhtar",
+            "Mohammad Sami",
+            "Shoaib Malik",
+            "Younis Khan"
+        ]
+    }
 }

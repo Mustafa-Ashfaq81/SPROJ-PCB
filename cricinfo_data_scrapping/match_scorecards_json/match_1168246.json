@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Peter Handscomb",
-                    "dismissal": "c Pant b Mohammed Shami",
+                    "dismissal": "c (wk)Pant b Mohammed Shami",
                     "runs": "52",
                     "balls": "60",
                     "minutes": "-",
@@ -90,8 +90,8 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c Pant b Mohammed Shami",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)Pant b Mohammed Shami",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Jhye Richardson",
-                    "dismissal": "run out (Kohli/Pant)",
+                    "dismissal": "run out (Kohli/ (wk)Pant)",
                     "runs": "29",
                     "balls": "21",
                     "minutes": "-",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "st Carey b Zampa",
+                    "dismissal": "st (wk)Carey b Zampa",
                     "runs": "56",
                     "balls": "89",
                     "minutes": "-",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Carey b Cummins",
+                    "dismissal": "c (wk)Carey b Cummins",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "-",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Carey b Stoinis",
+                    "dismissal": "c (wk)Carey b Stoinis",
                     "runs": "20",
                     "balls": "22",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "90.90"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "c Turner b Lyon",
                     "runs": "16",
                     "balls": "16",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "st Carey b Zampa",
+                    "dismissal": "st (wk)Carey b Zampa",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Australia won by 35 runs"
+    "result": "Australia won by 35 runs",
+    "playing_xi": {
+        "Australia": [
+            "Alex Carey (wk)",
+            "Pat Cummins",
+            "Aaron Finch(c)",
+            "Peter Handscomb",
+            "Ashton Turner",
+            "Usman Khawaja",
+            "Glenn Maxwell",
+            "Adam Zampa",
+            "Jhye Richardson",
+            "Marcus Stoinis",
+            "Nathan Lyon"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Kuldeep Yadav",
+            "Rohit Sharma",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kedar Jadhav",
+            "Mohammed Shami",
+            "Rishabh Pant (wk)",
+            "Vijay Shankar",
+            "Bhuvneshwar Kumar",
+            "Virat Kohli(c)"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Baugh b Edwards",
+                    "dismissal": "c (wk)Baugh b Edwards",
                     "runs": "52",
                     "balls": "78",
                     "minutes": "-",
@@ -80,7 +80,7 @@
                     "strike_rate": "73.80"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "46",
                     "balls": "58",
@@ -291,7 +291,7 @@
                     "strike_rate": "86.66"
                 }
             ],
-            "did_not_bat": "Dwayne Smith , Carlton Baugh , Ian Bradshaw , Fidel Edwards , Corey Collymore",
+            "did_not_bat": "Dwayne Smith , Carlton Baugh (wk) , Ian Bradshaw , Fidel Edwards , Corey Collymore",
             "fall_of_wickets": "Fall of wickets : 1 - 28 ( Marlon Samuels , 4.4 ov ) , 2 - 49 ( Ramnaresh Sarwan , 8.2 ov ) , 3 - 91 ( Chris Gayle , 22.3 ov ) , 4 - 182 ( Brian Lara , 39.2 ov )",
             "bowling": [
                 {
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 6 wickets (with 36 balls remaining)"
+    "result": "West Indies won by 6 wickets (with 36 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ramesh Powar",
+            "Mohammad Kaif",
+            "Irfan Pathan",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "MS Dhoni (wk)",
+            "Rahul Dravid(c)",
+            "Virender Sehwag",
+            "Sreesanth",
+            "Suresh Raina",
+            "Harbhajan Singh"
+        ],
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Marlon Samuels",
+            "Carlton Baugh (wk)",
+            "Dwayne Smith",
+            "Dwayne Bravo",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Fidel Edwards",
+            "Corey Collymore",
+            "Wavell Hinds"
+        ]
+    }
 }

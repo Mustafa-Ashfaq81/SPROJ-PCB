@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Umar Akmal b Wahab Riaz",
+                    "dismissal": "c (wk)Umar Akmal b Wahab Riaz",
                     "runs": "27",
                     "balls": "30",
                     "minutes": "61",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Umar Akmal b Junaid Khan",
+                    "dismissal": "c (wk)Umar Akmal b Junaid Khan",
                     "runs": "13",
                     "balls": "10",
                     "minutes": "11",
@@ -50,7 +50,7 @@
                     "strike_rate": "130.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Sohaib Maqsood b Wahab Riaz",
                     "runs": "11",
                     "balls": "16",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Thisara Perera",
-                    "dismissal": "run out (Ahmed Shehzad/Umar Akmal)",
+                    "dismissal": "run out (Ahmed Shehzad/ (wk)Umar Akmal)",
                     "runs": "65",
                     "balls": "36",
                     "minutes": "63",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "c Sangakkara b Prasanna",
+                    "dismissal": "c (wk)Sangakkara b Prasanna",
                     "runs": "56",
                     "balls": "80",
                     "minutes": "114",
@@ -257,8 +257,8 @@
                     "strike_rate": "126.53"
                 },
                 {
-                    "batsman": "Umar Akmal",
-                    "dismissal": "c Sangakkara b Dilshan",
+                    "batsman": "Umar Akmal (wk)",
+                    "dismissal": "c (wk)Sangakkara b Dilshan",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 77 runs"
+    "result": "Sri Lanka won by 77 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Angelo Mathews(c)",
+            "Seekkuge Prasanna",
+            "Ashan Priyanjan",
+            "Rangana Herath"
+        ],
+        "Pakistan": [
+            "Wahab Riaz",
+            "Umar Akmal (wk)",
+            "Shahid Afridi",
+            "Sohaib Maqsood",
+            "Fawad Alam",
+            "Mohammad Hafeez",
+            "Misbah-ul-Haq(c)",
+            "Ahmed Shehzad",
+            "Mohammad Irfan",
+            "Junaid Khan",
+            "Sharjeel Khan"
+        ]
+    }
 }

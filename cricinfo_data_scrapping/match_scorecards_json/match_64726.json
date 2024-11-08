@@ -100,7 +100,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "4",
                     "balls": "4",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Paul Strang",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "19",
                     "balls": "27",
                     "minutes": "36",
@@ -251,7 +251,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Andy Flower",
+                    "batsman": "Andy Flower (wk)",
                     "dismissal": "b Ntini",
                     "runs": "2",
                     "balls": "3",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Stuart Carlisle",
-                    "dismissal": "c Boucher b Henderson",
+                    "dismissal": "c (wk)Boucher b Henderson",
                     "runs": "31",
                     "balls": "36",
                     "minutes": "51",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Travis Friend",
-                    "dismissal": "st Boucher b Henderson",
+                    "dismissal": "st (wk)Boucher b Henderson",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "10",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 148 runs"
+    "result": "South Africa won by 148 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Jacques Kallis",
+            "Claude Henderson",
+            "Gary Kirsten",
+            "Herschelle Gibbs",
+            "Neil McKenzie",
+            "Andre Nel",
+            "Shaun Pollock(c)",
+            "Jonty Rhodes",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Lance Klusener"
+        ],
+        "Zimbabwe": [
+            "Stuart Carlisle",
+            "Travis Friend",
+            "Dion Ebrahim",
+            "Guy Whittall(c)",
+            "Gary Brent",
+            "Paul Strang",
+            "Alistair Campbell",
+            "Grant Flower",
+            "Hamilton Masakadza",
+            "Andy Flower (wk)",
+            "Mluleki Nkala"
+        ]
+    }
 }

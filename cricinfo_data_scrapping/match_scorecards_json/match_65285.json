@@ -80,7 +80,7 @@
                     "strike_rate": "160.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "not out",
                     "runs": "1",
                     "balls": "1",
@@ -187,8 +187,8 @@
             "extras": "39",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
-                    "dismissal": "c Dravid b Srinath",
+                    "batsman": "Kennedy Otieno (wk)",
+                    "dismissal": "c (wk)Dravid b Srinath",
                     "runs": "15",
                     "balls": "43",
                     "minutes": "66",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Hitesh Modi",
-                    "dismissal": "c Dravid b Khan",
+                    "dismissal": "c (wk)Dravid b Khan",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "26",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "India won by 91 runs"
+    "result": "India won by 91 runs",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Javagal Srinath",
+            "Ashish Nehra",
+            "Mohammad Kaif",
+            "Yuvraj Singh",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)",
+            "Dinesh Mongia",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "Zaheer Khan"
+        ],
+        "Kenya": [
+            "Kennedy Otieno (wk)",
+            "Hitesh Modi",
+            "Martin Suji",
+            "David Obuya",
+            "Ravi Shah",
+            "Aasif Karim",
+            "Peter Ongondo",
+            "Collins Obuya",
+            "Maurice Odumbe",
+            "Steve Tikolo(c)",
+            "Thomas Odoyo"
+        ]
+    }
 }

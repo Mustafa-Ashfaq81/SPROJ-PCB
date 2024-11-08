@@ -50,7 +50,7 @@
                     "strike_rate": "17.64"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "run out (Bond)",
                     "runs": "36",
                     "balls": "57",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "6",
                     "balls": "14",
                     "minutes": "20",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Lou Vincent",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "46",
                     "balls": "44",
                     "minutes": "55",
@@ -287,7 +287,7 @@
                     "strike_rate": "111.11"
                 }
             ],
-            "did_not_bat": "Brendon McCullum , Daniel Vettori (c) , Jacob Oram , Shane Bond",
+            "did_not_bat": "Brendon McCullum (wk) , Daniel Vettori (c) , Jacob Oram , Shane Bond",
             "fall_of_wickets": "Fall of wickets : 1 - 59 ( Jamie How , 8.4 ov ) , 2 - 71 ( Lou Vincent , 11.6 ov ) , 3 - 143 ( Peter Fulton , 29.4 ov ) , 4 - 170 ( Hamish Marshall , 34.4 ov ) , 5 - 219 ( Scott Styris , 43.6 ov )",
             "bowling": [
                 {
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 12 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dilhara Fernando",
+            "Muthiah Muralidaran",
+            "Avishka Gunawardene",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Chaminda Vaas",
+            "Farveez Maharoof"
+        ],
+        "New Zealand": [
+            "Lou Vincent",
+            "Jacob Oram",
+            "Chris Cairns",
+            "Daniel Vettori (c)",
+            "Nathan Astle",
+            "Brendon McCullum (wk)",
+            "Shane Bond",
+            "Jamie How",
+            "Scott Styris",
+            "Peter Fulton",
+            "Hamish Marshall"
+        ]
+    }
 }

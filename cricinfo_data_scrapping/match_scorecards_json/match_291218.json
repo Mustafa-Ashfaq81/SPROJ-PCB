@@ -40,7 +40,7 @@
                     "strike_rate": "8.33"
                 },
                 {
-                    "batsman": "Phil Mustard",
+                    "batsman": "Phil Mustard (wk)",
                     "dismissal": "c Mubarak b Maharoof",
                     "runs": "28",
                     "balls": "36",
@@ -247,8 +247,8 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Mustard b Broad",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Mustard b Broad",
                     "runs": "9",
                     "balls": "37",
                     "minutes": "54",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "c Mustard b Collingwood",
+                    "dismissal": "c (wk)Mustard b Collingwood",
                     "runs": "2",
                     "balls": "5",
                     "minutes": "6",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "England won by 65 runs"
+    "result": "England won by 65 runs",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Graeme Swann",
+            "Stuart Broad",
+            "Ian Bell",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Phil Mustard (wk)",
+            "Alastair Cook",
+            "Ravi Bopara",
+            "Owais Shah",
+            "Ryan Sidebottom"
+        ],
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Tillakaratne Dilshan",
+            "Jehan Mubarak",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Mehrab Hossain",
-                    "dismissal": "c Rashid Latif b Shahid Afridi",
+                    "dismissal": "c (wk)Rashid Latif b Shahid Afridi",
                     "runs": "41",
                     "balls": "76",
                     "minutes": "115",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Al Sahariar",
-                    "dismissal": "st Rashid Latif b Shahid Afridi",
+                    "dismissal": "st (wk)Rashid Latif b Shahid Afridi",
                     "runs": "6",
                     "balls": "9",
                     "minutes": "13",
@@ -90,7 +90,7 @@
                     "strike_rate": "126.66"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "c Yousuf Youhana b Abdul Razzaq",
                     "runs": "1",
                     "balls": "3",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Mohammad Sharif",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "7",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Naved Latif",
-                    "dismissal": "c Khaled Mashud b Tareq Aziz",
+                    "dismissal": "c (wk)Khaled Mashud b Tareq Aziz",
                     "runs": "36",
                     "balls": "79",
                     "minutes": "127",
@@ -277,7 +277,7 @@
                     "strike_rate": "119.04"
                 }
             ],
-            "did_not_bat": "Mohammad Yousuf , Rashid Latif , Inzamam-ul-Haq , Shoaib Malik , Waqar Younis (c) , Saqlain Mushtaq , Mohammad Sami",
+            "did_not_bat": "Mohammad Yousuf , Rashid Latif (wk) , Inzamam-ul-Haq , Shoaib Malik , Waqar Younis (c) , Saqlain Mushtaq , Mohammad Sami",
             "fall_of_wickets": "Fall of wickets : 1 - 97 ( Shahid Afridi , 10.2 ov ) , 2 - 175 ( Naved Latif , 28.5 ov )",
             "bowling": [
                 {
@@ -353,5 +353,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 8 wickets (with 81 balls remaining)"
+    "result": "Pakistan won by 8 wickets (with 81 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Aminul Islam",
+            "Al Sahariar",
+            "Mohammad Sharif",
+            "Enamul Haque",
+            "Tareq Aziz",
+            "Mehrab Hossain",
+            "Khaled Mahmud",
+            "Javed Omer",
+            "Khaled Mashud(c) (wk)",
+            "Manjurul Islam",
+            "Tushar Imran"
+        ],
+        "Pakistan": [
+            "Shoaib Malik",
+            "Shahid Afridi",
+            "Younis Khan",
+            "Inzamam-ul-Haq",
+            "Waqar Younis (c)",
+            "Naved Latif",
+            "Rashid Latif (wk)",
+            "Mohammad Yousuf",
+            "Mohammad Sami",
+            "Saqlain Mushtaq",
+            "Abdul Razzaq"
+        ]
+    }
 }

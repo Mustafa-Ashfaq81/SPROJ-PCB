@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Ian Billcliff",
-                    "dismissal": "c Jacobs b Drakes",
+                    "dismissal": "c (wk)Jacobs b Drakes",
                     "runs": "16",
                     "balls": "33",
                     "minutes": "41",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Nicholas Ifill",
-                    "dismissal": "c Jacobs b Drakes",
+                    "dismissal": "c (wk)Jacobs b Drakes",
                     "runs": "9",
                     "balls": "28",
                     "minutes": "18",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Nicholas de Groot",
-                    "dismissal": "run out (Hinds/Jacobs)",
+                    "dismissal": "run out (Hinds/ (wk)Jacobs)",
                     "runs": "11",
                     "balls": "32",
                     "minutes": "35",
@@ -104,7 +104,7 @@
                     "strike_rate": "34.37"
                 },
                 {
-                    "batsman": "Ashish Bagai",
+                    "batsman": "Ashish Bagai (wk)",
                     "dismissal": "run out (Powell)",
                     "runs": "2",
                     "balls": "9",
@@ -115,7 +115,7 @@
                 },
                 {
                     "batsman": "Austin Codrington",
-                    "dismissal": "c Jacobs b Drakes",
+                    "dismissal": "c (wk)Jacobs b Drakes",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Bagai b Joseph",
+                    "dismissal": "c (wk)Bagai b Joseph",
                     "runs": "8",
                     "balls": "13",
                     "minutes": "17",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Wavell Hinds",
-                    "dismissal": "st Bagai b Davison",
+                    "dismissal": "st (wk)Bagai b Davison",
                     "runs": "64",
                     "balls": "31",
                     "minutes": "54",
@@ -291,7 +291,7 @@
                     "strike_rate": "62.50"
                 }
             ],
-            "did_not_bat": "Shivnarine Chanderpaul , Ricardo Powell , Ridley Jacobs , Vasbert Drakes , Mervyn Dillon , Pedro Collins",
+            "did_not_bat": "Shivnarine Chanderpaul , Ricardo Powell , Ridley Jacobs (wk) , Vasbert Drakes , Mervyn Dillon , Pedro Collins",
             "fall_of_wickets": "Fall of wickets : 1 - 32 ( Chris Gayle , 4.2 ov ) , 2 - 134 ( Wavell Hinds , 11.3 ov ) , 3 - 177 ( Brian Lara , 16.5 ov )",
             "bowling": [
                 {
@@ -381,5 +381,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 177 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 177 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Ian Billcliff",
+            "Ishwar Maraj",
+            "Barry Seebaran",
+            "Nicholas Ifill",
+            "Ashish Bagai (wk)",
+            "Davis Joseph",
+            "Austin Codrington",
+            "John Davison",
+            "Nicholas de Groot",
+            "Joe Harris(c)",
+            "Desmond Chumney"
+        ],
+        "West Indies": [
+            "Wavell Hinds",
+            "Carl Hooper(c)",
+            "Vasbert Drakes",
+            "Brian Lara",
+            "Ridley Jacobs (wk)",
+            "Ricardo Powell",
+            "Pedro Collins",
+            "Chris Gayle",
+            "Shivnarine Chanderpaul",
+            "Ramnaresh Sarwan",
+            "Mervyn Dillon"
+        ]
+    }
 }

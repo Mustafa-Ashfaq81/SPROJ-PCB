@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Kyle Coetzer",
-                    "dismissal": "c Afsar Zazai b Aftab Alam",
+                    "dismissal": "c (wk)Afsar Zazai b Aftab Alam",
                     "runs": "16",
                     "balls": "25",
                     "minutes": "-",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Calum MacLeod",
-                    "dismissal": "c Afsar Zazai b Gulbadin Naib",
+                    "dismissal": "c (wk)Afsar Zazai b Gulbadin Naib",
                     "runs": "5",
                     "balls": "21",
                     "minutes": "-",
@@ -90,7 +90,7 @@
                     "strike_rate": "73.80"
                 },
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "c Izatullah Dawlatzai b Samiullah Shinwari",
                     "runs": "23",
                     "balls": "29",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Usman Ghani",
-                    "dismissal": "c Cross b Wardlaw",
+                    "dismissal": "c (wk)Cross b Wardlaw",
                     "runs": "25",
                     "balls": "33",
                     "minutes": "-",
@@ -237,7 +237,7 @@
                     "strike_rate": "75.75"
                 },
                 {
-                    "batsman": "Afsar Zazai",
+                    "batsman": "Afsar Zazai (wk)",
                     "dismissal": "lbw b Davey",
                     "runs": "0",
                     "balls": "4",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan",
-                    "dismissal": "c Cross b Davey",
+                    "dismissal": "c (wk)Cross b Davey",
                     "runs": "2",
                     "balls": "16",
                     "minutes": "-",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Samiullah Shinwari",
-                    "dismissal": "c Cross b Wardlaw",
+                    "dismissal": "c (wk)Cross b Wardlaw",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "-",
@@ -375,5 +375,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 150 runs"
+    "result": "Scotland won by 150 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Kyle Coetzer",
+            "Alasdair Evans",
+            "Calum MacLeod",
+            "Matt Machan",
+            "Preston Mommsen(c)",
+            "Richie Berrington",
+            "Josh Davey",
+            "Freddie Coleman",
+            "Matthew Cross (wk)",
+            "Iain Wardlaw",
+            "Majid Haq"
+        ],
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Asghar Afghan",
+            "Gulbadin Naib",
+            "Aftab Alam",
+            "Usman Ghani",
+            "Afsar Zazai (wk)",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Mohammad Nabi(c)",
+            "Javed Ahmadi",
+            "Izatullah Dawlatzai"
+        ]
+    }
 }

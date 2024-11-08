@@ -50,7 +50,7 @@
                     "strike_rate": "77.19"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Guptill b Milne",
                     "runs": "76",
                     "balls": "83",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "94",
                     "balls": "82",
                     "minutes": "103",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "c Ronchi b Milne",
+                    "dismissal": "c (wk)Ronchi b Milne",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "20",
                     "balls": "27",
                     "minutes": "33",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Sangakkara b Herath",
+                    "dismissal": "c (wk)Sangakkara b Herath",
                     "runs": "8",
                     "balls": "23",
                     "minutes": "29",
@@ -311,7 +311,7 @@
                     "strike_rate": "106.81"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "not out",
                     "runs": "32",
                     "balls": "15",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 11 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dimuth Karunaratne",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Angelo Mathews(c)",
+            "Rangana Herath"
+        ],
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Grant Elliott",
+            "Brendon McCullum(c)",
+            "Adam Milne",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Tim Southee",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ]
+    }
 }

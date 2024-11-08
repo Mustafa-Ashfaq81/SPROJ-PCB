@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "run out (Blignaut/Taibu)",
+                    "dismissal": "run out (Blignaut/ (wk)Taibu)",
                     "runs": "63",
                     "balls": "71",
                     "minutes": "87",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "run out (Flower/Taibu)",
+                    "dismissal": "run out (Flower/ (wk)Taibu)",
                     "runs": "36",
                     "balls": "49",
                     "minutes": "64",
@@ -92,7 +92,7 @@
                     "strike_rate": "113.33"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "lbw b Streak",
                     "runs": "14",
                     "balls": "17",
@@ -220,7 +220,7 @@
             "batting": [
                 {
                     "batsman": "Grant Flower",
-                    "dismissal": "c Haddin b Gillespie",
+                    "dismissal": "c (wk)Haddin b Gillespie",
                     "runs": "94",
                     "balls": "106",
                     "minutes": "156",
@@ -229,7 +229,7 @@
                     "strike_rate": "88.67"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Williams",
                     "runs": "9",
                     "balls": "32",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Dion Ebrahim",
-                    "dismissal": "st Haddin b Symonds",
+                    "dismissal": "st (wk)Haddin b Symonds",
                     "runs": "11",
                     "balls": "15",
                     "minutes": "16",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "Australia won by 13 runs"
+    "result": "Australia won by 13 runs",
+    "playing_xi": {
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Brad Williams",
+            "Brett Lee",
+            "Brad Haddin (wk)",
+            "Matthew Hayden",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Bevan",
+            "Michael Clarke",
+            "Damien Martyn"
+        ],
+        "Zimbabwe": [
+            "Tatenda Taibu (wk)",
+            "Ray Price",
+            "Stuart Carlisle",
+            "Grant Flower",
+            "Andy Blignaut",
+            "Dion Ebrahim",
+            "Travis Friend",
+            "Heath Streak(c)",
+            "Sean Ervine",
+            "Stuart Matsikenyeri",
+            "Douglas Hondo"
+        ]
+    }
 }

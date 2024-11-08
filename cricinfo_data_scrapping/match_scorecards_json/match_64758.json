@@ -33,7 +33,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Boje b Ntini",
                     "runs": "37",
                     "balls": "44",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Darren Lehmann",
-                    "dismissal": "c Boucher b Telemachus",
+                    "dismissal": "c (wk)Boucher b Telemachus",
                     "runs": "37",
                     "balls": "53",
                     "minutes": "70",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Gary Kirsten",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "15",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Boeta Dippenaar",
-                    "dismissal": "c Gilchrist b Hauritz",
+                    "dismissal": "c (wk)Gilchrist b Hauritz",
                     "runs": "51",
                     "balls": "65",
                     "minutes": "93",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Jonty Rhodes",
-                    "dismissal": "c Gilchrist b Harvey",
+                    "dismissal": "c (wk)Gilchrist b Harvey",
                     "runs": "13",
                     "balls": "21",
                     "minutes": "25",
@@ -270,7 +270,7 @@
                     "strike_rate": "61.90"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c McGrath b Harvey",
                     "runs": "3",
                     "balls": "8",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Roger Telemachus",
-                    "dismissal": "st Gilchrist b Hauritz",
+                    "dismissal": "st (wk)Gilchrist b Hauritz",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "3",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "Australia won by 19 runs"
+    "result": "Australia won by 19 runs",
+    "playing_xi": {
+        "Australia": [
+            "Michael Bevan",
+            "Nathan Hauritz",
+            "Adam Gilchrist (wk)",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Ian Harvey",
+            "Glenn McGrath",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Darren Lehmann",
+            "Jason Gillespie"
+        ],
+        "South Africa": [
+            "Jacques Kallis",
+            "Gary Kirsten",
+            "Nicky Boje",
+            "Boeta Dippenaar",
+            "Herschelle Gibbs",
+            "Roger Telemachus",
+            "Shaun Pollock(c)",
+            "Jonty Rhodes",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Lance Klusener"
+        ]
+    }
 }

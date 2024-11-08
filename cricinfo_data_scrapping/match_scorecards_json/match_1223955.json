@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "David Warner",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "69",
                     "balls": "76",
                     "minutes": "-",
@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Aaron Finch(c)",
-                    "dismissal": "c Rahul b Bumrah",
+                    "dismissal": "c (wk)Rahul b Bumrah",
                     "runs": "114",
                     "balls": "124",
                     "minutes": "-",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "c Rahul b Chahal",
+                    "dismissal": "c (wk)Rahul b Chahal",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -92,7 +92,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "not out",
                     "runs": "17",
                     "balls": "13",
@@ -226,7 +226,7 @@
                 },
                 {
                     "batsman": "Shreyas Iyer",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "-",
@@ -235,7 +235,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c Smith b Zampa",
                     "runs": "12",
                     "balls": "15",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "Australia won by 66 runs"
+    "result": "Australia won by 66 runs",
+    "playing_xi": {
+        "Australia": [
+            "Adam Zampa",
+            "Steven Smith",
+            "Aaron Finch(c)",
+            "Marcus Stoinis",
+            "Josh Hazlewood",
+            "Pat Cummins",
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Glenn Maxwell",
+            "Marnus Labuschagne",
+            "David Warner"
+        ],
+        "India": [
+            "Yuzvendra Chahal",
+            "Jasprit Bumrah",
+            "Virat Kohli(c)",
+            "Shreyas Iyer",
+            "KL Rahul (wk)",
+            "Ravindra Jadeja",
+            "Hardik Pandya",
+            "Navdeep Saini",
+            "Mohammed Shami",
+            "Mayank Agarwal",
+            "Shikhar Dhawan"
+        ]
+    }
 }

@@ -42,7 +42,7 @@
                     "strike_rate": "70.11"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Clarke b McGrath",
                     "runs": "5",
                     "balls": "8",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "10",
@@ -279,7 +279,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Mohammad Hafeez b Naved-ul-Hasan",
                     "runs": "30",
                     "balls": "30",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 12 balls remaining) (D/L method)"
+    "result": "Australia won by 4 wickets (with 12 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Pakistan": [
+            "Salman Butt",
+            "Kamran Akmal (wk)",
+            "Shoaib Akhtar",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Azhar Mahmood",
+            "Naved-ul-Hasan",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Shoaib Malik",
+            "Mohammad Hafeez"
+        ],
+        "Australia": [
+            "Darren Lehmann",
+            "Andrew Symonds",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Brad Haddin (wk)",
+            "Simon Katich",
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Damien Martyn"
+        ]
+    }
 }

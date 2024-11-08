@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Fraser Watts",
-                    "dismissal": "c Dhoni b Singh",
+                    "dismissal": "c (wk)Dhoni b Singh",
                     "runs": "6",
                     "balls": "28",
                     "minutes": "34",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Neil McCallum",
-                    "dismissal": "c Dhoni b Chawla",
+                    "dismissal": "c (wk)Dhoni b Chawla",
                     "runs": "41",
                     "balls": "65",
                     "minutes": "68",
@@ -90,7 +90,7 @@
                     "strike_rate": "63.07"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "lbw b Chawla",
                     "runs": "4",
                     "balls": "8",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Craig Wright",
-                    "dismissal": "run out (Agarkar/Dhoni)",
+                    "dismissal": "run out (Agarkar/ (wk)Dhoni)",
                     "runs": "37",
                     "balls": "34",
                     "minutes": "36",
@@ -273,7 +273,7 @@
                     "strike_rate": "125.00"
                 }
             ],
-            "did_not_bat": "MS Dhoni , Piyush Chawla , Ajit Agarkar , Ramesh Powar , RP Singh , Munaf Patel",
+            "did_not_bat": "MS Dhoni (wk) , Piyush Chawla , Ajit Agarkar , Ramesh Powar , RP Singh , Munaf Patel",
             "fall_of_wickets": "Fall of wickets : 1 - 104 ( Robin Uthappa , 20.2 ov ) , 2 - 137 ( Dinesh Karthik , 29.3 ov ) , 3 - 198 ( Yuvraj Singh , 37.4 ov )",
             "bowling": [
                 {
@@ -349,5 +349,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 37 balls remaining) (D/L method)"
+    "result": "India won by 7 wickets (with 37 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Scotland": [
+            "Gavin Hamilton",
+            "John Blain",
+            "Ryan Watson(c)",
+            "Navdeep Poonia",
+            "Neil McCallum",
+            "Dewald Nel",
+            "Paul Hoffmann",
+            "Colin Smith (wk)",
+            "Craig Wright",
+            "Majid Haq",
+            "Fraser Watts"
+        ],
+        "India": [
+            "MS Dhoni (wk)",
+            "Munaf Patel",
+            "Piyush Chawla",
+            "Gautam Gambhir",
+            "Dinesh Karthik",
+            "Yuvraj Singh",
+            "Rahul Dravid(c)",
+            "Ajit Agarkar",
+            "Robin Uthappa",
+            "RP Singh",
+            "Ramesh Powar"
+        ]
+    }
 }

@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Sourav Ganguly(c)",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "28",
@@ -61,7 +61,7 @@
                     "strike_rate": "58.62"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "c Pollock b Kemp",
                     "runs": "77",
                     "balls": "102",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Jonty Rhodes",
-                    "dismissal": "st Dravid b Tendulkar",
+                    "dismissal": "st (wk)Dravid b Tendulkar",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "8",
@@ -298,7 +298,7 @@
                     "strike_rate": "0.00"
                 }
             ],
-            "did_not_bat": "Makhaya Ntini , Mark Boucher , Justin Kemp , Lance Klusener , Nantie Hayward",
+            "did_not_bat": "Makhaya Ntini , Mark Boucher (wk) , Justin Kemp , Lance Klusener , Nantie Hayward",
             "fall_of_wickets": "Fall of wickets : 1 - 80 ( Herschelle Gibbs , 16.6 ov ) , 2 - 150 ( Gary Kirsten , 31.1 ov ) , 3 - 173 ( Jacques Kallis , 39.1 ov ) , 4 - 183 ( Jonty Rhodes , 41.2 ov )",
             "bowling": [
                 {
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 47 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 47 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "VVS Laxman",
+            "Reetinder Sodhi",
+            "Rahul Dravid (wk)",
+            "Javagal Srinath",
+            "Ajit Agarkar",
+            "Sachin Tendulkar",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh"
+        ],
+        "South Africa": [
+            "Lance Klusener",
+            "Jonty Rhodes",
+            "Shaun Pollock(c)",
+            "Gary Kirsten",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Nantie Hayward",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Herschelle Gibbs",
+            "Neil McKenzie"
+        ]
+    }
 }

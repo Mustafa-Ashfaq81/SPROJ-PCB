@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Saman Jayantha",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "51",
                     "balls": "68",
                     "minutes": "96",
@@ -60,7 +60,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Kallis b Langeveldt",
                     "runs": "72",
                     "balls": "71",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Kaushal Lokuarachchi",
-                    "dismissal": "run out (Rudolph/Boucher)",
+                    "dismissal": "run out (Rudolph/ (wk)Boucher)",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "5",
@@ -256,7 +256,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "run out (Chandana/Sangakkara)",
+                    "dismissal": "run out (Chandana/ (wk)Sangakkara)",
                     "runs": "25",
                     "balls": "32",
                     "minutes": "58",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Sangakkara b Chandana",
+                    "dismissal": "c (wk)Sangakkara b Chandana",
                     "runs": "101",
                     "balls": "127",
                     "minutes": "159",
@@ -295,8 +295,8 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "st Sangakkara b Chandana",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "st (wk)Sangakkara b Chandana",
                     "runs": "24",
                     "balls": "19",
                     "minutes": "20",
@@ -346,7 +346,7 @@
                 },
                 {
                     "batsman": "Charl Langeveldt",
-                    "dismissal": "c Sangakkara b Jayasuriya",
+                    "dismissal": "c (wk)Sangakkara b Jayasuriya",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "3",
@@ -483,5 +483,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 49 runs"
+    "result": "Sri Lanka won by 49 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Saman Jayantha",
+            "Mahela Jayawardene(c)",
+            "Nuwan Zoysa",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Kaushal Lokuarachchi",
+            "Sanath Jayasuriya",
+            "Rangana Herath",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Avishka Gunawardene"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Charl Langeveldt",
+            "Mark Boucher (wk)",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Lance Klusener",
+            "Jacques Kallis"
+        ]
+    }
 }

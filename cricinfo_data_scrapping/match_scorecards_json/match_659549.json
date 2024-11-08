@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Nasir Jamshed",
-                    "dismissal": "c Taylor b Chatara",
+                    "dismissal": "c (wk)Taylor b Chatara",
                     "runs": "27",
                     "balls": "53",
                     "minutes": "83",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "st Taylor b Utseya",
+                    "dismissal": "st (wk)Taylor b Utseya",
                     "runs": "24",
                     "balls": "47",
                     "minutes": "61",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Taylor b Vitori",
+                    "dismissal": "c (wk)Taylor b Vitori",
                     "runs": "11",
                     "balls": "15",
                     "minutes": "13",
@@ -100,8 +100,8 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
-                    "dismissal": "run out (Waller/Taylor)",
+                    "batsman": "Sarfaraz Ahmed (wk)",
+                    "dismissal": "run out (Waller/ (wk)Taylor)",
                     "runs": "7",
                     "balls": "18",
                     "minutes": "22",
@@ -265,7 +265,7 @@
                     "strike_rate": "65.85"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
+                    "batsman": "Brendan Taylor(c) (wk)",
                     "dismissal": "not out",
                     "runs": "43",
                     "balls": "59",
@@ -385,5 +385,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 7 wickets (with 10 balls remaining)"
+    "result": "Zimbabwe won by 7 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Nasir Jamshed",
+            "Mohammad Hafeez",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Sarfaraz Ahmed (wk)",
+            "Umar Amin",
+            "Saeed Ajmal",
+            "Haris Sohail",
+            "Mohammad Irfan",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi"
+        ],
+        "Zimbabwe": [
+            "Malcolm Waller",
+            "Brian Vitori",
+            "Tinashe Panyangara",
+            "Brendan Taylor(c) (wk)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Tendai Chatara",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Timycen Maruma"
+        ]
+    }
 }

@@ -90,7 +90,7 @@
                     "strike_rate": "85.29"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "27",
                     "balls": "14",
@@ -217,7 +217,7 @@
                     "strike_rate": "13.33"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "run out (McKay)",
                     "runs": "16",
                     "balls": "31",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Naved-ul-Hasan",
-                    "dismissal": "st Haddin b Hauritz",
+                    "dismissal": "st (wk)Haddin b Hauritz",
                     "runs": "27",
                     "balls": "22",
                     "minutes": "29",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Saeed Ajmal",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "9",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Australia won by 140 runs"
+    "result": "Australia won by 140 runs",
+    "playing_xi": {
+        "Australia": [
+            "Michael Clarke",
+            "Cameron White",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Ricky Ponting(c)",
+            "Peter Siddle",
+            "Brad Haddin (wk)",
+            "Clint McKay",
+            "Nathan Hauritz",
+            "Michael Hussey",
+            "Doug Bollinger"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Mohammad Yousuf(c)",
+            "Shoaib Malik",
+            "Naved-ul-Hasan",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Umar Akmal",
+            "Salman Butt",
+            "Mohammad Amir",
+            "Shahid Afridi"
+        ]
+    }
 }

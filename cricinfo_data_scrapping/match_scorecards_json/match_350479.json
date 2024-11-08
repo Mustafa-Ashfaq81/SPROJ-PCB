@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "26",
@@ -90,7 +90,7 @@
                     "strike_rate": "116.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "28",
                     "balls": "15",
@@ -207,7 +207,7 @@
             "extras": "28",
             "batting": [
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "run out (Duminy)",
                     "runs": "15",
                     "balls": "34",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Mitchell Johnson",
-                    "dismissal": "run out (Duminy/Boucher)",
+                    "dismissal": "run out (Duminy/ (wk)Boucher)",
                     "runs": "9",
                     "balls": "6",
                     "minutes": "8",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 25 runs"
+    "result": "South Africa won by 25 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Johan Botha",
+            "Dale Steyn",
+            "Jacques Kallis",
+            "Wayne Parnell",
+            "Jean-Paul Duminy",
+            "Herschelle Gibbs",
+            "Roelof van der Merwe",
+            "Graeme Smith(c)",
+            "AB de Villiers"
+        ],
+        "Australia": [
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Brad Haddin (wk)",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Nathan Hauritz",
+            "Brett Geeves",
+            "David Hussey",
+            "Nathan Bracken"
+        ]
+    }
 }

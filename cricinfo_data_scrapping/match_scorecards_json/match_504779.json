@@ -45,7 +45,7 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "c Coetzer b Sharif",
                     "runs": "9",
                     "balls": "17",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Vinoo Tewarie",
-                    "dismissal": "c Maiden b Sharif",
+                    "dismissal": "c (wk)Maiden b Sharif",
                     "runs": "4",
                     "balls": "22",
                     "minutes": "26",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Tom de Grooth",
-                    "dismissal": "c Maiden b Goudie",
+                    "dismissal": "c (wk)Maiden b Goudie",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "5",
@@ -106,7 +106,7 @@
                 },
                 {
                     "batsman": "Tom Heggelman",
-                    "dismissal": "c Maiden b Goudie",
+                    "dismissal": "c (wk)Maiden b Goudie",
                     "runs": "22",
                     "balls": "61",
                     "minutes": "74",
@@ -247,7 +247,7 @@
             "batting": [
                 {
                     "batsman": "Fraser Watts",
-                    "dismissal": "c Barresi b Mudassar Bukhari",
+                    "dismissal": "c (wk)Barresi b Mudassar Bukhari",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -306,7 +306,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Gregor Maiden",
+                    "batsman": "Gregor Maiden (wk)",
                     "dismissal": "not out",
                     "runs": "12",
                     "balls": "14",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 5 wickets (with 11 balls remaining) (D/L method)"
+    "result": "Scotland won by 5 wickets (with 11 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Netherlands": [
+            "Pieter Seelaar",
+            "Tom Cooper",
+            "Ahsan Malik",
+            "Tom Heggelman",
+            "Michael Swart",
+            "Wesley Barresi (wk)",
+            "Mudassar Bukhari",
+            "Neil Kruger",
+            "Tom de Grooth",
+            "Vinoo Tewarie",
+            "Peter Borren(c)"
+        ],
+        "Scotland": [
+            "Gregor Maiden (wk)",
+            "Gordon Drummond (c)",
+            "Richie Berrington",
+            "Safyaan Sharif",
+            "Majid Haq",
+            "Gordon Goudie",
+            "Fraser Watts",
+            "Neil McCallum",
+            "Josh Davey",
+            "Kyle Coetzer",
+            "Calum MacLeod"
+        ]
+    }
 }

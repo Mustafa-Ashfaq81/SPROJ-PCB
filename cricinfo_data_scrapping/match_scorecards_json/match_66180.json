@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Sangakkara b Gunaratne",
+                    "dismissal": "c (wk)Sangakkara b Gunaratne",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "15",
@@ -82,7 +82,7 @@
                     "strike_rate": "54.68"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "c Fernando b Muralidaran",
                     "runs": "22",
                     "balls": "24",
@@ -259,7 +259,7 @@
                     "strike_rate": "44.44"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "lbw b Wasim Akram",
                     "runs": "0",
                     "balls": "4",
@@ -369,5 +369,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 83 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 83 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Saeed Anwar",
+            "Waqar Younis(c)",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Wasim Akram",
+            "Mohammad Yousuf",
+            "Misbah-ul-Haq",
+            "Rashid Latif (wk)",
+            "Shahid Afridi"
+        ],
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Pulasthi Gunaratne",
+            "Aravinda de Silva",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Dilhara Fernando",
+            "Russel Arnold",
+            "Kumar Sangakkara (wk)",
+            "Sanath Jayasuriya(c)",
+            "Upul Chandana",
+            "Marvan Atapattu"
+        ]
+    }
 }

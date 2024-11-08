@@ -43,7 +43,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "not out",
                     "runs": "88",
                     "balls": "65",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "7",
@@ -190,7 +190,7 @@
             "extras": "4",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "b Hilfenhaus",
                     "runs": "2",
                     "balls": "2",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "c Haddin b Bracken",
+                    "dismissal": "c (wk)Haddin b Bracken",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "6",
@@ -346,5 +346,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Australia": [
+            "Peter Siddle",
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Brad Haddin (wk)",
+            "James Hopes",
+            "Cameron White",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Ben Hilfenhaus",
+            "David Hussey",
+            "Nathan Bracken"
+        ],
+        "New Zealand": [
+            "Grant Elliott",
+            "Brendon McCullum (wk)",
+            "Martin Guptill",
+            "Daniel Vettori (c)",
+            "Neil Broom",
+            "Peter Fulton",
+            "Brendon Diamanti",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Iain O'Brien",
+            "Tim Southee"
+        ]
+    }
 }

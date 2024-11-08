@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Aftab Ahmed",
-                    "dismissal": "c Gilchrist b Dorey",
+                    "dismissal": "c (wk)Gilchrist b Dorey",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "14",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar(c)",
-                    "dismissal": "st Gilchrist b Hogg",
+                    "dismissal": "st (wk)Gilchrist b Hogg",
                     "runs": "33",
                     "balls": "50",
                     "minutes": "85",
@@ -93,8 +93,8 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Khaled Mashud",
-                    "dismissal": "st Gilchrist b Cullen",
+                    "batsman": "Khaled Mashud (wk)",
+                    "dismissal": "st (wk)Gilchrist b Cullen",
                     "runs": "11",
                     "balls": "30",
                     "minutes": "44",
@@ -298,7 +298,7 @@
                     "strike_rate": "400.00"
                 }
             ],
-            "did_not_bat": "Michael Clarke , Andrew Symonds , Michael Hussey , James Hopes , Adam Gilchrist (c) , Brett Dorey , Dan Cullen , Mitchell Johnson",
+            "did_not_bat": "Michael Clarke , Andrew Symonds , Michael Hussey , James Hopes , Adam Gilchrist (c) (wk) , Brett Dorey , Dan Cullen , Mitchell Johnson",
             "fall_of_wickets": "Fall of wickets : 1 - 123 ( Mark Cosgrove , 22.3 ov )",
             "bowling": [
                 {
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "Australia won by 9 wickets (with 164 balls remaining)"
+    "result": "Australia won by 9 wickets (with 164 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Shahadat Hossain",
+            "Shahriar Nafees",
+            "Mohammad Ashraful",
+            "Habibul Bashar(c)",
+            "Alok Kapali",
+            "Aftab Ahmed",
+            "Khaled Mashud (wk)",
+            "Rajin Saleh",
+            "Mashrafe Mortaza",
+            "Abdur Razzak",
+            "Mohammad Rafique"
+        ],
+        "Australia": [
+            "Michael Hussey",
+            "Michael Clarke",
+            "James Hopes",
+            "Andrew Symonds",
+            "Mitchell Johnson",
+            "Dan Cullen",
+            "Mark Cosgrove",
+            "Simon Katich",
+            "Brett Dorey",
+            "Brad Hogg",
+            "Adam Gilchrist (c) (wk)"
+        ]
+    }
 }

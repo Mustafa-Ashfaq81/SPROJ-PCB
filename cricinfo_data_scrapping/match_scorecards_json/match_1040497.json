@@ -31,7 +31,7 @@
             "extras": "25",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b O'Brien",
                     "runs": "1",
                     "balls": "2",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Wilson b O'Brien",
+                    "dismissal": "c (wk)Wilson b O'Brien",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "10",
@@ -132,7 +132,7 @@
                 },
                 {
                     "batsman": "Amir Hamza",
-                    "dismissal": "c Wilson b Murtagh",
+                    "dismissal": "c (wk)Wilson b Murtagh",
                     "runs": "7",
                     "balls": "8",
                     "minutes": "15",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "William Porterfield(c)",
-                    "dismissal": "st Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "6",
                     "balls": "14",
                     "minutes": "24",
@@ -288,7 +288,7 @@
                     "strike_rate": "120.00"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "c Mohammad Nabi b Rashid Khan",
                     "runs": "41",
                     "balls": "67",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 3 wickets (with 19 balls remaining)"
+    "result": "Ireland won by 3 wickets (with 19 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Shafiqullah",
+            "Dawlat Zadran",
+            "Gulbadin Naib",
+            "Rashid Khan",
+            "Mohammad Shahzad (wk)",
+            "Asghar Afghan(c)",
+            "Amir Hamza",
+            "Usman Ghani",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Hashmatullah Shahidi"
+        ],
+        "Ireland": [
+            "George Dockrell",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Tim Murtagh",
+            "Gary Wilson (wk)",
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Kevin O'Brien",
+            "Stuart Thompson",
+            "Jacob Mulder",
+            "Andy Balbirnie"
+        ]
+    }
 }

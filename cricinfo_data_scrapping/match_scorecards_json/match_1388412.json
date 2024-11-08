@@ -45,7 +45,7 @@
                     "strike_rate": "108.33"
                 },
                 {
-                    "batsman": "Litton Das",
+                    "batsman": "Litton Das (wk)",
                     "dismissal": "b Mohammed Shami",
                     "runs": "0",
                     "balls": "2",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Anamul Haque",
-                    "dismissal": "c Rahul b Thakur",
+                    "dismissal": "c (wk)Rahul b Thakur",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "17",
@@ -262,7 +262,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "c Shamim Hossain b Mahedi Hasan",
                     "runs": "19",
                     "balls": "39",
@@ -323,7 +323,7 @@
                 },
                 {
                     "batsman": "Mohammed Shami",
-                    "dismissal": "run out (Tanzid Hasan/Litton Das)",
+                    "dismissal": "run out (Tanzid Hasan/ (wk)Litton Das)",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "10",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 6 runs"
+    "result": "Bangladesh won by 6 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tanzim Hasan Sakib",
+            "Mustafizur Rahman",
+            "Tanzid Hasan",
+            "Mahedi Hasan",
+            "Litton Das (wk)",
+            "Towhid Hridoy",
+            "Shakib Al Hasan(c)",
+            "Anamul Haque",
+            "Mehidy Hasan Miraz",
+            "Nasum Ahmed",
+            "Shamim Hossain"
+        ],
+        "India": [
+            "KL Rahul (wk)",
+            "Ishan Kishan",
+            "Prasidh Krishna",
+            "Axar Patel",
+            "Suryakumar Yadav",
+            "Mohammed Shami",
+            "Shubman Gill",
+            "Tilak Varma",
+            "Ravindra Jadeja",
+            "Shardul Thakur",
+            "Rohit Sharma(c)"
+        ]
+    }
 }

@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Kieswetter b Anderson",
+                    "dismissal": "c (wk)Kieswetter b Anderson",
                     "runs": "7",
                     "balls": "18",
                     "minutes": "18",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Kieswetter b Broad",
+                    "dismissal": "c (wk)Kieswetter b Broad",
                     "runs": "21",
                     "balls": "36",
                     "minutes": "54",
@@ -80,7 +80,7 @@
                     "strike_rate": "58.33"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Cook b Bresnan",
                     "runs": "69",
                     "balls": "103",
@@ -227,7 +227,7 @@
                     "strike_rate": "67.64"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "b Jadeja",
                     "runs": "51",
                     "balls": "46",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Ian Bell",
-                    "dismissal": "run out (Dhoni)",
+                    "dismissal": "run out ( (wk)Dhoni)",
                     "runs": "23",
                     "balls": "25",
                     "minutes": "31",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 7 balls remaining) (D/L method)"
+    "result": "England won by 3 wickets (with 7 balls remaining) (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Parthiv Patel",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Rahul Dravid",
+            "Ravindra Jadeja",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "RP Singh",
+            "Munaf Patel"
+        ],
+        "England": [
+            "Stuart Broad",
+            "Ben Stokes",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Ravi Bopara",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "Graeme Swann",
+            "James Anderson",
+            "Tim Bresnan",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

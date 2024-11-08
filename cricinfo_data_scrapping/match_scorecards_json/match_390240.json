@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Saqib Ali",
-                    "dismissal": "c NJ O'Brien b Connell",
+                    "dismissal": "c (wk)NJ O'Brien b Connell",
                     "runs": "16",
                     "balls": "23",
                     "minutes": "34",
@@ -80,8 +80,8 @@
                     "strike_rate": "35.29"
                 },
                 {
-                    "batsman": "Naeemuddin Aslam",
-                    "dismissal": "c NJ O'Brien b West",
+                    "batsman": "Naeemuddin Aslam (wk)",
+                    "dismissal": "c (wk)NJ O'Brien b West",
                     "runs": "23",
                     "balls": "67",
                     "minutes": "95",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Sameer Nayak",
-                    "dismissal": "c NJ O'Brien b Johnston",
+                    "dismissal": "c (wk)NJ O'Brien b Johnston",
                     "runs": "1",
                     "balls": "14",
                     "minutes": "17",
@@ -253,7 +253,7 @@
                     "strike_rate": "111.11"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "not out",
                     "runs": "0",
                     "balls": "5",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 8 wickets (with 134 balls remaining)"
+    "result": "Ireland won by 8 wickets (with 134 balls remaining)",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Saqib Ali",
+            "Arshad Ali",
+            "Naeemuddin Aslam (wk)",
+            "Zahid Shah",
+            "Khurram Khan(c)",
+            "Amjad Javed",
+            "Aman Ali",
+            "Fayyaz Ahmed",
+            "Sameer Nayak",
+            "Qasim Zubair",
+            "Nithin Gopal"
+        ],
+        "Ireland": [
+            "Niall O'Brien (wk)",
+            "Gary Wilson",
+            "William Porterfield(c)",
+            "Kevin O'Brien",
+            "Eoin Morgan",
+            "Peter Connell",
+            "Boyd Rankin",
+            "Regan West",
+            "Andrew White",
+            "Alex Cusack",
+            "Trent Johnston"
+        ]
+    }
 }

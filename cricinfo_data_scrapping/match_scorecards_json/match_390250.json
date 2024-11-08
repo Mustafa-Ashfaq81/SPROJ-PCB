@@ -70,8 +70,8 @@
                     "strike_rate": "51.51"
                 },
                 {
-                    "batsman": "Ashish Bagai(c)",
-                    "dismissal": "c Smits b Borren",
+                    "batsman": "Ashish Bagai(c) (wk)",
+                    "dismissal": "c (wk)Smits b Borren",
                     "runs": "17",
                     "balls": "41",
                     "minutes": "44",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Sunil Dhaniram",
-                    "dismissal": "c Smits b Schiferli",
+                    "dismissal": "c (wk)Smits b Schiferli",
                     "runs": "33",
                     "balls": "61",
                     "minutes": "61",
@@ -263,7 +263,7 @@
                     "strike_rate": "77.27"
                 }
             ],
-            "did_not_bat": "Tom de Grooth , Darron Reekers , Jeroen Smits (c) , Edgar Schiferli , Pieter Seelaar",
+            "did_not_bat": "Tom de Grooth , Darron Reekers , Jeroen Smits (c) (wk) , Edgar Schiferli , Pieter Seelaar",
             "fall_of_wickets": "Fall of wickets : 1 - 167 ( Alexei Kervezee , 36.1 ov ) , 2 - 175 ( Mudassar Bukhari , 37.5 ov ) , 3 - 175 ( Daan van Bunge , 37.6 ov ) , 4 - 178 ( Eric Szwarczynski , 39.5 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 6 wickets (with 17 balls remaining)"
+    "result": "Netherlands won by 6 wickets (with 17 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Henry Osinde",
+            "Geoff Barnett",
+            "Ashish Bagai(c) (wk)",
+            "Sandeep Jyoti",
+            "Ashif Mulla",
+            "Ian Billcliff",
+            "Sunil Dhaniram",
+            "Khurram Chohan",
+            "Rizwan Cheema",
+            "Umar Bhatti",
+            "Harvir Baidwan"
+        ],
+        "Netherlands": [
+            "Bas Zuiderent",
+            "Darron Reekers",
+            "Eric Szwarczynski",
+            "Tom de Grooth",
+            "Pieter Seelaar",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Alexei Kervezee",
+            "Peter Borren",
+            "Jeroen Smits (c) (wk)",
+            "Daan van Bunge"
+        ]
+    }
 }

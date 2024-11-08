@@ -38,7 +38,7 @@
             "batting": [
                 {
                     "batsman": "James Marshall",
-                    "dismissal": "c Wilson b Strydom",
+                    "dismissal": "c (wk)Wilson b Strydom",
                     "runs": "161",
                     "balls": "141",
                     "minutes": "-",
@@ -77,7 +77,7 @@
                     "strike_rate": "-"
                 }
             ],
-            "did_not_bat": "Jacob Oram , Michael Mason , Daniel Vettori (c) , Gareth Hopkins , Tim Southee , Jeetan Patel , Grant Elliott",
+            "did_not_bat": "Jacob Oram , Michael Mason , Daniel Vettori (c) , Gareth Hopkins (wk) , Tim Southee , Jeetan Patel , Grant Elliott",
             "fall_of_wickets": "Fall of wickets : 1 - 274 ( Brendon McCullum , 42.2 ov ) , 2 - 388 ( James Marshall , 49.1 ov )",
             "bowling": [
                 {
@@ -184,7 +184,7 @@
                     "strike_rate": "84.61"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "b Southee",
                     "runs": "21",
                     "balls": "17",
@@ -195,7 +195,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Hopkins b Oram",
+                    "dismissal": "c (wk)Hopkins b Oram",
                     "runs": "4",
                     "balls": "16",
                     "minutes": "35",
@@ -205,7 +205,7 @@
                 },
                 {
                     "batsman": "Andre Botha",
-                    "dismissal": "c Hopkins b Southee",
+                    "dismissal": "c (wk)Hopkins b Southee",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "5",
@@ -215,7 +215,7 @@
                 },
                 {
                     "batsman": "Andrew White",
-                    "dismissal": "c Hopkins b Mason",
+                    "dismissal": "c (wk)Hopkins b Mason",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "9",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Andrew Poynter",
-                    "dismissal": "c Hopkins b Southee",
+                    "dismissal": "c (wk)Hopkins b Southee",
                     "runs": "7",
                     "balls": "16",
                     "minutes": "18",
@@ -245,7 +245,7 @@
                 },
                 {
                     "batsman": "Kyle McCallan(c)",
-                    "dismissal": "c Hopkins b Patel",
+                    "dismissal": "c (wk)Hopkins b Patel",
                     "runs": "10",
                     "balls": "25",
                     "minutes": "23",
@@ -360,5 +360,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 290 runs"
+    "result": "New Zealand won by 290 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum",
+            "James Marshall",
+            "Jeetan Patel",
+            "Gareth Hopkins (wk)",
+            "Grant Elliott",
+            "Daniel Vettori (c)",
+            "Daniel Flynn",
+            "Ross Taylor",
+            "Michael Mason",
+            "Tim Southee",
+            "Jacob Oram"
+        ],
+        "Ireland": [
+            "Peter Connell",
+            "Reinhardt Strydom",
+            "Andrew White",
+            "Andre Botha",
+            "Gary Kidd",
+            "Paul Stirling",
+            "Phil Eaglestone",
+            "Andrew Poynter",
+            "Gary Wilson (wk)",
+            "Kyle McCallan(c)",
+            "Ryan Haire"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Chirag Suri",
-                    "dismissal": "c Mohammad Shahzad b Rashid Khan",
+                    "dismissal": "c (wk)Mohammad Shahzad b Rashid Khan",
                     "runs": "22",
                     "balls": "72",
                     "minutes": "83",
@@ -50,7 +50,7 @@
                     "strike_rate": "30.55"
                 },
                 {
-                    "batsman": "Ghulam Shabber",
+                    "batsman": "Ghulam Shabber (wk)",
                     "dismissal": "c Mohammad Nabi b Dawlat Zadran",
                     "runs": "6",
                     "balls": "7",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ahmed Raza",
-                    "dismissal": "c Mohammad Shahzad b Dawlat Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Dawlat Zadran",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "17",
@@ -237,7 +237,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Qadeer Ahmed",
                     "runs": "3",
                     "balls": "11",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan(c)",
-                    "dismissal": "c Ghulam Shabber b Qadeer Ahmed",
+                    "dismissal": "c (wk)Ghulam Shabber b Qadeer Ahmed",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "4",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c Ghulam Shabber b Ahmed Raza",
+                    "dismissal": "c (wk)Ghulam Shabber b Ahmed Raza",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "20",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 5 wickets (with 93 balls remaining)"
+    "result": "Afghanistan won by 5 wickets (with 93 balls remaining)",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Rohan Mustafa(c)",
+            "Ghulam Shabber (wk)",
+            "Ahmed Raza",
+            "Chirag Suri",
+            "Adnan Mufti",
+            "Mohammad Boota",
+            "Qadeer Ahmed",
+            "Mohammad Naveed",
+            "Shaiman Anwar",
+            "Imran Haider",
+            "Muhammad Usman"
+        ],
+        "Afghanistan": [
+            "Mohammad Nabi",
+            "Sharafuddin Ashraf",
+            "Dawlat Zadran",
+            "Mujeeb Ur Rahman",
+            "Gulbadin Naib",
+            "Rashid Khan",
+            "Mohammad Shahzad (wk)",
+            "Najibullah Zadran",
+            "Rahmat Shah",
+            "Samiullah Shinwari",
+            "Asghar Afghan(c)"
+        ]
+    }
 }

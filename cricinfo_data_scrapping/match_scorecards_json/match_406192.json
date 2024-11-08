@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Ramdin b Smith",
+                    "dismissal": "c (wk)Ramdin b Smith",
                     "runs": "20",
                     "balls": "34",
                     "minutes": "42",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "c Ramdin b Pollard",
+                    "dismissal": "c (wk)Ramdin b Pollard",
                     "runs": "18",
                     "balls": "30",
                     "minutes": "41",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Cameron White",
-                    "dismissal": "c Ramdin b Roach",
+                    "dismissal": "c (wk)Ramdin b Roach",
                     "runs": "22",
                     "balls": "35",
                     "minutes": "44",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "28",
                     "balls": "25",
                     "minutes": "48",
@@ -90,7 +90,7 @@
                     "strike_rate": "112.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c & b Pollard",
                     "runs": "8",
                     "balls": "14",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Runako Morton",
-                    "dismissal": "c Haddin b Harris",
+                    "dismissal": "c (wk)Haddin b Harris",
                     "runs": "3",
                     "balls": "15",
                     "minutes": "18",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Haddin b Watson",
+                    "dismissal": "c (wk)Haddin b Watson",
                     "runs": "29",
                     "balls": "62",
                     "minutes": "96",
@@ -287,7 +287,7 @@
                     "strike_rate": "88.57"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Harris",
                     "runs": "17",
                     "balls": "14",
@@ -308,7 +308,7 @@
                 },
                 {
                     "batsman": "Nikita Miller",
-                    "dismissal": "c Haddin b Harris",
+                    "dismissal": "c (wk)Haddin b Harris",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "15",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "Australia won by 113 runs"
+    "result": "Australia won by 113 runs",
+    "playing_xi": {
+        "Australia": [
+            "Michael Clarke",
+            "Cameron White",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Ricky Ponting(c)",
+            "Ryan Harris",
+            "Brad Haddin (wk)",
+            "Mitchell Johnson",
+            "Nathan Hauritz",
+            "Michael Hussey",
+            "Doug Bollinger"
+        ],
+        "West Indies": [
+            "Kemar Roach",
+            "Nikita Miller",
+            "Ravi Rampaul",
+            "Runako Morton",
+            "Denesh Ramdin (wk)",
+            "Chris Gayle(c)",
+            "Dwayne Smith",
+            "Narsingh Deonarine",
+            "Lendl Simmons",
+            "Travis Dowlin",
+            "Kieron Pollard"
+        ]
+    }
 }

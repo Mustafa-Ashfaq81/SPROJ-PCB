@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Soumya Sarkar",
-                    "dismissal": "st Latham b Santner",
+                    "dismissal": "st (wk)Latham b Santner",
                     "runs": "32",
                     "balls": "46",
                     "minutes": "90",
@@ -62,7 +62,7 @@
                     "strike_rate": "69.56"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Nicholls b Santner",
                     "runs": "34",
                     "balls": "59",
@@ -249,7 +249,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "not out",
                     "runs": "110",
                     "balls": "108",
@@ -383,5 +383,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 10 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Soumya Sarkar",
+            "Taskin Ahmed",
+            "Tamim Iqbal(c)",
+            "Mehidy Hasan Miraz",
+            "Mahmudullah",
+            "Mushfiqur Rahim (wk)",
+            "Mohammad Saifuddin",
+            "Mustafizur Rahman",
+            "Mohammad Mithun",
+            "Mahedi Hasan",
+            "Litton Das"
+        ],
+        "New Zealand": [
+            "James Neesham",
+            "Tom Latham(c) (wk)",
+            "Will Young",
+            "Henry Nicholls",
+            "Trent Boult",
+            "Kyle Jamieson",
+            "Daryl Mitchell",
+            "Martin Guptill",
+            "Matt Henry",
+            "Mitchell Santner",
+            "Devon Conway"
+        ]
+    }
 }

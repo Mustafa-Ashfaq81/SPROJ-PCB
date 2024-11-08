@@ -73,8 +73,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
-                    "dismissal": "c Latham b de Grandhomme",
+                    "batsman": "Dinesh Karthik (wk)",
+                    "dismissal": "c (wk)Latham b de Grandhomme",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Hardik Pandya",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "16",
                     "balls": "20",
                     "minutes": "37",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Karthik b Kumar",
+                    "dismissal": "c (wk)Karthik b Kumar",
                     "runs": "11",
                     "balls": "18",
                     "minutes": "23",
@@ -266,7 +266,7 @@
                     "strike_rate": "148.00"
                 }
             ],
-            "did_not_bat": "Tom Latham , James Neesham , Mitchell Santner , Colin de Grandhomme , Todd Astle , Matt Henry , Trent Boult",
+            "did_not_bat": "Tom Latham (wk) , James Neesham , Mitchell Santner , Colin de Grandhomme , Todd Astle , Matt Henry , Trent Boult",
             "fall_of_wickets": "Fall of wickets : 1 - 14 ( Martin Guptill , 0.4 ov ) , 2 - 39 ( Kane Williamson , 6.2 ov )",
             "bowling": [
                 {
@@ -342,5 +342,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 8 wickets (with 212 balls remaining)"
+    "result": "New Zealand won by 8 wickets (with 212 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Kuldeep Yadav",
+            "Rohit Sharma(c)",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Kedar Jadhav",
+            "Shubman Gill",
+            "Hardik Pandya",
+            "Khaleel Ahmed",
+            "Dinesh Karthik (wk)",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ],
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "James Neesham",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Todd Astle",
+            "Matt Henry",
+            "Colin de Grandhomme",
+            "Mitchell Santner",
+            "Ross Taylor",
+            "Henry Nicholls"
+        ]
+    }
 }

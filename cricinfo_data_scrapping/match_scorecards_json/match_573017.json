@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Phillip Hughes",
-                    "dismissal": "c Chandimal b Kulasekara",
+                    "dismissal": "c (wk)Chandimal b Kulasekara",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "9",
@@ -79,7 +79,7 @@
                     "strike_rate": "56.41"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c Kulasekara b NLTC Perera",
                     "runs": "31",
                     "balls": "53",
@@ -242,7 +242,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Lahiru Thirimanne , Dinesh Chandimal , Kusal Perera , Angelo Mathews , Jeevan Mendis , Thisara Perera , Nuwan Kulasekara , Lasith Malinga , Rangana Herath",
+            "did_not_bat": "Lahiru Thirimanne , Dinesh Chandimal (wk) , Kusal Perera , Angelo Mathews , Jeevan Mendis , Thisara Perera , Nuwan Kulasekara , Lasith Malinga , Rangana Herath",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -276,5 +276,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "David Warner",
+            "Michael Clarke(c)",
+            "George Bailey",
+            "Moises Henriques",
+            "Matthew Wade (wk)",
+            "Mitchell Starc",
+            "Clint McKay",
+            "Xavier Doherty",
+            "David Hussey",
+            "Phillip Hughes"
+        ],
+        "Sri Lanka": [
+            "Mahela Jayawardene(c)",
+            "Dinesh Chandimal (wk)",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Thisara Perera",
+            "Kusal Perera",
+            "Lasith Malinga",
+            "Jeevan Mendis",
+            "Rangana Herath",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

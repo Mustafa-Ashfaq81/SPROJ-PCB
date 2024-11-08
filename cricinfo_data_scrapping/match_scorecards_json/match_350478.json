@@ -33,7 +33,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "b Steyn",
                     "runs": "1",
                     "balls": "4",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c Boucher b Parnell",
+                    "dismissal": "c (wk)Boucher b Parnell",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "9",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "David Hussey",
-                    "dismissal": "c Boucher b Steyn",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "1",
                     "balls": "12",
                     "minutes": "16",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Nathan Hauritz",
-                    "dismissal": "c Boucher b Steyn",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "10",
                     "balls": "25",
                     "minutes": "42",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "31",
                     "balls": "42",
                     "minutes": "66",
@@ -290,7 +290,7 @@
                     "strike_rate": "57.89"
                 }
             ],
-            "did_not_bat": "Mark Boucher , Roelof van der Merwe , Albie Morkel , Johan Botha , Dale Steyn , Wayne Parnell",
+            "did_not_bat": "Mark Boucher (wk) , Roelof van der Merwe , Albie Morkel , Johan Botha , Dale Steyn , Wayne Parnell",
             "fall_of_wickets": "Fall of wickets : 1 - 7 ( Herschelle Gibbs , 2.6 ov ) , 2 - 76 ( Graeme Smith , 14.1 ov ) , 3 - 93 ( Jacques Kallis , 19.2 ov )",
             "bowling": [
                 {
@@ -352,5 +352,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 142 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 142 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Brad Haddin (wk)",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Nathan Hauritz",
+            "Ben Laughlin",
+            "David Hussey",
+            "Nathan Bracken"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Johan Botha",
+            "Dale Steyn",
+            "Jacques Kallis",
+            "Wayne Parnell",
+            "Jean-Paul Duminy",
+            "Herschelle Gibbs",
+            "Roelof van der Merwe",
+            "Graeme Smith(c)",
+            "AB de Villiers"
+        ]
+    }
 }

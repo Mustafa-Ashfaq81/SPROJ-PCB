@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Sikandar Raza",
-                    "dismissal": "c Karthik b Mohammed Shami",
+                    "dismissal": "c (wk)Karthik b Mohammed Shami",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "7",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Karthik b Mishra",
+                    "dismissal": "c (wk)Karthik b Mishra",
                     "runs": "38",
                     "balls": "53",
                     "minutes": "82",
@@ -63,7 +63,7 @@
                     "strike_rate": "71.69"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
+                    "batsman": "Brendan Taylor(c) (wk)",
                     "dismissal": "c Mohammed Shami b Unadkat",
                     "runs": "23",
                     "balls": "44",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Sean Williams",
-                    "dismissal": "run out (Jadeja/Karthik)",
+                    "dismissal": "run out (Jadeja/ (wk)Karthik)",
                     "runs": "45",
                     "balls": "53",
                     "minutes": "79",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya",
-                    "dismissal": "c Karthik b Mohammed Shami",
+                    "dismissal": "c (wk)Karthik b Mohammed Shami",
                     "runs": "10",
                     "balls": "38",
                     "minutes": "36",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Brian Vitori",
-                    "dismissal": "c Karthik b Mishra",
+                    "dismissal": "c (wk)Karthik b Mishra",
                     "runs": "17",
                     "balls": "26",
                     "minutes": "29",
@@ -255,7 +255,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Taylor b Chinouya",
+                    "dismissal": "c (wk)Taylor b Chinouya",
                     "runs": "14",
                     "balls": "21",
                     "minutes": "27",
@@ -304,7 +304,7 @@
                     "strike_rate": "155.55"
                 }
             ],
-            "did_not_bat": "Dinesh Karthik , Ravindra Jadeja , Amit Mishra , Mohammed Shami , Vinay Kumar , Jaydev Unadkat",
+            "did_not_bat": "Dinesh Karthik (wk) , Ravindra Jadeja , Amit Mishra , Mohammed Shami , Vinay Kumar , Jaydev Unadkat",
             "fall_of_wickets": "Fall of wickets : 1 - 27 ( Rohit Sharma , 5.5 ov ) , 2 - 67 ( Shikhar Dhawan , 14.1 ov ) , 3 - 131 ( Ambati Rayudu , 30.1 ov )",
             "bowling": [
                 {
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 87 balls remaining)"
+    "result": "India won by 7 wickets (with 87 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tendai Chatara",
+            "Brian Vitori",
+            "Michael Chinouya",
+            "Brendan Taylor(c) (wk)",
+            "Prosper Utseya",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Sikandar Raza",
+            "Elton Chigumbura",
+            "Malcolm Waller"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Jaydev Unadkat",
+            "Mohammed Shami",
+            "Amit Mishra",
+            "Vinay Kumar",
+            "Suresh Raina",
+            "Ambati Rayudu",
+            "Virat Kohli(c)",
+            "Dinesh Karthik (wk)"
+        ]
+    }
 }

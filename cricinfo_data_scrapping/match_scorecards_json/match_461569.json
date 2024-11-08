@@ -60,7 +60,7 @@
                     "strike_rate": "68.18"
                 },
                 {
-                    "batsman": "AB de Villiers",
+                    "batsman": "AB de Villiers (wk)",
                     "dismissal": "c Mohammad Hafeez b Shoaib Akhtar",
                     "runs": "49",
                     "balls": "70",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c de Villiers b Morkel",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "33",
                     "balls": "38",
                     "minutes": "-",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Abdur Rehman",
-                    "dismissal": "run out (Kallis/de Villiers)",
+                    "dismissal": "run out (Kallis/ (wk)de Villiers)",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -287,7 +287,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Zulqarnain Haider",
+                    "batsman": "Zulqarnain Haider (wk)",
                     "dismissal": "not out",
                     "runs": "19",
                     "balls": "22",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 1 wicket (with 1 ball remaining)"
+    "result": "Pakistan won by 1 wicket (with 1 ball remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Colin Ingram",
+            "Dale Steyn",
+            "Wayne Parnell",
+            "Morne Morkel",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "AB de Villiers (wk)",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Johan Botha",
+            "Graeme Smith(c)"
+        ],
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Abdul Razzaq",
+            "Abdur Rehman",
+            "Wahab Riaz",
+            "Imran Farhat",
+            "Shoaib Akhtar",
+            "Mohammad Hafeez",
+            "Fawad Alam",
+            "Asad Shafiq",
+            "Younis Khan",
+            "Zulqarnain Haider (wk)"
+        ]
+    }
 }

@@ -72,7 +72,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Flintoff",
                     "runs": "55",
                     "balls": "64",
@@ -230,7 +230,7 @@
                 },
                 {
                     "batsman": "Rob Key",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "6",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Anthony McGrath",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "6",
@@ -269,7 +269,7 @@
                     "strike_rate": "35.71"
                 }
             ],
-            "did_not_bat": "Chris Read , Ashley Giles , James Anderson , Richard Johnson , Darren Gough",
+            "did_not_bat": "Chris Read (wk) , Ashley Giles , James Anderson , Richard Johnson , Darren Gough",
             "fall_of_wickets": "Fall of wickets : 1 - 200 ( Vikram Solanki , 31.6 ov ) , 2 - 202 ( Rob Key , 33.2 ov ) , 3 - 203 ( Anthony McGrath , 34.4 ov ) , 4 - 247 ( Andrew Flintoff , 41.2 ov )",
             "bowling": [
                 {
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 25 balls remaining)"
+    "result": "England won by 6 wickets (with 25 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Alan Dawson",
+            "Graeme Smith(c)",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Andrew Hall",
+            "Martin van Jaarsveld"
+        ],
+        "England": [
+            "Rob Key",
+            "Ashley Giles",
+            "Vikram Solanki",
+            "Andrew Flintoff",
+            "Anthony McGrath",
+            "Darren Gough",
+            "James Anderson",
+            "Richard Johnson",
+            "Chris Read (wk)",
+            "Jim Troughton",
+            "Marcus Trescothick(c)"
+        ]
+    }
 }

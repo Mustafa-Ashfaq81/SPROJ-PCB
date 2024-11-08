@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alexei Kervezee",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "22",
                     "balls": "36",
                     "minutes": "55",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Eric Szwarczynski",
-                    "dismissal": "c Ramdin b DR Smith",
+                    "dismissal": "c (wk)Ramdin b DR Smith",
                     "runs": "10",
                     "balls": "34",
                     "minutes": "59",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Peter Borren",
-                    "dismissal": "c Ramdin b Edwards",
+                    "dismissal": "c (wk)Ramdin b Edwards",
                     "runs": "7",
                     "balls": "20",
                     "minutes": "22",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Henk-Jan Mol",
-                    "dismissal": "c Ramdin b DR Smith",
+                    "dismissal": "c (wk)Ramdin b DR Smith",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "7",
@@ -120,8 +120,8 @@
                     "strike_rate": "46.66"
                 },
                 {
-                    "batsman": "Jeroen Smits(c)",
-                    "dismissal": "c Ramdin b Sammy",
+                    "batsman": "Jeroen Smits(c) (wk)",
+                    "dismissal": "c (wk)Ramdin b Sammy",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "13",
@@ -243,7 +243,7 @@
                     "strike_rate": "69.04"
                 }
             ],
-            "did_not_bat": "Shivnarine Chanderpaul , Runako Morton , Marlon Samuels , Dwayne Smith , Denesh Ramdin , Fidel Edwards , Daren Powell , Daren Sammy , Ravi Rampaul",
+            "did_not_bat": "Shivnarine Chanderpaul , Runako Morton , Marlon Samuels , Dwayne Smith , Denesh Ramdin (wk) , Fidel Edwards , Daren Powell , Daren Sammy , Ravi Rampaul",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -305,5 +305,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 10 wickets (with 213 balls remaining)"
+    "result": "West Indies won by 10 wickets (with 213 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Eric Szwarczynski",
+            "Henk-Jan Mol",
+            "Bas Zuiderent",
+            "Billy Stelling",
+            "Atse Buurman",
+            "Tom de Grooth",
+            "Mudassar Bukhari",
+            "Peter Borren",
+            "Jeroen Smits(c) (wk)",
+            "Alexei Kervezee",
+            "Edgar Schiferli"
+        ],
+        "West Indies": [
+            "Runako Morton",
+            "Dwayne Smith",
+            "Ravi Rampaul",
+            "Denesh Ramdin (wk)",
+            "Daren Sammy",
+            "Devon Smith",
+            "Fidel Edwards",
+            "Daren Powell",
+            "Shivnarine Chanderpaul",
+            "Marlon Samuels",
+            "Chris Gayle(c)"
+        ]
+    }
 }

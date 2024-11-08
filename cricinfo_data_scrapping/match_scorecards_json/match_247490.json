@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c Boucher b Nel",
+                    "dismissal": "c (wk)Boucher b Nel",
                     "runs": "38",
                     "balls": "59",
                     "minutes": "90",
@@ -91,8 +91,8 @@
                     "strike_rate": "81.39"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "run out (Kemp/Boucher)",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "run out (Kemp/ (wk)Boucher)",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "16",
@@ -292,7 +292,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Syed Rasel b Shakib Al Hasan",
                     "runs": "12",
                     "balls": "26",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 67 runs"
+    "result": "Bangladesh won by 67 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Habibul Bashar(c)",
+            "Aftab Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Javed Omer",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Syed Rasel",
+            "Abdur Razzak",
+            "Mohammad Rafique"
+        ],
+        "South Africa": [
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Graeme Smith(c)",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Ashwell Prince",
+            "Jacques Kallis",
+            "Justin Kemp",
+            "Charl Langeveldt",
+            "Shaun Pollock"
+        ]
+    }
 }

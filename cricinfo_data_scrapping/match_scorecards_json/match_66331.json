@@ -95,7 +95,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "b Dharmasena",
                     "runs": "25",
                     "balls": "27",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Avishka Gunawardene",
-                    "dismissal": "st Jacobs b McGarrell",
+                    "dismissal": "st (wk)Jacobs b McGarrell",
                     "runs": "38",
                     "balls": "47",
                     "minutes": "76",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu",
-                    "dismissal": "run out (Hooper/Jacobs)",
+                    "dismissal": "run out (Hooper/ (wk)Jacobs)",
                     "runs": "11",
                     "balls": "22",
                     "minutes": "25",
@@ -277,7 +277,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Jacobs b Collins",
+                    "dismissal": "c (wk)Jacobs b Collins",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "13",
@@ -296,8 +296,8 @@
                     "strike_rate": "61.29"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Jacobs b Collymore",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Jacobs b Collymore",
                     "runs": "27",
                     "balls": "31",
                     "minutes": "39",
@@ -307,7 +307,7 @@
                 },
                 {
                     "batsman": "Suresh Perera",
-                    "dismissal": "c Jacobs b Collymore",
+                    "dismissal": "c (wk)Jacobs b Collymore",
                     "runs": "4",
                     "balls": "14",
                     "minutes": "14",
@@ -317,7 +317,7 @@
                 },
                 {
                     "batsman": "Kumar Dharmasena",
-                    "dismissal": "c Jacobs b Collymore",
+                    "dismissal": "c (wk)Jacobs b Collymore",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -327,7 +327,7 @@
                 },
                 {
                     "batsman": "Chaminda Vaas",
-                    "dismissal": "c Jacobs b Collymore",
+                    "dismissal": "c (wk)Jacobs b Collymore",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "16",
@@ -446,5 +446,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 49 runs"
+    "result": "West Indies won by 49 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Daren Ganga",
+            "Pedro Collins",
+            "Marlon Samuels",
+            "Carl Hooper(c)",
+            "Brian Lara",
+            "Neil McGarrell",
+            "Ridley Jacobs (wk)",
+            "Ramnaresh Sarwan",
+            "Corey Collymore",
+            "Jermaine Lawson"
+        ],
+        "Sri Lanka": [
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Avishka Gunawardene",
+            "Kumar Sangakkara (wk)",
+            "Chaminda Vaas",
+            "Suresh Perera",
+            "Kumar Dharmasena",
+            "Nuwan Zoysa",
+            "Sanath Jayasuriya(c)"
+        ]
+    }
 }

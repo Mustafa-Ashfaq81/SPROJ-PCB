@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Latham b Southee",
+                    "dismissal": "c (wk)Latham b Southee",
                     "runs": "102",
                     "balls": "101",
                     "minutes": "155",
@@ -60,7 +60,7 @@
                     "strike_rate": "100.99"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c & b Sodhi",
                     "runs": "0",
                     "balls": "2",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "45",
                     "balls": "48",
                     "minutes": "64",
@@ -277,7 +277,7 @@
                     "strike_rate": "123.12"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "c Ali b Curran",
                     "runs": "71",
                     "balls": "67",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 3 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ben Stokes",
+            "Moeen Ali",
+            "Chris Woakes",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Tom Curran",
+            "Mark Wood",
+            "Jason Roy",
+            "Adil Rashid"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Tim Southee",
+            "Colin de Grandhomme",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ish Sodhi",
+            "Ross Taylor",
+            "Tom Latham (wk)"
+        ]
+    }
 }

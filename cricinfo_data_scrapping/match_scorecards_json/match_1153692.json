@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Latham b Boult",
+                    "dismissal": "c (wk)Latham b Boult",
                     "runs": "66",
                     "balls": "67",
                     "minutes": "99",
@@ -70,7 +70,7 @@
                     "strike_rate": "95.91"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "48",
                     "balls": "33",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "st Dhoni b Jadhav",
+                    "dismissal": "st (wk)Dhoni b Jadhav",
                     "runs": "22",
                     "balls": "25",
                     "minutes": "43",
@@ -227,7 +227,7 @@
                     "strike_rate": "88.00"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "lbw b Kuldeep Yadav",
                     "runs": "34",
                     "balls": "32",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "India won by 90 runs"
+    "result": "India won by 90 runs",
+    "playing_xi": {
+        "India": [
+            "Rohit Sharma",
+            "Kuldeep Yadav",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal",
+            "Vijay Shankar",
+            "Kedar Jadhav",
+            "Virat Kohli(c)",
+            "MS Dhoni (wk)",
+            "Mohammed Shami",
+            "Ambati Rayudu",
+            "Shikhar Dhawan"
+        ],
+        "New Zealand": [
+            "Tom Latham (wk)",
+            "Lockie Ferguson",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Doug Bracewell",
+            "Colin de Grandhomme",
+            "Ish Sodhi",
+            "Ross Taylor",
+            "Colin Munro",
+            "Henry Nicholls"
+        ]
+    }
 }

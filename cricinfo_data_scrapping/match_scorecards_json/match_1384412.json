@@ -71,7 +71,7 @@
                     "strike_rate": "102.36"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "lbw b Kuldeep Yadav",
                     "runs": "5",
                     "balls": "7",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Lockie Ferguson",
-                    "dismissal": "run out (Rahul)",
+                    "dismissal": "run out ( (wk)Rahul)",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "12",
@@ -264,7 +264,7 @@
                     "strike_rate": "113.79"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "lbw b Santner",
                     "runs": "27",
                     "balls": "35",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Suryakumar Yadav",
-                    "dismissal": "run out (Santner/Boult/Latham)",
+                    "dismissal": "run out (Santner/Boult/ (wk)Latham)",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "8",
@@ -394,5 +394,33 @@
             ]
         }
     ],
-    "result": "India won by 4 wickets (with 12 balls remaining)"
+    "result": "India won by 4 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Devon Conway",
+            "Daryl Mitchell",
+            "Tom Latham(c) (wk)",
+            "Matt Henry",
+            "Trent Boult",
+            "Mark Chapman",
+            "Will Young",
+            "Rachin Ravindra",
+            "Glenn Phillips",
+            "Lockie Ferguson"
+        ],
+        "India": [
+            "KL Rahul (wk)",
+            "Virat Kohli",
+            "Suryakumar Yadav",
+            "Mohammed Shami",
+            "Shubman Gill",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ]
+    }
 }

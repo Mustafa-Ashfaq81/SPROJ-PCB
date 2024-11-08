@@ -31,8 +31,8 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Jamie Atkinson",
-                    "dismissal": "st Vare b Vala",
+                    "batsman": "Jamie Atkinson (wk)",
+                    "dismissal": "st (wk)Vare b Vala",
                     "runs": "36",
                     "balls": "63",
                     "minutes": "-",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Babar Hayat(c)",
-                    "dismissal": "st Vare b Reva",
+                    "dismissal": "st (wk)Vare b Reva",
                     "runs": "89",
                     "balls": "80",
                     "minutes": "-",
@@ -262,7 +262,7 @@
                     "strike_rate": "78.57"
                 },
                 {
-                    "batsman": "Jack Vare",
+                    "batsman": "Jack Vare (wk)",
                     "dismissal": "b Nadeem Ahmed",
                     "runs": "2",
                     "balls": "3",
@@ -303,7 +303,7 @@
                 },
                 {
                     "batsman": "Nosaina Pokana",
-                    "dismissal": "run out (Atkinson)",
+                    "dismissal": "run out ( (wk)Atkinson)",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "-",
@@ -388,5 +388,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 93 runs"
+    "result": "Hong Kong won by 93 runs",
+    "playing_xi": {
+        "Hong Kong": [
+            "Ehsan Khan",
+            "Jamie Atkinson (wk)",
+            "Waqas Khan",
+            "Nadeem Ahmed",
+            "Anshy Rath",
+            "Babar Hayat(c)",
+            "Aizaz Khan",
+            "Nizakat Khan",
+            "Scott McKechnie",
+            "Tanwir Afzal",
+            "Ehsan Nawaz"
+        ],
+        "Papua New Guinea": [
+            "Dogodo Bau",
+            "Mahuru Dai",
+            "Damien Ravu",
+            "Kiplin Doriga",
+            "Alei Nao",
+            "Sese Bau",
+            "Nosaina Pokana",
+            "Tony Ura",
+            "John Reva",
+            "Assad Vala(c)",
+            "Jack Vare (wk)"
+        ]
+    }
 }

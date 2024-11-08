@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Ronchi b Williamson",
+                    "dismissal": "c (wk)Ronchi b Williamson",
                     "runs": "79",
                     "balls": "94",
                     "minutes": "131",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Ambati Rayudu",
-                    "dismissal": "c Ronchi b Bennett",
+                    "dismissal": "c (wk)Ronchi b Bennett",
                     "runs": "37",
                     "balls": "58",
                     "minutes": "64",
@@ -73,7 +73,7 @@
                     "strike_rate": "63.79"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "79",
                     "balls": "73",
@@ -250,7 +250,7 @@
                     "strike_rate": "136.11"
                 }
             ],
-            "did_not_bat": "Luke Ronchi , Nathan McCullum , James Neesham , Tim Southee , Kyle Mills , Hamish Bennett",
+            "did_not_bat": "Luke Ronchi (wk) , Nathan McCullum , James Neesham , Tim Southee , Kyle Mills , Hamish Bennett",
             "fall_of_wickets": "Fall of wickets : 1 - 54 ( Jesse Ryder , 7.2 ov ) , 2 - 58 ( Martin Guptill , 8.1 ov ) , 3 - 188 ( Kane Williamson , 34.2 ov )",
             "bowling": [
                 {
@@ -354,5 +354,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 7 wickets (with 11 balls remaining)"
+    "result": "New Zealand won by 7 wickets (with 11 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Bhuvneshwar Kumar",
+            "Ambati Rayudu",
+            "MS Dhoni(c) (wk)",
+            "Stuart Binny",
+            "Ravichandran Ashwin",
+            "Ravindra Jadeja",
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "Varun Aaron"
+        ],
+        "New Zealand": [
+            "James Neesham",
+            "Luke Ronchi (wk)",
+            "Martin Guptill",
+            "Hamish Bennett",
+            "Brendon McCullum(c)",
+            "Kyle Mills",
+            "Kane Williamson",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Tim Southee",
+            "Nathan McCullum"
+        ]
+    }
 }

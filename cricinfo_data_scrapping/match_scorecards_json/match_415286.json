@@ -43,7 +43,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Redmond b Butler",
                     "runs": "24",
                     "balls": "35",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c McCullum b Butler",
+                    "dismissal": "c (wk)McCullum b Butler",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "12",
@@ -240,7 +240,7 @@
             "extras": "18",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Shahid Afridi b Mohammad Amir",
                     "runs": "17",
                     "balls": "16",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori(c)",
-                    "dismissal": "st Kamran Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Kamran Akmal b Saeed Ajmal",
                     "runs": "41",
                     "balls": "42",
                     "minutes": "78",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 5 wickets (with 13 balls remaining)"
+    "result": "New Zealand won by 5 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Naved-ul-Hasan",
+            "Umar Gul",
+            "Mohammad Amir",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Younis Khan(c)",
+            "Imran Nazir",
+            "Shoaib Malik",
+            "Umar Akmal",
+            "Shahid Afridi"
+        ],
+        "New Zealand": [
+            "Daniel Vettori(c)",
+            "James Franklin",
+            "Martin Guptill",
+            "Neil Broom",
+            "Grant Elliott",
+            "Kyle Mills",
+            "Shane Bond",
+            "Ian Butler",
+            "Ross Taylor",
+            "Brendon McCullum (wk)",
+            "Aaron Redmond"
+        ]
+    }
 }

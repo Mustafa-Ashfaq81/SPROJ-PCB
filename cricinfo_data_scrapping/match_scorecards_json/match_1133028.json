@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Cross b Sharif",
+                    "dismissal": "c (wk)Cross b Sharif",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -51,8 +51,8 @@
                     "strike_rate": "75.86"
                 },
                 {
-                    "batsman": "Shai Hope",
-                    "dismissal": "c Cross b Sharif",
+                    "batsman": "Shai Hope (wk)",
+                    "dismissal": "c (wk)Cross b Sharif",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "10",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Shimron Hetmyer",
-                    "dismissal": "c Cross b Leask",
+                    "dismissal": "c (wk)Cross b Leask",
                     "runs": "4",
                     "balls": "11",
                     "minutes": "19",
@@ -238,7 +238,7 @@
             "extras": "5",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Holder",
                     "runs": "4",
                     "balls": "10",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 5 runs (D/L method)"
+    "result": "West Indies won by 5 runs (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Kemar Roach",
+            "Shai Hope (wk)",
+            "Shimron Hetmyer",
+            "Jason Holder(c)",
+            "Carlos Brathwaite",
+            "Rovman Powell",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Ashley Nurse",
+            "Evin Lewis",
+            "Keemo Paul"
+        ],
+        "Scotland": [
+            "Richie Berrington",
+            "Michael Leask",
+            "Michael Jones",
+            "Safyaan Sharif",
+            "Matthew Cross (wk)",
+            "George Munsey",
+            "Calum MacLeod",
+            "Kyle Coetzer(c)",
+            "Tom Sole",
+            "Alasdair Evans",
+            "Brad Wheal"
+        ]
+    }
 }

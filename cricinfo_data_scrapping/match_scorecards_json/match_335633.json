@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "William Porterfield",
-                    "dismissal": "c Dhiman Ghosh b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Dhiman Ghosh b Mashrafe Mortaza",
                     "runs": "1",
                     "balls": "19",
                     "minutes": "19",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Reinhardt Strydom",
-                    "dismissal": "c Dhiman Ghosh b Mashrafe Mortaza",
+                    "dismissal": "c (wk)Dhiman Ghosh b Mashrafe Mortaza",
                     "runs": "8",
                     "balls": "29",
                     "minutes": "40",
@@ -63,7 +63,7 @@
                     "strike_rate": "63.63"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Farhad Reza b Mahmudullah",
                     "runs": "15",
                     "balls": "21",
@@ -246,7 +246,7 @@
                     "strike_rate": "71.11"
                 }
             ],
-            "did_not_bat": "Shakib Al Hasan , Raqibul Hasan , Dhiman Ghosh , Farhad Reza , Abdur Razzak , Mashrafe Mortaza , Mahmudullah",
+            "did_not_bat": "Shakib Al Hasan , Raqibul Hasan , Dhiman Ghosh (wk) , Farhad Reza , Abdur Razzak , Mashrafe Mortaza , Mahmudullah",
             "fall_of_wickets": "Fall of wickets : 1 - 25 ( Tamim Iqbal , 5.4 ov ) , 2 - 56 ( Aftab Ahmed , 9.2 ov )",
             "bowling": [
                 {
@@ -350,5 +350,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 8 wickets (with 61 balls remaining)"
+    "result": "Bangladesh won by 8 wickets (with 61 balls remaining)",
+    "playing_xi": {
+        "Ireland": [
+            "Reinhardt Strydom",
+            "Dave Langford-Smith",
+            "William Porterfield",
+            "Andre Botha",
+            "Trent Johnston(c)",
+            "Greg Thompson",
+            "Kyle McCallan",
+            "Alex Cusack",
+            "Eoin Morgan",
+            "Niall O'Brien (wk)",
+            "Kevin O'Brien"
+        ],
+        "Bangladesh": [
+            "Raqibul Hasan",
+            "Dhiman Ghosh (wk)",
+            "Abdur Razzak",
+            "Farhad Reza",
+            "Shahriar Nafees",
+            "Aftab Ahmed",
+            "Tamim Iqbal",
+            "Shakib Al Hasan",
+            "Mahmudullah",
+            "Mashrafe Mortaza",
+            "Mohammad Ashraful(c)"
+        ]
+    }
 }

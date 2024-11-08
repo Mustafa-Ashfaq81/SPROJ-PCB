@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "run out (Imran Nazir/Kamran Akmal)",
+                    "dismissal": "run out (Imran Nazir/ (wk)Kamran Akmal)",
                     "runs": "102",
                     "balls": "128",
                     "minutes": "180",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "run out (Mohammad Hafeez/Kamran Akmal)",
+                    "dismissal": "run out (Mohammad Hafeez/ (wk)Kamran Akmal)",
                     "runs": "34",
                     "balls": "43",
                     "minutes": "78",
@@ -83,7 +83,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Younis Khan b Iftikhar Anjum",
                     "runs": "14",
                     "balls": "16",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "12",
                     "balls": "8",
                     "minutes": "9",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq",
-                    "dismissal": "c Boucher b Langeveldt",
+                    "dismissal": "c (wk)Boucher b Langeveldt",
                     "runs": "20",
                     "balls": "35",
                     "minutes": "44",
@@ -260,7 +260,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Kallis",
                     "runs": "35",
                     "balls": "55",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 45 runs"
+    "result": "South Africa won by 45 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Charl Langeveldt",
+            "Johan Botha",
+            "Justin Kemp",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "AB de Villiers",
+            "Shaun Pollock",
+            "Mark Boucher (wk)",
+            "Makhaya Ntini",
+            "Albie Morkel",
+            "Graeme Smith(c)"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Iftikhar Anjum",
+            "Kamran Akmal (wk)",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Misbah-ul-Haq",
+            "Umar Gul",
+            "Mohammad Hafeez",
+            "Imran Nazir",
+            "Sohail Tanvir",
+            "Younis Khan"
+        ]
+    }
 }

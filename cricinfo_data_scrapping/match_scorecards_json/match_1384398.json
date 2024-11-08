@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Mushfiqur Rahim b Shoriful Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shoriful Islam",
                     "runs": "82",
                     "balls": "68",
                     "minutes": "107",
@@ -61,7 +61,7 @@
                     "strike_rate": "120.58"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "b Shoriful Islam",
                     "runs": "20",
                     "balls": "10",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Litton Das",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "76",
                     "balls": "66",
                     "minutes": "99",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Mehidy Hasan Miraz",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "8",
                     "balls": "7",
                     "minutes": "12",
@@ -288,7 +288,7 @@
                     "strike_rate": "114.28"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Rashid b Topley",
                     "runs": "51",
                     "balls": "64",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Towhid Hridoy",
-                    "dismissal": "c Buttler b Livingstone",
+                    "dismissal": "c (wk)Buttler b Livingstone",
                     "runs": "39",
                     "balls": "61",
                     "minutes": "70",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "England won by 137 runs"
+    "result": "England won by 137 runs",
+    "playing_xi": {
+        "England": [
+            "Liam Livingstone",
+            "Jos Buttler(c) (wk)",
+            "Sam Curran",
+            "Chris Woakes",
+            "Reece Topley",
+            "Jonny Bairstow",
+            "Harry Brook",
+            "Dawid Malan",
+            "Mark Wood",
+            "Joe Root",
+            "Adil Rashid"
+        ],
+        "Bangladesh": [
+            "Mushfiqur Rahim (wk)",
+            "Shoriful Islam",
+            "Tanzid Hasan",
+            "Mustafizur Rahman",
+            "Najmul Hossain Shanto",
+            "Towhid Hridoy",
+            "Mahedi Hasan",
+            "Shakib Al Hasan(c)",
+            "Litton Das",
+            "Mehidy Hasan Miraz",
+            "Taskin Ahmed"
+        ]
+    }
 }

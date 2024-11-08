@@ -33,8 +33,8 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Brad Haddin",
-                    "dismissal": "run out (JA Morkel/Boucher)",
+                    "batsman": "Brad Haddin (wk)",
+                    "dismissal": "run out (JA Morkel/ (wk)Boucher)",
                     "runs": "53",
                     "balls": "60",
                     "minutes": "95",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Mitchell Johnson",
-                    "dismissal": "c Boucher b Steyn",
+                    "dismissal": "c (wk)Boucher b Steyn",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "6",
@@ -221,7 +221,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Haddin b Bracken",
+                    "dismissal": "c (wk)Haddin b Bracken",
                     "runs": "7",
                     "balls": "14",
                     "minutes": "15",
@@ -270,8 +270,8 @@
                     "strike_rate": "45.45"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Haddin b Hauritz",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Haddin b Hauritz",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "6",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Albie Morkel",
-                    "dismissal": "st Haddin b Hauritz",
+                    "dismissal": "st (wk)Haddin b Hauritz",
                     "runs": "14",
                     "balls": "19",
                     "minutes": "22",
@@ -406,5 +406,33 @@
             ]
         }
     ],
-    "result": "Australia won by 141 runs"
+    "result": "Australia won by 141 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Brad Haddin (wk)",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Nathan Hauritz",
+            "Ben Laughlin",
+            "David Hussey",
+            "Nathan Bracken"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Albie Morkel",
+            "Makhaya Ntini",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Jean-Paul Duminy",
+            "Herschelle Gibbs",
+            "Morne Morkel",
+            "Johan Botha",
+            "Graeme Smith(c)",
+            "AB de Villiers"
+        ]
+    }
 }

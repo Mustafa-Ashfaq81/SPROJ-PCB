@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Khaled Mashud b Mohammad Sharif",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Sharif",
                     "runs": "7",
                     "balls": "9",
                     "minutes": "13",
@@ -83,7 +83,7 @@
                     "strike_rate": "53.65"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "b Mohammad Sharif",
                     "runs": "79",
                     "balls": "83",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Khaled Mashud b Enamul Haque",
+                    "dismissal": "c (wk)Khaled Mashud b Enamul Haque",
                     "runs": "24",
                     "balls": "43",
                     "minutes": "55",
@@ -134,7 +134,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "c Khaled Mashud b Mohammad Sharif",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Sharif",
                     "runs": "3",
                     "balls": "5",
                     "minutes": "8",
@@ -286,7 +286,7 @@
                     "strike_rate": "29.41"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "not out",
                     "runs": "54",
                     "balls": "103",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 49 runs"
+    "result": "Pakistan won by 49 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Inzamam-ul-Haq",
+            "Saqlain Mushtaq",
+            "Shoaib Akhtar",
+            "Naved Latif",
+            "Rashid Latif (wk)",
+            "Mohammad Yousuf",
+            "Azhar Mahmood",
+            "Younis Khan",
+            "Waqar Younis(c)",
+            "Abdul Razzaq"
+        ],
+        "Bangladesh": [
+            "Al Sahariar",
+            "Mohammad Sharif",
+            "Enamul Haque",
+            "Tareq Aziz",
+            "Mehrab Hossain",
+            "Khaled Mahmud",
+            "Javed Omer",
+            "Khaled Mashud(c) (wk)",
+            "Manjurul Islam",
+            "Tushar Imran",
+            "Sanuar Hossain"
+        ]
+    }
 }

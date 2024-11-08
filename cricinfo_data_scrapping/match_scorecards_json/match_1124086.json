@@ -30,7 +30,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Oluoch",
                     "runs": "13",
                     "balls": "26",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "George Munsey",
-                    "dismissal": "c Karim b Obuya",
+                    "dismissal": "c (wk)Karim b Obuya",
                     "runs": "11",
                     "balls": "26",
                     "minutes": "-",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Rushab Patel",
-                    "dismissal": "c Cross b Evans",
+                    "dismissal": "c (wk)Cross b Evans",
                     "runs": "4",
                     "balls": "18",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "105.55"
                 },
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "c Sharif b Sole",
                     "runs": "0",
                     "balls": "8",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Rakep Patel(c)",
-                    "dismissal": "c Cross b Watt",
+                    "dismissal": "c (wk)Cross b Watt",
                     "runs": "7",
                     "balls": "16",
                     "minutes": "-",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Nelson Odhiambo",
-                    "dismissal": "c Cross b Evans",
+                    "dismissal": "c (wk)Cross b Evans",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -318,7 +318,7 @@
                 },
                 {
                     "batsman": "Emmanuel Bundi",
-                    "dismissal": "st Cross b Leask",
+                    "dismissal": "st (wk)Cross b Leask",
                     "runs": "13",
                     "balls": "40",
                     "minutes": "-",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 161 runs"
+    "result": "Scotland won by 161 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Richie Berrington",
+            "Mark Watt",
+            "Craig Wallace",
+            "Michael Leask",
+            "Safyaan Sharif",
+            "Matthew Cross (wk)",
+            "George Munsey",
+            "Calum MacLeod",
+            "Kyle Coetzer(c)",
+            "Chris Sole",
+            "Alasdair Evans"
+        ],
+        "Kenya": [
+            "Gurdeep Singh",
+            "Emmanuel Bundi",
+            "Lucas Oluoch",
+            "Collins Obuya",
+            "Irfan Karim (wk)",
+            "Nehemiah Odhiambo",
+            "Nelson Odhiambo",
+            "Shem Ngoche",
+            "Rushab Patel",
+            "Rakep Patel(c)",
+            "Dhiren Gondaria"
+        ]
+    }
 }

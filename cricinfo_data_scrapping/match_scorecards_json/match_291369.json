@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "34",
                     "balls": "44",
                     "minutes": "88",
@@ -52,8 +52,8 @@
                     "strike_rate": "77.27"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Dhoni b Kumar",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "33",
                     "balls": "42",
                     "minutes": "47",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Chamara Silva",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "7",
@@ -289,7 +289,7 @@
                     "strike_rate": "42.85"
                 }
             ],
-            "did_not_bat": "Praveen Kumar , Irfan Pathan , MS Dhoni (c) , Harbhajan Singh , Ishant Sharma , Munaf Patel",
+            "did_not_bat": "Praveen Kumar , Irfan Pathan , MS Dhoni (c) (wk) , Harbhajan Singh , Ishant Sharma , Munaf Patel",
             "fall_of_wickets": "Fall of wickets : 1 - 18 ( Robin Uthappa , 1.5 ov ) , 2 - 120 ( Sachin Tendulkar , 20.1 ov ) , 3 - 171 ( Yuvraj Singh , 29.4 ov )",
             "bowling": [
                 {
@@ -379,5 +379,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 106 balls remaining)"
+    "result": "India won by 7 wickets (with 106 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Mahela Jayawardene(c)",
+            "Tillakaratne Dilshan",
+            "Ishara Amerasinghe",
+            "Dilruwan Perera",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Chamara Kapugedera",
+            "Chamara Silva"
+        ],
+        "India": [
+            "Praveen Kumar",
+            "Irfan Pathan",
+            "Munaf Patel",
+            "MS Dhoni (c) (wk)",
+            "Gautam Gambhir",
+            "Yuvraj Singh",
+            "Ishant Sharma",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Rohit Sharma",
+            "Harbhajan Singh"
+        ]
+    }
 }

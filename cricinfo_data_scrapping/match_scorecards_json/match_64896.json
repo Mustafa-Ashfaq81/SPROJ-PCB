@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Rajin Saleh",
-                    "dismissal": "c Jacobs b Bradshaw",
+                    "dismissal": "c (wk)Jacobs b Bradshaw",
                     "runs": "20",
                     "balls": "61",
                     "minutes": "87",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Jacobs b Edwards",
+                    "dismissal": "c (wk)Jacobs b Edwards",
                     "runs": "17",
                     "balls": "31",
                     "minutes": "46",
@@ -103,7 +103,7 @@
                     "strike_rate": "34.21"
                 },
                 {
-                    "batsman": "Khaled Mashud",
+                    "batsman": "Khaled Mashud (wk)",
                     "dismissal": "not out",
                     "runs": "30",
                     "balls": "75",
@@ -231,7 +231,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Khaled Mashud b Tapash Baisya",
+                    "dismissal": "c (wk)Khaled Mashud b Tapash Baisya",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "9",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Sylvester Joseph",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "7",
                     "balls": "31",
                     "minutes": "41",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "run out (Mohammad Rafique/Khaled Mashud)",
+                    "dismissal": "run out (Mohammad Rafique/ (wk)Khaled Mashud)",
                     "runs": "16",
                     "balls": "43",
                     "minutes": "53",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "st Khaled Mashud b Manjural Islam Rana",
+                    "dismissal": "st (wk)Khaled Mashud b Manjural Islam Rana",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "3",
@@ -300,7 +300,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "run out (Manjural Islam Rana)",
                     "runs": "1",
                     "balls": "4",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 1 wicket (with 20 balls remaining)"
+    "result": "West Indies won by 1 wicket (with 20 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Rajin Saleh",
+            "Khaled Mahmud",
+            "Manzarul Islam",
+            "Shahriar Hossain",
+            "Mohammad Ashraful",
+            "Tapash Baisya",
+            "Khaled Mashud (wk)",
+            "Alok Kapali",
+            "Habibul Bashar(c)",
+            "Mohammad Rafique",
+            "Mushfiqur Rahman"
+        ],
+        "West Indies": [
+            "Dwayne Smith",
+            "Ian Bradshaw",
+            "Dwayne Bravo",
+            "Tino Best",
+            "Ridley Jacobs (wk)",
+            "Fidel Edwards",
+            "Ricardo Powell",
+            "Ramnaresh Sarwan(c)",
+            "Sylvester Joseph",
+            "Shivnarine Chanderpaul",
+            "Chris Gayle"
+        ]
+    }
 }

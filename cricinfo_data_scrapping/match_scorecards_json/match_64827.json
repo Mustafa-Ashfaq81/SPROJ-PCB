@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Jacobs b Dillon",
+                    "dismissal": "c (wk)Jacobs b Dillon",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -40,8 +40,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
-                    "dismissal": "run out (Hinds/Jacobs)",
+                    "batsman": "Romesh Kaluwitharana (wk)",
+                    "dismissal": "run out (Hinds/ (wk)Jacobs)",
                     "runs": "54",
                     "balls": "75",
                     "minutes": "-",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Kumar Dharmasena",
-                    "dismissal": "c Jacobs b Dillon",
+                    "dismissal": "c (wk)Jacobs b Dillon",
                     "runs": "40",
                     "balls": "54",
                     "minutes": "-",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Kaluwitharana b Vaas",
+                    "dismissal": "c (wk)Kaluwitharana b Vaas",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "-",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Kaluwitharana b Gamage",
+                    "dismissal": "c (wk)Kaluwitharana b Gamage",
                     "runs": "29",
                     "balls": "38",
                     "minutes": "-",
@@ -311,7 +311,7 @@
                     "strike_rate": "76.31"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "c Jayasuriya b Muralidaran",
                     "runs": "14",
                     "balls": "33",
@@ -332,7 +332,7 @@
                 },
                 {
                     "batsman": "Vasbert Drakes",
-                    "dismissal": "run out (Nissanka/Kaluwitharana)",
+                    "dismissal": "run out (Nissanka/ (wk)Kaluwitharana)",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "-",
@@ -465,5 +465,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 55 runs"
+    "result": "Sri Lanka won by 55 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kumar Dharmasena",
+            "Sanath Jayasuriya",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Dharshana Gamage",
+            "Kumar Sangakkara",
+            "Mahela Jayawardene",
+            "Chaminda Vaas",
+            "Romesh Kaluwitharana (wk)",
+            "Prabath Nissanka"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Brian Lara(c)",
+            "Vasbert Drakes",
+            "David Bernard"
+        ]
+    }
 }

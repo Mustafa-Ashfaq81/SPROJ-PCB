@@ -29,7 +29,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "lbw b Kingma",
                     "runs": "3",
                     "balls": "17",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Rakep Patel(c)",
-                    "dismissal": "c Barresi b Rippon",
+                    "dismissal": "c (wk)Barresi b Rippon",
                     "runs": "29",
                     "balls": "47",
                     "minutes": "67",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Collins Obuya",
-                    "dismissal": "c Barresi b Seelaar",
+                    "dismissal": "c (wk)Barresi b Seelaar",
                     "runs": "72",
                     "balls": "77",
                     "minutes": "99",
@@ -230,7 +230,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Wesley Barresi",
+                    "batsman": "Wesley Barresi (wk)",
                     "dismissal": "c Obuya b NM Odhiambo",
                     "runs": "25",
                     "balls": "49",
@@ -408,5 +408,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 6 wickets (with 7 balls remaining)"
+    "result": "Netherlands won by 6 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Rakep Patel(c)",
+            "Alex Obanda",
+            "Nelson Odhiambo",
+            "Gurdeep Singh",
+            "Collins Obuya",
+            "Dhiren Gondaria",
+            "Nehemiah Odhiambo",
+            "Shem Ngoche",
+            "Irfan Karim (wk)",
+            "Emmanuel Bundi",
+            "Pushpak Kerai"
+        ],
+        "Netherlands": [
+            "Ben Cooper",
+            "Michael Rippon",
+            "Vivian Kingma",
+            "Peter Borren(c)",
+            "Sikander Zulfiqar",
+            "Pieter Seelaar",
+            "Paul van Meekeren",
+            "Roelof van der Merwe",
+            "Wesley Barresi (wk)",
+            "Timm van der Gugten",
+            "Stephan Myburgh"
+        ]
+    }
 }

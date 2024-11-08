@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Karthik b Unadkat",
+                    "dismissal": "c (wk)Karthik b Unadkat",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "17",
@@ -50,7 +50,7 @@
                     "strike_rate": "69.56"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
+                    "batsman": "Brendan Taylor(c) (wk)",
                     "dismissal": "c Raina b Sharma",
                     "runs": "0",
                     "balls": "11",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Timycen Maruma",
-                    "dismissal": "c Karthik b Mohammed Shami",
+                    "dismissal": "c (wk)Karthik b Mohammed Shami",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "16",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "41",
                     "balls": "38",
                     "minutes": "48",
@@ -277,7 +277,7 @@
                     "strike_rate": "62.33"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
+                    "batsman": "Dinesh Karthik (wk)",
                     "dismissal": "not out",
                     "runs": "10",
                     "balls": "19",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 96 balls remaining)"
+    "result": "India won by 7 wickets (with 96 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tinotenda Mutombodzi",
+            "Natsai M'shangwe",
+            "Kyle Jarvis",
+            "Brian Vitori",
+            "Brendan Taylor(c) (wk)",
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Malcolm Waller",
+            "Timycen Maruma"
+        ],
+        "India": [
+            "Shikhar Dhawan",
+            "Ravindra Jadeja",
+            "Cheteshwar Pujara",
+            "Virat Kohli (c)",
+            "Jaydev Unadkat",
+            "Mohammed Shami",
+            "Amit Mishra",
+            "Ajinkya Rahane",
+            "Suresh Raina",
+            "Mohit Sharma",
+            "Dinesh Karthik (wk)"
+        ]
+    }
 }

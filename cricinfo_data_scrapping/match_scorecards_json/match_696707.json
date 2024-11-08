@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Salman Faris",
-                    "dismissal": "c Hamza Tariq b Gordon",
+                    "dismissal": "c (wk)Hamza Tariq b Gordon",
                     "runs": "18",
                     "balls": "42",
                     "minutes": "58",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Khurram Khan(c)",
-                    "dismissal": "run out (Kumar/Hamza Tariq)",
+                    "dismissal": "run out (Kumar/ (wk)Hamza Tariq)",
                     "runs": "88",
                     "balls": "84",
                     "minutes": "134",
@@ -69,7 +69,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Swapnil Patil",
+                    "batsman": "Swapnil Patil (wk)",
                     "dismissal": "c Kumar b Khurram Chohan",
                     "runs": "36",
                     "balls": "36",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Usman Limbada",
-                    "dismissal": "c Patil b Mohammad Naveed",
+                    "dismissal": "c (wk)Patil b Mohammad Naveed",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "10",
@@ -270,7 +270,7 @@
                     "strike_rate": "80.95"
                 },
                 {
-                    "batsman": "Hamza Tariq",
+                    "batsman": "Hamza Tariq (wk)",
                     "dismissal": "b Rohan Mustafa",
                     "runs": "20",
                     "balls": "31",
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 80 runs"
+    "result": "U.A.E. won by 80 runs",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Khurram Khan(c)",
+            "Vikrant Shetty",
+            "Manjula Guruge",
+            "Rohan Mustafa",
+            "Kamran Shazad",
+            "Mohammad Naveed",
+            "Amjad Ali",
+            "Swapnil Patil (wk)",
+            "Amjad Javed",
+            "Shaiman Anwar",
+            "Salman Faris"
+        ],
+        "Canada": [
+            "Jeremy Gordon",
+            "Cecil Pervez",
+            "Raza-ur-Rehman",
+            "Khurram Chohan",
+            "Ruvindu Gunasekera",
+            "Nitish Kumar",
+            "Hamza Tariq (wk)",
+            "Junaid Siddiqui",
+            "Trevin Bastiampillai",
+            "Usman Limbada",
+            "Jimmy Hansra(c)"
+        ]
+    }
 }

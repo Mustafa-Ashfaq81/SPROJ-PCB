@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Dilruwan Perera",
-                    "dismissal": "c Mustard b Sidebottom",
+                    "dismissal": "c (wk)Mustard b Sidebottom",
                     "runs": "30",
                     "balls": "41",
                     "minutes": "61",
@@ -53,7 +53,7 @@
                     "strike_rate": "144.44"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Shah",
                     "runs": "26",
                     "balls": "44",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "run out (Bell/Mustard)",
+                    "dismissal": "run out (Bell/ (wk)Mustard)",
                     "runs": "9",
                     "balls": "16",
                     "minutes": "18",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook",
-                    "dismissal": "c Sangakkara b Fernando",
+                    "dismissal": "c (wk)Sangakkara b Fernando",
                     "runs": "28",
                     "balls": "47",
                     "minutes": "73",
@@ -250,8 +250,8 @@
                     "strike_rate": "59.57"
                 },
                 {
-                    "batsman": "Phil Mustard",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "batsman": "Phil Mustard (wk)",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "12",
@@ -331,7 +331,7 @@
                 },
                 {
                     "batsman": "James Anderson",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "10",
@@ -341,7 +341,7 @@
                 },
                 {
                     "batsman": "Monty Panesar",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "21",
@@ -412,5 +412,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 107 runs"
+    "result": "Sri Lanka won by 107 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Mahela Jayawardene(c)",
+            "Tillakaratne Dilshan",
+            "Kaushal Lokuarachchi",
+            "Dilruwan Perera",
+            "Jehan Mubarak",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Chamara Silva"
+        ],
+        "England": [
+            "James Anderson",
+            "Monty Panesar",
+            "Stuart Broad",
+            "Ian Bell",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Phil Mustard (wk)",
+            "Alastair Cook",
+            "Ravi Bopara",
+            "Owais Shah",
+            "Ryan Sidebottom"
+        ]
+    }
 }

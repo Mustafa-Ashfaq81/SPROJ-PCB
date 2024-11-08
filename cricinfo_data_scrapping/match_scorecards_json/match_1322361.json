@@ -52,7 +52,7 @@
                     "strike_rate": "22.22"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c Mitchell b Henry",
                     "runs": "0",
                     "balls": "6",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Chamika Karunaratne",
-                    "dismissal": "c Latham b Henry",
+                    "dismissal": "c (wk)Latham b Henry",
                     "runs": "24",
                     "balls": "42",
                     "minutes": "65",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Wanindu Hasaranga",
-                    "dismissal": "c Latham b Mitchell",
+                    "dismissal": "c (wk)Latham b Mitchell",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "8",
@@ -226,7 +226,7 @@
             "batting": [
                 {
                     "batsman": "Chad Bowes",
-                    "dismissal": "c Mendis b Kumara",
+                    "dismissal": "c (wk)Mendis b Kumara",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "4",
@@ -236,7 +236,7 @@
                 },
                 {
                     "batsman": "Tom Blundell",
-                    "dismissal": "c Mendis b Kumara",
+                    "dismissal": "c (wk)Mendis b Kumara",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "9",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Daryl Mitchell",
-                    "dismissal": "c Mendis b Rajitha",
+                    "dismissal": "c (wk)Mendis b Rajitha",
                     "runs": "6",
                     "balls": "8",
                     "minutes": "19",
@@ -265,7 +265,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
+                    "batsman": "Tom Latham(c) (wk)",
                     "dismissal": "b Shanaka",
                     "runs": "8",
                     "balls": "16",
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 6 wickets (with 103 balls remaining)"
+    "result": "New Zealand won by 6 wickets (with 103 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Dasun Shanaka(c)",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Nuwanidu Fernando",
+            "Wanindu Hasaranga",
+            "Lahiru Kumara",
+            "Kasun Rajitha",
+            "Kusal Mendis (wk)",
+            "Chamika Karunaratne",
+            "Angelo Mathews",
+            "Charith Asalanka"
+        ],
+        "New Zealand": [
+            "Tom Blundell",
+            "Matt Henry",
+            "Chad Bowes",
+            "Tom Latham(c) (wk)",
+            "Will Young",
+            "Ish Sodhi",
+            "Rachin Ravindra",
+            "Henry Shipley",
+            "Daryl Mitchell",
+            "Blair Tickner",
+            "Henry Nicholls"
+        ]
+    }
 }

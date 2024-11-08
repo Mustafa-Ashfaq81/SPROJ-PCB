@@ -41,7 +41,7 @@
                     "strike_rate": "116.66"
                 },
                 {
-                    "batsman": "Johnson Charles",
+                    "batsman": "Johnson Charles (wk)",
                     "dismissal": "lbw b Jadeja",
                     "runs": "60",
                     "balls": "55",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "st Dhoni b Ashwin",
+                    "dismissal": "st (wk)Dhoni b Ashwin",
                     "runs": "35",
                     "balls": "83",
                     "minutes": "108",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Dhoni b Jadeja",
+                    "dismissal": "c (wk)Dhoni b Jadeja",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "7",
@@ -239,7 +239,7 @@
             "batting": [
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Charles b Narine",
+                    "dismissal": "c (wk)Charles b Narine",
                     "runs": "52",
                     "balls": "56",
                     "minutes": "78",
@@ -278,7 +278,7 @@
                     "strike_rate": "94.44"
                 }
             ],
-            "did_not_bat": "Suresh Raina , MS Dhoni (c) , Ravindra Jadeja , Ravichandran Ashwin , Ishant Sharma , Bhuvneshwar Kumar , Umesh Yadav",
+            "did_not_bat": "Suresh Raina , MS Dhoni (c) (wk) , Ravindra Jadeja , Ravichandran Ashwin , Ishant Sharma , Bhuvneshwar Kumar , Umesh Yadav",
             "fall_of_wickets": "Fall of wickets : 1 - 101 ( Rohit Sharma , 15.3 ov ) , 2 - 127 ( Virat Kohli , 19.6 ov )",
             "bowling": [
                 {
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 65 balls remaining)"
+    "result": "India won by 8 wickets (with 65 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kieron Pollard",
+            "Dwayne Bravo(c)",
+            "Kemar Roach",
+            "Sunil Narine",
+            "Darren Bravo",
+            "Ravi Rampaul",
+            "Daren Sammy",
+            "Ramnaresh Sarwan",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Johnson Charles (wk)"
+        ],
+        "India": [
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Suresh Raina",
+            "MS Dhoni (c) (wk)",
+            "Dinesh Karthik",
+            "Virat Kohli",
+            "Ishant Sharma",
+            "Umesh Yadav",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Bhuvneshwar Kumar"
+        ]
+    }
 }

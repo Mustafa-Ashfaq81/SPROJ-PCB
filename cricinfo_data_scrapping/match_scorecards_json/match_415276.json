@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Prior b Onions",
+                    "dismissal": "c (wk)Prior b Onions",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "8",
@@ -51,7 +51,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Strauss b Onions",
                     "runs": "1",
                     "balls": "6",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Thilina Kandamby",
-                    "dismissal": "run out (Prior/Wright)",
+                    "dismissal": "run out ( (wk)Prior/Wright)",
                     "runs": "53",
                     "balls": "82",
                     "minutes": "140",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Prior b Wright",
+                    "dismissal": "c (wk)Prior b Wright",
                     "runs": "52",
                     "balls": "73",
                     "minutes": "87",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Sangakkara b Muralidaran",
+                    "dismissal": "c (wk)Sangakkara b Muralidaran",
                     "runs": "44",
                     "balls": "74",
                     "minutes": "138",
@@ -288,7 +288,7 @@
                     "strike_rate": "74.69"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "not out",
                     "runs": "28",
                     "balls": "27",
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 30 balls remaining)"
+    "result": "England won by 6 wickets (with 30 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Angelo Mathews",
+            "Thilina Kandamby",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga",
+            "Kumar Sangakkara(c) (wk)",
+            "Ajantha Mendis",
+            "Nuwan Kulasekara",
+            "Muthiah Muralidaran",
+            "Sanath Jayasuriya",
+            "Thilan Samaraweera"
+        ],
+        "England": [
+            "Matt Prior (wk)",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "James Anderson",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Graham Onions",
+            "Joe Denly",
+            "Owais Shah",
+            "Luke Wright"
+        ]
+    }
 }

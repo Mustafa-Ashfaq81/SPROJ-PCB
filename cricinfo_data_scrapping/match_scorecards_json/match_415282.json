@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c McCullum b Mills",
+                    "dismissal": "c (wk)McCullum b Mills",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c McCullum b Bond",
+                    "dismissal": "c (wk)McCullum b Bond",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "21",
@@ -71,7 +71,7 @@
                     "strike_rate": "68.96"
                 },
                 {
-                    "batsman": "Eoin Morgan",
+                    "batsman": "Eoin Morgan (wk)",
                     "dismissal": "c Taylor b Butler",
                     "runs": "9",
                     "balls": "40",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Luke Wright",
-                    "dismissal": "c McCullum b Elliott",
+                    "dismissal": "c (wk)McCullum b Elliott",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "8",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Graeme Swann",
-                    "dismissal": "c McCullum b Elliott",
+                    "dismissal": "c (wk)McCullum b Elliott",
                     "runs": "11",
                     "balls": "20",
                     "minutes": "17",
@@ -238,7 +238,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Bopara b Broad",
                     "runs": "48",
                     "balls": "39",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Neil Broom",
-                    "dismissal": "c Morgan b Sidebottom",
+                    "dismissal": "c (wk)Morgan b Sidebottom",
                     "runs": "17",
                     "balls": "36",
                     "minutes": "69",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "c Morgan b Broad",
+                    "dismissal": "c (wk)Morgan b Broad",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "10",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Gareth Hopkins",
-                    "dismissal": "c Morgan b Broad",
+                    "dismissal": "c (wk)Morgan b Broad",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "10",
@@ -380,5 +380,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 137 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 137 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Paul Collingwood",
+            "Eoin Morgan (wk)",
+            "Ryan Sidebottom",
+            "Ravi Bopara",
+            "Graeme Swann",
+            "Joe Denly",
+            "Owais Shah",
+            "Luke Wright"
+        ],
+        "New Zealand": [
+            "Daniel Vettori(c)",
+            "James Franklin",
+            "Martin Guptill",
+            "Neil Broom",
+            "Grant Elliott",
+            "Kyle Mills",
+            "Shane Bond",
+            "Gareth Hopkins",
+            "Ian Butler",
+            "Ross Taylor",
+            "Brendon McCullum (wk)"
+        ]
+    }
 }

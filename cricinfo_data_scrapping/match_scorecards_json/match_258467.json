@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "c Prior b Plunkett",
+                    "dismissal": "c (wk)Prior b Plunkett",
                     "runs": "9",
                     "balls": "7",
                     "minutes": "10",
@@ -100,7 +100,7 @@
                     "strike_rate": "400.00"
                 }
             ],
-            "did_not_bat": "Denesh Ramdin , Daren Powell , Ravi Rampaul , Fidel Edwards",
+            "did_not_bat": "Denesh Ramdin (wk) , Daren Powell , Ravi Rampaul , Fidel Edwards",
             "fall_of_wickets": "Fall of wickets : 1 - 16 ( Devon Smith , 2.3 ov ) , 2 - 93 ( Shivnarine Chanderpaul , 20.1 ov ) , 3 - 108 ( Marlon Samuels , 22.4 ov ) , 4 - 193 ( Chris Gayle , 41.6 ov ) , 5 - 285 ( Dwayne Bravo , 49.5 ov )",
             "bowling": [
                 {
@@ -207,8 +207,8 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Matt Prior",
-                    "dismissal": "c Ramdin b Powell",
+                    "batsman": "Matt Prior (wk)",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "9",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Ramdin b DR Smith",
+                    "dismissal": "c (wk)Ramdin b DR Smith",
                     "runs": "51",
                     "balls": "66",
                     "minutes": "86",
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 93 runs"
+    "result": "West Indies won by 93 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Ravi Rampaul",
+            "Shivnarine Chanderpaul",
+            "Devon Smith",
+            "Daren Powell",
+            "Fidel Edwards",
+            "Chris Gayle(c)",
+            "Dwayne Bravo",
+            "Marlon Samuels",
+            "Dwayne Smith",
+            "Runako Morton",
+            "Denesh Ramdin (wk)"
+        ],
+        "England": [
+            "Matt Prior (wk)",
+            "Stuart Broad",
+            "James Anderson",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Dimitri Mascarenhas",
+            "Alastair Cook",
+            "Liam Plunkett",
+            "Owais Shah",
+            "Monty Panesar",
+            "Ian Bell"
+        ]
+    }
 }

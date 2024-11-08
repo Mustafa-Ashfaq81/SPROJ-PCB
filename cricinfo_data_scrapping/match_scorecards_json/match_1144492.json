@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Aaron Finch(c)",
-                    "dismissal": "c Hope b Thomas",
+                    "dismissal": "c (wk)Hope b Thomas",
                     "runs": "6",
                     "balls": "10",
                     "minutes": "13",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Usman Khawaja",
-                    "dismissal": "c Hope b Russell",
+                    "dismissal": "c (wk)Hope b Russell",
                     "runs": "13",
                     "balls": "19",
                     "minutes": "26",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c Hope b Cottrell",
+                    "dismissal": "c (wk)Hope b Cottrell",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "5",
@@ -91,8 +91,8 @@
                     "strike_rate": "82.60"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c Hope b Russell",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)Hope b Russell",
                     "runs": "45",
                     "balls": "55",
                     "minutes": "62",
@@ -258,7 +258,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Khawaja b Cummins",
                     "runs": "68",
                     "balls": "105",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Australia won by 15 runs"
+    "result": "Australia won by 15 runs",
+    "playing_xi": {
+        "Australia": [
+            "Usman Khawaja",
+            "Mitchell Starc",
+            "Aaron Finch(c)",
+            "Steven Smith",
+            "Nathan Coulter-Nile",
+            "Pat Cummins",
+            "Marcus Stoinis",
+            "David Warner",
+            "Alex Carey (wk)",
+            "Adam Zampa",
+            "Glenn Maxwell"
+        ],
+        "West Indies": [
+            "Oshane Thomas",
+            "Evin Lewis",
+            "Ashley Nurse",
+            "Carlos Brathwaite",
+            "Chris Gayle",
+            "Sheldon Cottrell",
+            "Andre Russell",
+            "Shai Hope (wk)",
+            "Jason Holder(c)",
+            "Nicholas Pooran",
+            "Shimron Hetmyer"
+        ]
+    }
 }

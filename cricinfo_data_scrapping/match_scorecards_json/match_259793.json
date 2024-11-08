@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "6",
@@ -73,7 +73,7 @@
                     "strike_rate": "38.46"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "c Hall b Kallis",
                     "runs": "5",
                     "balls": "12",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "st Boucher b Peterson",
+                    "dismissal": "st (wk)Boucher b Peterson",
                     "runs": "30",
                     "balls": "62",
                     "minutes": "63",
@@ -300,7 +300,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Mark Boucher , Shaun Pollock , Robin Peterson , Andrew Hall , Makhaya Ntini",
+            "did_not_bat": "Mark Boucher (wk) , Shaun Pollock , Robin Peterson , Andrew Hall , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 14 ( Boeta Dippenaar , 3.6 ov ) , 2 - 67 ( Alviro Petersen , 9.2 ov ) , 3 - 72 ( Loots Bosman , 9.6 ov ) , 4 - 109 ( Jacques Kallis , 19.2 ov )",
             "bowling": [
                 {
@@ -376,5 +376,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 134 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 134 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Elton Chigumbura",
+            "Piet Rinke",
+            "Brendan Taylor (wk)",
+            "Vusi Sibanda",
+            "Anthony Ireland",
+            "Tafadzwa Mufambisi",
+            "Hamilton Masakadza",
+            "Chamu Chibhabha",
+            "Ed Rainsford",
+            "Prosper Utseya(c)"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Jacques Kallis(c)",
+            "Makhaya Ntini",
+            "Loots Bosman",
+            "Alviro Petersen",
+            "Jean-Paul Duminy",
+            "Justin Kemp",
+            "Shaun Pollock",
+            "Robin Peterson",
+            "Andrew Hall",
+            "Boeta Dippenaar"
+        ]
+    }
 }

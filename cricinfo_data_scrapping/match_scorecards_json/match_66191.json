@@ -64,8 +64,8 @@
                     "strike_rate": "57.37"
                 },
                 {
-                    "batsman": "Lou Vincent",
-                    "dismissal": "c Khaled Mashud b Khaled Mahmud",
+                    "batsman": "Lou Vincent (wk)",
+                    "dismissal": "c (wk)Khaled Mashud b Khaled Mahmud",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "8",
@@ -75,7 +75,7 @@
                 },
                 {
                     "batsman": "Scott Styris",
-                    "dismissal": "run out (Talha Jubair/Khaled Mashud)",
+                    "dismissal": "run out (Talha Jubair/ (wk)Khaled Mashud)",
                     "runs": "26",
                     "balls": "27",
                     "minutes": "34",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Chris Harris",
-                    "dismissal": "c Khaled Mashud b Mohammad Ashraful",
+                    "dismissal": "c (wk)Khaled Mashud b Mohammad Ashraful",
                     "runs": "26",
                     "balls": "48",
                     "minutes": "47",
@@ -125,7 +125,7 @@
                 },
                 {
                     "batsman": "Shane Bond",
-                    "dismissal": "st Khaled Mashud b Mohammad Rafique",
+                    "dismissal": "st (wk)Khaled Mashud b Mohammad Rafique",
                     "runs": "8",
                     "balls": "5",
                     "minutes": "7",
@@ -305,8 +305,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
-                    "dismissal": "c Vincent b Bond",
+                    "batsman": "Khaled Mashud(c) (wk)",
+                    "dismissal": "c (wk)Vincent b Bond",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -336,7 +336,7 @@
                 },
                 {
                     "batsman": "Fahim Muntasir",
-                    "dismissal": "c Vincent b Mills",
+                    "dismissal": "c (wk)Vincent b Mills",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "11",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 167 runs"
+    "result": "New Zealand won by 167 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Nathan Astle",
+            "Kyle Mills",
+            "Chris Harris",
+            "Jacob Oram",
+            "Paul Hitchcock",
+            "Daniel Vettori",
+            "Lou Vincent (wk)",
+            "Mathew Sinclair",
+            "Stephen Fleming(c)",
+            "Scott Styris",
+            "Shane Bond"
+        ],
+        "Bangladesh": [
+            "Al Sahariar",
+            "Mohammad Ashraful",
+            "Khaled Mahmud",
+            "Mohammad Rafique",
+            "Manjurul Islam",
+            "Alok Kapali",
+            "Javed Omer",
+            "Talha Jubair",
+            "Fahim Muntasir",
+            "Tushar Imran",
+            "Khaled Mashud(c) (wk)"
+        ]
+    }
 }

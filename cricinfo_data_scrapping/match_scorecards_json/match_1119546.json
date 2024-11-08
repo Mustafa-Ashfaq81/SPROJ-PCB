@@ -83,8 +83,8 @@
                     "strike_rate": "48.54"
                 },
                 {
-                    "batsman": "Jos Buttler",
-                    "dismissal": "c Dhoni b Kuldeep Yadav",
+                    "batsman": "Jos Buttler (wk)",
+                    "dismissal": "c (wk)Dhoni b Kuldeep Yadav",
                     "runs": "53",
                     "balls": "51",
                     "minutes": "-",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Liam Plunkett",
-                    "dismissal": "run out (Raina/Dhoni)",
+                    "dismissal": "run out (Raina/ (wk)Dhoni)",
                     "runs": "10",
                     "balls": "6",
                     "minutes": "-",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "st Buttler b Rashid",
+                    "dismissal": "st (wk)Buttler b Rashid",
                     "runs": "75",
                     "balls": "82",
                     "minutes": "-",
@@ -280,7 +280,7 @@
                     "strike_rate": "50.00"
                 }
             ],
-            "did_not_bat": "Suresh Raina , MS Dhoni , Hardik Pandya , Siddarth Kaul , Kuldeep Yadav , Umesh Yadav , Yuzvendra Chahal",
+            "did_not_bat": "Suresh Raina , MS Dhoni (wk) , Hardik Pandya , Siddarth Kaul , Kuldeep Yadav , Umesh Yadav , Yuzvendra Chahal",
             "fall_of_wickets": "Fall of wickets : 1 - 59 ( Shikhar Dhawan , 7.5 ov ) , 2 - 226 ( Virat Kohli , 32.6 ov )",
             "bowling": [
                 {
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "India won by 8 wickets (with 59 balls remaining)"
+    "result": "India won by 8 wickets (with 59 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Ben Stokes",
+            "Moeen Ali",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "David Willey",
+            "Liam Plunkett",
+            "Mark Wood",
+            "Jason Roy",
+            "Adil Rashid"
+        ],
+        "India": [
+            "Suresh Raina",
+            "KL Rahul",
+            "MS Dhoni (wk)",
+            "Umesh Yadav",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Siddarth Kaul",
+            "Kuldeep Yadav",
+            "Hardik Pandya",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

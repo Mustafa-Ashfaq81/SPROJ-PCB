@@ -81,7 +81,7 @@
                     "strike_rate": "62.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Bandara b Randiv",
                     "runs": "32",
                     "balls": "22",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Abdur Razzak",
-                    "dismissal": "run out (Kulasekara/Sangakkara)",
+                    "dismissal": "run out (Kulasekara/ (wk)Sangakkara)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "4",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Rubel Hossain",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "5",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Mushfiqur Rahim b Naeem Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Naeem Islam",
                     "runs": "108",
                     "balls": "117",
                     "minutes": "159",
@@ -258,7 +258,7 @@
                     "strike_rate": "92.30"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "not out",
                     "runs": "17",
                     "balls": "14",
@@ -386,5 +386,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 43 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 43 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Shakib Al Hasan(c)",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Mohammad Ashraful",
+            "Syed Rasel",
+            "Naeem Islam",
+            "Imrul Kayes",
+            "Mahmudullah",
+            "Abdur Razzak",
+            "Raqibul Hasan",
+            "Rubel Hossain"
+        ],
+        "Sri Lanka": [
+            "Suraj Randiv",
+            "Malinga Bandara",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Thisara Perera",
+            "Thilan Thushara",
+            "Kumar Sangakkara(c) (wk)",
+            "Upul Tharanga",
+            "Thilina Kandamby",
+            "Lahiru Thirimanne",
+            "Thilan Samaraweera"
+        ]
+    }
 }

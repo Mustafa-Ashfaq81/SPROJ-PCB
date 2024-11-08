@@ -70,7 +70,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Munro b Milne",
                     "runs": "25",
                     "balls": "17",
@@ -218,7 +218,7 @@
                 },
                 {
                     "batsman": "Kane Williamson(c)",
-                    "dismissal": "c Dhoni b Chahal",
+                    "dismissal": "c (wk)Dhoni b Chahal",
                     "runs": "64",
                     "balls": "84",
                     "minutes": "86",
@@ -237,8 +237,8 @@
                     "strike_rate": "82.97"
                 },
                 {
-                    "batsman": "Tom Latham",
-                    "dismissal": "run out (Dhoni/Bumrah)",
+                    "batsman": "Tom Latham (wk)",
+                    "dismissal": "run out ( (wk)Dhoni/Bumrah)",
                     "runs": "65",
                     "balls": "52",
                     "minutes": "99",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "India won by 6 runs"
+    "result": "India won by 6 runs",
+    "playing_xi": {
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Axar Patel",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Dinesh Karthik",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Adam Milne",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Tim Southee",
+            "Colin de Grandhomme",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ross Taylor",
+            "Tom Latham (wk)"
+        ]
+    }
 }

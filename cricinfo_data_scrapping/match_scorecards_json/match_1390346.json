@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Imam-ul-Haq",
-                    "dismissal": "c Rahmanullah Gurbaz b Gulbadin Naib",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Gulbadin Naib",
                     "runs": "13",
                     "balls": "30",
                     "minutes": "53",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Babar Azam(c)",
-                    "dismissal": "c Rahmanullah Gurbaz b Rashid Khan",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Rashid Khan",
                     "runs": "60",
                     "balls": "86",
                     "minutes": "124",
@@ -61,7 +61,7 @@
                     "strike_rate": "69.76"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "lbw b Fareed Ahmad",
                     "runs": "67",
                     "balls": "79",
@@ -72,7 +72,7 @@
                 },
                 {
                     "batsman": "Saud Shakeel",
-                    "dismissal": "run out (Rahmanullah Gurbaz)",
+                    "dismissal": "run out ( (wk)Rahmanullah Gurbaz)",
                     "runs": "9",
                     "balls": "6",
                     "minutes": "8",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Faheem Ashraf",
-                    "dismissal": "c Rahmanullah Gurbaz b Fareed Ahmad",
+                    "dismissal": "c (wk)Rahmanullah Gurbaz b Fareed Ahmad",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "6",
@@ -228,7 +228,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "lbw b Faheem Ashraf",
                     "runs": "5",
                     "balls": "15",
@@ -249,7 +249,7 @@
                 },
                 {
                     "batsman": "Ibrahim Zadran",
-                    "dismissal": "c Mohammad Rizwan b Faheem Ashraf",
+                    "dismissal": "c (wk)Mohammad Rizwan b Faheem Ashraf",
                     "runs": "0",
                     "balls": "11",
                     "minutes": "24",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Gulbadin Naib",
-                    "dismissal": "c Mohammad Rizwan b Agha Salman",
+                    "dismissal": "c (wk)Mohammad Rizwan b Agha Salman",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "3",
@@ -428,5 +428,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 59 runs"
+    "result": "Pakistan won by 59 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Shaheen Shah Afridi",
+            "Babar Azam(c)",
+            "Saud Shakeel",
+            "Imam-ul-Haq",
+            "Mohammad Wasim",
+            "Fakhar Zaman",
+            "Mohammad Nawaz",
+            "Mohammad Rizwan (wk)",
+            "Shadab Khan",
+            "Faheem Ashraf",
+            "Salman Agha"
+        ],
+        "Afghanistan": [
+            "Hashmatullah Shahidi(c)",
+            "Shahidullah",
+            "Mohammad Nabi",
+            "Mujeeb Ur Rahman",
+            "Rahmanullah Gurbaz (wk)",
+            "Riaz Hassan",
+            "Rashid Khan",
+            "Fareed Ahmad",
+            "Ibrahim Zadran",
+            "Fazalhaq Farooqi",
+            "Gulbadin Naib"
+        ]
+    }
 }

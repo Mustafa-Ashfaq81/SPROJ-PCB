@@ -30,7 +30,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Christopher Carter",
+                    "batsman": "Christopher Carter (wk)",
                     "dismissal": "c Muhammad Usman b Rohan Mustafa",
                     "runs": "18",
                     "balls": "30",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Babar Hayat(c)",
-                    "dismissal": "c Ghulam Shabber b Imran Haider",
+                    "dismissal": "c (wk)Ghulam Shabber b Imran Haider",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Aizaz Khan",
-                    "dismissal": "c Ghulam Shabber b Imran Haider",
+                    "dismissal": "c (wk)Ghulam Shabber b Imran Haider",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "-",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Rohan Mustafa(c)",
-                    "dismissal": "c Carter b Ehsan Khan",
+                    "dismissal": "c (wk)Carter b Ehsan Khan",
                     "runs": "42",
                     "balls": "44",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "60.29"
                 },
                 {
-                    "batsman": "Ghulam Shabber",
+                    "batsman": "Ghulam Shabber (wk)",
                     "dismissal": "c Nadeem Ahmed b Ehsan Khan",
                     "runs": "5",
                     "balls": "12",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 6 wickets (with 71 balls remaining)"
+    "result": "U.A.E. won by 6 wickets (with 71 balls remaining)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Shahid Wasif",
+            "Christopher Carter (wk)",
+            "Aizaz Khan",
+            "Tanveer Ahmed",
+            "Waqas Khan",
+            "Babar Hayat(c)",
+            "Cameron McAuslan",
+            "Ehsan Khan",
+            "Ehsan Nawaz",
+            "Nadeem Ahmed",
+            "Nizakat Khan"
+        ],
+        "United Arab Emirates": [
+            "Imran Haider",
+            "Muhammad Usman",
+            "Amjad Javed",
+            "Zahoor Khan",
+            "Rohan Mustafa(c)",
+            "Mohammed Qasim",
+            "Shaiman Anwar",
+            "Ghulam Shabber (wk)",
+            "Adnan Mufti",
+            "Ahmed Raza",
+            "Mohammad Naveed"
+        ]
+    }
 }

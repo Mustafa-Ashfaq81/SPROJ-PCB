@@ -43,7 +43,7 @@
                     "strike_rate": "123.07"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "b Wright",
                     "runs": "26",
                     "balls": "43",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c Kieswetter b Yardy",
+                    "dismissal": "c (wk)Kieswetter b Yardy",
                     "runs": "28",
                     "balls": "38",
                     "minutes": "47",
@@ -221,7 +221,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss(c)",
-                    "dismissal": "c Paine b Harris",
+                    "dismissal": "c (wk)Paine b Harris",
                     "runs": "10",
                     "balls": "11",
                     "minutes": "14",
@@ -230,7 +230,7 @@
                     "strike_rate": "90.90"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "b Hazlewood",
                     "runs": "38",
                     "balls": "44",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 24 balls remaining)"
+    "result": "England won by 4 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "James Hopes",
+            "Cameron White",
+            "Doug Bollinger",
+            "Ryan Harris",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Michael Hussey",
+            "Nathan Hauritz",
+            "Josh Hazlewood",
+            "Michael Clarke"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Strauss(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "Luke Wright",
+            "Tim Bresnan",
+            "Michael Yardy",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

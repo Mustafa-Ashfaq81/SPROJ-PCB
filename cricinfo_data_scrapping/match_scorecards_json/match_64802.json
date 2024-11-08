@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Khaled Mashud b Sanuar Hossain",
+                    "dismissal": "c (wk)Khaled Mashud b Sanuar Hossain",
                     "runs": "73",
                     "balls": "90",
                     "minutes": "125",
@@ -84,8 +84,8 @@
                     "strike_rate": "128.57"
                 },
                 {
-                    "batsman": "Ridley Jacobs(c)",
-                    "dismissal": "run out (Tushar Imran/Khaled Mashud)",
+                    "batsman": "Ridley Jacobs(c) (wk)",
+                    "dismissal": "run out (Tushar Imran/ (wk)Khaled Mashud)",
                     "runs": "23",
                     "balls": "20",
                     "minutes": "32",
@@ -246,7 +246,7 @@
                 },
                 {
                     "batsman": "Sanuar Hossain",
-                    "dismissal": "c Jacobs b Drakes",
+                    "dismissal": "c (wk)Jacobs b Drakes",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "9",
@@ -275,7 +275,7 @@
                     "strike_rate": "96.73"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "b Gayle",
                     "runs": "16",
                     "balls": "34",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 86 runs"
+    "result": "West Indies won by 86 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Daren Ganga",
+            "Daren Powell",
+            "Mahendra Nagamootoo",
+            "Cameron Cuffy",
+            "Ridley Jacobs(c) (wk)",
+            "Vasbert Drakes"
+        ],
+        "Bangladesh": [
+            "Anwar Hossain",
+            "Ehsanul Hoque",
+            "Mohammad Rafique",
+            "Mohammad Ashraful",
+            "Alok Kapali",
+            "Khaled Mashud(c) (wk)",
+            "Naimur Rahman",
+            "Sanuar Hossain",
+            "Tapash Baisya",
+            "Tushar Imran",
+            "Manjurul Islam"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Parthiv Patel",
-                    "dismissal": "c Kieswetter b Anderson",
+                    "dismissal": "c (wk)Kieswetter b Anderson",
                     "runs": "28",
                     "balls": "18",
                     "minutes": "15",
@@ -80,7 +80,7 @@
                     "strike_rate": "210.52"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Bell b Bresnan",
                     "runs": "6",
                     "balls": "5",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "run out (Kieswetter)",
+                    "dismissal": "run out ( (wk)Kieswetter)",
                     "runs": "1",
                     "balls": "1",
                     "minutes": "4",
@@ -241,7 +241,7 @@
                     "strike_rate": "126.98"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "lbw b Vinay Kumar",
                     "runs": "46",
                     "balls": "25",
@@ -371,5 +371,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 5 balls remaining)"
+    "result": "England won by 7 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Parthiv Patel",
+            "Manoj Tiwary",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Vinay Kumar",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Rahul Dravid",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Munaf Patel"
+        ],
+        "England": [
+            "Samit Patel",
+            "Stuart Broad",
+            "Ben Stokes",
+            "Jade Dernbach",
+            "Ravi Bopara",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "Graeme Swann",
+            "James Anderson",
+            "Tim Bresnan",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

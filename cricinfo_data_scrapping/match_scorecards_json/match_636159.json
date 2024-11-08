@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook(c)",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "1",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "c Haddin b Coulter-Nile",
+                    "dismissal": "c (wk)Haddin b Coulter-Nile",
                     "runs": "17",
                     "balls": "21",
                     "minutes": "27",
@@ -100,7 +100,7 @@
                     "strike_rate": "105.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "34",
                     "balls": "24",
@@ -277,7 +277,7 @@
                     "strike_rate": "66.66"
                 }
             ],
-            "did_not_bat": "Brad Haddin , James Faulkner , Nathan Coulter-Nile , Clint McKay , Xavier Doherty",
+            "did_not_bat": "Brad Haddin (wk) , James Faulkner , Nathan Coulter-Nile , Clint McKay , Xavier Doherty",
             "fall_of_wickets": "Fall of wickets : 1 - 163 ( David Warner , 27.5 ov ) , 2 - 165 ( Shane Watson , 28.4 ov ) , 3 - 237 ( Aaron Finch , 39.3 ov ) , 4 - 247 ( Michael Clarke , 41.6 ov )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Australia won by 6 wickets (with 26 balls remaining)"
+    "result": "Australia won by 6 wickets (with 26 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jos Buttler (wk)",
+            "Boyd Rankin",
+            "Eoin Morgan",
+            "Chris Jordan",
+            "Ben Stokes",
+            "Gary Ballance",
+            "Tim Bresnan",
+            "Alastair Cook(c)",
+            "Joe Root",
+            "Ian Bell",
+            "Ravi Bopara"
+        ],
+        "Australia": [
+            "George Bailey",
+            "Nathan Coulter-Nile",
+            "Xavier Doherty",
+            "Clint McKay",
+            "David Warner",
+            "Glenn Maxwell",
+            "Michael Clarke(c)",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shane Watson",
+            "Aaron Finch"
+        ]
+    }
 }

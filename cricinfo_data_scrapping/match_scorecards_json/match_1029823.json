@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Sabbir Rahman",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "49",
                     "balls": "46",
                     "minutes": "58",
@@ -70,7 +70,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "67",
                     "balls": "62",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "st Buttler b Ali",
+                    "dismissal": "st (wk)Buttler b Ali",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "13",
@@ -228,7 +228,7 @@
                 },
                 {
                     "batsman": "Ben Duckett",
-                    "dismissal": "c Mushfiqur Rahim b Shafiul Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shafiul Islam",
                     "runs": "63",
                     "balls": "68",
                     "minutes": "103",
@@ -257,7 +257,7 @@
                     "strike_rate": "97.91"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "b Mashrafe Mortaza",
                     "runs": "25",
                     "balls": "26",
@@ -377,5 +377,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 13 balls remaining)"
+    "result": "England won by 4 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Nasir Hossain",
+            "Mosaddek Hossain",
+            "Mahmudullah",
+            "Shafiul Islam",
+            "Taskin Ahmed",
+            "Mashrafe Mortaza (c)",
+            "Sabbir Rahman",
+            "Imrul Kayes",
+            "Shakib Al Hasan",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "England": [
+            "James Vince",
+            "Ben Duckett",
+            "Liam Plunkett",
+            "Chris Woakes",
+            "Jos Buttler(c) (wk)",
+            "Adil Rashid",
+            "Jake Ball",
+            "Sam Billings",
+            "Moeen Ali",
+            "Ben Stokes",
+            "Jonny Bairstow"
+        ]
+    }
 }

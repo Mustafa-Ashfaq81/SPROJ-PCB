@@ -30,7 +30,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "b Udana",
                     "runs": "115",
                     "balls": "140",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Avishka Fernando",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "50",
                     "balls": "55",
                     "minutes": "-",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Dimuth Karunaratne(c)",
-                    "dismissal": "c Hope b Holder",
+                    "dismissal": "c (wk)Hope b Holder",
                     "runs": "52",
                     "balls": "57",
                     "minutes": "-",
@@ -251,7 +251,7 @@
                     "strike_rate": "91.22"
                 },
                 {
-                    "batsman": "Kusal Perera",
+                    "batsman": "Kusal Perera (wk)",
                     "dismissal": "c Bravo b Paul",
                     "runs": "42",
                     "balls": "50",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews",
-                    "dismissal": "c Hope b Joseph",
+                    "dismissal": "c (wk)Hope b Joseph",
                     "runs": "5",
                     "balls": "4",
                     "minutes": "-",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Isuru Udana",
-                    "dismissal": "c Hope b Paul",
+                    "dismissal": "c (wk)Hope b Paul",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "-",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 1 wicket (with 5 balls remaining)"
+    "result": "Sri Lanka won by 1 wicket (with 5 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Kieron Pollard(c)",
+            "Jason Holder",
+            "Alzarri Joseph",
+            "Shai Hope (wk)",
+            "Sunil Ambris",
+            "Nicholas Pooran",
+            "Roston Chase",
+            "Hayden Walsh",
+            "Darren Bravo",
+            "Keemo Paul",
+            "Sheldon Cottrell"
+        ],
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Dhananjaya de Silva",
+            "Nuwan Pradeep",
+            "Lakshan Sandakan",
+            "Dimuth Karunaratne(c)",
+            "Avishka Fernando",
+            "Kusal Perera (wk)",
+            "Angelo Mathews",
+            "Thisara Perera",
+            "Isuru Udana",
+            "Kusal Mendis"
+        ]
+    }
 }

@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Marcus Trescothick",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "14",
                     "balls": "36",
                     "minutes": "46",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "34",
                     "balls": "56",
                     "minutes": "86",
@@ -90,7 +90,7 @@
                     "strike_rate": "60.71"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Katich b Lee",
                     "runs": "27",
                     "balls": "33",
@@ -227,8 +227,8 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c GO Jones b Flintoff",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)GO Jones b Flintoff",
                     "runs": "29",
                     "balls": "20",
                     "minutes": "23",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Australia won by 7 wickets (with 34 balls remaining)"
+    "result": "Australia won by 7 wickets (with 34 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Andrew Flintoff",
+            "Darren Gough",
+            "Simon Jones",
+            "Steve Harmison",
+            "Michael Vaughan(c)",
+            "Kevin Pietersen",
+            "Paul Collingwood",
+            "Ashley Giles",
+            "Geraint Jones (wk)",
+            "Andrew Strauss",
+            "Marcus Trescothick"
+        ],
+        "Australia": [
+            "Andrew Symonds",
+            "Jason Gillespie",
+            "Brad Haddin",
+            "Brett Lee",
+            "Simon Katich",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Michael Kasprowicz",
+            "Michael Clarke",
+            "Damien Martyn",
+            "Michael Hussey"
+        ]
+    }
 }

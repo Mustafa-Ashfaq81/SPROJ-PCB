@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Solomon Mire",
-                    "dismissal": "st NJ O'Brien b McBrine",
+                    "dismissal": "st (wk)NJ O'Brien b McBrine",
                     "runs": "11",
                     "balls": "15",
                     "minutes": "42",
@@ -52,7 +52,7 @@
                 },
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c NJ O'Brien b Rankin",
+                    "dismissal": "c (wk)NJ O'Brien b Rankin",
                     "runs": "18",
                     "balls": "24",
                     "minutes": "30",
@@ -61,7 +61,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "lbw b McBrine",
                     "runs": "25",
                     "balls": "41",
@@ -82,7 +82,7 @@
                 },
                 {
                     "batsman": "Craig Ervine",
-                    "dismissal": "run out (NJ O'Brien)",
+                    "dismissal": "run out ( (wk)NJ O'Brien)",
                     "runs": "20",
                     "balls": "26",
                     "minutes": "45",
@@ -112,7 +112,7 @@
                 },
                 {
                     "batsman": "Tendai Chisoro",
-                    "dismissal": "c NJ O'Brien b Murtagh",
+                    "dismissal": "c (wk)NJ O'Brien b Murtagh",
                     "runs": "21",
                     "balls": "42",
                     "minutes": "48",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Taylor b Jarvis",
+                    "dismissal": "c (wk)Taylor b Jarvis",
                     "runs": "2",
                     "balls": "14",
                     "minutes": "14",
@@ -269,7 +269,7 @@
                 },
                 {
                     "batsman": "Ed Joyce",
-                    "dismissal": "st Taylor b Chisoro",
+                    "dismissal": "st (wk)Taylor b Chisoro",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "5",
@@ -278,7 +278,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Muzarabani b Chisoro",
                     "runs": "8",
                     "balls": "14",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 107 runs"
+    "result": "Zimbabwe won by 107 runs",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tendai Chisoro",
+            "Sikandar Raza",
+            "Brendan Taylor (wk)",
+            "Cephas Zhuwao",
+            "Graeme Cremer(c)",
+            "Kyle Jarvis",
+            "Craig Ervine",
+            "Blessing Muzarabani",
+            "Solomon Mire",
+            "Hamilton Masakadza",
+            "Sean Williams"
+        ],
+        "Ireland": [
+            "William Porterfield(c)",
+            "Ed Joyce",
+            "Gary Wilson",
+            "Niall O'Brien (wk)",
+            "Andy Balbirnie",
+            "Barry McCarthy",
+            "Kevin O'Brien",
+            "Tim Murtagh",
+            "Paul Stirling",
+            "Andy McBrine",
+            "Boyd Rankin"
+        ]
+    }
 }

@@ -51,7 +51,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "lbw b Wood",
                     "runs": "11",
                     "balls": "30",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Nicholas Pooran",
-                    "dismissal": "c Buttler b Archer",
+                    "dismissal": "c (wk)Buttler b Archer",
                     "runs": "63",
                     "balls": "78",
                     "minutes": "116",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Carlos Brathwaite",
-                    "dismissal": "c Buttler b Archer",
+                    "dismissal": "c (wk)Buttler b Archer",
                     "runs": "14",
                     "balls": "22",
                     "minutes": "39",
@@ -292,7 +292,7 @@
                     "strike_rate": "166.66"
                 }
             ],
-            "did_not_bat": "Jason Roy , Eoin Morgan (c) , Jos Buttler , Liam Plunkett , Jofra Archer , Adil Rashid , Mark Wood",
+            "did_not_bat": "Jason Roy , Eoin Morgan (c) , Jos Buttler (wk) , Liam Plunkett , Jofra Archer , Adil Rashid , Mark Wood",
             "fall_of_wickets": "Fall of wickets : 1 - 95 ( Jonny Bairstow , 14.4 ov ) , 2 - 199 ( Chris Woakes , 31.5 ov )",
             "bowling": [
                 {
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "England won by 8 wickets (with 101 balls remaining)"
+    "result": "England won by 8 wickets (with 101 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Oshane Thomas",
+            "Evin Lewis",
+            "Carlos Brathwaite",
+            "Chris Gayle",
+            "Sheldon Cottrell",
+            "Shannon Gabriel",
+            "Andre Russell",
+            "Shai Hope (wk)",
+            "Jason Holder(c)",
+            "Nicholas Pooran",
+            "Shimron Hetmyer"
+        ],
+        "England": [
+            "Jason Roy",
+            "Adil Rashid",
+            "Chris Woakes",
+            "Joe Root",
+            "Eoin Morgan (c)",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Ben Stokes",
+            "Mark Wood",
+            "Jofra Archer"
+        ]
+    }
 }

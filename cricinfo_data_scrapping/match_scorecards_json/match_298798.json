@@ -40,7 +40,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Gibbs b Steyn",
                     "runs": "0",
                     "balls": "5",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c McCullum b Vincent",
+                    "dismissal": "c (wk)McCullum b Vincent",
                     "runs": "30",
                     "balls": "49",
                     "minutes": "71",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c McCullum b Vettori",
+                    "dismissal": "c (wk)McCullum b Vettori",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "5",
@@ -277,7 +277,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "not out",
                     "runs": "26",
                     "balls": "25",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 28 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 28 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Jamie How",
+            "Mathew Sinclair",
+            "Mark Gillespie",
+            "Jeetan Patel",
+            "Kyle Mills",
+            "Scott Styris",
+            "Ross Taylor",
+            "Jacob Oram",
+            "Daniel Vettori(c)",
+            "Lou Vincent"
+        ],
+        "South Africa": [
+            "Dale Steyn",
+            "Charl Langeveldt",
+            "Andre Nel",
+            "Herschelle Gibbs",
+            "Jacques Kallis",
+            "AB de Villiers",
+            "Shaun Pollock",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Johan Botha",
+            "Graeme Smith(c)"
+        ]
+    }
 }

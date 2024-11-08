@@ -72,7 +72,7 @@
                     "strike_rate": "70.00"
                 },
                 {
-                    "batsman": "Rahul Dravid",
+                    "batsman": "Rahul Dravid (wk)",
                     "dismissal": "not out",
                     "runs": "50",
                     "balls": "22",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "c Dravid b Kumble",
+                    "dismissal": "c (wk)Dravid b Kumble",
                     "runs": "20",
                     "balls": "36",
                     "minutes": "43",
@@ -274,7 +274,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "st Dravid b Kartik",
+                    "dismissal": "st (wk)Dravid b Kartik",
                     "runs": "11",
                     "balls": "16",
                     "minutes": "12",
@@ -283,7 +283,7 @@
                     "strike_rate": "68.75"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "lbw b Khan",
                     "runs": "31",
                     "balls": "69",
@@ -413,5 +413,33 @@
             ]
         }
     ],
-    "result": "India won by 145 runs"
+    "result": "India won by 145 runs",
+    "playing_xi": {
+        "India": [
+            "Sachin Tendulkar",
+            "VVS Laxman",
+            "Mohammad Kaif",
+            "Murali Kartik",
+            "Ajit Agarkar",
+            "Yuvraj Singh",
+            "Anil Kumble",
+            "Zaheer Khan",
+            "Virender Sehwag",
+            "Rahul Dravid (wk)",
+            "Sourav Ganguly(c)"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Chris Nevin",
+            "Craig McMillan",
+            "Jacob Oram",
+            "Chris Cairns(c)",
+            "Kyle Mills",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Lou Vincent",
+            "Chris Harris",
+            "Scott Styris"
+        ]
+    }
 }

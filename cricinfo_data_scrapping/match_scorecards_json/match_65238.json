@@ -32,7 +32,7 @@
             "extras": "31",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Waqar Younis b Wasim Akram",
                     "runs": "1",
                     "balls": "3",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Jimmy Maher",
-                    "dismissal": "c Rashid Latif b Waqar Younis",
+                    "dismissal": "c (wk)Rashid Latif b Waqar Younis",
                     "runs": "9",
                     "balls": "19",
                     "minutes": "26",
@@ -93,7 +93,7 @@
                 },
                 {
                     "batsman": "Brad Hogg",
-                    "dismissal": "run out (Younis Khan/Rashid Latif)",
+                    "dismissal": "run out (Younis Khan/ (wk)Rashid Latif)",
                     "runs": "14",
                     "balls": "22",
                     "minutes": "32",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "16",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "16",
@@ -299,7 +299,7 @@
                     "strike_rate": "75.75"
                 },
                 {
-                    "batsman": "Rashid Latif",
+                    "batsman": "Rashid Latif (wk)",
                     "dismissal": "b Hogg",
                     "runs": "33",
                     "balls": "23",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Australia won by 82 runs"
+    "result": "Australia won by 82 runs",
+    "playing_xi": {
+        "Australia": [
+            "Jimmy Maher",
+            "Damien Martyn",
+            "Ian Harvey",
+            "Ricky Ponting(c)",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Matthew Hayden",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Jason Gillespie"
+        ],
+        "Pakistan": [
+            "Wasim Akram",
+            "Taufeeq Umar",
+            "Shahid Afridi",
+            "Inzamam-ul-Haq",
+            "Shoaib Akhtar",
+            "Saleem Elahi",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Waqar Younis(c)",
+            "Younis Khan",
+            "Rashid Latif (wk)"
+        ]
+    }
 }

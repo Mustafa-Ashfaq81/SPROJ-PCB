@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "5",
                     "balls": "12",
                     "minutes": "12",
@@ -63,7 +63,7 @@
                     "strike_rate": "37.50"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "b Lewis",
                     "runs": "32",
                     "balls": "46",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya(c)",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "4",
                     "balls": "14",
                     "minutes": "19",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Brenton Parchment",
-                    "dismissal": "c Taibu b Chigumbura",
+                    "dismissal": "c (wk)Taibu b Chigumbura",
                     "runs": "15",
                     "balls": "23",
                     "minutes": "-",
@@ -267,7 +267,7 @@
                 },
                 {
                     "batsman": "Marlon Samuels",
-                    "dismissal": "st Taibu b Utseya",
+                    "dismissal": "st (wk)Taibu b Utseya",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "-",
@@ -286,7 +286,7 @@
                     "strike_rate": "187.50"
                 }
             ],
-            "did_not_bat": "Rawl Lewis , Daren Powell , Denesh Ramdin , Ravi Rampaul , Jerome Taylor",
+            "did_not_bat": "Rawl Lewis , Daren Powell , Denesh Ramdin (wk) , Ravi Rampaul , Jerome Taylor",
             "fall_of_wickets": "Fall of wickets : 1 - 21 ( Devon Smith , 4.1 ov ) , 2 - 35 ( Brenton Parchment , 6.1 ov ) , 3 - 77 ( Runako Morton , 17.5 ov ) , 4 - 82 ( Marlon Samuels , 19.2 ov )",
             "bowling": [
                 {
@@ -348,5 +348,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 6 wickets (with 133 balls remaining)"
+    "result": "West Indies won by 6 wickets (with 133 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Vusi Sibanda",
+            "Prosper Utseya(c)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Chamu Chibhabha",
+            "Brendan Taylor",
+            "Keith Dabengwa",
+            "Gary Brent",
+            "Stuart Matsikenyeri",
+            "Ray Price",
+            "Tatenda Taibu (wk)"
+        ],
+        "West Indies": [
+            "Denesh Ramdin (wk)",
+            "Daren Powell",
+            "Jerome Taylor",
+            "Devon Smith",
+            "Ravi Rampaul",
+            "Shivnarine Chanderpaul",
+            "Runako Morton",
+            "Marlon Samuels",
+            "Rawl Lewis",
+            "Dwayne Bravo(c)",
+            "Brenton Parchment"
+        ]
+    }
 }

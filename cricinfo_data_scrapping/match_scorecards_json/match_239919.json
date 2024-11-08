@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Brian Lara(c)",
-                    "dismissal": "run out (Agarkar/Dhoni)",
+                    "dismissal": "run out (Agarkar/ (wk)Dhoni)",
                     "runs": "36",
                     "balls": "63",
                     "minutes": "-",
@@ -100,7 +100,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "not out",
                     "runs": "1",
                     "balls": "1",
@@ -194,7 +194,7 @@
             "batting": [
                 {
                     "batsman": "Robin Uthappa",
-                    "dismissal": "c Ramdin b Hinds",
+                    "dismissal": "c (wk)Ramdin b Hinds",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "-",
@@ -213,7 +213,7 @@
                     "strike_rate": "92.23"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "b Hinds",
                     "runs": "14",
                     "balls": "19",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Ramdin b Taylor",
+                    "dismissal": "c (wk)Ramdin b Taylor",
                     "runs": "2",
                     "balls": "14",
                     "minutes": "-",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 19 runs"
+    "result": "West Indies won by 19 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Sewnarine Chattergoon",
+            "Dwayne Smith",
+            "Jerome Taylor",
+            "Dwayne Bravo",
+            "Denesh Ramdin (wk)",
+            "Dave Mohammed",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Corey Collymore",
+            "Wavell Hinds"
+        ],
+        "India": [
+            "Mohammad Kaif",
+            "Robin Uthappa",
+            "Ajit Agarkar",
+            "Munaf Patel",
+            "Yuvraj Singh",
+            "MS Dhoni (wk)",
+            "Rahul Dravid(c)",
+            "Virender Sehwag",
+            "Sreesanth",
+            "Suresh Raina",
+            "Harbhajan Singh"
+        ]
+    }
 }

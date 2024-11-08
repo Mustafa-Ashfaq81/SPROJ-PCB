@@ -87,7 +87,7 @@
                 },
                 {
                     "batsman": "Luuk van Troost",
-                    "dismissal": "c Rashid Latif b Shahid Afridi",
+                    "dismissal": "c (wk)Rashid Latif b Shahid Afridi",
                     "runs": "16",
                     "balls": "59",
                     "minutes": "81",
@@ -96,8 +96,8 @@
                     "strike_rate": "27.11"
                 },
                 {
-                    "batsman": "Reinout Scholte",
-                    "dismissal": "st Rashid Latif b Shoaib Malik",
+                    "batsman": "Reinout Scholte (wk)",
+                    "dismissal": "st (wk)Rashid Latif b Shoaib Malik",
                     "runs": "11",
                     "balls": "42",
                     "minutes": "69",
@@ -273,7 +273,7 @@
                     "strike_rate": "305.55"
                 }
             ],
-            "did_not_bat": "Shoaib Malik , Younis Khan , Misbah-ul-Haq , Abdul Razzaq , Rashid Latif , Waqar Younis (c) , Shoaib Akhtar , Mohammad Sami",
+            "did_not_bat": "Shoaib Malik , Younis Khan , Misbah-ul-Haq , Abdul Razzaq , Rashid Latif (wk) , Waqar Younis (c) , Shoaib Akhtar , Mohammad Sami",
             "fall_of_wickets": "Fall of wickets : 1 - 85 ( Imran Nazir , 11.3 ov )",
             "bowling": [
                 {
@@ -363,5 +363,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 9 wickets (with 202 balls remaining)"
+    "result": "Pakistan won by 9 wickets (with 202 balls remaining)",
+    "playing_xi": {
+        "Netherlands": [
+            "Feiko Kloppenburg",
+            "Bas Zuiderent",
+            "Henk-Jan Mol",
+            "Adeel Raja",
+            "Roland Lefebvre(c)",
+            "Tim de Leede",
+            "Edgar Schiferli",
+            "Reinout Scholte (wk)",
+            "Jacob-Jan Esmeijer",
+            "Daan van Bunge",
+            "Luuk van Troost"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Saeed Anwar",
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Waqar Younis (c)",
+            "Mohammad Sami",
+            "Misbah-ul-Haq",
+            "Rashid Latif (wk)",
+            "Shahid Afridi",
+            "Imran Nazir"
+        ]
+    }
 }

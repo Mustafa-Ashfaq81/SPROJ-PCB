@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Kusal Perera",
-                    "dismissal": "c Saha b Yadav",
+                    "dismissal": "c (wk)Saha b Yadav",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "-",
@@ -50,7 +50,7 @@
                     "strike_rate": "66.25"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Ashwin b Yadav",
                     "runs": "0",
                     "balls": "1",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "st Saha b Ashwin",
+                    "dismissal": "st (wk)Saha b Ashwin",
                     "runs": "118",
                     "balls": "124",
                     "minutes": "-",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "91",
                     "balls": "79",
                     "minutes": "-",
@@ -272,7 +272,7 @@
                 },
                 {
                     "batsman": "Ambati Rayudu",
-                    "dismissal": "run out (Mathews/Sangakkara)",
+                    "dismissal": "run out (Mathews/ (wk)Sangakkara)",
                     "runs": "35",
                     "balls": "46",
                     "minutes": "-",
@@ -301,7 +301,7 @@
                     "strike_rate": "78.26"
                 },
                 {
-                    "batsman": "Wriddhiman Saha",
+                    "batsman": "Wriddhiman Saha (wk)",
                     "dismissal": "not out",
                     "runs": "6",
                     "balls": "10",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 35 balls remaining)"
+    "result": "India won by 6 wickets (with 35 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Ashan Priyanjan",
+            "Chaturanga de Silva",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Seekkuge Prasanna",
+            "Thisara Perera",
+            "Nuwan Kulasekara",
+            "Lahiru Gamage",
+            "Angelo Mathews(c)",
+            "Kusal Perera"
+        ],
+        "India": [
+            "Ajinkya Rahane",
+            "Virat Kohli(c)",
+            "Ishant Sharma",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Umesh Yadav",
+            "Axar Patel",
+            "Wriddhiman Saha (wk)",
+            "Ambati Rayudu",
+            "Shikhar Dhawan",
+            "Dhawal Kulkarni"
+        ]
+    }
 }

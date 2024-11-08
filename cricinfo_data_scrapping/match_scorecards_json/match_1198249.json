@@ -42,7 +42,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Jonny Bairstow",
+                    "batsman": "Jonny Bairstow (wk)",
                     "dismissal": "b Adair",
                     "runs": "4",
                     "balls": "7",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "James Vince",
-                    "dismissal": "c Tucker b Young",
+                    "dismissal": "c (wk)Tucker b Young",
                     "runs": "16",
                     "balls": "18",
                     "minutes": "32",
@@ -123,7 +123,7 @@
                 },
                 {
                     "batsman": "Adil Rashid",
-                    "dismissal": "run out (Tucker)",
+                    "dismissal": "run out ( (wk)Tucker)",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "10",
@@ -289,7 +289,7 @@
                     "strike_rate": "140.00"
                 }
             ],
-            "did_not_bat": "Lorcan Tucker , Curtis Campher , Mark Adair , Andy McBrine , Craig Young , Josh Little",
+            "did_not_bat": "Lorcan Tucker (wk) , Curtis Campher , Mark Adair , Andy McBrine , Craig Young , Josh Little",
             "fall_of_wickets": "Fall of wickets : 1 - 50 ( Gareth Delany , 8.6 ov ) , 2 - 264 ( Paul Stirling , 41.4 ov ) , 3 - 279 ( Andy Balbirnie , 44.3 ov )",
             "bowling": [
                 {
@@ -379,5 +379,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 7 wickets (with 1 ball remaining)"
+    "result": "Ireland won by 7 wickets (with 1 ball remaining)",
+    "playing_xi": {
+        "England": [
+            "James Vince",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Jason Roy",
+            "Saqib Mahmood",
+            "Jonny Bairstow (wk)",
+            "Tom Curran",
+            "Adil Rashid",
+            "David Willey",
+            "Sam Billings",
+            "Tom Banton"
+        ],
+        "Ireland": [
+            "Harry Tector",
+            "Mark Adair",
+            "Craig Young",
+            "Curtis Campher",
+            "Andy Balbirnie(c)",
+            "Gareth Delany",
+            "Lorcan Tucker (wk)",
+            "Paul Stirling",
+            "Andy McBrine",
+            "Josh Little",
+            "Kevin O'Brien"
+        ]
+    }
 }

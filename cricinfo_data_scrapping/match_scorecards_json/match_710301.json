@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Umar Akmal b Umar Gul",
+                    "dismissal": "c (wk)Umar Akmal b Umar Gul",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "29",
@@ -84,7 +84,7 @@
                     "strike_rate": "93.54"
                 },
                 {
-                    "batsman": "Dinesh Karthik",
+                    "batsman": "Dinesh Karthik (wk)",
                     "dismissal": "c Saeed Ajmal b Mohammad Hafeez",
                     "runs": "23",
                     "balls": "46",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "st Umar Akmal b Saeed Ajmal",
+                    "dismissal": "st (wk)Umar Akmal b Saeed Ajmal",
                     "runs": "9",
                     "balls": "7",
                     "minutes": "9",
@@ -271,7 +271,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c Jadeja b Mishra",
                     "runs": "4",
                     "balls": "17",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Sohaib Maqsood",
-                    "dismissal": "run out (Karthik/Ashwin)",
+                    "dismissal": "run out ( (wk)Karthik/Ashwin)",
                     "runs": "38",
                     "balls": "53",
                     "minutes": "91",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 1 wicket (with 2 balls remaining)"
+    "result": "Pakistan won by 1 wicket (with 2 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "Ravindra Jadeja",
+            "Mohammed Shami",
+            "Amit Mishra",
+            "Ajinkya Rahane",
+            "Bhuvneshwar Kumar",
+            "Ambati Rayudu",
+            "Virat Kohli(c)",
+            "Ravichandran Ashwin",
+            "Dinesh Karthik (wk)"
+        ],
+        "Pakistan": [
+            "Umar Akmal (wk)",
+            "Shahid Afridi",
+            "Mohammad Talha",
+            "Saeed Ajmal",
+            "Sohaib Maqsood",
+            "Umar Gul",
+            "Mohammad Hafeez",
+            "Misbah-ul-Haq(c)",
+            "Ahmed Shehzad",
+            "Junaid Khan",
+            "Sharjeel Khan"
+        ]
+    }
 }

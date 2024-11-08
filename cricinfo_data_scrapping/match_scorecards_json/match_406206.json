@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c Haddin b Harris",
+                    "dismissal": "c (wk)Haddin b Harris",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "3",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Younis Khan",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "3",
                     "balls": "22",
                     "minutes": "34",
@@ -100,7 +100,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c White b Johnson",
                     "runs": "6",
                     "balls": "13",
@@ -233,7 +233,7 @@
                     "strike_rate": "67.56"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Shoaib Malik b Naved-ul-Hasan",
                     "runs": "7",
                     "balls": "13",
@@ -294,7 +294,7 @@
                 },
                 {
                     "batsman": "Mitchell Johnson",
-                    "dismissal": "c Sarfaraz Ahmed b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Naved-ul-Hasan",
                     "runs": "13",
                     "balls": "19",
                     "minutes": "26",
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "Australia won by 2 wickets (with 4 balls remaining)"
+    "result": "Australia won by 2 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Fawad Alam",
+            "Shahid Afridi(c)",
+            "Iftikhar Anjum",
+            "Shoaib Malik",
+            "Sarfaraz Ahmed (wk)",
+            "Khalid Latif",
+            "Naved-ul-Hasan",
+            "Umar Akmal",
+            "Salman Butt",
+            "Mohammad Asif"
+        ],
+        "Australia": [
+            "Cameron White",
+            "Adam Voges",
+            "Shaun Marsh",
+            "Ricky Ponting(c)",
+            "Ryan Harris",
+            "Brad Haddin (wk)",
+            "Clint McKay",
+            "Mitchell Johnson",
+            "Nathan Hauritz",
+            "James Hopes",
+            "Michael Hussey"
+        ]
+    }
 }

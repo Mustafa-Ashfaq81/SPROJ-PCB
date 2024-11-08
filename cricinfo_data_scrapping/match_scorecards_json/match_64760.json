@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "71",
                     "balls": "101",
                     "minutes": "150",
@@ -90,8 +90,8 @@
                     "strike_rate": "83.33"
                 },
                 {
-                    "batsman": "Mark Boucher",
-                    "dismissal": "c Gilchrist b Gillespie",
+                    "batsman": "Mark Boucher (wk)",
+                    "dismissal": "c (wk)Gilchrist b Gillespie",
                     "runs": "5",
                     "balls": "3",
                     "minutes": "7",
@@ -217,8 +217,8 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
-                    "dismissal": "c Boucher b Ntini",
+                    "batsman": "Adam Gilchrist (wk)",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "16",
                     "balls": "24",
                     "minutes": "31",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "run out (Boje/Klusener/Boucher)",
+                    "dismissal": "run out (Boje/Klusener/ (wk)Boucher)",
                     "runs": "3",
                     "balls": "11",
                     "minutes": "12",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Darren Lehmann",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "33",
                     "balls": "33",
                     "minutes": "39",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "8",
                     "balls": "14",
                     "minutes": "15",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Brett Lee",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "8",
                     "balls": "9",
                     "minutes": "14",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Match tied"
+    "result": "Match tied",
+    "playing_xi": {
+        "South Africa": [
+            "Jacques Kallis",
+            "Nicky Boje",
+            "Boeta Dippenaar",
+            "Herschelle Gibbs",
+            "Neil McKenzie",
+            "Andrew Hall",
+            "Shaun Pollock(c)",
+            "Jonty Rhodes",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)",
+            "Lance Klusener"
+        ],
+        "Australia": [
+            "Nathan Hauritz",
+            "Jimmy Maher",
+            "Adam Gilchrist (wk)",
+            "Matthew Hayden",
+            "Brett Lee",
+            "Damien Martyn",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Shane Watson",
+            "Darren Lehmann",
+            "Jason Gillespie"
+        ]
+    }
 }

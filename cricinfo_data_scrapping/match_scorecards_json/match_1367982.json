@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Aqib Ilyas",
-                    "dismissal": "c Liyanage b Muhammad Murad",
+                    "dismissal": "c (wk)Liyanage b Muhammad Murad",
                     "runs": "17",
                     "balls": "22",
                     "minutes": "-",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Zeeshan Maqsood(c)",
-                    "dismissal": "c Liyanage b Amir Farooq",
+                    "dismissal": "c (wk)Liyanage b Amir Farooq",
                     "runs": "41",
                     "balls": "71",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mohammad Nadeem",
-                    "dismissal": "c Liyanage b Ikramullah Khan",
+                    "dismissal": "c (wk)Liyanage b Ikramullah Khan",
                     "runs": "18",
                     "balls": "38",
                     "minutes": "-",
@@ -80,8 +80,8 @@
                     "strike_rate": "47.36"
                 },
                 {
-                    "batsman": "Adeel Shafique",
-                    "dismissal": "c Liyanage b Ikramullah Khan",
+                    "batsman": "Adeel Shafique (wk)",
+                    "dismissal": "c (wk)Liyanage b Ikramullah Khan",
                     "runs": "16",
                     "balls": "20",
                     "minutes": "-",
@@ -247,7 +247,7 @@
                     "strike_rate": "81.81"
                 },
                 {
-                    "batsman": "Imal Liyanage",
+                    "batsman": "Imal Liyanage (wk)",
                     "dismissal": "b Jay Odedra",
                     "runs": "27",
                     "balls": "39",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Oman won by 40 runs"
+    "result": "Oman won by 40 runs",
+    "playing_xi": {
+        "Oman": [
+            "Zeeshan Maqsood(c)",
+            "Bilal Khan",
+            "Jay Odedra",
+            "Kashyap Prajapati",
+            "Sandeep Goud",
+            "Jatinder Singh",
+            "Mohammad Nadeem",
+            "Ayaan Khan",
+            "Adeel Shafique (wk)",
+            "Kaleemullah",
+            "Aqib Ilyas"
+        ],
+        "Qatar": [
+            "Imal Liyanage (wk)",
+            "Mohammed Nadeem",
+            "Mohammed Rizlan(c)",
+            "Zaheer Ibrahim",
+            "Khurram Shahzad",
+            "Ikramullah Khan",
+            "Kamran Khan",
+            "Muhammad Tanveer",
+            "Owais Ahmed",
+            "Muhammad Murad",
+            "Amir Farooq"
+        ]
+    }
 }

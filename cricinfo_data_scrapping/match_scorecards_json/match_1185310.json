@@ -46,7 +46,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Jonny Bairstow",
+                    "batsman": "Jonny Bairstow (wk)",
                     "dismissal": "c Sipamla b Phehlukwayo",
                     "runs": "19",
                     "balls": "25",
@@ -233,7 +233,7 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock(c)",
+                    "batsman": "Quinton de Kock(c) (wk)",
                     "dismissal": "b Root",
                     "runs": "107",
                     "balls": "113",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Reeza Hendricks",
-                    "dismissal": "c Bairstow b Woakes",
+                    "dismissal": "c (wk)Bairstow b Woakes",
                     "runs": "6",
                     "balls": "14",
                     "minutes": "29",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 14 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 14 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Chris Woakes",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Matt Parkinson",
+            "Joe Denly",
+            "Sam Curran",
+            "Tom Curran",
+            "Jonny Bairstow (wk)",
+            "Jason Roy",
+            "Tom Banton",
+            "Chris Jordan"
+        ],
+        "South Africa": [
+            "Andile Phehlukwayo",
+            "Beuran Hendricks",
+            "Rassie van der Dussen",
+            "Lutho Sipamla",
+            "Tabraiz Shamsi",
+            "Lungi Ngidi",
+            "Quinton de Kock(c) (wk)",
+            "JJ Smuts",
+            "David Miller",
+            "Reeza Hendricks",
+            "Temba Bavuma"
+        ]
+    }
 }

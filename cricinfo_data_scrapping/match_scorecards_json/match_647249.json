@@ -90,7 +90,7 @@
                     "strike_rate": "134.78"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "lbw b Ashwin",
                     "runs": "10",
                     "balls": "14",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Haddin b Faulkner",
+                    "dismissal": "c (wk)Haddin b Faulkner",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "29",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Rohit Sharma",
-                    "dismissal": "c Hughes b Watson",
+                    "dismissal": "c (wk)Hughes b Watson",
                     "runs": "42",
                     "balls": "47",
                     "minutes": "62",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Hughes b Johnson",
+                    "dismissal": "c (wk)Hughes b Johnson",
                     "runs": "7",
                     "balls": "7",
                     "minutes": "8",
@@ -291,7 +291,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "b McKay",
                     "runs": "19",
                     "balls": "22",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "Australia won by 72 runs"
+    "result": "Australia won by 72 runs",
+    "playing_xi": {
+        "Australia": [
+            "George Bailey(c)",
+            "Adam Voges",
+            "Xavier Doherty",
+            "Mitchell Johnson",
+            "Clint McKay",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shane Watson",
+            "Phillip Hughes",
+            "Aaron Finch"
+        ],
+        "India": [
+            "Ishant Sharma",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Vinay Kumar",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "Ravichandran Ashwin"
+        ]
+    }
 }

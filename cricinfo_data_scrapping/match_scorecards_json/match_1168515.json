@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Mohammad Shahzad b Dawlat Zadran",
+                    "dismissal": "c (wk)Mohammad Shahzad b Dawlat Zadran",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "18",
@@ -78,7 +78,7 @@
                     "strike_rate": "72.72"
                 },
                 {
-                    "batsman": "Gary Wilson",
+                    "batsman": "Gary Wilson (wk)",
                     "dismissal": "run out (Rahmat Shah)",
                     "runs": "10",
                     "balls": "12",
@@ -235,7 +235,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Murtagh",
                     "runs": "2",
                     "balls": "14",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Hashmatullah Shahidi",
-                    "dismissal": "c Wilson b Adair",
+                    "dismissal": "c (wk)Wilson b Adair",
                     "runs": "12",
                     "balls": "31",
                     "minutes": "28",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c Wilson b O'Brien",
+                    "dismissal": "c (wk)Wilson b O'Brien",
                     "runs": "27",
                     "balls": "25",
                     "minutes": "41",
@@ -316,7 +316,7 @@
                 },
                 {
                     "batsman": "Dawlat Zadran",
-                    "dismissal": "c Wilson b Rankin",
+                    "dismissal": "c (wk)Wilson b Rankin",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 72 runs"
+    "result": "Ireland won by 72 runs",
+    "playing_xi": {
+        "Ireland": [
+            "Andy Balbirnie",
+            "Boyd Rankin",
+            "Tim Murtagh",
+            "Andy McBrine",
+            "William Porterfield(c)",
+            "James McCollum",
+            "Mark Adair",
+            "Gary Wilson (wk)",
+            "Paul Stirling",
+            "George Dockrell",
+            "Kevin O'Brien"
+        ],
+        "Afghanistan": [
+            "Hazratullah Zazai",
+            "Asghar Afghan",
+            "Aftab Alam",
+            "Dawlat Zadran",
+            "Mujeeb Ur Rahman",
+            "Hashmatullah Shahidi",
+            "Rahmat Shah",
+            "Mohammad Nabi",
+            "Rashid Khan",
+            "Gulbadin Naib(c)",
+            "Mohammad Shahzad (wk)"
+        ]
+    }
 }

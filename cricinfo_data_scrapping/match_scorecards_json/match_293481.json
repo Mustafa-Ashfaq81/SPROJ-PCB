@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Mushfiqur Rahim b Farhad Reza",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Farhad Reza",
                     "runs": "57",
                     "balls": "104",
                     "minutes": "164",
@@ -50,8 +50,8 @@
                     "strike_rate": "91.30"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
-                    "dismissal": "c Mushfiqur Rahim b Mashrafe Mortaza",
+                    "batsman": "Kumar Sangakkara (wk)",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mashrafe Mortaza",
                     "runs": "16",
                     "balls": "19",
                     "minutes": "22",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -267,7 +267,7 @@
                     "strike_rate": "57.14"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Tharanga b Bandara",
                     "runs": "28",
                     "balls": "49",
@@ -298,7 +298,7 @@
                 },
                 {
                     "batsman": "Abdur Razzak",
-                    "dismissal": "run out (Dilshan/Sangakkara)",
+                    "dismissal": "run out (Dilshan/ (wk)Sangakkara)",
                     "runs": "28",
                     "balls": "27",
                     "minutes": "27",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 70 runs"
+    "result": "Sri Lanka won by 70 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Malinga Bandara",
+            "Tillakaratne Dilshan",
+            "Jehan Mubarak",
+            "Sanath Jayasuriya",
+            "Lasith Malinga",
+            "Dilhara Fernando",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Chamara Silva"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mashrafe Mortaza",
+            "Mushfiqur Rahim (wk)",
+            "Abdur Razzak",
+            "Syed Rasel",
+            "Farhad Reza",
+            "Mohammad Ashraful(c)",
+            "Shahriar Nafees",
+            "Aftab Ahmed",
+            "Shakib Al Hasan",
+            "Tushar Imran"
+        ]
+    }
 }

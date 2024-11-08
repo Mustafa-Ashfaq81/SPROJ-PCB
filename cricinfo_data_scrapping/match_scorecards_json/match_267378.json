@@ -50,8 +50,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Ashish Bagai",
-                    "dismissal": "c Smits b ten Doeschate",
+                    "batsman": "Ashish Bagai (wk)",
+                    "dismissal": "c (wk)Smits b ten Doeschate",
                     "runs": "74",
                     "balls": "117",
                     "minutes": "160",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Ashif Mulla",
-                    "dismissal": "c Smits b de Leede",
+                    "dismissal": "c (wk)Smits b de Leede",
                     "runs": "37",
                     "balls": "62",
                     "minutes": "72",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Umar Bhatti",
-                    "dismissal": "c Smits b ten Doeschate",
+                    "dismissal": "c (wk)Smits b ten Doeschate",
                     "runs": "3",
                     "balls": "8",
                     "minutes": "10",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Kevin Sandher",
-                    "dismissal": "c Smits b ten Doeschate",
+                    "dismissal": "c (wk)Smits b ten Doeschate",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Darron Reekers",
-                    "dismissal": "c Bagai b Osinde",
+                    "dismissal": "c (wk)Bagai b Osinde",
                     "runs": "39",
                     "balls": "29",
                     "minutes": "42",
@@ -277,7 +277,7 @@
                     "strike_rate": "97.36"
                 }
             ],
-            "did_not_bat": "Daan van Bunge , Alexei Kervezee , Tim de Leede , Adeel Raja , Edgar Schiferli , Jeroen Smits , Billy Stelling",
+            "did_not_bat": "Daan van Bunge , Alexei Kervezee , Tim de Leede , Adeel Raja , Edgar Schiferli , Jeroen Smits (wk) , Billy Stelling",
             "fall_of_wickets": "Fall of wickets : 1 - 59 ( Darron Reekers , 9.3 ov ) , 2 - 131 ( Luuk van Troost )",
             "bowling": [
                 {
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 8 wickets (with 90 balls remaining)"
+    "result": "Netherlands won by 8 wickets (with 90 balls remaining)",
+    "playing_xi": {
+        "Canada": [
+            "Anderson Cummins",
+            "Abdool Samad",
+            "Sunil Dhaniram",
+            "Ashif Mulla",
+            "Desmond Chumney",
+            "Ashish Bagai (wk)",
+            "Qaiser Ali",
+            "John Davison(c)",
+            "Kevin Sandher",
+            "Henry Osinde",
+            "Umar Bhatti"
+        ],
+        "Netherlands": [
+            "Ryan ten Doeschate",
+            "Billy Stelling",
+            "Luuk van Troost(c)",
+            "Tim de Leede",
+            "Daan van Bunge",
+            "Adeel Raja",
+            "Darron Reekers",
+            "Edgar Schiferli",
+            "Bas Zuiderent",
+            "Alexei Kervezee",
+            "Jeroen Smits (wk)"
+        ]
+    }
 }

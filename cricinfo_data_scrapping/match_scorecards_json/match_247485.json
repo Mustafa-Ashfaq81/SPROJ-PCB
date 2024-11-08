@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan",
-                    "dismissal": "c Gilchrist b Tait",
+                    "dismissal": "c (wk)Gilchrist b Tait",
                     "runs": "25",
                     "balls": "36",
                     "minutes": "50",
@@ -101,7 +101,7 @@
                     "strike_rate": "147.05"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "3",
@@ -208,7 +208,7 @@
             "extras": "0",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "not out",
                     "runs": "59",
                     "balls": "44",
@@ -318,5 +318,33 @@
             ]
         }
     ],
-    "result": "Australia won by 10 wickets (with 49 balls remaining)"
+    "result": "Australia won by 10 wickets (with 49 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Habibul Bashar(c)",
+            "Aftab Ahmed",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Tapash Baisya",
+            "Mohammad Ashraful",
+            "Mashrafe Mortaza",
+            "Shakib Al Hasan",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique"
+        ],
+        "Australia": [
+            "Shane Watson",
+            "Glenn McGrath",
+            "Ricky Ponting (c)",
+            "Brad Hogg",
+            "Shaun Tait",
+            "Adam Gilchrist (wk)",
+            "Nathan Bracken",
+            "Michael Hussey",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds"
+        ]
+    }
 }

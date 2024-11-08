@@ -28,7 +28,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "b Williams",
                     "runs": "3",
                     "balls": "13",
@@ -39,7 +39,7 @@
                 },
                 {
                     "batsman": "Kyle Coetzer(c)",
-                    "dismissal": "st Moor b Cremer",
+                    "dismissal": "st (wk)Moor b Cremer",
                     "runs": "61",
                     "balls": "60",
                     "minutes": "-",
@@ -119,7 +119,7 @@
                 },
                 {
                     "batsman": "Alasdair Evans",
-                    "dismissal": "c Moor b Sikandar Raza",
+                    "dismissal": "c (wk)Moor b Sikandar Raza",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "-",
@@ -236,7 +236,7 @@
             "batting": [
                 {
                     "batsman": "Solomon Mire",
-                    "dismissal": "c Cross b Sole",
+                    "dismissal": "c (wk)Cross b Sole",
                     "runs": "17",
                     "balls": "15",
                     "minutes": "-",
@@ -295,7 +295,7 @@
                     "strike_rate": "69.76"
                 }
             ],
-            "did_not_bat": "Peter Moor , Malcolm Waller , Graeme Cremer (c) , Tendai Chatara , Chris Mpofu",
+            "did_not_bat": "Peter Moor (wk) , Malcolm Waller , Graeme Cremer (c) , Tendai Chatara , Chris Mpofu",
             "fall_of_wickets": "Fall of wickets : 1 - 30 ( Solomon Mire , 4.1 ov ) , 2 - 31 ( Hamilton Masakadza , 6.5 ov ) , 3 - 44 ( Sean Williams , 10.3 ov ) , 4 - 99 ( Craig Ervine , 22.4 ov )",
             "bowling": [
                 {
@@ -399,5 +399,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 6 wickets (with 78 balls remaining)"
+    "result": "Zimbabwe won by 6 wickets (with 78 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Matthew Cross (wk)",
+            "Kyle Coetzer(c)",
+            "Con de Lange",
+            "Calum MacLeod",
+            "Chris Sole",
+            "Michael Leask",
+            "Josh Davey",
+            "Preston Mommsen",
+            "Alasdair Evans",
+            "Richie Berrington",
+            "Craig Wallace"
+        ],
+        "Zimbabwe": [
+            "Sikandar Raza",
+            "Peter Moor (wk)",
+            "Ryan Burl",
+            "Malcolm Waller",
+            "Craig Ervine",
+            "Chris Mpofu",
+            "Hamilton Masakadza",
+            "Solomon Mire",
+            "Tendai Chatara",
+            "Graeme Cremer (c)",
+            "Sean Williams"
+        ]
+    }
 }

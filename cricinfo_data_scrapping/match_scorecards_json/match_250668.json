@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "st Kamran Akmal b Mohammad Hafeez",
+                    "dismissal": "st (wk)Kamran Akmal b Mohammad Hafeez",
                     "runs": "72",
                     "balls": "47",
                     "minutes": "91",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Loots Bosman",
-                    "dismissal": "c Kamran Akmal b Mohammad Hafeez",
+                    "dismissal": "c (wk)Kamran Akmal b Mohammad Hafeez",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "3",
@@ -80,7 +80,7 @@
                     "strike_rate": "81.25"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Inzamam-ul-Haq b Naved-ul-Hasan",
                     "runs": "78",
                     "balls": "38",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Justin Kemp",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "11",
                     "balls": "7",
                     "minutes": "9",
@@ -231,7 +231,7 @@
                     "strike_rate": "123.52"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c Prince b Pollock",
                     "runs": "13",
                     "balls": "15",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Naved-ul-Hasan",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Mohammad Sami",
-                    "dismissal": "c Boucher b Peterson",
+                    "dismissal": "c (wk)Boucher b Peterson",
                     "runs": "46",
                     "balls": "64",
                     "minutes": "76",
@@ -449,5 +449,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 164 runs"
+    "result": "South Africa won by 164 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Andre Nel",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Makhaya Ntini",
+            "Loots Bosman",
+            "Justin Kemp",
+            "Shaun Pollock",
+            "Ashwell Prince",
+            "Robin Peterson"
+        ],
+        "Pakistan": [
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Mohammad Hafeez",
+            "Mohammad Sami",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Mohammad Asif",
+            "Younis Khan",
+            "Abdul Razzaq",
+            "Shahid Afridi"
+        ]
+    }
 }

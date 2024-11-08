@@ -28,7 +28,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Terry b Stirling",
                     "runs": "22",
                     "balls": "35",
@@ -39,7 +39,7 @@
                 },
                 {
                     "batsman": "Noor Ali Zadran",
-                    "dismissal": "c Poynter b Chase",
+                    "dismissal": "c (wk)Poynter b Chase",
                     "runs": "10",
                     "balls": "12",
                     "minutes": "-",
@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Rahmat Shah",
-                    "dismissal": "c Poynter b Chase",
+                    "dismissal": "c (wk)Poynter b Chase",
                     "runs": "48",
                     "balls": "70",
                     "minutes": "-",
@@ -245,7 +245,7 @@
                     "strike_rate": "32.14"
                 },
                 {
-                    "batsman": "Stuart Poynter",
+                    "batsman": "Stuart Poynter (wk)",
                     "dismissal": "c Najibullah Zadran b Rahmat Shah",
                     "runs": "15",
                     "balls": "22",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Mohammad Shahzad b Rashid Khan",
+                    "dismissal": "c (wk)Mohammad Shahzad b Rashid Khan",
                     "runs": "31",
                     "balls": "52",
                     "minutes": "-",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Gary Wilson",
-                    "dismissal": "st Mohammad Shahzad b Rashid Khan",
+                    "dismissal": "st (wk)Mohammad Shahzad b Rashid Khan",
                     "runs": "6",
                     "balls": "13",
                     "minutes": "-",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Andy McBrine",
-                    "dismissal": "st Mohammad Shahzad b Rashid Khan",
+                    "dismissal": "st (wk)Mohammad Shahzad b Rashid Khan",
                     "runs": "1",
                     "balls": "6",
                     "minutes": "-",
@@ -415,5 +415,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 79 runs"
+    "result": "Afghanistan won by 79 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Rashid Khan",
+            "Samiullah Shinwari",
+            "Rahmat Shah",
+            "Mohammad Shahzad (wk)",
+            "Mohammad Nabi",
+            "Mirwais Ashraf",
+            "Yamin Ahmadzai",
+            "Asghar Afghan(c)"
+        ],
+        "Ireland": [
+            "Barry McCarthy",
+            "Stuart Poynter (wk)",
+            "William Porterfield(c)",
+            "Gary Wilson",
+            "Tim Murtagh",
+            "Kevin O'Brien",
+            "Sean Terry",
+            "Andy McBrine",
+            "Paul Stirling",
+            "Peter Chase",
+            "Ed Joyce"
+        ]
+    }
 }

@@ -38,7 +38,7 @@
             "batting": [
                 {
                     "batsman": "Noor Ali Zadran",
-                    "dismissal": "st Patil b Ahmed Raza",
+                    "dismissal": "st (wk)Patil b Ahmed Raza",
                     "runs": "53",
                     "balls": "73",
                     "minutes": "-",
@@ -97,7 +97,7 @@
                     "strike_rate": "135.08"
                 },
                 {
-                    "batsman": "Shafiqullah",
+                    "batsman": "Shafiqullah (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "5",
@@ -248,7 +248,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Swapnil Patil",
+                    "batsman": "Swapnil Patil (wk)",
                     "dismissal": "b Mirwais Ashraf",
                     "runs": "0",
                     "balls": "1",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Fayyaz Ahmed",
-                    "dismissal": "c Shafiqullah b Shapoor Zadran",
+                    "dismissal": "c (wk)Shafiqullah b Shapoor Zadran",
                     "runs": "6",
                     "balls": "6",
                     "minutes": "-",
@@ -432,5 +432,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 70 runs"
+    "result": "Afghanistan won by 70 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Samiullah Shinwari",
+            "Usman Ghani",
+            "Noor Ali Zadran",
+            "Dawlat Zadran",
+            "Mohammad Nabi(c)",
+            "Hashmatullah Shahidi",
+            "Rahmat Shah",
+            "Shafiqullah (wk)",
+            "Mirwais Ashraf",
+            "Shapoor Zadran",
+            "Amir Hamza"
+        ],
+        "United Arab Emirates": [
+            "Khurram Khan(c)",
+            "Fayyaz Ahmed",
+            "Amjad Ali",
+            "Mohammad Naveed",
+            "Mohammad Shahzad",
+            "Krishna Chandran",
+            "Swapnil Patil (wk)",
+            "Salman Faris",
+            "Shaiman Anwar",
+            "Ahmed Raza",
+            "Irfan Sajid"
+        ]
+    }
 }

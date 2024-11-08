@@ -63,7 +63,7 @@
                     "strike_rate": "85.52"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "lbw b Santner",
                     "runs": "41",
                     "balls": "59",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Dhoni b Mishra",
+                    "dismissal": "c (wk)Dhoni b Mishra",
                     "runs": "19",
                     "balls": "32",
                     "minutes": "38",
@@ -260,7 +260,7 @@
                     "strike_rate": "23.07"
                 },
                 {
-                    "batsman": "BJ Watling",
+                    "batsman": "BJ Watling (wk)",
                     "dismissal": "b Mishra",
                     "runs": "0",
                     "balls": "2",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Tim Southee",
-                    "dismissal": "st Dhoni b Mishra",
+                    "dismissal": "st (wk)Dhoni b Mishra",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -396,5 +396,33 @@
             ]
         }
     ],
-    "result": "India won by 190 runs"
+    "result": "India won by 190 runs",
+    "playing_xi": {
+        "India": [
+            "Amit Mishra",
+            "Rohit Sharma",
+            "Manish Pandey",
+            "Kedar Jadhav",
+            "Axar Patel",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Jayant Yadav",
+            "MS Dhoni(c) (wk)",
+            "Jasprit Bumrah",
+            "Umesh Yadav"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Martin Guptill",
+            "Kane Williamson(c)",
+            "Tom Latham",
+            "Corey Anderson",
+            "Ish Sodhi",
+            "Trent Boult",
+            "BJ Watling (wk)",
+            "Ross Taylor",
+            "Tim Southee",
+            "James Neesham"
+        ]
+    }
 }

@@ -50,7 +50,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Mahmudullah b Arafat Sunny",
                     "runs": "128",
                     "balls": "115",
@@ -221,7 +221,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Anamul Haque",
+                    "batsman": "Anamul Haque (wk)",
                     "dismissal": "lbw b NLTC Perera",
                     "runs": "42",
                     "balls": "46",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Mominul Haque",
-                    "dismissal": "c Sangakkara b Senanayake",
+                    "dismissal": "c (wk)Sangakkara b Senanayake",
                     "runs": "15",
                     "balls": "32",
                     "minutes": "47",
@@ -292,7 +292,7 @@
                 },
                 {
                     "batsman": "Sohag Gazi",
-                    "dismissal": "c Sangakkara b NLTC Perera",
+                    "dismissal": "c (wk)Sangakkara b NLTC Perera",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "14",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 61 runs"
+    "result": "Sri Lanka won by 61 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kumar Sangakkara (wk)",
+            "Ajantha Mendis",
+            "Ashan Priyanjan",
+            "Sachithra Senanayake",
+            "Dinesh Chandimal",
+            "Kusal Perera",
+            "Thisara Perera",
+            "Angelo Mathews(c)",
+            "Kithuruwan Vithanage",
+            "Tillakaratne Dilshan",
+            "Lasith Malinga"
+        ],
+        "Bangladesh": [
+            "Nasir Hossain",
+            "Rubel Hossain",
+            "Anamul Haque (wk)",
+            "Sohag Gazi",
+            "Mominul Haque",
+            "Shamsur Rahman",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Mushfiqur Rahim(c)",
+            "Arafat Sunny"
+        ]
+    }
 }

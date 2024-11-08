@@ -30,7 +30,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Cairns",
                     "runs": "68",
                     "balls": "54",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Shane Watson",
-                    "dismissal": "c McCullum b Butler",
+                    "dismissal": "c (wk)McCullum b Butler",
                     "runs": "3",
                     "balls": "7",
                     "minutes": "7",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "c Gilchrist b Kasprowicz",
+                    "dismissal": "c (wk)Gilchrist b Kasprowicz",
                     "runs": "24",
                     "balls": "22",
                     "minutes": "37",
@@ -307,7 +307,7 @@
                     "strike_rate": "127.27"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "not out",
                     "runs": "20",
                     "balls": "13",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 4 wickets (with 2 balls remaining)"
+    "result": "New Zealand won by 4 wickets (with 2 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Matthew Hayden",
+            "Adam Gilchrist (wk)",
+            "Michael Kasprowicz",
+            "Darren Lehmann",
+            "Shane Watson",
+            "Brad Hogg",
+            "Michael Clarke",
+            "Brett Lee",
+            "Damien Martyn",
+            "Andrew Symonds"
+        ],
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Mathew Sinclair",
+            "Chris Cairns",
+            "Stephen Fleming(c)",
+            "Ian Butler",
+            "Kyle Mills",
+            "Hamish Marshall",
+            "Nathan Astle",
+            "Scott Styris",
+            "Jacob Oram",
+            "Daniel Vettori"
+        ]
+    }
 }

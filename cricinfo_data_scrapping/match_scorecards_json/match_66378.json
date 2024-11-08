@@ -37,7 +37,7 @@
             "batting": [
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "c Taibu b Panyangara",
+                    "dismissal": "c (wk)Taibu b Panyangara",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -47,7 +47,7 @@
                 },
                 {
                     "batsman": "Bazid Khan",
-                    "dismissal": "c Taibu b Panyangara",
+                    "dismissal": "c (wk)Taibu b Panyangara",
                     "runs": "12",
                     "balls": "25",
                     "minutes": "-",
@@ -67,7 +67,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Taibu b Hondo",
+                    "dismissal": "c (wk)Taibu b Hondo",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "-",
@@ -96,8 +96,8 @@
                     "strike_rate": "93.85"
                 },
                 {
-                    "batsman": "Moin Khan",
-                    "dismissal": "st Taibu b Taylor",
+                    "batsman": "Moin Khan (wk)",
+                    "dismissal": "st (wk)Taibu b Taylor",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "-",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Vusi Sibanda",
-                    "dismissal": "c Moin Khan b Shoaib Malik",
+                    "dismissal": "c (wk)Moin Khan b Shoaib Malik",
                     "runs": "57",
                     "balls": "69",
                     "minutes": "-",
@@ -287,7 +287,7 @@
                     "strike_rate": "125.00"
                 },
                 {
-                    "batsman": "Tatenda Taibu(c)",
+                    "batsman": "Tatenda Taibu(c) (wk)",
                     "dismissal": "b Shahid Afridi",
                     "runs": "3",
                     "balls": "13",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 144 runs"
+    "result": "Pakistan won by 144 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Naved-ul-Hasan",
+            "Yasir Hameed",
+            "Shahid Afridi",
+            "Mohammad Yousuf",
+            "Moin Khan (wk)",
+            "Bazid Khan",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Iftikhar Anjum",
+            "Shoaib Akhtar"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Tatenda Taibu(c) (wk)",
+            "Brendan Taylor",
+            "Prosper Utseya",
+            "Douglas Hondo",
+            "Elton Chigumbura",
+            "Tinashe Panyangara",
+            "Mluleki Nkala",
+            "Dion Ebrahim",
+            "Mark Vermeulen",
+            "Vusi Sibanda"
+        ]
+    }
 }

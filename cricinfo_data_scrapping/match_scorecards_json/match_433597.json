@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Graeme Smith(c)",
-                    "dismissal": "st Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "45",
                     "balls": "68",
                     "minutes": "86",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Jean-Paul Duminy",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "17",
                     "balls": "22",
                     "minutes": "26",
@@ -81,7 +81,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Morne van Wyk",
+                    "batsman": "Morne van Wyk (wk)",
                     "dismissal": "b Shakib Al Hasan",
                     "runs": "5",
                     "balls": "5",
@@ -229,7 +229,7 @@
             "batting": [
                 {
                     "batsman": "Tamim Iqbal",
-                    "dismissal": "c van Wyk b Tsotsobe",
+                    "dismissal": "c (wk)van Wyk b Tsotsobe",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "13",
@@ -268,7 +268,7 @@
                     "strike_rate": "41.66"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Smith b Peterson",
                     "runs": "3",
                     "balls": "21",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Shakib Al Hasan(c)",
-                    "dismissal": "c van Wyk b Peterson",
+                    "dismissal": "c (wk)van Wyk b Peterson",
                     "runs": "30",
                     "balls": "49",
                     "minutes": "63",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "run out (Botha/van Wyk)",
+                    "dismissal": "run out (Botha/ (wk)van Wyk)",
                     "runs": "5",
                     "balls": "17",
                     "minutes": "26",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 206 runs"
+    "result": "South Africa won by 206 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Wayne Parnell",
+            "Morne van Wyk (wk)",
+            "Graeme Smith(c)",
+            "Hashim Amla",
+            "Imran Tahir",
+            "Jacques Kallis",
+            "Jean-Paul Duminy",
+            "Lonwabo Tsotsobe",
+            "Johan Botha",
+            "Robin Peterson",
+            "Faf du Plessis"
+        ],
+        "Bangladesh": [
+            "Mahmudullah",
+            "Shakib Al Hasan(c)",
+            "Mushfiqur Rahim (wk)",
+            "Tamim Iqbal",
+            "Naeem Islam",
+            "Shafiul Islam",
+            "Imrul Kayes",
+            "Zunaed Siddique",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Rubel Hossain"
+        ]
+    }
 }

@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "run out (Imran Tahir/de Kock)",
+                    "dismissal": "run out (Imran Tahir/ (wk)de Kock)",
                     "runs": "102",
                     "balls": "112",
                     "minutes": "148",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "8",
                     "balls": "16",
                     "minutes": "28",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "c de Kock b Imran Tahir",
+                    "dismissal": "c (wk)de Kock b Imran Tahir",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "22",
@@ -80,8 +80,8 @@
                     "strike_rate": "80.00"
                 },
                 {
-                    "batsman": "Umar Akmal",
-                    "dismissal": "c de Kock b Steyn",
+                    "batsman": "Umar Akmal (wk)",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "42",
                     "balls": "30",
                     "minutes": "57",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Bilawal Bhatti",
-                    "dismissal": "c de Kock b Steyn",
+                    "dismissal": "c (wk)de Kock b Steyn",
                     "runs": "21",
                     "balls": "14",
                     "minutes": "15",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "c Umar Akmal b Junaid Khan",
+                    "dismissal": "c (wk)Umar Akmal b Junaid Khan",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "20",
@@ -257,7 +257,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Misbah-ul-Haq b Shahid Afridi",
                     "runs": "47",
                     "balls": "52",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 1 run"
+    "result": "Pakistan won by 1 run",
+    "playing_xi": {
+        "Pakistan": [
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Bilawal Bhatti",
+            "Ahmed Shehzad",
+            "Nasir Jamshed",
+            "Anwar Ali",
+            "Umar Akmal (wk)",
+            "Misbah-ul-Haq(c)",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Sohaib Maqsood"
+        ],
+        "South Africa": [
+            "Dale Steyn",
+            "Imran Tahir",
+            "Hashim Amla",
+            "Jacques Kallis",
+            "Lonwabo Tsotsobe",
+            "Quinton de Kock (wk)",
+            "Ryan McLaren",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "AB de Villiers(c)",
+            "Graeme Smith"
+        ]
+    }
 }

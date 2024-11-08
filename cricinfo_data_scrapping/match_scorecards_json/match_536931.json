@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Patel b Vinay Kumar",
+                    "dismissal": "c (wk)Patel b Vinay Kumar",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "12",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Danza Hyatt",
-                    "dismissal": "c Patel b Mithun",
+                    "dismissal": "c (wk)Patel b Mithun",
                     "runs": "20",
                     "balls": "39",
                     "minutes": "56",
@@ -73,8 +73,8 @@
                     "strike_rate": "63.41"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
-                    "dismissal": "c Patel b Yadav",
+                    "batsman": "Denesh Ramdin (wk)",
+                    "dismissal": "c (wk)Patel b Yadav",
                     "runs": "38",
                     "balls": "52",
                     "minutes": "59",
@@ -210,7 +210,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Parthiv Patel",
+                    "batsman": "Parthiv Patel (wk)",
                     "dismissal": "b Samuels",
                     "runs": "39",
                     "balls": "35",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag(c)",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "c Ramdin b Rampaul",
+                    "dismissal": "c (wk)Ramdin b Rampaul",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "5",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "run out (Russell/Ramdin)",
+                    "dismissal": "run out (Russell/ (wk)Ramdin)",
                     "runs": "11",
                     "balls": "16",
                     "minutes": "25",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 16 runs"
+    "result": "West Indies won by 16 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Marlon Samuels",
+            "Daren Sammy(c)",
+            "Kieron Pollard",
+            "Ravi Rampaul",
+            "Andre Russell",
+            "Darren Bravo",
+            "Lendl Simmons",
+            "Denesh Ramdin (wk)",
+            "Sunil Narine",
+            "Danza Hyatt",
+            "Kemar Roach"
+        ],
+        "India": [
+            "Virender Sehwag(c)",
+            "Rohit Sharma",
+            "Gautam Gambhir",
+            "Abhimanyu Mithun",
+            "Umesh Yadav",
+            "Virat Kohli",
+            "Parthiv Patel (wk)",
+            "Ravindra Jadeja",
+            "Ravichandran Ashwin",
+            "Vinay Kumar",
+            "Suresh Raina"
+        ]
+    }
 }

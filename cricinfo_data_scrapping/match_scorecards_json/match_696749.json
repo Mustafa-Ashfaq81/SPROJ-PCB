@@ -28,8 +28,8 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Mahesh Chhetri",
-                    "dismissal": "run out (Almuzahim/Selowa)",
+                    "batsman": "Mahesh Chhetri (wk)",
+                    "dismissal": "run out (Almuzahim/ (wk)Selowa)",
                     "runs": "19",
                     "balls": "43",
                     "minutes": "67",
@@ -69,7 +69,7 @@
                 },
                 {
                     "batsman": "Sharad Vesawkar",
-                    "dismissal": "c Selowa b Waiswa",
+                    "dismissal": "c (wk)Selowa b Waiswa",
                     "runs": "41",
                     "balls": "69",
                     "minutes": "92",
@@ -236,7 +236,7 @@
             "batting": [
                 {
                     "batsman": "Brian Masaba",
-                    "dismissal": "c Chhetri b Sompal Kami",
+                    "dismissal": "c (wk)Chhetri b Sompal Kami",
                     "runs": "13",
                     "balls": "25",
                     "minutes": "21",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Hamza Saleh",
-                    "dismissal": "c Chhetri b Sompal Kami",
+                    "dismissal": "c (wk)Chhetri b Sompal Kami",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "8",
@@ -265,7 +265,7 @@
                     "strike_rate": "30.00"
                 },
                 {
-                    "batsman": "Phillimon Selowa",
+                    "batsman": "Phillimon Selowa (wk)",
                     "dismissal": "run out (sub [AK Mandal])",
                     "runs": "9",
                     "balls": "43",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Frank Nsubuga",
-                    "dismissal": "run out (Malla/Chhetri)",
+                    "dismissal": "run out (Malla/ (wk)Chhetri)",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "28",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Deusdedit Muhumuza",
-                    "dismissal": "st Chhetri b Sagar Pun",
+                    "dismissal": "st (wk)Chhetri b Sagar Pun",
                     "runs": "6",
                     "balls": "16",
                     "minutes": "13",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "Nepal won by 160 runs"
+    "result": "Nepal won by 160 runs",
+    "playing_xi": {
+        "Nepal": [
+            "Sharad Vesawkar",
+            "Shakti Gauchan",
+            "Paras Khadka(c)",
+            "Sagar Pun",
+            "Pradeep Airee",
+            "Prithu Baskota",
+            "Mahesh Chhetri (wk)",
+            "Binod Bhandari",
+            "Basant Regmi",
+            "Sompal Kami",
+            "Gyanendra Malla"
+        ],
+        "Uganda": [
+            "Phillimon Selowa (wk)",
+            "Lepono Ndhlovu",
+            "Charles Waiswa",
+            "Frank Nsubuga",
+            "Deusdedit Muhumuza",
+            "Richard Okia",
+            "Hamza Saleh",
+            "Brian Masaba",
+            "Davis Karashani(c)",
+            "Faruk Ochimi",
+            "Patrick Ochan"
+        ]
+    }
 }

@@ -29,7 +29,7 @@
             "batting": [
                 {
                     "batsman": "David Obuya",
-                    "dismissal": "c Smith b Nel",
+                    "dismissal": "c (wk)Smith b Nel",
                     "runs": "13",
                     "balls": "19",
                     "minutes": "24",
@@ -59,7 +59,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo(c)",
-                    "dismissal": "c Smith b Wright",
+                    "dismissal": "c (wk)Smith b Wright",
                     "runs": "2",
                     "balls": "11",
                     "minutes": "9",
@@ -68,7 +68,7 @@
                     "strike_rate": "18.18"
                 },
                 {
-                    "batsman": "Morris Ouma",
+                    "batsman": "Morris Ouma (wk)",
                     "dismissal": "c & b Watson",
                     "runs": "21",
                     "balls": "44",
@@ -79,7 +79,7 @@
                 },
                 {
                     "batsman": "Thomas Odoyo",
-                    "dismissal": "run out (Berrington/Smith)",
+                    "dismissal": "run out (Berrington/ (wk)Smith)",
                     "runs": "45",
                     "balls": "39",
                     "minutes": "44",
@@ -255,7 +255,7 @@
                     "strike_rate": "-"
                 }
             ],
-            "did_not_bat": "Fraser Watts , Neil McCallum , Richie Berrington , John Blain , Gordon Drummond , Dewald Nel , Colin Smith , Craig Wright",
+            "did_not_bat": "Fraser Watts , Neil McCallum , Richie Berrington , John Blain , Gordon Drummond , Dewald Nel , Colin Smith (wk) , Craig Wright",
             "fall_of_wickets": "Fall of wickets : 1 - 31 ( Gavin Hamilton , 8.1 ov )",
             "bowling": [
                 {
@@ -303,5 +303,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "Kenya": [
+            "Kennedy Otieno",
+            "David Obuya",
+            "Jimmy Kamande",
+            "Thomas Odoyo",
+            "Elijah Otieno",
+            "Steve Tikolo(c)",
+            "Tony Suji",
+            "Hiren Varaiya",
+            "Alex Obanda",
+            "Peter Ongondo",
+            "Morris Ouma (wk)"
+        ],
+        "Scotland": [
+            "Ryan Watson(c)",
+            "Craig Wright",
+            "Dewald Nel",
+            "Neil McCallum",
+            "Colin Smith (wk)",
+            "Qasim Sheikh",
+            "Gordon Drummond",
+            "John Blain",
+            "Fraser Watts",
+            "Gavin Hamilton",
+            "Richie Berrington"
+        ]
+    }
 }

@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Usman Ghani",
-                    "dismissal": "c Patil b Guruge",
+                    "dismissal": "c (wk)Patil b Guruge",
                     "runs": "7",
                     "balls": "15",
                     "minutes": "-",
@@ -52,7 +52,7 @@
                     "strike_rate": "104.87"
                 },
                 {
-                    "batsman": "Afsar Zazai",
+                    "batsman": "Afsar Zazai (wk)",
                     "dismissal": "c Mohammad Naveed b Khurram Khan",
                     "runs": "51",
                     "balls": "83",
@@ -73,7 +73,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan",
-                    "dismissal": "run out (Mohammad Shahzad/Patil)",
+                    "dismissal": "run out (Mohammad Shahzad/ (wk)Patil)",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "-",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Andri Berenger",
-                    "dismissal": "c Afsar Zazai b Hamid Hassan",
+                    "dismissal": "c (wk)Afsar Zazai b Hamid Hassan",
                     "runs": "7",
                     "balls": "5",
                     "minutes": "-",
@@ -250,7 +250,7 @@
                 },
                 {
                     "batsman": "Mohammad Shahzad",
-                    "dismissal": "c Afsar Zazai b Dawlat Zadran",
+                    "dismissal": "c (wk)Afsar Zazai b Dawlat Zadran",
                     "runs": "79",
                     "balls": "97",
                     "minutes": "-",
@@ -289,7 +289,7 @@
                     "strike_rate": "75.75"
                 }
             ],
-            "did_not_bat": "Krishna Chandran , Mohammad Naveed , Manjula Guruge , Swapnil Patil , Salman Farooq",
+            "did_not_bat": "Krishna Chandran , Mohammad Naveed , Manjula Guruge , Swapnil Patil (wk) , Salman Farooq",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Andri Berenger , 1.3 ov ) , 2 - 32 ( Amjad Ali , 4.2 ov ) , 3 - 192 ( Mohammad Shahzad , 32.2 ov ) , 4 - 206 ( Shaiman Anwar , 35.4 ov )",
             "bowling": [
                 {
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 6 wickets (with 10 balls remaining)"
+    "result": "U.A.E. won by 6 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Nawroz Mangal",
+            "Asghar Afghan",
+            "Gulbadin Naib",
+            "Sharafuddin Ashraf",
+            "Usman Ghani",
+            "Hamid Hassan",
+            "Afsar Zazai (wk)",
+            "Dawlat Zadran",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Mohammad Nabi(c)"
+        ],
+        "United Arab Emirates": [
+            "Mohammad Naveed",
+            "Swapnil Patil (wk)",
+            "Andri Berenger",
+            "Mohammad Shahzad",
+            "Shaiman Anwar",
+            "Salman Farooq",
+            "Manjula Guruge",
+            "Krishna Chandran",
+            "Amjad Ali",
+            "Khurram Khan(c)",
+            "Saqib Ali"
+        ]
+    }
 }

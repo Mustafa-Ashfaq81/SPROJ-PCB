@@ -63,7 +63,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "c Nortje b Phehlukwayo",
                     "runs": "21",
                     "balls": "42",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Priyamal Perera",
-                    "dismissal": "c de Kock b Nortje",
+                    "dismissal": "c (wk)de Kock b Nortje",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Kamindu Mendis",
-                    "dismissal": "c de Kock b Nortje",
+                    "dismissal": "c (wk)de Kock b Nortje",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "29",
@@ -240,7 +240,7 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Tharanga b de Silva",
                     "runs": "51",
                     "balls": "57",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 103 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 103 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Isuru Udana",
+            "Upul Tharanga",
+            "Dhananjaya de Silva",
+            "Priyamal Perera",
+            "Kusal Mendis (wk)",
+            "Thisara Perera",
+            "Oshada Fernando",
+            "Kamindu Mendis",
+            "Kasun Rajitha",
+            "Avishka Fernando",
+            "Lasith Malinga(c)"
+        ],
+        "South Africa": [
+            "Reeza Hendricks",
+            "Lungi Ngidi",
+            "Anrich Nortje",
+            "Aiden Markram",
+            "Jean-Paul Duminy",
+            "Dale Steyn",
+            "David Miller",
+            "Quinton de Kock (wk)",
+            "Andile Phehlukwayo",
+            "Faf du Plessis(c)",
+            "Tabraiz Shamsi"
+        ]
+    }
 }

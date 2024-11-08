@@ -30,7 +30,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Lendl Simmons",
+                    "batsman": "Lendl Simmons (wk)",
                     "dismissal": "c & b Saeed Ajmal",
                     "runs": "51",
                     "balls": "64",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Andre Russell",
-                    "dismissal": "st Mohammad Salman b Saeed Ajmal",
+                    "dismissal": "st (wk)Mohammad Salman b Saeed Ajmal",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "15",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "c Simmons b Rampaul",
+                    "dismissal": "c (wk)Simmons b Rampaul",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "5",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Umar Akmal",
-                    "dismissal": "c Simmons b Rampaul",
+                    "dismissal": "c (wk)Simmons b Rampaul",
                     "runs": "30",
                     "balls": "27",
                     "minutes": "38",
@@ -307,7 +307,7 @@
                     "strike_rate": "137.50"
                 },
                 {
-                    "batsman": "Mohammad Salman",
+                    "batsman": "Mohammad Salman (wk)",
                     "dismissal": "b Bishoo",
                     "runs": "3",
                     "balls": "7",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 3 wickets (with 29 balls remaining)"
+    "result": "Pakistan won by 3 wickets (with 29 balls remaining)",
+    "playing_xi": {
+        "West Indies": [
+            "Daren Sammy(c)",
+            "Devon Smith",
+            "Lendl Simmons (wk)",
+            "Andre Russell",
+            "Kemar Roach",
+            "Ravi Rampaul",
+            "Devendra Bishoo",
+            "Dwayne Bravo",
+            "Darren Bravo",
+            "Marlon Samuels",
+            "Kirk Edwards"
+        ],
+        "Pakistan": [
+            "Shahid Afridi(c)",
+            "Saeed Ajmal",
+            "Wahab Riaz",
+            "Mohammad Salman (wk)",
+            "Ahmed Shehzad",
+            "Mohammad Hafeez",
+            "Junaid Khan",
+            "Asad Shafiq",
+            "Hammad Azam",
+            "Misbah-ul-Haq",
+            "Umar Akmal"
+        ]
+    }
 }

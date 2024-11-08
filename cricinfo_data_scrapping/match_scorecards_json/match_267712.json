@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "11",
@@ -60,7 +60,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Sehwag b Patel",
                     "runs": "110",
                     "balls": "127",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Dhoni b Sreesanth",
+                    "dismissal": "c (wk)Dhoni b Sreesanth",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "12",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Sourav Ganguly",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "62",
                     "balls": "79",
                     "minutes": "136",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "st Sangakkara b Bandara",
+                    "dismissal": "st (wk)Sangakkara b Bandara",
                     "runs": "54",
                     "balls": "61",
                     "minutes": "94",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Sangakkara b Bandara",
+                    "dismissal": "c (wk)Sangakkara b Bandara",
                     "runs": "19",
                     "balls": "23",
                     "minutes": "16",
@@ -277,7 +277,7 @@
                     "strike_rate": "82.60"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Maharoof b Jayasuriya",
                     "runs": "48",
                     "balls": "68",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 5 runs"
+    "result": "Sri Lanka won by 5 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Russel Arnold",
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Nuwan Kulasekara",
+            "Malinga Bandara",
+            "Tillakaratne Dilshan",
+            "Marvan Atapattu",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Lasith Malinga"
+        ],
+        "India": [
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Sreesanth",
+            "Munaf Patel",
+            "Virender Sehwag",
+            "Dinesh Karthik",
+            "Rahul Dravid(c)",
+            "Sachin Tendulkar",
+            "Robin Uthappa",
+            "Anil Kumble",
+            "Harbhajan Singh"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle(c)",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "27",
                     "balls": "14",
                     "minutes": "16",
@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Runako Morton",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "22",
                     "balls": "34",
                     "minutes": "70",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "run out (Gambhir/Dhoni)",
+                    "dismissal": "run out (Gambhir/ (wk)Dhoni)",
                     "runs": "62",
                     "balls": "59",
                     "minutes": "90",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "c Dhoni b Nehra",
+                    "dismissal": "c (wk)Dhoni b Nehra",
                     "runs": "14",
                     "balls": "19",
                     "minutes": "32",
@@ -93,7 +93,7 @@
                     "strike_rate": "140.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "6",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Ramdin b Benn",
+                    "dismissal": "c (wk)Ramdin b Benn",
                     "runs": "44",
                     "balls": "38",
                     "minutes": "73",
@@ -244,7 +244,7 @@
                     "strike_rate": "115.78"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "46",
                     "balls": "34",
@@ -374,5 +374,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 1 ball remaining) (D/L method)"
+    "result": "India won by 6 wickets (with 1 ball remaining) (D/L method)",
+    "playing_xi": {
+        "West Indies": [
+            "Sulieman Benn",
+            "Dwayne Bravo",
+            "Runako Morton",
+            "Ramnaresh Sarwan",
+            "Denesh Ramdin (wk)",
+            "Ravi Rampaul",
+            "Chris Gayle(c)",
+            "Darren Bravo",
+            "Shivnarine Chanderpaul",
+            "David Bernard",
+            "Jerome Taylor"
+        ],
+        "India": [
+            "Gautam Gambhir",
+            "Ishant Sharma",
+            "Dinesh Karthik",
+            "MS Dhoni(c) (wk)",
+            "RP Singh",
+            "Yuvraj Singh",
+            "Yusuf Pathan",
+            "Ashish Nehra",
+            "Abhishek Nayar",
+            "Rohit Sharma",
+            "Harbhajan Singh"
+        ]
+    }
 }

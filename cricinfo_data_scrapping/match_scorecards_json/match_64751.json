@@ -30,7 +30,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Marcus Trescothick",
+                    "batsman": "Marcus Trescothick (wk)",
                     "dismissal": "c Cairns b Tuffey",
                     "runs": "0",
                     "balls": "3",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Nick Knight",
-                    "dismissal": "run out (Tuffey/Vettori/Nevin)",
+                    "dismissal": "run out (Tuffey/Vettori/ (wk)Nevin)",
                     "runs": "38",
                     "balls": "60",
                     "minutes": "78",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Paul Collingwood",
-                    "dismissal": "st Nevin b Harris",
+                    "dismissal": "st (wk)Nevin b Harris",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "15",
@@ -207,8 +207,8 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Chris Nevin",
-                    "dismissal": "c Trescothick b Hoggard",
+                    "batsman": "Chris Nevin (wk)",
+                    "dismissal": "c (wk)Trescothick b Hoggard",
                     "runs": "8",
                     "balls": "8",
                     "minutes": "7",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "England won by 33 runs (D/L method)"
+    "result": "England won by 33 runs (D/L method)",
+    "playing_xi": {
+        "England": [
+            "Ashley Giles",
+            "Matthew Hoggard",
+            "Darren Gough",
+            "Graham Thorpe",
+            "Paul Collingwood",
+            "Nick Knight",
+            "Craig White",
+            "Marcus Trescothick (wk)",
+            "Michael Vaughan",
+            "Nasser Hussain(c)",
+            "Andrew Flintoff"
+        ],
+        "New Zealand": [
+            "Lou Vincent",
+            "Andre Adams",
+            "Chris Cairns",
+            "Chris Harris",
+            "Chris Nevin (wk)",
+            "Nathan Astle",
+            "Daryl Tuffey",
+            "Stephen Fleming(c)",
+            "Brendon McCullum",
+            "Craig McMillan",
+            "Daniel Vettori"
+        ]
+    }
 }

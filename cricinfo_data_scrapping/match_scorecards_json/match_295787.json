@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Andre Botha",
-                    "dismissal": "st Smith b Haq",
+                    "dismissal": "st (wk)Smith b Haq",
                     "runs": "42",
                     "balls": "54",
                     "minutes": "77",
@@ -59,7 +59,7 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "b Haq",
                     "runs": "72",
                     "balls": "101",
@@ -80,7 +80,7 @@
                 },
                 {
                     "batsman": "Alex Cusack",
-                    "dismissal": "run out (Smith/Watson)",
+                    "dismissal": "run out ( (wk)Smith/Watson)",
                     "runs": "10",
                     "balls": "20",
                     "minutes": "21",
@@ -90,7 +90,7 @@
                 },
                 {
                     "batsman": "Trent Johnston(c)",
-                    "dismissal": "st Smith b Haq",
+                    "dismissal": "st (wk)Smith b Haq",
                     "runs": "32",
                     "balls": "23",
                     "minutes": "38",
@@ -247,7 +247,7 @@
                 },
                 {
                     "batsman": "Omer Hussain",
-                    "dismissal": "st NJ O'Brien b Kidd",
+                    "dismissal": "st (wk)NJ O'Brien b Kidd",
                     "runs": "1",
                     "balls": "12",
                     "minutes": "21",
@@ -266,7 +266,7 @@
                     "strike_rate": "79.41"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "b Botha",
                     "runs": "3",
                     "balls": "8",
@@ -287,7 +287,7 @@
                 },
                 {
                     "batsman": "Gordon Drummond",
-                    "dismissal": "c NJ O'Brien b Cusack",
+                    "dismissal": "c (wk)NJ O'Brien b Cusack",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "17",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 23 runs"
+    "result": "Ireland won by 23 runs",
+    "playing_xi": {
+        "Ireland": [
+            "Kyle McCallan",
+            "Niall O'Brien (wk)",
+            "Trent Johnston(c)",
+            "Eoin Morgan",
+            "Alex Cusack",
+            "Gary Kidd",
+            "Kevin O'Brien",
+            "William Porterfield",
+            "Dave Langford-Smith",
+            "Thinus Fourie",
+            "Andre Botha"
+        ],
+        "Scotland": [
+            "John Blain",
+            "Ryan Watson(c)",
+            "Navdeep Poonia",
+            "Neil McCallum",
+            "Omer Hussain",
+            "Glenn Rogers",
+            "Paul Hoffmann",
+            "Colin Smith (wk)",
+            "Gordon Drummond",
+            "Majid Haq",
+            "Fraser Watts"
+        ]
+    }
 }

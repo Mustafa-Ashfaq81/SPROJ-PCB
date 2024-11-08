@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Fraser Watts",
-                    "dismissal": "c Patil b Amjad Javed",
+                    "dismissal": "c (wk)Patil b Amjad Javed",
                     "runs": "5",
                     "balls": "9",
                     "minutes": "-",
@@ -69,7 +69,7 @@
                 },
                 {
                     "batsman": "Richie Berrington",
-                    "dismissal": "st Patil b Ahmed Raza",
+                    "dismissal": "st (wk)Patil b Ahmed Raza",
                     "runs": "9",
                     "balls": "29",
                     "minutes": "-",
@@ -88,7 +88,7 @@
                     "strike_rate": "39.47"
                 },
                 {
-                    "batsman": "Craig Wallace",
+                    "batsman": "Craig Wallace (wk)",
                     "dismissal": "b Khurram Khan",
                     "runs": "40",
                     "balls": "74",
@@ -246,7 +246,7 @@
                 },
                 {
                     "batsman": "Arshad Ali",
-                    "dismissal": "c Wallace b Goudie",
+                    "dismissal": "c (wk)Wallace b Goudie",
                     "runs": "3",
                     "balls": "9",
                     "minutes": "-",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Saqib Ali",
-                    "dismissal": "c Wallace b Sharif",
+                    "dismissal": "c (wk)Wallace b Sharif",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "-",
@@ -285,7 +285,7 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Swapnil Patil",
+                    "batsman": "Swapnil Patil (wk)",
                     "dismissal": "not out",
                     "runs": "55",
                     "balls": "99",
@@ -419,5 +419,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 4 wickets (with 13 balls remaining)"
+    "result": "U.A.E. won by 4 wickets (with 13 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Safyaan Sharif",
+            "Josh Davey",
+            "Richie Berrington",
+            "Kyle Coetzer",
+            "Gordon Drummond(c)",
+            "Calum MacLeod",
+            "Majid Haq",
+            "Fraser Watts",
+            "Preston Mommsen",
+            "Craig Wallace (wk)",
+            "Gordon Goudie"
+        ],
+        "United Arab Emirates": [
+            "Ahmed Raza",
+            "Swapnil Patil (wk)",
+            "Saqib Ali",
+            "Shadeep Silva",
+            "Shaiman Anwar",
+            "Amjad Ali",
+            "Arshad Ali",
+            "Rohan Mustafa",
+            "Khurram Khan(c)",
+            "Amjad Javed",
+            "Vikrant Shetty"
+        ]
+    }
 }

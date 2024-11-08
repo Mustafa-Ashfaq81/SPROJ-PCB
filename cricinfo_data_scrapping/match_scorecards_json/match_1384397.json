@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Rachin Ravindra",
-                    "dismissal": "c Edwards b van der Merwe",
+                    "dismissal": "c (wk)Edwards b van der Merwe",
                     "runs": "51",
                     "balls": "51",
                     "minutes": "87",
@@ -74,8 +74,8 @@
                     "strike_rate": "102.12"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
-                    "dismissal": "st Edwards b Dutt",
+                    "batsman": "Tom Latham(c) (wk)",
+                    "dismissal": "st (wk)Edwards b Dutt",
                     "runs": "53",
                     "balls": "46",
                     "minutes": "72",
@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Glenn Phillips",
-                    "dismissal": "c Edwards b de Leede",
+                    "dismissal": "c (wk)Edwards b de Leede",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "6",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Teja Nidamanuru",
-                    "dismissal": "run out (Ferguson/Latham)",
+                    "dismissal": "run out (Ferguson/ (wk)Latham)",
                     "runs": "21",
                     "balls": "26",
                     "minutes": "28",
@@ -285,7 +285,7 @@
                     "strike_rate": "80.76"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "c & b Santner",
                     "runs": "30",
                     "balls": "27",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 99 runs"
+    "result": "New Zealand won by 99 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Devon Conway",
+            "Daryl Mitchell",
+            "Tom Latham(c) (wk)",
+            "Matt Henry",
+            "Trent Boult",
+            "Mark Chapman",
+            "Will Young",
+            "Rachin Ravindra",
+            "Glenn Phillips",
+            "Lockie Ferguson"
+        ],
+        "Netherlands": [
+            "Aryan Dutt",
+            "Ryan Klein",
+            "Teja Nidamanuru",
+            "Scott Edwards(c) (wk)",
+            "Roelof van der Merwe",
+            "Paul van Meekeren",
+            "Max O'Dowd",
+            "Vikramjit Singh",
+            "Sybrand Engelbrecht",
+            "Colin Ackermann",
+            "Bas de Leede"
+        ]
+    }
 }

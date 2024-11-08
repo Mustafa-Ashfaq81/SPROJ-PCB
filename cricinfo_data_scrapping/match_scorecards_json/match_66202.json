@@ -35,7 +35,7 @@
             "extras": "16",
             "batting": [
                 {
-                    "batsman": "Kennedy Otieno",
+                    "batsman": "Kennedy Otieno (wk)",
                     "dismissal": "lbw b Shoaib Malik",
                     "runs": "33",
                     "balls": "73",
@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Morris Ouma",
-                    "dismissal": "c Moin Khan b Shahid Afridi",
+                    "dismissal": "c (wk)Moin Khan b Shahid Afridi",
                     "runs": "23",
                     "balls": "63",
                     "minutes": "107",
@@ -243,7 +243,7 @@
             "batting": [
                 {
                     "batsman": "Yasir Hameed",
-                    "dismissal": "c Otieno b Suji",
+                    "dismissal": "c (wk)Otieno b Suji",
                     "runs": "41",
                     "balls": "48",
                     "minutes": "54",
@@ -292,7 +292,7 @@
                     "strike_rate": "53.84"
                 }
             ],
-            "did_not_bat": "Inzamam-ul-Haq (c) , Mohammad Yousuf , Moin Khan , Naved-ul-Hasan , Mohammad Sami , Shoaib Akhtar",
+            "did_not_bat": "Inzamam-ul-Haq (c) , Mohammad Yousuf , Moin Khan (wk) , Naved-ul-Hasan , Mohammad Sami , Shoaib Akhtar",
             "fall_of_wickets": "Fall of wickets : 1 - 70 ( Yasir Hameed , 12.3 ov ) , 2 - 71 ( Shoaib Malik , 13.4 ov ) , 3 - 81 ( Shahid Afridi , 15.4 ov )",
             "bowling": [
                 {
@@ -354,5 +354,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 188 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 188 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Ravi Shah",
+            "Peter Ongondo",
+            "Steve Tikolo(c)",
+            "Thomas Odoyo",
+            "Malhar Patel",
+            "Brijal Patel",
+            "Kennedy Otieno (wk)",
+            "Morris Ouma",
+            "Martin Suji",
+            "Ragheb Aga",
+            "Hitesh Modi"
+        ],
+        "Pakistan": [
+            "Abdul Razzaq",
+            "Shoaib Akhtar",
+            "Shoaib Malik",
+            "Mohammad Sami",
+            "Imran Farhat",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq (c)",
+            "Moin Khan (wk)",
+            "Mohammad Yousuf",
+            "Shahid Afridi",
+            "Yasir Hameed"
+        ]
+    }
 }

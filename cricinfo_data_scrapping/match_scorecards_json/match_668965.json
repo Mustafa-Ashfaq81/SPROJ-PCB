@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Ronchi b McCullum",
+                    "dismissal": "c (wk)Ronchi b McCullum",
                     "runs": "46",
                     "balls": "46",
                     "minutes": "65",
@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "53",
                     "balls": "50",
                     "minutes": "84",
@@ -50,7 +50,7 @@
                     "strike_rate": "106.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b McCullum",
                     "runs": "0",
                     "balls": "2",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Angelo Mathews(c)",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Rob Nicol",
-                    "dismissal": "st Sangakkara b Herath",
+                    "dismissal": "st (wk)Sangakkara b Herath",
                     "runs": "1",
                     "balls": "12",
                     "minutes": "29",
@@ -291,7 +291,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c Senanayake b Herath",
                     "runs": "23",
                     "balls": "29",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 36 runs (D/L method)"
+    "result": "Sri Lanka won by 36 runs (D/L method)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Sachithra Senanayake",
+            "Dinesh Chandimal",
+            "Rangana Herath",
+            "Thisara Perera",
+            "Angelo Mathews(c)",
+            "Mahela Jayawardene",
+            "Lahiru Thirimanne",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara"
+        ],
+        "New Zealand": [
+            "James Neesham",
+            "Luke Ronchi (wk)",
+            "Mitchell McClenaghan",
+            "Colin Munro",
+            "Rob Nicol",
+            "Anton Devcich",
+            "Tom Latham",
+            "Grant Elliott",
+            "Kyle Mills (c)",
+            "Andrew Ellis",
+            "Nathan McCullum"
+        ]
+    }
 }

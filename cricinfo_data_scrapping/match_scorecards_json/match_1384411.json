@@ -31,8 +31,8 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Buttler b Topley",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Buttler b Topley",
                     "runs": "4",
                     "balls": "2",
                     "minutes": "3",
@@ -229,7 +229,7 @@
                 },
                 {
                     "batsman": "Dawid Malan",
-                    "dismissal": "c de Kock b Jansen",
+                    "dismissal": "c (wk)de Kock b Jansen",
                     "runs": "6",
                     "balls": "11",
                     "minutes": "30",
@@ -268,8 +268,8 @@
                     "strike_rate": "68.00"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
-                    "dismissal": "c de Kock b Coetzee",
+                    "batsman": "Jos Buttler(c) (wk)",
+                    "dismissal": "c (wk)de Kock b Coetzee",
                     "runs": "15",
                     "balls": "7",
                     "minutes": "14",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 229 runs"
+    "result": "South Africa won by 229 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Aiden Markram(c)",
+            "Marco Jansen",
+            "Keshav Maharaj",
+            "Quinton de Kock (wk)",
+            "Kagiso Rabada",
+            "Heinrich Klaasen",
+            "David Miller",
+            "Reeza Hendricks",
+            "Lungi Ngidi",
+            "Rassie van der Dussen",
+            "Gerald Coetzee"
+        ],
+        "England": [
+            "Gus Atkinson",
+            "Ben Stokes",
+            "Jos Buttler(c) (wk)",
+            "Reece Topley",
+            "Jonny Bairstow",
+            "Harry Brook",
+            "David Willey",
+            "Dawid Malan",
+            "Mark Wood",
+            "Joe Root",
+            "Adil Rashid"
+        ]
+    }
 }

@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Mohammad Kaif",
-                    "dismissal": "c Jones b Plunkett",
+                    "dismissal": "c (wk)Jones b Plunkett",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -93,7 +93,7 @@
                     "strike_rate": "89.70"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "6",
@@ -225,7 +225,7 @@
             "batting": [
                 {
                     "batsman": "Andrew Strauss",
-                    "dismissal": "c Dhoni b Pathan",
+                    "dismissal": "c (wk)Dhoni b Pathan",
                     "runs": "7",
                     "balls": "13",
                     "minutes": "14",
@@ -235,7 +235,7 @@
                 },
                 {
                     "batsman": "Matt Prior",
-                    "dismissal": "run out (Patel/Dhoni)",
+                    "dismissal": "run out (Patel/ (wk)Dhoni)",
                     "runs": "37",
                     "balls": "54",
                     "minutes": "86",
@@ -294,7 +294,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Sehwag b Pathan",
                     "runs": "32",
                     "balls": "42",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "India won by 49 runs"
+    "result": "India won by 49 runs",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Harbhajan Singh",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "MS Dhoni (wk)",
+            "Ajit Agarkar",
+            "Munaf Patel",
+            "Ramesh Powar",
+            "Virender Sehwag",
+            "Suresh Raina",
+            "Yuvraj Singh"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Owais Shah",
+            "Andrew Flintoff(c)",
+            "Paul Collingwood",
+            "James Anderson",
+            "Vikram Solanki",
+            "Sajid Mahmood",
+            "Andrew Strauss",
+            "Geraint Jones (wk)",
+            "Ian Blackwell",
+            "Matt Prior"
+        ]
+    }
 }

@@ -42,7 +42,7 @@
                 },
                 {
                     "batsman": "Dimuth Karunaratne",
-                    "dismissal": "c Edwards b Saqib Zulfiqar",
+                    "dismissal": "c (wk)Edwards b Saqib Zulfiqar",
                     "runs": "33",
                     "balls": "51",
                     "minutes": "87",
@@ -51,7 +51,7 @@
                     "strike_rate": "64.70"
                 },
                 {
-                    "batsman": "Kusal Mendis",
+                    "batsman": "Kusal Mendis (wk)",
                     "dismissal": "lbw b Klein",
                     "runs": "10",
                     "balls": "14",
@@ -62,7 +62,7 @@
                 },
                 {
                     "batsman": "Sadeera Samarawickrama",
-                    "dismissal": "c Edwards b van Beek",
+                    "dismissal": "c (wk)Edwards b van Beek",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "4",
@@ -259,7 +259,7 @@
                 },
                 {
                     "batsman": "Wesley Barresi",
-                    "dismissal": "run out (Shanaka/Mendis)",
+                    "dismissal": "run out (Shanaka/ (wk)Mendis)",
                     "runs": "52",
                     "balls": "50",
                     "minutes": "64",
@@ -288,7 +288,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Scott Edwards(c)",
+                    "batsman": "Scott Edwards(c) (wk)",
                     "dismissal": "not out",
                     "runs": "67",
                     "balls": "68",
@@ -319,7 +319,7 @@
                 },
                 {
                     "batsman": "Shariz Ahmad",
-                    "dismissal": "run out (Mendis)",
+                    "dismissal": "run out ( (wk)Mendis)",
                     "runs": "2",
                     "balls": "18",
                     "minutes": "19",
@@ -438,5 +438,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 21 runs"
+    "result": "Sri Lanka won by 21 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Mendis (wk)",
+            "Maheesh Theekshana",
+            "Lahiru Kumara",
+            "Pathum Nissanka",
+            "Dhananjaya de Silva",
+            "Dilshan Madushanka",
+            "Dasun Shanaka(c)",
+            "Charith Asalanka",
+            "Wanindu Hasaranga",
+            "Sadeera Samarawickrama",
+            "Dimuth Karunaratne"
+        ],
+        "Netherlands": [
+            "Aryan Dutt",
+            "Wesley Barresi",
+            "Ryan Klein",
+            "Teja Nidamanuru",
+            "Scott Edwards(c) (wk)",
+            "Shariz Ahmad",
+            "Max O'Dowd",
+            "Vikramjit Singh",
+            "Saqib Zulfiqar",
+            "Bas de Leede",
+            "Logan van Beek"
+        ]
+    }
 }

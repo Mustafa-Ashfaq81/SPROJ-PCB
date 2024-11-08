@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Jacques Rudolph",
-                    "dismissal": "st Sangakkara b Chandana",
+                    "dismissal": "st (wk)Sangakkara b Chandana",
                     "runs": "22",
                     "balls": "31",
                     "minutes": "41",
@@ -83,7 +83,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Gunawardene b Vaas",
                     "runs": "58",
                     "balls": "47",
@@ -275,7 +275,7 @@
                 },
                 {
                     "batsman": "Marvan Atapattu(c)",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "64",
                     "balls": "82",
                     "minutes": "122",
@@ -284,7 +284,7 @@
                     "strike_rate": "78.04"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Gibbs b Boje",
                     "runs": "24",
                     "balls": "32",
@@ -295,7 +295,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "19",
                     "balls": "25",
                     "minutes": "46",
@@ -434,5 +434,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 3 wickets (with 6 balls remaining)"
+    "result": "Sri Lanka won by 3 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Makhaya Ntini",
+            "Graeme Smith(c)",
+            "Nicky Boje",
+            "Alan Dawson",
+            "Herschelle Gibbs",
+            "Jean-Paul Duminy",
+            "Mark Boucher (wk)",
+            "Jacques Rudolph",
+            "Shaun Pollock",
+            "Lance Klusener",
+            "Jacques Kallis"
+        ],
+        "Sri Lanka": [
+            "Nuwan Zoysa",
+            "Marvan Atapattu(c)",
+            "Upul Chandana",
+            "Tillakaratne Dilshan",
+            "Kaushal Lokuarachchi",
+            "Sanath Jayasuriya",
+            "Chaminda Vaas",
+            "Mahela Jayawardene",
+            "Kumar Sangakkara (wk)",
+            "Farveez Maharoof",
+            "Avishka Gunawardene"
+        ]
+    }
 }

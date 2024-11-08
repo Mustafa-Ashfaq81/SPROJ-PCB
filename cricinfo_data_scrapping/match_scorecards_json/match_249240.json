@@ -30,7 +30,7 @@
             "extras": "13",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Flintoff b Mahmood",
                     "runs": "5",
                     "balls": "10",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Michael Hussey",
-                    "dismissal": "c Nixon b Flintoff",
+                    "dismissal": "c (wk)Nixon b Flintoff",
                     "runs": "17",
                     "balls": "19",
                     "minutes": "29",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Andrew Flintoff(c)",
-                    "dismissal": "c Gilchrist b Watson",
+                    "dismissal": "c (wk)Gilchrist b Watson",
                     "runs": "35",
                     "balls": "36",
                     "minutes": "65",
@@ -307,7 +307,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Paul Nixon",
+                    "batsman": "Paul Nixon (wk)",
                     "dismissal": "not out",
                     "runs": "11",
                     "balls": "10",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 3 balls remaining)"
+    "result": "England won by 4 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Shane Watson",
+            "Glenn McGrath",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Ricky Ponting(c)",
+            "Brad Hodge",
+            "Brett Lee",
+            "Nathan Bracken",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Michael Hussey"
+        ],
+        "England": [
+            "Ian Bell",
+            "Monty Panesar",
+            "Paul Collingwood",
+            "Paul Nixon (wk)",
+            "Liam Plunkett",
+            "Sajid Mahmood",
+            "Ed Joyce",
+            "Andrew Strauss",
+            "Jamie Dalrymple",
+            "Mal Loye",
+            "Andrew Flintoff(c)"
+        ]
+    }
 }

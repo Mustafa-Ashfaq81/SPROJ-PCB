@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "c Pant b Pandya",
+                    "dismissal": "c (wk)Pant b Pandya",
                     "runs": "41",
                     "balls": "31",
                     "minutes": "52",
@@ -70,7 +70,7 @@
                     "strike_rate": "93.10"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Jadeja b Pandya",
                     "runs": "60",
                     "balls": "80",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Moeen Ali",
-                    "dismissal": "c Pant b Jadeja",
+                    "dismissal": "c (wk)Pant b Jadeja",
                     "runs": "34",
                     "balls": "44",
                     "minutes": "65",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Buttler b Topley",
+                    "dismissal": "c (wk)Buttler b Topley",
                     "runs": "17",
                     "balls": "22",
                     "minutes": "27",
@@ -267,7 +267,7 @@
                     "strike_rate": "77.27"
                 },
                 {
-                    "batsman": "Rishabh Pant",
+                    "batsman": "Rishabh Pant (wk)",
                     "dismissal": "not out",
                     "runs": "125",
                     "balls": "113",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Suryakumar Yadav",
-                    "dismissal": "c Buttler b Overton",
+                    "dismissal": "c (wk)Buttler b Overton",
                     "runs": "16",
                     "balls": "28",
                     "minutes": "34",
@@ -425,5 +425,33 @@
             ]
         }
     ],
-    "result": "India won by 5 wickets (with 47 balls remaining)"
+    "result": "India won by 5 wickets (with 47 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Brydon Carse",
+            "Jason Roy",
+            "Ben Stokes",
+            "Liam Livingstone",
+            "Craig Overton",
+            "Jos Buttler(c) (wk)",
+            "Reece Topley",
+            "David Willey",
+            "Joe Root"
+        ],
+        "India": [
+            "Mohammed Siraj",
+            "Yuzvendra Chahal",
+            "Prasidh Krishna",
+            "Rohit Sharma(c)",
+            "Rishabh Pant (wk)",
+            "Suryakumar Yadav",
+            "Ravindra Jadeja",
+            "Hardik Pandya",
+            "Mohammed Shami",
+            "Virat Kohli",
+            "Shikhar Dhawan"
+        ]
+    }
 }

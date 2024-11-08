@@ -28,7 +28,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "lbw b Sorensen",
                     "runs": "4",
                     "balls": "3",
@@ -49,7 +49,7 @@
                 },
                 {
                     "batsman": "Hamish Gardiner",
-                    "dismissal": "c SW Poynter b Sorensen",
+                    "dismissal": "c (wk)SW Poynter b Sorensen",
                     "runs": "13",
                     "balls": "32",
                     "minutes": "-",
@@ -79,7 +79,7 @@
                 },
                 {
                     "batsman": "Freddie Coleman",
-                    "dismissal": "c SW Poynter b Sorensen",
+                    "dismissal": "c (wk)SW Poynter b Sorensen",
                     "runs": "7",
                     "balls": "11",
                     "minutes": "-",
@@ -109,7 +109,7 @@
                 },
                 {
                     "batsman": "Majid Haq",
-                    "dismissal": "c SW Poynter b Young",
+                    "dismissal": "c (wk)SW Poynter b Young",
                     "runs": "7",
                     "balls": "12",
                     "minutes": "-",
@@ -129,7 +129,7 @@
                 },
                 {
                     "batsman": "Iain Wardlaw",
-                    "dismissal": "run out (SW Poynter)",
+                    "dismissal": "run out ( (wk)SW Poynter)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -250,7 +250,7 @@
             "batting": [
                 {
                     "batsman": "Andy Balbirnie",
-                    "dismissal": "c Cross b Davey",
+                    "dismissal": "c (wk)Cross b Davey",
                     "runs": "16",
                     "balls": "22",
                     "minutes": "-",
@@ -260,7 +260,7 @@
                 },
                 {
                     "batsman": "John Anderson",
-                    "dismissal": "c Cross b Davey",
+                    "dismissal": "c (wk)Cross b Davey",
                     "runs": "12",
                     "balls": "26",
                     "minutes": "-",
@@ -280,7 +280,7 @@
                 },
                 {
                     "batsman": "Kevin O'Brien(c)",
-                    "dismissal": "c Cross b Evans",
+                    "dismissal": "c (wk)Cross b Evans",
                     "runs": "67",
                     "balls": "65",
                     "minutes": "-",
@@ -299,7 +299,7 @@
                     "strike_rate": "108.33"
                 },
                 {
-                    "batsman": "Stuart Poynter",
+                    "batsman": "Stuart Poynter (wk)",
                     "dismissal": "run out (Evans)",
                     "runs": "8",
                     "balls": "16",
@@ -443,5 +443,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 3 wickets (with 34 balls remaining)"
+    "result": "Ireland won by 3 wickets (with 34 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Michael Leask",
+            "Matthew Cross (wk)",
+            "Calum MacLeod",
+            "Majid Haq",
+            "Freddie Coleman",
+            "Preston Mommsen(c)",
+            "Iain Wardlaw",
+            "Josh Davey",
+            "Hamish Gardiner",
+            "Alasdair Evans",
+            "Richie Berrington"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "Max Sorensen",
+            "John Anderson",
+            "Andrew White",
+            "Andy McBrine",
+            "Craig Young",
+            "Andrew Poynter",
+            "Stuart Thompson",
+            "Stuart Poynter (wk)",
+            "Kevin O'Brien(c)",
+            "John Mooney"
+        ]
+    }
 }

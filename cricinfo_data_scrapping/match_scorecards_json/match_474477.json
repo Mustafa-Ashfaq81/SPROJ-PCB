@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Parthiv Patel",
-                    "dismissal": "c Kieswetter b Anderson",
+                    "dismissal": "c (wk)Kieswetter b Anderson",
                     "runs": "95",
                     "balls": "107",
                     "minutes": "154",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid",
-                    "dismissal": "c Kieswetter b Broad",
+                    "dismissal": "c (wk)Kieswetter b Broad",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "8",
@@ -92,8 +92,8 @@
                     "strike_rate": "131.03"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Kieswetter b Bresnan",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Kieswetter b Bresnan",
                     "runs": "33",
                     "balls": "36",
                     "minutes": "41",
@@ -239,7 +239,7 @@
                     "strike_rate": "40.00"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "lbw b Kumar",
                     "runs": "6",
                     "balls": "19",
@@ -303,5 +303,33 @@
             ]
         }
     ],
-    "result": "No result"
+    "result": "No result",
+    "playing_xi": {
+        "India": [
+            "Parthiv Patel",
+            "Praveen Kumar",
+            "MS Dhoni(c) (wk)",
+            "Vinay Kumar",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Rahul Dravid",
+            "Rohit Sharma",
+            "Ajinkya Rahane",
+            "Virat Kohli",
+            "Munaf Patel"
+        ],
+        "England": [
+            "Samit Patel",
+            "Stuart Broad",
+            "Ben Stokes",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Alastair Cook(c)",
+            "Ian Bell",
+            "James Anderson",
+            "Tim Bresnan",
+            "Eoin Morgan",
+            "Craig Kieswetter (wk)"
+        ]
+    }
 }

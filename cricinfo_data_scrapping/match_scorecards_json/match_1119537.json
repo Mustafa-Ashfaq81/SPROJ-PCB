@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "22",
                     "balls": "32",
                     "minutes": "42",
@@ -73,7 +73,7 @@
                     "strike_rate": "68.75"
                 },
                 {
-                    "batsman": "Tim Paine(c)",
+                    "batsman": "Tim Paine(c) (wk)",
                     "dismissal": "c Wood b Ali",
                     "runs": "12",
                     "balls": "19",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Andrew Tye",
-                    "dismissal": "c Buttler b Plunkett",
+                    "dismissal": "c (wk)Buttler b Plunkett",
                     "runs": "19",
                     "balls": "20",
                     "minutes": "27",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Paine b Stanlake",
+                    "dismissal": "c (wk)Paine b Stanlake",
                     "runs": "50",
                     "balls": "71",
                     "minutes": "111",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan(c)",
-                    "dismissal": "c Paine b Tye",
+                    "dismissal": "c (wk)Paine b Tye",
                     "runs": "69",
                     "balls": "74",
                     "minutes": "80",
@@ -290,7 +290,7 @@
                     "strike_rate": "93.24"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Richardson b Tye",
                     "runs": "9",
                     "balls": "11",
@@ -420,5 +420,33 @@
             ]
         }
     ],
-    "result": "England won by 3 wickets (with 36 balls remaining)"
+    "result": "England won by 3 wickets (with 36 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Glenn Maxwell",
+            "Shaun Marsh",
+            "Travis Head",
+            "Andrew Tye",
+            "Tim Paine(c) (wk)",
+            "Marcus Stoinis",
+            "Kane Richardson",
+            "Ashton Agar",
+            "Michael Neser",
+            "Billy Stanlake",
+            "Aaron Finch"
+        ],
+        "England": [
+            "Moeen Ali",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "David Willey",
+            "Liam Plunkett",
+            "Mark Wood",
+            "Alex Hales",
+            "Adil Rashid"
+        ]
+    }
 }

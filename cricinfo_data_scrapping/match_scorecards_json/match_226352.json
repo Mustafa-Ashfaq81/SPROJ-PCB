@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Kevin Pietersen",
-                    "dismissal": "st Kamran Akmal b Shoaib Malik",
+                    "dismissal": "st (wk)Kamran Akmal b Shoaib Malik",
                     "runs": "56",
                     "balls": "39",
                     "minutes": "51",
@@ -93,7 +93,7 @@
                     "strike_rate": "125.92"
                 }
             ],
-            "did_not_bat": "Geraint Jones , Ian Blackwell , Steve Harmison , Vikram Solanki , James Anderson",
+            "did_not_bat": "Geraint Jones (wk) , Ian Blackwell , Steve Harmison , Vikram Solanki , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 43 ( Marcus Trescothick , 7.6 ov ) , 2 - 94 ( Matt Prior , 16.6 ov ) , 3 - 185 ( Kevin Pietersen , 29.4 ov ) , 4 - 237 ( Andrew Strauss , 38.6 ov )",
             "bowling": [
                 {
@@ -200,7 +200,7 @@
                     "strike_rate": "103.07"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Anderson",
                     "runs": "5",
                     "balls": "6",
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Inzamam-ul-Haq(c)",
-                    "dismissal": "c Jones b Collingwood",
+                    "dismissal": "c (wk)Jones b Collingwood",
                     "runs": "13",
                     "balls": "18",
                     "minutes": "17",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik",
-                    "dismissal": "c Jones b Plunkett",
+                    "dismissal": "c (wk)Jones b Plunkett",
                     "runs": "50",
                     "balls": "60",
                     "minutes": "76",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Jones b Plunkett",
+                    "dismissal": "c (wk)Jones b Plunkett",
                     "runs": "13",
                     "balls": "7",
                     "minutes": "9",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Shoaib Akhtar",
-                    "dismissal": "run out (Jones)",
+                    "dismissal": "run out ( (wk)Jones)",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "4",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "England won by 42 runs"
+    "result": "England won by 42 runs",
+    "playing_xi": {
+        "England": [
+            "Marcus Trescothick(c)",
+            "Paul Collingwood",
+            "Kevin Pietersen",
+            "James Anderson",
+            "Vikram Solanki",
+            "Steve Harmison",
+            "Andrew Strauss",
+            "Andrew Flintoff",
+            "Geraint Jones (wk)",
+            "Ian Blackwell",
+            "Matt Prior"
+        ],
+        "Pakistan": [
+            "Younis Khan",
+            "Shoaib Akhtar",
+            "Abdul Razzaq",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Danish Kaneria",
+            "Salman Butt",
+            "Mohammad Sami",
+            "Shoaib Malik"
+        ]
+    }
 }

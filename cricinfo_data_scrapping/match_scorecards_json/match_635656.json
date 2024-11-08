@@ -40,7 +40,7 @@
                     "strike_rate": "108.45"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b Malinga",
                     "runs": "8",
                     "balls": "9",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Sangakkara b Dilshan",
+                    "dismissal": "c (wk)Sangakkara b Dilshan",
                     "runs": "4",
                     "balls": "8",
                     "minutes": "7",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "st Sangakkara b Herath",
+                    "dismissal": "st (wk)Sangakkara b Herath",
                     "runs": "23",
                     "balls": "44",
                     "minutes": "49",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Robin Peterson",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "16",
@@ -257,7 +257,7 @@
                     "strike_rate": "46.15"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Kleinveldt b Morkel",
                     "runs": "91",
                     "balls": "101",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 8 wickets (with 36 balls remaining)"
+    "result": "Sri Lanka won by 8 wickets (with 36 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Morne Morkel",
+            "Robin Peterson",
+            "Farhaan Behardien",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "Rory Kleinveldt",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ],
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Kumar Sangakkara (wk)",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Lasith Malinga",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Ajantha Mendis",
+            "Angelo Mathews (c)",
+            "Rangana Herath"
+        ]
+    }
 }

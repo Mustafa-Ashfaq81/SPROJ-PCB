@@ -50,8 +50,8 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
-                    "dismissal": "c Haddin b McKay",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "4",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Jeevan Mendis",
-                    "dismissal": "c Haddin b Starc",
+                    "dismissal": "c (wk)Haddin b Starc",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "18",
@@ -233,7 +233,7 @@
                     "strike_rate": "107.14"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c & b Fernando",
                     "runs": "31",
                     "balls": "44",
@@ -339,5 +339,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 170 balls remaining)"
+    "result": "Australia won by 8 wickets (with 170 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Suraj Randiv",
+            "Lasith Malinga",
+            "Jeevan Mendis",
+            "Mahela Jayawardene",
+            "Thisara Perera",
+            "Kumar Sangakkara(c) (wk)",
+            "Angelo Mathews",
+            "Upul Tharanga",
+            "Dilhara Fernando",
+            "Chamara Silva"
+        ],
+        "Australia": [
+            "Xavier Doherty",
+            "Shane Watson",
+            "Mitchell Johnson",
+            "Callum Ferguson",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Brad Haddin (wk)",
+            "Clint McKay",
+            "Cameron White",
+            "Michael Clarke(c)",
+            "Michael Hussey"
+        ]
+    }
 }

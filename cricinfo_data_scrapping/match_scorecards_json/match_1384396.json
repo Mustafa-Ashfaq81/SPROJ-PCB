@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Marnus Labuschagne",
-                    "dismissal": "c Rahul b Jadeja",
+                    "dismissal": "c (wk)Rahul b Jadeja",
                     "runs": "27",
                     "balls": "41",
                     "minutes": "58",
@@ -82,7 +82,7 @@
                     "strike_rate": "60.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "lbw b Jadeja",
                     "runs": "0",
                     "balls": "2",
@@ -279,7 +279,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "not out",
                     "runs": "97",
                     "balls": "115",
@@ -389,5 +389,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 52 balls remaining)"
+    "result": "India won by 6 wickets (with 52 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Marsh",
+            "Glenn Maxwell",
+            "Adam Zampa",
+            "Cameron Green",
+            "Pat Cummins(c)",
+            "Josh Hazlewood",
+            "Alex Carey (wk)",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Marnus Labuschagne",
+            "David Warner"
+        ],
+        "India": [
+            "KL Rahul (wk)",
+            "Ishan Kishan",
+            "Virat Kohli",
+            "Ravichandran Ashwin",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Hardik Pandya",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ]
+    }
 }

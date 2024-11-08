@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c McCullum b Butler",
+                    "dismissal": "c (wk)McCullum b Butler",
                     "runs": "20",
                     "balls": "23",
                     "minutes": "43",
@@ -50,7 +50,7 @@
                     "strike_rate": "86.95"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "84",
                     "balls": "89",
@@ -211,7 +211,7 @@
                     "strike_rate": "44.00"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Harbhajan Singh b Kumar",
                     "runs": "0",
                     "balls": "5",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Grant Elliott",
-                    "dismissal": "run out (Dhoni/Sehwag)",
+                    "dismissal": "run out ( (wk)Dhoni/Sehwag)",
                     "runs": "11",
                     "balls": "11",
                     "minutes": "20",
@@ -252,7 +252,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "c Dhoni b Yuvraj Singh",
+                    "dismissal": "c (wk)Dhoni b Yuvraj Singh",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Neil Broom",
-                    "dismissal": "st Dhoni b Harbhajan Singh",
+                    "dismissal": "st (wk)Dhoni b Harbhajan Singh",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "14",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "India won by 53 runs (D/L method)"
+    "result": "India won by 53 runs (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)",
+            "Zaheer Khan",
+            "Sachin Tendulkar",
+            "Praveen Kumar",
+            "Yuvraj Singh",
+            "Virender Sehwag",
+            "Yusuf Pathan",
+            "Harbhajan Singh",
+            "Munaf Patel"
+        ],
+        "New Zealand": [
+            "Grant Elliott",
+            "Brendon McCullum (wk)",
+            "Jacob Oram",
+            "Daniel Vettori(c)",
+            "Martin Guptill",
+            "Ian Butler",
+            "Neil Broom",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Iain O'Brien"
+        ]
+    }
 }

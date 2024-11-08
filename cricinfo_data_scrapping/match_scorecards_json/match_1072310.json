@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Steven Smith(c)",
-                    "dismissal": "c Buttler b Rashid",
+                    "dismissal": "c (wk)Buttler b Rashid",
                     "runs": "23",
                     "balls": "18",
                     "minutes": "41",
@@ -93,7 +93,7 @@
                     "strike_rate": "150.00"
                 },
                 {
-                    "batsman": "Tim Paine",
+                    "batsman": "Tim Paine (wk)",
                     "dismissal": "c Ali b Plunkett",
                     "runs": "27",
                     "balls": "31",
@@ -227,7 +227,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Paine b Starc",
+                    "dismissal": "c (wk)Paine b Starc",
                     "runs": "14",
                     "balls": "11",
                     "minutes": "22",
@@ -266,7 +266,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Starc b Stoinis",
                     "runs": "4",
                     "balls": "10",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "England won by 5 wickets (with 7 balls remaining)"
+    "result": "England won by 5 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Pat Cummins",
+            "Mitchell Marsh",
+            "Travis Head",
+            "Adam Zampa",
+            "Andrew Tye",
+            "Marcus Stoinis",
+            "Steven Smith(c)",
+            "Mitchell Starc",
+            "Tim Paine (wk)",
+            "David Warner",
+            "Aaron Finch"
+        ],
+        "England": [
+            "Moeen Ali",
+            "Chris Woakes",
+            "Jason Roy",
+            "Joe Root",
+            "Eoin Morgan(c)",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "Liam Plunkett",
+            "Mark Wood",
+            "Alex Hales",
+            "Adil Rashid"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "65",
                     "balls": "96",
                     "minutes": "158",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Sangakkara b Perera",
+                    "dismissal": "c (wk)Sangakkara b Perera",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "6",
@@ -83,8 +83,8 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "11",
                     "balls": "16",
                     "minutes": "26",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "run out (Udana/Sangakkara)",
+                    "dismissal": "run out (Udana/ (wk)Sangakkara)",
                     "runs": "21",
                     "balls": "15",
                     "minutes": "19",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Pragyan Ojha",
-                    "dismissal": "c Sangakkara b Mathews",
+                    "dismissal": "c (wk)Sangakkara b Mathews",
                     "runs": "5",
                     "balls": "18",
                     "minutes": "27",
@@ -237,7 +237,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Dhoni b Ashwin",
+                    "dismissal": "c (wk)Dhoni b Ashwin",
                     "runs": "50",
                     "balls": "49",
                     "minutes": "72",
@@ -256,7 +256,7 @@
                     "strike_rate": "60.00"
                 }
             ],
-            "did_not_bat": "Kumar Sangakkara , Mahela Jayawardene (c) , Angelo Mathews , Lahiru Thirimanne , Thisara Perera , Rangana Herath , Isuru Udana , Lasith Malinga",
+            "did_not_bat": "Kumar Sangakkara (wk) , Mahela Jayawardene (c) , Angelo Mathews , Lahiru Thirimanne , Thisara Perera , Rangana Herath , Isuru Udana , Lasith Malinga",
             "fall_of_wickets": "Fall of wickets : 1 - 119 ( Tillakaratne Dilshan , 16.4 ov )",
             "bowling": [
                 {
@@ -332,5 +332,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 181 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 181 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Pragyan Ojha",
+            "Zaheer Khan",
+            "Irfan Pathan",
+            "Suresh Raina",
+            "Ravichandran Ashwin",
+            "Virender Sehwag",
+            "Gautam Gambhir",
+            "Umesh Yadav",
+            "Virat Kohli",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)"
+        ],
+        "Sri Lanka": [
+            "Isuru Udana",
+            "Upul Tharanga",
+            "Mahela Jayawardene (c)",
+            "Tillakaratne Dilshan",
+            "Dinesh Chandimal",
+            "Thisara Perera",
+            "Lasith Malinga",
+            "Kumar Sangakkara (wk)",
+            "Rangana Herath",
+            "Angelo Mathews",
+            "Lahiru Thirimanne"
+        ]
+    }
 }

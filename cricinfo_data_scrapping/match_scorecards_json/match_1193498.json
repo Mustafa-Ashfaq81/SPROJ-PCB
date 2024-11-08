@@ -31,7 +31,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "lbw b Rashid Khan",
                     "runs": "43",
                     "balls": "77",
@@ -92,7 +92,7 @@
                 },
                 {
                     "batsman": "Jason Holder",
-                    "dismissal": "run out (Mujeeb Ur Rahman/Ikram Alikhil)",
+                    "dismissal": "run out (Mujeeb Ur Rahman/ (wk)Ikram Alikhil)",
                     "runs": "9",
                     "balls": "13",
                     "minutes": "-",
@@ -258,7 +258,7 @@
                     "strike_rate": "61.11"
                 },
                 {
-                    "batsman": "Ikram Alikhil",
+                    "batsman": "Ikram Alikhil (wk)",
                     "dismissal": "c Holder b Chase",
                     "runs": "19",
                     "balls": "36",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "Najibullah Zadran",
-                    "dismissal": "c Pooran b Cottrell",
+                    "dismissal": "c (wk)Pooran b Cottrell",
                     "runs": "56",
                     "balls": "66",
                     "minutes": "-",
@@ -299,7 +299,7 @@
                 },
                 {
                     "batsman": "Rashid Khan(c)",
-                    "dismissal": "st Pooran b Walsh",
+                    "dismissal": "st (wk)Pooran b Walsh",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "-",
@@ -442,5 +442,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 47 runs"
+    "result": "West Indies won by 47 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Hayden Walsh",
+            "Shimron Hetmyer",
+            "Jason Holder",
+            "Roston Chase",
+            "Alzarri Joseph",
+            "Nicholas Pooran",
+            "Kieron Pollard(c)",
+            "Romario Shepherd",
+            "Evin Lewis",
+            "Sheldon Cottrell",
+            "Shai Hope (wk)"
+        ],
+        "Afghanistan": [
+            "Hazratullah Zazai",
+            "Asghar Afghan",
+            "Rashid Khan(c)",
+            "Mujeeb Ur Rahman",
+            "Naveen-ul-Haq",
+            "Najibullah Zadran",
+            "Mohammad Nabi",
+            "Rahmat Shah",
+            "Javed Ahmadi",
+            "Sharafuddin Ashraf",
+            "Ikram Alikhil (wk)"
+        ]
+    }
 }

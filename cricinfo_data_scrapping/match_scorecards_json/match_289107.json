@@ -94,7 +94,7 @@
                     "strike_rate": "103.33"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "run out (de Villiers/Odoyo)",
                     "runs": "2",
                     "balls": "4",
@@ -281,7 +281,7 @@
                     "strike_rate": "62.50"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Jayasuriya",
                     "runs": "25",
                     "balls": "30",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Albie Morkel",
-                    "dismissal": "c Dhoni b Jayasuriya",
+                    "dismissal": "c (wk)Dhoni b Jayasuriya",
                     "runs": "9",
                     "balls": "11",
                     "minutes": "8",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Asia XI won by 34 runs"
+    "result": "Asia XI won by 34 runs",
+    "playing_xi": {
+        "Asia XI": [
+            "Mashrafe Mortaza",
+            "Mahela Jayawardene(c)",
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Mohammad Asif",
+            "Sanath Jayasuriya",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Mohammad Yousuf",
+            "Harbhajan Singh"
+        ],
+        "Africa XI": [
+            "AB de Villiers",
+            "Elton Chigumbura",
+            "Boeta Dippenaar",
+            "Justin Kemp(c)",
+            "Mark Boucher (wk)",
+            "Thomas Odoyo",
+            "Loots Bosman",
+            "Albie Morkel",
+            "Morne Morkel",
+            "Shaun Pollock",
+            "Steve Tikolo"
+        ]
+    }
 }

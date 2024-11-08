@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Graeme Smith",
-                    "dismissal": "c Kieswetter b Bresnan",
+                    "dismissal": "c (wk)Kieswetter b Bresnan",
                     "runs": "52",
                     "balls": "76",
                     "minutes": "82",
@@ -70,7 +70,7 @@
                     "strike_rate": "53.57"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "b Swann",
                     "runs": "28",
                     "balls": "29",
@@ -247,7 +247,7 @@
                     "strike_rate": "56.25"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
+                    "batsman": "Craig Kieswetter (wk)",
                     "dismissal": "c Smith b Elgar",
                     "runs": "20",
                     "balls": "20",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Samit Patel",
-                    "dismissal": "c de Villiers b Morkel",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "45",
                     "balls": "51",
                     "minutes": "75",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Tim Bresnan",
-                    "dismissal": "c de Villiers b Parnell",
+                    "dismissal": "c (wk)de Villiers b Parnell",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "3",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Graeme Swann",
-                    "dismissal": "c de Villiers b Parnell",
+                    "dismissal": "c (wk)de Villiers b Parnell",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "James Anderson",
-                    "dismissal": "run out (de Villiers/Peterson)",
+                    "dismissal": "run out ( (wk)de Villiers/Peterson)",
                     "runs": "5",
                     "balls": "13",
                     "minutes": "14",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 80 runs"
+    "result": "South Africa won by 80 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Dean Elgar",
+            "Wayne Parnell",
+            "Lonwabo Tsotsobe",
+            "Robin Peterson",
+            "Hashim Amla",
+            "AB de Villiers(c) (wk)",
+            "Faf du Plessis",
+            "Ryan McLaren",
+            "Graeme Smith",
+            "Morne Morkel",
+            "Jean-Paul Duminy"
+        ],
+        "England": [
+            "James Anderson",
+            "Eoin Morgan",
+            "Alastair Cook(c)",
+            "Tim Bresnan",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Samit Patel",
+            "Graeme Swann",
+            "Craig Kieswetter (wk)",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

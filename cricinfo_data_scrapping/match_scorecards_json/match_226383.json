@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Boucher b Kruger",
+                    "dismissal": "c (wk)Boucher b Kruger",
                     "runs": "16",
                     "balls": "18",
                     "minutes": "23",
@@ -52,7 +52,7 @@
                     "strike_rate": "88.40"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Smith b Pollock",
                     "runs": "88",
                     "balls": "109",
@@ -240,7 +240,7 @@
                 },
                 {
                     "batsman": "Herschelle Gibbs",
-                    "dismissal": "run out (Perera/Sangakkara/Kulasekara)",
+                    "dismissal": "run out (Perera/ (wk)Sangakkara/Kulasekara)",
                     "runs": "7",
                     "balls": "16",
                     "minutes": "32",
@@ -259,7 +259,7 @@
                     "strike_rate": "65.90"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Dilshan b Bandara",
                     "runs": "62",
                     "balls": "71",
@@ -423,5 +423,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 94 runs"
+    "result": "Sri Lanka won by 94 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Nuwan Kulasekara",
+            "Ruchira Perera",
+            "Jehan Mubarak",
+            "Chaminda Vaas"
+        ],
+        "South Africa": [
+            "Shaun Pollock",
+            "Graeme Smith(c)",
+            "Justin Kemp",
+            "Boeta Dippenaar",
+            "Johan Botha",
+            "Herschelle Gibbs",
+            "Jacques Rudolph",
+            "Ashwell Prince",
+            "Andrew Hall",
+            "Mark Boucher (wk)",
+            "Garnett Kruger"
+        ]
+    }
 }

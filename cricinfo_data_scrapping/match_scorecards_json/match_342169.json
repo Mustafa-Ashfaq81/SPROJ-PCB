@@ -40,7 +40,7 @@
                 },
                 {
                     "batsman": "Thushara Kurukulasuriya",
-                    "dismissal": "c Smith b Drummond",
+                    "dismissal": "c (wk)Smith b Drummond",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "6",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Alessandro Bonora",
-                    "dismissal": "run out (Maiden/Smith)",
+                    "dismissal": "run out (Maiden/ (wk)Smith)",
                     "runs": "28",
                     "balls": "59",
                     "minutes": "80",
@@ -60,7 +60,7 @@
                 },
                 {
                     "batsman": "Peter Petricola",
-                    "dismissal": "c Smith b Blain",
+                    "dismissal": "c (wk)Smith b Blain",
                     "runs": "2",
                     "balls": "7",
                     "minutes": "10",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Joe Scuderi(c)",
-                    "dismissal": "c Smith b Blain",
+                    "dismissal": "c (wk)Smith b Blain",
                     "runs": "4",
                     "balls": "3",
                     "minutes": "7",
@@ -89,8 +89,8 @@
                     "strike_rate": "26.92"
                 },
                 {
-                    "batsman": "Nic Northcote",
-                    "dismissal": "c Smith b Rogers",
+                    "batsman": "Nic Northcote (wk)",
+                    "dismissal": "c (wk)Smith b Rogers",
                     "runs": "0",
                     "balls": "9",
                     "minutes": "10",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Kelum Perera",
-                    "dismissal": "c Smith b Haq",
+                    "dismissal": "c (wk)Smith b Haq",
                     "runs": "5",
                     "balls": "32",
                     "minutes": "28",
@@ -130,7 +130,7 @@
                 },
                 {
                     "batsman": "Alauddin",
-                    "dismissal": "c Smith b Drummond",
+                    "dismissal": "c (wk)Smith b Drummond",
                     "runs": "21",
                     "balls": "44",
                     "minutes": "42",
@@ -266,7 +266,7 @@
                     "strike_rate": "86.84"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "c sub (D Sarnelli) b Jayasena",
                     "runs": "33",
                     "balls": "28",
@@ -372,5 +372,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 6 wickets (with 126 balls remaining)"
+    "result": "Scotland won by 6 wickets (with 126 balls remaining)",
+    "playing_xi": {
+        "Italy": [
+            "Vince Pennazza",
+            "Alauddin",
+            "Hemantha Jayasena",
+            "Alessandro Bonora",
+            "Thushara Kurukulasuriya",
+            "Kelum Perera",
+            "Nic Northcote (wk)",
+            "Peter Petricola",
+            "Gayashan de Silva",
+            "Joe Scuderi(c)",
+            "Andy Northcote"
+        ],
+        "Scotland": [
+            "Glenn Rogers",
+            "Ryan Watson(c)",
+            "Omer Hussain",
+            "Richie Berrington",
+            "Colin Smith (wk)",
+            "Qasim Sheikh",
+            "Gordon Drummond",
+            "John Blain",
+            "Majid Haq",
+            "Neil McCallum",
+            "Gregor Maiden"
+        ]
+    }
 }

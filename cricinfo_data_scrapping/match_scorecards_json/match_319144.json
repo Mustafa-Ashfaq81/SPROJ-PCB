@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Shaun Marsh",
-                    "dismissal": "c Browne b Powell",
+                    "dismissal": "c (wk)Browne b Powell",
                     "runs": "12",
                     "balls": "22",
                     "minutes": "23",
@@ -103,7 +103,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Luke Ronchi , Brett Lee , Mitchell Johnson , Nathan Bracken",
+            "did_not_bat": "Luke Ronchi (wk) , Brett Lee , Mitchell Johnson , Nathan Bracken",
             "fall_of_wickets": "Fall of wickets : 1 - 3 ( Shane Watson , 0.6 ov ) , 2 - 19 ( Shaun Marsh , 5.1 ov ) , 3 - 35 ( Ricky Ponting , 8.6 ov ) , 4 - 135 ( Michael Clarke , 37.6 ov ) , 5 - 175 ( Michael Hussey , 44.6 ov )",
             "bowling": [
                 {
@@ -215,7 +215,7 @@
             "batting": [
                 {
                     "batsman": "Xavier Marshall",
-                    "dismissal": "c Ronchi b Lee",
+                    "dismissal": "c (wk)Ronchi b Lee",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -264,7 +264,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Patrick Browne",
+                    "batsman": "Patrick Browne (wk)",
                     "dismissal": "c White b Clarke",
                     "runs": "1",
                     "balls": "18",
@@ -404,5 +404,33 @@
             ]
         }
     ],
-    "result": "Australia won by 63 runs (D/L method)"
+    "result": "Australia won by 63 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Ricky Ponting(c)",
+            "Luke Ronchi (wk)",
+            "Michael Hussey",
+            "Shaun Marsh",
+            "Shane Watson",
+            "Nathan Bracken",
+            "Michael Clarke",
+            "Cameron White",
+            "Brett Lee",
+            "Mitchell Johnson",
+            "James Hopes"
+        ],
+        "West Indies": [
+            "Daren Powell",
+            "Patrick Browne (wk)",
+            "Kieron Pollard",
+            "Daren Sammy",
+            "Xavier Marshall",
+            "Shivnarine Chanderpaul",
+            "Andre Fletcher",
+            "Sulieman Benn",
+            "Dwayne Bravo",
+            "Chris Gayle(c)",
+            "Jerome Taylor"
+        ]
+    }
 }

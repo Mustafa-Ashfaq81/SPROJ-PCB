@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Avishka Fernando",
-                    "dismissal": "c Sarfaraz Ahmed b Mohammad Amir",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Mohammad Amir",
                     "runs": "4",
                     "balls": "6",
                     "minutes": "-",
@@ -73,8 +73,8 @@
                     "strike_rate": "52.00"
                 },
                 {
-                    "batsman": "Minod Bhanuka",
-                    "dismissal": "run out (Mohammad Nawaz/Sarfaraz Ahmed)",
+                    "batsman": "Minod Bhanuka (wk)",
+                    "dismissal": "run out (Mohammad Nawaz/ (wk)Sarfaraz Ahmed)",
                     "runs": "36",
                     "balls": "39",
                     "minutes": "-",
@@ -260,7 +260,7 @@
                     "strike_rate": "119.23"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "b Kumara",
                     "runs": "23",
                     "balls": "33",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 5 wickets (with 10 balls remaining)"
+    "result": "Pakistan won by 5 wickets (with 10 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Wanindu Hasaranga",
+            "Nuwan Pradeep",
+            "Shehan Jayasuriya",
+            "Lakshan Sandakan",
+            "Minod Bhanuka (wk)",
+            "Angelo Perera",
+            "Avishka Fernando",
+            "Lahiru Thirimanne(c)",
+            "Danushka Gunathilaka",
+            "Lahiru Kumara",
+            "Dasun Shanaka"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Wahab Riaz",
+            "Haris Sohail",
+            "Shadab Khan",
+            "Babar Azam",
+            "Usman Shinwari",
+            "Abid Ali",
+            "Mohammad Nawaz",
+            "Mohammad Amir",
+            "Iftikhar Ahmed"
+        ]
+    }
 }

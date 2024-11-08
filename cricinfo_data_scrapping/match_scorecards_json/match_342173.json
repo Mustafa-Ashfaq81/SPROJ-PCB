@@ -57,7 +57,7 @@
                     "strike_rate": "26.22"
                 },
                 {
-                    "batsman": "Munawar Ahmed",
+                    "batsman": "Munawar Ahmed (wk)",
                     "dismissal": "lbw b Yasir Iqbal",
                     "runs": "29",
                     "balls": "44",
@@ -68,7 +68,7 @@
                 },
                 {
                     "batsman": "Shahid Ahmed(c)",
-                    "dismissal": "c Klokker b Bashir Shah",
+                    "dismissal": "c (wk)Klokker b Bashir Shah",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "7",
@@ -78,7 +78,7 @@
                 },
                 {
                     "batsman": "Zeeshan Ali",
-                    "dismissal": "c Klokker b Chawla",
+                    "dismissal": "c (wk)Klokker b Chawla",
                     "runs": "27",
                     "balls": "30",
                     "minutes": "41",
@@ -234,7 +234,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Freddie Klokker(c)",
+                    "batsman": "Freddie Klokker(c) (wk)",
                     "dismissal": "not out",
                     "runs": "119",
                     "balls": "125",
@@ -378,5 +378,33 @@
             ]
         }
     ],
-    "result": "Denmark won by 8 wickets (with 72 balls remaining)"
+    "result": "Denmark won by 8 wickets (with 72 balls remaining)",
+    "playing_xi": {
+        "Norway": [
+            "Safir Hayat",
+            "Shahid Ahmed(c)",
+            "Adeel Ibrar",
+            "Ehtsham Ul Haq",
+            "Zeeshan Siddiqui",
+            "Munawar Ahmed (wk)",
+            "Muhammad Butt",
+            "Zeeshan Ali",
+            "Khalid Khurram",
+            "Sameer Sachdev",
+            "Zaheer Ashiq"
+        ],
+        "Denmark": [
+            "Bashir Shah",
+            "Max Overgaard",
+            "Michael Pedersen",
+            "Soren Vestergaard",
+            "Bobby Chawla",
+            "Yasir Iqbal",
+            "Carsten Pedersen",
+            "David Borchersen",
+            "Freddie Klokker(c) (wk)",
+            "Morten Hedegaard",
+            "Lars Hedegaard"
+        ]
+    }
 }

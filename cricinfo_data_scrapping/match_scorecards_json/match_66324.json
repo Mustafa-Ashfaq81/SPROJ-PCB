@@ -42,7 +42,7 @@
                     "strike_rate": "79.16"
                 },
                 {
-                    "batsman": "Romesh Kaluwitharana",
+                    "batsman": "Romesh Kaluwitharana (wk)",
                     "dismissal": "c Sodhi b Yuvraj Singh",
                     "runs": "46",
                     "balls": "97",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Dighe b Badani",
+                    "dismissal": "c (wk)Dighe b Badani",
                     "runs": "5",
                     "balls": "11",
                     "minutes": "13",
@@ -103,7 +103,7 @@
                 },
                 {
                     "batsman": "Kumar Sangakkara",
-                    "dismissal": "run out (Dravid/Dighe)",
+                    "dismissal": "run out (Dravid/ (wk)Dighe)",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "15",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Kumar Dharmasena",
-                    "dismissal": "c Dighe b Khan",
+                    "dismissal": "c (wk)Dighe b Khan",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -284,7 +284,7 @@
                 },
                 {
                     "batsman": "Rahul Dravid(c)",
-                    "dismissal": "c Kaluwitharana b Vaas",
+                    "dismissal": "c (wk)Kaluwitharana b Vaas",
                     "runs": "43",
                     "balls": "79",
                     "minutes": "86",
@@ -303,7 +303,7 @@
                     "strike_rate": "40.74"
                 }
             ],
-            "did_not_bat": "Yuvraj Singh , Reetinder Sodhi , Sameer Dighe , Harbhajan Singh , Zaheer Khan , Ashish Nehra",
+            "did_not_bat": "Yuvraj Singh , Reetinder Sodhi , Sameer Dighe (wk) , Harbhajan Singh , Zaheer Khan , Ashish Nehra",
             "fall_of_wickets": "Fall of wickets : 1 - 1 ( Amay Khurasiya , 0.2 ov ) , 2 - 67 ( Virender Sehwag , 13.3 ov ) , 3 - 151 ( Rahul Dravid , 37.1 ov )",
             "bowling": [
                 {
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "India won by 7 wickets (with 26 balls remaining)"
+    "result": "India won by 7 wickets (with 26 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Romesh Kaluwitharana (wk)",
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Chaminda Vaas",
+            "Suresh Perera",
+            "Kumar Dharmasena",
+            "Dilhara Fernando",
+            "Kumar Sangakkara",
+            "Sanath Jayasuriya(c)"
+        ],
+        "India": [
+            "Virender Sehwag",
+            "Amay Khurasiya",
+            "Ashish Nehra",
+            "VVS Laxman",
+            "Yuvraj Singh",
+            "Zaheer Khan",
+            "Hemang Badani",
+            "Rahul Dravid(c)",
+            "Reetinder Sodhi",
+            "Harbhajan Singh",
+            "Sameer Dighe (wk)"
+        ]
+    }
 }

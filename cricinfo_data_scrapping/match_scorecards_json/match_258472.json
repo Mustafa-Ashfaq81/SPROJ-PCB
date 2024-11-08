@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Prior b Flintoff",
+                    "dismissal": "c (wk)Prior b Flintoff",
                     "runs": "99",
                     "balls": "112",
                     "minutes": "158",
@@ -70,7 +70,7 @@
                     "strike_rate": "146.03"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "c Tremlett b Anderson",
                     "runs": "21",
                     "balls": "18",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Ajit Agarkar",
-                    "dismissal": "c Prior b Flintoff",
+                    "dismissal": "c (wk)Prior b Flintoff",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "2",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ramesh Powar",
-                    "dismissal": "c Prior b Flintoff",
+                    "dismissal": "c (wk)Prior b Flintoff",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "2",
@@ -232,7 +232,7 @@
             "batting": [
                 {
                     "batsman": "Alastair Cook",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "36",
                     "balls": "41",
                     "minutes": "51",
@@ -241,7 +241,7 @@
                     "strike_rate": "87.80"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c Dravid b Patel",
                     "runs": "33",
                     "balls": "28",
@@ -421,5 +421,33 @@
             ]
         }
     ],
-    "result": "India won by 9 runs"
+    "result": "India won by 9 runs",
+    "playing_xi": {
+        "India": [
+            "Dinesh Karthik",
+            "Munaf Patel",
+            "Ramesh Powar",
+            "Piyush Chawla",
+            "Ajit Agarkar",
+            "MS Dhoni (wk)",
+            "Sourav Ganguly",
+            "Sachin Tendulkar",
+            "Rahul Dravid(c)",
+            "Yuvraj Singh",
+            "RP Singh"
+        ],
+        "England": [
+            "James Anderson",
+            "Stuart Broad",
+            "Andrew Flintoff",
+            "Paul Collingwood(c)",
+            "Kevin Pietersen",
+            "Chris Tremlett",
+            "Dimitri Mascarenhas",
+            "Ravi Bopara",
+            "Alastair Cook",
+            "Matt Prior (wk)",
+            "Ian Bell"
+        ]
+    }
 }

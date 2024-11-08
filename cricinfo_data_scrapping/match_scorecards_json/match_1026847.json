@@ -35,8 +35,8 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Christopher Carter",
-                    "dismissal": "c D Bau b Vanua",
+                    "batsman": "Christopher Carter (wk)",
+                    "dismissal": "c (wk)D Bau b Vanua",
                     "runs": "16",
                     "balls": "18",
                     "minutes": "-",
@@ -96,7 +96,7 @@
                 },
                 {
                     "batsman": "Ehsan Khan",
-                    "dismissal": "c D Bau b Dai",
+                    "dismissal": "c (wk)D Bau b Dai",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "-",
@@ -106,7 +106,7 @@
                 },
                 {
                     "batsman": "Tanwir Afzal",
-                    "dismissal": "st D Bau b Vala",
+                    "dismissal": "st (wk)D Bau b Vala",
                     "runs": "47",
                     "balls": "32",
                     "minutes": "-",
@@ -287,7 +287,7 @@
                 },
                 {
                     "batsman": "Assad Vala(c)",
-                    "dismissal": "c Carter b Ehsan Khan",
+                    "dismissal": "c (wk)Carter b Ehsan Khan",
                     "runs": "43",
                     "balls": "41",
                     "minutes": "-",
@@ -306,7 +306,7 @@
                     "strike_rate": "53.33"
                 },
                 {
-                    "batsman": "Dogodo Bau",
+                    "batsman": "Dogodo Bau (wk)",
                     "dismissal": "run out (Shahid Wasif)",
                     "runs": "34",
                     "balls": "45",
@@ -317,7 +317,7 @@
                 },
                 {
                     "batsman": "Mahuru Dai",
-                    "dismissal": "st Carter b Anshuman Rath",
+                    "dismissal": "st (wk)Carter b Anshuman Rath",
                     "runs": "2",
                     "balls": "8",
                     "minutes": "-",
@@ -456,5 +456,33 @@
             ]
         }
     ],
-    "result": "Hong Kong won by 106 runs"
+    "result": "Hong Kong won by 106 runs",
+    "playing_xi": {
+        "Hong Kong": [
+            "Tanveer Ahmed",
+            "Anshy Rath",
+            "Aizaz Khan",
+            "Shahid Wasif",
+            "Tanwir Afzal",
+            "Babar Hayat(c)",
+            "Ehsan Khan",
+            "Nadeem Ahmed",
+            "Nizakat Khan",
+            "Kinchit Shah",
+            "Christopher Carter (wk)"
+        ],
+        "Papua New Guinea": [
+            "Chad Soper",
+            "Dogodo Bau (wk)",
+            "Hiri Hiri",
+            "Willie Gavera",
+            "Norman Vanua",
+            "Sese Bau",
+            "Vani Morea",
+            "Assad Vala(c)",
+            "Mahuru Dai",
+            "Lega Siaka",
+            "Tony Ura"
+        ]
+    }
 }

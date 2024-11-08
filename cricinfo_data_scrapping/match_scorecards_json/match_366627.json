@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c McGlashan b Butler",
+                    "dismissal": "c (wk)McGlashan b Butler",
                     "runs": "15",
                     "balls": "27",
                     "minutes": "46",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c McGlashan b Elliott",
+                    "dismissal": "c (wk)McGlashan b Elliott",
                     "runs": "87",
                     "balls": "60",
                     "minutes": "82",
@@ -70,8 +70,8 @@
                     "strike_rate": "145.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
-                    "dismissal": "c McGlashan b Mills",
+                    "batsman": "MS Dhoni(c) (wk)",
+                    "dismissal": "c (wk)McGlashan b Mills",
                     "runs": "68",
                     "balls": "58",
                     "minutes": "76",
@@ -222,7 +222,7 @@
                 },
                 {
                     "batsman": "Brendon McCullum(c)",
-                    "dismissal": "run out (Raina/Dhoni)",
+                    "dismissal": "run out (Raina/ (wk)Dhoni)",
                     "runs": "71",
                     "balls": "68",
                     "minutes": "88",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "run out (Yuvraj Singh/Dhoni)",
+                    "dismissal": "run out (Yuvraj Singh/ (wk)Dhoni)",
                     "runs": "7",
                     "balls": "6",
                     "minutes": "9",
@@ -271,7 +271,7 @@
                     "strike_rate": "63.63"
                 },
                 {
-                    "batsman": "Peter McGlashan",
+                    "batsman": "Peter McGlashan (wk)",
                     "dismissal": "b Khan",
                     "runs": "7",
                     "balls": "9",
@@ -411,5 +411,33 @@
             ]
         }
     ],
-    "result": "India won by 58 runs"
+    "result": "India won by 58 runs",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)",
+            "Zaheer Khan",
+            "Sachin Tendulkar",
+            "Praveen Kumar",
+            "Yuvraj Singh",
+            "Virender Sehwag",
+            "Yusuf Pathan",
+            "Harbhajan Singh",
+            "Munaf Patel"
+        ],
+        "New Zealand": [
+            "Brendon McCullum(c)",
+            "Grant Elliott",
+            "Jacob Oram",
+            "Jeetan Patel",
+            "Tim Southee",
+            "Martin Guptill",
+            "Ian Butler",
+            "Kyle Mills",
+            "Ross Taylor",
+            "Jesse Ryder",
+            "Peter McGlashan (wk)"
+        ]
+    }
 }

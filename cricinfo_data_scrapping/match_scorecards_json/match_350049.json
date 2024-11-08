@@ -43,8 +43,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Tim Paine",
-                    "dismissal": "c Prior b Onions",
+                    "batsman": "Tim Paine (wk)",
+                    "dismissal": "c (wk)Prior b Onions",
                     "runs": "4",
                     "balls": "5",
                     "minutes": "-",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Joe Denly",
-                    "dismissal": "run out (Paine/Ponting)",
+                    "dismissal": "run out ( (wk)Paine/Ponting)",
                     "runs": "53",
                     "balls": "78",
                     "minutes": "-",
@@ -285,7 +285,7 @@
                 },
                 {
                     "batsman": "Owais Shah",
-                    "dismissal": "c Paine b Hopes",
+                    "dismissal": "c (wk)Paine b Hopes",
                     "runs": "7",
                     "balls": "8",
                     "minutes": "-",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Eoin Morgan",
-                    "dismissal": "c Paine b Lee",
+                    "dismissal": "c (wk)Paine b Lee",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "-",
@@ -314,7 +314,7 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Matt Prior",
+                    "batsman": "Matt Prior (wk)",
                     "dismissal": "c Ponting b Hilfenhaus",
                     "runs": "11",
                     "balls": "14",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 60 balls remaining)"
+    "result": "England won by 4 wickets (with 60 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Johnson",
+            "Cameron White",
+            "James Hopes",
+            "Ricky Ponting(c)",
+            "Michael Hussey",
+            "Michael Clarke",
+            "Nathan Hauritz",
+            "Ben Hilfenhaus",
+            "Tim Paine (wk)",
+            "Shane Watson",
+            "Brett Lee"
+        ],
+        "England": [
+            "Joe Denly",
+            "Eoin Morgan",
+            "Graeme Swann",
+            "James Anderson",
+            "Tim Bresnan",
+            "Graham Onions",
+            "Matt Prior (wk)",
+            "Ravi Bopara",
+            "Paul Collingwood",
+            "Andrew Strauss(c)",
+            "Owais Shah"
+        ]
+    }
 }

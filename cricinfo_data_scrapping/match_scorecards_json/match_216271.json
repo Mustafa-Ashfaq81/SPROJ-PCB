@@ -85,7 +85,7 @@
                 },
                 {
                     "batsman": "Steve Tikolo",
-                    "dismissal": "c Sangakkara b Nehra",
+                    "dismissal": "c (wk)Sangakkara b Nehra",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "5",
@@ -94,7 +94,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "lbw b Muralidaran",
                     "runs": "42",
                     "balls": "59",
@@ -115,7 +115,7 @@
                 },
                 {
                     "batsman": "Nicky Boje",
-                    "dismissal": "c Sangakkara b Shahid Afridi",
+                    "dismissal": "c (wk)Sangakkara b Shahid Afridi",
                     "runs": "3",
                     "balls": "13",
                     "minutes": "12",
@@ -255,7 +255,7 @@
             "extras": "22",
             "batting": [
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Kallis",
                     "runs": "35",
                     "balls": "80",
@@ -266,7 +266,7 @@
                 },
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "21",
                     "balls": "26",
                     "minutes": "44",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "4",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Boucher b Kallis",
+                    "dismissal": "c (wk)Boucher b Kallis",
                     "runs": "13",
                     "balls": "10",
                     "minutes": "23",
@@ -316,7 +316,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "c Boucher b Boje",
+                    "dismissal": "c (wk)Boucher b Boje",
                     "runs": "38",
                     "balls": "77",
                     "minutes": "95",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "Africa XI won by 2 runs"
+    "result": "Africa XI won by 2 runs",
+    "playing_xi": {
+        "Africa XI": [
+            "Jacques Kallis",
+            "Justin Ontong",
+            "Justin Kemp",
+            "Nicky Boje",
+            "Dale Steyn",
+            "Shaun Pollock(c)",
+            "Mark Boucher (wk)",
+            "Boeta Dippenaar",
+            "Ashwell Prince",
+            "Steve Tikolo",
+            "AB de Villiers"
+        ],
+        "Asia XI": [
+            "Shoaib Akhtar",
+            "Virender Sehwag",
+            "Ashish Nehra",
+            "Mohammad Yousuf",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Ashraful",
+            "Abdul Razzaq",
+            "Shahid Afridi",
+            "Anil Kumble",
+            "Kumar Sangakkara (wk)",
+            "Zaheer Khan"
+        ]
+    }
 }

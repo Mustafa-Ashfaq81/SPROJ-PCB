@@ -30,7 +30,7 @@
             "extras": "21",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Lara b Samuels",
                     "runs": "64",
                     "balls": "66",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Gilchrist b Lee",
+                    "dismissal": "c (wk)Gilchrist b Lee",
                     "runs": "18",
                     "balls": "21",
                     "minutes": "-",
@@ -311,7 +311,7 @@
                     "strike_rate": "16.66"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "c Maher b Bichel",
                     "runs": "8",
                     "balls": "12",
@@ -445,5 +445,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 3 wickets (with 8 balls remaining)"
+    "result": "West Indies won by 3 wickets (with 8 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Andy Bichel",
+            "Darren Lehmann",
+            "Adam Gilchrist (wk)",
+            "Jimmy Maher",
+            "Andrew Symonds",
+            "Nathan Hauritz",
+            "Jason Gillespie",
+            "Matthew Hayden",
+            "Brett Lee"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Brian Lara(c)",
+            "Vasbert Drakes",
+            "David Bernard"
+        ]
+    }
 }

@@ -60,7 +60,7 @@
                     "strike_rate": "68.85"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "c Bell b Tredwell",
                     "runs": "28",
                     "balls": "31",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Wayne Parnell",
-                    "dismissal": "c Kieswetter b Dernbach",
+                    "dismissal": "c (wk)Kieswetter b Dernbach",
                     "runs": "13",
                     "balls": "8",
                     "minutes": "6",
@@ -244,7 +244,7 @@
                 },
                 {
                     "batsman": "Jonathan Trott",
-                    "dismissal": "c de Villiers b Parnell",
+                    "dismissal": "c (wk)de Villiers b Parnell",
                     "runs": "71",
                     "balls": "125",
                     "minutes": "200",
@@ -254,7 +254,7 @@
                 },
                 {
                     "batsman": "Ravi Bopara",
-                    "dismissal": "c de Villiers b Morkel",
+                    "dismissal": "c (wk)de Villiers b Morkel",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "7",
@@ -273,8 +273,8 @@
                     "strike_rate": "108.95"
                 },
                 {
-                    "batsman": "Craig Kieswetter",
-                    "dismissal": "run out (Parnell/de Villiers)",
+                    "batsman": "Craig Kieswetter (wk)",
+                    "dismissal": "run out (Parnell/ (wk)de Villiers)",
                     "runs": "14",
                     "balls": "18",
                     "minutes": "16",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "England won by 4 wickets (with 12 balls remaining)"
+    "result": "England won by 4 wickets (with 12 balls remaining)",
+    "playing_xi": {
+        "South Africa": [
+            "Dean Elgar",
+            "Wayne Parnell",
+            "Lonwabo Tsotsobe",
+            "Robin Peterson",
+            "Dale Steyn",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "AB de Villiers(c) (wk)",
+            "Graeme Smith",
+            "Morne Morkel",
+            "Jean-Paul Duminy"
+        ],
+        "England": [
+            "James Anderson",
+            "Eoin Morgan",
+            "James Tredwell",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Jade Dernbach",
+            "Samit Patel",
+            "Craig Kieswetter (wk)",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

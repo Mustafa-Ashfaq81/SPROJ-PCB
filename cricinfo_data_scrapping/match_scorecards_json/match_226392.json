@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Jamie How",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "5",
                     "balls": "5",
                     "minutes": "12",
@@ -103,7 +103,7 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Arnold b Vaas",
                     "runs": "1",
                     "balls": "4",
@@ -227,7 +227,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c McCullum b Franklin",
+                    "dismissal": "c (wk)McCullum b Franklin",
                     "runs": "9",
                     "balls": "12",
                     "minutes": "10",
@@ -246,7 +246,7 @@
                     "strike_rate": "63.09"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Cairns",
                     "runs": "52",
                     "balls": "46",
@@ -257,7 +257,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c McCullum b Franklin",
+                    "dismissal": "c (wk)McCullum b Franklin",
                     "runs": "12",
                     "balls": "15",
                     "minutes": "18",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 21 runs"
+    "result": "New Zealand won by 21 runs",
+    "playing_xi": {
+        "New Zealand": [
+            "Lou Vincent",
+            "Chris Cairns",
+            "James Franklin",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Shane Bond",
+            "Jamie How",
+            "Scott Styris",
+            "Peter Fulton",
+            "Daniel Vettori",
+            "Hamish Marshall"
+        ],
+        "Sri Lanka": [
+            "Marvan Atapattu(c)",
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Dilhara Fernando",
+            "Upul Tharanga",
+            "Mahela Jayawardene",
+            "Jehan Mubarak",
+            "Chaminda Vaas",
+            "Farveez Maharoof",
+            "Malinga Bandara"
+        ]
+    }
 }

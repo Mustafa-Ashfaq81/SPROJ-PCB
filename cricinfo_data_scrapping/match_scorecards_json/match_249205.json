@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Shahriar Nafees",
-                    "dismissal": "c Taylor b Mahwire",
+                    "dismissal": "c (wk)Taylor b Mahwire",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Mohammad Ashraful",
-                    "dismissal": "c Taylor b Masakadza",
+                    "dismissal": "c (wk)Taylor b Masakadza",
                     "runs": "46",
                     "balls": "54",
                     "minutes": "54",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Farhad Reza",
-                    "dismissal": "run out (Sibanda/Taylor)",
+                    "dismissal": "run out (Sibanda/ (wk)Taylor)",
                     "runs": "15",
                     "balls": "26",
                     "minutes": "31",
@@ -93,7 +93,7 @@
                     "strike_rate": "57.69"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "run out (Masakadza/Mahwire)",
                     "runs": "11",
                     "balls": "33",
@@ -134,7 +134,7 @@
                 },
                 {
                     "batsman": "Shahadat Hossain",
-                    "dismissal": "st Taylor b Masakadza",
+                    "dismissal": "st (wk)Taylor b Masakadza",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "12",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Terry Duffin",
-                    "dismissal": "st Khaled Mashud b Rajin Saleh",
+                    "dismissal": "st (wk)Khaled Mashud b Rajin Saleh",
                     "runs": "48",
                     "balls": "81",
                     "minutes": "124",
@@ -270,7 +270,7 @@
                     "strike_rate": "69.09"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "not out",
                     "runs": "79",
                     "balls": "72",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Tafadzwa Mufambisi",
-                    "dismissal": "c Khaled Mashud b Shahadat Hossain",
+                    "dismissal": "c (wk)Khaled Mashud b Shahadat Hossain",
                     "runs": "8",
                     "balls": "19",
                     "minutes": "23",
@@ -311,7 +311,7 @@
                 },
                 {
                     "batsman": "Prosper Utseya(c)",
-                    "dismissal": "c Khaled Mashud b Shahadat Hossain",
+                    "dismissal": "c (wk)Khaled Mashud b Shahadat Hossain",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 2 wickets (with 0 balls remaining)"
+    "result": "Zimbabwe won by 2 wickets (with 0 balls remaining)",
+    "playing_xi": {
+        "Bangladesh": [
+            "Khaled Mashud(c) (wk)",
+            "Rajin Saleh",
+            "Aftab Ahmed",
+            "Farhad Reza",
+            "Mohammad Ashraful",
+            "Javed Omer",
+            "Mashrafe Mortaza",
+            "Abdur Razzak",
+            "Shahriar Nafees",
+            "Mohammad Rafique",
+            "Shahadat Hossain"
+        ],
+        "Zimbabwe": [
+            "Stuart Matsikenyeri",
+            "Hamilton Masakadza",
+            "Prosper Utseya(c)",
+            "Tawanda Mupariwa",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Terry Duffin",
+            "Anthony Ireland",
+            "Blessing Mahwire",
+            "Tafadzwa Mufambisi",
+            "Vusi Sibanda"
+        ]
+    }
 }

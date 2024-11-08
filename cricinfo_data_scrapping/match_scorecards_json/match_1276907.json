@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Jonny Bairstow",
-                    "dismissal": "c Pant b Bumrah",
+                    "dismissal": "c (wk)Pant b Bumrah",
                     "runs": "7",
                     "balls": "20",
                     "minutes": "30",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Pant b Bumrah",
+                    "dismissal": "c (wk)Pant b Bumrah",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ben Stokes",
-                    "dismissal": "c Pant b Mohammed Shami",
+                    "dismissal": "c (wk)Pant b Mohammed Shami",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "4",
@@ -70,7 +70,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Jos Buttler(c)",
+                    "batsman": "Jos Buttler(c) (wk)",
                     "dismissal": "c Yadav b Mohammed Shami",
                     "runs": "30",
                     "balls": "32",
@@ -243,7 +243,7 @@
                     "strike_rate": "57.40"
                 }
             ],
-            "did_not_bat": "Shreyas Iyer , Suryakumar Yadav , Rishabh Pant , Hardik Pandya , Ravindra Jadeja , Mohammed Shami , Jasprit Bumrah , Yuzvendra Chahal , Prasidh Krishna",
+            "did_not_bat": "Shreyas Iyer , Suryakumar Yadav , Rishabh Pant (wk) , Hardik Pandya , Ravindra Jadeja , Mohammed Shami , Jasprit Bumrah , Yuzvendra Chahal , Prasidh Krishna",
             "fall_of_wickets": "",
             "bowling": [
                 {
@@ -333,5 +333,33 @@
             ]
         }
     ],
-    "result": "India won by 10 wickets (with 188 balls remaining)"
+    "result": "India won by 10 wickets (with 188 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Brydon Carse",
+            "Jason Roy",
+            "Ben Stokes",
+            "Liam Livingstone",
+            "Craig Overton",
+            "Jos Buttler(c) (wk)",
+            "Reece Topley",
+            "David Willey",
+            "Joe Root"
+        ],
+        "India": [
+            "Yuzvendra Chahal",
+            "Jasprit Bumrah",
+            "Prasidh Krishna",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)",
+            "Suryakumar Yadav",
+            "Ravindra Jadeja",
+            "Shikhar Dhawan",
+            "Hardik Pandya",
+            "Mohammed Shami",
+            "Rishabh Pant (wk)"
+        ]
+    }
 }

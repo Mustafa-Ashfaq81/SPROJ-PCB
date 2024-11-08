@@ -56,7 +56,7 @@
                 },
                 {
                     "batsman": "Travis Friend",
-                    "dismissal": "c Read b Gough",
+                    "dismissal": "c (wk)Read b Gough",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "7",
@@ -66,7 +66,7 @@
                 },
                 {
                     "batsman": "Grant Flower",
-                    "dismissal": "c Read b Gough",
+                    "dismissal": "c (wk)Read b Gough",
                     "runs": "1",
                     "balls": "21",
                     "minutes": "32",
@@ -75,7 +75,7 @@
                     "strike_rate": "4.76"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Trescothick b Johnson",
                     "runs": "5",
                     "balls": "15",
@@ -96,7 +96,7 @@
                 },
                 {
                     "batsman": "Heath Streak(c)",
-                    "dismissal": "c Read b Gough",
+                    "dismissal": "c (wk)Read b Gough",
                     "runs": "5",
                     "balls": "5",
                     "minutes": "6",
@@ -126,7 +126,7 @@
                 },
                 {
                     "batsman": "Ray Price",
-                    "dismissal": "c Read b Flintoff",
+                    "dismissal": "c (wk)Read b Flintoff",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "3",
@@ -239,7 +239,7 @@
                 },
                 {
                     "batsman": "Vikram Solanki",
-                    "dismissal": "c Taibu b Streak",
+                    "dismissal": "c (wk)Taibu b Streak",
                     "runs": "7",
                     "balls": "23",
                     "minutes": "35",
@@ -288,7 +288,7 @@
                     "strike_rate": "127.02"
                 }
             ],
-            "did_not_bat": "Rikki Clarke , James Anderson , Chris Read , Steve Harmison , Darren Gough",
+            "did_not_bat": "Rikki Clarke , James Anderson , Chris Read (wk) , Steve Harmison , Darren Gough",
             "fall_of_wickets": "Fall of wickets : 1 - 20 ( Marcus Trescothick , 4.1 ov ) , 2 - 20 ( Richard Johnson , 4.3 ov ) , 3 - 22 ( Vikram Solanki , 6.6 ov ) , 4 - 25 ( Anthony McGrath , 8.4 ov )",
             "bowling": [
                 {
@@ -336,5 +336,33 @@
             ]
         }
     ],
-    "result": "England won by 6 wickets (with 193 balls remaining)"
+    "result": "England won by 6 wickets (with 193 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Grant Flower",
+            "Stuart Matsikenyeri",
+            "Heath Streak(c)",
+            "Douglas Hondo",
+            "Tatenda Taibu (wk)",
+            "Charles Coventry",
+            "Ray Price",
+            "Andy Blignaut",
+            "Dion Ebrahim",
+            "Travis Friend",
+            "Sean Ervine"
+        ],
+        "England": [
+            "Rikki Clarke",
+            "Marcus Trescothick",
+            "Michael Vaughan(c)",
+            "Vikram Solanki",
+            "Steve Harmison",
+            "Andrew Flintoff",
+            "Anthony McGrath",
+            "Darren Gough",
+            "James Anderson",
+            "Richard Johnson",
+            "Chris Read (wk)"
+        ]
+    }
 }

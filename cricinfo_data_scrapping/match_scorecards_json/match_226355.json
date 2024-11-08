@@ -40,7 +40,7 @@
                     "strike_rate": "42.85"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Anderson",
                     "runs": "18",
                     "balls": "36",
@@ -131,7 +131,7 @@
                 },
                 {
                     "batsman": "Mohammad Sami",
-                    "dismissal": "c Jones b Anderson",
+                    "dismissal": "c (wk)Jones b Anderson",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "4",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Matt Prior",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "6",
                     "balls": "7",
                     "minutes": "15",
@@ -297,7 +297,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Geraint Jones",
+                    "batsman": "Geraint Jones (wk)",
                     "dismissal": "c Naved-ul-Hasan b Shahid Afridi",
                     "runs": "12",
                     "balls": "38",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 13 runs"
+    "result": "Pakistan won by 13 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Younis Khan",
+            "Shahid Afridi",
+            "Shoaib Akhtar",
+            "Abdul Razzaq",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Mohammad Yousuf",
+            "Salman Butt",
+            "Mohammad Sami",
+            "Shoaib Malik"
+        ],
+        "England": [
+            "Liam Plunkett",
+            "Marcus Trescothick(c)",
+            "Paul Collingwood",
+            "James Anderson",
+            "Vikram Solanki",
+            "Andrew Strauss",
+            "Andrew Flintoff",
+            "Geraint Jones (wk)",
+            "Kabir Ali",
+            "Ian Blackwell",
+            "Matt Prior"
+        ]
+    }
 }

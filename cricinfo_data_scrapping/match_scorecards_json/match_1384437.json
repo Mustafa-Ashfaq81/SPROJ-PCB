@@ -70,7 +70,7 @@
                     "strike_rate": "150.00"
                 },
                 {
-                    "batsman": "KL Rahul",
+                    "batsman": "KL Rahul (wk)",
                     "dismissal": "not out",
                     "runs": "39",
                     "balls": "20",
@@ -188,7 +188,7 @@
             "batting": [
                 {
                     "batsman": "Devon Conway",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "26",
@@ -198,7 +198,7 @@
                 },
                 {
                     "batsman": "Rachin Ravindra",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "13",
                     "balls": "22",
                     "minutes": "39",
@@ -227,7 +227,7 @@
                     "strike_rate": "112.60"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "lbw b Mohammed Shami",
                     "runs": "0",
                     "balls": "2",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Tim Southee",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "9",
                     "balls": "10",
                     "minutes": "14",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Lockie Ferguson",
-                    "dismissal": "c Rahul b Mohammed Shami",
+                    "dismissal": "c (wk)Rahul b Mohammed Shami",
                     "runs": "6",
                     "balls": "3",
                     "minutes": "2",
@@ -373,5 +373,33 @@
             ]
         }
     ],
-    "result": "India won by 70 runs"
+    "result": "India won by 70 runs",
+    "playing_xi": {
+        "India": [
+            "KL Rahul (wk)",
+            "Virat Kohli",
+            "Suryakumar Yadav",
+            "Mohammed Shami",
+            "Shubman Gill",
+            "Jasprit Bumrah",
+            "Ravindra Jadeja",
+            "Kuldeep Yadav",
+            "Mohammed Siraj",
+            "Shreyas Iyer",
+            "Rohit Sharma(c)"
+        ],
+        "New Zealand": [
+            "Mitchell Santner",
+            "Devon Conway",
+            "Daryl Mitchell",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Mark Chapman",
+            "Tim Southee",
+            "Rachin Ravindra",
+            "Glenn Phillips",
+            "Tom Latham (wk)",
+            "Lockie Ferguson"
+        ]
+    }
 }

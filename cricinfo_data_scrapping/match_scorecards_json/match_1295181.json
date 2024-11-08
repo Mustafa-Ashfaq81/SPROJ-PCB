@@ -36,7 +36,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Rahmanullah Gurbaz",
+                    "batsman": "Rahmanullah Gurbaz (wk)",
                     "dismissal": "b Kingma",
                     "runs": "13",
                     "balls": "8",
@@ -237,7 +237,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "b Mujeeb Ur Rahman",
                     "runs": "68",
                     "balls": "82",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Boris Gorlee",
-                    "dismissal": "run out (Rahmanullah Gurbaz)",
+                    "dismissal": "run out ( (wk)Rahmanullah Gurbaz)",
                     "runs": "16",
                     "balls": "32",
                     "minutes": "40",
@@ -437,5 +437,33 @@
             ]
         }
     ],
-    "result": "Afghanistan won by 36 runs"
+    "result": "Afghanistan won by 36 runs",
+    "playing_xi": {
+        "Afghanistan": [
+            "Najibullah Zadran",
+            "Rashid Khan",
+            "Sharafuddin Ashraf",
+            "Shahidullah",
+            "Hashmatullah Shahidi(c)",
+            "Rahmanullah Gurbaz (wk)",
+            "Gulbadin Naib",
+            "Mujeeb Ur Rahman",
+            "Yamin Ahmadzai",
+            "Rahmat Shah",
+            "Usman Ghani"
+        ],
+        "Netherlands": [
+            "Brandon Glover",
+            "Scott Edwards (wk)",
+            "Fred Klaassen",
+            "Musa Ahmad",
+            "Colin Ackermann",
+            "Saqib Zulfiqar",
+            "Pieter Seelaar(c)",
+            "Bas de Leede",
+            "Vivian Kingma",
+            "Philippe Boissevain",
+            "Boris Gorlee"
+        ]
+    }
 }

@@ -63,7 +63,7 @@
                     "strike_rate": "71.42"
                 },
                 {
-                    "batsman": "Brendan Taylor(c)",
+                    "batsman": "Brendan Taylor(c) (wk)",
                     "dismissal": "lbw b DJ Bravo",
                     "runs": "0",
                     "balls": "2",
@@ -245,7 +245,7 @@
             "batting": [
                 {
                     "batsman": "Kieran Powell",
-                    "dismissal": "c Taylor b Masakadza",
+                    "dismissal": "c (wk)Taylor b Masakadza",
                     "runs": "57",
                     "balls": "81",
                     "minutes": "98",
@@ -265,7 +265,7 @@
                 },
                 {
                     "batsman": "Darren Bravo",
-                    "dismissal": "c Taylor b Masakadza",
+                    "dismissal": "c (wk)Taylor b Masakadza",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -294,7 +294,7 @@
                     "strike_rate": "205.00"
                 }
             ],
-            "did_not_bat": "Dwayne Bravo (c) , Andre Russell , Denesh Ramdin , Kemar Roach , Tino Best , Sunil Narine",
+            "did_not_bat": "Dwayne Bravo (c) , Andre Russell , Denesh Ramdin (wk) , Kemar Roach , Tino Best , Sunil Narine",
             "fall_of_wickets": "Fall of wickets : 1 - 111 ( Kieran Powell , 25.4 ov ) , 2 - 111 ( Darren Bravo , 25.6 ov ) , 3 - 219 ( Narsingh Deonarine , 43.2 ov )",
             "bowling": [
                 {
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 7 wickets (with 6 balls remaining)"
+    "result": "West Indies won by 7 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Tendai Chatara",
+            "Natsai M'shangwe",
+            "Chamu Chibhabha",
+            "Kyle Jarvis",
+            "Brendan Taylor(c) (wk)",
+            "Prosper Utseya",
+            "Vusi Sibanda",
+            "Hamilton Masakadza",
+            "Malcolm Waller",
+            "Craig Ervine",
+            "Regis Chakabva"
+        ],
+        "West Indies": [
+            "Kemar Roach",
+            "Kieron Pollard",
+            "Kieran Powell",
+            "Darren Bravo",
+            "Sunil Narine",
+            "Andre Russell",
+            "Denesh Ramdin (wk)",
+            "Ramnaresh Sarwan",
+            "Tino Best",
+            "Dwayne Bravo (c)",
+            "Narsingh Deonarine"
+        ]
+    }
 }

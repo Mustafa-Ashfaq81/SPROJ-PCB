@@ -29,7 +29,7 @@
             "batting": [
                 {
                     "batsman": "Wesley Barresi",
-                    "dismissal": "c Carter b Ehsan Nawaz",
+                    "dismissal": "c (wk)Carter b Ehsan Nawaz",
                     "runs": "11",
                     "balls": "20",
                     "minutes": "26",
@@ -88,7 +88,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "b Ehsan Khan",
                     "runs": "2",
                     "balls": "10",
@@ -235,7 +235,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Christopher Carter",
+                    "batsman": "Christopher Carter (wk)",
                     "dismissal": "run out (van der Merwe)",
                     "runs": "8",
                     "balls": "17",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "Babar Hayat(c)",
-                    "dismissal": "c Edwards b Borren",
+                    "dismissal": "c (wk)Edwards b Borren",
                     "runs": "52",
                     "balls": "94",
                     "minutes": "140",
@@ -336,7 +336,7 @@
                 },
                 {
                     "batsman": "Nadeem Ahmed",
-                    "dismissal": "c Edwards b van der Merwe",
+                    "dismissal": "c (wk)Edwards b van der Merwe",
                     "runs": "1",
                     "balls": "2",
                     "minutes": "3",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 44 runs"
+    "result": "Netherlands won by 44 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Peter Borren(c)",
+            "Wesley Barresi",
+            "Paul van Meekeren",
+            "Ben Cooper",
+            "Pieter Seelaar",
+            "Max O'Dowd",
+            "Roelof van der Merwe",
+            "Shane Snater",
+            "Bas de Leede",
+            "Fred Klaassen",
+            "Scott Edwards (wk)"
+        ],
+        "Hong Kong": [
+            "Kinchit Shah",
+            "Ehsan Khan",
+            "Nadeem Ahmed",
+            "Anshy Rath",
+            "Babar Hayat(c)",
+            "Simandeep Singh",
+            "Aizaz Khan",
+            "Nizakat Khan",
+            "Christopher Carter (wk)",
+            "Tanwir Afzal",
+            "Ehsan Nawaz"
+        ]
+    }
 }

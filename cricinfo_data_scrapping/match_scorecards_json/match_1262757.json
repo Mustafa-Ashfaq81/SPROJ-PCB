@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan(c)",
-                    "dismissal": "c Bhanuka b Chameera",
+                    "dismissal": "c (wk)Bhanuka b Chameera",
                     "runs": "13",
                     "balls": "11",
                     "minutes": "14",
@@ -59,7 +59,7 @@
                     "strike_rate": "118.18"
                 },
                 {
-                    "batsman": "Sanju Samson",
+                    "batsman": "Sanju Samson (wk)",
                     "dismissal": "c Fernando b Jayawickrama",
                     "runs": "46",
                     "balls": "46",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Manish Pandey",
-                    "dismissal": "c Bhanuka b Jayawickrama",
+                    "dismissal": "c (wk)Bhanuka b Jayawickrama",
                     "runs": "11",
                     "balls": "19",
                     "minutes": "46",
@@ -100,7 +100,7 @@
                 },
                 {
                     "batsman": "Nitish Rana",
-                    "dismissal": "c Bhanuka b Dananjaya",
+                    "dismissal": "c (wk)Bhanuka b Dananjaya",
                     "runs": "7",
                     "balls": "14",
                     "minutes": "22",
@@ -256,7 +256,7 @@
                     "strike_rate": "77.55"
                 },
                 {
-                    "batsman": "Minod Bhanuka",
+                    "batsman": "Minod Bhanuka (wk)",
                     "dismissal": "c Sakariya b Gowtham",
                     "runs": "7",
                     "balls": "17",
@@ -317,7 +317,7 @@
                 },
                 {
                     "batsman": "Chamika Karunaratne",
-                    "dismissal": "st Samson b Chahar",
+                    "dismissal": "st (wk)Samson b Chahar",
                     "runs": "3",
                     "balls": "10",
                     "minutes": "13",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 3 wickets (with 48 balls remaining) (D/L method)"
+    "result": "Sri Lanka won by 3 wickets (with 48 balls remaining) (D/L method)",
+    "playing_xi": {
+        "India": [
+            "Rahul Chahar",
+            "Krishnappa Gowtham",
+            "Sanju Samson (wk)",
+            "Suryakumar Yadav",
+            "Prithvi Shaw",
+            "Manish Pandey",
+            "Shikhar Dhawan(c)",
+            "Navdeep Saini",
+            "Hardik Pandya",
+            "Nitish Rana",
+            "Chetan Sakariya"
+        ],
+        "Sri Lanka": [
+            "Dhananjaya de Silva",
+            "Bhanuka Rajapaksa",
+            "Praveen Jayawickrama",
+            "Charith Asalanka",
+            "Minod Bhanuka (wk)",
+            "Ramesh Mendis",
+            "Avishka Fernando",
+            "Chamika Karunaratne",
+            "Akila Dananjaya",
+            "Dushmantha Chameera",
+            "Dasun Shanaka(c)"
+        ]
+    }
 }

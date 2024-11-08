@@ -53,10 +53,14 @@ def save_json(data, filename):
 
 def clean_text(text):
     """
-    Clean the input text by removing unwanted Unicode characters and extra spaces.
+    Clean the input text by removing unwanted Unicode characters and extra spaces,
+    replacing '†' with '(WK)' to denote wicket keepers.
     """
     if text:
         try:
+            # Replace '†' with '(WK)' before normalization
+            text = text.replace('†', ' (wk)')
+            
             # Normalize unicode characters
             text = unicodedata.normalize('NFKD', text)
             # Remove non-ASCII characters

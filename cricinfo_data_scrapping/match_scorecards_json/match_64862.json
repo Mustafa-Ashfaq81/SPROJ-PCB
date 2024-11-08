@@ -93,7 +93,7 @@
                     "strike_rate": "80.26"
                 }
             ],
-            "did_not_bat": "Shaun Pollock , Lance Klusener , Mark Boucher , Andre Nel , Makhaya Ntini",
+            "did_not_bat": "Shaun Pollock , Lance Klusener , Mark Boucher (wk) , Andre Nel , Makhaya Ntini",
             "fall_of_wickets": "Fall of wickets : 1 - 32 ( Herschelle Gibbs , 9.1 ov ) , 2 - 64 ( Robin Peterson , 15.2 ov ) , 3 - 100 ( Graeme Smith , 25.3 ov ) , 4 - 101 ( Boeta Dippenaar , 26.2 ov )",
             "bowling": [
                 {
@@ -231,7 +231,7 @@
                 },
                 {
                     "batsman": "Ricardo Powell",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "12",
                     "balls": "9",
                     "minutes": "12",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Dwayne Smith",
-                    "dismissal": "c Boucher b Klusener",
+                    "dismissal": "c (wk)Boucher b Klusener",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "11",
@@ -250,7 +250,7 @@
                     "strike_rate": "12.50"
                 },
                 {
-                    "batsman": "Ridley Jacobs",
+                    "batsman": "Ridley Jacobs (wk)",
                     "dismissal": "not out",
                     "runs": "6",
                     "balls": "17",
@@ -281,7 +281,7 @@
                 },
                 {
                     "batsman": "Mervyn Dillon",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "8",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Corey Collymore",
-                    "dismissal": "run out (Gibbs/Boucher)",
+                    "dismissal": "run out (Gibbs/ (wk)Boucher)",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "5",
@@ -362,5 +362,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 209 runs"
+    "result": "South Africa won by 209 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "Makhaya Ntini",
+            "Lance Klusener",
+            "Shaun Pollock",
+            "Robin Peterson",
+            "Jacques Kallis",
+            "Andre Nel",
+            "Boeta Dippenaar",
+            "Herschelle Gibbs",
+            "Jacques Rudolph",
+            "Graeme Smith(c)"
+        ],
+        "West Indies": [
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Ryan Hurley",
+            "Vasbert Drakes",
+            "Dwayne Smith"
+        ]
+    }
 }

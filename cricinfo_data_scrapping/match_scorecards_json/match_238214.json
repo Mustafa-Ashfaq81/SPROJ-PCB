@@ -50,7 +50,7 @@
                     "strike_rate": "11.11"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "lbw b Mohammad Asif",
                     "runs": "1",
                     "balls": "11",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene(c)",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "0",
                     "balls": "7",
                     "minutes": "13",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Kaushal Lokuarachchi",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "4",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "c Sangakkara b Maharoof",
+                    "dismissal": "c (wk)Sangakkara b Maharoof",
                     "runs": "4",
                     "balls": "12",
                     "minutes": "22",
@@ -248,7 +248,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Sangakkara b Malinga",
+                    "dismissal": "c (wk)Sangakkara b Malinga",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "16",
@@ -307,7 +307,7 @@
                     "strike_rate": "40.59"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "20",
                     "balls": "30",
@@ -407,5 +407,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 4 wickets (with 32 balls remaining)"
+    "result": "Pakistan won by 4 wickets (with 32 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Kumar Sangakkara (wk)",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Upul Tharanga",
+            "Nuwan Kulasekara",
+            "Lasith Malinga",
+            "Mahela Jayawardene(c)",
+            "Kaushal Lokuarachchi",
+            "Farveez Maharoof",
+            "Chamara Kapugedera"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Kamran Akmal (wk)",
+            "Naved-ul-Hasan",
+            "Inzamam-ul-Haq(c)",
+            "Younis Khan",
+            "Mohammad Asif",
+            "Salman Butt",
+            "Iftikhar Anjum",
+            "Shoaib Malik"
+        ]
+    }
 }

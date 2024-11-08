@@ -73,7 +73,7 @@
                     "strike_rate": "138.46"
                 },
                 {
-                    "batsman": "Jamie Smith",
+                    "batsman": "Jamie Smith (wk)",
                     "dismissal": "b Maxwell",
                     "runs": "6",
                     "balls": "9",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Liam Livingstone",
-                    "dismissal": "c Inglis b Zampa",
+                    "dismissal": "c (wk)Inglis b Zampa",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Jacob Bethell",
-                    "dismissal": "st Inglis b Head",
+                    "dismissal": "st (wk)Inglis b Head",
                     "runs": "13",
                     "balls": "27",
                     "minutes": "31",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Matthew Potts",
-                    "dismissal": "c Inglis b Maxwell",
+                    "dismissal": "c (wk)Inglis b Maxwell",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "12",
@@ -269,7 +269,7 @@
             "batting": [
                 {
                     "batsman": "Matthew Short",
-                    "dismissal": "c Smith b Potts",
+                    "dismissal": "c (wk)Smith b Potts",
                     "runs": "58",
                     "balls": "30",
                     "minutes": "-",
@@ -298,7 +298,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Josh Inglis",
+                    "batsman": "Josh Inglis (wk)",
                     "dismissal": "not out",
                     "runs": "28",
                     "balls": "20",
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "Australia won by 49 runs (DLS method)"
+    "result": "Australia won by 49 runs (DLS method)",
+    "playing_xi": {
+        "England": [
+            "Liam Livingstone",
+            "Matthew Potts",
+            "Harry Brook(c)",
+            "Phil Salt",
+            "Brydon Carse",
+            "Jamie Smith (wk)",
+            "Olly Stone",
+            "Will Jacks",
+            "Jacob Bethell",
+            "Ben Duckett",
+            "Adil Rashid"
+        ],
+        "Australia": [
+            "Matthew Short",
+            "Glenn Maxwell",
+            "Travis Head",
+            "Adam Zampa",
+            "Josh Inglis (wk)",
+            "Steven Smith(c)",
+            "Josh Hazlewood",
+            "Mitchell Starc",
+            "Cooper Connolly",
+            "Aaron Hardie",
+            "Marnus Labuschagne"
+        ]
+    }
 }

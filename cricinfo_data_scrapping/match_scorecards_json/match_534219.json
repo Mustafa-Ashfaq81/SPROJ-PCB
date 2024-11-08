@@ -30,8 +30,8 @@
             "extras": "3",
             "batting": [
                 {
-                    "batsman": "Matthew Wade",
-                    "dismissal": "st Kieswetter b Tredwell",
+                    "batsman": "Matthew Wade (wk)",
+                    "dismissal": "st (wk)Kieswetter b Tredwell",
                     "runs": "12",
                     "balls": "41",
                     "minutes": "61",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Steven Smith",
-                    "dismissal": "c Kieswetter b Bopara",
+                    "dismissal": "c (wk)Kieswetter b Bopara",
                     "runs": "21",
                     "balls": "20",
                     "minutes": "21",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "David Hussey",
-                    "dismissal": "c Kieswetter b Bopara",
+                    "dismissal": "c (wk)Kieswetter b Bopara",
                     "runs": "9",
                     "balls": "11",
                     "minutes": "21",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "James Pattinson",
-                    "dismissal": "c Kieswetter b Finn",
+                    "dismissal": "c (wk)Kieswetter b Finn",
                     "runs": "13",
                     "balls": "28",
                     "minutes": "35",
@@ -267,7 +267,7 @@
                     "strike_rate": "180.00"
                 }
             ],
-            "did_not_bat": "Craig Kieswetter , Samit Patel , James Tredwell , Stuart Broad , Steven Finn , James Anderson",
+            "did_not_bat": "Craig Kieswetter (wk) , Samit Patel , James Tredwell , Stuart Broad , Steven Finn , James Anderson",
             "fall_of_wickets": "Fall of wickets : 1 - 5 ( Ian Bell , 0.6 ov ) , 2 - 34 ( Jonathan Trott , 9.4 ov ) , 3 - 126 ( Alastair Cook , 25.5 ov )",
             "bowling": [
                 {
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "England won by 7 wickets (with 11 balls remaining) (D/L method)"
+    "result": "England won by 7 wickets (with 11 balls remaining) (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Xavier Doherty",
+            "David Hussey",
+            "Matthew Wade (wk)",
+            "Michael Clarke(c)",
+            "Clint McKay",
+            "Peter Forrest",
+            "James Pattinson",
+            "Ben Hilfenhaus",
+            "David Warner",
+            "Steven Smith",
+            "George Bailey"
+        ],
+        "England": [
+            "James Anderson",
+            "Eoin Morgan",
+            "James Tredwell",
+            "Alastair Cook(c)",
+            "Steven Finn",
+            "Jonathan Trott",
+            "Samit Patel",
+            "Craig Kieswetter (wk)",
+            "Stuart Broad",
+            "Ian Bell",
+            "Ravi Bopara"
+        ]
+    }
 }

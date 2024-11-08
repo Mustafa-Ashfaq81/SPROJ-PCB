@@ -55,7 +55,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Bravo b Taylor",
                     "runs": "23",
                     "balls": "24",
@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Browne b Bravo",
+                    "dismissal": "c (wk)Browne b Bravo",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "-",
@@ -243,7 +243,7 @@
                 },
                 {
                     "batsman": "Ramnaresh Sarwan",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "35",
                     "balls": "54",
                     "minutes": "-",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Dwayne Bravo",
-                    "dismissal": "run out (Jayawardene/Sangakkara/Dilshan)",
+                    "dismissal": "run out (Jayawardene/ (wk)Sangakkara/Dilshan)",
                     "runs": "36",
                     "balls": "37",
                     "minutes": "-",
@@ -282,7 +282,7 @@
                     "strike_rate": "97.29"
                 },
                 {
-                    "batsman": "Patrick Browne",
+                    "batsman": "Patrick Browne (wk)",
                     "dismissal": "c Mendis b Dilshan",
                     "runs": "15",
                     "balls": "17",
@@ -422,5 +422,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 1 wicket (with 0 balls remaining)"
+    "result": "West Indies won by 1 wicket (with 0 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Chaminda Vaas",
+            "Kumar Sangakkara (wk)",
+            "Chamara Silva",
+            "Mahela Udawatte",
+            "Ajantha Mendis",
+            "Ishara Amerasinghe",
+            "Upul Tharanga",
+            "Mahela Jayawardene(c)",
+            "Chamara Kapugedera",
+            "Tillakaratne Dilshan",
+            "Nuwan Kulasekara"
+        ],
+        "West Indies": [
+            "Ramnaresh Sarwan",
+            "Patrick Browne (wk)",
+            "Daren Sammy",
+            "Devon Smith",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards",
+            "Sulieman Benn",
+            "Dwayne Bravo",
+            "Marlon Samuels",
+            "Chris Gayle(c)",
+            "Jerome Taylor"
+        ]
+    }
 }

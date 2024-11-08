@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Martin Guptill",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "11",
                     "balls": "9",
                     "minutes": "12",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Ross Taylor",
-                    "dismissal": "c Dhoni b Pandya",
+                    "dismissal": "c (wk)Dhoni b Pandya",
                     "runs": "21",
                     "balls": "33",
                     "minutes": "43",
@@ -70,7 +70,7 @@
                     "strike_rate": "63.63"
                 },
                 {
-                    "batsman": "Tom Latham",
+                    "batsman": "Tom Latham (wk)",
                     "dismissal": "b Patel",
                     "runs": "38",
                     "balls": "62",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Virat Kohli(c)",
-                    "dismissal": "c Latham b de Grandhomme",
+                    "dismissal": "c (wk)Latham b de Grandhomme",
                     "runs": "29",
                     "balls": "29",
                     "minutes": "40",
@@ -287,7 +287,7 @@
                     "strike_rate": "96.77"
                 },
                 {
-                    "batsman": "MS Dhoni",
+                    "batsman": "MS Dhoni (wk)",
                     "dismissal": "not out",
                     "runs": "18",
                     "balls": "21",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "India won by 6 wickets (with 24 balls remaining)"
+    "result": "India won by 6 wickets (with 24 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Adam Milne",
+            "Kane Williamson(c)",
+            "Trent Boult",
+            "Tim Southee",
+            "Colin de Grandhomme",
+            "Henry Nicholls",
+            "Martin Guptill",
+            "Colin Munro",
+            "Ross Taylor",
+            "Tom Latham (wk)"
+        ],
+        "India": [
+            "Kedar Jadhav",
+            "MS Dhoni (wk)",
+            "Axar Patel",
+            "Virat Kohli(c)",
+            "Rohit Sharma",
+            "Shikhar Dhawan",
+            "Jasprit Bumrah",
+            "Dinesh Karthik",
+            "Hardik Pandya",
+            "Bhuvneshwar Kumar",
+            "Yuzvendra Chahal"
+        ]
+    }
 }

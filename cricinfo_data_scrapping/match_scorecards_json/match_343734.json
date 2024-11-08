@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "Suresh Raina",
-                    "dismissal": "run out (Dilshan/Sangakkara)",
+                    "dismissal": "run out (Dilshan/ (wk)Sangakkara)",
                     "runs": "53",
                     "balls": "80",
                     "minutes": "109",
@@ -80,7 +80,7 @@
                     "strike_rate": "31.57"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Jayawardene b Mendis",
                     "runs": "76",
                     "balls": "80",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "c Sangakkara b Mendis",
+                    "dismissal": "c (wk)Sangakkara b Mendis",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "11",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Sanath Jayasuriya",
-                    "dismissal": "c Dhoni b Kumar",
+                    "dismissal": "c (wk)Dhoni b Kumar",
                     "runs": "13",
                     "balls": "15",
                     "minutes": "19",
@@ -237,7 +237,7 @@
                     "strike_rate": "86.66"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "lbw b Khan",
                     "runs": "9",
                     "balls": "12",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Dhoni b Patel",
+                    "dismissal": "c (wk)Dhoni b Patel",
                     "runs": "16",
                     "balls": "21",
                     "minutes": "31",
@@ -427,5 +427,33 @@
             ]
         }
     ],
-    "result": "India won by 33 runs"
+    "result": "India won by 33 runs",
+    "playing_xi": {
+        "India": [
+            "Suresh Raina",
+            "Gautam Gambhir",
+            "MS Dhoni(c) (wk)",
+            "Zaheer Khan",
+            "Yuvraj Singh",
+            "Virat Kohli",
+            "Praveen Kumar",
+            "S Badrinath",
+            "Rohit Sharma",
+            "Harbhajan Singh",
+            "Munaf Patel"
+        ],
+        "Sri Lanka": [
+            "Chamara Kapugedera",
+            "Chamara Silva",
+            "Nuwan Kulasekara",
+            "Ajantha Mendis",
+            "Sanath Jayasuriya",
+            "Kumar Sangakkara (wk)",
+            "Muthiah Muralidaran",
+            "Tillakaratne Dilshan",
+            "Chaminda Vaas",
+            "Mahela Jayawardene(c)",
+            "Thilan Thushara"
+        ]
+    }
 }

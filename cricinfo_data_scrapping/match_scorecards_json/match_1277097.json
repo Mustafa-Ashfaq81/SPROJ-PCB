@@ -62,7 +62,7 @@
                     "strike_rate": "120.31"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Miller b Maharaj",
                     "runs": "9",
                     "balls": "12",
@@ -205,7 +205,7 @@
             "extras": "12",
             "batting": [
                 {
-                    "batsman": "Kyle Verreynne",
+                    "batsman": "Kyle Verreynne (wk)",
                     "dismissal": "lbw b Taskin Ahmed",
                     "runs": "21",
                     "balls": "25",
@@ -216,7 +216,7 @@
                 },
                 {
                     "batsman": "Janneman Malan",
-                    "dismissal": "c Mushfiqur Rahim b Shoriful Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shoriful Islam",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "15",
@@ -226,7 +226,7 @@
                 },
                 {
                     "batsman": "Temba Bavuma(c)",
-                    "dismissal": "c Mushfiqur Rahim b Shoriful Islam",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Shoriful Islam",
                     "runs": "31",
                     "balls": "55",
                     "minutes": "107",
@@ -256,7 +256,7 @@
                 },
                 {
                     "batsman": "David Miller",
-                    "dismissal": "st Mushfiqur Rahim b Mehidy Hasan Miraz",
+                    "dismissal": "st (wk)Mushfiqur Rahim b Mehidy Hasan Miraz",
                     "runs": "79",
                     "balls": "57",
                     "minutes": "100",
@@ -405,5 +405,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 38 runs"
+    "result": "Bangladesh won by 38 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Taskin Ahmed",
+            "Afif Hossain",
+            "Tamim Iqbal(c)",
+            "Yasir Ali",
+            "Shakib Al Hasan",
+            "Mehidy Hasan Miraz",
+            "Mahmudullah",
+            "Shoriful Islam",
+            "Mustafizur Rahman",
+            "Mushfiqur Rahim (wk)",
+            "Litton Das"
+        ],
+        "South Africa": [
+            "Keshav Maharaj",
+            "Rassie van der Dussen",
+            "Kagiso Rabada",
+            "Janneman Malan",
+            "Temba Bavuma(c)",
+            "Marco Jansen",
+            "Kyle Verreynne (wk)",
+            "Aiden Markram",
+            "Lungi Ngidi",
+            "David Miller",
+            "Andile Phehlukwayo"
+        ]
+    }
 }

@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Peter Borren",
-                    "dismissal": "st NJ O'Brien b KJ O'Brien",
+                    "dismissal": "st (wk)NJ O'Brien b KJ O'Brien",
                     "runs": "7",
                     "balls": "6",
                     "minutes": "7",
@@ -120,7 +120,7 @@
                     "strike_rate": "100.00"
                 }
             ],
-            "did_not_bat": "Mohammad Kashif , Jeroen Smits",
+            "did_not_bat": "Mohammad Kashif , Jeroen Smits (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 114 ( Bas Zuiderent , 18.6 ov ) , 2 - 137 ( Ryan ten Doeschate , 21.6 ov ) , 3 - 153 ( Daan van Bunge , 25.4 ov ) , 4 - 171 ( Darron Reekers , 30.3 ov ) , 5 - 235 ( Tim de Leede , 42.4 ov ) , 6 - 245 ( Peter Borren , 44.1 ov ) , 7 - 257 ( Luuk van Troost , 45.3 ov )",
             "bowling": [
                 {
@@ -261,7 +261,7 @@
                     "strike_rate": "103.29"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "lbw b Schiferli",
                     "runs": "1",
                     "balls": "5",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 6 runs"
+    "result": "Netherlands won by 6 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Tim de Leede",
+            "Mohammad Kashif",
+            "Jeroen Smits (wk)",
+            "Luuk van Troost(c)",
+            "Peter Borren",
+            "Ryan ten Doeschate",
+            "Darron Reekers",
+            "Edgar Schiferli",
+            "Daan van Bunge"
+        ],
+        "Ireland": [
+            "Andrew White",
+            "Jeremy Bray",
+            "Niall O'Brien (wk)",
+            "Eoin Morgan",
+            "John Mooney",
+            "Kevin O'Brien",
+            "William Porterfield",
+            "Dave Langford-Smith",
+            "Andre Botha",
+            "Paul Mooney",
+            "Kyle McCallan(c)"
+        ]
+    }
 }

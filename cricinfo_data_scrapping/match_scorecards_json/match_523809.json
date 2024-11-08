@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Amjad Javed",
-                    "dismissal": "c Mohammad Shahzad b Karim Sadiq",
+                    "dismissal": "c (wk)Mohammad Shahzad b Karim Sadiq",
                     "runs": "20",
                     "balls": "28",
                     "minutes": "-",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Khurram Khan(c)",
-                    "dismissal": "st Mohammad Shahzad b Amir Hamza",
+                    "dismissal": "st (wk)Mohammad Shahzad b Amir Hamza",
                     "runs": "43",
                     "balls": "49",
                     "minutes": "-",
@@ -100,7 +100,7 @@
                     "strike_rate": "85.36"
                 },
                 {
-                    "batsman": "Amjad Ali",
+                    "batsman": "Amjad Ali (wk)",
                     "dismissal": "not out",
                     "runs": "21",
                     "balls": "22",
@@ -242,7 +242,7 @@
             "batting": [
                 {
                     "batsman": "Karim Sadiq",
-                    "dismissal": "st Amjad Ali b Ahmed Raza",
+                    "dismissal": "st (wk)Amjad Ali b Ahmed Raza",
                     "runs": "31",
                     "balls": "28",
                     "minutes": "-",
@@ -271,7 +271,7 @@
                     "strike_rate": "68.00"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "c Sharif Asadullah b Shetty",
                     "runs": "13",
                     "balls": "45",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Mohammad Nabi",
-                    "dismissal": "c Amjad Ali b Shetty",
+                    "dismissal": "c (wk)Amjad Ali b Shetty",
                     "runs": "9",
                     "balls": "21",
                     "minutes": "-",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Javed Ahmadi",
-                    "dismissal": "c Amjad Ali b Khurram Khan",
+                    "dismissal": "c (wk)Amjad Ali b Khurram Khan",
                     "runs": "10",
                     "balls": "14",
                     "minutes": "-",
@@ -332,7 +332,7 @@
                 },
                 {
                     "batsman": "Amir Hamza",
-                    "dismissal": "st Amjad Ali b Ahmed Raza",
+                    "dismissal": "st (wk)Amjad Ali b Ahmed Raza",
                     "runs": "9",
                     "balls": "25",
                     "minutes": "-",
@@ -455,5 +455,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 69 runs"
+    "result": "U.A.E. won by 69 runs",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Ahmed Raza",
+            "Faizan Asif",
+            "Shadeep Silva",
+            "Sharif Asadullah",
+            "Shaiman Anwar",
+            "Arshad Ali",
+            "Khurram Khan(c)",
+            "Amjad Ali (wk)",
+            "Bakthiyar Palekar",
+            "Amjad Javed",
+            "Vikrant Shetty"
+        ],
+        "Afghanistan": [
+            "Karim Sadiq",
+            "Javed Ahmadi",
+            "Nawroz Mangal(c)",
+            "Dawlat Zadran",
+            "Gulbadin Naib",
+            "Samiullah Shinwari",
+            "Mirwais Ashraf",
+            "Amir Hamza",
+            "Mohammad Nabi",
+            "Asghar Afghan",
+            "Mohammad Shahzad (wk)"
+        ]
+    }
 }

@@ -100,7 +100,7 @@
                     "strike_rate": "66.66"
                 },
                 {
-                    "batsman": "Carlton Baugh",
+                    "batsman": "Carlton Baugh (wk)",
                     "dismissal": "c Chigumbura b Mupariwa",
                     "runs": "19",
                     "balls": "11",
@@ -228,7 +228,7 @@
             "batting": [
                 {
                     "batsman": "Terry Duffin(c)",
-                    "dismissal": "c Baugh b Edwards",
+                    "dismissal": "c (wk)Baugh b Edwards",
                     "runs": "2",
                     "balls": "10",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "Brendan Taylor",
+                    "batsman": "Brendan Taylor (wk)",
                     "dismissal": "run out (Smith)",
                     "runs": "43",
                     "balls": "82",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 104 runs"
+    "result": "West Indies won by 104 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Chris Gayle",
+            "Ian Bradshaw",
+            "Marlon Samuels",
+            "Carlton Baugh (wk)",
+            "Dwayne Smith",
+            "Jerome Taylor",
+            "Dwayne Bravo",
+            "Ramnaresh Sarwan",
+            "Brian Lara(c)",
+            "Shivnarine Chanderpaul",
+            "Fidel Edwards"
+        ],
+        "Zimbabwe": [
+            "Ryan Higgins",
+            "Gregory Strydom",
+            "Tawanda Mupariwa",
+            "Elton Chigumbura",
+            "Brendan Taylor (wk)",
+            "Keegan Meth",
+            "Prosper Utseya",
+            "Blessing Mahwire",
+            "Piet Rinke",
+            "Terry Duffin(c)",
+            "Vusi Sibanda"
+        ]
+    }
 }

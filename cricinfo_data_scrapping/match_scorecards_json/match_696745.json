@@ -30,7 +30,7 @@
             "batting": [
                 {
                     "batsman": "Irfan Ahmed",
-                    "dismissal": "c Karim b Onyango",
+                    "dismissal": "c (wk)Karim b Onyango",
                     "runs": "0",
                     "balls": "6",
                     "minutes": "3",
@@ -70,7 +70,7 @@
                 },
                 {
                     "batsman": "Nizakat Khan",
-                    "dismissal": "c Karim b Tikolo",
+                    "dismissal": "c (wk)Karim b Tikolo",
                     "runs": "23",
                     "balls": "32",
                     "minutes": "32",
@@ -129,7 +129,7 @@
                     "strike_rate": "117.64"
                 }
             ],
-            "did_not_bat": "Mark Ferguson",
+            "did_not_bat": "Mark Ferguson (wk)",
             "fall_of_wickets": "Fall of wickets : 1 - 0 ( Irfan Ahmed , 0.6 ov ) , 2 - 3 ( Waqas Barkat , 2.3 ov ) , 3 - 94 ( Mark Chapman , 22.1 ov ) , 4 - 145 ( Nizakat Khan , 32.5 ov ) , 5 - 156 ( Jamie Atkinson , 36.4 ov ) , 6 - 184 ( Tanwir Afzal , 39.5 ov ) , 7 - 192 ( Aizaz Khan , 42.3 ov ) , 8 - 204 ( Haseeb Amjad , 44.3 ov )",
             "bowling": [
                 {
@@ -240,7 +240,7 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Irfan Karim",
+                    "batsman": "Irfan Karim (wk)",
                     "dismissal": "c Waqas Barkat b Nadeem Ahmed",
                     "runs": "82",
                     "balls": "98",
@@ -251,7 +251,7 @@
                 },
                 {
                     "batsman": "Alex Obanda",
-                    "dismissal": "c Ferguson b Tanwir Afzal",
+                    "dismissal": "c (wk)Ferguson b Tanwir Afzal",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "22",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Ragheb Aga",
-                    "dismissal": "c Ferguson b Irfan Ahmed",
+                    "dismissal": "c (wk)Ferguson b Irfan Ahmed",
                     "runs": "28",
                     "balls": "43",
                     "minutes": "46",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Collins Obuya",
-                    "dismissal": "c Ferguson b Irfan Ahmed",
+                    "dismissal": "c (wk)Ferguson b Irfan Ahmed",
                     "runs": "8",
                     "balls": "15",
                     "minutes": "23",
@@ -390,5 +390,33 @@
             ]
         }
     ],
-    "result": "Kenya won by 10 runs (D/L method)"
+    "result": "Kenya won by 10 runs (D/L method)",
+    "playing_xi": {
+        "Hong Kong": [
+            "Jamie Atkinson(c)",
+            "Aizaz Khan",
+            "Haseeb Amjad",
+            "Babar Hayat",
+            "Waqas Barkat",
+            "Mark Chapman",
+            "Tanwir Afzal",
+            "Nizakat Khan",
+            "Nadeem Ahmed",
+            "Irfan Ahmed",
+            "Mark Ferguson (wk)"
+        ],
+        "Kenya": [
+            "Ragheb Aga",
+            "Thomas Odoyo",
+            "Irfan Karim (wk)",
+            "Rakep Patel(c)",
+            "Elijah Otieno",
+            "Steve Tikolo",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "Alex Obanda",
+            "Lameck Onyango",
+            "Morris Ouma"
+        ]
+    }
 }

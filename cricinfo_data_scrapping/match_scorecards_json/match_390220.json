@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Shafiqullah",
-                    "dismissal": "c Smits b ten Doeschate",
+                    "dismissal": "c (wk)Smits b ten Doeschate",
                     "runs": "9",
                     "balls": "8",
                     "minutes": "-",
@@ -70,7 +70,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mohammad Shahzad",
+                    "batsman": "Mohammad Shahzad (wk)",
                     "dismissal": "lbw b Seelaar",
                     "runs": "8",
                     "balls": "28",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Asghar Afghan",
-                    "dismissal": "c Smits b Mudassar Bukhari",
+                    "dismissal": "c (wk)Smits b Mudassar Bukhari",
                     "runs": "18",
                     "balls": "47",
                     "minutes": "-",
@@ -238,7 +238,7 @@
             "batting": [
                 {
                     "batsman": "Alexei Kervezee",
-                    "dismissal": "c Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "c (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "21",
                     "balls": "47",
                     "minutes": "-",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Eric Szwarczynski",
-                    "dismissal": "st Mohammad Shahzad b Mohammad Nabi",
+                    "dismissal": "st (wk)Mohammad Shahzad b Mohammad Nabi",
                     "runs": "16",
                     "balls": "18",
                     "minutes": "-",
@@ -307,7 +307,7 @@
                     "strike_rate": "108.69"
                 }
             ],
-            "did_not_bat": "Jeroen Smits (c) , Edgar Schiferli , Pieter Seelaar , Mudassar Bukhari",
+            "did_not_bat": "Jeroen Smits (c) (wk) , Edgar Schiferli , Pieter Seelaar , Mudassar Bukhari",
             "fall_of_wickets": "Fall of wickets : 1 - 33 ( Darron Reekers , 5.6 ov ) , 2 - 65 ( Alexei Kervezee , 13.3 ov ) , 3 - 66 ( Eric Szwarczynski , 13.6 ov ) , 4 - 80 ( Ryan ten Doeschate , 20.2 ov ) , 5 - 146 ( Bas Zuiderent , 38.5 ov )",
             "bowling": [
                 {
@@ -397,5 +397,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 5 wickets (with 22 balls remaining)"
+    "result": "Netherlands won by 5 wickets (with 22 balls remaining)",
+    "playing_xi": {
+        "Afghanistan": [
+            "Karim Sadiq",
+            "Mohammad Nabi",
+            "Mohammad Shahzad (wk)",
+            "Hamid Hassan",
+            "Noor Ali Zadran",
+            "Shafiqullah",
+            "Samiullah Shinwari",
+            "Asghar Afghan",
+            "Hasti Gul",
+            "Dawlat Ahmadzai",
+            "Nawroz Mangal(c)"
+        ],
+        "Netherlands": [
+            "Darron Reekers",
+            "Bas Zuiderent",
+            "Eric Szwarczynski",
+            "Tom de Grooth",
+            "Pieter Seelaar",
+            "Edgar Schiferli",
+            "Mudassar Bukhari",
+            "Alexei Kervezee",
+            "Jeroen Smits (c) (wk)",
+            "Daan van Bunge",
+            "Ryan ten Doeschate"
+        ]
+    }
 }

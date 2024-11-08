@@ -103,7 +103,7 @@
                     "strike_rate": "123.91"
                 },
                 {
-                    "batsman": "Abdul Shakoor",
+                    "batsman": "Abdul Shakoor (wk)",
                     "dismissal": "b Lamichhane",
                     "runs": "10",
                     "balls": "23",
@@ -241,7 +241,7 @@
             "batting": [
                 {
                     "batsman": "Gyanendra Malla",
-                    "dismissal": "c Abdul Shakoor b Mohammad Naveed",
+                    "dismissal": "c (wk)Abdul Shakoor b Mohammad Naveed",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "-",
@@ -250,7 +250,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Subash Khakurel",
+                    "batsman": "Subash Khakurel (wk)",
                     "dismissal": "c Ashfaq Ahmed b Amir Hayat",
                     "runs": "50",
                     "balls": "97",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Paras Khadka(c)",
-                    "dismissal": "st Abdul Shakoor b Ahmed Raza",
+                    "dismissal": "st (wk)Abdul Shakoor b Ahmed Raza",
                     "runs": "16",
                     "balls": "20",
                     "minutes": "-",
@@ -331,7 +331,7 @@
                 },
                 {
                     "batsman": "Basant Regmi",
-                    "dismissal": "c Abdul Shakoor b Amir Hayat",
+                    "dismissal": "c (wk)Abdul Shakoor b Amir Hayat",
                     "runs": "12",
                     "balls": "25",
                     "minutes": "-",
@@ -426,5 +426,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 78 runs"
+    "result": "U.A.E. won by 78 runs",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Mohammad Naveed",
+            "Shaiman Anwar",
+            "Amir Hayat",
+            "Adnan Mufti",
+            "Abdul Shakoor (wk)",
+            "Ahmed Raza",
+            "Muhammad Usman",
+            "Ashfaq Ahmed",
+            "Rameez Shahzad",
+            "Rohan Mustafa(c)",
+            "Chirag Suri"
+        ],
+        "Nepal": [
+            "Sompal Kami",
+            "Gyanendra Malla",
+            "Basant Regmi",
+            "Sandeep Lamichhane",
+            "Aarif Sheikh",
+            "Karan KC",
+            "Dipendra Singh Airee",
+            "Sagar Pun",
+            "Rohit Paudel",
+            "Paras Khadka(c)",
+            "Subash Khakurel (wk)"
+        ]
+    }
 }

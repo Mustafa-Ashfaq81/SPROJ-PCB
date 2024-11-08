@@ -32,7 +32,7 @@
             "batting": [
                 {
                     "batsman": "Navdeep Poonia",
-                    "dismissal": "c Smits b Stelling",
+                    "dismissal": "c (wk)Smits b Stelling",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -91,7 +91,7 @@
                     "strike_rate": "55.81"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "b Jonkman",
                     "runs": "19",
                     "balls": "23",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Craig Wright(c)",
-                    "dismissal": "st Smits b Mohammad Kashif",
+                    "dismissal": "st (wk)Smits b Mohammad Kashif",
                     "runs": "1",
                     "balls": "7",
                     "minutes": "12",
@@ -122,7 +122,7 @@
                 },
                 {
                     "batsman": "Glenn Rogers",
-                    "dismissal": "c Smits b Mohammad Kashif",
+                    "dismissal": "c (wk)Smits b Mohammad Kashif",
                     "runs": "26",
                     "balls": "30",
                     "minutes": "27",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Eric Szwarczynski",
-                    "dismissal": "c Smith b Blain",
+                    "dismissal": "c (wk)Smith b Blain",
                     "runs": "12",
                     "balls": "11",
                     "minutes": "11",
@@ -292,7 +292,7 @@
                     "strike_rate": "102.94"
                 }
             ],
-            "did_not_bat": "Daan van Bunge , Tim de Leede , Mark Jonkman , Billy Stelling , Peter Borren , Jeroen Smits (c) , Mohammad Kashif",
+            "did_not_bat": "Daan van Bunge , Tim de Leede , Mark Jonkman , Billy Stelling , Peter Borren , Jeroen Smits (c) (wk) , Mohammad Kashif",
             "fall_of_wickets": "Fall of wickets : 1 - 18 ( Darron Reekers , 3.1 ov ) , 2 - 37 ( Eric Szwarczynski , 5.4 ov )",
             "bowling": [
                 {
@@ -382,5 +382,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 8 wickets (with 157 balls remaining)"
+    "result": "Netherlands won by 8 wickets (with 157 balls remaining)",
+    "playing_xi": {
+        "Scotland": [
+            "Dougie Brown",
+            "Glenn Rogers",
+            "Neil McCallum",
+            "John Blain",
+            "Craig Wright(c)",
+            "Colin Smith (wk)",
+            "Navdeep Poonia",
+            "Paul Hoffmann",
+            "Ryan Watson",
+            "Gavin Hamilton",
+            "Majid Haq"
+        ],
+        "Netherlands": [
+            "Ryan ten Doeschate",
+            "Tim de Leede",
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Mark Jonkman",
+            "Daan van Bunge",
+            "Billy Stelling",
+            "Mohammad Kashif",
+            "Peter Borren",
+            "Jeroen Smits (c) (wk)",
+            "Darron Reekers"
+        ]
+    }
 }

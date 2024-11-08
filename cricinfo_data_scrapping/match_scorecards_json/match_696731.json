@@ -34,7 +34,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Matthew Cross",
+                    "batsman": "Matthew Cross (wk)",
                     "dismissal": "c Raza-ur-Rehman b Khurram Chohan",
                     "runs": "4",
                     "balls": "12",
@@ -65,7 +65,7 @@
                 },
                 {
                     "batsman": "Preston Mommsen(c)",
-                    "dismissal": "st Hamza Tariq b Kumar",
+                    "dismissal": "st (wk)Hamza Tariq b Kumar",
                     "runs": "6",
                     "balls": "15",
                     "minutes": "15",
@@ -115,7 +115,7 @@
                 },
                 {
                     "batsman": "Safyaan Sharif",
-                    "dismissal": "c Hamza Tariq b Baidwan",
+                    "dismissal": "c (wk)Hamza Tariq b Baidwan",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "4",
@@ -256,7 +256,7 @@
             "batting": [
                 {
                     "batsman": "Ruvindu Gunasekera",
-                    "dismissal": "c Cross b Taylor",
+                    "dismissal": "c (wk)Cross b Taylor",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -276,7 +276,7 @@
                 },
                 {
                     "batsman": "Zeeshan Siddiqi",
-                    "dismissal": "c Cross b Wardlaw",
+                    "dismissal": "c (wk)Cross b Wardlaw",
                     "runs": "7",
                     "balls": "21",
                     "minutes": "27",
@@ -286,7 +286,7 @@
                 },
                 {
                     "batsman": "Jimmy Hansra(c)",
-                    "dismissal": "c Cross b Taylor",
+                    "dismissal": "c (wk)Cross b Taylor",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "5",
@@ -296,7 +296,7 @@
                 },
                 {
                     "batsman": "Raza-ur-Rehman",
-                    "dismissal": "run out (Cross)",
+                    "dismissal": "run out ( (wk)Cross)",
                     "runs": "16",
                     "balls": "19",
                     "minutes": "28",
@@ -306,7 +306,7 @@
                 },
                 {
                     "batsman": "Trevin Bastiampillai",
-                    "dismissal": "c Cross b Haq",
+                    "dismissal": "c (wk)Cross b Haq",
                     "runs": "11",
                     "balls": "33",
                     "minutes": "41",
@@ -315,8 +315,8 @@
                     "strike_rate": "33.33"
                 },
                 {
-                    "batsman": "Hamza Tariq",
-                    "dismissal": "c Cross b Sharif",
+                    "batsman": "Hamza Tariq (wk)",
+                    "dismissal": "c (wk)Cross b Sharif",
                     "runs": "71",
                     "balls": "70",
                     "minutes": "103",
@@ -326,7 +326,7 @@
                 },
                 {
                     "batsman": "Junaid Siddiqui",
-                    "dismissal": "c Cross b MacLeod",
+                    "dismissal": "c (wk)Cross b MacLeod",
                     "runs": "5",
                     "balls": "30",
                     "minutes": "40",
@@ -336,7 +336,7 @@
                 },
                 {
                     "batsman": "Harvir Baidwan",
-                    "dismissal": "run out (Cross)",
+                    "dismissal": "run out ( (wk)Cross)",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "6",
@@ -469,5 +469,33 @@
             ]
         }
     ],
-    "result": "Scotland won by 170 runs"
+    "result": "Scotland won by 170 runs",
+    "playing_xi": {
+        "Scotland": [
+            "Rob Taylor",
+            "Michael Leask",
+            "Richie Berrington",
+            "Matthew Cross (wk)",
+            "Freddie Coleman",
+            "Safyaan Sharif",
+            "Majid Haq",
+            "Iain Wardlaw",
+            "Preston Mommsen(c)",
+            "Calum MacLeod",
+            "Matt Machan"
+        ],
+        "Canada": [
+            "Jeremy Gordon",
+            "Zeeshan Siddiqi",
+            "Raza-ur-Rehman",
+            "Khurram Chohan",
+            "Ruvindu Gunasekera",
+            "Harvir Baidwan",
+            "Nitish Kumar",
+            "Hamza Tariq (wk)",
+            "Junaid Siddiqui",
+            "Trevin Bastiampillai",
+            "Jimmy Hansra(c)"
+        ]
+    }
 }

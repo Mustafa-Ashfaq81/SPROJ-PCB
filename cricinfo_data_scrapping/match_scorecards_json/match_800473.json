@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "run out (Morkel/de Kock)",
+                    "dismissal": "run out (Morkel/ (wk)de Kock)",
                     "runs": "20",
                     "balls": "23",
                     "minutes": "23",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "run out (Wiese/de Kock)",
+                    "dismissal": "run out (Wiese/ (wk)de Kock)",
                     "runs": "125",
                     "balls": "113",
                     "minutes": "165",
@@ -60,7 +60,7 @@
                     "strike_rate": "110.61"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Duminy b Rabada",
                     "runs": "0",
                     "balls": "1",
@@ -227,7 +227,7 @@
             "extras": "17",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Root b Rashid",
                     "runs": "135",
                     "balls": "117",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "c Buttler b Jordan",
+                    "dismissal": "c (wk)Buttler b Jordan",
                     "runs": "127",
                     "balls": "130",
                     "minutes": "187",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 7 wickets (with 22 balls remaining)"
+    "result": "South Africa won by 7 wickets (with 22 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "David Willey",
+            "Alex Hales",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Reece Topley",
+            "Ben Stokes",
+            "Chris Jordan",
+            "Moeen Ali"
+        ],
+        "South Africa": [
+            "Farhaan Behardien",
+            "Kyle Abbott",
+            "AB de Villiers(c)",
+            "David Wiese",
+            "Hashim Amla",
+            "Faf du Plessis",
+            "Kagiso Rabada",
+            "Quinton de Kock (wk)",
+            "Imran Tahir",
+            "Jean-Paul Duminy",
+            "Morne Morkel"
+        ]
+    }
 }

@@ -30,8 +30,8 @@
             "extras": "20",
             "batting": [
                 {
-                    "batsman": "Roger Mukasa",
-                    "dismissal": "st van Schoor b DB Kotze",
+                    "batsman": "Roger Mukasa (wk)",
+                    "dismissal": "st (wk)van Schoor b DB Kotze",
                     "runs": "51",
                     "balls": "66",
                     "minutes": "86",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Akbar Baig",
-                    "dismissal": "run out (Verwey/van Schoor)",
+                    "dismissal": "run out (Verwey/ (wk)van Schoor)",
                     "runs": "1",
                     "balls": "3",
                     "minutes": "5",
@@ -241,7 +241,7 @@
                     "strike_rate": "64.70"
                 },
                 {
-                    "batsman": "Raymond van Schoor",
+                    "batsman": "Raymond van Schoor (wk)",
                     "dismissal": "c Nsubuga b Arinaitwe",
                     "runs": "59",
                     "balls": "87",
@@ -312,7 +312,7 @@
                 },
                 {
                     "batsman": "Tobias Verwey",
-                    "dismissal": "run out (Mukasa)",
+                    "dismissal": "run out ( (wk)Mukasa)",
                     "runs": "7",
                     "balls": "5",
                     "minutes": "9",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Ian van Zyl",
-                    "dismissal": "run out (Mukasa)",
+                    "dismissal": "run out ( (wk)Mukasa)",
                     "runs": "10",
                     "balls": "8",
                     "minutes": "9",
@@ -431,5 +431,33 @@
             ]
         }
     ],
-    "result": "Uganda won by 6 runs"
+    "result": "Uganda won by 6 runs",
+    "playing_xi": {
+        "Uganda": [
+            "Junior Kwebiha(c)",
+            "Joel Olwenyi",
+            "Akbar Baig",
+            "Frank Nsubuga",
+            "Kenneth Kamyuka",
+            "Ronald Ssemanda",
+            "Davis Karashani",
+            "Benjamin Musoke",
+            "Charles Waiswa",
+            "Roger Mukasa (wk)",
+            "Arthur Kyobe"
+        ],
+        "Namibia": [
+            "Bjorn Kotze",
+            "Sarel Burger",
+            "Craig Williams",
+            "Deon Kotze",
+            "Louis van der Westhuizen",
+            "Tobias Verwey",
+            "Raymond van Schoor (wk)",
+            "Gerrie Snyman",
+            "Louis Burger(c)",
+            "Ian van Zyl",
+            "Louis Klazinga"
+        ]
+    }
 }

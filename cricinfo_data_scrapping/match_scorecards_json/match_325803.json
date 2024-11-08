@@ -64,7 +64,7 @@
                     "strike_rate": "85.71"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c & b Shoaib Malik",
                     "runs": "51",
                     "balls": "76",
@@ -95,7 +95,7 @@
                 },
                 {
                     "batsman": "Elton Chigumbura",
-                    "dismissal": "st Sarfaraz Ahmed b Fawad Alam",
+                    "dismissal": "st (wk)Sarfaraz Ahmed b Fawad Alam",
                     "runs": "24",
                     "balls": "36",
                     "minutes": "32",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Keith Dabengwa",
-                    "dismissal": "run out (Sohail Khan/Sarfaraz Ahmed)",
+                    "dismissal": "run out (Sohail Khan/ (wk)Sarfaraz Ahmed)",
                     "runs": "45",
                     "balls": "32",
                     "minutes": "43",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Shoaib Malik(c)",
-                    "dismissal": "run out (Chigumbura/Taibu)",
+                    "dismissal": "run out (Chigumbura/ (wk)Taibu)",
                     "runs": "88",
                     "balls": "99",
                     "minutes": "156",
@@ -291,7 +291,7 @@
                     "strike_rate": "70.58"
                 }
             ],
-            "did_not_bat": "Misbah-ul-Haq , Shahid Afridi , Sohail Tanvir , Sarfaraz Ahmed , Sohail Khan , Kamran Hussain",
+            "did_not_bat": "Misbah-ul-Haq , Shahid Afridi , Sohail Tanvir , Sarfaraz Ahmed (wk) , Sohail Khan , Kamran Hussain",
             "fall_of_wickets": "Fall of wickets : 1 - 18 ( Nasir Jamshed , 4.3 ov ) , 2 - 66 ( Khalid Latif , 14.1 ov ) , 3 - 207 ( Shoaib Malik , 39.6 ov )",
             "bowling": [
                 {
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 7 wickets (with 18 balls remaining)"
+    "result": "Pakistan won by 7 wickets (with 18 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Sean Williams",
+            "Vusi Sibanda",
+            "Elton Chigumbura",
+            "Brendan Taylor",
+            "Chamu Chibhabha",
+            "Keith Dabengwa",
+            "Hamilton Masakadza(c)",
+            "Gary Brent",
+            "Ray Price",
+            "Chris Mpofu",
+            "Tatenda Taibu (wk)"
+        ],
+        "Pakistan": [
+            "Shahid Afridi",
+            "Sarfaraz Ahmed (wk)",
+            "Shoaib Malik(c)",
+            "Mohammad Yousuf",
+            "Nasir Jamshed",
+            "Sohail Khan",
+            "Khalid Latif",
+            "Fawad Alam",
+            "Sohail Tanvir",
+            "Misbah-ul-Haq",
+            "Kamran Hussain"
+        ]
+    }
 }

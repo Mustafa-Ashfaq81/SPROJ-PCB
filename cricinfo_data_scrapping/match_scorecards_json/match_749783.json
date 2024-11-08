@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Tom Latham",
-                    "dismissal": "c Sangakkara b Herath",
+                    "dismissal": "c (wk)Sangakkara b Herath",
                     "runs": "5",
                     "balls": "15",
                     "minutes": "24",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Daniel Vettori",
-                    "dismissal": "run out (Mendis/Sangakkara)",
+                    "dismissal": "run out (Mendis/ (wk)Sangakkara)",
                     "runs": "7",
                     "balls": "8",
                     "minutes": "13",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Corey Anderson",
-                    "dismissal": "run out (Mathews/Sangakkara)",
+                    "dismissal": "run out (Mathews/ (wk)Sangakkara)",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "25",
@@ -90,8 +90,8 @@
                     "strike_rate": "35.71"
                 },
                 {
-                    "batsman": "Luke Ronchi",
-                    "dismissal": "run out (Dilshan/Sangakkara)",
+                    "batsman": "Luke Ronchi (wk)",
+                    "dismissal": "run out (Dilshan/ (wk)Sangakkara)",
                     "runs": "0",
                     "balls": "0",
                     "minutes": "2",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Adam Milne",
-                    "dismissal": "st Sangakkara b Senanayake",
+                    "dismissal": "st (wk)Sangakkara b Senanayake",
                     "runs": "19",
                     "balls": "27",
                     "minutes": "30",
@@ -262,7 +262,7 @@
                 },
                 {
                     "batsman": "Tillakaratne Dilshan",
-                    "dismissal": "c Ronchi b Henry",
+                    "dismissal": "c (wk)Ronchi b Henry",
                     "runs": "116",
                     "balls": "127",
                     "minutes": "174",
@@ -271,7 +271,7 @@
                     "strike_rate": "91.33"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c Latham b Milne",
                     "runs": "38",
                     "balls": "41",
@@ -401,5 +401,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 6 wickets (with 14 balls remaining)"
+    "result": "Sri Lanka won by 6 wickets (with 14 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Corey Anderson",
+            "Brendon McCullum(c)",
+            "Nathan McCullum",
+            "Adam Milne",
+            "Trent Boult",
+            "Tom Latham",
+            "Matt Henry",
+            "Ross Taylor",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ],
+        "Sri Lanka": [
+            "Sachithra Senanayake",
+            "Tillakaratne Dilshan",
+            "Dimuth Karunaratne",
+            "Kumar Sangakkara (wk)",
+            "Jeevan Mendis",
+            "Nuwan Kulasekara",
+            "Mahela Jayawardene",
+            "Thisara Perera",
+            "Lahiru Thirimanne",
+            "Angelo Mathews(c)",
+            "Rangana Herath"
+        ]
+    }
 }

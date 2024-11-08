@@ -30,7 +30,7 @@
             "extras": "9",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c Burl b Chatara",
                     "runs": "10",
                     "balls": "13",
@@ -198,7 +198,7 @@
             "batting": [
                 {
                     "batsman": "Hamilton Masakadza",
-                    "dismissal": "c Dickwella b Malinga",
+                    "dismissal": "c (wk)Dickwella b Malinga",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "15",
@@ -257,7 +257,7 @@
                     "strike_rate": "137.93"
                 }
             ],
-            "did_not_bat": "Peter Moor , Ryan Burl , Graeme Cremer (c) , Donald Tiripano , Tendai Chatara",
+            "did_not_bat": "Peter Moor (wk) , Ryan Burl , Graeme Cremer (c) , Donald Tiripano , Tendai Chatara",
             "fall_of_wickets": "Fall of wickets : 1 - 12 ( Hamilton Masakadza , 2.4 ov ) , 2 - 46 ( Craig Ervine , 10.2 ov ) , 3 - 207 ( Solomon Mire , 32.3 ov ) , 4 - 220 ( Sean Williams , 34.2 ov )",
             "bowling": [
                 {
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "Zimbabwe won by 6 wickets (with 14 balls remaining)"
+    "result": "Zimbabwe won by 6 wickets (with 14 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Akila Dananjaya",
+            "Nuwan Pradeep",
+            "Asela Gunaratne",
+            "Danushka Gunathilaka",
+            "Kusal Mendis",
+            "Lasith Malinga",
+            "Upul Tharanga",
+            "Amila Aponso",
+            "Lahiru Madushanka",
+            "Angelo Mathews(c)",
+            "Niroshan Dickwella (wk)"
+        ],
+        "Zimbabwe": [
+            "Sikandar Raza",
+            "Malcolm Waller",
+            "Peter Moor (wk)",
+            "Ryan Burl",
+            "Craig Ervine",
+            "Hamilton Masakadza",
+            "Donald Tiripano",
+            "Solomon Mire",
+            "Tendai Chatara",
+            "Graeme Cremer (c)",
+            "Sean Williams"
+        ]
+    }
 }

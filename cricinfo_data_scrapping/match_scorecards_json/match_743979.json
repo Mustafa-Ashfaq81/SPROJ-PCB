@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Mitchell Marsh",
-                    "dismissal": "c Buttler b Stokes",
+                    "dismissal": "c (wk)Buttler b Stokes",
                     "runs": "64",
                     "balls": "31",
                     "minutes": "43",
@@ -100,7 +100,7 @@
                     "strike_rate": "206.45"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "c & b Stokes",
                     "runs": "1",
                     "balls": "2",
@@ -218,7 +218,7 @@
             "batting": [
                 {
                     "batsman": "Jason Roy",
-                    "dismissal": "c Wade b Cummins",
+                    "dismissal": "c (wk)Wade b Cummins",
                     "runs": "31",
                     "balls": "32",
                     "minutes": "53",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "James Taylor",
-                    "dismissal": "c Wade b Marsh",
+                    "dismissal": "c (wk)Wade b Marsh",
                     "runs": "43",
                     "balls": "57",
                     "minutes": "68",
@@ -267,7 +267,7 @@
                     "strike_rate": "142.85"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "lbw b Maxwell",
                     "runs": "0",
                     "balls": "3",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Chris Woakes",
-                    "dismissal": "c Wade b Cummins",
+                    "dismissal": "c (wk)Wade b Cummins",
                     "runs": "6",
                     "balls": "12",
                     "minutes": "11",
@@ -403,5 +403,33 @@
             ]
         }
     ],
-    "result": "Australia won by 64 runs"
+    "result": "Australia won by 64 runs",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Matthew Wade (wk)",
+            "George Bailey",
+            "Pat Cummins",
+            "Nathan Coulter-Nile",
+            "Joe Burns",
+            "David Warner",
+            "Glenn Maxwell",
+            "Shane Watson",
+            "Mitchell Marsh",
+            "Steven Smith(c)"
+        ],
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Liam Plunkett",
+            "Steven Finn",
+            "Ben Stokes",
+            "James Taylor",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Adil Rashid",
+            "Alex Hales",
+            "Jason Roy"
+        ]
+    }
 }

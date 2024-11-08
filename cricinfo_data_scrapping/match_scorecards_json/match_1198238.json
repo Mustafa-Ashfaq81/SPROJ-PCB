@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Aaron Finch(c)",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "16",
                     "balls": "25",
                     "minutes": "42",
@@ -53,7 +53,7 @@
                 },
                 {
                     "batsman": "Marcus Stoinis",
-                    "dismissal": "c Buttler b Wood",
+                    "dismissal": "c (wk)Buttler b Wood",
                     "runs": "43",
                     "balls": "34",
                     "minutes": "56",
@@ -82,7 +82,7 @@
                     "strike_rate": "73.00"
                 },
                 {
-                    "batsman": "Alex Carey",
+                    "batsman": "Alex Carey (wk)",
                     "dismissal": "c Billings b Rashid",
                     "runs": "10",
                     "balls": "10",
@@ -246,7 +246,7 @@
                 },
                 {
                     "batsman": "Joe Root",
-                    "dismissal": "c Carey b Hazlewood",
+                    "dismissal": "c (wk)Carey b Hazlewood",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "15",
@@ -265,7 +265,7 @@
                     "strike_rate": "127.77"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Labuschagne b Zampa",
                     "runs": "1",
                     "balls": "4",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "Australia won by 19 runs"
+    "result": "Australia won by 19 runs",
+    "playing_xi": {
+        "Australia": [
+            "Adam Zampa",
+            "Aaron Finch(c)",
+            "Marcus Stoinis",
+            "Josh Hazlewood",
+            "Pat Cummins",
+            "Mitchell Starc",
+            "Alex Carey (wk)",
+            "Glenn Maxwell",
+            "Marnus Labuschagne",
+            "David Warner",
+            "Mitchell Marsh"
+        ],
+        "England": [
+            "Jofra Archer",
+            "Jonny Bairstow",
+            "Jos Buttler (wk)",
+            "Mark Wood",
+            "Eoin Morgan(c)",
+            "Moeen Ali",
+            "Chris Woakes",
+            "Jason Roy",
+            "Adil Rashid",
+            "Sam Billings",
+            "Joe Root"
+        ]
+    }
 }

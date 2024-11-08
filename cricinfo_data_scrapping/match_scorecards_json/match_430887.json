@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Virender Sehwag",
-                    "dismissal": "c Sangakkara b Welegedara",
+                    "dismissal": "c (wk)Sangakkara b Welegedara",
                     "runs": "4",
                     "balls": "4",
                     "minutes": "3",
@@ -45,7 +45,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "st Sangakkara b Mendis",
+                    "dismissal": "st (wk)Sangakkara b Mendis",
                     "runs": "43",
                     "balls": "52",
                     "minutes": "76",
@@ -74,7 +74,7 @@
                     "strike_rate": "83.07"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "c Dilshan b Randiv",
                     "runs": "107",
                     "balls": "111",
@@ -105,7 +105,7 @@
                 },
                 {
                     "batsman": "Harbhajan Singh",
-                    "dismissal": "st Sangakkara b Randiv",
+                    "dismissal": "st (wk)Sangakkara b Randiv",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -231,7 +231,7 @@
                     "strike_rate": "108.84"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "run out (Raina/Khan)",
                     "runs": "21",
                     "balls": "22",
@@ -242,7 +242,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "c Dhoni b Khan",
+                    "dismissal": "c (wk)Dhoni b Khan",
                     "runs": "39",
                     "balls": "47",
                     "minutes": "75",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 3 wickets (with 5 balls remaining)"
+    "result": "Sri Lanka won by 3 wickets (with 5 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Zaheer Khan",
+            "Virat Kohli",
+            "MS Dhoni(c) (wk)",
+            "Praveen Kumar",
+            "Ashish Nehra",
+            "Suresh Raina",
+            "Ravindra Jadeja",
+            "Sachin Tendulkar",
+            "Gautam Gambhir",
+            "Harbhajan Singh",
+            "Virender Sehwag"
+        ],
+        "Sri Lanka": [
+            "Angelo Mathews",
+            "Thilina Kandamby",
+            "Suraj Randiv",
+            "Chanaka Welegedara",
+            "Mahela Jayawardene",
+            "Tillakaratne Dilshan",
+            "Suranga Lakmal",
+            "Kumar Sangakkara(c) (wk)",
+            "Ajantha Mendis",
+            "Chamara Kapugedera",
+            "Upul Tharanga"
+        ]
+    }
 }

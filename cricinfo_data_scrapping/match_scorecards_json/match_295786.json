@@ -35,7 +35,7 @@
             "batting": [
                 {
                     "batsman": "Fraser Watts",
-                    "dismissal": "c Ramdin b Powell",
+                    "dismissal": "c (wk)Ramdin b Powell",
                     "runs": "8",
                     "balls": "22",
                     "minutes": "18",
@@ -55,7 +55,7 @@
                 },
                 {
                     "batsman": "Navdeep Poonia",
-                    "dismissal": "c Ramdin b Edwards",
+                    "dismissal": "c (wk)Ramdin b Edwards",
                     "runs": "40",
                     "balls": "57",
                     "minutes": "72",
@@ -94,7 +94,7 @@
                     "strike_rate": "117.39"
                 },
                 {
-                    "batsman": "Colin Smith",
+                    "batsman": "Colin Smith (wk)",
                     "dismissal": "b Gayle",
                     "runs": "9",
                     "balls": "11",
@@ -271,7 +271,7 @@
                     "strike_rate": "200.00"
                 },
                 {
-                    "batsman": "Denesh Ramdin",
+                    "batsman": "Denesh Ramdin (wk)",
                     "dismissal": "b Haq",
                     "runs": "1",
                     "balls": "4",
@@ -282,7 +282,7 @@
                 },
                 {
                     "batsman": "Austin Richards",
-                    "dismissal": "st Smith b Watson",
+                    "dismissal": "st (wk)Smith b Watson",
                     "runs": "2",
                     "balls": "2",
                     "minutes": "2",
@@ -391,5 +391,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 4 wickets (with 1 ball remaining) (D/L method)"
+    "result": "West Indies won by 4 wickets (with 1 ball remaining) (D/L method)",
+    "playing_xi": {
+        "Scotland": [
+            "John Blain",
+            "Ryan Watson(c)",
+            "Navdeep Poonia",
+            "Neil McCallum",
+            "Omer Hussain",
+            "Glenn Rogers",
+            "Dewald Nel",
+            "Colin Smith (wk)",
+            "Gordon Drummond",
+            "Majid Haq",
+            "Fraser Watts"
+        ],
+        "West Indies": [
+            "Runako Morton",
+            "Austin Richards",
+            "Ravi Rampaul",
+            "Denesh Ramdin (wk)",
+            "Devon Smith",
+            "Daren Powell",
+            "Fidel Edwards",
+            "Dwayne Smith",
+            "Daren Sammy",
+            "Chris Gayle(c)",
+            "Lendl Simmons"
+        ]
+    }
 }

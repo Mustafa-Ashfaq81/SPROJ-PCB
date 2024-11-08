@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Tom Latham",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "43",
                     "balls": "73",
                     "minutes": "80",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Colin Munro",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "85",
                     "balls": "77",
                     "minutes": "95",
@@ -90,7 +90,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "not out",
                     "runs": "13",
                     "balls": "10",
@@ -198,7 +198,7 @@
             "batting": [
                 {
                     "batsman": "Shamsur Rahman",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "96",
                     "balls": "107",
                     "minutes": "145",
@@ -227,7 +227,7 @@
                     "strike_rate": "96.96"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
                     "dismissal": "c Taylor b McCullum",
                     "runs": "2",
                     "balls": "4",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Naeem Islam",
-                    "dismissal": "run out (McClenaghan/Ronchi)",
+                    "dismissal": "run out (McClenaghan/ (wk)Ronchi)",
                     "runs": "63",
                     "balls": "74",
                     "minutes": "99",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Mahmudullah",
-                    "dismissal": "c Ronchi b McClenaghan",
+                    "dismissal": "c (wk)Ronchi b McClenaghan",
                     "runs": "16",
                     "balls": "13",
                     "minutes": "26",
@@ -367,5 +367,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 4 wickets (with 4 balls remaining)"
+    "result": "Bangladesh won by 4 wickets (with 4 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Luke Ronchi (wk)",
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Adam Milne",
+            "Colin Munro",
+            "Tom Latham",
+            "Anton Devcich",
+            "Grant Elliott",
+            "Kyle Mills (c)",
+            "Ross Taylor",
+            "Nathan McCullum"
+        ],
+        "Bangladesh": [
+            "Nasir Hossain",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Rubel Hossain",
+            "Mushfiqur Rahim(c) (wk)",
+            "Sohag Gazi",
+            "Mominul Haque",
+            "Shamsur Rahman",
+            "Mashrafe Mortaza",
+            "Mahmudullah",
+            "Ziaur Rahman"
+        ]
+    }
 }

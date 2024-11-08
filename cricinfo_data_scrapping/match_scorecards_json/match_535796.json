@@ -51,7 +51,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "b Aizaz Cheema",
                     "runs": "71",
                     "balls": "92",
@@ -102,7 +102,7 @@
                 },
                 {
                     "batsman": "Nuwan Kulasekara",
-                    "dismissal": "c Sarfaraz Ahmed b Umar Gul",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Umar Gul",
                     "runs": "4",
                     "balls": "16",
                     "minutes": "12",
@@ -298,7 +298,7 @@
                     "strike_rate": "80.00"
                 }
             ],
-            "did_not_bat": "Shahid Afridi , Sarfaraz Ahmed , Umar Gul , Saeed Ajmal , Aizaz Cheema",
+            "did_not_bat": "Shahid Afridi , Sarfaraz Ahmed (wk) , Umar Gul , Saeed Ajmal , Aizaz Cheema",
             "fall_of_wickets": "Fall of wickets : 1 - 29 ( Nasir Jamshed , 8.4 ov ) , 2 - 31 ( Mohammad Hafeez , 11.2 ov ) , 3 - 33 ( Younis Khan , 12.5 ov ) , 4 - 185 ( Umar Akmal , 38.6 ov )",
             "bowling": [
                 {
@@ -388,5 +388,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 61 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 61 balls remaining)",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Dinesh Chandimal",
+            "Nuwan Kulasekara",
+            "Tillakaratne Dilshan",
+            "Seekkuge Prasanna",
+            "Suranga Lakmal",
+            "Farveez Maharoof",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Lahiru Thirimanne",
+            "Upul Tharanga"
+        ],
+        "Pakistan": [
+            "Sarfaraz Ahmed (wk)",
+            "Younis Khan",
+            "Aizaz Cheema",
+            "Hammad Azam",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shahid Afridi",
+            "Mohammad Hafeez",
+            "Umar Gul",
+            "Umar Akmal",
+            "Nasir Jamshed"
+        ]
+    }
 }

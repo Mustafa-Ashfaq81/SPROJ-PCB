@@ -30,7 +30,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c Sinclair b Mills",
                     "runs": "4",
                     "balls": "5",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Simon Katich",
-                    "dismissal": "c McCullum b Cairns",
+                    "dismissal": "c (wk)McCullum b Cairns",
                     "runs": "0",
                     "balls": "5",
                     "minutes": "6",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Mathew Sinclair",
-                    "dismissal": "c Gilchrist b McGrath",
+                    "dismissal": "c (wk)Gilchrist b McGrath",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "12",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Chris Cairns",
-                    "dismissal": "run out (Clarke/Gilchrist)",
+                    "dismissal": "run out (Clarke/ (wk)Gilchrist)",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "4",
@@ -278,7 +278,7 @@
                 },
                 {
                     "batsman": "Craig McMillan",
-                    "dismissal": "st Gilchrist b McGrath",
+                    "dismissal": "st (wk)Gilchrist b McGrath",
                     "runs": "37",
                     "balls": "31",
                     "minutes": "44",
@@ -287,7 +287,7 @@
                     "strike_rate": "119.35"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Katich b Lee",
                     "runs": "8",
                     "balls": "13",
@@ -417,5 +417,33 @@
             ]
         }
     ],
-    "result": "Australia won by 10 runs"
+    "result": "Australia won by 10 runs",
+    "playing_xi": {
+        "Australia": [
+            "Damien Martyn",
+            "Ricky Ponting(c)",
+            "Simon Katich",
+            "Glenn McGrath",
+            "Brett Lee",
+            "Michael Kasprowicz",
+            "Matthew Hayden",
+            "Michael Clarke",
+            "Andrew Symonds",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)"
+        ],
+        "New Zealand": [
+            "Scott Styris",
+            "Chris Cairns",
+            "Daniel Vettori",
+            "Nathan Astle",
+            "Mathew Sinclair",
+            "Daryl Tuffey",
+            "Stephen Fleming(c)",
+            "Brendon McCullum (wk)",
+            "Craig McMillan",
+            "Kyle Mills",
+            "Hamish Marshall"
+        ]
+    }
 }

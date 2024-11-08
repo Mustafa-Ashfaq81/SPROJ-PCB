@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Salman Butt",
-                    "dismissal": "run out (Dhoni/Khan)",
+                    "dismissal": "run out ( (wk)Dhoni/Khan)",
                     "runs": "101",
                     "balls": "116",
                     "minutes": "191",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Abdul Razzaq",
-                    "dismissal": "st Dhoni b Yuvraj Singh",
+                    "dismissal": "st (wk)Dhoni b Yuvraj Singh",
                     "runs": "18",
                     "balls": "13",
                     "minutes": "20",
@@ -90,7 +90,7 @@
                     "strike_rate": "138.46"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "14",
                     "balls": "18",
@@ -271,8 +271,8 @@
                     "strike_rate": "54.54"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "28",
                     "balls": "24",
                     "minutes": "36",
@@ -302,7 +302,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "1",
                     "balls": "8",
                     "minutes": "12",
@@ -322,7 +322,7 @@
                 },
                 {
                     "batsman": "Irfan Pathan",
-                    "dismissal": "c Kamran Akmal b Naved-ul-Hasan",
+                    "dismissal": "c (wk)Kamran Akmal b Naved-ul-Hasan",
                     "runs": "64",
                     "balls": "80",
                     "minutes": "87",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 106 runs"
+    "result": "Pakistan won by 106 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Inzamam-ul-Haq(c)",
+            "Danish Kaneria",
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Salman Butt",
+            "Shoaib Malik",
+            "Abdul Razzaq",
+            "Mohammad Yousuf",
+            "Younis Khan",
+            "Mohammad Sami"
+        ],
+        "India": [
+            "Zaheer Khan",
+            "MS Dhoni (wk)",
+            "Rahul Dravid",
+            "Irfan Pathan",
+            "Virender Sehwag",
+            "Yuvraj Singh",
+            "Sachin Tendulkar",
+            "Mohammad Kaif",
+            "Ashish Nehra",
+            "Sourav Ganguly(c)",
+            "Harbhajan Singh"
+        ]
+    }
 }

@@ -40,7 +40,7 @@
                     "strike_rate": "146.15"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "lbw b Pollock",
                     "runs": "0",
                     "balls": "3",
@@ -208,7 +208,7 @@
                 },
                 {
                     "batsman": "Jacques Kallis",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "34",
                     "balls": "43",
                     "minutes": "68",
@@ -237,7 +237,7 @@
                     "strike_rate": "50.00"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "b Shahid Afridi",
                     "runs": "21",
                     "balls": "18",
@@ -258,7 +258,7 @@
                 },
                 {
                     "batsman": "Shaun Pollock",
-                    "dismissal": "st Kamran Akmal b Shoaib Malik",
+                    "dismissal": "st (wk)Kamran Akmal b Shoaib Malik",
                     "runs": "32",
                     "balls": "34",
                     "minutes": "51",
@@ -268,7 +268,7 @@
                 },
                 {
                     "batsman": "Andre Nel",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "5",
                     "balls": "14",
                     "minutes": "12",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 141 runs"
+    "result": "Pakistan won by 141 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Naved-ul-Hasan",
+            "Kamran Akmal (wk)",
+            "Mohammad Yousuf",
+            "Azhar Mahmood",
+            "Imran Nazir",
+            "Inzamam-ul-Haq(c)",
+            "Shoaib Malik",
+            "Mohammad Asif",
+            "Younis Khan",
+            "Abdul Razzaq",
+            "Shahid Afridi"
+        ],
+        "South Africa": [
+            "Mark Boucher (wk)",
+            "AB de Villiers",
+            "Andre Nel",
+            "Charl Langeveldt",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Makhaya Ntini",
+            "Justin Kemp",
+            "Shaun Pollock",
+            "Ashwell Prince",
+            "Herschelle Gibbs"
+        ]
+    }
 }

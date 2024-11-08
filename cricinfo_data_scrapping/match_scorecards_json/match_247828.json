@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Smits b Borren",
+                    "dismissal": "c (wk)Smits b Borren",
                     "runs": "72",
                     "balls": "72",
                     "minutes": "88",
@@ -53,7 +53,7 @@
                     "strike_rate": "158.33"
                 },
                 {
-                    "batsman": "Kumar Sangakkara",
+                    "batsman": "Kumar Sangakkara (wk)",
                     "dismissal": "c van Troost b de Leede",
                     "runs": "28",
                     "balls": "30",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Luuk van Troost(c)",
-                    "dismissal": "st Sangakkara b Lokuarachchi",
+                    "dismissal": "st (wk)Sangakkara b Lokuarachchi",
                     "runs": "40",
                     "balls": "42",
                     "minutes": "49",
@@ -320,7 +320,7 @@
                     "strike_rate": "61.90"
                 },
                 {
-                    "batsman": "Jeroen Smits",
+                    "batsman": "Jeroen Smits (wk)",
                     "dismissal": "lbw b Maharoof",
                     "runs": "1",
                     "balls": "3",
@@ -430,5 +430,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 55 runs"
+    "result": "Sri Lanka won by 55 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Tillakaratne Dilshan",
+            "Malinga Bandara",
+            "Russel Arnold",
+            "Ruchira Perera",
+            "Kaushal Lokuarachchi",
+            "Kumar Sangakkara (wk)",
+            "Mahela Jayawardene(c)",
+            "Farveez Maharoof",
+            "Upul Tharanga",
+            "Dilhara Fernando",
+            "Chamara Kapugedera"
+        ],
+        "Netherlands": [
+            "Tim de Leede",
+            "Eric Szwarczynski",
+            "Bas Zuiderent",
+            "Jeroen Smits (wk)",
+            "Billy Stelling",
+            "Daan van Bunge",
+            "Pieter Seelaar",
+            "Alexei Kervezee",
+            "Peter Borren",
+            "Darron Reekers",
+            "Luuk van Troost(c)"
+        ]
+    }
 }

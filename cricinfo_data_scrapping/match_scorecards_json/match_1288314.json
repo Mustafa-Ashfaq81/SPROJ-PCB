@@ -82,8 +82,8 @@
                     "strike_rate": "148.48"
                 },
                 {
-                    "batsman": "Alex Carey",
-                    "dismissal": "c Mohammad Rizwan b Mohammad Wasim",
+                    "batsman": "Alex Carey (wk)",
+                    "dismissal": "c (wk)Mohammad Rizwan b Mohammad Wasim",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "15",
@@ -259,7 +259,7 @@
                     "strike_rate": "137.34"
                 },
                 {
-                    "batsman": "Mohammad Rizwan",
+                    "batsman": "Mohammad Rizwan (wk)",
                     "dismissal": "c Abbott b Zampa",
                     "runs": "23",
                     "balls": "26",
@@ -393,5 +393,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 6 wickets (with 6 balls remaining)"
+    "result": "Pakistan won by 6 wickets (with 6 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Nathan Ellis",
+            "Mitchell Swepson",
+            "Marnus Labuschagne",
+            "Adam Zampa",
+            "Travis Head",
+            "Sean Abbott",
+            "Cameron Green",
+            "Alex Carey (wk)",
+            "Aaron Finch(c)",
+            "Ben McDermott",
+            "Marcus Stoinis"
+        ],
+        "Pakistan": [
+            "Fakhar Zaman",
+            "Haris Rauf",
+            "Babar Azam(c)",
+            "Mohammad Wasim",
+            "Khushdil Shah",
+            "Zahid Mahmood",
+            "Imam-ul-Haq",
+            "Mohammad Rizwan (wk)",
+            "Iftikhar Ahmed",
+            "Saud Shakeel",
+            "Shaheen Shah Afridi"
+        ]
+    }
 }

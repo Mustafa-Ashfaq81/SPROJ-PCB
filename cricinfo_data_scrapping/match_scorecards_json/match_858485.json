@@ -64,8 +64,8 @@
                     "strike_rate": "27.77"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
-                    "dismissal": "c Sarfaraz Ahmed b Wahab Riaz",
+                    "batsman": "Mushfiqur Rahim (wk)",
+                    "dismissal": "c (wk)Sarfaraz Ahmed b Wahab Riaz",
                     "runs": "106",
                     "balls": "77",
                     "minutes": "117",
@@ -216,7 +216,7 @@
             "batting": [
                 {
                     "batsman": "Azhar Ali(c)",
-                    "dismissal": "c Mushfiqur Rahim b Taskin Ahmed",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Taskin Ahmed",
                     "runs": "72",
                     "balls": "73",
                     "minutes": "118",
@@ -225,7 +225,7 @@
                     "strike_rate": "98.63"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed",
+                    "batsman": "Sarfaraz Ahmed (wk)",
                     "dismissal": "c Nasir Hossain b Arafat Sunny",
                     "runs": "24",
                     "balls": "31",
@@ -236,7 +236,7 @@
                 },
                 {
                     "batsman": "Mohammad Hafeez",
-                    "dismissal": "run out (Soumya Sarkar/Mushfiqur Rahim)",
+                    "dismissal": "run out (Soumya Sarkar/ (wk)Mushfiqur Rahim)",
                     "runs": "4",
                     "balls": "7",
                     "minutes": "8",
@@ -429,5 +429,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 79 runs"
+    "result": "Bangladesh won by 79 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Abul Hasan",
+            "Arafat Sunny",
+            "Rubel Hossain",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Soumya Sarkar",
+            "Taskin Ahmed",
+            "Shakib Al Hasan(c)",
+            "Sabbir Rahman",
+            "Nasir Hossain",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Pakistan": [
+            "Saeed Ajmal",
+            "Haris Sohail",
+            "Saad Nasim",
+            "Mohammad Hafeez",
+            "Mohammad Rizwan",
+            "Sarfaraz Ahmed (wk)",
+            "Rahat Ali",
+            "Junaid Khan",
+            "Fawad Alam",
+            "Wahab Riaz",
+            "Azhar Ali(c)"
+        ]
+    }
 }

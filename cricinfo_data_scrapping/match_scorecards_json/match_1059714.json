@@ -52,7 +52,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "lbw b Holder",
                     "runs": "94",
                     "balls": "106",
@@ -63,7 +63,7 @@
                 },
                 {
                     "batsman": "Kusal Mendis",
-                    "dismissal": "c Hope b Nurse",
+                    "dismissal": "c (wk)Hope b Nurse",
                     "runs": "94",
                     "balls": "73",
                     "minutes": "93",
@@ -220,7 +220,7 @@
                 },
                 {
                     "batsman": "Evin Lewis",
-                    "dismissal": "run out (Mendis/Dickwella)",
+                    "dismissal": "run out (Mendis/ (wk)Dickwella)",
                     "runs": "148",
                     "balls": "122",
                     "minutes": "196",
@@ -239,7 +239,7 @@
                     "strike_rate": "48.48"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "run out (Pradeep)",
                     "runs": "25",
                     "balls": "32",
@@ -290,7 +290,7 @@
                 },
                 {
                     "batsman": "Ashley Nurse",
-                    "dismissal": "c Dickwella b Lakmal",
+                    "dismissal": "c (wk)Dickwella b Lakmal",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "9",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 1 run"
+    "result": "Sri Lanka won by 1 run",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Kusal Mendis",
+            "Sachith Pathirana",
+            "Nuwan Kulasekara",
+            "Asela Gunaratne",
+            "Suranga Lakmal",
+            "Nuwan Pradeep",
+            "Niroshan Dickwella (wk)",
+            "Shehan Jayasuriya",
+            "Kusal Perera",
+            "Dhananjaya de Silva",
+            "Upul Tharanga(c)"
+        ],
+        "West Indies": [
+            "Johnson Charles",
+            "Ashley Nurse",
+            "Shannon Gabriel",
+            "Rovman Powell",
+            "Jonathan Carter",
+            "Sulieman Benn",
+            "Jason Holder(c)",
+            "Shai Hope (wk)",
+            "Kraigg Brathwaite",
+            "Evin Lewis",
+            "Carlos Brathwaite"
+        ]
+    }
 }

@@ -43,7 +43,7 @@
                 },
                 {
                     "batsman": "Stephen Fleming(c)",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "2",
                     "balls": "17",
                     "minutes": "24",
@@ -83,7 +83,7 @@
                 },
                 {
                     "batsman": "Jacob Oram",
-                    "dismissal": "c Gilchrist b Bracken",
+                    "dismissal": "c (wk)Gilchrist b Bracken",
                     "runs": "0",
                     "balls": "3",
                     "minutes": "2",
@@ -102,7 +102,7 @@
                     "strike_rate": "29.16"
                 },
                 {
-                    "batsman": "Brendon McCullum",
+                    "batsman": "Brendon McCullum (wk)",
                     "dismissal": "c Martyn b Williams",
                     "runs": "5",
                     "balls": "13",
@@ -211,7 +211,7 @@
             "extras": "7",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "c & b Oram",
                     "runs": "29",
                     "balls": "18",
@@ -232,7 +232,7 @@
                 },
                 {
                     "batsman": "Ricky Ponting(c)",
-                    "dismissal": "c McCullum b Tuffey",
+                    "dismissal": "c (wk)McCullum b Tuffey",
                     "runs": "12",
                     "balls": "27",
                     "minutes": "36",
@@ -313,5 +313,33 @@
             ]
         }
     ],
-    "result": "Australia won by 8 wickets (with 200 balls remaining)"
+    "result": "Australia won by 8 wickets (with 200 balls remaining)",
+    "playing_xi": {
+        "New Zealand": [
+            "Brendon McCullum (wk)",
+            "Chris Nevin",
+            "Craig McMillan",
+            "Stephen Fleming(c)",
+            "Chris Harris",
+            "Daniel Vettori",
+            "Daryl Tuffey",
+            "Lou Vincent",
+            "Paul Hitchcock",
+            "Jacob Oram",
+            "Scott Styris"
+        ],
+        "Australia": [
+            "Brad Williams",
+            "Brad Hogg",
+            "Adam Gilchrist (wk)",
+            "Michael Bevan",
+            "Ian Harvey",
+            "Andy Bichel",
+            "Ricky Ponting(c)",
+            "Nathan Bracken",
+            "Matthew Hayden",
+            "Damien Martyn",
+            "Andrew Symonds"
+        ]
+    }
 }

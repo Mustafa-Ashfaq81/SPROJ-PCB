@@ -70,7 +70,7 @@
                     "strike_rate": "147.91"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "not out",
                     "runs": "110",
                     "balls": "55",
@@ -188,7 +188,7 @@
                 },
                 {
                     "batsman": "Fakhar Zaman",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "138",
                     "balls": "106",
                     "minutes": "136",
@@ -227,7 +227,7 @@
                     "strike_rate": "77.77"
                 },
                 {
-                    "batsman": "Sarfaraz Ahmed(c)",
+                    "batsman": "Sarfaraz Ahmed(c) (wk)",
                     "dismissal": "not out",
                     "runs": "41",
                     "balls": "32",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Imad Wasim",
-                    "dismissal": "c Buttler b Willey",
+                    "dismissal": "c (wk)Buttler b Willey",
                     "runs": "8",
                     "balls": "4",
                     "minutes": "10",
@@ -357,5 +357,33 @@
             ]
         }
     ],
-    "result": "England won by 12 runs"
+    "result": "England won by 12 runs",
+    "playing_xi": {
+        "England": [
+            "Jason Roy",
+            "Eoin Morgan(c)",
+            "Adil Rashid",
+            "David Willey",
+            "Chris Woakes",
+            "Joe Root",
+            "Jos Buttler (wk)",
+            "Jonny Bairstow",
+            "Liam Plunkett",
+            "Ben Stokes",
+            "Moeen Ali"
+        ],
+        "Pakistan": [
+            "Haris Sohail",
+            "Asif Ali",
+            "Sarfaraz Ahmed(c) (wk)",
+            "Imad Wasim",
+            "Faheem Ashraf",
+            "Imam-ul-Haq",
+            "Babar Azam",
+            "Hasan Ali",
+            "Fakhar Zaman",
+            "Shaheen Shah Afridi",
+            "Yasir Shah"
+        ]
+    }
 }

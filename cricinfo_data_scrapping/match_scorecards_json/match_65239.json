@@ -86,7 +86,7 @@
                 },
                 {
                     "batsman": "Joe Harris(c)",
-                    "dismissal": "c Khaled Mashud b Sanuar Hossain",
+                    "dismissal": "c (wk)Khaled Mashud b Sanuar Hossain",
                     "runs": "4",
                     "balls": "23",
                     "minutes": "24",
@@ -115,7 +115,7 @@
                     "strike_rate": "32.50"
                 },
                 {
-                    "batsman": "Ashish Bagai",
+                    "batsman": "Ashish Bagai (wk)",
                     "dismissal": "b Mashrafe Mortaza",
                     "runs": "7",
                     "balls": "23",
@@ -253,7 +253,7 @@
             "batting": [
                 {
                     "batsman": "Hannan Sarkar",
-                    "dismissal": "c Bagai b Codrington",
+                    "dismissal": "c (wk)Bagai b Codrington",
                     "runs": "25",
                     "balls": "35",
                     "minutes": "53",
@@ -273,7 +273,7 @@
                 },
                 {
                     "batsman": "Habibul Bashar",
-                    "dismissal": "c Bagai b Thuraisingam",
+                    "dismissal": "c (wk)Bagai b Thuraisingam",
                     "runs": "0",
                     "balls": "8",
                     "minutes": "17",
@@ -283,7 +283,7 @@
                 },
                 {
                     "batsman": "Ehsanul Hoque",
-                    "dismissal": "c Bagai b Joseph",
+                    "dismissal": "c (wk)Bagai b Joseph",
                     "runs": "13",
                     "balls": "17",
                     "minutes": "33",
@@ -312,7 +312,7 @@
                     "strike_rate": "76.00"
                 },
                 {
-                    "batsman": "Khaled Mashud(c)",
+                    "batsman": "Khaled Mashud(c) (wk)",
                     "dismissal": "c sub (AM Samad) b Davison",
                     "runs": "1",
                     "balls": "8",
@@ -424,5 +424,33 @@
             ]
         }
     ],
-    "result": "Canada won by 60 runs"
+    "result": "Canada won by 60 runs",
+    "playing_xi": {
+        "Canada": [
+            "Davis Joseph",
+            "Joe Harris(c)",
+            "Ashish Bagai (wk)",
+            "Ian Billcliff",
+            "Ishwar Maraj",
+            "Nicholas de Groot",
+            "Desmond Chumney",
+            "Sanjayan Thuraisingam",
+            "Fazil Sattaur",
+            "Austin Codrington",
+            "John Davison"
+        ],
+        "Bangladesh": [
+            "Sanuar Hossain",
+            "Mashrafe Mortaza",
+            "Hannan Sarkar",
+            "Al Sahariar",
+            "Khaled Mashud(c) (wk)",
+            "Manjurul Islam",
+            "Habibul Bashar",
+            "Tapash Baisya",
+            "Alok Kapali",
+            "Ehsanul Hoque",
+            "Mohammad Rafique"
+        ]
+    }
 }

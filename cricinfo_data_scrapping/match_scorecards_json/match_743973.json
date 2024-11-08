@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Joe Burns",
-                    "dismissal": "c O'Brien b Young",
+                    "dismissal": "c (wk)O'Brien b Young",
                     "runs": "69",
                     "balls": "70",
                     "minutes": "91",
@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Steven Smith(c)",
-                    "dismissal": "c O'Brien b Thompson",
+                    "dismissal": "c (wk)O'Brien b Thompson",
                     "runs": "21",
                     "balls": "38",
                     "minutes": "51",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c O'Brien b McBrine",
+                    "dismissal": "c (wk)O'Brien b McBrine",
                     "runs": "2",
                     "balls": "6",
                     "minutes": "4",
@@ -103,7 +103,7 @@
                     "strike_rate": "73.33"
                 },
                 {
-                    "batsman": "Matthew Wade",
+                    "batsman": "Matthew Wade (wk)",
                     "dismissal": "not out",
                     "runs": "2",
                     "balls": "2",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Paul Stirling",
-                    "dismissal": "c Wade b Coulter-Nile",
+                    "dismissal": "c (wk)Wade b Coulter-Nile",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "8",
@@ -240,7 +240,7 @@
                     "strike_rate": "133.33"
                 },
                 {
-                    "batsman": "Niall O'Brien",
+                    "batsman": "Niall O'Brien (wk)",
                     "dismissal": "c Burns b Maxwell",
                     "runs": "45",
                     "balls": "53",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Gary Wilson",
-                    "dismissal": "c Wade b Cummins",
+                    "dismissal": "c (wk)Wade b Cummins",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "14",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Stuart Thompson",
-                    "dismissal": "c Wade b Starc",
+                    "dismissal": "c (wk)Wade b Starc",
                     "runs": "24",
                     "balls": "16",
                     "minutes": "23",
@@ -410,5 +410,33 @@
             ]
         }
     ],
-    "result": "Australia won by 23 runs (D/L method)"
+    "result": "Australia won by 23 runs (D/L method)",
+    "playing_xi": {
+        "Australia": [
+            "Mitchell Starc",
+            "Matthew Wade (wk)",
+            "George Bailey",
+            "Pat Cummins",
+            "Nathan Coulter-Nile",
+            "Joe Burns",
+            "David Warner",
+            "Glenn Maxwell",
+            "Shane Watson",
+            "Mitchell Marsh",
+            "Steven Smith(c)"
+        ],
+        "Ireland": [
+            "Andy Balbirnie",
+            "Tim Murtagh",
+            "Andy McBrine",
+            "Craig Young",
+            "Stuart Thompson",
+            "William Porterfield(c)",
+            "Gary Wilson",
+            "Niall O'Brien (wk)",
+            "John Mooney",
+            "Ed Joyce",
+            "Paul Stirling"
+        ]
+    }
 }

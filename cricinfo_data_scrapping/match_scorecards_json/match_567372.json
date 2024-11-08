@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Imran Farhat",
-                    "dismissal": "c de Villiers b Tsotsobe",
+                    "dismissal": "c (wk)de Villiers b Tsotsobe",
                     "runs": "13",
                     "balls": "30",
                     "minutes": "39",
@@ -50,7 +50,7 @@
                     "strike_rate": "55.55"
                 },
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "c McLaren b Peterson",
                     "runs": "48",
                     "balls": "51",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Misbah-ul-Haq(c)",
-                    "dismissal": "c de Villiers b McLaren",
+                    "dismissal": "c (wk)de Villiers b McLaren",
                     "runs": "24",
                     "balls": "46",
                     "minutes": "70",
@@ -267,7 +267,7 @@
                     "strike_rate": "75.00"
                 },
                 {
-                    "batsman": "AB de Villiers(c)",
+                    "batsman": "AB de Villiers(c) (wk)",
                     "dismissal": "not out",
                     "runs": "95",
                     "balls": "111",
@@ -387,5 +387,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 6 wickets (with 36 balls remaining)"
+    "result": "South Africa won by 6 wickets (with 36 balls remaining)",
+    "playing_xi": {
+        "Pakistan": [
+            "Wahab Riaz",
+            "Mohammad Irfan",
+            "Kamran Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Misbah-ul-Haq(c)",
+            "Shoaib Malik",
+            "Junaid Khan",
+            "Mohammad Hafeez",
+            "Younis Khan",
+            "Imran Farhat"
+        ],
+        "South Africa": [
+            "Lonwabo Tsotsobe",
+            "Farhaan Behardien",
+            "Colin Ingram",
+            "Ryan McLaren",
+            "AB de Villiers(c) (wk)",
+            "Dale Steyn",
+            "David Miller",
+            "Quinton de Kock",
+            "Morne Morkel",
+            "Robin Peterson",
+            "Hashim Amla"
+        ]
+    }
 }

@@ -40,7 +40,7 @@
                     "strike_rate": "88.14"
                 },
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "b McClenaghan",
                     "runs": "26",
                     "balls": "33",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Faf du Plessis",
-                    "dismissal": "c Ronchi b Neesham",
+                    "dismissal": "c (wk)Ronchi b Neesham",
                     "runs": "67",
                     "balls": "73",
                     "minutes": "81",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "c Ronchi b Southee",
+                    "dismissal": "c (wk)Ronchi b Southee",
                     "runs": "37",
                     "balls": "25",
                     "minutes": "42",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Dale Steyn",
-                    "dismissal": "c Ronchi b Anderson",
+                    "dismissal": "c (wk)Ronchi b Anderson",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "3",
@@ -311,7 +311,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Luke Ronchi",
+                    "batsman": "Luke Ronchi (wk)",
                     "dismissal": "c du Plessis b Philander",
                     "runs": "79",
                     "balls": "83",
@@ -451,5 +451,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 72 runs"
+    "result": "South Africa won by 72 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Rilee Rossouw",
+            "Dale Steyn",
+            "Morne Morkel",
+            "Vernon Philander",
+            "Imran Tahir",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ],
+        "New Zealand": [
+            "Mitchell McClenaghan",
+            "Corey Anderson",
+            "Brendon McCullum(c)",
+            "Trent Boult",
+            "James Neesham",
+            "Tom Latham",
+            "Dean Brownlie",
+            "Tim Southee",
+            "Daniel Vettori",
+            "Luke Ronchi (wk)",
+            "Martin Guptill"
+        ]
+    }
 }

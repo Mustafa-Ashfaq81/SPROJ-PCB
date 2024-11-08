@@ -62,8 +62,8 @@
                     "strike_rate": "45.71"
                 },
                 {
-                    "batsman": "Andy Flower",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "batsman": "Andy Flower (wk)",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "2",
@@ -113,7 +113,7 @@
                 },
                 {
                     "batsman": "Mluleki Nkala",
-                    "dismissal": "c Sangakkara b Vaas",
+                    "dismissal": "c (wk)Sangakkara b Vaas",
                     "runs": "1",
                     "balls": "11",
                     "minutes": "11",
@@ -227,7 +227,7 @@
                     "strike_rate": "143.75"
                 }
             ],
-            "did_not_bat": "Mahela Jayawardene , Russel Arnold , Kumar Sangakkara , Nuwan Zoysa , Suresh Perera , Kumar Dharmasena , Muthiah Muralidaran , Chaminda Vaas",
+            "did_not_bat": "Mahela Jayawardene , Russel Arnold , Kumar Sangakkara (wk) , Nuwan Zoysa , Suresh Perera , Kumar Dharmasena , Muthiah Muralidaran , Chaminda Vaas",
             "fall_of_wickets": "Fall of wickets : 1 - 4 ( Avishka Gunawardene , 0.5 ov )",
             "bowling": [
                 {
@@ -261,5 +261,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 9 wickets (with 274 balls remaining)"
+    "result": "Sri Lanka won by 9 wickets (with 274 balls remaining)",
+    "playing_xi": {
+        "Zimbabwe": [
+            "Grant Flower",
+            "Craig Wishart",
+            "Dougie Marillier",
+            "Henry Olonga",
+            "Andy Flower (wk)",
+            "Heath Streak",
+            "Stuart Carlisle(c)",
+            "Dion Ebrahim",
+            "Mluleki Nkala",
+            "Travis Friend",
+            "Tatenda Taibu"
+        ],
+        "Sri Lanka": [
+            "Mahela Jayawardene",
+            "Russel Arnold",
+            "Muthiah Muralidaran",
+            "Marvan Atapattu",
+            "Avishka Gunawardene",
+            "Kumar Sangakkara (wk)",
+            "Chaminda Vaas",
+            "Suresh Perera",
+            "Nuwan Zoysa",
+            "Kumar Dharmasena",
+            "Sanath Jayasuriya(c)"
+        ]
+    }
 }

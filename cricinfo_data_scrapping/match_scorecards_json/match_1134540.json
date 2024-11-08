@@ -53,8 +53,8 @@
                     "strike_rate": "89.28"
                 },
                 {
-                    "batsman": "Ghulam Shabber",
-                    "dismissal": "c Vare b Nao",
+                    "batsman": "Ghulam Shabber (wk)",
+                    "dismissal": "c (wk)Vare b Nao",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "6",
@@ -94,7 +94,7 @@
                 },
                 {
                     "batsman": "Muhammad Usman",
-                    "dismissal": "run out (Vare)",
+                    "dismissal": "run out ( (wk)Vare)",
                     "runs": "16",
                     "balls": "15",
                     "minutes": "23",
@@ -104,7 +104,7 @@
                 },
                 {
                     "batsman": "Ahmed Raza",
-                    "dismissal": "c Vare b Vanua",
+                    "dismissal": "c (wk)Vare b Vanua",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "22",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Amir Hayat",
-                    "dismissal": "c Vare b Vanua",
+                    "dismissal": "c (wk)Vare b Vanua",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "9",
@@ -324,7 +324,7 @@
                     "strike_rate": "61.90"
                 },
                 {
-                    "batsman": "Jack Vare",
+                    "batsman": "Jack Vare (wk)",
                     "dismissal": "b Imran Haider",
                     "runs": "4",
                     "balls": "13",
@@ -454,5 +454,33 @@
             ]
         }
     ],
-    "result": "U.A.E. won by 56 runs (D/L method)"
+    "result": "U.A.E. won by 56 runs (D/L method)",
+    "playing_xi": {
+        "United Arab Emirates": [
+            "Rohan Mustafa(c)",
+            "Rameez Shahzad",
+            "Ghulam Shabber (wk)",
+            "Ahmed Raza",
+            "Ashfaq Ahmed",
+            "Adnan Mufti",
+            "Mohammad Naveed",
+            "Shaiman Anwar",
+            "Imran Haider",
+            "Amir Hayat",
+            "Muhammad Usman"
+        ],
+        "Papua New Guinea": [
+            "Assad Vala(c)",
+            "Chad Soper",
+            "Norman Vanua",
+            "Lega Siaka",
+            "Charles Amini",
+            "Jason Kila",
+            "Alei Nao",
+            "Sese Bau",
+            "Vani Morea",
+            "Mahuru Dai",
+            "Jack Vare (wk)"
+        ]
+    }
 }

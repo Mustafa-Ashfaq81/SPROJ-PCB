@@ -30,7 +30,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Adam Gilchrist",
+                    "batsman": "Adam Gilchrist (wk)",
                     "dismissal": "b Samuels",
                     "runs": "5",
                     "balls": "26",
@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Michael Clarke",
-                    "dismissal": "st Jacobs b Gayle",
+                    "dismissal": "st (wk)Jacobs b Gayle",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "-",
@@ -257,7 +257,7 @@
                     "strike_rate": "115.38"
                 }
             ],
-            "did_not_bat": "Ramnaresh Sarwan , Marlon Samuels , Ricardo Powell , Ridley Jacobs , David Bernard , Vasbert Drakes , Mervyn Dillon , Corey Collymore",
+            "did_not_bat": "Ramnaresh Sarwan , Marlon Samuels , Ricardo Powell , Ridley Jacobs (wk) , David Bernard , Vasbert Drakes , Mervyn Dillon , Corey Collymore",
             "fall_of_wickets": "Fall of wickets : 1 - 116 ( Chris Gayle , 22.5 ov )",
             "bowling": [
                 {
@@ -361,5 +361,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 9 wickets (with 39 balls remaining)"
+    "result": "West Indies won by 9 wickets (with 39 balls remaining)",
+    "playing_xi": {
+        "Australia": [
+            "Brad Hogg",
+            "Ricky Ponting(c)",
+            "Michael Clarke",
+            "Darren Lehmann",
+            "Adam Gilchrist (wk)",
+            "Andrew Symonds",
+            "Ian Harvey",
+            "Jason Gillespie",
+            "Matthew Hayden",
+            "Brett Lee",
+            "Glenn McGrath"
+        ],
+        "West Indies": [
+            "Marlon Samuels",
+            "Wavell Hinds",
+            "Ramnaresh Sarwan",
+            "Chris Gayle",
+            "Ricardo Powell",
+            "Ridley Jacobs (wk)",
+            "Mervyn Dillon",
+            "Corey Collymore",
+            "Brian Lara(c)",
+            "Vasbert Drakes",
+            "David Bernard"
+        ]
+    }
 }

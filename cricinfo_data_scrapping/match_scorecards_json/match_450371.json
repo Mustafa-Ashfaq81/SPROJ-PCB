@@ -37,8 +37,8 @@
             "extras": "6",
             "batting": [
                 {
-                    "batsman": "Morris Ouma(c)",
-                    "dismissal": "c McCann b Johnston",
+                    "batsman": "Morris Ouma(c) (wk)",
+                    "dismissal": "c (wk)McCann b Johnston",
                     "runs": "17",
                     "balls": "35",
                     "minutes": "39",
@@ -128,7 +128,7 @@
                 },
                 {
                     "batsman": "Elijah Otieno",
-                    "dismissal": "c McCann b Mooney",
+                    "dismissal": "c (wk)McCann b Mooney",
                     "runs": "11",
                     "balls": "18",
                     "minutes": "18",
@@ -294,7 +294,7 @@
                     "strike_rate": "50.00"
                 }
             ],
-            "did_not_bat": "Nigel Jones , Rory McCann , John Mooney , George Dockrell , Andrew White , Trent Johnston (c)",
+            "did_not_bat": "Nigel Jones , Rory McCann (wk) , John Mooney , George Dockrell , Andrew White , Trent Johnston (c)",
             "fall_of_wickets": "Fall of wickets : 1 - 28 ( James Hall , 8.2 ov ) , 2 - 155 ( Paul Stirling , 36.2 ov ) , 3 - 163 ( Kevin O'Brien , 39.3 ov )",
             "bowling": [
                 {
@@ -384,5 +384,33 @@
             ]
         }
     ],
-    "result": "Ireland won by 7 wickets (with 61 balls remaining)"
+    "result": "Ireland won by 7 wickets (with 61 balls remaining)",
+    "playing_xi": {
+        "Kenya": [
+            "Alex Obanda",
+            "Nehemiah Odhiambo",
+            "Elijah Otieno",
+            "Rakep Patel",
+            "Jimmy Kamande",
+            "Morris Ouma(c) (wk)",
+            "Hiren Varaiya",
+            "Collins Obuya",
+            "James Ngoche",
+            "Thomas Odoyo",
+            "Francis Otieno"
+        ],
+        "Ireland": [
+            "John Mooney",
+            "Andrew Poynter",
+            "Kevin O'Brien",
+            "Nigel Jones",
+            "Rory McCann (wk)",
+            "James Hall",
+            "George Dockrell",
+            "Paul Stirling",
+            "Trent Johnston (c)",
+            "Alex Cusack",
+            "Andrew White"
+        ]
+    }
 }

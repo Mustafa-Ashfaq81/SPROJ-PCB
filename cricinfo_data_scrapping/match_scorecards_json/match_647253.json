@@ -41,7 +41,7 @@
                 },
                 {
                     "batsman": "Shikhar Dhawan",
-                    "dismissal": "c Haddin b McKay",
+                    "dismissal": "c (wk)Haddin b McKay",
                     "runs": "8",
                     "balls": "6",
                     "minutes": "8",
@@ -51,7 +51,7 @@
                 },
                 {
                     "batsman": "Virat Kohli",
-                    "dismissal": "c Haddin b Maxwell",
+                    "dismissal": "c (wk)Haddin b Maxwell",
                     "runs": "68",
                     "balls": "73",
                     "minutes": "121",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Yuvraj Singh",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "1",
@@ -80,7 +80,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "MS Dhoni(c)",
+                    "batsman": "MS Dhoni(c) (wk)",
                     "dismissal": "not out",
                     "runs": "139",
                     "balls": "121",
@@ -91,7 +91,7 @@
                 },
                 {
                     "batsman": "Ravindra Jadeja",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "2",
                     "balls": "4",
                     "minutes": "9",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Ravichandran Ashwin",
-                    "dismissal": "c Haddin b Johnson",
+                    "dismissal": "c (wk)Haddin b Johnson",
                     "runs": "28",
                     "balls": "35",
                     "minutes": "55",
@@ -252,7 +252,7 @@
             "batting": [
                 {
                     "batsman": "Phillip Hughes",
-                    "dismissal": "c Dhoni b Vinay Kumar",
+                    "dismissal": "c (wk)Dhoni b Vinay Kumar",
                     "runs": "22",
                     "balls": "40",
                     "minutes": "50",
@@ -311,7 +311,7 @@
                     "strike_rate": "100.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "c Jadeja b Kumar",
                     "runs": "24",
                     "balls": "16",
@@ -435,5 +435,33 @@
             ]
         }
     ],
-    "result": "Australia won by 4 wickets (with 3 balls remaining)"
+    "result": "Australia won by 4 wickets (with 3 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Ishant Sharma",
+            "Shikhar Dhawan",
+            "Rohit Sharma",
+            "MS Dhoni(c) (wk)",
+            "Ravindra Jadeja",
+            "Virat Kohli",
+            "Vinay Kumar",
+            "Bhuvneshwar Kumar",
+            "Yuvraj Singh",
+            "Suresh Raina",
+            "Ravichandran Ashwin"
+        ],
+        "Australia": [
+            "George Bailey(c)",
+            "Adam Voges",
+            "Xavier Doherty",
+            "Mitchell Johnson",
+            "Clint McKay",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shane Watson",
+            "Phillip Hughes",
+            "Aaron Finch"
+        ]
+    }
 }

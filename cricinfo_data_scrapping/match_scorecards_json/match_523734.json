@@ -54,7 +54,7 @@
                 },
                 {
                     "batsman": "Asad Shafiq",
-                    "dismissal": "st Taibu b Price",
+                    "dismissal": "st (wk)Taibu b Price",
                     "runs": "51",
                     "balls": "72",
                     "minutes": "103",
@@ -93,7 +93,7 @@
                     "strike_rate": "103.57"
                 },
                 {
-                    "batsman": "Adnan Akmal",
+                    "batsman": "Adnan Akmal (wk)",
                     "dismissal": "not out",
                     "runs": "24",
                     "balls": "33",
@@ -221,7 +221,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor(c)",
-                    "dismissal": "c Adnan Akmal b Aizaz Cheema",
+                    "dismissal": "c (wk)Adnan Akmal b Aizaz Cheema",
                     "runs": "6",
                     "balls": "14",
                     "minutes": "13",
@@ -240,7 +240,7 @@
                     "strike_rate": "80.76"
                 },
                 {
-                    "batsman": "Tatenda Taibu",
+                    "batsman": "Tatenda Taibu (wk)",
                     "dismissal": "c Younis Khan b Yasir Shah",
                     "runs": "27",
                     "balls": "26",
@@ -400,5 +400,33 @@
             ]
         }
     ],
-    "result": "Pakistan won by 28 runs"
+    "result": "Pakistan won by 28 runs",
+    "playing_xi": {
+        "Pakistan": [
+            "Asad Shafiq",
+            "Adnan Akmal (wk)",
+            "Younis Khan",
+            "Aizaz Cheema",
+            "Imran Farhat",
+            "Misbah-ul-Haq(c)",
+            "Yasir Shah",
+            "Shoaib Malik",
+            "Mohammad Hafeez",
+            "Sohail Khan",
+            "Sohail Tanvir"
+        ],
+        "Zimbabwe": [
+            "Chamu Chibhabha",
+            "Tatenda Taibu (wk)",
+            "Brian Vitori",
+            "Malcolm Waller",
+            "Ray Price",
+            "Brendan Taylor(c)",
+            "Hamilton Masakadza",
+            "Elton Chigumbura",
+            "Prosper Utseya",
+            "Kyle Jarvis",
+            "Vusi Sibanda"
+        ]
+    }
 }

@@ -91,7 +91,7 @@
                     "strike_rate": "72.22"
                 },
                 {
-                    "batsman": "Jos Buttler",
+                    "batsman": "Jos Buttler (wk)",
                     "dismissal": "c Warner b Faulkner",
                     "runs": "28",
                     "balls": "60",
@@ -279,7 +279,7 @@
                 },
                 {
                     "batsman": "George Bailey(c)",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "10",
                     "balls": "25",
                     "minutes": "36",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Glenn Maxwell",
-                    "dismissal": "c Buttler b Woakes",
+                    "dismissal": "c (wk)Buttler b Woakes",
                     "runs": "0",
                     "balls": "2",
                     "minutes": "1",
@@ -298,7 +298,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Brad Haddin",
+                    "batsman": "Brad Haddin (wk)",
                     "dismissal": "run out (Bopara)",
                     "runs": "16",
                     "balls": "8",
@@ -418,5 +418,33 @@
             ]
         }
     ],
-    "result": "Australia won by 3 wickets (with 61 balls remaining)"
+    "result": "Australia won by 3 wickets (with 61 balls remaining)",
+    "playing_xi": {
+        "England": [
+            "Chris Woakes",
+            "Jos Buttler (wk)",
+            "Joe Root",
+            "Chris Jordan",
+            "Steven Finn",
+            "Eoin Morgan(c)",
+            "Stuart Broad",
+            "Moeen Ali",
+            "James Taylor",
+            "Ian Bell",
+            "Ravi Bopara"
+        ],
+        "Australia": [
+            "George Bailey(c)",
+            "Mitchell Starc",
+            "Steven Smith",
+            "Pat Cummins",
+            "Xavier Doherty",
+            "David Warner",
+            "Glenn Maxwell",
+            "Brad Haddin (wk)",
+            "James Faulkner",
+            "Shane Watson",
+            "Aaron Finch"
+        ]
+    }
 }

@@ -33,7 +33,7 @@
             "extras": "10",
             "batting": [
                 {
-                    "batsman": "Arjun Saud",
+                    "batsman": "Arjun Saud (wk)",
                     "dismissal": "c Fayyaz Butt b Kaleemullah",
                     "runs": "5",
                     "balls": "12",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Rohit Paudel(c)",
-                    "dismissal": "c Athavale b Aqib Ilyas",
+                    "dismissal": "c (wk)Athavale b Aqib Ilyas",
                     "runs": "60",
                     "balls": "72",
                     "minutes": "-",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Aarif Sheikh",
-                    "dismissal": "c Athavale b Shakeel Ahmed",
+                    "dismissal": "c (wk)Athavale b Shakeel Ahmed",
                     "runs": "35",
                     "balls": "88",
                     "minutes": "-",
@@ -124,7 +124,7 @@
                 },
                 {
                     "batsman": "Sompal Kami",
-                    "dismissal": "run out (Prajapati/Athavale)",
+                    "dismissal": "run out (Prajapati/ (wk)Athavale)",
                     "runs": "20",
                     "balls": "8",
                     "minutes": "-",
@@ -274,8 +274,8 @@
                     "strike_rate": "87.87"
                 },
                 {
-                    "batsman": "Pratik Athavale",
-                    "dismissal": "c Saud b Karan KC",
+                    "batsman": "Pratik Athavale (wk)",
+                    "dismissal": "c (wk)Saud b Karan KC",
                     "runs": "26",
                     "balls": "36",
                     "minutes": "-",
@@ -305,7 +305,7 @@
                 },
                 {
                     "batsman": "Shoaib Khan",
-                    "dismissal": "c Saud b Gulsan Jha",
+                    "dismissal": "c (wk)Saud b Gulsan Jha",
                     "runs": "26",
                     "balls": "26",
                     "minutes": "-",
@@ -444,5 +444,33 @@
             ]
         }
     ],
-    "result": "Oman won by 1 wicket (with 1 ball remaining)"
+    "result": "Oman won by 1 wicket (with 1 ball remaining)",
+    "playing_xi": {
+        "Nepal": [
+            "Rohit Paudel(c)",
+            "Arjun Saud (wk)",
+            "Aarif Sheikh",
+            "Sandeep Lamichhane",
+            "Aasif Sheikh",
+            "Karan KC",
+            "Gulsan Jha",
+            "Sompal Kami",
+            "Lalit Rajbanshi",
+            "Bhim Sharki",
+            "Anil Sah"
+        ],
+        "Oman": [
+            "Shoaib Khan",
+            "Kashyap Prajapati",
+            "Jatinder Singh",
+            "Fayyaz Butt",
+            "Khalid Kail",
+            "Aqib Ilyas(c)",
+            "Ayaan Khan",
+            "Kaleemullah",
+            "Pratik Athavale (wk)",
+            "Jay Odedra",
+            "Shakeel Ahmed"
+        ]
+    }
 }

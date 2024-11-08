@@ -83,7 +83,7 @@
                     "strike_rate": "25.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim",
+                    "batsman": "Mushfiqur Rahim (wk)",
                     "dismissal": "c Chigumbura b Kamungozi",
                     "runs": "77",
                     "balls": "78",
@@ -114,7 +114,7 @@
                 },
                 {
                     "batsman": "Mashrafe Mortaza(c)",
-                    "dismissal": "c Moor b Madziva",
+                    "dismissal": "c (wk)Moor b Madziva",
                     "runs": "39",
                     "balls": "25",
                     "minutes": "37",
@@ -289,7 +289,7 @@
                 },
                 {
                     "batsman": "Brendan Taylor",
-                    "dismissal": "c Mushfiqur Rahim b Rubel Hossain",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Rubel Hossain",
                     "runs": "63",
                     "balls": "69",
                     "minutes": "93",
@@ -328,8 +328,8 @@
                     "strike_rate": "28.57"
                 },
                 {
-                    "batsman": "Peter Moor",
-                    "dismissal": "run out (Sabbir Rahman/Mushfiqur Rahim)",
+                    "batsman": "Peter Moor (wk)",
+                    "dismissal": "run out (Sabbir Rahman/ (wk)Mushfiqur Rahim)",
                     "runs": "13",
                     "balls": "25",
                     "minutes": "38",
@@ -448,5 +448,33 @@
             ]
         }
     ],
-    "result": "Bangladesh won by 21 runs"
+    "result": "Bangladesh won by 21 runs",
+    "playing_xi": {
+        "Bangladesh": [
+            "Abul Hasan",
+            "Rubel Hossain",
+            "Shakib Al Hasan",
+            "Mashrafe Mortaza(c)",
+            "Mahmudullah",
+            "Tamim Iqbal",
+            "Jubair Hossain",
+            "Imrul Kayes",
+            "Anamul Haque",
+            "Sabbir Rahman",
+            "Mushfiqur Rahim (wk)"
+        ],
+        "Zimbabwe": [
+            "Peter Moor (wk)",
+            "Elton Chigumbura(c)",
+            "Neville Madziva",
+            "Tendai Chatara",
+            "Brendan Taylor",
+            "Regis Chakabva",
+            "Vusi Sibanda",
+            "Timycen Maruma",
+            "Hamilton Masakadza",
+            "Solomon Mire",
+            "Tafadzwa Kamungozi"
+        ]
+    }
 }

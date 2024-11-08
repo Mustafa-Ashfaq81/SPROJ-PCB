@@ -70,8 +70,8 @@
                     "strike_rate": "87.03"
                 },
                 {
-                    "batsman": "Tom Latham(c)",
-                    "dismissal": "st SD Hope b Miller",
+                    "batsman": "Tom Latham(c) (wk)",
+                    "dismissal": "st (wk)SD Hope b Miller",
                     "runs": "37",
                     "balls": "42",
                     "minutes": "66",
@@ -193,7 +193,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Shai Hope",
+                    "batsman": "Shai Hope (wk)",
                     "dismissal": "c Taylor b Boult",
                     "runs": "2",
                     "balls": "4",
@@ -359,5 +359,33 @@
             ]
         }
     ],
-    "result": "New Zealand won by 66 runs (D/L method)"
+    "result": "New Zealand won by 66 runs (D/L method)",
+    "playing_xi": {
+        "New Zealand": [
+            "Mitchell Santner",
+            "Todd Astle",
+            "Tom Latham(c) (wk)",
+            "Matt Henry",
+            "Trent Boult",
+            "Neil Broom",
+            "Henry Nicholls",
+            "Colin Munro",
+            "George Worker",
+            "Ross Taylor",
+            "Lockie Ferguson"
+        ],
+        "West Indies": [
+            "Shai Hope (wk)",
+            "Sheldon Cottrell",
+            "Nikita Miller",
+            "Jason Holder(c)",
+            "Shannon Gabriel",
+            "Rovman Powell",
+            "Kyle Hope",
+            "Ashley Nurse",
+            "Chris Gayle",
+            "Jason Mohammed",
+            "Chadwick Walton"
+        ]
+    }
 }

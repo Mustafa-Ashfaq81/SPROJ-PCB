@@ -29,7 +29,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Scott Edwards",
+                    "batsman": "Scott Edwards (wk)",
                     "dismissal": "lbw b Amini",
                     "runs": "27",
                     "balls": "49",
@@ -50,7 +50,7 @@
                 },
                 {
                     "batsman": "Bas de Leede",
-                    "dismissal": "c Doriga b Nao",
+                    "dismissal": "c (wk)Doriga b Nao",
                     "runs": "18",
                     "balls": "43",
                     "minutes": "43",
@@ -241,7 +241,7 @@
                 },
                 {
                     "batsman": "Assad Vala(c)",
-                    "dismissal": "c Edwards b Klaassen",
+                    "dismissal": "c (wk)Edwards b Klaassen",
                     "runs": "44",
                     "balls": "58",
                     "minutes": "101",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Mahuru Dai",
-                    "dismissal": "c Edwards b Snater",
+                    "dismissal": "c (wk)Edwards b Snater",
                     "runs": "0",
                     "balls": "4",
                     "minutes": "6",
@@ -280,7 +280,7 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Kiplin Doriga",
+                    "batsman": "Kiplin Doriga (wk)",
                     "dismissal": "not out",
                     "runs": "32",
                     "balls": "58",
@@ -291,7 +291,7 @@
                 },
                 {
                     "batsman": "Charles Amini",
-                    "dismissal": "st Edwards b van der Merwe",
+                    "dismissal": "st (wk)Edwards b van der Merwe",
                     "runs": "9",
                     "balls": "17",
                     "minutes": "19",
@@ -416,5 +416,33 @@
             ]
         }
     ],
-    "result": "Netherlands won by 57 runs"
+    "result": "Netherlands won by 57 runs",
+    "playing_xi": {
+        "Netherlands": [
+            "Peter Borren(c)",
+            "Sikander Zulfiqar",
+            "Ben Cooper",
+            "Ryan ten Doeschate",
+            "Pieter Seelaar",
+            "Roelof van der Merwe",
+            "Timm van der Gugten",
+            "Shane Snater",
+            "Bas de Leede",
+            "Fred Klaassen",
+            "Scott Edwards (wk)"
+        ],
+        "Papua New Guinea": [
+            "Assad Vala(c)",
+            "Norman Vanua",
+            "Lega Siaka",
+            "Charles Amini",
+            "Jason Kila",
+            "Alei Nao",
+            "Sese Bau",
+            "Tony Ura",
+            "Kiplin Doriga (wk)",
+            "John Reva",
+            "Mahuru Dai"
+        ]
+    }
 }

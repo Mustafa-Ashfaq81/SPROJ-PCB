@@ -31,7 +31,7 @@
             "batting": [
                 {
                     "batsman": "Chris Gayle",
-                    "dismissal": "c Umar Akmal b Mohammad Irfan",
+                    "dismissal": "c (wk)Umar Akmal b Mohammad Irfan",
                     "runs": "1",
                     "balls": "5",
                     "minutes": "3",
@@ -40,8 +40,8 @@
                     "strike_rate": "20.00"
                 },
                 {
-                    "batsman": "Johnson Charles",
-                    "dismissal": "st Umar Akmal b Shahid Afridi",
+                    "batsman": "Johnson Charles (wk)",
+                    "dismissal": "st (wk)Umar Akmal b Shahid Afridi",
                     "runs": "31",
                     "balls": "51",
                     "minutes": "84",
@@ -71,7 +71,7 @@
                 },
                 {
                     "batsman": "Lendl Simmons",
-                    "dismissal": "c Umar Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Umar Akmal b Shahid Afridi",
                     "runs": "10",
                     "balls": "15",
                     "minutes": "24",
@@ -101,7 +101,7 @@
                 },
                 {
                     "batsman": "Daren Sammy",
-                    "dismissal": "run out (Umar Akmal)",
+                    "dismissal": "run out ( (wk)Umar Akmal)",
                     "runs": "3",
                     "balls": "3",
                     "minutes": "6",
@@ -111,7 +111,7 @@
                 },
                 {
                     "batsman": "Kemar Roach",
-                    "dismissal": "run out (Umar Akmal)",
+                    "dismissal": "run out ( (wk)Umar Akmal)",
                     "runs": "0",
                     "balls": "1",
                     "minutes": "2",
@@ -238,7 +238,7 @@
                 },
                 {
                     "batsman": "Ahmed Shehzad",
-                    "dismissal": "c Charles b Roach",
+                    "dismissal": "c (wk)Charles b Roach",
                     "runs": "19",
                     "balls": "33",
                     "minutes": "38",
@@ -277,7 +277,7 @@
                     "strike_rate": "58.82"
                 },
                 {
-                    "batsman": "Umar Akmal",
+                    "batsman": "Umar Akmal (wk)",
                     "dismissal": "c Samuels b DJ Bravo",
                     "runs": "50",
                     "balls": "46",
@@ -288,7 +288,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "st Charles b Narine",
+                    "dismissal": "st (wk)Charles b Narine",
                     "runs": "5",
                     "balls": "10",
                     "minutes": "10",
@@ -441,5 +441,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 37 runs"
+    "result": "West Indies won by 37 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Lendl Simmons",
+            "Kieron Pollard",
+            "Chris Gayle",
+            "Darren Bravo",
+            "Kemar Roach",
+            "Sunil Narine",
+            "Jason Holder",
+            "Johnson Charles (wk)",
+            "Marlon Samuels",
+            "Dwayne Bravo(c)",
+            "Daren Sammy"
+        ],
+        "Pakistan": [
+            "Wahab Riaz",
+            "Asad Ali",
+            "Umar Akmal (wk)",
+            "Shahid Afridi",
+            "Saeed Ajmal",
+            "Nasir Jamshed",
+            "Asad Shafiq",
+            "Mohammad Hafeez",
+            "Mohammad Irfan",
+            "Ahmed Shehzad",
+            "Misbah-ul-Haq(c)"
+        ]
+    }
 }

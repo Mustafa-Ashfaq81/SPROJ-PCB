@@ -44,7 +44,7 @@
                 },
                 {
                     "batsman": "Sachin Tendulkar",
-                    "dismissal": "c Boucher b Pollock",
+                    "dismissal": "c (wk)Boucher b Pollock",
                     "runs": "2",
                     "balls": "9",
                     "minutes": "20",
@@ -84,7 +84,7 @@
                 },
                 {
                     "batsman": "Gautam Gambhir",
-                    "dismissal": "c Boucher b Ntini",
+                    "dismissal": "c (wk)Boucher b Ntini",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "3",
@@ -103,8 +103,8 @@
                     "strike_rate": "73.01"
                 },
                 {
-                    "batsman": "MS Dhoni",
-                    "dismissal": "run out (Nel/Boucher)",
+                    "batsman": "MS Dhoni (wk)",
+                    "dismissal": "run out (Nel/ (wk)Boucher)",
                     "runs": "17",
                     "balls": "28",
                     "minutes": "39",
@@ -290,7 +290,7 @@
                     "strike_rate": "62.16"
                 },
                 {
-                    "batsman": "Mark Boucher",
+                    "batsman": "Mark Boucher (wk)",
                     "dismissal": "c Dravid b Tendulkar",
                     "runs": "2",
                     "balls": "4",
@@ -414,5 +414,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 5 wickets (with 7 balls remaining)"
+    "result": "South Africa won by 5 wickets (with 7 balls remaining)",
+    "playing_xi": {
+        "India": [
+            "Irfan Pathan",
+            "Sachin Tendulkar",
+            "Harbhajan Singh",
+            "RP Singh",
+            "Rahul Dravid(c)",
+            "Mohammad Kaif",
+            "MS Dhoni (wk)",
+            "Gautam Gambhir",
+            "Ajit Agarkar",
+            "Virender Sehwag",
+            "Yuvraj Singh"
+        ],
+        "South Africa": [
+            "Justin Ontong",
+            "Graeme Smith(c)",
+            "Jacques Kallis",
+            "Shaun Pollock",
+            "Justin Kemp",
+            "AB de Villiers",
+            "Johan Botha",
+            "Ashwell Prince",
+            "Andre Nel",
+            "Makhaya Ntini",
+            "Mark Boucher (wk)"
+        ]
+    }
 }

@@ -30,7 +30,7 @@
             "extras": "14",
             "batting": [
                 {
-                    "batsman": "Quinton de Kock",
+                    "batsman": "Quinton de Kock (wk)",
                     "dismissal": "c Chigumbura b Nyumbu",
                     "runs": "38",
                     "balls": "38",
@@ -61,7 +61,7 @@
                 },
                 {
                     "batsman": "AB de Villiers(c)",
-                    "dismissal": "run out (Mutumbami)",
+                    "dismissal": "run out ( (wk)Mutumbami)",
                     "runs": "1",
                     "balls": "4",
                     "minutes": "3",
@@ -275,7 +275,7 @@
                     "strike_rate": "29.16"
                 },
                 {
-                    "batsman": "Richmond Mutumbami",
+                    "batsman": "Richmond Mutumbami (wk)",
                     "dismissal": "lbw b Phangiso",
                     "runs": "12",
                     "balls": "20",
@@ -356,7 +356,7 @@
                 },
                 {
                     "batsman": "John Nyumbu",
-                    "dismissal": "c de Kock b Imran Tahir",
+                    "dismissal": "c (wk)de Kock b Imran Tahir",
                     "runs": "18",
                     "balls": "18",
                     "minutes": "27",
@@ -465,5 +465,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 61 runs"
+    "result": "South Africa won by 61 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Ryan McLaren",
+            "Aaron Phangiso",
+            "Imran Tahir",
+            "Wayne Parnell",
+            "Kyle Abbott",
+            "David Miller",
+            "Jean-Paul Duminy",
+            "Quinton de Kock (wk)",
+            "Faf du Plessis",
+            "AB de Villiers(c)",
+            "Hashim Amla"
+        ],
+        "Zimbabwe": [
+            "Neville Madziva",
+            "Brian Vitori",
+            "Elton Chigumbura(c)",
+            "Prosper Utseya",
+            "John Nyumbu",
+            "Sean Williams",
+            "Hamilton Masakadza",
+            "Brendan Taylor",
+            "Luke Jongwe",
+            "Richmond Mutumbami (wk)",
+            "Sikandar Raza"
+        ]
+    }
 }

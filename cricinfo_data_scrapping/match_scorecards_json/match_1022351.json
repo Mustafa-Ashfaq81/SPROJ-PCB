@@ -33,7 +33,7 @@
             "batting": [
                 {
                     "batsman": "Hashim Amla",
-                    "dismissal": "run out (Mendis/Dickwella)",
+                    "dismissal": "run out (Mendis/ (wk)Dickwella)",
                     "runs": "103",
                     "balls": "115",
                     "minutes": "202",
@@ -42,8 +42,8 @@
                     "strike_rate": "89.56"
                 },
                 {
-                    "batsman": "Quinton de Kock",
-                    "dismissal": "c Dickwella b Pradeep",
+                    "batsman": "Quinton de Kock (wk)",
+                    "dismissal": "c (wk)Dickwella b Pradeep",
                     "runs": "23",
                     "balls": "42",
                     "minutes": "62",
@@ -195,7 +195,7 @@
             "extras": "15",
             "batting": [
                 {
-                    "batsman": "Niroshan Dickwella",
+                    "batsman": "Niroshan Dickwella (wk)",
                     "dismissal": "c Parnell b Morkel",
                     "runs": "41",
                     "balls": "33",
@@ -395,5 +395,33 @@
             ]
         }
     ],
-    "result": "South Africa won by 96 runs"
+    "result": "South Africa won by 96 runs",
+    "playing_xi": {
+        "South Africa": [
+            "Quinton de Kock (wk)",
+            "Wayne Parnell",
+            "Kagiso Rabada",
+            "Hashim Amla",
+            "AB de Villiers(c)",
+            "Faf du Plessis",
+            "Imran Tahir",
+            "David Miller",
+            "Chris Morris",
+            "Morne Morkel",
+            "Jean-Paul Duminy"
+        ],
+        "Sri Lanka": [
+            "Lasith Malinga",
+            "Kusal Mendis",
+            "Niroshan Dickwella (wk)",
+            "Dinesh Chandimal",
+            "Asela Gunaratne",
+            "Seekkuge Prasanna",
+            "Suranga Lakmal",
+            "Nuwan Pradeep",
+            "Chamara Kapugedera",
+            "Kusal Perera",
+            "Upul Tharanga(c)"
+        ]
+    }
 }

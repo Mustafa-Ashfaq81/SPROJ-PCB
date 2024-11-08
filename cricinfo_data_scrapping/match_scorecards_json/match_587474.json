@@ -81,7 +81,7 @@
                 },
                 {
                     "batsman": "Kieron Pollard",
-                    "dismissal": "c Mushfiqur Rahim b Mahmudullah",
+                    "dismissal": "c (wk)Mushfiqur Rahim b Mahmudullah",
                     "runs": "2",
                     "balls": "14",
                     "minutes": "15",
@@ -90,7 +90,7 @@
                     "strike_rate": "14.28"
                 },
                 {
-                    "batsman": "Devon Thomas",
+                    "batsman": "Devon Thomas (wk)",
                     "dismissal": "b Mahmudullah",
                     "runs": "10",
                     "balls": "33",
@@ -253,8 +253,8 @@
                     "strike_rate": "0.00"
                 },
                 {
-                    "batsman": "Mushfiqur Rahim(c)",
-                    "dismissal": "st Thomas b Narine",
+                    "batsman": "Mushfiqur Rahim(c) (wk)",
+                    "dismissal": "st (wk)Thomas b Narine",
                     "runs": "27",
                     "balls": "58",
                     "minutes": "93",
@@ -264,7 +264,7 @@
                 },
                 {
                     "batsman": "Nasir Hossain",
-                    "dismissal": "c Thomas b Roach",
+                    "dismissal": "c (wk)Thomas b Roach",
                     "runs": "2",
                     "balls": "3",
                     "minutes": "4",
@@ -294,7 +294,7 @@
                 },
                 {
                     "batsman": "Sohag Gazi",
-                    "dismissal": "c Thomas b Permaul",
+                    "dismissal": "c (wk)Thomas b Permaul",
                     "runs": "13",
                     "balls": "22",
                     "minutes": "24",
@@ -409,5 +409,33 @@
             ]
         }
     ],
-    "result": "West Indies won by 75 runs"
+    "result": "West Indies won by 75 runs",
+    "playing_xi": {
+        "West Indies": [
+            "Kieron Pollard",
+            "Kemar Roach",
+            "Sunil Narine",
+            "Kieran Powell",
+            "Veerasammy Permaul",
+            "Darren Bravo",
+            "Dwayne Smith",
+            "Marlon Samuels",
+            "Chris Gayle",
+            "Devon Thomas (wk)",
+            "Daren Sammy(c)"
+        ],
+        "Bangladesh": [
+            "Tamim Iqbal",
+            "Mashrafe Mortaza",
+            "Mominul Haque",
+            "Sohag Gazi",
+            "Elias Sunny",
+            "Naeem Islam",
+            "Abdur Razzak",
+            "Mushfiqur Rahim(c) (wk)",
+            "Anamul Haque",
+            "Nasir Hossain",
+            "Mahmudullah"
+        ]
+    }
 }

@@ -34,7 +34,7 @@
             "batting": [
                 {
                     "batsman": "Upul Tharanga",
-                    "dismissal": "c Kamran Akmal b Abdul Razzaq",
+                    "dismissal": "c (wk)Kamran Akmal b Abdul Razzaq",
                     "runs": "17",
                     "balls": "44",
                     "minutes": "55",
@@ -53,7 +53,7 @@
                     "strike_rate": "78.94"
                 },
                 {
-                    "batsman": "Kumar Sangakkara(c)",
+                    "batsman": "Kumar Sangakkara(c) (wk)",
                     "dismissal": "c Shahid Afridi b Saeed Ajmal",
                     "runs": "36",
                     "balls": "40",
@@ -64,7 +64,7 @@
                 },
                 {
                     "batsman": "Mahela Jayawardene",
-                    "dismissal": "run out (Younis Khan/Kamran Akmal)",
+                    "dismissal": "run out (Younis Khan/ (wk)Kamran Akmal)",
                     "runs": "33",
                     "balls": "56",
                     "minutes": "88",
@@ -74,7 +74,7 @@
                 },
                 {
                     "batsman": "Chamara Kapugedera",
-                    "dismissal": "c Kamran Akmal b Shahid Afridi",
+                    "dismissal": "c (wk)Kamran Akmal b Shahid Afridi",
                     "runs": "8",
                     "balls": "18",
                     "minutes": "13",
@@ -240,7 +240,7 @@
             "extras": "11",
             "batting": [
                 {
-                    "batsman": "Kamran Akmal",
+                    "batsman": "Kamran Akmal (wk)",
                     "dismissal": "b Thushara",
                     "runs": "20",
                     "balls": "26",
@@ -261,7 +261,7 @@
                 },
                 {
                     "batsman": "Shahid Afridi",
-                    "dismissal": "c Sangakkara b Thushara",
+                    "dismissal": "c (wk)Sangakkara b Thushara",
                     "runs": "27",
                     "balls": "28",
                     "minutes": "50",
@@ -271,7 +271,7 @@
                 },
                 {
                     "batsman": "Mohammad Yousuf",
-                    "dismissal": "c Sangakkara b Kulasekara",
+                    "dismissal": "c (wk)Sangakkara b Kulasekara",
                     "runs": "4",
                     "balls": "10",
                     "minutes": "9",
@@ -301,7 +301,7 @@
                 },
                 {
                     "batsman": "Fawad Alam",
-                    "dismissal": "c Sangakkara b Jayasuriya",
+                    "dismissal": "c (wk)Sangakkara b Jayasuriya",
                     "runs": "31",
                     "balls": "58",
                     "minutes": "69",
@@ -440,5 +440,33 @@
             ]
         }
     ],
-    "result": "Sri Lanka won by 36 runs"
+    "result": "Sri Lanka won by 36 runs",
+    "playing_xi": {
+        "Sri Lanka": [
+            "Sanath Jayasuriya",
+            "Mahela Jayawardene",
+            "Muthiah Muralidaran",
+            "Chamara Kapugedera",
+            "Lasith Malinga",
+            "Upul Tharanga",
+            "Kumar Sangakkara(c) (wk)",
+            "Nuwan Kulasekara",
+            "Thilan Samaraweera",
+            "Angelo Mathews",
+            "Thilan Thushara"
+        ],
+        "Pakistan": [
+            "Fawad Alam",
+            "Abdul Razzaq",
+            "Shoaib Malik",
+            "Younis Khan(c)",
+            "Umar Gul",
+            "Kamran Akmal (wk)",
+            "Saeed Ajmal",
+            "Mohammad Yousuf",
+            "Mohammad Amir",
+            "Misbah-ul-Haq",
+            "Shahid Afridi"
+        ]
+    }
 }
