@@ -378,6 +378,15 @@ def parse_match_file(file_path, player_name, team_name):
 
     return player_stats
 
+def correct_overs(overs):
+    whole_overs = int(overs)
+    balls = (overs - whole_overs) * 10  # Extract the decimal part as balls
+    if balls >= 6:
+        whole_overs += 1
+        balls -= 6
+    return whole_overs + balls / 10
+
+
 def aggregate_stats(all_stats):
     """Aggregates batting, bowling, fielding, and dismissal data from all matches. Also calculates the span of the player's career based on match dates."""
     
@@ -558,7 +567,7 @@ def aggregate_stats(all_stats):
     final_aggregated = {  
         "batting": aggregated['batting'],  
         "bowling": {
-            "Overs": round(aggregated['bowling']['overs'], 2),
+            "Overs": round(correct_overs(aggregated['bowling']['overs']), 2),  # Apply the correction here
             "Maidens": aggregated['bowling']['maidens'],
             "Runs Conceded": aggregated['bowling']['runs_conceded'],
             "Wickets": aggregated['bowling']['wickets'],
@@ -571,12 +580,12 @@ def aggregate_stats(all_stats):
             "Bowling Average": aggregated['bowling']['bowl_avg']
         },
         "fielding": aggregated['fielding'],
-        "dismissal_data": [],  
-        "span": span,  
-        "matches_played": aggregated['matches_played'],  
-        "batting_innings": aggregated['batting_innings'],  
-        "bowling_innings": aggregated['bowling_innings'],  
-        "fielding_innings": aggregated['fielding_innings']   
+        "dismissal_data": [],
+        "span": span,
+        "matches_played": aggregated['matches_played'],
+        "batting_innings": aggregated['batting_innings'],
+        "bowling_innings": aggregated['bowling_innings'],
+        "fielding_innings": aggregated['fielding_innings']
     }  
 
     # Populate dismissal data 
