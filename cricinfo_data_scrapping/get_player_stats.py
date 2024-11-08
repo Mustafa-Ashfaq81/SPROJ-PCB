@@ -177,14 +177,15 @@ def extract_dismissal_data(batsman, dismissal_text, innings, bowler_mapping, wic
     for pattern, method in dismissal_patterns:
         match = pattern.search(dismissal_text)
         if match:
-            if method in ['caught wk', 'caught-fielder']:
-                if method == 'caught wk':
-                    fielder = match.group(1).strip()
-                    bowler = match.group(2).strip()
-                else:
-                    fielder = match.group(1).strip()
-                    bowler = match.group(2).strip()
-                # Check if fielder is a wicket-keeper
+            if method == 'caught wk':
+                fielder = match.group(1).strip()
+                bowler = match.group(2).strip()
+                dismissal_method = 'caught wk'
+                bowler_name = bowler
+            elif method == 'caught-fielder':
+                fielder = match.group(1).strip()
+                bowler = match.group(2).strip()
+                # Check if fielder is a wicketkeeper
                 if clean_name(fielder) in wicket_keepers:
                     dismissal_method = 'caught wk'
                 else:
@@ -708,7 +709,7 @@ def main():
     team_name = "Pakistan"          # Change this to the desired team
 
     # Directory containing match scorecard JSON files
-    scorecards_dir = "match_scorecards_json_sample"  # Ensure this path is correct
+    scorecards_dir = "match_scorecards_json"  # Ensure this path is correct
 
     # Check if the directory exists
     if not os.path.isdir(scorecards_dir):
