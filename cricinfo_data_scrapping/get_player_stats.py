@@ -714,8 +714,8 @@ def save_stats_to_json(player_stats, output_filename):
 
 def main():
     # Hard-coded Player and Team Name
-    player_name = "Azhar Mahmood"  # Change this to the desired player
-    team_name = "Pakistan"          # Change this to the desired team
+    player_name = "Virat Kohli"  # Change this to the desired player
+    team_name = "India"          # Change this to the desired team
 
     # Directory containing match scorecard JSON files
     scorecards_dir = "match_scorecards_json"  # Ensure this path is correct
