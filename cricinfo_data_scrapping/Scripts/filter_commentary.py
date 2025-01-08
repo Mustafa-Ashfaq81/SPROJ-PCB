@@ -3,10 +3,14 @@ import re
 import spacy
 
 # Update file paths for local system
-COMMENTARY_FILE_PATH = "../CommentaryData/India_vs_Australia_WorldCup_Chennai_2023.txt"
+COMMENTARY_FILE_PATH = "../CommentaryData/raw_commentary/India_vs_Australia_WorldCup_Chennai_2023.txt"
 PLAYER_NAME = "Virat Kohli"
 ALTERNATE_NAME = "Kohli"
-OUTPUT_FILE_PATH = f"{PLAYER_NAME.replace(' ', '_').lower()}_filtered_comm.txt"
+OUTPUT_DIRECTORY = "../CommentaryData/filtered_commentary"
+
+# Generate dynamic output file name and path
+OUTPUT_FILE_NAME = f"{PLAYER_NAME.replace(' ', '_').lower()}_filtered_comm.txt"
+OUTPUT_FILE_PATH = os.path.join(OUTPUT_DIRECTORY, OUTPUT_FILE_NAME)
 
 PRONOUN_PATTERN = re.compile(r"\b(he|his|him)\b", re.IGNORECASE)
 CONTEXT_WINDOW = 2
@@ -99,6 +103,7 @@ def main():
     print(f"Reading commentary from {COMMENTARY_FILE_PATH}...")
     raw_commentary_text = read_commentary(COMMENTARY_FILE_PATH)
     print("Commentary loaded.")
+    print("-"*100)
 
     print(f"Extracting sentences specifically about '{PLAYER_NAME}' (and pronouns referencing them)...")
     extracted = extract_player_sentences(
@@ -108,6 +113,7 @@ def main():
         alt_name=ALTERNATE_NAME
     )
     print(f"Total extracted sentences (initial): {len(extracted)}")
+    print("-"*100)
 
     print("Cleaning extracted sentences...")
     cleaned_sentences = clean_extracted_sentences(extracted)
@@ -116,9 +122,10 @@ def main():
     with open(OUTPUT_FILE_PATH, "w", encoding="utf-8") as outfile:
         for sentence in cleaned_sentences:
             outfile.write(sentence + "\n")
+    print("-"*100)
 
-    print("Validating output (word-based comparison)...")
     validate_output(raw_commentary_text, cleaned_sentences, PLAYER_NAME)
+    print("-"*100)
 
     print("Processing complete. Check the output file for results.")
 
