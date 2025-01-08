@@ -229,7 +229,6 @@ def extract_dismissal_data(batsman, dismissal_text, innings, bowler_mapping, wic
             # Find bowler type
             bowler_type = find_bowler_type(bowler_name_full, innings)
 
-            # Debugging logs for tracing
             logging.debug(f"Dismissal Text: '{dismissal_text}'")
             logging.debug(f"Matched Method: '{method}'")
             logging.debug(f"Fielder: '{fielder}', Bowler: '{bowler_name_full}', Bowler Type: '{bowler_type}'")
@@ -247,7 +246,6 @@ def extract_dismissal_data(batsman, dismissal_text, innings, bowler_mapping, wic
         'dismissal_method': dismissal_method,
         'bowler_name': bowler_name_full
     }
-
 
 def parse_match_file(file_path, player_name, team_name):
     """Parses a single match JSON file and extracts data for the specified player."""
@@ -270,7 +268,11 @@ def parse_match_file(file_path, player_name, team_name):
             'fours': 0,
             'sixes': 0,
             'wides': 0,
-            'no_balls': 0
+            'no_balls': 0,
+            # Extended fields for better aggregator stats
+            'boundary_runs_this_innings': 0,  
+            'match_wickets': 0,
+            'match_runs': 0
         },
         'dismissals': [],
         'fielding': {
@@ -279,7 +281,7 @@ def parse_match_file(file_path, player_name, team_name):
             'run_outs': 0
         },
         'match_date': None,
-        'played': False  
+        'played': False
     }
 
     match_details = match_data.get('match_details', {})
@@ -291,7 +293,7 @@ def parse_match_file(file_path, player_name, team_name):
     team_name_lower = team_name.lower()
 
     playing_xi = match_data.get('playing_xi', {})
-    
+
     # Extract wicket-keepers from both teams
     wicket_keepers = set()
     for team, players in playing_xi.items():
@@ -363,22 +365,35 @@ def parse_match_file(file_path, player_name, team_name):
             for bowler in bowling:
                 bowler_name_cleaned = clean_name(bowler.get('bowler', ''))
                 if bowler_name_cleaned == player_name_clean:
-                    # Aggregate player's bowling data
-                    player_stats['bowling']['overs'] += safe_float_conversion(bowler.get('overs', 0.0))
+                    overs_val = safe_float_conversion(bowler.get('overs', 0.0))
+                    wickets_val = safe_int_conversion(bowler.get('wickets', 0))
+                    runs_val = safe_int_conversion(bowler.get('runs_conceded', 0))
+                    fours_val = safe_int_conversion(bowler.get('fours', 0))
+                    sixes_val = safe_int_conversion(bowler.get('sixes', 0))
+
+                    player_stats['bowling']['overs'] += overs_val
                     player_stats['bowling']['maidens'] += safe_int_conversion(bowler.get('maidens', 0))
-                    player_stats['bowling']['runs_conceded'] += safe_int_conversion(bowler.get('runs_conceded', 0))
-                    player_stats['bowling']['wickets'] += safe_int_conversion(bowler.get('wickets', 0))
+                    player_stats['bowling']['runs_conceded'] += runs_val
+                    player_stats['bowling']['wickets'] += wickets_val
                     player_stats['bowling']['economy_total'] += safe_float_conversion(bowler.get('economy', 0.0))
                     player_stats['bowling']['dots'] += safe_int_conversion(bowler.get('dots', 0))
-                    player_stats['bowling']['fours'] += safe_int_conversion(bowler.get('fours', 0))
-                    player_stats['bowling']['sixes'] += safe_int_conversion(bowler.get('sixes', 0))
+                    player_stats['bowling']['fours'] += fours_val
+                    player_stats['bowling']['sixes'] += sixes_val
                     player_stats['bowling']['wides'] += safe_int_conversion(bowler.get('wides', 0))
                     player_stats['bowling']['no_balls'] += safe_int_conversion(bowler.get('no_balls', 0))
+
+                    # Boundary runs for this innings
+                    player_stats['bowling']['boundary_runs_this_innings'] += (fours_val * 4) + (sixes_val * 6)
+
+                    # Single-innings data for best figures
+                    player_stats['bowling']['match_wickets'] = wickets_val
+                    player_stats['bowling']['match_runs'] = runs_val
                     break
 
     return player_stats
 
 def correct_overs(overs):
+    """Convert decimal overs into the standard X.Y overs format where Y < 6."""
     whole_overs = int(overs)
     balls = (overs - whole_overs) * 10  # Extract the decimal part as balls
     if balls >= 6:
@@ -386,9 +401,9 @@ def correct_overs(overs):
         balls -= 6
     return whole_overs + balls / 10
 
-
 def aggregate_stats(all_stats):
-    """Aggregates batting, bowling, fielding, and dismissal data from all matches. Also calculates the span of the player's career based on match dates."""
+    """Aggregates batting, bowling, fielding, and dismissal data from all matches. 
+       Also calculates the span of the player's career based on match dates and extended bowling stats."""
     
     # Define all bowler types
     bowler_types = [
@@ -435,14 +450,20 @@ def aggregate_stats(all_stats):
             'wides': 0,
             'no_balls': 0,
             'bowl_avg': 0.0,
-            'economy': 0.0
+            'economy': 0.0,
+            # NEW: additional fields for advanced bowling stats
+            'total_boundary_runs': 0,  
+            'best_bowling_wickets': 0, 
+            'best_bowling_runs': 999999, 
+            'three_wicket_hauls': 0,
+            'four_wicket_hauls': 0,
+            'five_wicket_hauls': 0
         },
         'fielding': {
             'catches': 0,
             'stumpings': 0,
             'run_outs': 0
         },
-        # Initialize 'dismissals' with 'Dis' and all dismissal methods set to 0
         "dismissals": {bowler_type: {"Dis": 0, **{method: 0 for method in DISMISSAL_METHODS}} for bowler_type in bowler_types},
         "match_dates": [],
         "matches_played": 0,
@@ -462,22 +483,22 @@ def aggregate_stats(all_stats):
 
         # Aggregate Batting 
         batting = match.get("batting", {}) 
-        if batting: 
-            aggregated["batting_innings"] += 1  
+        if batting:
+            aggregated["batting_innings"] += 1
             aggregated["batting"]["runs"] += batting.get("runs", 0)
             aggregated["batting"]["balls"] += batting.get("balls", 0)
             aggregated["batting"]["fours"] += batting.get("fours", 0)
             aggregated["batting"]["sixes"] += batting.get("sixes", 0)
             aggregated["batting"]["strike_rate_total"] += batting.get("strike_rate", 0.0)
             if batting.get("dismissal", "").lower() != "not out":
-                aggregated["batting"]["dismissals"] += 1 
-            else: 
+                aggregated["batting"]["dismissals"] += 1
+            else:
                 aggregated["batting"]["not_outs"] += 1
 
         # Aggregate Bowling 
-        bowling = match.get("bowling", {}) 
-        if bowling: 
-            aggregated["bowling_innings"] += 1  
+        bowling = match.get("bowling", {})
+        if bowling:
+            aggregated["bowling_innings"] += 1
             aggregated["bowling"]["overs"] += bowling.get("overs", 0.0)
             aggregated["bowling"]["maidens"] += bowling.get("maidens", 0)
             aggregated["bowling"]["runs_conceded"] += bowling.get("runs_conceded", 0)
@@ -489,19 +510,41 @@ def aggregate_stats(all_stats):
             aggregated["bowling"]["wides"] += bowling.get("wides", 0)
             aggregated["bowling"]["no_balls"] += bowling.get("no_balls", 0)
 
+            # NEW: boundary runs
+            aggregated["bowling"]['total_boundary_runs'] += bowling.get('boundary_runs_this_innings', 0)
+
+            # Track best bowling figures
+            match_wickets = bowling.get('match_wickets', 0)
+            match_runs = bowling.get('match_runs', 0)
+            if match_wickets > 0:
+                # If more wickets than best, or same wickets but fewer runs
+                if (match_wickets > aggregated["bowling"]['best_bowling_wickets']) or (
+                    match_wickets == aggregated["bowling"]['best_bowling_wickets'] 
+                    and match_runs < aggregated["bowling"]['best_bowling_runs']
+                ):
+                    aggregated["bowling"]['best_bowling_wickets'] = match_wickets
+                    aggregated["bowling"]['best_bowling_runs'] = match_runs
+
+            # Track 3/4/5-wicket hauls
+            if match_wickets == 3:
+                aggregated["bowling"]['three_wicket_hauls'] += 1
+            elif match_wickets == 4:
+                aggregated["bowling"]['four_wicket_hauls'] += 1
+            elif match_wickets >= 5:
+                aggregated["bowling"]['five_wicket_hauls'] += 1
+
         # Aggregate Fielding 
         fielding = match.get("fielding", {})
-        if fielding: 
-            aggregated["fielding_innings"] += 1  
+        if fielding:
+            aggregated["fielding_innings"] += 1
             aggregated["fielding"]["catches"] += fielding.get("catches", 0)
             aggregated["fielding"]["stumpings"] += fielding.get("stumpings", 0)
             aggregated["fielding"]["run_outs"] += fielding.get("run_outs", 0)
 
         # Aggregate Dismissals 
-        for dismissal in match.get("dismissals", []): 
-            bowler_type = dismissal.get("bowler_type", "Unknown")  # Keep case consistent
+        for dismissal in match.get("dismissals", []):
+            bowler_type = dismissal.get("bowler_type", "Unknown")
             dismissal_method = dismissal.get("dismissal_method", "other").lower()
-            # Standardize dismissal method names
             if dismissal_method == "caught-fielder":
                 dismissal_method_key = "caught-fielder"
             elif dismissal_method == "caught wk":
@@ -519,65 +562,88 @@ def aggregate_stats(all_stats):
             else:
                 dismissal_method_key = "other"
             
-            # Ensure bowler_type is recognized
             if bowler_type not in aggregated['dismissals']:
                 bowler_type = "Unknown"
 
-            # Increment specific dismissal method count
             if dismissal_method_key in DISMISSAL_METHODS:
                 aggregated['dismissals'][bowler_type][dismissal_method_key] += 1
-            else:
-                # If dismissal method is 'other' or unrecognized, you can choose to handle it accordingly
-                pass
-
-            # Increment total dismissals
             aggregated['dismissals'][bowler_type]["Dis"] += 1
 
     # Calculate Batting Average and Strike Rate 
-    if aggregated['batting']['dismissals'] > 0: 
-        aggregated['batting']['bat_avg'] = round(aggregated['batting']['runs'] / aggregated['batting']['dismissals'], 2)  
-    else: 
+    if aggregated['batting']['dismissals'] > 0:
+        aggregated['batting']['bat_avg'] = round(aggregated['batting']['runs'] / aggregated['batting']['dismissals'], 2)
+    else:
         aggregated['batting']['bat_avg'] = None  # Undefined if never dismissed
 
-    if aggregated['batting']['balls'] > 0: 
-        aggregated['batting']['strike_rate'] = round((aggregated['batting']['runs'] / aggregated['batting']['balls']) * 100, 2)  
-    else: 
+    if aggregated['batting']['balls'] > 0:
+        aggregated['batting']['strike_rate'] = round((aggregated['batting']['runs'] / aggregated['batting']['balls']) * 100, 2)
+    else:
         aggregated['batting']['strike_rate'] = None  # Undefined if no balls faced
 
-    # Calculate Bowling Average and Economy 
-    if aggregated['bowling']['wickets'] > 0:  
-        aggregated['bowling']['bowl_avg'] = round(aggregated['bowling']['runs_conceded'] / aggregated['bowling']['wickets'], 2)  
-    else:  
-        aggregated['bowling']['bowl_avg'] = None  # Undefined if no wickets taken
+    # Calculate Bowling Average and Economy
+    if aggregated['bowling']['wickets'] > 0:
+        aggregated['bowling']['bowl_avg'] = round(aggregated['bowling']['runs_conceded'] / aggregated['bowling']['wickets'], 2)
+    else:
+        aggregated['bowling']['bowl_avg'] = None
 
-    if aggregated['bowling']['overs'] > 0:  
-        aggregated['bowling']['economy'] = round(aggregated['bowling']['runs_conceded'] / aggregated['bowling']['overs'], 2)  
-    else:  
-        aggregated['bowling']['economy'] = None  # Undefined if no overs bowled
+    if aggregated['bowling']['overs'] > 0:
+        aggregated['bowling']['economy'] = round(aggregated['bowling']['runs_conceded'] / aggregated['bowling']['overs'], 2)
+    else:
+        aggregated['bowling']['economy'] = None
 
-    # Calculate Span 
-    if aggregated['match_dates']:  
-        earliest_date = min(aggregated['match_dates'])  
-        latest_date = max(aggregated['match_dates'])  
-        span = f"{earliest_date.year} - {latest_date.year}"  
-    else:  
-        span = "Unknown"  
+    # Convert overs to ball count for Strike Rate / Dot-Ball %
+    corrected_overs = correct_overs(aggregated['bowling']['overs'])
+    whole_overs = int(corrected_overs)
+    partial_balls = int(round((corrected_overs - whole_overs) * 10))
+    total_balls_bowled = whole_overs * 6 + partial_balls
 
-    # Prepare final aggregated data 
-    final_aggregated = {  
-        "batting": aggregated['batting'],  
+    # Bowling Strike Rate
+    if aggregated['bowling']['wickets'] > 0 and total_balls_bowled > 0:
+        bowling_strike_rate = round(total_balls_bowled / aggregated['bowling']['wickets'], 2)
+    else:
+        bowling_strike_rate = None
+
+    # Dot-Ball Percentage
+    if total_balls_bowled > 0:
+        dot_ball_percentage = round((aggregated['bowling']['dots'] / total_balls_bowled) * 100, 2)
+    else:
+        dot_ball_percentage = None
+
+    # Prepare Best Bowling Figures
+    if aggregated['bowling']['best_bowling_wickets'] > 0 and aggregated['bowling']['best_bowling_runs'] < 999999:
+        best_bowling_figures = f"{aggregated['bowling']['best_bowling_wickets']}/{aggregated['bowling']['best_bowling_runs']}"
+    else:
+        best_bowling_figures = None
+
+    # Calculate Span
+    if aggregated['match_dates']:
+        earliest_date = min(aggregated['match_dates'])
+        latest_date = max(aggregated['match_dates'])
+        span = f"{earliest_date.year} - {latest_date.year}"
+    else:
+        span = "Unknown"
+
+    final_aggregated = {
+        "batting": aggregated['batting'],
         "bowling": {
-            "Overs": round(correct_overs(aggregated['bowling']['overs']), 2),  # Apply the correction here
+            "Overs": round(corrected_overs, 2),
             "Maidens": aggregated['bowling']['maidens'],
             "Runs Conceded": aggregated['bowling']['runs_conceded'],
             "Wickets": aggregated['bowling']['wickets'],
             "Economy Rate": aggregated['bowling']['economy'],
+            "Bowling Average": aggregated['bowling']['bowl_avg'],
             "Dots": aggregated['bowling']['dots'],
             "Fours": aggregated['bowling']['fours'],
             "Sixes": aggregated['bowling']['sixes'],
             "Wides": aggregated['bowling']['wides'],
             "No Balls": aggregated['bowling']['no_balls'],
-            "Bowling Average": aggregated['bowling']['bowl_avg']
+            "Boundary Runs Conceded": aggregated['bowling']['total_boundary_runs'],
+            "Bowling Strike Rate": bowling_strike_rate,
+            "Dot Ball Percentage": dot_ball_percentage,
+            "3wHauls": aggregated['bowling']['three_wicket_hauls'],
+            "4wHauls": aggregated['bowling']['four_wicket_hauls'],
+            "5wHauls": aggregated['bowling']['five_wicket_hauls'],
+            "Best Bowling Figures": best_bowling_figures
         },
         "fielding": aggregated['fielding'],
         "dismissal_data": [],
@@ -586,14 +652,13 @@ def aggregate_stats(all_stats):
         "batting_innings": aggregated['batting_innings'],
         "bowling_innings": aggregated['bowling_innings'],
         "fielding_innings": aggregated['fielding_innings']
-    }  
+    }
 
-    # Populate dismissal data 
     for bowler_type in bowler_types:
         data = aggregated['dismissals'][bowler_type]
-        dismissal_entry = {  
-            "Bowler Type": bowler_type,   
-            "Span": span,   
+        dismissal_entry = {
+            "Bowler Type": bowler_type,
+            "Span": span,
             "Dis": data['Dis'],
             "bowled": data['bowled'],
             "caught-fielder": data['caught-fielder'],
@@ -602,17 +667,17 @@ def aggregate_stats(all_stats):
             "lbw": data['lbw'],
             "hit wicket": data['hit wicket'],
             "caught and bowled": data['caught and bowled']
-        }   
+        }
         final_aggregated['dismissal_data'].append(dismissal_entry)
 
     return final_aggregated
 
-def process_file(args):   
+def process_file(args):
     """Wrapper function to unpack arguments for multiprocessing."""
-    file_path, player_name, team_name = args     
-    return parse_match_file(file_path, player_name, team_name)  
+    file_path, player_name, team_name = args
+    return parse_match_file(file_path, player_name, team_name)
 
-def generate_player_stats(player_name, team_name, scorecards_dir='match_scorecards_json'):
+def generate_player_stats(player_name, team_name, scorecards_dir='../match_scorecards_json'):
     """Generates a comprehensive statistics JSON file for the specified player."""
     
     all_stats = []
@@ -670,17 +735,24 @@ def generate_player_stats(player_name, team_name, scorecards_dir='match_scorecar
             "Batting Average": aggregated_stats['batting'].get("bat_avg")
         },
         "bowling": {
-            "Overs": aggregated_stats['bowling']['Overs'],
-            "Maidens": aggregated_stats['bowling']['Maidens'],
-            "Runs Conceded": aggregated_stats['bowling']['Runs Conceded'],
-            "Wickets": aggregated_stats['bowling']['Wickets'],
+            "Overs": aggregated_stats['bowling']["Overs"],
+            "Maidens": aggregated_stats['bowling']["Maidens"],
+            "Runs Conceded": aggregated_stats['bowling']["Runs Conceded"],
+            "Wickets": aggregated_stats['bowling']["Wickets"],
             "Economy Rate": aggregated_stats['bowling'].get("Economy Rate"),
             "Bowling Average": aggregated_stats['bowling'].get("Bowling Average"),
             "Dots": aggregated_stats['bowling'].get("Dots"),
             "Fours": aggregated_stats['bowling'].get("Fours"),
             "Sixes": aggregated_stats['bowling'].get("Sixes"),
             "Wides": aggregated_stats['bowling'].get("Wides"),
-            "No Balls": aggregated_stats['bowling'].get("No Balls")
+            "No Balls": aggregated_stats['bowling'].get("No Balls"),
+            "Boundary Runs Conceded": aggregated_stats['bowling'].get("Boundary Runs Conceded"),
+            "Bowling Strike Rate": aggregated_stats['bowling'].get("Bowling Strike Rate"),
+            "Dot Ball Percentage": aggregated_stats['bowling'].get("Dot Ball Percentage"),
+            "3wHauls": aggregated_stats['bowling'].get("3wHauls"),
+            "4wHauls": aggregated_stats['bowling'].get("4wHauls"),
+            "5wHauls": aggregated_stats['bowling'].get("5wHauls"),
+            "Best Bowling Figures": aggregated_stats['bowling'].get("Best Bowling Figures")
         },
         "fielding": {
             "Catches": aggregated_stats['fielding'].get("catches"),
@@ -690,13 +762,16 @@ def generate_player_stats(player_name, team_name, scorecards_dir='match_scorecar
         "dismissals": aggregated_stats['dismissal_data']
     }
 
-    # Save the JSON to file
+    # ----------------------------
+    # SAVE THE JSON to ../aggregated_stats
+    # ----------------------------
     safe_player_name = player_name.lower().replace(' ', '_')
-    output_file = f"{safe_player_name}_stats.json"
+    output_dir = "../aggregated_stats"
+    output_file = os.path.join(output_dir, f"{safe_player_name}_stats.json")
+
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(player_stats_json, f, indent=4, default=str)
     
-    # Log the output JSON produced
     logging.info(f"Output JSON produced: {output_file}")
 
     return player_stats_json
@@ -714,11 +789,11 @@ def save_stats_to_json(player_stats, output_filename):
 
 def main():
     # Hard-coded Player and Team Name
-    player_name = "Virat Kohli"  # Change this to the desired player
-    team_name = "India"          # Change this to the desired team
+    player_name = "Mitchell Starc"  # Change this to the desired player
+    team_name = "Australia"          # Change this to the desired team
 
     # Directory containing match scorecard JSON files
-    scorecards_dir = "match_scorecards_json"  # Ensure this path is correct
+    scorecards_dir = "../match_scorecards_json"  # Updated path
 
     # Check if the directory exists
     if not os.path.isdir(scorecards_dir):
@@ -732,15 +807,12 @@ def main():
         logging.warning(f"No statistics found for player '{player_name}' in team '{team_name}'.")
         return
 
-    # Define Output Filename
-    safe_player_name = player_name.lower().replace(' ', '_')
-    output_filename = f"{safe_player_name}_stats.json"
+    # If you also want to manually save the stats to JSON with a custom file:
+    # safe_player_name = player_name.lower().replace(' ', '_')
+    # output_filename = f"../aggregated_stats/{safe_player_name}_stats.json"
+    # save_stats_to_json(player_stats, output_filename)
 
-    # Save to JSON
-    save_stats_to_json(player_stats, output_filename)
-
-    # Optionally, log a success message
-    logging.info(f"Player statistics successfully saved to '{output_filename}'.")
-
+    logging.info("Player statistics successfully saved.")
+    
 if __name__ == "__main__":
     main()
