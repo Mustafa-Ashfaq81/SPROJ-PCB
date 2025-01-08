@@ -6,7 +6,7 @@ from datetime import datetime
 from multiprocessing import Pool, cpu_count
 import logging
 
-# Configure logging to capture DEBUG and higher level logs for detailed tracing
+# Configure logging to capture INFO and higher-level logs by default
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Define dismissal methods
@@ -67,121 +67,232 @@ def parse_match_date(match_details):
     return None
 
 def clean_name(name):
-    """Removes annotations like (c), (wk), etc., from names and converts to lowercase."""
-    return re.sub(r'\(.*?\)', '', name).strip().lower()
+    """
+    Removes annotations like (c), (wk), sub(...), etc., from names 
+    and strips/trims the result, returning lowercase by default.
+    """
+    # Remove anything in parentheses, e.g. (wk), (c), sub(...)
+    cleaned = re.sub(r'\(.*?\)', '', name)
+    return cleaned.strip().lower()
 
-def generate_name_variants(full_name):
-    """Generates different name variants to enhance matching."""
-    name_parts = full_name.strip().split()
-    variants = set()
-    variants.add(' '.join(name_parts).lower())
-    variants.add(''.join(name_parts).lower())
+# -----------------------------------------------------------------------------
+# NEW: We also want to produce multiple "case variants" for each partial name
+# so that scoreboard lines like "b KOHLI" or "b Kohli" or "c KOHLI" all match.
+# -----------------------------------------------------------------------------
+def generate_case_variants(name_str: str) -> set:
+    """
+    Given a name like 'Kohli', produce variants in different letter cases:
+    e.g. 'Kohli', 'kohli', 'KOHLI'.
+    """
+    # Trim and skip empty
+    name_str = name_str.strip()
+    if not name_str:
+        return set()
+
+    return {
+        name_str,
+        name_str.lower(),
+        name_str.upper(),
+        name_str.capitalize(),
+        name_str.title()
+    }
+
+def generate_name_variants(full_name: str) -> set:
+    """
+    Generates a set of variants from the full_name for partial matching.
+    
+    For 'Virat Kohli', we produce:
+       - "virat kohli", "viratkohli", "v kohli", "vkohli", "kohli"
+       - Also case variants for each of the above.
+    
+    This ensures we can match partial scoreboard strings:
+       'Kohli', 'kohli', 'V Kohli', 'ViratKohli', etc.
+    """
+    full_name = full_name.strip()
+    if not full_name:
+        return set()
+
+    name_parts = full_name.split()
+    base_variants = set()
+
+    # 1) The full name (lowercased)
+    base_variants.add(' '.join(name_parts).lower())
+    # 2) Full name joined
+    base_variants.add(''.join(name_parts).lower())
+
+    # 3) If multiple parts, add "v kohli", "vkohli", and "kohli"
     if len(name_parts) >= 2:
-        first_initials = ''.join([part[0] for part in name_parts[:-1]])
-        last_name = name_parts[-1]
-        variants.add(f"{first_initials} {last_name}".lower())
-        variants.add(f"{first_initials}{last_name}".lower())
-        variants.add(last_name.lower())
+        first_initials = ''.join([part[0] for part in name_parts[:-1]]).lower()
+        last_name = name_parts[-1].lower()
+        base_variants.add(f"{first_initials} {last_name}")
+        base_variants.add(f"{first_initials}{last_name}")
+        base_variants.add(last_name)
     else:
-        variants.add(name_parts[0].lower())
-    return variants
+        # Single name, e.g. "Sachin"
+        base_variants.add(name_parts[0].lower())
+
+    # Now, for each of these base variants (all are in lowercase),
+    # generate additional case variants:
+    final_variants = set()
+    for variant in base_variants:
+        final_variants.update(generate_case_variants(variant))
+
+    return final_variants
 
 def resolve_bowler_name(bowler_name, bowler_mapping):
     """
-    Resolves the full bowler name using bowler_mapping.
+    Resolves the full bowler name using bowler_mapping, ignoring case.
+    'bowler_mapping' is a dict where keys are partial-lowercase variants,
+    e.g. "kumar" -> ["Bhuvneshwar Kumar"]
     """
-    bowler_name_lower = bowler_name.lower()
-    partial_bowler_name = bowler_name_lower.split()[-1]
-    possible_full_names = bowler_mapping.get(partial_bowler_name, [])
-    if not possible_full_names:
-        # Try to find using the entire bowler name
-        possible_full_names = bowler_mapping.get(bowler_name_lower, [])
+    # We'll handle the "lower" key as we did originally but also check variants
+    bowler_variants = generate_name_variants(bowler_name)
+
+    # For each variant in bowler_variants, see if it appears in bowler_mapping
+    possible_full_names = []
+    for variant in bowler_variants:
+        lookup_key = variant.lower()  # because the mapping is presumably lower-based
+        if lookup_key in bowler_mapping:
+            possible_full_names.extend(bowler_mapping[lookup_key])
+
     if possible_full_names:
-        return possible_full_names[0]  # Choose the first match
+        # Just return the first match
+        return possible_full_names[0]
     else:
-        return bowler_name  # Use as-is if no mapping found
+        # Use as-is if no mapping found
+        return bowler_name
 
 def find_bowler_type(bowler_name_full, innings):
     """
-    Finds the bowler type from the innings data.
+    Finds the bowler type from the innings data by matching the bowler name 
+    (ignoring case).
     """
+    bowler_name_lower = bowler_name_full.lower()
     for inning in innings:
         for bowler_entry in inning.get('bowling', []):
-            if bowler_entry.get('bowler', '').lower() == bowler_name_full.lower():
+            if bowler_entry.get('bowler', '').lower() == bowler_name_lower:
                 return bowler_entry.get('b_type', 'Unknown')
     return 'Unknown'
 
+def parse_fielding_contribution(dismissal_text: str, player_name_clean: str) -> dict:
+    """
+    Given a single dismissal text (e.g. "c Kohli b Kumar", "run out (Raina/ (wk)Dhoni)", 
+    "c & b Jadeja"), determine whether 'player_name_clean' contributed as a fielder.
+    
+    Return increments in {"catches", "stumpings", "run_outs"}.
+    """
+    fielding_stats = {"catches": 0, "stumpings": 0, "run_outs": 0}
+    dismissal_text_lower = dismissal_text.lower().strip()
+
+    # Generate variants for the *player*. We'll compare fielder name 
+    # variants with these for intersection.
+    player_variants = generate_name_variants(player_name_clean)
+
+    # 1) caught and bowled
+    c_and_b_pattern = re.compile(r'c\s+&\s+b\s+([\w\s]+)', re.IGNORECASE)
+    match_cab = c_and_b_pattern.search(dismissal_text_lower)
+    if match_cab:
+        bowler_fielder_raw = clean_name(match_cab.group(1))  # e.g. "kohli"
+        bowler_fielder_variants = generate_name_variants(bowler_fielder_raw)
+        if player_variants & bowler_fielder_variants:
+            fielding_stats["catches"] += 1
+        return fielding_stats
+
+    # 2) standard "caught": c FIELDER b BOWLER
+    caught_pattern = re.compile(r'^c\s+(.*?)\s+b\s+([\w\s]+)$', re.IGNORECASE)
+    match_caught = caught_pattern.search(dismissal_text_lower)
+    if match_caught:
+        fielder_raw = match_caught.group(1)
+        fielder_raw = re.sub(r'\bsub\b', '', fielder_raw, flags=re.IGNORECASE)
+        fielder_cleaned = clean_name(fielder_raw)
+        fielder_variants = generate_name_variants(fielder_cleaned)
+        if player_variants & fielder_variants:
+            fielding_stats["catches"] += 1
+
+    # 3) stumped: st FIELDER b BOWLER
+    stumped_pattern = re.compile(r'st\s+(.*?)\s+b\s+([\w\s]+)', re.IGNORECASE)
+    match_stumped = stumped_pattern.search(dismissal_text_lower)
+    if match_stumped:
+        fielder_raw = match_stumped.group(1)
+        fielder_raw = re.sub(r'\bsub\b', '', fielder_raw, flags=re.IGNORECASE)
+        fielder_cleaned = clean_name(fielder_raw)
+        fielder_variants = generate_name_variants(fielder_cleaned)
+        if player_variants & fielder_variants:
+            fielding_stats["stumpings"] += 1
+
+    # 4) run out: run out (...) 
+    run_out_pattern = re.compile(r'run out\s*\(([\w\s/]+)\)', re.IGNORECASE)
+    match_runout = run_out_pattern.search(dismissal_text_lower)
+    if match_runout:
+        fielder_block = match_runout.group(1)  # e.g. "Raina/ (wk)Dhoni"
+        # Split by slash
+        potential_fielders = [clean_name(x) for x in fielder_block.split('/')]
+        for f_name in potential_fielders:
+            # For each name, generate variants
+            if player_variants & generate_name_variants(f_name):
+                fielding_stats["run_outs"] += 1
+                break  # One run-out credited if found among the fielders
+
+    return fielding_stats
+
 def extract_dismissal_data(batsman, dismissal_text, innings, bowler_mapping, wicket_keepers):
     """
-    Extracts dismissal information including bowler type and dismissal method.
+    Extract how the *batsman* got out (bowled, lbw, etc.),
+    and find the bowler name + bowler type. 
     """
     bowler_type = 'Unknown'
     dismissal_method = 'other'
     bowler_name_full = 'Unknown'
     fielder = 'Unknown'
 
-    # Define enhanced dismissal patterns with optional spaces after annotations
     dismissal_patterns = [
-        # Caught by wicket-keeper (e.g., "c (wk)Gilchrist b Warne" or "c (wk) Gilchrist b Warne")
+        # Caught by wicket-keeper
         (re.compile(r'c\s+\(wk\)\s*([\w\s]+)\s+b\s+([\w\s]+)', re.IGNORECASE), 'caught wk'),
-        
-        # Caught by fielder (e.g., "c Dravid b Nehra")
+        # Caught by fielder
         (re.compile(r'c\s+([\w\s]+)\s+b\s+([\w\s]+)', re.IGNORECASE), 'caught-fielder'),
-        
-        # Stumped by wicket-keeper (e.g., "st (wk)Gilchrist b Symonds" or "st (wk) Gilchrist b Symonds")
+        # Stumped by wicket-keeper
         (re.compile(r'st\s+\(wk\)\s*([\w\s]+)\s+b\s+([\w\s]+)', re.IGNORECASE), 'stump'),
-        
-        # Stumped (e.g., "st Dravid b Nehra")
+        # Stumped
         (re.compile(r'st\s+([\w\s]+)\s+b\s+([\w\s]+)', re.IGNORECASE), 'stump'),
-        
-        # LBW (e.g., "lbw b Nehra")
+        # LBW
         (re.compile(r'lbw\s+b\s+([\w\s]+)', re.IGNORECASE), 'lbw'),
-        
-        # Caught and bowled (e.g., "c & b Nehra")
+        # Caught and bowled
         (re.compile(r'c\s+&\s+b\s+([\w\s]+)', re.IGNORECASE), 'caught and bowled'),
-        
-        # Hit wicket (e.g., "hit wicket b Nehra")
+        # Hit wicket
         (re.compile(r'hit wicket\s+b\s+([\w\s]+)', re.IGNORECASE), 'hit wicket'),
-        
-        # Bowled (e.g., "b Nehra")
+        # Bowled
         (re.compile(r'^b\s+([\w\s]+)$', re.IGNORECASE), 'bowled'),
-        
-        # Run Out with fielder's name and bowler's name (if present)
+        # Run Out with fielder's name + bowler's name
         (re.compile(r'run out\s+\(([\w\s]+)\)\s+b\s+([\w\s]+)', re.IGNORECASE), 'run out'),
-        
-        # Run Out with fielder's name
-        (re.compile(r'run out\s+\(([\w\s]+)\)', re.IGNORECASE), 'run out'),
-        
-        # Run Out without fielder's name
+        # Run Out with fielder's name (handles multiple /)
+        (re.compile(r'run out\s+\(([\w\s/]+)\)', re.IGNORECASE), 'run out'),
+        # Run Out (no fielder)
         (re.compile(r'run out', re.IGNORECASE), 'run out'),
-        
         # Retired Hurt
         (re.compile(r'retired hurt', re.IGNORECASE), 'retired hurt'),
-        
         # Retired Not Out
         (re.compile(r'retired not out', re.IGNORECASE), 'retired not out'),
-        
         # Obstructing the Field
         (re.compile(r'obstructing the field', re.IGNORECASE), 'obstructing the field'),
-        
         # Timed Out
         (re.compile(r'timed out', re.IGNORECASE), 'timed out'),
-        
         # Handled the Ball
         (re.compile(r'handled the ball', re.IGNORECASE), 'handled the ball'),
-        
         # Hit the Ball Twice
         (re.compile(r'hit the ball twice', re.IGNORECASE), 'hit the ball twice')
     ]
 
+    dismissal_text_lower = dismissal_text.lower().strip()
+
     for pattern, method in dismissal_patterns:
-        match = pattern.search(dismissal_text)
+        match = pattern.search(dismissal_text_lower)
         if match:
             if method == 'caught wk':
                 fielder = match.group(1).strip()
                 bowler = match.group(2).strip()
                 dismissal_method = 'caught wk'
                 bowler_name = bowler
+
             elif method == 'caught-fielder':
                 fielder = match.group(1).strip()
                 bowler = match.group(2).strip()
@@ -191,55 +302,57 @@ def extract_dismissal_data(batsman, dismissal_text, innings, bowler_mapping, wic
                 else:
                     dismissal_method = 'caught-fielder'
                 bowler_name = bowler
+
             elif method == 'caught and bowled':
                 bowler = match.group(1).strip()
                 dismissal_method = 'caught and bowled'
                 bowler_name = bowler
+
             elif method == 'stump':
                 fielder = match.group(1).strip()
                 bowler = match.group(2).strip()
                 dismissal_method = 'stump'
                 bowler_name = bowler
+
             elif method in ['lbw', 'bowled', 'hit wicket']:
                 bowler = match.group(1).strip()
                 dismissal_method = method
                 bowler_name = bowler
+
             elif method == 'run out':
+                # match.groups() might have 1 or 2
                 if len(match.groups()) == 2:
                     fielder = match.group(1).strip()
                     bowler = match.group(2).strip()
                     dismissal_method = 'run out'
-                    bowler_name = bowler  # This may not always be present
+                    bowler_name = bowler
                 elif len(match.groups()) == 1:
                     fielder = match.group(1).strip()
                     dismissal_method = 'run out'
-                    bowler_name = 'Unknown'  # Bowler not involved
+                    bowler_name = 'Unknown'
                 else:
                     dismissal_method = 'run out'
                     bowler_name = 'Unknown'
-            elif method in ['retired hurt', 'retired not out', 'obstructing the field', 'timed out', 'handled the ball', 'hit the ball twice']:
+
+            elif method in [
+                'retired hurt', 'retired not out',
+                'obstructing the field', 'timed out',
+                'handled the ball', 'hit the ball twice'
+            ]:
                 dismissal_method = method
                 bowler_name = 'Unknown'
+
             else:
                 bowler_name = 'Unknown'
 
-            # Resolve full bowler name using bowler_mapping
+            # Now we "resolve" the bowler name for partial match 
             bowler_name_full = resolve_bowler_name(bowler_name, bowler_mapping)
-
-            # Find bowler type
             bowler_type = find_bowler_type(bowler_name_full, innings)
+            break
 
-            logging.debug(f"Dismissal Text: '{dismissal_text}'")
-            logging.debug(f"Matched Method: '{method}'")
-            logging.debug(f"Fielder: '{fielder}', Bowler: '{bowler_name_full}', Bowler Type: '{bowler_type}'")
-
-            break  # Exit after first matching pattern
-
-    # Handle cases where dismissal method is not matched
+    # If no pattern matched, it's 'other'
     if dismissal_method == 'other':
-        bowler_type = 'Unknown'
-        bowler_name_full = 'Unknown'
-        logging.debug(f"Unmatched dismissal pattern for dismissal_text: '{dismissal_text}'")
+        logging.debug(f"Unmatched dismissal pattern: '{dismissal_text}'")
 
     return {
         'bowler_type': bowler_type,
@@ -269,17 +382,17 @@ def parse_match_file(file_path, player_name, team_name):
             'sixes': 0,
             'wides': 0,
             'no_balls': 0,
-            # Extended fields for better aggregator stats
-            'boundary_runs_this_innings': 0,  
+            # Extended fields for advanced bowling stats
+            'boundary_runs_this_innings': 0,
             'match_wickets': 0,
             'match_runs': 0
         },
-        'dismissals': [],
         'fielding': {
             'catches': 0,
             'stumpings': 0,
             'run_outs': 0
         },
+        'dismissals': [],
         'match_date': None,
         'played': False
     }
@@ -289,12 +402,14 @@ def parse_match_file(file_path, player_name, team_name):
     if match_date:
         player_stats['match_date'] = match_date
 
+    # We'll store the player's name in cleaned form for partial matching
+    # but let's keep original for reference.
     player_name_clean = clean_name(player_name)
     team_name_lower = team_name.lower()
 
     playing_xi = match_data.get('playing_xi', {})
-
-    # Extract wicket-keepers from both teams
+    
+    # Extract wicket-keepers from both teams (for 'caught wk' detection)
     wicket_keepers = set()
     for team, players in playing_xi.items():
         for name in players:
@@ -302,32 +417,34 @@ def parse_match_file(file_path, player_name, team_name):
                 cleaned_wk = clean_name(name.replace('(wk)', ''))
                 wicket_keepers.add(cleaned_wk)
 
-    # Check if player participated in the match
+    # Check if player participated
     player_team_xi = playing_xi.get(team_name, [])
-    player_team_xi = [clean_name(name) for name in player_team_xi]
-
-    if player_name_clean not in player_team_xi:
+    player_team_xi_cleaned = [clean_name(x) for x in player_team_xi]
+    if player_name_clean not in player_team_xi_cleaned:
         return None
     else:
         player_stats['played'] = True
 
-    # Build bowler_mapping: variant name to bowler's full name
+    # Build bowler_mapping (partial-lowercase => [full bowler names...])
     bowler_mapping = defaultdict(list)
     innings = match_data.get('innings', [])
     for inning in innings:
         for bowler in inning.get('bowling', []):
-            full_bowler_name = bowler.get('bowler', '').lower()
-            variants = generate_name_variants(bowler.get('bowler', ''))
-            for variant in variants:
-                bowler_mapping[variant].append(bowler.get('bowler', ''))
+            bowler_original = bowler.get('bowler', '')
+            # We'll store the partial-lower key from *all* variants in lower
+            for variant in generate_name_variants(bowler_original):
+                bowler_mapping[variant.lower()].append(bowler_original)
 
-    # Proceed to extract batting, bowling, and fielding data
+    # ----------------------------
+    # MAIN LOGIC
+    # ----------------------------
     for inning in innings:
+        # 1) Check if this is the player's batting innings
         team = inning.get('team', '').lower()
         is_player_team = (team == team_name_lower)
 
+        # BATTING (for the player's own stats)
         if is_player_team:
-            # Batting
             batting = inning.get('batting', [])
             for batsman in batting:
                 batsman_name_cleaned = clean_name(batsman.get('batsman', ''))
@@ -340,29 +457,22 @@ def parse_match_file(file_path, player_name, team_name):
                         'strike_rate': safe_float_conversion(batsman.get('strike_rate', 0.0)),
                         'dismissal': batsman.get('dismissal', 'not out')
                     }
-
-                    dismissal = batsman.get('dismissal', '')
-                    if dismissal.lower() != 'not out':
+                    # Extract how *this player* got out
+                    dismissal_text = batsman.get('dismissal', '')
+                    if dismissal_text.lower() != 'not out':
                         dismissal_data = extract_dismissal_data(
-                            batsman_name_cleaned, dismissal, innings, bowler_mapping, wicket_keepers
+                            batsman_name_cleaned,
+                            dismissal_text,
+                            innings,
+                            bowler_mapping,
+                            wicket_keepers
                         )
                         player_stats['dismissals'].append(dismissal_data)
-                    break
 
-            # Fielding (Extract player's fielding data if available)
-            fielding = inning.get('fielding', [])
-            for fielder in fielding:
-                fielder_name_cleaned = clean_name(fielder.get('fielder', ''))
-                if fielder_name_cleaned == player_name_clean:
-                    player_stats['fielding']['catches'] += safe_int_conversion(fielder.get('catches', 0))
-                    player_stats['fielding']['stumpings'] += safe_int_conversion(fielder.get('stumpings', 0))
-                    player_stats['fielding']['run_outs'] += safe_int_conversion(fielder.get('run_outs', 0))
-                    break
-
+        # BOWLING (if the player's team is bowling)
         else:
-            # Process bowling data for player's team from opponent's innings
-            bowling = inning.get('bowling', [])
-            for bowler in bowling:
+            bowling_list = inning.get('bowling', [])
+            for bowler in bowling_list:
                 bowler_name_cleaned = clean_name(bowler.get('bowler', ''))
                 if bowler_name_cleaned == player_name_clean:
                     overs_val = safe_float_conversion(bowler.get('overs', 0.0))
@@ -370,7 +480,7 @@ def parse_match_file(file_path, player_name, team_name):
                     runs_val = safe_int_conversion(bowler.get('runs_conceded', 0))
                     fours_val = safe_int_conversion(bowler.get('fours', 0))
                     sixes_val = safe_int_conversion(bowler.get('sixes', 0))
-
+                    
                     player_stats['bowling']['overs'] += overs_val
                     player_stats['bowling']['maidens'] += safe_int_conversion(bowler.get('maidens', 0))
                     player_stats['bowling']['runs_conceded'] += runs_val
@@ -382,30 +492,35 @@ def parse_match_file(file_path, player_name, team_name):
                     player_stats['bowling']['wides'] += safe_int_conversion(bowler.get('wides', 0))
                     player_stats['bowling']['no_balls'] += safe_int_conversion(bowler.get('no_balls', 0))
 
-                    # Boundary runs for this innings
+                    # For advanced stats
                     player_stats['bowling']['boundary_runs_this_innings'] += (fours_val * 4) + (sixes_val * 6)
-
-                    # Single-innings data for best figures
                     player_stats['bowling']['match_wickets'] = wickets_val
                     player_stats['bowling']['match_runs'] = runs_val
-                    break
+
+        # FIELDING (parse *all* batsmen in this inning to see if your player was the fielder)
+        batting_for_fielding = inning.get('batting', [])
+        for batsman_data in batting_for_fielding:
+            dismiss_text = batsman_data.get('dismissal', '').strip()
+            if dismiss_text:
+                fielding_contrib = parse_fielding_contribution(dismiss_text, player_name_clean)
+                player_stats['fielding']['catches'] += fielding_contrib["catches"]
+                player_stats['fielding']['stumpings'] += fielding_contrib["stumpings"]
+                player_stats['fielding']['run_outs'] += fielding_contrib["run_outs"]
 
     return player_stats
 
 def correct_overs(overs):
     """Convert decimal overs into the standard X.Y overs format where Y < 6."""
     whole_overs = int(overs)
-    balls = (overs - whole_overs) * 10  # Extract the decimal part as balls
+    balls = (overs - whole_overs) * 10  # decimal part as "balls"
     if balls >= 6:
         whole_overs += 1
         balls -= 6
     return whole_overs + balls / 10
 
 def aggregate_stats(all_stats):
-    """Aggregates batting, bowling, fielding, and dismissal data from all matches. 
-       Also calculates the span of the player's career based on match dates and extended bowling stats."""
+    """Aggregates batting, bowling, fielding, and dismissal data from all matches."""
     
-    # Define all bowler types
     bowler_types = [
         "Right arm Pace",
         "Right arm Spin",
@@ -414,7 +529,6 @@ def aggregate_stats(all_stats):
         "Unknown"
     ]
     
-    # Define all dismissal methods
     DISMISSAL_METHODS = [
         "bowled",
         "caught-fielder",
@@ -425,7 +539,6 @@ def aggregate_stats(all_stats):
         "caught and bowled"
     ]
     
-    # Initialize the aggregated data structure
     aggregated = {
         'batting': {
             'runs': 0,
@@ -451,10 +564,10 @@ def aggregate_stats(all_stats):
             'no_balls': 0,
             'bowl_avg': 0.0,
             'economy': 0.0,
-            # NEW: additional fields for advanced bowling stats
-            'total_boundary_runs': 0,  
-            'best_bowling_wickets': 0, 
-            'best_bowling_runs': 999999, 
+            # Extended for advanced bowling stats
+            'total_boundary_runs': 0,
+            'best_bowling_wickets': 0,
+            'best_bowling_runs': 999999,
             'three_wicket_hauls': 0,
             'four_wicket_hauls': 0,
             'five_wicket_hauls': 0
@@ -464,25 +577,26 @@ def aggregate_stats(all_stats):
             'stumpings': 0,
             'run_outs': 0
         },
-        "dismissals": {bowler_type: {"Dis": 0, **{method: 0 for method in DISMISSAL_METHODS}} for bowler_type in bowler_types},
+        "dismissals": {
+            bowler_type: {"Dis": 0, **{method: 0 for method in DISMISSAL_METHODS}}
+            for bowler_type in bowler_types
+        },
         "match_dates": [],
         "matches_played": 0,
         "batting_innings": 0,
         "bowling_innings": 0,
-        "fielding_innings": 0 
+        "fielding_innings": 0
     }
     
     for match in all_stats:
-        # Check if the player played in the match 
         if match.get("played"):
             aggregated["matches_played"] += 1
-            # Aggregate Match Dates 
             match_date = match.get("match_date")
-            if match_date: 
+            if match_date:
                 aggregated["match_dates"].append(match_date)
 
-        # Aggregate Batting 
-        batting = match.get("batting", {}) 
+        # Aggregate Batting
+        batting = match.get("batting", {})
         if batting:
             aggregated["batting_innings"] += 1
             aggregated["batting"]["runs"] += batting.get("runs", 0)
@@ -495,7 +609,7 @@ def aggregate_stats(all_stats):
             else:
                 aggregated["batting"]["not_outs"] += 1
 
-        # Aggregate Bowling 
+        # Aggregate Bowling
         bowling = match.get("bowling", {})
         if bowling:
             aggregated["bowling_innings"] += 1
@@ -510,22 +624,19 @@ def aggregate_stats(all_stats):
             aggregated["bowling"]["wides"] += bowling.get("wides", 0)
             aggregated["bowling"]["no_balls"] += bowling.get("no_balls", 0)
 
-            # NEW: boundary runs
+            # boundary runs
             aggregated["bowling"]['total_boundary_runs'] += bowling.get('boundary_runs_this_innings', 0)
 
-            # Track best bowling figures
+            # best figures
             match_wickets = bowling.get('match_wickets', 0)
             match_runs = bowling.get('match_runs', 0)
             if match_wickets > 0:
-                # If more wickets than best, or same wickets but fewer runs
-                if (match_wickets > aggregated["bowling"]['best_bowling_wickets']) or (
-                    match_wickets == aggregated["bowling"]['best_bowling_wickets'] 
-                    and match_runs < aggregated["bowling"]['best_bowling_runs']
-                ):
+                if ((match_wickets > aggregated["bowling"]['best_bowling_wickets']) or
+                    (match_wickets == aggregated["bowling"]['best_bowling_wickets'] and match_runs < aggregated["bowling"]['best_bowling_runs'])):
                     aggregated["bowling"]['best_bowling_wickets'] = match_wickets
                     aggregated["bowling"]['best_bowling_runs'] = match_runs
 
-            # Track 3/4/5-wicket hauls
+            # 3/4/5w hauls
             if match_wickets == 3:
                 aggregated["bowling"]['three_wicket_hauls'] += 1
             elif match_wickets == 4:
@@ -533,54 +644,55 @@ def aggregate_stats(all_stats):
             elif match_wickets >= 5:
                 aggregated["bowling"]['five_wicket_hauls'] += 1
 
-        # Aggregate Fielding 
+        # Aggregate Fielding
         fielding = match.get("fielding", {})
         if fielding:
+            # We'll count one "fielding innings" per match participated
             aggregated["fielding_innings"] += 1
             aggregated["fielding"]["catches"] += fielding.get("catches", 0)
             aggregated["fielding"]["stumpings"] += fielding.get("stumpings", 0)
             aggregated["fielding"]["run_outs"] += fielding.get("run_outs", 0)
 
-        # Aggregate Dismissals 
+        # Aggregate "who got me out?" from 'dismissals'
         for dismissal in match.get("dismissals", []):
             bowler_type = dismissal.get("bowler_type", "Unknown")
             dismissal_method = dismissal.get("dismissal_method", "other").lower()
             if dismissal_method == "caught-fielder":
-                dismissal_method_key = "caught-fielder"
+                key = "caught-fielder"
             elif dismissal_method == "caught wk":
-                dismissal_method_key = "caught wk"
+                key = "caught wk"
             elif dismissal_method == "bowled":
-                dismissal_method_key = "bowled"
+                key = "bowled"
             elif dismissal_method == "stump":
-                dismissal_method_key = "stump"
+                key = "stump"
             elif dismissal_method == "lbw":
-                dismissal_method_key = "lbw"
+                key = "lbw"
             elif dismissal_method == "hit wicket":
-                dismissal_method_key = "hit wicket"
+                key = "hit wicket"
             elif dismissal_method == "caught and bowled":
-                dismissal_method_key = "caught and bowled"
+                key = "caught and bowled"
             else:
-                dismissal_method_key = "other"
+                key = "other"
             
             if bowler_type not in aggregated['dismissals']:
                 bowler_type = "Unknown"
 
-            if dismissal_method_key in DISMISSAL_METHODS:
-                aggregated['dismissals'][bowler_type][dismissal_method_key] += 1
+            if key in DISMISSAL_METHODS:
+                aggregated['dismissals'][bowler_type][key] += 1
             aggregated['dismissals'][bowler_type]["Dis"] += 1
 
-    # Calculate Batting Average and Strike Rate 
+    # Final batting average & SR
     if aggregated['batting']['dismissals'] > 0:
         aggregated['batting']['bat_avg'] = round(aggregated['batting']['runs'] / aggregated['batting']['dismissals'], 2)
     else:
-        aggregated['batting']['bat_avg'] = None  # Undefined if never dismissed
+        aggregated['batting']['bat_avg'] = None
 
     if aggregated['batting']['balls'] > 0:
         aggregated['batting']['strike_rate'] = round((aggregated['batting']['runs'] / aggregated['batting']['balls']) * 100, 2)
     else:
-        aggregated['batting']['strike_rate'] = None  # Undefined if no balls faced
+        aggregated['batting']['strike_rate'] = None
 
-    # Calculate Bowling Average and Economy
+    # Bowling average & economy
     if aggregated['bowling']['wickets'] > 0:
         aggregated['bowling']['bowl_avg'] = round(aggregated['bowling']['runs_conceded'] / aggregated['bowling']['wickets'], 2)
     else:
@@ -591,7 +703,7 @@ def aggregate_stats(all_stats):
     else:
         aggregated['bowling']['economy'] = None
 
-    # Convert overs to ball count for Strike Rate / Dot-Ball %
+    # Convert overs to total balls for strike rate, dot-ball %
     corrected_overs = correct_overs(aggregated['bowling']['overs'])
     whole_overs = int(corrected_overs)
     partial_balls = int(round((corrected_overs - whole_overs) * 10))
@@ -609,13 +721,14 @@ def aggregate_stats(all_stats):
     else:
         dot_ball_percentage = None
 
-    # Prepare Best Bowling Figures
-    if aggregated['bowling']['best_bowling_wickets'] > 0 and aggregated['bowling']['best_bowling_runs'] < 999999:
+    # Best Bowling Figures
+    if (aggregated['bowling']['best_bowling_wickets'] > 0 and
+        aggregated['bowling']['best_bowling_runs'] < 999999):
         best_bowling_figures = f"{aggregated['bowling']['best_bowling_wickets']}/{aggregated['bowling']['best_bowling_runs']}"
     else:
         best_bowling_figures = None
 
-    # Calculate Span
+    # Career span
     if aggregated['match_dates']:
         earliest_date = min(aggregated['match_dates'])
         latest_date = max(aggregated['match_dates'])
@@ -654,6 +767,7 @@ def aggregate_stats(all_stats):
         "fielding_innings": aggregated['fielding_innings']
     }
 
+    # Populate dismissal_data
     for bowler_type in bowler_types:
         data = aggregated['dismissals'][bowler_type]
         dismissal_entry = {
@@ -678,13 +792,16 @@ def process_file(args):
     return parse_match_file(file_path, player_name, team_name)
 
 def generate_player_stats(player_name, team_name, scorecards_dir='../match_scorecards_json'):
-    """Generates a comprehensive statistics JSON file for the specified player."""
-    
+    """
+    Generates a comprehensive statistics JSON file for the specified player 
+    using the match scorecards found in 'scorecards_dir'.
+    """
     all_stats = []
     
     # Prepare list of all JSON files
     try:
-        json_files = [os.path.join(scorecards_dir, filename) for filename in os.listdir(scorecards_dir) if filename.endswith('.json')]
+        json_files = [os.path.join(scorecards_dir, filename) 
+                      for filename in os.listdir(scorecards_dir) if filename.endswith('.json')]
     except FileNotFoundError:
         logging.error(f"The directory '{scorecards_dir}' does not exist.")
         return {}
@@ -762,9 +879,7 @@ def generate_player_stats(player_name, team_name, scorecards_dir='../match_score
         "dismissals": aggregated_stats['dismissal_data']
     }
 
-    # ----------------------------
-    # SAVE THE JSON to ../aggregated_stats
-    # ----------------------------
+    # Save the JSON to ../aggregated_stats
     safe_player_name = player_name.lower().replace(' ', '_')
     output_dir = "../aggregated_stats"
     output_file = os.path.join(output_dir, f"{safe_player_name}_stats.json")
@@ -777,9 +892,7 @@ def generate_player_stats(player_name, team_name, scorecards_dir='../match_score
     return player_stats_json
 
 def save_stats_to_json(player_stats, output_filename):
-    """
-    Saves the player statistics to a JSON file.
-    """
+    """Saves the player statistics to a JSON file."""
     if not player_stats:
         logging.warning("No player statistics to save.")
         return
@@ -788,31 +901,21 @@ def save_stats_to_json(player_stats, output_filename):
         json.dump(player_stats, f, indent=4)
 
 def main():
-    # Hard-coded Player and Team Name
-    player_name = "Mitchell Starc"  # Change this to the desired player
-    team_name = "Australia"          # Change this to the desired team
+    # Example usage
+    player_name = "Mitchell Starc"
+    team_name = "Australia"
+    scorecards_dir = "../match_scorecards_json"
 
-    # Directory containing match scorecard JSON files
-    scorecards_dir = "../match_scorecards_json"  # Updated path
-
-    # Check if the directory exists
     if not os.path.isdir(scorecards_dir):
-        logging.error(f"The directory '{scorecards_dir}' does not exist. Please provide a valid path.")
+        logging.error(f"The directory '{scorecards_dir}' does not exist.")
         return
 
-    # Generate Player Stats
     player_stats = generate_player_stats(player_name, team_name, scorecards_dir)
-
     if not player_stats:
         logging.warning(f"No statistics found for player '{player_name}' in team '{team_name}'.")
         return
 
-    # If you also want to manually save the stats to JSON with a custom file:
-    # safe_player_name = player_name.lower().replace(' ', '_')
-    # output_filename = f"../aggregated_stats/{safe_player_name}_stats.json"
-    # save_stats_to_json(player_stats, output_filename)
-
     logging.info("Player statistics successfully saved.")
-    
+
 if __name__ == "__main__":
     main()

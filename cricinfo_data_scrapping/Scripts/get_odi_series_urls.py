@@ -12,9 +12,8 @@ import time
 import logging
 
 # Configure logging to save to a txt file
-logging.basicConfig(filename='series_results_log.txt', level=logging.INFO,
+logging.basicConfig(filename='odi_series_urls_log.txt', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
-
 # Set up Chrome WebDriver
 service = ChromeService()
 options = webdriver.ChromeOptions()
@@ -36,7 +35,7 @@ try:
         rows = table.find_elements(By.XPATH, './/tbody/tr')
 
         # Prepare the CSV file with the new "URL" column
-        with open('series_results.csv', mode='w', newline='', encoding='utf-8') as file:
+        with open('odi_series_urls.csv', mode='w', newline='', encoding='utf-8') as file:
             writer = csv.DictWriter(file, fieldnames=["Series/Tournament", "Season", "Winner", "Margin", "URL"])
             writer.writeheader()  # Write header
 

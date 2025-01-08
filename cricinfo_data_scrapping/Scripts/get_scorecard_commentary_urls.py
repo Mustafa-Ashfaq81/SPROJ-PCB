@@ -16,37 +16,37 @@ def filter_titles(title):
     # Convert title to uppercase for case-insensitive matching
     title_upper = title.upper()
     
-    # Define keywords to exclude (excluding 'ODI')
+    # Define keywords to exclude
     exclude_keywords = [
         'TEST', 'T20I', 'A TEAM', 'B TEAM', 
         'INDIA A', 'PAKISTAN SHAHEENS', 'U19', 'U23', 'U25',
         'SENIOR CHALLENGER', 'RESERVE', 'SECOND XI', 'EMERGING TEAMS', 'EMERGING'
     ]
     
-    # Check for simple keyword exclusions
+    # Exclude matches with specific keywords
     for keyword in exclude_keywords:
         if keyword in title_upper:
-            # Debugging statement
             print(f"Excluding match due to keyword '{keyword}': {title}")
             return False
-    
-    # Define regex patterns for precise matching with negative lookbehind
-    # Exclude 'A ' and 'B ' only if they are not preceded by 'GROUP '
+
+    # Specific regex patterns to exclude unwanted standalone 'A' and 'B'
     patterns = [
-        r'(?<!GROUP )\bA\s',          # 'A ' not preceded by 'GROUP '
-        r'(?<!GROUP )\bB\s',          # 'B ' not preceded by 'GROUP '
-        r'\bU\d{2}\b',                 # 'U19', 'U23', etc.
-        r'\bRESERVE\b',                # 'RESERVE' teams
-        r'\bEMERGING TEAMS\b'          # 'EMERGING TEAMS'
+        r'\bRESERVE\b',               # Exclude 'RESERVE'
+        r'\bEMERGING\b',              # Exclude 'EMERGING'
+        r'\bU\d{2}\b',                # Exclude 'U19', 'U23', etc.
+        r'\b(?<!POOL )(?<!GROUP )A\b',  # Exclude standalone 'A' not preceded by 'POOL' or 'GROUP'
+        r'\b(?<!POOL )(?<!GROUP )B\b',  # Exclude standalone 'B' not preceded by 'POOL' or 'GROUP'
+        r'\b(?<!POOL )(?<!GROUP )A\s',  # Exclude 'A ' not preceded by 'POOL' or 'GROUP'
+        r'\b(?<!POOL )(?<!GROUP )B\s',  # Exclude 'B ' not preceded by 'POOL' or 'GROUP'
     ]
     
     for pattern in patterns:
         if re.search(pattern, title_upper):
-            # Debugging statement
             print(f"Excluding match due to pattern '{pattern}': {title}")
             return False
     
     return True
+
 
 # Load the CSV
 csv_file_path = 'odi_series_urls.csv'
