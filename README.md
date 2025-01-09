@@ -6,12 +6,15 @@ Welcome to the Cricket Data Science Analysis repository! This project delves int
 
 The current notebook, `Player_Dismissals.ipynb`, provides an in-depth analysis of player dismissals and runs scored against various types of bowlers. This dynamic notebook allows users to analyze data for players from Pakistan and India. By adjusting the `team` and `player_name` variables, users can easily switch between different teams and players to perform targeted analysis.
 
-# Running Flow:
+# Running Flow (run_script.py : produced file/dir):
 
 1. pip install -r requirements.txt
-2. get_odi_series_urls.py: odi_series_urls.csv
-3. get_scorecard_commentary_urls.py: series_match_commentary_urls.csv, series_match_scorecard_urls.csv
-
+2. get_odi_series_urls.py : odi_series_urls.csv
+3. get_scorecard_commentary_urls.py : series_match_commentary_urls.csv, series_match_scorecard_urls.csv
+4. get_scorecard.py : (dir)match_scorecards_json
+5. add_btype_scorecards.py
+6. add_playingxi.py
+7. get_player_stats.py : dir(aggregated_stats)
 
 ## Features
 
