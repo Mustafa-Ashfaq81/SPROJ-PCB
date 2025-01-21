@@ -13,8 +13,9 @@ The current notebook, `Player_Dismissals.ipynb`, provides an in-depth analysis o
 3. get_scorecard_commentary_urls.py : series_match_commentary_urls.csv, series_match_scorecard_urls.csv
 4. get_scorecard.py : (dir)match_scorecards_json
 5. add_btype_scorecards.py
-6. add_playingxi.py
-7. get_player_stats.py : dir(aggregated_stats)
+6. add_batting_type_scorecards.py
+7. add_playingxi.py
+8. get_player_stats.py : dir(aggregated_stats)
 
 ## Features
 
