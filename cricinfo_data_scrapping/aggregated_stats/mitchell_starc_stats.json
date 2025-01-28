@@ -45,10 +45,10 @@
         {
             "Bowler Type": "Right arm Pace",
             "Span": "2010 - 2024",
-            "Dis": 23,
+            "Dis": 22,
             "bowled": 3,
             "caught-fielder": 10,
-            "caught wk": 6,
+            "caught wk": 5,
             "stump": 0,
             "lbw": 1,
             "hit wicket": 0,
@@ -69,10 +69,10 @@
         {
             "Bowler Type": "Left arm Pace",
             "Span": "2010 - 2024",
-            "Dis": 6,
+            "Dis": 7,
             "bowled": 2,
             "caught-fielder": 3,
-            "caught wk": 1,
+            "caught wk": 2,
             "stump": 0,
             "lbw": 0,
             "hit wicket": 0,
@@ -102,5 +102,40 @@
             "hit wicket": 0,
             "caught and bowled": 0
         }
-    ]
+    ],
+    "bowling_vs_batting_type": {
+        "Right Handed": {
+            "wickets": 161,
+            "bowled": 61,
+            "caught-fielder": 54,
+            "caught wk": 26,
+            "stump": 0,
+            "lbw": 20,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        },
+        "Left Handed": {
+            "wickets": 78,
+            "bowled": 29,
+            "caught-fielder": 27,
+            "caught wk": 11,
+            "stump": 0,
+            "lbw": 10,
+            "hit wicket": 0,
+            "caught and bowled": 1,
+            "other": 0
+        },
+        "Unknown": {
+            "wickets": 0,
+            "bowled": 0,
+            "caught-fielder": 0,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        }
+    }
 }

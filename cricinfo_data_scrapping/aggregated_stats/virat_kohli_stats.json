@@ -102,5 +102,40 @@
             "hit wicket": 0,
             "caught and bowled": 0
         }
-    ]
+    ],
+    "bowling_vs_batting_type": {
+        "Right Handed": {
+            "wickets": 3,
+            "bowled": 1,
+            "caught-fielder": 1,
+            "caught wk": 1,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        },
+        "Left Handed": {
+            "wickets": 2,
+            "bowled": 1,
+            "caught-fielder": 0,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 1,
+            "other": 0
+        },
+        "Unknown": {
+            "wickets": 0,
+            "bowled": 0,
+            "caught-fielder": 0,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        }
+    }
 }
