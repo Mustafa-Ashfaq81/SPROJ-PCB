@@ -976,8 +976,8 @@ def save_stats_to_json(player_stats, output_filename):
 
 def main():
     # Example usage
-    player_name = "Azhar Mahmood"
-    team_name = "Pakistan"
+    player_name = "Mitchell Starc"
+    team_name = "Australia"
     scorecards_dir = "../match_scorecards_json"
 
     if not os.path.isdir(scorecards_dir):
