@@ -901,7 +901,9 @@ def parse_country_from_series_name(series_name):
 # -------------------------------------------------------------------
 def process_file(args):
     fp, player_name, team_name, sy, ey = args
-    return parse_match_file(fp, player_name, team_name, sy, ey)
+    stats = parse_match_file(fp, player_name, team_name, sy, ey)
+    return (fp, stats)
+   
 
 # -------------------------------------------------------------------
 # Main function: generate_player_stats_venuewise_span
@@ -950,7 +952,8 @@ def generate_player_stats_venuewise_span(
         results = p.map(process_file, args_list)
 
     # keep only non-None
-    all_stats = [r for r in results if r is not None]
+    all_stats = [(fp, stats) for fp, stats in results if stats is not None]
+
     if not all_stats:
         logging.warning(
             f"No match data found for {player_name} in {team_name} "
@@ -960,15 +963,13 @@ def generate_player_stats_venuewise_span(
 
     # group by parse_country_from_series_name
     aggregator_by_venue = {}
-    for i,ms in enumerate(all_stats):
-        # read that file's 'series_name'
-        file_path = args_list[i][0]
+    for fp, ms in all_stats:
         try:
-            with open(file_path, 'r', encoding='utf-8') as f:
+            with open(fp, 'r', encoding='utf-8') as f:
                 mdata = json.load(f)
-        except:
+        except Exception as e:
             continue
-        sname = mdata.get('series_name','')
+        sname = mdata.get('series_name', '')
         venue = parse_country_from_series_name(sname)
         if venue not in aggregator_by_venue:
             aggregator_by_venue[venue] = init_aggregator()
