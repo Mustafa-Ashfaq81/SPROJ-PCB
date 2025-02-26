@@ -946,10 +946,10 @@ def main():
     team_name = "Pakistan"
     
     # 1) For "all" span:
-    start_span, end_span = "all", "all"
+    # start_span, end_span = "all", "all"
 
     # 2) For numeric span:
-    # start_span, end_span = 2024, 2024
+    start_span, end_span = 2015, 2018
 
     stats = generate_player_stats_with_span(
         player_name=player_name,

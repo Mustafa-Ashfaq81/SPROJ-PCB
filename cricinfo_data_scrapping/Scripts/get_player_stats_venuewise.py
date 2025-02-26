@@ -1012,9 +1012,9 @@ def main():
     player = "Babar Azam"
     team   = "Pakistan"
     # If you want all, do:
-    result = generate_player_stats_venuewise_span(player, team, "all", "all")
+    # result = generate_player_stats_venuewise_span(player, team, "all", "all")
     # If you want numeric range:
-    # result = generate_player_stats_venuewise_span(player, team, 2015, 2025)
+    result = generate_player_stats_venuewise_span(player, team, 2015, 2018)
     if not result:
         logging.warning("No results or empty data.")
     else:
