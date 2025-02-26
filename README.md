@@ -15,7 +15,10 @@ The current notebook, `Player_Dismissals.ipynb`, provides an in-depth analysis o
 5. add_btype_scorecards.py
 6. add_batting_type_scorecards.py
 7. add_playingxi.py
-8. get_player_stats.py : dir(aggregated_stats)
+8. find_slash.py (Scorecards which have "/" in venues)
+9. correct_slash.py
+10. get_player_stats.py : dir(aggregated_stats)
+11. get_player_stats_venuewise.py : dir(aggregated_stats_venue_wise)
 
 ## Features
 
