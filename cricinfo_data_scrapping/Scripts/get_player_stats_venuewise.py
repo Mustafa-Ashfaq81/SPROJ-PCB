@@ -1009,12 +1009,12 @@ def generate_player_stats_venuewise_span(
 # Example usage
 # -------------------------------------------------------------------
 def main():
-    player = "Babar Azam"
-    team   = "Pakistan"
+    player = "Steven Smith"
+    team   = "Australia"
     # If you want all, do:
-    result = generate_player_stats_venuewise_span(player, team, "all", "all")
+    # result = generate_player_stats_venuewise_span(player, team, "all", "all")
     # If you want numeric range:
-    # result = generate_player_stats_venuewise_span(player, team, 2015, 2018)
+    result = generate_player_stats_venuewise_span(player, team, 2019, 2024)
     if not result:
         logging.warning("No results or empty data.")
     else:

@@ -942,14 +942,14 @@ def main():
     """
     Example usage. Change parameters as needed.
     """
-    player_name = "Babar Azam"
-    team_name = "Pakistan"
+    player_name = "Steven Smith"
+    team_name = "Australia"
     
     # 1) For "all" span:
-    start_span, end_span = "all", "all"
+    # start_span, end_span = "all", "all"
 
     # 2) For numeric span:
-    # start_span, end_span = 2015, 2018
+    start_span, end_span = 2019, 2024
 
     stats = generate_player_stats_with_span(
         player_name=player_name,
