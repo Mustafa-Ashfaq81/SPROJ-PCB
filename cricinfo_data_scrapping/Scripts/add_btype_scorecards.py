@@ -6,7 +6,7 @@ with open('bowlers_categorized.json', 'r') as file:
     bowlers_categorized = json.load(file)
 
 # Directory containing match scorecards
-scorecards_dir = 'match_scorecards_json'
+scorecards_dir = '../match_scorecards_json'
 
 # Function to update bowlers in a scorecard
 def add_bowler_type(scorecard):
