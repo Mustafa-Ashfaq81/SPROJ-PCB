@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Usage: python get_player_stats_against_teams.py <player_name> <team_name> <start_year> <end_year>
+# Usage Example 1: python get_player_stats_against_team.py "Steven Smith" Australia all all
+# Usage Example 2: python get_player_stats_against_team.py "Steven Smith" Australia 2019 2024
 
 import os
 import json
@@ -258,17 +261,13 @@ def extract_dismissal_data(batsman_clean, dismissal_text, innings, bowler_mappin
         found = pat.search(dt_low)
         if found:
             if method == 'caught wk':
-                # c (wk) X b Y or c(wk) Y b Z
-                # group(1) = fielder, group(2)= bowler
                 bowler = found.group(2).strip() if len(found.groups()) >= 2 else ''
                 dismissal_method = 'caught wk'
                 bowler_name_full = resolve_bowler_name(bowler, bowler_mapping)
 
             elif method == 'caught-fielder':
-                # c FIELDER b BOWLER
                 fielder = found.group(1).strip()
                 bowler = found.group(2).strip()
-                # If fielder is a recognized wk => 'caught wk'
                 if clean_name(fielder) in wicket_keepers:
                     dismissal_method = 'caught wk'
                 else:
@@ -276,13 +275,11 @@ def extract_dismissal_data(batsman_clean, dismissal_text, innings, bowler_mappin
                 bowler_name_full = resolve_bowler_name(bowler, bowler_mapping)
 
             elif method == 'caught and bowled':
-                # c & b BOWLER
                 bowler = found.group(1).strip()
                 dismissal_method = 'caught and bowled'
                 bowler_name_full = resolve_bowler_name(bowler, bowler_mapping)
 
             elif method == 'stump':
-                # st FIELDER b BOWLER
                 fielder = found.group(1).strip() if len(found.groups())>=2 else ''
                 bowler = found.group(2).strip() if len(found.groups())>=2 else ''
                 dismissal_method = 'stump'
@@ -295,25 +292,19 @@ def extract_dismissal_data(batsman_clean, dismissal_text, innings, bowler_mappin
 
             elif method == 'run out':
                 if len(found.groups()) == 2:
-                    # run out(X) b Y
-                    # group(1)=X, group(2)=Y
                     bowler = found.group(2).strip()
                     dismissal_method = 'run out'
                     bowler_name_full = resolve_bowler_name(bowler, bowler_mapping)
                 elif len(found.groups()) == 1:
-                    # run out(X)
                     dismissal_method = 'run out'
                     bowler_name_full = 'Unknown'
                 else:
                     dismissal_method = 'run out'
                     bowler_name_full = 'Unknown'
-
             else:
-                # retired hurt, obstructing, etc.
                 dismissal_method = method
                 bowler_name_full = 'Unknown'
 
-            # Once matched, get bowler_type
             bowler_type = find_bowler_type(bowler_name_full, innings)
             break
 
@@ -358,14 +349,11 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
 
     # If BOTH start_year and end_year are ints => filter
     if isinstance(start_year,int) and isinstance(end_year,int):
-        # If no date => skip
         if not match_date:
             return None
-        # If date is out of [start_year, end_year] => skip
         if not (start_year <= match_date.year <= end_year):
             return None
 
-    # Prepare the aggregator for a single match
     player_stats = {
         'batting': {},
         'bowling': {
@@ -428,32 +416,21 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
         }
     }
 
-    # Clean the player's name
     player_name_clean = clean_name(player_name)
     team_name_lower = team_name.lower()
 
-    playing_xi = match_data.get('playing_xi', {})
-    # Also clean playing XI so comparisons match
-    for tkey in list(playing_xi.keys()):
-        playing_xi[tkey] = [clean_name(x) for x in playing_xi[tkey]]
+    match_xi = match_data.get('playing_xi', {})
+    for tkey in list(match_xi.keys()):
+        match_xi[tkey] = [clean_name(x) for x in match_xi[tkey]]
 
-    # Check if player's team_name is actually in playing_xi
-    # e.g. if the JSON says 'Australia' but user passes 'AUS' => mismatch
-    if team_name not in playing_xi:
+    if team_name not in match_xi:
         return None
 
-    # Check if that player actually played
-    if player_name_clean not in playing_xi[team_name]:
+    if player_name_clean not in match_xi[team_name]:
         return None
 
     player_stats['played'] = True
 
-    # Identify wicketkeepers (not trivial in your data unless the raw had "(wk)". 
-    # We leave as an empty set or specialized logic if you have a separate marker
-    wicket_keepers = set()
-    # (Leaving as is in case your data or future expansions tag them.)
-
-    # Build a bowler mapping for partial name => full
     bowler_mapping = defaultdict(list)
     innings = match_data.get('innings', [])
     for inn in innings:
@@ -462,17 +439,13 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
             for variant in generate_name_variants(original_bowler):
                 bowler_mapping[variant.lower()].append(original_bowler)
 
-    # Parse innings
     for inn in innings:
         inn_team = inn.get('team','').lower()
-
-        # If inn_team == player's team => batting
         if inn_team == team_name_lower:
             for batsman in inn.get('batting', []):
                 raw_name = batsman.get('batsman','')
                 bname_clean = clean_name(raw_name)
                 if bname_clean == player_name_clean:
-                    # capture batting
                     b_runs = safe_int_conversion(batsman.get('runs',0))
                     b_balls= safe_int_conversion(batsman.get('balls',0))
                     b_fours= safe_int_conversion(batsman.get('fours',0))
@@ -489,11 +462,9 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
                         'dismissal': dis_text
                     }
                     if dis_text.lower() != 'not out':
-                        dd = extract_dismissal_data(bname_clean, dis_text, innings, bowler_mapping, wicket_keepers)
+                        dd = extract_dismissal_data(bname_clean, dis_text, innings, bowler_mapping, set())
                         player_stats['dismissals'].append(dd)
-
         else:
-            # bowling
             for binfo in inn.get('bowling', []):
                 bclean = clean_name(binfo.get('bowler',''))
                 if bclean == player_name_clean:
@@ -519,20 +490,15 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
                     ps_bowl['match_wickets'] = wicks
                     ps_bowl['match_runs'] = runs_c
 
-        # fielding + (bowling vs batting type)
         for bat_data in inn.get('batting', []):
             dtext = bat_data.get('dismissal','').strip()
             if dtext:
-                # fielding
                 fc = parse_fielding_contribution(dtext, player_name_clean)
                 player_stats['fielding']['catches'] += fc['catches']
                 player_stats['fielding']['stumpings'] += fc['stumpings']
                 player_stats['fielding']['run_outs'] += fc['run_outs']
 
-                # was our player the credited bowler?
-                dd = extract_dismissal_data(clean_name(bat_data.get('batsman','')),
-                                            dtext,
-                                            innings, bowler_mapping, wicket_keepers)
+                dd = extract_dismissal_data(clean_name(bat_data.get('batsman','')), dtext, innings, bowler_mapping, set())
                 credited_bowler_clean = clean_name(dd['bowler_name'])
                 method_ = dd['dismissal_method'].lower()
                 if credited_bowler_clean == player_name_clean:
@@ -684,7 +650,6 @@ def merge_single_match_stats(agg, match_stats):
             agg['dismissals'][bt][dm_]+=1
         agg['dismissals'][bt]["Dis"]+=1
 
-    # store or update "bowling vs batting type"
     if 'bvbt' not in agg:
         agg['bvbt'] = {
             'Right Handed': {
@@ -733,26 +698,22 @@ def merge_single_match_stats(agg, match_stats):
 # Finalize aggregator -> JSON-friendly
 # -------------------------------------------------------------------
 def finalize_aggregator(agg):
-    # batting average
     if agg['batting']['dismissals']>0:
         agg['batting']['bat_avg'] = round(agg['batting']['runs']/agg['batting']['dismissals'],2)
     else:
         agg['batting']['bat_avg'] = None
 
-    # strike rate
     if agg['batting']['balls']>0:
         sr_ = (agg['batting']['runs']/agg['batting']['balls'])*100
         agg['batting']['strike_rate'] = round(sr_,2)
     else:
         agg['batting']['strike_rate'] = None
 
-    # overs
     tb = agg['bowling']['balls_bowled']
     ov_int = tb//6
     leftover = tb%6
     corrected_overs = ov_int + leftover/10.0
 
-    # bowling average + economy
     w_ = agg['bowling']['wickets']
     r_ = agg['bowling']['runs_conceded']
     if w_>0:
@@ -766,25 +727,21 @@ def finalize_aggregator(agg):
     else:
         agg['bowling']['economy'] = None
 
-    # bowling strike rate
     if w_>0 and tb>0:
         bsr = round(tb/w_,2)
     else:
         bsr = None
 
-    # dot ball %
     if tb>0:
         dbp = round((agg['bowling']['dots']/tb)*100,2)
     else:
         dbp = None
 
-    # best figures
     if agg['bowling']['best_bowling_wickets']>0 and agg['bowling']['best_bowling_runs']<999999:
         best_fig = f"{agg['bowling']['best_bowling_wickets']}/{agg['bowling']['best_bowling_runs']}"
     else:
         best_fig = None
 
-    # career span
     if agg['match_dates']:
         earliest = min(agg['match_dates'])
         latest  = max(agg['match_dates'])
@@ -792,7 +749,6 @@ def finalize_aggregator(agg):
     else:
         span_str= "Unknown"
 
-    # dismissal data
     bowler_types = ["Right arm Pace","Right arm Spin","Left arm Pace","Left arm Spin","Unknown"]
     disp_list = []
     for btype in bowler_types:
@@ -810,7 +766,6 @@ def finalize_aggregator(agg):
             "caught and bowled": ddata["caught and bowled"],
         })
 
-    # bowling_vs_batting_type
     final_bvbt = {}
     if 'bvbt' in agg:
         for skey in ['Right Handed','Left Handed','Unknown']:
@@ -882,19 +837,14 @@ def find_opposition(playing_xi, team_name):
     returns the other team (the opposition). If multiple or none found,
     you can adapt as needed. Typically returns a single string.
     """
-    teams_in_match = list(playing_xi.keys())  # e.g. ["Australia", "India"]
-    # If the user's input exactly matches one, remove it => what's left is the opposition
+    teams_in_match = list(playing_xi.keys())
     if team_name in teams_in_match:
         teams_in_match.remove(team_name)
-        # Usually a single team remains => the opposition
         if teams_in_match:
-            return teams_in_match[0]  # pick the first
+            return teams_in_match[0]
         else:
-            # No teams left => something is off
             return "UnknownOpposition"
     else:
-        # The user's 'team_name' not exactly found
-        # We might do a fuzzy match, or just return "UnknownOpposition"
         return "UnknownOpposition"
 
 # -------------------------------------------------------------------
@@ -909,11 +859,9 @@ def process_file(args):
     except:
         return (fp, None, None)
 
-    # figure out the opposition
     playing_xi = match_data.get('playing_xi', {})
     opp = find_opposition(playing_xi, team_name)
 
-    # parse stats
     stats = parse_match_file(fp, player_name, team_name, sy, ey)
     return (fp, stats, opp)
 
@@ -927,11 +875,6 @@ def generate_player_stats_against_teams_span(
     end_year="all",
     scorecards_dir="../match_scorecards_json"
 ):
-    """
-    Similar to the original aggregator, but the final grouping
-    is by the *opposing team* rather than by venue or country.
-    """
-    # Attempt int conversion
     try:
         start_year_int = int(start_year)
     except:
@@ -953,23 +896,19 @@ def generate_player_stats_against_teams_span(
         logging.warning(f"No JSON files found in {scorecards_dir}")
         return {}
 
-    # Prepare for parallel parse
     args_list = []
     for f_ in json_files:
         args_list.append((f_, player_name, team_name, start_year_int, end_year_int))
 
-    # Process
     with Pool(processes=cpu_count()) as p:
         results = p.map(process_file, args_list)
 
-    # Filter out None stats
     all_stats = [(fp, stats, opp) for (fp, stats, opp) in results if stats is not None]
 
     if not all_stats:
         logging.warning(f"No match data found for {player_name} in {team_name} within the date range.")
         return {}
 
-    # aggregator by opposition
     aggregator_by_opposition = {}
 
     for (fp, ms, opp_team) in all_stats:
@@ -977,7 +916,6 @@ def generate_player_stats_against_teams_span(
             aggregator_by_opposition[opp_team] = init_aggregator()
         merge_single_match_stats(aggregator_by_opposition[opp_team], ms)
 
-    # finalize output structure
     final_out = {
         "player": player_name,
         "team": team_name,
@@ -987,7 +925,6 @@ def generate_player_stats_against_teams_span(
     for opp, agg in aggregator_by_opposition.items():
         final_out["oppositions"][opp] = finalize_aggregator(agg)
 
-    # write to file
     safe_pname = player_name.lower().replace(' ','_')
     out_dir = "../aggregated_stats_against_teams"
     if not os.path.exists(out_dir):
@@ -1012,14 +949,19 @@ def generate_player_stats_against_teams_span(
 # Example usage
 # -------------------------------------------------------------------
 def main():
-    player = "Steven Smith"
-    team   = "Australia"
+    import sys
+    if len(sys.argv) != 5:
+        print("Usage: python get_player_stats_against_teams.py <player_name> <team_name> <start_year> <end_year>")
+        sys.exit(1)
 
-    # If you want all, do:
-    result = generate_player_stats_against_teams_span(player, team, start_year="all", end_year="all")
+    player = sys.argv[1]
+    team   = sys.argv[2]
+    start_span = sys.argv[3]
+    end_span = sys.argv[4]
 
-    # or numeric range e.g. 2019 - 2025
-    # result = generate_player_stats_against_teams_span(player, team, start_year=2019, end_year=2024)
+    result = generate_player_stats_against_teams_span(
+        player, team, start_span, end_span, scorecards_dir="../match_scorecards_json"
+    )
     if not result:
         logging.warning("No results or empty data.")
     else:

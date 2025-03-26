@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# Usage: python get_player_stats_with_span.py <player_name> <team_name> <start_year> <end_year>
+# Usage Example 1: python get_player_stats.py "Babar Azam" Pakistan 2015 2018
+# Usage Example 2: python get_player_stats.py "Babar Azam" Pakistan all all
+
 import os
 import json
 import re
@@ -72,7 +77,6 @@ def clean_name(name):
     """
     Remove annotations like (c), (wk), sub(...), etc. Return a lowercase version.
     """
-    # Remove anything in parentheses, e.g. (wk), (c), sub(...)
     cleaned = re.sub(r'\(.*?\)', '', name)
     return cleaned.strip().lower()
 
@@ -118,7 +122,6 @@ def generate_name_variants(full_name: str) -> set:
     else:
         base_variants.add(name_parts[0].lower())
 
-    # Generate case variants
     final_variants = set()
     for variant in base_variants:
         final_variants.update(generate_case_variants(variant))
@@ -162,7 +165,6 @@ def parse_fielding_contribution(dismissal_text: str, player_name_clean: str) -> 
     dismissal_text_lower = dismissal_text.lower().strip()
     player_variants = generate_name_variants(player_name_clean)
 
-    # 1) caught & bowled
     c_and_b_pattern = re.compile(r'c\s+&\s+b\s+([\w\s]+)', re.IGNORECASE)
     match_cab = c_and_b_pattern.search(dismissal_text_lower)
     if match_cab:
@@ -172,19 +174,16 @@ def parse_fielding_contribution(dismissal_text: str, player_name_clean: str) -> 
             fielding_stats["catches"] += 1
         return fielding_stats
 
-    # 2) c FIELDER b BOWLER
     caught_pattern = re.compile(r'^c\s+(.*?)\s+b\s+([\w\s]+)$', re.IGNORECASE)
     match_caught = caught_pattern.search(dismissal_text_lower)
     if match_caught:
         fielder_raw = match_caught.group(1)
-        # remove "sub" if present
         fielder_raw = re.sub(r'\bsub\b', '', fielder_raw, flags=re.IGNORECASE)
         fielder_cleaned = clean_name(fielder_raw)
         fielder_variants = generate_name_variants(fielder_cleaned)
         if player_variants & fielder_variants:
             fielding_stats["catches"] += 1
 
-    # 3) st FIELDER b BOWLER
     stumped_pattern = re.compile(r'st\s+(.*?)\s+b\s+([\w\s]+)', re.IGNORECASE)
     match_stumped = stumped_pattern.search(dismissal_text_lower)
     if match_stumped:
@@ -195,7 +194,6 @@ def parse_fielding_contribution(dismissal_text: str, player_name_clean: str) -> 
         if player_variants & fielder_variants:
             fielding_stats["stumpings"] += 1
 
-    # 4) run out
     run_out_pattern = re.compile(r'run out\s*\(([\w\s/]+)\)', re.IGNORECASE)
     match_runout = run_out_pattern.search(dismissal_text_lower)
     if match_runout:
@@ -218,36 +216,22 @@ def extract_dismissal_data(batsman_name_cleaned, dismissal_text, innings, bowler
     fielder = 'Unknown'
 
     dismissal_patterns = [
-        # Caught by wicket-keeper
         (re.compile(r'c\s+\(wk\)\s*([\w\s]+)\s+b\s+([\w\s]+)', re.IGNORECASE), 'caught wk'),
-        # Caught by fielder
         (re.compile(r'c\s+([\w\s]+)\s+b\s+([\w\s]+)', re.IGNORECASE), 'caught-fielder'),
-        # Stumped
         (re.compile(r'st\s+\(wk\)\s*([\w\s]+)\s+b\s+([\w\s]+)', re.IGNORECASE), 'stump'),
         (re.compile(r'st\s+([\w\s]+)\s+b\s+([\w\s]+)', re.IGNORECASE), 'stump'),
-        # LBW
         (re.compile(r'lbw\s+b\s+([\w\s]+)', re.IGNORECASE), 'lbw'),
-        # Caught & Bowled
         (re.compile(r'c\s+&\s+b\s+([\w\s]+)', re.IGNORECASE), 'caught and bowled'),
-        # Hit wicket
         (re.compile(r'hit wicket\s+b\s+([\w\s]+)', re.IGNORECASE), 'hit wicket'),
-        # Bowled
         (re.compile(r'^b\s+([\w\s]+)$', re.IGNORECASE), 'bowled'),
-        # Run Out
         (re.compile(r'run out\s+\(([\w\s]+)\)\s+b\s+([\w\s]+)', re.IGNORECASE), 'run out'),
         (re.compile(r'run out\s+\(([\w\s/]+)\)', re.IGNORECASE), 'run out'),
         (re.compile(r'run out', re.IGNORECASE), 'run out'),
-        # Retired Hurt
         (re.compile(r'retired hurt', re.IGNORECASE), 'retired hurt'),
-        # Retired Not Out
         (re.compile(r'retired not out', re.IGNORECASE), 'retired not out'),
-        # Obstructing the field
         (re.compile(r'obstructing the field', re.IGNORECASE), 'obstructing the field'),
-        # Timed out
         (re.compile(r'timed out', re.IGNORECASE), 'timed out'),
-        # Handled ball
         (re.compile(r'handled the ball', re.IGNORECASE), 'handled the ball'),
-        # Hit ball twice
         (re.compile(r'hit the ball twice', re.IGNORECASE), 'hit the ball twice')
     ]
 
@@ -256,7 +240,6 @@ def extract_dismissal_data(batsman_name_cleaned, dismissal_text, innings, bowler
     for pattern, method in dismissal_patterns:
         match_obj = pattern.search(dismissal_text_lower)
         if match_obj:
-            # Distinguish capturing logic
             if method == 'caught wk':
                 fielder = match_obj.group(1).strip()
                 bowler = match_obj.group(2).strip()
@@ -265,7 +248,6 @@ def extract_dismissal_data(batsman_name_cleaned, dismissal_text, innings, bowler
             elif method == 'caught-fielder':
                 fielder = match_obj.group(1).strip()
                 bowler = match_obj.group(2).strip()
-                # if the "fielder" is actually a wicketkeeper
                 if clean_name(fielder) in wicket_keepers:
                     dismissal_method = 'caught wk'
                 else:
@@ -285,7 +267,6 @@ def extract_dismissal_data(batsman_name_cleaned, dismissal_text, innings, bowler
                 dismissal_method = method
                 bowler_name = bowler
             elif method == 'run out':
-                # might have 1 or 2 groups
                 if len(match_obj.groups()) == 2:
                     fielder = match_obj.group(1).strip()
                     bowler = match_obj.group(2).strip()
@@ -333,7 +314,7 @@ def parse_years(start_year, end_year):
         ey = int(end_year)
         return (sy, ey)
     except (ValueError, TypeError):
-        return (None, None)  # fallback => no filter
+        return (None, None)
 
 def parse_match_file(file_path, player_name, team_name, start_year=None, end_year=None):
     """
@@ -350,12 +331,10 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
     match_details = match_data.get('match_details', {})
     match_date = parse_match_date(match_details)
 
-    # If we do have numeric start/end, filter out-of-range
     if start_year is not None and end_year is not None and match_date is not None:
         if match_date.year < start_year or match_date.year > end_year:
             return None
 
-    # Initialize stats container for this match
     player_stats = {
         'batting': {},
         'bowling': {
@@ -381,7 +360,6 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
         'dismissals': [],
         'match_date': match_date,
         'played': False,
-        # For specialized breakdown
         'bowling_vs_batting_type': {
             'Right Handed': {
                 'wickets': 0,
@@ -422,7 +400,6 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
     player_name_clean = clean_name(player_name)
     team_name_lower = team_name.lower()
 
-    # Identify wicketkeepers
     playing_xi = match_data.get('playing_xi', {})
     wicket_keepers = set()
     for tm, players in playing_xi.items():
@@ -431,7 +408,6 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
                 cleaned_wk = clean_name(name.replace('(wk)', ''))
                 wicket_keepers.add(cleaned_wk)
 
-    # Check if player participated
     player_team_xi = playing_xi.get(team_name, [])
     player_team_xi_cleaned = [clean_name(x) for x in player_team_xi]
     if player_name_clean not in player_team_xi_cleaned:
@@ -439,7 +415,6 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
     else:
         player_stats['played'] = True
 
-    # Build bowler_mapping for partial name resolution
     bowler_mapping = defaultdict(list)
     innings = match_data.get('innings', [])
     for inning in innings:
@@ -448,12 +423,10 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
             for variant in generate_name_variants(bowler_original):
                 bowler_mapping[variant.lower()].append(bowler_original)
 
-    # Process each inning
     for inning in innings:
         team = inning.get('team', '').lower()
         is_player_team = (team == team_name_lower)
 
-        # Batting
         if is_player_team:
             for batsman in inning.get('batting', []):
                 batsman_name_cleaned = clean_name(batsman.get('batsman', ''))
@@ -466,7 +439,6 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
                         'strike_rate': safe_float_conversion(batsman.get('strike_rate', 0.0)),
                         'dismissal': batsman.get('dismissal', 'not out')
                     }
-                    # Dismissal data
                     dismissal_text = batsman.get('dismissal', '')
                     if dismissal_text.lower() != 'not out':
                         dismissal_data = extract_dismissal_data(
@@ -477,8 +449,6 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
                             wicket_keepers
                         )
                         player_stats['dismissals'].append(dismissal_data)
-
-        # Bowling
         else:
             for bowler in inning.get('bowling', []):
                 bowler_name_cleaned = clean_name(bowler.get('bowler', ''))
@@ -500,24 +470,20 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
                     player_stats['bowling']['wides'] += safe_int_conversion(bowler.get('wides', 0))
                     player_stats['bowling']['no_balls'] += safe_int_conversion(bowler.get('no_balls', 0))
 
-                    # boundary runs
                     player_stats['bowling']['boundary_runs_this_innings'] += (fours_val * 4) + (sixes_val * 6)
                     player_stats['bowling']['match_wickets'] = wickets_val
                     player_stats['bowling']['match_runs'] = runs_val
 
-        # Fielding + Bowling vs. Batting Type
         for batsman_data in inning.get('batting', []):
             dismiss_text = batsman_data.get('dismissal', '').strip()
             if not dismiss_text:
                 continue
 
-            # Fielding contributions
             fielding_contrib = parse_fielding_contribution(dismiss_text, player_name_clean)
             player_stats['fielding']['catches'] += fielding_contrib["catches"]
             player_stats['fielding']['stumpings'] += fielding_contrib["stumpings"]
             player_stats['fielding']['run_outs'] += fielding_contrib["run_outs"]
 
-            # If the player is credited as bowler
             dis_data = extract_dismissal_data(
                 clean_name(batsman_data.get('batsman', '')),
                 dismiss_text,
@@ -538,7 +504,6 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
                     style_key = 'Unknown'
 
                 player_stats['bowling_vs_batting_type'][style_key]['wickets'] += 1
-
                 known_methods = {
                     'bowled', 'caught-fielder', 'caught wk', 'stump',
                     'lbw', 'hit wicket', 'caught and bowled'
@@ -560,10 +525,6 @@ def correct_overs(overs):
     return whole_overs + balls / 10
 
 def aggregate_stats(all_stats):
-    """
-    Aggregates batting, bowling, fielding, and dismissal data from all matches
-    into a single dictionary.
-    """
     bowler_types = ["Right arm Pace", "Right arm Spin", "Left arm Pace", "Left arm Spin", "Unknown"]
     dismissal_methods = [
         "bowled", "caught-fielder", "caught wk", "stump",
@@ -618,7 +579,6 @@ def aggregate_stats(all_stats):
         "fielding_innings": 0
     }
 
-    # aggregator for bowling vs batting type
     style_keys = ["Right Handed", "Left Handed", "Unknown"]
     method_keys = dismissal_methods + ["other"]
     bowling_vs_batting_type_agg = {
@@ -633,7 +593,6 @@ def aggregate_stats(all_stats):
             if mdate:
                 aggregated["match_dates"].append(mdate)
 
-        # Batting
         batting = match.get("batting", {})
         if batting:
             aggregated["batting_innings"] += 1
@@ -647,7 +606,6 @@ def aggregate_stats(all_stats):
             else:
                 aggregated["batting"]["not_outs"] += 1
 
-        # Bowling
         bowling = match.get("bowling", {})
         if bowling:
             aggregated["bowling_innings"] += 1
@@ -663,7 +621,6 @@ def aggregate_stats(all_stats):
             aggregated["bowling"]["no_balls"] += bowling.get("no_balls", 0)
             aggregated["bowling"]['total_boundary_runs'] += bowling.get('boundary_runs_this_innings', 0)
 
-            # best figures
             match_wickets = bowling.get('match_wickets', 0)
             match_runs = bowling.get('match_runs', 0)
             if match_wickets > 0:
@@ -679,7 +636,6 @@ def aggregate_stats(all_stats):
             elif match_wickets >= 5:
                 aggregated["bowling"]['five_wicket_hauls'] += 1
 
-        # Fielding
         fielding = match.get("fielding", {})
         if fielding:
             aggregated["fielding_innings"] += 1
@@ -687,19 +643,16 @@ def aggregate_stats(all_stats):
             aggregated["fielding"]["stumpings"] += fielding.get("stumpings", 0)
             aggregated["fielding"]["run_outs"] += fielding.get("run_outs", 0)
 
-        # Dismissals (who got *this* player out)
         for dismissal in match.get("dismissals", []):
             bowler_type = dismissal.get("bowler_type", "Unknown")
             dismissal_method = dismissal.get("dismissal_method", "other").lower()
             if bowler_type not in aggregated['dismissals']:
-                bowler_type = "Unknown"  # fallback
+                bowler_type = "Unknown"
 
             aggregated['dismissals'][bowler_type]["Dis"] += 1
             if dismissal_method in aggregated['dismissals'][bowler_type]:
                 aggregated['dismissals'][bowler_type][dismissal_method] += 1
-            # e.g. 'run out' => not incrementing typical method
 
-        # Merge each match's "bowling_vs_batting_type"
         match_bvbt = match.get("bowling_vs_batting_type", {})
         for style in style_keys:
             style_dict = match_bvbt.get(style, {})
@@ -707,7 +660,6 @@ def aggregate_stats(all_stats):
             for m_key in method_keys:
                 bowling_vs_batting_type_agg[style][m_key] += style_dict.get(m_key, 0)
 
-    # Final batting average & SR
     if aggregated['batting']['dismissals'] > 0:
         aggregated['batting']['bat_avg'] = round(aggregated['batting']['runs'] / aggregated['batting']['dismissals'], 2)
     else:
@@ -718,7 +670,6 @@ def aggregate_stats(all_stats):
     else:
         aggregated['batting']['strike_rate'] = None
 
-    # Bowling average & economy
     if aggregated['bowling']['wickets'] > 0:
         aggregated['bowling']['bowl_avg'] = round(aggregated['bowling']['runs_conceded'] / aggregated['bowling']['wickets'], 2)
     else:
@@ -734,26 +685,22 @@ def aggregate_stats(all_stats):
     pb = int(round((corrected_overs_val - wo)*10))
     total_balls_bowled = wo*6 + pb
 
-    # Bowling strike rate
     if aggregated['bowling']['wickets'] > 0 and total_balls_bowled > 0:
         bowling_strike_rate = round(total_balls_bowled / aggregated['bowling']['wickets'], 2)
     else:
         bowling_strike_rate = None
 
-    # Dot ball %
     if total_balls_bowled > 0:
         dot_ball_percentage = round((aggregated['bowling']['dots']/total_balls_bowled)*100, 2)
     else:
         dot_ball_percentage = None
 
-    # Best Bowling Figures
     if (aggregated['bowling']['best_bowling_wickets'] > 0 and
         aggregated['bowling']['best_bowling_runs'] < 999999):
         best_figures = f"{aggregated['bowling']['best_bowling_wickets']}/{aggregated['bowling']['best_bowling_runs']}"
     else:
         best_figures = None
 
-    # Determine "span" from earliest and latest match_date
     if aggregated['match_dates']:
         earliest_date = min(aggregated['match_dates'])
         latest_date = max(aggregated['match_dates'])
@@ -761,9 +708,8 @@ def aggregate_stats(all_stats):
     else:
         career_span = "Unknown"
 
-    # Build final aggregated
     final_aggregated = {
-        "span": career_span,  # <-- Always the actual earliest-latest from data
+        "span": career_span,
         "batting": aggregated['batting'],
         "bowling": {
             "Overs": round(corrected_overs_val, 2),
@@ -794,7 +740,6 @@ def aggregate_stats(all_stats):
         "bowling_vs_batting_type": bowling_vs_batting_type_agg
     }
 
-    # Fill final dismissal data
     for bt in bowler_types:
         data = aggregated['dismissals'][bt]
         final_aggregated['dismissals'].append({
@@ -813,31 +758,15 @@ def aggregate_stats(all_stats):
     return final_aggregated
 
 def process_file(args):
-    """
-    Helper for multiprocessing: parse a single file with the 
-    passed start_year/end_year filters.
-    """
     file_path, player_name, team_name, sy, ey = args
     return parse_match_file(file_path, player_name, team_name, sy, ey)
 
 def generate_player_stats_with_span(player_name, team_name, start_year, end_year, scorecards_dir='../match_scorecards_json'):
-    """
-    Generates aggregated stats for the player in the team:
-      - If start_year or end_year == 'all', aggregates all matches (no year filter).
-      - Else, aggregates only matches between start_year and end_year (inclusive).
-    Saves the results to a JSON file with naming:
-      - If "all" => "playerName_all_span_stats.json"
-      - Otherwise => "playerName_startYear_endYear_span_stats.json"
-
-    BUT inside the JSON, "span" always shows the earliest-latest years from the actual data.
-    """
     sy, ey = parse_years(start_year, end_year)
-    # sy= None => no filter, ey= None => no filter means "all"
 
-    # Collect all .json files
     try:
         json_files = [
-            os.path.join(scorecards_dir, fn) 
+            os.path.join(scorecards_dir, fn)
             for fn in os.listdir(scorecards_dir)
             if fn.endswith('.json')
         ]
@@ -849,14 +778,11 @@ def generate_player_stats_with_span(player_name, team_name, start_year, end_year
         logging.warning(f"No JSON files found in {scorecards_dir}.")
         return {}
 
-    # prepare for multiprocessing
     args_list = [(fp, player_name, team_name, sy, ey) for fp in json_files]
 
-    # parse matches
     with Pool(processes=cpu_count()) as pool:
         results = pool.map(process_file, args_list)
 
-    # filter out None
     all_stats = [r for r in results if r is not None]
     if not all_stats:
         logging.warning(f"No match data found for {player_name} in {team_name} with the given span.")
@@ -866,12 +792,10 @@ def generate_player_stats_with_span(player_name, team_name, start_year, end_year
     total_processed = len(all_stats)
     logging.info(f"Processed {total_processed} matches for {player_name} ({team_name}).")
 
-    # Build final JSON structure
-    # aggregated_data['span'] is the actual earliest-latest from data
     player_stats_json = {
         "player": player_name,
         "team": team_name,
-        "span": aggregated_data["span"],  # Show actual earliest-latest
+        "span": aggregated_data["span"],
         "matches_played": aggregated_data["matches_played"],
         "batting_innings": aggregated_data["batting_innings"],
         "bowling_innings": aggregated_data["bowling_innings"],
@@ -915,12 +839,10 @@ def generate_player_stats_with_span(player_name, team_name, start_year, end_year
         "bowling_vs_batting_type": aggregated_data["bowling_vs_batting_type"]
     }
 
-    # Decide filename
     safe_player_name = player_name.lower().replace(' ', '_')
     os.makedirs("../aggregated_stats", exist_ok=True)
 
     if sy is None and ey is None:
-        # "all"
         out_filename = os.path.join(
             "../aggregated_stats",
             f"{safe_player_name}_all_span_stats.json"
@@ -931,7 +853,6 @@ def generate_player_stats_with_span(player_name, team_name, start_year, end_year
             f"{safe_player_name}_{sy}_{ey}_span_stats.json"
         )
 
-    # Save
     with open(out_filename, 'w', encoding='utf-8') as f:
         json.dump(player_stats_json, f, indent=4, default=str)
 
@@ -939,17 +860,15 @@ def generate_player_stats_with_span(player_name, team_name, start_year, end_year
     return player_stats_json
 
 def main():
-    """
-    Example usage. Change parameters as needed.
-    """
-    player_name = "Steven Smith"
-    team_name = "Australia"
-    
-    # 1) For "all" span:
-    # start_span, end_span = "all", "all"
+    import sys
+    if len(sys.argv) != 5:
+        print("Usage: python get_player_stats_with_span.py <player_name> <team_name> <start_year> <end_year>")
+        sys.exit(1)
 
-    # 2) For numeric span:
-    start_span, end_span = 2019, 2024
+    player_name = sys.argv[1]
+    team_name = sys.argv[2]
+    start_span = sys.argv[3]
+    end_span = sys.argv[4]
 
     stats = generate_player_stats_with_span(
         player_name=player_name,
@@ -960,7 +879,6 @@ def main():
     )
 
     if stats:
-        # Print final stats to console
         print(json.dumps(stats, indent=4, default=str))
     else:
         logging.warning("No stats generated with the given parameters.")

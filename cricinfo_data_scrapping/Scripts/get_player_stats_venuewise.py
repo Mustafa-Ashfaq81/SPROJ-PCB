@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Usage: python get_player_stats_venuewise.py <player name> <team> <start_year> <end_year>
+# Usage Example 1: python get_player_stats_venuewise.py "Babar Azam" Pakistan all all
+# Usage Example 2: python get_player_stats_venuewise.py "Babar Azam" Pakistan 2015 2018
 
 import os
 import json
@@ -558,7 +561,6 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
 
     return player_stats
 
-
 # -------------------------------------------------------------------
 # Initialize aggregator for a venue
 # -------------------------------------------------------------------
@@ -678,7 +680,7 @@ def merge_single_match_stats(agg, match_stats):
         agg['fielding']['stumpings'] += fd.get('stumpings',0)
         agg['fielding']['run_outs'] += fd.get('run_outs',0)
 
-    # who got me out? 
+    # who got me out?
     for d_ in match_stats.get('dismissals', []):
         bt = d_.get('bowler_type','Unknown')
         if bt not in agg['dismissals']:
@@ -903,7 +905,6 @@ def process_file(args):
     fp, player_name, team_name, sy, ey = args
     stats = parse_match_file(fp, player_name, team_name, sy, ey)
     return (fp, stats)
-   
 
 # -------------------------------------------------------------------
 # Main function: generate_player_stats_venuewise_span
@@ -1009,12 +1010,16 @@ def generate_player_stats_venuewise_span(
 # Example usage
 # -------------------------------------------------------------------
 def main():
-    player = "Steven Smith"
-    team   = "Australia"
-    # If you want all, do:
-    # result = generate_player_stats_venuewise_span(player, team, "all", "all")
-    # If you want numeric range:
-    result = generate_player_stats_venuewise_span(player, team, 2019, 2024)
+    import sys
+    if len(sys.argv) != 5:
+        print("Usage: python get_player_stats_venuewise.py <player_name> <team> <start_year> <end_year>")
+        sys.exit(1)
+    player = sys.argv[1]
+    team = sys.argv[2]
+    start_year = sys.argv[3]
+    end_year = sys.argv[4]
+
+    result = generate_player_stats_venuewise_span(player, team, start_year, end_year)
     if not result:
         logging.warning("No results or empty data.")
     else:

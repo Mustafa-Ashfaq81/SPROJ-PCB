@@ -1,450 +1,410 @@
-import os
 import csv
 import time
 import re
-
+import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import (
     NoSuchElementException,
     TimeoutException,
 )
 
+
 ###############################################################################
-# 1) Utility to remove or close known pop-ups/cookie banners
+# Helper function to handle overlays/popups
 ###############################################################################
 def handle_popups(driver):
-    """Attempt to remove overlays, pop-ups, cookie banners that block the page."""
+    """
+    Attempt to remove or click away any pop-ups that can intercept clicks.
+    """
+    # Example pop-ups; adapt to your site’s actual pop-ups:
     try:
         overlay = driver.find_element(By.CSS_SELECTOR, "div.wzrk-overlay")
         driver.execute_script("arguments[0].remove();", overlay)
-        print("[POPUP] Removed 'wzrk-overlay'")
         time.sleep(0.5)
     except:
         pass
 
     try:
-        close_btn = driver.find_element(By.CSS_SELECTOR, "div.wzrk-button")
-        close_btn.click()
-        print("[POPUP] Clicked 'wzrk-button' close")
+        close_button = driver.find_element(By.CSS_SELECTOR, "div.wzrk-button")
+        close_button.click()
         time.sleep(0.5)
     except:
         pass
 
     try:
-        cookie_btn = driver.find_element(By.CSS_SELECTOR, "button[id*='onetrust-accept']")
-        cookie_btn.click()
-        print("[POPUP] Clicked 'accept cookies' button")
+        cookie_button = driver.find_element(
+            By.CSS_SELECTOR, "button[id*='onetrust-accept']"
+        )
+        cookie_button.click()
         time.sleep(0.5)
     except:
         pass
 
 
 ###############################################################################
-# 2) Parse numeric match_id from commentary URL
+# Wait for the ESPN "loader" to disappear, or until timeout.
+###############################################################################
+def wait_for_loader_to_disappear(driver, timeout=15):
+    """
+    Blocks up to 'timeout' seconds until the loader element is not displayed.
+    Adjust the loader selector if it changes on ESPN.
+    """
+    start_time = time.time()
+    while (time.time() - start_time) < timeout:
+        try:
+            loader_elem = driver.find_element(
+                By.CSS_SELECTOR, "div.ds-flex.ds-justify-center.ds-my-4 span.ds-spinner"
+            )
+            if loader_elem.is_displayed():
+                time.sleep(0.5)
+            else:
+                break  # Found but not displayed
+        except:
+            # Not found in DOM => presumably gone
+            break
+
+
+###############################################################################
+# Scroll the window without passing the "Sponsored Headlines" section
+###############################################################################
+def scroll_and_wait_for_loader(driver, scroll_amount=500):
+    """
+    Scrolls the window by scroll_amount pixels, but never goes below
+    the 'Sponsored Headlines' element (tbl-feed-header-text).
+
+    Returns:
+       True  if we successfully scrolled
+       False if we are already at/above sponsor area and cannot scroll further
+    """
+    current_y = driver.execute_script("return window.pageYOffset;")
+
+    # Find the sponsor element’s absolute Y position
+    try:
+        sponsored_elem = driver.find_element(
+            By.CSS_SELECTOR, "div.tbl-feed-header-text"
+        )
+        sponsored_y = driver.execute_script(
+            "return arguments[0].getBoundingClientRect().top + window.pageYOffset;",
+            sponsored_elem,
+        )
+    except:
+        sponsored_elem = None
+        sponsored_y = float("inf")  # If not found, no sponsor limit
+
+    proposed_scroll = current_y + scroll_amount
+
+    # If proposed scroll would go below sponsor, clamp
+    if proposed_scroll >= sponsored_y:
+        new_scroll = sponsored_y - 100
+        if new_scroll <= (current_y + 10):
+            print("Cannot scroll further without passing sponsor section.")
+            return False
+        driver.execute_script(f"window.scrollTo(0, {new_scroll});")
+    else:
+        driver.execute_script(f"window.scrollTo(0, {proposed_scroll});")
+
+    time.sleep(1)
+    wait_for_loader_to_disappear(driver)
+    return True
+
+
+###############################################################################
+# Extract match_id from commentary URL
 ###############################################################################
 def extract_match_id_from_url(commentary_url):
-    """
-    Example: 
-      https://www.espncricinfo.com/series/blah-66274/ball-by-ball-commentary
-    we parse '66274' from second-to-last path segment.
-    """
     parts = commentary_url.rstrip("/").split("/")
     if len(parts) < 2:
         return "UNKNOWN"
-    second_last = parts[-2]
-    m = re.search(r"(\d+)$", second_last)
-    if m:
-        return m.group(1)
+    last_part = parts[-2]
+    match = re.search(r"(\d+)$", last_part)
+    if match:
+        return match.group(1)
     return "UNKNOWN"
 
 
 ###############################################################################
-# 3) Check if an element is currently in the browser's visible viewport
-###############################################################################
-def is_in_viewport(driver, element):
-    """
-    Return True if 'element' is (at least partially) visible in the current window.
-    We'll do a basic boundingRect check vs. window.innerHeight.
-    """
-    rect = driver.execute_script("return arguments[0].getBoundingClientRect();", element)
-    top_ = rect.get("top", 999999)
-    bottom_ = rect.get("bottom", 999999)
-    window_h = driver.execute_script("return window.innerHeight;")
-    return (bottom_ > 0) and (top_ < window_h)
-
-
-###############################################################################
-# 4) Make sure "Full commentary" is selected if that button or link is present
-###############################################################################
-def ensure_full_commentary(driver):
-    """
-    On Cricinfo, there's often an option for "Full commentary" vs "Key events" vs "Latest".
-    We want to be sure we see all deliveries from ball 0.1 onward.
-    We'll attempt to find a button or link that says exactly "Full commentary" and click it.
-    """
-    try:
-        full_comm = driver.find_element(By.XPATH, "//*[text()='Full commentary']")
-        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", full_comm)
-        time.sleep(0.5)
-        full_comm.click()
-        time.sleep(1.5)
-        print("[INFO] Clicked 'Full commentary' from top bar.")
-    except NoSuchElementException:
-        print("[INFO] 'Full commentary' button not found; possibly already in full mode.")
-
-
-###############################################################################
-# 5) Parse all commentary blocks currently loaded in the container
-###############################################################################
-def parse_commentary_blocks(driver):
-    """
-    Return a list of (ball_num, text) from the main commentary container.
-    """
-    results = []
-    seen = set()
-
-    try:
-        container = driver.find_element(
-            By.CSS_SELECTOR,
-            "div.ds-w-full.ds-bg-fill-content-prime.ds-overflow-hidden.ds-rounded-xl."
-            "ds-mb-4.ds-border-y.lg\\:ds-border.ds-border-line"
-        )
-    except NoSuchElementException:
-        print("[ERROR] Commentary container not found. Returning empty.")
-        return results
-
-    blocks = container.find_elements(
-        By.CSS_SELECTOR,
-        "div.ds-text-tight-m.ds-font-regular.ds-flex.ds-px-3.ds-py-2, div.ds-text-compact-s"
-    )
-
-    for b in blocks:
-        # Attempt to get ball number
-        try:
-            ball_el = b.find_element(
-                By.CSS_SELECTOR,
-                "span.ds-text-tight-s.ds-font-regular.ds-mb-1."
-                "lg\\:ds-mb-0.lg\\:ds-mr-3.ds-block.ds-text-center.ds-text-typo-mid1"
-            )
-            ball_num = ball_el.text.strip()
-        except NoSuchElementException:
-            ball_num = "MISC"
-
-        paras = b.find_elements(By.CSS_SELECTOR, "p.ci-html-content")
-        combined_text = " ".join(p.text.strip() for p in paras if p.text.strip())
-        if not combined_text:
-            continue
-
-        key = (ball_num, combined_text)
-        if key not in seen:
-            seen.add(key)
-            results.append(key)
-
-    return results
-
-
-###############################################################################
-# 6) "Ping-pong" scrolling
-###############################################################################
-def ping_pong_scroll(
-    driver,
-    target_ball="0.1",
-    max_loops=60,
-    scroll_step=400,
-    max_no_new=8
-):
-    """
-    We do a series of steps:
-      - parse commentary
-      - if "Sponsored Headlines" is visible => scroll up
-      - if near the top => scroll down
-      - each iteration, if no new lines appear multiple times => break
-      - if spinner found => wait for vanish
-      - if ball=0.1 found => break
-    Returns final list of (ball, text).
-    """
-    commentary_data = []
-    seen = set()
-    no_new_count = 0
-
-    spinner_selector = "span.ds-spinner"
-    ads_heading_sel = "div.tbl-feed-header-text"
-
-    direction = "down"
-
-    for iteration in range(1, max_loops+1):
-        handle_popups(driver)
-
-        new_items = 0
-        blocks = parse_commentary_blocks(driver)
-        for (bnum, text) in blocks:
-            key = (bnum, text)
-            if key not in seen:
-                seen.add(key)
-                commentary_data.append(key)
-                new_items += 1
-
-        if new_items > 0:
-            no_new_count = 0
-        else:
-            no_new_count += 1
-            print(f"[DEBUG] No new commentary lines on iteration={iteration}, no_new_count={no_new_count}")
-
-        # check if found 0.1
-        if any(b == target_ball for (b,_) in commentary_data):
-            print(f"[INFO] Found ball '{target_ball}' on iteration={iteration}. Stopping ping-pong.")
-            break
-
-        if no_new_count >= max_no_new:
-            print("[WARN] No new lines for multiple loops, stopping ping-pong scroll.")
-            break
-
-        # see if we overshot into ads
-        overshot = False
-        try:
-            ads_heading = driver.find_element(By.CSS_SELECTOR, ads_heading_sel)
-            if is_in_viewport(driver, ads_heading):
-                overshot = True
-        except NoSuchElementException:
-            pass
-
-        current_offset = driver.execute_script("return window.pageYOffset;")
-        if overshot:
-            direction = "up"
-        else:
-            if current_offset < 200:
-                direction = "down"
-
-        # do the scroll
-        if direction == "down":
-            driver.execute_script(f"window.scrollBy(0,{scroll_step});")
-        else:
-            driver.execute_script(f"window.scrollBy(0,-{scroll_step});")
-        time.sleep(1.5)
-
-        # check spinner
-        spinner_present = False
-        try:
-            driver.find_element(By.CSS_SELECTOR, spinner_selector)
-            spinner_present = True
-        except NoSuchElementException:
-            pass
-
-        if spinner_present:
-            print("[INFO] Spinner found, waiting up to 10s for vanish.")
-            try:
-                WebDriverWait(driver, 10).until(
-                    EC.invisibility_of_element_located((By.CSS_SELECTOR, spinner_selector))
-                )
-                print("[INFO] Spinner gone. Possibly loaded more commentary.")
-                time.sleep(1.0)
-            except TimeoutException:
-                print("[WARN] Spinner still visible after 10s, continuing anyway...")
-
-    return commentary_data
-
-
-###############################################################################
-# 7) Gather commentary for the currently selected side
-###############################################################################
-def gather_commentary_for_side(driver, side_label):
-    """
-    1) Try 'Full commentary' mode
-    2) Ping-pong scroll
-    3) Return the final list
-    """
-    print(f"\n[INFO] Gathering commentary for side: {side_label}")
-    handle_popups(driver)
-    ensure_full_commentary(driver)
-    data = ping_pong_scroll(driver, target_ball="0.1", max_loops=70, scroll_step=400)
-    print(f"[INFO] Collected {len(data)} lines for side '{side_label}'")
-    return data
-
-
-###############################################################################
-# 8) Parse the date from the top "match info" area
-#    e.g. "1st ODI, Wellington, January 05, 2025, ...
+# Parse a match date from the page (minor helper to add date in file name)
 ###############################################################################
 def parse_match_date(driver):
     """
-    We'll look for the top info element typically found in
-      <div class="ds-text-tight-m ds-font-regular ds-text-typo-mid3">
-      e.g. "1st ODI, Wellington, January 05, 2025, ...
-    and extract "January_05_2025" via a regex (replacing commas/spaces).
-    If not found, return "UNKNOWN_DATE".
+    Attempts to parse a date from the top match-info area.
+    Returns a string like "January_05_2025" or "UNKNOWN_DATE".
     """
     date_str = "UNKNOWN_DATE"
     try:
-        info_el = driver.find_element(By.CSS_SELECTOR, "div.ds-text-tight-m.ds-font-regular.ds-text-typo-mid3")
+        info_el = driver.find_element(
+            By.CSS_SELECTOR, "div.ds-text-tight-m.ds-font-regular.ds-text-typo-mid3"
+        )
         text = info_el.text  # e.g. "1st ODI, Wellington, January 05, 2025, ..."
-        # We'll do a pattern for Month dd, yyyy
         m = re.search(r"([A-Za-z]+\s+\d{1,2},\s+\d{4})", text)
         if m:
-            # e.g. "January 05, 2025"
-            raw_date = m.group(1)
-            # replace commas and spaces with underscores => "January_05_2025"
-            date_str = raw_date.replace(",", "").replace(" ", "_")
-    except NoSuchElementException:
-        print("[WARN] Could not locate top info div for match date.")
+            raw_date = m.group(1)  # e.g. "January 05, 2025"
+            date_str = raw_date.replace(",", "").replace(
+                " ", "_"
+            )  # => "January_05_2025"
+    except:
+        pass
     return date_str
+
+
+###############################################################################
+# Scrape commentary for the currently selected "country"
+###############################################################################
+def scrape_commentary(driver, target_ball, output_file):
+    found_target = False
+    seen_entries = set()
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        while True:
+            handle_popups(driver)
+
+            # NOTE: Same CSS selector for commentary blocks:
+            commentary_blocks = driver.find_elements(
+                By.CSS_SELECTOR,
+                (
+                    "div.ds-text-tight-m.ds-font-regular.ds-flex.ds-px-3.ds-py-2,"
+                    "div.lg\\:hover\\:ds-bg-ui-fill-translucent.ds-hover-parent.ds-relative,"
+                    "div.ds-text-compact-s"
+                ),
+            )
+
+            if not commentary_blocks:
+                print(
+                    "No commentary blocks found. Possibly at bottom or overlay blocking."
+                )
+                break
+
+            for block in commentary_blocks:
+                # Attempt to find ball number
+                try:
+                    ball_num_elem = block.find_element(
+                        By.CSS_SELECTOR,
+                        "span.ds-text-tight-s.ds-font-regular.ds-mb-1."
+                        "lg\\:ds-mb-0.lg\\:ds-mr-3.ds-block."
+                        "ds-text-center.ds-text-typo-mid1",
+                    )
+                    ball_num = ball_num_elem.text.strip()
+                except:
+                    ball_num = "MISC"
+
+                # ------------------------------------------------------------------
+                # THIS IS THE KEY CHANGE: we capture all text in the block
+                # so that we also include "Simi Singh to Morgan, SIX runs" etc.
+                # ------------------------------------------------------------------
+                commentary_text = block.text.strip()
+                if not commentary_text:
+                    continue
+
+                # Deduplicate by storing in a set
+                entry_key = (ball_num, commentary_text)
+                if entry_key not in seen_entries:
+                    f.write(f"Ball {ball_num}:\n{commentary_text}\n\n")
+                    seen_entries.add(entry_key)
+
+                # If we've hit the target ball, stop scraping further
+                if ball_num == target_ball:
+                    print(f"[{output_file}] Found ball {target_ball}. Stopping.")
+                    found_target = True
+                    break
+
+            if found_target:
+                break
+
+            success = scroll_and_wait_for_loader(driver, scroll_amount=500)
+            if not success:
+                # We can’t scroll further without passing sponsor => done
+                print(
+                    "Stopping because no more scrolling is possible above the sponsor."
+                )
+                break
+
+    return found_target
+
+
+###############################################################################
+# Check if a given file contains 'Ball 0.1'
+###############################################################################
+def file_contains_ball_0_1(filepath):
+    """Return True if 'Ball 0.1' is found in the text file, else False."""
+    if not os.path.exists(filepath):
+        return False
+    with open(filepath, "r", encoding="utf-8") as f:
+        for line in f:
+            if "Ball 0.1" in line:
+                return True
+    return False
+
+
+###############################################################################
+# Process one CSV row: scrape commentary for both countries and check
+# if 'Ball 0.1' was found. Return True if found, False otherwise.
+###############################################################################
+def process_row(row, target_ball="0.1"):
+    """Scrape the match described by row. Return True if we found 'Ball 0.1'."""
+    series_name = row["Series Name"].strip()
+    match_title = row["Match Title"].strip()
+    commentary_url = row["Commentary URL"].strip()
+
+    if not commentary_url or "ball-by-ball-commentary" not in commentary_url:
+        print(f"Invalid commentary URL for row: {series_name}, {match_title}")
+        return False
+
+    match_id = extract_match_id_from_url(commentary_url)
+    print(f"\n=== Processing: {series_name} | {match_title} | match_id={match_id} ===")
+
+    driver = webdriver.Chrome()
+    try:
+        driver.get(commentary_url)
+        time.sleep(2)
+        handle_popups(driver)
+
+        # --- MINOR CHANGE: Parse match date so we can incorporate it in filename ---
+        match_date = parse_match_date(driver)
+
+        # Identify the currently selected "country"
+        try:
+            selected_country_span = driver.find_element(
+                By.CSS_SELECTOR,
+                "div.ds-flex.ds-items-center.ds-border-ui-stroke.ds-h-6.ds-px-4."
+                "ds-border.ds-bg-ui-fill.ds-rounded-full.ds-w-full.ds-min-w-max.ds-cursor-pointer "
+                "span.ds-text-tight-s.ds-font-regular.ds-text-typo",
+            )
+            country1 = selected_country_span.text.strip()
+        except:
+            country1 = "UNKNOWN"
+
+        # Incorporate the parsed date into the output filename:
+        output_file_1 = (
+            f"../CommentaryData/raw_commentary/{match_id}_{country1}_commentary_{match_date}.txt"
+        )
+        print(f"Scraping first country '{country1}' => {output_file_1}")
+        found_ball_country1 = scrape_commentary(driver, target_ball, output_file_1)
+
+        # Attempt toggle to second country
+        print("Attempting to toggle to the other country...")
+        handle_popups(driver)
+
+        try:
+            toggle_div = driver.find_element(
+                By.CSS_SELECTOR,
+                "div.ds-flex.ds-items-center.ds-border-ui-stroke.ds-h-6.ds-px-4."
+                "ds-border.ds-bg-ui-fill.ds-rounded-full.ds-w-full.ds-min-w-max.ds-cursor-pointer",
+            )
+            ActionChains(driver).move_to_element(toggle_div).click().perform()
+            time.sleep(1)
+        except Exception as e:
+            print("Error clicking toggle div:", e)
+            # Try JS click
+            handle_popups(driver)
+            try:
+                driver.execute_script("arguments[0].click();", toggle_div)
+                time.sleep(1)
+            except:
+                print("Still couldn't click toggle. Skipping second country.")
+                if not found_ball_country1:
+                    return False
+                else:
+                    return True
+
+        other_country = "UNKNOWN"
+        try:
+            all_country_items = driver.find_elements(
+                By.CSS_SELECTOR, "ul.ds-flex.ds-flex-col li"
+            )
+            for item in all_country_items:
+                c_text = item.text.strip()
+                if c_text and c_text != country1:
+                    other_country = c_text
+                    print(f"Clicking other country item with text: {c_text}")
+                    item.click()
+                    time.sleep(2)
+                    break
+        except Exception as e:
+            print("Error picking the other country:", e)
+
+        other_country = other_country.strip()
+        if not other_country:
+            other_country = "UNKNOWN"
+
+        # Incorporate match_date into the second file’s name:
+        output_file_2 = f"../CommentaryData/raw_commentary/{match_id}_{other_country}_commentary_{match_date}.txt"
+        print(f"Scraping second country '{other_country}' => {output_file_2}")
+
+        handle_popups(driver)
+        found_ball_country2 = scrape_commentary(driver, target_ball, output_file_2)
+
+    except Exception as e:
+        print("Error processing row:", e)
+        driver.quit()
+        return False
+    finally:
+        driver.quit()
+
+    # Now check if "Ball 0.1" is in either file
+    success_country1 = file_contains_ball_0_1(output_file_1)
+    success_country2 = file_contains_ball_0_1(output_file_2)
+
+    if success_country1 and success_country2:
+        print(f"SUCCESS: Found 'Ball 0.1' in row for {series_name} | {match_title}.")
+        return True
+    else:
+        print(
+            f"FAIL: Did NOT find 'Ball 0.1' in row for {series_name} | {match_title}."
+        )
+        return False
 
 
 ###############################################################################
 # MAIN
 ###############################################################################
 if __name__ == "__main__":
-    import os
-
-    # directory for raw commentary
-    raw_commentary_dir = "../CommentaryData/raw_commentary"
-    # ensure it exists
-    os.makedirs(raw_commentary_dir, exist_ok=True)
-
-    csv_filename = "series_match_commentary_urls.csv"
+    csv_filename = "SteveSmithRecentOdis.csv"
     target_ball = "0.1"
+    MAX_RETRIES = 2  # how many times we try each row
 
-    # We'll keep a list to record any failures
-    failures = []  # each entry: (match_id, reason)
-
-    with open(csv_filename, "r", encoding="utf-8") as cf:
+    # 1) Read the CSV rows into a list
+    rows = []
+    with open(csv_filename, "r", encoding="utf-8") as csvfile:
         fieldnames = ["Series Name", "Match Title", "Commentary URL"]
-        reader = csv.DictReader(cf, fieldnames=fieldnames)
+        reader = csv.DictReader(csvfile, fieldnames=fieldnames)
 
-        for idx, row in enumerate(reader):
-            series = row["Series Name"].strip()
-            match_title = row["Match Title"].strip()
-            url = row["Commentary URL"].strip()
+        # If your CSV has a header row, uncomment this to skip it:
+        # next(reader, None)  # skip header row if needed
 
-            print(f"\n==============================\nRow #{idx}")
-            print(f"Series: {series}")
-            print(f"Match: {match_title}")
-            print(f"Commentary URL: {url}")
+        for row in reader:
+            rows.append(row)
 
-            if not url or "ball-by-ball-commentary" not in url:
-                print("[SKIP] invalid commentary URL.")
-                continue
+    # 2) Attempt to process each row
+    remaining_rows = []
+    for row in rows:
+        attempts = 0
+        success = False
+        while attempts < MAX_RETRIES and not success:
+            attempts += 1
+            print(f"\n===== Attempt #{attempts} for row: {row} =====")
+            success = process_row(row, target_ball=target_ball)
+            if not success:
+                print(f"Retrying row after failure... (attempt {attempts})")
 
-            match_id = extract_match_id_from_url(url)
-            print(f"[INFO] match_id => {match_id}")
+        if not success:
+            # after max attempts, we keep it in leftover
+            remaining_rows.append(row)
 
-            driver = webdriver.Chrome()
-            driver.maximize_window()
-            driver.get(url)
-            time.sleep(2)
-            handle_popups(driver)
-
-            # Parse date
-            match_date = parse_match_date(driver)
-            print(f"[INFO] Extracted match date => {match_date}")
-
-            # side1
-            try:
-                side_span = driver.find_element(
-                    By.CSS_SELECTOR,
-                    "div.ds-flex.ds-items-center.ds-border-ui-stroke.ds-h-6.ds-px-4.ds-border."
-                    "ds-bg-ui-fill.ds-rounded-full.ds-w-full.ds-min-w-max.ds-cursor-pointer "
-                    "span.ds-text-tight-s.ds-font-regular.ds-text-typo"
-                )
-                side1 = side_span.text.strip()
-            except:
-                side1 = "UNKNOWN"
-
-            side1_data = gather_commentary_for_side(driver, side1)
-            found_01_side1 = any(b == target_ball for (b, _) in side1_data)
-
-            # Attempt toggle to side2
-            side2_data = []
-            side2 = "UNKNOWN"
-            toggled_ok = False
-            print("\n[INFO] Attempting to toggle to second side…")
-            try:
-                toggle_div = driver.find_element(
-                    By.CSS_SELECTOR,
-                    "div.ds-flex.ds-items-center.ds-border-ui-stroke.ds-h-6.ds-px-4."
-                    "ds-border.ds-bg-ui-fill.ds-rounded-full.ds-w-full.ds-min-w-max.ds-cursor-pointer"
-                )
-                ActionChains(driver).move_to_element(toggle_div).click().perform()
-                time.sleep(1)
-                toggled_ok = True
-            except Exception as e:
-                print(f"[ERROR] normal toggle click failed: {e}")
-                handle_popups(driver)
-                try:
-                    driver.execute_script("arguments[0].click();", toggle_div)
-                    time.sleep(1)
-                    toggled_ok = True
-                except Exception as e2:
-                    print(f"[ERROR] JS click also failed => skipping second side. {e2}")
-
-            if toggled_ok:
-                # pick from dropdown
-                try:
-                    li_elems = driver.find_elements(By.CSS_SELECTOR, "ul.ds-flex.ds-flex-col li")
-                    for li in li_elems:
-                        label = li.text.strip()
-                        if label and label != side1:
-                            side2 = label
-                            li.click()
-                            time.sleep(2)
-                            break
-                except Exception as e:
-                    print(f"[ERROR] picking second side: {e}")
-
-                side2_data = gather_commentary_for_side(driver, side2)
-
-            driver.quit()
-
-            # Decide output filenames
-            # e.g. "1443546_NZ_commentary_January_05_2025.txt"
-            out1_name = f"{match_id}_{side1}_commentary_{match_date}.txt"
-            out1_path = os.path.join(raw_commentary_dir, out1_name)
-
-            out2_name = f"{match_id}_{side2}_commentary_{match_date}.txt"
-            out2_path = os.path.join(raw_commentary_dir, out2_name)
-
-            # side1 check
-            if found_01_side1:
-                print(f"[SAVE] Writing side1 => {out1_path}")
-                with open(out1_path, "w", encoding="utf-8") as f1:
-                    for (bn, txt) in side1_data:
-                        f1.write(f"Ball {bn}:\n{txt}\n\n")
-            else:
-                reason = f"side1 '{side1}' missing ball {target_ball}"
-                print(f"[WARN] {reason}. Skipping write.")
-                failures.append((match_id, reason))
-
-            # side2 check
-            if toggled_ok:
-                found_01_side2 = any(b == target_ball for (b, _) in side2_data)
-                if found_01_side2:
-                    print(f"[SAVE] Writing side2 => {out2_path}")
-                    with open(out2_path, "w", encoding="utf-8") as f2:
-                        for (bn, txt) in side2_data:
-                            f2.write(f"Ball {bn}:\n{txt}\n\n")
-                else:
-                    reason = f"side2 '{side2}' missing ball {target_ball}"
-                    print(f"[WARN] {reason}. Skipping write.")
-                    failures.append((match_id, reason))
-            else:
-                # toggling side2 failed => log that
-                reason = "toggling to second side failed"
-                print(f"[WARN] {reason}.")
-                failures.append((match_id, reason))
-
-    print("[INFO] Done all rows. Exiting.")
-
-    # Finally, produce the log file of failures if any
-    if failures:
-        log_fname = "scrape_failures.log"
-        print(f"[INFO] Writing failures log => {log_fname}")
-        with open(log_fname, "w", encoding="utf-8") as lf:
-            lf.write("Scraping Failures:\n")
-            for (mid, rsn) in failures:
-                lf.write(f"MatchID={mid} => {rsn}\n")
-        print(f"[INFO] Wrote {len(failures)} failure entries to {log_fname}")
+    # 3) Rewrite the CSV with leftover rows that never succeeded
+    if remaining_rows:
+        print("\nRewriting CSV with leftover rows that did NOT find Ball 0.1...")
+        with open(csv_filename, "w", encoding="utf-8", newline="") as outcsv:
+            writer = csv.DictWriter(
+                outcsv,
+                fieldnames=["Series Name", "Match Title", "Commentary URL"],
+                quoting=csv.QUOTE_MINIMAL,
+            )
+            for r in remaining_rows:
+                writer.writerow(r)
     else:
-        print("[INFO] No failures encountered.")
+        print("\nAll rows processed successfully. Removing all from CSV.")
+        open(csv_filename, "w").close()  # empty file or you could delete entirely
+
+    print("\n=== Done. ===")

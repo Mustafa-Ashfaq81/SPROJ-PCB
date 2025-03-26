@@ -6,9 +6,14 @@ def main():
     # Directory containing JSON files
     directory = "match_scorecards_json"
 
-    # Regex pattern to match "series_name" field with multiple countries separated by "/"
-    pattern = re.compile(r'in \b[A-Za-z]+/[A-Za-z]+(/[A-Za-z]+)*\b')
-
+    # Updated Regex pattern to match "series_name" field with multiple countries in parentheses
+    pattern = re.compile(
+        # 1) Matches e.g. "in CountryA/CountryB[/CountryC...]"
+        r"in \b[A-Za-z]+/[A-Za-z]+(/[A-Za-z]+)*\b"
+        # 2) OR matches e.g. "... (Australia, South Africa, Zimbabwe), 2014"
+        #    allowing multiple words in each country name: [A-Za-z ]+
+        r"|.*\([A-Za-z ]+(,\s?[A-Za-z ]+)+\),\s*\d{4}.*"
+    )
     matching_files = []
 
     # --- Part 1: Find all files that match the pattern ---
