@@ -914,7 +914,7 @@ def generate_player_stats_venuewise_span(
     team_name,
     start_year="all",
     end_year="all",
-    scorecards_dir="../match_scorecards_json"
+    scorecards_dir="../cricinfo_data_scrapping/match_scorecards_json/"
 ):
     """
     Exactly like your original aggregator, but optionally 
@@ -987,7 +987,7 @@ def generate_player_stats_venuewise_span(
 
     # optionally write out JSON
     safe_pname = player_name.lower().replace(' ','_')
-    out_dir = "../aggregated_stats_venue_wise"
+    out_dir = "../cricinfo_data_scrapping/aggregated_stats_venue_wise"
     if not os.path.exists(out_dir):
         try:
             os.makedirs(out_dir)

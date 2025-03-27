@@ -873,7 +873,7 @@ def generate_player_stats_against_teams_span(
     team_name,
     start_year="all",
     end_year="all",
-    scorecards_dir="../match_scorecards_json"
+    scorecards_dir="../cricinfo_data_scrapping/match_scorecards_json/"
 ):
     try:
         start_year_int = int(start_year)
@@ -926,7 +926,7 @@ def generate_player_stats_against_teams_span(
         final_out["oppositions"][opp] = finalize_aggregator(agg)
 
     safe_pname = player_name.lower().replace(' ','_')
-    out_dir = "../aggregated_stats_against_teams"
+    out_dir = "../cricinfo_data_scrapping/aggregated_stats_against_teams"
     if not os.path.exists(out_dir):
         try:
             os.makedirs(out_dir)
@@ -960,7 +960,7 @@ def main():
     end_span = sys.argv[4]
 
     result = generate_player_stats_against_teams_span(
-        player, team, start_span, end_span, scorecards_dir="../match_scorecards_json"
+        player, team, start_span, end_span, scorecards_dir="../cricinfo_data_scrapping/match_scorecards_json/"
     )
     if not result:
         logging.warning("No results or empty data.")

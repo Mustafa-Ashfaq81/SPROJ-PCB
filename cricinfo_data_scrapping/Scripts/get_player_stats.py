@@ -761,7 +761,7 @@ def process_file(args):
     file_path, player_name, team_name, sy, ey = args
     return parse_match_file(file_path, player_name, team_name, sy, ey)
 
-def generate_player_stats_with_span(player_name, team_name, start_year, end_year, scorecards_dir='../match_scorecards_json'):
+def generate_player_stats_with_span(player_name, team_name, start_year, end_year, scorecards_dir='../cricinfo_data_scrapping/match_scorecards_json/'):
     sy, ey = parse_years(start_year, end_year)
 
     try:
@@ -844,12 +844,12 @@ def generate_player_stats_with_span(player_name, team_name, start_year, end_year
 
     if sy is None and ey is None:
         out_filename = os.path.join(
-            "../aggregated_stats",
+            "../cricinfo_data_scrapping/aggregated_stats",
             f"{safe_player_name}_all_span_stats.json"
         )
     else:
         out_filename = os.path.join(
-            "../aggregated_stats",
+            "../cricinfo_data_scrapping/aggregated_stats",
             f"{safe_player_name}_{sy}_{ey}_span_stats.json"
         )
 
@@ -875,7 +875,7 @@ def main():
         team_name=team_name,
         start_year=start_span,
         end_year=end_span,
-        scorecards_dir="../match_scorecards_json"
+        scorecards_dir="../cricinfo_data_scrapping/match_scorecards_json/"
     )
 
     if stats:
