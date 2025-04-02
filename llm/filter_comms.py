@@ -31,6 +31,8 @@ You are given a **chunk** of the complete match commentary text for a cricket ma
 Your task is to **extract and return only the exact lines** (verbatim, without paraphrasing) from this chunk that meet the following criteria related to **{PLAYER_NAME}**. Specifically, search this chunk and gather lines that include:
 
 1. **Venue and Match Context**
+- Include lines that mention the type or significance of the match — such as whether it is part of a bilateral series, an ICC tournament, a group stage, knockout, semi-final, or final.
+- If it’s a series match, include details specifying which match it is (e.g., 1st ODI, 2nd Test, etc.) or the current series standing (e.g., Series tied 1-1).
 - Any lines explicitly stating the venue or location of the match, crowd attendance, or references to the stadium conditions—especially if they refer to how it might affect batting or bowling.
 
 2. **Pitch Conditions**

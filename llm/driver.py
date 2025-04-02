@@ -33,7 +33,7 @@ An end-to-end script that:
 
 Usage:
 ------
-python driver.py --player_name "Steven Smith" --team_name "Australia" --opponent_team "SL" --start_year 2019 --end_year 2024 --commentary_on True --use_script False --use_txt True --k 5
+python driver.py --player_name "Steven Smith" --team_name "Australia" --opponent_team "Sri Lanka" --start_year 2019 --end_year 2024 --commentary_on True --use_script False --use_txt True --k 5 --venue "Sri Lanka" --match_context "Champions Trophy 17 Semi Final" --is_batsman True --chunk_size 100 --chunk_overlap 20
 
 If you want to use commentary via script only:
  --commentary_on True --use_script True --use_txt False
@@ -130,7 +130,7 @@ def parse_llm_analysis(llm_text, player_name):
       - Probabilities in the order:
         Bowled, Caught-Fielder, Caught-Wicketkeeper, Stumped,
         LBW, Hit-Wicket, Caught-and-Bowled, Not-Out
-      - Ground truth => "N/A" (unless you have other logic).
+      - Ground truth => "N/A".
 
     We look for lines like:
       "Bowled: 21%"
@@ -140,9 +140,11 @@ def parse_llm_analysis(llm_text, player_name):
     """
 
     # 1) Probability breakdown lines
-    pattern = re.compile(r'(?i)^\s*(bowled|caught\s+by\s+a?\s?fielder|caught\s+by\s+the\s+wicket[\-–]?keeper|caught\s+wk|stumped|lbw|hit\s*wicket|caught\s*and\s*bowled|not[-\s]*out)\s*:\s*(\d+)\%', re.MULTILINE)
+    pattern = re.compile(
+        r'(?i)^\s*(bowled|caught\s+by\s+a?\s?fielder|caught\s+by\s+the\s+wicket[\-–]?keeper|caught\s+wk|stumped|lbw|hit\s*wicket|caught\s*and\s*bowled|not[-\s]*out)\s*:\s*(\d+)\%',
+        re.MULTILINE
+    )
 
-    # We'll map textual forms -> (standard_label, array index)
     mode_map = {
         "bowled": ("Bowled", 0),
         "caught by a fielder": ("Caught-Fielder", 1),
@@ -157,7 +159,10 @@ def parse_llm_analysis(llm_text, player_name):
     }
 
     prob_array = [0]*8
-    label_array = ["Bowled","Caught-Fielder","Caught-Wicketkeeper","Stumped","LBW","Hit-Wicket","Caught-and-Bowled","Not-Out"]
+    label_array = [
+        "Bowled","Caught-Fielder","Caught-Wicketkeeper","Stumped",
+        "LBW","Hit-Wicket","Caught-and-Bowled","Not-Out"
+    ]
 
     for match_ in pattern.finditer(llm_text):
         raw_mode = match_.group(1).lower().strip()
@@ -167,7 +172,6 @@ def parse_llm_analysis(llm_text, player_name):
             prob_array[idx] = int(raw_prob)
 
     # 2) Final predicted mode
-    # We'll look for: "most likely to be dismissed <some mode>"
     pred_pattern = re.compile(
         rf"most\s+likely\s+(?:mode\s+of\s+dismissal|to\s+be\s+dismissed)\s+(?:for\s+{player_name}\s+is\s+|is\s+|:?\s+)(?:“|\"|')?([^\"”'\n]+)",
         re.IGNORECASE
@@ -184,10 +188,10 @@ def parse_llm_analysis(llm_text, player_name):
         if matched_label:
             pred_mode = matched_label
         else:
-            pred_mode = raw_pred.title()  # fallback
+            pred_mode = raw_pred.title()
 
     # 3) Ground truth => "N/A"
-    ground_truth = "N/A"
+    ground_truth = "Caught Fielder"
 
     return prob_array, label_array, pred_mode, ground_truth
 
@@ -199,20 +203,34 @@ def main():
     if not final_api_key:
         logging.warning("[WARNING] Environment variable OPENAI_API_KEY not found. LLM call may use fallback text.")
 
-    parser = argparse.ArgumentParser(description="Majestic driver script that logs steps, gathers stats & commentary, builds MASTER PROMPT, calls LLM, parses final text, and outputs one CSV row.")
+    parser = argparse.ArgumentParser(
+        description="Majestic driver script that logs steps, gathers stats & commentary, "
+                    "builds MASTER PROMPT, calls LLM, parses final text, and outputs one CSV row."
+    )
     parser.add_argument("--player_name", required=True, help="Player name, e.g. 'Steven Smith'")
     parser.add_argument("--team_name", required=True, help="Team name, e.g. 'Australia'")
     parser.add_argument("--opponent_team", required=True, help="Opponent team code or name, e.g. 'SL' or 'Sri Lanka'")
     parser.add_argument("--start_year", default="all", help="Start year for stats or 'all'")
     parser.add_argument("--end_year", default="all", help="End year for stats or 'all'")
 
-    parser.add_argument("--commentary_on", default="False", choices=["True","False"],
+    # New arguments for venue and match context
+    parser.add_argument("--venue", required=True, help="Venue for the match, e.g. 'Dubai'")
+    parser.add_argument("--match_context", required=True, help="Context for the match, e.g. 'ICC World Cup group match 2'")
+
+    parser.add_argument("--commentary_on", default="False", choices=["True", "False"],
                         help="Whether to embed commentary at all. Default False.")
-    parser.add_argument("--use_script", default="False", choices=["True","False"],
+    parser.add_argument("--use_script", default="False", choices=["True", "False"],
                         help="If True, commentary is gathered by calling filter_comms.py.")
-    parser.add_argument("--use_txt", default="False", choices=["True","False"],
+    parser.add_argument("--use_txt", default="False", choices=["True", "False"],
                         help="If True, commentary is read from a local txt file.")
     parser.add_argument("--k", type=int, default=5, help="Number of commentary files to filter. Default 5.")
+
+    parser.add_argument("--is_batsman", default="True", choices=["True", "False"],
+                    help="Whether the player is batting (for filter_comms). Default True.")
+    parser.add_argument("--chunk_size", type=int, default=100,
+                        help="Chunk size for commentary splitting in filter_comms. Default 100.")
+    parser.add_argument("--chunk_overlap", type=int, default=20,
+                        help="Overlap size for commentary splitting in filter_comms. Default 20.")
 
     args = parser.parse_args()
 
@@ -221,6 +239,8 @@ def main():
     opponent_team = args.opponent_team
     start_year = args.start_year
     end_year = args.end_year
+    venue = args.venue
+    match_context = args.match_context
     commentary_on = (args.commentary_on.lower() == "true")
     use_script_flag = (args.use_script.lower() == "true")
     use_txt_flag = (args.use_txt.lower() == "true")
@@ -244,11 +264,13 @@ def main():
         general_stats_filename = f"{safe_player_name}_{start_year}_{end_year}_span_stats.json"
     else:
         general_stats_filename = f"{safe_player_name}_all_span_stats.json"
-    general_stats_path = general_stats_path = os.path.join("..", "cricinfo_data_scrapping", "aggregated_stats", general_stats_filename)
+    general_stats_path = os.path.join(
+        "..", "cricinfo_data_scrapping", "aggregated_stats", general_stats_filename
+    )
     general_stats = load_json_file(general_stats_path)
 
-    raw_span = general_stats.get("span","Unknown")
-    train_data_span = raw_span.replace(" ", "").replace("–","-").replace("--","-")
+    raw_span = general_stats.get("span", "Unknown")
+    train_data_span = raw_span.replace(" ", "").replace("–", "-").replace("--", "-")
 
     # --------------------------------------------------
     # 2) Run get_player_stats_venuewise.py => venue data
@@ -265,8 +287,21 @@ def main():
         venue_filename = f"{safe_player_name}_{start_year}_{end_year}_venuewise.json"
     else:
         venue_filename = f"{safe_player_name}_all_venuewise.json"
-    venue_stats_path = os.path.join("..", "cricinfo_data_scrapping", "aggregated_stats_venue_wise", venue_filename)
+    venue_stats_path = os.path.join(
+        "..", "cricinfo_data_scrapping", "aggregated_stats_venue_wise", venue_filename
+    )
     venue_stats = load_json_file(venue_stats_path)
+
+    # --------------------------------------------------
+    # Retrieve venue-wise snippet for the specific venue
+    # --------------------------------------------------
+    venue_snippet_block = {}
+    if "venues" in venue_stats:
+        for k_ in venue_stats["venues"].keys():
+            # Match the venue argument to the dictionary key
+            if venue.lower() in k_.lower():
+                venue_snippet_block = {k_: venue_stats["venues"][k_]}
+                break
 
     # --------------------------------------------------
     # 3) Run get_player_stats_against_team.py => opponent block
@@ -283,13 +318,14 @@ def main():
         against_filename = f"{safe_player_name}_{start_year}_{end_year}_against_teams.json"
     else:
         against_filename = f"{safe_player_name}_all_against_teams.json"
-    against_stats_path = os.path.join("..", "cricinfo_data_scrapping", "aggregated_stats_against_teams", against_filename)
+    against_stats_path = os.path.join(
+        "..", "cricinfo_data_scrapping", "aggregated_stats_against_teams", against_filename
+    )
     against_stats = load_json_file(against_stats_path)
 
     snippet_block = {}
     if "oppositions" in against_stats:
         for k_ in against_stats["oppositions"].keys():
-            # If "SL" in "Sri Lanka".lower() or direct match
             if opponent_team.lower() in k_.lower():
                 snippet_block = {k_: against_stats["oppositions"][k_]}
                 break
@@ -301,46 +337,63 @@ def main():
     if not commentary_on:
         commentary_text = "[Commentary OFF]"
     else:
+        # 1) Load team_map JSON
+        script_dir = os.path.dirname(os.path.abspath(__file__))  # get the current script's dir
+        team_maps_path = os.path.join(script_dir, "team_maps.json")
+        team_map = load_json_file(team_maps_path)
+
+        # 2) Convert the user-supplied opponent_team into short code if available
+        opponent_short = team_map.get(opponent_team, opponent_team)  # fallback to the original name if not found
+
+        # 3) Make a safe version of player_name with no spaces
+        safe_player_name_for_commentary = player_name.replace(" ", "")
+
         # commentary_on = True => choose script, txt, or both
-        # If both script & txt => use txt
-        # If only txt => use txt
-        # If only script => run filter_comms
-        # If none => no commentary
         if use_txt_flag and use_script_flag:
             logging.info("Both script & txt commentary modes are enabled. Defaulting to txt approach.")
-            # read from default path or a path you'd like
-            txt_commentary_path = "filtered_outputs/filtered_commentaries_o3mini.txt"
+            # Build the dynamic path for commentary file
+            txt_commentary_path = (
+                f"filtered_outputs/filtered_commentaries_"
+                f"{safe_player_name_for_commentary}_{opponent_short}_{k}.txt"
+            )
             if os.path.isfile(txt_commentary_path):
                 with open(txt_commentary_path, 'r', encoding='utf-8') as ftxt:
                     commentary_text = ftxt.read()
             else:
-                commentary_text = "[No commentary found at filtered_outputs/filtered_commentaries_o3mini.txt]"
+                commentary_text = f"[No commentary found at {txt_commentary_path}]"
         elif use_txt_flag:
             logging.info("Using commentary from local txt file (no script).")
-            txt_commentary_path = "filtered_outputs/filtered_commentaries_o3mini.txt"
+            txt_commentary_path = (
+                f"filtered_outputs/filtered_commentaries_"
+                f"{safe_player_name_for_commentary}_{opponent_short}_{k}.txt"
+            )
             if os.path.isfile(txt_commentary_path):
                 with open(txt_commentary_path, 'r', encoding='utf-8') as ftxt:
                     commentary_text = ftxt.read()
             else:
-                commentary_text = "[No commentary found at filtered_commentaries_o3mini.txt]"
+                commentary_text = f"[No commentary found at {txt_commentary_path}]"
         elif use_script_flag:
             logging.info("Using commentary from filter_comms.py script ...")
-            player_team_code = team_name[:3].upper()
-            opponent_team_code = opponent_team[:3].upper()
+            player_team_code = team_map.get(team_name, team_name)
+            opponent_team_code = opponent_short
             cmd_filter = (
                 f"python filter_comms.py "
-                f"--player_name \"{player_name}\" "
+                f"--player_name \"{safe_player_name}\" "
                 f"--player_team_code \"{player_team_code}\" "
                 f"--opponent_team_code \"{opponent_team_code}\" "
-                f"--is_batsman True "
+                f"--is_batsman {args.is_batsman} "
                 f"--k {k} "
                 f"--base_dir \"../cricinfo_data_scrapping/CommentaryData/raw_commentary\" "
-                f"--output_dir \"./filtered_outputs\""
+                f"--output_dir \"./filtered_outputs\" "
+                f"--chunk_size {args.chunk_size} "
+                f"--chunk_overlap {args.chunk_overlap}"
             )
             try:
                 run_subprocess(cmd_filter)
-                # Load commentary from filtered_commentaries.txt
-                filtered_path = "./filtered_outputs/filtered_commentaries.txt"
+                filtered_path = (
+                    f"filtered_outputs/filtered_commentaries_"
+                    f"{safe_player_name_for_commentary}_{opponent_short}_{k}.txt"
+                )
                 if os.path.isfile(filtered_path):
                     with open(filtered_path, 'r', encoding='utf-8') as fc:
                         commentary_text = fc.read()
@@ -372,7 +425,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 ## **Instructional Outline**
 
 1. **Objective**  
-   - **Match**: {team_name} vs {opponent_team} in Sri Lanka  
+   - **Match**: {match_context} {team_name} vs {opponent_team} in {venue}  
    - **Primary Task**: Predict the most probable mode of dismissal for {player_name}.  
    - **Key Emphasis**: Pay special attention to **recent commentary(if available)** detailing {player_name}’s current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
 
@@ -393,6 +446,12 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **Step 2: Commentary Examination (Recent Context)**  
    - **Step 3: Integrate and Prioritize**  
 
+   **Detailed Reasoning**  
+   Please show how you arrive at your final predicted mode of dismissal by summarizing:
+   1) Player’s inherent weaknesses and past patterns.
+   2) Conditions of the pitch or environment favoring certain modes of dismissal.
+   3) Any relevant points from the commentary or recent form.
+
 4. **Prediction and Justification**  
    - **Predict the Most Likely Dismissal Method** (bowled, caught-fielder, caught-wk, stumped, lbw, hit wicket, caught and bowled, not-out).  
    - **Provide a probability breakdown** for all eight modes that sums to 100%.  
@@ -405,24 +464,33 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **No Contradictions**  
    - **Concise Final Statement**  
 
+7. **Output Formatting Requirements**  
+   - Present your probability breakdown exactly as follows (one entry per line):
+     Bowled: <number>%
+     Caught by a fielder: <number>%
+     ...
+     Not-out: <number>%
+   - Then, finish with:
+     most likely mode of dismissal for {player_name} is <mode>
+
 ---
 
-## ** General Stats Data: **
+## ** General Stats Data of {player_name}: **
 {json.dumps(general_stats, indent=4)}
 
 ---
 
-## **Venue Wise Data:**
-{json.dumps(venue_stats, indent=4)}
+## **Venue Wise Stats Data of {player_name} in {venue}:**
+{json.dumps(venue_snippet_block, indent=4) if venue_snippet_block else "(No relevant data for this venue)"}
 
 ---
 
-## **Against Teams Data:**
+## **Against Teams Stats Data of {player_name} against {opponent_team}:**
 {json.dumps(snippet_block, indent=4) if snippet_block else "(No relevant data for this opponent)"}
 
 ---
 
-## **Commentary Data(For k recent matches prior to the predicted match)**:
+## **Commentary Data(For k recent matches prior to the predicted match) of {player_name}**:
 {commentary_text}
 
 ---
@@ -432,18 +500,22 @@ and end with a "Probability Breakdown" plus a final statement of the predicted m
 
     # Get the directory where the current script is located
     script_dir = os.path.dirname(os.path.abspath(__file__))
-
-    # Create the full path for the output text file
     prompt_file_path = os.path.join(script_dir, "master_prompt_output.txt")
 
-    # Write the master_prompt to the file
     with open(prompt_file_path, "w", encoding="utf-8") as f:
         f.write(master_prompt)
 
     logging.info(f"Master prompt written to {prompt_file_path}")
 
+    logging.info(
+        "Exiting now so you can review master_prompt_output.txt. "
+        "Remove the sys.exit(0) call below once satisfied with the prompt."
+    )
+    # import sys
+    # sys.exit(0)
+
     # --------------------------------------------------
-    # 6) LLM call => real openai ChatCompletion
+    # 6) LLM call => real openai.ChatCompletion
     # --------------------------------------------------
     logging.info("Sending MASTER PROMPT to the real LLM ...")
     llm_response_text = call_llm_api(master_prompt, api_key=final_api_key)
@@ -461,19 +533,13 @@ and end with a "Probability Breakdown" plus a final statement of the predicted m
     prob_str = ",".join(str(x) for x in prob_array)
     label_str = ",".join(label_array)
 
-    # #_commentaries is k (the user-specified or default)
+    # #_commentaries is k
     num_commentaries = k
-    # We'll guess a match name => e.g. "Australia vs SL ODI 2024"
     if end_year.isdigit():
         prediction_match = f"{team_name} vs {opponent_team} ODI {end_year}"
     else:
         prediction_match = f"{team_name} vs {opponent_team}"
 
-    # CSV row structure:
-    # Batsman,train_data_span,#_commentaries,prediction_match,
-    # mode_of_dissmisal_predicted_probability,
-    # mode_of_dissmisal_predicted,
-    # mode_of_dissmisal_ground_truth
     csv_fields = [
         player_name,
         train_data_span,
@@ -485,10 +551,7 @@ and end with a "Probability Breakdown" plus a final statement of the predicted m
     ]
     csv_line = ",".join(csv_fields)
 
-    # --- 2. Save prediction row to a CSV file ---
     csv_output_path = os.path.join(script_dir, "llm_prediction_results.csv")
-
-    # Check if file exists to write header only once
     write_header = not os.path.exists(csv_output_path)
 
     with open(csv_output_path, "a", encoding="utf-8") as f:
@@ -501,9 +564,6 @@ and end with a "Probability Breakdown" plus a final statement of the predicted m
 
     logging.info(f"Prediction row appended to: {csv_output_path}")
 
-    # --------------------------------------------------
-    # 7) Print the CSV row
-    # --------------------------------------------------
     logging.info("Final CSV row:")
     print(csv_line)
 
