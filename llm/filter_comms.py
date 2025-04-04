@@ -70,36 +70,139 @@ def get_commentary_files_for_player(
     k: int = 25
 ) -> List[str]:
     """
-    1) Looks in base_dir/player_name for commentary files matching:
-         {matchID}_{TeamThatIsBatting}_commentary_*.txt
-    2) If is_batsman=True, we pick files with batting_team == player_team_code
-       If is_batsman=False, we pick files with batting_team == opponent_team_code.
-    3) Sort by matchID descending, pick up to k files.
+    Returns up to `k` commentary files for the given player.
+    
+    Steps:
+      1) Gather all commentary files from base_dir/<player_name>.
+      2) Group them by match_id. We often have 2 files per match, e.g.:
+            {match_id}_AUS_commentary_.....txt
+            {match_id}_ENG_commentary_.....txt
+      3) For each match:
+         - If is_batsman=True => the relevant batting file is the one with batting_team == player_team_code.
+         - If is_batsman=False => the relevant batting file is the one with batting_team == opponent_team_code.
+         If no file in that match meets the above condition, skip this match.
+      4) Determine if the “other” file in the same match is for the requested opponent_team_code.
+         If yes => this match is "vsOpponent", else "others".
+      5) Sort by match_id descending, then pick all vsOpponent first (up to k),
+         then fill up from “others” (also in descending order) until you have k.
     """
+
     player_dir = os.path.normpath(os.path.join(base_dir, player_name))
     if not os.path.isdir(player_dir):
         print(f"[WARNING] Directory not found: {player_dir}")
         return []
 
+    # Regex pattern for files like: 1234567_AUS_commentary_ANYTHING.txt
+    # capturing (match_id), (batting_team), then ignoring the rest.
+    import re
+    pattern = re.compile(r"^(\d+)_(\w+)_commentary_.*\.txt$")
+
     all_files = os.listdir(player_dir)
-    pattern = re.compile(r"(\d+)_(\w+)_commentary_.*\.txt$")
-    matched_files = []
 
+    # Group by match_id => match_id -> list[(batting_team, filename), (batting_team, filename)]
+    match_dict = {}
     for filename in all_files:
-        match = pattern.match(filename)
-        if not match:
+        m = pattern.match(filename)
+        if not m:
             continue
-        match_id_str, batting_team = match.groups()
-        match_id = int(match_id_str)
+        match_id_str, batting_team = m.groups()
+        try:
+            match_id = int(match_id_str)
+        except ValueError:
+            # If we can't parse match_id as int, skip
+            continue
+        
+        match_dict.setdefault(match_id, []).append((batting_team, filename))
 
-        if is_batsman and (batting_team == player_team_code):
-            matched_files.append((match_id, filename))
-        elif not is_batsman and (batting_team == opponent_team_code):
-            matched_files.append((match_id, filename))
+    # We'll build a list of tuples: (match_id, commentary_file_path, is_vs_opponent)
+    selected_matches = []
 
-    matched_files.sort(key=lambda x: x[0], reverse=True)
-    top_k_files = [os.path.join(player_dir, mf[1]) for mf in matched_files[:k]]
-    return top_k_files
+    for match_id, pairs in match_dict.items():
+        # Typically pairs has length 2: e.g. [("AUS", "1317477_AUS_commentary_..."), ("ZIM", "1317477_ZIM_commentary_...")]
+        # But sometimes it might have only 1 if data is missing. We'll handle either case.
+        if not pairs:
+            continue
+
+        # Identify the relevant batting file based on player's role
+        # If is_batsman => batting_team must be player_team_code
+        # If not => batting_team must be opponent_team_code
+        desired_team = player_team_code if is_batsman else opponent_team_code
+
+        # See if any file in `pairs` has batting_team == desired_team
+        relevant_record = None
+        other_team = None  # We'll figure out who the *other* side is for that match
+        if len(pairs) == 1:
+            # Only one commentary found. Check if it matches the desired team
+            if pairs[0][0] == desired_team:
+                relevant_record = pairs[0]
+                # We can't be sure who the 'other team' is if it's missing...
+                # We'll treat it as "others" unless the single known team is the opponent.
+                # However, we *could* skip or guess, depending on your data completeness.
+                # For safety, let's guess that "other_team" is the opponent if desired_team == player_team_code
+                # or vice versa. This might be an approximation:
+                if not is_batsman:
+                    # means desired_team == opponent_team_code => "the other side" is player_team_code
+                    other_team = player_team_code
+                else:
+                    # means desired_team == player_team_code => "the other side" might be the opponent
+                    other_team = opponent_team_code
+            else:
+                # This single file does not match the desired batting team => skip
+                continue
+        else:
+            # Usually 2 records. e.g. [("AUS", fileA), ("ZIM", fileB)]
+            # Find the one that matches desired_team
+            recA, recB = pairs[0], pairs[1]
+            # recA = (teamA, fileA), recB = (teamB, fileB)
+            if recA[0] == desired_team:
+                relevant_record = recA
+                other_team = recB[0]
+            elif recB[0] == desired_team:
+                relevant_record = recB
+                other_team = recA[0]
+            else:
+                # Neither file has the desired_team => skip this match
+                continue
+
+        if not relevant_record:
+            # no file matched the player's role
+            continue
+
+        # Now see if the other_team is the requested opponent
+        # We only trust other_team if we actually found a pair, or set it above
+        # but it might not always be perfect if data is incomplete.
+        is_vs_opp = (other_team == opponent_team_code)
+
+        file_path = os.path.join(player_dir, relevant_record[1])
+        selected_matches.append((match_id, file_path, is_vs_opp))
+
+    # Now we have a list of (match_id, file_path, is_vs_opp).
+    # Next step: sort descending by match_id, then pick all "is_vs_opp = True" first up to k,
+    # then fill from "others".
+    selected_matches.sort(key=lambda x: x[0], reverse=True)
+
+    vs_opp_list = [x for x in selected_matches if x[2] is True]
+    others_list = [x for x in selected_matches if x[2] is False]
+
+    final_files = []
+
+    # Take all vsOpponent first (up to k)
+    for item in vs_opp_list:
+        if len(final_files) < k:
+            final_files.append(item[1])
+        else:
+            break
+
+    # If we still need more, pull from others
+    if len(final_files) < k:
+        space_left = k - len(final_files)
+        for item in others_list:
+            if len(final_files) < k:
+                final_files.append(item[1])
+            else:
+                break
+
+    return final_files
 
 # ----------------------------
 # 3) LLM call for a single chunk
