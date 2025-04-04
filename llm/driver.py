@@ -33,7 +33,7 @@ An end-to-end script that:
 
 Usage:
 ------
-python driver.py --player_name "Steven Smith" --team_name "Australia" --opponent_team "Pakistan" --start_year 2018 --end_year 2023 --commentary_on True --use_script True --use_txt False --k 10 --venue "Australia" --match_context "1st ODI Series Match at Melbourne 4th Nov" --is_batsman True --chunk_size 100 --chunk_overlap 20 --ground_truth "Caught-Fielder"
+python driver.py --player_name "Steven Smith" --team_name "Australia" --opponent_team "Pakistan" --start_year 2015 --end_date "December 23 2020" --commentary_on True --use_script True --use_txt False --k 10 --venue "Australia" --match_context "1st ODI Series Match at Melbourne 4th Nov" --is_batsman True --chunk_size 100 --chunk_overlap 20 --ground_truth "Caught-Fielder"
 
 If you want to use commentary via script only:
  --commentary_on True --use_script True --use_txt False
@@ -54,6 +54,9 @@ import subprocess
 import shlex
 import re
 import logging
+import openai
+from datetime import datetime
+from dateutil.parser import parse
 
 # We use dotenv to load OPENAI_API_KEY from .env if present
 from dotenv import load_dotenv
@@ -68,9 +71,6 @@ def run_subprocess(cmd):
     Runs the shell command in unbuffered mode and streams its stdout to the driver in real time.
     Raises RuntimeError if the command fails.
     """
-    import subprocess
-    import shlex
-    import logging
 
     logging.info(f"Running command: {cmd}")
 
@@ -133,7 +133,6 @@ def call_llm_api(master_prompt_text, api_key=None):
             "Could not call the real LLM because no API key was provided."
         )
 
-    import openai
     openai.api_key = api_key
 
     try:
@@ -202,34 +201,24 @@ def parse_llm_analysis(llm_text, player_name):
     }
 
     # 2) Regex to match lines like:  "Bowled: 10%"
-    # prob_line_pattern = re.compile(
-    #     r'^\s*(?P<mode>[^:]+?)\s*:\s*(?P<pct>\d+)\%',  # e.g.  'Bowled: 15%'
-    #     re.IGNORECASE | re.MULTILINE
-    # )
     prob_line_pattern = re.compile(
-        # Accept both ASCII ":" and the common fullwidth "：":
         r'^\s*(?P<mode>[^:：]+?)\s*[:：]\s*(?P<pct>\d+)\%',  
         re.IGNORECASE | re.MULTILINE
     )
 
     # 3) Go through each line that fits "<something>: <digits>%"
     for match in prob_line_pattern.finditer(llm_text):
-        raw_mode = match.group("mode").strip().lower()  # e.g. "bowled"
-        pct_str = match.group("pct")                    # e.g. "15"
+        raw_mode = match.group("mode").strip().lower()
+        pct_str = match.group("pct")
         pct_val = int(pct_str)
 
         # Normalize the mode via synonyms
-        # If it matches, we put that probability in the correct index of prob_array
         if raw_mode in synonyms:
-            final_label = synonyms[raw_mode]  # e.g. "Bowled"
+            final_label = synonyms[raw_mode]
             idx = label_array.index(final_label)
             prob_array[idx] = pct_val
-        else:
-            # If not found exactly, you can do partial checks or skip it
-            pass
 
-    # 4) Find final predicted mode. We'll assume the text is something like:
-    #    "most likely mode of dismissal for Steven Smith is <mode>"
+    # 4) Find final predicted mode.
     pred_pattern = re.compile(
         rf"most\s+likely\s+mode\s+of\s+dismissal\s+for\s+{re.escape(player_name)}\s+is\s+(?P<pmode>.+)$",
         re.IGNORECASE | re.MULTILINE
@@ -238,14 +227,10 @@ def parse_llm_analysis(llm_text, player_name):
     pm = pred_pattern.search(llm_text)
     if pm:
         raw_pred = pm.group("pmode").strip().lower()
-        # Possibly strip quotes
         raw_pred = raw_pred.strip('"\'')
-        # Convert synonyms → final label
         if raw_pred in synonyms:
             pred_mode = synonyms[raw_pred]
         else:
-            # If the LLM writes "Caught by a fielder" or "Bowled" in some slightly different way
-            # you can do a quick partial check:
             if "caught by a fielder" in raw_pred:
                 pred_mode = "Caught-Fielder"
             elif "bowled" in raw_pred:
@@ -265,10 +250,8 @@ def parse_llm_analysis(llm_text, player_name):
             else:
                 pred_mode = raw_pred.title()
 
-    # 5) ground_truth is not in the text, so default to "N/A" (caller can override)
     ground_truth = "N/A"
 
-    # 6) reasoning = everything before "probability breakdown" if that phrase is found
     reasoning_marker = re.search(r'probability breakdown', llm_text, re.IGNORECASE)
     if reasoning_marker:
         reasoning = llm_text[:reasoning_marker.start()].strip()
@@ -276,6 +259,20 @@ def parse_llm_analysis(llm_text, player_name):
         reasoning = llm_text.strip()
 
     return prob_array, label_array, pred_mode, ground_truth, reasoning
+
+def parse_end_date(end_date_str):
+    """
+    Parse 'end_date_str' to produce 'YYYY_MM_DD' with zero-padded month and day.
+    If end_date_str.lower() == 'all', we will return 'all'.
+    Otherwise, we attempt to parse it into year, month, day.
+    """
+    if end_date_str.lower() == 'all':
+        return 'all'
+    try:
+        dt = parse(end_date_str)
+    except Exception:
+        return 'all'
+    return dt.strftime("%Y_%m_%d")  # zero-padded month, zero-padded day
 
 def main():
     load_dotenv()
@@ -291,7 +288,7 @@ def main():
     parser.add_argument("--team_name", required=True, help="Team name, e.g. 'Australia'")
     parser.add_argument("--opponent_team", required=True, help="Opponent team code or name, e.g. 'SL' or 'Sri Lanka'")
     parser.add_argument("--start_year", default="all", help="Start year for stats or 'all'")
-    parser.add_argument("--end_year", default="all", help="End year for stats or 'all'")
+    parser.add_argument("--end_date", default="all", help="End date for stats or 'all'")
 
     parser.add_argument("--venue", required=True, help="Venue for the match, e.g. 'Dubai'")
     parser.add_argument("--match_context", required=True, help="Context for the match, e.g. 'ICC World Cup group match 2'")
@@ -321,7 +318,8 @@ def main():
     team_name = args.team_name
     opponent_team = args.opponent_team
     start_year = args.start_year
-    end_year = args.end_year
+    raw_end_date = args.end_date
+    end_date_parsed = parse_end_date(raw_end_date)  # 'YYYY_MM_DD' or 'all'
     venue = args.venue
     match_context = args.match_context
     commentary_on = (args.commentary_on.lower() == "true")
@@ -339,15 +337,20 @@ def main():
     logging.info("Running get_player_stats.py ...")
     safe_player_name = player_name.lower().replace(' ', '_')
     try:
-        cmd_general = f"python ../cricinfo_data_scrapping/Scripts/get_player_stats.py \"{player_name}\" \"{team_name}\" {start_year} {end_year}"
+        cmd_general = (
+            f"python ../cricinfo_data_scrapping/Scripts/get_player_stats.py "
+            f"\"{player_name}\" \"{team_name}\" {start_year} \"{raw_end_date}\""
+        )
         run_subprocess(cmd_general)
     except RuntimeError:
         logging.warning("[WARNING] get_player_stats script may have failed.")
 
-    if start_year.isdigit() and end_year.isdigit():
-        general_stats_filename = f"{safe_player_name}_{start_year}_{end_year}_span_stats.json"
-    else:
+    # Build general stats filename
+    if start_year.lower() == 'all' or end_date_parsed == 'all':
         general_stats_filename = f"{safe_player_name}_all_span_stats.json"
+    else:
+        general_stats_filename = f"{safe_player_name}_{start_year}_{end_date_parsed}_stats.json"
+
     general_stats_path = os.path.join(
         "..", "cricinfo_data_scrapping", "aggregated_stats", general_stats_filename
     )
@@ -359,15 +362,19 @@ def main():
     # 2) Run get_player_stats_venuewise.py
     logging.info("Running get_player_stats_venuewise.py ...")
     try:
-        cmd_venue = f"python ../cricinfo_data_scrapping/Scripts/get_player_stats_venuewise.py \"{player_name}\" \"{team_name}\" {start_year} {end_year}"
+        cmd_venue = (
+            f"python ../cricinfo_data_scrapping/Scripts/get_player_stats_venuewise.py "
+            f"\"{player_name}\" \"{team_name}\" {start_year} \"{raw_end_date}\""
+        )
         run_subprocess(cmd_venue)
     except RuntimeError:
         logging.warning("[WARNING] get_player_stats_venuewise script may have failed.")
 
-    if start_year.isdigit() and end_year.isdigit():
-        venue_filename = f"{safe_player_name}_{start_year}_{end_year}_venuewise.json"
-    else:
+    if start_year.lower() == 'all' or end_date_parsed == 'all':
         venue_filename = f"{safe_player_name}_all_venuewise.json"
+    else:
+        venue_filename = f"{safe_player_name}_{start_year}_{end_date_parsed}_venuewise.json"
+
     venue_stats_path = os.path.join(
         "..", "cricinfo_data_scrapping", "aggregated_stats_venue_wise", venue_filename
     )
@@ -381,18 +388,22 @@ def main():
                 venue_snippet_block = {k_: venue_stats["venues"][k_]}
                 break
 
-    # 3) Run get_player_stats_against_team.py
-    logging.info("Running get_player_stats_against_team.py ...")
+    # 3) Run get_player_stats_against_teams.py
+    logging.info("Running get_player_stats_against_teams.py ...")
     try:
-        cmd_against = f"python ../cricinfo_data_scrapping/Scripts/get_player_stats_against_team.py \"{player_name}\" \"{team_name}\" {start_year} {end_year}"
+        cmd_against = (
+            f"python ../cricinfo_data_scrapping/Scripts/get_player_stats_against_teams.py "
+            f"\"{player_name}\" \"{team_name}\" {start_year} \"{raw_end_date}\""
+        )
         run_subprocess(cmd_against)
     except RuntimeError:
-        logging.warning("[WARNING] get_player_stats_against_team script may have failed.")
+        logging.warning("[WARNING] get_player_stats_against_teams script may have failed.")
 
-    if start_year.isdigit() and end_year.isdigit():
-        against_filename = f"{safe_player_name}_{start_year}_{end_year}_against_teams.json"
-    else:
+    if start_year.lower() == 'all' or end_date_parsed == 'all':
         against_filename = f"{safe_player_name}_all_against_teams.json"
+    else:
+        against_filename = f"{safe_player_name}_{start_year}_{end_date_parsed}_against_teams.json"
+
     against_stats_path = os.path.join(
         "..", "cricinfo_data_scrapping", "aggregated_stats_against_teams", against_filename
     )
@@ -572,6 +583,13 @@ and then follow the **Exact Output Formatting Requirements** above.
 
     logging.info(f"Master prompt written to {prompt_file_path}")
 
+    # logging.info(
+    #     "Exiting now so you can review master_prompt_output.txt. "
+    #     "Remove the sys.exit(0) call below once satisfied with the prompt."
+    # )
+    # import sys
+    # sys.exit(0)
+
     # 6) LLM call
     logging.info("Sending MASTER PROMPT to the real LLM ...")
     llm_response_text = call_llm_api(master_prompt, api_key=final_api_key)
@@ -590,38 +608,34 @@ and then follow the **Exact Output Formatting Requirements** above.
 
     # MODIFICATION #1 => sort by probability descending
     zipped = list(zip(prob_array, label_array))
-    # sort descending
     zipped.sort(key=lambda x: x[0], reverse=True)
     sorted_prob_array = [str(item[0]) for item in zipped]
     sorted_label_array = [item[1] for item in zipped]
 
-    # Build final strings
     prob_str = ", ".join(sorted_prob_array)
     label_str = ", ".join(sorted_label_array)
 
-    # #_commentaries
     num_commentaries = k
     prediction_match = f"{match_context} {team_name} vs {opponent_team} in {venue}"
     commentary_flag = "on" if commentary_on else "off"
 
-    # Reasoning sanitization
+    # sanitize reasoning
     reasoning_sanitized = reasoning_text.replace("\r", " ")
     reasoning_sanitized = reasoning_sanitized.replace("\n", " ")
     reasoning_sanitized = re.sub(r"\s+", " ", reasoning_sanitized).strip()
     reasoning_sanitized = reasoning_sanitized.replace("\"", "'")
     reasoning_sanitized = reasoning_sanitized.replace(",", ";")
 
-    # final CSV row
     csv_fields = [
         player_name,
         train_data_span,
         str(num_commentaries),
         commentary_flag,
         prediction_match,
-        f"\"{prob_str}\"",          # e.g. "40, 25, 20, 10, 5, 0, 0, 0"
-        f"\"{label_str}\"",         # e.g. "Caught by a wicketkeeper, Caught by a fielder, LBW, ..."
+        f"\"{prob_str}\"",
+        f"\"{label_str}\"",
         final_ground_truth,
-        predicted_mode,         # user-provided ground truth
+        predicted_mode,
         f"\"{reasoning_sanitized}\""
     ]
     csv_line = ",".join(csv_fields)
