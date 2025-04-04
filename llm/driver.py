@@ -169,7 +169,7 @@ def parse_llm_analysis(llm_text, player_name):
         ...
     exactly. Then we match:
         most likely mode of dismissal for <player_name> is <mode>
-    to get the final predicted_mode. 
+    to get the final predicted_mode.
     """
 
     label_array = [
@@ -184,7 +184,7 @@ def parse_llm_analysis(llm_text, player_name):
     ]
     prob_array = [0] * 8  # 8 possible dismissal modes
 
-    # 1) Create a lookup for synonyms. 
+    # 1) Create a lookup for synonyms.
     #    (Everything on the left is lowercase; everything on the right is the final label.)
     synonyms = {
         "bowled": "Bowled",
@@ -201,8 +201,9 @@ def parse_llm_analysis(llm_text, player_name):
     }
 
     # 2) Regex to match lines like:  "Bowled: 10%"
+    #    NOTE: Adjusted to allow bullet/dash prefix, e.g. "• Bowled: 13%"
     prob_line_pattern = re.compile(
-        r'^\s*(?P<mode>[^:：]+?)\s*[:：]\s*(?P<pct>\d+)\%',  
+        r'^\s*(?:[*\-•]+\s*)?(?P<mode>[^:：]+?)\s*[:：]\s*(?P<pct>\d+)\%',
         re.IGNORECASE | re.MULTILINE
     )
 
@@ -217,6 +218,24 @@ def parse_llm_analysis(llm_text, player_name):
             final_label = synonyms[raw_mode]
             idx = label_array.index(final_label)
             prob_array[idx] = pct_val
+        else:
+            # Fallback attempt for partial matches, if needed
+            if "caught by a fielder" in raw_mode:
+                prob_array[label_array.index("Caught-Fielder")] = pct_val
+            elif "bowled" in raw_mode:
+                prob_array[label_array.index("Bowled")] = pct_val
+            elif "wicketkeeper" in raw_mode or "caught wk" in raw_mode:
+                prob_array[label_array.index("Caught-Wicketkeeper")] = pct_val
+            elif "stumped" in raw_mode:
+                prob_array[label_array.index("Stumped")] = pct_val
+            elif "lbw" in raw_mode:
+                prob_array[label_array.index("LBW")] = pct_val
+            elif "hit wicket" in raw_mode:
+                prob_array[label_array.index("Hit-Wicket")] = pct_val
+            elif "caught and bowled" in raw_mode or "caught & bowled" in raw_mode:
+                prob_array[label_array.index("Caught-and-Bowled")] = pct_val
+            elif "not" in raw_mode:
+                prob_array[label_array.index("Not-Out")] = pct_val
 
     # 4) Find final predicted mode.
     pred_pattern = re.compile(
@@ -503,7 +522,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 1. **Objective**  
    - **Match**: {match_context}, {team_name} vs {opponent_team} in {venue}  
    - **Primary Task**: Predict the most probable mode of dismissal for {player_name}.  
-   - **Key Emphasis**: Pay special attention to **recent commentary(if available)** detailing {player_name}’s current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
+   - **Key Emphasis**: Pay special attention to: **Venue Stats of {player_name}** because it will tell you how this player performs in the venue the the prediction match will be played, **{player_name} Stats against the Opponent** because it will tell you how the player performs against the specific team, and most important **recent commentary(if available)** detailing {player_name}’s current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
 
 2. **Data Sources**  
    - **A. Statistical Data (JSON Files)**  
@@ -531,14 +550,12 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **Predict the Most Likely Dismissal Method** (bowled, caught-fielder, caught-wk, stumped, lbw, hit wicket, caught and bowled, not-out).  
    - **Provide a probability breakdown** for all eight modes that sums to 100%.  
 
-5. **Actionable Insights** (Optional)
-
-6. **Important Prompt Requirements**  
+5. **Important Prompt Requirements**  
    - **Clarity of Reasoning**  
    - **No Contradictions**  
    - **Concise Final Statement**  
 
-7. **Exact Output Formatting Requirements**  
+6. **Exact Output Formatting Requirements**  
    - Present your probability breakdown EXACTLY as follows (one entry per line, preserving the exact text and punctuation so it can be parsed automatically):
      Bowled: <number>%
      Caught by a fielder: <number>%
@@ -625,6 +642,10 @@ and then follow the **Exact Output Formatting Requirements** above.
     reasoning_sanitized = re.sub(r"\s+", " ", reasoning_sanitized).strip()
     reasoning_sanitized = reasoning_sanitized.replace("\"", "'")
     reasoning_sanitized = reasoning_sanitized.replace(",", ";")
+
+    # remove or ignore all non-ASCII characters so Excel won't fill them with '?' placeholders
+    reasoning_sanitized = reasoning_sanitized.encode("ascii", "ignore").decode("ascii")
+
 
     csv_fields = [
         player_name,
