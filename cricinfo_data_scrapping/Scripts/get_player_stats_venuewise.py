@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-# Usage: python get_player_stats_venuewise.py <player name> <team> <start_year> <end_year>
+# Usage: python get_player_stats_venuewise.py <player name> <team> <start_year> <end_date>
 # Usage Example 1: python get_player_stats_venuewise.py "Babar Azam" Pakistan all all
-# Usage Example 2: python get_player_stats_venuewise.py "Babar Azam" Pakistan 2015 2018
+# Usage Example 2: python get_player_stats_venuewise.py "Babar Azam" Pakistan 2015 "September 2 2024"
 
 import os
 import json
@@ -79,6 +79,89 @@ def parse_match_date(match_details):
             return None
 
     return None
+
+
+# -------------------------------------------------------------------
+# Robust date parsing (added)
+# -------------------------------------------------------------------
+def robust_parse_date(date_str):
+    """
+    Attempt to parse a textual date in a flexible manner, handling abbreviations
+    (Sep, Sept), commas, etc. Returns a datetime or None if it can't parse.
+    """
+    # Remove commas, parentheses, etc. and go lowercase
+    date_str = re.sub(r'[,\(\)]', '', date_str.strip().lower())
+
+    # Common month abbreviations to unify
+    month_map = {
+        'jan': 'January', 'feb': 'February', 'mar': 'March', 'apr': 'April',
+        'may': 'May', 'jun': 'June', 'jul': 'July', 'aug': 'August',
+        'sep': 'September', 'sept': 'September', 'oct': 'October',
+        'nov': 'November', 'dec': 'December'
+    }
+
+    parts = date_str.split()
+    if len(parts) < 2:
+        return None
+
+    # If first part is a known abbreviation or partial, expand it
+    maybe_month = parts[0][:3]
+    if maybe_month in month_map:
+        canonical = month_map[maybe_month]
+        new_str = canonical + " " + " ".join(parts[1:])
+        patterns = [
+            "%B %d %Y",   # September 2 2024
+            "%B %d %y",   # September 2 24
+        ]
+        for pat in patterns:
+            try:
+                return datetime.strptime(new_str, pat)
+            except ValueError:
+                pass
+
+    # Fallback attempts
+    fallback_patterns = [
+        "%B %d %Y",  # September 2 2024
+        "%b %d %Y",  # Sep 2 2024
+        "%B %d %y",  # September 2 24
+        "%b %d %y"   # Sep 2 24
+    ]
+    for pat in fallback_patterns:
+        try:
+            return datetime.strptime(" ".join(parts), pat)
+        except ValueError:
+            pass
+
+    return None
+
+
+def parse_date_range(start_year, end_date):
+    """
+    If either argument is 'all', return (None, None) => no filtering.
+    Otherwise:
+      - start_year is taken as an integer => Jan 1 of that year
+      - end_date is parsed as a precise datetime
+    If parsing fails => no filtering.
+    """
+    if isinstance(start_year, str) and start_year.lower() == "all":
+        return (None, None)
+    if isinstance(end_date, str) and end_date.lower() == "all":
+        return (None, None)
+
+    # Try parse start_year as int
+    try:
+        sy = int(start_year)
+        start_dt = datetime(sy, 1, 1)
+    except (ValueError, TypeError):
+        return (None, None)
+
+    # robust parse end_date
+    ed = robust_parse_date(end_date)
+    if not ed:
+        return (None, None)
+
+    return (start_dt, ed)
+
 
 # -------------------------------------------------------------------
 # Name cleaning & variants
@@ -341,14 +424,15 @@ def float_overs_to_balls(overs_val):
     return whole*6 + possible_balls
 
 # -------------------------------------------------------------------
-# parse_match_file with optional date filter
+# parse_match_file (updated with fine-grained date range)
 # -------------------------------------------------------------------
-def parse_match_file(file_path, player_name, team_name, start_year=None, end_year=None):
+def parse_match_file(file_path, player_name, team_name, start_dt=None, end_dt=None):
     """
     Returns stats for that match if the given player was in the playing XI
-    for 'team_name'. If date is out of range (and range is numeric), skip.
-    If date missing & numeric range => skip. If 'all', we do no date filtering.
+    for 'team_name' AND match_date is in [start_dt, end_dt], if those are not None.
+    If 'all' => no date filtering. If match_date is outside range => skip.
     """
+
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             match_data = json.load(f)
@@ -359,15 +443,13 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
     match_details = match_data.get('match_details', {})
     match_date = parse_match_date(match_details)
 
-    # If BOTH start_year and end_year are ints => filter
-    if isinstance(start_year,int) and isinstance(end_year,int):
-        # If no date => skip
-        if not match_date:
+    # -----------------------------
+    # NEW: date-range filtering
+    # -----------------------------
+    if start_dt is not None and end_dt is not None:
+        # If match_date is None, or out of range => skip
+        if (not match_date) or (match_date < start_dt or match_date > end_dt):
             return None
-        # If date is out of [start_year, end_year] => skip
-        if not (start_year <= match_date.year <= end_year):
-            return None
-    # If either is None => 'all', we do not filter the match at all
 
     # Prepare the aggregator for a single match
     player_stats = {
@@ -437,8 +519,7 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
     team_name_lower = team_name.lower()
 
     playing_xi = match_data.get('playing_xi', {})
-    # Also clean playing XI
-    # so if the scorecard has 'Babar Azam(c)' in playing_xi, we remove (c).
+    # Also clean playing XI so if the scorecard has 'Babar Azam(c)' in playing_xi, we remove (c).
     for tkey in list(playing_xi.keys()):
         playing_xi[tkey] = [clean_name(x) for x in playing_xi[tkey]]
 
@@ -450,15 +531,12 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
 
     player_stats['played'] = True
 
-    # Identify wicketkeepers (just in case for 'caught wk')
+    # Identify wicketkeepers (we can't reliably do it if parentheses are removed,
+    # but we keep the logic for consistency)
     wicket_keepers = set()
     for t, p_list in playing_xi.items():
         for name_ in p_list:
-            # The original data might have had (wk), but we stripped parentheses
-            # so we might never see it. If you want, do a separate approach.
-            # We'll just do: if it originally had (wk) in the raw data we can't see that now.
-            # But let's keep the logic in case some JSON has 'b_type' or 'wk' set.
-            pass
+            pass  # In some data, we might detect WK info. If not, we skip.
 
     # Build a bowler mapping for partial name => full
     bowler_mapping = defaultdict(list)
@@ -892,8 +970,10 @@ def parse_country_from_series_name(series_name):
     if match_:
         country_str = match_.group(1).strip()
         # remove e.g. "odi", "t20i", "test", "series" etc
-        country_str = re.sub(r'(odi|t20i|test|\d+|series)','', country_str, flags=re.IGNORECASE)
+        country_str = re.sub(r'(odi|t20i|test|\d+|series|match)','', country_str, flags=re.IGNORECASE)
         country_str = country_str.strip()
+        if country_str.lower() == "st":
+            return "West Indies"
         if country_str:
             return " ".join(word.capitalize() for word in country_str.split())
     return "Unknown"
@@ -902,8 +982,8 @@ def parse_country_from_series_name(series_name):
 # process_file => for multiprocessing
 # -------------------------------------------------------------------
 def process_file(args):
-    fp, player_name, team_name, sy, ey = args
-    stats = parse_match_file(fp, player_name, team_name, sy, ey)
+    fp, player_name, team_name, start_dt, end_dt = args
+    stats = parse_match_file(fp, player_name, team_name, start_dt, end_dt)
     return (fp, stats)
 
 # -------------------------------------------------------------------
@@ -913,23 +993,19 @@ def generate_player_stats_venuewise_span(
     player_name,
     team_name,
     start_year="all",
-    end_year="all",
-    scorecards_dir="../cricinfo_data_scrapping/match_scorecards_json/"
+    end_date="all",
+    # scorecards_dir="../cricinfo_data_scrapping/match_scorecards_json/"
+    scorecards_dir="../match_scorecards_json/"
 ):
     """
-    Exactly like your original aggregator, but optionally 
-    filters by [start_year..end_year] if both are numeric.
-    If either is 'all', no date filtering is done.
+    Exactly like your original aggregator, but with fine-grained date filtering:
+      - <start_year> is either "all" or an integer year => (Year, Jan 1).
+      - <end_date> is either "all" or a textual date => the precise end date.
+    If either is "all", we skip date filtering.
     """
-    # Attempt int conversion
-    try:
-        start_year_int = int(start_year)
-    except:
-        start_year_int = None
-    try:
-        end_year_int = int(end_year)
-    except:
-        end_year_int = None
+
+    # (1) parse the date range
+    start_dt, end_dt = parse_date_range(start_year, end_date)
 
     # collect all JSON
     if not os.path.isdir(scorecards_dir):
@@ -947,7 +1023,7 @@ def generate_player_stats_venuewise_span(
     # parallel parse
     args_list = []
     for f_ in json_files:
-        args_list.append((f_, player_name, team_name, start_year_int, end_year_int))
+        args_list.append((f_, player_name, team_name, start_dt, end_dt))
 
     with Pool(processes=cpu_count()) as p:
         results = p.map(process_file, args_list)
@@ -958,7 +1034,7 @@ def generate_player_stats_venuewise_span(
     if not all_stats:
         logging.warning(
             f"No match data found for {player_name} in {team_name} "
-            f"within date range {start_year}-{end_year} (or no data)."
+            f"within the date range {start_year}-{end_date} (or no data)."
         )
         return {}
 
@@ -968,7 +1044,7 @@ def generate_player_stats_venuewise_span(
         try:
             with open(fp, 'r', encoding='utf-8') as f:
                 mdata = json.load(f)
-        except Exception as e:
+        except Exception:
             continue
         sname = mdata.get('series_name', '')
         venue = parse_country_from_series_name(sname)
@@ -987,23 +1063,28 @@ def generate_player_stats_venuewise_span(
 
     # optionally write out JSON
     safe_pname = player_name.lower().replace(' ','_')
-    out_dir = "../cricinfo_data_scrapping/aggregated_stats_venue_wise"
+    out_dir = "../aggregated_stats_venue_wise"
+    # out_dir = "../cricinfo_data_scrapping/aggregated_stats_venue_wise"
     if not os.path.exists(out_dir):
         try:
             os.makedirs(out_dir)
         except:
             pass
 
-    if start_year_int and end_year_int:
-        fname = f"{safe_pname}_{start_year_int}_{end_year_int}_venuewise.json"
-    else:
+    if start_dt is None and end_dt is None:
         fname = f"{safe_pname}_all_venuewise.json"
+    else:
+        # embed the start year and the Y-m-d of end_dt in the file name
+        fname = (
+            f"{safe_pname}_{start_dt.year}_"
+            f"{end_dt.strftime('%Y_%m_%d')}_venuewise.json"
+        )
 
     outfile = os.path.join(out_dir, fname)
     with open(outfile, 'w', encoding='utf-8') as f:
         json.dump(final_out, f, indent=4, default=str)
 
-    logging.info(f"Venue-wise stats (with optional date filter) => {outfile}")
+    logging.info(f"Venue-wise stats (with fine-grained date filter) => {outfile}")
     return final_out
 
 # -------------------------------------------------------------------
@@ -1012,18 +1093,18 @@ def generate_player_stats_venuewise_span(
 def main():
     import sys
     if len(sys.argv) != 5:
-        print("Usage: python get_player_stats_venuewise.py <player_name> <team> <start_year> <end_year>")
+        print("Usage: python get_player_stats_venuewise.py <player_name> <team> <start_year> <end_date>")
         sys.exit(1)
     player = sys.argv[1]
     team = sys.argv[2]
     start_year = sys.argv[3]
-    end_year = sys.argv[4]
+    end_date = sys.argv[4]
 
-    result = generate_player_stats_venuewise_span(player, team, start_year, end_year)
+    result = generate_player_stats_venuewise_span(player, team, start_year, end_date)
     if not result:
         logging.warning("No results or empty data.")
     else:
-        logging.info("Finished generating stats with optional date filter.")
+        logging.info("Finished generating venue-wise stats with fine-grained date filter.")
 
 if __name__ == "__main__":
     main()

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-# Usage: python get_player_stats_against_teams.py <player_name> <team_name> <start_year> <end_year>
-# Usage Example 1: python get_player_stats_against_team.py "Steven Smith" Australia all all
-# Usage Example 2: python get_player_stats_against_team.py "Steven Smith" Australia 2019 2024
+# Usage: python get_player_stats_against_teams.py <player_name> <team_name> <start_year> <end_date>
+# Example 1: python get_player_stats_against_teams.py "Steven Smith" Australia all all
+# Example 2: python get_player_stats_against_teams.py "Steven Smith" Australia 2019 "September 2 2024"
 
 import os
 import json
@@ -40,7 +40,7 @@ def safe_int_conversion(value, default=0):
         return default
 
 # -------------------------------------------------------------------
-# Date parsing
+# Date parsing from match details
 # -------------------------------------------------------------------
 def parse_match_date(match_details):
     """
@@ -81,6 +81,85 @@ def parse_match_date(match_details):
     return None
 
 # -------------------------------------------------------------------
+# Flexible date parsing (added)
+# -------------------------------------------------------------------
+def robust_parse_date(date_str):
+    """
+    Attempt to parse a textual date in a flexible manner,
+    handling abbreviations (Sep, Sept), commas, etc.
+    Returns a datetime or None if it can't parse.
+    """
+    # Remove commas, parentheses, etc. and go lowercase
+    date_str = re.sub(r'[,\(\)]', '', date_str.strip().lower())
+
+    month_map = {
+        'jan': 'January', 'feb': 'February', 'mar': 'March', 'apr': 'April',
+        'may': 'May', 'jun': 'June', 'jul': 'July', 'aug': 'August',
+        'sep': 'September', 'sept': 'September', 'oct': 'October',
+        'nov': 'November', 'dec': 'December'
+    }
+
+    parts = date_str.split()
+    if len(parts) < 2:
+        return None
+
+    maybe_month = parts[0][:3]
+    if maybe_month in month_map:
+        canonical = month_map[maybe_month]
+        new_str = canonical + " " + " ".join(parts[1:])
+        patterns = [
+            "%B %d %Y",  # e.g. September 2 2024
+            "%B %d %y",  # e.g. September 2 24
+        ]
+        for pat in patterns:
+            try:
+                return datetime.strptime(new_str, pat)
+            except ValueError:
+                pass
+
+    # fallback attempts
+    fallback_patterns = [
+        "%B %d %Y",  # e.g. September 2 2024
+        "%b %d %Y",  # e.g. Sep 2 2024
+        "%B %d %y",  # e.g. September 2 24
+        "%b %d %y"   # e.g. Sep 2 24
+    ]
+    for pat in fallback_patterns:
+        try:
+            return datetime.strptime(" ".join(parts), pat)
+        except ValueError:
+            pass
+
+    return None
+
+def parse_date_range(start_year, end_date):
+    """
+    If either argument is 'all', return (None, None) => no date filtering.
+    Otherwise:
+      - start_year is taken as an integer => Jan 1 of that year
+      - end_date is parsed to a precise datetime
+    If parsing fails => (None, None) => no filter.
+    """
+    if isinstance(start_year, str) and start_year.lower() == "all":
+        return (None, None)
+    if isinstance(end_date, str) and end_date.lower() == "all":
+        return (None, None)
+
+    # parse start_year
+    try:
+        sy = int(start_year)
+        start_dt = datetime(sy, 1, 1)
+    except (ValueError, TypeError):
+        return (None, None)
+
+    # parse end_date
+    ed = robust_parse_date(end_date)
+    if not ed:
+        return (None, None)
+
+    return (start_dt, ed)
+
+# -------------------------------------------------------------------
 # Name cleaning & variants
 # -------------------------------------------------------------------
 def clean_name(name):
@@ -88,7 +167,6 @@ def clean_name(name):
     Removes annotations like (c), (wk), sub(...), etc.
     Then strip + lower. So "Babar Azam(c)" => "babar azam".
     """
-    # Remove *anything* in parentheses:
     cleaned = re.sub(r'\(.*?\)', '', name)
     return cleaned.strip().lower()
 
@@ -329,13 +407,12 @@ def float_overs_to_balls(overs_val):
     return whole*6 + possible_balls
 
 # -------------------------------------------------------------------
-# parse_match_file with optional date filter
+# parse_match_file with new date filter logic
 # -------------------------------------------------------------------
-def parse_match_file(file_path, player_name, team_name, start_year=None, end_year=None):
+def parse_match_file(file_path, player_name, team_name, start_dt=None, end_dt=None):
     """
     Returns stats for that match if the given player was in the playing XI
-    for 'team_name'. If date is out of range => skip. If date missing => skip if
-    a numeric filter is required. If no player/team => returns None.
+    for 'team_name'. We do date filtering by [start_dt, end_dt] if both are set.
     """
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -347,11 +424,9 @@ def parse_match_file(file_path, player_name, team_name, start_year=None, end_yea
     match_details = match_data.get('match_details', {})
     match_date = parse_match_date(match_details)
 
-    # If BOTH start_year and end_year are ints => filter
-    if isinstance(start_year,int) and isinstance(end_year,int):
-        if not match_date:
-            return None
-        if not (start_year <= match_date.year <= end_year):
+    # If we have a valid date range => filter out matches that do not fall in it
+    if start_dt is not None and end_dt is not None:
+        if (not match_date) or (match_date < start_dt or match_date > end_dt):
             return None
 
     player_stats = {
@@ -835,7 +910,7 @@ def find_opposition(playing_xi, team_name):
     """
     Given the dictionary of playing XIs and the known 'team_name',
     returns the other team (the opposition). If multiple or none found,
-    you can adapt as needed. Typically returns a single string.
+    returns 'UnknownOpposition'. Typically returns a single string.
     """
     teams_in_match = list(playing_xi.keys())
     if team_name in teams_in_match:
@@ -852,7 +927,7 @@ def find_opposition(playing_xi, team_name):
 # We'll store: (file_path, match_stats, opposition_team)
 # -------------------------------------------------------------------
 def process_file(args):
-    fp, player_name, team_name, sy, ey = args
+    fp, player_name, team_name, start_dt, end_dt = args
     try:
         with open(fp, 'r', encoding='utf-8') as f:
             match_data = json.load(f)
@@ -862,7 +937,7 @@ def process_file(args):
     playing_xi = match_data.get('playing_xi', {})
     opp = find_opposition(playing_xi, team_name)
 
-    stats = parse_match_file(fp, player_name, team_name, sy, ey)
+    stats = parse_match_file(fp, player_name, team_name, start_dt, end_dt)
     return (fp, stats, opp)
 
 # -------------------------------------------------------------------
@@ -872,17 +947,16 @@ def generate_player_stats_against_teams_span(
     player_name,
     team_name,
     start_year="all",
-    end_year="all",
+    end_date="all",
     scorecards_dir="../cricinfo_data_scrapping/match_scorecards_json/"
+    # scorecards_dir="../match_scorecards_json/"
 ):
-    try:
-        start_year_int = int(start_year)
-    except:
-        start_year_int = None
-    try:
-        end_year_int = int(end_year)
-    except:
-        end_year_int = None
+    """
+    Similar to original aggregator, but we do date filtering using <start_year> (Jan 1) and <end_date>.
+    If either is 'all', no filtering is done.
+    """
+    # parse the date range
+    start_dt, end_dt = parse_date_range(start_year, end_date)
 
     if not os.path.isdir(scorecards_dir):
         logging.error(f"Directory not found: {scorecards_dir}")
@@ -898,7 +972,7 @@ def generate_player_stats_against_teams_span(
 
     args_list = []
     for f_ in json_files:
-        args_list.append((f_, player_name, team_name, start_year_int, end_year_int))
+        args_list.append((f_, player_name, team_name, start_dt, end_dt))
 
     with Pool(processes=cpu_count()) as p:
         results = p.map(process_file, args_list)
@@ -906,7 +980,7 @@ def generate_player_stats_against_teams_span(
     all_stats = [(fp, stats, opp) for (fp, stats, opp) in results if stats is not None]
 
     if not all_stats:
-        logging.warning(f"No match data found for {player_name} in {team_name} within the date range.")
+        logging.warning(f"No match data found for {player_name} in {team_name} within the given date range.")
         return {}
 
     aggregator_by_opposition = {}
@@ -926,6 +1000,7 @@ def generate_player_stats_against_teams_span(
         final_out["oppositions"][opp] = finalize_aggregator(agg)
 
     safe_pname = player_name.lower().replace(' ','_')
+    # out_dir = "../aggregated_stats_against_teams"
     out_dir = "../cricinfo_data_scrapping/aggregated_stats_against_teams"
     if not os.path.exists(out_dir):
         try:
@@ -933,16 +1008,17 @@ def generate_player_stats_against_teams_span(
         except:
             pass
 
-    if start_year_int and end_year_int:
-        fname = f"{safe_pname}_{start_year_int}_{end_year_int}_against_teams.json"
-    else:
+    if start_dt is None and end_dt is None:
         fname = f"{safe_pname}_all_against_teams.json"
+    else:
+        # embed the start year and Y-m-d of end_dt in filename
+        fname = f"{safe_pname}_{start_dt.year}_{end_dt.strftime('%Y_%m_%d')}_against_teams.json"
 
     outfile = os.path.join(out_dir, fname)
     with open(outfile, 'w', encoding='utf-8') as f:
         json.dump(final_out, f, indent=4, default=str)
 
-    logging.info(f"Against-teams stats (with optional date filter) => {outfile}")
+    logging.info(f"Against-teams stats (fine-grained date filter) => {outfile}")
     return final_out
 
 # -------------------------------------------------------------------
@@ -951,7 +1027,7 @@ def generate_player_stats_against_teams_span(
 def main():
     import sys
     if len(sys.argv) != 5:
-        print("Usage: python get_player_stats_against_teams.py <player_name> <team_name> <start_year> <end_year>")
+        print("Usage: python get_player_stats_against_teams.py <player_name> <team_name> <start_year> <end_date>")
         sys.exit(1)
 
     player = sys.argv[1]
@@ -960,12 +1036,17 @@ def main():
     end_span = sys.argv[4]
 
     result = generate_player_stats_against_teams_span(
-        player, team, start_span, end_span, scorecards_dir="../cricinfo_data_scrapping/match_scorecards_json/"
+        player, 
+        team, 
+        start_span, 
+        end_span, 
+        scorecards_dir="../cricinfo_data_scrapping/match_scorecards_json/"
+        # scorecards_dir="../match_scorecards_json/"
     )
     if not result:
         logging.warning("No results or empty data.")
     else:
-        logging.info("Finished generating stats against all teams with optional date filter.")
+        logging.info("Finished generating stats against teams with fine-grained date filter.")
 
 if __name__ == "__main__":
     main()
