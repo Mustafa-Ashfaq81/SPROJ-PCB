@@ -4,7 +4,7 @@ import re
 
 def main():
     # Directory containing JSON files
-    directory = "match_scorecards_json"
+    directory = "../match_scorecards_json"
 
     # Updated Regex pattern to match "series_name" field with multiple countries in parentheses
     pattern = re.compile(
