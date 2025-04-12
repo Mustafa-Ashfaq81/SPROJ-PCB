@@ -226,7 +226,7 @@ def call_llm_filtering_api_for_chunk(
         f"Return only the relevant lines in their original order, as demonstrated.\n\n"
         f"{chunk_text}\n\n"
         f"---\n\n"
-        f"Remember to follow the example style and instructions closely."
+        f"Remember to follow the instructions closely."
     )
 
     if not api_key:
