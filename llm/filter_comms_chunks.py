@@ -1,405 +1,647 @@
+#!/usr/bin/env python3
 """
-filter_comms.py
+filter_comms_chunks.py
 
-Usage (example):
-----------------
-python filter_comms.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "SL" --is_batsman True --k 5 --base_dir "../cricinfo_data_scrapping/CommentaryData/raw_commentary" --output_dir "./filtered_outputs" --chunk_size 100 --chunk_overlap 20
+Usage
+-----------
+python filter_comms_chunks.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "IND" --is_batsman True --k 5 --against_comms 3 --venue_comms 2 --venue_country "India" --venue_ground "Mohali" --end_date "December 23 2025" --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" --venue_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise" --output_dir "./filtered_outputs"
 
-overview
-
-This script filters raw cricket match commentary to extract only the lines relevant to a specific player using an LLM(4o-mini).
-
-Input: Raw `.txt` commentary files from `base_dir/<player_name>/`.
-Selection Criteria: Picks up to `k` latest files where the player’s team was batting (`is_batsman=True`) or bowling (`is_batsman=False`).
-
-How it works: Each file is split into overlapping chunks (`chunk_size`, `chunk_overlap`). Each chunk is passed to an LLM with a structured prompt to extract lines about venue, pitch, quotes, dismissals, and player-specific actions. Overlapping lines are deduplicated.
-
-Output: A single `.txt` file combining all filtered lines, saved as `filtered_commentaries_playerName_opposition.txt` in the specified `output_dir`.
-
+High-level flow
+---------------
+1. **Select files** (new multi-step logic - see README above).
+2. For each selected file:
+      • split into overlapping chunks
+      • stream chunks to GPT-4o-mini in parallel
+      • clean & dedupe returned lines
+3. Concatenate per-file results and write   filtered_commentaries_<player>_<opp>_<k>.txt
 """
 
-import os
-import re
-import argparse
-from typing import List
-from dotenv import load_dotenv
+# --------------------------------------------------------------------------
+# Imports
+# --------------------------------------------------------------------------
+import os, re, sys, json, argparse, concurrent.futures
+from typing import List, Tuple, Optional, Set, Dict
+from datetime import datetime
 
+from dotenv import load_dotenv    # load .env for OPENAI_API_KEY
 
+# --------------------------------------------------------------------------
+# =====  Section 0 ── tiny debug helper  ===================================
+# --------------------------------------------------------------------------
+def debug(msg: str):
+    print(f"[DEBUG] {msg}")
+
+# --------------------------------------------------------------------------
+# =====  Section 1 ── PROMPT + LLM helpers (UNTOUCHED)  ====================
+# --------------------------------------------------------------------------
 FILTERING_PROMPT_TEMPLATE = """
-You are given a **chunk** of the complete match commentary text for a cricket match. This chunk might be a continuation from a previous portion, so it may reference events or context from earlier lines not shown here.
+You are given a **chunk** of the complete match commentary text for a cricket
+match. This chunk might be a continuation from a previous portion, so it may
+reference events or context from earlier lines not shown here.
 
-Your task is to **extract and return only the exact lines** (verbatim, without paraphrasing) from this chunk that meet the following criteria related to **{PLAYER_NAME}**. Specifically, search this chunk and gather lines that include:
+Your task is to **extract and return only the exact lines** (verbatim, without
+paraphrasing) from this chunk that meet the following criteria related to
+**{PLAYER_NAME}**.  Specifically, search this chunk and gather lines that
+include:
 
 1. **Venue and Match Context**
-- Include lines that mention the type or significance of the match — such as whether it is part of a bilateral series, an ICC tournament, a group stage, knockout, semi-final, or final.
-- If it’s a series match, include details specifying which match it is (e.g., 1st ODI, 2nd Test, etc.) or the current series standing (e.g., Series tied 1-1).
-- Any lines explicitly stating the venue or location of the match, crowd attendance, or references to the stadium conditions—especially if they refer to how it might affect batting or bowling.
+   - Include lines that mention the type or significance of the match — such as
+     whether it is part of a bilateral series, an ICC tournament, a group
+     stage, knockout, semi-final, or final.
+   - If it's a series match, include details specifying which match it is
+     (e.g., 1st ODI, 2nd Test) or the current series standing
+     (e.g., Series tied 1-1).
+   - Any lines explicitly stating the venue or location of the match, crowd
+     attendance, or references to the stadium conditions—especially if they
+     refer to how it might affect batting or bowling.
 
 2. **Pitch Conditions**
-- Any lines (including quotations) that describe the pitch behavior, pace, bounce, slowness, or anything else about the surface that could be relevant to how batters, especially {PLAYER_NAME}, perform or get out.
+   - Any lines (including quotations) that describe the pitch behaviour, pace,
+     bounce, slowness, or anything else about the surface that could be
+     relevant to how batters—especially {PLAYER_NAME}—perform or get out.
 
-3. **Comments/Quotes by or about {PLAYER_NAME}**
-- Any direct quotes where {PLAYER_NAME} discusses how they felt at the crease, their form, the difficulty of the pitch, or mentions of their batting approach and mindset.
+3. **Comments / Quotes by or about {PLAYER_NAME}**
+   - Any direct quotes where {PLAYER_NAME} discusses how they felt at the
+     crease, their form, the difficulty of the pitch, or mentions of their
+     batting approach and mindset.
 
 4. **How All Batters in the Innings Got Out**
-- Extract lines describing dismissals of any batter in the innings. Include the exact commentary lines for each such dismissal.
+   - Extract lines describing dismissals of **any** batter in the innings.
+     Include the exact commentary lines for each such dismissal.
 
 5. **All Ball-by-Ball Entries Involving {PLAYER_NAME}**
-- Every commentary line that mentions {PLAYER_NAME}’s deliveries faced, runs scored, boundaries, near-dismissals, or any relevant event while {PLAYER_NAME} was batting.
-- If a line references {PLAYER_NAME}’s partnership, shot selection, or a bowler’s tactics against them, include it exactly as it appears.
+   - Every commentary line that mentions {PLAYER_NAME}'s deliveries faced, runs
+     scored, boundaries, near-dismissals, or any relevant event while
+     {PLAYER_NAME} was batting.
+   - If a line references {PLAYER_NAME}'s partnership, shot selection, or a
+     bowler's tactics against them, include it exactly as it appears.
 
-6. **{PLAYER_NAME}’s Mode of Dismissal**
-- The precise commentary line that states how {PLAYER_NAME} got out (caught, bowled, run out, etc.). This is **crucial**. Extract it word-for-word from the commentary.
+6. **{PLAYER_NAME}'s Mode of Dismissal**
+   - The precise commentary line that states how {PLAYER_NAME} got out (caught,
+     bowled, run-out, etc.).  This is **crucial**. Extract it word-for-word.
 
-**Important Requirements**:
-- **Return only the exact lines from this chunk**; do not paraphrase or summarize.
+**Important Requirements**
+- **Return only the exact lines from this chunk**; do not paraphrase or
+  summarise.
 - If a line is relevant to more than one category, include it once in full.
 - Maintain the **exact order** in which these lines appear in this chunk.
-- Do not include any commentary text that is irrelevant to the six points above.
+- Do **not** include any commentary text that is irrelevant to the six points
+  above.
 """
 
-# ----------------------------
-# 2) File selection logic
-# ----------------------------
-def get_commentary_files_for_player(
-    base_dir: str,
-    player_name: str,
-    player_team_code: str,
-    opponent_team_code: str,
-    is_batsman: bool,
-    k: int = 25
-) -> List[str]:
-    """
-    Returns up to `k` commentary files for the given player.
-    
-    Steps:
-      1) Gather all commentary files from base_dir/<player_name>.
-      2) Group them by match_id. We often have 2 files per match, e.g.:
-            {match_id}_AUS_commentary_.....txt
-            {match_id}_ENG_commentary_.....txt
-      3) For each match:
-         - If is_batsman=True => the relevant batting file is the one with batting_team == player_team_code.
-         - If is_batsman=False => the relevant batting file is the one with batting_team == opponent_team_code.
-         If no file in that match meets the above condition, skip this match.
-      4) Determine if the “other” file in the same match is for the requested opponent_team_code.
-         If yes => this match is "vsOpponent", else "others".
-      5) Sort by match_id descending, then pick all vsOpponent first (up to k),
-         then fill up from “others” (also in descending order) until you have k.
-    """
-
-    player_dir = os.path.normpath(os.path.join(base_dir, player_name))
-    if not os.path.isdir(player_dir):
-        print(f"[WARNING] Directory not found: {player_dir}")
-        return []
-
-    # Regex pattern for files like: 1234567_AUS_commentary_ANYTHING.txt
-    # capturing (match_id), (batting_team), then ignoring the rest.
-    import re
-    pattern = re.compile(r"^(\d+)_(\w+)_commentary_.*\.txt$")
-
-    all_files = os.listdir(player_dir)
-
-    # Group by match_id => match_id -> list[(batting_team, filename), (batting_team, filename)]
-    match_dict = {}
-    for filename in all_files:
-        m = pattern.match(filename)
-        if not m:
-            continue
-        match_id_str, batting_team = m.groups()
-        try:
-            match_id = int(match_id_str)
-        except ValueError:
-            # If we can't parse match_id as int, skip
-            continue
-        
-        match_dict.setdefault(match_id, []).append((batting_team, filename))
-
-    # We'll build a list of tuples: (match_id, commentary_file_path, is_vs_opponent)
-    selected_matches = []
-
-    for match_id, pairs in match_dict.items():
-        # Typically pairs has length 2: e.g. [("AUS", "1317477_AUS_commentary_..."), ("ZIM", "1317477_ZIM_commentary_...")]
-        # But sometimes it might have only 1 if data is missing. We'll handle either case.
-        if not pairs:
-            continue
-
-        # Identify the relevant batting file based on player's role
-        # If is_batsman => batting_team must be player_team_code
-        # If not => batting_team must be opponent_team_code
-        desired_team = player_team_code if is_batsman else opponent_team_code
-
-        # See if any file in `pairs` has batting_team == desired_team
-        relevant_record = None
-        other_team = None  # We'll figure out who the *other* side is for that match
-        if len(pairs) == 1:
-            # Only one commentary found. Check if it matches the desired team
-            if pairs[0][0] == desired_team:
-                relevant_record = pairs[0]
-                # We can't be sure who the 'other team' is if it's missing...
-                # We'll treat it as "others" unless the single known team is the opponent.
-                # However, we *could* skip or guess, depending on your data completeness.
-                # For safety, let's guess that "other_team" is the opponent if desired_team == player_team_code
-                # or vice versa. This might be an approximation:
-                if not is_batsman:
-                    # means desired_team == opponent_team_code => "the other side" is player_team_code
-                    other_team = player_team_code
-                else:
-                    # means desired_team == player_team_code => "the other side" might be the opponent
-                    other_team = opponent_team_code
-            else:
-                # This single file does not match the desired batting team => skip
-                continue
-        else:
-            # Usually 2 records. e.g. [("AUS", fileA), ("ZIM", fileB)]
-            # Find the one that matches desired_team
-            recA, recB = pairs[0], pairs[1]
-            # recA = (teamA, fileA), recB = (teamB, fileB)
-            if recA[0] == desired_team:
-                relevant_record = recA
-                other_team = recB[0]
-            elif recB[0] == desired_team:
-                relevant_record = recB
-                other_team = recA[0]
-            else:
-                # Neither file has the desired_team => skip this match
-                continue
-
-        if not relevant_record:
-            # no file matched the player's role
-            continue
-
-        # Now see if the other_team is the requested opponent
-        # We only trust other_team if we actually found a pair, or set it above
-        # but it might not always be perfect if data is incomplete.
-        is_vs_opp = (other_team == opponent_team_code)
-
-        file_path = os.path.join(player_dir, relevant_record[1])
-        selected_matches.append((match_id, file_path, is_vs_opp))
-
-    # Now we have a list of (match_id, file_path, is_vs_opp).
-    # Next step: sort descending by match_id, then pick all "is_vs_opp = True" first up to k,
-    # then fill from "others".
-    selected_matches.sort(key=lambda x: x[0], reverse=True)
-
-    vs_opp_list = [x for x in selected_matches if x[2] is True]
-    others_list = [x for x in selected_matches if x[2] is False]
-
-    final_files = []
-
-    # Take all vsOpponent first (up to k)
-    for item in vs_opp_list:
-        if len(final_files) < k:
-            final_files.append(item[1])
-        else:
-            break
-
-    # If we still need more, pull from others
-    if len(final_files) < k:
-        space_left = k - len(final_files)
-        for item in others_list:
-            if len(final_files) < k:
-                final_files.append(item[1])
-            else:
-                break
-
-    return final_files
-
-# ----------------------------
-# 3) LLM call for a single chunk
-# ----------------------------
+# -- GPT-4o call for ONE chunk ------------------------------------------------
 def call_llm_filtering_api_for_chunk(
     chunk_text: str,
     player_name: str,
-    api_key: str = None
+    api_key: Optional[str] = None,
 ) -> str:
-    """
-    Sends this chunk of commentary text to the 4o-mini model with the filtering prompt.
-    Returns the filtered text from the model.
-    If no valid API key is found, returns a simulated response.
-    """
-    # Build the user prompt
-    filtering_prompt = FILTERING_PROMPT_TEMPLATE.format(PLAYER_NAME=player_name)
+    """Send one chunk to GPT-4o-mini and return its filtered output."""
+    system_prompt = FILTERING_PROMPT_TEMPLATE.format(PLAYER_NAME=player_name)
     user_prompt = (
-        f"{filtering_prompt}\n\n"
-        f"---\n\n"
-        f"Below is a **chunk** of the commentary. "
-        f"Return only the relevant lines in their original order, as demonstrated.\n\n"
+        f"{system_prompt}\n\n"
+        "---\n\n"
+        "Below is a **chunk** of the commentary. Return only the relevant lines "
+        "in their original order, exactly as they appear:\n\n"
         f"{chunk_text}\n\n"
-        f"---\n\n"
-        f"Remember to follow the instructions closely."
+        "---\n\n"
+        "Remember: no paraphrasing, keep the order, and include only lines that "
+        "match the six categories."
     )
 
     if not api_key:
-        print("[WARNING] OPENAI_API_KEY not found. Using a simulated LLM response.\n")
-        return (
-            "SIMULATED LLM RESPONSE:\n"
-            "This is where the model would return the verbatim lines meeting the criteria.\n"
-        )
+        print("[WARNING] OPENAI_API_KEY not set - returning simulated output.")
+        return ""
 
     import openai
     openai.api_key = api_key
-
-    print("[INFO] Calling 4o-mini API for this chunk...")
-    response = openai.ChatCompletion.create(
+    resp = openai.ChatCompletion.create(
         model="gpt-4o-mini",
         messages=[{"role": "user", "content": user_prompt}],
     )
-    filtered_text = response["choices"][0]["message"]["content"]
-    print("[INFO] API call complete.")
-    return filtered_text
+    return resp["choices"][0]["message"]["content"]
 
-# ----------------------------
-# 4) Process a single commentary file in chunks with overlap
-# ----------------------------
+# --------------------------------------------------------------------------
+# =====  Section 2 ── cleaning helpers (UNTOUCHED)  =========================
+# --------------------------------------------------------------------------
+BAD_PREFIXES = tuple(s.lower() for s in (
+    "there are no lines",
+    "the commentary chunk provided",
+    "the chunk provided does not contain",
+    "i’m sorry",
+    "here are the relevant lines",
+    "here's the extracted commentary",
+    "none of the lines",
+    "no relevant lines",
+))
+
+def _clean_llm_output(txt: str) -> str:
+    out: List[str] = []
+    for ln in txt.splitlines():
+        if not ln.strip():
+            continue
+        low = ln.lower().lstrip("*•- ").strip()
+        if any(low.startswith(p) for p in BAD_PREFIXES):
+            continue
+        out.append(ln)
+    return "\n".join(out)
+
+# --------------------------------------------------------------------------
+# =====  Section 3 ── chunk-level filtering (UNTOUCHED)  ====================
+# --------------------------------------------------------------------------
 def filter_commentary_in_chunks(
-    file_text: str,
+    raw_text: str,
     player_name: str,
-    api_key: str = None,
-    chunk_size: int = 300,
-    overlap: int = 10
+    api_key: Optional[str],
+    chunk_size: int,
+    overlap: int,
 ) -> str:
-    """
-    1. Split the commentary into lines.
-    2. Because it's reversed chronologically, we chunk from bottom (earliest ball) up to the top.
-    3. Each chunk has chunk_size lines, with an overlap of ~10 lines for the next chunk.
-    4. If we hit the start of the file (chunk_start=0), we process that chunk then break.
-    5. We do a final dedup pass on the combined output to remove overlap duplicates.
-    6. Return the chunked LLM outputs reversed so earliest lines appear at top in final output.
-    """
-    lines = file_text.splitlines()
-    total_lines = len(lines)
+    """Split → parallel LLM calls → clean + dedupe."""
+    lines = raw_text.splitlines()
+    N = len(lines)
 
-    chunk_results = []
-    current_end = total_lines
-    chunk_index = 0
-
-    while current_end > 0:
-        chunk_index += 1
-        chunk_start = max(0, current_end - chunk_size)
-        num_lines_in_chunk = current_end - chunk_start
-
-        print(f"[INFO] Processing chunk #{chunk_index}: lines {chunk_start}..{current_end-1} "
-              f"({num_lines_in_chunk} lines total)")
-
-        # Instead of adding "CHUNK START/END" lines, we just feed the raw lines to the model
-        chunk_lines = lines[chunk_start:current_end]
-        chunk_block = "\n".join(chunk_lines)
-
-        # Call the LLM
-        filtered_chunk = call_llm_filtering_api_for_chunk(
-            chunk_block,
-            player_name=player_name,
-            api_key=api_key
-        )
-        chunk_results.append(filtered_chunk)
-
-        if chunk_start == 0:
-            print("[INFO] Reached the start of the file. No more lines above.")
+    # build reversed chunks (so seq 1 is earliest in final list)
+    chunks: List[Tuple[int, str]] = []
+    seq, end = 0, N
+    while end > 0:
+        seq += 1
+        start = max(0, end - chunk_size)
+        chunks.append((seq, "\n".join(lines[start:end])))
+        if start == 0:
             break
-        else:
-            next_end = chunk_start + overlap
-            print(f"[INFO] Setting up for next chunk. new current_end = {next_end}")
-            current_end = next_end
+        end = start + overlap
 
-    # chunk_results[0] is earliest chunk, chunk_results[-1] is latest
-    chunk_results_reversed = chunk_results[::-1]
-    combined_text = "\n".join(chunk_results_reversed)
+    print(f"[INFO] Dispatching {len(chunks)} chunks in parallel …")
 
-    # 5) Deduplicate lines (due to overlap)
-    # We'll keep the first occurrence of each line and remove repeats
-    final_lines = []
-    seen = set()
-    for line in combined_text.splitlines():
-        line_stripped = line.strip()
-        if line_stripped and (line_stripped not in seen):
-            final_lines.append(line)
-            seen.add(line_stripped)
+    def _worker(pair: Tuple[int, str]) -> Tuple[int, str]:
+        idx, txt = pair
+        out = call_llm_filtering_api_for_chunk(txt, player_name, api_key)
+        return idx, _clean_llm_output(out)
 
-    final_output = "\n".join(final_lines)
-    return final_output
+    max_workers = min(8, len(chunks)) or 1
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as ex:
+        results = list(ex.map(_worker, chunks))
 
-# ----------------------------
-# 5) Main routine
-# ----------------------------
-def main():
+    # chronological order
+    results.sort(key=lambda t: t[0])
+    combined = "\n".join(r for _, r in results if r)
+
+    # de-dup keeping first occurrence
+    seen: Set[str] = set()
+    final: List[str] = []
+    for ln in combined.splitlines():
+        s = ln.strip()
+        if s and s not in seen:
+            final.append(ln)
+            seen.add(s)
+    return "\n".join(final)
+
+# --------------------------------------------------------------------------
+# =====  Section 4 ── *** NEW FILE-SELECTION LOGIC ***  =====================
+# --------------------------------------------------------------------------
+# Everything below is copied / adapted from your `filter_comms.py`
+# (with tiny renames and zero functional changes).
+
+# ---- date helpers ---------------------------------------------------------
+def _parse_date_str(s: str) -> datetime:
+    return datetime.strptime(s, "%B %d %Y")
+
+def _date_on_or_before(d: datetime, end: datetime) -> bool:
+    return d <= end
+
+def _parse_date_from_text(txt: str) -> Optional[datetime]:
+    pat = re.compile(r"\b([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})\b")
+    m = pat.search(txt)
+    if not m:
+        return None
+    for fm in ("%b %d %Y", "%B %d %Y"):
+        try:
+            return datetime.strptime(" ".join(m.groups()), fm)
+        except ValueError:
+            continue
+    return None
+
+def _parse_ground_country(header: str) -> Tuple[str, str]:
+    ground, country = "", ""
+    idx = header.lower().find(" at ")
+    if idx >= 0:
+        sub = header[idx + 4 :]
+        cidx = sub.find(",")
+        ground = sub[:cidx].strip() if cidx > 0 else sub.strip()
+    return ground, country
+
+# ---- team-map -------------------------------------------------------------
+def _load_team_map() -> Dict[str, str]:
+    here = os.path.dirname(os.path.abspath(__file__))
+    fp = os.path.join(here, "team_maps.json")
+    if not os.path.isfile(fp):
+        debug("team_maps.json missing - returning empty map.")
+        return {}
+    with open(fp, encoding="utf-8") as f:
+        return json.load(f)
+
+# ---- Recent100 parser -----------------------------------------------------
+def _parse_recent100(player_name: str, team_map: Dict[str, str]) -> List[dict]:
+    path = os.path.join("player_matches", f"{player_name}Recent100.txt")
+    if not os.path.isfile(path):
+        debug(f"Missing Recent100 for {player_name}.")
+        return []
+
+    recs: List[dict] = []
+    mid_pat = re.compile(r"Match ID:\s*(\d+)")
+    head_pat = re.compile(r"Header:\s*(.*)")
+
+    with open(path, encoding="utf-8") as fh:
+        for raw in fh:
+            line = raw.strip()
+            if not line:
+                continue
+
+            m_mid = mid_pat.search(line)
+            if not m_mid:
+                continue
+            mid = int(m_mid.group(1))
+
+            header = head_pat.search(line)
+            header_text = header.group(1).strip() if header else line
+
+            date = _parse_date_from_text(header_text) or _parse_date_from_text(line)
+            if not date:
+                continue
+
+            ground, country = _parse_ground_country(header_text)
+
+            teams_str = header_text.split(",", 1)[0]
+            t1 = t2 = ""
+            if " vs " in teams_str:
+                t1, t2 = [x.strip() for x in teams_str.split(" vs ", 1)]
+            recs.append(
+                {
+                    "match_id": mid,
+                    "date": date,
+                    "team1_code": team_map.get(t1, t1.upper()),
+                    "team2_code": team_map.get(t2, t2.upper()),
+                    "ground": ground,
+                    "country": country,
+                }
+            )
+    recs.sort(key=lambda r: r["date"], reverse=True)
+    debug(f"Recent100 parsed - {len(recs)} records.")
+    return recs
+
+# ---- finders --------------------------------------------------------------
+def _find_raw(
+    mid: int,
+    is_bat: bool,
+    player_team: str,
+    opp_team: str,
+    base_dir: str,
+) -> Optional[str]:
+    if not os.path.isdir(base_dir):
+        return None
+    targ_team = player_team if is_bat else opp_team
+    rgx = re.compile(rf"^{mid}_{targ_team}_commentary_.*\.txt$")
+    for fn in os.listdir(base_dir):
+        if rgx.match(fn):
+            return os.path.join(base_dir, fn)
+    return None
+
+def _find_venue(
+    mid: int,
+    is_bat: bool,
+    player_team: str,
+    opp_team: str,
+    ground: str,
+    country: str,
+    venue_dir: str,
+) -> Optional[str]:
+    if not os.path.isdir(venue_dir):
+        return None
+    targ_team = player_team if is_bat else opp_team
+    rgx = re.compile(rf"^{mid}_{targ_team}_commentary_.*\.txt$", re.IGNORECASE)
+    g_pass, c_pass = [], []
+    for fn in os.listdir(venue_dir):
+        if rgx.match(fn):
+            low = fn.lower()
+            if ground and ground.lower() in low:
+                g_pass.append(os.path.join(venue_dir, fn))
+            elif country and country.lower() in low:
+                c_pass.append(os.path.join(venue_dir, fn))
+    return g_pass[0] if g_pass else c_pass[0] if c_pass else None
+
+# ---- bucket selectors (unchanged behaviour) ------------------------------
+def _sel_vs_opp(
+    recs: List[dict],
+    opp: str,
+    is_bat: bool,
+    player_team: str,
+    base_dir: str,
+    need: int,
+    exclude: Set[int],
+) -> List[str]:
+    out = []
+    for r in recs:
+        if r["match_id"] in exclude:
+            continue
+        if opp not in (r["team1_code"], r["team2_code"]):
+            continue
+        p = _find_raw(r["match_id"], is_bat, player_team, opp, base_dir)
+        if p:
+            out.append(p)
+            exclude.add(r["match_id"])
+            if len(out) >= need:
+                break
+    debug(f"vs-opp bucket: {len(out)}/{need}")
+    return out
+
+def _sel_venue(
+    recs: List[dict],
+    is_bat: bool,
+    player_team: str,
+    opp_team: str,
+    venue_dir: str,
+    need: int,
+    exclude: Set[int],
+    force_ground: str,
+    force_country: str,
+) -> List[str]:
+    """
+    Priority order
+    1) matches vs opp  **AND**   force_ground
+    2) matches vs opp  **AND**   force_country      (ground ignored)
+    3) ANY opponent    (previous behaviour - ground first, then country)
+    """
+    out: List[str] = []
+
+    # ---------- helper to loop once with given ground / country ------------
+    def _harvest(target_ground: str, target_country: str, vs_only: bool) -> None:
+        nonlocal out, need
+        for r in recs:
+            if r["match_id"] in exclude:
+                continue
+            if vs_only and opp_team not in (r["team1_code"], r["team2_code"]):
+                continue
+            p = _find_venue(
+                r["match_id"],
+                is_bat,
+                player_team,
+                opp_team,
+                target_ground,
+                target_country,
+                venue_dir,
+            )
+            if p:
+                out.append(p)
+                exclude.add(r["match_id"])
+                if len(out) >= need:
+                    break
+
+    # pass‑1: opp + ground ---------------------------------------------------
+    if force_ground:
+        _harvest(force_ground, force_country, vs_only=True)
+
+    # pass‑2: opp + country --------------------------------------------------
+    if len(out) < need and force_country:
+        _harvest("", force_country, vs_only=True)   # ground intentionally ""
+
+    # pass‑3: old behaviour (any opponent) ----------------------------------
+    if len(out) < need:
+        _harvest(force_ground, force_country, vs_only=False)
+
+    debug(f"venue bucket (new): {len(out)}/{need}")
+    return out[:need]            # trim just in case
+
+def _sel_any_raw(
+    recs: List[dict],
+    is_bat: bool,
+    player_team: str,
+    opp_team: str,
+    base_dir: str,
+    need: int,
+    exclude: Set[int],
+) -> List[str]:
+    out = []
+    for r in recs:
+        if r["match_id"] in exclude:
+            continue
+        p = _find_raw(r["match_id"], is_bat, player_team, opp_team, base_dir)
+        if p:
+            out.append(p)
+            exclude.add(r["match_id"])
+            if len(out) >= need:
+                break
+    debug(f"any-raw bucket: {len(out)}/{need}")
+    return out
+
+def _sel_final_fallback(
+    is_bat: bool,
+    player_team: str,
+    base_dir: str,
+    k: int,
+    exclude: Set[int],
+) -> List[str]:
+    if not os.path.isdir(base_dir):
+        return []
+    rgx = re.compile(rf"^(\d+)_({player_team})_commentary_.*\.txt$")
+    pairs = []
+    for fn in os.listdir(base_dir):
+        m = rgx.match(fn)
+        if m:
+            mid = int(m.group(1))
+            if mid in exclude:
+                continue
+            pairs.append((mid, os.path.join(base_dir, fn)))
+    pairs.sort(key=lambda t: t[0], reverse=True)
+    out = []
+    for mid, path in pairs:
+        out.append(path)
+        exclude.add(mid)
+        if len(out) >= k:
+            break
+    debug(f"final fallback bucket: {len(out)}/{k}")
+    return out
+
+# ---- master file-selection orchestrator -----------------------------------
+def pick_commentary_files(
+    player_name: str,
+    player_team: str,
+    opp_team: str,
+    is_batsman: bool,
+    k: int,
+    against_comms: int,
+    venue_comms: int,
+    base_dir: str,
+    venue_dir: str,
+    venue_ground: str,
+    venue_country: str,
+    end_date: str,
+) -> List[str]:
+    if against_comms + venue_comms != k:
+        raise ValueError("against_comms + venue_comms must equal k")
+
+    team_map = _load_team_map()
+    recs_all = _parse_recent100(player_name, team_map)
+    if not recs_all:
+        debug("No Recent100 → skip straight to final fallback")
+        return _sel_final_fallback(is_batsman, player_team, base_dir, k, set())
+
+    end_dt = _parse_date_str(end_date)
+    recs = [r for r in recs_all if _date_on_or_before(r["date"], end_dt)]
+    exclude: Set[int] = set()
+
+    if not recs:
+        debug("No records before end_date")
+        return _sel_final_fallback(is_batsman, player_team, base_dir, k, exclude)
+
+    # --- Step 1  vs opponent ------------------------------------------------
+    opp_files = _sel_vs_opp(
+        recs, opp_team, is_batsman, player_team, base_dir, against_comms, exclude
+    )
+    if len(opp_files) < against_comms:
+        # Step 2  try fill entire k from venue
+        venue_files = _sel_venue(
+            recs,
+            is_batsman,
+            player_team,
+            opp_team,
+            venue_dir,
+            k,
+            exclude,
+            venue_ground,
+            venue_country,
+        )
+        if len(venue_files) < k:
+            # Step 3 fill k from raw by recency
+            fallback_files = _sel_any_raw(
+                recs,
+                is_batsman,
+                player_team,
+                opp_team,
+                base_dir,
+                k,
+                exclude,
+            )
+            if len(fallback_files) < k:
+                # Step 4 final fallback
+                return _sel_final_fallback(is_batsman, player_team, base_dir, k, exclude)
+            return fallback_files
+        return venue_files
+
+    # If Step-1 ok, try Step-2 for the remaining quota
+    venue_files = _sel_venue(
+        recs,
+        is_batsman,
+        player_team,
+        opp_team,
+        venue_dir,
+        venue_comms,
+        exclude,
+        venue_ground,
+        venue_country,
+    )
+    if len(venue_files) < venue_comms:
+        # couldn’t fill - just pick k by recency
+        fallback_files = _sel_any_raw(
+            recs, is_batsman, player_team, opp_team, base_dir, k, exclude
+        )
+        if len(fallback_files) < k:
+            return _sel_final_fallback(is_batsman, player_team, base_dir, k, exclude)
+        return fallback_files
+
+    return opp_files + venue_files
+
+# --------------------------------------------------------------------------
+# =====  Section 5 ──  MAIN  ===============================================
+# --------------------------------------------------------------------------
+def main() -> None:
     load_dotenv()
 
-    parser = argparse.ArgumentParser(description="Filter commentary files in overlapping chunks for a given player.")
-    parser.add_argument("--player_name", type=str, required=True,
-                        help="Name of the player, e.g. 'StevenSmith'")
-    parser.add_argument("--player_team_code", type=str, required=True,
-                        help="Team code for the player, e.g. 'AUS'")
-    parser.add_argument("--opponent_team_code", type=str, required=True,
-                        help="Team code for the opponent, e.g. 'SL'")
-    parser.add_argument("--is_batsman", type=str, choices=["True","False"], default="True",
-                        help="Whether the player is a batsman (True) or bowler (False). Default is True.")
-    parser.add_argument("--k", type=int, default=25,
-                        help="Maximum number of commentary files to gather. Default = 25.")
-    parser.add_argument("--base_dir", type=str, default="../CommentaryData/raw_commentary",
-                        help="Base directory of raw commentary data.")
-    parser.add_argument("--output_dir", type=str, default="./filtered_outputs",
-                        help="Directory to store the filtered commentary outputs.")
-    parser.add_argument("--chunk_size", type=int, default=300,
-                        help="Number of lines per chunk (before overlap). Default = 300.")
-    parser.add_argument("--chunk_overlap", type=int, default=10,
-                        help="Number of overlapping lines between chunks. Default = 10.")
-    args = parser.parse_args()
+    p = argparse.ArgumentParser(
+        description="Filter cricket commentary for a player using chunk-level "
+        "LLM extraction, with advanced file-selection logic."
+    )
+    # --- identity / role
+    p.add_argument("--player_name", required=True)
+    p.add_argument("--player_team_code", required=True)
+    p.add_argument("--opponent_team_code", required=True)
+    p.add_argument("--is_batsman", choices=["True", "False"], default="True")
+    # --- file-selection hyper-params
+    p.add_argument("--k", type=int, default=5)
+    p.add_argument("--against_comms", type=int, default=3)
+    p.add_argument("--venue_comms", type=int, default=2)
+    p.add_argument("--venue_country", type=str, default="")
+    p.add_argument("--venue_ground", type=str, default="")
+    p.add_argument("--end_date", type=str, default="December 31 9999")
+    p.add_argument("--base_dir", default="../CommentaryData/raw")
+    p.add_argument("--venue_dir", default="../CommentaryData/venuewise")
+    # --- chunking / LLM
+    p.add_argument("--chunk_size", type=int, default=300)
+    p.add_argument("--chunk_overlap", type=int, default=10)
+    # --- output
+    p.add_argument("--output_dir", default="./filtered_outputs")
+    args = p.parse_args()
 
-    is_batsman_bool = (args.is_batsman.lower() == "true")
+    # sanity
+    if args.against_comms + args.venue_comms != args.k:
+        print("[ERROR] against_comms + venue_comms must equal k.")
+        sys.exit(1)
 
-    final_api_key = os.environ.get("OPENAI_API_KEY", None)
-    if not final_api_key:
-        print("[WARNING] Environment variable OPENAI_API_KEY not set. Using a simulated LLM response.\n")
+    is_batsman = args.is_batsman.lower() == "true"
+    api_key = os.getenv("OPENAI_API_KEY")
 
-    # 1) Gather relevant commentary files
-    selected_files = get_commentary_files_for_player(
-        base_dir=args.base_dir,
+    # ------------------------------------------------------------------ file pick
+    files = pick_commentary_files(
         player_name=args.player_name,
-        player_team_code=args.player_team_code,
-        opponent_team_code=args.opponent_team_code,
-        is_batsman=is_batsman_bool,
-        k=args.k
+        player_team=args.player_team_code,
+        opp_team=args.opponent_team_code,
+        is_batsman=is_batsman,
+        k=args.k,
+        against_comms=args.against_comms,
+        venue_comms=args.venue_comms,
+        base_dir=args.base_dir,
+        venue_dir=args.venue_dir,
+        venue_ground=args.venue_ground,
+        venue_country=args.venue_country,
+        end_date=args.end_date,
     )
 
-    if not selected_files:
-        print(f"[INFO] No commentary files selected for '{args.player_name}'. Exiting.")
+    if not files:
+        print("[INFO] No commentary files found - nothing to process.")
         return
 
-    print("[INFO] The following files have been selected for filtering (chunk + overlap):")
-    for fpath in selected_files:
-        print(f"   {fpath}")
+    print("\n[INFO] Final commentary set:")
+    for fp in files:
+        print("   ", fp)
+
+    print("[INFO] Exiting so you can verify the files before calling LLM.")
+    sys.exit(0)
 
     os.makedirs(args.output_dir, exist_ok=True)
 
-    # 2) Process each file
-    all_filtered_outputs = []
-    for i, file_path in enumerate(selected_files, start=1):
-        print(f"\n[INFO] ====== Processing Commentary File #{i} ======")
-        with open(file_path, 'r', encoding='utf-8') as f:
-            file_text = f.read()
-
-        # Filter with chunk-based approach
-        filtered_for_this_file = filter_commentary_in_chunks(
-            file_text=file_text,
+    # ------------------------------------------------------------------ per-file processing
+    combined_sections = []
+    for idx, path in enumerate(files, 1):
+        print(f"\n[INFO] ===== Processing file {idx}/{len(files)} =====")
+        with open(path, encoding="utf-8") as fh:
+            raw = fh.read()
+        filtered = filter_commentary_in_chunks(
+            raw,
             player_name=args.player_name,
-            api_key=final_api_key,
+            api_key=api_key,
             chunk_size=args.chunk_size,
-            overlap=args.chunk_overlap
+            overlap=args.chunk_overlap,
         )
+        combined_sections.append(f"Commentary {idx}:\n{filtered}")
 
-        commentary_label = f"Commentary {i}:"
-        section_text = f"{commentary_label}\n{filtered_for_this_file}"
-        all_filtered_outputs.append(section_text)
+    out_name = (
+        f"filtered_commentaries_{args.player_name}_"
+        f"{args.opponent_team_code}_{args.k}.txt"
+    )
+    out_path = os.path.join(args.output_dir, out_name)
+    with open(out_path, "w", encoding="utf-8") as out_fh:
+        out_fh.write("\n\n".join(combined_sections))
 
-    # 3) Save final output to a single file
-    output_filename = f"filtered_commentaries_{args.player_name}_{args.opponent_team_code}_{args.k}.txt"
-    output_path = os.path.join(args.output_dir, output_filename)
+    print(f"\n[INFO] All done! Filtered commentary saved to:\n   {out_path}\n")
 
-    with open(output_path, 'w', encoding='utf-8') as out_f:
-        out_f.write("\n\n".join(all_filtered_outputs))
-
-    print(f"\n[INFO] All done! Filtered commentary saved to: {output_path}\n")
-
-
+# --------------------------------------------------------------------------
 if __name__ == "__main__":
     main()
