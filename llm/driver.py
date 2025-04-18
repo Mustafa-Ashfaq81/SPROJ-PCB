@@ -33,7 +33,7 @@ An end-to-end script that:
 
 Usage:
 ------
-python driver.py --player_name "Steven Smith" --team_name "Australia" --opponent_team "Pakistan" --start_year 2015 --end_date "December 23 2020" --k 5 --venue_country "Australia" --venue_ground "MCG" --match_context "1st ODI Series Match at Melbourne 4th Nov" --is_batsman True --chunk_size 100 --chunk_overlap 20 --ground_truth "Caught-Fielder" --include_general_stats False --include_venue_stats False --include_against_stats False --commentary_on False
+python driver.py --player_name "Steven Smith" --team_name "Australia" --opponent_team "Pakistan" --start_year 2015 --end_date "December 23 2020" --k 5 --venue_country "Australia" --venue_ground "Melbourne" --match_context "1st ODI Series Match at Melbourne 4th Nov" --is_batsman True --ground_truth "Caught-Fielder" --include_general_stats False --include_venue_stats False --include_against_stats False --commentary_on False
 
 If you want to use commentary via script only:
  --commentary_on True --use_script True --use_txt False
@@ -322,16 +322,12 @@ def main():
 
     parser.add_argument("--is_batsman", default="True", choices=["True", "False"],
                         help="Whether the player is batting (for filter_comms). Default True.")
-    parser.add_argument("--chunk_size", type=int, default=100,
-                        help="Chunk size for commentary splitting in filter_comms. Default 100.")
-    parser.add_argument("--chunk_overlap", type=int, default=20,
-                        help="Overlap size for commentary splitting in filter_comms. Default 20.")
 
     # MODIFICATION #2: Add ground_truth argument
     parser.add_argument("--ground_truth", default="N/A",
                         help="(Optional) Provide the ground truth mode of dismissal, e.g. 'Caught-Fielder'")
 
-    # ----------- NEW ARGS (needed for filter_comms_chunks.py) -----------
+    # ----------- NEW ARGS (needed for filter_comms.py) -----------
     parser.add_argument("--venue_country", required=True, help="Country filter for venuewise commentary")
     parser.add_argument("--venue_ground", default="", help="Ground filter for venuewise commentary")
 
@@ -488,12 +484,12 @@ def main():
             else:
                 commentary_text = f"[No commentary found at {txt_commentary_path}]"
         elif use_script_flag:
-            logging.info("Using commentary from filter_comms_chunks.py script ...")
+            logging.info("Using commentary from filter_comms.py script ...")
             comm_player_name = args.player_name.replace(" ", "")
             player_team_code = team_map.get(team_name, team_name)
             opponent_team_code = opponent_short
             cmd_filter = (
-                f"python filter_comms_chunks.py "
+                f"python filter_comms.py "
                 f"--player_name \"{comm_player_name}\" "
                 f"--player_team_code \"{player_team_code}\" "
                 f"--opponent_team_code \"{opponent_team_code}\" "
@@ -506,8 +502,6 @@ def main():
                 f"--end_date \"{args.end_date}\" "
                 f"--base_dir \"../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw\" "
                 f"--venue_dir \"../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise\" "
-                f"--chunk_size {args.chunk_size} "
-                f"--chunk_overlap {args.chunk_overlap} "
                 f"--output_dir \"./filtered_outputs\" "
             )
             try:
@@ -577,6 +571,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **Provide a probability breakdown** for all eight modes that sums to 100 %.  
 
 5. **Important Prompt Requirements**  
+   - **Use Only Provided Data** - Do **not** consult the web or any external knowledge; rely **exclusively** on the statistics and commentary contained in this prompt.  
    - **Clarity of Reasoning**  
    - **No Contradictions**  
    - **Concise Final Statement**  
@@ -671,11 +666,11 @@ and then follow the **Exact Output Formatting Requirements** above.
 
     logging.info(f"Master prompt written to {prompt_file_path}")
 
-    logging.info(
-        "Exiting now so you can review master_prompt_output.txt. "
-        "Remove the sys.exit(0) call below once satisfied with the prompt."
-    )
-    sys.exit(0)
+    # logging.info(
+    #     "Exiting now so you can review master_prompt_output.txt. "
+    #     "Remove the sys.exit(0) call below once satisfied with the prompt."
+    # )
+    # sys.exit(0)
 
     # 6) LLM call
     logging.info("Sending MASTER PROMPT to the real LLM ...")

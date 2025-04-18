@@ -4,17 +4,17 @@ filter_comms.py
 
 Usage (example):
 ----------------
-python filter_comms.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "IND" --is_batsman True --k 5 --against_comms 3 --venue_comms 2 --venue_country "India" --venue_ground "Mohali" --end_date "December 23 2025" --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" --venue_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise" --output_dir "./filtered_outputs"
+python filter_comms.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "IND" --is_batsman True --k 5 --against_comms 0 --venue_comms 5 --venue_country "India" --venue_ground "Mohali" --end_date "December 23 2025" --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" --venue_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise" --output_dir "./filtered_outputs"
 
 Overview
---------
-1. Tries to fill `against_comms` from "raw" (vs opponent).
-2. If that fails, tries to fill **all** `k` from "venuewise".
-3. If that fails, tries to fill **all** `k` from raw ignoring constraints (recency).
-4. **Now** if we *still* have fewer than `k`, we do a final fallback:
-   - We gather **any** commentary files from the "raw" folder that match the player's team code,
-   - Sort by match_id descending,
-   - Take the top k.
+---------------------------------------------------------------
+1. Try to fill `against_comms` from the **raw vs-opponent** bucket.
+2. If that fails, try to fill **all `k`** from **venuewise**.
+3. If still short, **top-up vs-opponent again** (new step) before falling back.
+4. Pick the remainder from **raw (recency)**, then (if required) the blind
+   team-code fallback sorted by match-id.
+5. When step-1 succeeds but `venue_comms` cannot be met, the same extra
+   **top-up vs-opponent** pass is run before generic fallback.
 
 Thus the script **always** returns *some* final commentary set, ensuring a valid output in all scenarios.
 """
@@ -24,7 +24,7 @@ import re
 import sys
 import json
 import argparse
-from typing import List, Optional, Tuple, Set   # <- Set added
+from typing import List, Optional, Tuple, Set
 from dotenv import load_dotenv
 from datetime import datetime
 import openai
@@ -51,7 +51,7 @@ Your task is to filter out and return **only** those lines that satisfy **all** 
       - Observations from commentators about {PLAYER_NAME}'s batting, style, or readiness.
 
    d) **Dismissals in the Innings**:
-      - Any line describing how *any* batter got out (not just {PLAYER_NAME}).
+      - Any and all lines describing how *any* batter got dismissed (not just {PLAYER_NAME}). This gives us the context of how other batters are getting dismissed.
 
    e) **Ball-by-Ball Entries Involving {PLAYER_NAME}**:
       - Lines describing deliveries faced by {PLAYER_NAME}, runs scored, boundaries, edges, near-misses, bowler tactics, 
@@ -61,7 +61,7 @@ Your task is to filter out and return **only** those lines that satisfy **all** 
       - The exact commentary line stating how {PLAYER_NAME} was dismissed (if applicable).
 
 2) For **each** commentary, return those exact lines in the **original order**. 
-   - Do not paraphrase or summarize. 
+   - Do not paraphrase or summarize or give any additional quotes from yourself. 
    - Do not include irrelevant lines that do not match these criteria.
 
 3) **Be extremely thorough**. Carefully check each commentary to avoid missing any relevant line. 
@@ -534,197 +534,152 @@ def call_llm(prompt: str, api_key: str = None) -> str:
 def main():
     load_dotenv()
 
-    parser = argparse.ArgumentParser(description="Filter commentary files with advanced selection logic, then build a single LLM prompt.")
-    parser.add_argument("--player_name", type=str, required=True,
-                        help="Name of the player, e.g. 'StevenSmith'")
-    parser.add_argument("--player_team_code", type=str, required=True,
-                        help="Team code for the player, e.g. 'AUS'")
-    parser.add_argument("--opponent_team_code", type=str, required=True,
-                        help="Team code for the opponent, e.g. 'IND'")
-    parser.add_argument("--is_batsman", type=str, choices=["True","False"], default="True",
-                        help="Whether the player is a batsman (True) or bowler (False). Default is True.")
-    parser.add_argument("--k", type=int, default=5,
-                        help="Total # of commentary files to gather = against_comms + venue_comms.")
-    parser.add_argument("--against_comms", type=int, default=3,
-                        help="Number of commentary files to pick vs the specified opponent.")
-    parser.add_argument("--venue_comms", type=int, default=2,
-                        help="Number of commentary files to pick from the venue folder.")
-    parser.add_argument("--venue_country", type=str, default="",
-                        help="Optional forced country name for venue-based picks (overrides record's country).")
-    parser.add_argument("--venue_ground", type=str, default="",
-                        help="Optional forced ground name for venue-based picks (overrides record's ground).")
-    parser.add_argument("--end_date", type=str, default="December 31 9999",
-                        help="Ignore matches after this date, e.g. 'December 23 2025'.")
-    parser.add_argument("--base_dir", type=str, default="../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw",
-                        help="Directory for the normal commentary data.")
-    parser.add_argument("--venue_dir", type=str, default="../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise",
-                        help="Directory for the venuewise commentary data.")
-    parser.add_argument("--output_dir", type=str, default="./filtered_outputs",
-                        help="Directory to store the final prompt or filtered output.")
+    # ---------------------------- argument parsing ------------------------
+    parser = argparse.ArgumentParser(
+        description="Filter commentary files with advanced selection logic, "
+                    "then build a single LLM prompt."
+    )
+    parser.add_argument("--player_name", required=True)
+    parser.add_argument("--player_team_code", required=True)
+    parser.add_argument("--opponent_team_code", required=True)
+    parser.add_argument("--is_batsman", choices=["True", "False"], default="True")
+    parser.add_argument("--k", type=int, default=5)
+    parser.add_argument("--against_comms", type=int, default=3)
+    parser.add_argument("--venue_comms", type=int, default=2)
+    parser.add_argument("--venue_country", default="")
+    parser.add_argument("--venue_ground", default="")
+    parser.add_argument("--end_date", default="December 31 9999")
+    parser.add_argument("--base_dir",
+                        default="../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw")
+    parser.add_argument("--venue_dir",
+                        default="../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise")
+    parser.add_argument("--output_dir", default="./filtered_outputs")
     args = parser.parse_args()
 
-    if (args.against_comms + args.venue_comms) != args.k:
-        print(f"[ERROR] against_comms + venue_comms != k. Got {args.against_comms}+{args.venue_comms} != {args.k}")
+    if args.against_comms + args.venue_comms != args.k:
+        print(f"[ERROR] against_comms + venue_comms != k ({args.against_comms}+"
+              f"{args.venue_comms} != {args.k})")
         sys.exit(1)
 
-    is_batsman_bool = (args.is_batsman.lower() == "true")
-    final_api_key = os.environ.get("OPENAI_API_KEY", None)
-    if not final_api_key:
-        debug_print("No OPENAI_API_KEY found; we'll produce a simulated LLM response.")
+    is_batsman_bool = args.is_batsman.lower() == "true"
+    api_key = os.getenv("OPENAI_API_KEY")
 
-    # 1) Load team map
+    # ------------------------- data prep ----------------------------------
     team_map = load_team_map()
-
-    # 2) Parse player's Recent100
     all_records = parse_recent100_file(args.player_name, team_map)
     if not all_records:
-        print(f"[INFO] No 'Recent100' data for {args.player_name}. Exiting.")
+        print("[INFO] No Recent100 data; exiting.")
         return
 
-    # 3) Filter records by end_date
     try:
         end_dt = parse_date_str(args.end_date)
     except ValueError:
-        print(f"[ERROR] Could not parse end_date='{args.end_date}'. Use 'Month DD YYYY' format.")
+        print(f"[ERROR] Could not parse end_date '{args.end_date}'.")
         sys.exit(1)
 
     valid_records = [r for r in all_records if date_is_on_or_before(r["date"], end_dt)]
+    exclude_match_ids: Set[int] = set()
 
-    exclude_match_ids: Set[int] = set()   # <- track chosen ids
-
+    # ---------------------- selection logic -------------------------------
     if not valid_records:
-        print(f"[INFO] No matches found on or before {args.end_date} for {args.player_name}.")
-        print("[INFO] We'll still attempt final fallback to get some commentary from the bank.\n")
         final_files = select_final_fallback_k(
-            is_batsman=is_batsman_bool,
-            player_team_code=args.player_team_code,
-            base_dir=args.base_dir,
-            k=args.k,
-            exclude_match_ids=exclude_match_ids
+            is_batsman_bool, args.player_team_code, args.base_dir,
+            args.k, exclude_match_ids
         )
-        if not final_files:
-            print("[INFO] Even the final fallback found no commentary. Exiting.")
-            return
     else:
-        # 4) Attempt to fill 'against_comms'
+        # ---- Step-1  vs-opponent -----------------------------------------
         opp_files = select_files_against_opposition(
-            records=valid_records,
-            opponent_code=args.opponent_team_code,
-            is_batsman=is_batsman_bool,
-            player_team_code=args.player_team_code,
-            base_dir=args.base_dir,
-            needed=args.against_comms,
-            exclude_match_ids=exclude_match_ids
+            valid_records, args.opponent_team_code, is_batsman_bool,
+            args.player_team_code, args.base_dir, args.against_comms,
+            exclude_match_ids
         )
 
-        final_files: List[str] = []
         if len(opp_files) < args.against_comms:
-            print("[INFO] Could not fill 'against_comms'. Trying to fill all k from venue...")
+            # ---- Step-2  try whole-k from venue --------------------------
             venue_files = select_files_venuewise(
-                records=valid_records,
-                is_batsman=is_batsman_bool,
-                player_team_code=args.player_team_code,
-                opponent_team_code=args.opponent_team_code,
-                venue_dir=args.venue_dir,
-                needed=args.k,
-                forced_ground=args.venue_ground,
-                forced_country=args.venue_country,
-                exclude_match_ids=exclude_match_ids
+                valid_records, is_batsman_bool, args.player_team_code,
+                args.opponent_team_code, args.venue_dir, args.k,
+                exclude_match_ids, args.venue_ground, args.venue_country
             )
+
+            # ---- NEW top-up vs-opponent before generic fallback ----------
             if len(venue_files) < args.k:
-                print("[INFO] Could not fill k from venue. Fallback to picking k from raw by recency.")
-                fallback_files = select_files_any_raw(
-                    records=valid_records,
-                    is_batsman=is_batsman_bool,
-                    player_team_code=args.player_team_code,
-                    opponent_team_code=args.opponent_team_code,
-                    base_dir=args.base_dir,
-                    needed=args.k,
-                    exclude_match_ids=exclude_match_ids
-                )
-                if len(fallback_files) < args.k:
-                    print("[INFO] Even fallback did not yield enough. We'll do our final fallback now.")
-                    final_files = select_final_fallback_k(
-                        is_batsman=is_batsman_bool,
-                        player_team_code=args.player_team_code,
-                        base_dir=args.base_dir,
-                        k=args.k,
-                        exclude_match_ids=exclude_match_ids
+                need_left = args.k - len(venue_files)
+                venue_files.extend(
+                    select_files_against_opposition(
+                        valid_records, args.opponent_team_code, is_batsman_bool,
+                        args.player_team_code, args.base_dir, need_left,
+                        exclude_match_ids
                     )
-                else:
-                    final_files = fallback_files
+                )
+            # --------------------------------------------------------------
+
+            if len(venue_files) < args.k:
+                final_files = select_files_any_raw(
+                    valid_records, is_batsman_bool, args.player_team_code,
+                    args.opponent_team_code, args.base_dir, args.k,
+                    exclude_match_ids
+                )
+                if len(final_files) < args.k:
+                    final_files = select_final_fallback_k(
+                        is_batsman_bool, args.player_team_code,
+                        args.base_dir, args.k, exclude_match_ids
+                    )
             else:
                 final_files = venue_files
         else:
-            debug_print(f"Got {len(opp_files)} files from opponent bucket (need={args.against_comms}).")
-            # next, fill 'venue_comms'
+            # ---- Step-2  venue bucket just for venue_comms ---------------
             venue_files = select_files_venuewise(
-                records=valid_records,
-                is_batsman=is_batsman_bool,
-                player_team_code=args.player_team_code,
-                opponent_team_code=args.opponent_team_code,
-                venue_dir=args.venue_dir,
-                needed=args.venue_comms,
-                forced_ground=args.venue_ground,
-                forced_country=args.venue_country,
-                exclude_match_ids=exclude_match_ids
+                valid_records, is_batsman_bool, args.player_team_code,
+                args.opponent_team_code, args.venue_dir, args.venue_comms,
+                exclude_match_ids, args.venue_ground, args.venue_country
             )
+
+            # ---- NEW top-up vs-opponent before generic fallback ----------
             if len(venue_files) < args.venue_comms:
-                print("[INFO] Could not fill 'venue_comms'. We'll pick all k from raw by recency.")
-                fallback_files = select_files_any_raw(
-                    records=valid_records,
-                    is_batsman=is_batsman_bool,
-                    player_team_code=args.player_team_code,
-                    opponent_team_code=args.opponent_team_code,
-                    base_dir=args.base_dir,
-                    needed=args.k,
-                    exclude_match_ids=exclude_match_ids
-                )
-                if len(fallback_files) < args.k:
-                    print("[INFO] Even fallback did not yield enough. We'll do our final fallback now.")
-                    final_files = select_final_fallback_k(
-                        is_batsman=is_batsman_bool,
-                        player_team_code=args.player_team_code,
-                        base_dir=args.base_dir,
-                        k=args.k,
-                        exclude_match_ids=exclude_match_ids
+                need_left = args.venue_comms - len(venue_files)
+                venue_files.extend(
+                    select_files_against_opposition(
+                        valid_records, args.opponent_team_code, is_batsman_bool,
+                        args.player_team_code, args.base_dir, need_left,
+                        exclude_match_ids
                     )
-                else:
-                    final_files = fallback_files
+                )
+            # --------------------------------------------------------------
+
+            if len(venue_files) < args.venue_comms:
+                final_files = select_files_any_raw(
+                    valid_records, is_batsman_bool, args.player_team_code,
+                    args.opponent_team_code, args.base_dir, args.k,
+                    exclude_match_ids
+                )
+                if len(final_files) < args.k:
+                    final_files = select_final_fallback_k(
+                        is_batsman_bool, args.player_team_code,
+                        args.base_dir, args.k, exclude_match_ids
+                    )
             else:
-                debug_print(f"Got {len(venue_files)} from venue. Combining with {len(opp_files)} vs opponent.")
                 final_files = opp_files + venue_files
 
     if not final_files:
-        print("[INFO] No commentary files from normal or fallback logic. Attempting final fallback.")
-        final_files = select_final_fallback_k(
-            is_batsman=is_batsman_bool,
-            player_team_code=args.player_team_code,
-            base_dir=args.base_dir,
-            k=args.k,
-            exclude_match_ids=exclude_match_ids
-        )
-        if not final_files:
-            print("[INFO] Even the final fallback found no commentary. Exiting.")
-            return
+        print("[INFO] No commentary files found. Exiting.")
+        return
 
     print("\n[INFO] Final chosen commentary files:")
-    for path in final_files:
-        print(f"   {path}")
+    for fp in final_files:
+        print("   ", fp)
 
     os.makedirs(args.output_dir, exist_ok=True)
-    prompt = build_single_prompt(final_files, args.player_name)
+    prompt_text = build_single_prompt(final_files, args.player_name)
+    prompt_path = os.path.join(args.output_dir, "comm_prompt.txt")
+    with open(prompt_path, "w", encoding="utf-8") as fh:
+        fh.write(prompt_text)
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    prompt_file_path = os.path.join(script_dir, "comm_prompt.txt")
-    with open(prompt_file_path, "w", encoding="utf-8") as out_f:
-        out_f.write(prompt)
+    print(f"\n[INFO] Prompt saved to {prompt_path}")
+    # print("[INFO] Exiting so you can review the prompt before calling the LLM.")
+    # sys.exit(0)
 
-    print(f"\n[INFO] Prompt file saved at: {prompt_file_path}")
-    print("[INFO] Exiting so you can verify the prompt before calling LLM.")
-    sys.exit(0)
-
-    filtered_result = call_llm(prompt, final_api_key)
+    filtered_result = call_llm(prompt_text, api_key)
     output_filename = f"filtered_commentaries_{args.player_name}_{args.opponent_team_code}_{args.k}.txt"
     output_path = os.path.join(args.output_dir, output_filename)
     
