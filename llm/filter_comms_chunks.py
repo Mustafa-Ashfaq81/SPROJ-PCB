@@ -4,7 +4,7 @@ filter_comms_chunks.py
 
 Usage
 -----------
-python filter_comms_chunks.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "IND" --is_batsman True --k 5 --against_comms 3 --venue_comms 2 --venue_country "India" --venue_ground "Mohali" --end_date "December 23 2025" --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" --venue_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise" --output_dir "./filtered_outputs"
+python filter_comms_chunks.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "IND" --is_batsman True --k 5 --against_comms 3 --venue_comms 2 --venue_country "India" --venue_ground "Mohali" --end_date "December 23 2025" --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" --venue_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise" --chunk_size 100 --chunk_overlap 20 --output_dir "./filtered_outputs"
 
 High-level flow
 ---------------
@@ -511,6 +511,13 @@ def pick_commentary_files(
         )
         if len(venue_files) < k:
             # Step 3 fill k from raw by recency
+            need_left = k - len(venue_files)          # NEW
+            # top‑up from raw vs‑opponent first       # NEW
+            more_opp = _sel_vs_opp(
+                recs, opp_team, is_batsman, player_team,
+                base_dir, need_left, exclude
+            )
+            venue_files.extend(more_opp)              # NEW
             fallback_files = _sel_any_raw(
                 recs,
                 is_batsman,
@@ -540,6 +547,12 @@ def pick_commentary_files(
     )
     if len(venue_files) < venue_comms:
         # couldn’t fill - just pick k by recency
+        need_left = venue_comms - len(venue_files)    # NEW
+        more_opp = _sel_vs_opp(
+            recs, opp_team, is_batsman, player_team,
+            base_dir, need_left, exclude
+        )
+        venue_files.extend(more_opp)
         fallback_files = _sel_any_raw(
             recs, is_batsman, player_team, opp_team, base_dir, k, exclude
         )
@@ -612,8 +625,9 @@ def main() -> None:
     for fp in files:
         print("   ", fp)
 
-    print("[INFO] Exiting so you can verify the files before calling LLM.")
-    sys.exit(0)
+    # print(args.chunk_size, args.chunk_overlap)
+    # print("[INFO] Exiting so you can verify the files before calling LLM.")
+    # sys.exit(0)
 
     os.makedirs(args.output_dir, exist_ok=True)
 

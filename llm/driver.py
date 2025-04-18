@@ -20,7 +20,7 @@ An end-to-end script that:
    - Against-Teams snippet
    - Commentary (if on, in whichever mode)
 5) Sends that prompt to an LLM (real openai.ChatCompletion call).
-6) Parses the LLM’s textual output to extract:
+6) Parses the LLM's textual output to extract:
    - Probability array (Bowled, Caught-Fielder, Caught-Wicketkeeper, Stumped, LBW, Hit wicket, Caught and Bowled, Not-Out),
    - Final predicted mode,
    - Ground truth (if any or "N/A").
@@ -33,7 +33,7 @@ An end-to-end script that:
 
 Usage:
 ------
-python driver.py --player_name "Steven Smith" --team_name "Australia" --opponent_team "Pakistan" --start_year 2015 --end_date "December 23 2020" --commentary_on True --use_script True --use_txt False --k 10 --venue "Australia" --match_context "1st ODI Series Match at Melbourne 4th Nov" --is_batsman True --chunk_size 100 --chunk_overlap 20 --ground_truth "Caught-Fielder"
+python driver.py --player_name "Steven Smith" --team_name "Australia" --opponent_team "Pakistan" --start_year 2015 --end_date "December 23 2020" --k 5 --venue_country "Australia" --venue_ground "MCG" --match_context "1st ODI Series Match at Melbourne 4th Nov" --is_batsman True --chunk_size 100 --chunk_overlap 20 --ground_truth "Caught-Fielder" --include_general_stats False --include_venue_stats False --include_against_stats False --commentary_on False
 
 If you want to use commentary via script only:
  --commentary_on True --use_script True --use_txt False
@@ -57,6 +57,7 @@ import logging
 import openai
 from datetime import datetime
 from dateutil.parser import parse
+import sys
 
 # We use dotenv to load OPENAI_API_KEY from .env if present
 from dotenv import load_dotenv
@@ -158,7 +159,7 @@ def parse_llm_analysis(llm_text, player_name):
             LBW, Hit-Wicket, Caught-and-Bowled, Not-Out ]
       - label_array (same order, just strings)
       - predicted_mode (the single final mode from LLM text)
-      - ground_truth => "N/A"
+      - ground truth => "N/A"
       - reasoning => everything before "probability breakdown" (if that phrase exists),
         or the entire text otherwise.
 
@@ -309,12 +310,11 @@ def main():
     parser.add_argument("--start_year", default="all", help="Start year for stats or 'all'")
     parser.add_argument("--end_date", default="all", help="End date for stats or 'all'")
 
-    parser.add_argument("--venue", required=True, help="Venue for the match, e.g. 'Dubai'")
     parser.add_argument("--match_context", required=True, help="Context for the match, e.g. 'ICC World Cup group match 2'")
 
     parser.add_argument("--commentary_on", default="False", choices=["True", "False"],
                         help="Whether to embed commentary at all. Default False.")
-    parser.add_argument("--use_script", default="False", choices=["True", "False"],
+    parser.add_argument("--use_script", default="True", choices=["True", "False"],
                         help="If True, commentary is gathered by calling filter_comms.py.")
     parser.add_argument("--use_txt", default="False", choices=["True", "False"],
                         help="If True, commentary is read from a local txt file.")
@@ -331,6 +331,18 @@ def main():
     parser.add_argument("--ground_truth", default="N/A",
                         help="(Optional) Provide the ground truth mode of dismissal, e.g. 'Caught-Fielder'")
 
+    # ----------- NEW ARGS (needed for filter_comms_chunks.py) -----------
+    parser.add_argument("--venue_country", required=True, help="Country filter for venuewise commentary")
+    parser.add_argument("--venue_ground", default="", help="Ground filter for venuewise commentary")
+
+    # ----------- NEW COMPONENT TOGGLE ARGS -----------
+    parser.add_argument("--include_general_stats", default="True", choices=["True", "False"],
+                        help="Include General Stats section in master prompt. Default True.")
+    parser.add_argument("--include_venue_stats", default="True", choices=["True", "False"],
+                        help="Include Venue Wise Stats section in master prompt. Default True.")
+    parser.add_argument("--include_against_stats", default="True", choices=["True", "False"],
+                        help="Include Against Teams Stats section in master prompt. Default True.")
+
     args = parser.parse_args()
 
     player_name = args.player_name
@@ -339,13 +351,20 @@ def main():
     start_year = args.start_year
     raw_end_date = args.end_date
     end_date_parsed = parse_end_date(raw_end_date)  # 'YYYY_MM_DD' or 'all'
-    venue = args.venue
     match_context = args.match_context
     commentary_on = (args.commentary_on.lower() == "true")
     use_script_flag = (args.use_script.lower() == "true")
     use_txt_flag = (args.use_txt.lower() == "true")
     k = args.k
     cli_ground_truth = args.ground_truth
+
+    include_general_stats = (args.include_general_stats.lower() == "true")
+    include_venue_stats = (args.include_venue_stats.lower() == "true")
+    include_against_stats = (args.include_against_stats.lower() == "true")
+
+    # NEW: expose for later
+    venue_country_arg = args.venue_country
+    venue_ground_arg = args.venue_ground
 
     logging.info("Starting driver process...")
 
@@ -403,7 +422,7 @@ def main():
     venue_snippet_block = {}
     if "venues" in venue_stats:
         for k_ in venue_stats["venues"].keys():
-            if venue.lower() in k_.lower():
+            if venue_country_arg.lower() in k_.lower():
                 venue_snippet_block = {k_: venue_stats["venues"][k_]}
                 break
 
@@ -469,21 +488,27 @@ def main():
             else:
                 commentary_text = f"[No commentary found at {txt_commentary_path}]"
         elif use_script_flag:
-            logging.info("Using commentary from filter_comms.py script ...")
+            logging.info("Using commentary from filter_comms_chunks.py script ...")
             comm_player_name = args.player_name.replace(" ", "")
             player_team_code = team_map.get(team_name, team_name)
             opponent_team_code = opponent_short
             cmd_filter = (
-                f"python filter_comms.py "
+                f"python filter_comms_chunks.py "
                 f"--player_name \"{comm_player_name}\" "
                 f"--player_team_code \"{player_team_code}\" "
                 f"--opponent_team_code \"{opponent_team_code}\" "
                 f"--is_batsman {args.is_batsman} "
                 f"--k {k} "
-                f"--base_dir \"../cricinfo_data_scrapping/CommentaryData/raw_commentary\" "
-                f"--output_dir \"./filtered_outputs\" "
+                f"--against_comms 0 "
+                f"--venue_comms {k} "
+                f"--venue_country \"{venue_country_arg}\" "
+                f"--venue_ground \"{venue_ground_arg}\" "
+                f"--end_date \"{args.end_date}\" "
+                f"--base_dir \"../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw\" "
+                f"--venue_dir \"../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise\" "
                 f"--chunk_size {args.chunk_size} "
-                f"--chunk_overlap {args.chunk_overlap}"
+                f"--chunk_overlap {args.chunk_overlap} "
+                f"--output_dir \"./filtered_outputs\" "
             )
             try:
                 run_subprocess(cmd_filter)
@@ -506,7 +531,8 @@ def main():
     # 5) Build MASTER PROMPT
     logging.info("Building MASTER PROMPT ...")
 
-    master_prompt = f"""\
+    # ----- Prompt header through formatting requirements -----
+    master_prompt_header = f"""\
 ## **Prompt Title**  
 **Cricket Dismissal Prediction for {player_name}: Balancing Commentary and Statistical Data**
 
@@ -520,35 +546,35 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 ## **Instructional Outline**
 
 1. **Objective**  
-   - **Match**: {match_context}, {team_name} vs {opponent_team} in {venue}  
+   - **Match**: {match_context}, {team_name} vs {opponent_team} in {venue_country_arg}  
    - **Primary Task**: Predict the most probable mode of dismissal for {player_name}.  
-   - **Key Emphasis**: Pay special attention to: **Venue Stats of {player_name}** because it will tell you how this player performs in the venue the the prediction match will be played, **{player_name} Stats against the Opponent** because it will tell you how the player performs against the specific team, and most important **recent commentary(if available)** detailing {player_name}’s current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
+   - **Key Emphasis**: Pay special attention to: **Venue Stats of {player_name}** because it will tell you how this player performs in the venue the prediction match will be played, **{player_name} Stats against the Opponent** because it will tell you how the player performs against the specific team, and most important **recent commentary (if available)** detailing {player_name}'s current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
 
 2. **Data Sources**  
    - **A. Statistical Data (JSON Files)**  
      - Career-long batting averages, strike rates, typical modes of dismissal, venue-wise and opposition-wise splits, etc.  
-   - **B. Recent Match Commentary(if available)** (Crucial for capturing short-term context)  
+   - **B. Recent Match Commentary (if available)** (Crucial for capturing short-term context)  
      1. **Venue and Match Context**  
      2. **Pitch Conditions**  
      3. **Comments/Quotes by or about {player_name}**  
      4. **How All Batters in the Innings Got Out**  
      5. **All Ball-by-Ball Entries Involving {player_name}**  
-     6. **{player_name}’s Mode of Dismissal** (if it already happened)
+     6. **{player_name}'s Mode of Dismissal** (if it already happened)
 
 3. **Analysis Approach (Chain-of-Thought Reasoning)**  
-   - **Step 1: Data Examination (Long-Term Stats)**  
-   - **Step 2: Commentary Examination (Recent Context)**  
-   - **Step 3: Integrate and Prioritize**  
+   - **Step 1:** Data Examination (Long-Term Stats)  
+   - **Step 2:** Commentary Examination (Recent Context)  
+   - **Step 3:** Integrate and Prioritize  
 
    **Detailed Reasoning**  
-   Please show how you arrive at your final predicted mode of dismissal by summarizing:
-   1) Player’s inherent weaknesses and past patterns.
-   2) Conditions of the pitch or environment favoring certain modes of dismissal.
+   Show how you arrive at your final predicted mode of dismissal by summarizing:  
+   1) Player's inherent weaknesses and past patterns.  
+   2) Conditions of the pitch or environment favoring certain modes of dismissal.  
    3) Any relevant points from the commentary or recent form.
 
 4. **Prediction and Justification**  
    - **Predict the Most Likely Dismissal Method** (bowled, caught-fielder, caught-wk, stumped, lbw, hit wicket, caught and bowled, not-out).  
-   - **Provide a probability breakdown** for all eight modes that sums to 100%.  
+   - **Provide a probability breakdown** for all eight modes that sums to 100 %.  
 
 5. **Important Prompt Requirements**  
    - **Clarity of Reasoning**  
@@ -556,42 +582,87 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **Concise Final Statement**  
 
 6. **Exact Output Formatting Requirements**  
-   - Present your probability breakdown EXACTLY as follows (one entry per line, preserving the exact text and punctuation so it can be parsed automatically):
-     Bowled: <number>%
-     Caught by a fielder: <number>%
-     Caught by the wicketkeeper: <number>%
-     Stumped: <number>%
-     LBW: <number>%
-     Hit wicket: <number>%
-     Caught and bowled: <number>%
-     Not-out: <number>%
-   - Then, finish with this exact text (again, to be parsed automatically):
-     most likely mode of dismissal for {player_name} is <mode>
+   - Present your probability breakdown EXACTLY as follows (one entry per line, preserving the exact text and punctuation so it can be parsed automatically):  
+     Bowled: <number>%  
+     Caught by a fielder: <number>%  
+     Caught by the wicketkeeper: <number>%  
+     Stumped: <number>%  
+     LBW: <number>%  
+     Hit wicket: <number>%  
+     Caught and bowled: <number>%  
+     Not-out: <number>%  
+   - Then, finish with this exact text (again, to be parsed automatically):  
+     most likely mode of dismissal for {player_name} is <mode>\
+"""
+
+    # ----- Conditional sections -----
+    # General Stats
+    general_stats_content = (
+        json.dumps(general_stats, indent=4)
+        if include_general_stats else "{General Stats Not Available}"
+    )
+    general_stats_section = f"""\
+
 
 ---
 
 ## ** General Stats Data of {player_name}: **
-{json.dumps(general_stats, indent=4)}
+{general_stats_content}\
+"""
+
+    # Venue-wise Stats
+    venue_stats_content = (
+        json.dumps(venue_snippet_block, indent=4) if venue_snippet_block else "(No relevant data for this venue)"
+    ) if include_venue_stats else "{Venue Wise Stats Not Available}"
+    venue_stats_section = f"""\
+
 
 ---
 
-## **Venue Wise Stats Data of {player_name} in {venue}:**
-{json.dumps(venue_snippet_block, indent=4) if venue_snippet_block else "(No relevant data for this venue)"}
+## **Venue Wise Stats Data of {player_name} in {venue_country_arg}:**
+{venue_stats_content}\
+"""
+
+    # Against-Teams Stats
+    against_stats_content = (
+        json.dumps(snippet_block, indent=4) if snippet_block else "(No relevant data for this opponent)"
+    ) if include_against_stats else "{Against Teams Stats Not Available}"
+    against_stats_section = f"""\
+
 
 ---
 
 ## **Against Teams Stats Data of {player_name} against {opponent_team}:**
-{json.dumps(snippet_block, indent=4) if snippet_block else "(No relevant data for this opponent)"}
+{against_stats_content}\
+"""
+
+    # Commentary
+    commentary_content = commentary_text if commentary_on else "{Commentary Data Not Available}"
+    commentary_section = f"""\
+
 
 ---
 
-## **Commentary Data(For k recent matches prior to the predicted match) of {player_name}**:
-{commentary_text}
+## **Commentary Data (for k recent matches prior to the predicted match) of {player_name}:**
+{commentary_content}\
+"""
+
+    master_prompt_footer = """\
+
 
 ---
 Please produce your integrated analysis with step-by-step reasoning as described,
 and then follow the **Exact Output Formatting Requirements** above.
 """
+
+    master_prompt = (
+        master_prompt_header
+        + general_stats_section
+        + venue_stats_section
+        + against_stats_section
+        + commentary_section
+        + master_prompt_footer
+    )
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     prompt_file_path = os.path.join(script_dir, "master_prompt_output.txt")
@@ -600,12 +671,11 @@ and then follow the **Exact Output Formatting Requirements** above.
 
     logging.info(f"Master prompt written to {prompt_file_path}")
 
-    # logging.info(
-    #     "Exiting now so you can review master_prompt_output.txt. "
-    #     "Remove the sys.exit(0) call below once satisfied with the prompt."
-    # )
-    # import sys
-    # sys.exit(0)
+    logging.info(
+        "Exiting now so you can review master_prompt_output.txt. "
+        "Remove the sys.exit(0) call below once satisfied with the prompt."
+    )
+    sys.exit(0)
 
     # 6) LLM call
     logging.info("Sending MASTER PROMPT to the real LLM ...")
@@ -633,7 +703,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     label_str = ", ".join(sorted_label_array)
 
     num_commentaries = k
-    prediction_match = f"{match_context} {team_name} vs {opponent_team} in {venue}"
+    prediction_match = f"{match_context} {team_name} vs {opponent_team} in {venue_country_arg} {venue_ground_arg}"
     commentary_flag = "on" if commentary_on else "off"
 
     # sanitize reasoning
@@ -642,21 +712,26 @@ and then follow the **Exact Output Formatting Requirements** above.
     reasoning_sanitized = re.sub(r"\s+", " ", reasoning_sanitized).strip()
     reasoning_sanitized = reasoning_sanitized.replace("\"", "'")
     reasoning_sanitized = reasoning_sanitized.replace(",", ";")
-
-    # remove or ignore all non-ASCII characters so Excel won't fill them with '?' placeholders
     reasoning_sanitized = reasoning_sanitized.encode("ascii", "ignore").decode("ascii")
 
+    general_stats_flag        = "on" if include_general_stats   else "off"
+    venuewise_stats_flag      = "on" if include_venue_stats     else "off"
+    against_teams_stats_flag  = "on" if include_against_stats   else "off"
+    commentary_flag           = "on" if commentary_on           else "off"
 
     csv_fields = [
         player_name,
-        train_data_span,
-        str(num_commentaries),
-        commentary_flag,
         prediction_match,
+        train_data_span,
+        general_stats_flag,
+        venuewise_stats_flag,
+        against_teams_stats_flag,
+        commentary_flag,
+        str(num_commentaries),
         f"\"{prob_str}\"",
         f"\"{label_str}\"",
-        final_ground_truth,
         predicted_mode,
+        final_ground_truth,
         f"\"{reasoning_sanitized}\""
     ]
     csv_line = ",".join(csv_fields)
@@ -666,13 +741,16 @@ and then follow the **Exact Output Formatting Requirements** above.
 
     with open(csv_output_path, "a", encoding="utf-8") as f:
         if write_header:
-            f.write("Batsman,train_data_span,#_commentaries,commentary,prediction_match,"
-                    "mode_of_dismissal_predicted_probability,"
-                    "mode_of_dismissal_predicted,"
-                    "mode_of_dismissal_ground_truth,"
-                    "most_likely_mode,"
-                    "reasoning\n"
-                    )
+            f.write(
+                "player_name,prediction_match,train_data_span,"
+                "general_stats_flag,venuewise_stats_flag,against_teams_stats_flag,commentary,"
+                "#_commentaries,"
+                "mode_of_dismissal_predicted_probability,"
+                "mode_of_dismissal_predicted,"
+                "most_likely_mode,"
+                "mode_of_dismissal_ground_truth,"
+                "reasoning\n"
+            )
         f.write(csv_line + "\n")
 
     logging.info(f"Prediction row appended to: {csv_output_path}")
@@ -680,7 +758,6 @@ and then follow the **Exact Output Formatting Requirements** above.
     logging.info("Final CSV row:")
     print(csv_line)
     logging.info("Driver process complete.")
-
 
 if __name__ == "__main__":
     main()
