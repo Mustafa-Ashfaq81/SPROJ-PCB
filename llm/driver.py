@@ -151,29 +151,16 @@ def call_llm_api(master_prompt_text, api_key=None):
 
     return final_text
 
-def parse_llm_analysis(llm_text, player_name):
+def parse_llm_analysis(llm_text: str, player_name: str):
     """
-    Given the LLM's final analysis text, parse out:
-      - prob_array (in this fixed order):
-          [ Bowled, Caught-Fielder, Caught-Wicketkeeper, Stumped,
-            LBW, Hit-Wicket, Caught-and-Bowled, Not-Out ]
-      - label_array (same order, just strings)
-      - predicted_mode (the single final mode from LLM text)
-      - ground truth => "N/A"
-      - reasoning => everything before "probability breakdown" (if that phrase exists),
-        or the entire text otherwise.
-
-    IMPORTANT: We match lines like:
-        Bowled: 15%
-        LBW: 20%
-        Caught by a fielder: 40%
-        ...
-    exactly. Then we match:
-        most likely mode of dismissal for <player_name> is <mode>
-    to get the final predicted_mode.
+    Parse the LLM's answer and return:
+        prob_map ........ dict {label → float %}
+        pred_mode ....... string (from the “most likely …” sentence or "")
+        reasoning ....... string (everything before “probability breakdown”)
+    The 8 canonical labels are fixed; any missing entry gets 0 %.
     """
 
-    label_array = [
+    CANON = [
         "Bowled",
         "Caught-Fielder",
         "Caught-Wicketkeeper",
@@ -181,12 +168,10 @@ def parse_llm_analysis(llm_text, player_name):
         "LBW",
         "Hit-Wicket",
         "Caught-and-Bowled",
-        "Not-Out"
+        "Not-Out",
     ]
-    prob_array = [0] * 8  # 8 possible dismissal modes
 
-    # 1) Create a lookup for synonyms.
-    #    (Everything on the left is lowercase; everything on the right is the final label.)
+    # ------------------------- regexes & look‑ups -------------------------
     synonyms = {
         "bowled": "Bowled",
         "caught by a fielder": "Caught-Fielder",
@@ -198,87 +183,62 @@ def parse_llm_analysis(llm_text, player_name):
         "caught and bowled": "Caught-and-Bowled",
         "caught & bowled": "Caught-and-Bowled",
         "not-out": "Not-Out",
-        "not out": "Not-Out"
+        "not out": "Not-Out",
     }
 
-    # 2) Regex to match lines like:  "Bowled: 10%"
-    #    NOTE: Adjusted to allow bullet/dash prefix, e.g. "• Bowled: 13%"
     prob_line_pattern = re.compile(
-        r'^\s*(?:[*\-•]+\s*)?(?P<mode>[^:：]+?)\s*[:：]\s*(?P<pct>\d+)\%',
-        re.IGNORECASE | re.MULTILINE
+        r"""
+        ^[ \t\u00A0\u200B]*                                    # leading whitespace
+        (?:[*\-–—‣●▪•\u2022\u2023\u25E6\u2043]+\s*)?           # bullet glyphs
+        (?P<mode>[^:：–—\n]+?)                                 # mode text
+        \s*[:：–—]\s*                                          # separator
+        (?P<pct>\d+(?:\.\d+)?)\s*                              # number (int/float)
+        (?:%|％|percent)?\s*$                                  # percent token
+        """,
+        re.IGNORECASE | re.MULTILINE | re.VERBOSE | re.UNICODE,
     )
 
-    # 3) Go through each line that fits "<something>: <digits>%"
-    for match in prob_line_pattern.finditer(llm_text):
-        raw_mode = match.group("mode").strip().lower()
-        pct_str = match.group("pct")
-        pct_val = int(pct_str)
-
-        # Normalize the mode via synonyms
-        if raw_mode in synonyms:
-            final_label = synonyms[raw_mode]
-            idx = label_array.index(final_label)
-            prob_array[idx] = pct_val
-        else:
-            # Fallback attempt for partial matches, if needed
-            if "caught by a fielder" in raw_mode:
-                prob_array[label_array.index("Caught-Fielder")] = pct_val
-            elif "bowled" in raw_mode:
-                prob_array[label_array.index("Bowled")] = pct_val
-            elif "wicketkeeper" in raw_mode or "caught wk" in raw_mode:
-                prob_array[label_array.index("Caught-Wicketkeeper")] = pct_val
-            elif "stumped" in raw_mode:
-                prob_array[label_array.index("Stumped")] = pct_val
-            elif "lbw" in raw_mode:
-                prob_array[label_array.index("LBW")] = pct_val
-            elif "hit wicket" in raw_mode:
-                prob_array[label_array.index("Hit-Wicket")] = pct_val
-            elif "caught and bowled" in raw_mode or "caught & bowled" in raw_mode:
-                prob_array[label_array.index("Caught-and-Bowled")] = pct_val
-            elif "not" in raw_mode:
-                prob_array[label_array.index("Not-Out")] = pct_val
-
-    # 4) Find final predicted mode.
-    pred_pattern = re.compile(
-        rf"most\s+likely\s+mode\s+of\s+dismissal\s+for\s+{re.escape(player_name)}\s+is\s+(?P<pmode>.+)$",
-        re.IGNORECASE | re.MULTILINE
+    pred_sentence = re.compile(
+        rf"""most\s+likely\s+mode\s+of\s+dismissal\s+for\s+{re.escape(player_name)}\s+is\s+(?P<pmode>.+?)\s*$""",
+        re.IGNORECASE | re.MULTILINE,
     )
-    pred_mode = "N/A"
-    pm = pred_pattern.search(llm_text)
+
+    # ----------------------------- parsing -------------------------------
+    prob_map = {lbl: 0.0 for lbl in CANON}
+
+    for m in prob_line_pattern.finditer(llm_text):
+        mode_raw = m.group("mode").strip().lower()
+        pct_val = float(m.group("pct"))
+
+        # canonicalise mode name
+        mode_key = None
+        if mode_raw in synonyms:
+            mode_key = synonyms[mode_raw]
+        else:  # fuzzy contains
+            for k, v in synonyms.items():
+                if k in mode_raw:
+                    mode_key = v
+                    break
+        if mode_key:
+            prob_map[mode_key] = pct_val
+
+    # ---------- predicted mode from narrative sentence ----------
+    pm = pred_sentence.search(llm_text)
+    predicted_mode = ""
     if pm:
-        raw_pred = pm.group("pmode").strip().lower()
-        raw_pred = raw_pred.strip('"\'')
-        if raw_pred in synonyms:
-            pred_mode = synonyms[raw_pred]
-        else:
-            if "caught by a fielder" in raw_pred:
-                pred_mode = "Caught-Fielder"
-            elif "bowled" in raw_pred:
-                pred_mode = "Bowled"
-            elif "wicketkeeper" in raw_pred or "caught wk" in raw_pred:
-                pred_mode = "Caught-Wicketkeeper"
-            elif "stumped" in raw_pred:
-                pred_mode = "Stumped"
-            elif "lbw" in raw_pred:
-                pred_mode = "LBW"
-            elif "hit wicket" in raw_pred:
-                pred_mode = "Hit-Wicket"
-            elif "caught and bowled" in raw_pred or "caught & bowled" in raw_pred:
-                pred_mode = "Caught-and-Bowled"
-            elif "not" in raw_pred:
-                pred_mode = "Not-Out"
-            else:
-                pred_mode = raw_pred.title()
+        pmode_raw = pm.group("pmode").strip().lower().strip("\"'")
+        predicted_mode = synonyms.get(pmode_raw, "")
+        if not predicted_mode:  # fuzzy fallback
+            for k, v in synonyms.items():
+                if k in pmode_raw:
+                    predicted_mode = v
+                    break
 
-    ground_truth = "N/A"
+    # ---------- reasoning ----------
+    reasoning_split = re.search(r"probability breakdown", llm_text, re.IGNORECASE)
+    reasoning = llm_text[: reasoning_split.start()].strip() if reasoning_split else llm_text.strip()
 
-    reasoning_marker = re.search(r'probability breakdown', llm_text, re.IGNORECASE)
-    if reasoning_marker:
-        reasoning = llm_text[:reasoning_marker.start()].strip()
-    else:
-        reasoning = llm_text.strip()
-
-    return prob_array, label_array, pred_mode, ground_truth, reasoning
+    return prob_map, predicted_mode, reasoning
 
 def parse_end_date(end_date_str):
     """
@@ -540,7 +500,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 ## **Instructional Outline**
 
 1. **Objective**  
-   - **Match**: {match_context}, {team_name} vs {opponent_team} in {venue_country_arg}  
+   - **Match**: {match_context}
    - **Primary Task**: Predict the most probable mode of dismissal for {player_name}.  
    - **Key Emphasis**: Pay special attention to: **Venue Stats of {player_name}** because it will tell you how this player performs in the venue the prediction match will be played, **{player_name} Stats against the Opponent** because it will tell you how the player performs against the specific team, and most important **recent commentary (if available)** detailing {player_name}'s current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
 
@@ -554,6 +514,12 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
      4. **How All Batters in the Innings Got Out**  
      5. **All Ball-by-Ball Entries Involving {player_name}**  
      6. **{player_name}'s Mode of Dismissal** (if it already happened)
+
+> **Stat Heading Guide (read carefully before analysis)**  
+> • The **“batting”** object contains the core performance metrics for {player_name} and should drive most of your reasoning.  
+> • The **“dismissals”** array shows how those wickets were taken by bowler type — consider this *high-signal* information.  
+> • The **“bowling”** and **“bowling_vs_batting_type”** objects are included for completeness; for a specialist batter they are usually *low-signal* and may be weighted lightly.  
+> • Treat any `null` values as “not applicable / data unavailable.”
 
 3. **Analysis Approach (Chain-of-Thought Reasoning)**  
    - **Step 1:** Data Examination (Long-Term Stats)  
@@ -683,22 +649,29 @@ and then follow the **Exact Output Formatting Requirements** above.
 
     # parse
     logging.info("Parsing the LLM response for probabilities & final predicted mode ...")
-    prob_array, label_array, predicted_mode, parsed_ground_truth, reasoning_text = parse_llm_analysis(llm_response_text, player_name)
+    prob_map, narrative_mode, reasoning_text = parse_llm_analysis(
+        llm_response_text, player_name
+    )
 
-    # MODIFICATION #2 => use the user-provided ground_truth, else "N/A"
-    final_ground_truth = cli_ground_truth if cli_ground_truth else parsed_ground_truth
+    # Sort descending by probability
+    sorted_items = sorted(prob_map.items(), key=lambda kv: kv[1], reverse=True)
 
-    # MODIFICATION #1 => sort by probability descending
-    zipped = list(zip(prob_array, label_array))
-    zipped.sort(key=lambda x: x[0], reverse=True)
-    sorted_prob_array = [str(item[0]) for item in zipped]
-    sorted_label_array = [item[1] for item in zipped]
+    prob_str   = ", ".join(
+        f"{int(p) if p.is_integer() else p:g}" for _, p in sorted_items
+    )
+    label_str  = ", ".join(lbl for lbl, _ in sorted_items)
 
-    prob_str = ", ".join(sorted_prob_array)
-    label_str = ", ".join(sorted_label_array)
+    # Ensure “most_likely_mode” == top label (unless all zeros)
+    top_label = sorted_items[0][0] if sorted_items and sorted_items[0][1] > 0 else "N/A"
+    if not narrative_mode or narrative_mode.lower() != top_label.lower():
+        logging.warning(
+            f"[Mismatch] Narrative said '{narrative_mode}' but highest‑probability is '{top_label}'. "
+            "Using the highest probability."
+        )
+    predicted_mode = top_label
 
     num_commentaries = k
-    prediction_match = f"{match_context} {team_name} vs {opponent_team} in {venue_country_arg} {venue_ground_arg}"
+    prediction_match = f"{match_context}"
     commentary_flag = "on" if commentary_on else "off"
 
     # sanitize reasoning
@@ -726,7 +699,7 @@ and then follow the **Exact Output Formatting Requirements** above.
         f"\"{prob_str}\"",
         f"\"{label_str}\"",
         predicted_mode,
-        final_ground_truth,
+        cli_ground_truth,
         f"\"{reasoning_sanitized}\""
     ]
     csv_line = ",".join(csv_fields)

@@ -16,7 +16,7 @@ Your task is to filter out and return **only** those lines that satisfy **all** 
       - Observations from commentators about StevenSmith's batting, style, or readiness.
 
    d) **Dismissals in the Innings**:
-      - Any line describing how *any* batter got out (not just StevenSmith).
+      - Any and all lines describing how *any* batter got dismissed (not just StevenSmith). This gives us the context of how other batters are getting dismissed.
 
    e) **Ball-by-Ball Entries Involving StevenSmith**:
       - Lines describing deliveries faced by StevenSmith, runs scored, boundaries, edges, near-misses, bowler tactics, 
@@ -26,7 +26,7 @@ Your task is to filter out and return **only** those lines that satisfy **all** 
       - The exact commentary line stating how StevenSmith was dismissed (if applicable).
 
 2) For **each** commentary, return those exact lines in the **original order**. 
-   - Do not paraphrase or summarize. 
+   - Do not paraphrase or summarize or give any additional quotes from yourself. 
    - Do not include irrelevant lines that do not match these criteria.
 
 3) **Be extremely thorough**. Carefully check each commentary to avoid missing any relevant line. 

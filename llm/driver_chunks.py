@@ -546,7 +546,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 ## **Instructional Outline**
 
 1. **Objective**  
-   - **Match**: {match_context}, {team_name} vs {opponent_team} in {venue_country_arg}  
+   - **Match**: {match_context} 
    - **Primary Task**: Predict the most probable mode of dismissal for {player_name}.  
    - **Key Emphasis**: Pay special attention to: **Venue Stats of {player_name}** because it will tell you how this player performs in the venue the prediction match will be played, **{player_name} Stats against the Opponent** because it will tell you how the player performs against the specific team, and most important **recent commentary (if available)** detailing {player_name}'s current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
 
@@ -560,6 +560,12 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
      4. **How All Batters in the Innings Got Out**  
      5. **All Ball-by-Ball Entries Involving {player_name}**  
      6. **{player_name}'s Mode of Dismissal** (if it already happened)
+
+> **Stat Heading Guide (read carefully before analysis)**  
+> • The **“batting”** object contains the core performance metrics for {player_name} and should drive most of your reasoning.  
+> • The **“dismissals”** array shows how those wickets were taken by bowler type — consider this *high-signal* information.  
+> • The **“bowling”** and **“bowling_vs_batting_type”** objects are included for completeness; for a specialist batter they are usually *low-signal* and may be weighted lightly.  
+> • Treat any `null` values as “not applicable / data unavailable.”
 
 3. **Analysis Approach (Chain-of-Thought Reasoning)**  
    - **Step 1:** Data Examination (Long-Term Stats)  
@@ -704,7 +710,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     label_str = ", ".join(sorted_label_array)
 
     num_commentaries = k
-    prediction_match = f"{match_context} {team_name} vs {opponent_team} in {venue_country_arg} {venue_ground_arg}"
+    prediction_match = f"{match_context}"
     commentary_flag = "on" if commentary_on else "off"
 
     # sanitize reasoning
