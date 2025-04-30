@@ -138,7 +138,7 @@ def call_llm_api(master_prompt_text, api_key=None):
 
     try:
         response = openai.ChatCompletion.create(
-            model="o3-mini",
+            model="gpt-4o-mini",
             messages=[{"role": "user", "content": master_prompt_text}],
         )
         final_text = response["choices"][0]["message"]["content"]
@@ -444,12 +444,12 @@ def main():
             else:
                 commentary_text = f"[No commentary found at {txt_commentary_path}]"
         elif use_script_flag:
-            logging.info("Using commentary from filter_comms.py script ...")
+            logging.info("Using commentary from filter_recent_comms.py script ...")
             comm_player_name = args.player_name.replace(" ", "")
             player_team_code = team_map.get(team_name, team_name)
             opponent_team_code = opponent_short
             cmd_filter = (
-                f"python filter_comms.py "
+                f"python filter_recent_comms.py "
                 f"--player_name \"{comm_player_name}\" "
                 f"--player_team_code \"{player_team_code}\" "
                 f"--opponent_team_code \"{opponent_team_code}\" "
@@ -468,7 +468,7 @@ def main():
                 run_subprocess(cmd_filter)
                 filtered_path = (
                     f"filtered_outputs/filtered_commentaries_"
-                    f"{safe_player_name_for_commentary}_{opponent_short}_{k}.txt"
+                    f"{safe_player_name_for_commentary}_{player_team_code}_{k}.txt"
                 )
                 if os.path.isfile(filtered_path):
                     with open(filtered_path, 'r', encoding='utf-8') as fc:
