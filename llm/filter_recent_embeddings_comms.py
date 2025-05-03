@@ -3,28 +3,28 @@
 filter_recent_embeddings_comms.py
 =================================
 
-A drop-in replacement for *filter_recent_comms.py* that uses
-`text-embedding-ada-002` to semantically filter commentary lines.
+A drop-in replacement for *filter_recent_comms.py* that now:
+• Uses `text-embedding-ada-002` to semantically filter commentary lines, **and**
+• Processes the chosen `k` commentary files in **parallel** while keeping their
+  final ordering intact.
 
-Usage (same CLI as before):
-python3 filter_recent_embeddings_comms.py --player_name "StevenSmith" \
-  --player_team_code "AUS" --opponent_team_code "IND" \
-  --is_batsman True --k 2 --end_date "December 23 2025" \
-  --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" \
-  --output_dir "./filtered_outputs"
+Usage:
+    python filter_recent_embeddings_comms.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "IND" --is_batsman True --k 5 --against_comms 0 --venue_comms 0 --venue_country "India" --venue_ground "Mohali" --end_date "December 23 2025" --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" --venue_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise" --output_dir "./filtered_outputs"
 """
 
 from __future__ import annotations
 
 import argparse
+import concurrent.futures as cf
 import math
 import os
 import re
 import sys
 import time
+import threading
 from calendar import month_abbr, month_name
 from datetime import datetime
-from typing import List, Tuple, Optional, Set
+from typing import List, Optional, Tuple
 
 from dotenv import load_dotenv
 import openai
@@ -99,7 +99,7 @@ def text_contains_name(path: str, regexes: List[re.Pattern]) -> bool:
 def collect_candidates(
     raw_dir: str, team_code: str, end_dt: datetime
 ) -> List[Tuple[datetime, str]]:
-    out = []
+    out: List[Tuple[datetime, str]] = []
     for fn in os.listdir(raw_dir):
         m = FILE_RE.match(fn)
         if not m or m.group("team") != team_code:
@@ -121,15 +121,30 @@ def cosine(a: List[float], b: List[float]) -> float:
     return dot / (na * nb) if na and nb else 0.0
 
 
+# global token tracker (thread-safe)
+_total_tokens_used = 0
+_tokens_lock = threading.Lock()
+
+
+def _add_tokens(n: int) -> None:
+    global _total_tokens_used
+    with _tokens_lock:
+        _total_tokens_used += n
+
+
 def embed_texts(
-    texts: List[str], model: str = "text-embedding-ada-002"
+    texts: List[str],
+    model: str = "text-embedding-ada-002",
 ) -> List[List[float]]:
-    clean = [t for t in texts if isinstance(t, str) and t.strip()]
+    """Call OpenAI Embedding and return vectors; thread-safe token count."""
+    clean: List[str] = [t for t in texts if isinstance(t, str) and t.strip()]
     if not clean:
         return [[] for _ in texts]
+
     for attempt in range(4):
         try:
             rsp = openai.Embedding.create(input=clean, model=model)
+            _add_tokens(rsp.get("usage", {}).get("total_tokens", 0))
             embs = {d["index"]: d["embedding"] for d in rsp["data"]}
             return [embs.get(i, []) for i in range(len(texts))]
         except openai.error.OpenAIError as e:
@@ -158,7 +173,10 @@ def build_category_vecs(player: str) -> List[List[float]]:
 
 
 def keep_line(
-    line: str, vec: List[float], cat_vecs: List[List[float]], player: str
+    line: str,
+    vec: List[float],
+    cat_vecs: List[List[float]],
+    player: str,
 ) -> bool:
     if player.lower() in line.lower():
         return True
@@ -168,7 +186,8 @@ def keep_line(
 def filter_file(path: str, player: str, cat_vecs: List[List[float]]) -> List[str]:
     with open(path, encoding="utf-8") as fh:
         lines = [ln.rstrip("\n") for ln in fh]
-    kept = []
+
+    kept: List[str] = []
     for i in range(0, len(lines), BATCH):
         chunk = lines[i : i + BATCH]
         vecs = embed_texts(chunk)
@@ -199,7 +218,7 @@ def main() -> None:
         default="../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw",
     )
     ap.add_argument("--output_dir", default="./filtered_outputs")
-    # legacy args (ignored)
+    # legacy / ignored args
     ap.add_argument("--against_comms")
     ap.add_argument("--venue_comms")
     ap.add_argument("--venue_country")
@@ -237,19 +256,46 @@ def main() -> None:
     os.makedirs(args.output_dir, exist_ok=True)
     cat_vecs = build_category_vecs(args.player_name)
 
-    blocks = []
-    for idx, path in enumerate(chosen, 1):
+    # ───── PROCESS EACH FILE IN PARALLEL ─────
+    def _worker(idx_path):
+        idx, path = idx_path
         debug(f"Filtering {path}")
         kept = filter_file(path, args.player_name, cat_vecs)
-        blocks.append(f"Commentary {idx}:\n" + "\n".join(kept) + "\n")
+        return idx, f"Commentary {idx}:\n" + "\n".join(kept) + "\n"
 
-    out_text = "\n".join(blocks)
-    out_name = f"filtered_commentaries_{args.player_name.replace(' ', '')}_{primary_team}_{len(chosen)}.txt"
+    max_workers = min(len(chosen), os.cpu_count() or 4)
+    futures: List[cf.Future] = []
+    ordered_blocks: List[str] = ["" for _ in range(len(chosen))]
+
+    with cf.ThreadPoolExecutor(max_workers=max_workers) as ex:
+        for idx, p in enumerate(chosen, 1):
+            futures.append(ex.submit(_worker, (idx, p)))
+
+        for fut in cf.as_completed(futures):
+            idx, block = fut.result()
+            ordered_blocks[idx - 1] = block  # preserve order
+
+    out_text = "\n".join(ordered_blocks)
+    out_name = (
+        f"filtered_commentaries_{args.player_name.replace(' ', '')}_"
+        f"{primary_team}_{len(chosen)}.txt"
+    )
     out_path = os.path.join(args.output_dir, out_name)
     with open(out_path, "w", encoding="utf-8") as fh:
         fh.write(out_text)
 
     print(f"\n[INFO] Filtered commentary saved to {out_path}\n")
+
+    # ───── Cost reporting ─────
+    print(f"\n[INFO] Total tokens used: {_total_tokens_used}")
+    cost = _total_tokens_used / 1_000_000 * 0.10
+    print(f"[INFO] Estimated embedding cost: ${cost:.6f} USD")
+
+    try:
+        with open("embedding_token_usage.txt", "w") as f:
+            f.write(str(_total_tokens_used))
+    except Exception as e:
+        print(f"[WARNING] Could not write embedding token usage: {e}")
 
 
 if __name__ == "__main__":

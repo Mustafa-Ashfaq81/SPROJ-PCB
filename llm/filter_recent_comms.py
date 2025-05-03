@@ -252,7 +252,7 @@ def main() -> None:
         chosen.extend(without_name[: needed])
 
     if not chosen:
-        print("[INFO] No commentary files satisfy the criteria – exiting.")
+        print("[INFO] No commentary files satisfy the criteria - exiting.")
         sys.exit(0)
 
     print("\n[INFO] Selected files:")

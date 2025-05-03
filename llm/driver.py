@@ -449,7 +449,7 @@ def main():
             player_team_code = team_map.get(team_name, team_name)
             opponent_team_code = opponent_short
             cmd_filter = (
-                f"python filter_recent_comms.py "
+                f"python filter_recent_embeddings_comms.py "
                 f"--player_name \"{comm_player_name}\" "
                 f"--player_team_code \"{player_team_code}\" "
                 f"--opponent_team_code \"{opponent_team_code}\" "

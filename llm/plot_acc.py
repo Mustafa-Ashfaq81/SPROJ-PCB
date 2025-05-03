@@ -7,7 +7,7 @@ import os
 # CONFIGURATION
 # ------------------------------------------------------------------
 CSV_PATH = "llm_prediction_results.csv"   # ← change if your file name differs
-PLOTS_DIR = "plots"
+PLOTS_DIR = "plots/embeddingsPlus4o-mini"
 os.makedirs(PLOTS_DIR, exist_ok=True)
 plot_path = lambda fname: os.path.join(PLOTS_DIR, fname)
 TOP1_PLOT_PATH   = plot_path("top1_accuracy.png")
