@@ -2,11 +2,12 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+from scipy.stats import norm
 
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-CSV_PATH = "llm_prediction_results.csv"   # ← change if your file name differs
+CSV_PATH = "llm_prediction_results.csv"
 PLOTS_DIR = "plots/embeddingsPlus4o-mini"
 os.makedirs(PLOTS_DIR, exist_ok=True)
 plot_path = lambda fname: os.path.join(PLOTS_DIR, fname)
@@ -29,9 +30,7 @@ except FileNotFoundError as e:
         "Place the CSV in the working directory or update CSV_PATH."
     ) from e
 
-# Keep deterministic row order
 df = df.reset_index(drop=True)
-# print(df["prediction_match"][98:102])
 
 # ------------------------------------------------------------------
 # 2. Map each row to its feature-block (100-row chunks)
@@ -50,11 +49,9 @@ df["block"] = df["_block_id"].map(block_labels)
 # 3. Parse probability & label lists
 # ------------------------------------------------------------------
 def parse_float_list(txt: str):
-    """Convert comma-separated numerics to list[float]."""
     return [float(t.strip()) for t in txt.split(",")]
 
 def parse_label_list(txt: str):
-    """Convert comma-separated strings to list[str]."""
     return [t.strip() for t in txt.split(",")]
 
 df["prob_vec"] = df["mode_of_dismissal_predicted_probability"].apply(parse_float_list)
@@ -63,19 +60,16 @@ df["label_vec"] = df["mode_of_dismissal_predicted"].apply(parse_label_list)
 # ------------------------------------------------------------------
 # 4. Top-1 & Top-2 correctness flags
 # ------------------------------------------------------------------
-# Top-1: simply compare most_likely_mode with ground truth
 df["top1_correct"] = (
     df["most_likely_mode"].str.strip()
     == df["mode_of_dismissal_ground_truth"].str.strip()
 )
 
-# Top-2: derive 2 highest-prob labels
 def topk_hit(row, k=2):
     probs, labels = row["prob_vec"], row["label_vec"]
     gt = row["mode_of_dismissal_ground_truth"].strip()
-    if gt not in labels:                # ground truth outside 8-class set
+    if gt not in labels:
         return False
-    # indices of k largest probs
     topk_ix = np.argsort(probs)[-k:]
     topk_labels = {labels[i] for i in topk_ix}
     return gt in topk_labels
@@ -104,11 +98,18 @@ print("\n=== Accuracy per Feature Block ===")
 print(summary.to_string(index=False))
 
 # ------------------------------------------------------------------
-# 6. Plotting helper
+# 6. Enhanced bar plotting helper (with delta colors)
 # ------------------------------------------------------------------
 def make_bar(summary_col: str, ylabel: str, title: str, save_path: str):
+    values = summary[summary_col].values
+    colors = []
+    for i in range(len(values)):
+        if i == 0:
+            colors.append("gray")
+        else:
+            colors.append("tab:blue" if values[i] >= values[i - 1] else "tab:red")
     plt.figure(figsize=(8, 5))
-    plt.bar(summary["block"], summary[summary_col])
+    plt.bar(summary["block"], values, color=colors)
     plt.ylabel(ylabel)
     plt.title(title)
     plt.ylim(0, 100)
@@ -121,35 +122,28 @@ def make_bar(summary_col: str, ylabel: str, title: str, save_path: str):
 # ------------------------------------------------------------------
 # 7. Generate & save plots
 # ------------------------------------------------------------------
-make_bar("top1_acc",
-         "Top-1 Accuracy (%)",
-         "Ablation Study - Top-1 Accuracy per Feature Set",
-         TOP1_PLOT_PATH)
+make_bar("top1_acc", "Top-1 Accuracy (%)",
+         "Ablation Study - Top-1 Accuracy per Feature Set", TOP1_PLOT_PATH)
 
-make_bar("top2_acc",
-         "Top-2 Accuracy (%)",
-         "Ablation Study - Top-2 Accuracy per Feature Set",
-         TOP2_PLOT_PATH)
+make_bar("top2_acc", "Top-2 Accuracy (%)",
+         "Ablation Study - Top-2 Accuracy per Feature Set", TOP2_PLOT_PATH)
 
 # ------------------------------------------------------------------
-# 8. Incremental‑gain “waterfall” plots  ----------------------------
+# 8. Waterfall plots
 # ------------------------------------------------------------------
-
-# compute deltas (already sorted)
 summary["d_top1"] = summary["top1_acc"].diff().fillna(summary["top1_acc"])
 summary["d_top2"] = summary["top2_acc"].diff().fillna(summary["top2_acc"])
 
 def waterfall(col_delta: str, col_cum: str, out_path: str, title: str):
-    dx   = summary["block"]
+    dx = summary["block"]
     delta = summary[col_delta]
-    cum   = summary[col_cum]
+    cum = summary[col_cum]
     fig, ax = plt.subplots(figsize=(9, 5))
     base = 0
     for i, (lbl, gain) in enumerate(zip(dx, delta)):
         color = "tab:blue" if gain >= 0 else "tab:red"
         ax.bar(i, gain, bottom=base, width=0.6, color=color)
-        ax.text(i, base + gain/2, f"{gain:+.2f} pp",
-                ha="center", va="center", color="white", fontsize=9, weight="bold")
+        ax.text(i, base + gain/2, f"{gain:+.2f} pp", ha="center", va="center", color="white", fontsize=9, weight="bold")
         base += gain
     ax.set_xticks(range(len(dx)))
     ax.set_xticklabels(dx, rotation=25, ha="right")
@@ -161,27 +155,37 @@ def waterfall(col_delta: str, col_cum: str, out_path: str, title: str):
     plt.close()
     print(f"Saved plot → {os.path.abspath(out_path)}")
 
-waterfall("d_top1", "top1_acc", WATER_TOP1_PNG,
-          "Incremental Lift – Top‑1 Accuracy")
-
-waterfall("d_top2", "top2_acc", WATER_TOP2_PNG,
-          "Incremental Lift – Top‑2 Accuracy")
+waterfall("d_top1", "top1_acc", WATER_TOP1_PNG, "Incremental Lift – Top‑1 Accuracy")
+waterfall("d_top2", "top2_acc", WATER_TOP2_PNG, "Incremental Lift – Top‑2 Accuracy")
 
 # ------------------------------------------------------------------
-# 9. Bar charts with 95 % CI error bars  ---------------------------
+# 9. Error bar plots with Wilson CI and annotations
 # ------------------------------------------------------------------
-
 def save_errorbar(col_acc: str, out_path: str, title: str):
-    p  = summary[col_acc] / 100.0     # back to proportion
-    n  = summary["n"]
-    se = np.sqrt(p * (1 - p) / n)
-    ci = 1.96 * se * 100              # ± in percentage points
-    fig, ax = plt.subplots(figsize=(8,5))
-    ax.bar(summary["block"], summary[col_acc], yerr=ci,
-           capsize=4, color="tab:purple")
+    z = norm.ppf(0.975)
+    p_hat = summary[col_acc] / 100.0
+    n = summary["n"]
+    center = (p_hat + (z**2) / (2 * n)) / (1 + (z**2) / n)
+    margin = (z * np.sqrt((p_hat * (1 - p_hat) / n) + (z**2 / (4 * n**2)))) / (1 + (z**2) / n)
+
+    summary["ci_low"] = (center - margin) * 100
+    summary["ci_high"] = (center + margin) * 100
+    summary["error_below"] = summary[col_acc] - summary["ci_low"]
+    summary["error_above"] = summary["ci_high"] - summary[col_acc]
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    bars = ax.bar(summary["block"], summary[col_acc],
+                  yerr=[summary["error_below"], summary["error_above"]],
+                  capsize=6, color="mediumpurple", alpha=0.8)
+
+    for bar, low, high in zip(bars, summary["ci_low"], summary["ci_high"]):
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width() / 2, height + 2,
+                f"  [{low:.1f}, {high:.1f}]%", ha='center', va='bottom', fontsize=9)
+
     ax.set_ylabel("Accuracy (%)")
+    ax.set_title(title + " (95% Wilson CI with bounds)")
     ax.set_ylim(0, 100)
-    ax.set_title(title + " (95% CI)")
     plt.xticks(rotation=25, ha="right")
     plt.tight_layout()
     plt.savefig(out_path, dpi=300, bbox_inches="tight")
@@ -192,38 +196,36 @@ save_errorbar("top1_acc", ERR_TOP1_PNG, "Top‑1 Accuracy per Feature Set")
 save_errorbar("top2_acc", ERR_TOP2_PNG, "Top‑2 Accuracy per Feature Set")
 
 # ------------------------------------------------------------------
-# 10. Per‑class recall heat‑map (Baseline vs All‑features) ----------
+# 10. Per‑class recall heatmap
 # ------------------------------------------------------------------
-labels = df["label_vec"].iloc[0]  # the 8 dismissal classes
+labels = df["label_vec"].iloc[0]
 
 def recall_for_block(bid):
     sub = df[df["_block_id"] == bid]
-    gt  = sub["mode_of_dismissal_ground_truth"].str.strip()
+    gt = sub["mode_of_dismissal_ground_truth"].str.strip()
     pred = sub["most_likely_mode"].str.strip()
     recalls = []
     for lab in labels:
         total = (gt == lab).sum()
         correct = ((gt == lab) & (pred == lab)).sum()
-        recalls.append( correct / total if total else np.nan )
+        recalls.append(correct / total if total else np.nan)
     return np.array(recalls)
 
 rec_baseline = recall_for_block(0)
-rec_full     = recall_for_block(4)
-rec_matrix   = np.vstack([rec_baseline, rec_full]) * 100   # %
-blocks_cmp   = ["Baseline", "All Features"]
+rec_full = recall_for_block(4)
+rec_matrix = np.vstack([rec_baseline, rec_full]) * 100
+blocks_cmp = ["Baseline", "All Features"]
 
-# simple heatmap
 fig, ax = plt.subplots(figsize=(11, 3))
 im = ax.imshow(rec_matrix, cmap="YlOrRd", vmin=0, vmax=100)
 for i in range(rec_matrix.shape[0]):
     for j in range(rec_matrix.shape[1]):
         val = rec_matrix[i, j]
         txt = f"{val:.0f}" if not np.isnan(val) else "–"
-        ax.text(j, i, txt, ha="center", va="center",
-                color="black" if val<60 else "white", fontsize=8)
+        ax.text(j, i, txt, ha="center", va="center", color="black" if val < 60 else "white", fontsize=8)
 ax.set_xticks(np.arange(len(labels)))
 ax.set_xticklabels(labels, rotation=40, ha="right")
-ax.set_yticks([0,1])
+ax.set_yticks([0, 1])
 ax.set_yticklabels(blocks_cmp)
 ax.set_title("Per‑Class Recall (%) – Baseline vs All Features")
 cbar = plt.colorbar(im, ax=ax, pad=0.02, shrink=0.8)
@@ -234,25 +236,23 @@ plt.close()
 print(f"Saved plot → {os.path.abspath(HEAT_PNG)}")
 
 # ------------------------------------------------------------------
-# 11. McNemar significance test between adjacent blocks ------------
+# 11. McNemar significance test
 # ------------------------------------------------------------------
 try:
     from statsmodels.stats.contingency_tables import mcnemar
     print("\n=== McNemar p-values (Top-1) ===")
-
     for b in range(1, 5):
         prev = df[df["_block_id"] == (b - 1)]["top1_correct"].values
         curr = df[df["_block_id"] == b]["top1_correct"].values
-        # contingency: [[both correct, only prev], [only curr, both wrong]]
-        contingency = [[np.sum(prev & curr),  np.sum(prev & ~curr)],
-                    [np.sum(~prev & curr), np.sum(~prev & ~curr)]]
+        contingency = [[np.sum(prev & curr), np.sum(prev & ~curr)],
+                       [np.sum(~prev & curr), np.sum(~prev & ~curr)]]
         res = mcnemar(contingency, exact=False, correction=True)
         print(f"Block {b-1} → {b}: p = {res.pvalue:.4f}")
 except ImportError:
     print("\n(statsmodels not installed – McNemar test skipped)")
 
 # ------------------------------------------------------------------
-# 12. Save extended numeric summary to CSV -------------------------
+# 12. Save CSV
 # ------------------------------------------------------------------
 summary.to_csv("ablation_accuracy_summary.csv", index=False)
 print("Saved extended summary →", os.path.abspath("ablation_accuracy_summary.csv"))

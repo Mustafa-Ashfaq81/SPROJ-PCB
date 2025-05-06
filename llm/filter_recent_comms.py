@@ -113,21 +113,74 @@ def camel_to_spaced(name: str) -> str:
     return re.sub(r"(?<=[a-z])(?=[A-Z])", " ", name) if " " not in name else name
 
 
-def name_variants(player_name: str) -> List[str]:
-    spaced = camel_to_spaced(player_name).lower()
-    no_spc = spaced.replace(" ", "")
-    last   = spaced.split()[-1]
-    # ensure word-boundary variants for reliable matches
-    return [rf"\b{re.escape(spaced)}\b",
-            rf"\b{re.escape(no_spc)}\b",
-            rf"\b{re.escape(last)}\b"]
+def clean_name(name: str) -> str:
+    """
+    Removes annotations like (c), (wk), sub(...), etc.
+    Then strip + lower. So "Babar Azam(c)" => "babar azam".
+    """
+    cleaned = re.sub(r'\(.*?\)', '', name)
+    return cleaned.strip().lower()
 
 
-def text_contains_name(path: str, regexes: List[re.Pattern]) -> bool:
+def generate_case_variants(name_str: str) -> set:
+    """
+    E.g. 'Kohli' => {'Kohli','kohli','KOHLI','Kohli','KOHLI'}
+    """
+    name_str = name_str.strip()
+    if not name_str:
+        return set()
+    return {
+        name_str,
+        name_str.lower(),
+        name_str.upper(),
+        name_str.capitalize(),
+        name_str.title()
+    }
+
+
+def generate_name_variants(full_name: str) -> set:
+    """
+    Generates partial/case variants for matching names in commentary text.
+    E.g. "Virat Kohli" → 'virat kohli', 'viratkohli', 'v kohli', 'vkohli', 'kohli', etc.
+    """
+    full_name = full_name.strip()
+    if not full_name:
+        return set()
+
+    name_parts = full_name.split()
+    base_variants = set()
+
+    # (1) Full name (spaced and joined)
+    base_variants.add(' '.join(name_parts).lower())
+    base_variants.add(''.join(name_parts).lower())
+
+    # (2) Initials + last name
+    if len(name_parts) >= 2:
+        first_initials = ''.join(part[0] for part in name_parts[:-1]).lower()
+        last_name = name_parts[-1].lower()
+        base_variants.add(f"{first_initials} {last_name}")
+        base_variants.add(f"{first_initials}{last_name}")
+        base_variants.add(last_name)
+    else:
+        base_variants.add(name_parts[0].lower())
+
+    # (3) Case-expanded variants
+    final_variants = set()
+    for variant in base_variants:
+        final_variants |= generate_case_variants(variant)
+
+    return final_variants
+
+
+def text_contains_name(path: str, name_variants: set[str], min_count: int = 5) -> bool:
+    """
+    Return True only if total occurrences of name_variants exceed `min_count` in the commentary text.
+    """
     try:
         with open(path, encoding="utf-8") as fh:
             txt = fh.read().lower()
-        return any(r.search(txt) for r in regexes)
+        total_count = sum(txt.count(variant.lower()) for variant in name_variants)
+        return total_count > min_count
     except Exception:
         return False
 
@@ -236,14 +289,15 @@ def main() -> None:
         else args.opponent_team_code.upper()
     )
     end_dt    = parse_end_date(args.end_date)
-    variants  = name_variants(args.player_name)
-    regexes   = [re.compile(v, re.IGNORECASE) for v in variants]
+    cleaned_name = clean_name(args.player_name)
+    name_variant_set = generate_name_variants(cleaned_name)
+
 
     # 1️⃣ collect by team & date
     candidates = collect_candidates(raw_dir, primary_team, end_dt)
 
     # 2️⃣ split into “has name” / “no name”
-    with_name   = [p for dt, p in candidates if text_contains_name(p, regexes)]
+    with_name = [p for dt, p in candidates if text_contains_name(p, name_variant_set)]
     without_name = [p for dt, p in candidates if p not in with_name]
 
     chosen = with_name[: args.k]

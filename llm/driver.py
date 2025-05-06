@@ -501,19 +501,22 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 1. **Objective**  
    - **Match**: {match_context}
-   - **Primary Task**: Predict the most probable mode of dismissal for {player_name}.  
-   - **Key Emphasis**: Pay special attention to: **Venue Stats of {player_name}** because it will tell you how this player performs in the venue the prediction match will be played, **{player_name} Stats against the Opponent** because it will tell you how the player performs against the specific team, and most important **recent commentary (if available)** detailing {player_name}'s current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
+   - **Primary Task**: Predict the most probable mode of dismissal for {player_name} in this match.  
+   - **Key Emphasis**: Pay special attention to: 
+        1. **Venue Stats of {player_name} (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
+        2. **{player_name} Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
+        3. **recent commentary (if available)** detailing {player_name}'s current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
 
 2. **Data Sources**  
    - **A. Statistical Data (JSON Files)**  
      - Career-long batting averages, strike rates, typical modes of dismissal, venue-wise and opposition-wise splits, etc.  
-   - **B. Recent Match Commentary (if available)** (Crucial for capturing short-term context)  
+   - **B. Recent Match Commentary (if available)** (Crucial for capturing short-term recent form of {player_name})  
      1. **Venue and Match Context**  
      2. **Pitch Conditions**  
      3. **Comments/Quotes by or about {player_name}**  
-     4. **How All Batters in the Innings Got Out**  
+     4. **How All Batters in the Innings Got Out to get an idea of what difficulties might {player_name} may face**  
      5. **All Ball-by-Ball Entries Involving {player_name}**  
-     6. **{player_name}'s Mode of Dismissal** (if it already happened)
+     6. **{player_name}'s Mode of Dismissal** (if it happened in recent matches)
 
 > **Stat Heading Guide (read carefully before analysis)**  
 > • The **“batting”** object contains the core performance metrics for {player_name} and should drive most of your reasoning.  
@@ -528,7 +531,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
    **Detailed Reasoning**  
    Show how you arrive at your final predicted mode of dismissal by summarizing:  
-   1) Player's inherent weaknesses and past patterns.  
+   1) Player's inherent weaknesses and past patterns gathered from recent commentaries.  
    2) Conditions of the pitch or environment favoring certain modes of dismissal.  
    3) Any relevant points from the commentary or recent form.
 
@@ -604,7 +607,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ---
 
-## **Commentary Data (for k recent matches prior to the predicted match) of {player_name}:**
+## **Commentary Data (for k recent matches prior to the predicted match) of {player_name} to get a concrete idea of the recent form and the modes of dismissals of {player_name}. This is very crucial to analyse for this task. :**
 {commentary_content}\
 """
 
