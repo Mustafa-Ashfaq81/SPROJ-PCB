@@ -1,0 +1,4189 @@
+You are given multiple entire cricket match commentaries. Each is labelled
+as "Commentary X".
+
+Return **only** those lines that relate to ANY of:
+
+  1. **Venue / match context**
+  2. **Pitch conditions**
+  3. **Quotes about Steven Smith**
+  4. **Any dismissal of other players in the innings**
+  5. **Ball-by-ball lines involving Steven Smith**
+  6. **Steven Smith's own dismissal**
+
+Count the number of time the Steven Smith occurs in each of the commentaries. That is the minimum number of lines the output should contain per filtered commentary as they reference the player in dicussion directly. Don't mention the count in your output response.
+Note: Each entire cricket match commentary contains atleast 100 relevant lines which meet these conditions.
+
+Keep the original order.  Do **NOT** paraphrase or add extra text.
+
+Return:
+
+Commentary 1:
+<filtered lines>
+
+…
+
+Commentary k:
+<filtered lines>
+
+
+Commentary 1:
+Ball MISC:
+4.25pm Australia have posted 264. It's not a massive score, but it feels competitive. This is a better surface but it's still not a road. Some help for the spinners and for cutters from the quicks. But probably just advantage India at the moment, particularly with the strength of their top order and Australia's inexperienced attack. The key moment could well end up being when Shami removed Smith who was holding the innings together. He and Carey played very good innings. Head had taken the attack to India - and revived some bad memories for many - before falling to the first he faced from Varun. Overall, India's spinners held the game well. It should be a fascinating chase and Ashish will be here for the start of it.
+
+Ball MISC:
+Sabu: "Yet another innings where India has bowled out the opposition!!!!"
+
+Ball MISC:
+Shafraz Ashraff: "Add ten for the scoreboard pressure that the Aussies can create on the field. And another ten for the scoreboard pressure a semi final can create. But the big questions will be how well this second string attack can make use of all that."
+
+Ball MISC:
+A A Musabbir : "At least 20 runs short i feel!"
+
+Ball MISC:
+Prasanna S: "Feel India should chase this down comfortably given the inexperienced Australian bowling line up. Even if it turns they just need to see of Zampa's 10 overs"
+
+Ball 49.3:
+49.3
+W
+Hardik to Zampa, OUT
+all over...short of a length, Zampa swings across the line and it takes the top of off stump
+Adam Zampa b Pandya 7 (12b 0x4 0x6 22m) SR: 58.33
+
+Ball 49.2:
+49.2
+1
+Hardik to T Sangha, 1 run
+short of a length, angles it down to deep third
+
+Ball 49.1:
+49.1
+1
+Hardik to Zampa, 1 run
+back of a length, a slower ball, pulled to deep square leg...certainly some grip for these slower balls
+
+Ball MISC:
+Pandya to finish off
+
+Ball MISC:
+Shami has played an important role today as the lone frontline quick
+
+Ball 48.6:
+48.6
+W
+Shami to Ellis, OUT
+picks out long-on...full at the stumps, tries to clear the leg side again but can only pick out Kohli. Bat twisted a little.
+Nathan Ellis c Kohli b Mohammed Shami 10 (7b 0x4 1x6 8m) SR: 142.85
+
+Ball 48.5:
+48.5
+6
+Shami to Ellis, SIX runs
+that's gone a long way! Ellis takes advantage of a length delivery, a cutter, and heaves it over deep midwicket. Useful.
+
+Ball 48.4:
+48.4
+1
+Shami to Zampa, 1 run
+flicks a yorker off middle, out to deep square leg
+
+Ball 48.3:
+48.3
+1
+Shami to Ellis, 1 run
+full at leg stump, clipped in the air over midwicket, again lands in front of Kohli
+
+Ball 48.2:
+48.2
+1
+Shami to Zampa, 1 run
+slower ball outside off, flicked in the air and lands short of long-on
+
+Ball 48.1:
+48.1
+1
+Shami to Ellis, 1 run
+back of a length at off stump, gives himself some room, opens the face into point
+
+Ball MISC:
+Can this pair find their way to 270?
+
+Ball 47.6:
+47.6
+1
+Hardik to Ellis, 1 run
+a slower short ball, swatted into midwicket
+
+Ball 47.5:
+47.5
+•
+Hardik to Ellis, no run
+a yorker outside off, gets the toe end on it to short third
+
+Ball MISC:
+Gareth: "If not for the dodgy lbw call Carey wouldn't have been on strike to get run out"
+
+Ball 47.4:
+47.4
+1
+Hardik to Zampa, 1 run
+another slower ball, grips on the surface, worked into midwicket
+
+Ball 47.3:
+47.3
+•
+Hardik to Zampa, no run
+short outside off, 116kph, played into the covers from the back foot
+
+Ball 47.2:
+47.2
+1
+Hardik to Ellis, 1 run
+pushes a length ball into the covers
+
+Ball MISC:
+Very good innings from Carey, but he ideally needed to see out these three overs
+
+Ball 47.1:
+47.1
+1W
+Hardik to Carey, 1 run, OUT
+direct hit, run out! Brilliant work from Iyer. Was a slower short ball, Carey pulled it around the corner, though he could make it back for the second by the throw was pinpoint. Long way short
+Alex Carey run out (Iyer) 61 (57b 8x4 1x6 84m) SR: 107.01
+
+Ball MISC:
+Pandya to bowl
+
+Ball 46.6:
+46.6
+•
+Shami to Zampa, no run
+full, straight and given! Zampa has reviewed straightaway. Has he nicked it? Yes, there's a lot of bat involved in that
+
+Ball 46.5:
+46.5
+1
+Shami to Carey, 1 run
+back of a length outside off, driven to cover
+
+Ball 46.4:
+46.4
+•
+Shami to Carey, no run
+a yorker outside off, Carey is stepping to leg and has to stretch to get the toe end on it, then finishes falling on his back
+
+Ball 46.3:
+46.3
+4
+Shami to Carey, FOUR runs
+superbly played! Over the wicket, gets across outside off, scoops a low full toss over short fine leg
+
+Ball 46.2:
+46.2
+1
+Shami to Zampa, 1 run
+leading edge, short of mid-off! Then they scamper the single
+
+Ball 46.1:
+46.1
+•
+Shami to Zampa, no run
+short of a length outside off, 138kph, driven to point
+
+Ball MISC:
+Tidy stuff from Varun. Not quite the impact he had against New Zealand, but different situation bowling first
+
+Ball 45.6:
+45.6
+1
+Varun to Zampa, 1 run
+round the wicket for his last ball, full around off stump, driven off the inner part of the bat into midwicket
+
+Ball 45.5:
+45.5
+•
+Varun to Zampa, no run
+works a full ball to the on side
+
+Ball 45.4:
+45.4
+1
+Varun to Carey, 1 run
+round the wicket, short of a length outside off, driven into the cover ring
+
+Ball 45.3:
+45.3
+1
+Varun to Zampa, 1 run
+over the wicket, turns sharply into Zampa, worked to the leg side
+
+Ball MISC:
+Slip in place
+
+Ball MISC:
+A handy partnership is broken at the death. Adam Zampa in ahead of Nathan Ellis
+
+Ball 45.2:
+45.2
+W
+Varun to Dwarshuis, OUT
+taken at deep midwicket! Full outside off, goes for another slog sweep and this time can't get the distance
+Ben Dwarshuis c Iyer b Varun 19 (29b 1x4 1x6 30m) SR: 65.51
+
+Ball 45.1:
+45.1
+•
+Varun to Dwarshuis, no run
+beats the top edge as he looks to cut
+
+Ball MISC:
+Varun for his last
+
+Ball 44.6:
+44.6
+1
+Shami to Dwarshuis, 1 run
+another slower ball, outside off, square drives to deep point
+
+Ball 44.5:
+44.5
+1
+Shami to Carey, 1 run
+over the wicket, another full toss, driven down the ground
+
+Ball 44.4:
+44.4
+1
+Shami to Dwarshuis, 1 run
+a slower ball, on a length outside off, dragged to deep midwicket
+
+Ball MISC:
+Judging by the feedback, Australia will either be 50 below or 50 above par
+
+Ball 44.3:
+44.3
+1
+Shami to Carey, 1 run
+full toss outside off, driven to long-off
+
+Ball 44.2:
+44.2
+1
+Shami to Dwarshuis, 1 run
+full outside off, has a big swing across the line and gets an inside edge past the stumps
+
+Ball MISC:
+Hrishi: "Carey's batting approach reminds me of Michael Bevan. Busy, consistent, can finish games and importantly knows how to play with the tail." That's high praise!
+
+Ball 44.1:
+44.1
+•
+Shami to Dwarshuis, no run
+round the wicket, gets the yorker in at middle, dug out to mid-on
+
+Ball MISC:
+Shami returns. He has three to bowl
+
+Ball 43.6:
+43.6
+2
+Varun to Carey, 2 runs
+gets across to off stump and scoops this over the keeper, lack of pace on the shot allows the second
+
+Ball 43.5:
+43.5
+1
+Varun to Dwarshuis, 1 run
+over the wicket, sweeps backward of square, Kohli does well to prevent the second
+
+Ball 43.4:
+43.4
+•
+Varun to Dwarshuis, no run
+gets forward, drives and finds cover
+
+Ball 43.3:
+43.3
+•
+Varun to Dwarshuis, no run
+drives strongly from outside off, can't beat backward point
+
+Ball 43.2:
+43.2
+•
+Varun to Dwarshuis, no run
+worked off the stumps to midwicket
+
+Ball 43.1:
+43.1
+4
+Varun to Dwarshuis, FOUR runs
+finds the outside edge, runs through the vacant slip area and scuttles all the way to deep third. Not sure that would have been a catch. May well have been
+
+Ball MISC:
+An important little stand forming here. Another two, three overs then cut loose?
+
+Ball 42.6:
+42.6
+•
+Kuldeep to Carey, no run
+full at middle and leg, tapped to on side and can't get the run
+
+Ball 42.5:
+42.5
+1
+Kuldeep to Dwarshuis, 1 run
+on the back foot and works from outside off to long-on
+
+Ball 42.4:
+42.4
+•
+Kuldeep to Dwarshuis, no run
+touch wider outside off, he drives and gets a thick outside edge to short third
+
+Ball 42.3:
+42.3
+6
+Kuldeep to Dwarshuis, SIX runs
+and there's his power! Takes this from outside off with the slog sweep and has the legs to clear deep midwicket
+
+Ball 42.2:
+42.2
+1
+Kuldeep to Carey, 1 run
+slips down the leg side, worked around the corner, was there bat? Yes, so that's Carey's fifty from 48 balls. Excellent innings
+
+Ball 42.1:
+42.1
+2
+Kuldeep to Carey, 2 runs
+worked off the pads into midwicket, Carey wanted two off the bat and they get there
+
+Ball 41.6:
+41.6
+1
+Varun to Carey, 1 run
+fuller at the stumps, worked down to long-on so he keeps the strike
+
+Ball 41.5:
+41.5
+•
+Varun to Carey, no run
+nicely bowled, straightens on Carey, runs off the face into backward point
+
+Ball 41.4:
+41.4
+1
+Varun to Dwarshuis, 1 run
+short of a length, driven square through the off side
+
+Ball 41.3:
+41.3
+•
+Varun to Dwarshuis, no run
+slides past the edge as Dwarshuis lunges forward
+
+Ball 41.2:
+41.2
+1
+Varun to Carey, 1 run
+quicker, angled into Carey, worked to the on side...clocked at 111kph
+
+Ball 41.1:
+41.1
+•
+Varun to Carey, no run
+round the wicket, back of a length, defended
+
+Ball MISC:
+Varun returns
+
+Ball 40.6:
+40.6
+•
+Kuldeep to Dwarshuis, no run
+full at the pads, flicked in the air towards midwicket. This is the issue for Carey if he loses the strike and can't get it back
+
+Ball 40.5:
+40.5
+•
+Kuldeep to Dwarshuis, no run
+on the back foot again, drives to the off side, can't find a gap
+
+Ball 40.4:
+40.4
+•
+Kuldeep to Dwarshuis, no run
+fuller at middle, pushed to the off side
+
+Ball 40.3:
+40.3
+•
+Kuldeep to Dwarshuis, no run
+on the back foot, spins quite sharply into the left hander, worked into midwicket. Certainly not picked
+
+Ball 40.2:
+40.2
+1
+Kuldeep to Carey, 1 run
+worked through straight midwicket
+
+Ball 40.1:
+40.1
+•
+Kuldeep to Carey, no run
+worked off the pads, can't beat short fine leg
+
+Ball MISC:
+Kuldeep Yadav returns
+
+Ball MISC:
+10 overs remaining. What can Carey and the bowlers manufacture? Moiz: "This is the moment where Patty would be missed the most."
+
+Ball 39.6:
+39.6
+•
+Axar Patel to Dwarshuis, no run
+played off the back foot back to the bowler
+
+Ball 39.5:
+39.5
+•
+Axar Patel to Dwarshuis, no run
+flicked in the air from around off stump, falls short of square leg
+
+Ball 39.4:
+39.4
+1
+Axar Patel to Carey, 1 run
+tucks this off middle through midwicket
+
+Ball 39.3:
+39.3
+4
+Axar Patel to Carey, FOUR runs
+brings out the reverse sweep, takes it from around leg stump, connects well and sends it over backward point inside the circle
+
+Ball MISC:
+Simon B: "That was really poor from Maxwell. With the tail behind him, he had to bat longer than that. Looks like the turning point in the game - hard to see how Australia maintains momentum from here, unless Carey can manipulate the strike"
+
+Ball 39.2:
+39.2
+•
+Axar Patel to Carey, no run
+gives himself room outside leg, drives and finds cover
+
+Ball 39.1:
+39.1
+1
+Axar Patel to Dwarshuis, 1 run
+square drives to the cover sweeper
+
+Ball 38.6:
+38.6
+•
+Shami to Carey, no run
+full at middle, 121kph, played back to the bowler. Tight over from Shami
+
+Ball 38.5:
+38.5
+1
+Shami to Dwarshuis, 1 run
+tucks a full delivery off the pads down to fine leg, Shami thought he was nearly through
+
+Ball 38.4:
+38.4
+•
+Shami to Dwarshuis, no run
+drives a full delivery into the covers, Kohli does the fielding
+
+Ball 38.3:
+38.3
+•
+Shami to Dwarshuis, no run
+full and straight, hint of a leading edge as he closes the face
+
+Ball 38.2:
+38.2
+•
+Shami to Dwarshuis, no run
+fuller, drives into the covers
+
+Ball 38.1:
+38.1
+•
+Shami to Dwarshuis, no run
+round the wicket, back of a length at off stump, defended
+
+Ball MISC:
+Zaheer: "Six and out twice in this match, first Cooper and now Maxy.. iykwim"
+
+Ball 37.6:
+37.6
+•
+Axar Patel to Carey, no run
+tucks a straight delivery to midwicket. Carey now has a massive role to play
+
+Ball 37.5:
+37.5
+•
+Axar Patel to Carey, no run
+round the wicket, angled across outside off, dabbed to backward point
+
+Ball MISC:
+Rudra Varma: "John MC on the target!"
+
+Ball 37.4:
+37.4
+1
+Axar Patel to Dwarshuis, 1 run
+over the wicket, drives to deep cover
+
+Ball MISC:
+Advantage India. They are into the bowlers. Ben Dwarshuis is a good hitter, but can he build an innings?
+
+Ball 37.3:
+37.3
+W
+Axar Patel to Maxwell, OUT
+Axar hits back! Slides on at the stumps, Maxwell steps back and plays across the line, he's through the shot and the ball cannons into middle and leg. A bad misjudgement from Maxwell
+Glenn Maxwell b Patel 7 (5b 0x4 1x6 3m) SR: 140
+See all photos
+
+Ball 37.2:
+37.2
+6
+Axar Patel to Maxwell, SIX runs
+all the way! Full, sliding into the pads, Maxwell connects with a skimming sweep over deep square leg
+
+Ball 37.1:
+37.1
+•
+Axar Patel to Maxwell, no run
+round the wicket, full at middle, worked to the leg side
+
+Ball MISC:
+Axar Patel returns
+
+Ball MISC:
+Ajesh P Joseph: "Plan B works!" Always a good plan!
+
+Ball 36.6:
+36.6
+1
+Shami to Maxwell, 1 run
+back of a length outside off, opens the face down to deep third to get off the mark
+
+Ball MISC:
+Will Shami test Maxwell with the short ball?
+
+Ball 36.5:
+36.5
+•
+Shami to Maxwell, no run
+full at off stump, driven to cover
+
+Ball MISC:
+Smith can't believe he missed that. He looked set for a hundred. A big lift for India. Here comes Glenn Maxwell
+
+Ball 36.4:
+36.4
+W
+Shami to Smith, OUT
+cleaned up! Smith wanted to take down Shami. Used his feet, came down on a line of leg stump, drives over what became a full toss and it takes the base of off stump
+Steven Smith b Mohammed Shami 73 (96b 4x4 1x6 133m) SR: 76.04
+
+Ball 36.3:
+36.3
+2
+Shami to Smith, 2 runs
+heaved away! Splays his front leg outside leg stump and swats a short ball wide of mid-on. Doesn't middle it
+
+Ball MISC:
+Suspect pace from both ends at this stage wasn't Plan A for Rohit
+
+Ball 36.2:
+36.2
+1
+Shami to Carey, 1 run
+takes on the short ball, pulled off the body to deep square leg
+
+Ball 36.1:
+36.1
+•
+Shami to Carey, no run
+round the wicket, full at off stump, pushed to the covers
+
+Ball MISC:
+John mc: "The beauty of the game. Australia put on 100 in 15 overs be a tough chase. India take 2 wickets in next 5 overs Australia may end up under 250. Margins."
+
+Ball 35.6:
+35.6
+1
+Hardik to Carey, 1 run
+a slower short ball, Carey waits long enough to be able to help it backward of square
+
+Ball 35.5:
+35.5
+4
+Hardik to Carey, FOUR runs
+top shot! Uses his feet then drives this straight of mid-off. A gem of an innings from Carey
+
+Ball 35.4:
+35.4
+•
+Hardik to Carey, no run
+straight, back of a length, worked into the on side
+
+Ball MISC:
+James B: "Pre game the TV broadcast said 250-260 was a good score. Australia look like they might get a decent way past that albeit they need these to and Maxy to bat most of it. Is it Australia batting really well or is the pitch better than it looked? I expect like the NZ match batting might get harder?" Better surface than the NZ game. They have also batted well.
+
+Ball 35.3:
+35.3
+•
+Hardik to Carey, no run
+back of a length, punched into the covers
+
+Ball 35.2:
+35.2
+•
+Hardik to Carey, no run
+full at middle, 119kph, defended into the off side
+
+Ball 35.1:
+35.1
+4
+Hardik to Carey, FOUR runs
+over the wicket, short of a length outside off, pulled strongly wide of mid-on
+
+Ball MISC:
+Hello folks. This is a good base for Australia. This pair and Maxwell key. Carey playing a delightful innings. Pandya returns to the attack
+
+Ball MISC:
+That will be drinks and Gnasher is back to close this innings
+
+Ball 34.6:
+34.6
+1
+Shami to Carey, 1 run
+Slower bouncer, shoulder-high on middle. He controls the pull nicely towards deep backward square leg.
+
+Ball MISC:
+Shami around the wicket
+
+Ball 34.5:
+34.5
+1
+Shami to Smith, 1 run
+Slower bouncer outside off, he ramps this to deep third. Don't think he got all of it
+
+Ball 34.4:
+34.4
+•
+Shami to Smith, no run
+Low full toss on middle, he punches this straight back to Shami
+
+Ball 34.3:
+34.3
+•
+Shami to Smith, no run
+Slower short of a length ball outside off, Smith is beaten on the pull. Probably deceived by the slowness of that
+
+Ball 34.2:
+34.2
+2
+Shami to Smith, 2 runs
+Juuuuust over a leaping Rohit at short midwicket. Banged in short on off, he is rushed into the pull and splices this. Gets enough bat to clear the fielder
+
+Ball 34.1:
+34.1
+•
+Shami to Smith, no run
+Smith on the charge, can't connect once more. Good length ball on off, he is down and gives himself room looking to blast this over mid-off. Can't get a bat on that
+
+Ball MISC:
+Shami back on from over the wicket
+
+Ball 33.6:
+33.6
+4
+Kuldeep to Carey, FOUR runs
+Oh, that is a top shot. One of the shots of the innings so far. Legbreak on off stump. He stays legside of the ball, extends his arms and lofts him impeccably over covers. One bounce and four
+
+Ball 33.5:
+33.5
+•
+Kuldeep to Carey, no run
+Much quicker at 89kph on leg stump. He misses the flick and is rapped on the pad as the ball goes to the on-side
+
+Ball 33.4:
+33.4
+•
+Kuldeep to Carey, no run
+Flatter on leg stump, he defends to the on-side
+
+Ball 33.3:
+33.3
+•
+Kuldeep to Carey, no run
+Almost flicks this straight to mid-on. Fuller on leg stump, think he was looking to go much squarer. The mid-on fielder collects this on the bounce
+
+Ball 33.3:
+33.3
+1w
+Kuldeep to Carey, 1 wide
+Gets the ball to spin well outside off stump, past the tramline as it turns out. Called a wide
+
+Ball 33.2:
+33.2
+•
+Kuldeep to Carey, no run
+Gets the ball to turn away from Carey from around the off stump line. He pushes to point
+
+Ball 33.1:
+33.1
+4
+Kuldeep to Carey, FOUR runs
+He picks his spot once again! Tossed up on off stump. He bends down on one knee and goes straighter this time with mid-on inside the circle
+
+Ball MISC:
+Manav: "Is this the same pitch that NZ played on? Australia looking way more comfortable in rotating the strike." Nope, fresh pitch today
+
+Ball 32.6:
+32.6
+•
+Varun to Smith, no run
+On a length on off, he stays back and pushes to short midwicket
+
+Ball 32.5:
+32.5
+1
+Varun to Carey, 1 run
+Fuller outside off, he drives to deep extra cover
+
+Ball 32.4:
+32.4
+6
+Varun to Carey, SIX runs
+WHACKED! Carey has picked the bones out that. 92.8kph length ball outside off. He brings out the slog sweep and sends it soaring over deep midwicket
+
+Ball 32.3:
+32.3
+•
+Varun to Carey, no run
+Flatter 90.8kph length ball on off, he defends to the offside
+
+Ball 32.2:
+32.2
+1
+Varun to Smith, 1 run
+Lines up for an old-fashioned slog sweep and drags the length ball outside off to deep midwicket
+
+Ball 32.1:
+32.1
+•
+Varun to Smith, no run
+Beaten on the inside-edge. Googly that spun back from well outside off. Smith plays inside the line of it
+
+Ball MISC:
+Natesh: "Good old 90s match now.. Set batter batting against spin and rotating with odd boundary.. Aussies would be looking around 260 to 280.."
+
+Ball 31.6:
+31.6
+•
+Kuldeep to Carey, no run
+Tossed up on leg stump, rather just outside off. He works this to Rohit at short midwicket
+
+Ball 31.5:
+31.5
+1
+Kuldeep to Smith, 1 run
+Flatter on off stump, he whisks this to Kohli at deep square leg
+
+Ball 31.4:
+31.4
+2
+Kuldeep to Smith, 2 runs
+Lovely shot. Floated on middle, he presents the full face of the bat, reaches the pitch of the ball and lofts this over the bowler's head. Never looked to hit that hard
+
+Ball 31.3:
+31.3
+•
+Kuldeep to Smith, no run
+Shimmies down the track to the tossed up ball on middle and leg, he flicks this to square leg
+
+Ball 31.2:
+31.2
+1
+Kuldeep to Carey, 1 run
+Stifle short on off, he stays back and punches to the left of Kohli at deep cover. He swoops onto the ball quickly, picks it one-handed and keeps the batters to a run
+
+Ball 31.1:
+31.1
+1
+Kuldeep to Smith, 1 run
+Tossed up on off stump, he brings out the lap sweep but doesn't time it well enough. Only gets a run for his effort
+
+Ball MISC:
+anush: "India's ring fielding is the main reason for restricting aussies today, spot on!"
+
+Ball 30.6:
+30.6
+•
+Varun to Carey, no run
+Swept but can't beat short fine leg. Was pushed quicker on middle and leg. He got a good chunk on the sweep but can't quite beat the fielder
+
+Ball 30.5:
+30.5
+•
+Varun to Carey, no run
+Darted back into Carey at 110.3kph. He keeps this out and plays this back to the bowler.
+
+Ball 30.4:
+30.4
+1
+Varun to Smith, 1 run
+Flatter googly on middle and leg, he works this to the left of square leg. Jadeja hares across and misfields, but his recovery is quick enough
+
+Ball 30.3:
+30.3
+•
+Varun to Smith, no run
+Flatter length ball on off, he defends back to the bowler
+
+Ball 30.2:
+30.2
+•
+Varun to Smith, no run
+Googly on off, he pushes towards cover
+
+Ball 30.1:
+30.1
+1
+Varun to Carey, 1 run
+And he almost gets another wicket. Gets the length ball to hold on to the surface outside off. Carey is through his push a little early and plays this aerially towards point.
+
+Ball MISC:
+mudit: "I guess Alex Carey has not faced Varun much, if at all. Why would you not make him face varun right in the beginning?" Here he is
+
+Ball 29.6:
+29.6
+1
+Kuldeep to Carey, 1 run
+Tossed up on leg stump, Carey unleashes another sweep this time to the left of deep backward square leg where Iyer does well to keep the batters down to a run
+
+Ball 29.5:
+29.5
+•
+Kuldeep to Carey, no run
+Tossed up on middle, he pushes with hard hands and almost plonks a catch to Kuldeep
+
+Ball 29.4:
+29.4
+4
+Kuldeep to Carey, FOUR runs
+Swept fine, swept for four. Wayward length ball down leg. He gets down low and sweeps this past short fine leg
+
+Ball 29.3:
+29.3
+•
+Kuldeep to Carey, no run
+Pushed quicker outside off, Carey stays back and pushes towards extra cover
+
+Ball MISC:
+Aditya: "The 28th over from Kuldeep is a gem. Smith was playing behind the line of the ball. He set him up with stump line and teased with a wide one last ball inviting him to drive. Beauty"
+
+Ball 29.2:
+29.2
+1
+Kuldeep to Smith, 1 run
+Fuller around off stump, he eases this to long-on
+
+Ball 29.1:
+29.1
+•
+Kuldeep to Smith, no run
+Googly on off stump, he gets back and across and defends
+
+Ball 28.6:
+28.6
+•
+Jadeja to Carey, no run
+On a length on middle, he ticks this to the on-side
+
+Ball 28.5:
+28.5
+4
+Jadeja to Carey, FOUR runs
+Headed towards the boundary and the ball gets there. He didn't get it out of the middle, but he will take it. Was pushed quicker on off. He backs away, gives himself room and lofts him over mid-off
+
+Ball 28.4:
+28.4
+•
+Jadeja to Carey, no run
+Darted in on middle and leg stumps, he gets across and works to short midwicket
+
+Ball 28.3:
+28.3
+1
+Jadeja to Smith, 1 run
+Gentle length ball at 89kph on off, he pushes to long-on
+
+Ball 28.2:
+28.2
+1
+Jadeja to Carey, 1 run
+Fuller length ball on leg, he eases to long-on
+
+Ball 28.1:
+28.1
+•
+Jadeja to Carey, no run
+On a length on off stump, he works this to the on-side as Jadeja sprints across and saves a run
+
+Ball 27.6:
+27.6
+•
+Kuldeep to Smith, no run
+Now gets beaten by the legcutter. Was pushed quicker outside off, Smith gets across and pushes at it. The ball evades his outside edge
+
+Ball 27.5:
+27.5
+•
+Kuldeep to Smith, no run
+Pushed quicker on middle, he ticks this to square leg
+
+Ball 27.4:
+27.4
+•
+Kuldeep to Smith, no run
+A soft leading edge, but no harm done. Googly on middle, he defends with soft hands. Don't think he is yet to pick Kuldeep off the hand
+
+Ball 27.3:
+27.3
+1
+Kuldeep to Carey, 1 run
+Tossed up on middle and leg, he drives to deep extra cover
+
+Ball 27.2:
+27.2
+•
+Kuldeep to Carey, no run
+Flatter length ball on middle and leg, he works this to short midwicket
+
+Ball MISC:
+Stays over the wicket
+
+Ball 27.1:
+27.1
+1
+Kuldeep to Smith, 1 run
+Tossed up down leg, he works this behind square for a run
+
+Ball MISC:
+Alex Carey is the new man in. He won't be on strike. Kuldeep back from over the wicket
+
+Ball 26.6:
+26.6
+W
+Jadeja to Inglis, OUT
+And just like that, Australia lose another one. He shortens the length just a touch on off. The ball sticks on to the surface and that brings about Inglis' undoing. He was looking to knock this down the ground, instead chips a simple catch to Kohli at short cover
+Josh Inglis c Kohli b Jadeja 11 (12b 0x4 0x6 13m) SR: 91.66
+
+Ball 26.5:
+26.5
+2
+Jadeja to Inglis, 2 runs
+On a length on middle and leg, he works this through midwicket for a couple of runs
+
+Ball 26.4:
+26.4
+1
+Jadeja to Smith, 1 run
+Flatter outside off, he pushes to deep cover
+
+Ball 26.3:
+26.3
+6
+Jadeja to Smith, SIX runs
+BANG! Stifle overpitched on off, Smith lofts this straight over the bowler's head and the ball travels all the way for an 80m six
+
+Ball 26.2:
+26.2
+1
+Jadeja to Inglis, 1 run
+Flatter on off, he pushes to long-on
+
+Ball 26.1:
+26.1
+1
+Jadeja to Smith, 1 run
+Almost beats him with the length but Smith adjusts. He shows his cards early by charging down the track. Jadeja shortens his length but Smith pats him to deep cover
+
+Ball MISC:
+anush: "shows the importance of having left armers in the team, they constantly attack stumps and every now and then get one to turn and bounce"
+
+Ball 25.6:
+25.6
+1
+Varun to Smith, 1 run
+Fuller outside off stump, he squeezes this past point for a run to deep point
+
+Ball 25.5:
+25.5
+2
+Varun to Smith, 2 runs
+Fifty for Smith off just 68 balls. Top knock from the captain. Tossed up ball outside off, he drives to deep extra cover's left for a couple of runs
+
+Ball 25.4:
+25.4
+•
+Varun to Smith, no run
+Length on off and middle, he works this to short fine leg again
+
+Ball 25.3:
+25.3
+4
+Varun to Smith, FOUR runs
+Short and he's put it in the gap once more. Rare drag down from Varun on off. Smith pulls effectively in the gap between deep midwicket and deep square leg
+
+Ball 25.2:
+25.2
+•
+Varun to Smith, no run
+Googly on off and middle, he nudges this but straight to short fine leg
+
+Ball 25.1:
+25.1
+1
+Varun to Inglis, 1 run
+Fuller on off stump as Inglis whisks this to long-on
+
+Ball 24.6:
+24.6
+1
+Jadeja to Inglis, 1 run
+Takes a couple of steps down the pitch and pushes the length ball to long-on
+
+Ball 24.5:
+24.5
+1
+Jadeja to Smith, 1 run
+Pushed quicker on the stumps, he knocks this down to long-on for another easy run
+
+Ball 24.4:
+24.4
+1
+Jadeja to Inglis, 1 run
+Stifle short outside off, turning away from Inglis who squirts this off the outer half of the bat to point. A slight misfield and they get a run
+
+Ball 24.3:
+24.3
+1
+Jadeja to Smith, 1 run
+Flatter trajectory on the stump, Smith presents the full face of the bat and pushes to long-on
+
+Ball 24.2:
+24.2
+•
+Jadeja to Smith, no run
+Darted at 94.8kph on middle stump. Smith is right back and blocks
+
+Ball 24.1:
+24.1
+1
+Jadeja to Inglis, 1 run
+Shimmies down the track and eases the 95.5kph length ball to long-on
+
+Ball 23.6:
+23.6
+4
+Varun to Smith, FOUR runs
+To full and punished. Right in Smith's wheelhouse outside off and Smith laces a stunning cover drive all
+
+Ball 23.5:
+23.5
+1
+Varun to Inglis, 1 run
+Flatter googly on middle and leg, he works this behind square
+
+Ball 23.4:
+23.4
+1
+Varun to Smith, 1 run
+Tossed up fuller outside off, he leans into the drive to deep extra cover
+
+Ball 23.3:
+23.3
+•
+Varun to Smith, no run
+Wrong'un on off, Smith works this to short midwicket
+
+Ball 23.2:
+23.2
+1
+Varun to Inglis, 1 run
+Stifle short on off, he ticks this past the bowler and even a sprawling Kohli dive sprinting from short midwicket can't prevent a run
+
+Ball 23.1:
+23.1
+•
+Varun to Inglis, no run
+Through him first ball. Tossed up googly outside off that spins and beats him on the inside edge
+
+Ball MISC:
+Varun back on for the new batter
+
+Ball 22.6:
+22.6
+1
+Jadeja to Inglis, 1 run
+Hangs back to the length ball outside off and eases to deep cover
+
+Ball 22.5:
+22.5
+1
+Jadeja to Smith, 1 run
+Fuller outside off, he drives to deep cover
+
+Ball 22.4:
+22.4
+1
+Jadeja to Inglis, 1 run
+Darted in on middle, he pushes to long-on to get off the mark
+
+Ball MISC:
+Inglis is the next man in
+
+Ball 22.3:
+22.3
+W
+Jadeja to Labuschagne, OUT
+Trapped on the crease and in front of the stumps. The umpire's finger is up in a flash and Labuschagne will not review. Jadeja bowls this much quicker and his usual wicket to wicket line. Labuschagne is back and looks to work this away to the on-side. Misses and is trapped in front. Ball-tracker brings up an umpire's call on leg stump. So Labuschagne would have had to walk back even on review
+Marnus Labuschagne lbw b Jadeja 29 (36b 2x4 1x6 49m) SR: 80.55
+See all photos
+
+Ball 22.2:
+22.2
+•
+Jadeja to Labuschagne, no run
+Much flatter on middle at 98.9kph, he pushes towards cover
+
+Ball 22.1:
+22.1
+4
+Jadeja to Labuschagne, FOUR runs
+SHOT! Flatter length ball on middle, he brings out the sweep and nails it to the deep midwicket fence
+
+Ball 21.6:
+21.6
+•
+Shami to Smith, no run
+Excellent change of pace now. Slower short of a length ball outside off, Smith looks to dab that fine, doesn't connect
+
+Ball 21.5:
+21.5
+•
+Shami to Smith, no run
+Adventurous from Smith now, and has he been dismissed in doing that? Nope. And India don't review, too. On a length outside off, he steps right across eyeing an ungainly scoop. Loses his footing in the process, but he didn't get an edge on that
+See all photos
+
+Ball 21.4:
+21.4
+•
+Shami to Smith, no run
+Dropped by Shami in his follow-through. Was a tough chance, I must add. In the slot outside off, Smith smashes this to the left of Shami, who flings out his hand but the ball does not stick
+See all photos
+
+Ball 21.3:
+21.3
+•
+Shami to Smith, no run
+Charges down the track looking to flat-bat the good length ball on off. Can only mistime back to the bowler
+
+Ball 21.2:
+21.2
+1
+Shami to Labuschagne, 1 run
+On a length outside off, he eases this to deep covers for a run
+
+Ball 21.1:
+21.1
+•
+Shami to Labuschagne, no run
+Beaten first up! Good length ball outside off, with a hint of shape away from Labuschagne who feels for it away form his body and gets beaten
+
+Ball MISC:
+Time for some pace. Here comes Mohammed Shami from over the wicket
+
+Ball 20.6:
+20.6
+•
+Jadeja to Smith, no run
+Stifle short outside off, he pushes towards Kohli at extra cover
+
+Ball 20.5:
+20.5
+•
+Jadeja to Smith, no run
+Flatter on the stumps, worked to midwicket
+
+Ball 20.4:
+20.4
+•
+Jadeja to Smith, no run
+Ooh, turn and Smith gets beaten. Now that will plant a seed in Smith's mind. On a length on off, spinning away from Smith who pushes at it and the ball just evades his outside edge
+
+Ball 20.3:
+20.3
+•
+Jadeja to Smith, no run
+Quicker length ball outside off, he pushes towards point
+
+Ball 20.2:
+20.2
+•
+Jadeja to Smith, no run
+Flatter on the stumps, he pushes towards his partner, but Labuschagne and Jadeja are caught in a tangle and they don't get a run
+
+Ball 20.1:
+20.1
+•
+Jadeja to Smith, no run
+
+Ball 19.6:
+19.6
+•
+Axar Patel to Labuschagne, no run
+Length ball at 87kph on off, he defends to the off side
+
+Ball 19.5:
+19.5
+6
+Axar Patel to Labuschagne, SIX runs
+Nailed the sweep this time around. Flatter on off, he gets in position nice and early and muscles the sweep in between deep midwicket and deep square leg. The ball goes over the ropes
+
+Ball 19.4:
+19.4
+•
+Axar Patel to Labuschagne, no run
+Quicker outside off, he pats this to point
+
+Ball 19.3:
+19.3
+2
+Axar Patel to Labuschagne, 2 runs
+Top edge but safe. Flatter outside off, he drags this from outside off using a sweep but the ball falls in between deep midwicket and deep square leg
+
+Ball 19.2:
+19.2
+1
+Axar Patel to Smith, 1 run
+Stifle short as he goes back and cuts past covers
+
+Ball 19.1:
+19.1
+•
+Axar Patel to Smith, no run
+Darts that one in at 96kph on off. Smith shimmies down the track but is unable to get under it and wears it on his pad
+
+Ball 18.6:
+18.6
+1
+Jadeja to Smith, 1 run
+Fuller outside off, he drives crisply to long-ff
+
+Ball 18.5:
+18.5
+•
+Jadeja to Smith, no run
+Leading edge almost straight back to the bowler. Pushed quicker on off, he was looking to turn this to the on-side, is a touch early into his clip and almost plays this back to Jadeja
+
+Ball 18.4:
+18.4
+•
+Jadeja to Smith, no run
+Brilliant stop by Jadeja. Flatter on off, he drives this to the left of Jadeja who puts in a full-length dive and saves a ru
+
+Ball 18.3:
+18.3
+2
+Jadeja to Smith, 2 runs
+Flatter on his pads, he works this behind square neatly for two more runs
+
+Ball 18.2:
+18.2
+2
+Jadeja to Smith, 2 runs
+Chipped over midwicket for a couple of runs. Bowls this on a length on off as Smith shimmies down the track and whisks this neatly
+
+Ball 18.1:
+18.1
+•
+Jadeja to Smith, no run
+Angled in on off stump, he prods half-forward and pushes to extra cover
+
+Ball MISC:
+Announcing ESPNcricinfo and NEXA CricCaster, your ticket to cricketing stardom.
+
+Ball MISC:
+Raj: "Wow, that must be a real quick treatment (like Formula One race) that was done during Jaddu's over and Axar was back to bowl next over" Hah, yeah
+
+Ball 17.6:
+17.6
+•
+Axar Patel to Labuschagne, no run
+Quicker outside off, he cuts to the right of point where Jadeja is onto the ball in a flash. Labuschagne wanted a run but is sent back
+
+Ball 17.5:
+17.5
+4
+Axar Patel to Labuschagne, FOUR runs
+A boundary exactly after 50 balls and that's beautifully done by Labuschagne. Length ball at 90kph outside off as he stays back and dabs this deftly past the keeper's right.
+
+Ball 17.4:
+17.4
+1
+Axar Patel to Smith, 1 run
+Very quick at middle stump. Was bowled at 96kph as Smith stays back and punches to long-off
+
+Ball 17.3:
+17.3
+•
+Axar Patel to Smith, no run
+Flatter on the stumps as Smith shimmies down the track, but can't beat midwicket with his flick
+
+Ball 17.2:
+17.2
+1
+Axar Patel to Labuschagne, 1 run
+Angled in on off stump as Labuschagne prods forward and eases to long-on
+
+Ball 17.1:
+17.1
+1
+Axar Patel to Smith, 1 run
+Floats this wider outside off, he drives on the up to deep cover
+
+Ball MISC:
+46 balls without a boundary.
+
+Ball 16.6:
+16.6
+1
+Jadeja to Smith, 1 run
+Darts this one in on the fuller side on middle at 95.6kph as he works this to deep midwicket
+
+Ball 16.5:
+16.5
+1
+Jadeja to Labuschagne, 1 run
+Fuller and flatter on middle and leg, he whisks this to wide long-on to get off strike
+
+Ball 16.4:
+16.4
+•
+Jadeja to Labuschagne, no run
+Flatter length ball on middle, Labuschagne can't do much but pushes this back towards the bowler
+
+Ball 16.3:
+16.3
+•
+Jadeja to Labuschagne, no run
+Wicket to wicket length ball on off stump, Labuschagne is camped on the backfoot and defends
+
+Ball 16.2:
+16.2
+•
+Jadeja to Labuschagne, no run
+Quicker length ball on middle and leg, he ticks this to the on-side
+
+Ball 16.1:
+16.1
+•
+Jadeja to Labuschagne, no run
+Darted in outside off, he stays back and cuts to point
+
+Ball MISC:
+Axar goes off the field to get a bit more treatment. Sundar comes on as a sub
+
+Ball 15.6:
+15.6
+1
+Axar Patel to Labuschagne, 1 run
+Fuller in length outside off, he eases that to long-on and that will be six singles off the over
+
+Ball 15.5:
+15.5
+1
+Axar Patel to Smith, 1 run
+Stifle short as he stays back and punches to deep cover
+
+Ball MISC:
+Thanks, Gnasher. The Indian spinners expectedly have pulled things back. The next few overs will be crucial. Axar is getting tended to by physio. He seems to be fine to continue.
+
+Ball MISC:
+Jags: "A qn to welcome Ashish. What do you think is a defendable score on this pitch?Looks like anything above 240 will be a tough chase." Think India will be happy chasing anything below 260.
+
+Ball MISC:
+Axar is in some pain here after chasing the ball. Landed heavily on his neck/head when he threw the ball back. The physio is out and the umpires have called drinks. The game is finely balanced. Here's Ashish.
+
+Ball 15.4:
+15.4
+1
+Axar Patel to Labuschagne, 1 run
+gets a bit of a stride forward, pushes back up the pitch, Axar tries to get across
+
+Ball 15.3:
+15.3
+1
+Axar Patel to Smith, 1 run
+full at middle, drives to long-off
+
+Ball MISC:
+shashank: "Person in charge of replays must really hate the axar-jaddu combo."
+
+Ball 15.2:
+15.2
+1
+Axar Patel to Labuschagne, 1 run
+deep in the crease, works it around the corner into the leg side
+
+Ball 15.1:
+15.1
+1
+Axar Patel to Smith, 1 run
+whipped off the pads to deep square leg
+
+Ball MISC:
+Anuj: "Axar and Jaddu bowling in tandem, are your fingers ready @Andrew?" Fun times
+
+Ball 14.6:
+14.6
+1
+Jadeja to Smith, 1 run
+punches off the back foot down the on side, Jadeja tries to get across but Marnus is in the way
+
+Ball MISC:
+Smith makes Jadeja wait
+
+Ball 14.5:
+14.5
+1
+Jadeja to Labuschagne, 1 run
+nearly chopped on! Living on the edge. Looks to late cut a straight delivery, takes an inside edge past leg stump
+
+Ball 14.4:
+14.4
+•
+Jadeja to Labuschagne, no run
+defended back to the bowler
+
+Ball 14.3:
+14.3
+2
+Jadeja to Labuschagne, 2 runs
+worked off the pads to deep square leg, this pair quick between the wickets
+
+Ball 14.2:
+14.2
+•
+Jadeja to Labuschagne, no run
+full at middle and leg, defended
+
+Ball 14.1:
+14.1
+•
+Jadeja to Labuschagne, no run
+driven into the off side
+
+Ball MISC:
+Jadeja gets the ball
+
+Ball MISC:
+A maiden that got increasingly more dramatic
+
+Ball 13.6:
+13.6
+•
+Axar Patel to Smith, no run
+hits the stumps but the bails don't fall! Blimey. Smith drives, gets an inside edge into the pads which spins back and hits low on off stump. A decent clunk.
+See all photos
+
+Ball 13.5:
+13.5
+•
+Axar Patel to Smith, no run
+angled into the pads, flicked to backward square leg, a run out chance if Varun had fielded cleanly
+
+Ball 13.4:
+13.4
+•
+Axar Patel to Smith, no run
+wide on the crease, full at middle, defended
+
+Ball 13.3:
+13.3
+•
+Axar Patel to Smith, no run
+full at middle and leg, drives back to the bowler
+
+Ball 13.2:
+13.2
+•
+Axar Patel to Smith, no run
+on the back foot this time, drives square into the off side
+
+Ball 13.1:
+13.1
+•
+Axar Patel to Smith, no run
+defended off the stumps to cover
+
+Ball 12.6:
+12.6
+•
+Varun to Labuschagne, no run
+back and across, tucks a straight delivery into midwicket
+
+Ball MISC:
+A short, straight mid-on in place
+
+Ball 12.5:
+12.5
+•
+Varun to Labuschagne, no run
+on off stump, good length, steps forward and defends
+
+Ball 12.4:
+12.4
+1
+Varun to Smith, 1 run
+reaches out to a wider delivery and drives to the sweeper
+
+Ball MISC:
+paulyt : "That *may* have been thrown a little early but it was 100% a fair catch and he was in control the whole time. Good for the umpire just to give him a word of advice though." Yeah, didn't see any issue with that one. There was one by Beau Webster in Sri Lanka which I thought was very quick
+
+Ball 12.3:
+12.3
+1
+Varun to Labuschagne, 1 run
+a low full toss, bunted down to long-on
+
+Ball 12.2:
+12.2
+•
+Varun to Labuschagne, no run
+short of a length, worked around the corner to short fine leg
+
+Ball 12.1:
+12.1
+1
+Varun to Smith, 1 run
+full outside off, whips his wrists through a drive out to the sweeper
+
+Ball 11.6:
+11.6
+•
+Axar Patel to Labuschagne, no run
+plays back to quite a full delivery, needs to be careful, angled into backward point
+
+Ball 11.5:
+11.5
+1
+Axar Patel to Smith, 1 run
+back of a length, drives to the cover sweeper
+
+Ball 11.4:
+11.4
+1
+Axar Patel to Labuschagne, 1 run
+outside off, opens the face through point
+
+Ball 11.3:
+11.3
+•
+Axar Patel to Labuschagne, no run
+pushed into the covers
+
+Ball MISC:
+Sriram: "I'm always nervous when Gill throws the ball after a catch! Its completely okay to hold it in hands for 3 more seconds Mr.Gill" - Interestingly, Richard Illingworth had a word with Gill
+
+Ball 11.2:
+11.2
+•
+Axar Patel to Labuschagne, no run
+full at middle, defended to cover
+
+Ball 11.1:
+11.1
+1
+Axar Patel to Smith, 1 run
+on the back foot, drives square through the off side
+
+Ball MISC:
+Aashay: "35 potential overs of spin still remain. Aussies need to be proactive like they've been so far otherwise this can go down south fairy quickly for them."
+
+Ball 10.6:
+10.6
+1
+Varun to Smith, 1 run
+back of a length, straight, driven down to long-on
+
+Ball 10.5:
+10.5
+•
+Varun to Smith, no run
+a yorker, speared in at off stump, squeezed out off the toe end
+
+Ball 10.4:
+10.4
+•
+Varun to Smith, no run
+gets forward and flicks into midwicket
+
+Ball 10.3:
+10.3
+•
+Varun to Smith, no run
+fuller at middle and off, defended
+
+Ball 10.2:
+10.2
+1
+Varun to Labuschagne, 1 run
+deep in the crease, flicks into the leg side
+
+Ball 10.1:
+10.1
+1
+Varun to Smith, 1 run
+short of a length, worked off the back foot down to long-on
+
+Ball MISC:
+Prasanna S: "Let's give Gill his due credit. Just like how Head took that catch off Rohit in that final, this was an excellent running catch under pressure too to dismiss the danger man. Can Gill do what Head did with the bat too?"
+
+Ball MISC:
+That's the powerplay done: honours even?
+
+Ball 9.6:
+9.6
+1
+Axar Patel to Smith, 1 run
+short of a length, Smith on the back foot and drives to the cover sweeper
+
+Ball 9.5:
+9.5
+•
+Axar Patel to Smith, no run
+a little wider outside off, driven into the covers
+
+Ball 9.4:
+9.4
+•
+Axar Patel to Smith, no run
+touch shorter, slides on, driven off the back foot to cover
+
+Ball 9.3:
+9.3
+•
+Axar Patel to Smith, no run
+out of the crease, ends up defending this time
+
+Ball 9.2:
+9.2
+4
+Axar Patel to Smith, FOUR runs
+aggression from Smith, uses his feet and takes this from outside off over mid-on
+
+Ball 9.1:
+9.1
+•
+Axar Patel to Smith, no run
+round the wicket, full outside off, Smith drives strongly to cover
+
+Ball MISC:
+Axar Patel into the attack
+
+Ball 8.6:
+8.6
+1
+Varun to Smith, 1 run
+very full at the stumps, driven down the ground
+
+Ball 8.5:
+8.5
+2
+Varun to Smith, 2 runs
+flicks a straight delivery off the pads to deep square leg and good running makes the second
+
+Ball 8.4:
+8.4
+1
+Varun to Labuschagne, 1 run
+on the back foot, punches through the covers to long-off
+
+Ball 8.3:
+8.3
+•
+Varun to Labuschagne, no run
+over the wicket, back of a length outside off, Labuschagne dabs it late towards slip
+
+Ball MISC:
+Update: India fans now a little less nervous. Marnus in at No. 4. Slip and a leg slip
+
+Ball MISC:
+Massive moment. Head was playing very well. Could he have had a look at Varun for a ball or two?
+
+Ball 8.2:
+8.2
+W
+Varun to Head, OUT
+and he's got Head! Huge moment. Round the wicket, Head aims to loft Varun down the ground, comes from low down on the bat and Gill makes good ground to his left at long-off
+Travis Head c Shubman Gill b Varun 39 (33b 5x4 2x6 46m) SR: 118.18
+See all photos
+
+Ball MISC:
+Smith now batting in a cap
+
+Ball 8.1:
+8.1
+1
+Varun to Smith, 1 run
+drives down to long-off
+
+Ball MISC:
+Time for the man of mystery: Varun into the attack. Slip in place
+
+Ball MISC:
+I'll sum up 90% of the feedback I'm currently getting: India fans are nervous of Travis Head
+
+Ball 7.6:
+7.6
+•
+Kuldeep to Head, no run
+well bowled, cramps Head for room around leg stump as he looks to play off the back foot. Very good comeback from Kuldeep
+
+Ball 7.5:
+7.5
+•
+Kuldeep to Head, no run
+beaten between bat and pad as he goes onto the back foot, this slides past leg stump with Head giving himself some room. Actually clipped the pad
+
+Ball 7.4:
+7.4
+•
+Kuldeep to Head, no run
+pushed through at leg stump, played back to the bowler
+
+Ball 7.3:
+7.3
+•
+Kuldeep to Head, no run
+stays in the crease this time, pushed into the covers
+
+Ball 7.2:
+7.2
+6
+Kuldeep to Head, SIX runs
+fantastic shot! Crisp footwork from Head and then he launches it perfectly straight down the ground. Hold the pose
+
+Ball 7.1:
+7.1
+•
+Kuldeep to Head, no run
+steps back outside leg stump and drives to cover
+
+Ball MISC:
+Shami getting a foot taped up in the dugout
+
+Ball MISC:
+Not sure how much more Pandya we'll see
+
+Ball 6.6:
+6.6
+1
+Hardik to Head, 1 run
+short and down the leg side, he's fortunate to get away with this as Head's pull finds short fine leg
+
+Ball 6.6:
+6.6
+1w
+Hardik to Head, 1 wide
+a slower bouncer, Head tries to hold his shot and send it to third but is done by the lack of pace and it's through to the keeper
+
+Ball 6.5:
+6.5
+•
+Hardik to Head, no run
+short and some width outside off, 134kph, takes the bottom as Head cuts and bobbles to Rahul
+
+Ball 6.4:
+6.4
+4
+Hardik to Head, FOUR runs
+this is brilliantly played by Head, whips a delivery off his pads through midwicket, played almost as a straight-bat pull
+
+Ball 6.3:
+6.3
+1
+Hardik to Smith, 1 run
+full at off stump, driven straight into the stumps and rebounds away for a single
+
+Ball MISC:
+Smith backs away. Distracted by something
+
+Ball 6.2:
+6.2
+4
+Hardik to Smith, FOUR runs
+short of a length, Smith gets underneath with a pull, not perfectly timed but reaches the deep square rope
+
+Ball 6.1:
+6.1
+•
+Hardik to Smith, no run
+good length outside off, 132kph, defended to point
+
+Ball MISC:
+Change of ends for Pandya
+
+Ball 5.6:
+5.6
+1
+Kuldeep to Smith, 1 run
+full at off stump, whipped to the on side with the bottom hand and Kuldeep can't stop it in his follow through
+
+Ball 5.5:
+5.5
+1
+Kuldeep to Head, 1 run
+uses his feet and clips a full delivery through the on side
+
+Ball MISC:
+From Namooh: Only the second time Kuldeep Yadav has come to bowl this early in an ODI, previously also came to bowl in 6th over vs Australia in 2017.
+
+Ball 5.4:
+5.4
+1
+Kuldeep to Smith, 1 run
+moves across the stumps and nudges this from outside off into midwicket
+
+Ball 5.3:
+5.3
+1
+Kuldeep to Head, 1 run
+full at the pads, worked into midwicket
+
+Ball MISC:
+Aaron: "Probably the two Aussies you'd want out there at the start of an innings. Good balance of aggression and stability."
+
+Ball 5.2:
+5.2
+•
+Kuldeep to Head, no run
+leans back and drives this off the stumps to cover
+
+Ball 5.1:
+5.1
+1
+Kuldeep to Smith, 1 run
+over the wicket, Smith flicks it firmly down the ground to long-on
+
+Ball MISC:
+Time for spin: Kuldeep Yadav
+
+Ball MISC:
+John: "Definitely a silly gamble playing Connoly when Inglis, Carey even marnus are better options. I just don't see what all the fuss is about with him. Had 1 half decent bbl season and made runs in a final. His bowling average too IMO"
+
+Ball 4.6:
+4.6
+•
+Shami to Head, no run
+over the wicket, back of a length, defended to cover. Head is up and running
+
+Ball 4.5:
+4.5
+4
+Shami to Head, FOUR runs
+great shot! That's the best of Head. Full but not that wide outside off, he laces a square drive through point. Power and placement
+
+Ball 4.4:
+4.4
+4
+Shami to Head, FOUR runs
+gets some luck! Swings across the line aiming to the leg side, takes a bottom edge past the stumps to fine leg
+
+Ball 4.3:
+4.3
+4
+Shami to Head, FOUR runs
+short of a length outside off, Head latches onto the width and thrashes it through the covers
+
+Ball 4.2:
+4.2
+2
+Shami to Head, 2 runs
+round the wicket, short of a length outside off, drags a one-handed pull through midwicket
+
+Ball 4.1:
+4.1
+•
+Shami to Head, no run
+wide outside off, square drives to point
+
+Ball MISC:
+Bhargav: "Two chances already for Head. Is today his day?"
+
+Ball MISC:
+Grahaml: "@james. It wasn't a gamble, Short is injured so he needed to be replaced." I'd say there are others in the XI better equipped, but they would have wanted as few positional changes to the order as possible
+
+Ball 3.6:
+3.6
+•
+Hardik to Smith, no run
+back of a length outside off, Smith across the crease and defends
+
+Ball 3.5:
+3.5
+1
+Hardik to Head, 1 run
+tight run! A better delivery, short of a length and straight, Head drives square off the back too point and a direct hit from Jadeja looks like it would have had him
+
+Ball 3.4:
+3.4
+6
+Hardik to Head, SIX runs
+super shot! Length ball on the pads, Head flicks it away with immense power and timing over deep square leg
+
+Ball 3.3:
+3.3
+4
+Hardik to Head, FOUR runs
+clears mid-off! Head manages to get one away. Takes on a fuller delivery, but he still drives on the up. Was actually just straight of the fielder as well
+
+Ball MISC:
+James: "Mindless decision to gamble with the opener slot in a semi backfires in predictable fashion. dear me. Hopefully his dismissal is a circuit breaker ad the Aussies can get going."
+
+Ball 3.3:
+3.3
+1w
+Hardik to Head, 1 wide
+short and down the leg side...wides a big player for Australia at the moment
+
+Ball 3.2:
+3.2
+•
+Hardik to Head, no run
+well bowled, extra bounce from back of a length, Head squares fully squared up as he defends
+
+Ball MISC:
+deep: "had that marginal wide not been given, connnolly would still have been out there! funny how the game works!"
+
+Ball 3.1:
+3.1
+•
+Hardik to Head, no run
+back of a length at off stump, 131kph, chopped square towards point
+
+Ball 3.1:
+3.1
+1w
+Hardik to Head, 1 wide
+short over off stump, sways out of the line. Pandya not happy with the wide call
+
+Ball MISC:
+Steve Smith to the middle
+
+Ball MISC:
+Well, after six plays and misses Connolly finally hit one, but it brought his downfall. A tough lesson for him.
+
+Ball 2.6:
+2.6
+W
+Shami to Connolly, OUT
+has he edged it this time?! India are very convinced. Wide outside off, Connolly playing a square drive, was it an under edge? Yes, it's taken the toe end. They are just checking the ball has carried to KL Rahul. It's clean
+Cooper Connolly c †Rahul b Mohammed Shami 0 (9b 0x4 0x6 17m) SR: 0
+See all photos
+
+Ball 2.5:
+2.5
+•
+Shami to Connolly, no run
+beaten again, six out of six...drives over the top of it as he targets square through the off side
+
+Ball MISC:
+Two slips now
+
+Ball 2.4:
+2.4
+•
+Shami to Connolly, no run
+make that five! Aims for a square drive on the up, slides past the edge
+
+Ball 2.3:
+2.3
+•
+Shami to Connolly, no run
+four in a row! Connolly struggling. This one was nicely bowled, fuller outside off, feet not going anywhere as he pokes at it
+
+Ball 2.3:
+2.3
+1w
+Shami to Connolly, 1 wide
+140kph, short and wide, Connolly slashes and misses with a square cut but gets the wide call
+
+Ball 2.2:
+2.2
+•
+Shami to Connolly, no run
+plays and misses again! Connolly looking to drive, beaten on the inside edge this time as it angles back
+
+Ball 2.1:
+2.1
+•
+Shami to Connolly, no run
+wide outside off, Connolly drives over the top of it...142kph
+
+Ball 1.6:
+1.6
+•
+Hardik to Head, no run
+short outside off, square drives off the back foot to point but again can't get the timing
+
+Ball 1.5:
+1.5
+•
+Hardik to Head, no run
+on the stumps, flicked into midwicket
+
+Ball MISC:
+Matt: "Has Connolly ever opened at domestic level? If so what are his numbers?" He did it briefly in the BBL two seasons ago (and once in List A cricket) with very limited returns
+
+Ball 1.4:
+1.4
+•
+Hardik to Head, no run
+short of a length at off stump, 133kph, on his toes and defends square into the off side
+
+Ball 1.3:
+1.3
+•
+Hardik to Head, no run
+pulls over the top of this one, a small appeal for KL Rahul, Rohit isn't interested in a review
+
+Ball 1.2:
+1.2
+•
+Hardik to Head, no run
+short outside off, he drags a pull to the on side but can't beat mid-on. Timing doesn't look easy
+
+Ball 1.1:
+1.1
+•
+Hardik to Head, no run
+not far away! Short of a length, Head pops it into the on side and just short of square leg. Slowness of the pitch troubling Head
+
+Ball 1.1:
+1.1
+1w
+Hardik to Head, 1 wide
+short of a length down the leg side, also starts with a wide
+
+Ball MISC:
+Hardik Pandya. So no early spin as yet
+
+Ball 0.6:
+0.6
+•
+Shami to Connolly, no run
+flashing drive, misses! Looking to go on the up through the off side and is beaten on the inside edge
+
+Ball 0.5:
+0.5
+•
+Shami to Connolly, no run
+into the stumps from round the wicket, defended towards mid-on
+
+Ball 0.4:
+0.4
+•
+Shami to Connolly, no run
+back of a length outside off, defended square towards point
+
+Ball MISC:
+Connolly opening for the first time at international level
+
+Ball 0.3:
+0.3
+1
+Shami to Head, 1 run
+full outside off, Head drives powerfully to the right of mid-off but good work by Gill intercepts
+
+Ball 0.2:
+0.2
+•
+Shami to Head, no run
+angled in at off stump, 136kph, played into midwicket
+
+Ball MISC:
+How big will that prove?
+
+Ball 0.1:
+0.1
+•
+Shami to Head, no run
+dropped! A chance for Shami. Back of a length, angling in, Head closing the face to the leg side, gets a leading edge to Shami's right and he can't hold on
+See all photos
+
+Commentary 2:
+Ball MISC:
+10.24pm So, that's a wrap from Lahore. What a contest! It's lit up the tournament in its first week, and left the Group B permutations fully up for grabs. Join us again tomorrow for another mildly enticing clash... it's Pakistan versus India in Dubai! But from Miller, Gnasher and Vairavan, good night!
+
+Ball MISC:
+10.16pm The presentations are coming up. Here's Jos Buttler.
+
+Ball MISC:
+"A fantastic game, both sides played well, credit to Australia, fantastic innings from Inglis. 350 is a pretty good score, but it was wet and the dew was a worry. Duckett has been brilliant at the top of the order in all formats, he's been threatening a big contribution for some time. Shame it was in a losing cause. Everyone has played enough cricket to know you need to go on, but take the focus off yourself and focus on the big partnerships, Root and Duckett did that well. Root and Livi bowled well, created chances, but credit to Australia, we couldn't break that partnership, got to give credit to the opposition.
+
+Ball MISC:
+Immense belief and optimism, if we keep putting 350 on the board we won't come second too often.
+
+Ball MISC:
+Steve Smith: "The guys were outstanding, Matt Short played beautifully, Travis and I the only two to miss out. We would have bowled first regardless, given how wet it got in training. It slowed up in the first innings and we thought 350 was chaseable. Looked like they'd get 400 but we trusted each other's skills, took pace off at the right times, hit hard lengths, squeezed and controlled the back end. Marnus bowled nicely too and took a few wickets. The two keepers have been batting beautifully, in great form, Josh didn't get out of second gear, shots all round the ground. I don't know if Josh still has an English passport, but he's not going anywhere!"
+
+Ball MISC:
+Josh Inglis is Player of the Match: "Over the moon, great win, 350, a lot of things have to go right. Pumped on a personal level. Not too much talk at half-time, knew it would be tough with the dew, skidded on nicely, knew it would be better batting second. Alex doesn't say anything when he bats, need to keep chipping away, with Maxi in the sheds, leave him to the last ten, we'd be a chance. Their part-time options are very handy, can't not respect their bowling, tried to tick over with the spin and knew at the back end the pace would skid on. One from one is important. we'll look to recover for the next game."
+
+Ball MISC:
+10.05pm What a match. The highest ODI chase in men's ICC events, and it puts Australia on course for a semi-final berth, as they match South Africa in winning their opening Group B fixture. It looked for a while as though England might have put 400 on the board, and to judge by the power of Australia's chase, they needed more up front, despite Ben Duckett's superb 165. That effort was trumped by a mighty unbeaten 120 from Josh Inglis, with key contributions from Short, Carey and Maxwell too. What might have been had Jofra Archer held onto that vital catch in the deep in Rashid's penultimate over?
+
+Ball 47.3:
+47.3
+6
+Wood to Inglis, SIX runs
+flipped up and over deep midwicket, where a tip over the rope seals it! Inglis seals it with a six, as Australia bulldoze a record run-chase! It was full and fast from Wood, typically so, but Inglis' timing was once again spot-on, just a flick off the pads, and a sprawling attempt at the catch would almost certainly have taken the fielder over the ropes too. What a crushing century!
+See all photos
+
+Ball 47.2:
+47.2
+1
+Wood to Maxwell, 1 run
+opens the shoulders once again, and hauled out to the leg-side, for another single
+
+Ball 47.1:
+47.1
+1
+Wood to Inglis, 1 run
+firm punch out of the full length, to mid-on for the single
+
+Ball MISC:
+Mark Wood will close it out. He bowled pace like fire in the powerplay, but his figures have been battered since
+
+Ball 46.6:
+46.6
+•
+Archer to Maxwell, no run
+decent yorker to close out the over, but England's misery isn't done yet
+
+Ball 46.5:
+46.5
+6
+Archer to Maxwell, SIX runs
+free hit... Opens his shoulders to the slot-ball, gets under the ball with impunity and clobbers it up and over long-on! What a chase this has been!
+
+Ball MISC:
+England look collectively shattered out there, as the umpires try to work out who is on strike. The jeopardy has rather dissipated out there!
+
+Ball 46.5:
+46.5
+1nb
+Archer to Maxwell, (no ball)
+full toss, holed out to deep midwicket! No celebrations yet from England though, not least because it might be a no-ball on height... it might have slipped out from Archer, Livingstone gathered it well over his shoulder, but we await the third umpire's verdict... it was a slippery 141kph either way. Above waist-height it is! That rather sums up Archer's day
+
+Ball 46.4:
+46.4
+4
+Archer to Maxwell, FOUR runs
+dismissive power on the back foot! Maxwell is just playing his own game now. No need to play anything within himself, just splaying his stance, and launching for the hills, through the covers!
+
+Ball MISC:
+sundar: "and anderson defending last ball against smith at scg was also cinematic" If you're a fan of farce, yes...
+
+Ball 46.3:
+46.3
+1
+Archer to Inglis, 1 run
+pace off, poked off the top of the off stump, down to short third
+
+Ball MISC:
+DJ: "Let's not get carried away here, one wicket and we have a long, internationally inexperienced tale at the end. Anything could happen " Spoken like an ... Englishman!
+
+Ball 46.2:
+46.2
+6
+Archer to Inglis, SIX runs
+short, not desperately so, but Inglis is so deep in his crease and pivots wonderfully through his launch into the stands at square leg! The fifty stand comes up in style!
+
+Ball 46.1:
+46.1
+1
+Archer to Maxwell, 1 run
+yorker, Maxwell waits on the back foot and pokes to cover
+
+Ball MISC:
+Archer will bowl his last, with four overs still remaining. What might have been had he held that catch...?
+
+Ball MISC:
+Egok: "The scorecard reads like Michael Schumacher doing green and purple sectors in his hayday."
+
+Ball 45.6:
+45.6
+•
+Wood to Inglis, no run
+dangles the carrot outside off, beats a loose poke. A pair of dot-balls to finish
+
+Ball 45.5:
+45.5
+•
+Wood to Inglis, no run
+line and length at a good pace, patted back down the pitch
+
+Ball MISC:
+Talha: "They need to target their damn toes like Bumrah." Valid
+
+Ball 45.4:
+45.4
+1
+Wood to Maxwell, 1 run
+swishes at the length ball, a flying edge down through deep third, Archer does well to pluck the ball back with an outstretched hand but it's surely academic now
+
+Ball MISC:
+Less than a run a ball needed now... we won't be detained for long
+
+Ball 45.3:
+45.3
+6
+Wood to Maxwell, SIX runs
+gets inside the line, lifted up and over fine leg! Maxwell changes his angles, anticipating the leg-side attack, and it's a cherry-picked six!
+
+Ball 45.2:
+45.2
+•
+Wood to Maxwell, no run
+oof, that one was the short ball! Follows Maxwelll down the leg-side, a proper block-knocker, that one!
+
+Ball 45.1:
+45.1
+4
+Wood to Maxwell, FOUR runs
+rocks back to the length ball, and another smear through the covers! Maxwell is anticipating the short ball then cashing in when it ends up being full!
+
+Ball MISC:
+Wood will crank it up now... England are going to be left short of pace options if they can take this deep. It's a very big if
+
+Ball MISC:
+nishant: "@andrew, you can't tell me Ashes down-under was not peak cinema with that first ball by Starc to Rory Burns." Fair point.
+
+Ball 44.6:
+44.6
+2
+Archer to Inglis, 2 runs
+on the back foot, another slowie, clipped off the toes to square leg. England are just bleeding out now
+
+Ball 44.5:
+44.5
+•
+Archer to Inglis, no run
+very full again, Archer is reverting to pace-on and intercepts with an outstretched hand in his followthrough
+
+Ball 44.4:
+44.4
+•
+Archer to Inglis, no run
+better length, drawing a high-handed stab into the covers
+
+Ball MISC:
+Tayyab: "Welcome to the Ashes, ladies and gentlemen. Absolute cinema, always provides" Except when England travel down under, of course... ahem
+
+Ball 44.3:
+44.3
+6
+Archer to Inglis, SIX runs
+short, launched, what a century! Another slower ball from Archer, he's so deep in the crease, awaiting its arrival, and gives it a triumphant pump of the arms even before the ball has reached its apex!
+See all photos
+
+Ball 44.2:
+44.2
+1
+Archer to Maxwell, 1 run
+Maxi sits back in the crease, opens his shoulders to the short ball and hauls it to midwicket
+
+Ball 44.1:
+44.1
+1
+Archer to Inglis, 1 run
+yorker, well directed, right in at the toes and nudged to the on-side
+
+Ball MISC:
+Adi: "Livingstone must be brought on"... I'm inclined to agree... he's looked as threatening as anyone, and the pace is travelling in the dew... but it will be Archer for now
+
+Ball 43.6:
+43.6
+1
+Carse to Inglis, 1 run
+tighter line on the back foot, punched out to cover
+
+Ball 43.5:
+43.5
+6
+Carse to Inglis, SIX runs
+two men up, scooped away over deep third! What a pick-up, Carse goes the distance again as England start to sense the arrival of the pain train...
+
+Ball 43.4:
+43.4
+6
+Carse to Inglis, SIX runs
+rocks back on the pull with astonishing poise! Slower ball, picked early as it sits up in the pitch, clean over backward square for the 300!
+
+Ball MISC:
+Ajit: "Archer undid whatever he scored with the bat with that Carey drop!" True... though Australia haven't yet scored those runs!
+
+Ball 43.3:
+43.3
+•
+Carse to Inglis, no run
+full and fast, wider line, draws an expansive drive and beats the edge
+
+Ball 43.2:
+43.2
+•
+Carse to Inglis, no run
+hits the pitch hard outside off, blocked back down the pitch to give England another priceless dot
+
+Ball 43.1:
+43.1
+•
+Carse to Inglis, no run
+steps into the length, compact drive on the front foot to cover
+
+Ball MISC:
+What a match... still neck and neck as Carse continues
+
+Ball 42.6:
+42.6
+4
+Wood to Maxwell, FOUR runs
+pitched up again, chipped over the head of mid-on! Wood went for the leg-stump yorker, missed his mark by a foot, and that's back-to-back boundaries to tilt the scales back to Australia!
+
+Ball 42.5:
+42.5
+4
+Wood to Maxwell, FOUR runs
+reads the bluff, opens his shoulders! Wonderful belting blow from Maxwell, in the slot outside off, connects wonderfully with no-one back in the covers!
+
+Ball MISC:
+Maxi now in the firing line before he's had a chance to settle. Three men back... and a square leg
+
+Ball 42.4:
+42.4
+1
+Wood to Inglis, 1 run
+short, beats a hasty pull as the ball thumps off the midriff and out to the leg-side
+
+Ball MISC:
+Mandeep : "Nail biting match now. "
+
+Ball 42.3:
+42.3
+2
+Wood to Inglis, 2 runs
+attacking the toes, swished out to the leg side, enough pace taken off the shot to rush back for two as deep midwicket gathers
+
+Ball MISC:
+VG: "Carey gets out and Aus chances go up significantly on the win predictor?! A bit harsh, isn't it?!" How rude!
+
+Ball 42.2:
+42.2
+•
+Wood to Inglis, no run
+thumped on the pads, pinned on the crease! Wood appeals but once more, he quickly accepts that was sliding down... Good pace though!
+
+Ball MISC:
+A bit more sawdust as Wood tumbled in his followthrough again
+
+Ball 42.1:
+42.1
+2
+Wood to Inglis, 2 runs
+fired in full, outside off, thumped out to the point sweeper
+
+Ball MISC:
+Wood is back. Huge over
+
+Ball MISC:
+Once again, the value of runs on the board comes clear. That target just feels a touch further away now
+
+Ball 41.6:
+41.6
+•
+Carse to Maxwell, no run
+hits his length outside off, hops through to the keeper past the edge. Excellent finish to the over from Carse. What's Inglis got at the other end now?
+
+Ball 41.5:
+41.5
+•
+Carse to Maxwell, no run
+a bluff first-up, very full and pressed out to point from deep in the crease
+
+Ball MISC:
+... not if this man has anything to do with it... here's the Big Show!
+
+Ball MISC:
+Very square fields to telegraph a short approach
+
+Ball 41.4:
+41.4
+W
+Carse to Carey, OUT
+Carse is back in the game! Trusts his pitch-hitting instincts, follows the batter as he makes room for another swing of the blade, and it's a cramped welly to mid-off. Priceless breakthrough, and can that ignite England's final push? Wonderful knock from Carey though. His stand has put Australia in the box seat
+Alex Carey c Buttler b Carse 69 (63b 8x4 0x6 85m) SR: 109.52
+
+Ball 41.3:
+41.3
+4
+Carse to Carey, FOUR runs
+on the pads, steepling leading edge! Fine leg was tracking round but never got close! Plugs inside the rope and hops away. This over already undoing Livingstone's good work
+
+Ball 41.2:
+41.2
+2
+Carse to Carey, 2 runs
+thrashed at the top of the bounce again, down to long-on for two more
+
+Ball 41.1:
+41.1
+4
+Carse to Carey, FOUR runs
+round the wicket, hits the pitch with typical gusto, but Carey hops back and across and swipes over the ball, through backward square
+
+Ball MISC:
+Right, a big moment. Carse has had a bad day, but he's back now with the match on the line
+
+Ball 40.6:
+40.6
+1
+Livingstone to Carey, 1 run
+scuffed airily, but safe, to wide long-on. That's a pretty good over in the circumstances for England. If they can't get the wicket, all they can do is crank up the run-rate
+
+Ball 40.5:
+40.5
+1
+Livingstone to Inglis, 1 run
+on the back foot, thrashed at extra cover, where Buttler gets a finger-end to it, came at his shins at pace
+
+Ball 40.4:
+40.4
+1
+Livingstone to Carey, 1 run
+hard sweep, out of the full length, spins out to the backward square sweeper who watches it well
+
+Ball 40.3:
+40.3
+•
+Livingstone to Carey, no run
+crunched off the front foot, straight at cover. Good intent but the fielder was well placed
+
+Ball 40.2:
+40.2
+4
+Livingstone to Carey, FOUR runs
+turns into his arc, belted off the back foot! Hard and straight, through long-on! The runs keep flowing
+
+Ball 40.1:
+40.1
+•
+Livingstone to Carey, no run
+reverse-sweep, outside off, short third gathers well
+
+Ball MISC:
+Livingstone to bowl again
+
+Ball 39.6:
+39.6
+1
+Rashid to Carey, 1 run
+on the legs, tucked out to square leg. Rashid bowls out, a super spell, but he should have had the key breakthrough. The equation is simple now. 87 in ten overs...
+
+Ball 39.5:
+39.5
+•
+Rashid to Carey, no run
+well bowled, looped right into the blockhole, thumped off the front foot to mid-off
+
+Ball MISC:
+Rashid dries the ball... dew is clearly a factor now
+
+Ball 39.4:
+39.4
+1
+Rashid to Inglis, 1 run
+hard sweep, out of the full length, picked up off the off-stump line, just another single
+
+Ball 39.3:
+39.3
+•
+Rashid to Inglis, no run
+pace off the legbreak, thumped very firmly through the line but straight at cover
+
+Ball 39.2:
+39.2
+1
+Rashid to Carey, 1 run
+very full, slapped out to deep midwicket, a standing sweep, hitting down on the ball
+
+Ball 39.1:
+39.1
+1
+Rashid to Inglis, 1 run
+skips to the pitch, clipped off the toes to the on-side
+
+Ball MISC:
+Still neck-and-neck on the worm. Here's Rashid
+
+Ball 38.6:
+38.6
+•
+Archer to Carey, no run
+jabbed back down the line, Archer sticks out a hand to intercept. A better end to a difficult over for the bowler
+
+Ball MISC:
+Australia are now favourites on win predictor
+
+Ball MISC:
+Naveed Zafar : "Perhaps the match of tournament. This match is complete package of entertainment to watch, both teams have played so well , the atmosphere is amazing and crowd support for both teams is amazing "
+
+Ball 38.5:
+38.5
+•
+Archer to Carey, no run
+slower yorker, round the wicket, tailing in at the stumps, pressed to cover
+
+Ball 38.4:
+38.4
+1
+Archer to Inglis, 1 run
+full and straight, clipped to mid-on, a sharp single beats the quick release at the bowler's end
+
+Ball 38.3:
+38.3
+2lb
+Archer to Inglis, 2 leg byes
+leg-sided once more, shovelled off the hips, gathered just inside the rope with a one-handed stoop
+
+Ball MISC:
+Huge over shaping up... can Archer get his head back in the game?
+
+Ball 38.2:
+38.2
+4
+Archer to Inglis, FOUR runs
+flicked off the hips, beats a despairing dive at backward square! Two in two!
+
+Ball 38.1:
+38.1
+4
+Archer to Inglis, FOUR runs
+reverse-scoop, over short third! Now then, Jofra, where's your head at! Inglis senses the moment is nigh to rub salt in the wounds. Lifted wonderfully over the infield!
+
+Ball MISC:
+Archer, back at the top of his mark
+
+Ball MISC:
+mayank: "Aus wouldn't mind seeing Rashid off and chasing 95-100 in last 10 overs."
+
+Ball 37.6:
+37.6
+2
+Rashid to Carey, 2 runs
+dragged down, dropped by Archer at deep midwicket! Oh my... that's a horror drop! Rashid sprung the trap, tempting the hoist across the line, it was straight into the bread-basket and out again! Carey sheepishly celebrates a very important fifty...
+
+Ball 37.5:
+37.5
+•
+Rashid to Carey, no run
+tight line, wicket to wicket, skidding on at middle, blocked off the back foot. No boundary for 18 balls
+
+Ball 37.4:
+37.4
+1
+Rashid to Inglis, 1 run
+googly, on a good length, turning back in, punched off the back foot to mid-on
+
+Ball 37.3:
+37.3
+1
+Rashid to Carey, 1 run
+another drag across the line, good improvisation from Carey to negate the threat while keeping the runs flowing
+
+Ball 37.2:
+37.2
+2
+Rashid to Carey, 2 runs
+bottom hand comes through on a hack out to deep midwicket, dragging across the ball to find space for two more
+
+Ball 37.1:
+37.1
+•
+Rashid to Carey, no run
+good-length googly, pressed with the turn into the covers
+
+Ball MISC:
+Rashid will continue. England desperate for that partnership-breaker
+
+Ball MISC:
+Prosper: "Hey Andrew, you forgot to highlight that this is Josh Inglis' highest score now" Good time to produce it
+
+Ball 36.6:
+36.6
+•
+Archer to Inglis, no run
+full and accurate, pace off again, jabbed with hard hands back to the bowler. Archer finds a very tidy over to keep a lid on Australia's advance
+
+Ball MISC:
+Big final ball of this over
+
+Ball 36.5:
+36.5
+1
+Archer to Carey, 1 run
+hits the splice hard with a sharp short ball from round the wicket, back up at top pace. Carey rides the bounce with an open face and takes the single to deep third
+
+Ball 36.4:
+36.4
+1
+Archer to Inglis, 1 run
+rolls the fingers, that's a good tight line, and blocked to the off-side. 123kph but on the money
+
+Ball MISC:
+MSJ: "For someone named Archer, he is way off the target today."
+
+Ball 36.3:
+36.3
+•
+Archer to Inglis, no run
+attempts the scoop, any bat on that and it's at least four, with short leg in the circle, but it hops over the stumps
+
+Ball 36.2:
+36.2
+•
+Archer to Inglis, no run
+attacking full length, right up to the blockhole at 144kph, and clipped to midwicket
+
+Ball MISC:
+Bjorn: "England might need Root or Livingstone to bowl a couple more overs, seeing how Carse is going. Always a risk with only 4 specialist bowlers. What if one of them has an off day!"
+
+Ball 36.1:
+36.1
+1
+Archer to Carey, 1 run
+round the wicket, very full, clipped to Wood at mid-on, who attempts an off-balance run-out
+
+Ball MISC:
+Archer to continue, although there's someone behind the bowler's arm to delay things
+
+Ball MISC:
+Furqan: "When Carey came to bat win predictor was saying 80-20 to England.. now its 55-45... Tells you what kind of a knock he is playing here "
+
+Ball 35.6:
+35.6
+1
+Rashid to Carey, 1 run
+very full, slapped at Carse at mid-off, who fumbles to gift a single. He saved two earlier, but has given one back there with a bad error
+
+Ball 35.5:
+35.5
+1
+Rashid to Inglis, 1 run
+good use of the feet, lofted down the ground with placement over power, gathered by the long-on sweeper
+
+Ball 35.4:
+35.4
+1
+Rashid to Carey, 1 run
+cramped pull, back of a length but a very tight line, slammed to long-on
+
+Ball 35.3:
+35.3
+•
+Rashid to Carey, no run
+tossed right up to the bat, thumped hard back at Rashid, on the half-volley. Close...
+
+Ball 35.2:
+35.2
+3
+Rashid to Inglis, 3 runs
+width outside off, and a lucky under-edge past the off stump! Smith is nutmegged but Duckett mops up to save the boundary, but the hundred partnership comes up
+
+Ball 35.1:
+35.1
+1
+Rashid to Carey, 1 run
+tight line on the googly, pressed into the covers with bat and pad together
+
+Ball MISC:
+Where's the wicket coming from? Rashid will bowl his eighth, as England hunt the key breakthrough
+
+Ball 34.6:
+34.6
+•
+Archer to Inglis, no run
+that's more like it from Archer, hitting the pitch hard and at pace. Blocked back down the pitch. But two boundaries keep Australia ticking along
+
+Ball 34.5:
+34.5
+4
+Archer to Inglis, FOUR runs
+short and wide! Archer offers width once more, it's been his Achilles heel today, and the knuckleball just sits up in the pitch, to be clubbed through point
+
+Ball 34.4:
+34.4
+•
+Archer to Inglis, no run
+full, straight, clipped hard off the pads but straight at midwicket. A useful dot to keep the over tight
+
+Ball 34.3:
+34.3
+•
+Archer to Inglis, no run
+pace back on from Archer, 141kph and zipping back off the pitch, over the top of off stump. His inducker has been in excellent order today, it's the variations that have suffered
+
+Ball 34.2:
+34.2
+4
+Archer to Inglis, FOUR runs
+sits back on the short ball, hauled away through the leg-side! The boundary rider was running through treacle, as the ball gathered pace across the practice pitches
+
+Ball 34.1:
+34.1
+•
+Archer to Inglis, no run
+lovely slower ball, on a wide line, looked like a legcutter, and yep, rolled the fingers on the left side, and beat a thrashing drive
+
+Ball MISC:
+Right, here's Archer
+
+Ball MISC:
+Three more of those will push the rate up a touch, but the worm is utterly level-pegging for now
+
+Ball 33.6:
+33.6
+•
+Rashid to Carey, no run
+beaten by the googly on the wider line, lined up the cut, couldn't connect. Smith gathers to complete a typically tight over
+
+Ball 33.5:
+33.5
+1
+Rashid to Inglis, 1 run
+waits on the back foot, thrashed on the up into the covers, but can't find the gap
+
+Ball 33.4:
+33.4
+1
+Rashid to Carey, 1 run
+tossed up on the toes, looked like the googly, pressed with a full face to the left-hander's mid-on
+
+Ball 33.3:
+33.3
+1
+Rashid to Inglis, 1 run
+on the back foot to the legbreak, cracked out to deep cover
+
+Ball MISC:
+Nilesh : "I'm loving it, what a contest."
+
+Ball 33.2:
+33.2
+1
+Rashid to Carey, 1 run
+dragged down from Rashid, but on a tight enough line to force Carey to wait and assess before climbing across his sweep to deep midwicket
+
+Ball 33.1:
+33.1
+1
+Rashid to Inglis, 1 run
+on the back foot to the googly, fenced on the up to the on-side
+
+Ball MISC:
+Well now. Talk of the devil. A good time to reintroduce I reckon
+
+Ball 32.6:
+32.6
+•
+Wood to Carey, no run
+round the wicket to finish, pressed back down the line to complete another lively over
+
+Ball MISC:
+kunal: "4 overs of Rashid are key. England need a couple of wickets from him or else Australia looking favourites here" Yes, England whipped him out of the attack after the breakthrough. Huge role to come
+
+Ball 32.5:
+32.5
+1
+Wood to Inglis, 1 run
+on the back foot, jabbed out to point, and Inglis eases through to a super 41-ball fifty. Needs some more, but he's doing his bit and some
+See all photos
+
+Ball MISC:
+Wood has a problem with the footholes, and grabs some sawdust. A clear sign of dew out there, which adds to the jeopardy for England's bowlers
+
+Ball 32.4:
+32.4
+2
+Wood to Inglis, 2 runs
+another excellent late cut, but Carse at deep third sets off quick and intercepts wonderfully to save the boundary. Big intervention
+
+Ball MISC:
+Deepak Samson : "Wood has been consistently quicker and more threatening than Archer this game." He has. Archer not entirely in command of his game
+
+Ball 32.3:
+32.3
+4
+Wood to Inglis, FOUR runs
+wonderful quick hands! Not a lot of width outside off, but keeps the bat-face open to the last split-second to beat deep third
+
+Ball 32.2:
+32.2
+•
+Wood to Inglis, no run
+fuller length outside off, Wood was momentarily excited as Inglis swished at thin air. No contact
+
+Ball 32.2:
+32.2
+1w
+Wood to Inglis, 1 wide
+short, hostile, but down the leg-side, past the arm-pit as Inglis flinches inside the line
+
+Ball MISC:
+That rate is nudging up to eight an over... but with wickets in hand they can afford to let it drift out yet
+
+Ball 32.1:
+32.1
+1
+Wood to Carey, 1 run
+round the wicket, speared in at the pads, at 142kph, clipped to the leg-side
+
+Ball MISC:
+Hello again. This is a tasty contest. Here's Wood
+
+Ball MISC:
+And it's time for a drink. This is shaping for a big finish. Here's Miller to see it through
+
+Ball 31.6:
+31.6
+•
+Carse to Inglis, no run
+beaten! Full outside off, Inglis aims to drive through the covers
+
+Ball 31.5:
+31.5
+1
+Carse to Carey, 1 run
+fuller length, at the stumps, takes an inside edge and pad to the on side. Carse also appears to be limping. Has had a toe problem recently
+
+Ball 31.4:
+31.4
+4
+Carse to Carey, FOUR runs
+magnificent shot! Latches onto a short ball outside off, pulls it high over midwicket. What form he's in
+
+Ball 31.3:
+31.3
+•
+Carse to Carey, no run
+tight to off stump again, back of a length, worked to the on side
+
+Ball 31.2:
+31.2
+4
+Carse to Carey, FOUR runs
+short and wide, drives over the off side and beats the sweeper...could be some problems here for England
+
+Ball MISC:
+Overton on the field again for Archer
+
+Ball 31.1:
+31.1
+•
+Carse to Carey, no run
+round the wicket, back of a length at off stump, cramps for room as he plays to the on side
+
+Ball MISC:
+Brydon Carse returns. He struggled earlier
+
+Ball MISC:
+Sami: "The game is completely in the balance...these 2 are going well and Maxwell still to come. Going down to the wire, love that because the crowd today deserve a thriller."
+
+Ball 30.6:
+30.6
+•
+Wood to Inglis, no run
+back of a length, straight, 144kph, defended
+
+Ball 30.5:
+30.5
+4
+Wood to Inglis, FOUR runs
+full, into the pads, clipped very sweetly in front of square on the leg side, using Wood's pace
+
+Ball 30.4:
+30.4
+•
+Wood to Inglis, no run
+back of a length outside off, drives square to point
+
+Ball 30.3:
+30.3
+1
+Wood to Carey, 1 run
+short at the body, rolls his wrists nicely on a pull to long leg...142kph
+
+Ball 30.2:
+30.2
+•
+Wood to Carey, no run
+round the wicket, good length at off stump, played to cover
+
+Ball 30.1:
+30.1
+1lb
+Wood to Inglis, 1 leg bye
+huge appeal for lbw, nips back from short of a length, looks to be heading down the leg side. Only one review left for England. Comfortably missing leg
+
+Ball MISC:
+So it's 155 off 20 for Australia. Six wickets in hand
+
+Ball 29.6:
+29.6
+•
+Root to Carey, no run
+slides on at the stumps, played into point. Good finish to the over from Root
+
+Ball 29.5:
+29.5
+•
+Root to Carey, no run
+full at off stump, pushed to cover
+
+Ball 29.4:
+29.4
+2
+Root to Carey, 2 runs
+full and wide outside off, drives backward of square, sweeper can't stop the second
+
+Ball 29.3:
+29.3
+1
+Root to Inglis, 1 run
+a very slingy delivery from Root, worked off the pads into square leg
+
+Ball 29.2:
+29.2
+•
+Root to Inglis, no run
+goes for the the reverse, doesn't make connection, goes down the leg side...not called wide
+
+Ball 29.1:
+29.1
+4
+Root to Inglis, FOUR runs
+excellent placement, onto the back foot and threads a drive through the covers. Back to back boundaries
+
+Ball MISC:
+Archer is back on the field
+
+Ball 28.6:
+28.6
+4
+Wood to Carey, FOUR runs
+flayed away! In the air for a while, but flies through backward point. Offered a hint of width and he laid back on a square drive
+
+Ball 28.5:
+28.5
+•
+Wood to Carey, no run
+beaten! Done for pace as he shapes to drive off the back foot...145kph
+
+Ball 28.4:
+28.4
+•
+Wood to Carey, no run
+round the wicket, short of a length at 142kph, defended to mid-on
+
+Ball 28.3:
+28.3
+2
+Wood to Carey, 2 runs
+opens the face to a short of a length delivery, angled through backward point
+
+Ball 28.2:
+28.2
+•
+Wood to Carey, no run
+angled in at off stump, back of a length, defended to cover
+
+Ball 28.1:
+28.1
+•
+Wood to Carey, no run
+round the wicket, short of a length, defended to midwicket...145kph. Wood ends up on his knees
+
+Ball MISC:
+Right, back to pace. Here's Mark Wood. This stand is getting dangerous for England
+
+Ball MISC:
+Overton is on the field for Archer
+
+Ball 27.6:
+27.6
+1
+Root to Carey, 1 run
+driven to the off side sweeper
+
+Ball 27.5:
+27.5
+2
+Root to Carey, 2 runs
+short outside off, square drives through the covers and good running makes the second
+
+Ball 27.4:
+27.4
+1
+Root to Inglis, 1 run
+deep in the crease, tucks off the stumps through midwicket
+
+Ball 27.3:
+27.3
+2
+Root to Inglis, 2 runs
+short, Inglis pulls through square leg, nearly splits the gap but good work by Salt
+
+Ball MISC:
+The physio is with Archer
+
+Ball 27.2:
+27.2
+1
+Root to Carey, 1 run
+worked off the pads into midwicket
+
+Ball 27.1:
+27.1
+1
+Root to Inglis, 1 run
+played down the ground to long on
+
+Ball 26.6:
+26.6
+1
+Livingstone to Inglis, 1 run
+Dances down, gets close to the pitch and works it to long-on
+
+Ball 26.5:
+26.5
+4b
+Livingstone to Inglis, 4 byes
+Just past leg stump, not sure how that missed. Was a loopy legbreak at 82ks that landed around leg and jumped up. Didn't turn. Inglis danced down and was beaten on the flick
+
+Ball 26.4:
+26.4
+2
+Livingstone to Inglis, 2 runs
+Stays leg side of the full ball and drives through extra cover. Along the ground
+
+Ball 26.3:
+26.3
+2
+Livingstone to Inglis, 2 runs
+Swept fine, Rashid chases and stops it in the outfield. Was hit off a length, ball was rising. Inglis got on one knee and adjusted nicely to manage the extra bit of bounce
+
+Ball 26.2:
+26.2
+•
+Livingstone to Inglis, no run
+On the fuller side and it's flicked to midwicket
+
+Ball 26.1:
+26.1
+6
+Livingstone to Inglis, SIX runs
+Starts the over by pumping him over long-on. Danced down, got to the pitch and swung through the line.
+
+Ball 25.6:
+25.6
+1
+Root to Inglis, 1 run
+Inglis goes again, gets the flick down to deep midwicket. Ball was on a length, touch fuller than the last one. No one at the edge of the ring, so Inglis' plan was likely to pinch two
+
+Ball 25.5:
+25.5
+•
+Root to Inglis, no run
+Keeps a touch low, Inglis manages to tuck it to midwicket. Flat on a length, 88ks
+
+Ball 25.4:
+25.4
+1
+Root to Carey, 1 run
+Back-foot slap takes the length ball outside off to sweeper cover
+
+Ball 25.3:
+25.3
+1
+Root to Inglis, 1 run
+Reverse sweeps it to deep point. Fully in control
+
+Ball 25.2:
+25.2
+1
+Root to Carey, 1 run
+Uppish but safely between bowler and cover. Ball rolls to long-off. Ball was a touch short and may have stuck in the pitch, Carey punched it off the back foot
+
+Ball 25.1:
+25.1
+1
+Root to Inglis, 1 run
+Goes back and flicks it while standing square-on. Through midwicket
+
+Ball 24.6:
+24.6
+•
+Livingstone to Carey, no run
+Fullish around off, punched back to the bowler
+
+Ball 24.5:
+24.5
+4
+Livingstone to Carey, FOUR runs
+Looped up again and it's thumped through cover. 86ks but the fullness is allowing Carey to step-drive
+
+Ball 24.4:
+24.4
+•
+Livingstone to Carey, no run
+Full on leg, squeezed back to the bowler
+
+Ball 24.3:
+24.3
+•
+Livingstone to Carey, no run
+Shortish and wide, 91ks. Cut to cover point. Looked like an offbreak
+
+Ball 24.2:
+24.2
+4
+Livingstone to Carey, FOUR runs
+A bit of width and that's lifted over mid-off. 80ks legbreak with generous flight, Carey got on one knee and freed his arms to clear the infield
+
+Ball 24.1:
+24.1
+2
+Livingstone to Carey, 2 runs
+Length slightly down leg, helped fine with a gentle paddle
+
+Ball 23.6:
+23.6
+2
+Root to Inglis, 2 runs
+At the stumps, whipped through deep midwicket
+
+Ball 23.5:
+23.5
+2
+Root to Inglis, 2 runs
+round the wicket, deep in the crease, works around the corner on the leg side. Good running
+
+Ball MISC:
+Vidyut: "Surely Root bowls in tandem with Livingstone now that Carey is in... They need to get the 10 overs before maxi comes in" He surely does...
+
+Ball 23.4:
+23.4
+1
+Root to Carey, 1 run
+slightly shorter, driven off the back foot to deep cover
+
+Ball 23.3:
+23.3
+•
+Root to Carey, no run
+slides on at the stumps, pushed to cover
+
+Ball 23.2:
+23.2
+•
+Root to Carey, no run
+round the wicket, full at off stump, defended to cover
+
+Ball MISC:
+Gets an early look at the left hander
+
+Ball 23.1:
+23.1
+1
+Root to Inglis, 1 run
+round the wicket, pushed down to long on
+
+Ball MISC:
+Joe Root into the attack
+
+Ball MISC:
+Sonny: "Short looks a magnificent player of fast bowling but he came unstuck against spin, probably something he needs to work on"
+
+Ball 22.6:
+22.6
+2
+Livingstone to Carey, 2 runs
+and there's an early reverse sweep, beats short third but deep point is able to get around the rope
+
+Ball 22.5:
+22.5
+•
+Livingstone to Carey, no run
+full at off stump, this one dips and turns, defended
+
+Ball 22.4:
+22.4
+1
+Livingstone to Inglis, 1 run
+rocks back, drives to the cover sweeper
+
+Ball 22.3:
+22.3
+1
+Livingstone to Carey, 1 run
+stays with legspin, over the wicket, worked off the pads through midwicket
+
+Ball MISC:
+England's spinners having a big say now. In comes Alex Carey. So a right/left combo in the middle
+
+Ball 22.2:
+22.2
+W
+Livingstone to MW Short, OUT
+gone now! A low return catch, very sharp from Livingstone. Is Short waiting? Now he heads off. Keeps it full, Short going for the drive, sends it back to Livingstone who grabs it low to his left, very cleanly. Huge moment
+Matthew Short c & b Livingstone 63 (66b 9x4 1x6 101m) SR: 95.45
+
+Ball 22.1:
+22.1
+•
+Livingstone to MW Short, no run
+full at leg stump, driven firmly and Livingstone does well in his follow through
+
+Ball 21.6:
+21.6
+•
+Rashid to Inglis, no run
+big appeal for lbw! Has he hit it? No review. Did him all ends up with one that skidded through, Inglis playing on the back foot. Brilliant from Rashid
+
+Ball 21.5:
+21.5
+•
+Rashid to Inglis, no run
+on the back foot, slides on at the stumps, takes a thick inside edge into midwicket
+
+Ball 21.4:
+21.4
+•
+Rashid to Inglis, no run
+lovely bowling, takes a leading edge as Inglis looks to work into the on side
+
+Ball 21.3:
+21.3
+•
+Rashid to Inglis, no run
+full and wide, Inglis drives over the top of it, good take from Smith
+
+Ball 21.2:
+21.2
+1lb
+Rashid to MW Short, 1 leg bye
+shorter, a googly, gets an inside edge between his legs towards fine leg
+
+Ball 21.1:
+21.1
+•
+Rashid to MW Short, no run
+full at middle, nice dip at 81kph, drives to cover
+
+Ball 20.6:
+20.6
+•
+Livingstone to Inglis, no run
+paddle sweeps from outside off, premeditated, can't beat backward square leg
+
+Ball 20.5:
+20.5
+2
+Livingstone to Inglis, 2 runs
+gives himself a touch of room outside off, drives nicely wide of long off
+
+Ball 20.4:
+20.4
+1
+Livingstone to MW Short, 1 run
+drives from off stump to deep cover
+
+Ball 20.3:
+20.3
+2
+Livingstone to MW Short, 2 runs
+full at middle, swings across the line, off a thickish edge through the leg side
+
+Ball 20.2:
+20.2
+1
+Livingstone to Inglis, 1 run
+full at leg stump, driven to long on
+
+Ball 20.1:
+20.1
+•
+Livingstone to Inglis, no run
+pushed into the pads, worked backward of square
+
+Ball MISC:
+Hassan: "I really appreciate the crowd. Although Pakistan is not in this match, the crowd is fantastic. It shows Pakistani love for cricket."
+
+Ball MISC:
+That's half of Rashid's overs done. How does Buttler use him from here?
+
+Ball 19.6:
+19.6
+1
+Rashid to Inglis, 1 run
+on the back foot, drives square through point. Positive start from Inglis
+
+Ball 19.5:
+19.5
+2
+Rashid to Inglis, 2 runs
+into the pads, worked through midwicket with a straight bat
+
+Ball 19.4:
+19.4
+•
+Rashid to Inglis, no run
+width outside off, pushed through, played into the covers
+
+Ball 19.3:
+19.3
+4
+Rashid to Inglis, FOUR runs
+lovely start from Inglis, Rashid drags it down a little and Inglis cracks a drive off the back foot through cover. Very quick footwork
+
+Ball MISC:
+Brings in Josh Inglis, an excellent player of spin. Slip in place
+
+Ball 19.2:
+19.2
+W
+Rashid to Labuschagne, OUT
+taken at cover! The growing pressure from the spinners tells. Reward for Rashid. Full, cleverly holding it back, Labuschagne drives, picks out cover and Buttler snaffles it. Think Labuschagne was intentionally trying to clear the infield
+Marnus Labuschagne c Buttler b Rashid 47 (45b 5x4 0x6 65m) SR: 104.44
+See all photos
+
+Ball 19.1:
+19.1
+•
+Rashid to Labuschagne, no run
+full at off stump, driven to cover
+
+Ball MISC:
+Ahmed: "Is there dew on the field?" Not sure if it's quiet started yet, but it is expected
+
+Ball 18.6:
+18.6
+1
+Livingstone to Labuschagne, 1 run
+pushed through, shorter, pulled to long on. Might have been out the front of the hand
+
+Ball 18.5:
+18.5
+1
+Livingstone to MW Short, 1 run
+gets forward and pushes down the ground
+
+Ball 18.4:
+18.4
+1
+Livingstone to Labuschagne, 1 run
+tossed up, plenty of air, driven to long off
+
+Ball 18.3:
+18.3
+•
+Livingstone to Labuschagne, no run
+full and straight, driven back to the bowler
+
+Ball 18.2:
+18.2
+•
+Livingstone to Labuschagne, no run
+this one skids through, Labuschagne is playing on the back foot
+
+Ball 18.1:
+18.1
+1
+Livingstone to MW Short, 1 run
+full at the pads, pushed down to long on
+
+Ball 17.6:
+17.6
+2
+Rashid to Labuschagne, 2 runs
+a little too short, pulled strongly wide of long on but another tight over
+
+Ball 17.5:
+17.5
+1
+Rashid to MW Short, 1 run
+full at middle, a more convincing drive down the ground to long on
+
+Ball 17.4:
+17.4
+•
+Rashid to MW Short, no run
+full again, outside off, dragged into the on side
+
+Ball 17.3:
+17.3
+•
+Rashid to MW Short, no run
+very full, basically a yorker, skewed into midwicket off the toe end
+
+Ball 17.2:
+17.2
+•
+Rashid to MW Short, no run
+pushed through at middle and leg, defended
+
+Ball 17.1:
+17.1
+1
+Rashid to Labuschagne, 1 run
+steps back outside leg and drives a shortish delivery to deep cover
+
+Ball 16.6:
+16.6
+2
+Livingstone to MW Short, 2 runs
+short, pulled powerful straight back up the pitch, was that a chance? Carse does well at long-on. Well, Livingstone reacted very late. Could probably have put in a dive
+
+Ball 16.5:
+16.5
+1
+Livingstone to Labuschagne, 1 run
+opens his stance a touch, drives to long off
+
+Ball 16.4:
+16.4
+•
+Livingstone to Labuschagne, no run
+goes back outside leg, drives off the stumps, Livingstone dives across in his follow through
+
+Ball 16.3:
+16.3
+1
+Livingstone to MW Short, 1 run
+short outside off, cracked firmly off the back foot to Buttler at cover, dives and partly saves it
+
+Ball 16.2:
+16.2
+•
+Livingstone to MW Short, no run
+full at off stump, flat-bat drives to cover
+
+Ball 16.1:
+16.1
+1
+Livingstone to Labuschagne, 1 run
+over the wicket, legspin, driven square to deep point
+
+Ball MISC:
+Liam Livingstone into the attack
+
+Ball 15.6:
+15.6
+•
+Rashid to MW Short, no run
+nearly drives this in the air to cover, was early on the shot playing off the back foot
+
+Ball 15.5:
+15.5
+1
+Rashid to Labuschagne, 1 run
+driven off the stumps to the cover sweeper
+
+Ball 15.4:
+15.4
+2
+Rashid to Labuschagne, 2 runs
+driven square off the back foot, nicely played with an open face, Archer has to make a lot of ground
+
+Ball 15.3:
+15.3
+1
+Rashid to MW Short, 1 run
+full and straight, the bottom hand comes through a drive down the ground
+
+Ball 15.2:
+15.2
+1
+Rashid to Labuschagne, 1 run
+deep in the crease, drives with an open face to deep cover
+
+Ball 15.1:
+15.1
+1
+Rashid to MW Short, 1 run
+very short, pulled down to long on
+
+Ball MISC:
+Thanks Miller. This has the makings of a close game. England's fifth bowler is Livingstone and Root
+
+Ball MISC:
+Australia are doing the needful, but it's a long, long way to go yet. Here's Gnasher for some mid-innings consolidation
+
+Ball 14.6:
+14.6
+1
+Carse to MW Short, 1 run
+cracked off the back foot, could have been tight had Brook gone to the right end... but that's another single to take us to drinks.
+
+Ball 14.5:
+14.5
+4
+Carse to MW Short, FOUR runs
+poor ball, and that's Short's fifty! Over-pitched on the legs, all it needed was a tickle of bat through fine leg, and he duly obliged. The hundred is up too
+
+Ball 14.4:
+14.4
+•
+Carse to MW Short, no run
+full once more, attacking the stumps, punched on the front foot to mid-off
+
+Ball 14.3:
+14.3
+•
+Carse to MW Short, no run
+given as a wide, but there's a definite noise on this... It's fired past the legs, and England review. Nope, it's a flat line on the bat, but the wide at least is over-turned, as that flicked the pad. A partial win for England
+
+Ball 14.2:
+14.2
+4
+Carse to MW Short, FOUR runs
+crunchy drive! Carse's pace is a bit in-between at the moment, that's a long half-volley in these conditions, enough width to thread the drive through cover
+
+Ball 14.1:
+14.1
+•
+Carse to MW Short, no run
+solid drive on the front foot, but Duckett pounces well at short cover to make an important interception
+
+Ball MISC:
+Ozymandiiiiius: "Australia have got the run rate right up to the mark.......now England's too dependent on RASH to pick wickets up...."
+
+Ball 13.6:
+13.6
+•
+Rashid to Labuschagne, no run
+big stride on the front foot, closes the face to nudge to the on-side. That's a lovely over, Rashid has the measure of this pitch right now
+
+Ball 13.5:
+13.5
+•
+Rashid to Labuschagne, no run
+more air, lovely teasing dip outside off, down at 70kph that time. Thrashed to cover
+
+Ball 13.4:
+13.4
+•
+Rashid to Labuschagne, no run
+skids through, tight to off stump as Marnus rocks back to cut
+
+Ball 13.3:
+13.3
+1
+Rashid to MW Short, 1 run
+wider line, full length, slapped with a big stride past short cover, who perhaps should have done better
+
+Ball 13.2:
+13.2
+1
+Rashid to Labuschagne, 1 run
+dips on the pads, again little pace to utilise, flicked off the pitch to backward square
+
+Ball 13.1:
+13.1
+•
+Rashid to Labuschagne, no run
+looped up to the bat, just outside off, 82kph, tapped with an open face to gully
+
+Ball MISC:
+Deepak Samson : "One of the best crowds I have seen. Dare I say, a far cry from some of the partisan crowds we have seen in the recent past."
+
+Ball 12.6:
+12.6
+•
+Carse to MW Short, no run
+winds into another pull but that doesn't get up as much and thuds the back hip. Smith changes direction well to intercept with one hand
+
+Ball 12.5:
+12.5
+•
+Carse to MW Short, no run
+good riposte, fires in the yorker, and it's well dug out with a straight blade
+
+Ball 12.4:
+12.4
+6
+Carse to MW Short, SIX runs
+huge! Short sits back in the crease, Carse's length is picked up early, not very short but outside off, and lovely weight transfer to hoist that high over midwicket! 86 metres
+
+Ball MISC:
+Aaron: "Another 30 overs of this thanks Marnus."
+
+Ball 12.3:
+12.3
+•
+Carse to MW Short, no run
+full face of the bat, placed through the line, mid-off gathers
+
+Ball 12.2:
+12.2
+•
+Carse to MW Short, no run
+crunching drive on the front foot, but straight at short cover. That was a very clean connection through the full length
+
+Ball 12.1:
+12.1
+1
+Carse to Labuschagne, 1 run
+back of a length outside off, 134kph, open-faced chop down to deep third
+
+Ball MISC:
+karthik : "Rubbing my eyes looking after Marnus' strike rate. Surely he will go back to his old ways when spin comes in?" 100% SR in that over...
+
+Ball 11.6:
+11.6
+1
+Rashid to Labuschagne, 1 run
+no pace to work with whatsoever, plops outside off, turns away, another firm chop out to the off side. A diet of singles to open his evening
+
+Ball MISC:
+Adeel: "From this platform, I would like to say "THANKS" to the Lahore crowd for supporting both the teams and contributing positively in this mega event."
+
+Ball 11.5:
+11.5
+1
+Rashid to MW Short, 1 run
+width outside off, slow through the air, Short waits and slaps a cut to cover for the single
+
+Ball 11.4:
+11.4
+1
+Rashid to Labuschagne, 1 run
+good loop and dip on the legbreak, grips and turns away, dabbed to point
+
+Ball 11.3:
+11.3
+1
+Rashid to MW Short, 1 run
+leaning forward, pushed into the covers
+
+Ball 11.2:
+11.2
+1
+Rashid to Labuschagne, 1 run
+back of a length, slow turn, hauled to the on-side
+
+Ball 11.1:
+11.1
+1
+Rashid to MW Short, 1 run
+panned back down the pitch and dropped! A very tough chance, to be fair it was mostly a boundary saved, but Rashid changed direction and stuck out his right hand, couldn't close his fingers around the chance
+
+Ball MISC:
+here's Rashid, big moment
+
+Ball MISC:
+Murtaza habib: ""seems like the crowd are here to enjoy top quality cricket after being disappointed in their national team"" First global event since 1996 too... plenty to enjoy irrespective of Pakistan's struggles
+
+Ball 10.6:
+10.6
+•
+Archer to Labuschagne, no run
+short, rising sharply past the torso, as Smith in the changing-room mock-signals for a review... think he reckons that should have been a wide
+
+Ball 10.5:
+10.5
+1
+Archer to MW Short, 1 run
+driven, without conviction, off an inside-edge to midwicket, Marnus is called through for the single
+
+Ball 10.4:
+10.4
+1
+Archer to Labuschagne, 1 run
+nips away from back of a length, but on a wide enough initial line for Marnus to open the face and dab a single to deep third
+
+Ball 10.3:
+10.3
+1
+Archer to MW Short, 1 run
+cuffed away off the back foot, a hint of width, gathered at deep cover
+
+Ball MISC:
+Haris: "Fair play to crowd for cheering both sides evenly " Yes. sounds a great atmosphere out there!
+
+Ball 10.2:
+10.2
+•
+Archer to MW Short, no run
+good wheels from Archer, 141kph and pushed through outside off, past a flashing cut
+
+Ball 10.1:
+10.1
+•
+Archer to MW Short, no run
+tight to the body, back of a length, short-armed pull to mid-on
+
+Ball 9.6:
+9.6
+•
+Carse to Labuschagne, no run
+solid line and length draws a committed block, but that's a good ten overs for Australia, all things considered
+
+Ball 9.5:
+9.5
+4
+Carse to Labuschagne, FOUR runs
+back of a length, front-foot pull, wonderful timing as Labuschagne finds his feet after that streaky edge. Australia are doing the needful in this powerplay
+
+Ball MISC:
+suman: "Everyone is talking about Maxi but is Maxi really in good form?" Not convinced that ever matters!
+
+Ball 9.4:
+9.4
+4
+Carse to Labuschagne, FOUR runs
+tapped off the pads, out through midwicket, lovely timing. The runs keep flowing
+
+Ball 9.3:
+9.3
+2
+Carse to Labuschagne, 2 runs
+tapped off the pads, good lack of pace on the deflection allows a hurried two
+
+Ball 9.2:
+9.2
+4
+Carse to Labuschagne, FOUR runs
+nip off the seam, streaky inside-edge! That was nearly the third powerplay wicket, Carse runs it back into the right-hander, and the ball zips clean over the top of middle and through fine leg
+
+Ball 9.1:
+9.1
+•
+Carse to Labuschagne, no run
+well bowled, 132kph outside off stump, good line and length with that indefinable oomph off the deck. Beats the edge
+
+Ball 8.6:
+8.6
+•
+Archer to MW Short, no run
+tight line and length from close to the stumps, 141kph, blocked to the leg-side
+
+Ball MISC:
+Zeeshan: "Australia is pretty much in the game. No unwanted aggression required." Indeed. England would like another powerplay wicket I reckon
+
+Ball 8.5:
+8.5
+1
+Archer to Labuschagne, 1 run
+slower ball, on the pads, tapped to the on-side
+
+Ball 8.4:
+8.4
+1
+Archer to MW Short, 1 run
+good length from Archer, hint of movement away, at a brisk 140kph, pushed to cover
+
+Ball MISC:
+Tcj: "C'mon guys - Maxwell can't win this all by himself, what do you expect ? For him to blast a double hundred while everyone around him blocks?That's impossi... Wait a minute"
+
+Ball 8.3:
+8.3
+•
+Archer to MW Short, no run
+sits back in the crease, winds into a slap into the off side, can't time it
+
+Ball 8.2:
+8.2
+1
+Archer to Labuschagne, 1 run
+opens the face outside off, guided down through deep third
+
+Ball 8.1:
+8.1
+2
+Archer to Labuschagne, 2 runs
+sits back on the pull, dragged out through midwicket
+
+Ball MISC:
+A change of ends for Archer, as Wood takes a blow
+
+Ball 7.6:
+7.6
+•
+Carse to MW Short, no run
+fierce! Sharp lifter, kicking on as Short lines up a pull and wears it on the elbow, by the looks of it. Aggressive from Carse
+
+Ball 7.5:
+7.5
+•
+Carse to MW Short, no run
+bottom-handed thrash through the full length, skews out to midwicket
+
+Ball MISC:
+Neel B: "Didn't Maxi and Carey have a crazy partnership in England a couple years back? They could do it again!" They did indeed, at Old Trafford in the Covid series
+
+Ball 7.4:
+7.4
+1
+Carse to Labuschagne, 1 run
+jabs his hands through the full length, takes a fat edge down to deep third
+
+Ball 7.3:
+7.3
+•
+Carse to Labuschagne, no run
+good hard length from Carse, 132kph, but hits the bat with a judder as Marnus blocks
+
+Ball 7.2:
+7.2
+2
+Carse to Labuschagne, 2 runs
+full again, angled in, but on a better line, tucked off the toes through midwicket
+
+Ball 7.1:
+7.1
+4
+Carse to Labuschagne, FOUR runs
+full length, but too straight, 132kph from Carse, which is a relative loosener compared to what's come before. Rashid is up in the ring
+
+Ball MISC:
+A change of bowling, but no let-up in aggression. Here's Carse
+
+Ball MISC:
+Sameer Okaz: "The only way to win this match is MW Short replicate Duckket inning... otherwise this match is done and dusted after Head " Nothing is ever done until Maxi is done...
+
+Ball 6.6:
+6.6
+•
+Wood to MW Short, no run
+back on the full length, 151kph to complete the over, punched to cover
+
+Ball MISC:
+Tiggsy: "Always the trouble with a 'hit back of a length hard' strategy. any width and it's the classic commentary line of 'short, wide, four'..." It's worth remembering how profligate England's bowlers were in their classic 2015-19 era. The attacking intent was migitated by the belief that their batters could hunt down anything.
+
+Ball 6.5:
+6.5
+4
+Wood to MW Short, FOUR runs
+sits back in the crease to the short ball, hoisted away in front of square! That's a wonderful pick-up pull, Australia's diet of boundaries continues
+
+Ball 6.4:
+6.4
+•
+Wood to MW Short, no run
+attacking full length, blocked on the front foot, 152.2kph, as Wood keeps it cooking
+
+Ball 6.3:
+6.3
+2
+Wood to MW Short, 2 runs
+on the legs, flicked to midwicket for a single. Make that two, as Livingstone tumbles to gather
+
+Ball 6.2:
+6.2
+1
+Wood to Labuschagne, 1 run
+hits his length hard once more, 151.4kph, Labuschagne stands tall on the back foot, taps to cover, and takes off for the quick single
+
+Ball 6.1:
+6.1
+•
+Wood to Labuschagne, no run
+tight line, back of a length, up past 151kph again, fenced back down the pitch with a vertical blade
+
+Ball MISC:
+It's boundaries or bust for Australia at the moment
+
+Ball 5.6:
+5.6
+•
+Archer to MW Short, no run
+tighter line, back of a length, jabbed down into the pitch
+
+Ball 5.5:
+5.5
+4
+Archer to MW Short, FOUR runs
+hits the pitch harder, cracked superbly away through deep midwicket! That was indeed Thunderstruck, as the mid-over burst of AC/DC confirms
+
+Ball 5.4:
+5.4
+4
+Archer to MW Short, FOUR runs
+slower ball, maybe the first of the evening - certainly haven't been any at Wood's end! 123kph, but looping into the toes and tucked past the tumbling Rashid who mostly dived over that!
+
+Ball 5.3:
+5.3
+•
+Archer to MW Short, no run
+back on the inducker, nudged to leg off the pads
+
+Ball 5.2:
+5.2
+4
+Archer to MW Short, FOUR runs
+there's that width again! Archer's inswinger is working well but the outswinger is currently free runs. A stand-and-deliver slap through cover
+
+Ball 5.1:
+5.1
+•
+Archer to MW Short, no run
+snaking delivery from Archer, bending back into the thigh-pad very late and from an originally tight line. Loops out to gully but no bat involved
+
+Ball 4.6:
+4.6
+•
+Wood to Labuschagne, no run
+fierce pace again, 151.2kph this time, outside off, left alone. Australia looking a bit shellshocked for the moment, as they focus on regrouping
+
+Ball 4.5:
+4.5
+•
+Wood to Labuschagne, no run
+lovely length! Angled in, a raucous 152.9kph, left alone on length, as the ball fizzes over the top of off... 11 in a row above 150kph!
+
+Ball MISC:
+Bjorn: "Call me a pace-stan but I just love Mark Wood. A guy who can bowl every single delivery above 150 kph is soo rare in modern day cricket."
+
+Ball 4.4:
+4.4
+•
+Wood to Labuschagne, no run
+wider on the crease, fired in at the stumps, 151kph, firm-handed block back down the pitch
+
+Ball 4.3:
+4.3
+•
+Wood to Labuschagne, no run
+more footwork this time as he shuffles into position to defend
+
+Ball 4.2:
+4.2
+4
+Wood to Labuschagne, FOUR runs
+fired in full, 152.8kph, but Marnus commits to the front foot, presses his hands down the anticipated length and picks off a firm boundary through deep third
+
+Ball MISC:
+Now then Marnus. What you got?
+
+Ball 4.1:
+4.1
+W
+Wood to Smith, OUT
+that's also huge! A hard length from Wood, Test-match lines as he batters the pitch at 150kph+ and lures a hard-handed drive. Duckett is perfectly placed at slip and barely has to flinch as he swallows the waist-high offering. England's hit-em-hard approach is reaping rewards!
+Steven Smith c Duckett b Wood 5 (6b 1x4 0x6 5m) SR: 83.33
+
+Ball MISC:
+Sami: "Game. Set. Match....as far as I'm concerned" Well, we shall see. No doubt it's huge!
+
+Ball 3.6:
+3.6
+1
+Archer to Smith, 1 run
+leg-slip in place, and he's nearly in business! An inswinger on a full length, flicked around the corner but more through the leg gully region. Rashid mops up at fine leg. Lively over
+
+Ball 3.5:
+3.5
+4
+Archer to Smith, FOUR runs
+width, and slammed away through the covers! Archer offers room to swing the arms, and gets punished. Smith barely needed to move his feet that time, just trusted his eye
+
+Ball 3.4:
+3.4
+•
+Archer to Smith, no run
+presenting the middle of the blade, straight down the line, feet sliding into position around the bat, like a defensive shield
+
+Ball 3.3:
+3.3
+•
+Archer to Smith, no run
+an early shuffle across to the off-side, solid defence in behind the line of the ball
+
+Ball 3.3:
+3.3
+1w
+Archer to Smith, 1 wide
+sliding past the pads, inswinger once more to the right-hander, but overcooked
+
+Ball 3.2:
+3.2
+•
+Archer to Smith, no run
+oof, that's a tasty welcome! Zigging and zagging through to the keeper, 142kph, lovely line and length and beating Smith on the inside-edge
+
+Ball MISC:
+Archer, to Smith. Buckle up!
+
+Ball 3.1:
+3.1
+W
+Archer to Head, OUT
+slammed back at Archer! What a critical wicket! He did so well to close his fingers around that, a massive wipe through the line of the full-length delivery, but Head didn't get proper hold of it. The ball skewed back up the pitch, toe-end on the blade, at a good lick but not nearly as quickly as Archer might have expected. He held his nerve, and his poise, closed his hands around the ball, high to his left. Massive powerplay breakthrough!
+Travis Head c & b Archer 6 (5b 1x4 0x6 16m) SR: 120
+
+Ball 2.6:
+2.6
+•
+Wood to MW Short, no run
+tight line and length, met on the front foot, solid defensive block. 150kph to finish another properly brisk over
+
+Ball 2.5:
+2.5
+4
+Wood to MW Short, FOUR runs
+opens the face so deftly! More heat from Wood, rising outside off, but Short waits on the back foot, watches the ball onto the blade, and guides it through deep third
+
+Ball 2.4:
+2.4
+•
+Wood to MW Short, no run
+lovely line outside off, rising past the blade at 153kph as Short swishes a touch flat-footedly. Better line so far in this over
+
+Ball 2.3:
+2.3
+•
+Wood to MW Short, no run
+full and straight, right up to the toes at 151.9kph, Wood tumbles in his followthrough as Short dives compactly to mid-off
+
+Ball 2.2:
+2.2
+•
+Wood to MW Short, no run
+shaping in again, slightly leg-sided but met with a straight bat, back down the line, at 151kph this time
+
+Ball 2.1:
+2.1
+•
+Wood to MW Short, no run
+150kph, line and length outside off, good seam, leaping and nipping away, beating a wafty slap off the back foot
+
+Ball MISC:
+Chris: "The faster it comes at you, the faster it travels to the fence " it's the risk England are willing to take, if they can prise a few out in the process
+
+Ball 1.6:
+1.6
+•
+Archer to Head, no run
+round the wicket, back of a length, that's a good line to Head, shaping in and cramping him for room. A solid push to the off-side is the upshot
+
+Ball MISC:
+Mayank Shekhar : "Mark Wood's build would never let you guess he bowls 150 kph on a regular basis. Same was with Lee. Was there ever a big build fast bowler who looked like he would bowl such and then did so ?"
+
+Ball 1.5:
+1.5
+1lb
+Archer to MW Short, 1 leg bye
+full and straight, 137kph, into the pads, deflected fine
+
+Ball 1.5:
+1.5
+1w
+Archer to MW Short, 1 wide
+very tight to the stumps, but that jags from the straight and narrow and flies past the hips
+
+Ball 1.4:
+1.4
+1
+Archer to Head, 1 run
+better line and length from round the wicket, 130kph, deflected wide of the slips, and down to deep third
+
+Ball 1.3:
+1.3
+4
+Archer to Head, FOUR runs
+short and wide, that's a really poor ball to the dangerous Head, who climbs up on his toes and helps himself to a thumped cut in front of square
+
+Ball 1.2:
+1.2
+1lb
+Archer to MW Short, 1 leg bye
+aiming straight, thuds the pad, deflects out to square leg for the extra
+
+Ball MISC:
+The slip goes, leg-side field
+
+Ball MISC:
+Arunabh : "love watching Mark Wood. he is a proper Akhtar, Lee territory speed demon. "
+
+Ball 1.1:
+1.1
+1
+Archer to Head, 1 run
+round the wicket, a not-insignificant 147kph to open Archer's evening, very full and fenced away through backward point with a fat edge on the defensive push
+
+Ball MISC:
+Jofra Archer, for more raucous pace from the outset...
+
+Ball MISC:
+Good cut and thrust in that over, but Australia are ahead of their rate so far...
+
+Ball 0.6:
+0.6
+•
+Wood to MW Short, no run
+back in the channel outside off, a swing and a miss as the ball rises from fractionally back of a length, at 152.5kph. Wheels
+
+Ball 0.5:
+0.5
+4
+Wood to MW Short, FOUR runs
+picked up off the toes! Wood strays too straight once more, in Short's arc, and it's the merest of pick-ups off the toes. Timed to perfection through backward square! 152kph all the same
+
+Ball 0.4:
+0.4
+•
+Wood to MW Short, no run
+fires in the yorker, 151.5kph, dug out on off stump. This is enthralling already
+
+Ball 0.3:
+0.3
+•
+Wood to MW Short, no run
+that's his spot, shaping in at 151.7kph, line and length, and thumping the middle of a rock-solid defensive push
+
+Ball 0.2:
+0.2
+4
+Wood to MW Short, FOUR runs
+off-line from Wood, too full into the pads, up to 152kph already, but it will travel if you get anything on it! Through fine leg
+
+Ball 0.1:
+0.1
+•
+Wood to MW Short, no run
+full and fast, shaping in at 147.6kph, and nipping away. Pushed uncertainly out to point

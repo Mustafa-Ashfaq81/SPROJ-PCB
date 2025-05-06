@@ -12,19 +12,22 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 1. **Objective**  
    - **Match**: New Zealand vs Australia 1st ODI at Auckland Feb 03 2016
-   - **Primary Task**: Predict the most probable mode of dismissal for Steven Smith.  
-   - **Key Emphasis**: Pay special attention to: **Venue Stats of Steven Smith** because it will tell you how this player performs in the venue the prediction match will be played, **Steven Smith Stats against the Opponent** because it will tell you how the player performs against the specific team, and most important **recent commentary (if available)** detailing Steven Smith's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
+   - **Primary Task**: Predict the most probable mode of dismissal for Steven Smith in this match.  
+   - **Key Emphasis**: Pay special attention to: 
+        1. **Venue Stats of Steven Smith (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
+        2. **Steven Smith Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
+        3. **recent commentary (if available)** detailing Steven Smith's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
 
 2. **Data Sources**  
    - **A. Statistical Data (JSON Files)**  
      - Career-long batting averages, strike rates, typical modes of dismissal, venue-wise and opposition-wise splits, etc.  
-   - **B. Recent Match Commentary (if available)** (Crucial for capturing short-term context)  
+   - **B. Recent Match Commentary (if available)** (Crucial for capturing short-term recent form of Steven Smith)  
      1. **Venue and Match Context**  
      2. **Pitch Conditions**  
      3. **Comments/Quotes by or about Steven Smith**  
-     4. **How All Batters in the Innings Got Out**  
+     4. **How All Batters in the Innings Got Out to get an idea of what difficulties might Steven Smith may face**  
      5. **All Ball-by-Ball Entries Involving Steven Smith**  
-     6. **Steven Smith's Mode of Dismissal** (if it already happened)
+     6. **Steven Smith's Mode of Dismissal** (if it happened in recent matches)
 
 > **Stat Heading Guide (read carefully before analysis)**  
 > • The **“batting”** object contains the core performance metrics for Steven Smith and should drive most of your reasoning.  
@@ -39,7 +42,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
    **Detailed Reasoning**  
    Show how you arrive at your final predicted mode of dismissal by summarizing:  
-   1) Player's inherent weaknesses and past patterns.  
+   1) Player's inherent weaknesses and past patterns gathered from recent commentaries.  
    2) Conditions of the pitch or environment favoring certain modes of dismissal.  
    3) Any relevant points from the commentary or recent form.
 
@@ -503,9 +506,8 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ---
 
-## **Commentary Data (for k recent matches prior to the predicted match) of Steven Smith:**
+## **Commentary Data (for k recent matches prior to the predicted match) of Steven Smith to get a concrete idea of the recent form and the modes of dismissals of Steven Smith. This is very crucial to analyse for this task. :**
 Commentary 1:
-Ball 49.4:
 
 Ball 49.1:
 
@@ -608,7 +610,6 @@ Jadeja now
 Ball 19.6:
 Ishant Sharma to Warner, (no ball)
 Ishant oversteps. Full and wide, Warner finds point with a cut
-18.4
 Ishant Sharma to Marsh, no run
 1
 R Dhawan to Marsh, no run
@@ -1219,6 +1220,7 @@ no single this time, Bailey charges Ashwin, gets to the pitch of the ball, and s
 Jadeja to Bailey, 1 run
 worked off the pads behind square, short fine leg is on the edge of the circle, so another single
 
+nudged off the pads behind square for ... another single
 
 Ashwin to Bailey, 1 run
 4
