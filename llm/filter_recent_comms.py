@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-filter_recent_comms.py   •   2025-04-rewrite (v3)
+filter_recent_comms.py
 
 Usage:
 python filter_recent_comms.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "IND" --is_batsman True --k 2 --against_comms 0 --venue_comms 0 --venue_country "India" --venue_ground "Mohali" --end_date "December 23 2025" --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" --venue_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise" --output_dir "./filtered_outputs"
@@ -15,7 +15,6 @@ Select the k most-recent commentary files from raw/ that
 If < k files contain the player’s name, the remainder is filled by the
 most-recent files for that team.  No “other-team” fallback is used.
 
-CLI interface is unchanged, so driver.py works untouched.
 """
 
 from __future__ import annotations

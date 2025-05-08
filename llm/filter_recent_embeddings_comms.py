@@ -3,13 +3,15 @@
 filter_recent_embeddings_comms.py
 =================================
 
-A drop-in replacement for *filter_recent_comms.py* that now:
-• Uses `text-embedding-ada-002` to semantically filter commentary lines, **and**
-• Processes the chosen `k` commentary files in **parallel** while keeping their
-  final ordering intact.
+Same purpose as before, but now:
+• Embedding templates focus on batter-dismissal context
+• Semantic keep-rule always retains dismissal keywords
+• A ±5-line context window is captured around every kept line
+• Cleaning step trims junk, standardises ball tags, and
+  highlights the batter’s **last name** only (less visual clutter).
 
 Usage:
-    python filter_recent_embeddings_comms.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "IND" --is_batsman True --k 5 --against_comms 0 --venue_comms 0 --venue_country "India" --venue_ground "Mohali" --end_date "December 23 2025" --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" --venue_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise" --output_dir "./filtered_outputs"
+python filter_recent_embeddings_comms.py --player_name "StevenSmith" --player_team_code "AUS" --opponent_team_code "IND" --is_batsman True --k 5 --against_comms 0 --venue_comms 0 --venue_country "India" --venue_ground "Mohali" --end_date "December 23 2025" --base_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/raw" --venue_dir "../cricinfo_data_scrapping/CommentaryData/processed_commetaries/venuewise" --output_dir "./filtered_outputs"
 """
 
 from __future__ import annotations
@@ -121,7 +123,6 @@ def cosine(a: List[float], b: List[float]) -> float:
     return dot / (na * nb) if na and nb else 0.0
 
 
-# global token tracker (thread-safe)
 _total_tokens_used = 0
 _tokens_lock = threading.Lock()
 
@@ -136,7 +137,6 @@ def embed_texts(
     texts: List[str],
     model: str = "text-embedding-ada-002",
 ) -> List[List[float]]:
-    """Call OpenAI Embedding and return vectors; thread-safe token count."""
     clean: List[str] = [t for t in texts if isinstance(t, str) and t.strip()]
     if not clean:
         return [[] for _ in texts]
@@ -154,16 +154,26 @@ def embed_texts(
     raise RuntimeError("OpenAI Embedding failed repeatedly")
 
 
+# ────────────────── CATEGORY VECTORS (UPDATED) ─────────────────
 CAT_TEMPLS = (
-    "Venue or match context mentioning stadium or city",
-    "Description of pitch conditions such as pace, bounce, spin or dryness",
-    "Commentator quote or observation about {PLAYER}'s form or batting style",
-    "Dismissal of any batter in the innings",
-    "Ball-by-ball description involving {PLAYER}: deliveries faced, runs scored, edges, boundaries",
-    "{PLAYER}'s own dismissal description",
+    # batter-centric
+    "{PLAYER} faces the delivery",
+    "{PLAYER} scores FOUR or SIX",
+    "{PLAYER} gets dismissed bowled, lbw, caught, stumped or run-out",
+    "{PLAYER} edges, miscues or nicks behind",
+    "{PLAYER} beaten by swing, seam, spin or bounce",
+    "{PLAYER} reaches fifty or hundred",
+    # contextual
+    "Description of pitch or weather conditions",
+    "Bowler changes field or angle",
+    "Any wicket falls in the innings",
 )
-THRESH = 0.83
-BATCH = 100
+THRESH = 0.80          # wider net
+BATCH  = 50
+
+DISMISSAL_PAT = re.compile(
+    r"\b(b |c |lbw|bowled|stumped|run ?out)\b", flags=re.IGNORECASE
+)
 
 
 def build_category_vecs(player: str) -> List[List[float]]:
@@ -172,30 +182,108 @@ def build_category_vecs(player: str) -> List[List[float]]:
     return embed_texts(lines)
 
 
-def keep_line(
-    line: str,
-    vec: List[float],
-    cat_vecs: List[List[float]],
-    player: str,
-) -> bool:
-    if player.lower() in line.lower():
+def keep_line(line: str, vec: List[float], cat_vecs: List[List[float]], player: str) -> bool:
+    low = line.lower()
+
+    # Always retain if player explicitly mentioned
+    if player.lower() not in low and not re.search(r"\bsmith\b", low):
+        return False
+
+    key_phrases = [
+        # Technical shot/dismissal info
+        "bowled", "lbw", "caught", "stumped", "run out", "edged", "beaten", "nick", "inside edge",
+        "outside edge", "leading edge", "swing", "spin", "bounce", "footwork", "aggressive", 
+        "drives", "pulls", "hooks", "slogs", "reverse", "charges", "flick", "defends", "blocks",
+        "top edge", "bottom edge", "lofted", "stepped out", "backs away", "rushed", "misjudged",
+
+        # Pitch/weather/condition info (added)
+        "pitch", "conditions", "surface", "weather", "dew", "grip", "slow", "dry", "turn", "moisture", 
+        "two-paced", "holding up", "bouncy", "overcast", "green top", "spin-friendly", 
+        "low bounce", "sticky", "outfield"
+    ]
+
+    if any(p in low for p in key_phrases):
         return True
+
+    # Semantic similarity fallback
     return any(cosine(vec, cat) >= THRESH for cat in cat_vecs)
+
+
+# ───────── filter_file with ±WINDOW context (UPDATED) ─────────
+WINDOW = 5   # lines of context before & after every kept line
 
 
 def filter_file(path: str, player: str, cat_vecs: List[List[float]]) -> List[str]:
     with open(path, encoding="utf-8") as fh:
         lines = [ln.rstrip("\n") for ln in fh]
 
-    kept: List[str] = []
+    keep_mask = [False] * len(lines)
+
     for i in range(0, len(lines), BATCH):
         chunk = lines[i : i + BATCH]
         vecs = embed_texts(chunk)
-        for ln, vec in zip(chunk, vecs):
+        for off, (ln, vec) in enumerate(zip(chunk, vecs)):
             if keep_line(ln, vec, cat_vecs, player):
-                kept.append(ln)
-    return kept
+                idx = i + off
+                for j in range(max(0, idx - WINDOW), min(len(lines), idx + WINDOW + 1)):
+                    keep_mask[j] = True
 
+    return [ln for ln, keep in zip(lines, keep_mask) if keep]
+
+
+def clean_filtered_commentary(raw_text: str, player_name: str) -> str:
+    last = player_name.split()[-1].lower()
+    last_pat = re.compile(rf"\b{re.escape(last)}\b", flags=re.IGNORECASE)
+
+    # Tagging helpers
+    DISMISSAL_RE = re.compile(r"\b(out|b |c |lbw|stumped|run[-\s]?out)\b", re.IGNORECASE)
+    SHOT_RE = re.compile(r"\b(six|four|drives?|pulls?|hooks?|cuts?|flicks?|slogs?|edges?|lofts?|blocks?|defends?)\b", re.IGNORECASE)
+    CONDITION_RE = re.compile(r"\b(pitch|conditions|surface|slow|turn|grip|dew|weather|moisture|bounce|holding up|two-paced|sticky|green top)\b", re.IGNORECASE)
+    QUOTE_RE = re.compile(r'["“][^"”]+["”]')
+
+    def tag_line(line: str) -> str:
+        tag = ""
+        l = line.lower()
+        if DISMISSAL_RE.search(l):
+            tag = "[DISMISSAL] "
+        elif SHOT_RE.search(l):
+            tag = "[SHOT] "
+        elif CONDITION_RE.search(l):
+            tag = "[CONDITION] "
+        elif QUOTE_RE.search(line) and last in l:
+            tag = "[QUOTE] "
+        return tag + line
+
+    out = []
+    seen = set()
+    current_commentary_block = []
+
+    for line in raw_text.splitlines():
+        line = line.strip()
+
+        if line.startswith("Commentary"):
+            if current_commentary_block:
+                out.append("\n".join(current_commentary_block))
+                current_commentary_block = []
+            current_commentary_block.append(line)
+            continue
+
+        if not line or "[MISC]" in line:
+            continue
+        if not line.startswith("[Ball") and last not in line.lower():
+            continue
+
+        line = last_pat.sub(lambda m: f"**{m.group(0)}**", line)
+        tagged_line = tag_line(line)
+
+        if tagged_line not in seen:
+            current_commentary_block.append(tagged_line)
+            seen.add(tagged_line)
+
+    if current_commentary_block:
+        out.append("\n".join(current_commentary_block))
+
+    return "\n\n".join(out).strip()
 
 # ─────────────────────────────── main ─────────────────────────
 def main() -> None:
@@ -204,9 +292,7 @@ def main() -> None:
         sys.exit("OPENAI_API_KEY not set (env var or .env).")
     openai.api_key = os.environ["OPENAI_API_KEY"]
 
-    ap = argparse.ArgumentParser(
-        description="Filter recent commentary with embeddings."
-    )
+    ap = argparse.ArgumentParser(description="Filter recent commentary with embeddings.")
     ap.add_argument("--player_name", required=True)
     ap.add_argument("--player_team_code", required=True)
     ap.add_argument("--opponent_team_code", required=True)
@@ -261,7 +347,7 @@ def main() -> None:
         idx, path = idx_path
         debug(f"Filtering {path}")
         kept = filter_file(path, args.player_name, cat_vecs)
-        return idx, f"Commentary {idx}:\n" + "\n".join(kept) + "\n"
+        return idx, f"Commentary {idx}:\n" + "\n".join(kept)
 
     max_workers = min(len(chosen), os.cpu_count() or 4)
     futures: List[cf.Future] = []
@@ -275,19 +361,22 @@ def main() -> None:
             idx, block = fut.result()
             ordered_blocks[idx - 1] = block  # preserve order
 
-    out_text = "\n".join(ordered_blocks)
+    # ─── CLEAN & SAVE ───
+    merged_text = "\n".join(ordered_blocks)
+    cleaned_text = clean_filtered_commentary(merged_text.strip(), camel_to_spaced(args.player_name))
+
     out_name = (
         f"filtered_commentaries_{args.player_name.replace(' ', '')}_"
         f"{primary_team}_{len(chosen)}.txt"
     )
     out_path = os.path.join(args.output_dir, out_name)
     with open(out_path, "w", encoding="utf-8") as fh:
-        fh.write(out_text)
+        fh.write(cleaned_text)
 
     print(f"\n[INFO] Filtered commentary saved to {out_path}\n")
 
     # ───── Cost reporting ─────
-    print(f"\n[INFO] Total tokens used: {_total_tokens_used}")
+    print(f"[INFO] Total tokens used: {_total_tokens_used}")
     cost = _total_tokens_used / 1_000_000 * 0.10
     print(f"[INFO] Estimated embedding cost: ${cost:.6f} USD")
 

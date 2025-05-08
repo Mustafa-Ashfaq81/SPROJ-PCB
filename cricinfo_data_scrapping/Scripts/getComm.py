@@ -360,7 +360,7 @@ def process_row(row, target_ball="0.1"):
 # MAIN
 ###############################################################################
 if __name__ == "__main__":
-    csv_filename = "SteveSmithRecentOdis.csv"
+    csv_filename = "BabarAzamRecentOdis.csv"
     target_ball = "0.1"
     MAX_RETRIES = 2  # how many times we try each row
 

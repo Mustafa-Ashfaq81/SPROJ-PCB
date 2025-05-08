@@ -7,8 +7,9 @@ from scipy.stats import norm
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
+PLAYER = "smith"
 CSV_PATH = "llm_prediction_results.csv"
-PLOTS_DIR = "plots/embeddingsPlus4o-mini"
+PLOTS_DIR = f"plots/{PLAYER}/embeddingsPlus4o-mini"
 os.makedirs(PLOTS_DIR, exist_ok=True)
 plot_path = lambda fname: os.path.join(PLOTS_DIR, fname)
 TOP1_PLOT_PATH   = plot_path("top1_accuracy.png")
@@ -254,5 +255,5 @@ except ImportError:
 # ------------------------------------------------------------------
 # 12. Save CSV
 # ------------------------------------------------------------------
-summary.to_csv("ablation_accuracy_summary.csv", index=False)
-print("Saved extended summary →", os.path.abspath("ablation_accuracy_summary.csv"))
+summary.to_csv(f"{PLOTS_DIR}/ablation_accuracy_summary.csv", index=False)
+print("Saved extended summary →", os.path.abspath(f"{PLOTS_DIR}/ablation_accuracy_summary.csv"))
