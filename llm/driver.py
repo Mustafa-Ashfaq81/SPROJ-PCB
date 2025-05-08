@@ -711,7 +711,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     ]
     csv_line = ",".join(csv_fields)
 
-    csv_output_path = os.path.join(script_dir, "llm_prediction_results.csv")
+    csv_output_path = os.path.join(script_dir, f"llm_prediction_results_{player_name}.csv")
     write_header = not os.path.exists(csv_output_path)
 
     with open(csv_output_path, "a", encoding="utf-8") as f:

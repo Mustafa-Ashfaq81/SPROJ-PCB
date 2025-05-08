@@ -7,8 +7,8 @@ from scipy.stats import norm
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-PLAYER = "smith"
-CSV_PATH = "llm_prediction_results.csv"
+PLAYER = "Babar Azam"
+CSV_PATH = f"llm_prediction_results_{PLAYER}.csv"
 PLOTS_DIR = f"plots/{PLAYER}/embeddingsPlus4o-mini"
 os.makedirs(PLOTS_DIR, exist_ok=True)
 plot_path = lambda fname: os.path.join(PLOTS_DIR, fname)
@@ -34,20 +34,40 @@ except FileNotFoundError as e:
 df = df.reset_index(drop=True)
 
 # ------------------------------------------------------------------
-# 2. Map each row to its feature-block (100-row chunks)
+# 2. Normalize feature flag formats ("on"/"off" → 1/0)
 # ------------------------------------------------------------------
-block_labels = {
-    0: "Baseline\n(all off)",
-    1: "+General Stats",
-    2: "+Venue Stats",
-    3: "+Vs-Team Stats",
-    4: "+Commentary",
-}
-df["_block_id"] = np.clip(df.index // 100, 0, 4) 
-df["block"] = df["_block_id"].map(block_labels)
+flag_cols = [
+    "general_stats_flag",
+    "venuewise_stats_flag",
+    "against_teams_stats_flag",
+    "commentary"
+]
+
+# Only convert if these columns are present
+existing_flag_cols = [col for col in flag_cols if col in df.columns]
+df[existing_flag_cols] = df[existing_flag_cols].replace({"on": 1, "off": 0})
 
 # ------------------------------------------------------------------
-# 3. Parse probability & label lists
+# 3. Dynamically Create Feature Block Labels
+# ------------------------------------------------------------------
+def make_block_label(row):
+    parts = []
+    if row.get("general_stats_flag", 0):
+        parts.append("General Stats")
+    if row.get("venuewise_stats_flag", 0):
+        parts.append("Venue Stats")
+    if row.get("against_teams_stats_flag", 0):
+        parts.append("Vs-Team Stats")
+    if row.get("commentary", 0):
+        parts.append("Commentary")
+    return " + ".join(parts) if parts else "Baseline\n(all off)"
+
+df["block"] = df.apply(make_block_label, axis=1)
+unique_order = df["block"].drop_duplicates().tolist()
+df["block"] = pd.Categorical(df["block"], categories=unique_order, ordered=True)
+
+# ------------------------------------------------------------------
+# 4. Parse probability & label lists
 # ------------------------------------------------------------------
 def parse_float_list(txt: str):
     return [float(t.strip()) for t in txt.split(",")]
@@ -59,7 +79,7 @@ df["prob_vec"] = df["mode_of_dismissal_predicted_probability"].apply(parse_float
 df["label_vec"] = df["mode_of_dismissal_predicted"].apply(parse_label_list)
 
 # ------------------------------------------------------------------
-# 4. Top-1 & Top-2 correctness flags
+# 5. Top-1 & Top-2 correctness flags
 # ------------------------------------------------------------------
 df["top1_correct"] = (
     df["most_likely_mode"].str.strip()
@@ -78,18 +98,17 @@ def topk_hit(row, k=2):
 df["top2_correct"] = df.apply(topk_hit, axis=1)
 
 # ------------------------------------------------------------------
-# 5. Aggregate accuracy by block
+# 6. Aggregate accuracy by block
 # ------------------------------------------------------------------
 summary = (
-    df.groupby("block")
+    df.groupby("block", observed=False)
       .agg(top1_acc=("top1_correct", "mean"),
            top2_acc=("top2_correct", "mean"),
            n=("top1_correct", "size"))
       .reset_index()
 )
 
-order = ["Baseline\n(all off)", "+General Stats", "+Venue Stats", "+Vs-Team Stats", "+Commentary"]
-summary["block"] = pd.Categorical(summary["block"], categories=order, ordered=True)
+summary["block"] = pd.Categorical(summary["block"], categories=unique_order, ordered=True)
 summary = summary.sort_values("block")
 
 summary["top1_acc"] = (summary["top1_acc"] * 100).round(2)
@@ -99,7 +118,7 @@ print("\n=== Accuracy per Feature Block ===")
 print(summary.to_string(index=False))
 
 # ------------------------------------------------------------------
-# 6. Enhanced bar plotting helper (with delta colors)
+# 7. Bar Plots
 # ------------------------------------------------------------------
 def make_bar(summary_col: str, ylabel: str, title: str, save_path: str):
     values = summary[summary_col].values
@@ -120,17 +139,13 @@ def make_bar(summary_col: str, ylabel: str, title: str, save_path: str):
     plt.close()
     print(f"Saved plot → {os.path.abspath(save_path)}")
 
-# ------------------------------------------------------------------
-# 7. Generate & save plots
-# ------------------------------------------------------------------
 make_bar("top1_acc", "Top-1 Accuracy (%)",
          "Ablation Study - Top-1 Accuracy per Feature Set", TOP1_PLOT_PATH)
-
 make_bar("top2_acc", "Top-2 Accuracy (%)",
          "Ablation Study - Top-2 Accuracy per Feature Set", TOP2_PLOT_PATH)
 
 # ------------------------------------------------------------------
-# 8. Waterfall plots
+# 8. Waterfall Plots
 # ------------------------------------------------------------------
 summary["d_top1"] = summary["top1_acc"].diff().fillna(summary["top1_acc"])
 summary["d_top2"] = summary["top2_acc"].diff().fillna(summary["top2_acc"])
@@ -160,7 +175,7 @@ waterfall("d_top1", "top1_acc", WATER_TOP1_PNG, "Incremental Lift – Top‑1 Ac
 waterfall("d_top2", "top2_acc", WATER_TOP2_PNG, "Incremental Lift – Top‑2 Accuracy")
 
 # ------------------------------------------------------------------
-# 9. Error bar plots with Wilson CI and annotations
+# 9. Error Bar Plots
 # ------------------------------------------------------------------
 def save_errorbar(col_acc: str, out_path: str, title: str):
     z = norm.ppf(0.975)
@@ -182,7 +197,7 @@ def save_errorbar(col_acc: str, out_path: str, title: str):
     for bar, low, high in zip(bars, summary["ci_low"], summary["ci_high"]):
         height = bar.get_height()
         ax.text(bar.get_x() + bar.get_width() / 2, height + 2,
-                f"  [{low:.1f}, {high:.1f}]%", ha='center', va='bottom', fontsize=9)
+                f"[{low:.1f}, {high:.1f}]%", ha='center', va='bottom', fontsize=9)
 
     ax.set_ylabel("Accuracy (%)")
     ax.set_title(title + " (95% Wilson CI with bounds)")
@@ -197,12 +212,12 @@ save_errorbar("top1_acc", ERR_TOP1_PNG, "Top‑1 Accuracy per Feature Set")
 save_errorbar("top2_acc", ERR_TOP2_PNG, "Top‑2 Accuracy per Feature Set")
 
 # ------------------------------------------------------------------
-# 10. Per‑class recall heatmap
+# 10. Recall Heatmap (first vs last block)
 # ------------------------------------------------------------------
 labels = df["label_vec"].iloc[0]
 
-def recall_for_block(bid):
-    sub = df[df["_block_id"] == bid]
+def recall_for_block(block_name):
+    sub = df[df["block"] == block_name]
     gt = sub["mode_of_dismissal_ground_truth"].str.strip()
     pred = sub["most_likely_mode"].str.strip()
     recalls = []
@@ -212,10 +227,10 @@ def recall_for_block(bid):
         recalls.append(correct / total if total else np.nan)
     return np.array(recalls)
 
-rec_baseline = recall_for_block(0)
-rec_full = recall_for_block(4)
+rec_baseline = recall_for_block(unique_order[0])
+rec_full = recall_for_block(unique_order[-1])
 rec_matrix = np.vstack([rec_baseline, rec_full]) * 100
-blocks_cmp = ["Baseline", "All Features"]
+blocks_cmp = [unique_order[0], unique_order[-1]]
 
 fig, ax = plt.subplots(figsize=(11, 3))
 im = ax.imshow(rec_matrix, cmap="YlOrRd", vmin=0, vmax=100)
@@ -237,23 +252,23 @@ plt.close()
 print(f"Saved plot → {os.path.abspath(HEAT_PNG)}")
 
 # ------------------------------------------------------------------
-# 11. McNemar significance test
+# 11. McNemar Significance Test
 # ------------------------------------------------------------------
 try:
     from statsmodels.stats.contingency_tables import mcnemar
     print("\n=== McNemar p-values (Top-1) ===")
-    for b in range(1, 5):
-        prev = df[df["_block_id"] == (b - 1)]["top1_correct"].values
-        curr = df[df["_block_id"] == b]["top1_correct"].values
+    for i in range(1, len(unique_order)):
+        prev = df[df["block"] == unique_order[i - 1]]["top1_correct"].values
+        curr = df[df["block"] == unique_order[i]]["top1_correct"].values
         contingency = [[np.sum(prev & curr), np.sum(prev & ~curr)],
                        [np.sum(~prev & curr), np.sum(~prev & ~curr)]]
         res = mcnemar(contingency, exact=False, correction=True)
-        print(f"Block {b-1} → {b}: p = {res.pvalue:.4f}")
+        print(f"{unique_order[i-1]} → {unique_order[i]}: p = {res.pvalue:.4f}")
 except ImportError:
     print("\n(statsmodels not installed – McNemar test skipped)")
 
 # ------------------------------------------------------------------
-# 12. Save CSV
+# 12. Save Accuracy Summary CSV
 # ------------------------------------------------------------------
 summary.to_csv(f"{PLOTS_DIR}/ablation_accuracy_summary.csv", index=False)
 print("Saved extended summary →", os.path.abspath(f"{PLOTS_DIR}/ablation_accuracy_summary.csv"))

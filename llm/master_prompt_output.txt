@@ -1,36 +1,36 @@
 ## **Prompt Title**  
-**Cricket Dismissal Prediction for Steven Smith: Balancing Commentary and Statistical Data**
+**Cricket Dismissal Prediction for Babar Azam: Balancing Commentary and Statistical Data**
 
 ---
 
 ## **Persona**  
-You are a **seasoned cricket analysis expert** with over 25 years of experience in coaching and scrutinizing international cricket. You specialize in synthesizing **both qualitative insights from recent match commentaries** and **quantitative player metrics** to generate accurate, context-rich predictions. Your goal is to determine the **most likely mode of dismissal** for Steven Smith in upcoming or ongoing matches.
+You are a **seasoned cricket analysis expert** with over 25 years of experience in coaching and scrutinizing international cricket. You specialize in synthesizing **both qualitative insights from recent match commentaries** and **quantitative player metrics** to generate accurate, context-rich predictions. Your goal is to determine the **most likely mode of dismissal** for Babar Azam in upcoming or ongoing matches.
 
 ---
 
 ## **Instructional Outline**
 
 1. **Objective**  
-   - **Match**: New Zealand vs Australia 1st ODI at Auckland Feb 03 2016
-   - **Primary Task**: Predict the most probable mode of dismissal for Steven Smith in this match.  
+   - **Match**: Pakistan vs India 5th Match Group A at Dubai Champions Trophy Feb 23 2025
+   - **Primary Task**: Predict the most probable mode of dismissal for Babar Azam in this match.  
    - **Key Emphasis**: Pay special attention to: 
-        1. **Venue Stats of Steven Smith (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
-        2. **Steven Smith Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
-        3. **recent commentary (if available)** detailing Steven Smith's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
+        1. **Venue Stats of Babar Azam (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
+        2. **Babar Azam Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
+        3. **recent commentary (if available)** detailing Babar Azam's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
         4. **Recent Commentary as Primary Driver**: treat every dismissal or form signal in the commentaries as your highest-signal evidence—if it conflicts with older stats, let it override those lower-signal sources.
 
 2. **Data Sources**  
    - **A. General Career Stats (JSON Files)**  
      • Career-long batting averages, strike rates, typical modes of dismissal.  
    - **B. Venue-Wise Stats (JSON Files)**  
-     • Venue splits (e.g. performance in New Zealand), Bowled/Caught/… rates.  
+     • Venue splits (e.g. performance in United Arab Emirates), Bowled/Caught/… rates.  
    - **C. Opponent-Wise Stats (JSON Files)**  
-     • Performance vs New Zealand, specific dismissal breakdown.  
+     • Performance vs India, specific dismissal breakdown.  
    - **D. Recent Match Commentary (if available)**  
      • Ball-by-ball notes, pitch conditions, quotes, and dismissal events.
 
 > **Stat Heading Guide (read carefully before analysis)**  
-> • The **“batting”** object contains the core performance metrics for Steven Smith and should drive most of your reasoning.  
+> • The **“batting”** object contains the core performance metrics for Babar Azam and should drive most of your reasoning.  
 > • The **“dismissals”** array shows how those wickets were taken by bowler type — consider this *high-signal* information.  
 > • The **“bowling”** and **“bowling_vs_batting_type”** objects are included for completeness; for a specialist batter they are usually *low-signal* and may be weighted lightly.  
 > • Treat any `null` values as “not applicable / data unavailable.”
@@ -71,172 +71,32 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
      Caught and bowled: <number>%  
      Not-out: <number>%  
    - Then, finish with this exact text (again, to be parsed automatically):  
-     most likely mode of dismissal for Steven Smith is <mode>
+     most likely mode of dismissal for Babar Azam is <mode>
 
 ---
 
-## ** General Stats Data of Steven Smith: **
-{
-    "player": "Steven Smith",
-    "team": "Australia",
-    "span": "2011 - 2016",
-    "matches_played": 60,
-    "batting_innings": 51,
-    "bowling_innings": 60,
-    "fielding_innings": 60,
-    "batting": {
-        "Runs": 1920,
-        "Balls Faced": 2148,
-        "Fours": 161,
-        "Sixes": 19,
-        "Strike Rate": 89.39,
-        "Dismissals": 45,
-        "Not Outs": 6,
-        "Batting Average": 42.67
-    },
-    "bowling": {
-        "Overs": 120.3,
-        "Maidens": 1,
-        "Runs Conceded": 630,
-        "Wickets": 18,
-        "Economy Rate": 5.24,
-        "Bowling Average": 35.0,
-        "Dots": 307,
-        "Fours": 40,
-        "Sixes": 8,
-        "Wides": 2,
-        "No Balls": 0,
-        "Boundary Runs Conceded": 208,
-        "Bowling Strike Rate": 40.17,
-        "Dot Ball Percentage": 42.46,
-        "3wHauls": 2,
-        "4wHauls": 0,
-        "5wHauls": 0,
-        "Best Bowling Figures": "3/16"
-    },
-    "fielding": {
-        "Catches": 36,
-        "Stumpings": 0,
-        "Run Outs": 4
-    },
-    "dismissals": [
-        {
-            "Bowler Type": "Right arm Pace",
-            "Span": "2011 - 2016",
-            "Dis": 20,
-            "bowled": 5,
-            "caught-fielder": 9,
-            "caught wk": 5,
-            "stump": 0,
-            "lbw": 1,
-            "hit wicket": 0,
-            "caught and bowled": 0
-        },
-        {
-            "Bowler Type": "Right arm Spin",
-            "Span": "2011 - 2016",
-            "Dis": 9,
-            "bowled": 2,
-            "caught-fielder": 5,
-            "caught wk": 1,
-            "stump": 1,
-            "lbw": 0,
-            "hit wicket": 0,
-            "caught and bowled": 0
-        },
-        {
-            "Bowler Type": "Left arm Pace",
-            "Span": "2011 - 2016",
-            "Dis": 5,
-            "bowled": 1,
-            "caught-fielder": 3,
-            "caught wk": 0,
-            "stump": 0,
-            "lbw": 1,
-            "hit wicket": 0,
-            "caught and bowled": 0
-        },
-        {
-            "Bowler Type": "Left arm Spin",
-            "Span": "2011 - 2016",
-            "Dis": 7,
-            "bowled": 2,
-            "caught-fielder": 2,
-            "caught wk": 2,
-            "stump": 0,
-            "lbw": 0,
-            "hit wicket": 0,
-            "caught and bowled": 1
-        },
-        {
-            "Bowler Type": "Unknown",
-            "Span": "2011 - 2016",
-            "Dis": 4,
-            "bowled": 0,
-            "caught-fielder": 0,
-            "caught wk": 0,
-            "stump": 0,
-            "lbw": 0,
-            "hit wicket": 0,
-            "caught and bowled": 0
-        }
-    ],
-    "bowling_vs_batting_type": {
-        "Right Handed": {
-            "wickets": 10,
-            "bowled": 0,
-            "caught-fielder": 7,
-            "caught wk": 1,
-            "stump": 1,
-            "lbw": 1,
-            "hit wicket": 0,
-            "caught and bowled": 0,
-            "other": 0
-        },
-        "Left Handed": {
-            "wickets": 8,
-            "bowled": 1,
-            "caught-fielder": 5,
-            "caught wk": 1,
-            "stump": 0,
-            "lbw": 0,
-            "hit wicket": 0,
-            "caught and bowled": 1,
-            "other": 0
-        },
-        "Unknown": {
-            "wickets": 0,
-            "bowled": 0,
-            "caught-fielder": 0,
-            "caught wk": 0,
-            "stump": 0,
-            "lbw": 0,
-            "hit wicket": 0,
-            "caught and bowled": 0,
-            "other": 0
-        }
-    }
-}
+## ** General Stats Data of Babar Azam: **
+{General Stats Not Available}
 
 ---
 
-## **Venue Wise Stats Data of Steven Smith in New Zealand:**
+## **Venue Wise Stats Data of Babar Azam in United Arab Emirates:**
 {
-    "New Zealand": {
-        "span": "2015 - 2016",
-        "matches_played": 2,
-        "batting_innings": 2,
-        "bowling_innings": 2,
-        "fielding_innings": 2,
+    "United Arab Emirates": {
+        "span": "2025 - 2025",
+        "matches_played": 1,
+        "batting_innings": 1,
+        "bowling_innings": 1,
+        "fielding_innings": 1,
         "batting": {
-            "Runs": 22,
-            "Balls Faced": 28,
-            "Fours": 3,
+            "Runs": 23,
+            "Balls Faced": 26,
+            "Fours": 5,
             "Sixes": 0,
-            "Strike Rate": 78.57,
-            "Dismissals": 2,
+            "Strike Rate": 88.46,
+            "Dismissals": 1,
             "Not Outs": 0,
-            "Batting Average": 11.0
+            "Batting Average": 23.0
         },
         "bowling": {
             "Overs": 0.0,
@@ -266,11 +126,11 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
         "dismissals": [
             {
                 "Bowler Type": "Right arm Pace",
-                "Span": "2015 - 2016",
+                "Span": "2025 - 2025",
                 "Dis": 1,
-                "bowled": 1,
+                "bowled": 0,
                 "caught-fielder": 0,
-                "caught wk": 0,
+                "caught wk": 1,
                 "stump": 0,
                 "lbw": 0,
                 "hit wicket": 0,
@@ -278,7 +138,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Right arm Spin",
-                "Span": "2015 - 2016",
+                "Span": "2025 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -290,7 +150,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Pace",
-                "Span": "2015 - 2016",
+                "Span": "2025 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -302,11 +162,11 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Spin",
-                "Span": "2015 - 2016",
-                "Dis": 1,
+                "Span": "2025 - 2025",
+                "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
-                "caught wk": 1,
+                "caught wk": 0,
                 "stump": 0,
                 "lbw": 0,
                 "hit wicket": 0,
@@ -314,7 +174,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Unknown",
-                "Span": "2015 - 2016",
+                "Span": "2025 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -365,57 +225,57 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ---
 
-## **Against Teams Stats Data of Steven Smith against New Zealand:**
+## **Against Teams Stats Data of Babar Azam against India:**
 {
-    "New Zealand": {
-        "span": "2011 - 2016",
+    "India": {
+        "span": "2023 - 2025",
         "matches_played": 4,
         "batting_innings": 3,
         "bowling_innings": 4,
         "fielding_innings": 4,
         "batting": {
-            "Runs": 78,
-            "Balls Faced": 99,
-            "Fours": 6,
+            "Runs": 83,
+            "Balls Faced": 108,
+            "Fours": 14,
             "Sixes": 0,
-            "Strike Rate": 78.79,
-            "Dismissals": 2,
-            "Not Outs": 1,
-            "Batting Average": 39.0
+            "Strike Rate": 76.85,
+            "Dismissals": 3,
+            "Not Outs": 0,
+            "Batting Average": 27.67
         },
         "bowling": {
-            "Overs": 9.0,
+            "Overs": 0.0,
             "Maidens": 0,
-            "Runs Conceded": 44,
-            "Wickets": 1,
-            "Economy Rate": 4.89,
-            "Bowling Average": 44.0,
-            "Dots": 23,
-            "Fours": 3,
+            "Runs Conceded": 0,
+            "Wickets": 0,
+            "Economy Rate": null,
+            "Bowling Average": null,
+            "Dots": 0,
+            "Fours": 0,
             "Sixes": 0,
-            "Wides": 1,
+            "Wides": 0,
             "No Balls": 0,
-            "Boundary Runs Conceded": 12,
-            "Bowling Strike Rate": 54.0,
-            "Dot Ball Percentage": 42.59,
+            "Boundary Runs Conceded": 0,
+            "Bowling Strike Rate": null,
+            "Dot Ball Percentage": null,
             "3wHauls": 0,
             "4wHauls": 0,
             "5wHauls": 0,
-            "Best Bowling Figures": "1/44"
+            "Best Bowling Figures": null
         },
         "fielding": {
-            "Catches": 0,
+            "Catches": 1,
             "Stumpings": 0,
             "Run Outs": 0
         },
         "dismissals": [
             {
                 "Bowler Type": "Right arm Pace",
-                "Span": "2011 - 2016",
-                "Dis": 1,
-                "bowled": 1,
+                "Span": "2023 - 2025",
+                "Dis": 3,
+                "bowled": 2,
                 "caught-fielder": 0,
-                "caught wk": 0,
+                "caught wk": 1,
                 "stump": 0,
                 "lbw": 0,
                 "hit wicket": 0,
@@ -423,7 +283,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Right arm Spin",
-                "Span": "2011 - 2016",
+                "Span": "2023 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -435,7 +295,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Pace",
-                "Span": "2011 - 2016",
+                "Span": "2023 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -447,11 +307,11 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Spin",
-                "Span": "2011 - 2016",
-                "Dis": 1,
+                "Span": "2023 - 2025",
+                "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
-                "caught wk": 1,
+                "caught wk": 0,
                 "stump": 0,
                 "lbw": 0,
                 "hit wicket": 0,
@@ -459,7 +319,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Unknown",
-                "Span": "2011 - 2016",
+                "Span": "2023 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -472,12 +332,12 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
         ],
         "bowling_vs_batting_type": {
             "Right Handed": {
-                "wickets": 1,
+                "wickets": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
                 "caught wk": 0,
                 "stump": 0,
-                "lbw": 1,
+                "lbw": 0,
                 "hit wicket": 0,
                 "caught and bowled": 0,
                 "other": 0
@@ -510,183 +370,73 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ---
 
-## **Commentary Data (for k recent matches prior to the predicted match) of Steven Smith to get a concrete idea of the recent form and the modes of dismissals of Steven Smith. This is very crucial to analyse for this task. :**
+## **Commentary Data (for k recent matches prior to the predicted match) of Babar Azam to get a concrete idea of the recent form and the modes of dismissals of Babar Azam. This is very crucial to analyse for this task. :**
 Commentary 1:
-[DISMISSAL] Bumrah to **Smith**, OUT
-[DISMISSAL] very poor shot. Bumrah gets his first wicket. **Smith** picks out midwicket. Short delivery on off, **Smith** plays a nothing pull straight o short midwicket. Bumrah is jubilant. Big big wicket for India, this could put Australia behind the 8-ball for a while.
-[DISMISSAL] Steven **Smith** c Sharma b Bumrah 28 (37b 3x4 0x6 47m) SR: 75.67
-Bumrah to **Smith**, no run
-[SHOT] nice lines these. Honing in on off, **Smith** blocks
-R Dhawan to **Smith**, 1 run
-too straight and **Smith** picks off his hips towards square leg
-Bumrah to **Smith**, 3 runs
-[SHOT] doesn't time his pull very well but he picked the stroke nicely. Too short outside off, **Smith** clatters the pull over midwicket. Lobs over the infield for three
-[SHOT] fullish length outside off, **Smith** punches a square drive to point with minimal feet movement
-back of a length on middle, Warner misses his tuck and is struck on the thigh pad. **Smith** calls his partner through
-[QUOTE] venkatesh: "What is Steve **Smith**`s least score against India?" -- 106?
-Umesh Yadav to **Smith**, no run
-[SHOT] Umesh Yadav to **Smith**, FOUR runs
-[SHOT] 139 kph. Lovely batting. But that is a discernibly poor delivery from Yadav. Excessively full on middle and leg, **Smith** sees it early and clips the lofted flick over midwicket for four. Easy
-Umesh Yadav to **Smith**, 2 runs
-[SHOT] rather full outside off, just the change in length. **Smith** drives past mid-on for four. Lovely on drive
-beautiful lines. Full but wide outside off. For **Smith**, it seems closer to a typical delivery on off. **Smith** pushes to mid-off
-[SHOT] short and wide, a bit of extra bounce but a lot of width too. **SMith** is deceives by the bounce as the ball goes past the cut
-Bumrah to **Smith**, 2 runs
-back of a length on middle, worked off his hips towards midwicket. **Smith** races back for two. Great running
-[SHOT] length outside off, **Smith** strides forward to defend
-[SHOT] 138 kph. Decent pace. Short and wide outside off, **Smith** flashes a cut but misses
-Ishant Sharma to **Smith**, no run
-[SHOT] 136 kph, indications of a slightly two-paced wicket. The ball bounces a touch but comes on slower and **Smith** can only chop his attempted cut into the pitch
-[QUOTE] John: "@Drew - **Smith** has taken 27 wickets in his career, the second highest in today's team."
-[SHOT] Ishant Sharma to **Smith**, FOUR runs
-poor delivery. Very poor. Short and wide outside off, would have been called a wide if **SMith** left. He went after it though and pierced the gap to perfection. Past backward point
-Some words exchanged between **Smith** and Ishant
-Ishant Sharma to **Smith**, 1 run
-that is a good line to **Smith**. Back of a length and slightly wide of off, **Smith** shuffles across to leave
-Umesh Yadav to **Smith**, 1 leg bye
-[DISMISSAL] Drew: "Looking ahead, the selection of a batsman replacing an all-rounder means **Smith** has absolutely no flexibility in the bowling for this match. If one of the bowlers/all-rounder is hit out of the attack he has to turn to his own bowling to make up the overs. Lots of pressure on the batsmen then to make the extra runs to cover up for the injured Maxwell."
-Umesh Yadav to **Smith**, 1 run
-Ishant Sharma to **Smith**, 3 runs
-[SHOT] 137 kph. Too wide outside off, lots of width but with **Smith** shuffling across to off, it seems like a ball closer to him and not wide enough to cut. Left alone
-[SHOT] 139 kph, Back of a length outside off. **Smith** opens the face slightly but outside-edges to third man
-Umesh Yadav to **Smith**, 1 wide
-[SHOT] ooh, almost inside-edges onto his stumps. A hint of away shape outside off, **Smith** goes for another drive with his feet not quite close enough to the pitch, the ball hits the pad and then just evades off stump.
-ducks back in from outside off, similar to the Finch wicket but not as much. **Smith** lets it go
-back of a length outside off, 137 kph. **Smith** shuffles across to leave
+[DISMISSAL] Santner to Babar **Azam**, OUT
+[DISMISSAL] Babar **Azam** c Williamson b Santner 64 (90b 6x4 1x6 136m) SR: 71.11
+Santner to Babar **Azam**, no run
+[SHOT] Santner to Babar **Azam**, FOUR runs
+Smith to Babar **Azam**, 1 run
+[SHOT] Smith to Babar **Azam**, SIX runs
+Santner to Babar **Azam**, 1 run
+Santner to Babar **Azam**, 2 runs
+Phillips to Babar **Azam**, no run
+Phillips to Babar **Azam**, 1 run
+Michael Bracewell to Babar **Azam**, no run
+Michael Bracewell to Babar **Azam**, 2 runs
+[SHOT] Phillips to Babar **Azam**, FOUR runs
+[SHOT] O'Rourke to Babar **Azam**, FOUR runs
+O'Rourke to Babar **Azam**, no run
+Michael Bracewell to Babar **Azam**, 1 run
+O'Rourke to Babar **Azam**, 1 run
+Henry to Babar **Azam**, no run
+[SHOT] Henry to Babar **Azam**, FOUR runs
 
 Commentary 2:
-5.55pm Australia will be pleased with that performance. The openers set the tone from the start with a brisk stand. Warner, coming back after the birth of his second child, made a really good 93. Aaron Finch though carried on to make a ton. The innings stalled temporarily with his dismissal but Steven **Smith** and Glenn Maxwell played enterprising cameos to lift Australia to 348. India did not have many answers to that onslaught with the ball, but will require something special with the bat to stand any chance.
+[DISMISSAL] Smith to Babar **Azam**, OUT
+[DISMISSAL] Babar **Azam** c & b Smith 29 (34b 4x4 1x6 58m) SR: 85.29
+[SHOT] Smith to Babar **Azam**, FOUR runs
+Smith to Babar **Azam**, no run
+Michael Bracewell to Babar **Azam**, 1 wide
+[SHOT] Duffy to Babar **Azam**, FOUR runs
+Duffy to Babar **Azam**, no run
+[SHOT] Duffy to Babar **Azam**, SIX runs
+Duffy to Babar **Azam**, (no ball)
+Duffy to Babar **Azam**, 1 run
+Duffy to Babar **Azam**, 1 wide
 
 Commentary 3:
-Steven **Smith**: We did well to keep them down to 295. They bowled well in the middle, lost a few wickets in clumps before the Maxwell show. It was great to see him bat the way he did today. He scores so fast playing normal cricket shots, he's got all the shots. He plays so beautifully when he hits the ball in the right areas. Hopefully, he'll keep doing that. If I have my time over again, I may have batted first today. I didn't anticipate it to get so dry in the end. There's still room for improvement though.
-[DISMISSAL] Jadeja to **Smith**, OUT
-[SHOT] Jadeja strikes in his first over. India find a way past **Smith**. Jadeja held this one back, gets some turn as well. The outside edge is grazed and Rahane goes low at first slip to pouch it safely
-[DISMISSAL] Steven **Smith** c Rahane b Jadeja 41 (45b 5x4 0x6 45m) SR: 91.11
-Jadeja to **Smith**, no run
-Gurkeerat to **Smith**, 1 run
-R Dhawan to **Smith**, 2 runs
-excellent stop by Jadeja at point again, timed well once again by **Smith**
-R Dhawan to **Smith**, no run
-Gurkeerat to **Smith**, no run
-Umesh Yadav to **Smith**, 3 runs
-[SHOT] just short of Rahane at midwicket. Slice of luck for **Smith**. Looked to flick that past the fielder, didn't get enough bat on that. Few words exchanged between **Smith** and Umesh
-nice and full on off, driven to mid-off. Kohli effects a direct hit at the bowler's end but **Smith**'s bat is well inside the crease. Third umpire was called for a mere formality
-peach of a delivery. Lands it a touch ahead of the length area on off, this one nips away just a touch, **Smith** is beaten as he looks to hit through the line
-[SHOT] full and swinging in on middle and off, **Smith** gets a thick inside edge towards midwicket
-[SHOT] not all that short this time, but another pull that has split the gap on the on side. Went like a rocket. Only a batsman in the form of his life can think of playing that stroke. That **Smith** is in the form of his life would be an understatement
-[SHOT] short ball, **Smith** manages to get enough bat on it as he fetches the pull from outside off, beats the gap between midwicket and mid-on
-[SHOT] late movement again, full on middle, **Smith** is slightly squared up as he defends it to mid-on
+[DISMISSAL] 10.17pm A great, great chase. Pakistan looked down and out after the first half where tempers flared. South Africa rode on the 80s from Bavuma, Breetzke and Klaasen to post 352 for 5. Pakistan had never chased down these many. But Fakhar Zaman and Babar **Azam** set the platform by taking Pakistan to 50 in just 5.2 overs. The start they provided allowed Rizwan and Agha to take their time. Once set, there was no looking back. Agha was the aggressor, always keeping the asking rate in check. Rizwan played the anchor's role for most of their stand but he too opened up towards the end. Both brought up their hundreds, Agha's being his first in ODIs. The two added 260 in a record fourth-wicket stand for Pakistan. By the time there were 12 overs left, it was clear Pakistan were cruising. That showed where cricket has arrived today. Eventually, they reached their target with an over to spare.
+[DISMISSAL] Mulder to Babar **Azam**, OUT
+[DISMISSAL] Babar **Azam** lbw b Mulder 23 (19b 4x4 0x6 31m) SR: 121.05
+Corbin Bosch to Babar **Azam**, 1 run
+Corbin Bosch to Babar **Azam**, 1 wide
+Corbin Bosch to Babar **Azam**, no run
+Ngidi to Babar **Azam**, no run
+[SHOT] Ngidi to Babar **Azam**, FOUR runs
+Ngidi to Babar **Azam**, 2 runs
 
 Commentary 4:
-[QUOTE] "Yeah it was good tonight, I think we did well to restrict them to 308. They were looking good for 350. The way we started was brilliant. Marsh and Finch didn't panic and allowed us to play freely at the end. The bowlers did well in the last game, they pulled India back at the back end today too," **Smith** says. "I'm sure Wade and Faulkner will get a hit and do well when the get the chance. Bailey was excellent again"
-[DISMISSAL] Umesh Yadav to **Smith**, OUT
-[DISMISSAL] Steven **Smith** b Yadav 46 (47b 4x4 0x6 67m) SR: 97.87
-full and wide outside off - because **Smith** made it so by opening up his stance - carved to mid-off. Gee, he looks like a cave man swinging his club.
-two more. Flat on leg, **Smith** tickles it into the leg side and races back for the second. Easily done
-[SHOT] Ashwin to **Smith**, FOUR runs
-[SHOT] what a shot that is. Not a bad delivery at all. Flat on middle, **Smith** hurries back and makes room for himself. Clobbers the cut deftly in the gap behind point for four
-Ashwin to **Smith**, 1 run
-[SHOT] Jaddu has been placed there just for this shot, **Smith** lunges across and sweeps powerfully. Looked like four to his left, but he races across and keeps it to one
-Ashwin to **Smith**, no run
-Kohli to **Smith**, no run
-[SHOT] oooh, inside edge! The result of **Smith** playing back to something he should have been forward to. Tries to slice the ball through point and it ends up missing the off stump by a whisker
-[SHOT] Kohli to **Smith**, FOUR runs
-that's poor, but expected from the part-timer. Drops this short and **Smith** creams it through midwicket.
-Kohli to **Smith**, 1 run
-full and wide outside off, **Smith** slaps it down the ground to long-off
-[CONDITION] oooh, that was close. Ashwin had seen **Smith** making room and followed him, gets some turn off the deck as well, and beats the push into the covers. Good take from Dhoni behind the stumps
-Ashwin to **Smith**, 2 runs
-Barinder Sran to **Smith**, 1 run
-92 kph, might have been the back of the hand slower ball that went awry. **Smith** had loaded up his baseball stance and stood waiting for it for an age before he toe-ends this too down the ground
-Barinder Sran to **Smith**, (no ball)
-[SHOT] moves well across his off stump, Sran moves even wider with his short ball, **Smith** still goes for a pull and toe-ends the ball into the off side. Oh, amid all that, the bowler has overstepped, so it's a free hit
-Barinder Sran to **Smith**, no run
-[SHOT] mistimes an off drive, and it is an off drive even though **Smith** had cleared his front leg and was playing it off the back foot to a fuller ball outside off
-Barinder Sran to **Smith**, 2 runs
-offers probably the worst ball he could to **Smith** - short and wide - hammered to point who does excellently well to get a hand on it. It we had Hot-Spotted that, the ball would have left a streak as it went after Jaddu
-nicely done. Ishant saw **Smith** moving away outside leg and followed him with a fuller ball. Keeps it to a single to mid-off
-Jadeja to **Smith**, 1 run
-Ishant Sharma to **Smith**, 2 runs
-[SHOT] beautiful cricket from **Smith**. He's been on Sran's case since the last game, and this time he takes on the young fast bowler's arm and turns a late cut for one into a late cut for a briskly run two
-Ishant Sharma to **Smith**, 1 wide
-[SHOT] banged in short, **Smith** steps inside the line to pull it away fine, not able to do so.
-[SHOT] Jadeja to **Smith**, FOUR runs
-[DISMISSAL] just over short midwicket! **Smith** steps out of his crease, that by itself is a feat against the darts Jaddu bowls, and then he drags a ball from way outside off with impeccable timing over Pandey
-[QUOTE] cricfansince91: "Would not be a bad idea if MSD brings back Sran for a few overs when **Smith** is fresh at crease & Jadeja is continued too.. Let's see what happens then" --- Dhoni goes for Ishant instead
-tossed up on off stump, solid defence from **Smith**
-[QUOTE] Spencer : "I think Bailey, **Smith** & Maxwell must be appalled at the timidity of these 2" --- I'd say grateful for their prudence
+[DISMISSAL] Michael Bracewell to Babar **Azam**, OUT
+[DISMISSAL] Babar **Azam** c Phillips b Bracewell 10 (23b 1x4 0x6 47m) SR: 43.47
+Henry to Babar **Azam**, 1 run
+O'Rourke to Babar **Azam**, 1 wide
 
 Commentary 5:
-[CONDITION] 6:52pm: Sran, the debutant, made early incisions to dismiss the openers, but centuries from **Smith** and Bailey helped Australia marmalise the chase. Bailey, who was let-off on his first ball, combined well with **Smith**, as they repaired the damage with risk-free batting. The pair then hit the accelerator and did not take their foot off it on a batting-friendly pitch.
-India's bowlers had fared well in the early exchanges before fading away in the face of the Bailey-**Smith** double-century stand. Sran showed off his range with some floaty bouncers, back-of-the-hand slower balls, but Ashwin and Jadeja lacked penetration.
-Steven **Smith** is the Man of the Match.
-[DISMISSAL] Barinder Sran to **Smith**, OUT
-[SHOT] **Smith** falls one short of 150. Sran tricks **Smith** with a slower ball outside off. He is early into the drive and spoons it into the lap of Kohli at short cover
-[DISMISSAL] Steven **Smith** c Kohli b Sran 149 (135b 11x4 2x6 179m) SR: 110.37
-full and on middle, **Smith**, who was deep in the crease, whips to deep midwicket
-Bhuvneshwar to **Smith**, 1 run
-Bhuvneshwar to **Smith**, no run
-[SHOT] back of a length, extra bounce outside off. Cut and a miss. **Smith** is frustrated
-**Smith** hangs back, then shuffles across and clips it behind square
-full and on off, whipped down to long-on. **Smith** wants two but has to settle with one
-[SHOT] pushed through from round the stumps, **Smith** targets the leg side and nearly pops a return catch off a leading edge
-[SHOT] Barinder Sran to **Smith**, FOUR runs
-[SHOT] full and width outside off, laced past backward point for another four. And **Smith** has a word with a debutant
-[SHOT] dug in outside off at 118ks, **Smith** hangs back, waits for it to arrive and pulls to deep midwicket
-Barinder Sran to **Smith**, 1 wide
-bouncer outside off, slower loopy one. **Smith** drops his hands on it. Wide
-**Smith** goes low and laps this off-stump ball towards fine leg
-[SHOT] short and width outside off, **Smith** now employs a cut and sends it past backward point
-back of a length, **Smith** shuffles across and lobs the ball in front of midwicket
-[SHOT] **Smith** beats mid-on to his left again! Banged in short and outside off, **Smith** loads up and swings it away for four! He reaches his career-best ODI score now
-[SHOT] back of a length, **Smith** jumps outside leg again. He swings hard and gets a thick inside edge that runs away past the leg stump for the third four of the over. Looks like Australia have kicked into a higher gear
-**Smith** makes room outside leg, the bowler goes full on middle, drilled down the ground. Ashwin dives to his left at mid-on. The effort ends in vain
-back of a length and on off, **Smith** gets forward and across as he pushes it to mid-on
-**Smith** brings up a century of his own. He raises his bat and is embraced by his partner. Pitched up on off, the skip skips across off and clips it fine on the leg side
-back of a length and on off, **Smith** hangs back and glides a single down to third man
-Bhuvneshwar to **Smith**, 2 runs
-full and on off, **Smith** shuffles across and whips through backward square leg for only one. No back up for the throw, sloppy stuff for India. They get two
-[SHOT] Bhuvneshwar to **Smith**, FOUR runs
-[SHOT] dug in short, **Smith** is quick to latch onto the pull, pulling behind square, beating Umesh in the deep
-[SHOT] back of a length, **Smith** aims to clip it away to the leg side but only manages an inside edge
-Thanks, George, and I'm back. Can India comeback, though? Bailey's century has put Australia on course. **Smith** is closing in on a century of his own. Here is Bhuvneshwar
-a real effort ball, the bouncer climbs on **Smith** who lean back and tries to ramp it over the keeper, he misses
-[QUOTE] Matt: "@Greyman: The excitement around **Smith**'s bowling came when he took a Sheffield Shield 7-fer very early in his career, when he had a batting average in the 20s. That, and he is a leg-spinner with wild blonde hair."
-[SHOT] a fullish ball on the pads, **Smith** moves across his stumps and flicks the ball through square leg
-[QUOTE] Greyman: "It is a fallacy that Steve **Smith** was a spinner who developed into a batter. From a teenager he was always a batting allrounder. Sure he has developed in recent years but he was always primarily a batter."
-Jadeja to **Smith**, 2 runs
-[SHOT] short ball, on leg stump too, **Smith** stays back and pulls the ball behind square, poor line, poor length
-[QUOTE] Gautham: "@Krish: And that's mainly coz **Smith** started to blossom late. The majority of his initial matches were played as a leg spinner who was handy with the bat at the near tail end of the order. Not a top order batsman who could score tons of runs!"
-[SHOT] Pradeep: "Just 3 fours and a six, but **smith** has strike rate of over 100, this is class batting. I know Indians don't rate taking singles too highly but it works efficiently"
-[SHOT] normal service resumes, short and wide outside off, **Smith** goes back and cuts through cover and finds the gap on the boundary
-[SHOT] it's all happening now! The paddle sweep results in a top edge, but it falls short of short fine leg. The fielder rips the throw to Dhoni who lets the ball go through between his legs and hit the stumps. He was standing in front of the stumps. **Smith** was easily safe though
-[QUOTE] Krish: "Just observed that, **Smith** and Bailey have played almost the same number of matches, but Bailey has got over 500 runs more than **Smith** at a better average and strike rate. Highly under rated Bailey. The smiling assassin ;-)"
-a half-volley on the pads, **Smith** whips from his crease, sending the ball skidding across the grass to deep square leg
-[SHOT] good length just outside off, **Smith** goes back and defends towards cover
-short of a length outside off, **Smith** moves back and steers the ball behind point
-[SHOT] Ashwin to **Smith**, SIX runs
-[SHOT] and it gets better for Australia! **Smith** charges, gets to the pitch of the ball and lofts dead straight, that's behind the sightscreen
-[SHOT] huge over for Australia, short and wide outside off, **Smith** goes back and cuts hard, in front of point this time for four, Ashwin looks so helpless here
-[DISMISSAL] **Smith** steps out and flicks the ball off his pads through square leg
-pushed with soft hands through cover and **Smith** raises his bat for a half-century
-dabbed off the front foot behind point, Bailey hesitates but **Smith** calls him through
-[SHOT] short and wide outside off, no turn, **Smith** waits on the back foot and cuts late and cuts hard, beats point to his left for four
-[SHOT] back of a length and on off, **Smith** gets behind the line and blocks to cover
-[SHOT] full and heading down leg, beating **Smith**'s flick. Another wide
-[SHOT] **Smith** shuffles across off even before Umesh delivers. Pulls this short ball from outside off down to long leg
-dug in short on off, **Smith** stands tall and forces it down to long-on
-back of a length and on off, Bailey smartly drops it in front of point and calls **Smith** though for a quick, quick single
-[SHOT] **Smith** walks across the off stump and flicks it to long leg
-back of a length and on off, **Smith** hangs back and dabs towards point
-Rohit Sharma to **Smith**, 1 run
-[SHOT] dropped short on middle, **Smith** skips back and pulls to deep midwicket
-[SHOT] back of a length and on middle, **Smith** walks across off and flicks behind square
-Bhuvneshwar to **Smith**, 3 runs
-Bailey joins **Smith**
-[DISMISSAL] pitched up and angled away, **Smith** reaches out and plays away from the body. Driven to short cover
-Bhuvneshwar to **Smith**, 1 wide
-[SHOT] Manish dives to his left at short cover to intercept this drive from **Smith**
-**Smith** in at No.3
+Maphaka to Babar **Azam**, no run
+Fortuin to Babar **Azam**, 1 run
+Fortuin to Babar **Azam**, no run
+[SHOT] Maphaka to Babar **Azam**, FOUR runs
+Maphaka to Babar **Azam**, 1 wide
+[SHOT] Fortuin to Babar **Azam**, FOUR runs
+[QUOTE] RoSky: "Babar **Azam** needs only 70 more runs to become the fastest player to 6000 ODI runs."
+Maphaka to Babar **Azam**, 3 runs
+Maphaka to Babar **Azam**, 1 run
+Rabada to Babar **Azam**, 1 run
+Rabada to Babar **Azam**, no run
+[SHOT] Rabada to Babar **Azam**, FOUR runs
+Jansen to Babar **Azam**, 1 run
+Jansen to Babar **Azam**, no run
 
 ---
 Please produce your integrated analysis with step-by-step reasoning as described,

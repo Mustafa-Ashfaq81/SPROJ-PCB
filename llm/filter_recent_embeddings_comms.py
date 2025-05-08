@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 filter_recent_embeddings_comms.py
-=================================
+================================
 
 Same purpose as before, but now:
 • Embedding templates focus on batter-dismissal context
@@ -24,6 +24,7 @@ import re
 import sys
 import time
 import threading
+import shutil
 from calendar import month_abbr, month_name
 from datetime import datetime
 from typing import List, Optional, Tuple
@@ -79,13 +80,26 @@ def camel_to_spaced(name: str) -> str:
 
 
 def name_variants(player_name: str) -> List[str]:
-    spaced = camel_to_spaced(player_name).lower()
-    nospc = spaced.replace(" ", "")
-    last = spaced.split()[-1]
+    """
+    Given a CamelCase name like "BabarAzam" or "StevenSmith",
+    returns four regex‐strings (to be compiled CI):
+      1) full name with space:   \bBabar Azam\b
+      2) concatenated name:       \bBabarAzam\b
+      3) last name only:          \bAzam\b
+      4) first name only:         \bBabar\b
+    """
+    # Turn CamelCase into “First Last”
+    spaced = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', player_name).strip()
+    nospc  = spaced.replace(' ', '')
+    parts  = spaced.split()
+    first  = parts[0]
+    last   = parts[-1]
+
     return [
-        rf"\b{re.escape(spaced)}\b",
-        rf"\b{re.escape(nospc)}\b",
-        rf"\b{re.escape(last)}\b",
+        rf"\b{re.escape(spaced)}\b",  # full name
+        rf"\b{re.escape(nospc)}\b",   # concatenated
+        rf"\b{re.escape(last)}\b",    # last only
+        rf"\b{re.escape(first)}\b",   # first only
     ]
 
 
@@ -175,45 +189,62 @@ DISMISSAL_PAT = re.compile(
     r"\b(b |c |lbw|bowled|stumped|run ?out)\b", flags=re.IGNORECASE
 )
 
-
 def build_category_vecs(player: str) -> List[List[float]]:
     lines = [t.format(PLAYER=player) for t in CAT_TEMPLS]
     debug("Embedding category reference vectors …")
     return embed_texts(lines)
 
-
-def keep_line(line: str, vec: List[float], cat_vecs: List[List[float]], player: str) -> bool:
+def keep_line(
+    line: str,
+    vec: List[float],
+    cat_vecs: List[List[float]],
+    name_regexes: List[re.Pattern],
+) -> bool:
+    """
+    Returns True if this line MUST be kept:
+      a) It matches any of the name_regexes (first/full/concat/last)
+      b) Or it contains one of your key_phrases
+      c) Or its embedding is semantically similar
+    """
     low = line.lower()
 
-    # Always retain if player explicitly mentioned
-    if player.lower() not in low and not re.search(r"\bsmith\b", low):
+    # a) Always keep if *any* name‐variant regex matches
+    if not any(rx.search(low) for rx in name_regexes):
         return False
 
+    # b) Key‐phrase check (unchanged)
     key_phrases = [
-        # Technical shot/dismissal info
-        "bowled", "lbw", "caught", "stumped", "run out", "edged", "beaten", "nick", "inside edge",
-        "outside edge", "leading edge", "swing", "spin", "bounce", "footwork", "aggressive", 
-        "drives", "pulls", "hooks", "slogs", "reverse", "charges", "flick", "defends", "blocks",
-        "top edge", "bottom edge", "lofted", "stepped out", "backs away", "rushed", "misjudged",
-
-        # Pitch/weather/condition info (added)
-        "pitch", "conditions", "surface", "weather", "dew", "grip", "slow", "dry", "turn", "moisture", 
-        "two-paced", "holding up", "bouncy", "overcast", "green top", "spin-friendly", 
+        "bowled", "lbw", "caught", "stumped", "run out",
+        "edged", "beaten", "nick", "inside edge", "outside edge",
+        "leading edge", "swing", "spin", "bounce", "footwork",
+        "aggressive", "drives", "pulls", "hooks", "slogs", "reverse",
+        "charges", "flick", "defends", "blocks", "top edge",
+        "bottom edge", "lofted", "stepped out", "backs away",
+        "rushed", "misjudged",
+        # pitch/weather
+        "pitch", "conditions", "surface", "weather", "dew", "grip",
+        "slow", "dry", "turn", "moisture", "two-paced", "holding up",
+        "bouncy", "overcast", "green top", "spin-friendly",
         "low bounce", "sticky", "outfield"
     ]
-
     if any(p in low for p in key_phrases):
         return True
 
-    # Semantic similarity fallback
+    # c) Semantic‐similarity fallback (unchanged)
     return any(cosine(vec, cat) >= THRESH for cat in cat_vecs)
-
 
 # ───────── filter_file with ±WINDOW context (UPDATED) ─────────
 WINDOW = 5   # lines of context before & after every kept line
 
-
-def filter_file(path: str, player: str, cat_vecs: List[List[float]]) -> List[str]:
+def filter_file(
+    path: str,
+    name_regexes: List[re.Pattern],
+    cat_vecs: List[List[float]],
+) -> List[str]:
+    """
+    Reads the raw commentary file, batches through embeddings,
+    and uses keep_line() with name_regexes instead of a fixed player string.
+    """
     with open(path, encoding="utf-8") as fh:
         lines = [ln.rstrip("\n") for ln in fh]
 
@@ -223,13 +254,12 @@ def filter_file(path: str, player: str, cat_vecs: List[List[float]]) -> List[str
         chunk = lines[i : i + BATCH]
         vecs = embed_texts(chunk)
         for off, (ln, vec) in enumerate(zip(chunk, vecs)):
-            if keep_line(ln, vec, cat_vecs, player):
+            if keep_line(ln, vec, cat_vecs, name_regexes):
                 idx = i + off
                 for j in range(max(0, idx - WINDOW), min(len(lines), idx + WINDOW + 1)):
                     keep_mask[j] = True
 
     return [ln for ln, keep in zip(lines, keep_mask) if keep]
-
 
 def clean_filtered_commentary(raw_text: str, player_name: str) -> str:
     last = player_name.split()[-1].lower()
@@ -285,6 +315,7 @@ def clean_filtered_commentary(raw_text: str, player_name: str) -> str:
 
     return "\n\n".join(out).strip()
 
+
 # ─────────────────────────────── main ─────────────────────────
 def main() -> None:
     load_dotenv()
@@ -311,6 +342,10 @@ def main() -> None:
     ap.add_argument("--venue_ground")
     ap.add_argument("--venue_dir")
     args = ap.parse_args()
+
+    # Build and compile all four name‐variant patterns, CI
+    raw_patterns = name_variants(args.player_name)
+    name_regexes = [re.compile(pat, re.IGNORECASE) for pat in raw_patterns]
 
     raw_dir = args.base_dir
     if not os.path.isdir(raw_dir):
@@ -340,14 +375,37 @@ def main() -> None:
         print("   ", p)
 
     os.makedirs(args.output_dir, exist_ok=True)
+
+    # ───── Enhancement: versioned filenames based on match IDs ─────
+    match_ids: List[str] = []
+    for path in chosen:
+        fn = os.path.basename(path)
+        m = FILE_RE.match(fn)
+        if m:
+            match_ids.append(m.group("mid"))
+
+    base = f"filtered_commentaries_{args.player_name.replace(' ', '')}_{primary_team}_{len(chosen)}"
+    versioned_name = base + "_" + "_".join(match_ids) + ".txt"
+    canonical_name = base + ".txt"
+    versioned_path = os.path.join(args.output_dir, versioned_name)
+    canonical_path = os.path.join(args.output_dir, canonical_name)
+
+    if os.path.exists(versioned_path):
+        print(f"[INFO] Reusing existing filtered file {versioned_name}")
+        shutil.copyfile(versioned_path, canonical_path)
+        sys.exit(0)
+
     cat_vecs = build_category_vecs(args.player_name)
 
-    # ───── PROCESS EACH FILE IN PARALLEL ─────
     def _worker(idx_path):
+        """
+        ThreadPool worker: filters one file using name_regexes
+        """
         idx, path = idx_path
         debug(f"Filtering {path}")
-        kept = filter_file(path, args.player_name, cat_vecs)
+        kept = filter_file(path, name_regexes, cat_vecs)
         return idx, f"Commentary {idx}:\n" + "\n".join(kept)
+
 
     max_workers = min(len(chosen), os.cpu_count() or 4)
     futures: List[cf.Future] = []
@@ -365,15 +423,14 @@ def main() -> None:
     merged_text = "\n".join(ordered_blocks)
     cleaned_text = clean_filtered_commentary(merged_text.strip(), camel_to_spaced(args.player_name))
 
-    out_name = (
-        f"filtered_commentaries_{args.player_name.replace(' ', '')}_"
-        f"{primary_team}_{len(chosen)}.txt"
-    )
-    out_path = os.path.join(args.output_dir, out_name)
-    with open(out_path, "w", encoding="utf-8") as fh:
+    # write versioned file
+    with open(versioned_path, "w", encoding="utf-8") as fh:
         fh.write(cleaned_text)
+    print(f"\n[INFO] Filtered commentary saved to {versioned_path}\n")
 
-    print(f"\n[INFO] Filtered commentary saved to {out_path}\n")
+    # also copy to canonical filename for downstream pipeline
+    shutil.copyfile(versioned_path, canonical_path)
+    print(f"[INFO] Also copied to canonical name: {canonical_name}\n")
 
     # ───── Cost reporting ─────
     print(f"[INFO] Total tokens used: {_total_tokens_used}")
