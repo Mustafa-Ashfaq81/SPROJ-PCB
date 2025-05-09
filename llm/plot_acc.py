@@ -197,7 +197,7 @@ def save_errorbar(col_acc: str, out_path: str, title: str):
     for bar, low, high in zip(bars, summary["ci_low"], summary["ci_high"]):
         height = bar.get_height()
         ax.text(bar.get_x() + bar.get_width() / 2, height + 2,
-                f"[{low:.1f}, {high:.1f}]%", ha='center', va='bottom', fontsize=9)
+                f"  [{low:.1f}, {high:.1f}]%", ha='center', va='bottom', fontsize=9)
 
     ax.set_ylabel("Accuracy (%)")
     ax.set_title(title + " (95% Wilson CI with bounds)")
