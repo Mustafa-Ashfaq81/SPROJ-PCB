@@ -3,8 +3,7 @@ import json
 import re
 import openai
 
-# --- 1: Setup OpenAI credentials ---
-openai.api_key = os.getenv("OPENAI_API_KEY")  # Make sure your env is set OR just paste your key
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def get_corrected_series_name_llm(series_name, date, venue):
     """

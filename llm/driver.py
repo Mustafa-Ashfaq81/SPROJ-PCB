@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 driver.py
 
@@ -57,7 +56,6 @@ import logging
 import openai
 from datetime import datetime
 from dateutil.parser import parse
-import sys
 
 # We use dotenv to load OPENAI_API_KEY from .env if present
 from dotenv import load_dotenv
@@ -75,7 +73,6 @@ def run_subprocess(cmd):
 
     logging.info(f"Running command: {cmd}")
 
-    # 1) Force unbuffered (-u) if command starts with 'python'
     if isinstance(cmd, str):
         parts = shlex.split(cmd)
     else:
@@ -121,11 +118,10 @@ def load_json_file(filepath):
         logging.warning(f"Could not parse JSON from {filepath}: {e}")
         return {}
 
-def call_llm_api(master_prompt_text, api_key=None):
+def call_llm_api(master_prompt_text, api_key=None, model_name="gpt-4o-mini"):
     """
-    Real LLM API call using openai.ChatCompletion (like filter_comms.py).
-    If api_key is None or empty, we log a warning and return a fallback text.
-    Otherwise, we do a ChatCompletion call with model="o3-mini" or similar.
+    Calls OpenAI's ChatCompletion API with cost and token logging support
+    for multiple models. Saves logs to CSV.
     """
     if not api_key:
         logging.warning("[WARNING] OPENAI_API_KEY not found. Returning fallback LLM text.")
@@ -138,10 +134,51 @@ def call_llm_api(master_prompt_text, api_key=None):
 
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-4o-mini",
+            model=model_name,
             messages=[{"role": "user", "content": master_prompt_text}],
         )
         final_text = response["choices"][0]["message"]["content"]
+
+        usage = response["usage"]
+        prompt_tokens = usage.get("prompt_tokens", 0)
+        completion_tokens = usage.get("completion_tokens", 0)
+        total_tokens = usage.get("total_tokens", 0)
+
+        # Cost per 1K tokens in USD
+        model_prices = {
+            "gpt-4o-mini":      {"prompt": 0.003,  "completion": 0.009},
+            "gpt-4.1-nano":     {"prompt": 0.001,  "completion": 0.002},
+            "gpt-4.1-mini":     {"prompt": 0.003,  "completion": 0.009},
+            "gpt-4.1":          {"prompt": 0.03,   "completion": 0.06},
+            "gpt-4o":           {"prompt": 0.005,  "completion": 0.015},
+            "o3-mini":          {"prompt": 0.003,  "completion": 0.009},
+            "o3":               {"prompt": 0.01,   "completion": 0.03},
+            "o4-mini":          {"prompt": 0.004,  "completion": 0.012}
+        }
+
+        model_key = model_name.lower()
+        price = model_prices.get(model_key, {"prompt": 0.0, "completion": 0.0})
+
+        cost = (prompt_tokens / 1000) * price["prompt"] + (completion_tokens / 1000) * price["completion"]
+
+        logging.info(f"Model Used: {model_name}")
+        logging.info(f"Prompt Tokens: {prompt_tokens}")
+        logging.info(f"Completion Tokens: {completion_tokens}")
+        logging.info(f"Total Tokens: {total_tokens}")
+        logging.info(f"Estimated Cost (USD): ${cost:.6f}")
+
+        # Write to CSV
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        log_line = f"{timestamp},{model_name},{prompt_tokens},{completion_tokens},{total_tokens},{cost:.6f}\n"
+
+        log_path = os.path.join(os.path.dirname(__file__), "openai_api_usage_log.csv")
+        write_header = not os.path.exists(log_path)
+
+        with open(log_path, "a", encoding="utf-8") as f:
+            if write_header:
+                f.write("timestamp,model,prompt_tokens,completion_tokens,total_tokens,cost_usd\n")
+            f.write(log_line)
+
     except Exception as e:
         logging.warning(f"[WARNING] LLM call failed: {e}")
         final_text = (
@@ -153,10 +190,7 @@ def call_llm_api(master_prompt_text, api_key=None):
 
 def parse_llm_analysis(llm_text: str, player_name: str):
     """
-    Parse the LLM's answer and return:
-        prob_map ........ dict {label → float %}
-        pred_mode ....... string (from the “most likely …” sentence or "")
-        reasoning ....... string (everything before “probability breakdown”)
+    Parse the LLM's answer
     The 8 canonical labels are fixed; any missing entry gets 0 %.
     """
 
@@ -222,7 +256,6 @@ def parse_llm_analysis(llm_text: str, player_name: str):
         if mode_key:
             prob_map[mode_key] = pct_val
 
-    # ---------- predicted mode from narrative sentence ----------
     pm = pred_sentence.search(llm_text)
     predicted_mode = ""
     if pm:
@@ -283,15 +316,12 @@ def main():
     parser.add_argument("--is_batsman", default="True", choices=["True", "False"],
                         help="Whether the player is batting (for filter_comms). Default True.")
 
-    # MODIFICATION #2: Add ground_truth argument
     parser.add_argument("--ground_truth", default="N/A",
                         help="(Optional) Provide the ground truth mode of dismissal, e.g. 'Caught-Fielder'")
 
-    # ----------- NEW ARGS (needed for filter_comms.py) -----------
     parser.add_argument("--venue_country", required=True, help="Country filter for venuewise commentary")
     parser.add_argument("--venue_ground", default="", help="Ground filter for venuewise commentary")
 
-    # ----------- NEW COMPONENT TOGGLE ARGS -----------
     parser.add_argument("--include_general_stats", default="True", choices=["True", "False"],
                         help="Include General Stats section in master prompt. Default True.")
     parser.add_argument("--include_venue_stats", default="True", choices=["True", "False"],
@@ -351,7 +381,7 @@ def main():
     general_stats = load_json_file(general_stats_path)
 
     raw_span = general_stats.get("span", "Unknown")
-    train_data_span = raw_span.replace(" ", "").replace("–", "-").replace("--", "-")
+    train_data_span = raw_span.replace(" ", "").replace("–", "-").replace("--", "-") # this is done for unicode characters in the LLM response, later used for parsing
 
     # 2) Run get_player_stats_venuewise.py
     logging.info("Running get_player_stats_venuewise.py ...")
@@ -485,7 +515,6 @@ def main():
     # 5) Build MASTER PROMPT
     logging.info("Building MASTER PROMPT ...")
 
-    # ----- Prompt header through formatting requirements -----
     master_prompt_header = f"""\
 ## **Prompt Title**  
 **Cricket Dismissal Prediction for {player_name}: Balancing Commentary and Statistical Data**
@@ -660,7 +689,7 @@ and then follow the **Exact Output Formatting Requirements** above.
         llm_response_text, player_name
     )
 
-    # Sort descending by probability
+    # sort descending by probability
     sorted_items = sorted(prob_map.items(), key=lambda kv: kv[1], reverse=True)
 
     prob_str   = ", ".join(
@@ -668,7 +697,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     )
     label_str  = ", ".join(lbl for lbl, _ in sorted_items)
 
-    # Ensure “most_likely_mode” == top label (unless all zeros)
+    # ensure “most_likely_mode” == top label (unless all zeros)
     top_label = sorted_items[0][0] if sorted_items and sorted_items[0][1] > 0 else "N/A"
     if not narrative_mode or narrative_mode.lower() != top_label.lower():
         logging.warning(

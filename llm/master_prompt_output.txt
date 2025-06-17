@@ -11,7 +11,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 ## **Instructional Outline**
 
 1. **Objective**  
-   - **Match**: Sri Lanka vs Pakistan 12th Match Group B at Cardiff Jun 12 2017
+   - **Match**: Pakistan vs India 5th Match Group A at Dubai Champions Trophy Feb 23 2025
    - **Primary Task**: Predict the most probable mode of dismissal for Babar Azam in this match.  
    - **Key Emphasis**: Pay special attention to: 
         1. **Venue Stats of Babar Azam (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
@@ -23,9 +23,9 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **A. General Career Stats (JSON Files)**  
      • Career-long batting averages, strike rates, typical modes of dismissal.  
    - **B. Venue-Wise Stats (JSON Files)**  
-     • Venue splits (e.g. performance in England), Bowled/Caught/… rates.  
+     • Venue splits (e.g. performance in United Arab Emirates), Bowled/Caught/… rates.  
    - **C. Opponent-Wise Stats (JSON Files)**  
-     • Performance vs Sri Lanka, specific dismissal breakdown.  
+     • Performance vs India, specific dismissal breakdown.  
    - **D. Recent Match Commentary (if available)**  
      • Ball-by-ball notes, pitch conditions, quotes, and dismissal events.
 
@@ -76,27 +76,167 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 ---
 
 ## ** General Stats Data of Babar Azam: **
-{General Stats Not Available}
+{
+    "player": "Babar Azam",
+    "team": "Pakistan",
+    "span": "2020 - 2025",
+    "matches_played": 54,
+    "batting_innings": 53,
+    "bowling_innings": 54,
+    "fielding_innings": 54,
+    "batting": {
+        "Runs": 2747,
+        "Balls Faced": 3088,
+        "Fours": 276,
+        "Sixes": 32,
+        "Strike Rate": 88.96,
+        "Dismissals": 48,
+        "Not Outs": 5,
+        "Batting Average": 57.23
+    },
+    "bowling": {
+        "Overs": 0.0,
+        "Maidens": 0,
+        "Runs Conceded": 0,
+        "Wickets": 0,
+        "Economy Rate": null,
+        "Bowling Average": null,
+        "Dots": 0,
+        "Fours": 0,
+        "Sixes": 0,
+        "Wides": 0,
+        "No Balls": 0,
+        "Boundary Runs Conceded": 0,
+        "Bowling Strike Rate": null,
+        "Dot Ball Percentage": null,
+        "3wHauls": 0,
+        "4wHauls": 0,
+        "5wHauls": 0,
+        "Best Bowling Figures": null
+    },
+    "fielding": {
+        "Catches": 16,
+        "Stumpings": 0,
+        "Run Outs": 1
+    },
+    "dismissals": [
+        {
+            "Bowler Type": "Right arm Pace",
+            "Span": "2020 - 2025",
+            "Dis": 22,
+            "bowled": 4,
+            "caught-fielder": 11,
+            "caught wk": 5,
+            "stump": 0,
+            "lbw": 2,
+            "hit wicket": 0,
+            "caught and bowled": 0
+        },
+        {
+            "Bowler Type": "Right arm Spin",
+            "Span": "2020 - 2025",
+            "Dis": 15,
+            "bowled": 1,
+            "caught-fielder": 6,
+            "caught wk": 1,
+            "stump": 3,
+            "lbw": 3,
+            "hit wicket": 0,
+            "caught and bowled": 1
+        },
+        {
+            "Bowler Type": "Left arm Pace",
+            "Span": "2020 - 2025",
+            "Dis": 3,
+            "bowled": 0,
+            "caught-fielder": 2,
+            "caught wk": 1,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0
+        },
+        {
+            "Bowler Type": "Left arm Spin",
+            "Span": "2020 - 2025",
+            "Dis": 5,
+            "bowled": 0,
+            "caught-fielder": 2,
+            "caught wk": 1,
+            "stump": 1,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 1
+        },
+        {
+            "Bowler Type": "Unknown",
+            "Span": "2020 - 2025",
+            "Dis": 3,
+            "bowled": 0,
+            "caught-fielder": 1,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 1
+        }
+    ],
+    "bowling_vs_batting_type": {
+        "Right Handed": {
+            "wickets": 0,
+            "bowled": 0,
+            "caught-fielder": 0,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        },
+        "Left Handed": {
+            "wickets": 0,
+            "bowled": 0,
+            "caught-fielder": 0,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        },
+        "Unknown": {
+            "wickets": 0,
+            "bowled": 0,
+            "caught-fielder": 0,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        }
+    }
+}
 
 ---
 
-## **Venue Wise Stats Data of Babar Azam in England:**
+## **Venue Wise Stats Data of Babar Azam in United Arab Emirates:**
 {
-    "England": {
-        "span": "2016 - 2017",
-        "matches_played": 8,
-        "batting_innings": 8,
-        "bowling_innings": 8,
-        "fielding_innings": 8,
+    "United Arab Emirates": {
+        "span": "2025 - 2025",
+        "matches_played": 1,
+        "batting_innings": 1,
+        "bowling_innings": 1,
+        "fielding_innings": 1,
         "batting": {
-            "Runs": 171,
-            "Balls Faced": 225,
-            "Fours": 21,
+            "Runs": 23,
+            "Balls Faced": 26,
+            "Fours": 5,
             "Sixes": 0,
-            "Strike Rate": 76.0,
-            "Dismissals": 7,
-            "Not Outs": 1,
-            "Batting Average": 24.43
+            "Strike Rate": 88.46,
+            "Dismissals": 1,
+            "Not Outs": 0,
+            "Batting Average": 23.0
         },
         "bowling": {
             "Overs": 0.0,
@@ -119,18 +259,18 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             "Best Bowling Figures": null
         },
         "fielding": {
-            "Catches": 4,
+            "Catches": 0,
             "Stumpings": 0,
             "Run Outs": 0
         },
         "dismissals": [
             {
                 "Bowler Type": "Right arm Pace",
-                "Span": "2016 - 2017",
-                "Dis": 5,
-                "bowled": 2,
-                "caught-fielder": 3,
-                "caught wk": 0,
+                "Span": "2025 - 2025",
+                "Dis": 1,
+                "bowled": 0,
+                "caught-fielder": 0,
+                "caught wk": 1,
                 "stump": 0,
                 "lbw": 0,
                 "hit wicket": 0,
@@ -138,19 +278,19 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Right arm Spin",
-                "Span": "2016 - 2017",
-                "Dis": 2,
+                "Span": "2025 - 2025",
+                "Dis": 0,
                 "bowled": 0,
-                "caught-fielder": 1,
+                "caught-fielder": 0,
                 "caught wk": 0,
                 "stump": 0,
-                "lbw": 1,
+                "lbw": 0,
                 "hit wicket": 0,
                 "caught and bowled": 0
             },
             {
                 "Bowler Type": "Left arm Pace",
-                "Span": "2016 - 2017",
+                "Span": "2025 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -162,7 +302,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Spin",
-                "Span": "2016 - 2017",
+                "Span": "2025 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -174,7 +314,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Unknown",
-                "Span": "2016 - 2017",
+                "Span": "2025 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -225,23 +365,23 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ---
 
-## **Against Teams Stats Data of Babar Azam against Sri Lanka:**
+## **Against Teams Stats Data of Babar Azam against India:**
 {
-    "Sri Lanka": {
-        "span": "2015 - 2017",
-        "matches_played": 3,
+    "India": {
+        "span": "2023 - 2025",
+        "matches_played": 4,
         "batting_innings": 3,
-        "bowling_innings": 3,
-        "fielding_innings": 3,
+        "bowling_innings": 4,
+        "fielding_innings": 4,
         "batting": {
-            "Runs": 47,
-            "Balls Faced": 67,
-            "Fours": 5,
+            "Runs": 83,
+            "Balls Faced": 108,
+            "Fours": 14,
             "Sixes": 0,
-            "Strike Rate": 70.15,
+            "Strike Rate": 76.85,
             "Dismissals": 3,
             "Not Outs": 0,
-            "Batting Average": 15.67
+            "Batting Average": 27.67
         },
         "bowling": {
             "Overs": 0.0,
@@ -264,18 +404,18 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             "Best Bowling Figures": null
         },
         "fielding": {
-            "Catches": 2,
+            "Catches": 1,
             "Stumpings": 0,
             "Run Outs": 0
         },
         "dismissals": [
             {
                 "Bowler Type": "Right arm Pace",
-                "Span": "2015 - 2017",
-                "Dis": 1,
-                "bowled": 0,
-                "caught-fielder": 1,
-                "caught wk": 0,
+                "Span": "2023 - 2025",
+                "Dis": 3,
+                "bowled": 2,
+                "caught-fielder": 0,
+                "caught wk": 1,
                 "stump": 0,
                 "lbw": 0,
                 "hit wicket": 0,
@@ -283,19 +423,19 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Right arm Spin",
-                "Span": "2015 - 2017",
-                "Dis": 1,
+                "Span": "2023 - 2025",
+                "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
                 "caught wk": 0,
                 "stump": 0,
-                "lbw": 1,
+                "lbw": 0,
                 "hit wicket": 0,
                 "caught and bowled": 0
             },
             {
                 "Bowler Type": "Left arm Pace",
-                "Span": "2015 - 2017",
+                "Span": "2023 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -307,9 +447,9 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Spin",
-                "Span": "2015 - 2017",
-                "Dis": 1,
-                "bowled": 1,
+                "Span": "2023 - 2025",
+                "Dis": 0,
+                "bowled": 0,
                 "caught-fielder": 0,
                 "caught wk": 0,
                 "stump": 0,
@@ -319,7 +459,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Unknown",
-                "Span": "2015 - 2017",
+                "Span": "2023 - 2025",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -372,118 +512,71 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ## **Commentary Data (for k recent matches prior to the predicted match) of Babar Azam to get a concrete idea of the recent form and the modes of dismissals of Babar Azam. This is very crucial to analyse for this task. :**
 Commentary 1:
-[SHOT] Rabada to Babar **Azam**, FOUR runs
-Rabada to Babar **Azam**, no run
-Rabada to Babar **Azam**, (no ball)
-[SHOT] Morkel to Babar **Azam**, FOUR runs
-Parnell to Babar **Azam**, no run
-Tahir to Babar **Azam**, no run
-[SHOT] Morris to Babar **Azam**, FOUR runs
-Morris to Babar **Azam**, no run
-Morris to Babar **Azam**, 2 runs
-Tahir to Babar **Azam**, 1 run
-Morris to Babar **Azam**, 1 run
-Morkel to Babar **Azam**, no run
-Morkel to Babar **Azam**, 1 run
-Babar **Azam** is in at No. 3.
+[DISMISSAL] Santner to Babar **Azam**, OUT
+[DISMISSAL] Babar **Azam** c Williamson b Santner 64 (90b 6x4 1x6 136m) SR: 71.11
+Santner to Babar **Azam**, no run
+[SHOT] Santner to Babar **Azam**, FOUR runs
+Smith to Babar **Azam**, 1 run
+[SHOT] Smith to Babar **Azam**, SIX runs
+Santner to Babar **Azam**, 1 run
+Santner to Babar **Azam**, 2 runs
+Phillips to Babar **Azam**, no run
+Phillips to Babar **Azam**, 1 run
+Michael Bracewell to Babar **Azam**, no run
+Michael Bracewell to Babar **Azam**, 2 runs
+[SHOT] Phillips to Babar **Azam**, FOUR runs
+[SHOT] O'Rourke to Babar **Azam**, FOUR runs
+O'Rourke to Babar **Azam**, no run
+Michael Bracewell to Babar **Azam**, 1 run
+O'Rourke to Babar **Azam**, 1 run
+Henry to Babar **Azam**, no run
+[SHOT] Henry to Babar **Azam**, FOUR runs
 
 Commentary 2:
-[DISMISSAL] Umesh Yadav to Babar **Azam**, OUT
-[DISMISSAL] Babar **Azam** c Jadeja b Yadav 8 (12b 1x4 0x6 15m) SR: 66.66
-[SHOT] Umesh Yadav to Babar **Azam**, FOUR runs
-Bumrah to Babar **Azam**, 1 run
-Bumrah to Babar **Azam**, 2 runs
-Bumrah to Babar **Azam**, no run
-Umesh Yadav to Babar **Azam**, no run
+[DISMISSAL] Smith to Babar **Azam**, OUT
+[DISMISSAL] Babar **Azam** c & b Smith 29 (34b 4x4 1x6 58m) SR: 85.29
+[SHOT] Smith to Babar **Azam**, FOUR runs
+Smith to Babar **Azam**, no run
+Michael Bracewell to Babar **Azam**, 1 wide
+[SHOT] Duffy to Babar **Azam**, FOUR runs
+Duffy to Babar **Azam**, no run
+[SHOT] Duffy to Babar **Azam**, SIX runs
+Duffy to Babar **Azam**, (no ball)
+Duffy to Babar **Azam**, 1 run
+Duffy to Babar **Azam**, 1 wide
 
 Commentary 3:
-[DISMISSAL] Gabriel to Babar **Azam**, OUT
-[DISMISSAL] Babar **Azam** b Gabriel 16 (22b 3x4 0x6) SR: 72.72
-Holder to Babar **Azam**, no run
-[SHOT] Holder to Babar **Azam**, FOUR runs
-[QUOTE] "In the midst of all the negative comments being published, let's praise Babar **Azam** here for playing ever so intelligently and beautifully." Well, let's just hope you haven't jinxed him, Muzzammil
-Gabriel to Babar **Azam**, 1 run
-Gabriel to Babar **Azam**, no run
-[SHOT] Gabriel to Babar **Azam**, FOUR runs
-Holder to Babar **Azam**, 1 run
-Gabriel to Babar **Azam**, 1 wide
+[DISMISSAL] 10.17pm A great, great chase. Pakistan looked down and out after the first half where tempers flared. South Africa rode on the 80s from Bavuma, Breetzke and Klaasen to post 352 for 5. Pakistan had never chased down these many. But Fakhar Zaman and Babar **Azam** set the platform by taking Pakistan to 50 in just 5.2 overs. The start they provided allowed Rizwan and Agha to take their time. Once set, there was no looking back. Agha was the aggressor, always keeping the asking rate in check. Rizwan played the anchor's role for most of their stand but he too opened up towards the end. Both brought up their hundreds, Agha's being his first in ODIs. The two added 260 in a record fourth-wicket stand for Pakistan. By the time there were 12 overs left, it was clear Pakistan were cruising. That showed where cricket has arrived today. Eventually, they reached their target with an over to spare.
+[DISMISSAL] Mulder to Babar **Azam**, OUT
+[DISMISSAL] Babar **Azam** lbw b Mulder 23 (19b 4x4 0x6 31m) SR: 121.05
+Corbin Bosch to Babar **Azam**, 1 run
+Corbin Bosch to Babar **Azam**, 1 wide
+Corbin Bosch to Babar **Azam**, no run
+Ngidi to Babar **Azam**, no run
+[SHOT] Ngidi to Babar **Azam**, FOUR runs
+Ngidi to Babar **Azam**, 2 runs
 
 Commentary 4:
-[SHOT] And that means **Azam** ends with a new career-best. Been a very fine innings, although we won't know the true value for a few hours yet. He's helped give Pakistan a decent target to defend even taking into account what happened in the first match. He and Imad Wasim added 99 in 11 overs to give a stalled innings a late turbo-charge. West Indie were very good for 40 overs, pretty poor for the final 10. But the chase will be well within their compass. It should be an interesting second half. Join us for that in half an hour
-[SHOT] Carter to Babar **Azam**, SIX runs
-[SHOT] what a way to finish! One of the shots of the innings to end the innings. A wonderful lofted straight drive from **Azam** - full of class - as Carter again serves up length
-Carter to Babar **Azam**, 1 run
-full and straight, **Azam** shuffles around his crease and then clips to deep midwicket
-[SHOT] Alzarri Joseph to Babar **Azam**, SIX runs
-and another! This time **Azam**...that was a length ball, gave him the chance to swing the line, takes it from around off stump and clears wide long-on. Lovely strike
-Alzarri Joseph to Babar **Azam**, 1 run
-Holder to Babar **Azam**, 2 runs
-short outside off, a cry of anguish from **Azam** as he just places it to backward point
-Alzarri Joseph to Babar **Azam**, 1 wide
-[SHOT] Alzarri Joseph to Babar **Azam**, (no ball) FOUR runs
-Nurse to Babar **Azam**, 1 run
-Nurse to Babar **Azam**, 1 bye
-[CONDITION] stumping chance! Lovely bowling by Nurse, dip and spin, defeats **Azam** as he comes down the pitch. There was extra bounce, too, which made it a tough take
-Nurse to Babar **Azam**, no run
-[SHOT] pushed down the leg side but it's a dot ball as **Azam** flicks to square leg
-back of a length at off stump, squares up **Azam** as he aims to the leg side
-Gabriel to Babar **Azam**, 2 runs
-Carter to Babar **Azam**, no run
-Nurse to Babar **Azam**, 2 runs
-Nurse to Babar **Azam**, 1 wide
-fired down the leg side, think that was tactical, trying for the stumping. **Azam** stayed in his crease
-full outside off, driven to cover who parries it away...hits the stumps with the return, but **Azam** is safe. Well, only just! He didn't ground his bat. Very lazy
-Nurse to Babar **Azam**, 2 leg byes
-Bishoo to Babar **Azam**, 2 runs
-[DISMISSAL] DanielAlexander: "Babar **Azam** and Kusal Mendis should bat at No 3 in ODIs, their game suits this position and brings the best out these two talented batsmen." Fair point. Which is unusual today! Far more used to splenetic points...
-Bishoo to Babar **Azam**, no run
-Bishoo to Babar **Azam**, 1 run
-[SHOT] Alzarri Joseph to Babar **Azam**, FOUR runs
-Alzarri Joseph to Babar **Azam**, no run
-lovely start! Beats the outside first ball as **Azam** prods forward. That gripped and spun
-adjusts his length, full outside off, dropped into the point area and that's a well-judged single. **Azam** has immediately brought urgency to the crease
-Holder to Babar **Azam**, 1 leg bye
-Gabriel to Babar **Azam**, 3 runs
-[SHOT] full and straight, a lovely piece of timing through the leg side as **Azam** flicks it through square leg. That zinged off the bat
-And it is Babar **Azam** at No. 3
-[QUOTE] Ikram: "I don't care what the situation will be if one of the openers fall, Babar should be the one down.If Hafeez comes first, Pakistan's immediate future is bleak because this will show their lack of vision and ability to learn from experience." Actual seems we could see Babar **Azam** at No. 3 today
+[DISMISSAL] Michael Bracewell to Babar **Azam**, OUT
+[DISMISSAL] Babar **Azam** c Phillips b Bracewell 10 (23b 1x4 0x6 47m) SR: 43.47
+Henry to Babar **Azam**, 1 run
+O'Rourke to Babar **Azam**, 1 wide
 
 Commentary 5:
-[DISMISSAL] Hazlewood to Babar **Azam**, OUT
-[DISMISSAL] Babar **Azam** c Head b Hazlewood 100 (109b 7x4 1x6 153m) SR: 91.74
-Hazlewood to Babar **Azam**, no run
-Faulkner to Babar **Azam**, 1 run
-[SHOT] Faulkner to Babar **Azam**, FOUR runs
-Faulkner to Babar **Azam**, no run
-Cummins to Babar **Azam**, no run
-Cummins to Babar **Azam**, 2 runs
-Ali: "Babar **Azam** is quite different in his approach from most of the recent Pakistani batsmen... he , like Sarfraz, doesnt try to go for big shots from start but builds his innings with more 1s and 2s rather playing a lot of dot balls..
-Cummins to Babar **Azam**, 1 wide
-Cummins to Babar **Azam**, 1 run
-Hazlewood to Babar **Azam**, 1 run
-Hazlewood to Babar **Azam**, 2 runs
-[SHOT] Hazlewood to Babar **Azam**, SIX runs
-Starc to Babar **Azam**, 1 run
-short on leg stump, **Azam** shuffles inside the line and just deflects the ball down to fine leg
-[SHOT] Starc to Babar **Azam**, FOUR runs
-[SHOT] full and outside off, **Azam** opens the face of the bat and drives it to the left of sweeper cover. Handscomb runs across and lets it the ball through to the boundary
-Zampa to Babar **Azam**, 1 run
-Zampa to Babar **Azam**, no run
-[SHOT] Zampa to Babar **Azam**, FOUR runs
-[DISMISSAL] might have been a googly, zips in, inside-edged onto the pad, **Azam** weathers the lbw appeal
-Starc to Babar **Azam**, no run
-quick lifter on the leg stump, **Azam** watches it carefully and ducks under it. Only nine off the last three overs. Sharjeel fell to the scoreboard pressure
-[SHOT] back of a length and wide outside off, **Azam** scythes a back-foot cut and finds point
-[SHOT] full on off, **Azam** hangs back, twirls his wrists and flicks smartly through midwicket
-[SHOT] dropped short and wide outside off, **Azam** is quick to rock back and cut to sweeper
-Head to Babar **Azam**, 1 run
-[SHOT] down the track, **Azam** gets close enough to the pitch and drives a single down to long-on
-shorter legbreak outside off, **Azam** moves back and punches it to the left of Zampa
-Zampa to Babar **Azam**, 2 runs
-[SHOT] Cummins to Babar **Azam**, FOUR runs
-Hazlewood to Babar **Azam**, 1 wide
-Hazlewood to Babar **Azam**, 3 runs
-Here's Babar **Azam**
+Maphaka to Babar **Azam**, no run
+Fortuin to Babar **Azam**, 1 run
+Fortuin to Babar **Azam**, no run
+[SHOT] Maphaka to Babar **Azam**, FOUR runs
+Maphaka to Babar **Azam**, 1 wide
+[SHOT] Fortuin to Babar **Azam**, FOUR runs
+[QUOTE] RoSky: "Babar **Azam** needs only 70 more runs to become the fastest player to 6000 ODI runs."
+Maphaka to Babar **Azam**, 3 runs
+Maphaka to Babar **Azam**, 1 run
+Rabada to Babar **Azam**, 1 run
+Rabada to Babar **Azam**, no run
+[SHOT] Rabada to Babar **Azam**, FOUR runs
+Jansen to Babar **Azam**, 1 run
+Jansen to Babar **Azam**, no run
 
 ---
 Please produce your integrated analysis with step-by-step reasoning as described,

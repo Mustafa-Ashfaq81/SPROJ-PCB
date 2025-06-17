@@ -433,15 +433,24 @@ def main() -> None:
     print(f"[INFO] Also copied to canonical name: {canonical_name}\n")
 
     # ───── Cost reporting ─────
-    print(f"[INFO] Total tokens used: {_total_tokens_used}")
+    embedding_model = "text-embedding-ada-002"
     cost = _total_tokens_used / 1_000_000 * 0.10
+    print(f"[INFO] Total tokens used: {_total_tokens_used}")
     print(f"[INFO] Estimated embedding cost: ${cost:.6f} USD")
 
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_line = f"{timestamp},{embedding_model},{_total_tokens_used},0,{_total_tokens_used},{cost:.6f}\n"
+
     try:
-        with open("embedding_token_usage.txt", "w") as f:
-            f.write(str(_total_tokens_used))
+        log_path = os.path.join(os.path.dirname(__file__), "openai_api_usage_log.csv")
+        write_header = not os.path.exists(log_path)
+        with open(log_path, "a", encoding="utf-8") as f:
+            if write_header:
+                f.write("timestamp,model,prompt_tokens,completion_tokens,total_tokens,cost_usd\n")
+            f.write(log_line)
     except Exception as e:
-        print(f"[WARNING] Could not write embedding token usage: {e}")
+        print(f"[WARNING] Failed to write embedding log: {e}")
+
 
 
 if __name__ == "__main__":
