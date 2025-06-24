@@ -56,6 +56,7 @@ import logging
 import openai
 from datetime import datetime
 from dateutil.parser import parse
+import sys
 
 # We use dotenv to load OPENAI_API_KEY from .env if present
 from dotenv import load_dotenv
@@ -675,7 +676,8 @@ and then follow the **Exact Output Formatting Requirements** above.
     # sys.exit(0)
 
     # 6) LLM call
-    logging.info("Sending MASTER PROMPT to the real LLM ...")
+    model_name="gpt-4o-mini"
+    logging.info(f"Sending MASTER PROMPT to {model_name} ...")
     llm_response_text = call_llm_api(master_prompt, api_key=final_api_key)
 
     llm_txt_path = os.path.join(script_dir, "llm_response_output.txt")
@@ -740,7 +742,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     ]
     csv_line = ",".join(csv_fields)
 
-    csv_output_path = os.path.join(script_dir, f"llm_prediction_results_{player_name}.csv")
+    csv_output_path = os.path.join(script_dir, f"{player_name}_prediction_results_{model_name}.csv")
     write_header = not os.path.exists(csv_output_path)
 
     with open(csv_output_path, "a", encoding="utf-8") as f:
