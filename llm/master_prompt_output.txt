@@ -1,22 +1,22 @@
 ## **Prompt Title**  
-**Cricket Dismissal Prediction for Ibrahim Zadran: Balancing Commentary and Statistical Data**
+**Cricket Dismissal Prediction for Charith Asalanka: Balancing Commentary and Statistical Data**
 
 ---
 
 ## **Persona**  
-You are a **seasoned cricket analysis expert** with over 25 years of experience in coaching and scrutinizing international cricket. You specialize in synthesizing **both qualitative insights from recent match commentaries** and **quantitative player metrics** to generate accurate, context-rich predictions. Your goal is to determine the **most likely mode of dismissal** for Ibrahim Zadran in upcoming or ongoing matches.
+You are a **seasoned cricket analysis expert** with over 25 years of experience in coaching and scrutinizing international cricket. You specialize in synthesizing **both qualitative insights from recent match commentaries** and **quantitative player metrics** to generate accurate, context-rich predictions. Your goal is to determine the **most likely mode of dismissal** for Charith Asalanka in upcoming or ongoing matches.
 
 ---
 
 ## **Instructional Outline**
 
 1. **Objective**  
-   - **Match**: Sri Lanka vs Afghanistan 3rd ODI at Kandy SL v AFG Nov 30 2022
-   - **Primary Task**: Predict the most probable mode of dismissal for Ibrahim Zadran in this match.  
+   - **Match**: Sri Lanka vs Zimbabwe 2nd ODI at Colombo SL v ZIM Jan 08 2024
+   - **Primary Task**: Predict the most probable mode of dismissal for Charith Asalanka in this match.  
    - **Key Emphasis**: Pay special attention to: 
-        1. **Venue Stats of Ibrahim Zadran (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
-        2. **Ibrahim Zadran Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
-        3. **recent commentary (if available)** detailing Ibrahim Zadran's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
+        1. **Venue Stats of Charith Asalanka (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
+        2. **Charith Asalanka Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
+        3. **recent commentary (if available)** detailing Charith Asalanka's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
         4. **Recent Commentary as Primary Driver**: treat every dismissal or form signal in the commentaries as your highest-signal evidence—if it conflicts with older stats, let it override those lower-signal sources.
 
 2. **Data Sources**  
@@ -25,12 +25,12 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **B. Venue-Wise Stats (JSON Files)**  
      • Venue splits (e.g. performance in Sri Lanka ODI Series), Bowled/Caught/… rates.  
    - **C. Opponent-Wise Stats (JSON Files)**  
-     • Performance vs Sri Lanka, specific dismissal breakdown.  
+     • Performance vs Zimbabwe, specific dismissal breakdown.  
    - **D. Recent Match Commentary (if available)**  
      • Ball-by-ball notes, pitch conditions, quotes, and dismissal events.
 
 > **Stat Heading Guide (read carefully before analysis)**  
-> • The **“batting”** object contains the core performance metrics for Ibrahim Zadran and should drive most of your reasoning.  
+> • The **“batting”** object contains the core performance metrics for Charith Asalanka and should drive most of your reasoning.  
 > • The **“dismissals”** array shows how those wickets were taken by bowler type — consider this *high-signal* information.  
 > • The **“bowling”** and **“bowling_vs_batting_type”** objects are included for completeness; for a specialist batter they are usually *low-signal* and may be weighted lightly.  
 > • Treat any `null` values as “not applicable / data unavailable.”
@@ -71,53 +71,193 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
      Caught and bowled: <number>%  
      Not-out: <number>%  
    - Then, finish with this exact text (again, to be parsed automatically):  
-     most likely mode of dismissal for Ibrahim Zadran is <mode>
+     most likely mode of dismissal for Charith Asalanka is <mode>
 
 ---
 
-## ** General Stats Data of Ibrahim Zadran: **
-{General Stats Not Available}
+## ** General Stats Data of Charith Asalanka: **
+{
+    "player": "Charith Asalanka",
+    "team": "Sri Lanka",
+    "span": "2021 - 2024",
+    "matches_played": 52,
+    "batting_innings": 46,
+    "bowling_innings": 52,
+    "fielding_innings": 52,
+    "batting": {
+        "Runs": 1661,
+        "Balls Faced": 1865,
+        "Fours": 128,
+        "Sixes": 37,
+        "Strike Rate": 89.06,
+        "Dismissals": 41,
+        "Not Outs": 5,
+        "Batting Average": 40.51
+    },
+    "bowling": {
+        "Overs": 26.1,
+        "Maidens": 1,
+        "Runs Conceded": 129,
+        "Wickets": 5,
+        "Economy Rate": 4.94,
+        "Bowling Average": 25.8,
+        "Dots": 77,
+        "Fours": 9,
+        "Sixes": 2,
+        "Wides": 2,
+        "No Balls": 0,
+        "Boundary Runs Conceded": 48,
+        "Bowling Strike Rate": 31.4,
+        "Dot Ball Percentage": 49.04,
+        "3wHauls": 0,
+        "4wHauls": 1,
+        "5wHauls": 0,
+        "Best Bowling Figures": "4/18"
+    },
+    "fielding": {
+        "Catches": 13,
+        "Stumpings": 0,
+        "Run Outs": 0
+    },
+    "dismissals": [
+        {
+            "Bowler Type": "Right arm Pace",
+            "Span": "2021 - 2024",
+            "Dis": 18,
+            "bowled": 0,
+            "caught-fielder": 11,
+            "caught wk": 6,
+            "stump": 0,
+            "lbw": 1,
+            "hit wicket": 0,
+            "caught and bowled": 0
+        },
+        {
+            "Bowler Type": "Right arm Spin",
+            "Span": "2021 - 2024",
+            "Dis": 7,
+            "bowled": 2,
+            "caught-fielder": 3,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 1,
+            "hit wicket": 0,
+            "caught and bowled": 1
+        },
+        {
+            "Bowler Type": "Left arm Pace",
+            "Span": "2021 - 2024",
+            "Dis": 5,
+            "bowled": 0,
+            "caught-fielder": 2,
+            "caught wk": 1,
+            "stump": 0,
+            "lbw": 2,
+            "hit wicket": 0,
+            "caught and bowled": 0
+        },
+        {
+            "Bowler Type": "Left arm Spin",
+            "Span": "2021 - 2024",
+            "Dis": 3,
+            "bowled": 0,
+            "caught-fielder": 0,
+            "caught wk": 2,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 1
+        },
+        {
+            "Bowler Type": "Unknown",
+            "Span": "2021 - 2024",
+            "Dis": 8,
+            "bowled": 0,
+            "caught-fielder": 0,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0
+        }
+    ],
+    "bowling_vs_batting_type": {
+        "Right Handed": {
+            "wickets": 1,
+            "bowled": 1,
+            "caught-fielder": 0,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        },
+        "Left Handed": {
+            "wickets": 4,
+            "bowled": 0,
+            "caught-fielder": 2,
+            "caught wk": 2,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        },
+        "Unknown": {
+            "wickets": 0,
+            "bowled": 0,
+            "caught-fielder": 0,
+            "caught wk": 0,
+            "stump": 0,
+            "lbw": 0,
+            "hit wicket": 0,
+            "caught and bowled": 0,
+            "other": 0
+        }
+    }
+}
 
 ---
 
-## **Venue Wise Stats Data of Ibrahim Zadran in Sri Lanka ODI Series:**
+## **Venue Wise Stats Data of Charith Asalanka in Sri Lanka ODI Series:**
 (No relevant data for this venue)
 
 ---
 
-## **Against Teams Stats Data of Ibrahim Zadran against Sri Lanka:**
+## **Against Teams Stats Data of Charith Asalanka against Zimbabwe:**
 {
-    "Sri Lanka": {
-        "span": "2022 - 2022",
-        "matches_played": 3,
-        "batting_innings": 3,
-        "bowling_innings": 3,
-        "fielding_innings": 3,
+    "Zimbabwe": {
+        "span": "2022 - 2024",
+        "matches_played": 6,
+        "batting_innings": 5,
+        "bowling_innings": 6,
+        "fielding_innings": 6,
         "batting": {
-            "Runs": 278,
-            "Balls Faced": 276,
-            "Fours": 28,
-            "Sixes": 4,
-            "Strike Rate": 100.72,
-            "Dismissals": 3,
+            "Runs": 247,
+            "Balls Faced": 247,
+            "Fours": 18,
+            "Sixes": 7,
+            "Strike Rate": 100.0,
+            "Dismissals": 5,
             "Not Outs": 0,
-            "Batting Average": 92.67
+            "Batting Average": 49.4
         },
         "bowling": {
-            "Overs": 0.0,
+            "Overs": 7.0,
             "Maidens": 0,
-            "Runs Conceded": 0,
+            "Runs Conceded": 46,
             "Wickets": 0,
-            "Economy Rate": null,
+            "Economy Rate": 6.57,
             "Bowling Average": null,
-            "Dots": 0,
-            "Fours": 0,
-            "Sixes": 0,
+            "Dots": 13,
+            "Fours": 3,
+            "Sixes": 1,
             "Wides": 0,
             "No Balls": 0,
-            "Boundary Runs Conceded": 0,
+            "Boundary Runs Conceded": 18,
             "Bowling Strike Rate": null,
-            "Dot Ball Percentage": null,
+            "Dot Ball Percentage": 30.95,
             "3wHauls": 0,
             "4wHauls": 0,
             "5wHauls": 0,
@@ -131,19 +271,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
         "dismissals": [
             {
                 "Bowler Type": "Right arm Pace",
-                "Span": "2022 - 2022",
-                "Dis": 2,
-                "bowled": 1,
-                "caught-fielder": 1,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
-                "hit wicket": 0,
-                "caught and bowled": 0
-            },
-            {
-                "Bowler Type": "Right arm Spin",
-                "Span": "2022 - 2022",
+                "Span": "2022 - 2024",
                 "Dis": 1,
                 "bowled": 0,
                 "caught-fielder": 1,
@@ -154,10 +282,10 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
                 "caught and bowled": 0
             },
             {
-                "Bowler Type": "Left arm Pace",
-                "Span": "2022 - 2022",
-                "Dis": 0,
-                "bowled": 0,
+                "Bowler Type": "Right arm Spin",
+                "Span": "2022 - 2024",
+                "Dis": 1,
+                "bowled": 1,
                 "caught-fielder": 0,
                 "caught wk": 0,
                 "stump": 0,
@@ -166,8 +294,20 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
                 "caught and bowled": 0
             },
             {
+                "Bowler Type": "Left arm Pace",
+                "Span": "2022 - 2024",
+                "Dis": 2,
+                "bowled": 0,
+                "caught-fielder": 0,
+                "caught wk": 1,
+                "stump": 0,
+                "lbw": 1,
+                "hit wicket": 0,
+                "caught and bowled": 0
+            },
+            {
                 "Bowler Type": "Left arm Spin",
-                "Span": "2022 - 2022",
+                "Span": "2022 - 2024",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -179,8 +319,8 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Unknown",
-                "Span": "2022 - 2022",
-                "Dis": 0,
+                "Span": "2022 - 2024",
+                "Dis": 1,
                 "bowled": 0,
                 "caught-fielder": 0,
                 "caught wk": 0,
@@ -230,125 +370,8 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ---
 
-## **Commentary Data (for k recent matches prior to the predicted match) of Ibrahim Zadran to get a concrete idea of the recent form and the modes of dismissals of Ibrahim Zadran. This is very crucial to analyse for this task. :**
-Commentary 1:
-[DISMISSAL] Theekshana to **Zadran**, OUT
-[DISMISSAL] Najibullah **Zadran** lbw b Theekshana 6 (8b 1x4 0x6 9m) SR: 75
-Theekshana to **Zadran**, no run
-Dhananjaya to **Zadran**, 1 run
-Dhananjaya to **Zadran**, no run
-[SHOT] Theekshana to **Zadran**, FOUR runs
-[DISMISSAL] Lahiru Kumara to Ibrahim **Zadran**, OUT
-[DISMISSAL] Ibrahim **Zadran** b Kumara 10 (18b 2x4 0x6 25m) SR: 55.55
-[SHOT] Lahiru Kumara to Ibrahim **Zadran**, FOUR runs
-Rajitha to Ibrahim **Zadran**, 1 run
-Rajitha to Ibrahim **Zadran**, no run
-[SHOT] Rajitha to Ibrahim **Zadran**, FOUR runs
-Theekshana to Ibrahim **Zadran**, 1 run
-
-Commentary 2:
-[DISMISSAL] Hasaranga to **Zadran**, OUT
-[DISMISSAL] Najibullah **Zadran** c †Mendis b Hasaranga 42 (25b 5x4 1x6 39m) SR: 168
-Rajitha to **Zadran**, 1 run
-Hasaranga to **Zadran**, no run
-Hasaranga to **Zadran**, 1 run
-[SHOT] Hasaranga to **Zadran**, FOUR runs
-Theekshana to **Zadran**, 1 run
-[SHOT] Rajitha to **Zadran**, SIX runs
-Rajitha to **Zadran**, 1 wide
-Rajitha to **Zadran**, 2 runs
-Rajitha to **Zadran**, 1 leg bye
-[DISMISSAL] Theekshana to Ibrahim **Zadran**, OUT
-[DISMISSAL] Ibrahim **Zadran** c Hasaranga b Theekshana 106 (120b 11x4 0x6 174m) SR: 88.33
-[SHOT] Lahiru Kumara to **Zadran**, FOUR runs
-Lahiru Kumara to **Zadran**, no run
-Lahiru Kumara to Ibrahim **Zadran**, 1 run
-Theekshana to **Zadran**, 2 runs
-Theekshana to Ibrahim **Zadran**, no run
-Lahiru Kumara to **Zadran**, 1 leg bye
-Lakshan to Ibrahim **Zadran**, no run
-[SHOT] Theekshana to Ibrahim **Zadran**, FOUR runs
-Lakshan to Ibrahim **Zadran**, 1 run
-fuller outside off, **Zadran** misreads the length and stays back, looking to swat it straight back down the ground. Can't connect cleanly, and just hits it back to Lakshan.
-Hasaranga to Ibrahim **Zadran**, 1 run
-Hasaranga to Ibrahim **Zadran**, no run
-Lahiru Kumara to Ibrahim **Zadran**, no run
-Dhananjaya to Ibrahim **Zadran**, no run
-Dhananjaya to Ibrahim **Zadran**, 1 run
-Dhananjaya to Ibrahim **Zadran**, 2 runs
-Shanaka to Ibrahim **Zadran**, 1 run
-Theekshana to Ibrahim **Zadran**, 2 runs
-back of a length outside off, **Zadran** looks to dab this towards third man but misses completely
-This time he beats third man! Well played by **Zadran**, who plays this with soft hands and gets this very fine, through the vacant slip cordon. Third man puts in the dive, but he can't get there in time.
-[SHOT] Shanaka to Ibrahim **Zadran**, FOUR runs
-Punished through the covers! This was full and very wide, swinging away. **Zadran** has to reach for this but he gets the timing and placement perfect.
-Shanaka to Ibrahim **Zadran**, no run
-[SHOT] short ball that keeps a little low to start, raps **Zadran** on the pads as he misses the pull.
-Whipped effortlessly through midwicket! A classy shot from **Zadran**.
-Short and pulled well! **Zadran**'s bottom hand comes off on this, but he finds the gap in front of deep backward square leg
-[CONDITION] short outside off, good bounce on this but **Zadran** watches this on to the bat and angles it down to third man
-[QUOTE] Osama Azeem: "Love the skill and temperament of Ibrahim **Zadran**. He has it in him to be a big player for Afghanistan in ODIs and Test cricket. Whereas Gurbaz is a free flowing stylish batsman. Watching this game for these two. Love from India"
-[SHOT] Glorious drive! Full delivery on off, and **Zadran** just leans into this drive, opening the face ever so slightly to take it wide of a diving mid-on.
-[SHOT] Beats the outside edge! Gorgeous shape away from a length, and he gets **Zadran** fending at this outside off.
-Good length outside off, bit wide though. **Zadran** doesn't bite, leaves this alone.
-
-Commentary 3:
-Raza to **Zadran**, no run
-Muzarabani to **Zadran**, 1 run
-Chivanga to **Zadran**, no run
-[SHOT] Chivanga to **Zadran**, FOUR runs
-[DISMISSAL] Muzarabani to Ibrahim **Zadran**, OUT
-[SHOT] gone! Muzarabani flexes his biceps. It was full, wide outside off. **Zadran** gets onto the front foot to play this through the cover but was undone by the length there. He wasn't to the pitch of the ball either and an outside edge finds skipper Ervine at second slip who dives to his left to grab this. 50th catch for Ervine in ODIs
-[DISMISSAL] Ibrahim **Zadran** c Ervine b Muzarabani 8 (30b 0x4 0x6) SR: 26.66
-Muzarabani to Ibrahim **Zadran**, 3 runs
-length ball on off stump and lazy elegance from **Zadran**, punched through the vacant cover for three more
-Muzarabani to Ibrahim **Zadran**, no run
-pushed towards point and **Zadran** fancied a run, sent back. Madhevere swiftly moves to his right and cracks, misses
-Muzarabani to Ibrahim **Zadran**, 1 run
-Chatara to Ibrahim **Zadran**, no run
-[DISMISSAL] full on stumps, played back to the bowler. **Zadran** was out of his crease playing the shot and Chatara cracks at the stumps, misses but would've been close if had hit the poles
-wee bit wide on off, **Zadran** leaves alone
-[SHOT] handsome shot from **Zadran**. Fuller on off stump, gets onto the front foot and drives crisply through the cover
-dangles the carrot wide outside off and **Zadran** nearly falls for the trap there. This was pitched wide outside off, the length was fuller and **Zadran** goes fishing. Play and miss
-
-Commentary 4:
-Ibrahim **Zadran** is the Player of the match: The wicket was much better for batting today and I decided that I would play my natural game. I really enjoy batting with Rahmat Shah. I can play my shots with him around me.
-Afghanistan, through the partnership of Ibrahim **Zadran** and Rahmat Shah, show to Zimbabwe what might have been! Though they were a wicket down, Ibrahim **Zadran** went after the bowlers in the powerplay. While Rahmat Shah settled in, Ibrahim **Zadran** was the aggressor and when Ibrahim **Zadran** slowed down a touch in sight of a milestone, Rahmat Shah attacked the bowlers. Rahmat Shah got within touching distance of a century, but fell before getting one, like in the first game
-[SHOT] Tiripano to Ibrahim **Zadran**, FOUR runs
-Tiripano to Ibrahim **Zadran**, no run
-Chatara to Ibrahim **Zadran**, 1 run
-Chatara to Ibrahim **Zadran**, 2 runs
-Raza to Ibrahim **Zadran**, 1 run
-Raza to Ibrahim **Zadran**, no run
-Burl to Ibrahim **Zadran**, no run
-Burl to Ibrahim **Zadran**, 2 runs
-Madhevere to Ibrahim **Zadran**, no run
-Madhevere to Ibrahim **Zadran**, 1 run
-Madhevere to Ibrahim **Zadran**, 1 wide
-Burl to Ibrahim **Zadran**, 1 run
-[SHOT] Chivanga to Ibrahim **Zadran**, FOUR runs
-Chivanga to Ibrahim **Zadran**, no run
-[SHOT] Shumba to Ibrahim **Zadran**, FOUR runs
-Shumba to Ibrahim **Zadran**, no run
-Shumba to Ibrahim **Zadran**, 1 run
-Tiripano to Ibrahim **Zadran**, 1 run
-Tiripano to Ibrahim **Zadran**, 1 wide
-Raza to Ibrahim **Zadran**, 2 runs
-Tiripano to Ibrahim **Zadran**, 2 runs
-Chivanga to Ibrahim **Zadran**, 1 run
-[SHOT] Burl to Ibrahim **Zadran**, FOUR runs
-Chivanga to Ibrahim **Zadran**, 2 runs
-Chivanga to Ibrahim **Zadran**, 2 leg byes
-[SHOT] Muzarabani to Ibrahim **Zadran**, FOUR runs
-[SHOT] Chatara to Ibrahim **Zadran**, FOUR runs
-[DISMISSAL] on a good length and nipping in, strikes the pad in line, loud appeal for lbw and given. Gurbaz has a chat with **Zadran** and reviews it. That is hitting the stumps. They lose the review.
-
-Commentary 5:
-Muzarabani to **Zadran**, no run
-Muzarabani to **Zadran**, 2 runs
-[SHOT] it was coming and Blessing Muzaarabani get's his man. It was pitched on middle and leg, **Zadran** closes the face of the balde touch too early which means the ball catches the leading edge and Muzarabani calls for it and pockets a good catch
-[DISMISSAL] Ibrahim **Zadran** c & b Muzarabani 5 (18b 0x4 0x6 23m) SR: 27.77
-Muzarabani to Ibrahim **Zadran**, 1 wide
+## **Commentary Data (for k recent matches prior to the predicted match) of Charith Asalanka to get a concrete idea of the recent form and the modes of dismissals of Charith Asalanka. This is very crucial to analyse for this task. :**
+{Commentary Data Not Available}
 
 ---
 Please produce your integrated analysis with step-by-step reasoning as described,
