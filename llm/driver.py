@@ -119,7 +119,7 @@ def load_json_file(filepath):
         logging.warning(f"Could not parse JSON from {filepath}: {e}")
         return {}
 
-def call_llm_api(master_prompt_text, api_key=None, model_name="gpt-4o-mini"):
+def call_llm_api(master_prompt_text, api_key=None, model_name="gpt-4.1-nano"):
     """
     Calls OpenAI's ChatCompletion API with cost and token logging support
     for multiple models. Saves logs to CSV.
@@ -676,9 +676,9 @@ and then follow the **Exact Output Formatting Requirements** above.
     # sys.exit(0)
 
     # 6) LLM call
-    model_name="gpt-4o-mini"
+    model_name="gpt-4.1-nano"
     logging.info(f"Sending MASTER PROMPT to {model_name} ...")
-    llm_response_text = call_llm_api(master_prompt, api_key=final_api_key)
+    llm_response_text = call_llm_api(master_prompt, api_key=final_api_key, model_name=model_name)
 
     llm_txt_path = os.path.join(script_dir, "llm_response_output.txt")
     with open(llm_txt_path, "w", encoding="utf-8") as f:
