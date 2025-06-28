@@ -7,9 +7,10 @@ from scipy.stats import norm
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-PLAYER = "Babar Azam"
-CSV_PATH = f"llm_prediction_results_{PLAYER}.csv"
-PLOTS_DIR = f"plots/{PLAYER}/embeddingsPlus4o-mini"
+PLAYER = "Charith Asalanka"
+MODEL = "gpt-4o-mini"
+CSV_PATH = f"{PLAYER}_prediction_results_{MODEL}.csv"
+PLOTS_DIR = f"plots/{PLAYER}/{MODEL}"
 os.makedirs(PLOTS_DIR, exist_ok=True)
 plot_path = lambda fname: os.path.join(PLOTS_DIR, fname)
 TOP1_PLOT_PATH   = plot_path("top1_accuracy.png")
