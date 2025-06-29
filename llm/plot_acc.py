@@ -7,7 +7,7 @@ from scipy.stats import norm
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-PLAYER = "Charith Asalanka"
+PLAYER = "Harry Tector"
 MODEL = "gpt-4.1-nano"
 CSV_PATH = f"{PLAYER}_prediction_results_{MODEL}.csv"
 PLOTS_DIR = f"plots/{PLAYER}/{MODEL}"
