@@ -677,7 +677,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     # sys.exit(0)
 
     # 6) LLM call
-    model_name="gpt-4.1-nano"
+    model_name="gpt-4.1-mini"
     # logging.info(f"Sending MASTER PROMPT to {model_name} ...")
     llm_response_text = call_llm_api(master_prompt, api_key=final_api_key, model_name=model_name)
 

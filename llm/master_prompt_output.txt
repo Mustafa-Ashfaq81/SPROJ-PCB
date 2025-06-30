@@ -1,39 +1,22 @@
 ## **Prompt Title**  
-<<<<<<< HEAD
 **Cricket Dismissal Prediction for Harry Tector: Balancing Commentary and Statistical Data**
-=======
-**Cricket Dismissal Prediction for Shai Hope: Balancing Commentary and Statistical Data**
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
 
 ---
 
 ## **Persona**  
-<<<<<<< HEAD
 You are a **seasoned cricket analysis expert** with over 25 years of experience in coaching and scrutinizing international cricket. You specialize in synthesizing **both qualitative insights from recent match commentaries** and **quantitative player metrics** to generate accurate, context-rich predictions. Your goal is to determine the **most likely mode of dismissal** for Harry Tector in upcoming or ongoing matches.
-=======
-You are a **seasoned cricket analysis expert** with over 25 years of experience in coaching and scrutinizing international cricket. You specialize in synthesizing **both qualitative insights from recent match commentaries** and **quantitative player metrics** to generate accurate, context-rich predictions. Your goal is to determine the **most likely mode of dismissal** for Shai Hope in upcoming or ongoing matches.
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
 
 ---
 
 ## **Instructional Outline**
 
 1. **Objective**  
-<<<<<<< HEAD
    - **Match**: Ireland vs South Africa 3rd ODI at Dublin IRE v SA Jul 16 2021
    - **Primary Task**: Predict the most probable mode of dismissal for Harry Tector in this match.  
    - **Key Emphasis**: Pay special attention to: 
         1. **Venue Stats of Harry Tector (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
         2. **Harry Tector Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
         3. **recent commentary (if available)** detailing Harry Tector's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
-=======
-   - **Match**: West Indies vs Bangladesh Final at Dublin TRI SERIES May 17 2019
-   - **Primary Task**: Predict the most probable mode of dismissal for Shai Hope in this match.  
-   - **Key Emphasis**: Pay special attention to: 
-        1. **Venue Stats of Shai Hope (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
-        2. **Shai Hope Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
-        3. **recent commentary (if available)** detailing Shai Hope's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
         4. **Recent Commentary as Primary Driver**: treat every dismissal or form signal in the commentaries as your highest-signal evidence—if it conflicts with older stats, let it override those lower-signal sources.
 
 2. **Data Sources**  
@@ -42,20 +25,12 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **B. Venue-Wise Stats (JSON Files)**  
      • Venue splits (e.g. performance in Ireland), Bowled/Caught/… rates.  
    - **C. Opponent-Wise Stats (JSON Files)**  
-<<<<<<< HEAD
      • Performance vs South Africa, specific dismissal breakdown.  
-=======
-     • Performance vs Bangladesh, specific dismissal breakdown.  
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
    - **D. Recent Match Commentary (if available)**  
      • Ball-by-ball notes, pitch conditions, quotes, and dismissal events.
 
 > **Stat Heading Guide (read carefully before analysis)**  
-<<<<<<< HEAD
 > • The **“batting”** object contains the core performance metrics for Harry Tector and should drive most of your reasoning.  
-=======
-> • The **“batting”** object contains the core performance metrics for Shai Hope and should drive most of your reasoning.  
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
 > • The **“dismissals”** array shows how those wickets were taken by bowler type — consider this *high-signal* information.  
 > • The **“bowling”** and **“bowling_vs_batting_type”** objects are included for completeness; for a specialist batter they are usually *low-signal* and may be weighted lightly.  
 > • Treat any `null` values as “not applicable / data unavailable.”
@@ -96,24 +71,15 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
      Caught and bowled: <number>%  
      Not-out: <number>%  
    - Then, finish with this exact text (again, to be parsed automatically):  
-<<<<<<< HEAD
      most likely mode of dismissal for Harry Tector is <mode>
 
 ---
 
 ## ** General Stats Data of Harry Tector: **
-=======
-     most likely mode of dismissal for Shai Hope is <mode>
-
----
-
-## ** General Stats Data of Shai Hope: **
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
 {General Stats Not Available}
 
 ---
 
-<<<<<<< HEAD
 ## **Venue Wise Stats Data of Harry Tector in Ireland:**
 {
     "Ireland": {
@@ -131,25 +97,6 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             "Dismissals": 3,
             "Not Outs": 0,
             "Batting Average": 44.33
-=======
-## **Venue Wise Stats Data of Shai Hope in Ireland:**
-{
-    "Ireland": {
-        "span": "2019 - 2019",
-        "matches_played": 5,
-        "batting_innings": 5,
-        "bowling_innings": 5,
-        "fielding_innings": 5,
-        "batting": {
-            "Runs": 470,
-            "Balls Faced": 488,
-            "Fours": 49,
-            "Sixes": 7,
-            "Strike Rate": 96.31,
-            "Dismissals": 5,
-            "Not Outs": 0,
-            "Batting Average": 94.0
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
         },
         "bowling": {
             "Overs": 0.0,
@@ -172,29 +119,17 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             "Best Bowling Figures": null
         },
         "fielding": {
-<<<<<<< HEAD
             "Catches": 3,
             "Stumpings": 0,
-=======
-            "Catches": 1,
-            "Stumpings": 1,
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
             "Run Outs": 0
         },
         "dismissals": [
             {
                 "Bowler Type": "Right arm Pace",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
                 "Dis": 2,
                 "bowled": 0,
                 "caught-fielder": 1,
-=======
-                "Span": "2019 - 2019",
-                "Dis": 4,
-                "bowled": 0,
-                "caught-fielder": 3,
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "caught wk": 1,
                 "stump": 0,
                 "lbw": 0,
@@ -203,13 +138,8 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Right arm Spin",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
                 "Dis": 0,
-=======
-                "Span": "2019 - 2019",
-                "Dis": 1,
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "bowled": 0,
                 "caught-fielder": 0,
                 "caught wk": 0,
@@ -220,11 +150,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Pace",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
-=======
-                "Span": "2019 - 2019",
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -236,13 +162,8 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Spin",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
                 "Dis": 1,
-=======
-                "Span": "2019 - 2019",
-                "Dis": 0,
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "bowled": 0,
                 "caught-fielder": 0,
                 "caught wk": 0,
@@ -253,11 +174,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Unknown",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
-=======
-                "Span": "2019 - 2019",
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -308,7 +225,6 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ---
 
-<<<<<<< HEAD
 ## **Against Teams Stats Data of Harry Tector against South Africa:**
 {
     "South Africa": {
@@ -326,25 +242,6 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             "Dismissals": 3,
             "Not Outs": 0,
             "Batting Average": 44.33
-=======
-## **Against Teams Stats Data of Shai Hope against Bangladesh:**
-{
-    "Bangladesh": {
-        "span": "2018 - 2019",
-        "matches_played": 9,
-        "batting_innings": 9,
-        "bowling_innings": 9,
-        "fielding_innings": 9,
-        "batting": {
-            "Runs": 662,
-            "Balls Faced": 786,
-            "Fours": 55,
-            "Sixes": 9,
-            "Strike Rate": 84.22,
-            "Dismissals": 7,
-            "Not Outs": 2,
-            "Batting Average": 94.57
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
         },
         "bowling": {
             "Overs": 0.0,
@@ -368,17 +265,12 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
         },
         "fielding": {
             "Catches": 3,
-<<<<<<< HEAD
             "Stumpings": 0,
-=======
-            "Stumpings": 2,
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
             "Run Outs": 0
         },
         "dismissals": [
             {
                 "Bowler Type": "Right arm Pace",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
                 "Dis": 2,
                 "bowled": 0,
@@ -386,31 +278,15 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
                 "caught wk": 1,
                 "stump": 0,
                 "lbw": 0,
-=======
-                "Span": "2018 - 2019",
-                "Dis": 5,
-                "bowled": 0,
-                "caught-fielder": 3,
-                "caught wk": 1,
-                "stump": 0,
-                "lbw": 1,
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "hit wicket": 0,
                 "caught and bowled": 0
             },
             {
                 "Bowler Type": "Right arm Spin",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
-=======
-                "Span": "2018 - 2019",
-                "Dis": 1,
-                "bowled": 0,
-                "caught-fielder": 1,
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "caught wk": 0,
                 "stump": 0,
                 "lbw": 0,
@@ -419,11 +295,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Pace",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
-=======
-                "Span": "2018 - 2019",
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -435,7 +307,6 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Spin",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
                 "Dis": 1,
                 "bowled": 0,
@@ -443,25 +314,12 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
                 "caught wk": 0,
                 "stump": 0,
                 "lbw": 1,
-=======
-                "Span": "2018 - 2019",
-                "Dis": 1,
-                "bowled": 0,
-                "caught-fielder": 1,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "hit wicket": 0,
                 "caught and bowled": 0
             },
             {
                 "Bowler Type": "Unknown",
-<<<<<<< HEAD
                 "Span": "2021 - 2021",
-=======
-                "Span": "2018 - 2019",
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -512,7 +370,6 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ---
 
-<<<<<<< HEAD
 ## **Commentary Data (for k recent matches prior to the predicted match) of Harry Tector to get a concrete idea of the recent form and the modes of dismissals of Harry Tector. This is very crucial to analyse for this task. :**
 Commentary 1:
 [SHOT] 2.18pm The commentators were saying 260-270 would be par here and look what Ireland have on the board! Firstly, South Africa will rue the chances they put down today even though two of those four were pretty tough. And Ireland cashed in on them and how! Balbirnie didn't find much scoring support early on but his century laden with boundaries meant Ireland were hovering around the 4.50 scoring rate mark almost all along, and when it looked like they would manage just the par score, Harry **Tector** and Dockrell put on a spectacular show for a combined 11 fours and is sixes. Rabada barely got any yorkers right today, the spinners did a good stifling job in the middle overs but the Ireland middle order feasted on the quicks in the end. Himanshu will be back with you for the chase...
@@ -635,182 +492,6 @@ Commentary 5:
 [DISMISSAL] Klaassen to **Tector**, OUT
 [DISMISSAL] given lbw, **Tector** reviews it..good length delivery pitched around middle stump and straightens. **Tector** tries to block it but was playing inside the line, hits the front pad. It's umpire's call on hitting the stumps and he has to walk back..
 [DISMISSAL] Harry **Tector** lbw b Klaassen 0 (3b 0x4 0x6 5m) SR: 0
-=======
-## **Commentary Data (for k recent matches prior to the predicted match) of Shai Hope to get a concrete idea of the recent form and the modes of dismissals of Shai Hope. This is very crucial to analyse for this task. :**
-Commentary 1:
-[SHOT] West Indies, meanwhile, just didn't know what to do in the middle overs. Shai **Hope** did his best to bat deep, looking good for a third hundred in four games, this should be seen as a missed opportunity. West Indies just did not have any plans to score off the Bangladesh spinners once the field was spread. They kept playing for turn when there wasn't any
-[SHOT] caught behind again! He didn't begin the day very well, but he's ending it #LikeABoss! This round the wicket angle is working a treat. Keeps cramping the right-handers. And on the odd occasion he takes the ball across them, they keep playing horizontal bat shots and nicking behind. **Hope** fell to the pull, Holder falls to the cut. West Indies have been poor in executing their big shots this innings. #Bizarre
-[DISMISSAL] Mortaza to **Hope**, OUT
-[SHOT] caught behind! Toe-end of the bat as he goes for the pull shot and Bangladesh have a vital breakthrough at a great time. The angle from round the wicket means **Hope** is always hitting against it, and it might just have kept a little lower than he expected. Looked good for a third hundred in four ODIs, but he has to walk back now.
-[DISMISSAL] Shai **Hope** c †Mushfiqur Rahim b Mashrafe Mortaza 87 (108b 6x4 1x6 172m) SR: 80.55
-Shakib to **Hope**, 1 run
-[SHOT] Mustafizur to **Hope**, FOUR runs
-[DISMISSAL] lovely placement, between point and third man. **Hope** spots the short and wide ball, moves across onto his back foot, reaches out and concentrates on hitting the gap
-Mustafizur to **Hope**, no run
-[SHOT] slogs across the line and even the full pace delivery is working for Mustafiz as **Hope** misses. Badly
-Shakib to **Hope**, no run
-hacks a good length ball on off stump away to the left of midwicket. Tension building and it shows on **Hope**. He wants a release shot.
-[SHOT] full and angled into middle stump, **Hope** defends
-pitches it up on off stump, **Hope** wants to attack it, but he can't. There's no room on offer. And he ends up blocking to point
-[SHOT] Mustafizur to **Hope**, SIX runs
-there's the first of the game. Took em long enough! And it's a peach too. For half a second, it seems **Hope** is cramped up. As if he can't get a full swing of the bat through a ball on his hips. But he goes through with the pick-up shot and it lands well over the boundary at midwicket. Outstanding timing, really.
-Abu Jayed to **Hope**, 1 run
-[SHOT] goes fuller to **Hope** though and he drives sweetly to the sweeper cover
-Thanks Karthik. Bangladesh have come back beautifully into this game thanks to Mehidy, Shakib and Mustafizur - all expected to be match-winners at the World Cup. But this partnership must give West Indies the **hope** that they can maximise the final overs of the game. They're certainly a team known for their back-end firepower
-Mehidy Hasan Miraz to **Hope**, 1 run
-Abu Jayed to **Hope**, no run
-[SHOT] Abu Jayed to **Hope**, FOUR runs
-now **Hope** finds the boundary. Length ball on off stump and **Hope** takes a step forward, plants his left foot away from the line of the ball, and flat-bats it between bowler and mid-off
-[SHOT] length ball on middle stump, nice bit of fielding at midwicket, a dive to the right to stop **Hope**'s well-timed flick
-Soumya to **Hope**, 1 run
-Soumya to **Hope**, no run
-[QUOTE] Nitish: "In the last two years (from today) only thrice has Mustafizur taken more than 2 wickets in an ODI innings. The last of those was vs Windies at Dhaka in early December 2018. We have seen an improved performance today but his injuries and form have regularly given Bangladesh something to worry about in the last two years. **Hope** he regains consistency before the WC starts. " -- He's looking very good today, accurate with a bit of movement away from the right-handers and into the left-handers.
-Mustafizur to **Hope**, 1 run
-Mustafizur to **Hope**, 2 runs
-[SHOT] again it's nice and full, and again **Hope** drives it firmly back where it came from
-Only three bowlers used so far. Here's the fourth, Mustafizur Rahman. Left-arm over to **Hope**.
-Mehidy Hasan Miraz to **Hope**, no run
-keeps low and **Hope** just about manages to make contact. Lucky the line of the ball was way outside off
-[SHOT] gets the dip just right and the flick that **Hope** intends to keep along the ground goes in the air through midwicket
-[DISMISSAL] Aj: "I **hope** we back Bravo for the whole WC, he's way too good to be left out "
-[SHOT] loops it up outside off, **Hope** lunges forward and across to block
-slower ball on off stump, **Hope** dabs it towards point and sprints through. Good response from Chase too
-stops on him and **Hope** nearly pops a return catch. Jayed's ability to keep it wicket to wicket will give him reward sooner or later
-[SHOT] top edge but it lobs over the short fine leg fielder. The mis-hit is because **Hope** is into the pull shot too early and the short ball nearly does the trick
-[SHOT] good length ball on middle, **Hope** blocks and demands the single, but again he's met with an answer in the negative
-[SHOT] extra bounce as Mehidy hits a good length outside off and surprises **Hope** who is trying to flick the ball to midwicket and has to yank his bottom hand off the bat
-[QUOTE] PrashantBanjare: "There is a lot of talk going around **Hope**'s strike rate but to me he is doing g good job because we need solidity at the top of the order only thing he should work on it is that finding the gaps with soft hands and scampering for quick singles just like the way Kohli does for India regularly"
-Mortaza to **Hope**, 1 run
-[SHOT] Mortaza to **Hope**, FOUR runs
-[SHOT] too short and **Hope** just swivels on his back foot and pulls it down to the fine leg boundary. Easily done
-[QUOTE] Razaaq: "**Hope** seems to be very much like Imam ul Haq. Very capable batsmen but one feels their strike rates is a bit under par in the modern game. "
-[SHOT] loops it up on off stump, and a tame, loopy offbreak suddenly takes on threatening proportions when it dips on the right-hander. **Hope** has to hurry into a block
-[QUOTE] vivek bhandari: "what's the chances for Shai **Hope** to fail today? Asking for a friend who plays fantasy leagues" --- Slim to what the weird are you talking about?!?
-[DISMISSAL] Priyank: "**Hope** must open with C Gayle come world cup. He has had terrifc time opening the innings in last 2-3 series. Lewis could come at #3. As for Ambris i think he is still very raw in terms of experience in international cricket. "
-Abu Jayed to **Hope**, 2 runs
-[SHOT] another glorious drive from **Hope**, this time straighter of cover. There's a man inside the circle, diving to his right to save a certain boundary. Delicious strokeplay starting from the measured front foot stride and the conscious decision to only time the ball
-[QUOTE] Liam: "Are there a few selection dilemmas for the windies at the World Cup with how well their second string openers have performed? Surely one of the three century making openers must play in the World Cup? " --- Think **Hope** might slip down to No. 3. And Ambris (assuming he's in the squad) slips in as Gayle's partner.
-[SHOT] shot of the morning! How he leeeeeans into that cover drive! Even as that ball swings away, attempting to escape his magic hands. But **Hope** holds his shape, moves his front leg across to the ball, gets nice and low over the ball, and then gently directs it to the boundary
-Mortaza to **Hope**, no run
-[SHOT] full on off stump and **Hope** is on the drive immediately. Solidly hit but Mashrafe gets down to stop it himself
-[SHOT] too easy as Mashrafe slips into the pads and **Hope** flicks it away to the backward square leg boundary.
-keeps him in his crease by pulling the length back. **Hope** is as careful as ever, defending the ball right under his eyes
-[SHOT] another lovely drive, this time from **Hope**, as he stride forward confidently to the ball outside off. Finds mid-off though
-[SHOT] he's a little squared up as Jayed gets the ball to straighten off the pitch. And since the length is beautiful as well - full but not drivable - **Hope** is stuck in his crease, playing towards mid-on. Ends up getting a leading edge into the covers
-
-Commentary 2:
-[QUOTE] Michael: "My world cup 11- Gayle, **Hope** (C), Ambris/ Bravo, Hetmyer, Pooran, Russell, Brathwaite/Holder, Pierre, Thomas, Cottrell, Gabriel/ Roach. Nurse does not deserve to be in world cup squad off-spinners who have no guile are going to be demolished"
-[QUOTE] Craig: "Bravo batting two spots too high. He should bat at number 5 where he gets to play attacking. The WI has had a centurion in every game thus far but not good preparation for the world cup. Campbell and Ambris not in the WC squad and neither **Hope** nor Bravo have batted in the position they will be asked to bat at the WC. "
-[DISMISSAL] Rankin to **Hope**, OUT
-brilliant catch by McCollum at point. short and wide outside off, **Hope** has a slash at it, but it's uppish and to point's right. He dives to his right and holds on with both hands. Ireland have a breather with the opening stand broken.
-[DISMISSAL] Shai **Hope** c McCollum b Rankin 30 (32b 4x4 0x6 50m) SR: 93.75
-Rankin to **Hope**, no run
-Rankin to **Hope**, 2 runs
-Dockrell to **Hope**, no run
-Rankin to **Hope**, 1 run
-[SHOT] Dockrell to **Hope**, FOUR runs
-smashed. Another free gift, tossed up very invitingly and too full, **Hope** flays it through cover with a horizontal bat and lots of bottom hand power
-Murtagh to **Hope**, no run
-Little to **Hope**, 1 run
-that boundary has made him bowl straighter and **Hope** is now able to shuffle across and clip him to fine leg
-[SHOT] Little to **Hope**, FOUR runs
-[SHOT] sublime. Back of a length going across him, **Hope** stands in his crease rises up and drives through the line, threads cover and extra cover for a peachy boundary
-Murtagh to **Hope**, 1 run
-Adair to **Hope**, 1 run
-[SHOT] Adair to **Hope**, FOUR runs
-Adair to **Hope**, no run
-[SHOT] very full outside off, gets it to shape away. **Hope** stretches into the cover drive, but can't go past the in field
-Adair to **Hope**, 1 wide
-
-Commentary 3:
-An emphatic come back from Bangladesh after a hundred from Shai **Hope** and a fifty from Roston chase had laid a solid foundation to launch from. Mashrafe Mortaza dismissed both in the space of three balls, across two overs, and then got rid of Jason Holder as well. Only 64 came from the final ten, but you wouldn't exactly call this wicket a feather bed, so Bangladesh will have to work hard for these runs. Back with the chase soon
-slower ball outside off, swings in **hope** and misses
-Mashrafe has another in his final over! Length outside off, **Hope** tried to blast it through the off side, only got it off the bottom of the bat and straight to extra cover
-[DISMISSAL] Shai **Hope** c Mohammad Mithun b Mashrafe Mortaza 109 (132b 11x4 1x6 170m) SR: 82.57
-length on middle, **Hope** pushes it to long-off off the backfoot for one
-length outside off, slower ball and **Hope** drills it on the up, through extra cover for another boundary
-Mortaza to **Hope**, 2 runs
-Saifuddin to **Hope**, no run
-[DISMISSAL] length on middle, **Hope** swivels to pull but it keeps quite low and he misses. There's an appeal for lbw, turned down, however
-[SHOT] length on middle, extra bounce and **Hope** has to take his bottom hand off the handle as he defends it to control it
-[SHOT] smashed. Another good bouncer, **Hope** almost looked like he was going to duck but it was a bit quicker, and he goes for the pull. Connects well eventually to send it over square leg. in fact that came off the back of his bat, but it still travelled quickly
-tickled fine. Bad ball on the pads and all **Hope** had to do was get a little bit of bat on it, which he does and finds an easy boundary
-[SHOT] Mehidy Hasan Miraz to **Hope**, FOUR runs
-Shai **Hope** taking only 47 innings to 2000 runs sets a new record for West Indies. Even the great Viv Richards took 48, and **Hope** has bettered that mark.
-Mustafizur to **Hope**, 3 runs
-Saifuddin to **Hope**, 1 run
-[SHOT] keeps it straighter that time, stump to stump, **Hope** flicks off a length into the leg side, but can't beat the in field
-[SHOT] good length outside off, **Hope** defends off the front foot to cover
-brings it closer to the stumps that time and **Hope** pushes it to cover from off stump
-keeps the length a bit fuller and gets it to shape away but he line is still well outside off. **Hope**'s not interested
-keeps it on that well outside off line and **Hope** is happy to shoulder arms again
-back of a length outside off, shaping away a touch, and **Hope** shoulders arms again
-Ominously dark clouds overhead, but hopefully they just stay overhead.
-[SHOT] Saifuddin to **Hope**, FOUR runs
-[SHOT] too full and too wide, another free gift and Shai **Hope** has a free swing of his bat to drive it through cover
-[SHOT] Bad ball to start with and you don't bowl that to a man in Shai **Hope**'s form. Too full and on the pads, he flicks it effortlessly to the midwicket boundary
-
-Commentary 4:
-**Hope**/Campbell passed Tendulkar/Dravid's 331-run stand v New Zealand in 1999 for the second-highest partnership for any wicket in ODIs. And fell seven short of WI's best by Gayle and Samuels at the 2015 World Cup. That said, both have given their credentials a massive lift and have put themselves in the fray to be considered in the first XI even when the superstars return.
-Shai **Hope**: Really enjoyed it. No idea my average was best among all West Indies batsmen who have made 1000 runs.
-[DISMISSAL] McCarthy to **Hope**, OUT
-[DISMISSAL] Shai **Hope** c Tucker b McCarthy 170 (152b 22x4 2x6) SR: 111.84
-McCarthy to **Hope**, no run
-[SHOT] Adair to **Hope**, SIX runs
-Little to **Hope**, no run
-McCarthy to **Hope**, 1 wide
-[SHOT] slips in a wide ball down leg, **Hope** looking to pull but missed
-[SHOT] Murtagh to **Hope**, FOUR runs
-[CONDITION] the wheel are truly coming off now, this is quickly turning into stick cricket madness! Slower ball, too short and **Hope** stayed still and muscled this one bounce to the long-on boundary
-McCarthy to **Hope**, 1 run
-[QUOTE] Aj : "I've always been an advocate for **Hope** to be Gayle's replacement once he retires but maybe it's another Jamaican in Campbell"
-Little to **Hope**, 1 wide
-[DISMISSAL] what a way to get to your century! This is nice and full and **Hope** shows the full face to lace this back the ground. Knew it was four once it bisected mid-on and mid-off. Arms out, soaks in the applause, puts his helmet back on. Fifth ODI century for him
-Stirling to **Hope**, no run
-[SHOT] full, lots of width, **Hope** flows forward to drive to the left of extra-cover, and he leaves the sweeper with no chance of cutting it off to his right
-K O'Brien to **Hope**, 1 run
-K O'Brien to **Hope**, no run
-K O'Brien to **Hope**, 1 wide
-Stays over the wicket to **Hope**.
-[CONDITION] ooh, a bit of extra bounce there, and nips away off the seam too. Shortish outside off, and **Hope** is beaten as he tries to stab it towards point
-[SHOT] McCarthy to **Hope**, FOUR runs
-[SHOT] wide half-volley, so much width, and **Hope** gets forward and brings those wrists into play once more to drive to the left of extra-cover
-short, a bit of width, and **Hope** stands tall to force it away to the right of deep cover point
-[SHOT] tossed up now, angling in towards off stump. **Hope** pushes forward to defend, playing for non-existent turn, and ends up inside-edging into the leg side
-[QUOTE] Johnathan Bovel: "Ireland needs to get a wicket very soon, **Hope** is very dangerous and if Campbell is allowed to play his shots this can be one wild ride"
-Dockrell to **Hope**, 1 wide
-[SHOT] fired down leg, **Hope** misses the flick
-Dockrell to **Hope**, 2 runs
-[DISMISSAL] full, angling into the stumps, and a big lbw shout as **Hope** closes his bat face early to try and work it leg side. It hits the back of the bat, in fact, and runs away to the third man boundary
-Dockrell to **Hope**, 1 run
-[CONDITION] tossed up slow and just outside off, errs by landing this a touch too full, and **Hope** gets on the front foot and hoicks it away over mid-on to bring up his fifty
-shot! That's overpitched, angling into off stump, and **Hope** gets his front pad away from the line and brings his bat down perfectly vertical to send the ball running away past the bowler's right foot
-[DISMISSAL] nice flight, angling in towards off stump and dipping slightly on **Hope** as he stretches out to defend. Goes on with the angle and takes the inside edge, rolls gently into the leg side
-Round the wicket now to **Hope**.
-Murtagh to **Hope**, 1 leg bye
-McCarthy to **Hope**, 3 runs
-[SHOT] gorgeous extra cover drive. This was overpitched and asking to be hit, **Hope** did just that
-[QUOTE] Amjad says: "For 9 overs, I have been wondering what's going on, and when I was about to send in my wrath for Shai **Hope**, I realised it's an ODI. WI and T20 are so synonymous ... "
-Murtagh to **Hope**, 2 runs
-[CONDITION] Aleem Dar is speaking to Shai **Hope** for running on the pitch
-Adair to **Hope**, 3 runs
-**Hope** standing well outside the crease
-
-Commentary 5:
-[CONDITION] Time for some presentations Here's Morgan: "We struggled throughout with the bat, to adapt to extra bounce, it's not something we come up against often. We struggled massively, it was a one-horse race and we didn't deserve to win the game. It's difficult to curb what's been our natural reaction. We need to find a way to occupy the crease, score runs. You have to be in a good enough headspace to adapt, but I **hope** we can learn from our mistakes, and look forward not back."
-[DISMISSAL] Woakes to **Hope**, OUT
-[SHOT] or not! **Hope** slogs across the line as Woakes takes pace off the ball on a full length, and a grotty innings comes to an end. He really wasn't feeling it today, but it is scarcely going to matter!
-[DISMISSAL] Shai **Hope** b Woakes 13 (18b 0x4 1x6) SR: 72.22
-Woakes to **Hope**, no run
-blocked once more, **Hope** can't **hope** to match what's gone before, so he's just setting himself to see it through
-Woakes to **Hope**, 2 runs
-[SHOT] Woakes to **Hope**, SIX runs
-[SHOT] pummelled over long-off! A fraction back-of-a-length, so **Hope** this time leans back on the drive and lifts it over the rope!
-Wood to **Hope**, 2 runs
-[DISMISSAL] fires in the yorker, clipped out to leg, as **Hope** gets some rare runs to interrupt the Gayle storm
-[DISMISSAL] full and straight, thumps the pad, and given! **Hope** reviews, out of **hope**, rather than expectation? It might conceivably be high ... but no bat involved. Impact in line but missing the top of leg! A good review, and England have another wicket overturned!
-Wood to **Hope**, 1 run
->>>>>>> c1803c2e140c657cd69bcb7558ccaba3445f7990
 
 ---
 Please produce your integrated analysis with step-by-step reasoning as described,

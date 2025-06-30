@@ -34,7 +34,7 @@ def run_command(command):
         raise RuntimeError(f"Command failed (exit code={return_code}):\n{command}")
 
 def main():
-    commands_file = "ibrahim_zadran_commands.txt"
+    commands_file = "harry_tector_commands.txt"
 
     if not os.path.exists(commands_file):
         print(f"[ERROR] File not found: {commands_file}")
