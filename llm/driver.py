@@ -581,7 +581,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **Concise Final Statement**  
 
 6. **Exact Output Formatting Requirements**  
-   - Present your probability breakdown EXACTLY as follows with no extra text in this section:  
+   - Present your probability breakdown EXACTLY as follows with no extra text/explanation in this section:  
      Bowled: <number>%  
      Caught by a fielder: <number>%  
      Caught by the wicketkeeper: <number>%  
@@ -590,7 +590,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
      Hit wicket: <number>%  
      Caught and bowled: <number>%  
      Not-out: <number>%  
-   - Then, finish with this exact text (again, to be parsed automatically):  
+   - Then, finish with this exact text:  
      most likely mode of dismissal for {player_name} is <mode>\
 """
 
@@ -677,7 +677,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     # sys.exit(0)
 
     # 6) LLM call
-    model_name="gpt-4.1"
+    model_name="o4-mini"
     llm_response_text = call_llm_api(master_prompt, api_key=final_api_key, model_name=model_name)
 
     llm_txt_path = os.path.join(script_dir, "llm_response_output.txt")
