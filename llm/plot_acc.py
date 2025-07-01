@@ -7,8 +7,8 @@ from scipy.stats import norm
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-PLAYER = "Shubman Gill"
-MODEL = "gpt-4.1-mini"
+PLAYER = "Harry Tector"
+MODEL = "gpt-4.1"
 CSV_PATH = f"{PLAYER}_prediction_results_{MODEL}.csv"
 PLOTS_DIR = f"plots/{PLAYER}/{MODEL}"
 os.makedirs(PLOTS_DIR, exist_ok=True)

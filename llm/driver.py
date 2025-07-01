@@ -581,7 +581,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
    - **Concise Final Statement**  
 
 6. **Exact Output Formatting Requirements**  
-   - Present your probability breakdown EXACTLY as follows (one entry per line, preserving the exact text and punctuation so it can be parsed automatically):  
+   - Present your probability breakdown EXACTLY as follows with no extra text in this section:  
      Bowled: <number>%  
      Caught by a fielder: <number>%  
      Caught by the wicketkeeper: <number>%  
@@ -677,7 +677,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     # sys.exit(0)
 
     # 6) LLM call
-    model_name="gpt-4.1-mini"
+    model_name="gpt-4.1"
     llm_response_text = call_llm_api(master_prompt, api_key=final_api_key, model_name=model_name)
 
     llm_txt_path = os.path.join(script_dir, "llm_response_output.txt")
