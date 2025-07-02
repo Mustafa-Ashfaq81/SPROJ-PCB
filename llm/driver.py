@@ -228,8 +228,9 @@ def parse_llm_analysis(llm_text: str, player_name: str):
         (?:[*\-–—‣●▪•\u2022\u2023\u25E6\u2043]+\s*)?           # bullet glyphs
         (?P<mode>[^:：–—\n]+?)                                 # mode text
         \s*[:：–—]\s*                                          # separator
-        (?P<pct>\d+(?:\.\d+)?)\s*                              # number (int/float)
-        (?:%|％|percent)?\s*$                                  # percent token
+        (?P<pct>\d+(?:\.\d+)?)\s*                             # number (int/float)
+        (?:%|％|percent)                                      # percent token (now required)
+        (?:\s*\(.*?\))?\s*$                                   # optional details in parentheses
         """,
         re.IGNORECASE | re.MULTILINE | re.VERBOSE | re.UNICODE,
     )
