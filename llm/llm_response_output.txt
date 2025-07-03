@@ -1,89 +1,42 @@
-**Step 1: Examine General Career Stats**  
-- Not Available. Move on to specific data.
+Analysis:
 
-**Step 2: Venue-Wise Stats (Ireland, ODI, 2021)**  
-- 3 matches, 3 innings, 3 dismissals.
-- Dismissals at venue:
-    - Right arm Pace: 2 (1 caught-fielder, 1 caught-wk)
-    - Left arm Spin: 1 (1 lbw)
+Step 1: General Career Stats  
+– Not available, so we move to venue- and opponent-level data.
 
-- Venue dismissal raw counts:
-    - Bowled: 0  
-    - Caught-fielder: 1  
-    - Caught-wk: 1  
-    - LBW: 1  
-    - Stumped: 0  
-    - Hit wicket: 0  
-    - Caught & bowled: 0  
-    - Not-out: 0
+Step 2: Venue-Wise Stats (Ireland)  
+Total dismissals in Ireland: 3  
+• Caught by fielder: 1 (33.3%) – (Ireland dismissals: 3 total; caught-fielder: 1)  
+• Caught by wicketkeeper: 1 (33.3%) – (caught-wk: 1)  
+• LBW: 1 (33.3%) – (lbw: 1)  
+• Bowled, stumped, hit wicket, caught & bowled: 0  
 
-**Step 3: Opponent-Wise Stats (South Africa, ODI, 2021)**  
-- 3 matches/inngs/dismissals (identical to venue stats above).
-- Dismissals:
-    - Right arm Pace: 2 (1 caught-fielder, 1 caught-wk)
-    - Left arm Spin: 1 (1 lbw)
+Step 3: Opponent-Wise Stats (vs South Africa)  
+Identical to venue data (3 dismissals: 1 caught-fielder, 1 caught-wk, 1 lbw).
 
-- Opponent dismissal raw counts:  
-    - Mirrors venue stats.
+Step 4: Recent Commentary (Primary Signal)  
+Four recent dismissals of Tector:  
+1) Phehlukwayo batted → Tector c Rabada b Phehlukwayo (caught-fielder)  
+2) Rabada → Tector c †Verreynne b Rabada (caught-wk)  
+3) van Beek → Tector c †Edwards b van Beek (caught-wk)  
+4) Klaassen → Tector lbw b Klaassen (lbw)  
 
-**Step 4: Recent Commentary**  
-**Key Dismissal Evidence (high signal):**
-- Commentary 1 (v SA):  
-    - Tector scored 79, "finds deep point after making a lot of room and that's the end"  
-    - "[DISMISSAL] Harry Tector c Rabada b Phehlukwayo 79" – caught by a fielder at point, lofted/finding the fielder.
-- Commentary 2 (v SA):  
-    - "[DISMISSAL] Harry Tector c †Verreynne b Rabada 25" – short outside off, cut shot, outside edge, caught behind (caught-wk).
-- Commentary 3 (Netherlands):  
-    - "[DISMISSAL] Harry Tector c †Edwards b van Beek 58" – back of a length, extra bounce, tries to guide, edges to keeper (caught-wk).  
-    - Also a close LBW call, but not given due to inside edge.
-- Commentary 5 (Netherlands):  
-    - "[DISMISSAL] Harry Tector lbw b Klaassen" – good length, straightens, played inside line, LBW.
+Frequencies from commentary (4 dismissals):  
+• Caught by wicketkeeper: 2/4 = 50%  
+• Caught by fielder: 1/4 = 25%  
+• LBW: 1/4 = 25%  
+• All other modes: 0  
 
-**Other Commentary Cues:**
-- Many references to pitched-up, short, and attempted ramp/cut shots. Tector aggressive against pace, especially at death (ramp, cut, aerial) – has been dismissed slicing/picking out fielders and with the edge (caught-wk).
-- Pace bowlers getting wickets with both hostile short and full balls.
-- Some signs of susceptibility to LBW from left arm spin/pacers straightening it.
-- Pitch notes: Slightly stoppy/slower surface (could promote mis-hits/catches).
+Step 5: Integration & Prioritization  
+Recent commentary is highest-signal. Venue and opponent splits support that caught-wk, caught-fielder, and lbw are the only modes observed. Commentary weights: caught-wk highest (50%), then caught-fielder and lbw (25% each).
 
-**Step 5: Integrate & Prioritize All Data Sources**
-- Recent commentary is *primary driver*: Of last 5 innings, 2 dismissals caught by wicketkeeper (one edge to slip, one edge to keeper), 1 caught by fielder (point, slicing a drive/cut), 1 LBW (netherlands), all others not-out or not relevant.
-- Venue/Opponent stats confirm: of 3 outs vs SA and at venue, 1 was caught-fielder, 1 caught-wk, 1 lbw (left-arm spin).
-
-**Step 6: Final Prediction & Justification**
-- **Weakness evidence:**  
-  - Shows a tendency to get out caught behind (driving/cutting/edging pace outside off and on-the-rise back of length balls).
-  - Also, some risk from aggressive play, slicing to point/deep.
-  - Occasional LBW, more from round the wicket and left arm bowlers straightening it.
-
-- **Pitch/condition context:**  
-  - Par/avg scores, but bit of slowness/stoppage – so mis-hits and slices likely.
-  - Pacers failing with yorkers, spinners stifling (risk against both for different dismissals).
-
-- **Probability breakdown justification (parentheticals):**
-  - Of 3 outs vs SA (venue/opponent stats): 1 each of caught-wk, caught-fielder, lbw.
-  - In last 5 commentary-documented games: 2 caught-wk, 1 caught-fielder, 1 lbw.
-  - No evidence for bowled, stumped, hit wicket, caught & bowled.
-  - Not-out very unlikely: all innings in these samples ended in a dismissal, sometimes after long knocks.
-
-- **Weighting:** Recent commentary (4 dismissals: 2 caught-wk, 1 caught-fielder, 1 lbw) takes slightly more weight, but not total; small chance for not-out.
-
-**PROBABILITY BREAKDOWN:**  
-- Bowled: 0% (No cases in venue/opp/comm)  
-- Caught by a fielder: 30% (1/3 venue/opp stats, 1/4 recent commentary, all recent commentary outs via aerial/slice/cut, plus pitch mis-hit risk)  
-- Caught by the wicketkeeper: 40% (2/4 recent commentary, often edges versus pace and bounce; also 1/3 vs SA/venue, ties with caught fielder but recent trend slightly higher)  
-- Stumped: 0% (No evidence in any recent comm or stats)  
-- LBW: 20% (1/3 venue and opponent stats, 1/4 recent comm, often to left arm spin/pace, some playing across/missed lines)  
-- Hit wicket: 0% (No evidence)  
-- Caught and bowled: 0% (No evidence)  
-- Not-out: 10% (No not-outs in sample, but small buffer for unbeaten risk, aggressive batting makes not-out improbable but not impossible)
-
-**Exact Output Formatting Requirements:**  
+Step 6: Final Prediction  
 Bowled: 0%  
-Caught by a fielder: 30%  
-Caught by the wicketkeeper: 40%  
+Caught by a fielder: 25%  
+Caught by the wicketkeeper: 50%  
 Stumped: 0%  
-LBW: 20%  
+LBW: 25%  
 Hit wicket: 0%  
 Caught and bowled: 0%  
-Not-out: 10%  
+Not-out: 0%
+
 most likely mode of dismissal for Harry Tector is Caught by the wicketkeeper
