@@ -678,7 +678,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     # sys.exit(0)
 
     # 6) LLM call
-    model_name="o4-mini"
+    model_name="gpt-4.1-nano"
     llm_response_text = call_llm_api(master_prompt, api_key=final_api_key, model_name=model_name)
 
     llm_txt_path = os.path.join(script_dir, "llm_response_output.txt")
