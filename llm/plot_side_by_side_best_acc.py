@@ -192,7 +192,7 @@ for metric in METRICS:
     if df.empty:
         continue
 
-    csv_out = f"plots/csv/best_{metric}.csv"
+    csv_out = f"plots/figures/best_{metric}.csv"
     df.to_csv(csv_out, index=False)
     print(f"✓ Saved {csv_out}")
 
