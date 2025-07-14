@@ -70,12 +70,11 @@ BLOCK_ID_MAP = {
 
 # ensure folders exist
 os.makedirs("plots", exist_ok=True)
-os.makedirs("plots/csv", exist_ok=True)
-os.makedirs("plots/figures", exist_ok=True)
+os.makedirs("plots/side_by_side_bar", exist_ok=True)
 
 # Save mapping as CSV
 pd.Series(BLOCK_ID_MAP, name="category_id").sort_values().to_csv(
-    "plots/csv/category_id_mapping.csv", header=True
+    "plots/side_by_side_bar/category_id_mapping.csv", header=True
 )
 
 plt.rcParams.update(
@@ -192,7 +191,7 @@ for metric in METRICS:
     if df.empty:
         continue
 
-    csv_out = f"plots/figures/best_{metric}.csv"
+    csv_out = f"plots/side_by_side_bar/best_{metric}.csv"
     df.to_csv(csv_out, index=False)
     print(f"✓ Saved {csv_out}")
 
@@ -264,7 +263,7 @@ for metric in METRICS:
     )
 
     plt.tight_layout(rect=[0, 0.25, 1, 0.93])
-    out_png = f"plots/figures/best_{metric}_grouped_clean.png"
+    out_png = f"plots/side_by_side_bar/best_{metric}_grouped_clean.png"
     plt.savefig(out_png, bbox_inches="tight")
     plt.close()
     print(f"✓ Saved {out_png}")
