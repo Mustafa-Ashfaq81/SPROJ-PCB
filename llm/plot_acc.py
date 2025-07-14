@@ -22,9 +22,9 @@ plt.rcParams.update({
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-PLAYER = "Charith Asalanka"
-MODEL = "gpt-4.1"
-TEAM = "Sri Lanka"
+PLAYER = "Shubman Gill"
+MODEL = "gpt-4.1-nano"
+TEAM = "India"
 CSV_PATH = f"{PLAYER}_prediction_results_{MODEL}.csv"
 PLOTS_DIR = f"plots/{PLAYER}/{MODEL}"
 os.makedirs(PLOTS_DIR, exist_ok=True)
@@ -373,14 +373,27 @@ def save_errorbar(col_acc: str, out_path: str, title: str):
 
     for bar in bars:
         height = bar.get_height()
-        ax.text(
-            bar.get_x() + bar.get_width() / 2,
-            height + 2,
-            f"{height:.1f}%",
-            ha="center",
-            va="bottom",
-            fontsize=9,
-        )
+        if height > 15:
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                height / 2,
+                f"{height:.1f}%",
+                ha='center',
+                va='center',
+                color='white',
+                fontsize=9,
+                weight='bold'
+            )
+        else:
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                height + 2,
+                f"{height:.1f}%",
+                ha='center',
+                va='bottom',
+                fontsize=8,
+                color='dimgray'
+            )
 
     ax.set_ylabel("Accuracy (%)")
     ax.set_title(title + " (95% Wilson CI with bounds)")
