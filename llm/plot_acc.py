@@ -22,9 +22,9 @@ plt.rcParams.update({
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-PLAYER = "Shubman Gill"
-MODEL = "gpt-4.1-nano"
-TEAM = "India"
+PLAYER = "Babar Azam"
+MODEL = "gpt-4.1"
+TEAM = "Pakistan"
 CSV_PATH = f"{PLAYER}_prediction_results_{MODEL}.csv"
 PLOTS_DIR = f"plots/{PLAYER}/{MODEL}"
 os.makedirs(PLOTS_DIR, exist_ok=True)
@@ -193,21 +193,36 @@ df["top2_correct"] = df.apply(topk_hit, axis=1)
 # NEW: Compute true-mode correctness
 # ------------------------------------------------------------------
 
+# Calculate number of unique matches
+n_blocks = 9
+n_matches = len(df) // n_blocks
+
+# Restrict to rows for the first block only (Baseline)
+df_true = df.iloc[:n_matches].copy()
+
 # Add constant columns for true top-1 and top-2 modes
-df["most_frequent_mode"] = top1_mode
-df["top1_true_mode_correct"] = (
-    df["most_frequent_mode"].str.strip() ==
-    df["mode_of_dismissal_ground_truth"].str.strip()
+df_true["most_frequent_mode"] = top1_mode
+
+# Compute true-mode correctness for top-1
+df_true["top1_true_mode_correct"] = (
+    df_true["most_frequent_mode"].str.strip() ==
+    df_true["mode_of_dismissal_ground_truth"].str.strip()
 )
 
-df["top2_true_mode_correct"] = df["mode_of_dismissal_ground_truth"].str.strip().isin(top2_modes)
+# Compute true-mode correctness for top-2
+df_true["top2_true_mode_correct"] = df_true[
+    "mode_of_dismissal_ground_truth"
+].str.strip().isin(top2_modes)
 
 # Compute overall true top-1 and top-2 accuracy
-true_top1_accuracy = df["top1_true_mode_correct"].mean() * 100
-true_top2_accuracy = df["top2_true_mode_correct"].mean() * 100
+true_top1_accuracy = df_true["top1_true_mode_correct"].mean() * 100
+true_top2_accuracy = df_true["top2_true_mode_correct"].mean() * 100
 
 # Store n
-true_n = len(df)
+true_n = len(df_true)
+print(f"-"*100)
+print(f"Number of matches for {PLAYER}: {true_n}")
+print(f"-"*100)
 
 print(f"[INFO] True Top-1 Accuracy: {true_top1_accuracy:.2f}%")
 print(f"[INFO] True Top-2 Accuracy: {true_top2_accuracy:.2f}%")
@@ -427,9 +442,21 @@ def recall_for_block(block_name):
         recalls.append(correct / total if total else np.nan)
     return np.array(recalls)
 
-blocks_cmp = ["Top Career Dismissal", unique_order[-1]]
-rec_baseline = recall_for_block("Top Career Dismissal")
+# Define helper
+def recall_for_df(sub_df):
+    gt = sub_df["mode_of_dismissal_ground_truth"].str.strip()
+    pred = sub_df["most_likely_mode"].str.strip()
+    recalls = []
+    for lab in labels:
+        total = (gt == lab).sum()
+        correct = ((gt == lab) & (pred == lab)).sum()
+        recalls.append(correct / total if total else np.nan)
+    return np.array(recalls)
+
+# Compute recall for true career dismissals and full features
+rec_baseline = recall_for_df(df_true)
 rec_full = recall_for_block(unique_order[-1])
+blocks_cmp = ["Top Career Dismissal", unique_order[-1]]
 rec_matrix = np.vstack([rec_baseline, rec_full]) * 100
 
 fig, ax = plt.subplots(figsize=(11, 3))

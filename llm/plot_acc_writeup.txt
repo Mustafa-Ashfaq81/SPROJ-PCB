@@ -1,0 +1,39 @@
+✅ Short Write-Up for Paper Figures
+Bar Plots (Top-1 and Top-2 Accuracy)
+
+Show the prediction accuracy for each feature block compared to the player’s Top Career Dismissal baseline.
+
+Higher bars indicate better alignment between model predictions and true dismissals.
+
+Demonstrate how adding statistical features progressively improves predictive performance.
+
+Waterfall Plots
+
+Visualize the incremental gains or losses in accuracy when features are added to the model.
+
+Bars above zero reflect feature blocks that improve prediction accuracy.
+
+Help identify which features contribute most substantially.
+
+Error Bar Plots
+
+Display mean prediction accuracy per feature block with 95% Wilson confidence intervals.
+
+Provide insight into the certainty and variability of model performance estimates.
+
+Allow comparisons between model-based predictions and the career dismissal baseline.
+
+Recall Heatmap
+
+Shows the per-class recall (true positive rate) for each dismissal type under:
+
+the baseline (Top Career Dismissal) and
+
+the full model with all features.
+
+Highlights which specific dismissal types are better predicted by the models.
+
+Useful for detecting dismissal modes that remain challenging despite added features.
+
+✅ Single-Sentence Summary
+These plots collectively illustrate how predictive models benefit from statistical features and how well they align with a player’s actual career dismissal profile, helping assess model validity and identify areas for further improvement.
