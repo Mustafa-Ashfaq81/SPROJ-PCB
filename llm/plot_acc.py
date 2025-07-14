@@ -3,12 +3,28 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 from scipy.stats import norm
+import subprocess
+import json
+
+plt.rcParams.update({
+    "font.size": 12,
+    "axes.titlesize": 14,
+    "axes.labelsize": 13,
+    "xtick.labelsize": 11,
+    "ytick.labelsize": 11,
+    "legend.fontsize": 11,
+    "figure.facecolor": "white",
+    "axes.facecolor": "white",
+    "axes.edgecolor": "black",
+    "axes.linewidth": 0.8,
+})
 
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-PLAYER = "Babar Azam"
-MODEL = "o4-mini"
+PLAYER = "Charith Asalanka"
+MODEL = "gpt-4.1"
+TEAM = "Sri Lanka"
 CSV_PATH = f"{PLAYER}_prediction_results_{MODEL}.csv"
 PLOTS_DIR = f"plots/{PLAYER}/{MODEL}"
 os.makedirs(PLOTS_DIR, exist_ok=True)
@@ -20,6 +36,24 @@ WATER_TOP2_PNG   = plot_path("waterfall_top2.png")
 ERR_TOP1_PNG     = plot_path("top1_accuracy_ci.png")
 ERR_TOP2_PNG     = plot_path("top2_accuracy_ci.png")
 HEAT_PNG         = plot_path("recall_heatmap.png")
+
+# ---------------------------------------------------------------
+# NEW: Utilities for loading true dismissal stats
+# ---------------------------------------------------------------
+
+def run_subprocess(command):
+    """Run a shell command and raise error if it fails."""
+    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(result.stdout)
+        print(result.stderr)
+        raise RuntimeError(f"Subprocess failed: {command}")
+    return result.stdout
+
+def load_json_file(path):
+    """Load a JSON file from disk."""
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 # ------------------------------------------------------------------
 # 1. Load data
@@ -33,6 +67,63 @@ except FileNotFoundError as e:
     ) from e
 
 df = df.reset_index(drop=True)
+
+# ------------------------------------------------------------------
+# NEW: Compute True Dismissal statistics
+# ------------------------------------------------------------------
+
+# 1) Run external script to generate player stats
+print("\n[INFO] Running get_player_stats.py ...")
+safe_player_name = PLAYER.lower().replace(' ', '_')
+cmd_general = (
+    f"python ../cricinfo_data_scrapping/Scripts/get_player_stats.py "
+    f"\"{PLAYER}\" \"{TEAM}\" all all"
+)
+try:
+    run_subprocess(cmd_general)
+except RuntimeError:
+    print("[WARNING] get_player_stats script may have failed.")
+
+# 2) Load JSON output
+general_stats_filename = f"{safe_player_name}_all_span_stats.json"
+general_stats_path = os.path.join(
+    "..", "cricinfo_data_scrapping", "aggregated_stats", general_stats_filename
+)
+general_stats = load_json_file(general_stats_path)
+
+# 3) Sum dismissal frequencies
+dismissal_map = {
+    "bowled": "Bowled",
+    "caught-fielder": "Caught-Fielder",
+    "caught wk": "Caught-Wicketkeeper",
+    "lbw": "LBW",
+    "stump": "Stumped",
+    "hit wicket": "Hit-Wicket",
+    "caught and bowled": "Caught-and-Bowled",
+}
+
+agg_counts = {label: 0 for label in dismissal_map.values()}
+for entry in general_stats["dismissals"]:
+    for key, label in dismissal_map.items():
+        agg_counts[label] += entry.get(key, 0)
+
+# Add Not-Outs
+agg_counts["Not-Out"] = general_stats["batting"]["Not Outs"]
+print(agg_counts)
+
+# Determine top-1 mode
+top1_mode = max(agg_counts.items(), key=lambda x: x[1])[0]
+
+# Determine top-2 modes
+sorted_modes = sorted(
+    agg_counts.items(), key=lambda x: x[1], reverse=True
+)
+top2_modes = [sorted_modes[0][0]]
+if len(sorted_modes) > 1:
+    top2_modes.append(sorted_modes[1][0])
+
+print(f"[INFO] True top-1 mode: {top1_mode}")
+print(f"[INFO] True top-2 modes: {top2_modes}")
 
 # ------------------------------------------------------------------
 # 2. Normalize feature flag formats ("on"/"off" → 1/0)
@@ -99,6 +190,29 @@ def topk_hit(row, k=2):
 df["top2_correct"] = df.apply(topk_hit, axis=1)
 
 # ------------------------------------------------------------------
+# NEW: Compute true-mode correctness
+# ------------------------------------------------------------------
+
+# Add constant columns for true top-1 and top-2 modes
+df["most_frequent_mode"] = top1_mode
+df["top1_true_mode_correct"] = (
+    df["most_frequent_mode"].str.strip() ==
+    df["mode_of_dismissal_ground_truth"].str.strip()
+)
+
+df["top2_true_mode_correct"] = df["mode_of_dismissal_ground_truth"].str.strip().isin(top2_modes)
+
+# Compute overall true top-1 and top-2 accuracy
+true_top1_accuracy = df["top1_true_mode_correct"].mean() * 100
+true_top2_accuracy = df["top2_true_mode_correct"].mean() * 100
+
+# Store n
+true_n = len(df)
+
+print(f"[INFO] True Top-1 Accuracy: {true_top1_accuracy:.2f}%")
+print(f"[INFO] True Top-2 Accuracy: {true_top2_accuracy:.2f}%")
+
+# ------------------------------------------------------------------
 # 6. Aggregate accuracy by block
 # ------------------------------------------------------------------
 summary = (
@@ -115,6 +229,26 @@ summary = summary.sort_values("block")
 summary["top1_acc"] = (summary["top1_acc"] * 100).round(2)
 summary["top2_acc"] = (summary["top2_acc"] * 100).round(2)
 
+# ------------------------------------------------------------------
+# NEW: Add True Dismissal row to summary
+# ------------------------------------------------------------------
+
+true_row = pd.DataFrame([{
+    "block": "Top Career Dismissal",
+    "top1_acc": round(true_top1_accuracy, 2),
+    "top2_acc": round(true_top2_accuracy, 2),
+    "n": true_n
+}])
+
+# Prepend True dismissal row at the start
+summary = pd.concat([true_row, summary], ignore_index=True)
+
+# Update categorical ordering
+new_order = ["Top Career Dismissal"] + unique_order
+summary["block"] = pd.Categorical(summary["block"], categories=new_order, ordered=True)
+summary = summary.sort_values("block")
+
+
 print("\n=== Accuracy per Feature Block ===")
 print(summary.to_string(index=False))
 
@@ -126,15 +260,27 @@ def make_bar(summary_col: str, ylabel: str, title: str, save_path: str):
     colors = []
     for i in range(len(values)):
         if i == 0:
-            colors.append("gray")
+            colors.append("#999999")   # baseline grey
         else:
-            colors.append("tab:blue" if values[i] >= values[i - 1] else "tab:red")
-    plt.figure(figsize=(8, 5))
-    plt.bar(summary["block"], values, color=colors)
-    plt.ylabel(ylabel)
-    plt.title(title)
-    plt.ylim(0, 100)
-    plt.xticks(rotation=25, ha="right")
+            colors.append("#2A788E")   # teal
+
+    fig, ax = plt.subplots(figsize=(8, 5), dpi=150)
+    bars = ax.bar(
+        summary["block"],
+        values,
+        color=colors,
+        edgecolor="black",
+        linewidth=0.5,
+    )
+    ax.set_ylabel(ylabel)
+    ax.set_title(title)
+    ax.set_ylim(0, 100)
+    ax.set_xticklabels(summary["block"], rotation=25, ha="right")
+
+    # Add grid and style
+    ax.grid(axis="y", linestyle=":", linewidth=0.6, alpha=0.65)
+    ax.spines[["right", "top"]].set_visible(False)
+
     plt.tight_layout()
     plt.savefig(save_path, dpi=300, bbox_inches="tight")
     plt.close()
@@ -155,18 +301,41 @@ def waterfall(col_delta: str, col_cum: str, out_path: str, title: str):
     dx = summary["block"]
     delta = summary[col_delta]
     cum = summary[col_cum]
-    fig, ax = plt.subplots(figsize=(9, 5))
+
+    fig, ax = plt.subplots(figsize=(9, 5), dpi=150)
     base = 0
     for i, (lbl, gain) in enumerate(zip(dx, delta)):
-        color = "tab:blue" if gain >= 0 else "tab:red"
-        ax.bar(i, gain, bottom=base, width=0.6, color=color)
-        ax.text(i, base + gain/2, f"{gain:+.2f} pp", ha="center", va="center", color="white", fontsize=9, weight="bold")
+        color = "#2A788E" if gain >= 0 else "#A52A2A"
+        ax.bar(
+            i,
+            gain,
+            bottom=base,
+            width=0.6,
+            color=color,
+            edgecolor="black",
+            linewidth=0.5,
+        )
+        ax.text(
+            i,
+            base + gain / 2,
+            f"{gain:+.2f} pp",
+            ha="center",
+            va="center",
+            color="white",
+            fontsize=9,
+            weight="bold",
+        )
         base += gain
+
     ax.set_xticks(range(len(dx)))
     ax.set_xticklabels(dx, rotation=25, ha="right")
     ax.set_ylabel("Top Accuracy (%)")
     ax.set_title(title)
     ax.set_ylim(0, 100)
+
+    ax.grid(axis="y", linestyle=":", linewidth=0.6, alpha=0.65)
+    ax.spines[["right", "top"]].set_visible(False)
+
     plt.tight_layout()
     plt.savefig(out_path, dpi=300, bbox_inches="tight")
     plt.close()
@@ -190,19 +359,36 @@ def save_errorbar(col_acc: str, out_path: str, title: str):
     summary["error_below"] = summary[col_acc] - summary["ci_low"]
     summary["error_above"] = summary["ci_high"] - summary[col_acc]
 
-    fig, ax = plt.subplots(figsize=(10, 6))
-    bars = ax.bar(summary["block"], summary[col_acc],
-                  yerr=[summary["error_below"], summary["error_above"]],
-                  capsize=6, color="mediumpurple", alpha=0.8)
+    fig, ax = plt.subplots(figsize=(10, 6), dpi=150)
+    bars = ax.bar(
+        summary["block"],
+        summary[col_acc],
+        yerr=[summary["error_below"], summary["error_above"]],
+        capsize=6,
+        color="#2A788E",
+        edgecolor="black",
+        linewidth=0.5,
+        alpha=0.85,
+    )
 
-    for bar, low, high in zip(bars, summary["ci_low"], summary["ci_high"]):
+    for bar in bars:
         height = bar.get_height()
-        ax.text(bar.get_x() + bar.get_width() / 2, height + 2,
-                f"  [{low:.1f}, {high:.1f}]%", ha='center', va='bottom', fontsize=9)
+        ax.text(
+            bar.get_x() + bar.get_width() / 2,
+            height + 2,
+            f"{height:.1f}%",
+            ha="center",
+            va="bottom",
+            fontsize=9,
+        )
 
     ax.set_ylabel("Accuracy (%)")
     ax.set_title(title + " (95% Wilson CI with bounds)")
     ax.set_ylim(0, 100)
+
+    ax.grid(axis="y", linestyle=":", linewidth=0.6, alpha=0.65)
+    ax.spines[["right", "top"]].set_visible(False)
+
     plt.xticks(rotation=25, ha="right")
     plt.tight_layout()
     plt.savefig(out_path, dpi=300, bbox_inches="tight")
@@ -228,10 +414,10 @@ def recall_for_block(block_name):
         recalls.append(correct / total if total else np.nan)
     return np.array(recalls)
 
-rec_baseline = recall_for_block(unique_order[0])
+blocks_cmp = ["Top Career Dismissal", unique_order[-1]]
+rec_baseline = recall_for_block("Top Career Dismissal")
 rec_full = recall_for_block(unique_order[-1])
 rec_matrix = np.vstack([rec_baseline, rec_full]) * 100
-blocks_cmp = [unique_order[0], unique_order[-1]]
 
 fig, ax = plt.subplots(figsize=(11, 3))
 im = ax.imshow(rec_matrix, cmap="YlOrRd", vmin=0, vmax=100)
