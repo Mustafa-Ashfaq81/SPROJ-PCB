@@ -22,9 +22,9 @@ plt.rcParams.update({
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-PLAYER = "Babar Azam"
-MODEL = "gpt-4.1"
-TEAM = "Pakistan"
+PLAYER = "Shubman Gill"
+MODEL = "gpt-4.1-nano"
+TEAM = "India"
 CSV_PATH = f"{PLAYER}_prediction_results_{MODEL}.csv"
 PLOTS_DIR = f"plots/{PLAYER}/{MODEL}"
 os.makedirs(PLOTS_DIR, exist_ok=True)
