@@ -301,10 +301,10 @@ def make_bar(summary_col: str, ylabel: str, title: str, save_path: str):
     plt.close()
     print(f"Saved plot → {os.path.abspath(save_path)}")
 
-make_bar("top1_acc", "Top-1 Accuracy (%)",
-         "Ablation Study - Top-1 Accuracy per Feature Set", TOP1_PLOT_PATH)
-make_bar("top2_acc", "Top-2 Accuracy (%)",
-         "Ablation Study - Top-2 Accuracy per Feature Set", TOP2_PLOT_PATH)
+make_bar("top1_acc", "Accuracy (%)",
+         f"{PLAYER} - {MODEL} - Top-1 Accuracy per Feature Set", TOP1_PLOT_PATH)
+make_bar("top2_acc", "Accuracy (%)",
+         f"{PLAYER} - {MODEL} - Top-2 Accuracy per Feature Set", TOP2_PLOT_PATH)
 
 # ------------------------------------------------------------------
 # 8. Waterfall Plots
@@ -411,7 +411,7 @@ def save_errorbar(col_acc: str, out_path: str, title: str):
             )
 
     ax.set_ylabel("Accuracy (%)")
-    ax.set_title(title + " (95% Wilson CI with bounds)")
+    ax.set_title(f"{PLAYER} - {MODEL} - " + title)
     ax.set_ylim(0, 100)
 
     ax.grid(axis="y", linestyle=":", linewidth=0.6, alpha=0.65)
