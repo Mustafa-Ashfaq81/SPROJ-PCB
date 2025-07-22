@@ -93,9 +93,10 @@ for metric in METRICS:
         top2 = df.nlargest(2, metric)
         # Add Random Classifier baseline (1/8 for top1, 2/8 for top2)
         rand_n = int(df["n"].iloc[0])  # use same sample size as other blocks
-        rand_successes = round(rand_n * (1 / 8 if metric == "top1_acc" else 2 / 8))
-        rand_acc = (rand_successes / rand_n) * 100
+        rand_successes = int(rand_n * (1 / 8 if metric == "top1_acc" else 2 / 8))  # floor to integer
+        rand_acc = 12.5 if metric == "top1_acc" else 25.0
         low, high = wilson_ci(rand_successes, rand_n)
+
         rows.append(dict(
             model=model_label,
             block="Random Classifier",
@@ -180,10 +181,8 @@ for metric in METRICS:
 
         colors = []
         for cid in blocks:
-            if cid == -2:
-                colors.append(EXTRA_BAR_COLOR[-2])  # random classifier → grey
-            elif cid == -1:
-                colors.append(MODEL2COLOR[model])  # top career dismissal → model color
+            if cid in [-2, -1]:  # both random classifier and TCD → grey
+                colors.append(EXTRA_BAR_COLOR[-2])
             else:
                 colors.append(MODEL2COLOR[model])
 
@@ -197,6 +196,7 @@ for metric in METRICS:
             ax.errorbar(x, r["accuracy"], yerr=[[err_low], [err_high]], fmt="none", ecolor="black", capsize=4, linewidth=1)
 
         for x, h, cid in zip(xs, heights, blocks):
+            print(f"[{model}] Block {cid}: {r['block']} → n = {int(n)}, accuracy = {r['accuracy']:.2f}%")
             ax.text(x, -2, str(cid), ha="center", va="top", fontsize=9)
             ax.text(x, h / 2 - 1.5, f"{h:.1f}%", ha="center", va="center", color="white" if h > 10 else "black", fontsize=7, weight="bold")
 
