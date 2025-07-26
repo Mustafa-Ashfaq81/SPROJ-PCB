@@ -1,4 +1,4 @@
-# LLM-Based Cricket Dismissal Prediction: A Comprehensive Ablation Study
+# Context is Everything: Boosting Cricket Dismissal Prediction with Large Language Models
 
 ## Abstract
 
@@ -217,11 +217,11 @@ This work establishes:
 If you use this research in your work, please cite our paper:
 
 ```bibtex
-@inproceedings{cricket-dismissal-prediction-2024,
-  title={LLM-Based Cricket Dismissal Prediction: A Comprehensive Ablation Study},
+@inproceedings{cricket-dismissal-prediction-2026,
+  title={Context is Everything: Boosting Cricket Dismissal Prediction with Large Language Models},
   author={Mustafa Ashfaq and Essa Shahid Arshad},
-  booktitle={Proceedings of [Conference Name]},
-  year={2024}
+  booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year={2026}
 }
 ```
 
