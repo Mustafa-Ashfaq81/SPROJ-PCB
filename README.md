@@ -19,18 +19,20 @@ This repository contains the complete implementation and experimental framework 
 ## 📊 Experimental Results
 
 ### Key Findings
-- **Venue + Opponent Context**: Improves top-1 accuracy from 43% to 56%+
-- **Top-2 Accuracy**: Enhanced from 57% to nearly 80%
-- **Optimal Model**: GPT-4.1-mini provides best accuracy-efficiency trade-off
-- **Contextual Impact**: Structured data (career stats, venue history) more effective than unstructured (commentary)
+- **Venue + Team Context**: Improves top-1 accuracy from 43% (career stats) to 57.5% (o4-mini)
+- **Top-2 Accuracy**: Enhanced from 58% to 79.2% with optimal contextual inputs
+- **Best Performance**: o4-mini achieves highest accuracy (57.5% top-1, 79.2% top-2)
+- **Contextual Impact**: Venue + Team statistics significantly outperform commentary-based inputs
 
 ### Model Performance Comparison
-| Model | Top-1 Accuracy | Top-2 Accuracy | Efficiency |
-|-------|----------------|----------------|------------|
-| GPT-4.1 | 58.2% | 82.1% | High |
-| GPT-4.1-mini | 56.8% | 79.7% | **Optimal** |
-| GPT-4.1-nano | 54.3% | 77.2% | High |
-| o4-mini | 52.1% | 75.8% | Very High |
+| Model | Top-1 Accuracy | Top-2 Accuracy | Best Configuration |
+|-------|----------------|----------------|-------------------|
+| GPT-4.1-nano | 51.3% | 68.5% | Venue + Team Stats |
+| GPT-4.1 | 55.3% | 77.0% | Venue + Team Stats |
+| GPT-4.1-mini | 56.3% | 76.8% | Venue + Team Stats |
+| o4-mini | 57.5% | 79.2% | Venue + Team Stats |
+
+*Results based on optimal contextual input combination (Venue Stats + Vs-Team Stats) across 501 test cases*
 
 ## 🏗️ Repository Structure
 
