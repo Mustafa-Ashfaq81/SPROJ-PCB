@@ -573,7 +573,8 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 4. **Prediction and Justification**  
    - **Predict the Most Likely Dismissal Method** (bowled, caught-fielder, caught-wk, stumped, lbw, hit wicket, caught and bowled, not-out).  
-   - **Provide a probability breakdown** for all eight modes that sums to 100 %.  
+   - **Provide a probability breakdown** for all eight modes that sums to 100 %.
+   - **Do this at the end after completing step 6**  
 
 5. **Important Prompt Requirements**  
    - **If no data is provided in the prompt then use your own knowledge to arrive at a conclusion in the best possible way**    
@@ -678,7 +679,7 @@ and then follow the **Exact Output Formatting Requirements** above.
     # sys.exit(0)
 
     # 6) LLM call
-    model_name="o4-mini"
+    model_name="gpt-4.1-nano"
     llm_response_text = call_llm_api(master_prompt, api_key=final_api_key, model_name=model_name)
 
     llm_txt_path = os.path.join(script_dir, "llm_response_output.txt")
