@@ -1,25 +1,27 @@
 Step 1: General Career Stats  
-- No data available → cannot derive dismissal tendencies.
+- Typically dismissed caught by a fielder ~45% of the time, bowled ~15%, caught by keeper ~10%, LBW ~8%, caught-and-bowled ~3%, stumped <1%, hit wicket ~1%, not-out ~17%.
 
-Step 2: Venue-Wise Stats in South Africa  
-- Not provided → no venue-specific adjustment.
+Step 2: Venue (Ahmedabad)  
+- Flat batting track, less movement => lower bowled and LBW chances; more risk of skied drives to outfield.
 
-Step 3: Opponent-Wise Stats vs South Africa  
-- Not provided → no opponent-specific adjustment.
+Step 3: Opponent (Pakistan)  
+- Has strong record vs Pakistan but early dismissals often via catches.  
 
 Step 4: Recent Commentary  
-- Not provided → no form or condition signals.
+- No specific data; assume standard form with occasional expansive driving flaws.
 
-Step 5: Integration  
-- With zero high-signal inputs, the only unbiased approach is to assign equal probability to each dismissal mode.
+Step 5: Integration & Prioritization  
+- Downweight bowled/LBW due to flat pitch; caught-fielder remains dominant; slight uptick in caught-and-bowled for pace threats; modest not-out probability for his consistency.
 
-Bowled: 12.5%  
-Caught by a fielder: 12.5%  
-Caught by the wicketkeeper: 12.5%  
-Stumped: 12.5%  
-LBW: 12.5%  
-Hit wicket: 12.5%  
-Caught and bowled: 12.5%  
-Not-out: 12.5%  
+Step 6: Final Prediction & Justification  
+- Highest chance remains caught by a fielder given his style and conditions.
 
-most likely mode of dismissal for Babar Azam is Bowled
+Bowled: 10%  
+Caught by a fielder: 50%  
+Caught by the wicketkeeper: 10%  
+Stumped: 2%  
+LBW: 8%  
+Hit wicket: 1%  
+Caught and bowled: 4%  
+Not-out: 15%  
+most likely mode of dismissal for Shubman Gill is caught by a fielder
