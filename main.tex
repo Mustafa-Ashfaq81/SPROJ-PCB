@@ -1,8 +1,16 @@
 %%
-%% sample-sigconf.tex
-%% ACM conference proceedings template – filled with paper‑specific content
+%% KDD 2026 Research Track Submission
+%% ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+%% August 9-13, 2026, Jeju, Korea (ICC Jeju)
+%% 
+%% SUBMISSION REQUIREMENTS:
+%% - 8 content pages maximum + references + optional appendix
+%% - Double-blind review process (anonymize for submission)
+%% - First cycle deadlines: Abstract (July 24, 2025), Paper (July 31, 2025)
+%% - Use anonymous,review options for submission version
 %%
-\documentclass[sigconf]{acmart}
+\documentclass[sigconf,anonymous,review]{acmart}
+\settopmatter{authorsperrow=4}
 
 \AtBeginDocument{%
   \providecommand\BibTeX{{\normalfont B\kern-0.1em{\scshape i\kern-0.1em b}\kern-0.1em\TeX}}}
@@ -10,13 +18,21 @@
 \setcopyright{acmlicensed}
 \copyrightyear{2026}
 \acmYear{2026}
-\acmDOI{XX.XXXX/XXXXXXX.XXXXXXX}
+\acmDOI{XX.XXXX/XXXXXXX.XXXXXXX} % Will be assigned upon acceptance
 
-\acmConference[KDD '26]{ACM SIGKDD Conference on Knowledge Discovery and Data Mining}{August 2026}{Location TBD}
+\acmConference[KDD '26]{ACM SIGKDD Conference on Knowledge Discovery and Data Mining}{August 9-13, 2026}{Jeju, Korea}
 \acmISBN{978‑1‑4503‑XXXX‑X/26/08}
 
 \citestyle{acmauthoryear}
 
+% ------------------------------------------------------------------
+% IMPORTANT FOR SUBMISSION:
+% 1. Remove all author information below for anonymous submission
+% 2. Remove acknowledgments section for submission
+% 3. Ensure all self-citations use third-person
+% 4. Submit via OpenReview: https://openreview.net/
+% 5. All authors must have complete OpenReview profiles
+% 6. Maximum 7 submissions per author per cycle
 % ------------------------------------------------------------------
 \begin{document}
 
@@ -53,6 +69,7 @@
   \city{Lahore}
   \country{Pakistan}}
 \email{ihsan.qazi@lums.edu.pk}
+\renewcommand{\shortauthors}{Mustafa Ashfaq et al.}
 
 % ------------------------------------------------------------------
 \begin{abstract}
@@ -78,8 +95,13 @@ Cricket ranks as the world's second-most popular sport with approximately 2.5 bi
 \ccsdesc[500]{Computing methodologies~Machine learning}
 \ccsdesc[300]{Applied computing~Sports}
 
-\keywords{cricket analytics, large language models, contextual modeling, dismissal prediction, sports AI, ablation study, structured prediction}
+\keywords{cricket analytics, large language models, contextual modeling, dismissal prediction, sports AI, ablation study, structured prediction, in-context learning, prompt engineering}
 
+% ------------------------------------------------------------------
+% KDD 2026 RESEARCH TRACK SCOPE ALIGNMENT:
+% - Modern AI and Big Data: LLMs, prompt engineering, in-context learning
+% - Data Science Applications: Sports analytics, time series, IoT data
+% - Foundations: Structured prediction, ablation studies, evaluation metrics
 % ------------------------------------------------------------------
 \maketitle
 
@@ -315,7 +337,7 @@ Cricket ranks as the world's second-most popular sport with approximately 2.5 bi
 \end{itemize}
 
 \begin{acks}
-We thank the cricket analytics community for valuable feedback and ESPNCricinfo for data availability. This research was supported by LUMS research facilities and computational resources.
+We thank the cricket analytics community for valuable feedback and ESPNCricinfo for data availability. This research was supported by LUMS research facilities and computational resources. We acknowledge the use of OpenAI's GPT models for our LLM experiments and commit to making our code and data publicly available upon acceptance to support reproducibility.
 \end{acks}
 
 \bibliographystyle{ACM-Reference-Format}
