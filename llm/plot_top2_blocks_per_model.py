@@ -275,8 +275,8 @@ def create_mcnemar_heatmap(model_label: str, model_key: str, metric: str):
         pad=20,
     )
 
-    plt.xlabel("Method B", fontsize=12, fontweight="semibold")
-    plt.ylabel("Method A", fontsize=12, fontweight="semibold")
+    plt.xlabel("Category B", fontsize=12, fontweight="semibold")
+    plt.ylabel("Category A", fontsize=12, fontweight="semibold")
 
     # Add significance indicators - same as original
     for i in range(n_methods):
