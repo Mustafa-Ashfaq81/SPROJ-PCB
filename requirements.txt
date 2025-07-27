@@ -1,20 +1,41 @@
 # pip install -r requirements.txt
-beautifulsoup4
-bs4
-datetime
-jsonschema
-lxml
-logging
-multiprocess
-os
-pandas
-re
-requests
-selenium
-tqdm
-unicodedata
-webdriver-manager
-spacy
-transformers
+
+# Core data science and analysis
 accelerate
 bitsandbytes
+matplotlib
+numpy
+pandas
+scipy
+seaborn
+tqdm
+
+# Web scraping and automation
+beautifulsoup4
+bs4
+lxml
+requests
+selenium
+webdriver-manager
+
+# Database
+psycopg2-binary
+
+# Machine Learning and NLP
+spacy
+transformers
+
+# API and environment
+openai
+python-dotenv
+
+# Date and time utilities
+python-dateutil
+
+# JSON schema validation
+jsonschema
+
+# Built-in Python modules (not needed in requirements.txt):
+# argparse, calendar, collections, concurrent.futures, csv, datetime, 
+# io, json, logging, math, multiprocessing, os, re, shlex, shutil, 
+# subprocess, sys, threading, time, traceback, typing, unicodedata, urllib
