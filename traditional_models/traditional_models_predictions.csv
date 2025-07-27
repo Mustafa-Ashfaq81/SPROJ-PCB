@@ -1,0 +1,413 @@
+sample_id,player,model,ground_truth,predicted,correct,batting_avg,strike_rate,total_runs,scenario_id,confidence
+1,harry_tector,Random Forest,caught wk,caught-fielder,False,41.47883817010911,108.77826742949286,3847,9.0,0.26
+2,harry_tector,Random Forest,lbw,stump,False,34.41885657515685,97.08241011969483,3419,1.0,0.28
+3,babar_azam,Random Forest,caught-fielder,caught-fielder,True,53.801479656652994,90.92787348598843,6106,2.0,0.93
+4,shubman_gill,Random Forest,caught wk,bowled,False,46.071205623644765,87.21778957775535,3900,3.0,0.34
+5,daryl_mitchell,Random Forest,caught-fielder,caught-fielder,True,49.08656187297689,104.6739705081727,1904,4.0,0.92
+6,harry_tector,Random Forest,stump,bowled,False,33.5680362936639,50.0,3316,7.0,0.21
+7,shubman_gill,Random Forest,stump,lbw,False,37.00939860748467,73.35776812419144,3256,6.0,0.29
+8,babar_azam,Random Forest,stump,caught wk,False,53.378881056335224,87.6697349088533,2259,5.0,0.27
+9,shubman_gill,Random Forest,bowled,caught wk,False,19.81843437109749,51.902866562684615,636,8.0,0.35
+10,ibrahim_zadran,Random Forest,hit wicket,lbw,False,45.766902426857186,74.29156245333303,3965,9.0,0.28
+11,charith_asalanka,Random Forest,bowled,caught-fielder,False,37.24750574509397,87.81814736142644,1815,4.0,0.32
+12,ibrahim_zadran,Random Forest,lbw,bowled,False,45.48520430019508,97.70892056628716,2498,6.0,0.27
+13,charith_asalanka,Random Forest,caught wk,bowled,False,48.63824249679691,113.56062970469576,4833,3.0,0.46
+14,ibrahim_zadran,Random Forest,lbw,caught-fielder,False,19.707406964237194,103.68855566462615,2002,7.0,0.25
+15,harry_tector,Random Forest,caught-fielder,caught-fielder,True,38.51322098804781,96.26157747945142,906,0.0,0.29
+16,shai_hope,Random Forest,stump,bowled,False,59.55238535168674,64.88374659275782,1024,5.0,0.22
+17,harry_tector,Random Forest,caught wk,lbw,False,19.17338486779326,98.85538063697722,2176,9.0,0.25
+18,shubman_gill,Random Forest,caught-fielder,caught-fielder,True,61.82543191903224,96.59398660530609,2775,1.0,0.99
+19,shai_hope,Random Forest,caught wk,bowled,False,10.0,89.80942498660414,2908,7.0,0.28
+20,ibrahim_zadran,Random Forest,caught-fielder,caught-fielder,True,46.99937705446963,90.9116170454113,1656,1.0,0.81
+21,shubman_gill,Random Forest,caught-fielder,bowled,False,60.7514822047158,115.75223120148083,4496,4.0,0.23
+22,shubman_gill,Random Forest,caught wk,bowled,False,34.46006882034137,75.50452709032584,885,4.0,0.26
+23,daryl_mitchell,Random Forest,caught-fielder,lbw,False,10.0,109.3667463117076,4207,8.0,0.3
+24,ibrahim_zadran,Random Forest,stump,lbw,False,33.077217956213495,98.19442399312788,3296,1.0,0.23
+25,babar_azam,Random Forest,caught and bowled,bowled,False,46.9145169796551,87.54185497685596,4335,0.0,0.25
+26,daryl_mitchell,Random Forest,hit wicket,caught-fielder,False,47.96955775854441,77.43296234800468,2200,8.0,0.23
+27,babar_azam,Random Forest,stump,lbw,False,12.552061173648813,71.99952131186204,4973,3.0,0.2
+28,daryl_mitchell,Random Forest,caught-fielder,caught-fielder,True,49.6704400942104,92.44090099687959,1904,3.0,0.98
+29,daryl_mitchell,Random Forest,bowled,caught-fielder,False,20.205098541124137,50.0,3739,1.0,0.25
+30,daryl_mitchell,Random Forest,caught-fielder,caught-fielder,True,52.48264401759217,96.2836519303618,1904,0.0,0.99
+31,harry_tector,Random Forest,hit wicket,caught-fielder,False,21.040036730594196,67.31683040112463,1263,3.0,0.31
+32,shubman_gill,Random Forest,caught wk,caught-fielder,False,12.092482151155288,65.30690430305475,424,6.0,0.23
+33,ibrahim_zadran,Random Forest,bowled,lbw,False,11.84411895962156,107.33786880403358,4285,8.0,0.25
+34,babar_azam,Random Forest,lbw,bowled,False,31.44218392381901,63.58295162631123,3579,3.0,0.25
+35,harry_tector,Random Forest,caught-fielder,caught-fielder,True,41.706878903912916,73.74863139999484,1751,3.0,0.89
+36,ibrahim_zadran,Random Forest,caught wk,caught wk,True,25.31053731313197,69.01615986699493,4727,7.0,0.24
+37,babar_azam,Random Forest,bowled,caught-fielder,False,23.489786556679256,82.1343348256584,767,3.0,0.4
+38,daryl_mitchell,Random Forest,caught wk,caught-fielder,False,29.456467207193285,62.52967590178342,118,9.0,0.23
+39,harry_tector,Random Forest,bowled,stump,False,24.526759575269715,86.56817845012154,3532,9.0,0.29
+40,shubman_gill,Random Forest,lbw,caught-fielder,False,56.436755278265466,72.70099123703329,1604,3.0,0.34
+41,babar_azam,Random Forest,caught-fielder,caught-fielder,True,55.51,87.92,6106,,0.96
+42,ibrahim_zadran,Random Forest,caught-fielder,stump,False,34.29103021056486,94.9947524022422,271,6.0,0.28
+43,daryl_mitchell,Random Forest,caught wk,caught-fielder,False,25.34675251523807,105.59921635162323,3024,9.0,0.27
+44,shubman_gill,Random Forest,bowled,caught-fielder,False,38.057340912912004,108.08708676817848,610,1.0,0.28
+45,harry_tector,Random Forest,caught-fielder,caught wk,False,42.00173825397294,112.34740509443988,2020,2.0,0.38
+46,charith_asalanka,Random Forest,bowled,lbw,False,20.21927304311469,63.12119181863052,3877,0.0,0.32
+47,charith_asalanka,Random Forest,stump,lbw,False,23.291898526560118,75.50604460725881,2572,0.0,0.26
+48,charith_asalanka,Random Forest,stump,caught wk,False,46.85557844077567,91.8010258913778,2768,9.0,0.27
+49,harry_tector,Random Forest,caught wk,caught wk,True,30.44507714189006,50.0,3090,1.0,0.28
+50,harry_tector,Random Forest,caught wk,caught-fielder,False,28.3108442920826,87.26280914106046,1344,3.0,0.3
+51,daryl_mitchell,Random Forest,lbw,caught-fielder,False,56.74780279660024,56.47755262477648,4116,1.0,0.44
+52,harry_tector,Random Forest,bowled,caught wk,False,26.995267942362698,84.88944275359748,3252,2.0,0.26
+53,shai_hope,Random Forest,caught wk,bowled,False,51.73853080048042,72.01468843848151,3074,1.0,0.36
+54,daryl_mitchell,Random Forest,caught-fielder,caught-fielder,True,33.62361014000749,95.05579442081512,2171,2.0,0.27
+55,daryl_mitchell,Random Forest,hit wicket,stump,False,37.94433751722141,104.63561893911606,413,6.0,0.25
+56,harry_tector,Random Forest,lbw,stump,False,41.85451046800205,111.25805307839568,1169,2.0,0.33
+57,daryl_mitchell,Random Forest,caught-fielder,bowled,False,45.63505636382769,71.4721539588146,1116,8.0,0.27
+58,ibrahim_zadran,Random Forest,stump,caught-fielder,False,33.731555012842875,71.55443455624803,4029,3.0,0.41
+59,harry_tector,Random Forest,caught-fielder,caught wk,False,26.5931735258009,59.51262507241243,2248,1.0,0.34
+60,shai_hope,Random Forest,bowled,lbw,False,14.423853061047417,101.03028637754018,4003,9.0,0.27
+61,charith_asalanka,Random Forest,caught-fielder,caught wk,False,12.311067487417763,114.8937715072876,1755,5.0,0.24
+62,daryl_mitchell,Random Forest,stump,caught-fielder,False,39.12831933136745,133.989195979162,3571,0.0,0.26
+63,daryl_mitchell,Random Forest,stump,caught wk,False,10.0,63.16132199209374,2825,8.0,0.33
+64,charith_asalanka,Random Forest,caught-fielder,caught-fielder,True,42.58727991274197,89.48399206896785,2374,3.0,0.96
+65,shubman_gill,Random Forest,lbw,caught wk,False,35.8788070631353,115.60390397726702,3603,8.0,0.21
+66,charith_asalanka,Random Forest,stump,caught-fielder,False,44.29713661295452,98.91046697930517,2821,2.0,0.46
+67,harry_tector,Random Forest,caught and bowled,caught wk,False,16.562246032993755,97.4246990514799,1026,2.0,0.31
+68,daryl_mitchell,Random Forest,caught wk,stump,False,50.084826396148955,91.7317340284456,3988,4.0,0.3
+69,shai_hope,Random Forest,bowled,caught-fielder,False,10.0,55.42827508440317,2135,5.0,0.26
+70,shai_hope,Random Forest,bowled,lbw,False,19.050312817074435,70.71507777892815,3259,1.0,0.35
+71,ibrahim_zadran,Random Forest,lbw,bowled,False,59.831106696324426,94.82415330823993,1077,6.0,0.3
+72,ibrahim_zadran,Random Forest,caught-fielder,caught-fielder,True,53.51592477586273,81.56023372897361,1656,0.0,0.96
+73,ibrahim_zadran,Random Forest,caught-fielder,caught-fielder,True,50.18,83.09,1656,,0.93
+74,charith_asalanka,Random Forest,lbw,lbw,True,14.16637743456339,73.09793122704554,1370,6.0,0.24
+75,charith_asalanka,Random Forest,caught-fielder,caught-fielder,True,44.81847293149274,84.18917078075418,2374,2.0,0.97
+76,charith_asalanka,Random Forest,caught-fielder,caught-fielder,True,46.96813472213824,99.26911673573208,2374,1.0,0.95
+77,charith_asalanka,Random Forest,stump,caught wk,False,30.62718033623756,58.49625391686001,4471,8.0,0.23
+78,babar_azam,Random Forest,caught wk,caught-fielder,False,29.340826911744667,76.88750017575867,1850,4.0,0.31
+79,shai_hope,Random Forest,caught-fielder,caught-fielder,True,53.360999466461934,76.5997941217939,5427,4.0,0.97
+80,harry_tector,Random Forest,stump,caught wk,False,69.20748959716411,135.23079193740284,2092,2.0,0.27
+81,harry_tector,Random Forest,caught wk,stump,False,35.54095087204441,90.30311054597775,1076,6.0,0.4
+82,babar_azam,Random Forest,stump,stump,True,43.58086162571216,83.75617966001379,3591,5.0,0.22
+83,babar_azam,Random Forest,hit wicket,caught wk,False,16.462433879716624,88.48750771350035,3353,1.0,0.26
+84,ibrahim_zadran,Random Forest,bowled,lbw,False,20.214109304966843,95.08093031035689,3222,8.0,0.2
+85,shubman_gill,Random Forest,lbw,caught-fielder,False,50.635406937392105,82.17554928691499,2929,0.0,0.28
+86,shai_hope,Random Forest,caught-fielder,caught-fielder,True,21.27561398325955,86.62553685534056,732,6.0,0.26
+87,charith_asalanka,Random Forest,lbw,caught-fielder,False,31.542130622296238,74.37571410784803,3516,0.0,0.22
+88,daryl_mitchell,Random Forest,caught wk,bowled,False,21.17193542595107,68.93272407879458,2526,8.0,0.28
+89,harry_tector,Random Forest,lbw,caught wk,False,10.0,65.68670392953584,3729,0.0,0.22
+90,charith_asalanka,Random Forest,bowled,caught-fielder,False,43.32039191335443,99.66346729488704,2096,2.0,0.36
+91,harry_tector,Random Forest,lbw,lbw,True,24.39905354721141,102.972969173698,1578,3.0,0.2
+92,shai_hope,Random Forest,stump,caught wk,False,32.31275363504857,59.63971585233247,1419,3.0,0.26
+93,babar_azam,Random Forest,caught-fielder,caught-fielder,True,60.93483295426575,87.80238809560505,6106,1.0,0.93
+94,shai_hope,Random Forest,bowled,caught-fielder,False,51.853126725372746,127.86410376227775,3736,0.0,0.37
+95,charith_asalanka,Random Forest,caught-fielder,caught-fielder,True,56.30756371984782,73.58507412501048,2209,1.0,0.38
+96,charith_asalanka,Random Forest,caught and bowled,caught wk,False,46.717607849160366,65.672318614636,4341,4.0,0.24
+97,babar_azam,Random Forest,caught-fielder,caught-fielder,True,57.290936381847345,81.9392689312204,6106,3.0,0.94
+98,babar_azam,Random Forest,bowled,stump,False,10.0,76.16467953547973,3574,7.0,0.25
+99,charith_asalanka,Random Forest,lbw,stump,False,36.40058561414977,115.32788110507146,2966,8.0,0.29
+100,charith_asalanka,Random Forest,stump,caught-fielder,False,32.19695604724401,91.67455727123746,4624,4.0,0.22
+101,babar_azam,Random Forest,lbw,stump,False,27.470424389529597,79.73490339472741,3401,3.0,0.24
+102,harry_tector,Random Forest,caught-fielder,stump,False,24.705213865263264,99.1621735337718,3825,7.0,0.39
+103,shai_hope,Random Forest,caught and bowled,caught-fielder,False,32.7463551680261,62.609077432336626,789,9.0,0.33
+1,harry_tector,Naive Bayes,caught wk,stump,False,41.47883817010911,108.77826742949286,3847,9.0,0.2671875585508793
+2,harry_tector,Naive Bayes,lbw,bowled,False,34.41885657515685,97.08241011969483,3419,1.0,0.34541864778110104
+3,babar_azam,Naive Bayes,caught-fielder,caught-fielder,True,53.801479656652994,90.92787348598843,6106,2.0,0.9970078282930271
+4,shubman_gill,Naive Bayes,caught wk,caught and bowled,False,46.071205623644765,87.21778957775535,3900,3.0,0.5302273130874294
+5,daryl_mitchell,Naive Bayes,caught-fielder,caught-fielder,True,49.08656187297689,104.6739705081727,1904,4.0,0.6681469218109339
+6,harry_tector,Naive Bayes,stump,bowled,False,33.5680362936639,50.0,3316,7.0,0.3000865662757499
+7,shubman_gill,Naive Bayes,stump,bowled,False,37.00939860748467,73.35776812419144,3256,6.0,0.38487808911758437
+8,babar_azam,Naive Bayes,stump,lbw,False,53.378881056335224,87.6697349088533,2259,5.0,0.27276726693431114
+9,shubman_gill,Naive Bayes,bowled,caught wk,False,19.81843437109749,51.902866562684615,636,8.0,0.5071882871344735
+10,ibrahim_zadran,Naive Bayes,hit wicket,bowled,False,45.766902426857186,74.29156245333303,3965,9.0,0.45950788266802756
+11,charith_asalanka,Naive Bayes,bowled,bowled,True,37.24750574509397,87.81814736142644,1815,4.0,0.2558429725428812
+12,ibrahim_zadran,Naive Bayes,lbw,bowled,False,45.48520430019508,97.70892056628716,2498,6.0,0.417688400621835
+13,charith_asalanka,Naive Bayes,caught wk,bowled,False,48.63824249679691,113.56062970469576,4833,3.0,0.33388850319329594
+14,ibrahim_zadran,Naive Bayes,lbw,stump,False,19.707406964237194,103.68855566462615,2002,7.0,0.30283312374918964
+15,harry_tector,Naive Bayes,caught-fielder,caught-fielder,True,38.51322098804781,96.26157747945142,906,0.0,0.5332291839459276
+16,shai_hope,Naive Bayes,stump,caught wk,False,59.55238535168674,64.88374659275782,1024,5.0,0.26465624666637233
+17,harry_tector,Naive Bayes,caught wk,caught wk,True,19.17338486779326,98.85538063697722,2176,9.0,0.3851975596690932
+18,shubman_gill,Naive Bayes,caught-fielder,caught-fielder,True,61.82543191903224,96.59398660530609,2775,1.0,0.9493971041064603
+19,shai_hope,Naive Bayes,caught wk,lbw,False,10.0,89.80942498660414,2908,7.0,0.5086132070324155
+20,ibrahim_zadran,Naive Bayes,caught-fielder,caught wk,False,46.99937705446963,90.9116170454113,1656,1.0,0.3991955934469661
+21,shubman_gill,Naive Bayes,caught-fielder,bowled,False,60.7514822047158,115.75223120148083,4496,4.0,0.30614513455993136
+22,shubman_gill,Naive Bayes,caught wk,stump,False,34.46006882034137,75.50452709032584,885,4.0,0.2935240718003596
+23,daryl_mitchell,Naive Bayes,caught-fielder,lbw,False,10.0,109.3667463117076,4207,8.0,0.4117223196257173
+24,ibrahim_zadran,Naive Bayes,stump,stump,True,33.077217956213495,98.19442399312788,3296,1.0,0.32183952741010463
+25,babar_azam,Naive Bayes,caught and bowled,bowled,False,46.9145169796551,87.54185497685596,4335,0.0,0.4281198020389658
+26,daryl_mitchell,Naive Bayes,hit wicket,caught-fielder,False,47.96955775854441,77.43296234800468,2200,8.0,0.28941922779166096
+27,babar_azam,Naive Bayes,stump,lbw,False,12.552061173648813,71.99952131186204,4973,3.0,0.5364168883219984
+28,daryl_mitchell,Naive Bayes,caught-fielder,caught-fielder,True,49.6704400942104,92.44090099687959,1904,3.0,0.7571267545517814
+29,daryl_mitchell,Naive Bayes,bowled,stump,False,20.205098541124137,50.0,3739,1.0,0.26466892497520805
+30,daryl_mitchell,Naive Bayes,caught-fielder,caught-fielder,True,52.48264401759217,96.2836519303618,1904,0.0,0.8447344834245175
+31,harry_tector,Naive Bayes,hit wicket,stump,False,21.040036730594196,67.31683040112463,1263,3.0,0.37372727463734173
+32,shubman_gill,Naive Bayes,caught wk,hit wicket,False,12.092482151155288,65.30690430305475,424,6.0,0.3921862694976486
+33,ibrahim_zadran,Naive Bayes,bowled,lbw,False,11.84411895962156,107.33786880403358,4285,8.0,0.400558738468849
+34,babar_azam,Naive Bayes,lbw,caught-fielder,False,31.44218392381901,63.58295162631123,3579,3.0,0.23907573029264534
+35,harry_tector,Naive Bayes,caught-fielder,caught wk,False,41.706878903912916,73.74863139999484,1751,3.0,0.41157924811587226
+36,ibrahim_zadran,Naive Bayes,caught wk,lbw,False,25.31053731313197,69.01615986699493,4727,7.0,0.41343058773514674
+37,babar_azam,Naive Bayes,bowled,caught wk,False,23.489786556679256,82.1343348256584,767,3.0,0.39518369508724527
+38,daryl_mitchell,Naive Bayes,caught wk,caught wk,True,29.456467207193285,62.52967590178342,118,9.0,0.5293451234553518
+39,harry_tector,Naive Bayes,bowled,stump,False,24.526759575269715,86.56817845012154,3532,9.0,0.32822489861514614
+40,shubman_gill,Naive Bayes,lbw,caught wk,False,56.436755278265466,72.70099123703329,1604,3.0,0.2878081155708251
+41,babar_azam,Naive Bayes,caught-fielder,caught-fielder,True,55.51,87.92,6106,,0.9980784409330903
+42,ibrahim_zadran,Naive Bayes,caught-fielder,stump,False,34.29103021056486,94.9947524022422,271,6.0,0.28640519441884327
+43,daryl_mitchell,Naive Bayes,caught wk,stump,False,25.34675251523807,105.59921635162323,3024,9.0,0.2847444678837997
+44,shubman_gill,Naive Bayes,bowled,stump,False,38.057340912912004,108.08708676817848,610,1.0,0.2961531869145912
+45,harry_tector,Naive Bayes,caught-fielder,caught wk,False,42.00173825397294,112.34740509443988,2020,2.0,0.4525065038044491
+46,charith_asalanka,Naive Bayes,bowled,lbw,False,20.21927304311469,63.12119181863052,3877,0.0,0.32919615858111717
+47,charith_asalanka,Naive Bayes,stump,stump,True,23.291898526560118,75.50604460725881,2572,0.0,0.3950617669054739
+48,charith_asalanka,Naive Bayes,stump,caught wk,False,46.85557844077567,91.8010258913778,2768,9.0,0.34283112814419364
+49,harry_tector,Naive Bayes,caught wk,caught wk,True,30.44507714189006,50.0,3090,1.0,0.3239024143305422
+50,harry_tector,Naive Bayes,caught wk,caught-fielder,False,28.3108442920826,87.26280914106046,1344,3.0,0.2740965630236296
+51,daryl_mitchell,Naive Bayes,lbw,caught-fielder,False,56.74780279660024,56.47755262477648,4116,1.0,0.3371647967689631
+52,harry_tector,Naive Bayes,bowled,caught-fielder,False,26.995267942362698,84.88944275359748,3252,2.0,0.28429359668107457
+53,shai_hope,Naive Bayes,caught wk,caught-fielder,False,51.73853080048042,72.01468843848151,3074,1.0,0.6154426808032609
+54,daryl_mitchell,Naive Bayes,caught-fielder,stump,False,33.62361014000749,95.05579442081512,2171,2.0,0.2810631665484767
+55,daryl_mitchell,Naive Bayes,hit wicket,bowled,False,37.94433751722141,104.63561893911606,413,6.0,0.3327435172988205
+56,harry_tector,Naive Bayes,lbw,stump,False,41.85451046800205,111.25805307839568,1169,2.0,0.574227912935857
+57,daryl_mitchell,Naive Bayes,caught-fielder,caught wk,False,45.63505636382769,71.4721539588146,1116,8.0,0.33942206625847277
+58,ibrahim_zadran,Naive Bayes,stump,lbw,False,33.731555012842875,71.55443455624803,4029,3.0,0.28726064160267817
+59,harry_tector,Naive Bayes,caught-fielder,caught wk,False,26.5931735258009,59.51262507241243,2248,1.0,0.34732824976146004
+60,shai_hope,Naive Bayes,bowled,bowled,True,14.423853061047417,101.03028637754018,4003,9.0,0.47126988869188413
+61,charith_asalanka,Naive Bayes,caught-fielder,caught wk,False,12.311067487417763,114.8937715072876,1755,5.0,0.22814098481955492
+62,daryl_mitchell,Naive Bayes,stump,stump,True,39.12831933136745,133.989195979162,3571,0.0,0.3749938405625695
+63,daryl_mitchell,Naive Bayes,stump,caught wk,False,10.0,63.16132199209374,2825,8.0,0.3144347013516237
+64,charith_asalanka,Naive Bayes,caught-fielder,caught-fielder,True,42.58727991274197,89.48399206896785,2374,3.0,0.8933099244104333
+65,shubman_gill,Naive Bayes,lbw,hit wicket,False,35.8788070631353,115.60390397726702,3603,8.0,0.5460994590068263
+66,charith_asalanka,Naive Bayes,stump,caught-fielder,False,44.29713661295452,98.91046697930517,2821,2.0,0.46977801787869133
+67,harry_tector,Naive Bayes,caught and bowled,caught wk,False,16.562246032993755,97.4246990514799,1026,2.0,0.3892170123142007
+68,daryl_mitchell,Naive Bayes,caught wk,caught and bowled,False,50.084826396148955,91.7317340284456,3988,4.0,0.49072238473100765
+69,shai_hope,Naive Bayes,bowled,bowled,True,10.0,55.42827508440317,2135,5.0,0.26187124886974616
+70,shai_hope,Naive Bayes,bowled,lbw,False,19.050312817074435,70.71507777892815,3259,1.0,0.4075910528367287
+71,ibrahim_zadran,Naive Bayes,lbw,hit wicket,False,59.831106696324426,94.82415330823993,1077,6.0,0.4951433880648379
+72,ibrahim_zadran,Naive Bayes,caught-fielder,caught wk,False,53.51592477586273,81.56023372897361,1656,0.0,0.36564537249971907
+73,ibrahim_zadran,Naive Bayes,caught-fielder,caught wk,False,50.18,83.09,1656,,0.3796621229830646
+74,charith_asalanka,Naive Bayes,lbw,lbw,True,14.16637743456339,73.09793122704554,1370,6.0,0.23034005567817403
+75,charith_asalanka,Naive Bayes,caught-fielder,caught-fielder,True,44.81847293149274,84.18917078075418,2374,2.0,0.9196416587939832
+76,charith_asalanka,Naive Bayes,caught-fielder,caught-fielder,True,46.96813472213824,99.26911673573208,2374,1.0,0.9244060257723679
+77,charith_asalanka,Naive Bayes,stump,lbw,False,30.62718033623756,58.49625391686001,4471,8.0,0.23138678968599194
+78,babar_azam,Naive Bayes,caught wk,stump,False,29.340826911744667,76.88750017575867,1850,4.0,0.4263522949640122
+79,shai_hope,Naive Bayes,caught-fielder,caught-fielder,True,53.360999466461934,76.5997941217939,5427,4.0,1.0
+80,harry_tector,Naive Bayes,stump,caught wk,False,69.20748959716411,135.23079193740284,2092,2.0,0.341760384940614
+81,harry_tector,Naive Bayes,caught wk,bowled,False,35.54095087204441,90.30311054597775,1076,6.0,0.3774688957854442
+82,babar_azam,Naive Bayes,stump,caught and bowled,False,43.58086162571216,83.75617966001379,3591,5.0,0.39842927200458883
+83,babar_azam,Naive Bayes,hit wicket,lbw,False,16.462433879716624,88.48750771350035,3353,1.0,0.3377752881317413
+84,ibrahim_zadran,Naive Bayes,bowled,lbw,False,20.214109304966843,95.08093031035689,3222,8.0,0.47945349868688647
+85,shubman_gill,Naive Bayes,lbw,caught-fielder,False,50.635406937392105,82.17554928691499,2929,0.0,0.3369376437365612
+86,shai_hope,Naive Bayes,caught-fielder,bowled,False,21.27561398325955,86.62553685534056,732,6.0,0.36810894583486914
+87,charith_asalanka,Naive Bayes,lbw,bowled,False,31.542130622296238,74.37571410784803,3516,0.0,0.34370509698366036
+88,daryl_mitchell,Naive Bayes,caught wk,bowled,False,21.17193542595107,68.93272407879458,2526,8.0,0.41632983792933664
+89,harry_tector,Naive Bayes,lbw,stump,False,10.0,65.68670392953584,3729,0.0,0.33327135835083316
+90,charith_asalanka,Naive Bayes,bowled,caught-fielder,False,43.32039191335443,99.66346729488704,2096,2.0,0.48483989342747197
+91,harry_tector,Naive Bayes,lbw,caught and bowled,False,24.39905354721141,102.972969173698,1578,3.0,0.6030522358468436
+92,shai_hope,Naive Bayes,stump,caught wk,False,32.31275363504857,59.63971585233247,1419,3.0,0.28020044360401253
+93,babar_azam,Naive Bayes,caught-fielder,caught-fielder,True,60.93483295426575,87.80238809560505,6106,1.0,0.9978712574403839
+94,shai_hope,Naive Bayes,bowled,caught-fielder,False,51.853126725372746,127.86410376227775,3736,0.0,0.3973966489985162
+95,charith_asalanka,Naive Bayes,caught-fielder,caught wk,False,56.30756371984782,73.58507412501048,2209,1.0,0.322554514926114
+96,charith_asalanka,Naive Bayes,caught and bowled,caught wk,False,46.717607849160366,65.672318614636,4341,4.0,0.7190668143184277
+97,babar_azam,Naive Bayes,caught-fielder,caught-fielder,True,57.290936381847345,81.9392689312204,6106,3.0,0.9968609589014894
+98,babar_azam,Naive Bayes,bowled,lbw,False,10.0,76.16467953547973,3574,7.0,0.4647766617602511
+99,charith_asalanka,Naive Bayes,lbw,stump,False,36.40058561414977,115.32788110507146,2966,8.0,0.40348227764050487
+100,charith_asalanka,Naive Bayes,stump,bowled,False,32.19695604724401,91.67455727123746,4624,4.0,0.2783957250570711
+101,babar_azam,Naive Bayes,lbw,bowled,False,27.470424389529597,79.73490339472741,3401,3.0,0.2843023924789983
+102,harry_tector,Naive Bayes,caught-fielder,stump,False,24.705213865263264,99.1621735337718,3825,7.0,0.40050458243305515
+103,shai_hope,Naive Bayes,caught and bowled,stump,False,32.7463551680261,62.609077432336626,789,9.0,0.2931596834103084
+1,harry_tector,Logistic Regression,caught wk,caught-fielder,False,41.47883817010911,108.77826742949286,3847,9.0,0.2540509026256238
+2,harry_tector,Logistic Regression,lbw,caught wk,False,34.41885657515685,97.08241011969483,3419,1.0,0.2408591605266234
+3,babar_azam,Logistic Regression,caught-fielder,caught-fielder,True,53.801479656652994,90.92787348598843,6106,2.0,0.7566258292285717
+4,shubman_gill,Logistic Regression,caught wk,caught-fielder,False,46.071205623644765,87.21778957775535,3900,3.0,0.45880357278841716
+5,daryl_mitchell,Logistic Regression,caught-fielder,caught-fielder,True,49.08656187297689,104.6739705081727,1904,4.0,0.6367760668831558
+6,harry_tector,Logistic Regression,stump,lbw,False,33.5680362936639,50.0,3316,7.0,0.3387431437001552
+7,shubman_gill,Logistic Regression,stump,bowled,False,37.00939860748467,73.35776812419144,3256,6.0,0.32028691599867565
+8,babar_azam,Logistic Regression,stump,caught wk,False,53.378881056335224,87.6697349088533,2259,5.0,0.27300863408157766
+9,shubman_gill,Logistic Regression,bowled,caught wk,False,19.81843437109749,51.902866562684615,636,8.0,0.3568194664619413
+10,ibrahim_zadran,Logistic Regression,hit wicket,bowled,False,45.766902426857186,74.29156245333303,3965,9.0,0.38674548400471215
+11,charith_asalanka,Logistic Regression,bowled,stump,False,37.24750574509397,87.81814736142644,1815,4.0,0.2625904042625125
+12,ibrahim_zadran,Logistic Regression,lbw,bowled,False,45.48520430019508,97.70892056628716,2498,6.0,0.34948824813148954
+13,charith_asalanka,Logistic Regression,caught wk,bowled,False,48.63824249679691,113.56062970469576,4833,3.0,0.34177262458515834
+14,ibrahim_zadran,Logistic Regression,lbw,caught-fielder,False,19.707406964237194,103.68855566462615,2002,7.0,0.2434666137553611
+15,harry_tector,Logistic Regression,caught-fielder,caught-fielder,True,38.51322098804781,96.26157747945142,906,0.0,0.6492626149728974
+16,shai_hope,Logistic Regression,stump,caught-fielder,False,59.55238535168674,64.88374659275782,1024,5.0,0.5371181389671396
+17,harry_tector,Logistic Regression,caught wk,caught wk,True,19.17338486779326,98.85538063697722,2176,9.0,0.4137222313405424
+18,shubman_gill,Logistic Regression,caught-fielder,caught-fielder,True,61.82543191903224,96.59398660530609,2775,1.0,0.8481528497697809
+19,shai_hope,Logistic Regression,caught wk,bowled,False,10.0,89.80942498660414,2908,7.0,0.3117897743300158
+20,ibrahim_zadran,Logistic Regression,caught-fielder,caught-fielder,True,46.99937705446963,90.9116170454113,1656,1.0,0.41805212466805375
+21,shubman_gill,Logistic Regression,caught-fielder,caught-fielder,True,60.7514822047158,115.75223120148083,4496,4.0,0.39825039637320514
+22,shubman_gill,Logistic Regression,caught wk,caught-fielder,False,34.46006882034137,75.50452709032584,885,4.0,0.29722900279484876
+23,daryl_mitchell,Logistic Regression,caught-fielder,lbw,False,10.0,109.3667463117076,4207,8.0,0.3813110092687313
+24,ibrahim_zadran,Logistic Regression,stump,stump,True,33.077217956213495,98.19442399312788,3296,1.0,0.2662420875737911
+25,babar_azam,Logistic Regression,caught and bowled,bowled,False,46.9145169796551,87.54185497685596,4335,0.0,0.3810618663792867
+26,daryl_mitchell,Logistic Regression,hit wicket,caught-fielder,False,47.96955775854441,77.43296234800468,2200,8.0,0.3197063775177896
+27,babar_azam,Logistic Regression,stump,lbw,False,12.552061173648813,71.99952131186204,4973,3.0,0.38472111571591117
+28,daryl_mitchell,Logistic Regression,caught-fielder,caught-fielder,True,49.6704400942104,92.44090099687959,1904,3.0,0.7041217512005021
+29,daryl_mitchell,Logistic Regression,bowled,caught-fielder,False,20.205098541124137,50.0,3739,1.0,0.28274579011211903
+30,daryl_mitchell,Logistic Regression,caught-fielder,caught-fielder,True,52.48264401759217,96.2836519303618,1904,0.0,0.7879208889007088
+31,harry_tector,Logistic Regression,hit wicket,caught-fielder,False,21.040036730594196,67.31683040112463,1263,3.0,0.4369048975964643
+32,shubman_gill,Logistic Regression,caught wk,caught wk,True,12.092482151155288,65.30690430305475,424,6.0,0.22069177888015376
+33,ibrahim_zadran,Logistic Regression,bowled,lbw,False,11.84411895962156,107.33786880403358,4285,8.0,0.4142879456767955
+34,babar_azam,Logistic Regression,lbw,caught-fielder,False,31.44218392381901,63.58295162631123,3579,3.0,0.32250883869459757
+35,harry_tector,Logistic Regression,caught-fielder,caught-fielder,True,41.706878903912916,73.74863139999484,1751,3.0,0.4682453210755673
+36,ibrahim_zadran,Logistic Regression,caught wk,bowled,False,25.31053731313197,69.01615986699493,4727,7.0,0.4311730413642499
+37,babar_azam,Logistic Regression,bowled,caught-fielder,False,23.489786556679256,82.1343348256584,767,3.0,0.28027383515472876
+38,daryl_mitchell,Logistic Regression,caught wk,caught wk,True,29.456467207193285,62.52967590178342,118,9.0,0.5238266569075719
+39,harry_tector,Logistic Regression,bowled,stump,False,24.526759575269715,86.56817845012154,3532,9.0,0.28210772248341165
+40,shubman_gill,Logistic Regression,lbw,caught-fielder,False,56.436755278265466,72.70099123703329,1604,3.0,0.3213299789507793
+41,babar_azam,Logistic Regression,caught-fielder,caught-fielder,True,55.51,87.92,6106,,0.8174182892178583
+42,ibrahim_zadran,Logistic Regression,caught-fielder,caught-fielder,True,34.29103021056486,94.9947524022422,271,6.0,0.3285211765887548
+43,daryl_mitchell,Logistic Regression,caught wk,stump,False,25.34675251523807,105.59921635162323,3024,9.0,0.2579311511404555
+44,shubman_gill,Logistic Regression,bowled,caught-fielder,False,38.057340912912004,108.08708676817848,610,1.0,0.4378020712721906
+45,harry_tector,Logistic Regression,caught-fielder,stump,False,42.00173825397294,112.34740509443988,2020,2.0,0.22946111248816048
+46,charith_asalanka,Logistic Regression,bowled,lbw,False,20.21927304311469,63.12119181863052,3877,0.0,0.38490246123687605
+47,charith_asalanka,Logistic Regression,stump,lbw,False,23.291898526560118,75.50604460725881,2572,0.0,0.24351000722879748
+48,charith_asalanka,Logistic Regression,stump,caught wk,False,46.85557844077567,91.8010258913778,2768,9.0,0.5476266042699409
+49,harry_tector,Logistic Regression,caught wk,caught-fielder,False,30.44507714189006,50.0,3090,1.0,0.2779344879478946
+50,harry_tector,Logistic Regression,caught wk,caught-fielder,False,28.3108442920826,87.26280914106046,1344,3.0,0.522295237611283
+51,daryl_mitchell,Logistic Regression,lbw,caught-fielder,False,56.74780279660024,56.47755262477648,4116,1.0,0.3821324528168054
+52,harry_tector,Logistic Regression,bowled,caught-fielder,False,26.995267942362698,84.88944275359748,3252,2.0,0.3182703021227364
+53,shai_hope,Logistic Regression,caught wk,caught-fielder,False,51.73853080048042,72.01468843848151,3074,1.0,0.7467131211531676
+54,daryl_mitchell,Logistic Regression,caught-fielder,bowled,False,33.62361014000749,95.05579442081512,2171,2.0,0.333582645005538
+55,daryl_mitchell,Logistic Regression,hit wicket,caught wk,False,37.94433751722141,104.63561893911606,413,6.0,0.35527877780930256
+56,harry_tector,Logistic Regression,lbw,stump,False,41.85451046800205,111.25805307839568,1169,2.0,0.2977093909438146
+57,daryl_mitchell,Logistic Regression,caught-fielder,caught wk,False,45.63505636382769,71.4721539588146,1116,8.0,0.31416824068624777
+58,ibrahim_zadran,Logistic Regression,stump,caught-fielder,False,33.731555012842875,71.55443455624803,4029,3.0,0.260242160638831
+59,harry_tector,Logistic Regression,caught-fielder,caught-fielder,True,26.5931735258009,59.51262507241243,2248,1.0,0.33945384247280674
+60,shai_hope,Logistic Regression,bowled,bowled,True,14.423853061047417,101.03028637754018,4003,9.0,0.5237939333142615
+61,charith_asalanka,Logistic Regression,caught-fielder,stump,False,12.311067487417763,114.8937715072876,1755,5.0,0.2977910245191305
+62,daryl_mitchell,Logistic Regression,stump,caught-fielder,False,39.12831933136745,133.989195979162,3571,0.0,0.41755062676922955
+63,daryl_mitchell,Logistic Regression,stump,lbw,False,10.0,63.16132199209374,2825,8.0,0.26734888797161926
+64,charith_asalanka,Logistic Regression,caught-fielder,caught-fielder,True,42.58727991274197,89.48399206896785,2374,3.0,0.7937141862029945
+65,shubman_gill,Logistic Regression,lbw,caught wk,False,35.8788070631353,115.60390397726702,3603,8.0,0.2383632560593043
+66,charith_asalanka,Logistic Regression,stump,caught-fielder,False,44.29713661295452,98.91046697930517,2821,2.0,0.5161571988905338
+67,harry_tector,Logistic Regression,caught and bowled,caught wk,False,16.562246032993755,97.4246990514799,1026,2.0,0.4126038643986384
+68,daryl_mitchell,Logistic Regression,caught wk,caught-fielder,False,50.084826396148955,91.7317340284456,3988,4.0,0.36991331979921893
+69,shai_hope,Logistic Regression,bowled,lbw,False,10.0,55.42827508440317,2135,5.0,0.24010344310792747
+70,shai_hope,Logistic Regression,bowled,caught-fielder,False,19.050312817074435,70.71507777892815,3259,1.0,0.29589693636475517
+71,ibrahim_zadran,Logistic Regression,lbw,caught wk,False,59.831106696324426,94.82415330823993,1077,6.0,0.21323648108718848
+72,ibrahim_zadran,Logistic Regression,caught-fielder,caught-fielder,True,53.51592477586273,81.56023372897361,1656,0.0,0.5334204663353029
+73,ibrahim_zadran,Logistic Regression,caught-fielder,caught-fielder,True,50.18,83.09,1656,,0.49934414088709983
+74,charith_asalanka,Logistic Regression,lbw,lbw,True,14.16637743456339,73.09793122704554,1370,6.0,0.2685345257546033
+75,charith_asalanka,Logistic Regression,caught-fielder,caught-fielder,True,44.81847293149274,84.18917078075418,2374,2.0,0.8366834029392853
+76,charith_asalanka,Logistic Regression,caught-fielder,caught-fielder,True,46.96813472213824,99.26911673573208,2374,1.0,0.8403311159473779
+77,charith_asalanka,Logistic Regression,stump,lbw,False,30.62718033623756,58.49625391686001,4471,8.0,0.3185742489318505
+78,babar_azam,Logistic Regression,caught wk,lbw,False,29.340826911744667,76.88750017575867,1850,4.0,0.2690538529300524
+79,shai_hope,Logistic Regression,caught-fielder,caught-fielder,True,53.360999466461934,76.5997941217939,5427,4.0,0.8863541058106783
+80,harry_tector,Logistic Regression,stump,caught-fielder,False,69.20748959716411,135.23079193740284,2092,2.0,0.35572661080572915
+81,harry_tector,Logistic Regression,caught wk,bowled,False,35.54095087204441,90.30311054597775,1076,6.0,0.5380169591570173
+82,babar_azam,Logistic Regression,stump,caught-fielder,False,43.58086162571216,83.75617966001379,3591,5.0,0.37611336941727735
+83,babar_azam,Logistic Regression,hit wicket,stump,False,16.462433879716624,88.48750771350035,3353,1.0,0.27487710294785
+84,ibrahim_zadran,Logistic Regression,bowled,lbw,False,20.214109304966843,95.08093031035689,3222,8.0,0.42111807244701477
+85,shubman_gill,Logistic Regression,lbw,caught-fielder,False,50.635406937392105,82.17554928691499,2929,0.0,0.5211475293031097
+86,shai_hope,Logistic Regression,caught-fielder,bowled,False,21.27561398325955,86.62553685534056,732,6.0,0.35749007409168226
+87,charith_asalanka,Logistic Regression,lbw,bowled,False,31.542130622296238,74.37571410784803,3516,0.0,0.2565214612270838
+88,daryl_mitchell,Logistic Regression,caught wk,bowled,False,21.17193542595107,68.93272407879458,2526,8.0,0.37985948178653867
+89,harry_tector,Logistic Regression,lbw,lbw,True,10.0,65.68670392953584,3729,0.0,0.29617591128560733
+90,charith_asalanka,Logistic Regression,bowled,caught-fielder,False,43.32039191335443,99.66346729488704,2096,2.0,0.6049496355251104
+91,harry_tector,Logistic Regression,lbw,caught and bowled,False,24.39905354721141,102.972969173698,1578,3.0,0.4067114009626405
+92,shai_hope,Logistic Regression,stump,caught-fielder,False,32.31275363504857,59.63971585233247,1419,3.0,0.5162783209142877
+93,babar_azam,Logistic Regression,caught-fielder,caught-fielder,True,60.93483295426575,87.80238809560505,6106,1.0,0.8239797701699265
+94,shai_hope,Logistic Regression,bowled,caught-fielder,False,51.853126725372746,127.86410376227775,3736,0.0,0.4974274308560778
+95,charith_asalanka,Logistic Regression,caught-fielder,caught wk,False,56.30756371984782,73.58507412501048,2209,1.0,0.30553850597771803
+96,charith_asalanka,Logistic Regression,caught and bowled,caught wk,False,46.717607849160366,65.672318614636,4341,4.0,0.4082777260123906
+97,babar_azam,Logistic Regression,caught-fielder,caught-fielder,True,57.290936381847345,81.9392689312204,6106,3.0,0.771030280154886
+98,babar_azam,Logistic Regression,bowled,lbw,False,10.0,76.16467953547973,3574,7.0,0.340504060070811
+99,charith_asalanka,Logistic Regression,lbw,stump,False,36.40058561414977,115.32788110507146,2966,8.0,0.24591128711114288
+100,charith_asalanka,Logistic Regression,stump,lbw,False,32.19695604724401,91.67455727123746,4624,4.0,0.2771309846416501
+101,babar_azam,Logistic Regression,lbw,bowled,False,27.470424389529597,79.73490339472741,3401,3.0,0.29905398052224136
+102,harry_tector,Logistic Regression,caught-fielder,stump,False,24.705213865263264,99.1621735337718,3825,7.0,0.3021250177584458
+103,shai_hope,Logistic Regression,caught and bowled,bowled,False,32.7463551680261,62.609077432336626,789,9.0,0.2578076294535175
+1,harry_tector,SVM,caught wk,stump,False,41.47883817010911,108.77826742949286,3847,9.0,0.21264747972849815
+2,harry_tector,SVM,lbw,caught-fielder,False,34.41885657515685,97.08241011969483,3419,1.0,0.24329211045778892
+3,babar_azam,SVM,caught-fielder,caught-fielder,True,53.801479656652994,90.92787348598843,6106,2.0,0.4311625431294447
+4,shubman_gill,SVM,caught wk,caught wk,True,46.071205623644765,87.21778957775535,3900,3.0,0.19489229828650986
+5,daryl_mitchell,SVM,caught-fielder,caught-fielder,True,49.08656187297689,104.6739705081727,1904,4.0,0.3915975857376132
+6,harry_tector,SVM,stump,bowled,False,33.5680362936639,50.0,3316,7.0,0.2134330648725144
+7,shubman_gill,SVM,stump,bowled,False,37.00939860748467,73.35776812419144,3256,6.0,0.20103450794796565
+8,babar_azam,SVM,stump,caught wk,False,53.378881056335224,87.6697349088533,2259,5.0,0.22869124246210404
+9,shubman_gill,SVM,bowled,stump,False,19.81843437109749,51.902866562684615,636,8.0,0.1938568770980279
+10,ibrahim_zadran,SVM,hit wicket,bowled,False,45.766902426857186,74.29156245333303,3965,9.0,0.229873738182122
+11,charith_asalanka,SVM,bowled,caught-fielder,False,37.24750574509397,87.81814736142644,1815,4.0,0.26252387144197237
+12,ibrahim_zadran,SVM,lbw,bowled,False,45.48520430019508,97.70892056628716,2498,6.0,0.1899815380795503
+13,charith_asalanka,SVM,caught wk,bowled,False,48.63824249679691,113.56062970469576,4833,3.0,0.2229371153374393
+14,ibrahim_zadran,SVM,lbw,caught wk,False,19.707406964237194,103.68855566462615,2002,7.0,0.2281128353391147
+15,harry_tector,SVM,caught-fielder,caught-fielder,True,38.51322098804781,96.26157747945142,906,0.0,0.38904646482405036
+16,shai_hope,SVM,stump,caught-fielder,False,59.55238535168674,64.88374659275782,1024,5.0,0.4252797247518103
+17,harry_tector,SVM,caught wk,lbw,False,19.17338486779326,98.85538063697722,2176,9.0,0.21501205824532657
+18,shubman_gill,SVM,caught-fielder,caught-fielder,True,61.82543191903224,96.59398660530609,2775,1.0,0.42910910273866576
+19,shai_hope,SVM,caught wk,lbw,False,10.0,89.80942498660414,2908,7.0,0.23757946728476625
+20,ibrahim_zadran,SVM,caught-fielder,caught-fielder,True,46.99937705446963,90.9116170454113,1656,1.0,0.4033197543126158
+21,shubman_gill,SVM,caught-fielder,caught-fielder,True,60.7514822047158,115.75223120148083,4496,4.0,0.27712078801933904
+22,shubman_gill,SVM,caught wk,bowled,False,34.46006882034137,75.50452709032584,885,4.0,0.26862847315651067
+23,daryl_mitchell,SVM,caught-fielder,stump,False,10.0,109.3667463117076,4207,8.0,0.253648732149673
+24,ibrahim_zadran,SVM,stump,stump,True,33.077217956213495,98.19442399312788,3296,1.0,0.202597973850716
+25,babar_azam,SVM,caught and bowled,bowled,False,46.9145169796551,87.54185497685596,4335,0.0,0.23960118463031768
+26,daryl_mitchell,SVM,hit wicket,bowled,False,47.96955775854441,77.43296234800468,2200,8.0,0.2619592579865836
+27,babar_azam,SVM,stump,lbw,False,12.552061173648813,71.99952131186204,4973,3.0,0.21494516847811507
+28,daryl_mitchell,SVM,caught-fielder,caught-fielder,True,49.6704400942104,92.44090099687959,1904,3.0,0.40759561406286904
+29,daryl_mitchell,SVM,bowled,caught-fielder,False,20.205098541124137,50.0,3739,1.0,0.20794027595165898
+30,daryl_mitchell,SVM,caught-fielder,caught-fielder,True,52.48264401759217,96.2836519303618,1904,0.0,0.4192217918718259
+31,harry_tector,SVM,hit wicket,caught-fielder,False,21.040036730594196,67.31683040112463,1263,3.0,0.3286089533473243
+32,shubman_gill,SVM,caught wk,caught wk,True,12.092482151155288,65.30690430305475,424,6.0,0.2565993289266528
+33,ibrahim_zadran,SVM,bowled,stump,False,11.84411895962156,107.33786880403358,4285,8.0,0.2449878282945857
+34,babar_azam,SVM,lbw,caught-fielder,False,31.44218392381901,63.58295162631123,3579,3.0,0.24473084512921214
+35,harry_tector,SVM,caught-fielder,caught-fielder,True,41.706878903912916,73.74863139999484,1751,3.0,0.43145153262963926
+36,ibrahim_zadran,SVM,caught wk,lbw,False,25.31053731313197,69.01615986699493,4727,7.0,0.24254389779849994
+37,babar_azam,SVM,bowled,caught wk,False,23.489786556679256,82.1343348256584,767,3.0,0.27603307250587583
+38,daryl_mitchell,SVM,caught wk,caught wk,True,29.456467207193285,62.52967590178342,118,9.0,0.24175880901830038
+39,harry_tector,SVM,bowled,stump,False,24.526759575269715,86.56817845012154,3532,9.0,0.20965308548253056
+40,shubman_gill,SVM,lbw,caught-fielder,False,56.436755278265466,72.70099123703329,1604,3.0,0.29196835276319033
+41,babar_azam,SVM,caught-fielder,caught-fielder,True,55.51,87.92,6106,,0.4274532920294298
+42,ibrahim_zadran,SVM,caught-fielder,bowled,False,34.29103021056486,94.9947524022422,271,6.0,0.24415161677404648
+43,daryl_mitchell,SVM,caught wk,stump,False,25.34675251523807,105.59921635162323,3024,9.0,0.2105224067793104
+44,shubman_gill,SVM,bowled,caught-fielder,False,38.057340912912004,108.08708676817848,610,1.0,0.2671989797464423
+45,harry_tector,SVM,caught-fielder,caught wk,False,42.00173825397294,112.34740509443988,2020,2.0,0.2057581528149141
+46,charith_asalanka,SVM,bowled,caught wk,False,20.21927304311469,63.12119181863052,3877,0.0,0.21815638738788057
+47,charith_asalanka,SVM,stump,stump,True,23.291898526560118,75.50604460725881,2572,0.0,0.20167952352339097
+48,charith_asalanka,SVM,stump,caught wk,False,46.85557844077567,91.8010258913778,2768,9.0,0.2014468968137288
+49,harry_tector,SVM,caught wk,caught-fielder,False,30.44507714189006,50.0,3090,1.0,0.26092523990046673
+50,harry_tector,SVM,caught wk,caught-fielder,False,28.3108442920826,87.26280914106046,1344,3.0,0.3213879699801228
+51,daryl_mitchell,SVM,lbw,lbw,True,56.74780279660024,56.47755262477648,4116,1.0,0.24338579047392545
+52,harry_tector,SVM,bowled,caught wk,False,26.995267942362698,84.88944275359748,3252,2.0,0.26876938306023773
+53,shai_hope,SVM,caught wk,caught-fielder,False,51.73853080048042,72.01468843848151,3074,1.0,0.39405397665063335
+54,daryl_mitchell,SVM,caught-fielder,caught-fielder,True,33.62361014000749,95.05579442081512,2171,2.0,0.3623509712460482
+55,daryl_mitchell,SVM,hit wicket,caught wk,False,37.94433751722141,104.63561893911606,413,6.0,0.2064262140149634
+56,harry_tector,SVM,lbw,bowled,False,41.85451046800205,111.25805307839568,1169,2.0,0.21193147684278013
+57,daryl_mitchell,SVM,caught-fielder,caught wk,False,45.63505636382769,71.4721539588146,1116,8.0,0.2126519875243258
+58,ibrahim_zadran,SVM,stump,caught-fielder,False,33.731555012842875,71.55443455624803,4029,3.0,0.3663847374768717
+59,harry_tector,SVM,caught-fielder,caught wk,False,26.5931735258009,59.51262507241243,2248,1.0,0.2026908682843191
+60,shai_hope,SVM,bowled,lbw,False,14.423853061047417,101.03028637754018,4003,9.0,0.22757490168201952
+61,charith_asalanka,SVM,caught-fielder,stump,False,12.311067487417763,114.8937715072876,1755,5.0,0.20268636591764957
+62,daryl_mitchell,SVM,stump,caught-fielder,False,39.12831933136745,133.989195979162,3571,0.0,0.33471382471675193
+63,daryl_mitchell,SVM,stump,caught wk,False,10.0,63.16132199209374,2825,8.0,0.22094015685184823
+64,charith_asalanka,SVM,caught-fielder,caught-fielder,True,42.58727991274197,89.48399206896785,2374,3.0,0.4383768659370026
+65,shubman_gill,SVM,lbw,stump,False,35.8788070631353,115.60390397726702,3603,8.0,0.19469219052738287
+66,charith_asalanka,SVM,stump,caught-fielder,False,44.29713661295452,98.91046697930517,2821,2.0,0.31345757985465506
+67,harry_tector,SVM,caught and bowled,caught wk,False,16.562246032993755,97.4246990514799,1026,2.0,0.1987059987954174
+68,daryl_mitchell,SVM,caught wk,caught wk,True,50.084826396148955,91.7317340284456,3988,4.0,0.19682988790256278
+69,shai_hope,SVM,bowled,lbw,False,10.0,55.42827508440317,2135,5.0,0.20812835077236577
+70,shai_hope,SVM,bowled,stump,False,19.050312817074435,70.71507777892815,3259,1.0,0.2358138062866775
+71,ibrahim_zadran,SVM,lbw,caught wk,False,59.831106696324426,94.82415330823993,1077,6.0,0.22572545326894347
+72,ibrahim_zadran,SVM,caught-fielder,caught-fielder,True,53.51592477586273,81.56023372897361,1656,0.0,0.43613056998771665
+73,ibrahim_zadran,SVM,caught-fielder,caught-fielder,True,50.18,83.09,1656,,0.42288175161042335
+74,charith_asalanka,SVM,lbw,lbw,True,14.16637743456339,73.09793122704554,1370,6.0,0.20641438861309067
+75,charith_asalanka,SVM,caught-fielder,caught-fielder,True,44.81847293149274,84.18917078075418,2374,2.0,0.45032734955418086
+76,charith_asalanka,SVM,caught-fielder,caught-fielder,True,46.96813472213824,99.26911673573208,2374,1.0,0.44584783990638605
+77,charith_asalanka,SVM,stump,bowled,False,30.62718033623756,58.49625391686001,4471,8.0,0.225571904448626
+78,babar_azam,SVM,caught wk,caught-fielder,False,29.340826911744667,76.88750017575867,1850,4.0,0.23661172232746688
+79,shai_hope,SVM,caught-fielder,caught-fielder,True,53.360999466461934,76.5997941217939,5427,4.0,0.415108235557878
+80,harry_tector,SVM,stump,bowled,False,69.20748959716411,135.23079193740284,2092,2.0,0.24053270558844572
+81,harry_tector,SVM,caught wk,bowled,False,35.54095087204441,90.30311054597775,1076,6.0,0.2327330357097001
+82,babar_azam,SVM,stump,stump,True,43.58086162571216,83.75617966001379,3591,5.0,0.21041097231345846
+83,babar_azam,SVM,hit wicket,stump,False,16.462433879716624,88.48750771350035,3353,1.0,0.20901013589882703
+84,ibrahim_zadran,SVM,bowled,lbw,False,20.214109304966843,95.08093031035689,3222,8.0,0.23514560445111882
+85,shubman_gill,SVM,lbw,caught-fielder,False,50.635406937392105,82.17554928691499,2929,0.0,0.26259832904047975
+86,shai_hope,SVM,caught-fielder,bowled,False,21.27561398325955,86.62553685534056,732,6.0,0.2536763581944836
+87,charith_asalanka,SVM,lbw,lbw,True,31.542130622296238,74.37571410784803,3516,0.0,0.22105356187452477
+88,daryl_mitchell,SVM,caught wk,bowled,False,21.17193542595107,68.93272407879458,2526,8.0,0.18992565309155854
+89,harry_tector,SVM,lbw,lbw,True,10.0,65.68670392953584,3729,0.0,0.21809055731732066
+90,charith_asalanka,SVM,bowled,caught-fielder,False,43.32039191335443,99.66346729488704,2096,2.0,0.3651679426763697
+91,harry_tector,SVM,lbw,caught wk,False,24.39905354721141,102.972969173698,1578,3.0,0.20295071661400138
+92,shai_hope,SVM,stump,caught-fielder,False,32.31275363504857,59.63971585233247,1419,3.0,0.3365181290430402
+93,babar_azam,SVM,caught-fielder,caught-fielder,True,60.93483295426575,87.80238809560505,6106,1.0,0.4323393095532473
+94,shai_hope,SVM,bowled,caught-fielder,False,51.853126725372746,127.86410376227775,3736,0.0,0.3313659734664501
+95,charith_asalanka,SVM,caught-fielder,caught-fielder,True,56.30756371984782,73.58507412501048,2209,1.0,0.27804757700257215
+96,charith_asalanka,SVM,caught and bowled,caught wk,False,46.717607849160366,65.672318614636,4341,4.0,0.2010643832002265
+97,babar_azam,SVM,caught-fielder,caught-fielder,True,57.290936381847345,81.9392689312204,6106,3.0,0.4325818001875941
+98,babar_azam,SVM,bowled,lbw,False,10.0,76.16467953547973,3574,7.0,0.22431193255041548
+99,charith_asalanka,SVM,lbw,stump,False,36.40058561414977,115.32788110507146,2966,8.0,0.20419977586097168
+100,charith_asalanka,SVM,stump,stump,True,32.19695604724401,91.67455727123746,4624,4.0,0.21441034797354913
+101,babar_azam,SVM,lbw,bowled,False,27.470424389529597,79.73490339472741,3401,3.0,0.19794303413750605
+102,harry_tector,SVM,caught-fielder,stump,False,24.705213865263264,99.1621735337718,3825,7.0,0.22868884615450313
+103,shai_hope,SVM,caught and bowled,caught-fielder,False,32.7463551680261,62.609077432336626,789,9.0,0.38793647776937734
