@@ -1,0 +1,470 @@
+{
+  "analysis_timestamp": "2025-07-28T22:00:00.160051",
+  "methodology": "Consistent - All using summary CSVs with same 501 scenarios per model",
+  "data_sources": {
+    "llm_summaries_path": "..\\llm\\plots\\aggregated_by_model",
+    "models_analyzed": [
+      "o4-mini",
+      "gpt-4.1",
+      "gpt-4.1-mini",
+      "gpt-4.1-nano"
+    ],
+    "csv_files_used": [
+      "o4-mini_summary.csv",
+      "gpt-4.1_summary.csv",
+      "gpt-4.1-mini_summary.csv",
+      "gpt-4.1-nano_summary.csv"
+    ]
+  },
+  "overall_llm_performance": {
+    "total_scenarios": 2004,
+    "total_models": 4,
+    "total_top1_successes": 1115,
+    "total_top2_successes": 1519,
+    "top1_accuracy": 0.5563872255489022,
+    "top2_accuracy": 0.7579840319361277,
+    "top2_improvement": 0.20159680638722555,
+    "data_source": "All model summary CSVs combined"
+  },
+  "best_individual_model": {
+    "model_name": "o4-mini",
+    "configuration": "Venue Stats + Vs-Team Stats",
+    "total_scenarios": 501,
+    "top1_accuracy": 0.5748502994011976,
+    "top2_accuracy": 0.7924151696606786,
+    "top1_successes": 288,
+    "top2_successes": 397,
+    "top2_improvement": 0.21756487025948104
+  },
+  "all_models_individual_performance": {
+    "o4-mini": {
+      "model_name": "o4-mini",
+      "csv_file": "o4-mini_summary.csv",
+      "best_configuration": "Venue Stats + Vs-Team Stats",
+      "total_scenarios": 501,
+      "top1_successes": 288,
+      "top2_successes": 397,
+      "top1_accuracy": 0.5748502994011976,
+      "top2_accuracy": 0.7924151696606786,
+      "top2_improvement": 0.21756487025948104,
+      "raw_summary_data": [
+        {
+          "block": "Random Classifier",
+          "n": 501,
+          "top1_successes": 63,
+          "top2_successes": 125,
+          "top1_acc": 12.574850299401197,
+          "top2_acc": 24.9500998003992
+        },
+        {
+          "block": "Top Career Dismissal",
+          "n": 501,
+          "top1_successes": 217,
+          "top2_successes": 289,
+          "top1_acc": 43.31337325349301,
+          "top2_acc": 57.68463073852296
+        },
+        {
+          "block": "Baseline\n(all off)",
+          "n": 501,
+          "top1_successes": 214,
+          "top2_successes": 274,
+          "top1_acc": 42.71457085828344,
+          "top2_acc": 54.690618762475054
+        },
+        {
+          "block": "General Stats",
+          "n": 501,
+          "top1_successes": 222,
+          "top2_successes": 319,
+          "top1_acc": 44.31137724550898,
+          "top2_acc": 63.67265469061876
+        },
+        {
+          "block": "General Stats + Venue Stats",
+          "n": 501,
+          "top1_successes": 246,
+          "top2_successes": 356,
+          "top1_acc": 49.10179640718562,
+          "top2_acc": 71.05788423153693
+        },
+        {
+          "block": "General Stats + Venue Stats + Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 276,
+          "top2_successes": 376,
+          "top1_acc": 55.08982035928144,
+          "top2_acc": 75.0499001996008
+        },
+        {
+          "block": "General Stats + Venue Stats + Vs-Team Stats + Commentary",
+          "n": 501,
+          "top1_successes": 206,
+          "top2_successes": 322,
+          "top1_acc": 41.11776447105788,
+          "top2_acc": 64.27145708582835
+        },
+        {
+          "block": "Venue Stats",
+          "n": 501,
+          "top1_successes": 275,
+          "top2_successes": 381,
+          "top1_acc": 54.89021956087824,
+          "top2_acc": 76.04790419161677
+        },
+        {
+          "block": "Venue Stats + Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 288,
+          "top2_successes": 397,
+          "top1_acc": 57.48502994011976,
+          "top2_acc": 79.24151696606786
+        },
+        {
+          "block": "Venue Stats + Vs-Team Stats + Commentary",
+          "n": 501,
+          "top1_successes": 220,
+          "top2_successes": 329,
+          "top1_acc": 43.91217564870259,
+          "top2_acc": 65.6686626746507
+        },
+        {
+          "block": "Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 285,
+          "top2_successes": 392,
+          "top1_acc": 56.88622754491018,
+          "top2_acc": 78.2435129740519
+        }
+      ]
+    },
+    "gpt-4.1": {
+      "model_name": "gpt-4.1",
+      "csv_file": "gpt-4.1_summary.csv",
+      "best_configuration": "Venue Stats + Vs-Team Stats",
+      "total_scenarios": 501,
+      "top1_successes": 277,
+      "top2_successes": 386,
+      "top1_accuracy": 0.5528942115768463,
+      "top2_accuracy": 0.7704590818363273,
+      "top2_improvement": 0.21756487025948104,
+      "raw_summary_data": [
+        {
+          "block": "Random Classifier",
+          "n": 501,
+          "top1_successes": 63,
+          "top2_successes": 125,
+          "top1_acc": 12.574850299401197,
+          "top2_acc": 24.9500998003992
+        },
+        {
+          "block": "Top Career Dismissal",
+          "n": 501,
+          "top1_successes": 217,
+          "top2_successes": 289,
+          "top1_acc": 43.31337325349301,
+          "top2_acc": 57.68463073852296
+        },
+        {
+          "block": "Baseline\n(all off)",
+          "n": 501,
+          "top1_successes": 216,
+          "top2_successes": 270,
+          "top1_acc": 43.11377245508982,
+          "top2_acc": 53.89221556886228
+        },
+        {
+          "block": "General Stats",
+          "n": 501,
+          "top1_successes": 224,
+          "top2_successes": 320,
+          "top1_acc": 44.71057884231537,
+          "top2_acc": 63.87225548902195
+        },
+        {
+          "block": "General Stats + Venue Stats",
+          "n": 501,
+          "top1_successes": 234,
+          "top2_successes": 341,
+          "top1_acc": 46.706586826347305,
+          "top2_acc": 68.06387225548902
+        },
+        {
+          "block": "General Stats + Venue Stats + Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 270,
+          "top2_successes": 372,
+          "top1_acc": 53.89221556886228,
+          "top2_acc": 74.25149700598801
+        },
+        {
+          "block": "General Stats + Venue Stats + Vs-Team Stats + Commentary",
+          "n": 501,
+          "top1_successes": 213,
+          "top2_successes": 340,
+          "top1_acc": 42.51497005988024,
+          "top2_acc": 67.86427145708582
+        },
+        {
+          "block": "Venue Stats",
+          "n": 501,
+          "top1_successes": 266,
+          "top2_successes": 374,
+          "top1_acc": 53.09381237524951,
+          "top2_acc": 74.6506986027944
+        },
+        {
+          "block": "Venue Stats + Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 277,
+          "top2_successes": 386,
+          "top1_acc": 55.28942115768463,
+          "top2_acc": 77.04590818363273
+        },
+        {
+          "block": "Venue Stats + Vs-Team Stats + Commentary",
+          "n": 501,
+          "top1_successes": 213,
+          "top2_successes": 327,
+          "top1_acc": 42.51497005988024,
+          "top2_acc": 65.26946107784431
+        },
+        {
+          "block": "Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 275,
+          "top2_successes": 380,
+          "top1_acc": 54.89021956087824,
+          "top2_acc": 75.84830339321357
+        }
+      ]
+    },
+    "gpt-4.1-mini": {
+      "model_name": "gpt-4.1-mini",
+      "csv_file": "gpt-4.1-mini_summary.csv",
+      "best_configuration": "Venue Stats + Vs-Team Stats",
+      "total_scenarios": 501,
+      "top1_successes": 282,
+      "top2_successes": 385,
+      "top1_accuracy": 0.562874251497006,
+      "top2_accuracy": 0.7684630738522954,
+      "top2_improvement": 0.20558882235528933,
+      "raw_summary_data": [
+        {
+          "block": "Random Classifier",
+          "n": 501,
+          "top1_successes": 63,
+          "top2_successes": 125,
+          "top1_acc": 12.574850299401197,
+          "top2_acc": 24.9500998003992
+        },
+        {
+          "block": "Top Career Dismissal",
+          "n": 501,
+          "top1_successes": 217,
+          "top2_successes": 289,
+          "top1_acc": 43.31337325349301,
+          "top2_acc": 57.68463073852296
+        },
+        {
+          "block": "Baseline\n(all off)",
+          "n": 501,
+          "top1_successes": 205,
+          "top2_successes": 276,
+          "top1_acc": 40.91816367265469,
+          "top2_acc": 55.08982035928144
+        },
+        {
+          "block": "General Stats",
+          "n": 501,
+          "top1_successes": 225,
+          "top2_successes": 312,
+          "top1_acc": 44.91017964071856,
+          "top2_acc": 62.27544910179641
+        },
+        {
+          "block": "General Stats + Venue Stats",
+          "n": 501,
+          "top1_successes": 240,
+          "top2_successes": 341,
+          "top1_acc": 47.90419161676647,
+          "top2_acc": 68.06387225548902
+        },
+        {
+          "block": "General Stats + Venue Stats + Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 275,
+          "top2_successes": 374,
+          "top1_acc": 54.89021956087824,
+          "top2_acc": 74.6506986027944
+        },
+        {
+          "block": "General Stats + Venue Stats + Vs-Team Stats + Commentary",
+          "n": 501,
+          "top1_successes": 219,
+          "top2_successes": 328,
+          "top1_acc": 43.71257485029941,
+          "top2_acc": 65.46906187624751
+        },
+        {
+          "block": "Venue Stats",
+          "n": 501,
+          "top1_successes": 268,
+          "top2_successes": 366,
+          "top1_acc": 53.49301397205589,
+          "top2_acc": 73.05389221556887
+        },
+        {
+          "block": "Venue Stats + Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 282,
+          "top2_successes": 385,
+          "top1_acc": 56.2874251497006,
+          "top2_acc": 76.84630738522954
+        },
+        {
+          "block": "Venue Stats + Vs-Team Stats + Commentary",
+          "n": 501,
+          "top1_successes": 218,
+          "top2_successes": 330,
+          "top1_acc": 43.51297405189621,
+          "top2_acc": 65.86826347305389
+        },
+        {
+          "block": "Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 279,
+          "top2_successes": 382,
+          "top1_acc": 55.68862275449101,
+          "top2_acc": 76.24750499001996
+        }
+      ]
+    },
+    "gpt-4.1-nano": {
+      "model_name": "gpt-4.1-nano",
+      "csv_file": "gpt-4.1-nano_summary.csv",
+      "best_configuration": "Vs-Team Stats",
+      "total_scenarios": 501,
+      "top1_successes": 268,
+      "top2_successes": 351,
+      "top1_accuracy": 0.5349301397205589,
+      "top2_accuracy": 0.7005988023952096,
+      "top2_improvement": 0.16566866267465058,
+      "raw_summary_data": [
+        {
+          "block": "Random Classifier",
+          "n": 501,
+          "top1_successes": 63,
+          "top2_successes": 125,
+          "top1_acc": 12.574850299401197,
+          "top2_acc": 24.9500998003992
+        },
+        {
+          "block": "Top Career Dismissal",
+          "n": 501,
+          "top1_successes": 217,
+          "top2_successes": 289,
+          "top1_acc": 43.31337325349301,
+          "top2_acc": 57.68463073852296
+        },
+        {
+          "block": "Baseline\n(all off)",
+          "n": 501,
+          "top1_successes": 187,
+          "top2_successes": 262,
+          "top1_acc": 37.3253493013972,
+          "top2_acc": 52.29540918163673
+        },
+        {
+          "block": "General Stats",
+          "n": 501,
+          "top1_successes": 220,
+          "top2_successes": 296,
+          "top1_acc": 43.91217564870259,
+          "top2_acc": 59.08183632734531
+        },
+        {
+          "block": "General Stats + Venue Stats",
+          "n": 501,
+          "top1_successes": 226,
+          "top2_successes": 309,
+          "top1_acc": 45.10978043912176,
+          "top2_acc": 61.67664670658682
+        },
+        {
+          "block": "General Stats + Venue Stats + Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 236,
+          "top2_successes": 311,
+          "top1_acc": 47.1057884231537,
+          "top2_acc": 62.07584830339321
+        },
+        {
+          "block": "General Stats + Venue Stats + Vs-Team Stats + Commentary",
+          "n": 501,
+          "top1_successes": 206,
+          "top2_successes": 303,
+          "top1_acc": 41.11776447105788,
+          "top2_acc": 60.47904191616767
+        },
+        {
+          "block": "Venue Stats",
+          "n": 501,
+          "top1_successes": 248,
+          "top2_successes": 324,
+          "top1_acc": 49.50099800399202,
+          "top2_acc": 64.67065868263472
+        },
+        {
+          "block": "Venue Stats + Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 257,
+          "top2_successes": 343,
+          "top1_acc": 51.29740518962076,
+          "top2_acc": 68.46307385229541
+        },
+        {
+          "block": "Venue Stats + Vs-Team Stats + Commentary",
+          "n": 501,
+          "top1_successes": 213,
+          "top2_successes": 307,
+          "top1_acc": 42.51497005988024,
+          "top2_acc": 61.27744510978044
+        },
+        {
+          "block": "Vs-Team Stats",
+          "n": 501,
+          "top1_successes": 268,
+          "top2_successes": 351,
+          "top1_acc": 53.49301397205589,
+          "top2_acc": 70.05988023952095
+        }
+      ]
+    }
+  },
+  "comparison_with_traditional": {
+    "overall_llm_vs_traditional": {
+      "top1_gap_absolute": 0.1263872255489022,
+      "top1_gap_relative_percent": 29.39237803462842,
+      "top2_gap_absolute": 0.17798403193612777,
+      "top2_gap_relative_percent": 30.686902057953063
+    },
+    "best_model_vs_traditional": {
+      "model_name": "o4-mini",
+      "top1_gap_absolute": 0.1448502994011976,
+      "top1_gap_relative_percent": 33.68611613981339,
+      "top2_gap_absolute": 0.21241516966067864,
+      "top2_gap_relative_percent": 36.623305113910114
+    },
+    "top2_improvement_analysis": {
+      "traditional_improvement": 0.14999999999999997,
+      "best_llm_improvement": 0.21756487025948104,
+      "llm_advantage": 0.06756487025948107
+    }
+  },
+  "traditional_baseline": {
+    "top1_accuracy": 0.43,
+    "top2_accuracy": 0.58,
+    "data_source": "traditional_model_results.json"
+  }
+}

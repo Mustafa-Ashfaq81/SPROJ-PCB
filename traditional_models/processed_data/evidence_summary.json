@@ -1,0 +1,44 @@
+{
+  "report_timestamp": "2025-07-28T22:00:00.240254",
+  "dataset_summary": {
+    "total_scenarios": 500,
+    "players_analyzed": 7,
+    "features_extracted": 55,
+    "dismissal_types": 8
+  },
+  "key_findings": {
+    "traditional_best_performance": {
+      "model": "Random Forest",
+      "top1_accuracy": 0.43,
+      "top2_accuracy": 0.59
+    },
+    "llm_overall_performance": {
+      "models_combined": 4,
+      "total_scenarios": 2004,
+      "top1_accuracy": 0.5563872255489022,
+      "top2_accuracy": 0.7579840319361277
+    },
+    "llm_best_performance": {
+      "model": "o4-mini",
+      "configuration": "Venue Stats + Vs-Team Stats",
+      "top1_accuracy": 0.5748502994011976,
+      "top2_accuracy": 0.7924151696606786
+    },
+    "performance_advantages": {
+      "best_model_top1_improvement": {
+        "absolute": 0.1448502994011976,
+        "relative_percent": 33.68611613981339
+      },
+      "best_model_top2_improvement": {
+        "absolute": 0.21241516966067864,
+        "relative_percent": 36.623305113910114
+      }
+    }
+  },
+  "evidence_for_claims": {
+    "data_sparsity_confirmed": true,
+    "llm_superiority_demonstrated": true,
+    "context_awareness_advantage": "Venue Stats + Vs-Team Stats",
+    "significant_improvement": true
+  }
+}

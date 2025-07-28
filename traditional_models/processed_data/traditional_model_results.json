@@ -1,0 +1,90 @@
+{
+  "analysis_timestamp": "2025-07-28T22:00:00.114579",
+  "dataset_info": {
+    "total_samples": 500,
+    "test_samples": 100,
+    "total_features": "Unknown",
+    "unique_classes": 8,
+    "class_distribution": {
+      "Caught-Fielder": 218,
+      "Bowled": 71,
+      "Not-Out": 67,
+      "LBW": 48,
+      "Caught-and-Bowled": 15,
+      "Run-Out": 13,
+      "Caught-Wicketkeeper": 60,
+      "Stumped": 8
+    },
+    "imbalance_ratio": 27.25
+  },
+  "model_results": {
+    "Random Forest": {
+      "top1_accuracy": 0.43,
+      "top2_accuracy": 0.59,
+      "top2_correct": 59,
+      "precision": 0.18489999999999998,
+      "recall": 0.43,
+      "f1_score": 0.2586013986013986,
+      "prediction_distribution": {
+        "1": 100
+      },
+      "unique_predictions": 1
+    },
+    "Logistic Regression": {
+      "top1_accuracy": 0.43,
+      "top2_accuracy": 0.57,
+      "top2_correct": 57,
+      "precision": 0.18489999999999998,
+      "recall": 0.43,
+      "f1_score": 0.2586013986013986,
+      "prediction_distribution": {
+        "1": 100
+      },
+      "unique_predictions": 1
+    },
+    "SVM": {
+      "top1_accuracy": 0.43,
+      "top2_accuracy": 0.58,
+      "top2_correct": 58,
+      "precision": 0.18489999999999998,
+      "recall": 0.43,
+      "f1_score": 0.2586013986013986,
+      "prediction_distribution": {
+        "1": 100
+      },
+      "unique_predictions": 1
+    },
+    "Naive Bayes": {
+      "top1_accuracy": 0.32,
+      "top2_accuracy": 0.53,
+      "top2_correct": 53,
+      "precision": 0.21859195402298848,
+      "recall": 0.32,
+      "f1_score": 0.25720432043204317,
+      "prediction_distribution": {
+        "1": 58,
+        "0": 30,
+        "6": 12
+      },
+      "unique_predictions": 3
+    },
+    "XGBoost": {
+      "top1_accuracy": 0.43,
+      "top2_accuracy": 0.57,
+      "top2_correct": 57,
+      "precision": 0.18489999999999998,
+      "recall": 0.43,
+      "f1_score": 0.2586013986013986,
+      "prediction_distribution": {
+        "1": 100
+      },
+      "unique_predictions": 1
+    }
+  },
+  "best_performance": {
+    "top1_model": "Random Forest",
+    "top1_accuracy": 0.43,
+    "top2_model": "Random Forest",
+    "top2_accuracy": 0.59
+  }
+}
