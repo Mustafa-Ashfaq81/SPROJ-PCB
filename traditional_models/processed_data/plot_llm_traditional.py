@@ -31,38 +31,9 @@ with open(TRAD_JSON) as f:
     trad = json.load(f)
 
 
-# Calculate corrected overall LLM performance (excluding baselines)
-def calculate_corrected_llm_performance(llm_data):
-    """Calculate LLM performance excluding baseline methods"""
-    total_top1_successes = 0
-    total_top2_successes = 0
-    total_scenarios = 0
-
-    for model_data in llm_data["all_models_individual_performance"].values():
-        # Filter out baseline methods from raw_summary_data
-        actual_llm_configs = [
-            config
-            for config in model_data["raw_summary_data"]
-            if config["block"] not in BASELINE_METHODS
-        ]
-
-        # Use the best performing configuration for each model
-        best_config = max(actual_llm_configs, key=lambda x: x["top1_acc"])
-        total_top1_successes += best_config["top1_successes"]
-        total_top2_successes += best_config["top2_successes"]
-        total_scenarios += best_config["n"]
-
-    return {
-        "total_scenarios": total_scenarios,
-        "total_top1_successes": total_top1_successes,
-        "total_top2_successes": total_top2_successes,
-        "top1_accuracy": total_top1_successes / total_scenarios,
-        "top2_accuracy": total_top2_successes / total_scenarios,
-    }
-
-
-# Get corrected LLM performance
-corrected_llm_perf = calculate_corrected_llm_performance(llm)
+# Use the already-corrected overall LLM performance from JSON file
+# (This data already includes all LLM configurations, excluding baselines)
+corrected_llm_perf = llm["overall_llm_performance"]
 
 overall_df = pd.DataFrame(
     {
@@ -78,25 +49,15 @@ overall_df = pd.DataFrame(
     }
 )
 
-# Get individual LLM model performance (using best config, excluding baselines)
+# Get individual LLM model performance (using already-calculated best performance from JSON)
 llm_models = []
 for model_name, model_data in llm["all_models_individual_performance"].items():
-    # Filter out baseline methods
-    actual_llm_configs = [
-        config
-        for config in model_data["raw_summary_data"]
-        if config["block"] not in BASELINE_METHODS
-    ]
-
-    # Find best configuration
-    best_config = max(actual_llm_configs, key=lambda x: x["top1_acc"])
-
     llm_models.append(
         {
             "Model": model_name,
-            "Top‑1": best_config["top1_acc"] / 100,  # Convert percentage to decimal
-            "Top‑2": best_config["top2_acc"] / 100,  # Convert percentage to decimal
-            "Best_Config": best_config["block"],
+            "Top‑1": model_data["best_top1_accuracy"],  # Already in decimal format
+            "Top‑2": model_data["best_top2_accuracy"],  # Already in decimal format
+            "Best_Config": model_data["best_configuration"],
         }
     )
 
@@ -200,7 +161,7 @@ def barplot_grouped(df, index_col, title, fname, colors):
 barplot(
     overall_df,
     "Group",
-    "Overall Accuracy: LLM vs. Traditional (Corrected)",
+    "Overall Accuracy: LLM vs. Traditional (All LLM Configurations)",
     "plot_overall_llm_vs_traditional_corrected.png",
     PALETTE,
 )
@@ -225,7 +186,7 @@ barplot(
 barplot_grouped(
     df_all_models[["Model", "Top‑1", "Top‑2"]],
     "Model",
-    "Top‑1 and Top‑2 Accuracy: All Models (LLM + Traditional, Corrected)",
+    "Top‑1 and Top‑2 Accuracy: All Models (LLM + Traditional, All Configurations)",
     "plot_all_models_grouped_accuracy_corrected.png",
     PALETTE,
 )
@@ -259,7 +220,7 @@ def create_baseline_comparison_plot():
     df_with_baselines = pd.concat(
         [
             llm_df[["Model", "Top‑1", "Top‑2"]].assign(Type="LLM"),
-            trad_df.assign(Type="Traditional"),
+            trad_df[["Model", "Top‑1", "Top‑2"]].assign(Type="Traditional"),
             baseline_df,
         ]
     )
@@ -327,9 +288,10 @@ print(
  • plot_all_models_grouped_accuracy_corrected.png
  • plot_all_models_with_baselines.png  ← NEW! (includes baselines)
 
-📊 PERFORMANCE SUMMARY (Excluding Baselines):
+📊 PERFORMANCE SUMMARY (Corrected - All LLM Configurations):
    Traditional Best: Top-1: {trad['best_performance']['top1_accuracy']:.1%}, Top-2: {trad['best_performance']['top2_accuracy']:.1%}
-   LLM Average:      Top-1: {corrected_llm_perf['top1_accuracy']:.1%}, Top-2: {corrected_llm_perf['top2_accuracy']:.1%}
+   LLM Overall:     Top-1: {corrected_llm_perf['top1_accuracy']:.1%}, Top-2: {corrected_llm_perf['top2_accuracy']:.1%}
+   Total LLM Scenarios: {corrected_llm_perf['total_scenarios']:,} (vs Traditional: {trad['best_performance'].get('total_scenarios', 500)})
    
 🔧 EXCLUDED from LLM calculations: {', '.join(BASELINE_METHODS)}
 🎯 INCLUDED in baseline plot: {', '.join(BASELINE_METHODS)}
@@ -341,8 +303,4 @@ print(
 print("\n🏆 BEST CONFIGURATIONS PER MODEL:")
 for _, row in llm_df.iterrows():
     model_data = llm["all_models_individual_performance"][row["Model"]]
-    actual_configs = [
-        c for c in model_data["raw_summary_data"] if c["block"] not in BASELINE_METHODS
-    ]
-    best_config = max(actual_configs, key=lambda x: x["top1_acc"])
-    print(f"   {row['Model']}: {best_config['block']} (Top-1: {row['Top‑1']:.1%})")
+    print(f"   {row['Model']}: {model_data['best_configuration']} (Top-1: {row['Top‑1']:.1%})")

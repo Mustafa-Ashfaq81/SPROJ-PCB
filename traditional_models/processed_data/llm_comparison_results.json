@@ -1,6 +1,6 @@
 {
-  "analysis_timestamp": "2025-07-28T22:00:00.160051",
-  "methodology": "Consistent - All using summary CSVs with same 501 scenarios per model",
+  "analysis_timestamp": "2025-07-29T22:42:09.157582",
+  "methodology": "Corrected - All LLM configurations included (excluding Random Classifier and Top Career Dismissal baselines)",
   "data_sources": {
     "llm_summaries_path": "..\\llm\\plots\\aggregated_by_model",
     "models_analyzed": [
@@ -14,17 +14,25 @@
       "gpt-4.1_summary.csv",
       "gpt-4.1-mini_summary.csv",
       "gpt-4.1-nano_summary.csv"
-    ]
+    ],
+    "total_llm_configurations": 36,
+    "configurations_per_model": {
+      "o4-mini": 9,
+      "gpt-4.1": 9,
+      "gpt-4.1-mini": 9,
+      "gpt-4.1-nano": 9
+    }
   },
   "overall_llm_performance": {
-    "total_scenarios": 2004,
+    "total_scenarios": 18036,
     "total_models": 4,
-    "total_top1_successes": 1115,
-    "total_top2_successes": 1519,
-    "top1_accuracy": 0.5563872255489022,
-    "top2_accuracy": 0.7579840319361277,
-    "top2_improvement": 0.20159680638722555,
-    "data_source": "All model summary CSVs combined"
+    "total_configurations": 36,
+    "total_top1_successes": 8692,
+    "total_top2_successes": 12156,
+    "top1_accuracy": 0.48192503881126636,
+    "top2_accuracy": 0.6739853626081171,
+    "top2_improvement": 0.19206032379685078,
+    "data_source": "All LLM configurations from summary CSVs (excluding Random Classifier and Top Career Dismissal)"
   },
   "best_individual_model": {
     "model_name": "o4-mini",
@@ -41,12 +49,16 @@
       "model_name": "o4-mini",
       "csv_file": "o4-mini_summary.csv",
       "best_configuration": "Venue Stats + Vs-Team Stats",
-      "total_scenarios": 501,
-      "top1_successes": 288,
-      "top2_successes": 397,
-      "top1_accuracy": 0.5748502994011976,
-      "top2_accuracy": 0.7924151696606786,
-      "top2_improvement": 0.21756487025948104,
+      "best_total_scenarios": 501,
+      "best_top1_successes": 288,
+      "best_top2_successes": 397,
+      "best_top1_accuracy": 0.5748502994011976,
+      "best_top2_accuracy": 0.7924151696606786,
+      "best_top2_improvement": 0.21756487025948104,
+      "total_llm_scenarios": 4509,
+      "total_llm_top1_successes": 2232,
+      "total_llm_top2_successes": 3146,
+      "num_llm_configurations": 9,
       "raw_summary_data": [
         {
           "block": "Random Classifier",
@@ -142,12 +154,16 @@
       "model_name": "gpt-4.1",
       "csv_file": "gpt-4.1_summary.csv",
       "best_configuration": "Venue Stats + Vs-Team Stats",
-      "total_scenarios": 501,
-      "top1_successes": 277,
-      "top2_successes": 386,
-      "top1_accuracy": 0.5528942115768463,
-      "top2_accuracy": 0.7704590818363273,
-      "top2_improvement": 0.21756487025948104,
+      "best_total_scenarios": 501,
+      "best_top1_successes": 277,
+      "best_top2_successes": 386,
+      "best_top1_accuracy": 0.5528942115768463,
+      "best_top2_accuracy": 0.7704590818363273,
+      "best_top2_improvement": 0.21756487025948104,
+      "total_llm_scenarios": 4509,
+      "total_llm_top1_successes": 2188,
+      "total_llm_top2_successes": 3110,
+      "num_llm_configurations": 9,
       "raw_summary_data": [
         {
           "block": "Random Classifier",
@@ -243,12 +259,16 @@
       "model_name": "gpt-4.1-mini",
       "csv_file": "gpt-4.1-mini_summary.csv",
       "best_configuration": "Venue Stats + Vs-Team Stats",
-      "total_scenarios": 501,
-      "top1_successes": 282,
-      "top2_successes": 385,
-      "top1_accuracy": 0.562874251497006,
-      "top2_accuracy": 0.7684630738522954,
-      "top2_improvement": 0.20558882235528933,
+      "best_total_scenarios": 501,
+      "best_top1_successes": 282,
+      "best_top2_successes": 385,
+      "best_top1_accuracy": 0.562874251497006,
+      "best_top2_accuracy": 0.7684630738522954,
+      "best_top2_improvement": 0.20558882235528933,
+      "total_llm_scenarios": 4509,
+      "total_llm_top1_successes": 2211,
+      "total_llm_top2_successes": 3094,
+      "num_llm_configurations": 9,
       "raw_summary_data": [
         {
           "block": "Random Classifier",
@@ -344,12 +364,16 @@
       "model_name": "gpt-4.1-nano",
       "csv_file": "gpt-4.1-nano_summary.csv",
       "best_configuration": "Vs-Team Stats",
-      "total_scenarios": 501,
-      "top1_successes": 268,
-      "top2_successes": 351,
-      "top1_accuracy": 0.5349301397205589,
-      "top2_accuracy": 0.7005988023952096,
-      "top2_improvement": 0.16566866267465058,
+      "best_total_scenarios": 501,
+      "best_top1_successes": 268,
+      "best_top2_successes": 351,
+      "best_top1_accuracy": 0.5349301397205589,
+      "best_top2_accuracy": 0.7005988023952096,
+      "best_top2_improvement": 0.16566866267465058,
+      "total_llm_scenarios": 4509,
+      "total_llm_top1_successes": 2061,
+      "total_llm_top2_successes": 2806,
+      "num_llm_configurations": 9,
       "raw_summary_data": [
         {
           "block": "Random Classifier",
@@ -444,10 +468,10 @@
   },
   "comparison_with_traditional": {
     "overall_llm_vs_traditional": {
-      "top1_gap_absolute": 0.1263872255489022,
-      "top1_gap_relative_percent": 29.39237803462842,
-      "top2_gap_absolute": 0.17798403193612777,
-      "top2_gap_relative_percent": 30.686902057953063
+      "top1_gap_absolute": 0.051925038811266366,
+      "top1_gap_relative_percent": 12.075590421224737,
+      "top2_gap_absolute": 0.09398536260811718,
+      "top2_gap_relative_percent": 16.204372863468482
     },
     "best_model_vs_traditional": {
       "model_name": "o4-mini",
