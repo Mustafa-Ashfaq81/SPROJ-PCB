@@ -34,29 +34,42 @@ class LLMComparisonAnalysis:
         try:
             df = pd.read_csv(csv_path)
             
-            # Find best configuration by top-1 accuracy
+            # Filter out Random Classifier and Top Career Dismissal (non-LLM baselines)
+            llm_configs = df[~df['block'].isin(['Random Classifier', 'Top Career Dismissal'])]
+            
+            # Find best configuration by top-1 accuracy for individual model performance
             best_config_idx = df['top1_acc'].idxmax()
             best_config = df.iloc[best_config_idx]
+            
+            # Calculate totals across all LLM configurations for overall performance
+            total_llm_scenarios = len(llm_configs) * 501  # Each config has 501 scenarios
+            total_llm_top1_successes = int(llm_configs['top1_successes'].sum())
+            total_llm_top2_successes = int(llm_configs['top2_successes'].sum())
             
             model_data = {
                 'model_name': model_name,
                 'csv_file': csv_filename,
+                # Best individual configuration data
                 'best_configuration': best_config['block'],
-                'total_scenarios': int(best_config['n']),
-                'top1_successes': int(best_config['top1_successes']),
-                'top2_successes': int(best_config['top2_successes']),
-                'top1_accuracy': best_config['top1_acc'] / 100.0,
-                'top2_accuracy': best_config['top2_acc'] / 100.0,
-                'top2_improvement': (best_config['top2_acc'] - best_config['top1_acc']) / 100.0,
+                'best_total_scenarios': int(best_config['n']),
+                'best_top1_successes': int(best_config['top1_successes']),
+                'best_top2_successes': int(best_config['top2_successes']),
+                'best_top1_accuracy': best_config['top1_acc'] / 100.0,
+                'best_top2_accuracy': best_config['top2_acc'] / 100.0,
+                'best_top2_improvement': (best_config['top2_acc'] - best_config['top1_acc']) / 100.0,
+                # All LLM configurations data for overall performance
+                'total_llm_scenarios': total_llm_scenarios,
+                'total_llm_top1_successes': total_llm_top1_successes,
+                'total_llm_top2_successes': total_llm_top2_successes,
+                'num_llm_configurations': len(llm_configs),
                 'raw_summary_data': df.to_dict('records')
             }
             
             print(f"{model_name}:")
             print(f"  Best configuration: {best_config['block']}")
-            print(f"  Total scenarios: {best_config['n']}")
-            print(f"  Top-1: {best_config['top1_acc']:.1f}% ({best_config['top1_successes']}/{best_config['n']})")
-            print(f"  Top-2: {best_config['top2_acc']:.1f}% ({best_config['top2_successes']}/{best_config['n']})")
-            print(f"  Top-2 improvement: +{best_config['top2_acc'] - best_config['top1_acc']:.1f}%")
+            print(f"  Best performance: {best_config['top1_acc']:.1f}% top1, {best_config['top2_acc']:.1f}% top2")
+            print(f"  All LLM configs: {len(llm_configs)} configurations, {total_llm_scenarios} total scenarios")
+            print(f"  Overall performance: {total_llm_top1_successes/total_llm_scenarios*100:.1f}% top1, {total_llm_top2_successes/total_llm_scenarios*100:.1f}% top2")
             print()
             
             return model_data
@@ -79,7 +92,7 @@ class LLMComparisonAnalysis:
         return len(self.all_models_data) > 0
     
     def calculate_overall_llm_performance(self):
-        """Calculate overall LLM performance across all models"""
+        """Calculate overall LLM performance across all models and configurations"""
         if not self.all_models_data:
             print("No model data available!")
             return None
@@ -87,33 +100,38 @@ class LLMComparisonAnalysis:
         total_scenarios = 0
         total_top1_successes = 0
         total_top2_successes = 0
+        total_configurations = 0
         
         for model_name, data in self.all_models_data.items():
-            total_scenarios += data['total_scenarios']
-            total_top1_successes += data['top1_successes']
-            total_top2_successes += data['top2_successes']
+            total_scenarios += data['total_llm_scenarios']
+            total_top1_successes += data['total_llm_top1_successes']
+            total_top2_successes += data['total_llm_top2_successes']
+            total_configurations += data['num_llm_configurations']
         
         overall_top1_accuracy = total_top1_successes / total_scenarios
         overall_top2_accuracy = total_top2_successes / total_scenarios
         
         overall_performance = {
-            'total_scenarios': total_scenarios,
+            'total_scenarios': int(total_scenarios),
             'total_models': len(self.all_models_data),
-            'total_top1_successes': total_top1_successes,
-            'total_top2_successes': total_top2_successes,
-            'top1_accuracy': overall_top1_accuracy,
-            'top2_accuracy': overall_top2_accuracy,
-            'top2_improvement': overall_top2_accuracy - overall_top1_accuracy,
-            'data_source': 'All model summary CSVs combined'
+            'total_configurations': int(total_configurations),
+            'total_top1_successes': int(total_top1_successes),
+            'total_top2_successes': int(total_top2_successes),
+            'top1_accuracy': float(overall_top1_accuracy),
+            'top2_accuracy': float(overall_top2_accuracy),
+            'top2_improvement': float(overall_top2_accuracy - overall_top1_accuracy),
+            'data_source': 'All LLM configurations from summary CSVs (excluding Random Classifier and Top Career Dismissal)'
         }
         
-        print("Overall LLM Performance (All Models Combined):")
+        print("Overall LLM Performance (All Configurations Combined):")
         print("="*50)
         print(f"  Total models: {len(self.all_models_data)}")
-        print(f"  Total scenarios: {total_scenarios}")
-        print(f"  Top-1 accuracy: {overall_top1_accuracy:.1%} ({total_top1_successes}/{total_scenarios})")
-        print(f"  Top-2 accuracy: {overall_top2_accuracy:.1%} ({total_top2_successes}/{total_scenarios})")
+        print(f"  Total LLM configurations: {total_configurations}")
+        print(f"  Total scenarios: {total_scenarios:,}")
+        print(f"  Top-1 accuracy: {overall_top1_accuracy:.1%} ({total_top1_successes:,}/{total_scenarios:,})")
+        print(f"  Top-2 accuracy: {overall_top2_accuracy:.1%} ({total_top2_successes:,}/{total_scenarios:,})")
         print(f"  Top-2 improvement: +{overall_top2_accuracy - overall_top1_accuracy:.1%}")
+        print(f"  Methodology: All LLM configurations included (corrected from previous best-only approach)")
         
         return overall_performance
     
@@ -127,8 +145,8 @@ class LLMComparisonAnalysis:
         
         # Find best model by top-1 accuracy
         for model_name, data in self.all_models_data.items():
-            if data['top1_accuracy'] > best_top1_accuracy:
-                best_top1_accuracy = data['top1_accuracy']
+            if data['best_top1_accuracy'] > best_top1_accuracy:
+                best_top1_accuracy = data['best_top1_accuracy']
                 best_model_name = model_name
         
         best_model_data = self.all_models_data[best_model_name]
@@ -137,9 +155,9 @@ class LLMComparisonAnalysis:
         print("="*40)
         print(f"  Model: {best_model_name}")
         print(f"  Configuration: {best_model_data['best_configuration']}")
-        print(f"  Scenarios: {best_model_data['total_scenarios']}")
-        print(f"  Top-1 accuracy: {best_model_data['top1_accuracy']:.1%} ({best_model_data['top1_successes']}/{best_model_data['total_scenarios']})")
-        print(f"  Top-2 accuracy: {best_model_data['top2_accuracy']:.1%} ({best_model_data['top2_successes']}/{best_model_data['total_scenarios']})")
+        print(f"  Scenarios: {best_model_data['best_total_scenarios']}")
+        print(f"  Top-1 accuracy: {best_model_data['best_top1_accuracy']:.1%} ({best_model_data['best_top1_successes']}/{best_model_data['best_total_scenarios']})")
+        print(f"  Top-2 accuracy: {best_model_data['best_top2_accuracy']:.1%} ({best_model_data['best_top2_successes']}/{best_model_data['best_total_scenarios']})")
         
         return best_model_name, best_model_data
     
@@ -160,18 +178,18 @@ class LLMComparisonAnalysis:
         print(f"  Top-2: {overall_llm_performance['top2_accuracy']:.1%} vs {traditional_top2:.1%} = +{overall_top2_gap:.1%} ({overall_top2_relative:+.1f}% relative)")
         
         # Best model comparison
-        best_top1_gap = best_model_data['top1_accuracy'] - traditional_top1
+        best_top1_gap = best_model_data['best_top1_accuracy'] - traditional_top1
         best_top1_relative = (best_top1_gap / traditional_top1) * 100
-        best_top2_gap = best_model_data['top2_accuracy'] - traditional_top2
+        best_top2_gap = best_model_data['best_top2_accuracy'] - traditional_top2
         best_top2_relative = (best_top2_gap / traditional_top2) * 100
         
         print(f"\nBest Model ({best_model_data['model_name']}) vs Traditional:")
-        print(f"  Top-1: {best_model_data['top1_accuracy']:.1%} vs {traditional_top1:.1%} = +{best_top1_gap:.1%} ({best_top1_relative:+.1f}% relative)")
-        print(f"  Top-2: {best_model_data['top2_accuracy']:.1%} vs {traditional_top2:.1%} = +{best_top2_gap:.1%} ({best_top2_relative:+.1f}% relative)")
+        print(f"  Top-1: {best_model_data['best_top1_accuracy']:.1%} vs {traditional_top1:.1%} = +{best_top1_gap:.1%} ({best_top1_relative:+.1f}% relative)")
+        print(f"  Top-2: {best_model_data['best_top2_accuracy']:.1%} vs {traditional_top2:.1%} = +{best_top2_gap:.1%} ({best_top2_relative:+.1f}% relative)")
         
         # Performance improvement analysis
         traditional_top2_improvement = traditional_top2 - traditional_top1
-        best_model_top2_improvement = best_model_data['top2_improvement']
+        best_model_top2_improvement = best_model_data['best_top2_improvement']
         
         print(f"\nTop-2 Improvement Comparison:")
         print(f"  Traditional models: +{traditional_top2_improvement:.1%}")
@@ -227,22 +245,24 @@ class LLMComparisonAnalysis:
         # Generate comprehensive results
         comprehensive_results = {
             'analysis_timestamp': datetime.now().isoformat(),
-            'methodology': 'Consistent - All using summary CSVs with same 501 scenarios per model',
+            'methodology': 'Corrected - All LLM configurations included (excluding Random Classifier and Top Career Dismissal baselines)',
             'data_sources': {
                 'llm_summaries_path': str(self.summary_csvs_path),
                 'models_analyzed': list(self.models.keys()),
-                'csv_files_used': list(self.models.values())
+                'csv_files_used': list(self.models.values()),
+                'total_llm_configurations': sum(data['num_llm_configurations'] for data in self.all_models_data.values()),
+                'configurations_per_model': {name: data['num_llm_configurations'] for name, data in self.all_models_data.items()}
             },
             'overall_llm_performance': overall_performance,
             'best_individual_model': {
                 'model_name': best_model_name,
                 'configuration': best_model_data['best_configuration'],
-                'total_scenarios': best_model_data['total_scenarios'],
-                'top1_accuracy': best_model_data['top1_accuracy'],
-                'top2_accuracy': best_model_data['top2_accuracy'],
-                'top1_successes': best_model_data['top1_successes'],
-                'top2_successes': best_model_data['top2_successes'],
-                'top2_improvement': best_model_data['top2_improvement']
+                'total_scenarios': best_model_data['best_total_scenarios'],
+                'top1_accuracy': best_model_data['best_top1_accuracy'],
+                'top2_accuracy': best_model_data['best_top2_accuracy'],
+                'top1_successes': best_model_data['best_top1_successes'],
+                'top2_successes': best_model_data['best_top2_successes'],
+                'top2_improvement': best_model_data['best_top2_improvement']
             },
             'all_models_individual_performance': self.all_models_data,
             'comparison_with_traditional': comparison_results,
@@ -275,21 +295,21 @@ class LLMComparisonAnalysis:
         
         # Add overall LLM
         summary_data.append({
-            'Approach': 'LLM Overall (All Models)',
+            'Approach': 'LLM Overall (All Configurations)',
             'Type': 'Combined',
             'Top-1 Accuracy': f"{overall_performance['top1_accuracy']:.1%}",
             'Top-2 Accuracy': f"{overall_performance['top2_accuracy']:.1%}",
             'Scenarios': str(overall_performance['total_scenarios']),
-            'Configuration': f"{overall_performance['total_models']} models combined"
+            'Configuration': f"{overall_performance['total_configurations']} LLM configs from {overall_performance['total_models']} models"
         })
         
         # Add best model
         summary_data.append({
             'Approach': f"LLM Best ({best_model_name})",
             'Type': 'Individual',
-            'Top-1 Accuracy': f"{best_model_data['top1_accuracy']:.1%}",
-            'Top-2 Accuracy': f"{best_model_data['top2_accuracy']:.1%}",
-            'Scenarios': str(best_model_data['total_scenarios']),
+            'Top-1 Accuracy': f"{best_model_data['best_top1_accuracy']:.1%}",
+            'Top-2 Accuracy': f"{best_model_data['best_top2_accuracy']:.1%}",
+            'Scenarios': str(best_model_data['best_total_scenarios']),
             'Configuration': best_model_data['best_configuration']
         })
         
@@ -323,6 +343,8 @@ def main():
         print(f"• Best model ({best['model_name']}): {best['top1_accuracy']:.1%} top-1, {best['top2_accuracy']:.1%} top-2")
         print(f"• Traditional baseline: 43.0% top-1, 58.0% top-2")
         print(f"• Best model advantage: +{(best['top1_accuracy'] - 0.43):.1%} top-1, +{(best['top2_accuracy'] - 0.58):.1%} top-2")
+        print(f"• Total LLM configurations analyzed: {results['data_sources']['total_llm_configurations']}")
+        print(f"• Total scenarios: {overall['total_scenarios']:,}")
         
     else:
         print("\nLLM comparison analysis failed!")

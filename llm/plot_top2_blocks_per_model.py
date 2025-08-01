@@ -720,26 +720,26 @@ for metric in METRICS:
             ncol=4,
         )
 
-    ax.set_title(f"Top 2 {ylab} Blocks per Model", pad=18, weight="semibold")
+    ax.set_title(f"{ylab} Blocks per Model", pad=18, weight="semibold")
 
     # mapping guide
     id2block = {v: k.replace("\n", " ").strip() for k, v in BLOCK_ID_MAP.items()}
     id2block[-2] = "Random Classifier"
     id2block[-1] = "Top Career Dismissal"
-    legend_txt = "\n".join(f"{i:2} – {id2block[i]}" for i in sorted(id2block))
+    # legend_txt = "\n".join(f"{i:2} – {id2block[i]}" for i in sorted(id2block))
 
-    fig.subplots_adjust(bottom=0.25)
-    sub_ax = fig.add_axes([0, 0, 1, 0.2])
-    sub_ax.axis("off")
-    sub_ax.text(
-        0.01,
-        0.05,
-        "Category ID Mapping:\n" + legend_txt,
-        ha="left",
-        va="bottom",
-        fontsize=9,
-        family="monospace",
-    )
+    # fig.subplots_adjust(bottom=0.25)
+    # sub_ax = fig.add_axes([0, 0, 1, 0.2])
+    # sub_ax.axis("off")
+    # sub_ax.text(
+    #     0.01,
+    #     0.05,
+    #     "Category ID Mapping:\n" + legend_txt,
+    #     ha="left",
+    #     va="bottom",
+    #     fontsize=9,
+    #     family="monospace",
+    # )
 
     plt.tight_layout(rect=[0, 0.25, 1, 0.93])
     out = os.path.join(

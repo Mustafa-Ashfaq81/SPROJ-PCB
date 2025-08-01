@@ -1,4 +1,4 @@
 Approach,Type,Top-1 Accuracy,Top-2 Accuracy,Scenarios,Configuration
 Traditional Models (Best),Baseline,43.0%,58.0%,500,Random Forest + Top-2 from probabilities
-LLM Overall (All Models),Combined,55.6%,75.8%,2004,4 models combined
+LLM Overall (All Configurations),Combined,48.2%,67.4%,18036,36 LLM configs from 4 models
 LLM Best (o4-mini),Individual,57.5%,79.2%,501,Venue Stats + Vs-Team Stats
