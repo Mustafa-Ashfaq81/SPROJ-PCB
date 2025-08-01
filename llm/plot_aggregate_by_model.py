@@ -98,7 +98,7 @@ for model in models:
         "top1_successes": round(true_n * 0.125),
         "top2_successes": round(true_n * 0.25),
     }
-    row_random["top1_acc"] = row_random["top1_successes"] / row_random["n"] * 100
+    row_random["top1_acc"] = 12.5
     row_random["top2_acc"] = row_random["top2_successes"] / row_random["n"] * 100
 
     row_true = {
@@ -154,8 +154,12 @@ for model in models:
     def plot_bar(summary, col, err_low, err_high, title, fname):
         fig, ax = plt.subplots(figsize=(11, 6), dpi=150)
         ax.set_xticks(range(len(summary["block"])))
+        
+        # Set colors: grey for first two bars (Random Classifier and Top Career Dismissal), teal for others
+        colors = ["#808080" if i < 2 else "#2A788E" for i in range(len(summary["block"]))]
+        
         bars = ax.bar(summary["block"], summary[col], yerr=[err_low, err_high],
-                      capsize=6, ecolor="black", color="#2A788E", edgecolor="black", linewidth=0.5)
+                      capsize=6, ecolor="black", color=colors, edgecolor="black", linewidth=0.5)
 
         for i, bar in enumerate(bars):
             height = bar.get_height()

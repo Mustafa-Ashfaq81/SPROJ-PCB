@@ -108,7 +108,7 @@ for player in players:
         "top1_successes": round(true_n * 0.125),
         "top2_successes": round(true_n * 0.25),
     }
-    row_random["top1_acc"] = row_random["top1_successes"] / row_random["n"] * 100
+    row_random["top1_acc"] = 12.5
     row_random["top2_acc"] = row_random["top2_successes"] / row_random["n"] * 100
 
     row_true = {
@@ -189,13 +189,13 @@ for player in players:
 
     plot_bar(
         summary, "top1_acc", err_below_1, err_above_1,
-        f"{player} – Aggregated Top‑1 Accuracy (95% CI)",
+        f"{player} – Top‑1 Accuracy (95% CI)",
         os.path.join(out_dir, f"{player}_top1_accuracy.png")
     )
 
     plot_bar(
         summary, "top2_acc", err_below_2, err_above_2,
-        f"{player} – Aggregated Top‑2 Accuracy (95% CI)",
+        f"{player} – Top‑2 Accuracy (95% CI)",
         os.path.join(out_dir, f"{player}_top2_accuracy.png")
     )
 
