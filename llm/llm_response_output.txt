@@ -1,46 +1,29 @@
-**Step 1: Examine General Career Stats**  
-- No general career stats provided, so unable to analyze inherent dismissal tendencies or weaknesses from career data.
+Analysis:
 
-**Step 2: Examine Venue-Wise Stats (Netherlands)**  
-- Played 1 match, 1 innings at Netherlands in 2022.  
-- Scored 27 runs off 16 balls, strike rate 168.75, no dismissal recorded (Not Out).  
-- Dismissals at this venue: zero recorded, so no historical mode of dismissal to draw from venue data.  
-- Dismissals by bowler type all zero across right/left arm pace and spin.  
-- No catches or stumping as fielding stats.  
+Step 1: General Career Stats  
+- No career-wide dismissal breakdown available.  
 
-**Step 3: Examine Opponent-Wise Stats against Netherlands**  
-- Only one innings against Netherlands, same match as venue stats.  
-- 27 runs not out, thus no dismissal recorded versus Netherlands.  
-- Similarly, no dismissal modes recorded versus Netherlands to analyze mode.  
+Step 2: Venue-Wise Stats (Netherlands)  
+- 1 innings, 27 runs, not out.  
+- Dismissals: 0 across all modes (“bowled”:0, “caught-fielder”:0, etc.).  
 
-**Step 4: Examine Recent Commentary**  
-- No commentary data provided. No recent form signals or dismissal modes to derive.  
-- No information on pitch conditions, batter behavior, or how others have fallen in similar conditions.
+Step 3: Opponent-Wise Stats (vs Netherlands)  
+- Identical to venue stats: 0 dismissals recorded.  
 
-**Step 5: Integrate & Prioritize All Data Sources**  
-- General career data not available; venue-wise and opponent-wise data show Salman Agha has not been dismissed yet in Netherlands or against Netherlands—only a single match played without dismissal.  
-- No commentary to override or supplement data.  
-- No history of how he tends to get out either generally or in this context from the data at hand.  
-- Given absence of any recorded dismissals, no indication of preferred mode.  
-- Speculatively, since no dismissals recorded, "Not-out" is the dominant "mode" in data so far.  
-- Given a match scenario, dismissal modes are always probabilistic. Without data, standard ODI distributions can be referenced in absence of stats. But the prompt restricts data to provided data only.  
-- Thus, the best available evidence is that Salman Agha has remained not out in previous Netherlands match and against Netherlands.  
-- No dismissals recorded means assigning highest probability to Not-out or dismissals that are common generally (this is uncertain but must be bounded by available data).  
-- Since no dismissal data, a conservative estimate puts highest weight to Not-out, moderate to Caught by fielder and LBW since these are common methods generally. Others such as bowled, caught-wk, stumped, hit wicket, caught and bowled unlikely given lack of evidence.  
-- The absence of dismissals at venue and opponent level (count zero) prevents weighting other modes.
+Step 4: Recent Commentary  
+- No commentary data provided.  
 
-**Step 6: Final Prediction & Justification**  
-- Prediction: Most likely mode of dismissal is **Not-out** (since no dismissals recorded in any data).  
-- Probability distribution is heavily weighted towards Not-out, with modest probabilities assigned to the most common modes in ODI cricket generally but only as placeholders due to lack of data, all balanced so total sums 100%.
+Step 5: Integration & Assumptions  
+- With zero direct dismissal instances for Salman Agha in venue or opponent splits and no commentary signals, we default to typical ODI dismissal distributions.  
+- Common ODI patterns: highest frequency is caught by a fielder, followed by bowled and LBW, then catches by keeper, stumping, caught-and-bowled, hit wicket; plus a small chance of remaining not out.  
 
----
-
-Bowled: 5%  
-Caught by a fielder: 20%  
-Caught by the wicketkeeper: 5%  
-Stumped: 5%  
-LBW: 10%  
-Hit wicket: 0%  
-Caught and bowled: 0%  
-Not-out: 55%  
-most likely mode of dismissal for Salman Agha is Not-out
+Step 6: Probability Breakdown & Final Prediction  
+Bowled: 20%  
+Caught by a fielder: 45%  
+Caught by the wicketkeeper: 8%  
+Stumped: 4%  
+LBW: 15%  
+Hit wicket: 1%  
+Caught and bowled: 2%  
+Not-out: 5%  
+most likely mode of dismissal for Salman Agha is Caught by a fielder
