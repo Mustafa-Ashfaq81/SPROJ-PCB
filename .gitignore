@@ -1,1 +1,12 @@
-llm/.env
+# macOS system files
+.DS_Store
+llm/.DS_Store
+
+# Virtual environments
+venv311/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
