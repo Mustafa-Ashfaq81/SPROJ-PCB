@@ -331,6 +331,8 @@ def main():
                         help="Include Venue Wise Stats section in master prompt. Default True.")
     parser.add_argument("--include_against_stats", default="True", choices=["True", "False"],
                         help="Include Against Teams Stats section in master prompt. Default True.")
+    parser.add_argument("--model", default="gpt-4.1-nano",
+                    help="OpenAI model name to use for the LLM call (e.g., 'o4-mini', 'gpt-4o-mini', 'gpt-4.1'). Default: o4-mini")
 
     args = parser.parse_args()
 
@@ -678,7 +680,8 @@ and then follow the **Exact Output Formatting Requirements** above.
     # sys.exit(0)
 
     # 6) LLM call
-    model_name="o4-mini"
+    # model_name="o4-mini"
+    model_name = (args.model).strip()
     llm_response_text = call_llm_api(master_prompt, api_key=final_api_key, model_name=model_name)
 
     llm_txt_path = os.path.join(script_dir, "llm_response_output.txt")
