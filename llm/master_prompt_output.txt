@@ -1,36 +1,36 @@
 ## **Prompt Title**  
-**Cricket Dismissal Prediction for Salman Agha: Balancing Commentary and Statistical Data**
+**Cricket Dismissal Prediction for Shreyas Iyer: Balancing Commentary and Statistical Data**
 
 ---
 
 ## **Persona**  
-You are a **seasoned cricket analysis expert** with over 25 years of experience in coaching and scrutinizing international cricket. You specialize in synthesizing **both qualitative insights from recent match commentaries** and **quantitative player metrics** to generate accurate, context-rich predictions. Your goal is to determine the **most likely mode of dismissal** for Salman Agha in upcoming or ongoing matches.
+You are a **seasoned cricket analysis expert** with over 25 years of experience in coaching and scrutinizing international cricket. You specialize in synthesizing **both qualitative insights from recent match commentaries** and **quantitative player metrics** to generate accurate, context-rich predictions. Your goal is to determine the **most likely mode of dismissal** for Shreyas Iyer in upcoming or ongoing matches.
 
 ---
 
 ## **Instructional Outline**
 
 1. **Objective**  
-   - **Match**: Netherlands Vs Pakistan 1St Odi 1311737 at Rotterdam
-   - **Primary Task**: Predict the most probable mode of dismissal for Salman Agha in this match.  
+   - **Match**: India Vs Pakistan 12Th Match 1384403 at Ahmedabad
+   - **Primary Task**: Predict the most probable mode of dismissal for Shreyas Iyer in this match.  
    - **Key Emphasis**: Pay special attention to: 
-        1. **Venue Stats of Salman Agha (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
-        2. **Salman Agha Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
-        3. **recent commentary (if available)** detailing Salman Agha's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
+        1. **Venue Stats of Shreyas Iyer (if available)** because it will tell you how this player performs in the venue the prediction match will be played.
+        2. **Shreyas Iyer Stats against the Opponent (if available)** because it will tell you how the player performs against the specific team.
+        3. **recent commentary (if available)** detailing Shreyas Iyer's current form, pitch conditions, and how other batters have been dismissed in the same or comparable conditions.
         4. **Recent Commentary as Primary Driver**: treat every dismissal or form signal in the commentaries as your highest-signal evidence—if it conflicts with older stats, let it override those lower-signal sources.
 
 2. **Data Sources**  
    - **A. General Career Stats (JSON Files)**  
      • Career-long batting averages, strike rates, typical modes of dismissal.  
    - **B. Venue-Wise Stats (JSON Files)**  
-     • Venue splits (e.g. performance in Netherlands), Bowled/Caught/… rates.  
+     • Venue splits (e.g. performance in India), Bowled/Caught/… rates.  
    - **C. Opponent-Wise Stats (JSON Files)**  
-     • Performance vs Netherlands, specific dismissal breakdown.  
+     • Performance vs Pakistan, specific dismissal breakdown.  
    - **D. Recent Match Commentary (if available)**  
      • Ball-by-ball notes, pitch conditions, quotes, and dismissal events.
 
 > **Stat Heading Guide (read carefully before analysis)**  
-> • The **“batting”** object contains the core performance metrics for Salman Agha and should drive most of your reasoning.  
+> • The **“batting”** object contains the core performance metrics for Shreyas Iyer and should drive most of your reasoning.  
 > • The **“dismissals”** array shows how those wickets were taken by bowler type — consider this *high-signal* information.  
 > • The **“bowling”** and **“bowling_vs_batting_type”** objects are included for completeness; for a specialist batter they are usually *low-signal* and may be weighted lightly.  
 > • Treat any `null` values as “not applicable / data unavailable.”
@@ -71,48 +71,193 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
      Caught and bowled: <number>%  
      Not-out: <number>%  
    - Then, finish with this exact text:  
-     most likely mode of dismissal for Salman Agha is <mode>
+     most likely mode of dismissal for Shreyas Iyer is <mode>
 
 ---
 
-## ** General Stats Data of Salman Agha: **
+## ** General Stats Data of Shreyas Iyer: **
 {General Stats Not Available}
 
 ---
 
-## **Venue Wise Stats Data of Salman Agha in Netherlands:**
+## **Venue Wise Stats Data of Shreyas Iyer in India:**
 {
-    "Netherlands": {
-        "span": "2022 - 2022",
-        "matches_played": 1,
-        "batting_innings": 1,
-        "bowling_innings": 1,
-        "fielding_innings": 1,
+    "India": {
+        "span": "2023 - 2023",
+        "matches_played": 9,
+        "batting_innings": 9,
+        "bowling_innings": 9,
+        "fielding_innings": 9,
         "batting": {
-            "Runs": 27,
-            "Balls Faced": 16,
-            "Fours": 3,
-            "Sixes": 0,
-            "Strike Rate": 168.75,
-            "Dismissals": 0,
-            "Not Outs": 1,
-            "Batting Average": null
+            "Runs": 328,
+            "Balls Faced": 318,
+            "Fours": 26,
+            "Sixes": 10,
+            "Strike Rate": 103.14,
+            "Dismissals": 7,
+            "Not Outs": 2,
+            "Batting Average": 46.86
         },
         "bowling": {
-            "Overs": 4.0,
+            "Overs": 1.0,
             "Maidens": 0,
-            "Runs Conceded": 25,
+            "Runs Conceded": 2,
             "Wickets": 0,
-            "Economy Rate": 6.25,
+            "Economy Rate": 2.0,
             "Bowling Average": null,
-            "Dots": 8,
-            "Fours": 1,
-            "Sixes": 1,
+            "Dots": 4,
+            "Fours": 0,
+            "Sixes": 0,
             "Wides": 0,
             "No Balls": 0,
-            "Boundary Runs Conceded": 10,
+            "Boundary Runs Conceded": 0,
             "Bowling Strike Rate": null,
-            "Dot Ball Percentage": 33.33,
+            "Dot Ball Percentage": 66.67,
+            "3wHauls": 0,
+            "4wHauls": 0,
+            "5wHauls": 0,
+            "Best Bowling Figures": null
+        },
+        "fielding": {
+            "Catches": 6,
+            "Stumpings": 0,
+            "Run Outs": 0
+        },
+        "dismissals": [
+            {
+                "Bowler Type": "Right arm Pace",
+                "Span": "2023 - 2023",
+                "Dis": 3,
+                "bowled": 0,
+                "caught-fielder": 2,
+                "caught wk": 0,
+                "stump": 0,
+                "lbw": 1,
+                "hit wicket": 0,
+                "caught and bowled": 0
+            },
+            {
+                "Bowler Type": "Right arm Spin",
+                "Span": "2023 - 2023",
+                "Dis": 2,
+                "bowled": 1,
+                "caught-fielder": 1,
+                "caught wk": 0,
+                "stump": 0,
+                "lbw": 0,
+                "hit wicket": 0,
+                "caught and bowled": 0
+            },
+            {
+                "Bowler Type": "Left arm Pace",
+                "Span": "2023 - 2023",
+                "Dis": 0,
+                "bowled": 0,
+                "caught-fielder": 0,
+                "caught wk": 0,
+                "stump": 0,
+                "lbw": 0,
+                "hit wicket": 0,
+                "caught and bowled": 0
+            },
+            {
+                "Bowler Type": "Left arm Spin",
+                "Span": "2023 - 2023",
+                "Dis": 0,
+                "bowled": 0,
+                "caught-fielder": 0,
+                "caught wk": 0,
+                "stump": 0,
+                "lbw": 0,
+                "hit wicket": 0,
+                "caught and bowled": 0
+            },
+            {
+                "Bowler Type": "Unknown",
+                "Span": "2023 - 2023",
+                "Dis": 2,
+                "bowled": 0,
+                "caught-fielder": 0,
+                "caught wk": 0,
+                "stump": 0,
+                "lbw": 0,
+                "hit wicket": 0,
+                "caught and bowled": 0
+            }
+        ],
+        "bowling_vs_batting_type": {
+            "Right Handed": {
+                "wickets": 0,
+                "bowled": 0,
+                "caught-fielder": 0,
+                "caught wk": 0,
+                "stump": 0,
+                "lbw": 0,
+                "hit wicket": 0,
+                "caught and bowled": 0,
+                "other": 0
+            },
+            "Left Handed": {
+                "wickets": 0,
+                "bowled": 0,
+                "caught-fielder": 0,
+                "caught wk": 0,
+                "stump": 0,
+                "lbw": 0,
+                "hit wicket": 0,
+                "caught and bowled": 0,
+                "other": 0
+            },
+            "Unknown": {
+                "wickets": 0,
+                "bowled": 0,
+                "caught-fielder": 0,
+                "caught wk": 0,
+                "stump": 0,
+                "lbw": 0,
+                "hit wicket": 0,
+                "caught and bowled": 0,
+                "other": 0
+            }
+        }
+    }
+}
+
+---
+
+## **Against Teams Stats Data of Shreyas Iyer against Pakistan:**
+{
+    "Pakistan": {
+        "span": "2023 - 2023",
+        "matches_played": 2,
+        "batting_innings": 2,
+        "bowling_innings": 2,
+        "fielding_innings": 2,
+        "batting": {
+            "Runs": 67,
+            "Balls Faced": 71,
+            "Fours": 5,
+            "Sixes": 2,
+            "Strike Rate": 94.37,
+            "Dismissals": 1,
+            "Not Outs": 1,
+            "Batting Average": 67.0
+        },
+        "bowling": {
+            "Overs": 0.0,
+            "Maidens": 0,
+            "Runs Conceded": 0,
+            "Wickets": 0,
+            "Economy Rate": null,
+            "Bowling Average": null,
+            "Dots": 0,
+            "Fours": 0,
+            "Sixes": 0,
+            "Wides": 0,
+            "No Balls": 0,
+            "Boundary Runs Conceded": 0,
+            "Bowling Strike Rate": null,
+            "Dot Ball Percentage": null,
             "3wHauls": 0,
             "4wHauls": 0,
             "5wHauls": 0,
@@ -126,10 +271,10 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
         "dismissals": [
             {
                 "Bowler Type": "Right arm Pace",
-                "Span": "2022 - 2022",
-                "Dis": 0,
+                "Span": "2023 - 2023",
+                "Dis": 1,
                 "bowled": 0,
-                "caught-fielder": 0,
+                "caught-fielder": 1,
                 "caught wk": 0,
                 "stump": 0,
                 "lbw": 0,
@@ -138,7 +283,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Right arm Spin",
-                "Span": "2022 - 2022",
+                "Span": "2023 - 2023",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -150,7 +295,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Pace",
-                "Span": "2022 - 2022",
+                "Span": "2023 - 2023",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -162,7 +307,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Left arm Spin",
-                "Span": "2022 - 2022",
+                "Span": "2023 - 2023",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -174,7 +319,7 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
             },
             {
                 "Bowler Type": "Unknown",
-                "Span": "2022 - 2022",
+                "Span": "2023 - 2023",
                 "Dis": 0,
                 "bowled": 0,
                 "caught-fielder": 0,
@@ -225,161 +370,121 @@ You are a **seasoned cricket analysis expert** with over 25 years of experience 
 
 ---
 
-## **Against Teams Stats Data of Salman Agha against Netherlands:**
-{
-    "Netherlands": {
-        "span": "2022 - 2022",
-        "matches_played": 1,
-        "batting_innings": 1,
-        "bowling_innings": 1,
-        "fielding_innings": 1,
-        "batting": {
-            "Runs": 27,
-            "Balls Faced": 16,
-            "Fours": 3,
-            "Sixes": 0,
-            "Strike Rate": 168.75,
-            "Dismissals": 0,
-            "Not Outs": 1,
-            "Batting Average": null
-        },
-        "bowling": {
-            "Overs": 4.0,
-            "Maidens": 0,
-            "Runs Conceded": 25,
-            "Wickets": 0,
-            "Economy Rate": 6.25,
-            "Bowling Average": null,
-            "Dots": 8,
-            "Fours": 1,
-            "Sixes": 1,
-            "Wides": 0,
-            "No Balls": 0,
-            "Boundary Runs Conceded": 10,
-            "Bowling Strike Rate": null,
-            "Dot Ball Percentage": 33.33,
-            "3wHauls": 0,
-            "4wHauls": 0,
-            "5wHauls": 0,
-            "Best Bowling Figures": null
-        },
-        "fielding": {
-            "Catches": 0,
-            "Stumpings": 0,
-            "Run Outs": 0
-        },
-        "dismissals": [
-            {
-                "Bowler Type": "Right arm Pace",
-                "Span": "2022 - 2022",
-                "Dis": 0,
-                "bowled": 0,
-                "caught-fielder": 0,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
-                "hit wicket": 0,
-                "caught and bowled": 0
-            },
-            {
-                "Bowler Type": "Right arm Spin",
-                "Span": "2022 - 2022",
-                "Dis": 0,
-                "bowled": 0,
-                "caught-fielder": 0,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
-                "hit wicket": 0,
-                "caught and bowled": 0
-            },
-            {
-                "Bowler Type": "Left arm Pace",
-                "Span": "2022 - 2022",
-                "Dis": 0,
-                "bowled": 0,
-                "caught-fielder": 0,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
-                "hit wicket": 0,
-                "caught and bowled": 0
-            },
-            {
-                "Bowler Type": "Left arm Spin",
-                "Span": "2022 - 2022",
-                "Dis": 0,
-                "bowled": 0,
-                "caught-fielder": 0,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
-                "hit wicket": 0,
-                "caught and bowled": 0
-            },
-            {
-                "Bowler Type": "Unknown",
-                "Span": "2022 - 2022",
-                "Dis": 0,
-                "bowled": 0,
-                "caught-fielder": 0,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
-                "hit wicket": 0,
-                "caught and bowled": 0
-            }
-        ],
-        "bowling_vs_batting_type": {
-            "Right Handed": {
-                "wickets": 0,
-                "bowled": 0,
-                "caught-fielder": 0,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
-                "hit wicket": 0,
-                "caught and bowled": 0,
-                "other": 0
-            },
-            "Left Handed": {
-                "wickets": 0,
-                "bowled": 0,
-                "caught-fielder": 0,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
-                "hit wicket": 0,
-                "caught and bowled": 0,
-                "other": 0
-            },
-            "Unknown": {
-                "wickets": 0,
-                "bowled": 0,
-                "caught-fielder": 0,
-                "caught wk": 0,
-                "stump": 0,
-                "lbw": 0,
-                "hit wicket": 0,
-                "caught and bowled": 0,
-                "other": 0
-            }
-        }
-    }
-}
-
----
-
-## **Commentary Data (for k recent matches prior to the predicted match) of Salman Agha to get a concrete idea of the recent form and the modes of dismissals of Salman Agha. This is very crucial to analyse for this task. :**
+## **Commentary Data (for k recent matches prior to the predicted match) of Shreyas Iyer to get a concrete idea of the recent form and the modes of dismissals of Shreyas Iyer. This is very crucial to analyse for this task. :**
 Commentary 1:
+[SHOT] Fazalhaq Farooqi to Shreyas **Iyer**, FOUR runs
+Fazalhaq Farooqi to Shreyas **Iyer**, 1 run
+Mujeeb to Shreyas **Iyer**, 1 run
+[SHOT] Mujeeb to Shreyas **Iyer**, SIX runs
+Mujeeb to Shreyas **Iyer**, 1 wide
+Mujeeb to Shreyas **Iyer**, no run
+Azmatullah to Shreyas **Iyer**, no run
+Rashid Khan to Shreyas **Iyer**, 1 run
+**Iyer** gets off the mark with a clip into the onside
 
 Commentary 2:
+[DISMISSAL] Hazlewood to Shreyas **Iyer**, OUT
+[SHOT] Oh My God. Carnage in Chennai. Good length ball outside off stump. **Iyer** casually drives away from his body, again throwing his hands at this delivery, and it's been struck straight to Warner at short cover.
+[DISMISSAL] Shreyas **Iyer** c Warner b Hazlewood 0 (3b 0x4 0x6 2m) SR: 0
+Hazlewood to Shreyas **Iyer**, no run
+[CONDITION] good length ball just outside off. **Iyer** rides the bounce and fends
+**Iyer**, in that all-important No. 4 position.
 
 Commentary 3:
+[DISMISSAL] Maxwell to Shreyas **Iyer**, OUT
+[SHOT] Bowled him! Brilliant comeback! 96kph, faster off break on off, good length, **Iyer** tries to drive on the up but plays for turn as some balls have gripped, the quicker pace means this slides on past the outside edge and crashes into off stump. Maxwell roars with delight. He has four.
+[DISMISSAL] Shreyas **Iyer** b Maxwell 48 (43b 1x4 2x6 74m) SR: 111.62
+[SHOT] Maxwell to Shreyas **Iyer**, SIX runs
+launched over midwicket! Tossed up in the slot, **Iyer** is down in a flash to launch it with the spin over deep midwicket. Maxwell yells at himself
+Maxwell to Shreyas **Iyer**, no run
+Hazlewood to Shreyas **Iyer**, 1 run
+[SHOT] nearly a mix up! Good length leg break wide of off, he cuts to short fine, Green has to move low to his right and he fumbles, **Iyer** wants one but Sky sends him back
+Starc to Shreyas **Iyer**, 1 run
+T Sangha to Shreyas **Iyer**, no run
+[SHOT] T Sangha to Shreyas **Iyer**, FOUR runs
+[SHOT] Edged and he gets four runs. Not where he intended but he won't mind. Floated outside off, **Iyer** looks to clear the off side, instead gets a thick edge that runs across the turf
+T Sangha to Shreyas **Iyer**, 1 run
+Cummins to Shreyas **Iyer**, 1 run
+[SHOT] Slower offcutter outside off. **Iyer** now tries to swat it away, but can only manage a thick inside-edge towards deep backward square leg
+11 off that over. He lands the legbreak just on off as **Iyer** slices towards point
+[SHOT] Legbreak that turns away from **Iyer** outside off as he drives to the right of point
+[SHOT] T Sangha to Shreyas **Iyer**, SIX runs
+T Sangha to Shreyas **Iyer**, 2 runs
+Cummins to Shreyas **Iyer**, no run
+[CONDITION] The slower ball almost castles **Iyer**. Was the offcutter outside off that gripped on the surface. **Iyer** looks to swat it away, is nowhere near it
+Cummins to Shreyas **Iyer**, 2 runs
+[SHOT] Slower ball almost does him in. Was he offcutter bowled at 115kph. **Iyer** is through the drive early, and gets an inside-edge perilously close to the stumps
+Maxwell to Shreyas **Iyer**, 1 run
+[SHOT] Loops this one up on middle stump as **Iyer** shimmies down and drives to long on
+[QUOTE] Nauroze: "So excited to see what happens now. Can KL Rahul, **Iyer** and Surya see this chase through ? The middle order has a challenge on their hands now. "
+Green to Shreyas **Iyer**, no run
+Beaten outside off stump. That was on a good length outside off. **Iyer** looks to scythe it away, but only connects at thin air
+Keeps it on a stump to stump line as **Iyer** bunts it to long on
+Green to Shreyas **Iyer**, 1 run
+Hazlewood to Shreyas **Iyer**, 2 runs
+[SHOT] Almost a chop-on and meanwhile Kohli steals a quick run as well. Was on a length just outside off, he gets a thick inside-edge back on to his pads. The ball rolls towards point where Smith kicks it back onto the stumps. But **Iyer** makes it in time
+Shreyas **Iyer** at No.4. Hazlewood is back as well
 
 Commentary 4:
+[DISMISSAL] Well, that was a bit of carnage. A superbly-constructed fifty overs by India, set up by twin hundreds from Gill and **Iyer**, then Rahul got things going again and SKY turned on the afterburners. It's India's highest total against Australia. A tough few hours for the Australia bowlers. Hazlewood and Zampa came out of it pretty well, it was tough for Abbott and Green. Still, this is a small ground and a flat pitch. Can Australia give a chase of 400 a shake? We'll find out soon. Sreshth will be with you for the resumption.
+[QUOTE] Nishit: "@shreyasdismissal shows how important it is to have good fitness to go on after a good hundred. Thats where Kohli is so great, makes his hundreds count" --- you have a point about Kohli although **Iyer** is quite fit
+[DISMISSAL] Abbott to Shreyas **Iyer**, OUT
+now he's gone. Full ball on off and **Iyer** wants to deposit this slot ball over cow corner. But he's toe ended it, and the ball goes high up for deep midwicket to run in and do the rest. Sigh of relief for Abbott, **Iyer** goes after a terrific 105
+[DISMISSAL] Shreyas **Iyer** c Short b Abbott 105 (90b 11x4 3x6 118m) SR: 116.66
+[SHOT] Abbott to Shreyas **Iyer**, FOUR runs
+Abbott to Shreyas **Iyer**, 1 run
+Zampa to Shreyas **Iyer**, 1 run
+[DISMISSAL] A third ODI ton for Shreyas **Iyer**! Overpitched ball bunted down to long on and **Iyer** screams "come on" before taking his helmet off while running to the other end. Then gives out a big roar, soaks in the applause, and then raises the bat high up. Looks upward and says a silent prayer as well. The dugout is standing up and applauding too. **Iyer**'s arms have cramped, because the physio is out for a massage now.
+[SHOT] good length ball, fourth-stump line. **Iyer** tries to pull, but ends up mistiming a flat-batted shot to long on. He smacked that right into the pitch
+[QUOTE] ashish tayal: "This is not so good batting, slowing down as they approach their 100's. This is where the England team is miles ahead in their mindset and fearless approach at any stage in their innings." -- I think for **Iyer** in particular it makes sense to bat long since he is trying to return to rhythm before WC. Gill I think should keep attacking.
+[DISMISSAL] full ball on middle. Stays leg side of the ball and hits an inside out drive. Misfield from Smith allows **Iyer** to pinch a single and keep strike
+Zampa to Shreyas **Iyer**, no run
+[SHOT] full on leg stump. **Iyer** carefully blocks this legspinning delivery
+[SHOT] length ball just outside off. **Iyer** moves into the nineties with a pull along the carpet
+[QUOTE] Arjit: "Create a poll on who will reach his 100 first, **Iyer** or Gill? "
+[SHOT] full ball just outside off. **Iyer** shows minimal footwork and gets forward to drive. Very nearly carries to Marnus at cover!
+[SHOT] Green to Shreyas **Iyer**, FOUR runs
+overpitched on middle. **Iyer** waits an extra moment for the ball to come under his eyeline before flicking a controlled short over short midwicket
+fullish ball around off. **Iyer** tries to punch this through midwicket. Ends up hitting to short midwicket
+MW Short to Shreyas **Iyer**, no run
+[SHOT] loose ball, full outside leg. **Iyer** flicks, but can't beat short fine leg! Otherwise, that was four
+length ball on leg stump. **Iyer** can only bunt it to short midwicket
+fullish ball around off. Cramps **Iyer** up. Fended back to the bowler
+Hazlewood to Shreyas **Iyer**, 1 wide
+[SHOT] slower ball, short ball, but the line is off. On the bounce to Carey after going down the leg side. **Iyer**, for his part, did attempt a pull
+MW Short to Shreyas **Iyer**, 1 run
+[SHOT] Zampa to Shreyas **Iyer**, SIX runs
+[SHOT] and now he drops one short, **Iyer** rocks back and pulls over deep midwicket. Four dots becomes 10 runs.
+[SHOT] Zampa to Shreyas **Iyer**, FOUR runs
+stretches forward, pushes to cover and there's nearly a mix-up in the running but **Iyer** is able to abort and get back
+Johnson to Shreyas **Iyer**, 1 run
+Johnson to Shreyas **Iyer**, no run
+Green to Shreyas **Iyer**, 1 wide
+[SHOT] full and down the leg side, **Iyer** misses his flick
+[QUOTE] Aditya: "Would be gutted for Kishan to lose his place in the XI in the WC to **Iyer**. Both very deserving of their places, but they will trust experience more right now." -- second left-hand option (especially with Axar possibly missing) could be a factor going Kishan's way.
+full ball on middle. **Iyer** attempts a punch and the ball hits the top half of his bat before going past Gill to mid on. Could've been a prospective caught-and-bowled if the bowler would've delivered from closer to the stumps. Abbott usually bowls from wide of the crease so this was never a caught chance.
+Abbott to Shreyas **Iyer**, no run
+[SHOT] Hazlewood to Shreyas **Iyer**, FOUR runs
+[SHOT] short ball attempted. **Iyer** swivels to pull. Gets some glove, and the ball rolls past Carey's left. Team fifty!
+[DISMISSAL] Arman: "Looks like **Iyer** has not forgotten run out. Hence he has not given the strike to Gill since his arrival. Not giving any sort of opportunity to Gill...Hahaha"
+[SHOT] his fifth four in 14 balls! Abbott bowling from the wide of the crease, pitching it right in the slot outside off. **Iyer** very easily lofts it over cover. Uses the bottom hand to gain elevation.
+[SHOT] good length ball outside off. **Iyer** cuts to deep point for a single
+[DISMISSAL] full on middle, and swinging into leg. **Iyer** tries the flick, and the ball goes past his pads, with Carey diving to his left to stop some bye-runs. Carey appeals for caught behind, and it is deemed not out. Was there a touch or did Australia escape getting a wide? Replays can't tell us
+full ball around off. **Iyer** moves to the off side and fends with soft hands to Hazlewood
+[DISMISSAL] good length ball around off. **Iyer** guides it to deep third after sticking the bat out
+[SHOT] Johnson to Shreyas **Iyer**, FOUR runs
+full ball around leg. Easy pickings for **Iyer**, who clips it off his pads, and once that passes short-leg you can tell the ball goodbye
+full and wide. **Iyer** throws his hands at it and lifts it comfortably over cover! Johnson with a gift, and **Iyer** says 'thank you, very much'. Clattered
+[CONDITION] short ball to start against **Iyer**. Rides the bounce and fends from near his throat. Looked comfortable though
+[DISMISSAL] **Iyer** at No. 3. Was run-out for only 3 in Mohali, which would've frustrated him immensely.
 
 Commentary 5:
+[DISMISSAL] Zampa to Shreyas **Iyer**, OUT
+[DISMISSAL] **Iyer** is run-out at the striker's end! Confusion between the batters, and India will be frustrated, as they were keen to test **Iyer**'s fitness and form. But **Iyer** walks back mumbling with Gill. It was a full ball around off, which he pushed to cover and set off. The ball went to Green's left - his wrong side - as **Iyer** went halfway down the pitch. But Gill saw no run there and sent **Iyer** back. **Iyer** dived, but was still way behind by the time the stumps were broken
+[DISMISSAL] Shreyas **Iyer** run out (Green/†Inglis) 3 (8b 0x4 0x6 8m) SR: 37.5
+full and straight, and **Iyer** pushes to mid-on
+goes full again around off. **Iyer** pushes to mid-off, and they set off for the run
+**Iyer** at No. 3. A slip waiting.
 
 ---
 Please produce your integrated analysis with step-by-step reasoning as described,

@@ -1,71 +1,35 @@
-**Step-by-step Analysis and Reasoning**
+Step 1: Career Stats  
+- No career-long data provided, so we rely on venue, opponent, and recent commentary.
 
-**Step 1: Examine General Career Stats**  
-No general career data is available for Salman Agha, so we cannot rely on long-term trends. The absence of comprehensive data suggests that his sample size and historical patterns are limited.
+Step 2: Venue-Wise (India)  
+- Total dismissals: 7  
+  • bowled 1, caught-fielder 3, lbw 1 (Unknown category dismissals ignored)  
+  • Rates: bowled 1/7 (14.3%), caught-fielder 3/7 (42.9%), lbw 1/7 (14.3%)
 
-**Step 2: Analyze Venue-Wise Stats in the Netherlands**  
-- Salman Agha has played only 1 match in the Netherlands, batting once with 27* runs (not out).  
-- He faced 16 balls, hitting 3 fours, with a very high strike rate (168.75).  
-- Dismissals: 0, meaning he was not dismissed in that match; he ended not out.  
-- Bowling: 4 overs, conceded 25 runs, no wickets, economy of 6.25—indicates some medium pace or spin bowling but no notable wicket-taking pattern.  
-- No recorded dismissals for him in this match or any prior, which indicates he has not been dismissed before in this venue.
+Step 3: Opponent-Wise (Pakistan)  
+- Total dismissals: 1  
+  • caught-fielder 1/1 (100%)
 
-**Step 3: Analyze Opponent-Wise Stats (against Netherlands)**  
-- The data repeats the same performance: 1 match, 27* runs, no dismissals.  
-- No wickets taken, and his dismissal breakdown is zero across all types.  
-- No evidence of a specific mode of dismissal, but the data implies he has not been dismissed yet in his limited appearances.
+Step 4: Recent Commentary (3 dismissals)  
+- c Warner b Hazlewood → caught-fielder (1/3 = 33.3% of events)  
+- b Maxwell → bowled (1/3 = 33.3%)  
+- c Short b Abbott → caught-fielder (2/3 = 66.7%)
 
-**Step 4: Examine Recent Commentary (assumed from context)**  
-Since no specific recent commentary is provided in this prompt, I assume that the available data and patterns are reflective of recent play: Salman is currently in form, having scored quickly in his sole appearance. The fact that he wasn't dismissed suggests a potential weakness against a specific dismissal mode isn't currently highlighted.
+Step 5: Integration & Weighting  
+- Caught-fielder is top in venue (42.9%), opponent (100%), commentary (66.7%) → set ~55%  
+- Bowled next in venue (14.3%) and commentary (33.3%) → set ~20%  
+- LBW appears in venue (14.3%), absent elsewhere → set ~7%  
+- Caught-wk, stumped, hit wicket, caught & bowled all zero in data → assign small residuals (2%,1%,1%,4%)  
+- Not-out probability based on venue Not-Out rate (2/9 ≈ 22%) and opponent Not-Out (1/2 = 50%) but no commentary Not-Out events → assign ~10%
 
-**Step 5: Integrate & Prioritize Data**  
-- Highly limited sample size (only 1 match, 1 innings).  
-- No recorded dismissals or patterns indicating his weaknesses.  
-- The absence of any dismissals points to a low likelihood of being out LBW, caught, bowled, stumped, etc., in that match so far, although this is based on extremely limited data.  
-- The high strike rate and recent form (from commentary context, assumed to be positive, given no dismissals) suggest he may be aggressive and possibly prone to certain types of dismissals in subsequent innings.
+Final Probabilities  
+Bowled: 20%  
+Caught by a fielder: 55%  
+Caught by the wicketkeeper: 2%  
+Stumped: 1%  
+LBW: 7%  
+Hit wicket: 1%  
+Caught and bowled: 4%  
+Not-out: 10%  
 
-**Observation & Inference:**
-
-- Based on the data, Salman Agha has not been dismissed in the available records—this signals he doesn’t have a strong documented weakness.
-- In typical cricket trends for aggressive batsmen in limited sample sizes, common dismissals include caught (especially if playing aggressive shots), bowled (if trying to accelerate), or even LBW if they are trying to hit across the line.
-- Since his batting style suggests attacking intent (based on the high strike rate and 3 fours in 16 balls), edges behind or catches are common modes when facing faster or inconsistent bowling.
-
-**Step 6: Final prediction rationale**  
-- The most probable mode: **Caught by a fielder**, since aggressive players often get caught due to mistimed or edged shots.  
-- Less likely: bowled or lbw, especially given his current form and the limited data showing no dismissals.  
-- His previous performance does not suggest a bowled or lbw pattern, and no evidence of stumpings or wickets.
-
----
-
-**Final Probability Breakdown:**
-
-- Bowled: 10 %  
-- Caught by a fielder: 60 %  
-- Caught by the wicketkeeper: 5 %  
-- Stumped: 5 %  
-- LBW: 10 %  
-- Hit wicket: 2 %  
-- Caught and bowled: 3 %  
-- Not-out: 5 %  
-
-(Since he has not been dismissed in prior data, the 'not-out' remains low but plausible in case he just played his first innings in this match).
-
----
-
-**Most likely mode of dismissal for Salman Agha is caught by a fielder.**
-
----
-
-**Exact Output:**
-
-```
-Bowled: 10%
-Caught by a fielder: 60%
-Caught by the wicketkeeper: 5%
-Stumped: 5%
-LBW: 10%
-Hit wicket: 2%
-Caught and bowled: 3%
-Not-out: 5%
-most likely mode of dismissal for Salman Agha is caught by a fielder
-```
+most likely mode of dismissal for Shreyas Iyer is Caught by a fielder
